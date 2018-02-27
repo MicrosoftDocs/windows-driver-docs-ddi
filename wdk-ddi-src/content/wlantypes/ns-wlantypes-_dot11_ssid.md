@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f032b0db-92a0-40ff-a80d-e263d7b2dc67
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wlantypes/PDOT11_SSID, DOT11_SSID, wlantypes/DOT11_SSID, *PDOT11_SSID, DOT11_SSID structure [Network Drivers Starting with Windows Vista], netvista.dot11_ssid, PDOT11_SSID, _DOT11_SSID, Native_802.11_data_types_e25f30a3-b1f8-43ca-a685-6bc4909028d1.xml, PDOT11_SSID structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PDOT11_SSID, DOT11_SSID, DOT11_SSID structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_e25f30a3-b1f8-43ca-a685-6bc4909028d1.xml, PDOT11_SSID, PDOT11_SSID structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SSID, netvista.dot11_ssid, wlantypes/DOT11_SSID, wlantypes/PDOT11_SSID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,20 +98,20 @@ A
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">NDIS_STATUS_DOT11_ROAMING_START</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn305127">
+   NDIS_STATUS_DOT11_CONNECTION_START</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">OID_DOT11_DESIRED_SSID_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-start">
-   NDIS_STATUS_DOT11_ASSOCIATION_START</a>
 
 
 
@@ -123,7 +123,8 @@ A
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">NDIS_STATUS_DOT11_ROAMING_START</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-start">
+   NDIS_STATUS_DOT11_ASSOCIATION_START</a>
 
 
 

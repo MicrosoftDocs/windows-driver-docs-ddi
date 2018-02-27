@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E282976A-4143-468C-B944-FBBAD5BBA388
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdf_io_target_purge_io_action, WDF_IO_TARGET_PURGE_IO_ACTION, wdf.wdf_io_target_purge_io_action, WDF_IO_TARGET_PURGE_IO_ACTION enumeration, wdfiotarget/WdfIoTargetPurgeIoAndWait, WdfIoTargetPurgeIo, wdfiotarget/WDF_IO_TARGET_PURGE_IO_ACTION, wdfiotarget/WdfIoTargetPurgeIo, wdfiotarget/WdfIoTargetPurgeIoUndefined, _WDF_IO_TARGET_PURGE_IO_ACTION, WdfIoTargetPurgeIoUndefined, WdfIoTargetPurgeIoAndWait
+ms.keywords: WDF_IO_TARGET_PURGE_IO_ACTION, WDF_IO_TARGET_PURGE_IO_ACTION enumeration, WdfIoTargetPurgeIo, WdfIoTargetPurgeIoAndWait, WdfIoTargetPurgeIoUndefined, _WDF_IO_TARGET_PURGE_IO_ACTION, kmdf.wdf_io_target_purge_io_action, wdf.wdf_io_target_purge_io_action, wdfiotarget/WDF_IO_TARGET_PURGE_IO_ACTION, wdfiotarget/WdfIoTargetPurgeIo, wdfiotarget/WdfIoTargetPurgeIoAndWait, wdfiotarget/WdfIoTargetPurgeIoUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -104,11 +104,11 @@ If your driver specifies the <b>WdfIoTargetPurgeIoAndWait</b> flag, the driver m
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetpurge.md">WdfIoTargetPurge</a>
-
-
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetpurge.md">WdfIoTargetPurge</a>
 
 
 

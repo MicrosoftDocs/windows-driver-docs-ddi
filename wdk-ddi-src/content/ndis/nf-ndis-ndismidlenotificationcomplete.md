@@ -41,7 +41,7 @@ apiname:
 -	NdisMIdleNotificationComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMIdleNotificationComplete function
@@ -106,7 +106,7 @@ For more information on how miniport drivers complete NDIS selective suspend  id
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_idle_notification.md">MiniportIdleNotification</a>
+<a href="..\ndis\nc-ndis-miniport_cancel_idle_notification.md">MiniportCancelIdleNotification</a>
 
 
 
@@ -114,7 +114,7 @@ For more information on how miniport drivers complete NDIS selective suspend  id
 
 
 
-<a href="..\ndis\nc-ndis-miniport_cancel_idle_notification.md">MiniportCancelIdleNotification</a>
+<a href="..\ndis\nc-ndis-miniport_idle_notification.md">MiniportIdleNotification</a>
 
 
 

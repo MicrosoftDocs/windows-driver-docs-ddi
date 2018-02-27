@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f916b414-9cd9-4745-a021-07c810d0d68b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi/IWDFIoRequest::Send, umdf.iwdfiorequest_send, IWDFIoRequest interface, Send method, wdf.iwdfiorequest_send, UMDFRequestObjectRef_f3a8e812-392d-478c-8234-8125bec14f1d.xml, IWDFIoRequest, Send method, IWDFIoRequest::Send, Send, Send method, IWDFIoRequest interface
+ms.keywords: IWDFIoRequest, IWDFIoRequest interface, Send method, IWDFIoRequest::Send, Send method, Send method, IWDFIoRequest interface, Send,IWDFIoRequest.Send, UMDFRequestObjectRef_f3a8e812-392d-478c-8234-8125bec14f1d.xml, umdf.iwdfiorequest_send, wdf.iwdfiorequest_send, wudfddi/IWDFIoRequest::Send
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -185,15 +185,7 @@ The following code example forwards a request to a device's I/O target.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a>
-
-
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTIONS_FLAGS (UMDF)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559084">IWDFIoRequest::GetCompletionParams</a>
 
 
 
@@ -202,6 +194,14 @@ The following code example forwards a request to a device's I/O target.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559084">IWDFIoRequest::GetCompletionParams</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 31b1c2f6-415b-4183-8016-51686c460889
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_FILE_FULL_DIR_INFORMATION, PFILE_FULL_DIR_INFORMATION structure pointer [Installable File System Drivers], FILE_FULL_DIR_INFORMATION structure [Installable File System Drivers], ntifs/PFILE_FULL_DIR_INFORMATION, ifsk.file_full_dir_information, ntifs/FILE_FULL_DIR_INFORMATION, *PFILE_FULL_DIR_INFORMATION, PFILE_FULL_DIR_INFORMATION, FILE_FULL_DIR_INFORMATION, fileinformationstructures_2dfa5780-08bf-4cb8-96f6-c247baaa813a.xml"
+ms.keywords: "*PFILE_FULL_DIR_INFORMATION, FILE_FULL_DIR_INFORMATION, FILE_FULL_DIR_INFORMATION structure [Installable File System Drivers], PFILE_FULL_DIR_INFORMATION, PFILE_FULL_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_FULL_DIR_INFORMATION, fileinformationstructures_2dfa5780-08bf-4cb8-96f6-c247baaa813a.xml, ifsk.file_full_dir_information, ntifs/FILE_FULL_DIR_INFORMATION, ntifs/PFILE_FULL_DIR_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_FULL_DIR_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_FULL_DIR_INFORMATION, FILE_FULL_DIR_INFORMATION"
+req.typenames: FILE_FULL_DIR_INFORMATION, *PFILE_FULL_DIR_INFORMATION
 ---
 
 # _FILE_FULL_DIR_INFORMATION structure
@@ -179,7 +179,7 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
 
 
 

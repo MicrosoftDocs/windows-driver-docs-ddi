@@ -7,8 +7,8 @@ old-location: storage\hbafc3mgmtinfo.htm
 old-project: storage
 ms.assetid: 96236605-36b0-48f5-85d6-512160692b5f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: hbapiwmi/PHBAFC3MgmtInfo, *PHBAFC3MgmtInfo, storage.hbafc3mgmtinfo, PHBAFC3MgmtInfo structure pointer [Storage Devices], _HBAFC3MgmtInfo, structs-Fibre_b128f553-eb08-4077-9dcb-7a7238ec220f.xml, HBAFC3MgmtInfo structure [Storage Devices], HBAFC3MgmtInfo, PHBAFC3MgmtInfo, hbapiwmi/HBAFC3MgmtInfo
+ms.date: 2/24/2018
+ms.keywords: "*PHBAFC3MgmtInfo, HBAFC3MgmtInfo, HBAFC3MgmtInfo structure [Storage Devices], PHBAFC3MgmtInfo, PHBAFC3MgmtInfo structure pointer [Storage Devices], _HBAFC3MgmtInfo, hbapiwmi/HBAFC3MgmtInfo, hbapiwmi/PHBAFC3MgmtInfo, storage.hbafc3mgmtinfo, structs-Fibre_b128f553-eb08-4077-9dcb-7a7238ec220f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBAFC3MgmtInfo
 product: Windows
 targetos: Windows
-req.typenames: "*PHBAFC3MgmtInfo, HBAFC3MgmtInfo"
+req.typenames: HBAFC3MgmtInfo, *PHBAFC3MgmtInfo
 ---
 
 # _HBAFC3MgmtInfo structure
@@ -153,5 +153,5 @@ The WMI tool suite generates a declaration of this structure automatically when 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBAFC3MgmtInfo structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBAFC3MgmtInfo structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: pos\poscxisposapp.htm
 old-project: pos
 ms.assetid: 890A0ACB-9717-4BF8-87B5-A6C1FAD661C2
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: poscx/PosCxIsPosApp, PosCxIsPosApp, pos.poscxisposapp, PosCxIsPosApp function
+ms.date: 2/23/2018
+ms.keywords: PosCxIsPosApp, PosCxIsPosApp function, pos.poscxisposapp, poscx/PosCxIsPosApp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: 63c34784-6ea5-49e5-8ee7-79b70e5137f7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCMCIA.pcmcia_set_vpp, SetVpp callback function [Buses], SetVpp, PCMCIA_SET_VPP, PCMCIA_SET_VPP, ntddpcm/SetVpp, memcdref_fe05cf85-9e4b-4267-9214-b8809e42cd5a.xml
+ms.keywords: PCMCIA.pcmcia_set_vpp, PCMCIA_SET_VPP, SetVpp, SetVpp callback function [Buses], memcdref_fe05cf85-9e4b-4267-9214-b8809e42cd5a.xml, ntddpcm/SetVpp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	SetVpp
 product: Windows
 targetos: Windows
-req.typenames: "*PPAR_SET_INFORMATION, PAR_SET_INFORMATION"
+req.typenames: PAR_SET_INFORMATION, *PPAR_SET_INFORMATION
 ---
 
 # PCMCIA_SET_VPP callback

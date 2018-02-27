@@ -4,11 +4,11 @@ title: IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND
 author: windows-driver-content
 description: The IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND IOCTL is used by the USB hub driver. Do not use.
 old-location: buses\ioctl_internal_usb_req_global_suspend.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: e724ae02-642d-464c-b1d2-e43a657b4e9c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.ioctl_internal_usb_req_global_suspend, IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND control code [Buses], IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND, usbioctl/IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND
+ms.date: 2/24/2018
+ms.keywords: IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND, IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND control code [Buses], buses.ioctl_internal_usb_req_global_suspend, usbioctl/IOCTL_INTERNAL_USB_REQ_GLOBAL_SUSPEND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

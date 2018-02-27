@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c46102dd-26ea-459b-8cc2-f7e2d2e2f2ad
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisSharedMemoryUsageReceiveData, ndis/NdisSharedMemoryUsageMax, ndis/NdisSharedMemoryUsageXmit, netvista.ndis_shared_memory_usage, NDIS_SHARED_MEMORY_USAGE, NdisSharedMemoryUsageReceivePostLookahead, NdisSharedMemoryUsageXmit, NdisSharedMemoryUsageMax, ndis/NdisSharedMemoryUsageOther, ndis/NdisSharedMemoryUsageReceiveHeader, _NDIS_SHARED_MEMORY_USAGE, NdisSharedMemoryUsageReceiveHeader, NdisSharedMemoryUsageUndefined, ndis/NdisSharedMemoryUsageXmitHeader, *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE enumeration [Network Drivers Starting with Windows Vista], ndis/NdisSharedMemoryUsageUndefined, ndis/NdisSharedMemoryUsageReceive, NdisSharedMemoryUsageXmitHeader, ndis/NdisSharedMemoryUsageReceiveData, ndis/NDIS_SHARED_MEMORY_USAGE, PNDIS_SHARED_MEMORY_USAGE enumeration pointer [Network Drivers Starting with Windows Vista], PNDIS_SHARED_MEMORY_USAGE, ndis/NdisSharedMemoryUsageReceiveLookahead, ndis_shared_memory_ref_fc268c92-4745-4916-8aab-e1e67e12d217.xml, ndis/NdisSharedMemoryUsageReceivePostLookahead, NdisSharedMemoryUsageReceiveLookahead, ndis/NdisSharedMemoryUsageXmitData, NdisSharedMemoryUsageOther, ndis/PNDIS_SHARED_MEMORY_USAGE, NdisSharedMemoryUsageXmitData, NdisSharedMemoryUsageReceive
+ms.keywords: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE enumeration [Network Drivers Starting with Windows Vista], NdisSharedMemoryUsageMax, NdisSharedMemoryUsageOther, NdisSharedMemoryUsageReceive, NdisSharedMemoryUsageReceiveData, NdisSharedMemoryUsageReceiveHeader, NdisSharedMemoryUsageReceiveLookahead, NdisSharedMemoryUsageReceivePostLookahead, NdisSharedMemoryUsageUndefined, NdisSharedMemoryUsageXmit, NdisSharedMemoryUsageXmitData, NdisSharedMemoryUsageXmitHeader, PNDIS_SHARED_MEMORY_USAGE, PNDIS_SHARED_MEMORY_USAGE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SHARED_MEMORY_USAGE, ndis/NDIS_SHARED_MEMORY_USAGE, ndis/NdisSharedMemoryUsageMax, ndis/NdisSharedMemoryUsageOther, ndis/NdisSharedMemoryUsageReceive, ndis/NdisSharedMemoryUsageReceiveData, ndis/NdisSharedMemoryUsageReceiveHeader, ndis/NdisSharedMemoryUsageReceiveLookahead, ndis/NdisSharedMemoryUsageReceivePostLookahead, ndis/NdisSharedMemoryUsageUndefined, ndis/NdisSharedMemoryUsageXmit, ndis/NdisSharedMemoryUsageXmitData, ndis/NdisSharedMemoryUsageXmitHeader, ndis/PNDIS_SHARED_MEMORY_USAGE, ndis_shared_memory_ref_fc268c92-4745-4916-8aab-e1e67e12d217.xml, netvista.ndis_shared_memory_usage"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SHARED_MEMORY_USAGE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # _NDIS_SHARED_MEMORY_USAGE enumeration

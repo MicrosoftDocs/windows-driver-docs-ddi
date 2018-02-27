@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1fd075c9-7d0e-4670-bac0-b7b8ba0a714f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfnamedpropertystore_setnamedvalue, SetNamedValue, wudfddi/IWDFNamedPropertyStore::SetNamedValue, SetNamedValue method, IWDFNamedPropertyStore interface, SetNamedValue method, IWDFNamedPropertyStore::SetNamedValue, IWDFNamedPropertyStore, UMDFPropertyStoreObjectRef_00f9168d-5017-4b48-929c-fc9acfee5d24.xml, IWDFNamedPropertyStore interface, SetNamedValue method, wdf.iwdfnamedpropertystore_setnamedvalue
+ms.keywords: IWDFNamedPropertyStore, IWDFNamedPropertyStore interface, SetNamedValue method, IWDFNamedPropertyStore::SetNamedValue, SetNamedValue method, SetNamedValue method, IWDFNamedPropertyStore interface, SetNamedValue,IWDFNamedPropertyStore.SetNamedValue, UMDFPropertyStoreObjectRef_00f9168d-5017-4b48-929c-fc9acfee5d24.xml, umdf.iwdfnamedpropertystore_setnamedvalue, wdf.iwdfnamedpropertystore_setnamedvalue, wudfddi/IWDFNamedPropertyStore::SetNamedValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

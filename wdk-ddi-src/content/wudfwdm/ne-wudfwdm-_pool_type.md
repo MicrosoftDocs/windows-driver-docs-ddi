@@ -7,8 +7,8 @@ old-location: kernel\pool_type.htm
 old-project: kernel
 ms.assetid: a3dd0c74-3835-4f03-8b62-08954baaffe7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: NonPagedPoolCacheAlignedMustSSession, MaxPoolType, NonPagedPoolSession, NonPagedPoolCacheAlignedMustS, NonPagedPoolBaseCacheAlignedMustS, NonPagedPoolCacheAligned, NonPagedPoolCacheAlignedSession, wdm/PagedPoolCacheAlignedSession, wdm/NonPagedPoolBaseCacheAlignedMustS, sysenum_90446d42-0e73-4da3-a3df-27efe3daa67b.xml, NonPagedPoolMustSucceedSession, NonPagedPoolBaseCacheAligned, NonPagedPoolMustSucceed, POOL_TYPE, NonPagedPoolBase, wdm/PagedPool, wdm/NonPagedPoolSession, wdm/NonPagedPool, NonPagedPool, wdm/MaxPoolType, wdm/DontUseThisTypeSession, wdm/DontUseThisType, PagedPoolCacheAlignedSession, wdm/NonPagedPoolMustSucceedSession, NonPagedPoolSessionNx, wdm/NonPagedPoolCacheAlignedMustS, kernel.pool_type, wdm/NonPagedPoolNxCacheAligned, PagedPool, wdm/NonPagedPoolCacheAlignedSession, wdm/NonPagedPoolBase, wdm/NonPagedPoolNx, wdm/NonPagedPoolMustSucceed, wdm/PagedPoolSession, wdm/NonPagedPoolCacheAligned, POOL_TYPE enumeration [Kernel-Mode Driver Architecture], PagedPoolCacheAligned, wdm/NonPagedPoolCacheAlignedMustSSession, wdm/PagedPoolCacheAligned, wdm/NonPagedPoolExecute, PagedPoolSession, _POOL_TYPE, wdm/NonPagedPoolBaseCacheAligned, NonPagedPoolNxCacheAligned, wdm/NonPagedPoolBaseMustSucceed, NonPagedPoolExecute, wdm/NonPagedPoolSessionNx, NonPagedPoolNx, DontUseThisTypeSession, NonPagedPoolBaseMustSucceed, wdm/POOL_TYPE, DontUseThisType
+ms.date: 2/24/2018
+ms.keywords: DontUseThisType, DontUseThisTypeSession, MaxPoolType, NonPagedPool, NonPagedPoolBase, NonPagedPoolBaseCacheAligned, NonPagedPoolBaseCacheAlignedMustS, NonPagedPoolBaseMustSucceed, NonPagedPoolCacheAligned, NonPagedPoolCacheAlignedMustS, NonPagedPoolCacheAlignedMustSSession, NonPagedPoolCacheAlignedSession, NonPagedPoolExecute, NonPagedPoolMustSucceed, NonPagedPoolMustSucceedSession, NonPagedPoolNx, NonPagedPoolNxCacheAligned, NonPagedPoolSession, NonPagedPoolSessionNx, POOL_TYPE, POOL_TYPE enumeration [Kernel-Mode Driver Architecture], PagedPool, PagedPoolCacheAligned, PagedPoolCacheAlignedSession, PagedPoolSession, _POOL_TYPE, kernel.pool_type, sysenum_90446d42-0e73-4da3-a3df-27efe3daa67b.xml, wdm/DontUseThisType, wdm/DontUseThisTypeSession, wdm/MaxPoolType, wdm/NonPagedPool, wdm/NonPagedPoolBase, wdm/NonPagedPoolBaseCacheAligned, wdm/NonPagedPoolBaseCacheAlignedMustS, wdm/NonPagedPoolBaseMustSucceed, wdm/NonPagedPoolCacheAligned, wdm/NonPagedPoolCacheAlignedMustS, wdm/NonPagedPoolCacheAlignedMustSSession, wdm/NonPagedPoolCacheAlignedSession, wdm/NonPagedPoolExecute, wdm/NonPagedPoolMustSucceed, wdm/NonPagedPoolMustSucceedSession, wdm/NonPagedPoolNx, wdm/NonPagedPoolNxCacheAligned, wdm/NonPagedPoolSession, wdm/NonPagedPoolSessionNx, wdm/POOL_TYPE, wdm/PagedPool, wdm/PagedPoolCacheAligned, wdm/PagedPoolCacheAlignedSession, wdm/PagedPoolSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -217,18 +217,6 @@ Reserved for exclusive use by the operating system.
 
 
 
-<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
-
-
-
 <a href="..\wdm\nf-wdm-exallocatepoolwithtagpriority.md">ExAllocatePoolWithTagPriority</a>
 
 
@@ -237,11 +225,23 @@ Reserved for exclusive use by the operating system.
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+<a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
 
 
 
 <a href="..\wdm\nf-wdm-seassignsecurityex.md">SeAssignSecurityEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 
@@ -253,5 +253,5 @@ Reserved for exclusive use by the operating system.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20POOL_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20POOL_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 48df787b-f9f6-45d1-872c-ceeda3087af6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PBATTERY_STATUS, battery.battery_status, _BATTERY_STATUS, BATTERY_STATUS structure [Battery Devices], poclass/PBATTERY_STATUS, PBATTERY_STATUS structure pointer [Battery Devices], poclass/BATTERY_STATUS, bat-struct_11dfaf25-0f90-4c5b-8017-15fb2124423b.xml, *PBATTERY_STATUS, BATTERY_STATUS
+ms.keywords: "*PBATTERY_STATUS, BATTERY_STATUS, BATTERY_STATUS structure [Battery Devices], PBATTERY_STATUS, PBATTERY_STATUS structure pointer [Battery Devices], _BATTERY_STATUS, bat-struct_11dfaf25-0f90-4c5b-8017-15fb2124423b.xml, battery.battery_status, poclass/BATTERY_STATUS, poclass/PBATTERY_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BATTERY_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PBATTERY_STATUS, BATTERY_STATUS"
+req.typenames: BATTERY_STATUS, *PBATTERY_STATUS
 ---
 
 # _BATTERY_STATUS structure

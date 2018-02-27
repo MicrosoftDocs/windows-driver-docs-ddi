@@ -7,8 +7,8 @@ old-location: audio\iminiportmidi_newstream.htm
 old-project: audio
 ms.assetid: 6760c893-0574-4fb1-b714-d506ebbd0872
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: NewStream method [Audio Devices], IMiniportMidi interface [Audio Devices], NewStream method, audio.iminiportmidi_newstream, IMiniportMidi::NewStream, IMiniportMidi, NewStream, portcls/IMiniportMidi::NewStream, audmp-routines_4cc2fc38-bf0b-467e-83d4-678189d8fc0f.xml, NewStream method [Audio Devices], IMiniportMidi interface
+ms.date: 2/22/2018
+ms.keywords: IMiniportMidi, IMiniportMidi interface [Audio Devices], NewStream method, IMiniportMidi::NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices], IMiniportMidi interface, NewStream,IMiniportMidi.NewStream, audio.iminiportmidi_newstream, audmp-routines_4cc2fc38-bf0b-467e-83d4-678189d8fc0f.xml, portcls/IMiniportMidi::NewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -130,7 +130,7 @@ The <i>Stream</i>, <i>OuterUnknown</i>, and <i>ServiceGroup</i> parameters follo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
 
 
 
@@ -138,11 +138,7 @@ The <i>Stream</i>, <i>OuterUnknown</i>, and <i>ServiceGroup</i> parameters follo
 
 
 
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
-
-
-
-<a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 
@@ -150,7 +146,11 @@ The <i>Stream</i>, <i>OuterUnknown</i>, and <i>ServiceGroup</i> parameters follo
 
 
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+
+
+
+<a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
 
 
 
@@ -158,5 +158,5 @@ The <i>Stream</i>, <i>OuterUnknown</i>, and <i>ServiceGroup</i> parameters follo
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportMidi::NewStream method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportMidi::NewStream method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

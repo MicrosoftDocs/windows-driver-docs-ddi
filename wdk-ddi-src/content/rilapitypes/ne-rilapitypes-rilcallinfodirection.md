@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 55db88f4-14a5-4d37-b4e8-be88369f33b7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILCALLINFODIRECTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLDIR_OUTGOING, RILCALLINFODIRECTION, netvista.rilcallinfodirection_2, rilapitypes/RILCALLINFODIRECTION, rilapitypes/RIL_CALLDIR_OUTGOING, RIL_CALLDIR_MAX, rilapitypes/RIL_CALLDIR_MAX
+ms.keywords: RILCALLINFODIRECTION, RILCALLINFODIRECTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLDIR_MAX, RIL_CALLDIR_OUTGOING, netvista.rilcallinfodirection_2, rilapitypes/RILCALLINFODIRECTION, rilapitypes/RIL_CALLDIR_MAX, rilapitypes/RIL_CALLDIR_OUTGOING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

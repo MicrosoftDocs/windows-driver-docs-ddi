@@ -7,8 +7,8 @@ old-location: audio\iresourcelist_addentryfromparent.htm
 old-project: audio
 ms.assetid: 83733c17-1f1f-4be6-ae14-aa921e481a73
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iresourcelist_addentryfromparent, audmp-routines_428c97a0-498d-4732-a2cc-5be2af2aa64c.xml, IResourceList, portcls/IResourceList::AddEntryFromParent, AddEntryFromParent, AddEntryFromParent method [Audio Devices], AddEntryFromParent method [Audio Devices], IResourceList interface, IResourceList interface [Audio Devices], AddEntryFromParent method, IResourceList::AddEntryFromParent
+ms.date: 2/22/2018
+ms.keywords: AddEntryFromParent method [Audio Devices], AddEntryFromParent method [Audio Devices], IResourceList interface, AddEntryFromParent,IResourceList.AddEntryFromParent, IResourceList, IResourceList interface [Audio Devices], AddEntryFromParent method, IResourceList::AddEntryFromParent, audio.iresourcelist_addentryfromparent, audmp-routines_428c97a0-498d-4732-a2cc-5be2af2aa64c.xml, portcls/IResourceList::AddEntryFromParent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -152,5 +152,5 @@ The <i>Parent</i> parameter follows the <a href="https://msdn.microsoft.com/e6b1
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IResourceList::AddEntryFromParent method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IResourceList::AddEntryFromParent method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

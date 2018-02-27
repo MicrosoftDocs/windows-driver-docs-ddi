@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d74dedbd-f418-4ea3-ae76-c0da9c5f2fb9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfdeviceminiportcreate, WdfDeviceMiniportCreate, DFDeviceObjectGeneralRef_18104589-c58d-4e8b-af91-c6620b3772e9.xml, wdf.wdfdeviceminiportcreate, WdfDeviceMiniportCreate method, wdfminiport/WdfDeviceMiniportCreate
+ms.keywords: DFDeviceObjectGeneralRef_18104589-c58d-4e8b-af91-c6620b3772e9.xml, WdfDeviceMiniportCreate, WdfDeviceMiniportCreate method, kmdf.wdfdeviceminiportcreate, wdf.wdfdeviceminiportcreate, wdfminiport/WdfDeviceMiniportCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -249,7 +249,7 @@ if (!NT_SUCCESS (ntStatus)) {
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552404">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>
+<a href="..\wdfminiport\nf-wdfminiport-wdfdriverminiportunload.md">WdfDriverMiniportUnload</a>
 
 
 

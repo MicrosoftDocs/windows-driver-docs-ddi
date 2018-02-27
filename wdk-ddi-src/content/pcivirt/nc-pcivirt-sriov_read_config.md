@@ -7,8 +7,8 @@ old-location: pci\sriov_read_config.htm
 old-project: PCI
 ms.assetid: 0fef9d53-b8af-4c9b-9914-982bcfc26517
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PCI.sriov_read_config, SRIOV_READ_CONFIG callback function [Buses], SRIOV_READ_CONFIG, pcivirt/SRIOV_READ_CONFIG, *PSRIOV_READ_CONFIG callback function [Buses], *PSRIOV_READ_CONFIG
+ms.date: 2/24/2018
+ms.keywords: "*PSRIOV_READ_CONFIG, *PSRIOV_READ_CONFIG callback function [Buses], PCI.sriov_read_config, SRIOV_READ_CONFIG, SRIOV_READ_CONFIG callback function [Buses], pcivirt/SRIOV_READ_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

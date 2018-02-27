@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d0973dc9-58d6-486f-860e-a891600be73e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: OnDefaultIoHandler method, IQueueCallbackDefaultIoHandler interface, wudfddi/IQueueCallbackDefaultIoHandler::OnDefaultIoHandler, wdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, IQueueCallbackDefaultIoHandler::OnDefaultIoHandler, IQueueCallbackDefaultIoHandler, umdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, OnDefaultIoHandler, UMDFQueueObjectRef_21f994ea-feca-4c50-aa83-401581713c3f.xml, IQueueCallbackDefaultIoHandler interface, OnDefaultIoHandler method, OnDefaultIoHandler method
+ms.keywords: IQueueCallbackDefaultIoHandler, IQueueCallbackDefaultIoHandler interface, OnDefaultIoHandler method, IQueueCallbackDefaultIoHandler::OnDefaultIoHandler, OnDefaultIoHandler method, OnDefaultIoHandler method, IQueueCallbackDefaultIoHandler interface, OnDefaultIoHandler,IQueueCallbackDefaultIoHandler.OnDefaultIoHandler, UMDFQueueObjectRef_21f994ea-feca-4c50-aa83-401581713c3f.xml, umdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, wdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, wudfddi/IQueueCallbackDefaultIoHandler::OnDefaultIoHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -105,11 +105,11 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackdefaultiohan
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
 
 
 

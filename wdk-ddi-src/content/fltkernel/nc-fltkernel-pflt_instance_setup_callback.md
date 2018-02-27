@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bbdd393d-3f0f-4bbd-8a74-ed75d20b0433
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.pflt_instance_setup_callback, InstanceSetupCallback routine [Installable File System Drivers], InstanceSetupCallback, PFLT_INSTANCE_SETUP_CALLBACK, PFLT_INSTANCE_SETUP_CALLBACK, fltkernel/InstanceSetupCallback, FltCallbacks_c32f2452-6198-4e87-8566-6e219dcf2f28.xml
+ms.keywords: FltCallbacks_c32f2452-6198-4e87-8566-6e219dcf2f28.xml, InstanceSetupCallback, InstanceSetupCallback routine [Installable File System Drivers], PFLT_INSTANCE_SETUP_CALLBACK, fltkernel/InstanceSetupCallback, ifsk.pflt_instance_setup_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -181,7 +181,7 @@ Returning this value prevents the minifilter driver instance from being attached
 
 <div class="alert"><b>Note</b>   Do not perform any thread synchronization or inter-process communication in the PFLT_INSTANCE_SETUP_CALLBACK implementation. Performing such operations can lead to deadlock conditions. </div>
 <div> </div>
-When a minifilter driver registers itself by calling <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a> from its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine, it can register a routine of type PFLT_INSTANCE_SETUP_CALLBACK as the minifilter driver's <i>InstanceSetupCallback</i> routine. 
+When a minifilter driver registers itself by calling <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a> from its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine, it can register a routine of type PFLT_INSTANCE_SETUP_CALLBACK as the minifilter driver's <i>InstanceSetupCallback</i> routine. 
 
 To register the<i> InstanceSetupCallback</i> routine, the minifilter driver stores the address of a routine of type PFLT_INSTANCE_SETUP_CALLBACK in the <b>InstanceSetupCallback</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a> structure that the minifilter driver passes as the <i>Registration</i> parameter of <b>FltRegisterFilter</b>. 
 
@@ -194,27 +194,23 @@ The filter manager calls this routine to allow the minifilter driver to respond 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
@@ -226,7 +222,11 @@ The filter manager calls this routine to allow the minifilter driver to respond 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 28dacbac-99f0-415d-8d4f-954220839078
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/RtlEnumerateGenericTableWithoutSplaying, ifsk.rtlenumerategenerictablewithoutsplaying, RtlEnumerateGenericTableWithoutSplaying routine [Installable File System Drivers], rtlref_83b2461b-003b-4aee-be45-afb325b15219.xml, RtlEnumerateGenericTableWithoutSplaying
+ms.keywords: RtlEnumerateGenericTableWithoutSplaying, RtlEnumerateGenericTableWithoutSplaying routine [Installable File System Drivers], ifsk.rtlenumerategenerictablewithoutsplaying, ntddk/RtlEnumerateGenericTableWithoutSplaying, rtlref_83b2461b-003b-4aee-be45-afb325b15219.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlEnumerateGenericTableWithoutSplaying
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlEnumerateGenericTableWithoutSplaying function
@@ -127,11 +127,7 @@ Callers of <b>RtlEnumerateGenericTableWithoutSplaying</b> must be running at IRQ
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTable</a>
 
 
 
@@ -139,7 +135,11 @@ Callers of <b>RtlEnumerateGenericTableWithoutSplaying</b> must be running at IRQ
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTable</a>
+<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
 
 
 

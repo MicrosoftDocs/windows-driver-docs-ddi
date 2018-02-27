@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 195F4143-4889-4788-BAF5-2F1ED6E4E50A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwdirxgetmpdus, MiniportWdiRxGetMpdus callback function [Network Drivers Starting with Windows Vista], MiniportWdiRxGetMpdus, MINIPORT_WDI_RX_GET_MPDUS, MINIPORT_WDI_RX_GET_MPDUS, dot11wdi/MiniportWdiRxGetMpdus
+ms.keywords: MINIPORT_WDI_RX_GET_MPDUS, MiniportWdiRxGetMpdus, MiniportWdiRxGetMpdus callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxGetMpdus, netvista.miniportwdirxgetmpdus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	MiniportWdiRxGetMpdus
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_RX_GET_MPDUS callback
@@ -168,11 +168,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297640">WDI_EXTENDED_TID</a>
-
-
-
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -180,15 +176,19 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
 
 
 
+<a href="https://msdn.microsoft.com/EEEA7181-4A24-4F40-8A44-65EC38D1A867">WDI RX path</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
 
 

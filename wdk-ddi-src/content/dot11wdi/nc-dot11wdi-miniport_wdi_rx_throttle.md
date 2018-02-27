@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A5985C6D-3768-4ACE-B52B-3D3494334114
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwdirxthrottle, MiniportWdiRxThrottle callback function [Network Drivers Starting with Windows Vista], MiniportWdiRxThrottle, MINIPORT_WDI_RX_THROTTLE, MINIPORT_WDI_RX_THROTTLE, dot11wdi/MiniportWdiRxThrottle
+ms.keywords: MINIPORT_WDI_RX_THROTTLE, MiniportWdiRxThrottle, MiniportWdiRxThrottle callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxThrottle, netvista.miniportwdirxthrottle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	MiniportWdiRxThrottle
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_RX_THROTTLE callback
@@ -96,19 +96,19 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/EEEA7181-4A24-4F40-8A44-65EC38D1A867">WDI RX path</a>
-
-
-
-<a href="..\dot11wdi\ne-dot11wdi-_wdi_rx_throttle_level.md">WDI_RX_THROTTLE_LEVEL</a>
-
-
-
-<a href="..\dot11wdi\ne-dot11wdi-_wdi_rx_throttle_level.md">WDI_RX_THROTTLE_LEVEL</a>
-
-
-
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
+
+
+
+<a href="..\dot11wdi\ne-dot11wdi-_wdi_rx_throttle_level.md">WDI_RX_THROTTLE_LEVEL</a>
+
+
+
+<a href="https://msdn.microsoft.com/EEEA7181-4A24-4F40-8A44-65EC38D1A867">WDI RX path</a>
 
 
 

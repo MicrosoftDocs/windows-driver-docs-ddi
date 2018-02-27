@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dee0e30b-ad03-43e4-8a0c-07d3782d7857
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: UMDFDeviceObjectRef_ddf0d0a2-a913-4e15-b482-16cae945c4a2.xml, wdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, umdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, OnSelfManagedIoFlush method, IPnpCallbackSelfManagedIo interface, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoFlush method, OnSelfManagedIoFlush method, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush, IPnpCallbackSelfManagedIo, OnSelfManagedIoFlush, IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush
+ms.keywords: IPnpCallbackSelfManagedIo, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoFlush method, IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush, OnSelfManagedIoFlush method, OnSelfManagedIoFlush method, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoFlush,IPnpCallbackSelfManagedIo.OnSelfManagedIoFlush, UMDFDeviceObjectRef_ddf0d0a2-a913-4e15-b482-16cae945c4a2.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, wdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -103,7 +103,7 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+<a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a>
 
 
 

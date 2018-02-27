@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 68d2076d-c991-4219-b6c3-2399ff5c11a3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportdisablemessageinterrupt, MiniportDisableMessageInterrupt callback function [Network Drivers Starting with Windows Vista], MiniportDisableMessageInterrupt, MINIPORT_DISABLE_MESSAGE_INTERRUPT, MINIPORT_DISABLE_MESSAGE_INTERRUPT, ndis/MiniportDisableMessageInterrupt, ndis_interrupts_miniport_functions_ref_50d58bcc-7d77-4ca8-9419-74dd1602177d.xml
+ms.keywords: MINIPORT_DISABLE_MESSAGE_INTERRUPT, MiniportDisableMessageInterrupt, MiniportDisableMessageInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportDisableMessageInterrupt, ndis_interrupts_miniport_functions_ref_50d58bcc-7d77-4ca8-9419-74dd1602177d.xml, netvista.miniportdisablemessageinterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -174,12 +174,21 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-miniport_enable_message_interrupt.md">
-   MiniportEnableMessageInterrupt</a>
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">
+   IO_INTERRUPT_MESSAGE_INFO_ENTRY</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_enable_message_interrupt.md">
+   MiniportEnableMessageInterrupt</a>
 
 
 
@@ -189,19 +198,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 <a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">
-   IO_INTERRUPT_MESSAGE_INFO_ENTRY</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
 
 
 

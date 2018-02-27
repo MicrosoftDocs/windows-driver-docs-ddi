@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 31565c5f-a1f2-4a81-bb91-e30e13f45050
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rtlref_84aae1db-020b-440b-ab32-ade50a4b47bb.xml, ntifs/RtlSelfRelativeToAbsoluteSD, ifsk.rtlselfrelativetoabsolutesd, RtlSelfRelativeToAbsoluteSD, RtlSelfRelativeToAbsoluteSD routine [Installable File System Drivers]
+ms.keywords: RtlSelfRelativeToAbsoluteSD, RtlSelfRelativeToAbsoluteSD routine [Installable File System Drivers], ifsk.rtlselfrelativetoabsolutesd, ntifs/RtlSelfRelativeToAbsoluteSD, rtlref_84aae1db-020b-440b-ab32-ade50a4b47bb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -188,23 +188,15 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlabsolutetoselfrelativesd.md">RtlAbsoluteToSelfRelativeSD</a>
-
-
-
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
 
 
 
@@ -213,6 +205,14 @@ For more information about security and access control, see the Microsoft Window
 
 
 <a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlabsolutetoselfrelativesd.md">RtlAbsoluteToSelfRelativeSD</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7919226a-4d36-4397-bca1-f7338b3e7ade
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NDIS_PM_WAKE_REASON_TYPE, NdisWakeReasonWlanAPAssociationLost, NdisWakeReasonUnspecified, ntddndis/PNDIS_PM_WAKE_REASON_TYPE, NdisWakeReasonMediaConnect, NdisWakeReasonWwanUSSDReceive, *PNDIS_PM_WAKE_REASON_TYPE, ntddndis/NdisWakeReasonWlanAPAssociationLost, ntddndis/NdisWakeReasonWwanSMSReceive, _NDIS_PM_WAKE_REASON_TYPE, ntddndis/NdisWakeReasonWwanRegisterState, ntddndis/NdisWakeReasonUnspecified, NdisWakeReasonWlanGTKHandshakeError, ntddndis/NdisWakeReasonWlanGTKHandshakeError, ntddndis/NdisWakeReasonWwanUSSDReceive, PNDIS_PM_WAKE_REASON_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisWakeReasonPacket, NdisWakeReasonWlanNLODiscovery, netvista.ndis_pm_wake_reason_type, ntddndis/NDIS_PM_WAKE_REASON_TYPE, NdisWakeReasonWwanSMSReceive, ntddndis/NdisWakeReasonMediaDisconnect, PNDIS_PM_WAKE_REASON_TYPE, NdisWakeReasonMediaDisconnect, ntddndis/NdisWakeReasonWlan4WayHandshakeRequest, ntddndis/NdisWakeReasonMediaConnect, NdisWakeReasonPacket, NDIS_PM_WAKE_REASON_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisWakeReasonWwanRegisterState, ntddndis/NdisWakeReasonWlanNLODiscovery, NdisWakeReasonWlan4WayHandshakeRequest
+ms.keywords: "*PNDIS_PM_WAKE_REASON_TYPE, NDIS_PM_WAKE_REASON_TYPE, NDIS_PM_WAKE_REASON_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisWakeReasonMediaConnect, NdisWakeReasonMediaDisconnect, NdisWakeReasonPacket, NdisWakeReasonUnspecified, NdisWakeReasonWlan4WayHandshakeRequest, NdisWakeReasonWlanAPAssociationLost, NdisWakeReasonWlanGTKHandshakeError, NdisWakeReasonWlanNLODiscovery, NdisWakeReasonWwanRegisterState, NdisWakeReasonWwanSMSReceive, NdisWakeReasonWwanUSSDReceive, PNDIS_PM_WAKE_REASON_TYPE, PNDIS_PM_WAKE_REASON_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_WAKE_REASON_TYPE, netvista.ndis_pm_wake_reason_type, ntddndis/NDIS_PM_WAKE_REASON_TYPE, ntddndis/NdisWakeReasonMediaConnect, ntddndis/NdisWakeReasonMediaDisconnect, ntddndis/NdisWakeReasonPacket, ntddndis/NdisWakeReasonUnspecified, ntddndis/NdisWakeReasonWlan4WayHandshakeRequest, ntddndis/NdisWakeReasonWlanAPAssociationLost, ntddndis/NdisWakeReasonWlanGTKHandshakeError, ntddndis/NdisWakeReasonWlanNLODiscovery, ntddndis/NdisWakeReasonWwanRegisterState, ntddndis/NdisWakeReasonWwanSMSReceive, ntddndis/NdisWakeReasonWwanUSSDReceive, ntddndis/PNDIS_PM_WAKE_REASON_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PM_WAKE_REASON_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PM_WAKE_REASON_TYPE, NDIS_PM_WAKE_REASON_TYPE"
+req.typenames: NDIS_PM_WAKE_REASON_TYPE, *PNDIS_PM_WAKE_REASON_TYPE
 ---
 
 # _NDIS_PM_WAKE_REASON_TYPE enumeration

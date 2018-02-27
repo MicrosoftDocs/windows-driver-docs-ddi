@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 33B0C9EF-B40A-4BE7-A5AB-81FFF4698F3F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SPB.spbrequestgettransferparameters, spbcx/SpbRequestGetTransferParameters, SpbRequestGetTransferParameters, SpbRequestGetTransferParameters method [Buses]
+ms.keywords: SPB.spbrequestgettransferparameters, SpbRequestGetTransferParameters, SpbRequestGetTransferParameters method [Buses], spbcx/SpbRequestGetTransferParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	SpbRequestGetTransferParameters
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE"
+req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -160,19 +160,19 @@ for (ULONG i = 0; i &lt; parameters.SequenceCount; i += 1)
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406219">SPB_TRANSFER_DESCRIPTOR_INIT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406219">SPB_TRANSFER_DESCRIPTOR_INIT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406219">SPB_TRANSFER_DESCRIPTOR_INIT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>
 
 
 

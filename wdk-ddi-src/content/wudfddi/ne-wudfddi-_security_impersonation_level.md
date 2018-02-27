@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5c325c16-6bc6-4eae-a58c-234d11616780
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: SECURITY_IMPERSONATION_LEVEL, SecurityAnonymous, _SECURITY_IMPERSONATION_LEVEL, wudfddi/SECURITY_IMPERSONATION_LEVEL, wudfddi/SecurityAnonymous, SecurityIdentification, wudfddi/SecurityImpersonation, SECURITY_IMPERSONATION_LEVEL enumeration, umdf.security_impersonation_level, SecurityImpersonation, umdfstructs_f81ccb0e-4b8c-4a8a-bdd3-4b4a45a750ab.xml, wudfddi/SecurityDelegation, SecurityDelegation, wdf.security_impersonation_level, wudfddi/SecurityIdentification
+ms.keywords: SECURITY_IMPERSONATION_LEVEL, SECURITY_IMPERSONATION_LEVEL enumeration, SecurityAnonymous, SecurityDelegation, SecurityIdentification, SecurityImpersonation, _SECURITY_IMPERSONATION_LEVEL, umdf.security_impersonation_level, umdfstructs_f81ccb0e-4b8c-4a8a-bdd3-4b4a45a750ab.xml, wdf.security_impersonation_level, wudfddi/SECURITY_IMPERSONATION_LEVEL, wudfddi/SecurityAnonymous, wudfddi/SecurityDelegation, wudfddi/SecurityIdentification, wudfddi/SecurityImpersonation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

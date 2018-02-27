@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C6BED59F-066E-42F6-86AE-B0423E0E847F
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdevicewdmirpdispatch, EvtDeviceWdmIrpDispatch callback function, EvtDeviceWdmIrpDispatch, EVT_WDFDEVICE_WDM_IRP_DISPATCH, EVT_WDFDEVICE_WDM_IRP_DISPATCH, wdfdevice/EvtDeviceWdmIrpDispatch, kmdf.evtdevicewdmirpdispatch
+ms.keywords: EVT_WDFDEVICE_WDM_IRP_DISPATCH, EvtDeviceWdmIrpDispatch, EvtDeviceWdmIrpDispatch callback function, kmdf.evtdevicewdmirpdispatch, wdf.evtdevicewdmirpdispatch, wdfdevice/EvtDeviceWdmIrpDispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -200,11 +200,11 @@ The <b>EVT_WDFDEVICE_WDM_IRP_DISPATCH</b> function type is defined in the Wdfdev
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirp.md">WdfDeviceWdmDispatchIrp</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue.md">WdfDeviceWdmDispatchIrpToIoQueue</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirp.md">WdfDeviceWdmDispatchIrp</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 18406f06-d60c-401e-a745-54caf1d0c21d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfresource/WdfCmResourceListInsertDescriptor, wdf.wdfcmresourcelistinsertdescriptor, kmdf.wdfcmresourcelistinsertdescriptor, DFResourceObjectRef_f55c637b-3d8b-4467-9668-bd723bc0206e.xml, WdfCmResourceListInsertDescriptor method, WdfCmResourceListInsertDescriptor
+ms.keywords: DFResourceObjectRef_f55c637b-3d8b-4467-9668-bd723bc0206e.xml, WdfCmResourceListInsertDescriptor, WdfCmResourceListInsertDescriptor method, kmdf.wdfcmresourcelistinsertdescriptor, wdf.wdfcmresourcelistinsertdescriptor, wdfresource/WdfCmResourceListInsertDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -210,11 +210,7 @@ PdoEvtDeviceResourcesQuery(
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+<a href="..\wdfresource\nf-wdfresource-wdfcmresourcelistappenddescriptor.md">WdfCmResourceListAppendDescriptor</a>
 
 
 
@@ -222,7 +218,11 @@ PdoEvtDeviceResourcesQuery(
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
+<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a>
 
 
 

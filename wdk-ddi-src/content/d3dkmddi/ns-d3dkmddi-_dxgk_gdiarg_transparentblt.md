@@ -7,8 +7,8 @@ old-location: display\dxgk_gdiarg_transparentblt.htm
 old-project: display
 ms.assetid: 2536fafc-3b62-42a6-8b53-60fa8d61d5a9
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3dkmddi/DXGK_GDIARG_TRANSPARENTBLT, _DXGK_GDIARG_TRANSPARENTBLT, DXGK_GDIARG_TRANSPARENTBLT structure [Display Devices], DXGK_GDIARG_TRANSPARENTBLT, DmStructs_bb046cac-9272-4bf2-a3a7-33cc7035f3fb.xml, display.dxgk_gdiarg_transparentblt
+ms.date: 2/24/2018
+ms.keywords: DXGK_GDIARG_TRANSPARENTBLT, DXGK_GDIARG_TRANSPARENTBLT structure [Display Devices], DmStructs_bb046cac-9272-4bf2-a3a7-33cc7035f3fb.xml, _DXGK_GDIARG_TRANSPARENTBLT, d3dkmddi/DXGK_GDIARG_TRANSPARENTBLT, display.dxgk_gdiarg_transparentblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -200,15 +200,15 @@ int Ys = truncate((Yd â€“ DstRect.top + 0.5) * Hs/Hd + SrcRect.top)</code><
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_d3dkm_transparentbltflags.md">D3DKM_TRANSPARENTBLTFLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a>
 
 
 
@@ -216,5 +216,5 @@ int Ys = truncate((Yd â€“ DstRect.top + 0.5) * Hs/Hd + SrcRect.top)</code><
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_GDIARG_TRANSPARENTBLT structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_GDIARG_TRANSPARENTBLT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9A79F41F-566F-4844-BF1A-E8889E6FDCE8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.grownetbufferlistdestinations, GrowNetBufferListDestinations callback function [Network Drivers Starting with Windows Vista], GrowNetBufferListDestinations, NDIS_SWITCH_GROW_NET_BUFFER_LIST_DESTINATIONS, NDIS_SWITCH_GROW_NET_BUFFER_LIST_DESTINATIONS, ndis/GrowNetBufferListDestinations
+ms.keywords: GrowNetBufferListDestinations, GrowNetBufferListDestinations callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_GROW_NET_BUFFER_LIST_DESTINATIONS, ndis/GrowNetBufferListDestinations, netvista.grownetbufferlistdestinations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -127,14 +127,6 @@ For more information on how to add destination ports to a packet, see <a href="h
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
-
-
-
-<a href="https://msdn.microsoft.com/9A740524-0FC1-4585-8059-F678D4777F66">UpdateNetBufferListDestinations</a>
-
-
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
@@ -143,7 +135,11 @@ For more information on how to add destination ports to a packet, see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a>
+<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_destination_array.md">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/9A740524-0FC1-4585-8059-F678D4777F66">UpdateNetBufferListDestinations</a>
 
 
 
@@ -151,7 +147,11 @@ For more information on how to add destination ports to a packet, see <a href="h
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_destination_array.md">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
+<a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 886a0898-814b-4a24-bc83-c6e82e71dae2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltGetContexts, fltkernel/FltGetContexts, ifsk.fltgetcontexts, FltApiRef_e_to_o_80c262c0-2587-4ca5-b397-674c0ba5f316.xml, FltGetContexts routine [Installable File System Drivers]
+ms.keywords: FltApiRef_e_to_o_80c262c0-2587-4ca5-b397-674c0ba5f316.xml, FltGetContexts, FltGetContexts routine [Installable File System Drivers], fltkernel/FltGetContexts, ifsk.fltgetcontexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -152,15 +152,15 @@ Call <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext<
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontexts.md">FltReleaseContexts</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_query_teardown_callback.md">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
 
 
 
@@ -172,7 +172,7 @@ Call <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext<
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_related_contexts.md">FLT_RELATED_CONTEXTS</a>
 
 
 
@@ -180,15 +180,15 @@ Call <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext<
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontexts.md">FltReleaseContexts</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
 
 
 
 <a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_query_teardown_callback.md">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
 
 
 

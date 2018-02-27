@@ -4,11 +4,11 @@ title: IDebugRegisters2::GetInstructionOffset method
 author: windows-driver-content
 description: The GetInstructionOffset method returns the location of the current thread's current instruction.
 old-location: debugger\getinstructionoffset.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: f82416c9-1f4a-4083-b4df-f0d97eae2127
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugRegisters2, dbgeng/IDebugRegisters2::GetInstructionOffset, GetInstructionOffset method [Windows Debugging], debugger.getinstructionoffset, IDebugRegisters2 interface [Windows Debugging], GetInstructionOffset method, GetInstructionOffset method [Windows Debugging], IDebugRegisters interface, IDebugRegisters::GetInstructionOffset, IDebugRegisters_229180dd-2da4-4ff1-9284-520bef0b6843.xml, GetInstructionOffset, IDebugRegisters, GetInstructionOffset method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging], GetInstructionOffset method, IDebugRegisters2::GetInstructionOffset, dbgeng/IDebugRegisters::GetInstructionOffset
+ms.date: 2/23/2018
+ms.keywords: GetInstructionOffset method [Windows Debugging], GetInstructionOffset method [Windows Debugging], IDebugRegisters interface, GetInstructionOffset method [Windows Debugging], IDebugRegisters2 interface, GetInstructionOffset,IDebugRegisters2.GetInstructionOffset, IDebugRegisters interface [Windows Debugging], GetInstructionOffset method, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetInstructionOffset method, IDebugRegisters2::GetInstructionOffset, IDebugRegisters::GetInstructionOffset, IDebugRegisters_229180dd-2da4-4ff1-9284-520bef0b6843.xml, dbgeng/IDebugRegisters2::GetInstructionOffset, dbgeng/IDebugRegisters::GetInstructionOffset, debugger.getinstructionoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -120,17 +120,17 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546933">GetInstructionOffset2</a>
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugRegisters::GetInstructionOffset method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters::GetInstructionOffset method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

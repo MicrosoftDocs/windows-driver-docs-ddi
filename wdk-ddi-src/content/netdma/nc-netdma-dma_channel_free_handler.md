@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5bbe432d-f236-46ec-8e78-788bd676b852
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.providerfreedmachannel, ProviderFreeDmaChannel callback function [Network Drivers Starting with Windows Vista], ProviderFreeDmaChannel, DMA_CHANNEL_FREE_HANDLER, DMA_CHANNEL_FREE_HANDLER, netdma/ProviderFreeDmaChannel, netdma_ref_d81eae9f-e306-4ac7-a4ce-3e4831b45c39.xml
+ms.keywords: DMA_CHANNEL_FREE_HANDLER, ProviderFreeDmaChannel, ProviderFreeDmaChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderFreeDmaChannel, netdma_ref_d81eae9f-e306-4ac7-a4ce-3e4831b45c39.xml, netvista.providerfreedmachannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -117,11 +117,11 @@ NetDMA calls
 
 ## -see-also
 
-<a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
-
-
-
 <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
+
+
+<a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
 
 
 

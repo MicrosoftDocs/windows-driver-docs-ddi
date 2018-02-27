@@ -7,8 +7,8 @@ old-location: display\d3dkmdt_gdisurfacetype.htm
 old-project: display
 ms.assetid: b1c8fc0a-b877-4321-85b9-0c5c174ffc45
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: DmEnums_5e870c41-1496-48ff-bddd-f01a2f9e36e6.xml, D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE, d3dkmdt/D3DKMDT_GDISURFACETYPE, D3DKMDT_GDISURFACE_STAGING, d3dkmdt/D3DKMDT_GDISURFACE_STAGING, D3DKMDT_GDISURFACE_INVALID, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER, D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE, D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE, d3dkmdt/D3DKMDT_GDISURFACE_INVALID, D3DKMDT_GDISURFACE_LOOKUPTABLE, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER, D3DKMDT_GDISURFACETYPE, d3dkmdt/D3DKMDT_GDISURFACE_EXISTINGSYSMEM, D3DKMDT_GDISURFACETYPE enumeration [Display Devices], D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE, D3DKMDT_GDISURFACE_EXISTINGSYSMEM, display.d3dkmdt_gdisurfacetype, _D3DKMDT_GDISURFACETYPE, D3DKMDT_GDISURFACE_TEXTURE, d3dkmdt/D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE, d3dkmdt/D3DKMDT_GDISURFACE_LOOKUPTABLE
+ms.date: 2/24/2018
+ms.keywords: D3DKMDT_GDISURFACETYPE, D3DKMDT_GDISURFACETYPE enumeration [Display Devices], D3DKMDT_GDISURFACE_EXISTINGSYSMEM, D3DKMDT_GDISURFACE_INVALID, D3DKMDT_GDISURFACE_LOOKUPTABLE, D3DKMDT_GDISURFACE_STAGING, D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE, D3DKMDT_GDISURFACE_TEXTURE, D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE, D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER, D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER, DmEnums_5e870c41-1496-48ff-bddd-f01a2f9e36e6.xml, _D3DKMDT_GDISURFACETYPE, d3dkmdt/D3DKMDT_GDISURFACETYPE, d3dkmdt/D3DKMDT_GDISURFACE_EXISTINGSYSMEM, d3dkmdt/D3DKMDT_GDISURFACE_INVALID, d3dkmdt/D3DKMDT_GDISURFACE_LOOKUPTABLE, d3dkmdt/D3DKMDT_GDISURFACE_STAGING, d3dkmdt/D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER, display.d3dkmdt_gdisurfacetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -238,6 +238,18 @@ Supported starting with Windows 8.1.
 
 ## -see-also
 
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_gdisurfacedata.md">D3DKMDT_GDISURFACEDATA</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a>
 
 
@@ -246,21 +258,9 @@ Supported starting with Windows 8.1.
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_gdisurfacedata.md">D3DKMDT_GDISURFACEDATA</a>
-
-
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_GDISURFACETYPE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_GDISURFACETYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

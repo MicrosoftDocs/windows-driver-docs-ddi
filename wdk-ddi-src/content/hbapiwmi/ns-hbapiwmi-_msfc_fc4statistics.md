@@ -7,8 +7,8 @@ old-location: storage\msfc_fc4statistics.htm
 old-project: storage
 ms.assetid: a46a9aff-9bc9-4328-85b2-90f8f80b2e65
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: MSFC_FC4STATISTICS structure [Storage Devices], MSFC_FC4STATISTICS, PMSFC_FC4STATISTICS, PMSFC_FC4STATISTICS structure pointer [Storage Devices], hbapiwmi/PMSFC_FC4STATISTICS, hbapiwmi/MSFC_FC4STATISTICS, *PMSFC_FC4STATISTICS, structs-Fibre_aad92cde-3922-49dd-8473-fefff79e5e2b.xml, _MSFC_FC4STATISTICS, storage.msfc_fc4statistics
+ms.date: 2/24/2018
+ms.keywords: "*PMSFC_FC4STATISTICS, MSFC_FC4STATISTICS, MSFC_FC4STATISTICS structure [Storage Devices], PMSFC_FC4STATISTICS, PMSFC_FC4STATISTICS structure pointer [Storage Devices], _MSFC_FC4STATISTICS, hbapiwmi/MSFC_FC4STATISTICS, hbapiwmi/PMSFC_FC4STATISTICS, storage.msfc_fc4statistics, structs-Fibre_aad92cde-3922-49dd-8473-fefff79e5e2b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_FC4STATISTICS
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_FC4STATISTICS, MSFC_FC4STATISTICS"
+req.typenames: MSFC_FC4STATISTICS, *PMSFC_FC4STATISTICS
 ---
 
 # _MSFC_FC4STATISTICS structure
@@ -109,7 +109,7 @@ If an HBA does not support a specific statistic, it shall return the value of -1
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_getfc4statistics_out.md">GetFC4Statistics_OUT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a>
 
 
 
@@ -125,5 +125,5 @@ If an HBA does not support a specific statistic, it shall return the value of -1
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSFC_FC4STATISTICS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSFC_FC4STATISTICS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

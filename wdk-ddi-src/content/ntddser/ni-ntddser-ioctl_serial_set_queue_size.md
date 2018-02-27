@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 532dfe17-c901-4fc5-90d4-d300aa0e5720
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.ioctl_serial_set_queue_size, IOCTL_SERIAL_SET_QUEUE_SIZE control code [Serial Ports], IOCTL_SERIAL_SET_QUEUE_SIZE, ntddser/IOCTL_SERIAL_SET_QUEUE_SIZE, serref_52ce370d-5e55-4a48-a7d2-87da706bb4e7.xml
+ms.keywords: IOCTL_SERIAL_SET_QUEUE_SIZE, IOCTL_SERIAL_SET_QUEUE_SIZE control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_QUEUE_SIZE, serports.ioctl_serial_set_queue_size, serref_52ce370d-5e55-4a48-a7d2-87da706bb4e7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

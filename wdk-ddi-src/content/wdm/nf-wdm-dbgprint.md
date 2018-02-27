@@ -7,8 +7,8 @@ old-location: devtest\dbgprint.htm
 old-project: devtest
 ms.assetid: abff1656-dceb-464f-a89c-30d7a24f742d
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: DebugFns_5e11bbcc-adc2-46c0-b371-0e54c50bb2dc.xml, DbgPrint routine [Driver Development Tools], ULONG, devtest.dbgprint, wdm/DbgPrint, DbgPrint
+ms.date: 2/23/2018
+ms.keywords: DbgPrint, DbgPrint routine [Driver Development Tools], DebugFns_5e11bbcc-adc2-46c0-b371-0e54c50bb2dc.xml, ULONG, devtest.dbgprint, wdm/DbgPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -138,17 +138,17 @@ There is no upper limit to the size of the <i>Format</i> string or the number of
 
 
 
-<a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
-
-
-
 <a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20DbgPrint routine%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20DbgPrint routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

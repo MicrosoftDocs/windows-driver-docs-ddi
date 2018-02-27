@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3331c2d8-3100-410d-9c75-33a3b55d5a49
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_OBJECT_ATTRIBUTES, wdf.wdf_object_attributes, wdfobject/WDF_OBJECT_ATTRIBUTES, DFGenObjectRef_cfd7583f-13f6-4755-85d4-7a08401d0ea7.xml, _WDF_OBJECT_ATTRIBUTES, WDF_OBJECT_ATTRIBUTES structure, kmdf.wdf_object_attributes, *PWDF_OBJECT_ATTRIBUTES, PWDF_OBJECT_ATTRIBUTES structure pointer, wdfobject/PWDF_OBJECT_ATTRIBUTES, PWDF_OBJECT_ATTRIBUTES
+ms.keywords: "*PWDF_OBJECT_ATTRIBUTES, DFGenObjectRef_cfd7583f-13f6-4755-85d4-7a08401d0ea7.xml, PWDF_OBJECT_ATTRIBUTES, PWDF_OBJECT_ATTRIBUTES structure pointer, WDF_OBJECT_ATTRIBUTES, WDF_OBJECT_ATTRIBUTES structure, _WDF_OBJECT_ATTRIBUTES, kmdf.wdf_object_attributes, wdf.wdf_object_attributes, wdfobject/PWDF_OBJECT_ATTRIBUTES, wdfobject/WDF_OBJECT_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -195,15 +195,15 @@ The driver can then create an object with a customized context size.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552404">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552405">WDF_OBJECT_ATTRIBUTES_SET_CONTEXT_TYPE</a>
 
 
 
 <a href="..\wdfobject\nf-wdfobject-wdfobjectallocatecontext.md">WdfObjectAllocateContext</a>
+
+
+
+<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
 
 

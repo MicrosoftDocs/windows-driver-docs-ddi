@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b42edb45-3f4f-4f65-aede-8f51149dda78
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PFILE_LINK_ENTRY_INFORMATION, PFILE_LINK_ENTRY_INFORMATION structure pointer [Installable File System Drivers], _FILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION, *PFILE_LINK_ENTRY_INFORMATION, ifsk.file_link_entry_information, ntifs/FILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION structure [Installable File System Drivers], ntifs/PFILE_LINK_ENTRY_INFORMATION
+ms.keywords: "*PFILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION structure [Installable File System Drivers], PFILE_LINK_ENTRY_INFORMATION, PFILE_LINK_ENTRY_INFORMATION structure pointer [Installable File System Drivers], _FILE_LINK_ENTRY_INFORMATION, ifsk.file_link_entry_information, ntifs/FILE_LINK_ENTRY_INFORMATION, ntifs/PFILE_LINK_ENTRY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_LINK_ENTRY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION"
+req.typenames: FILE_LINK_ENTRY_INFORMATION, *PFILE_LINK_ENTRY_INFORMATION
 ---
 
 # _FILE_LINK_ENTRY_INFORMATION structure

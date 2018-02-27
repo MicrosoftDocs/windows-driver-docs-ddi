@@ -7,8 +7,8 @@ old-location: kernel\posetsystemstate.htm
 old-project: kernel
 ms.assetid: b62db582-381a-457f-9755-d8667c7561af
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PoSetSystemState routine [Kernel-Mode Driver Architecture], PoSetSystemState, wdm/PoSetSystemState, portn_f20a5d5b-d863-4ff7-8837-6a7e625271d7.xml, kernel.posetsystemstate
+ms.date: 2/24/2018
+ms.keywords: PoSetSystemState, PoSetSystemState routine [Kernel-Mode Driver Architecture], kernel.posetsystemstate, portn_f20a5d5b-d863-4ff7-8837-6a7e625271d7.xml, wdm/PoSetSystemState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,7 +106,7 @@ None
 
 
 
-A driver calls <b>PoSetSystemState</b> to set flags indicating that system activity is occurring. Unlike <a href="..\ntifs\nf-ntifs-poregistersystemstate.md">PoRegisterSystemState</a>, this routine does not allow the driver to set a persistent busy state. 
+A driver calls <b>PoSetSystemState</b> to set flags indicating that system activity is occurring. Unlike <a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a>, this routine does not allow the driver to set a persistent busy state. 
 
 The <i>Flags</i> parameter specifies the type of activity occurring. Drivers can specify any combination of the flags.
 
@@ -117,11 +117,11 @@ Drivers can set the system busy state to request that the system avoid leaving o
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-poregistersystemstate.md">PoRegisterSystemState</a>
+<a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-pounregistersystemstate.md">PoUnregisterSystemState</a>
+<a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
 
 
 
@@ -129,5 +129,5 @@ Drivers can set the system busy state to request that the system avoid leaving o
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoSetSystemState routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoSetSystemState routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

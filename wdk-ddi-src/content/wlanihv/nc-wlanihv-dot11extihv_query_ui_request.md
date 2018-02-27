@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 37c01180-0742-4764-88c3-9ceb807a0086
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvqueryuirequest, Dot11ExtIhvQueryUIRequest callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvQueryUIRequest, DOT11EXTIHV_QUERY_UI_REQUEST, DOT11EXTIHV_QUERY_UI_REQUEST, wlanihv/Dot11ExtIhvQueryUIRequest, Native_802.11_IHV_Ext_b820a678-9e05-4f96-87bd-ed1154317091.xml
+ms.keywords: DOT11EXTIHV_QUERY_UI_REQUEST, Dot11ExtIhvQueryUIRequest, Dot11ExtIhvQueryUIRequest callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_b820a678-9e05-4f96-87bd-ed1154317091.xml, netvista.dot11extihvqueryuirequest, wlanihv/Dot11ExtIhvQueryUIRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvQueryUIRequest
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -183,11 +183,11 @@ For example, if
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
 
 
 

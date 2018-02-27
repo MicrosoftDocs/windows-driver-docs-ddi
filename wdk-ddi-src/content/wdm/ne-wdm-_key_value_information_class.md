@@ -7,8 +7,8 @@ old-location: kernel\key_value_information_class.htm
 old-project: kernel
 ms.assetid: 99a34b06-3352-47a6-95bc-051a5dfdd82e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: wdm/MaxKeyValueInfoClass, KEY_VALUE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/KeyValuePartialInformation, wdm/KeyValueBasicInformation, KeyValuePartialInformationAlign64, wdm/KEY_VALUE_INFORMATION_CLASS, KeyValuePartialInformation, MaxKeyValueInfoClass, KeyValueFullInformationAlign64, KEY_VALUE_INFORMATION_CLASS, wdm/KeyValuePartialInformationAlign64, kernel.key_value_information_class, sysenum_ee3730f5-18b6-45ff-bb9b-4ec2e71586fc.xml, wdm/KeyValueFullInformationAlign64, KeyValueBasicInformation, KeyValueFullInformation, _KEY_VALUE_INFORMATION_CLASS, wdm/KeyValueFullInformation
+ms.date: 2/24/2018
+ms.keywords: KEY_VALUE_INFORMATION_CLASS, KEY_VALUE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], KeyValueBasicInformation, KeyValueFullInformation, KeyValueFullInformationAlign64, KeyValuePartialInformation, KeyValuePartialInformationAlign64, MaxKeyValueInfoClass, _KEY_VALUE_INFORMATION_CLASS, kernel.key_value_information_class, sysenum_ee3730f5-18b6-45ff-bb9b-4ec2e71586fc.xml, wdm/KEY_VALUE_INFORMATION_CLASS, wdm/KeyValueBasicInformation, wdm/KeyValueFullInformation, wdm/KeyValueFullInformationAlign64, wdm/KeyValuePartialInformation, wdm/KeyValuePartialInformationAlign64, wdm/MaxKeyValueInfoClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -117,11 +117,15 @@ Use the <b>KEY_VALUE_INFORMATION_CLASS</b> values to specify the type of data to
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
 
 
 
 <a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
 
 
 
@@ -133,13 +137,9 @@ Use the <b>KEY_VALUE_INFORMATION_CLASS</b> values to specify the type of data to
 
 
 
-<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KEY_VALUE_INFORMATION_CLASS enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KEY_VALUE_INFORMATION_CLASS enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

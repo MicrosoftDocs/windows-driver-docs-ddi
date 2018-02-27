@@ -7,8 +7,8 @@ old-location: sensors\gnss_lkgfix_param.htm
 old-project: sensors
 ms.assetid: AE4F03D6-A3A7-40DD-9DD9-D9B8F25FD567
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GNSS_LKGFIX_PARAM, *PGNSS_LKGFIX_PARAM, GNSS_LKGFIX_PARAM structure [Sensor Devices], gnssdriver/GNSS_LKGFIX_PARAM, gnssdriver/PGNSS_LKGFIX_PARAM, PGNSS_LKGFIX_PARAM structure pointer [Sensor Devices], PGNSS_LKGFIX_PARAM, sensors.gnss_lkgfix_param
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_LKGFIX_PARAM, GNSS_LKGFIX_PARAM, GNSS_LKGFIX_PARAM structure [Sensor Devices], PGNSS_LKGFIX_PARAM, PGNSS_LKGFIX_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_LKGFIX_PARAM, gnssdriver/PGNSS_LKGFIX_PARAM, sensors.gnss_lkgfix_param"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_LKGFIX_PARAM
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_LKGFIX_PARAM, GNSS_LKGFIX_PARAM"
+req.typenames: GNSS_LKGFIX_PARAM, *PGNSS_LKGFIX_PARAM
 ---
 
 # GNSS_LKGFIX_PARAM structure

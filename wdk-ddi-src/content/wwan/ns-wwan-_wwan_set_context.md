@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 00772a37-ef1b-446b-b7bd-1a6aa27d1dad
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WWAN_SET_CONTEXT, WwanRef_08361ced-712a-464d-b374-7b18a096b8e5.xml, wwan/WWAN_SET_CONTEXT, WWAN_SET_CONTEXT structure [Network Drivers Starting with Windows Vista], _WWAN_SET_CONTEXT, PWWAN_SET_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_SET_CONTEXT, PWWAN_SET_CONTEXT, *PWWAN_SET_CONTEXT, netvista.wwan_set_context
+ms.keywords: "*PWWAN_SET_CONTEXT, PWWAN_SET_CONTEXT, PWWAN_SET_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_CONTEXT, WWAN_SET_CONTEXT structure [Network Drivers Starting with Windows Vista], WwanRef_08361ced-712a-464d-b374-7b18a096b8e5.xml, _WWAN_SET_CONTEXT, netvista.wwan_set_context, wwan/PWWAN_SET_CONTEXT, wwan/WWAN_SET_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -7,8 +7,8 @@ old-location: display\dxgkddicontrolinterrupt2.htm
 old-project: display
 ms.assetid: 0C09CAB1-3DFC-4340-8FF2-99CAF7F13156
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgkddicontrolinterrupt2, DxgkDdi_ControlInterrupt2 callback function [Display Devices], DxgkDdi_ControlInterrupt2, DXGKDDI_CONTROLINTERRUPT2, DXGKDDI_CONTROLINTERRUPT2, d3dkmddi/DxgkDdi_ControlInterrupt2
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_CONTROLINTERRUPT2, DxgkDdi_ControlInterrupt2, DxgkDdi_ControlInterrupt2 callback function [Display Devices], d3dkmddi/DxgkDdi_ControlInterrupt2, display.dxgkddicontrolinterrupt2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

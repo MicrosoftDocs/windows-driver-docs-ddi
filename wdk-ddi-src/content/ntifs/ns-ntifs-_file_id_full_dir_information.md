@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6a66a1a7-a70d-4cc7-a40d-dcb0c9df9f03
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_FILE_ID_FULL_DIR_INFORMATION, ifsk.file_id_full_dir_information, PFILE_ID_FULL_DIR_INFORMATION, *PFILE_ID_FULL_DIR_INFORMATION, ntifs/FILE_ID_FULL_DIR_INFORMATION, FILE_ID_FULL_DIR_INFORMATION, ntifs/PFILE_ID_FULL_DIR_INFORMATION, PFILE_ID_FULL_DIR_INFORMATION structure pointer [Installable File System Drivers], FILE_ID_FULL_DIR_INFORMATION structure [Installable File System Drivers], fileinformationstructures_f12568df-3a02-4ae5-8989-b999a498300f.xml"
+ms.keywords: "*PFILE_ID_FULL_DIR_INFORMATION, FILE_ID_FULL_DIR_INFORMATION, FILE_ID_FULL_DIR_INFORMATION structure [Installable File System Drivers], PFILE_ID_FULL_DIR_INFORMATION, PFILE_ID_FULL_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_ID_FULL_DIR_INFORMATION, fileinformationstructures_f12568df-3a02-4ae5-8989-b999a498300f.xml, ifsk.file_id_full_dir_information, ntifs/FILE_ID_FULL_DIR_INFORMATION, ntifs/PFILE_ID_FULL_DIR_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -186,7 +186,7 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
 
 
 

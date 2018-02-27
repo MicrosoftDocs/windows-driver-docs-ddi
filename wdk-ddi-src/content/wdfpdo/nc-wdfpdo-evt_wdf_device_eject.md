@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fc3f3a15-9a79-4275-9ba4-b01ab8851390
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdeviceeject, EvtDeviceEject callback function, EvtDeviceEject, EVT_WDF_DEVICE_EJECT, EVT_WDF_DEVICE_EJECT, wdfpdo/EvtDeviceEject, DFDeviceObjectFdoPdoRef_38feba70-59b4-4981-af2d-0fc0fa4ff68a.xml, kmdf.evtdeviceeject
+ms.keywords: DFDeviceObjectFdoPdoRef_38feba70-59b4-4981-af2d-0fc0fa4ff68a.xml, EVT_WDF_DEVICE_EJECT, EvtDeviceEject, EvtDeviceEject callback function, kmdf.evtdeviceeject, wdf.evtdeviceeject, wdfpdo/EvtDeviceEject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	EvtDeviceEject
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
+req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
 req.product: Windows 10 or later.
 ---
 

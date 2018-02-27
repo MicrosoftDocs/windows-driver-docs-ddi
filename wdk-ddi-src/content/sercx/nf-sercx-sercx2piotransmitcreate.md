@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 550A26D0-18A5-47F9-B769-B76FA2EB1734
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 2/SerCx2PioTransmitCreate, serports.sercx2piotransmitcreate, SerCx2PioTransmitCreate, SerCx2PioTransmitCreate method [Serial Ports]
+ms.keywords: 2/SerCx2PioTransmitCreate, SerCx2PioTransmitCreate, SerCx2PioTransmitCreate method [Serial Ports], serports.sercx2piotransmitcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SerCx2PioTransmitCreate
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
+req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
 
@@ -175,23 +175,19 @@ For more information about creating PIO-transmit objects, see <a href="https://d
 
 
 
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
-
-
-
-<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2_pio_transmit_config_init.md">SERCX2_PIO_TRANSMIT_CONFIG_INIT</a>
 
 
 
-<a href="..\sercx\ns-sercx-_sercx2_pio_transmit_config.md">SERCX2_PIO_TRANSMIT_CONFIG</a>
+<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
 
 
 <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 
@@ -203,7 +199,11 @@ For more information about creating PIO-transmit objects, see <a href="https://d
 
 
 
-<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
+<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
+
+
+
+<a href="..\sercx\ns-sercx-_sercx2_pio_transmit_config.md">SERCX2_PIO_TRANSMIT_CONFIG</a>
 
 
 

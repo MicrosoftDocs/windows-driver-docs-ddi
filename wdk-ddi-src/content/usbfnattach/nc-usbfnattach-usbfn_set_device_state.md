@@ -4,11 +4,11 @@ title: USBFN_SET_DEVICE_STATE
 author: windows-driver-content
 description: The filter driver's implementation to set the device state and operating bus speed.
 old-location: buses\usbfn_set_device_state.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: EAEFEE8A-D96B-40D8-A4F0-FEFA670E1E6E
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.usbfn_set_device_state, UsbFnSetDeviceState callback function [Buses], UsbFnSetDeviceState, USBFN_SET_DEVICE_STATE, USBFN_SET_DEVICE_STATE, usbfnattach/UsbFnSetDeviceState, PFN_USBFN_SET_DEVICE_STATE callback function pointer [Buses], PFN_USBFN_SET_DEVICE_STATE
+ms.date: 2/24/2018
+ms.keywords: PFN_USBFN_SET_DEVICE_STATE, PFN_USBFN_SET_DEVICE_STATE callback function pointer [Buses], USBFN_SET_DEVICE_STATE, UsbFnSetDeviceState, UsbFnSetDeviceState callback function [Buses], buses.usbfn_set_device_state, usbfnattach/UsbFnSetDeviceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	PFN_USBFN_SET_DEVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBD_INTERFACE_LIST_ENTRY, USBD_INTERFACE_LIST_ENTRY"
+req.typenames: USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY
 req.product: Windows 10 or later.
 ---
 
@@ -152,5 +152,5 @@ UsbLowerFilter_SetDeviceState(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USBFN_SET_DEVICE_STATE callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBFN_SET_DEVICE_STATE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

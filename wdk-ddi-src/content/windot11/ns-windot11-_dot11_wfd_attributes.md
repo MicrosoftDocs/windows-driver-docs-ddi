@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7B221221-5C91-45DA-85C5-5E7CF71E6689
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_DOT11_WFD_ATTRIBUTES, DOT11_WFD_ATTRIBUTES, DOT11_WFD_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_ATTRIBUTES, PDOT11_WFD_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], PDOT11_WFD_ATTRIBUTES, *PDOT11_WFD_ATTRIBUTES, netvista.dot11_wfd_attributes, windot11/DOT11_WFD_ATTRIBUTES"
+ms.keywords: "*PDOT11_WFD_ATTRIBUTES, DOT11_WFD_ATTRIBUTES, DOT11_WFD_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_ATTRIBUTES, PDOT11_WFD_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_ATTRIBUTES, netvista.dot11_wfd_attributes, windot11/DOT11_WFD_ATTRIBUTES, windot11/PDOT11_WFD_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_WFD_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_WFD_ATTRIBUTES, DOT11_WFD_ATTRIBUTES"
+req.typenames: DOT11_WFD_ATTRIBUTES, *PDOT11_WFD_ATTRIBUTES
 req.product: Windows 10 or later.
 ---
 
@@ -181,15 +181,15 @@ The maximum number of associations that each WFD GO port supports simultaneously
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_vwifi_combination_v3.md">DOT11_VWIFI_COMBINATION_V3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565926">NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
 
 
 
 <a href="..\windot11\ns-windot11-_dot11_vwifi_combination_v3.md">DOT11_VWIFI_COMBINATION_V3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451795">OID_DOT11_WFD_DISCOVER_REQUEST</a>
 
 
 

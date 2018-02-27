@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7237a041-46e0-4211-97c1-96d309ada602
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/SecLookupAccountSid, SecLookupAccountSid function [Installable File System Drivers], ksecddref_ba65e59c-5c9a-47bb-bf2c-9b3b8c727bb6.xml, ifsk.seclookupaccountsid, SecLookupAccountSid
+ms.keywords: SecLookupAccountSid, SecLookupAccountSid function [Installable File System Drivers], ifsk.seclookupaccountsid, ksecddref_ba65e59c-5c9a-47bb-bf2c-9b3b8c727bb6.xml, ntifs/SecLookupAccountSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -225,11 +225,7 @@ In addition to looking up SIDs for local accounts, local domain accounts, and ex
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="..\ntifs\nf-ntifs-seclookupwellknownsid.md">SecLookupWellKnownSid</a>
 
 
 
@@ -237,7 +233,11 @@ In addition to looking up SIDs for local accounts, local domain accounts, and ex
 
 
 
-<a href="..\ntifs\nf-ntifs-seclookupwellknownsid.md">SecLookupWellKnownSid</a>
+<a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 

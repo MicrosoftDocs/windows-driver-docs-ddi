@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4d63c908-8ae3-4df4-826f-9d87ea6c24ad
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfio/WDF_IO_FORWARD_PROGRESS_ACTION, wdfio/WdfIoForwardProgressActionInvalid, DFQueueObjectRef_d1ee566a-9887-44de-aef5-a13f64e7603c.xml, wdfio/WdfIoForwardProgressActionFailRequest, WDF_IO_FORWARD_PROGRESS_ACTION, WdfIoForwardProgressActionFailRequest, kmdf.wdf_io_forward_progress_action, wdfio/WdfIoForwardProgressActionUseReservedRequest, WdfIoForwardProgressActionUseReservedRequest, WDF_IO_FORWARD_PROGRESS_ACTION enumeration, _WDF_IO_FORWARD_PROGRESS_ACTION, wdf.wdf_io_forward_progress_action, WdfIoForwardProgressActionInvalid
+ms.keywords: DFQueueObjectRef_d1ee566a-9887-44de-aef5-a13f64e7603c.xml, WDF_IO_FORWARD_PROGRESS_ACTION, WDF_IO_FORWARD_PROGRESS_ACTION enumeration, WdfIoForwardProgressActionFailRequest, WdfIoForwardProgressActionInvalid, WdfIoForwardProgressActionUseReservedRequest, _WDF_IO_FORWARD_PROGRESS_ACTION, kmdf.wdf_io_forward_progress_action, wdf.wdf_io_forward_progress_action, wdfio/WDF_IO_FORWARD_PROGRESS_ACTION, wdfio/WdfIoForwardProgressActionFailRequest, wdfio/WdfIoForwardProgressActionInvalid, wdfio/WdfIoForwardProgressActionUseReservedRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

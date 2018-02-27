@@ -4,11 +4,11 @@ title: IDebugControl3::SetAssemblyOptions method
 author: windows-driver-content
 description: The SetAssemblyOptions method sets the assembly and disassembly options that affect how the debugger engine assembles and disassembles processor instructions for the target.
 old-location: debugger\setassemblyoptions.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: ec86ac71-212c-4edd-94c6-bab1cb5fa660
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl3, SetAssemblyOptions method [Windows Debugging], IDebugControl3 interface, SetAssemblyOptions, IDebugControl3 interface [Windows Debugging], SetAssemblyOptions method, dbgeng/IDebugControl3::SetAssemblyOptions, SetAssemblyOptions method [Windows Debugging], IDebugControl3::SetAssemblyOptions, IDebugControl_b39768e8-fb98-4056-b548-c568316279e1.xml, debugger.setassemblyoptions
+ms.date: 2/23/2018
+ms.keywords: IDebugControl3, IDebugControl3 interface [Windows Debugging], SetAssemblyOptions method, IDebugControl3::SetAssemblyOptions, IDebugControl_b39768e8-fb98-4056-b548-c568316279e1.xml, SetAssemblyOptions method [Windows Debugging], SetAssemblyOptions method [Windows Debugging], IDebugControl3 interface, SetAssemblyOptions,IDebugControl3.SetAssemblyOptions, dbgeng/IDebugControl3::SetAssemblyOptions, debugger.setassemblyoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -177,7 +177,11 @@ Additionally, the value DEBUG_ASMOPT_DEFAULT represents the default set of assem
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537852">AddAssemblyOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -185,15 +189,11 @@ Additionally, the value DEBUG_ASMOPT_DEFAULT represents the default set of assem
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537852">AddAssemblyOptions</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554483">RemoveAssemblyOptions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562128">.asm (Change Disassembly Options)</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -205,5 +205,5 @@ Additionally, the value DEBUG_ASMOPT_DEFAULT represents the default set of assem
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl3::SetAssemblyOptions method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl3::SetAssemblyOptions method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

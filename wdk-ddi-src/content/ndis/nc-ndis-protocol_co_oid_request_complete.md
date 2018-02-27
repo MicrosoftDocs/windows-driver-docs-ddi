@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 16883c64-3cc6-4f50-8be7-7c58c422a717
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolcooidrequestcomplete, ProtocolCoOidRequestComplete callback function [Network Drivers Starting with Windows Vista], ProtocolCoOidRequestComplete, PROTOCOL_CO_OID_REQUEST_COMPLETE, PROTOCOL_CO_OID_REQUEST_COMPLETE, ndis/ProtocolCoOidRequestComplete, condis_request_ref_14f11d94-41dd-44b1-9117-20c8d22278aa.xml
+ms.keywords: PROTOCOL_CO_OID_REQUEST_COMPLETE, ProtocolCoOidRequestComplete, ProtocolCoOidRequestComplete callback function [Network Drivers Starting with Windows Vista], condis_request_ref_14f11d94-41dd-44b1-9117-20c8d22278aa.xml, ndis/ProtocolCoOidRequestComplete, netvista.protocolcooidrequestcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -266,32 +266,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
-   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">NdisMCoOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">NdisCoOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+<a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">NdisMCmOidRequestComplete</a>
 
 
 
@@ -299,19 +274,41 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">NdisCoOidRequestComplete</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">NdisMCmOidRequestComplete</a>
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">NdisMCmOidRequestComplete</a>
+<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
+   NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">NdisMCoOidRequestComplete</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
+   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">NdisCoOidRequestComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
 
 

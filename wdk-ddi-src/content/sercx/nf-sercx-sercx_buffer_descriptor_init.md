@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 73C7C38A-F6E1-4276-A66A-0C16BC6E8F1C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SERCX_BUFFER_DESCRIPTOR_INIT function [Serial Ports], SERCX_BUFFER_DESCRIPTOR_INIT, 1/SERCX_BUFFER_DESCRIPTOR_INIT, serports.sercx_buffer_descriptor_init
+ms.keywords: 1/SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT function [Serial Ports], serports.sercx_buffer_descriptor_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SERCX_BUFFER_DESCRIPTOR_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
+req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
 

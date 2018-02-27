@@ -7,8 +7,8 @@ old-location: audio\iminiportwavecyclicstream_setformat.htm
 old-project: audio
 ms.assetid: 6881ea55-138a-408e-955e-c5c74f777ce8
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iminiportwavecyclicstream_setformat, IMiniportWaveCyclicStream, SetFormat method [Audio Devices], IMiniportWaveCyclicStream interface, IMiniportWaveCyclicStream::SetFormat, SetFormat, SetFormat method [Audio Devices], audmp-routines_d23a09d4-7110-425f-b10d-5f7f601179bb.xml, IMiniportWaveCyclicStream interface [Audio Devices], SetFormat method, portcls/IMiniportWaveCyclicStream::SetFormat
+ms.date: 2/22/2018
+ms.keywords: IMiniportWaveCyclicStream, IMiniportWaveCyclicStream interface [Audio Devices], SetFormat method, IMiniportWaveCyclicStream::SetFormat, SetFormat method [Audio Devices], SetFormat method [Audio Devices], IMiniportWaveCyclicStream interface, SetFormat,IMiniportWaveCyclicStream.SetFormat, audio.iminiportwavecyclicstream_setformat, audmp-routines_d23a09d4-7110-425f-b10d-5f7f601179bb.xml, portcls/IMiniportWaveCyclicStream::SetFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -94,6 +94,10 @@ For information about specifying wave stream formats, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
+
 <a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
 
 
@@ -102,13 +106,9 @@ For information about specifying wave stream formats, see <a href="https://msdn.
 
 
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveCyclicStream::SetFormat method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveCyclicStream::SetFormat method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

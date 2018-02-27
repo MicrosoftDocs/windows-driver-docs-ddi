@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 7A97B3B2-2B7B-4661-8C0D-C2234F796EA8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_unmaskinterrupt, CLIENT_UnmaskInterrupt callback function [Parallel Ports], CLIENT_UnmaskInterrupt, GPIO_CLIENT_UNMASK_INTERRUPT, GPIO_CLIENT_UNMASK_INTERRUPT, gpioclx/CLIENT_UnmaskInterrupt
+ms.keywords: CLIENT_UnmaskInterrupt, CLIENT_UnmaskInterrupt callback function [Parallel Ports], GPIO.client_unmaskinterrupt, GPIO_CLIENT_UNMASK_INTERRUPT, gpioclx/CLIENT_UnmaskInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_UnmaskInterrupt
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO"
+req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
 
 # GPIO_CLIENT_UNMASK_INTERRUPT callback

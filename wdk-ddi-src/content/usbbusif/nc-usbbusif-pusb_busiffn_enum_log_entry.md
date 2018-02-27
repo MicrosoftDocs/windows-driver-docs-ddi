@@ -1,14 +1,14 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_ENUM_LOG_ENTRY
-title: PUSB_BUSIFFN_ENUM_LOG_ENTRY
+title: USB_BUSIFFN_ENUM_LOG_ENTRY
 author: windows-driver-content
 description: This callback function is not supported.The EnumLogEntry routine makes a log entry.
 old-location: buses\enumlogentry.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 6c7f1ab6-bbd8-45d8-92af-030db336c97c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.enumlogentry, EnumLogEntry, EnumLogEntry callback function [Buses], EnumLogEntry, USB_BUSIFFN_ENUM_LOG_ENTRY, USB_BUSIFFN_ENUM_LOG_ENTRY, usbbusif/EnumLogEntry, usbinterKR_a05ba50b-df81-4211-918b-e7409bc1d5ff.xml
+ms.date: 2/24/2018
+ms.keywords: EnumLogEntry, EnumLogEntry callback function [Buses], USB_BUSIFFN_ENUM_LOG_ENTRY, buses.enumlogentry, usbbusif/EnumLogEntry, usbinterKR_a05ba50b-df81-4211-918b-e7409bc1d5ff.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	EnumLogEntry
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBD_VERSION_INFORMATION, USBD_VERSION_INFORMATION"
+req.typenames: USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION
 req.product: Windows 10 or later.
 ---
 

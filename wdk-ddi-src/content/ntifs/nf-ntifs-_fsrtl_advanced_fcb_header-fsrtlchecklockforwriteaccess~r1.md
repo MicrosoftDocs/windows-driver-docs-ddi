@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 549da751-6a28-4d54-995f-dabb9e29ab09
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fsrtlchecklockforwriteaccess, ntifs/FsRtlCheckLockForWriteAccess, fsrtlref_460451fb-37b9-4c7e-bf53-8d72c7e73a55.xml, FsRtlCheckLockForWriteAccess routine [Installable File System Drivers], FsRtlCheckLockForWriteAccess
+ms.keywords: FsRtlCheckLockForWriteAccess, FsRtlCheckLockForWriteAccess routine [Installable File System Drivers], fsrtlref_460451fb-37b9-4c7e-bf53-8d72c7e73a55.xml, ifsk.fsrtlchecklockforwriteaccess, ntifs/FsRtlCheckLockForWriteAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,6 +110,14 @@ Minifilters must call <a href="..\fltkernel\nf-fltkernel-fltchecklockforwriteacc
 
 
 
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlchecklockforreadaccess~r1.md">FsRtlCheckLockForReadAccess</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlprocessfilelock~r2.md">FsRtlProcessFileLock</a>
 
 
@@ -118,15 +126,7 @@ Minifilters must call <a href="..\fltkernel\nf-fltkernel-fltchecklockforwriteacc
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlchecklockforreadaccess~r1.md">FsRtlCheckLockForReadAccess</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltchecklockforwriteaccess.md">FltCheckLockForWriteAccess</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlprocessfilelock~r2.md">FsRtlProcessFileLock</a>
 
 
 

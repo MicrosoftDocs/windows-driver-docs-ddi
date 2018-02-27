@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0465a8d7-1cdd-4647-9b78-557256f60c05
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netdma/PNET_DMA_DESCRIPTOR, *PNET_DMA_DESCRIPTOR, netvista.net_dma_descriptor, PNET_DMA_DESCRIPTOR structure pointer [Network Drivers Starting with Windows Vista], NET_DMA_DESCRIPTOR structure [Network Drivers Starting with Windows Vista], NET_DMA_SOURCE_NO_SNOOP, NET_DMA_RESERVED_MASK, NET_DMA_DESTINATION_NO_SNOOP, NET_DMA_INTERRUPT_ON_COMPLETION, netdma_ref_06e1861b-7904-4bf5-9ce5-e85ae1daa22e.xml, NET_DMA_NULL_TRANSFER, NET_DMA_SOURCE_PAGE_BREAK, _NET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR, NET_DMA_SERIALIZE_TRANSFER, NET_DMA_OP_TYPE_MASK, PNET_DMA_DESCRIPTOR, NET_DMA_DESTINATION_DCA_ENABLE, NET_DMA_OP_TYPE_CONTEXT_CHANGE, netdma/NET_DMA_DESCRIPTOR, NET_DMA_DESTINATION_PAGE_BREAK, NET_DMA_STATUS_UPDATE_ON_COMPLETION
+ms.keywords: "*PNET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR structure [Network Drivers Starting with Windows Vista], NET_DMA_DESTINATION_DCA_ENABLE, NET_DMA_DESTINATION_NO_SNOOP, NET_DMA_DESTINATION_PAGE_BREAK, NET_DMA_INTERRUPT_ON_COMPLETION, NET_DMA_NULL_TRANSFER, NET_DMA_OP_TYPE_CONTEXT_CHANGE, NET_DMA_OP_TYPE_MASK, NET_DMA_RESERVED_MASK, NET_DMA_SERIALIZE_TRANSFER, NET_DMA_SOURCE_NO_SNOOP, NET_DMA_SOURCE_PAGE_BREAK, NET_DMA_STATUS_UPDATE_ON_COMPLETION, PNET_DMA_DESCRIPTOR, PNET_DMA_DESCRIPTOR structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_DESCRIPTOR, netdma/NET_DMA_DESCRIPTOR, netdma/PNET_DMA_DESCRIPTOR, netdma_ref_06e1861b-7904-4bf5-9ce5-e85ae1daa22e.xml, netvista.net_dma_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NET_DMA_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR"
+req.typenames: NET_DMA_DESCRIPTOR, *PNET_DMA_DESCRIPTOR
 ---
 
 # _NET_DMA_DESCRIPTOR structure
@@ -387,18 +387,16 @@ A ULONG64 value that is reserved for the NetDMA interface to use.
 A ULONG64 value that is reserved for the NetDMA interface to use.
 
 
-#### - TransferSize
+#### - NextDestinationAddress
 
-The size, in bytes, of the memory block that is associated with this DMA descriptor. 
-      
+The physical address of the second page of destination address that is used in destination page
+      break.
 
-NetDMA 2.0 and later provider drivers use the 
-      <b>DCAContext32</b>, 
-      <b>DCAContext16</b>, and 
-      <b>DCAContext8</b> members of the union with 
-      <b>TransferSize</b> to support 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access
-      (DCA)</a>.
+
+#### - NextSourceAddress
+
+The physical address of the second page of source address that is used in source page
+      break.
 
 
 #### - Reserved1
@@ -411,12 +409,6 @@ A ULONG64 value that is reserved for the DMA engine or the DMA provider driver t
       Break</a>.
 
 
-#### - NextSourceAddress
-
-The physical address of the second page of source address that is used in source page
-      break.
-
-
 #### - Reserved2
 
 A ULONG64 value that is reserved for use the DMA engine or the DMA provider driver to use. NetDMA
@@ -427,10 +419,18 @@ A ULONG64 value that is reserved for use the DMA engine or the DMA provider driv
       Break</a>.
 
 
-#### - NextDestinationAddress
+#### - TransferSize
 
-The physical address of the second page of destination address that is used in destination page
-      break.
+The size, in bytes, of the memory block that is associated with this DMA descriptor. 
+      
+
+NetDMA 2.0 and later provider drivers use the 
+      <b>DCAContext32</b>, 
+      <b>DCAContext16</b>, and 
+      <b>DCAContext8</b> members of the union with 
+      <b>TransferSize</b> to support 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access
+      (DCA)</a>.
 
 
 ## -remarks
@@ -459,15 +459,15 @@ The NetDMA interface calls a DMA provider driver's
 
 ## -see-also
 
+<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
+
+
+
+<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
+
+
+
 <a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
-
-
-
-<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
-
-
-
-<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
 
 
 

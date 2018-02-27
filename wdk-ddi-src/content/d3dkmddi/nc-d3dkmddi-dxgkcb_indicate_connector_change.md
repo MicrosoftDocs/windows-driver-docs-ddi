@@ -7,8 +7,8 @@ old-location: display\dxgkcb_indicate_connector_change.htm
 old-project: display
 ms.assetid: D3C76DC0-7A6B-4E1E-8277-F6410D4B474B
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgkcb_indicate_connector_change, *DXGKCB_INDICATE_CONNECTOR_CHANGE callback function [Display Devices], *DXGKCB_INDICATE_CONNECTOR_CHANGE, d3dkmddi/*DXGKCB_INDICATE_CONNECTOR_CHANGE
+ms.date: 2/24/2018
+ms.keywords: "*DXGKCB_INDICATE_CONNECTOR_CHANGE, *DXGKCB_INDICATE_CONNECTOR_CHANGE callback function [Display Devices], d3dkmddi/*DXGKCB_INDICATE_CONNECTOR_CHANGE, display.dxgkcb_indicate_connector_change"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

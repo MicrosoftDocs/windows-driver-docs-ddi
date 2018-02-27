@@ -7,8 +7,8 @@ old-location: display\dxva_mvvalue.htm
 old-project: display
 ms.assetid: 33b68e74-64ca-49e0-b469-96d430c2a5c0
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dxvaref_4eeb8072-1676-479e-b92c-05d8ba9c4586.xml, LPDXVA_MVvalue, _DXVA_MVvalue, LPDXVA_MVvalue structure pointer [Display Devices], display.dxva_mvvalue, dxva/LPDXVA_MVvalue, dxva/DXVA_MVvalue, DXVA_MVvalue, *LPDXVA_MVvalue, DXVA_MVvalue structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: "*LPDXVA_MVvalue, DXVA_MVvalue, DXVA_MVvalue structure [Display Devices], LPDXVA_MVvalue, LPDXVA_MVvalue structure pointer [Display Devices], _DXVA_MVvalue, display.dxva_mvvalue, dxva/DXVA_MVvalue, dxva/LPDXVA_MVvalue, dxvaref_4eeb8072-1676-479e-b92c-05d8ba9c4586.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_MVvalue
 product: Windows
 targetos: Windows
-req.typenames: "*LPDXVA_MVvalue, DXVA_MVvalue"
+req.typenames: DXVA_MVvalue, *LPDXVA_MVvalue
 ---
 
 # _DXVA_MVvalue structure
@@ -89,17 +89,17 @@ The DXVA_MVvalue structure is used in the <a href="..\dxva\ns-dxva-_dxva_mbctrl_
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_hostresiddiff_1.md">DXVA_MBctrl_P_HostResidDiff_1</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
 
 
 
- 
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_hostresiddiff_1.md">DXVA_MBctrl_P_HostResidDiff_1</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_MVvalue structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_MVvalue structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

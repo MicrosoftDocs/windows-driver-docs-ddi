@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7de1ce11-a2b3-4d68-b279-4652b822297b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFIOTargetRef_3ef7f2b7-6919-46d7-b48c-10dc135905d4.xml, WdfIoTargetClose method, wdfiotarget/WdfIoTargetClose, wdf.wdfiotargetclose, kmdf.wdfiotargetclose, WdfIoTargetClose
+ms.keywords: DFIOTargetRef_3ef7f2b7-6919-46d7-b48c-10dc135905d4.xml, WdfIoTargetClose, WdfIoTargetClose method, kmdf.wdfiotargetclose, wdf.wdfiotargetclose, wdfiotarget/WdfIoTargetClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

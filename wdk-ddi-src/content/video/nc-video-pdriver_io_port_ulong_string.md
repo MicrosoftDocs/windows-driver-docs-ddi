@@ -7,8 +7,8 @@ old-location: display\svgahwioportulongstring.htm
 old-project: display
 ms.assetid: 190adc75-7274-49e2-a9b6-2897168df091
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.svgahwioportulongstring, SvgaHwIoPortUlongString callback function [Display Devices], SvgaHwIoPortUlongString, PDRIVER_IO_PORT_ULONG_STRING, PDRIVER_IO_PORT_ULONG_STRING, video/SvgaHwIoPortUlongString, VideoMiniport_Functions_107f011d-c8c7-4f9f-ac81-4d0b33caa3da.xml
+ms.date: 2/24/2018
+ms.keywords: PDRIVER_IO_PORT_ULONG_STRING, SvgaHwIoPortUlongString, SvgaHwIoPortUlongString callback function [Display Devices], VideoMiniport_Functions_107f011d-c8c7-4f9f-ac81-4d0b33caa3da.xml, display.svgahwioportulongstring, video/SvgaHwIoPortUlongString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -137,7 +137,7 @@ If one or more application-issued x86 <b>INSD</b> or <b>OUTSD</b> instructions m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
+<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
 
 
 
@@ -145,7 +145,19 @@ If one or more application-issued x86 <b>INSD</b> or <b>OUTSD</b> instructions m
 
 
 
+<a href="..\dispmprt\ns-dispmprt-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
+
+
+
 <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+
+
+<a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
 
 
 
@@ -153,21 +165,9 @@ If one or more application-issued x86 <b>INSD</b> or <b>OUTSD</b> instructions m
 
 
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-
-
-
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
-
-
-
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PDRIVER_IO_PORT_ULONG_STRING callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PDRIVER_IO_PORT_ULONG_STRING callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

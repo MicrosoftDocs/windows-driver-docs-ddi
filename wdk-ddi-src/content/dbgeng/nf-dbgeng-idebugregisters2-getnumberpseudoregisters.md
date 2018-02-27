@@ -4,11 +4,11 @@ title: IDebugRegisters2::GetNumberPseudoRegisters method
 author: windows-driver-content
 description: The GetNumberPseudoRegisters method returns the number of pseudo-registers that are maintained by the debugger engine.
 old-location: debugger\getnumberpseudoregisters.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 5a71a8e9-323e-4f14-8c97-d6ce4e9bfe65
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.getnumberpseudoregisters, IDebugRegisters2, IDebugRegisters2::GetNumberPseudoRegisters, dbgeng/IDebugRegisters2::GetNumberPseudoRegisters, IDebugRegisters2 interface [Windows Debugging], GetNumberPseudoRegisters method, IDebugRegisters_e12950ac-f9b2-4ed2-9ce1-bc3088b65ef1.xml, GetNumberPseudoRegisters method [Windows Debugging], IDebugRegisters2 interface, GetNumberPseudoRegisters method [Windows Debugging], GetNumberPseudoRegisters
+ms.date: 2/23/2018
+ms.keywords: GetNumberPseudoRegisters method [Windows Debugging], GetNumberPseudoRegisters method [Windows Debugging], IDebugRegisters2 interface, GetNumberPseudoRegisters,IDebugRegisters2.GetNumberPseudoRegisters, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetNumberPseudoRegisters method, IDebugRegisters2::GetNumberPseudoRegisters, IDebugRegisters_e12950ac-f9b2-4ed2-9ce1-bc3088b65ef1.xml, dbgeng/IDebugRegisters2::GetNumberPseudoRegisters, debugger.getnumberpseudoregisters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

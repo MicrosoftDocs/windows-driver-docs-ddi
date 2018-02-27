@@ -7,8 +7,8 @@ old-location: smartcrd\ioctl_smartcard_swallow.htm
 old-project: smartcrd
 ms.assetid: c229769d-8798-436e-bd26-9dfd507fba9c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: smartcrd.ioctl_smartcard_swallow, IOCTL_SMARTCARD_SWALLOW control code [Smart Card Reader Devices], IOCTL_SMARTCARD_SWALLOW, winsmcrd/IOCTL_SMARTCARD_SWALLOW, scioctls_71a14048-5e68-45c7-ad72-03c6350b9072.xml
+ms.date: 2/22/2018
+ms.keywords: IOCTL_SMARTCARD_SWALLOW, IOCTL_SMARTCARD_SWALLOW control code [Smart Card Reader Devices], scioctls_71a14048-5e68-45c7-ad72-03c6350b9072.xml, smartcrd.ioctl_smartcard_swallow, winsmcrd/IOCTL_SMARTCARD_SWALLOW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

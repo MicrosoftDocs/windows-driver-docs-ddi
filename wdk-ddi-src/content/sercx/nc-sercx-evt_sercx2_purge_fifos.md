@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 52875B36-F52B-4D29-9C9D-76DB12BFEEA6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercx2purgefifos, EvtSerCx2PurgeFifos callback function [Serial Ports], EvtSerCx2PurgeFifos, EVT_SERCX2_PURGE_FIFOS, EVT_SERCX2_PURGE_FIFOS, 2/EvtSerCx2PurgeFifos
+ms.keywords: 2/EvtSerCx2PurgeFifos, EVT_SERCX2_PURGE_FIFOS, EvtSerCx2PurgeFifos, EvtSerCx2PurgeFifos callback function [Serial Ports], serports.evtsercx2purgefifos
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -151,11 +151,11 @@ The <b>EVT_SERCX2_PURGE_FIFOS</b> function type is defined in the Sercx.h header
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_purge.md">IOCTL_SERIAL_PURGE</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_purge.md">IOCTL_SERIAL_PURGE</a>
 
 
 

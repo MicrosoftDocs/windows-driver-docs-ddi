@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 082BBDE1-1B80-4306-96A1-DCD23910B0F7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_register_mr, NdkRegisterMr callback function [Network Drivers Starting with Windows Vista], NdkRegisterMr, NDK_FN_REGISTER_MR, NDK_FN_REGISTER_MR, ndkpi/NdkRegisterMr, NDK_MR_FLAG_ALLOW_LOCAL_READ, NDK_MR_FLAG_ALLOW_LOCAL_WRITE, NDK_MR_FLAG_ALLOW_REMOTE_READ, NDK_MR_FLAG_ALLOW_REMOTE_WRITE, NDK_MR_FLAG_RDMA_READ_SINK
+ms.keywords: NDK_FN_REGISTER_MR, NDK_MR_FLAG_ALLOW_LOCAL_READ, NDK_MR_FLAG_ALLOW_LOCAL_WRITE, NDK_MR_FLAG_ALLOW_REMOTE_READ, NDK_MR_FLAG_ALLOW_REMOTE_WRITE, NDK_MR_FLAG_RDMA_READ_SINK, NdkRegisterMr, NdkRegisterMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkRegisterMr, netvista.ndk_fn_register_mr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -260,7 +260,7 @@ To deregister the memory region, use the <i>NdkDeregisterMr</i> (<a href="..\ndk
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_deregister_mr.md">NDK_FN_DEREGISTER_MR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
 
 
 
@@ -268,7 +268,7 @@ To deregister the memory region, use the <i>NdkDeregisterMr</i> (<a href="..\ndk
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>
 
 
 
@@ -276,11 +276,11 @@ To deregister the memory region, use the <i>NdkDeregisterMr</i> (<a href="..\ndk
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_deregister_mr.md">NDK_FN_DEREGISTER_MR</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
 
 
 

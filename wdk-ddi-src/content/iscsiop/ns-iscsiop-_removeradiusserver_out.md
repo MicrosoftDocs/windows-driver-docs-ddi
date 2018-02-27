@@ -7,8 +7,8 @@ old-location: storage\removeradiusserver_out.htm
 old-project: storage
 ms.assetid: da5be900-a362-4d74-9ac7-65b96f0348ce
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*PRemoveRADIUSServer_OUT, PRemoveRADIUSServer_OUT structure pointer [Storage Devices], structs-iSCSI_dea5813a-b7e8-4702-af57-f7a40360efb9.xml, RemoveRADIUSServer_OUT, _RemoveRADIUSServer_OUT, PRemoveRADIUSServer_OUT, RemoveRADIUSServer_OUT structure [Storage Devices], iscsiop/RemoveRADIUSServer_OUT, storage.removeradiusserver_out, iscsiop/PRemoveRADIUSServer_OUT"
+ms.date: 2/24/2018
+ms.keywords: "*PRemoveRADIUSServer_OUT, PRemoveRADIUSServer_OUT, PRemoveRADIUSServer_OUT structure pointer [Storage Devices], RemoveRADIUSServer_OUT, RemoveRADIUSServer_OUT structure [Storage Devices], _RemoveRADIUSServer_OUT, iscsiop/PRemoveRADIUSServer_OUT, iscsiop/RemoveRADIUSServer_OUT, storage.removeradiusserver_out, structs-iSCSI_dea5813a-b7e8-4702-af57-f7a40360efb9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RemoveRADIUSServer_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PRemoveRADIUSServer_OUT, RemoveRADIUSServer_OUT"
+req.typenames: RemoveRADIUSServer_OUT, *PRemoveRADIUSServer_OUT
 ---
 
 # _RemoveRADIUSServer_OUT structure
@@ -83,11 +83,7 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_removeradiusserver_in.md">RemoveRADIUSServer_IN</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_removeradiusserver_in.md">RemoveRADIUSServer_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564020">RemoveRADIUSServer</a>
 
 
 
@@ -95,9 +91,13 @@ It is optional that you implement this method.
 
 
 
- 
+<a href="..\iscsiop\ns-iscsiop-_removeradiusserver_in.md">RemoveRADIUSServer_IN</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RemoveRADIUSServer_OUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RemoveRADIUSServer_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c0134541-2e17-41e5-b30a-493b1bb42d07
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.ioctl_internal_bthenum_get_devinfo, IOCTL_INTERNAL_BTHENUM_GET_DEVINFO control code [Bluetooth Devices], IOCTL_INTERNAL_BTHENUM_GET_DEVINFO, bthioctl/IOCTL_INTERNAL_BTHENUM_GET_DEVINFO, bth_ioctls_08047b17-31ae-4497-b83d-21e42058765f.xml
+ms.keywords: IOCTL_INTERNAL_BTHENUM_GET_DEVINFO, IOCTL_INTERNAL_BTHENUM_GET_DEVINFO control code [Bluetooth Devices], bltooth.ioctl_internal_bthenum_get_devinfo, bth_ioctls_08047b17-31ae-4497-b83d-21e42058765f.xml, bthioctl/IOCTL_INTERNAL_BTHENUM_GET_DEVINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_BTHENUM_GET_DEVINFO
 product: Windows
 targetos: Windows
-req.typenames: "*PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1"
+req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ---
 
 # IOCTL_INTERNAL_BTHENUM_GET_DEVINFO IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

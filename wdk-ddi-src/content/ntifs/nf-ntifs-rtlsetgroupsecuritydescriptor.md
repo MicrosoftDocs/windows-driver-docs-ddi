@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f0473975-7ab6-46ba-bdb7-eb227e6bc258
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlSetGroupSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlsetgroupsecuritydescriptor, rtlref_113e5ca7-5db3-4c93-a26f-c568e2164de9.xml, ntifs/RtlSetGroupSecurityDescriptor, RtlSetGroupSecurityDescriptor
+ms.keywords: RtlSetGroupSecurityDescriptor, RtlSetGroupSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlsetgroupsecuritydescriptor, ntifs/RtlSetGroupSecurityDescriptor, rtlref_113e5ca7-5db3-4c93-a26f-c568e2164de9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -139,7 +139,7 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556619">SECURITY_DESCRIPTOR_CONTROL</a>
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 
@@ -151,11 +151,11 @@ For more information about security and access control, see the Microsoft Window
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556619">SECURITY_DESCRIPTOR_CONTROL</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlgetgroupsecuritydescriptor.md">RtlGetGroupSecurityDescriptor</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 

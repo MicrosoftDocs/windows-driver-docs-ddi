@@ -4,11 +4,11 @@ title: EVT_UCX_USBDEVICE_ENDPOINT_ADD
 author: windows-driver-content
 description: The client driver's implementation that UCX calls to add a new endpoint for a USB device.
 old-location: buses\evt_ucx_usbdevice_endpoint_add.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 1cbafa33-e957-4865-9d4f-26f12827a941
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_usbdevice_endpoint_add, EvtUcxUsbDeviceEndpointAdd callback function [Buses], EvtUcxUsbDeviceEndpointAdd, EVT_UCX_USBDEVICE_ENDPOINT_ADD, EVT_UCX_USBDEVICE_ENDPOINT_ADD, ucxusbdevice/EvtUcxUsbDeviceEndpointAdd, PEVT_UCX_USBDEVICE_ENDPOINT_ADD callback function pointer [Buses], PEVT_UCX_USBDEVICE_ENDPOINT_ADD
+ms.date: 2/24/2018
+ms.keywords: EVT_UCX_USBDEVICE_ENDPOINT_ADD, EvtUcxUsbDeviceEndpointAdd, EvtUcxUsbDeviceEndpointAdd callback function [Buses], PEVT_UCX_USBDEVICE_ENDPOINT_ADD, PEVT_UCX_USBDEVICE_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ucx_usbdevice_endpoint_add, ucxusbdevice/EvtUcxUsbDeviceEndpointAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	PEVT_UCX_USBDEVICE_ENDPOINT_ADD
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_INFO, STREAM_INFO"
+req.typenames: STREAM_INFO, *PSTREAM_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -227,19 +227,11 @@ EvtUsbDeviceEndpointAddEnd:
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
-
-
-
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
-
-
-
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
-
-
-
 <a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
+
+
+
+<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
 
 
 
@@ -247,9 +239,17 @@ EvtUsbDeviceEndpointAddEnd:
 
 
 
- 
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
+
+
+
+<a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20EVT_UCX_USBDEVICE_ENDPOINT_ADD callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UCX_USBDEVICE_ENDPOINT_ADD callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

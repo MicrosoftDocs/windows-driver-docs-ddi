@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 2A88BA68-48A7-4C00-8031-CCC50A0C090D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercxcontrol, EvtSerCxControl callback function [Serial Ports], EvtSerCxControl, EVT_SERCX_CONTROL, EVT_SERCX_CONTROL, 1/EvtSerCxControl
+ms.keywords: 1/EvtSerCxControl, EVT_SERCX_CONTROL, EvtSerCxControl, EvtSerCxControl callback function [Serial Ports], serports.evtsercxcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

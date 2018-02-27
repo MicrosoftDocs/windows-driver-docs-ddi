@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7405e0c7-9263-4911-9b1e-52cffa559af3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfdevicegetdevicepowerstate, WdfDeviceGetDevicePowerState, DFDeviceObjectGeneralRef_40013978-2c8d-4776-b218-5f0c743e57e9.xml, wdfdevice/WdfDeviceGetDevicePowerState, wdf.wdfdevicegetdevicepowerstate, WdfDeviceGetDevicePowerState method
+ms.keywords: DFDeviceObjectGeneralRef_40013978-2c8d-4776-b218-5f0c743e57e9.xml, WdfDeviceGetDevicePowerState, WdfDeviceGetDevicePowerState method, kmdf.wdfdevicegetdevicepowerstate, wdf.wdfdevicegetdevicepowerstate, wdfdevice/WdfDeviceGetDevicePowerState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 0883b10c-1900-42b1-afc9-1e61effed111
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.ioctl_serial_set_line_control, IOCTL_SERIAL_SET_LINE_CONTROL control code [Serial Ports], IOCTL_SERIAL_SET_LINE_CONTROL, ntddser/IOCTL_SERIAL_SET_LINE_CONTROL, serref_70796be3-dbb8-4918-899d-d3750813aad3.xml
+ms.keywords: IOCTL_SERIAL_SET_LINE_CONTROL, IOCTL_SERIAL_SET_LINE_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_LINE_CONTROL, serports.ioctl_serial_set_line_control, serref_70796be3-dbb8-4918-899d-d3750813aad3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

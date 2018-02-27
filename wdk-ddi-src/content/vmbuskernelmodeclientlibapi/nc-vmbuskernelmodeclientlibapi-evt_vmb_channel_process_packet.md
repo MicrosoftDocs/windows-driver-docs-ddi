@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 46020122-0B0E-4C05-8B13-68100B227E93
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.evt_vmb_channel_process_packet, EvtVmbChannelProcessPacket callback function [Network Drivers Starting with Windows Vista], EvtVmbChannelProcessPacket, EVT_VMB_CHANNEL_PROCESS_PACKET, EVT_VMB_CHANNEL_PROCESS_PACKET, vmbuskernelmodeclientlibapi/EvtVmbChannelProcessPacket, VMBUS_CHANNEL_PROCESS_PACKET_FLAGS, PFN_VMB_CHANNEL_PROCESS_PACKET callback function pointer [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_PROCESS_PACKET
+ms.keywords: EVT_VMB_CHANNEL_PROCESS_PACKET, EvtVmbChannelProcessPacket, EvtVmbChannelProcessPacket callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_PROCESS_PACKET, PFN_VMB_CHANNEL_PROCESS_PACKET callback function pointer [Network Drivers Starting with Windows Vista], VMBUS_CHANNEL_PROCESS_PACKET_FLAGS, netvista.evt_vmb_channel_process_packet, vmbuskernelmodeclientlibapi/EvtVmbChannelProcessPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -154,15 +154,15 @@ has been configured to defer packet processing to a worker thread.
 
 ## -see-also
 
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelpacketgetexternaldata.md">VmbChannelPacketGetExternalData</a>
+
+
+
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetprocesspacketcallbacks.md">VmbChannelInitSetProcessPacketCallbacks</a>
 
 
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelpacketcomplete.md">VmbChannelPacketComplete</a>
-
-
-
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelpacketgetexternaldata.md">VmbChannelPacketGetExternalData</a>
 
 
 

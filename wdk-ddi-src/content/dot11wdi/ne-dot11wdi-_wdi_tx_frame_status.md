@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6ea8a7ac-96dc-4337-884f-d30fbee1f760
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: dot11wdi/WDI_TxFrameStatus_Discard, dot11wdi/WDI_TxFrameStatus_NoAck, WDI_TX_FRAME_STATUS enumeration [Network Drivers Starting with Windows Vista], WDI_TxFrameStatus_SendPostponed, WDI_TxFrameStatus_Ok, dot11wdi/WDI_TX_FRAME_STATUS, WDI_TxFrameStatus_Discard, WDI_TxFrameStatus_NoAck, WDI_TxFrameStatus_TransferFailed, dot11wdi/WDI_TxFrameStatus_TransferFailed, netvista.wifi_tx_frame_status, dot11wdi/WDI_TxFrameStatus_Ok, WDI_TxFrameStatus_SendCancelled, dot11wdi/WDI_TxFrameStatus_SendPostponed, _WDI_TX_FRAME_STATUS, dot11wdi/WDI_TxFrameStatus_TransferCancelled, WDI_TX_FRAME_STATUS, WDI_TxFrameStatus_TransferCancelled, netvista.wdi_tx_frame_status, dot11wdi/WDI_TxFrameStatus_SendCancelled
+ms.keywords: WDI_TX_FRAME_STATUS, WDI_TX_FRAME_STATUS enumeration [Network Drivers Starting with Windows Vista], WDI_TxFrameStatus_Discard, WDI_TxFrameStatus_NoAck, WDI_TxFrameStatus_Ok, WDI_TxFrameStatus_SendCancelled, WDI_TxFrameStatus_SendPostponed, WDI_TxFrameStatus_TransferCancelled, WDI_TxFrameStatus_TransferFailed, _WDI_TX_FRAME_STATUS, dot11wdi/WDI_TX_FRAME_STATUS, dot11wdi/WDI_TxFrameStatus_Discard, dot11wdi/WDI_TxFrameStatus_NoAck, dot11wdi/WDI_TxFrameStatus_Ok, dot11wdi/WDI_TxFrameStatus_SendCancelled, dot11wdi/WDI_TxFrameStatus_SendPostponed, dot11wdi/WDI_TxFrameStatus_TransferCancelled, dot11wdi/WDI_TxFrameStatus_TransferFailed, netvista.wdi_tx_frame_status, netvista.wifi_tx_frame_status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

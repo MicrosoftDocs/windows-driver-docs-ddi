@@ -7,8 +7,8 @@ old-location: audio\iportwavepcistream_getmapping.htm
 old-project: audio
 ms.assetid: f0d4f266-6a43-4523-bf1d-3dda1fc9a5b8
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audmp-routines_e0c71b6a-ec20-47ab-85bc-7a3495e5247e.xml, IPortWavePciStream, audio.iportwavepcistream_getmapping, GetMapping, portcls/IPortWavePciStream::GetMapping, GetMapping method [Audio Devices], IPortWavePciStream interface [Audio Devices], GetMapping method, GetMapping method [Audio Devices], IPortWavePciStream interface, IPortWavePciStream::GetMapping
+ms.date: 2/22/2018
+ms.keywords: GetMapping method [Audio Devices], GetMapping method [Audio Devices], IPortWavePciStream interface, GetMapping,IPortWavePciStream.GetMapping, IPortWavePciStream, IPortWavePciStream interface [Audio Devices], GetMapping method, IPortWavePciStream::GetMapping, audio.iportwavepcistream_getmapping, audmp-routines_e0c71b6a-ec20-47ab-85bc-7a3495e5247e.xml, portcls/IPortWavePciStream::GetMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -177,15 +177,7 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
 
 
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536911">IPortWavePciStream::ReleaseMapping</a>
-
-
-
-<a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
 
 
 
@@ -197,6 +189,14 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536730">IMiniportWavePciStream::RevokeMappings</a>
+
+
+
+<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+
+
+
 <a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
 
 
@@ -205,5 +205,5 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWavePciStream::GetMapping method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWavePciStream::GetMapping method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

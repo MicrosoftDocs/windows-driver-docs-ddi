@@ -7,8 +7,8 @@ old-location: kernel\iogetactivityidirp.htm
 old-project: kernel
 ms.assetid: FAFF65EF-F1D8-4B54-B281-D5C4AC124E32
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.iogetactivityidirp, IoGetActivityIdIrp, ntddk/IoGetActivityIdIrp, IoGetActivityIdIrp routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: IoGetActivityIdIrp, IoGetActivityIdIrp routine [Kernel-Mode Driver Architecture], kernel.iogetactivityidirp, ntddk/IoGetActivityIdIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoGetActivityIdIrp
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoGetActivityIdIrp function

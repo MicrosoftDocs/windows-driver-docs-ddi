@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a26e9602-058b-401b-85be-9d80e4ef213b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisGeneratePartialCancelId, protocol_ndis_functions_ref_0d6b9e5a-d346-46a0-8f1c-d6677df53f1c.xml, NdisGeneratePartialCancelId function [Network Drivers Starting with Windows Vista], NdisGeneratePartialCancelId, netvista.ndisgeneratepartialcancelid
+ms.keywords: NdisGeneratePartialCancelId, NdisGeneratePartialCancelId function [Network Drivers Starting with Windows Vista], ndis/NdisGeneratePartialCancelId, netvista.ndisgeneratepartialcancelid, protocol_ndis_functions_ref_0d6b9e5a-d346-46a0-8f1c-d6677df53f1c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisGeneratePartialCancelId
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGeneratePartialCancelId function
@@ -111,12 +111,7 @@ Typically, an overlying driver calls
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
-   NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
 
 
 
@@ -124,11 +119,12 @@ Typically, an overlying driver calls
 
 
 
-<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+   NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

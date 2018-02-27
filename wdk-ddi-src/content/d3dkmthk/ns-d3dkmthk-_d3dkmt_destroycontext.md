@@ -7,8 +7,8 @@ old-location: display\d3dkmt_destroycontext.htm
 old-project: display
 ms.assetid: 116c0fa7-ac3c-4a56-804c-637514a19c73
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: OpenGL_Structs_97f52665-09e6-4f11-b2cc-a7abcc61827c.xml, D3DKMT_DESTROYCONTEXT, D3DKMT_DESTROYCONTEXT structure [Display Devices], _D3DKMT_DESTROYCONTEXT, d3dkmthk/D3DKMT_DESTROYCONTEXT, display.d3dkmt_destroycontext
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_DESTROYCONTEXT, D3DKMT_DESTROYCONTEXT structure [Display Devices], OpenGL_Structs_97f52665-09e6-4f11-b2cc-a7abcc61827c.xml, _D3DKMT_DESTROYCONTEXT, d3dkmthk/D3DKMT_DESTROYCONTEXT, display.d3dkmt_destroycontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -69,7 +69,7 @@ typedef struct _D3DKMT_DESTROYCONTEXT {
 
 ### -field hContext
 
-[in] A handle to the device context that the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) supplied and that is returned from the call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontext.md">D3DKMTCreateContext</a> function.
+[in] A handle to the device context that the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) supplied and that is returned from the call to the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createcontext.md">D3DKMTCreateContext</a> function.
 
 
 ## -see-also
@@ -78,7 +78,7 @@ typedef struct _D3DKMT_DESTROYCONTEXT {
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontext.md">D3DKMTCreateContext</a>
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createcontext.md">D3DKMTCreateContext</a>
 
 
 
@@ -86,5 +86,5 @@ typedef struct _D3DKMT_DESTROYCONTEXT {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_DESTROYCONTEXT structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_DESTROYCONTEXT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

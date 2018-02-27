@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f1bac8c1-a313-40b9-96fc-9eaf426bf238
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fsrtloplockfsctrlex, ntifs/FsRtlOplockFsctrlEx, fsrtlref_fa242815-36f3-4c0a-ae1d-826d0208e191.xml, FsRtlOplockFsctrlEx, FsRtlOplockFsctrlEx routine [Installable File System Drivers]
+ms.keywords: FsRtlOplockFsctrlEx, FsRtlOplockFsctrlEx routine [Installable File System Drivers], fsrtlref_fa242815-36f3-4c0a-ae1d-826d0208e191.xml, ifsk.fsrtloplockfsctrlex, ntifs/FsRtlOplockFsctrlEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -241,35 +241,7 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockfsctrlex.md"
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545476">FSCTL_OPLOCK_BREAK_ACK_NO_2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545510">FSCTL_REQUEST_BATCH_OPLOCK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545468">FSCTL_OPLOCK_BREAK_ACKNOWLEDGE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545485">FSCTL_OPLOCK_BREAK_NOTIFY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545462">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltoplockfsctrlex.md">FltOplockFsctrlEx</a>
 
 
 
@@ -277,7 +249,7 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockfsctrlex.md"
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545546">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545510">FSCTL_REQUEST_BATCH_OPLOCK</a>
 
 
 
@@ -285,11 +257,39 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockfsctrlex.md"
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545546">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545530">FSCTL_REQUEST_OPLOCK</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltoplockfsctrlex.md">FltOplockFsctrlEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545476">FSCTL_OPLOCK_BREAK_ACK_NO_2</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545462">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545485">FSCTL_OPLOCK_BREAK_NOTIFY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545468">FSCTL_OPLOCK_BREAK_ACKNOWLEDGE</a>
 
 
 

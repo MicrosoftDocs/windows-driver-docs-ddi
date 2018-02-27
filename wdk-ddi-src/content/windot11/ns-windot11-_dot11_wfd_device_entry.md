@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 548A40F7-1C02-4BF0-8F78-EB8C3C97CEB4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: windot11/PDOT11_WFD_DEVICE_ENTRY, netvista._dot11_wfd_device_entry, DOT11_WFD_DEVICE_ENTRY structure [Network Drivers Starting with Windows Vista], DOT11_WFD_DEVICE_ENTRY, PDOT11_WFD_DEVICE_ENTRY, _DOT11_WFD_DEVICE_ENTRY, windot11/ DOT11_WFD_DEVICE_ENTRY, *PDOT11_WFD_DEVICE_ENTRY, PDOT11_WFD_DEVICE_ENTRY structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PDOT11_WFD_DEVICE_ENTRY, DOT11_WFD_DEVICE_ENTRY, DOT11_WFD_DEVICE_ENTRY structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_DEVICE_ENTRY, PDOT11_WFD_DEVICE_ENTRY structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_DEVICE_ENTRY, netvista._dot11_wfd_device_entry, windot11/ DOT11_WFD_DEVICE_ENTRY, windot11/PDOT11_WFD_DEVICE_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_WFD_DEVICE_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_WFD_DEVICE_ENTRY, DOT11_WFD_DEVICE_ENTRY"
+req.typenames: DOT11_WFD_DEVICE_ENTRY, *PDOT11_WFD_DEVICE_ENTRY
 req.product: Windows 10 or later.
 ---
 
@@ -165,19 +165,11 @@ The length, in bytes, of the IEs at <b>uProbeResponseIEsOffset</b>. This is an e
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451796">OID_DOT11_WFD_ENUM_DEVICE_LIST</a>
-
-
-
 <a href="..\windot11\ns-windot11-dot11_bss_entry_phy_specific_info.md">DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO</a>
 
 
 
-<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
+<a href="..\ndis\nf-ndis-ndisgetcurrentsystemtime.md">NdisGetCurrentSystemTime</a>
 
 
 
@@ -190,6 +182,14 @@ The length, in bytes, of the IEs at <b>uProbeResponseIEsOffset</b>. This is an e
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451704">NDIS_STATUS_DOT11_WFD_DISCOVER_COMPLETE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451796">OID_DOT11_WFD_ENUM_DEVICE_LIST</a>
+
+
+
+<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
 
 
 

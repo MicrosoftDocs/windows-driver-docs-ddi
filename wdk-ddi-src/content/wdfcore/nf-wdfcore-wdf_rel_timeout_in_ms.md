@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f68b9575-04e4-4046-aec4-b664d8a643d4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdf_rel_timeout_in_ms, WDF_REL_TIMEOUT_IN_MS, wdf.wdf_rel_timeout_in_ms, wdfcore/WDF_REL_TIMEOUT_IN_MS, DFTimerObjectRef_0504a695-4fab-4656-8522-a6c9f0989c2d.xml, WDF_REL_TIMEOUT_IN_MS function
+ms.keywords: DFTimerObjectRef_0504a695-4fab-4656-8522-a6c9f0989c2d.xml, WDF_REL_TIMEOUT_IN_MS, WDF_REL_TIMEOUT_IN_MS function, kmdf.wdf_rel_timeout_in_ms, wdf.wdf_rel_timeout_in_ms, wdfcore/WDF_REL_TIMEOUT_IN_MS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

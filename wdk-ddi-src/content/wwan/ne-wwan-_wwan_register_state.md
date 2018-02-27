@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fba4e60e-c247-4466-9b0f-c8e7ffa594d2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wwan/WwanRegisterStateHome, wwan/WwanRegisterStateRoaming, WWAN_REGISTER_STATE enumeration [Network Drivers Starting with Windows Vista], _WWAN_REGISTER_STATE, wwan/WwanRegisterStateDeregistered, wwan/WWAN_REGISTER_STATE, WWAN_REGISTER_STATE, WwanRegisterStateMax, PWWAN_REGISTER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], netvista.wwan_register_state, WwanRegisterStateRoaming, WwanRef_927c04e0-b022-4d93-8052-696b5e9da51f.xml, WwanRegisterStateHome, WwanRegisterStateDenied, wwan/WwanRegisterStateMax, wwan/WwanRegisterStateSearching, WwanRegisterStateUnknown, wwan/WwanRegisterStateDenied, WwanRegisterStateDeregistered, *PWWAN_REGISTER_STATE, wwan/WwanRegisterStateUnknown, wwan/WwanRegisterStatePartner, PWWAN_REGISTER_STATE, wwan/PWWAN_REGISTER_STATE, WwanRegisterStateSearching, WwanRegisterStatePartner
+ms.keywords: "*PWWAN_REGISTER_STATE, PWWAN_REGISTER_STATE, PWWAN_REGISTER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_REGISTER_STATE, WWAN_REGISTER_STATE enumeration [Network Drivers Starting with Windows Vista], WwanRef_927c04e0-b022-4d93-8052-696b5e9da51f.xml, WwanRegisterStateDenied, WwanRegisterStateDeregistered, WwanRegisterStateHome, WwanRegisterStateMax, WwanRegisterStatePartner, WwanRegisterStateRoaming, WwanRegisterStateSearching, WwanRegisterStateUnknown, _WWAN_REGISTER_STATE, netvista.wwan_register_state, wwan/PWWAN_REGISTER_STATE, wwan/WWAN_REGISTER_STATE, wwan/WwanRegisterStateDenied, wwan/WwanRegisterStateDeregistered, wwan/WwanRegisterStateHome, wwan/WwanRegisterStateMax, wwan/WwanRegisterStatePartner, wwan/WwanRegisterStateRoaming, wwan/WwanRegisterStateSearching, wwan/WwanRegisterStateUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_REGISTER_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_REGISTER_STATE, WWAN_REGISTER_STATE"
+req.typenames: WWAN_REGISTER_STATE, *PWWAN_REGISTER_STATE
 req.product: Windows 10 or later.
 ---
 

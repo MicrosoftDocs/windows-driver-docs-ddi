@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6a60c563-582a-4919-bf0f-919deb3055d3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtioallocaterequestresources, EvtIoAllocateRequestResources callback function, EvtIoAllocateRequestResources, EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES, EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES, wdfio/EvtIoAllocateRequestResources, DFQueueObjectRef_85702d4a-4861-4512-a392-f106e038d3be.xml, kmdf.evtioallocaterequestresources
+ms.keywords: DFQueueObjectRef_85702d4a-4861-4512-a392-f106e038d3be.xml, EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES, EvtIoAllocateRequestResources, EvtIoAllocateRequestResources callback function, kmdf.evtioallocaterequestresources, wdf.evtioallocaterequestresources, wdfio/EvtIoAllocateRequestResources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	EvtIoAllocateRequestResources
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO"
+req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
 req.product: Windows 10 or later.
 ---
 

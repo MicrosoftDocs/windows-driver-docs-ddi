@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b2b2fd0c-c331-4132-b037-05c816626563
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdf_wmi_instance_config, PWDF_WMI_INSTANCE_CONFIG structure pointer, DFWMIRef_20be4139-3dcc-425e-9aaf-2851ceb794fb.xml, WDF_WMI_INSTANCE_CONFIG structure, PWDF_WMI_INSTANCE_CONFIG, wdfwmi/PWDF_WMI_INSTANCE_CONFIG, wdf.wdf_wmi_instance_config, _WDF_WMI_INSTANCE_CONFIG, WDF_WMI_INSTANCE_CONFIG, *PWDF_WMI_INSTANCE_CONFIG, wdfwmi/WDF_WMI_INSTANCE_CONFIG
+ms.keywords: "*PWDF_WMI_INSTANCE_CONFIG, DFWMIRef_20be4139-3dcc-425e-9aaf-2851ceb794fb.xml, PWDF_WMI_INSTANCE_CONFIG, PWDF_WMI_INSTANCE_CONFIG structure pointer, WDF_WMI_INSTANCE_CONFIG, WDF_WMI_INSTANCE_CONFIG structure, _WDF_WMI_INSTANCE_CONFIG, kmdf.wdf_wmi_instance_config, wdf.wdf_wmi_instance_config, wdfwmi/PWDF_WMI_INSTANCE_CONFIG, wdfwmi/WDF_WMI_INSTANCE_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_WMI_INSTANCE_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_WMI_INSTANCE_CONFIG, WDF_WMI_INSTANCE_CONFIG"
+req.typenames: WDF_WMI_INSTANCE_CONFIG, *PWDF_WMI_INSTANCE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -138,7 +138,19 @@ To initialize a <b>WDF_WMI_INSTANCE_CONFIG</b> structure, your driver should cal
 
 ## -see-also
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstanceregister.md">WdfWmiInstanceRegister</a>
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_item.md">EvtWmiInstanceSetItem</a>
+
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_instance_config_init_provider.md">WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER</a>
+
+
+
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_execute_method.md">EvtWmiInstanceExecuteMethod</a>
+
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
 
 
 
@@ -146,7 +158,11 @@ To initialize a <b>WDF_WMI_INSTANCE_CONFIG</b> structure, your driver should cal
 
 
 
-<a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_instance_config_init_provider.md">WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_instance_config_init_provider_config.md">WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG</a>
+
+
+
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_instance.md">EvtWmiInstanceSetInstance</a>
 
 
 
@@ -158,23 +174,7 @@ To initialize a <b>WDF_WMI_INSTANCE_CONFIG</b> structure, your driver should cal
 
 
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_execute_method.md">EvtWmiInstanceExecuteMethod</a>
-
-
-
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_instance.md">EvtWmiInstanceSetInstance</a>
-
-
-
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
-
-
-
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_item.md">EvtWmiInstanceSetItem</a>
-
-
-
-<a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_instance_config_init_provider_config.md">WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstanceregister.md">WdfWmiInstanceRegister</a>
 
 
 

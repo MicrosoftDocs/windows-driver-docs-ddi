@@ -7,8 +7,8 @@ old-location: display\dxgk_standard_colorimetry_flags.htm
 old-project: display
 ms.assetid: 473C5D7B-8FDD-49E2-981A-00ECCA67671A
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3dkmddi/DXGK_STANDARD_COLORIMETRY_FLAGS, *PDXGK_STANDARD_COLORIMETRY_FLAGS, _DXGK_STANDARD_COLORIMETRY_FLAGS, DXGK_STANDARD_COLORIMETRY_FLAGS union [Display Devices], PDXGK_STANDARD_COLORIMETRY_FLAGS union pointer [Display Devices], DXGK_STANDARD_COLORIMETRY_FLAGS, display.dxgk_standard_colorimetry_flags, d3dkmddi/PDXGK_STANDARD_COLORIMETRY_FLAGS, PDXGK_STANDARD_COLORIMETRY_FLAGS
+ms.date: 2/24/2018
+ms.keywords: "*PDXGK_STANDARD_COLORIMETRY_FLAGS, DXGK_STANDARD_COLORIMETRY_FLAGS, DXGK_STANDARD_COLORIMETRY_FLAGS union [Display Devices], PDXGK_STANDARD_COLORIMETRY_FLAGS, PDXGK_STANDARD_COLORIMETRY_FLAGS union pointer [Display Devices], _DXGK_STANDARD_COLORIMETRY_FLAGS, d3dkmddi/DXGK_STANDARD_COLORIMETRY_FLAGS, d3dkmddi/PDXGK_STANDARD_COLORIMETRY_FLAGS, display.dxgk_standard_colorimetry_flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_STANDARD_COLORIMETRY_FLAGS
 product: Windows
 targetos: Windows
-req.typenames: "*PDXGK_STANDARD_COLORIMETRY_FLAGS, DXGK_STANDARD_COLORIMETRY_FLAGS"
+req.typenames: DXGK_STANDARD_COLORIMETRY_FLAGS, *PDXGK_STANDARD_COLORIMETRY_FLAGS
 ---
 
 # _DXGK_STANDARD_COLORIMETRY_FLAGS structure
@@ -78,22 +78,22 @@ typedef union _DXGK_STANDARD_COLORIMETRY_FLAGS {
 The combined value that is operated on.
 
 
-#### - BT2020YCC
-
-Flag which indicates device support for the color space defined by BT.2020 using a YCC signal format.
-
-
 #### - BT2020RGB
 
 Flag which indicates device support for the color space defined by BT.2020 using an RGB signal format.
 
 
-#### - ST2084
+#### - BT2020YCC
 
-Flag which indicates device support for the ST.2084 EOTF.
+Flag which indicates device support for the color space defined by BT.2020 using a YCC signal format.
 
 
 #### - Reserved
 
 This value is reserved for system use.
+
+
+#### - ST2084
+
+Flag which indicates device support for the ST.2084 EOTF.
 

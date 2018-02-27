@@ -7,8 +7,8 @@ old-location: kernel\iowmiqueryalldata.htm
 old-project: kernel
 ms.assetid: d0efae7b-5a53-4f8a-b2d7-c30eefad7c90
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: k104_120c73d7-392a-4604-8f6b-11c4e717fcac.xml, wdm/IoWMIQueryAllData, IoWMIQueryAllData routine [Kernel-Mode Driver Architecture], IoWMIQueryAllData, kernel.iowmiqueryalldata
+ms.date: 2/24/2018
+ms.keywords: IoWMIQueryAllData, IoWMIQueryAllData routine [Kernel-Mode Driver Architecture], k104_120c73d7-392a-4604-8f6b-11c4e717fcac.xml, kernel.iowmiqueryalldata, wdm/IoWMIQueryAllData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -148,6 +148,10 @@ To query for multiple WMI classes, use <a href="..\wdm\nf-wdm-iowmiqueryalldatam
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a>
 
 
@@ -156,13 +160,9 @@ To query for multiple WMI classes, use <a href="..\wdm\nf-wdm-iowmiqueryalldatam
 
 
 
-<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoWMIQueryAllData routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoWMIQueryAllData routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

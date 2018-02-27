@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 465716C7-A157-4B06-BAE2-F18A08126040
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwdirxrestart, MiniportWdiRxRestart callback function [Network Drivers Starting with Windows Vista], MiniportWdiRxRestart, MINIPORT_WDI_RX_RESTART, MINIPORT_WDI_RX_RESTART, dot11wdi/MiniportWdiRxRestart
+ms.keywords: MINIPORT_WDI_RX_RESTART, MiniportWdiRxRestart, MiniportWdiRxRestart callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxRestart, netvista.miniportwdirxrestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	MiniportWdiRxRestart
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_RX_RESTART callback
@@ -96,11 +96,7 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/EEEA7181-4A24-4F40-8A44-65EC38D1A867">WDI RX path</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
 
 
@@ -109,6 +105,10 @@ This callback function does not return a value.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
+
+
+
+<a href="https://msdn.microsoft.com/EEEA7181-4A24-4F40-8A44-65EC38D1A867">WDI RX path</a>
 
 
 

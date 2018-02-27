@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: adcc5f64-b49c-47ca-8ef9-276537a0d7c6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfPnpCapMaximum, wudfddi_types/WdfPnpCapRemovable, WDF_PNP_CAPABILITY, wudfddi_types/WdfPnpCapEjectSupported, WdfPnpCapNoDisplayInUI, WdfPnpCapEjectSupported, WdfPnpCapRemovable, wudfddi_types/WdfPnpCapDockDevice, wudfddi_types/WDF_PNP_CAPABILITY, wdf.wdf_pnp_capability, wudfddi_types/WdfPnpCapLockSupported, WdfPnpCapDockDevice, WDF_PNP_CAPABILITY enumeration, wudfddi_types/WdfPnpCapNoDisplayInUI, wudfddi_types/WdfPnpCapMaximum, umdfstructs_365aedf9-fb60-49db-8925-bc6cf0d9a9d6.xml, WdfPnpCapInvalid, _WDF_PNP_CAPABILITY, umdf.wdf_pnp_capability, wudfddi_types/WdfPnpCapSurpriseRemovalOk, WdfPnpCapLockSupported, WdfPnpCapSurpriseRemovalOk, wudfddi_types/WdfPnpCapInvalid
+ms.keywords: WDF_PNP_CAPABILITY, WDF_PNP_CAPABILITY enumeration, WdfPnpCapDockDevice, WdfPnpCapEjectSupported, WdfPnpCapInvalid, WdfPnpCapLockSupported, WdfPnpCapMaximum, WdfPnpCapNoDisplayInUI, WdfPnpCapRemovable, WdfPnpCapSurpriseRemovalOk, _WDF_PNP_CAPABILITY, umdf.wdf_pnp_capability, umdfstructs_365aedf9-fb60-49db-8925-bc6cf0d9a9d6.xml, wdf.wdf_pnp_capability, wudfddi_types/WDF_PNP_CAPABILITY, wudfddi_types/WdfPnpCapDockDevice, wudfddi_types/WdfPnpCapEjectSupported, wudfddi_types/WdfPnpCapInvalid, wudfddi_types/WdfPnpCapLockSupported, wudfddi_types/WdfPnpCapMaximum, wudfddi_types/WdfPnpCapNoDisplayInUI, wudfddi_types/WdfPnpCapRemovable, wudfddi_types/WdfPnpCapSurpriseRemovalOk
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

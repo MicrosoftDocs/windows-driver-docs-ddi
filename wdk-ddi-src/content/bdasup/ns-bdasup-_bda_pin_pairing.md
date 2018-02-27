@@ -7,8 +7,8 @@ old-location: stream\bda_pin_pairing.htm
 old-project: stream
 ms.assetid: 0d05455d-32ea-4f88-8752-7f5fe40b8b29
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: bdasup/BDA_PIN_PAIRING, bdasup/PBDA_PIN_PAIRING, stream.bda_pin_pairing, _BDA_PIN_PAIRING, PBDA_PIN_PAIRING, *PBDA_PIN_PAIRING, PBDA_PIN_PAIRING structure pointer [Streaming Media Devices], bdaref_b007d58d-86c0-4653-867a-78ef5be2f260.xml, BDA_PIN_PAIRING, BDA_PIN_PAIRING structure [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PBDA_PIN_PAIRING, BDA_PIN_PAIRING, BDA_PIN_PAIRING structure [Streaming Media Devices], PBDA_PIN_PAIRING, PBDA_PIN_PAIRING structure pointer [Streaming Media Devices], _BDA_PIN_PAIRING, bdaref_b007d58d-86c0-4653-867a-78ef5be2f260.xml, bdasup/BDA_PIN_PAIRING, bdasup/PBDA_PIN_PAIRING, stream.bda_pin_pairing"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,11 +120,11 @@ Array of joint values. The value given to a joint corresponds to the index of an
 
 
 
+<a href="..\bdatypes\ns-bdatypes-_bda_template_connection.md">BDA_TEMPLATE_CONNECTION</a>
+
+
+
 <a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
-
-
-
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
 
 
@@ -136,5 +136,5 @@ Array of joint values. The value given to a joint corresponds to the index of an
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BDA_PIN_PAIRING structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BDA_PIN_PAIRING structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

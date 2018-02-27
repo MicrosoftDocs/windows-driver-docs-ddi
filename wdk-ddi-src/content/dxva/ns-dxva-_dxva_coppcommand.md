@@ -7,8 +7,8 @@ old-location: display\dxva_coppcommand.htm
 old-project: display
 ms.assetid: 08c87f1f-ea50-4521-80a2-67369fc6598a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: LPDXVA_COPPCommand structure pointer [Display Devices], dxvaref_e27ea691-6ae9-41fc-9649-670231cb5ce8.xml, DXVA_COPPCommand, DXVA_COPPCommand structure [Display Devices], dxva/LPDXVA_COPPCommand, dxva/DXVA_COPPCommand, LPDXVA_COPPCommand, _DXVA_COPPCommand, display.dxva_coppcommand, *LPDXVA_COPPCommand
+ms.date: 2/24/2018
+ms.keywords: "*LPDXVA_COPPCommand, DXVA_COPPCommand, DXVA_COPPCommand structure [Display Devices], LPDXVA_COPPCommand, LPDXVA_COPPCommand structure pointer [Display Devices], _DXVA_COPPCommand, display.dxva_coppcommand, dxva/DXVA_COPPCommand, dxva/LPDXVA_COPPCommand, dxvaref_e27ea691-6ae9-41fc-9649-670231cb5ce8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -153,15 +153,15 @@ For a DXVA_COPPSetSignaling command, the signaling information is supplied by ca
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_coppsignature.md">DXVA_COPPSignature</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
 
 
 
 <a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_coppsignature.md">DXVA_COPPSignature</a>
 
 
 
@@ -173,5 +173,5 @@ For a DXVA_COPPSetSignaling command, the signaling information is supplied by ca
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_COPPCommand structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_COPPCommand structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 388dc11d-79cc-4e6b-bce0-b99cca556342
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltQuerySecurityObject function [Installable File System Drivers], ifsk.fltquerysecurityobject, FltApiRef_p_to_z_6fa8f026-1268-4a97-b1e3-a2773e0a1784.xml, FltQuerySecurityObject, fltkernel/FltQuerySecurityObject
+ms.keywords: FltApiRef_p_to_z_6fa8f026-1268-4a97-b1e3-a2773e0a1784.xml, FltQuerySecurityObject, FltQuerySecurityObject function [Installable File System Drivers], fltkernel/FltQuerySecurityObject, ifsk.fltquerysecurityobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -233,11 +233,11 @@ For more information about security and access control, see the Microsoft Window
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_stream_information.md">FILE_STREAM_INFORMATION</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
 
 
 

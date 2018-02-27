@@ -7,8 +7,8 @@ old-location: storage\iscsi_discoveredtargetportal2.htm
 old-project: storage
 ms.assetid: 68128d39-2490-4c6b-8780-e5aa542a4e3d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.iscsi_discoveredtargetportal2, iscsifnd/PISCSI_DiscoveredTargetPortal2, structs-iSCSI_bbb760ce-7dc5-4f04-880e-3ff53921ed78.xml, PISCSI_DiscoveredTargetPortal2, _ISCSI_DiscoveredTargetPortal2, *PISCSI_DiscoveredTargetPortal2, iscsifnd/ISCSI_DiscoveredTargetPortal2, ISCSI_DiscoveredTargetPortal2, ISCSI_DiscoveredTargetPortal2 structure [Storage Devices], PISCSI_DiscoveredTargetPortal2 structure pointer [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PISCSI_DiscoveredTargetPortal2, ISCSI_DiscoveredTargetPortal2, ISCSI_DiscoveredTargetPortal2 structure [Storage Devices], PISCSI_DiscoveredTargetPortal2, PISCSI_DiscoveredTargetPortal2 structure pointer [Storage Devices], _ISCSI_DiscoveredTargetPortal2, iscsifnd/ISCSI_DiscoveredTargetPortal2, iscsifnd/PISCSI_DiscoveredTargetPortal2, storage.iscsi_discoveredtargetportal2, structs-iSCSI_bbb760ce-7dc5-4f04-880e-3ff53921ed78.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ISCSI_DiscoveredTargetPortal2
 product: Windows
 targetos: Windows
-req.typenames: "*PISCSI_DiscoveredTargetPortal2, ISCSI_DiscoveredTargetPortal2"
+req.typenames: ISCSI_DiscoveredTargetPortal2, *PISCSI_DiscoveredTargetPortal2
 ---
 
 # _ISCSI_DiscoveredTargetPortal2 structure
@@ -195,7 +195,7 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561524">ISCSI_DiscoveredTargetPortal WMI Class</a>
+<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal.md">ISCSI_DiscoveredTargetPortal</a>
 
 
 
@@ -203,7 +203,7 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 
 
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal.md">ISCSI_DiscoveredTargetPortal</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561524">ISCSI_DiscoveredTargetPortal WMI Class</a>
 
 
 
@@ -211,5 +211,5 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_DiscoveredTargetPortal2 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_DiscoveredTargetPortal2 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9b98d5f1-6052-4c52-b3d4-031c8a0db51c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: "_WDF_USB_CONTINUOUS_READER_CONFIG, kmdf.wdf_usb_continuous_reader_config, wdf.wdf_usb_continuous_reader_config, wdfusb/PWDF_USB_CONTINUOUS_READER_CONFIG, PWDF_USB_CONTINUOUS_READER_CONFIG structure pointer, WDF_USB_CONTINUOUS_READER_CONFIG structure, wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG, *PWDF_USB_CONTINUOUS_READER_CONFIG, PWDF_USB_CONTINUOUS_READER_CONFIG, WDF_USB_CONTINUOUS_READER_CONFIG, DFUsbRef_f74973fe-cb6c-470f-acd8-805ff2ea3c19.xml"
+ms.keywords: "*PWDF_USB_CONTINUOUS_READER_CONFIG, DFUsbRef_f74973fe-cb6c-470f-acd8-805ff2ea3c19.xml, PWDF_USB_CONTINUOUS_READER_CONFIG, PWDF_USB_CONTINUOUS_READER_CONFIG structure pointer, WDF_USB_CONTINUOUS_READER_CONFIG, WDF_USB_CONTINUOUS_READER_CONFIG structure, _WDF_USB_CONTINUOUS_READER_CONFIG, kmdf.wdf_usb_continuous_reader_config, wdf.wdf_usb_continuous_reader_config, wdfusb/PWDF_USB_CONTINUOUS_READER_CONFIG, wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_USB_CONTINUOUS_READER_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_CONTINUOUS_READER_CONFIG, WDF_USB_CONTINUOUS_READER_CONFIG"
+req.typenames: WDF_USB_CONTINUOUS_READER_CONFIG, *PWDF_USB_CONTINUOUS_READER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -158,23 +158,23 @@ A <b>NumPendingReads</b> value that is too large can slow down a system's perfor
 
 ## -see-also
 
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeconfigcontinuousreader.md">WdfUsbTargetPipeConfigContinuousReader</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_continuous_reader_config_init.md">WDF_USB_CONTINUOUS_READER_CONFIG_INIT</a>
+
+
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
 <a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_reader_completion_routine.md">EvtUsbTargetPipeReadComplete</a>
 
 
 
 <a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_failed.md">EvtUsbTargetPipeReadersFailed</a>
-
-
-
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeconfigcontinuousreader.md">WdfUsbTargetPipeConfigContinuousReader</a>
-
-
-
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 

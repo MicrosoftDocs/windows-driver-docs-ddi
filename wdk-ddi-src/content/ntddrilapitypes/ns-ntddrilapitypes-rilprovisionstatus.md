@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5295f07d-9800-47f0-a827-515fcdad04eb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*LPRILPROVISIONSTATUS, netvista.rilprovisionstatus, RILPROVISIONSTATUS, RILPROVISIONSTATUS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILPROVISIONSTATUS"
+ms.keywords: "*LPRILPROVISIONSTATUS, RILPROVISIONSTATUS, RILPROVISIONSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilprovisionstatus, ntddrilapitypes/RILPROVISIONSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILPROVISIONSTATUS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILPROVISIONSTATUS, RILPROVISIONSTATUS"
+req.typenames: RILPROVISIONSTATUS, *LPRILPROVISIONSTATUS
 ---
 
 # RILPROVISIONSTATUS structure

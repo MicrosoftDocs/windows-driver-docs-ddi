@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 71020A3E-0839-4D73-B1B7-8A979BD0F5E0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WDI_TYPE_PMK_NAME structure [Network Drivers Starting with Windows Vista], wditypes/PWDI_TYPE_PMK_NAME, PWDI_TYPE_PMK_NAME structure pointer [Network Drivers Starting with Windows Vista], _WDI_TYPE_PMK_NAME, netvista.wdi_type_pmk_name, WDI_TYPE_PMK_NAME, wditypes/WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME, PWDI_TYPE_PMK_NAME
+ms.keywords: "*PWDI_TYPE_PMK_NAME, PWDI_TYPE_PMK_NAME, PWDI_TYPE_PMK_NAME structure pointer [Network Drivers Starting with Windows Vista], WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME structure [Network Drivers Starting with Windows Vista], _WDI_TYPE_PMK_NAME, netvista.wdi_type_pmk_name, wditypes/PWDI_TYPE_PMK_NAME, wditypes/WDI_TYPE_PMK_NAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDI_TYPE_PMK_NAME
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f4b9b6ab-2251-4b8a-baf5-16c845a1a4db
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.fwpsnetbufferlistgettagforcontext0, fwpsk/FwpsNetBufferListGetTagForContext0, FwpsNetBufferListGetTagForContext0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_J-Q_f81dda7b-70fb-42ae-8641-c9bb2a9e7982.xml, FwpsNetBufferListGetTagForContext0
+ms.keywords: FwpsNetBufferListGetTagForContext0, FwpsNetBufferListGetTagForContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListGetTagForContext0, netvista.fwpsnetbufferlistgettagforcontext0, wfp_ref_2_funct_3_fwps_J-Q_f81dda7b-70fb-42ae-8641-c9bb2a9e7982.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,6 +96,11 @@ The
 
 
 
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistretrievecontext0.md">
+   FwpsNetBufferListRetrieveContext0</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
@@ -107,11 +112,6 @@ The
 
 <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
    FwpsNetBufferListRemoveContext0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistretrievecontext0.md">
-   FwpsNetBufferListRetrieveContext0</a>
 
 
 

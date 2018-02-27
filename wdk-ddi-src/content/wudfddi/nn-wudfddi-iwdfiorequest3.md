@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 12F4CDB7-EEA5-49D1-AD41-6F5F0C9ED6C3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfiorequest3, IWDFIoRequest3 interface, IWDFIoRequest3 interface, described, IWDFIoRequest3, wudfddi/IWDFIoRequest3, umdf.iwdfiorequest3
+ms.keywords: IWDFIoRequest3, IWDFIoRequest3 interface, IWDFIoRequest3 interface, described, umdf.iwdfiorequest3, wdf.iwdfiorequest3, wudfddi/IWDFIoRequest3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -54,6 +54,13 @@ req.product: Windows 10 or later.
 
 To obtain the <b>IWDFIoRequest3</b> interface, drivers call <b>IWDFIoRequest::QueryInterface</b>.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoRequest3</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>. <b>IWDFIoRequest3</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -107,23 +114,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451354">SetUs
 
 </td>
 </tr>
-</table>
-   The 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451341">GetUserModeDriverInitiatedIo</a> method determines whether an I/O request is marked as initiated by a UMDF driver.
-
-
-   The 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451345">RetrieveActivityId</a> method retrieves the current activity identifier associated with an I/O request.
-
-
-   The 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451350">SetActivityId</a> method associates an activity identifier with an I/O request.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451354">SetUserModeDriverInitiatedIo</a> method 
-   
-  indicates to kernel-mode drivers that sit below the UMDF driver in the same device stack that a particular request should be treated as though it came from a UMDF driver.
-
- 
+</table> 
 
 
 ## -see-also

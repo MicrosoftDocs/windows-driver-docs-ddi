@@ -7,8 +7,8 @@ old-location: display\createcryptosession.htm
 old-project: display
 ms.assetid: 85d4ae6c-059d-4256-bdda-18de3d20537a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.createcryptosession, CreateCryptoSession callback function [Display Devices], CreateCryptoSession, PFND3DDDI_CREATECRYPTOSESSION, PFND3DDDI_CREATECRYPTOSESSION, d3dumddi/CreateCryptoSession, UserModeDisplayDriver_Functions_057e3836-924b-4f64-84fb-53464e71d716.xml
+ms.date: 2/24/2018
+ms.keywords: CreateCryptoSession, CreateCryptoSession callback function [Display Devices], PFND3DDDI_CREATECRYPTOSESSION, UserModeDisplayDriver_Functions_057e3836-924b-4f64-84fb-53464e71d716.xml, d3dumddi/CreateCryptoSession, display.createcryptosession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -179,5 +179,5 @@ The driver must keep track of the display device (<b>hDevice</b>) that was used 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_CREATECRYPTOSESSION callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_CREATECRYPTOSESSION callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

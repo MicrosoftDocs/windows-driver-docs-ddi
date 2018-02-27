@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 397d882d-c82a-4686-b9ca-58a2fade5256
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILGSMNMR structure [Network Drivers Starting with Windows Vista], *LPRILGSMNMR, rilapitypes/RILGSMNMR, RILGSMNMR, netvista.rilgsmnmr
+ms.keywords: "*LPRILGSMNMR, RILGSMNMR, RILGSMNMR structure [Network Drivers Starting with Windows Vista], netvista.rilgsmnmr, rilapitypes/RILGSMNMR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,7 +76,7 @@ struct RILGSMNMR {
 
 ### -field dwParams
 
-A bitwise combination of <a href="..\ntddrilapitypes\ne-ntddrilapitypes-rilgsmmnmrparammask.md">RILGSMMNMRPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
+A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilgsmmnmrparammask.md">RILGSMMNMRPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
 ### -field dwMobileCountryCode

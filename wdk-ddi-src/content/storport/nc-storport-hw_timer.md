@@ -7,8 +7,8 @@ old-location: storage\hwstortimer.htm
 old-project: storage
 ms.assetid: 61aced1b-9f8a-454a-901c-561ec6179873
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.hwstortimer, HwStorTimer routine [Storage Devices], HwStorTimer, HW_TIMER, HW_TIMER, storport/HwStorTimer, stormini_6127daf5-8672-4bf4-9241-b67bed14b8f8.xml
+ms.date: 2/24/2018
+ms.keywords: HW_TIMER, HwStorTimer, HwStorTimer routine [Storage Devices], storage.hwstortimer, stormini_6127daf5-8672-4bf4-9241-b67bed14b8f8.xml, storport/HwStorTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -105,7 +105,7 @@ HW_TIMER (
 </td>
 </tr>
 </table></span></div>
-If the miniport opts into multi-channel support, the StartIo spin lock is still taken. However, if the miniport has requested multiple channel support via PERF_CONFIGURATION_DATA, the StartIo spin lock is not taken or checked before the call to <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a> in the miniport.  This means that the <i>HwStorStartIo</i> callback  is not synchronized with the callback to the <i>HwStorTimer</i> routine when multi-channel support is used.  The miniport must do this on its own by using a compiler interlocked intrinsic, for example using <a href="..\miniport\nf-miniport-interlockedcompareexchange.md">InterlockedCompareExchange</a>. 
+If the miniport opts into multi-channel support, the StartIo spin lock is still taken. However, if the miniport has requested multiple channel support via PERF_CONFIGURATION_DATA, the StartIo spin lock is not taken or checked before the call to <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a> in the miniport.  This means that the <i>HwStorStartIo</i> callback  is not synchronized with the callback to the <i>HwStorTimer</i> routine when multi-channel support is used.  The miniport must do this on its own by using a compiler interlocked intrinsic, for example using <a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>. 
 
 A <b>HwStorTimer</b> routine is optional.
 
@@ -160,5 +160,5 @@ The <b>HW_TIMER</b> function type is defined in the Storport.h header file. To m
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HW_TIMER routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HW_TIMER routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

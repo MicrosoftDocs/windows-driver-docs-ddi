@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_resolve_query_data.htm
 old-project: display
 ms.assetid: 981053FF-9928-442F-B3B3-3B89AC61EEE4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.pfnd3d12ddi_resolve_query_data, pfnResolveQueryData callback function [Display Devices], pfnResolveQueryData, PFND3D12DDI_RESOLVE_QUERY_DATA, PFND3D12DDI_RESOLVE_QUERY_DATA, d3d12umddi/pfnResolveQueryData
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_RESOLVE_QUERY_DATA, d3d12umddi/pfnResolveQueryData, display.pfnd3d12ddi_resolve_query_data, pfnResolveQueryData, pfnResolveQueryData callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

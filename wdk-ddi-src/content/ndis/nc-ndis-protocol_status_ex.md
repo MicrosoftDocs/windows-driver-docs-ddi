@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5bc5a24f-5f28-4502-8776-b1cf15fd8283
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolstatusex, ProtocolStatusEx callback function [Network Drivers Starting with Windows Vista], ProtocolStatusEx, PROTOCOL_STATUS_EX, PROTOCOL_STATUS_EX, ndis/ProtocolStatusEx, ndis_status_ref_c14c8c6e-b2ed-41a7-a4da-c7415ee8b290.xml
+ms.keywords: PROTOCOL_STATUS_EX, ProtocolStatusEx, ProtocolStatusEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolStatusEx, ndis_status_ref_c14c8c6e-b2ed-41a7-a4da-c7415ee8b290.xml, netvista.protocolstatusex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -164,7 +164,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567419">NDIS_STATUS_RESET_END</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
 
 
@@ -172,15 +180,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 

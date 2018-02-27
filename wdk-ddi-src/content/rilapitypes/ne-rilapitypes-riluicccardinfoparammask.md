@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f27c7f54-f939-4e9b-a27c-b0137fbb7cec
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_PARAM_CARDINFO_APPINFO, rilapitypes/RILUICCCARDINFOPARAMMASK, netvista.riluicccardinfoparammask_2, rilapitypes/RIL_PARAM_CARDINFO_NUMAPPS, rilapitypes/RIL_PARAM_CARDINFO_APPINFO, rilapitypes/RIL_PARAM_CARDINFO_ALL, RILUICCCARDINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_CARDINFO_ICCID, RIL_PARAM_CARDINFO_NUMAPPS, RIL_PARAM_CARDINFO_ALL, RIL_PARAM_CARDINFO_ICCID, RILUICCCARDINFOPARAMMASK
+ms.keywords: RILUICCCARDINFOPARAMMASK, RILUICCCARDINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CARDINFO_ALL, RIL_PARAM_CARDINFO_APPINFO, RIL_PARAM_CARDINFO_ICCID, RIL_PARAM_CARDINFO_NUMAPPS, netvista.riluicccardinfoparammask_2, rilapitypes/RILUICCCARDINFOPARAMMASK, rilapitypes/RIL_PARAM_CARDINFO_ALL, rilapitypes/RIL_PARAM_CARDINFO_APPINFO, rilapitypes/RIL_PARAM_CARDINFO_ICCID, rilapitypes/RIL_PARAM_CARDINFO_NUMAPPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

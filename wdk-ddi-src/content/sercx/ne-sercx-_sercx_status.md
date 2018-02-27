@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 7EF129C7-25C3-49D2-8FC5-FFA1C4E77935
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SerCxStatusSuccess, _SERCX_STATUS, 1/SerCxStatusSuccess, 1/SERCX_STATUS, serports.sercx_status, 1/SerCxStatusTimeout, SERCX_STATUS enumeration [Serial Ports], SERCX_STATUS, SerCxStatusTimeout, 1/SerCxStatusCancelled, *PSERCX_STATUS, SerCxStatusCancelled
+ms.keywords: "*PSERCX_STATUS, 1/SERCX_STATUS, 1/SerCxStatusCancelled, 1/SerCxStatusSuccess, 1/SerCxStatusTimeout, SERCX_STATUS, SERCX_STATUS enumeration [Serial Ports], SerCxStatusCancelled, SerCxStatusSuccess, SerCxStatusTimeout, _SERCX_STATUS, serports.sercx_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	SERCX_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
+req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
 
@@ -96,15 +96,15 @@ The <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
 
 
 
 <a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
 
 
 

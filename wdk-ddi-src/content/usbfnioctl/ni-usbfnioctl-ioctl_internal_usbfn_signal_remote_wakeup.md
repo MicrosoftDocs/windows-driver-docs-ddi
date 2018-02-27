@@ -4,11 +4,11 @@ title: IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP
 author: windows-driver-content
 description: The class driver sends this request to get remote wake-up notifications from endpoints.
 old-location: buses\ioctl_usbfn_internal_signal_remote_wakeup.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 052D16D1-E7E9-4237-B9F5-1D52D28444F0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.ioctl_usbfn_internal_signal_remote_wakeup, IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP control code [Buses], IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP, usbfnioctl/IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP
+ms.date: 2/24/2018
+ms.keywords: IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP, IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP control code [Buses], buses.ioctl_usbfn_internal_signal_remote_wakeup, usbfnioctl/IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

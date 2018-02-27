@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e52c7aeb-bbd8-402e-94af-f74df6deb23c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndiscompletebindadapterex, protocol_ndis_functions_ref_11cc35a5-fa39-4922-a00d-c4ccb634ea88.xml, NdisCompleteBindAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteBindAdapterEx, NdisCompleteBindAdapterEx
+ms.keywords: NdisCompleteBindAdapterEx, NdisCompleteBindAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteBindAdapterEx, netvista.ndiscompletebindadapterex, protocol_ndis_functions_ref_11cc35a5-fa39-4922-a00d-c4ccb634ea88.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisCompleteBindAdapterEx
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCompleteBindAdapterEx function
@@ -137,11 +137,11 @@ If the open operation was successful, the protocol driver is ready to accept rec
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 

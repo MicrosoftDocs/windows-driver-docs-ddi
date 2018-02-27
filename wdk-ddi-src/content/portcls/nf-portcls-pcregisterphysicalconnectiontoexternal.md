@@ -7,8 +7,8 @@ old-location: audio\pcregisterphysicalconnectiontoexternal.htm
 old-project: audio
 ms.assetid: ffacfd4e-9ceb-477a-8b2f-17d7c590fd81
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: PcRegisterPhysicalConnectionToExternal function [Audio Devices], audio.pcregisterphysicalconnectiontoexternal, audpc-routines_8e03485f-aca9-4e06-981b-fa9593472499.xml, PcRegisterPhysicalConnectionToExternal, portcls/PcRegisterPhysicalConnectionToExternal
+ms.date: 2/22/2018
+ms.keywords: PcRegisterPhysicalConnectionToExternal, PcRegisterPhysicalConnectionToExternal function [Audio Devices], audio.pcregisterphysicalconnectiontoexternal, audpc-routines_8e03485f-aca9-4e06-981b-fa9593472499.xml, portcls/PcRegisterPhysicalConnectionToExternal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,6 +125,14 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iport.md">IPort</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565205">KSPROPERTY_PIN_PHYSICALCONNECTION</a>
+
+
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
@@ -141,17 +149,9 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537029">IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal</a>
-
-
-
-<a href="..\portcls\nf-portcls-pcregisterphysicalconnectionfromexternal.md">PcRegisterPhysicalConnectionFromExternal</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcRegisterPhysicalConnectionToExternal function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcRegisterPhysicalConnectionToExternal function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

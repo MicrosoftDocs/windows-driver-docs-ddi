@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e5c94f80-8ff8-4945-b1b8-a12190c3dec7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MmFlushImageSection, ifsk.mmflushimagesection, mmref_d6a37cf0-a204-4070-80f6-bd407f671ee8.xml, MmFlushImageSection routine [Installable File System Drivers], ntifs/MmFlushImageSection
+ms.keywords: MmFlushImageSection, MmFlushImageSection routine [Installable File System Drivers], ifsk.mmflushimagesection, mmref_d6a37cf0-a204-4070-80f6-bd407f671ee8.xml, ntifs/MmFlushImageSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

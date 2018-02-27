@@ -7,8 +7,8 @@ old-location: storage\storportinitializedpc.htm
 old-project: storage
 ms.assetid: 0a67304f-c746-46c1-87c4-5d027219e41f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: StorPortInitializeDpc routine [Storage Devices], storage.storportinitializedpc, storprt_984c8e07-f6c8-452f-a333-dd23a0fdf9f7.xml, storport/StorPortInitializeDpc, StorPortInitializeDpc
+ms.date: 2/24/2018
+ms.keywords: StorPortInitializeDpc, StorPortInitializeDpc routine [Storage Devices], storage.storportinitializedpc, storport/StorPortInitializeDpc, storprt_984c8e07-f6c8-452f-a333-dd23a0fdf9f7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,17 +124,17 @@ This routine is implemented using inline function definitions, so that miniport 
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a>
-
-
-
 <a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a>
 
 
 
- 
+<a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortInitializeDpc routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortInitializeDpc routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

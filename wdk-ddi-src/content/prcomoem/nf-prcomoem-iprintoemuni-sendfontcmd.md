@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_sendfontcmd.htm
 old-project: print
 ms.assetid: b90a94d1-c6f3-483c-b5fc-edfee27094ab
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IPrintOemUni::SendFontCmd, SendFontCmd method [Print Devices], IPrintOemUni interface, SendFontCmd method [Print Devices], IPrintOemUni, IPrintOemUni interface [Print Devices], SendFontCmd method, print.iprintoemuni_sendfontcmd, prcomoem/IPrintOemUni::SendFontCmd, print_unidrv-pscript_rendering_18926c40-665b-4ea9-9343-7939619d093a.xml, SendFontCmd
+ms.date: 2/23/2018
+ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], SendFontCmd method, IPrintOemUni::SendFontCmd, SendFontCmd method [Print Devices], SendFontCmd method [Print Devices], IPrintOemUni interface, SendFontCmd,IPrintOemUni.SendFontCmd, prcomoem/IPrintOemUni::SendFontCmd, print.iprintoemuni_sendfontcmd, print_unidrv-pscript_rendering_18926c40-665b-4ea9-9343-7939619d093a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.SendFontCmd
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -170,19 +170,7 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
-
-
-
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
-
-
-
-<a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a>
-
-
-
-<a href="..\printoem\ns-printoem-_finvocation.md">FINVOCATION</a>
+<a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a>
 
 
 
@@ -194,9 +182,21 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 
 
- 
+<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUni::SendFontCmd method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUni::SendFontCmd method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

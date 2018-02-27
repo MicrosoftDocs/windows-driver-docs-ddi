@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: be05a5b5-e895-402b-bf0a-cbdb75fdef1d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFDeviceObjectGeneralRef_e3f58989-ddd0-4402-94bf-418481869972.xml, WdfDeviceQueryProperty, WdfDeviceQueryProperty method, wdf.wdfdevicequeryproperty, wdfdevice/WdfDeviceQueryProperty, kmdf.wdfdevicequeryproperty
+ms.keywords: DFDeviceObjectGeneralRef_e3f58989-ddd0-4402-94bf-418481869972.xml, WdfDeviceQueryProperty, WdfDeviceQueryProperty method, kmdf.wdfdevicequeryproperty, wdf.wdfdevicequeryproperty, wdfdevice/WdfDeviceQueryProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -196,11 +196,11 @@ status = WdfDeviceQueryProperty(
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitqueryproperty.md">WdfFdoInitQueryProperty</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryproperty.md">WdfDeviceAllocAndQueryProperty</a>
+
+
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitqueryproperty.md">WdfFdoInitQueryProperty</a>
 
 
 

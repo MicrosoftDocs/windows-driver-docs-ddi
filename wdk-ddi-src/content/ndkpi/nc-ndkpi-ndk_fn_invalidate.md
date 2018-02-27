@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 79A39FEE-173F-4106-9759-97CF6BE5DA65
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_invalidate, NdkInvalidate callback function [Network Drivers Starting with Windows Vista], NdkInvalidate, NDK_FN_INVALIDATE, NDK_FN_INVALIDATE, ndkpi/NdkInvalidate, NDK_OP_FLAG_SILENT_SUCCESS, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_DEFER
+ms.keywords: NDK_FN_INVALIDATE, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkInvalidate, NdkInvalidate callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkInvalidate, netvista.ndk_fn_invalidate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -198,15 +198,7 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
 
 
 
@@ -218,15 +210,11 @@ An error occurred.
 
 
 
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_register_mr.md">NDK_FN_REGISTER</a>
+
+
+
 <a href="https://msdn.microsoft.com/87150E2F-64F2-4EAB-A8B3-8E77622BE36C">NDKPI Completion Handling Requirements</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_fast_register.md">NDK_FN_FAST_REGISTER</a>
 
 
 
@@ -234,11 +222,23 @@ An error occurred.
 
 
 
+<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_fast_register.md">NDK_FN_FAST_REGISTER</a>
+
+
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_deregister_mr.md">NDK_FN_DEREGISTER_MR</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_register_mr.md">NDK_FN_REGISTER</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
 
 
 

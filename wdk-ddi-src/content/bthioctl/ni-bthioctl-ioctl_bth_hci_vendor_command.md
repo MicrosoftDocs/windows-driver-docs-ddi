@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 3b182835-ca62-482c-b82a-28c59f23fb55
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.ioctl_bth_hci_vendor_command, IOCTL_BTH_HCI_VENDOR_COMMAND control code [Bluetooth Devices], IOCTL_BTH_HCI_VENDOR_COMMAND, bthioctl/IOCTL_BTH_HCI_VENDOR_COMMAND, bth_ref_f907562d-11ca-4ec2-ace5-97042364bb01.xml
+ms.keywords: IOCTL_BTH_HCI_VENDOR_COMMAND, IOCTL_BTH_HCI_VENDOR_COMMAND control code [Bluetooth Devices], bltooth.ioctl_bth_hci_vendor_command, bth_ref_f907562d-11ca-4ec2-ace5-97042364bb01.xml, bthioctl/IOCTL_BTH_HCI_VENDOR_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_BTH_HCI_VENDOR_COMMAND
 product: Windows
 targetos: Windows
-req.typenames: "*PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1"
+req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ---
 
 # IOCTL_BTH_HCI_VENDOR_COMMAND IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -255,7 +255,7 @@ The event that is generated because of this command is copied into the output bu
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">BTH_VENDOR_SPECIFIC_COMMAND</a>
+<a href="..\bthioctl\ns-bthioctl-_bth_command_header.md">BTH_COMMAND_HEADER</a>
 
 
 
@@ -263,7 +263,7 @@ The event that is generated because of this command is copied into the output bu
 
 
 
-<a href="..\bthioctl\ns-bthioctl-_bth_command_header.md">BTH_COMMAND_HEADER</a>
+<a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">BTH_VENDOR_SPECIFIC_COMMAND</a>
 
 
 

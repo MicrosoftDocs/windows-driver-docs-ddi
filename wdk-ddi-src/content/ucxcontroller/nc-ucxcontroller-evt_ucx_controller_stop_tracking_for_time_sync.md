@@ -4,11 +4,11 @@ title: EVT_UCX_CONTROLLER_STOP_TRACKING_FOR_TIME_SYNC
 author: windows-driver-content
 description: UCX invokes this callback function to the stop time tracking functionality in the controller.
 old-location: buses\evt_ucx_controller_stop_tracking_for_time_sync.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: C65A250A-594B-4317-AEE6-C3E60D122A1D
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_controller_stop_tracking_for_time_sync, EvUcxControllerStopTrackingForTimeSync callback function [Buses], EvUcxControllerStopTrackingForTimeSync, EVT_UCX_CONTROLLER_STOP_TRACKING_FOR_TIME_SYNC, EVT_UCX_CONTROLLER_STOP_TRACKING_FOR_TIME_SYNC, ucxcontroller/EvUcxControllerStopTrackingForTimeSync
+ms.date: 2/24/2018
+ms.keywords: EVT_UCX_CONTROLLER_STOP_TRACKING_FOR_TIME_SYNC, EvUcxControllerStopTrackingForTimeSync, EvUcxControllerStopTrackingForTimeSync callback function [Buses], buses.evt_ucx_controller_stop_tracking_for_time_sync, ucxcontroller/EvUcxControllerStopTrackingForTimeSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -115,5 +115,5 @@ This callback function does not return a value.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20EVT_UCX_CONTROLLER_STOP_TRACKING_FOR_TIME_SYNC callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UCX_CONTROLLER_STOP_TRACKING_FOR_TIME_SYNC callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

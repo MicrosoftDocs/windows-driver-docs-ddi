@@ -7,8 +7,8 @@ old-location: dtf\iwdtfenhanceddevicetestsupportaction2.htm
 old-project: dtf
 ms.assetid: 273eb6e9-10cb-4ed3-86a4-103dea801b77
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfenhanceddevicetestsupportaction2, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], described, IWDTFEnhancedDeviceTestSupportAction2, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2
+ms.date: 2/23/2018
+ms.keywords: IWDTFEnhancedDeviceTestSupportAction2, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2, dtf.iwdtfenhanceddevicetestsupportaction2, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -52,6 +52,14 @@ req.product: Windows 10 or later.
 
 Defines operations and properties that support the Enhanced Device Test (EDT) filter driver.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFEnhancedDeviceTestSupportAction2</b> interface inherits from <b>IWDTFActionWithCustomActions2</b>. <b>IWDTFEnhancedDeviceTestSupportAction2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
 
 ## -members
 
@@ -98,18 +106,8 @@ Gets a value that indicates whether the Enhanced Device Test (EDT) filter driver
 
 </td>
 </tr>
-</table>Disables the Enhanced Device Test (EDT) filter driver on the target device.
-
-Enables the Enhanced Device Test (EDT) filter driver on the target device.
-
-Gets a value that indicates whether the Enhanced Device Test (EDT) filter driver is enabled 
-on the target device.
-
-Gets a value that indicates whether the Enhanced Device Test (EDT) filter driver requires a reboot.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFEnhancedDeviceTestSupportAction2</b> interface has these properties.
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFEnhancedDeviceTestSupportAction2</b> interface has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
@@ -132,15 +130,7 @@ Sets a value that indicates whether the target device should be restarted by def
 
 </td>
 </tr>
-</table>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451010">SkipRestart</a>
-
-
-Write-only
-
-Sets a value that indicates whether the target device should be restarted by default.
-
- 
+</table> 
 
 
 ## -remarks

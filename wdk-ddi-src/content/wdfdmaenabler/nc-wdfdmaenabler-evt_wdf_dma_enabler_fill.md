@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3da947b4-76f9-492f-b8e2-b52aa7812b26
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdmaenablerfill, EvtDmaEnablerFill callback function, EvtDmaEnablerFill, EVT_WDF_DMA_ENABLER_FILL, EVT_WDF_DMA_ENABLER_FILL, wdfdmaenabler/EvtDmaEnablerFill, DFDmaObjectRef_3546c1f6-cb96-4b6e-bafa-25a1d15b00c5.xml, kmdf.evtdmaenablerfill
+ms.keywords: DFDmaObjectRef_3546c1f6-cb96-4b6e-bafa-25a1d15b00c5.xml, EVT_WDF_DMA_ENABLER_FILL, EvtDmaEnablerFill, EvtDmaEnablerFill callback function, kmdf.evtdmaenablerfill, wdf.evtdmaenablerfill, wdfdmaenabler/EvtDmaEnablerFill
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -138,7 +138,7 @@ The <b>EVT_WDF_DMA_ENABLER_FILL</b> function type is defined in the WdfDmaEnable
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
+<a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_flush.md">EvtDmaEnablerFlush</a>
 
 
 
@@ -146,7 +146,7 @@ The <b>EVT_WDF_DMA_ENABLER_FILL</b> function type is defined in the WdfDmaEnable
 
 
 
-<a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_flush.md">EvtDmaEnablerFlush</a>
+<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 12bbc77b-c1cd-4899-aff2-e18e0d58b6b9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfFdoQueryForInterface method, kmdf.wdffdoqueryforinterface, wdf.wdffdoqueryforinterface, DFDeviceObjectFdoPdoRef_949fcc50-3604-4970-9516-666da06e3c9e.xml, WdfFdoQueryForInterface, wdffdo/WdfFdoQueryForInterface
+ms.keywords: DFDeviceObjectFdoPdoRef_949fcc50-3604-4970-9516-666da06e3c9e.xml, WdfFdoQueryForInterface, WdfFdoQueryForInterface method, kmdf.wdffdoqueryforinterface, wdf.wdffdoqueryforinterface, wdffdo/WdfFdoQueryForInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,7 +88,7 @@ A pointer to a GUID that identifies the interface.
 
 ### -param Interface [out]
 
-A pointer to a driver-allocated structure that receives the requested interface. This structure is defined by the driver that exports the requested interface and must begin with an <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure.
+A pointer to a driver-allocated structure that receives the requested interface. This structure is defined by the driver that exports the requested interface and must begin with an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
 
 
 ### -param Size [in]

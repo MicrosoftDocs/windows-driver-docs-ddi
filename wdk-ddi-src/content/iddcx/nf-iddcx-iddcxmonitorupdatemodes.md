@@ -7,8 +7,8 @@ old-location: display\iddcxmonitorupdatemodes.htm
 old-project: display
 ms.assetid: 0f05931a-2327-454a-9ba7-da02cb2f13d9
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: IddCxMonitorUpdateModes, iddcx/IddCxMonitorUpdateModes, IddCxMonitorUpdateModes method [Display Devices], display.iddcxmonitorupdatemodes
+ms.date: 2/24/2018
+ms.keywords: IddCxMonitorUpdateModes, IddCxMonitorUpdateModes method [Display Devices], display.iddcxmonitorupdatemodes, iddcx/IddCxMonitorUpdateModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

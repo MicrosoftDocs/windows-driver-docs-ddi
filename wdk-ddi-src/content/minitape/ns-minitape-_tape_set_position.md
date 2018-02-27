@@ -7,8 +7,8 @@ old-location: storage\tape_set_position.htm
 old-project: storage
 ms.assetid: c9f462b2-4b56-4138-a374-9e9d3e1ae295
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: ntddtape/PTAPE_SET_POSITION, _TAPE_SET_POSITION, PTAPE_SET_POSITION structure pointer [Storage Devices], TAPE_SET_POSITION, structs-tape_412b4b85-a0b5-4372-a32c-fa7ac5a6f33a.xml, storage.tape_set_position, PTAPE_SET_POSITION, TAPE_SET_POSITION structure [Storage Devices], *PTAPE_SET_POSITION, ntddtape/TAPE_SET_POSITION
+ms.date: 2/24/2018
+ms.keywords: "*PTAPE_SET_POSITION, PTAPE_SET_POSITION, PTAPE_SET_POSITION structure pointer [Storage Devices], TAPE_SET_POSITION, TAPE_SET_POSITION structure [Storage Devices], _TAPE_SET_POSITION, ntddtape/PTAPE_SET_POSITION, ntddtape/TAPE_SET_POSITION, storage.tape_set_position, structs-tape_412b4b85-a0b5-4372-a32c-fa7ac5a6f33a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -189,5 +189,5 @@ When the offset specifies a number of blocks, filemarks, or setmarks to position
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_SET_POSITION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_SET_POSITION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

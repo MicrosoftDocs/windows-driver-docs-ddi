@@ -4,11 +4,11 @@ title: "_DEBUG_GET_TEXT_COMPLETIONS_OUT"
 author: windows-driver-content
 description: Defines information about text completions to get.
 old-location: debugger\debug_get_text_completions_out.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 09F3A720-C039-4C8D-84A4-8AF071E1FFB0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: DEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_IS_DOT_COMMAND, DEBUG_GET_TEXT_COMPLETIONS_IS_EXTENSION_COMMAND, *PDEBUG_GET_TEXT_COMPLETIONS_OUT, dbgeng/PDEBUG_GET_TEXT_COMPLETIONS_OUT, dbgeng/DEBUG_GET_TEXT_COMPLETIONS_OUT, PDEBUG_GET_TEXT_COMPLETIONS_OUT structure pointer [Windows Debugging], PDEBUG_GET_TEXT_COMPLETIONS_OUT, _DEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_OUT structure [Windows Debugging], DEBUG_GET_TEXT_COMPLETIONS_IS_SYMBOL, debugger.debug_get_text_completions_out
+ms.date: 2/23/2018
+ms.keywords: "*PDEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_IS_DOT_COMMAND, DEBUG_GET_TEXT_COMPLETIONS_IS_EXTENSION_COMMAND, DEBUG_GET_TEXT_COMPLETIONS_IS_SYMBOL, DEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_OUT structure [Windows Debugging], PDEBUG_GET_TEXT_COMPLETIONS_OUT, PDEBUG_GET_TEXT_COMPLETIONS_OUT structure pointer [Windows Debugging], _DEBUG_GET_TEXT_COMPLETIONS_OUT, dbgeng/DEBUG_GET_TEXT_COMPLETIONS_OUT, dbgeng/PDEBUG_GET_TEXT_COMPLETIONS_OUT, debugger.debug_get_text_completions_out"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEBUG_GET_TEXT_COMPLETIONS_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PDEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_OUT"
+req.typenames: DEBUG_GET_TEXT_COMPLETIONS_OUT, *PDEBUG_GET_TEXT_COMPLETIONS_OUT
 ---
 
 # _DEBUG_GET_TEXT_COMPLETIONS_OUT structure

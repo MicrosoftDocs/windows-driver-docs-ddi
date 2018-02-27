@@ -7,8 +7,8 @@ old-location: print\wcsopencolorprofile.htm
 old-project: print
 ms.assetid: ecc573e6-c83c-4cf2-9dad-c3c75d9578eb
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: colorfnc_d9a9eca5-5559-4579-a892-c75499627912.xml, icm/WcsOpenColorProfile, WcsOpenColorProfile function [Print Devices], WcsOpenColorProfileW, print.wcsopencolorprofile, WcsOpenColorProfileA, WcsOpenColorProfile
+ms.date: 2/23/2018
+ms.keywords: WcsOpenColorProfile, WcsOpenColorProfile function [Print Devices], WcsOpenColorProfileA, WcsOpenColorProfileW, colorfnc_d9a9eca5-5559-4579-a892-c75499627912.xml, icm/WcsOpenColorProfile, print.wcsopencolorprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -167,11 +167,6 @@ A flag value that specifies whether to use the embedded WCS profile. This parame
  
 
 
-#### - pDMPProfile [in]
-
-A pointer to a profile structure that specifies a WCS device model profile (DMP). The <i>pDMPProfile</i> pointer can be freed as soon as the handle is created.
-
-
 #### - dwDesiredAccess [in]
 
 A flag value that specifies how to access the given color profile. This parameter must take one of the following values:
@@ -189,6 +184,11 @@ Specifies that the color profile will be opened for read-only access.
 #### PROFILE_READWRITE
 
 Specifies that the color profile will be opened for both read and write access.  This flag value is ignored when a WCS profile is opened.
+
+
+#### - pDMPProfile [in]
+
+A pointer to a profile structure that specifies a WCS device model profile (DMP). The <i>pDMPProfile</i> pointer can be freed as soon as the handle is created.
 
 
 ## -remarks
@@ -222,5 +222,5 @@ Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=52323">CloseColorProfi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20WcsOpenColorProfileA function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20WcsOpenColorProfileA function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

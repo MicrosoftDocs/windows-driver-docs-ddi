@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a3255313-1d49-4286-a48a-6a1729ccf7fe
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NDIS_SWITCH_FEATURE_STATUS_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchFeatureStatusTypeMaximum, PNDIS_SWITCH_FEATURE_STATUS_TYPE, *PNDIS_SWITCH_FEATURE_STATUS_TYPE, ntddndis/PNDIS_SWITCH_FEATURE_STATUS_TYPE, ntddndis/NdisSwitchFeatureStatusTypeUndefined, NdisSwitchFeatureStatusTypeUndefined, ntddndis/NdisSwitchFeatureStatusTypeMaximum, PNDIS_SWITCH_FEATURE_STATUS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchFeatureStatusTypeCustom, _NDIS_SWITCH_FEATURE_STATUS_TYPE, NdisSwitchFeatureStatusTypeCustom, netvista.ndis_switch_feature_status_type, NDIS_SWITCH_FEATURE_STATUS_TYPE, ntddndis/NDIS_SWITCH_FEATURE_STATUS_TYPE
+ms.keywords: "*PNDIS_SWITCH_FEATURE_STATUS_TYPE, NDIS_SWITCH_FEATURE_STATUS_TYPE, NDIS_SWITCH_FEATURE_STATUS_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchFeatureStatusTypeCustom, NdisSwitchFeatureStatusTypeMaximum, NdisSwitchFeatureStatusTypeUndefined, PNDIS_SWITCH_FEATURE_STATUS_TYPE, PNDIS_SWITCH_FEATURE_STATUS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_FEATURE_STATUS_TYPE, netvista.ndis_switch_feature_status_type, ntddndis/NDIS_SWITCH_FEATURE_STATUS_TYPE, ntddndis/NdisSwitchFeatureStatusTypeCustom, ntddndis/NdisSwitchFeatureStatusTypeMaximum, ntddndis/NdisSwitchFeatureStatusTypeUndefined, ntddndis/PNDIS_SWITCH_FEATURE_STATUS_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SWITCH_FEATURE_STATUS_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SWITCH_FEATURE_STATUS_TYPE, NDIS_SWITCH_FEATURE_STATUS_TYPE"
+req.typenames: NDIS_SWITCH_FEATURE_STATUS_TYPE, *PNDIS_SWITCH_FEATURE_STATUS_TYPE
 ---
 
 # _NDIS_SWITCH_FEATURE_STATUS_TYPE enumeration

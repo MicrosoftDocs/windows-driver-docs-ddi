@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 71a789f1-4f10-44c3-8bd0-a0ea74ec28ab
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtiostop, EvtIoStop callback function, EvtIoStop, EVT_WDF_IO_QUEUE_IO_STOP, EVT_WDF_IO_QUEUE_IO_STOP, wdfio/EvtIoStop, DFQueueObjectRef_b9df4689-1de5-4c08-b2a2-c9f126a7d0bc.xml, kmdf.evtiostop
+ms.keywords: DFQueueObjectRef_b9df4689-1de5-4c08-b2a2-c9f126a7d0bc.xml, EVT_WDF_IO_QUEUE_IO_STOP, EvtIoStop, EvtIoStop callback function, kmdf.evtiostop, wdf.evtiostop, wdfio/EvtIoStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	EvtIoStop
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO"
+req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -191,18 +191,6 @@ The <b>EVT_WDF_IO_QUEUE_IO_STOP</b> function type is defined in the Wdfio.h head
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
-
-
-
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="..\wdfrequest\ne-wdfrequest-_wdf_request_stop_action_flags.md">WDF_REQUEST_STOP_ACTION_FLAGS</a>
-
-
-
 <a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
 
 
@@ -211,7 +199,20 @@ The <b>EVT_WDF_IO_QUEUE_IO_STOP</b> function type is defined in the Wdfio.h head
 
 
 
+<a href="..\wdfrequest\ne-wdfrequest-_wdf_request_stop_action_flags.md">WDF_REQUEST_STOP_ACTION_FLAGS</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
+
+
+
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_resume.md">EvtIoResume</a>
+
+
+
 
 
 

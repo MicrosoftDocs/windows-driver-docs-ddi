@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c0c47dc7-d672-4094-af17-9de2b01886aa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/FILE_LINK_INFORMATION, PFILE_LINK_INFORMATION structure pointer [Installable File System Drivers], FILE_LINK_INFORMATION structure [Installable File System Drivers], ntifs/PFILE_LINK_INFORMATION, FILE_LINK_INFORMATION, fileinformationstructures_6702855e-5076-41aa-a6c8-e9569c782646.xml, PFILE_LINK_INFORMATION, _FILE_LINK_INFORMATION, ifsk.file_link_information, *PFILE_LINK_INFORMATION
+ms.keywords: "*PFILE_LINK_INFORMATION, FILE_LINK_INFORMATION, FILE_LINK_INFORMATION structure [Installable File System Drivers], PFILE_LINK_INFORMATION, PFILE_LINK_INFORMATION structure pointer [Installable File System Drivers], _FILE_LINK_INFORMATION, fileinformationstructures_6702855e-5076-41aa-a6c8-e9569c782646.xml, ifsk.file_link_information, ntifs/FILE_LINK_INFORMATION, ntifs/PFILE_LINK_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_LINK_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_LINK_INFORMATION, FILE_LINK_INFORMATION"
+req.typenames: FILE_LINK_INFORMATION, *PFILE_LINK_INFORMATION
 ---
 
 # _FILE_LINK_INFORMATION structure
@@ -125,15 +125,15 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 
 

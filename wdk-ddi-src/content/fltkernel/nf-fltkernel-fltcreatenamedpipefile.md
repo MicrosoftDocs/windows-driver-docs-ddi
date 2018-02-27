@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: F4F3A591-B4BE-4367-A76A-820552F9B3B5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltCreateNamedPipeFile function [Installable File System Drivers], FILE_PIPE_COMPLETE_OPERATION, fltkernel/FltCreateNamedPipeFile, FltCreateNamedPipeFile, FILE_PIPE_MESSAGE_TYPE, ifsk.fltcreatenamedpipefile, FILE_PIPE_QUEUE_COMPLETION, FILE_PIPE_MESSAGE_MODE, FILE_PIPE_BYTE_STREAM_MODE, FILE_PIPE_BYTE_STREAM_TYPE
+ms.keywords: FILE_PIPE_BYTE_STREAM_MODE, FILE_PIPE_BYTE_STREAM_TYPE, FILE_PIPE_COMPLETE_OPERATION, FILE_PIPE_MESSAGE_MODE, FILE_PIPE_MESSAGE_TYPE, FILE_PIPE_QUEUE_COMPLETION, FltCreateNamedPipeFile, FltCreateNamedPipeFile function [Installable File System Drivers], fltkernel/FltCreateNamedPipeFile, ifsk.fltcreatenamedpipefile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -634,10 +634,6 @@ To specify an extra create parameter (ECP) as part of a create operation, initia
 
 
 
-<a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-ioinitializedrivercreatecontext.md">IoInitializeDriverCreateContext</a>
 
 
@@ -646,7 +642,11 @@ To specify an extra create parameter (ECP) as part of a create operation, initia
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a>
 
 
 

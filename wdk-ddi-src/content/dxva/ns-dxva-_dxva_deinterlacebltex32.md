@@ -7,8 +7,8 @@ old-location: display\dxva_deinterlacebltex32.htm
 old-project: display
 ms.assetid: ae88acca-5d29-4cca-acae-613632d565d8
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxva_deinterlacebltex32, dxva/DXVA_DeinterlaceBltEx32, DXVA_DeinterlaceBltEx32 structure [Display Devices], _DXVA_DeinterlaceBltEx32, DXVA_DeinterlaceBltEx32, dxvaref_93b5f3fe-0474-4efe-8d8f-b57e5c3f267d.xml
+ms.date: 2/24/2018
+ms.keywords: DXVA_DeinterlaceBltEx32, DXVA_DeinterlaceBltEx32 structure [Display Devices], _DXVA_DeinterlaceBltEx32, display.dxva_deinterlacebltex32, dxva/DXVA_DeinterlaceBltEx32, dxvaref_93b5f3fe-0474-4efe-8d8f-b57e5c3f267d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,11 +124,11 @@ Specifies a collection of flags that indicate changes in the current destination
 
 ## -see-also
 
+<a href="..\dxva\ne-dxva-_dxva_destinationflags.md">DXVA_DestinationFlags</a>
+
+
+
 <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a>
-
-
-
-<a href="..\dxva\ns-dxva-_dxva_videosample32.md">DXVA_VideoSample32</a>
 
 
 
@@ -144,5 +144,5 @@ Specifies a collection of flags that indicate changes in the current destination
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_DeinterlaceBltEx32 structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_DeinterlaceBltEx32 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

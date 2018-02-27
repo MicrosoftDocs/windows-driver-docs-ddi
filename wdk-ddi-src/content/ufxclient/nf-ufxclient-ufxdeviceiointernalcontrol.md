@@ -4,11 +4,11 @@ title: UfxDeviceIoInternalControl function
 author: windows-driver-content
 description: Passes kernel mode IOCTLs to UFX.
 old-location: buses\ufxdeviceiointernalcontrol.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 0AD4316E-67E7-4810-86DA-5DEB5C4E6DE6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: UfxDeviceIoInternalControl, buses.ufxdeviceiointernalcontrol, ufxclient/UfxDeviceIoInternalControl, UfxDeviceIoInternalControl method [Buses]
+ms.date: 2/24/2018
+ms.keywords: UfxDeviceIoInternalControl, UfxDeviceIoInternalControl method [Buses], buses.ufxdeviceiointernalcontrol, ufxclient/UfxDeviceIoInternalControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxDeviceIoInternalControl
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

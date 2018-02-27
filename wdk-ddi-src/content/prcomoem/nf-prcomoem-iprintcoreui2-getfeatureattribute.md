@@ -7,8 +7,8 @@ old-location: print\iprintcoreui2_getfeatureattribute.htm
 old-project: print
 ms.assetid: 6f3d16a9-bac7-44da-9d16-0f737d12d952
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IPrintCoreUI2, GetFeatureAttribute, print_unidrv-pscript_ui_47513174-ac2c-4c61-9847-35244e31c486.xml, print.iprintcoreui2_getfeatureattribute, GetFeatureAttribute method [Print Devices], IPrintCoreUI2::GetFeatureAttribute, GetFeatureAttribute method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices], GetFeatureAttribute method, prcomoem/IPrintCoreUI2::GetFeatureAttribute
+ms.date: 2/23/2018
+ms.keywords: GetFeatureAttribute method [Print Devices], GetFeatureAttribute method [Print Devices], IPrintCoreUI2 interface, GetFeatureAttribute,IPrintCoreUI2.GetFeatureAttribute, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], GetFeatureAttribute method, IPrintCoreUI2::GetFeatureAttribute, prcomoem/IPrintCoreUI2::GetFeatureAttribute, print.iprintcoreui2_getfeatureattribute, print_unidrv-pscript_ui_47513174-ac2c-4c61-9847-35244e31c486.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreUI2.GetFeatureAttribute
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -199,11 +199,7 @@ For more information, see <a href="https://msdn.microsoft.com/e5050cb1-c178-405d
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553059">IPrintCoreUI2::GetGlobalAttribute</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553059">IPrintCoreUI2::GetGlobalAttribute</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553050">IPrintCoreUI2::EnumFeatures</a>
 
 
 
@@ -211,11 +207,15 @@ For more information, see <a href="https://msdn.microsoft.com/e5050cb1-c178-405d
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553059">IPrintCoreUI2::GetGlobalAttribute</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553064">IPrintCoreUI2::GetOptionAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2d2e486-d69d-4a6d-aaab-a7b8806665b4">IPrintCoreUI2</a>
+<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
 
 
 
@@ -223,5 +223,5 @@ For more information, see <a href="https://msdn.microsoft.com/e5050cb1-c178-405d
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreUI2::GetFeatureAttribute method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreUI2::GetFeatureAttribute method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

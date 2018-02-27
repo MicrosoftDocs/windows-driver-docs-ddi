@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 58cb1ead-94a1-4587-bb2a-7b8e23f42eeb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: dot11wdi/WDI_INTERCONNECT_UNKNOWN, WDI_INTERCONNECT_TYPE, dot11wdi/WDI_INTERCONNECT_MEMORY_MAPPED, WDI_INTERCONNECT_UNKNOWN, netvista.wdi_interconnect_type, WDI_INTERCONNECT_TYPE enumeration [Network Drivers Starting with Windows Vista], WDI_INTERCONNECT_MEMORY_MAPPED, dot11wdi/WDI_INTERCONNECT_TYPE, _WDI_INTERCONNECT_TYPE, netvista.wifi_interconnect_type, dot11wdi/WDI_INTERCONNECT_MESSAGE_BASED, WDI_INTERCONNECT_MESSAGE_BASED
+ms.keywords: WDI_INTERCONNECT_MEMORY_MAPPED, WDI_INTERCONNECT_MESSAGE_BASED, WDI_INTERCONNECT_TYPE, WDI_INTERCONNECT_TYPE enumeration [Network Drivers Starting with Windows Vista], WDI_INTERCONNECT_UNKNOWN, _WDI_INTERCONNECT_TYPE, dot11wdi/WDI_INTERCONNECT_MEMORY_MAPPED, dot11wdi/WDI_INTERCONNECT_MESSAGE_BASED, dot11wdi/WDI_INTERCONNECT_TYPE, dot11wdi/WDI_INTERCONNECT_UNKNOWN, netvista.wdi_interconnect_type, netvista.wifi_interconnect_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

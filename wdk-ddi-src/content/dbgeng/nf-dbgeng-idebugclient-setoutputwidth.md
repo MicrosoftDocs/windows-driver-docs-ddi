@@ -4,11 +4,11 @@ title: IDebugClient::SetOutputWidth method
 author: windows-driver-content
 description: Controls the width of an output line for commands that produce formatted output.
 old-location: debugger\idebugclient_setoutputwidth.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: E2FAEBDD-336D-4E11-933B-88A6EA3BBDF9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: SetOutputWidth method [Windows Debugging], IDebugClient::SetOutputWidth, IDebugClient, dbgeng/IDebugClient::SetOutputWidth, debugger.idebugclient_setoutputwidth, SetOutputWidth, IDebugClient interface [Windows Debugging], SetOutputWidth method, SetOutputWidth method [Windows Debugging], IDebugClient interface
+ms.date: 2/23/2018
+ms.keywords: IDebugClient, IDebugClient interface [Windows Debugging], SetOutputWidth method, IDebugClient::SetOutputWidth, SetOutputWidth method [Windows Debugging], SetOutputWidth method [Windows Debugging], IDebugClient interface, SetOutputWidth,IDebugClient.SetOutputWidth, dbgeng/IDebugClient::SetOutputWidth, debugger.idebugclient_setoutputwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -121,5 +121,5 @@ This setting is a suggestion that can be overridden by other settings.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient::SetOutputWidth method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::SetOutputWidth method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: stream\ks_dvdcopy_region.htm
 old-project: stream
 ms.assetid: 159a8dd0-6efa-4f2c-921c-c427e1cf59ec
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KS_DVDCOPY_REGION, KS_DVDCOPY_REGION structure [Streaming Media Devices], dvdref_ff087f30-2337-4b0f-8ae1-8a42cacaa5ae.xml, PKS_DVDCOPY_REGION, ksmedia/PKS_DVDCOPY_REGION, stream.ks_dvdcopy_region, _KS_DVDCOPY_REGION, ksmedia/KS_DVDCOPY_REGION, *PKS_DVDCOPY_REGION, PKS_DVDCOPY_REGION structure pointer [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PKS_DVDCOPY_REGION, KS_DVDCOPY_REGION, KS_DVDCOPY_REGION structure [Streaming Media Devices], PKS_DVDCOPY_REGION, PKS_DVDCOPY_REGION structure pointer [Streaming Media Devices], _KS_DVDCOPY_REGION, dvdref_ff087f30-2337-4b0f-8ae1-8a42cacaa5ae.xml, ksmedia/KS_DVDCOPY_REGION, ksmedia/PKS_DVDCOPY_REGION, stream.ks_dvdcopy_region"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_DVDCOPY_REGION
 product: Windows
 targetos: Windows
-req.typenames: "*PKS_DVDCOPY_REGION, KS_DVDCOPY_REGION"
+req.typenames: KS_DVDCOPY_REGION, *PKS_DVDCOPY_REGION
 ---
 
 # _KS_DVDCOPY_REGION structure
@@ -173,5 +173,5 @@ For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_DVDCOPY_REGION structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_DVDCOPY_REGION structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1fc92167-ceab-4f8e-bd80-a8f1821846ed
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.ccsetfilesizes, ccref_2d554d89-6378-4a7c-8984-cb54b9e9e01c.xml, ntifs/CcSetFileSizes, CcSetFileSizes routine [Installable File System Drivers], CcSetFileSizes
+ms.keywords: CcSetFileSizes, CcSetFileSizes routine [Installable File System Drivers], ccref_2d554d89-6378-4a7c-8984-cb54b9e9e01c.xml, ifsk.ccsetfilesizes, ntifs/CcSetFileSizes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

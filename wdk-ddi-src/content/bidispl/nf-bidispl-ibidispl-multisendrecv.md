@@ -7,8 +7,8 @@ old-location: print\ibidispl_ibidispl__multisendrecv.htm
 old-project: print
 ms.assetid: d61d7f58-281c-4c82-a579-aaedbf507bae
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: gdi.ibidispl_ibidispl__multisendrecv, MultiSendRecv, _win32_IBidiSpl_MultiSendRecv, bidispl/IBidiSpl::MultiSendRecv, IBidiSpl, print.ibidispl_ibidispl__multisendrecv, IBidiSpl interface [Print Devices], MultiSendRecv method, IBidiSpl::MultiSendRecv, MultiSendRecv method [Print Devices], MultiSendRecv method [Print Devices], IBidiSpl interface
+ms.date: 2/23/2018
+ms.keywords: IBidiSpl, IBidiSpl interface [Print Devices], MultiSendRecv method, IBidiSpl::MultiSendRecv, MultiSendRecv method [Print Devices], MultiSendRecv method [Print Devices], IBidiSpl interface, MultiSendRecv,IBidiSpl.MultiSendRecv, _win32_IBidiSpl_MultiSendRecv, bidispl/IBidiSpl::MultiSendRecv, gdi.ibidispl_ibidispl__multisendrecv, print.ibidispl_ibidispl__multisendrecv
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IBidiSpl.MultiSendRecv
 product: Windows
 targetos: Windows
-req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
+req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # IBidiSpl::MultiSendRecv method
@@ -170,21 +170,21 @@ The BIDI_ACTION_* values are case insensitive strings.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
+
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
+
+
 <a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
 
 
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
-
-
-
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiSpl::MultiSendRecv method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiSpl::MultiSendRecv method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

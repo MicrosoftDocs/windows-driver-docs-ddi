@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 1C08937A-2B0C-4A6C-ACDF-1A751BF0D6F6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.enhanced_l2cap_callback_function, BluetoothPortIndicationCallbackEnhanced callback function [Bluetooth Devices], BluetoothPortIndicationCallbackEnhanced, PFNBTHPORT_INDICATION_CALLBACK_ENHANCED, PFNBTHPORT_INDICATION_CALLBACK_ENHANCED, bthddi/BluetoothPortIndicationCallbackEnhanced
+ms.keywords: BluetoothPortIndicationCallbackEnhanced, BluetoothPortIndicationCallbackEnhanced callback function [Bluetooth Devices], PFNBTHPORT_INDICATION_CALLBACK_ENHANCED, bltooth.enhanced_l2cap_callback_function, bthddi/BluetoothPortIndicationCallbackEnhanced
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	BluetoothPortIndicationCallbackEnhanced
 product: Windows
 targetos: Windows
-req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
+req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # PFNBTHPORT_INDICATION_CALLBACK_ENHANCED callback

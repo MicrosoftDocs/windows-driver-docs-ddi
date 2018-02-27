@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 76945A84-A6DB-4753-B04E-32249359B8C6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwdirxflush, MiniportWdiRxFlush callback function [Network Drivers Starting with Windows Vista], MiniportWdiRxFlush, MINIPORT_WDI_RX_FLUSH, MINIPORT_WDI_RX_FLUSH, dot11wdi/MiniportWdiRxFlush
+ms.keywords: MINIPORT_WDI_RX_FLUSH, MiniportWdiRxFlush, MiniportWdiRxFlush callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxFlush, netvista.miniportwdirxflush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	MiniportWdiRxFlush
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_RX_FLUSH callback
@@ -96,11 +96,7 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/EEEA7181-4A24-4F40-8A44-65EC38D1A867">WDI RX path</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
 
 
@@ -109,6 +105,10 @@ This callback function does not return a value.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
+
+
+
+<a href="https://msdn.microsoft.com/EEEA7181-4A24-4F40-8A44-65EC38D1A867">WDI RX path</a>
 
 
 

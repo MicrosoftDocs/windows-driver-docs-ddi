@@ -7,8 +7,8 @@ old-location: print\iprintreadstreamfactory.htm
 old-project: print
 ms.assetid: 91f82cab-64c4-4f25-bf9a-b0757b1a83ca
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.iprintreadstreamfactory, IPrintReadStreamFactory interface [Print Devices], IPrintReadStreamFactory interface [Print Devices], described, IPrintReadStreamFactory, filterpipeline/IPrintReadStreamFactory, filterpipeline_6e71f042-ebb2-4a81-91ac-2dbfb8fd2161.xml
+ms.date: 2/23/2018
+ms.keywords: IPrintReadStreamFactory, IPrintReadStreamFactory interface [Print Devices], IPrintReadStreamFactory interface [Print Devices], described, filterpipeline/IPrintReadStreamFactory, filterpipeline_6e71f042-ebb2-4a81-91ac-2dbfb8fd2161.xml, print.iprintreadstreamfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -52,6 +52,13 @@ req.typenames: EXpsFontRestriction
 The <code>IPrintReadStreamFactory</code> interface creates a stream reader that a filter can use to access the stream. For example, a filter could use this stream to access the per-user print ticket.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintReadStreamFactory</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintReadStreamFactory</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IPrintReadStreamFactory</b> interface has these methods.
@@ -69,7 +76,5 @@ The <code>GetStream</code> method gets the stream interface.
 
 </td>
 </tr>
-</table>The <code>GetStream</code> method gets the stream interface.
-
- 
+</table> 
 

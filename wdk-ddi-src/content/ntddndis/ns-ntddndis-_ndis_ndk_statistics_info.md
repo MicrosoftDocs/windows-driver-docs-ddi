@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F3FA3790-0754-4D5E-9F27-8ECD71278520
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddndis/PNDIS_NDK_STATISTICS_INFO, NDIS_NDK_STATISTICS_INFO, ntddndis/NDIS_NDK_STATISTICS_INFO, netvista.ndis_ndk_statistics_info, PNDIS_NDK_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], PNDIS_NDK_STATISTICS_INFO, _NDIS_NDK_STATISTICS_INFO, NDIS_NDK_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_NDK_STATISTICS_INFO, NDIS_NDK_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_STATISTICS_INFO, PNDIS_NDK_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_STATISTICS_INFO, netvista.ndis_ndk_statistics_info, ntddndis/NDIS_NDK_STATISTICS_INFO, ntddndis/PNDIS_NDK_STATISTICS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,7 +103,7 @@ The NDK-capable miniport driver is required to fill in the <b>CounterSet</b> mem
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451813">OID_NDK_STATISTICS</a>
 
 
 

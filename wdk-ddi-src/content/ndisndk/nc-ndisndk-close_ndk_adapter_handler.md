@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9D5980F1-A244-4C5C-B032-68C10BF9D6E7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.close_ndk_adapter_handler, CloseNdkAdapterHandler callback function [Network Drivers Starting with Windows Vista], CloseNdkAdapterHandler, CLOSE_NDK_ADAPTER_HANDLER, CLOSE_NDK_ADAPTER_HANDLER, ndisndk/CloseNdkAdapterHandler
+ms.keywords: CLOSE_NDK_ADAPTER_HANDLER, CloseNdkAdapterHandler, CloseNdkAdapterHandler callback function [Network Drivers Starting with Windows Vista], ndisndk/CloseNdkAdapterHandler, netvista.close_ndk_adapter_handler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

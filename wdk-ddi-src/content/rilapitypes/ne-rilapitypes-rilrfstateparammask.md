@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 075c61aa-b091-4616-810b-f39ad40d2777
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RIL_PARAM_RFSTATE_ALL, RILRFSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_RFSTATE_RFDATASIZE, RIL_PARAM_RFSTATE_RFDATA, netvista.rilrfstateparammask_2, RIL_PARAM_RFSTATE_RFSTATE, RIL_PARAM_RFSTATE_ALL, RIL_PARAM_RFSTATE_RFDATASIZE, rilapitypes/RIL_PARAM_RFSTATE_RFDATA, rilapitypes/RIL_PARAM_RFSTATE_RFSTATE, rilapitypes/RILRFSTATEPARAMMASK, RILRFSTATEPARAMMASK
+ms.keywords: RILRFSTATEPARAMMASK, RILRFSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_RFSTATE_ALL, RIL_PARAM_RFSTATE_RFDATA, RIL_PARAM_RFSTATE_RFDATASIZE, RIL_PARAM_RFSTATE_RFSTATE, netvista.rilrfstateparammask_2, rilapitypes/RILRFSTATEPARAMMASK, rilapitypes/RIL_PARAM_RFSTATE_ALL, rilapitypes/RIL_PARAM_RFSTATE_RFDATA, rilapitypes/RIL_PARAM_RFSTATE_RFDATASIZE, rilapitypes/RIL_PARAM_RFSTATE_RFSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

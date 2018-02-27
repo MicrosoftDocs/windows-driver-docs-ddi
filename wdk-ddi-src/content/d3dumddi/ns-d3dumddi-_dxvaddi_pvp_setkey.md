@@ -7,8 +7,8 @@ old-location: display\dxvaddi_pvp_setkey.htm
 old-project: display
 ms.assetid: 3707f9c9-109e-4ac2-bc34-c9f4f7651306
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3dumddi/DXVADDI_PVP_SETKEY, DXVADDI_PVP_SETKEY structure [Display Devices], DXVADDI_PVP_SETKEY, DXVA2_Structs_fbd26ed2-13ce-4f15-a7de-544f6f5fac33.xml, _DXVADDI_PVP_SETKEY, display.dxvaddi_pvp_setkey
+ms.date: 2/24/2018
+ms.keywords: DXVA2_Structs_fbd26ed2-13ce-4f15-a7de-544f6f5fac33.xml, DXVADDI_PVP_SETKEY, DXVADDI_PVP_SETKEY structure [Display Devices], _DXVADDI_PVP_SETKEY, d3dumddi/DXVADDI_PVP_SETKEY, display.dxvaddi_pvp_setkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,6 +74,10 @@ typedef struct _DXVADDI_PVP_SETKEY {
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_block128.md">DXVADDI_PVP_KEY128</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodebeginframe.md">DecodeBeginFrame</a>
 
 
@@ -82,13 +86,9 @@ typedef struct _DXVADDI_PVP_SETKEY {
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodebeginframe.md">DecodeBeginFrame</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_PVP_SETKEY structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_PVP_SETKEY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 828C181F-918A-4674-B6CE-FCB9750948E0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndiswdifreewdiframemetadata, NdisWdiFreeWiFiFrameMetaData callback function [Network Drivers Starting with Windows Vista], NdisWdiFreeWiFiFrameMetaData, NDIS_WDI_FREE_WDI_FRAME_METADATA, NDIS_WDI_FREE_WDI_FRAME_METADATA, dot11wdi/NdisWdiFreeWiFiFrameMetaData
+ms.keywords: NDIS_WDI_FREE_WDI_FRAME_METADATA, NdisWdiFreeWiFiFrameMetaData, NdisWdiFreeWiFiFrameMetaData callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiFreeWiFiFrameMetaData, netvista.ndiswdifreewdiframemetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	NdisWdiFreeWiFiFrameMetaData
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # NDIS_WDI_FREE_WDI_FRAME_METADATA callback

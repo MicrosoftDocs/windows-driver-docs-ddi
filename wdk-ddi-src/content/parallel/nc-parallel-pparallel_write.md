@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 4973b1e2-5828-40d1-bb2e-da67a406eafa
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.pparallel_write, PPARALLEL_WRITE function pointer [Parallel Ports], PPARALLEL_WRITE, parallel/PPARALLEL_WRITE, cisspd_c9bcb3ed-ca6a-44d7-8952-f96f76490262.xml
+ms.keywords: PPARALLEL_WRITE, PPARALLEL_WRITE function pointer [Parallel Ports], cisspd_c9bcb3ed-ca6a-44d7-8952-f96f76490262.xml, parallel/PPARALLEL_WRITE, parports.pparallel_write
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	PPARALLEL_WRITE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # PPARALLEL_WRITE callback

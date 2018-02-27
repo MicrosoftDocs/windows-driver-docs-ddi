@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 03806d36-0066-4603-ba53-10149778b4e7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_SYSTEM_AUDIT_ACE, ntifs/PSYSTEM_AUDIT_ACE, SYSTEM_AUDIT_ACE structure [Installable File System Drivers], securitystructures_f47f7528-0214-4efc-9ec8-0f799d643299.xml, ntifs/SYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE structure pointer [Installable File System Drivers], ifsk.system_audit_ace, *PSYSTEM_AUDIT_ACE, SYSTEM_AUDIT_ACE"
+ms.keywords: "*PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE structure pointer [Installable File System Drivers], SYSTEM_AUDIT_ACE, SYSTEM_AUDIT_ACE structure [Installable File System Drivers], _SYSTEM_AUDIT_ACE, ifsk.system_audit_ace, ntifs/PSYSTEM_AUDIT_ACE, ntifs/SYSTEM_AUDIT_ACE, securitystructures_f47f7528-0214-4efc-9ec8-0f799d643299.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,14 +97,6 @@ This structure must be aligned on a 32-bit boundary.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
-
-
-
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
@@ -117,15 +109,23 @@ This structure must be aligned on a 32-bit boundary.
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 

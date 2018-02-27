@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 803d282b-f6eb-4cd3-91b3-899f983c9dc5
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfusb/WdfUsbTargetPipeIsOutEndpoint, DFUsbRef_19c3e865-4f6c-4950-93af-46a8b97ec6b9.xml, WdfUsbTargetPipeIsOutEndpoint, WdfUsbTargetPipeIsOutEndpoint method, wdf.wdfusbtargetpipeisoutendpoint, kmdf.wdfusbtargetpipeisoutendpoint
+ms.keywords: DFUsbRef_19c3e865-4f6c-4950-93af-46a8b97ec6b9.xml, WdfUsbTargetPipeIsOutEndpoint, WdfUsbTargetPipeIsOutEndpoint method, kmdf.wdfusbtargetpipeisoutendpoint, wdf.wdfusbtargetpipeisoutendpoint, wdfusb/WdfUsbTargetPipeIsOutEndpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfUsbTargetPipeIsOutEndpoint
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -119,7 +119,7 @@ isOutEndPoint = WdfUsbTargetPipeIsOutEndpoint(usbPipe);</pre>
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeisinendpoint.md">WdfUsbTargetPipeIsInEndpoint</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_out.md">WDF_USB_PIPE_DIRECTION_OUT</a>
 
 
 
@@ -127,7 +127,7 @@ isOutEndPoint = WdfUsbTargetPipeIsOutEndpoint(usbPipe);</pre>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_out.md">WDF_USB_PIPE_DIRECTION_OUT</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeisinendpoint.md">WdfUsbTargetPipeIsInEndpoint</a>
 
 
 

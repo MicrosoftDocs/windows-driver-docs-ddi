@@ -4,11 +4,11 @@ title: UfxDevicePortDetectComplete function
 author: windows-driver-content
 description: Notifies UFX about the port type that was detected.
 old-location: buses\ufxdeviceportdetectcomplete.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: D5F65152-54CD-45FA-99CE-F5B4DF444BB8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: UfxDevicePortDetectComplete method [Buses], ufxclient/UfxDevicePortDetectComplete, UfxDevicePortDetectComplete, buses.ufxdeviceportdetectcomplete
+ms.date: 2/24/2018
+ms.keywords: UfxDevicePortDetectComplete, UfxDevicePortDetectComplete method [Buses], buses.ufxdeviceportdetectcomplete, ufxclient/UfxDevicePortDetectComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxDevicePortDetectComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

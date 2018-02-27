@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b760e176-3ef7-4495-89c7-ec6b8bb3ed30
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndiscopyfromnetbuffertonetbuffer, NdisCopyFromNetBufferToNetBuffer, ndis_netbuf_functions_ref_28d10afe-d78a-49ef-8c9c-f90b87d4eeb1.xml, NdisCopyFromNetBufferToNetBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisCopyFromNetBufferToNetBuffer
+ms.keywords: NdisCopyFromNetBufferToNetBuffer, NdisCopyFromNetBufferToNetBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisCopyFromNetBufferToNetBuffer, ndis_netbuf_functions_ref_28d10afe-d78a-49ef-8c9c-f90b87d4eeb1.xml, netvista.ndiscopyfromnetbuffertonetbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisCopyFromNetBufferToNetBuffer
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCopyFromNetBufferToNetBuffer function

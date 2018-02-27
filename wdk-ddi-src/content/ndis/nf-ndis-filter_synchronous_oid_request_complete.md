@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E0749F52-CC7C-484D-8350-1986154957C1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/FilterSynchronousOidRequestComplete, FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE, netvista.filter_synchronous_oid_request_complete, FilterSynchronousOidRequestComplete, FilterSynchronousOidRequestComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE, FilterSynchronousOidRequestComplete, FilterSynchronousOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/FilterSynchronousOidRequestComplete, netvista.filter_synchronous_oid_request_complete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	FilterSynchronousOidRequestComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE function

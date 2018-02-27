@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 876453a7-922e-4ab7-a609-64d31e60ce88
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.ioctl_redir_query_path, IOCTL_REDIR_QUERY_PATH control code [Installable File System Drivers], IOCTL_REDIR_QUERY_PATH, ntifs/IOCTL_REDIR_QUERY_PATH, ioctl_ref_f46fa4a1-0546-4d70-8490-7a233a2e743f.xml
+ms.keywords: IOCTL_REDIR_QUERY_PATH, IOCTL_REDIR_QUERY_PATH control code [Installable File System Drivers], ifsk.ioctl_redir_query_path, ioctl_ref_f46fa4a1-0546-4d70-8490-7a233a2e743f.xml, ntifs/IOCTL_REDIR_QUERY_PATH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TOKEN_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -287,11 +287,11 @@ For more information, see the following sections in the Design Guide:
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>
-
-
-
 <a href="..\ntifs\ni-ntifs-ioctl_redir_query_path_ex.md">IOCTL_REDIR_QUERY_PATH_EX</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>
 
 
 

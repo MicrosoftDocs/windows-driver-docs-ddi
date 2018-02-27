@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 117a9806-95a0-4f2f-8280-fec035df2811
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvsendpacketcompletion, Dot11ExtIhvSendPacketCompletion callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvSendPacketCompletion, DOT11EXTIHV_SEND_PACKET_COMPLETION, DOT11EXTIHV_SEND_PACKET_COMPLETION, wlanihv/Dot11ExtIhvSendPacketCompletion, Native_802.11_IHV_Ext_c0d3f967-28a9-4242-9a4b-2faed66ae5b1.xml
+ms.keywords: DOT11EXTIHV_SEND_PACKET_COMPLETION, Dot11ExtIhvSendPacketCompletion, Dot11ExtIhvSendPacketCompletion callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_c0d3f967-28a9-4242-9a4b-2faed66ae5b1.xml, netvista.dot11extihvsendpacketcompletion, wlanihv/Dot11ExtIhvSendPacketCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvSendPacketCompletion
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 

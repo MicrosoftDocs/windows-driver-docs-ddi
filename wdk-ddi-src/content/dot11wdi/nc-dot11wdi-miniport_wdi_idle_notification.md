@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BA050C7C-A593-469E-9212-B363F2D2A409
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwdiidlenotification, MiniportWdiIdleNotification callback function [Network Drivers Starting with Windows Vista], MiniportWdiIdleNotification, MINIPORT_WDI_IDLE_NOTIFICATION, MINIPORT_WDI_IDLE_NOTIFICATION, dot11wdi/MiniportWdiIdleNotification
+ms.keywords: MINIPORT_WDI_IDLE_NOTIFICATION, MiniportWdiIdleNotification, MiniportWdiIdleNotification callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiIdleNotification, netvista.miniportwdiidlenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	MiniportWdiIdleNotification
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_IDLE_NOTIFICATION callback
@@ -146,11 +146,11 @@ The miniport driver could not issue a bus-specific IRP successfully.
 
 ## -see-also
 
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_idle_notification_complete.md">NdisWdiIdleNotificationComplete</a>
-
-
-
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
+
+
+
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_idle_notification_complete.md">NdisWdiIdleNotificationComplete</a>
 
 
 

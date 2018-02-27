@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 42bc0e08-3d85-424f-aaa4-4df788d3706a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.providerallocatedmachannel, ProviderAllocateDmaChannel callback function [Network Drivers Starting with Windows Vista], ProviderAllocateDmaChannel, DMA_CHANNEL_ALLOCATE_HANDLER, DMA_CHANNEL_ALLOCATE_HANDLER, netdma/ProviderAllocateDmaChannel, netdma_ref_6f33588b-3234-4522-9ee6-3f56f3cd7be9.xml
+ms.keywords: DMA_CHANNEL_ALLOCATE_HANDLER, ProviderAllocateDmaChannel, ProviderAllocateDmaChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAllocateDmaChannel, netdma_ref_6f33588b-3234-4522-9ee6-3f56f3cd7be9.xml, netvista.providerallocatedmachannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -172,7 +172,7 @@ The DMA provider driver attempts to allocate a DMA channel with an interrupt CPU
     <i>ChannelParameters</i> parameter. If MSI-X is not supported or MSI-X is supported but a DMA channel with
     a matching interrupt CPU affinity is not available, the DMA provider driver allocates any available DMA
     channel and calls the 
-    <a href="..\ntddk\nf-ntddk-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a> routine to
+    <a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a> routine to
     set the target CPU of the interrupt DPC to match one of the specified affinity mask bits.
 
 The DMA provider always driver returns the CPU number that it associated with the interrupt DPC for
@@ -202,19 +202,19 @@ NetDMA calls
 
 ## -see-also
 
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+
+
+
 <a href="..\netdma\nc-netdma-dma_channel_free_handler.md">ProviderFreeDmaChannel</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
+<a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
 
 
 
 <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
-
-
-
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
 
 

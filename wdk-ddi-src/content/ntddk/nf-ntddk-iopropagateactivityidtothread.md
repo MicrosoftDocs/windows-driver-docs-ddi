@@ -7,8 +7,8 @@ old-location: kernel\iopropagateactivityidtothread.htm
 old-project: kernel
 ms.assetid: 8E824793-53DF-4573-81B0-6FE925CCB4C4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: IoPropagateActivityIdToThread, kernel.iopropagateactivityidtothread, IoPropagateActivityIdToThread routine [Kernel-Mode Driver Architecture], ntddk/IoPropagateActivityIdToThread
+ms.date: 2/24/2018
+ms.keywords: IoPropagateActivityIdToThread, IoPropagateActivityIdToThread routine [Kernel-Mode Driver Architecture], kernel.iopropagateactivityidtothread, ntddk/IoPropagateActivityIdToThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoPropagateActivityIdToThread
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoPropagateActivityIdToThread function

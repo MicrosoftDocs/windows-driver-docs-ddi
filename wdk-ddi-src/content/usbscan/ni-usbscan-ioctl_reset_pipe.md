@@ -4,11 +4,11 @@ title: IOCTL_RESET_PIPE
 author: windows-driver-content
 description: Resets the specified USB transfer pipe that is associated with the specified device handle.
 old-location: image\ioctl_reset_pipe.htm
-old-project: Image
+old-project: image
 ms.assetid: aeca126a-449a-4a10-a4ce-1cd3939ac076
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: image.ioctl_reset_pipe, IOCTL_RESET_PIPE control code [Imaging Devices], IOCTL_RESET_PIPE, usbscan/IOCTL_RESET_PIPE, stifnc_907d0aea-158a-4219-9235-85a16d6da30f.xml
+ms.date: 2/23/2018
+ms.keywords: IOCTL_RESET_PIPE, IOCTL_RESET_PIPE control code [Imaging Devices], image.ioctl_reset_pipe, stifnc_907d0aea-158a-4219-9235-85a16d6da30f.xml, usbscan/IOCTL_RESET_PIPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

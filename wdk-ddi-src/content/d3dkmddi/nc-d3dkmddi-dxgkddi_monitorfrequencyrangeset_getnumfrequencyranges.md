@@ -7,8 +7,8 @@ old-location: display\dxgk_monitorfrequencyrangeset_interface_pfngetnumfrequency
 old-project: display
 ms.assetid: ba70c191-832f-4dd1-b949-cb47cf736c6e
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgk_monitorfrequencyrangeset_interface_pfngetnumfrequencyranges, pfnGetNumFrequencyRanges callback function [Display Devices], pfnGetNumFrequencyRanges, DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES, DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES, d3dkmddi/pfnGetNumFrequencyRanges, VidPnFunctions_9840ad40-d098-4215-b3da-2de345970fe6.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES, VidPnFunctions_9840ad40-d098-4215-b3da-2de345970fe6.xml, d3dkmddi/pfnGetNumFrequencyRanges, display.dxgk_monitorfrequencyrangeset_interface_pfngetnumfrequencyranges, pfnGetNumFrequencyRanges, pfnGetNumFrequencyRanges callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

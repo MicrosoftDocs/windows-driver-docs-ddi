@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E603975A-B927-475A-9DEA-2D01C1249819
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fltkernel/FltRegisterForDataScan, FltRegisterForDataScan, FltRegisterForDataScan routine [Installable File System Drivers], ifsk.fltregisterfordatascan
+ms.keywords: FltRegisterForDataScan, FltRegisterForDataScan routine [Installable File System Drivers], fltkernel/FltRegisterForDataScan, ifsk.fltregisterfordatascan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,7 +111,11 @@ If <b>STATUS_NOT_SUPPORTED</b> is returned by <b>FltRegisterForDataScan</b>, a m
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a>
 
 
 
@@ -119,11 +123,7 @@ If <b>STATUS_NOT_SUPPORTED</b> is returned by <b>FltRegisterForDataScan</b>, a m
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
 
 
 

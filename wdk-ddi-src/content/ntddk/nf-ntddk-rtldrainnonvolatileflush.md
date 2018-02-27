@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: EA1C2DF3-591C-407A-ABBF-DE615466A498
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlDrainNonVolatileFlush routine [Installable File System Drivers], ntddk/RtlDrainNonVolatileFlush, ifsk.rtldrainnonvolatileflush, RtlDrainNonVolatileFlush
+ms.keywords: RtlDrainNonVolatileFlush, RtlDrainNonVolatileFlush routine [Installable File System Drivers], ifsk.rtldrainnonvolatileflush, ntddk/RtlDrainNonVolatileFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlDrainNonVolatileFlush
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlDrainNonVolatileFlush function
@@ -124,11 +124,7 @@ The request was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/8E083814-7408-47D2-A811-2DCBDCD13097">RtlFreeNonVolatileToken</a>
-
-
-
-<a href="https://msdn.microsoft.com/A9E866D4-C47F-4926-A838-EDB739CF1185">RtlGetNonVolatileToken</a>
+<a href="https://msdn.microsoft.com/49DDDEF8-F949-4674-A18B-9BB091D163C2">RtlWriteNonVolatileMemory</a>
 
 
 
@@ -137,11 +133,15 @@ RtlFlushNonVolatileMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/49DDDEF8-F949-4674-A18B-9BB091D163C2">RtlWriteNonVolatileMemory</a>
-
-
-
 <a href="https://msdn.microsoft.com/8E083814-7408-47D2-A811-2DCBDCD13097">RtlFreeNonVolatileToken</a>
+
+
+
+<a href="https://msdn.microsoft.com/169C5F41-B372-4056-AAC5-53DD0582A563">RtlFlushNonVolatileMemoryRanges</a>
+
+
+
+<a href="https://msdn.microsoft.com/A9E866D4-C47F-4926-A838-EDB739CF1185">RtlGetNonVolatileToken</a>
 
 
 

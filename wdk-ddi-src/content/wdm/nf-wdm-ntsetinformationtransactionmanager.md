@@ -7,8 +7,8 @@ old-location: kernel\ntsetinformationtransactionmanager.htm
 old-project: kernel
 ms.assetid: a1e2f40f-5aea-4c8b-8692-95721ad4bc9d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.ntsetinformationtransactionmanager, NtSetInformationTransactionManager, ntx_b4f057ac-bca8-44e6-874e-4f33bd487a20.xml, wdm/NtSetInformationTransactionManager, NtSetInformationTransactionManager routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: NtSetInformationTransactionManager, NtSetInformationTransactionManager routine [Kernel-Mode Driver Architecture], kernel.ntsetinformationtransactionmanager, ntx_b4f057ac-bca8-44e6-874e-4f33bd487a20.xml, wdm/NtSetInformationTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

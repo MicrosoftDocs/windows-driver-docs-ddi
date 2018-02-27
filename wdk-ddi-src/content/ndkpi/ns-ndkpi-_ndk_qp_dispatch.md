@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C2B50C94-693A-48A2-8458-5722F652C933
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndkpi/NDK_QP_DISPATCH, _NDK_QP_DISPATCH, NDK_QP_DISPATCH, netvista.ndk_qp_dispatch, NDK_QP_DISPATCH structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDK_QP_DISPATCH, NDK_QP_DISPATCH structure [Network Drivers Starting with Windows Vista], _NDK_QP_DISPATCH, ndkpi/NDK_QP_DISPATCH, netvista.ndk_qp_dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -145,23 +145,11 @@ The <b>NDK_QP_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_bind.md">NDK_FN_BIND</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_flush.md">NDK_FN_FLUSH</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_receive.md">NDK_FN_RECEIVE</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_invalidate.md">NDK_FN_INVALIDATE</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
 
 
 
@@ -169,15 +157,15 @@ The <b>NDK_QP_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_
 
 
 
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_receive.md">NDK_FN_RECEIVE</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
+
+
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_send.md">NDK_FN_SEND</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_write.md">NDK_FN_WRITE</a>
 
 
 
@@ -185,7 +173,19 @@ The <b>NDK_QP_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_write.md">NDK_FN_WRITE</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_flush.md">NDK_FN_FLUSH</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_bind.md">NDK_FN_BIND</a>
 
 
 

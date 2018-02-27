@@ -7,8 +7,8 @@ old-location: print\ixpsdocumentconsumer.htm
 old-project: print
 ms.assetid: 98e603e6-2786-4bc8-ad8a-0e91b0d444d8
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.ixpsdocumentconsumer, IXpsDocumentConsumer interface [Print Devices], IXpsDocumentConsumer interface [Print Devices], described, IXpsDocumentConsumer, filterpipeline/IXpsDocumentConsumer, filterpipeline_230eb0f6-427a-4986-b8ad-bc1d41853d67.xml
+ms.date: 2/23/2018
+ms.keywords: IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], IXpsDocumentConsumer interface [Print Devices], described, filterpipeline/IXpsDocumentConsumer, filterpipeline_230eb0f6-427a-4986-b8ad-bc1d41853d67.xml, print.ixpsdocumentconsumer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -51,6 +51,13 @@ req.typenames: EXpsFontRestriction
 
 A filter uses the <code>IXpsDocumentConsumer</code> interface when it generates XPS content for the pipeline to consume. 
 <div class="alert"><b>Note</b>    The XPS print filter pipeline does not preserve digital signatures or story fragments. You may be able to work around this by using stream filters.</div><div> </div>
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsDocumentConsumer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IXpsDocumentConsumer</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -123,19 +130,5 @@ The <code>SendXpsUnknown</code> method sends an XPS document part that cannot be
 
 </td>
 </tr>
-</table>The <code>CloseSender</code> method tells the Pipeline Manager that the filter is done sending XPS parts.
-
-The <code>GetNewEmptyPart</code> method creates a new XPS part.
-
-The <code>SendFixedDocument</code> method sends a fixed document object to the pipeline.
-
-The <b>SendFixedDocumentSequence</b> method sends a fixed document sequence to the pipeline.
-
-The <code>SendFixedPage</code> method sends a fixed page of an XPS document to the pipeline.
-
-The <code>SendXpsDocument</code> method sends an XPS document to the pipeline. 
-
-The <code>SendXpsUnknown</code> method sends an XPS document part that cannot be identified to the filter pipeline.
-
- 
+</table> 
 

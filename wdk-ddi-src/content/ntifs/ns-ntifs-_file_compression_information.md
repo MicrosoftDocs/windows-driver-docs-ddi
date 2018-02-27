@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 69a360d9-6e17-4979-a4f3-219ac0739d99
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FILE_COMPRESSION_INFORMATION, ntifs/PFILE_COMPRESSION_INFORMATION, PFILE_COMPRESSION_INFORMATION structure pointer [Installable File System Drivers], *PFILE_COMPRESSION_INFORMATION, FILE_COMPRESSION_INFORMATION structure [Installable File System Drivers], ntifs/FILE_COMPRESSION_INFORMATION, _FILE_COMPRESSION_INFORMATION, PFILE_COMPRESSION_INFORMATION, fileinformationstructures_76adaca7-2c3e-4c87-8715-da468416e95a.xml, ifsk.file_compression_information
+ms.keywords: "*PFILE_COMPRESSION_INFORMATION, FILE_COMPRESSION_INFORMATION, FILE_COMPRESSION_INFORMATION structure [Installable File System Drivers], PFILE_COMPRESSION_INFORMATION, PFILE_COMPRESSION_INFORMATION structure pointer [Installable File System Drivers], _FILE_COMPRESSION_INFORMATION, fileinformationstructures_76adaca7-2c3e-4c87-8715-da468416e95a.xml, ifsk.file_compression_information, ntifs/FILE_COMPRESSION_INFORMATION, ntifs/PFILE_COMPRESSION_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -148,11 +148,11 @@ Reserved
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544756">FLT_PARAMETERS for IRP_MJ_QUERY_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549283">IRP_MJ_QUERY_INFORMATION</a>
 
 
 

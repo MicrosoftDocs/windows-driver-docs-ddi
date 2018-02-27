@@ -7,8 +7,8 @@ old-location: storage\ioctl_changer_reinitialize_transport.htm
 old-project: storage
 ms.assetid: 35b40514-a7a6-4860-a633-fe273ef21ba2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.ioctl_changer_reinitialize_transport, IOCTL_CHANGER_REINITIALIZE_TRANSPORT control code [Storage Devices], IOCTL_CHANGER_REINITIALIZE_TRANSPORT, ntddchgr/IOCTL_CHANGER_REINITIALIZE_TRANSPORT, k307_36f3bd40-f084-4b11-b2e1-5e4ff976ba64.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_CHANGER_REINITIALIZE_TRANSPORT, IOCTL_CHANGER_REINITIALIZE_TRANSPORT control code [Storage Devices], k307_36f3bd40-f084-4b11-b2e1-5e4ff976ba64.xml, ntddchgr/IOCTL_CHANGER_REINITIALIZE_TRANSPORT, storage.ioctl_changer_reinitialize_transport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CHANGER_REINITIALIZE_TRANSPORT
 product: Windows
 targetos: Windows
-req.typenames: "*PELEMENT_TYPE, ELEMENT_TYPE"
+req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 ---
 
 # IOCTL_CHANGER_REINITIALIZE_TRANSPORT IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*PELEMENT_TYPE, ELEMENT_TYPE"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -116,5 +116,5 @@ The <b>Information</b> field is set to <b>sizeof</b>(CHANGER_ELEMENT). The <b>St
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CHANGER_REINITIALIZE_TRANSPORT control code%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CHANGER_REINITIALIZE_TRANSPORT control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

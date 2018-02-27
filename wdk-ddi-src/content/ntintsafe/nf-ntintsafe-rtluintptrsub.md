@@ -7,8 +7,8 @@ old-location: kernel\rtluintptrsub.htm
 old-project: kernel
 ms.assetid: D0E23A94-515B-4225-A8AC-390CDD3BEA60
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.rtluintptrsub, RtlUIntPtrSub function [Kernel-Mode Driver Architecture], RtlUIntPtrSub, ntintsafe/RtlUIntPtrSub
+ms.date: 2/24/2018
+ms.keywords: RtlUIntPtrSub, RtlUIntPtrSub function [Kernel-Mode Driver Architecture], kernel.rtluintptrsub, ntintsafe/RtlUIntPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

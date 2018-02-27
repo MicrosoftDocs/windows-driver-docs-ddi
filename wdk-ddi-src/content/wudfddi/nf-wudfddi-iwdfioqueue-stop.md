@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4ad9410a-f3ec-445a-b509-7666a81e1427
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfioqueue_stop, IWDFIoQueue::Stop, IWDFIoQueue interface, Stop method, Stop method, IWDFIoQueue, umdf.iwdfioqueue_stop, Stop method, IWDFIoQueue interface, wudfddi/IWDFIoQueue::Stop, UMDFQueueObjectRef_c45e9686-2484-4c8d-857d-4dc12c8f2fd7.xml, Stop
+ms.keywords: IWDFIoQueue, IWDFIoQueue interface, Stop method, IWDFIoQueue::Stop, Stop method, Stop method, IWDFIoQueue interface, Stop,IWDFIoQueue.Stop, UMDFQueueObjectRef_c45e9686-2484-4c8d-857d-4dc12c8f2fd7.xml, umdf.iwdfioqueue_stop, wdf.iwdfioqueue_stop, wudfddi/IWDFIoQueue::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -119,11 +119,7 @@ The <b>Stop</b> method enables the queue to receive new requests, even if the qu
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
 
 
 
@@ -131,7 +127,11 @@ The <b>Stop</b> method enables the queue to receive new requests, even if the qu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a>
 
 
 

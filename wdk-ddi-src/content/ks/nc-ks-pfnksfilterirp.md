@@ -7,8 +7,8 @@ old-location: stream\avstrminifiltercreate.htm
 old-project: stream
 ms.assetid: c654e822-a932-4da0-ab11-4669bd8ba4b4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.avstrminifiltercreate, AVStrMiniFilterCreate, AVStrMiniFilterClose, MyAVStrMiniFilterIRPHandler routine [Streaming Media Devices], MyAVStrMiniFilterIRPHandler, PFNKSFILTERIRP, PFNKSFILTERIRP, ks/MyAVStrMiniFilterIRPHandler, avstclbk_76b73509-587e-47bd-9de7-92eac4237706.xml
+ms.date: 2/23/2018
+ms.keywords: AVStrMiniFilterClose, AVStrMiniFilterCreate, MyAVStrMiniFilterIRPHandler, MyAVStrMiniFilterIRPHandler routine [Streaming Media Devices], PFNKSFILTERIRP, avstclbk_76b73509-587e-47bd-9de7-92eac4237706.xml, ks/MyAVStrMiniFilterIRPHandler, stream.avstrminifiltercreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -152,13 +152,7 @@ Return STATUS_SUCCESS or STATUS_PENDING. If a minidriver returns STATUS_PENDING,
 
 
 
-
-
-
-
 <a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
-
-
 
 
 
@@ -170,5 +164,5 @@ Return STATUS_SUCCESS or STATUS_PENDING. If a minidriver returns STATUS_PENDING,
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSFILTERIRP routine%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSFILTERIRP routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

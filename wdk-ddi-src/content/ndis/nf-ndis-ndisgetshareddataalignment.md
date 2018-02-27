@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 561315b4-8866-4f48-8138-12b1a38f743e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: miniport_memory_shared_ref_1572f536-6b6a-4ea9-9150-78399870538c.xml, NdisGetSharedDataAlignment, netvista.ndisgetshareddataalignment, ndis/NdisGetSharedDataAlignment, NdisGetSharedDataAlignment function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisGetSharedDataAlignment, NdisGetSharedDataAlignment function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_1572f536-6b6a-4ea9-9150-78399870538c.xml, ndis/NdisGetSharedDataAlignment, netvista.ndisgetshareddataalignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisGetSharedDataAlignment
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGetSharedDataAlignment function

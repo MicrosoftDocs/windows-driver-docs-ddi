@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 981195e6-6f62-4a6f-9c84-d98f6cd7bab3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtinterruptenable, EvtInterruptEnable callback function, EvtInterruptEnable, EVT_WDF_INTERRUPT_ENABLE, EVT_WDF_INTERRUPT_ENABLE, wdfinterrupt/EvtInterruptEnable, DFInterruptObjectRef_eb3a90f0-712a-43fe-8d5c-5a29d1df0a62.xml, kmdf.evtinterruptenable
+ms.keywords: DFInterruptObjectRef_eb3a90f0-712a-43fe-8d5c-5a29d1df0a62.xml, EVT_WDF_INTERRUPT_ENABLE, EvtInterruptEnable, EvtInterruptEnable callback function, kmdf.evtinterruptenable, wdf.evtinterruptenable, wdfinterrupt/EvtInterruptEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -153,6 +153,10 @@ The <b>EVT_WDF_INTERRUPT_ENABLE</b> function type is defined in the Wdfinterrupt
 
 ## -see-also
 
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry_post_interrupts_enabled.md">EvtDeviceD0EntryPostInterruptsEnabled</a>
+
+
+
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetinfo.md">WdfInterruptGetInfo</a>
 
 
@@ -161,14 +165,11 @@ The <b>EVT_WDF_INTERRUPT_ENABLE</b> function type is defined in the Wdfinterrupt
 
 
 
-
-
-
 <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry_post_interrupts_enabled.md">EvtDeviceD0EntryPostInterruptsEnabled</a>
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_disable.md">EvtInterruptDisable</a>
 
 
 

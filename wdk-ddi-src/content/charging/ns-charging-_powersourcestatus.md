@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 9386DBEC-A47D-44A5-8AF8-D5B406143070
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_POWERSOURCESTATUS, charging/BATTERY_INFORMATION, POWERSOURCESTATUS, POWERSOURCESTATUS structure [Battery Devices], battery.powersourcestatus, *PPOWERSOURCESTATUS"
+ms.keywords: "*PPOWERSOURCESTATUS, POWERSOURCESTATUS, POWERSOURCESTATUS structure [Battery Devices], _POWERSOURCESTATUS, battery.powersourcestatus, charging/BATTERY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

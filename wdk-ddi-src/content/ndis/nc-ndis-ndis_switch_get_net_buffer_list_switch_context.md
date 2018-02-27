@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 68270219-7003-489B-8362-8D6867D571FD
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.getnetbufferlistswitchcontext, GetNetBufferListSwitchContext callback function [Network Drivers Starting with Windows Vista], GetNetBufferListSwitchContext, NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT, NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT, ndis/GetNetBufferListSwitchContext
+ms.keywords: GetNetBufferListSwitchContext, GetNetBufferListSwitchContext callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT, ndis/GetNetBufferListSwitchContext, netvista.getnetbufferlistswitchcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -119,15 +119,7 @@ For more information about the extensible switch forwarding context, see <a href
 
 
 
-<a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
-
-
-
-<a href="https://msdn.microsoft.com/55B5C0B4-5359-410B-9110-79EDDBA3010C">GetNetBufferListDestinations</a>
 
 
 
@@ -139,11 +131,19 @@ For more information about the extensible switch forwarding context, see <a href
 
 
 
-<a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a>
+<a href="https://msdn.microsoft.com/55B5C0B4-5359-410B-9110-79EDDBA3010C">GetNetBufferListDestinations</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
 
 
 

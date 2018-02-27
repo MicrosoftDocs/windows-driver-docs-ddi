@@ -7,8 +7,8 @@ old-location: print\colortype.htm
 old-project: print
 ms.assetid: aa7d8d32-7bbe-4091-82a2-32ade463dd9e
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: COLORTYPE enumeration [Print Devices], COLOR_GRAY, COLOR_RGB, COLOR_Lab, icm/COLOR_Lab, COLOR_8_CHANNEL, icm/COLOR_5_CHANNEL, colorfnc_95cb2087-57a1-4d10-87b0-d90cd4da2f57.xml, COLORTYPE, COLOR_XYZ, COLOR_NAMED, icm/COLORTYPE, COLOR_3_CHANNEL, icm/COLOR_NAMED, icm/COLOR_XYZ, icm/COLOR_RGB, COLOR_5_CHANNEL, print.colortype, COLOR_Yxy, icm/COLOR_7_CHANNEL, icm/COLOR_8_CHANNEL, icm/COLOR_3_CHANNEL, icm/COLOR_Yxy, icm/COLOR_6_CHANNEL, COLOR_6_CHANNEL, icm/COLOR_GRAY, icm/COLOR_CMYK, *PCOLORTYPE, COLOR_CMYK, COLOR_7_CHANNEL
+ms.date: 2/23/2018
+ms.keywords: "*PCOLORTYPE, COLORTYPE, COLORTYPE enumeration [Print Devices], COLOR_3_CHANNEL, COLOR_5_CHANNEL, COLOR_6_CHANNEL, COLOR_7_CHANNEL, COLOR_8_CHANNEL, COLOR_CMYK, COLOR_GRAY, COLOR_Lab, COLOR_NAMED, COLOR_RGB, COLOR_XYZ, COLOR_Yxy, colorfnc_95cb2087-57a1-4d10-87b0-d90cd4da2f57.xml, icm/COLORTYPE, icm/COLOR_3_CHANNEL, icm/COLOR_5_CHANNEL, icm/COLOR_6_CHANNEL, icm/COLOR_7_CHANNEL, icm/COLOR_8_CHANNEL, icm/COLOR_CMYK, icm/COLOR_GRAY, icm/COLOR_Lab, icm/COLOR_NAMED, icm/COLOR_RGB, icm/COLOR_XYZ, icm/COLOR_Yxy, print.colortype"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

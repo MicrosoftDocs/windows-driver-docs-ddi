@@ -7,8 +7,8 @@ old-location: kernel\iocompletion.htm
 old-project: kernel
 ms.assetid: 53fc5265-5d8e-4794-942b-de81b93e81da
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.iocompletion, IoCompletion routine [Kernel-Mode Driver Architecture], IoCompletion, IO_COMPLETION_ROUTINE, IO_COMPLETION_ROUTINE, wdm/IoCompletion, DrvrRtns_aa2b6363-e3c1-4243-87d8-8a1bb575974b.xml
+ms.date: 2/24/2018
+ms.keywords: DrvrRtns_aa2b6363-e3c1-4243-87d8-8a1bb575974b.xml, IO_COMPLETION_ROUTINE, IoCompletion, IoCompletion routine [Kernel-Mode Driver Architecture], kernel.iocompletion, wdm/IoCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	IoCompletion
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 

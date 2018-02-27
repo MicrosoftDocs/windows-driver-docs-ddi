@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a2c67eaf-d39e-43c9-8e06-18f668c0baa3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PDOT11_BYTE_ARRAY, windot11/DOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_b4146de4-b261-40d9-847d-1eebb48eafea.xml, windot11/PDOT11_BYTE_ARRAY, PDOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY, PDOT11_BYTE_ARRAY structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_byte_array"
+ms.keywords: "*PDOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_b4146de4-b261-40d9-847d-1eebb48eafea.xml, PDOT11_BYTE_ARRAY, PDOT11_BYTE_ARRAY structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_byte_array, windot11/DOT11_BYTE_ARRAY, windot11/PDOT11_BYTE_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_BYTE_ARRAY
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY"
+req.typenames: DOT11_BYTE_ARRAY, *PDOT11_BYTE_ARRAY
 req.product: Windows 10 or later.
 ---
 
@@ -208,12 +208,12 @@ Return NDIS_STATUS_SUCCESS from its
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: stream\ksstreampointergetirp.htm
 old-project: stream
 ms.assetid: 3ed4ed2f-66be-4429-b2d6-2d9d3f9bcf3e
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KsStreamPointerGetIrp function [Streaming Media Devices], avfunc_57ecd1af-c967-473c-b475-1d91bc42f2eb.xml, KsStreamPointerGetIrp, ks/KsStreamPointerGetIrp, stream.ksstreampointergetirp
+ms.date: 2/23/2018
+ms.keywords: KsStreamPointerGetIrp, KsStreamPointerGetIrp function [Streaming Media Devices], avfunc_57ecd1af-c967-473c-b475-1d91bc42f2eb.xml, ks/KsStreamPointerGetIrp, stream.ksstreampointergetirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,17 +111,17 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointergetmdl.md">KsStreamPointerGetMdl</a>
-
-
-
 <a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
 
 
 
- 
+<a href="..\ks\nf-ks-ksstreampointergetmdl.md">KsStreamPointerGetMdl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsStreamPointerGetIrp function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsStreamPointerGetIrp function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: DA17F7DB-E6E7-4934-8AAF-73800ABF1432
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: windot11/DOT11_WFD_GROUP_START_PARAMETERS, *PDOT11_WFD_GROUP_START_PARAMETERS, windot11/PDOT11_WFD_GROUP_START_PARAMETERS, PDOT11_WFD_GROUP_START_PARAMETERS, _DOT11_WFD_GROUP_START_PARAMETERS, netvista.dot11_wfd_group_start_parameters, PDOT11_WFD_GROUP_START_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_WFD_GROUP_START_PARAMETERS structure [Network Drivers Starting with Windows Vista], DOT11_WFD_GROUP_START_PARAMETERS
+ms.keywords: "*PDOT11_WFD_GROUP_START_PARAMETERS, DOT11_WFD_GROUP_START_PARAMETERS, DOT11_WFD_GROUP_START_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_GROUP_START_PARAMETERS, PDOT11_WFD_GROUP_START_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_GROUP_START_PARAMETERS, netvista.dot11_wfd_group_start_parameters, windot11/DOT11_WFD_GROUP_START_PARAMETERS, windot11/PDOT11_WFD_GROUP_START_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

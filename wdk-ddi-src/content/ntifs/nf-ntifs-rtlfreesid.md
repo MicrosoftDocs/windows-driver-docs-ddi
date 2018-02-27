@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c3afb073-feb4-47ad-96a1-c9b580626026
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlFreeSid function [Installable File System Drivers], ifsk.rtlfreesid, ntifs/RtlFreeSid, RtlFreeSid, rtlref_4cdaafe3-70fa-4a22-be05-019e6b06cc15.xml
+ms.keywords: RtlFreeSid, RtlFreeSid function [Installable File System Drivers], ifsk.rtlfreesid, ntifs/RtlFreeSid, rtlref_4cdaafe3-70fa-4a22-be05-019e6b06cc15.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

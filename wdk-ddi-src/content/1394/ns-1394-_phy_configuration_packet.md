@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 5a5acd4a-ad99-4b8c-b8ea-490a7b467e14
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 1394/PHY_CONFIGURATION_PACKET, IEEE.phy_configuration_packet, *PPHY_CONFIGURATION_PACKET, 1394/PPHY_CONFIGURATION_PACKET, PHY_CONFIGURATION_PACKET, PPHY_CONFIGURATION_PACKET, 1394stct_1d0c74cf-13c7-455d-b51e-5e2f4f2a5c5a.xml, PHY_CONFIGURATION_PACKET structure [Buses], PPHY_CONFIGURATION_PACKET structure pointer [Buses], _PHY_CONFIGURATION_PACKET
+ms.keywords: "*PPHY_CONFIGURATION_PACKET, 1394/PHY_CONFIGURATION_PACKET, 1394/PPHY_CONFIGURATION_PACKET, 1394stct_1d0c74cf-13c7-455d-b51e-5e2f4f2a5c5a.xml, IEEE.phy_configuration_packet, PHY_CONFIGURATION_PACKET, PHY_CONFIGURATION_PACKET structure [Buses], PPHY_CONFIGURATION_PACKET, PPHY_CONFIGURATION_PACKET structure pointer [Buses], _PHY_CONFIGURATION_PACKET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

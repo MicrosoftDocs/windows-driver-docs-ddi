@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolunbindadapterex, ProtocolUnbindAdapterEx callback function [Network Drivers Starting with Windows Vista], ProtocolUnbindAdapterEx, PROTOCOL_UNBIND_ADAPTER_EX, PROTOCOL_UNBIND_ADAPTER_EX, ndis/ProtocolUnbindAdapterEx, protocol_functions_ref_e8d6b640-35e1-4824-9d7b-a7ebd6273764.xml
+ms.keywords: PROTOCOL_UNBIND_ADAPTER_EX, ProtocolUnbindAdapterEx, ProtocolUnbindAdapterEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolUnbindAdapterEx, netvista.protocolunbindadapterex, protocol_functions_ref_e8d6b640-35e1-4824-9d7b-a7ebd6273764.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -276,16 +276,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569073">OID_802_3_MULTICAST_LIST</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscompleteunbindadapterex.md">NdisCompleteUnbindAdapterEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
-   ProtocolCloseAdapterCompleteEx</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 
@@ -293,11 +284,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a>
+<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
 
 
 
@@ -306,15 +293,28 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569073">OID_802_3_MULTICAST_LIST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
+<a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
+   ProtocolCloseAdapterCompleteEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscompleteunbindadapterex.md">NdisCompleteUnbindAdapterEx</a>
 
 
 

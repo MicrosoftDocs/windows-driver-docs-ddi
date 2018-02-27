@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5868dd01-17ba-4edf-b665-c90d2b1aa2ba
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfworkitem/WdfWorkItemFlush, DFWorkItemObjectRef_620a50e7-1995-4806-b71a-932f7fc7c35a.xml, WdfWorkItemFlush, kmdf.wdfworkitemflush, wdf.wdfworkitemflush, WdfWorkItemFlush method
+ms.keywords: DFWorkItemObjectRef_620a50e7-1995-4806-b71a-932f7fc7c35a.xml, WdfWorkItemFlush, WdfWorkItemFlush method, kmdf.wdfworkitemflush, wdf.wdfworkitemflush, wdfworkitem/WdfWorkItemFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dbabd045-4f18-4103-b3c0-5405173628d6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfobjectallocatecontext, WdfObjectAllocateContext method, DFGenObjectRef_9b172283-f4b6-4ade-9cd2-38f10c0ff9bd.xml, WdfObjectAllocateContext, wdf.wdfobjectallocatecontext, wdfobject/WdfObjectAllocateContext
+ms.keywords: DFGenObjectRef_9b172283-f4b6-4ade-9cd2-38f10c0ff9bd.xml, WdfObjectAllocateContext, WdfObjectAllocateContext method, kmdf.wdfobjectallocatecontext, wdf.wdfobjectallocatecontext, wdfobject/WdfObjectAllocateContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -218,7 +218,7 @@ status = WdfObjectAllocateContext(
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 
 

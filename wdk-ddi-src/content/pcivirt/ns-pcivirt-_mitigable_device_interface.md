@@ -7,8 +7,8 @@ old-location: pci\mitigable_device_interface.htm
 old-project: PCI
 ms.assetid: 1fac7c03-2a48-4b29-951d-c777fbec7dd3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: pcivirt/MITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE structure [Buses], _MITIGABLE_DEVICE_INTERFACE, PCI.mitigable_device_interface, *PMITIGABLE_DEVICE_INTERFACE
+ms.date: 2/24/2018
+ms.keywords: "*PMITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE structure [Buses], PCI.mitigable_device_interface, _MITIGABLE_DEVICE_INTERFACE, pcivirt/MITIGABLE_DEVICE_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,12 +89,12 @@ Driver-defined context passed by the driver.
 
 ### -field InterfaceReference
 
-Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\miniport\nc-miniport-pinterface_reference.md">InterfaceReference</a>. 
+Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>. 
 
 
 ### -field InterfaceDereference
 
-Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\miniport\nc-miniport-pinterface_dereference.md">InterfaceDereference</a>. 
+Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>. 
 
 
 ### -field ReadWriteMitigatedRegister

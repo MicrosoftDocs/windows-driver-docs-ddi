@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0a60001b-5fa9-4f25-a92f-3634e2a50e36
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*LPRILDIALPARAMS, RILDIALPARAMS_V2 structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILDIALPARAMS_V2, *LPRILDIALPARAMS_V2, RILDIALPARAMS_V2, RILDIALPARAMS, netvista.rildialparams_v2"
+ms.keywords: "*LPRILDIALPARAMS, *LPRILDIALPARAMS_V2, RILDIALPARAMS, RILDIALPARAMS_V2, RILDIALPARAMS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rildialparams_v2, ntddrilapitypes/RILDIALPARAMS_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILDIALPARAMS_V2
 product: Windows
 targetos: Windows
-req.typenames: RILDIALPARAMS_V2, RILDIALPARAMS, *LPRILDIALPARAMS, *LPRILDIALPARAMS_V2
+req.typenames: RILDIALPARAMS_V2, *LPRILDIALPARAMS_V2, RILDIALPARAMS, *LPRILDIALPARAMS
 ---
 
 # RILDIALPARAMS_V2 structure

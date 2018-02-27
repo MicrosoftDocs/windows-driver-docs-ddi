@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3c7592ad-f4ed-496f-90bb-638f68efe4f7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfRegistryAssignValue, DFRegKeyObjectRef_b585a896-046f-4730-8f1d-bba4a2479772.xml, wdf.wdfregistryassignvalue, kmdf.wdfregistryassignvalue, wdfregistry/WdfRegistryAssignValue, WdfRegistryAssignValue method
+ms.keywords: DFRegKeyObjectRef_b585a896-046f-4730-8f1d-bba4a2479772.xml, WdfRegistryAssignValue, WdfRegistryAssignValue method, kmdf.wdfregistryassignvalue, wdf.wdfregistryassignvalue, wdfregistry/WdfRegistryAssignValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -197,15 +197,11 @@ status = WdfRegistryAssignValue(
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmemory.md">WdfRegistryAssignMemory</a>
 
 
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignulong.md">WdfRegistryAssignULong</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignunicodestring.md">WdfRegistryAssignUnicodeString</a>
 
 
 
@@ -217,11 +213,15 @@ status = WdfRegistryAssignValue(
 
 
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignunicodestring.md">WdfRegistryAssignUnicodeString</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignulong.md">WdfRegistryAssignULong</a>
 
 
 
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignstring.md">WdfRegistryAssignString</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

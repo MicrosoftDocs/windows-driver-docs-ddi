@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 35149395-4238-41fd-ae96-6491534e3cc1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WheaIsValidErrorRecordSignature, ntddk/WheaIsValidErrorRecordSignature, WheaIsValidErrorRecordSignature function [WHEA Drivers and Applications], whearef2_6ba74e00-cc1f-49e9-b6ee-b300571eb412.xml, whea.wheaisvaliderrorrecordsignature
+ms.keywords: WheaIsValidErrorRecordSignature, WheaIsValidErrorRecordSignature function [WHEA Drivers and Applications], ntddk/WheaIsValidErrorRecordSignature, whea.wheaisvaliderrorrecordsignature, whearef2_6ba74e00-cc1f-49e9-b6ee-b300571eb412.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WheaIsValidErrorRecordSignature
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # WheaIsValidErrorRecordSignature function
@@ -96,11 +96,11 @@ The <b>WheaIsValidErrorRecordSignature </b>function verifies that the specified 
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
-
-
-
 <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">Error record</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
 
 
 

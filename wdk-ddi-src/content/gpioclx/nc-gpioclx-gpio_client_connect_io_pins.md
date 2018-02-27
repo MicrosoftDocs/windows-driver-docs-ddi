@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 9DE89026-872C-4537-BD99-131320B3C258
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_connectiopins, CLIENT_ConnectIoPins callback function [Parallel Ports], CLIENT_ConnectIoPins, GPIO_CLIENT_CONNECT_IO_PINS, GPIO_CLIENT_CONNECT_IO_PINS, gpioclx/CLIENT_ConnectIoPins
+ms.keywords: CLIENT_ConnectIoPins, CLIENT_ConnectIoPins callback function [Parallel Ports], GPIO.client_connectiopins, GPIO_CLIENT_CONNECT_IO_PINS, gpioclx/CLIENT_ConnectIoPins
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_ConnectIoPins
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO"
+req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
 
 # GPIO_CLIENT_CONNECT_IO_PINS callback
@@ -147,11 +147,11 @@ The GPIO_CLIENT_CONNECT_IO_PINS function type is defined in the Gpioclx.h header
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439374">CLIENT_DisconnectIoPins</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
 
 

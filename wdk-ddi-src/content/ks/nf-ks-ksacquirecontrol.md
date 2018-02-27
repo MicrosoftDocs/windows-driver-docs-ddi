@@ -7,8 +7,8 @@ old-location: stream\ksacquirecontrol.htm
 old-project: stream
 ms.assetid: c316382c-8416-43c2-b5fd-2d52d01e1419
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ksacquirecontrol, avfunc_a3c1eb2c-db95-463f-98f5-a158dd1e14f5.xml, ks/KsAcquireControl, KsAcquireControl function [Streaming Media Devices], KsAcquireControl
+ms.date: 2/23/2018
+ms.keywords: KsAcquireControl, KsAcquireControl function [Streaming Media Devices], avfunc_a3c1eb2c-db95-463f-98f5-a158dd1e14f5.xml, ks/KsAcquireControl, stream.ksacquirecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,6 +95,10 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
+
+
+
 <a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
 
 
@@ -103,25 +107,17 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 
 
+<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
+
+
+
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 
-<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
-
-
-
-<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
-
-
-
-<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsAcquireControl function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsAcquireControl function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

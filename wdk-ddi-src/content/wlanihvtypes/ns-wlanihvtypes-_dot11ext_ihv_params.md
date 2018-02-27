@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1264bfe7-3ab6-4ba0-aa41-cf81bc9bb687
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PDOT11EXT_IHV_PARAMS, netvista.dot11ext_ihv_params, DOT11EXT_IHV_PARAMS, PDOT11EXT_IHV_PARAMS structure pointer [Network Drivers Starting with Windows Vista], wlanihvtypes/PDOT11EXT_IHV_PARAMS, _DOT11EXT_IHV_PARAMS, Native_802.11_data_types_90966964-74cc-4ff7-ae77-2807ab20d869.xml, *PDOT11EXT_IHV_PARAMS, wlanihvtypes/DOT11EXT_IHV_PARAMS, DOT11EXT_IHV_PARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PDOT11EXT_IHV_PARAMS, DOT11EXT_IHV_PARAMS, DOT11EXT_IHV_PARAMS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_90966964-74cc-4ff7-ae77-2807ab20d869.xml, PDOT11EXT_IHV_PARAMS, PDOT11EXT_IHV_PARAMS structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_PARAMS, netvista.dot11ext_ihv_params, wlanihvtypes/DOT11EXT_IHV_PARAMS, wlanihvtypes/PDOT11EXT_IHV_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,11 +105,11 @@ The operating system passes the GUID and other data related to the WLAN adapter 
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
 <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 

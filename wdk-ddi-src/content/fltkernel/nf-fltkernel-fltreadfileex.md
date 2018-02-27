@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 356D4CFD-E256-4920-AAB7-D6399F357591
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fltkernel/FltReadFileEx, FltReadFileEx function [Installable File System Drivers], FltReadFileEx, ifsk.fltreadfileex
+ms.keywords: FltReadFileEx, FltReadFileEx function [Installable File System Drivers], fltkernel/FltReadFileEx, ifsk.fltreadfileex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -249,23 +249,27 @@ The <i>Mdl</i> parameter is provided as a convenience when a minifilter already 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltwritefileex.md">FltWriteFileEx</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
 
 
 
@@ -273,15 +277,11 @@ The <i>Mdl</i> parameter is provided as a convenience when a minifilter already 
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
 
 
 

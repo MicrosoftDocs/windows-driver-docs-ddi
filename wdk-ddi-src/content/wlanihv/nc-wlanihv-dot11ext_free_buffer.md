@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a6e49914-29c0-47d2-936b-17c48958cb36
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extfreebuffer, Dot11ExtFreeBuffer callback function [Network Drivers Starting with Windows Vista], Dot11ExtFreeBuffer, DOT11EXT_FREE_BUFFER, DOT11EXT_FREE_BUFFER, wlanihv/Dot11ExtFreeBuffer, Native_802.11_IHV_Ext_af721540-28a8-43c2-a649-ce0f6fb9adce.xml
+ms.keywords: DOT11EXT_FREE_BUFFER, Dot11ExtFreeBuffer, Dot11ExtFreeBuffer callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_af721540-28a8-43c2-a649-ce0f6fb9adce.xml, netvista.dot11extfreebuffer, wlanihv/Dot11ExtFreeBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtFreeBuffer
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 

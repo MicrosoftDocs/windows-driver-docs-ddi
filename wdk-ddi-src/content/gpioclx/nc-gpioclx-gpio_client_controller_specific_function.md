@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 27551BE5-1260-4F05-9847-97C90ADF7968
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_controllerspecificfunction, CLIENT_ControllerSpecificFunction callback function [Parallel Ports], CLIENT_ControllerSpecificFunction, GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION, GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION, gpioclx/CLIENT_ControllerSpecificFunction
+ms.keywords: CLIENT_ControllerSpecificFunction, CLIENT_ControllerSpecificFunction callback function [Parallel Ports], GPIO.client_controllerspecificfunction, GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION, gpioclx/CLIENT_ControllerSpecificFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_ControllerSpecificFunction
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO"
+req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
 
 # GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION callback
@@ -177,11 +177,11 @@ The GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION function type is defined in the Gpi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698261">IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698248">GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698261">IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</a>
 
 
 

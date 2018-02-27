@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: decfcafa-fe8b-44f6-913b-c04cf3b320a3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILERRORDETAILS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILERRORDETAILS, RILERRORDETAILS, netvista.rilerrordetails_2, *LPRILERRORDETAILS
+ms.keywords: "*LPRILERRORDETAILS, RILERRORDETAILS, RILERRORDETAILS structure [Network Drivers Starting with Windows Vista], netvista.rilerrordetails_2, rilapitypes/RILERRORDETAILS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILERRORDETAILS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILERRORDETAILS, RILERRORDETAILS"
+req.typenames: RILERRORDETAILS, *LPRILERRORDETAILS
 req.product: Windows 10 or later.
 ---
 

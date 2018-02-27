@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 50AACCAB-EFEA-42B7-8A34-FE110C7CDEED
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION, VmbPacketSendWithExternalPfns function [Network Drivers Starting with Windows Vista], VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, netvista.vmbpacketsendwithexternalpfns, vmbuskernelmodeclientlibapi/VmbPacketSendWithExternalPfns, VmbPacketSendWithExternalPfns
+ms.keywords: VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION, VmbPacketSendWithExternalPfns, VmbPacketSendWithExternalPfns function [Network Drivers Starting with Windows Vista], netvista.vmbpacketsendwithexternalpfns, vmbuskernelmodeclientlibapi/VmbPacketSendWithExternalPfns
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

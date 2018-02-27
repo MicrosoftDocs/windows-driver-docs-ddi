@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fe9ab4b2-5692-4b6e-a7fc-11e9ac8280bc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.fwps_net_buffer_list_notify_fn1, FwpsNetBufferListNotifyFN1 callback function [Network Drivers Starting with Windows Vista], FwpsNetBufferListNotifyFN1, FWPS_NET_BUFFER_LIST_NOTIFY_FN1, FWPS_NET_BUFFER_LIST_NOTIFY_FN1, fwpsk/FwpsNetBufferListNotifyFN1
+ms.keywords: FWPS_NET_BUFFER_LIST_NOTIFY_FN1, FwpsNetBufferListNotifyFN1, FwpsNetBufferListNotifyFN1 callback function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListNotifyFN1, netvista.fwps_net_buffer_list_notify_fn1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -174,15 +174,11 @@ This function is identical to <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_no
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext1.md">FwpsNetBufferListAssociateContext1</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
+<a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
 
 
 
@@ -191,7 +187,11 @@ This function is identical to <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_no
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext1.md">FwpsNetBufferListAssociateContext1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
 
 
 

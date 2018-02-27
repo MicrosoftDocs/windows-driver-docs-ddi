@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b0c4e96e-5f7f-4ee5-90b7-6d78ee321bf5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_GetDMProfileConfigInfo method [Network Drivers Starting with Windows Vista], RIL_GetDMProfileConfigInfo, rilapi/RIL_GetDMProfileConfigInfo, netvista.ril_getdmprofileconfiginfo
+ms.keywords: RIL_GetDMProfileConfigInfo, RIL_GetDMProfileConfigInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getdmprofileconfiginfo, rilapi/RIL_GetDMProfileConfigInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_GetDMProfileConfigInfo
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

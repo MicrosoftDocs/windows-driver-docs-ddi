@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A47BEA59-CBDD-41B5-9CEB-DC354D2BCC72
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfhwaccess/WDF_READ_REGISTER_ULONG64, wdf.wdf_read_register_ulong64, WDF_READ_REGISTER_ULONG64, WDF_READ_REGISTER_ULONG64 function
+ms.keywords: WDF_READ_REGISTER_ULONG64, WDF_READ_REGISTER_ULONG64 function, wdf.wdf_read_register_ulong64, wdfhwaccess/WDF_READ_REGISTER_ULONG64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

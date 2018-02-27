@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 9B47A7B2-90C3-480F-85D8-44DD7E9F0BFA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_queryactiveinterrupts, CLIENT_QueryActiveInterrupts callback function [Parallel Ports], CLIENT_QueryActiveInterrupts, GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS, GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS, gpioclx/CLIENT_QueryActiveInterrupts
+ms.keywords: CLIENT_QueryActiveInterrupts, CLIENT_QueryActiveInterrupts callback function [Parallel Ports], GPIO.client_queryactiveinterrupts, GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS, gpioclx/CLIENT_QueryActiveInterrupts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_QueryActiveInterrupts
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO"
+req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
 
 # GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS callback
@@ -147,15 +147,15 @@ The GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS function type is defined in the Gpioclx.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698253">GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 
@@ -163,7 +163,7 @@ The GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS function type is defined in the Gpioclx.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 

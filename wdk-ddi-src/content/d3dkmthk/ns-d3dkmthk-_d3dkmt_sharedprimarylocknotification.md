@@ -7,8 +7,8 @@ old-location: display\d3dkmt_sharedprimarylocknotification.htm
 old-project: display
 ms.assetid: 4e7766bb-eb5b-4f79-b9b8-89f7dcb98569
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure [Display Devices], d3dkmthk/D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, _D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, OpenGL_Structs_4ec11480-30cb-45a1-a31c-e7432ec45abf.xml, display.d3dkmt_sharedprimarylocknotification
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure [Display Devices], OpenGL_Structs_4ec11480-30cb-45a1-a31c-e7432ec45abf.xml, _D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, d3dkmthk/D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, display.d3dkmt_sharedprimarylocknotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,17 +86,17 @@ typedef struct _D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsharedprimarylocknotification.md">D3DKMTSharedPrimaryLockNotification</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
 
 
 
- 
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsharedprimarylocknotification.md">D3DKMTSharedPrimaryLockNotification</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

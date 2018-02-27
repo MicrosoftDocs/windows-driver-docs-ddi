@@ -7,8 +7,8 @@ old-location: stream\kscamera_extendedprop_videoprocsetting.htm
 old-project: stream
 ms.assetid: D4239E72-C57A-45BC-881C-08FF6263874E
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, ksmedia/PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_WHITEBALANCE_PRESET, KSCAMERA_EXTENDEDPROP_WBPRESET_DAYLIGHT, KSCAMERA_EXTENDEDPROP_WBPRESET_CANDLELIGHT, KSCAMERA_EXTENDEDPROP_WBPRESET_CLOUDY, tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_WHITEBALANCE_TEMPERATURE, *PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_WBPRESET_TUNGSTEN, PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_WBPRESET_FLASH, stream.kscamera_extendedprop_videoprocsetting, KSCAMERA_EXTENDEDPROP_WBPRESET_FLUORESCENT
+ms.date: 2/23/2018
+ms.keywords: "*PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_WBPRESET_CANDLELIGHT, KSCAMERA_EXTENDEDPROP_WBPRESET_CLOUDY, KSCAMERA_EXTENDEDPROP_WBPRESET_DAYLIGHT, KSCAMERA_EXTENDEDPROP_WBPRESET_FLASH, KSCAMERA_EXTENDEDPROP_WBPRESET_FLUORESCENT, KSCAMERA_EXTENDEDPROP_WBPRESET_TUNGSTEN, KSCAMERA_EXTENDEDPROP_WHITEBALANCE_PRESET, KSCAMERA_EXTENDEDPROP_WHITEBALANCE_TEMPERATURE, PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, ksmedia/PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, stream.kscamera_extendedprop_videoprocsetting, tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
 product: Windows
 targetos: Windows
-req.typenames: "*PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING"
+req.typenames: KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, *PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
 ---
 
 # tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure
@@ -214,10 +214,6 @@ Reserved.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn567576">KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn567588">KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE</a>
 
 
@@ -226,9 +222,13 @@ Reserved.
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn567576">KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

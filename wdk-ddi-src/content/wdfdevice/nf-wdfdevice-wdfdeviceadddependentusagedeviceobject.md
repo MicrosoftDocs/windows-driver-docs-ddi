@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 025046e2-ffa1-4210-b4aa-ab3d6b211066
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfdeviceadddependentusagedeviceobject, WdfDeviceAddDependentUsageDeviceObject, DFDeviceObjectGeneralRef_b31f8226-abd2-49a0-af66-ace2d05a6f17.xml, kmdf.wdfdeviceadddependentusagedeviceobject, WdfDeviceAddDependentUsageDeviceObject method, wdfdevice/WdfDeviceAddDependentUsageDeviceObject
+ms.keywords: DFDeviceObjectGeneralRef_b31f8226-abd2-49a0-af66-ace2d05a6f17.xml, WdfDeviceAddDependentUsageDeviceObject, WdfDeviceAddDependentUsageDeviceObject method, kmdf.wdfdeviceadddependentusagedeviceobject, wdf.wdfdeviceadddependentusagedeviceobject, wdfdevice/WdfDeviceAddDependentUsageDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -160,11 +160,11 @@ The following code example adds a device (<b>pDeviceObject</b>) to the list of d
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_usage_notification.md">EvtDeviceUsageNotification</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceremovedependentusagedeviceobject.md">WdfDeviceRemoveDependentUsageDeviceObject</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_usage_notification.md">EvtDeviceUsageNotification</a>
 
 
 

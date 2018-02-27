@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dea4ab30-ba1d-4c9c-9f00-e48cc3cc0b46
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.filterdevicepnpeventnotify, FilterDevicePnPEventNotify callback function [Network Drivers Starting with Windows Vista], FilterDevicePnPEventNotify, FILTER_DEVICE_PNP_EVENT_NOTIFY, FILTER_DEVICE_PNP_EVENT_NOTIFY, ndis/FilterDevicePnPEventNotify, filter_functions_ref_3e688903-ea36-44b3-bd06-533f7e573478.xml
+ms.keywords: FILTER_DEVICE_PNP_EVENT_NOTIFY, FilterDevicePnPEventNotify, FilterDevicePnPEventNotify callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_3e688903-ea36-44b3-bd06-533f7e573478.xml, ndis/FilterDevicePnPEventNotify, netvista.filterdevicepnpeventnotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -162,17 +162,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
-   MiniportDevicePnPEventNotify</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
-   MiniportDevicePnPEventNotify</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfdevicepnpeventnotify.md">NdisFDevicePnPEventNotify</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
@@ -180,7 +170,16 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\nf-ndis-ndisfdevicepnpeventnotify.md">NdisFDevicePnPEventNotify</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+   MiniportDevicePnPEventNotify</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 

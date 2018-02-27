@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: e9c97f88-aa13-4a3e-9236-c09703d17e4b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: whea.getallerrorsources, GetAllErrorSources callback function [WHEA Drivers and Applications], GetAllErrorSources, PSHED_PI_GET_ALL_ERROR_SOURCES, PSHED_PI_GET_ALL_ERROR_SOURCES, ntddk/GetAllErrorSources, whearef_fe2e1679-84ee-4f90-8615-24cbab3cb686.xml
+ms.keywords: GetAllErrorSources, GetAllErrorSources callback function [WHEA Drivers and Applications], PSHED_PI_GET_ALL_ERROR_SOURCES, ntddk/GetAllErrorSources, whea.getallerrorsources, whearef_fe2e1679-84ee-4f90-8615-24cbab3cb686.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	GetAllErrorSources
 product: Windows
 targetos: Windows
-req.typenames: "*PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA"
+req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 ---
 
 # PSHED_PI_GET_ALL_ERROR_SOURCES callback
@@ -177,15 +177,15 @@ A PSHED plug-in that participates in error source discovery can also implement a
 
 ## -see-also
 
+<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
-
-
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_get_error_source_info.md">GetErrorSourceInfo</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c5bdedee-dacd-4f4d-a3d1-f1cb71a68001
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolcmnotifycloseafcomplete, ProtocolCmNotifyCloseAfComplete callback function [Network Drivers Starting with Windows Vista], ProtocolCmNotifyCloseAfComplete, PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE, PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE, ndis/ProtocolCmNotifyCloseAfComplete, condis_call_manager_ref_f10e7b00-20f8-4bb0-a4c0-94855572fc08.xml
+ms.keywords: PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE, ProtocolCmNotifyCloseAfComplete, ProtocolCmNotifyCloseAfComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_f10e7b00-20f8-4bb0-a4c0-94855572fc08.xml, ndis/ProtocolCmNotifyCloseAfComplete, netvista.protocolcmnotifycloseafcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -179,17 +179,17 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismcmnotifycloseaddressfamily.md">
+   NdisMCmNotifyCloseAddressFamily</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndiscmnotifycloseaddressfamily.md">
    NdisCmNotifyCloseAddressFamily</a>
 
 
 
 <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmnotifycloseaddressfamily.md">
-   NdisMCmNotifyCloseAddressFamily</a>
 
 
 

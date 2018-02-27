@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0a49e69e-6b6b-4f86-bd41-d1ad73e63a17
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltCheckAndGrowNameControl, fltkernel/FltCheckAndGrowNameControl, ifsk.fltcheckandgrownamecontrol, FltCheckAndGrowNameControl routine [Installable File System Drivers], FltApiRef_a_to_d_5ab0b3b3-adeb-4752-9cb5-1d7521b84607.xml
+ms.keywords: FltApiRef_a_to_d_5ab0b3b3-adeb-4752-9cb5-1d7521b84607.xml, FltCheckAndGrowNameControl, FltCheckAndGrowNameControl routine [Installable File System Drivers], fltkernel/FltCheckAndGrowNameControl, ifsk.fltcheckandgrownamecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,10 +122,6 @@ If the size, in bytes, of the buffer in the <i>NameCtrl</i> structure is greater
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543040">FltGetFileNameQueryMethod</a>
-
-
-
 <a href="..\fltkernel\ns-fltkernel-_flt_name_control.md">FLT_NAME_CONTROL</a>
 
 
@@ -135,6 +131,10 @@ If the size, in bytes, of the buffer in the <i>NameCtrl</i> structure is greater
 
 
 <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543040">FltGetFileNameQueryMethod</a>
 
 
 

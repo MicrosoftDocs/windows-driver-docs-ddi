@@ -7,8 +7,8 @@ old-location: devtest\dbgprintex.htm
 old-project: devtest
 ms.assetid: 0fe82f72-e3dd-49de-a12a-1997e9651bac
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: DbgPrintEx, DbgPrintEx routine [Driver Development Tools], devtest.dbgprintex, wdm/DbgPrintEx, DebugFns_0c93bbeb-9eb9-4c73-944f-565401dbb073.xml
+ms.date: 2/23/2018
+ms.keywords: DbgPrintEx, DbgPrintEx routine [Driver Development Tools], DebugFns_0c93bbeb-9eb9-4c73-944f-565401dbb073.xml, devtest.dbgprintex, wdm/DbgPrintEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -153,15 +153,7 @@ There is no upper limit to the size of the <i>Format</i> string or the number of
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kdprintex.md">KdPrintEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-vdbgprintex.md">vDbgPrintEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
 
 
 
@@ -169,9 +161,17 @@ There is no upper limit to the size of the <i>Format</i> string or the number of
 
 
 
- 
+<a href="..\wdm\nf-wdm-kdprintex.md">KdPrintEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20DbgPrintEx routine%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20DbgPrintEx routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

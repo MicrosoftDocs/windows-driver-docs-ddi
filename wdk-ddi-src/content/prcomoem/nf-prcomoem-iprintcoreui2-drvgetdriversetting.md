@@ -7,8 +7,8 @@ old-location: print\iprintcoreui2_drvgetdriversetting.htm
 old-project: print
 ms.assetid: 501ff6f1-c5f1-4ad7-be96-a95ba3e34622
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print_unidrv-pscript_ui_cb699f2f-d919-4aec-8787-d466a5e8461c.xml, IPrintCoreUI2, DrvGetDriverSetting method [Print Devices], IPrintCoreUI2 interface, DrvGetDriverSetting method [Print Devices], print.iprintcoreui2_drvgetdriversetting, DrvGetDriverSetting, IPrintCoreUI2::DrvGetDriverSetting, IPrintCoreUI2 interface [Print Devices], DrvGetDriverSetting method, prcomoem/IPrintCoreUI2::DrvGetDriverSetting
+ms.date: 2/23/2018
+ms.keywords: DrvGetDriverSetting method [Print Devices], DrvGetDriverSetting method [Print Devices], IPrintCoreUI2 interface, DrvGetDriverSetting,IPrintCoreUI2.DrvGetDriverSetting, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], DrvGetDriverSetting method, IPrintCoreUI2::DrvGetDriverSetting, prcomoem/IPrintCoreUI2::DrvGetDriverSetting, print.iprintcoreui2_drvgetdriversetting, print_unidrv-pscript_ui_cb699f2f-d919-4aec-8787-d466a5e8461c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreUI2.DrvGetDriverSetting
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -164,11 +164,15 @@ This method is inherited from the <a href="https://msdn.microsoft.com/ed11789f-7
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
 
 
@@ -176,13 +180,9 @@ This method is inherited from the <a href="https://msdn.microsoft.com/ed11789f-7
 
 
 
-<a href="https://msdn.microsoft.com/e2d2e486-d69d-4a6d-aaab-a7b8806665b4">IPrintCoreUI2</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreUI2::DrvGetDriverSetting method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreUI2::DrvGetDriverSetting method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

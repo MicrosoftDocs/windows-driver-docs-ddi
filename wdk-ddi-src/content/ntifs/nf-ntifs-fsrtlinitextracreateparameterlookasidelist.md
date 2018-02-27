@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 30ad87de-a371-415b-b77f-513369fed098
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fsrtlinitextracreateparameterlookasidelist, ntifs/FsRtlInitExtraCreateParameterLookasideList, FsRtlInitExtraCreateParameterLookasideList routine [Installable File System Drivers], FsRtlInitExtraCreateParameterLookasideList, fsrtlref_4b4e21ec-cfcc-45b7-bcb9-74dbc7c486ac.xml
+ms.keywords: FsRtlInitExtraCreateParameterLookasideList, FsRtlInitExtraCreateParameterLookasideList routine [Installable File System Drivers], fsrtlref_4b4e21ec-cfcc-45b7-bcb9-74dbc7c486ac.xml, ifsk.fsrtlinitextracreateparameterlookasidelist, ntifs/FsRtlInitExtraCreateParameterLookasideList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,15 +116,11 @@ For more information on using lookaside lists with drivers, see <a href="https:/
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlfreeextracreateparameter.md">FsRtlFreeExtraCreateParameter</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 
 
@@ -132,7 +128,7 @@ For more information on using lookaside lists with drivers, see <a href="https:/
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlallocateextracreateparameterfromlookasidelist.md">FsRtlAllocateExtraCreateParameterFromLookasideList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 
 
@@ -140,7 +136,11 @@ For more information on using lookaside lists with drivers, see <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a>
+<a href="..\ntifs\nf-ntifs-fsrtlallocateextracreateparameterfromlookasidelist.md">FsRtlAllocateExtraCreateParameterFromLookasideList</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlfreeextracreateparameter.md">FsRtlFreeExtraCreateParameter</a>
 
 
 

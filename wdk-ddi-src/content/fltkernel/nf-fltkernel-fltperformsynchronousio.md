@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 14f5260a-b18d-4329-a81e-d24026d9a71d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fltperformsynchronousio, FltPerformSynchronousIo, FltPerformSynchronousIo routine [Installable File System Drivers], fltkernel/FltPerformSynchronousIo, FltApiRef_p_to_z_02aeeeab-6a33-4336-aaa4-810bd70850bc.xml
+ms.keywords: FltApiRef_p_to_z_02aeeeab-6a33-4336-aaa4-810bd70850bc.xml, FltPerformSynchronousIo, FltPerformSynchronousIo routine [Installable File System Drivers], fltkernel/FltPerformSynchronousIo, ifsk.fltperformsynchronousio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,19 +140,7 @@ After <b>FltPerformSynchronousIo</b> returns, the caller can reissue the I/O ope
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfreecallbackdata.md">FltFreeCallbackData</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
+<a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>
 
 
 
@@ -160,7 +148,27 @@ After <b>FltPerformSynchronousIo</b> returns, the caller can reissue the I/O ope
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltfreecallbackdata.md">FltFreeCallbackData</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltperformasynchronousio.md">FltPerformAsynchronousIo</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
 
 
 
@@ -168,7 +176,7 @@ After <b>FltPerformSynchronousIo</b> returns, the caller can reissue the I/O ope
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
@@ -176,7 +184,7 @@ After <b>FltPerformSynchronousIo</b> returns, the caller can reissue the I/O ope
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
+<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
 
 
 
@@ -188,19 +196,11 @@ After <b>FltPerformSynchronousIo</b> returns, the caller can reissue the I/O ope
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 699d2ea6-3bf3-457c-b05e-c45ec4c71fb6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_BRB_L2CA_PING structure [Bluetooth Devices], bthddi/_BRB_L2CA_PING, bth_structs_40384235-0f47-4870-a6be-72e807ee439d.xml, _BRB_L2CA_PING, bltooth._brb_l2ca_ping"
+ms.keywords: "_BRB_L2CA_PING, _BRB_L2CA_PING structure [Bluetooth Devices], bltooth._brb_l2ca_ping, bth_structs_40384235-0f47-4870-a6be-72e807ee439d.xml, bthddi/_BRB_L2CA_PING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

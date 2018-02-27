@@ -7,8 +7,8 @@ old-location: stream\ksdevice_dispatch.htm
 old-project: stream
 ms.assetid: 1ae7af1d-5e1c-4728-82c5-efc8d60b5df6
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: "_KSDEVICE_DISPATCH, KSDEVICE_DISPATCH structure [Streaming Media Devices], ks/KSDEVICE_DISPATCH, KSDEVICE_DISPATCH, ks/PKSDEVICE_DISPATCH, avstruct_7ceb03b7-6973-46bd-ad3e-32fdce7f4f11.xml, PKSDEVICE_DISPATCH, stream.ksdevice_dispatch, *PKSDEVICE_DISPATCH, PKSDEVICE_DISPATCH structure pointer [Streaming Media Devices]"
+ms.date: 2/23/2018
+ms.keywords: "*PKSDEVICE_DISPATCH, KSDEVICE_DISPATCH, KSDEVICE_DISPATCH structure [Streaming Media Devices], PKSDEVICE_DISPATCH, PKSDEVICE_DISPATCH structure pointer [Streaming Media Devices], _KSDEVICE_DISPATCH, avstruct_7ceb03b7-6973-46bd-ad3e-32fdce7f4f11.xml, ks/KSDEVICE_DISPATCH, ks/PKSDEVICE_DISPATCH, stream.ksdevice_dispatch"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSDEVICE_DISPATCH
 product: Windows
 targetos: Windows
-req.typenames: "*PKSDEVICE_DISPATCH, KSDEVICE_DISPATCH"
+req.typenames: KSDEVICE_DISPATCH, *PKSDEVICE_DISPATCH
 ---
 
 # _KSDEVICE_DISPATCH structure
@@ -169,5 +169,5 @@ In describing a device with the <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KS
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSDEVICE_DISPATCH structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSDEVICE_DISPATCH structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

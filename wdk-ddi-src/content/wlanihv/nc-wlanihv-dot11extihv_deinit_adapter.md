@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bf2e7ed3-cefc-47f3-a21b-aea3f0e569fe
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvdeinitadapter, Dot11ExtIhvDeinitAdapter callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvDeinitAdapter, DOT11EXTIHV_DEINIT_ADAPTER, DOT11EXTIHV_DEINIT_ADAPTER, wlanihv/Dot11ExtIhvDeinitAdapter, Native_802.11_IHV_Ext_5816e619-b6ca-4515-8bf6-99d053c108b0.xml
+ms.keywords: DOT11EXTIHV_DEINIT_ADAPTER, Dot11ExtIhvDeinitAdapter, Dot11ExtIhvDeinitAdapter callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_5816e619-b6ca-4515-8bf6-99d053c108b0.xml, netvista.dot11extihvdeinitadapter, wlanihv/Dot11ExtIhvDeinitAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvDeinitAdapter
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -113,11 +113,11 @@ For more information about operations that are performed when the WLAN adapter i
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_service.md">Dot11ExtIhvDeinitService</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 

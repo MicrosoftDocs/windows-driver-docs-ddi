@@ -7,8 +7,8 @@ old-location: dtf\iwdtfstrings2.htm
 old-project: dtf
 ms.assetid: ea7ebda9-9588-4c72-bac6-2bae1f80538e
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfstrings2, IWDTFStrings2 interface [Windows Device Testing Framework], IWDTFStrings2 interface [Windows Device Testing Framework], described, IWDTFStrings2, wdtf/IWDTFStrings2, Microsoft.WDTF.IWDTFStrings2
+ms.date: 2/23/2018
+ms.keywords: IWDTFStrings2, IWDTFStrings2 interface [Windows Device Testing Framework], IWDTFStrings2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFStrings2, dtf.iwdtfstrings2, wdtf/IWDTFStrings2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -53,6 +53,14 @@ req.product: Windows 10 or later.
 Defines operations and properties for a collection of strings.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFStrings2</b> interface inherits from <b>ITracing</b>. <b>IWDTFStrings2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDTFStrings2</b> interface has these methods.
@@ -79,13 +87,8 @@ Removes a string from the collection.
 
 </td>
 </tr>
-</table>Adds a single string to the collection.
-
-Removes a string from the collection.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFStrings2</b> interface has these properties.
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFStrings2</b> interface has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
@@ -141,30 +144,5 @@ Gets an individual string in the collection.
 
 </td>
 </tr>
-</table>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
-
-
-Read-only
-
-Gets a new iteration variable that the <b>For Each</b> 
-loop structure implicitly uses.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
-
-
-Read-only
-
-Gets the number of strings in this collection.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
-
-
-Read-only
-
-Gets an individual string in the collection.
-
- 
+</table> 
 

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 630C7EDA-8C6A-4BD7-9287-EA15FBA34408
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.sercx2_config_init, SERCX2_CONFIG_INIT function [Serial Ports], SERCX2_CONFIG_INIT, 2/SERCX2_CONFIG_INIT
+ms.keywords: 2/SERCX2_CONFIG_INIT, SERCX2_CONFIG_INIT, SERCX2_CONFIG_INIT function [Serial Ports], serports.sercx2_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SERCX2_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
+req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
 
@@ -113,11 +113,11 @@ Your serial controller driver must use this function to initialize a <a href="..
 
 ## -see-also
 
-<a href="..\sercx\ns-sercx-_sercx2_config.md">SERCX2_CONFIG</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
+
+
+
+<a href="..\sercx\ns-sercx-_sercx2_config.md">SERCX2_CONFIG</a>
 
 
 

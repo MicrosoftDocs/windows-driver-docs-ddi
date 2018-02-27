@@ -7,8 +7,8 @@ old-location: kernel\rtlptrdifftsub.htm
 old-project: kernel
 ms.assetid: C87E3BD5-8CA7-443E-8CC3-F863CD4F321A
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RtlPtrdiffTSub function [Kernel-Mode Driver Architecture], RtlPtrdiffTSub, kernel.rtlptrdifftsub, ntintsafe/RtlPtrdiffTSub
+ms.date: 2/24/2018
+ms.keywords: RtlPtrdiffTSub, RtlPtrdiffTSub function [Kernel-Mode Driver Architecture], kernel.rtlptrdifftsub, ntintsafe/RtlPtrdiffTSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

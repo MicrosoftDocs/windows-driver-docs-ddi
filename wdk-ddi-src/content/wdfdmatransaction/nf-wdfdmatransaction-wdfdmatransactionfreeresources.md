@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F35F80E7-E1B6-4219-96AF-687E0014CCB3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfdmatransaction/WdfDmaTransactionFreeResources, wdf.wdfdmatransactionfreeresources, WdfDmaTransactionFreeResources method, kmdf.wdfdmatransactionfreeresources, WdfDmaTransactionFreeResources
+ms.keywords: WdfDmaTransactionFreeResources, WdfDmaTransactionFreeResources method, kmdf.wdfdmatransactionfreeresources, wdf.wdfdmatransactionfreeresources, wdfdmatransaction/WdfDmaTransactionFreeResources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDmaTransactionFreeResources
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
+req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
 ---
 

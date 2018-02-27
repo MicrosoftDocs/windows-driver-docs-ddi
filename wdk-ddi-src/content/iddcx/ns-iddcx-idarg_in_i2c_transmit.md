@@ -7,8 +7,8 @@ old-location: display\idarg_in_i2c_transmit.htm
 old-project: display
 ms.assetid: 1422f1fc-9653-4e6b-a7dd-c224ce7b9ca0
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: IDARG_IN_I2C_TRANSMIT structure [Display Devices], display.idarg_in_i2c_transmit, IDARG_IN_I2C_TRANSMIT, iddcx/IDARG_IN_I2C_TRANSMIT
+ms.date: 2/24/2018
+ms.keywords: IDARG_IN_I2C_TRANSMIT, IDARG_IN_I2C_TRANSMIT structure [Display Devices], display.idarg_in_i2c_transmit, iddcx/IDARG_IN_I2C_TRANSMIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

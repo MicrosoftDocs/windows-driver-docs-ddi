@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 534B1E39-6B11-4954-8792-41A25FCA31B2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: "_WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, wdfdevice/WdfReleaseHardwareOrderOnFailureInvalid, *PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, wdfdevice/PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, wdfdevice/WdfReleaseHardwareOrderOnFailureAfterDescendants, WdfReleaseHardwareOrderOnFailureEarly, kmdf.wdf_release_hardware_order_on_failure, wdf.wdf_release_hardware_order_on_failure, wdfdevice/WdfReleaseHardwareOrderOnFailureEarly, PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE enumeration pointer, wdfdevice/WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, WdfReleaseHardwareOrderOnFailureInvalid, WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE enumeration, WdfReleaseHardwareOrderOnFailureAfterDescendants"
+ms.keywords: "*PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE enumeration pointer, WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE enumeration, WdfReleaseHardwareOrderOnFailureAfterDescendants, WdfReleaseHardwareOrderOnFailureEarly, WdfReleaseHardwareOrderOnFailureInvalid, _WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, kmdf.wdf_release_hardware_order_on_failure, wdf.wdf_release_hardware_order_on_failure, wdfdevice/PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, wdfdevice/WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, wdfdevice/WdfReleaseHardwareOrderOnFailureAfterDescendants, wdfdevice/WdfReleaseHardwareOrderOnFailureEarly, wdfdevice/WdfReleaseHardwareOrderOnFailureInvalid"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE"
+req.typenames: WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, *PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE
 req.product: Windows 10 or later.
 ---
 

@@ -4,11 +4,11 @@ title: IOCTL_USB_DIAG_IGNORE_HUBS_ON
 author: windows-driver-content
 description: The IOCTL_USB_DIAG_IGNORE_HUBS_ON I/O control has been deprecated. Do not use.
 old-location: buses\ioctl_usb_diag_ignore_hubs_on.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: e63114a7-5487-490e-8581-1023bd558263
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.ioctl_usb_diag_ignore_hubs_on, IOCTL_USB_DIAG_IGNORE_HUBS_ON control code [Buses], IOCTL_USB_DIAG_IGNORE_HUBS_ON, usbioctl/IOCTL_USB_DIAG_IGNORE_HUBS_ON, usbirp_7e95e023-3bb1-423d-b233-b5028e9af76b.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_USB_DIAG_IGNORE_HUBS_ON, IOCTL_USB_DIAG_IGNORE_HUBS_ON control code [Buses], buses.ioctl_usb_diag_ignore_hubs_on, usbioctl/IOCTL_USB_DIAG_IGNORE_HUBS_ON, usbirp_7e95e023-3bb1-423d-b233-b5028e9af76b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

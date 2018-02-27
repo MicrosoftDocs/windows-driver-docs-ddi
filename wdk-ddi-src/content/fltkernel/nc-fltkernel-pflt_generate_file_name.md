@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 04e7e4db-2cf6-4312-8964-2c69c96953a3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.pflt_generate_file_name, GenerateFileNameCallback routine [Installable File System Drivers], GenerateFileNameCallback, PFLT_GENERATE_FILE_NAME, PFLT_GENERATE_FILE_NAME, fltkernel/GenerateFileNameCallback, FltCallbacks_0075602c-1093-445c-a949-ea282cf736e7.xml
+ms.keywords: FltCallbacks_0075602c-1093-445c-a949-ea282cf736e7.xml, GenerateFileNameCallback, GenerateFileNameCallback routine [Installable File System Drivers], PFLT_GENERATE_FILE_NAME, fltkernel/GenerateFileNameCallback, ifsk.pflt_generate_file_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -158,11 +158,27 @@ After it generates the file name information, the minifilter driver must call <a
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltpurgefilenameinformationcache.md">FltPurgeFileNameInformationCache</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcheckandgrownamecontrol.md">FltCheckAndGrowNameControl</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543030">FltGetFileNameFormat</a>
 
 
 
@@ -174,31 +190,15 @@ After it generates the file name information, the minifilter driver must call <a
 
 
 
+<a href="..\fltkernel\ns-fltkernel-_flt_name_control.md">FLT_NAME_CONTROL</a>
+
+
+
 <a href="..\fltkernel\nc-fltkernel-pflt_normalize_name_component_ex.md">PFLT_NORMALIZE_NAME_COMPONENT_EX</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcheckandgrownamecontrol.md">FltCheckAndGrowNameControl</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543030">FltGetFileNameFormat</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543040">FltGetFileNameQueryMethod</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_normalize_context_cleanup.md">PFLT_NORMALIZE_CONTEXT_CLEANUP</a>
 
 
 
@@ -206,27 +206,27 @@ After it generates the file name information, the minifilter driver must call <a
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_name_control.md">FLT_NAME_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetdestinationfilenameinformation.md">FltGetDestinationFileNameInformation</a>
+<a href="..\fltkernel\nf-fltkernel-fltpurgefilenameinformationcache.md">FltPurgeFileNameInformationCache</a>
 
 
 
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543040">FltGetFileNameQueryMethod</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: display\evt_idd_cx_monitor_query_target_modes.htm
 old-project: display
 ms.assetid: a83ed1a3-e279-45be-b229-137fa61d9b38
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.evt_idd_cx_monitor_query_target_modes, EvtIddCxMonitorQueryTargetModes callback function [Display Devices], EvtIddCxMonitorQueryTargetModes, EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES, EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES, iddcx/EvtIddCxMonitorQueryTargetModes, PFN_IDD_CX_MONITOR_QUERY_TARGET_MODES callback function pointer [Display Devices], PFN_IDD_CX_MONITOR_QUERY_TARGET_MODES
+ms.date: 2/24/2018
+ms.keywords: EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES, EvtIddCxMonitorQueryTargetModes, EvtIddCxMonitorQueryTargetModes callback function [Display Devices], PFN_IDD_CX_MONITOR_QUERY_TARGET_MODES, PFN_IDD_CX_MONITOR_QUERY_TARGET_MODES callback function pointer [Display Devices], display.evt_idd_cx_monitor_query_target_modes, iddcx/EvtIddCxMonitorQueryTargetModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

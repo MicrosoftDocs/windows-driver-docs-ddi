@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a684136a-e2f2-4f82-9e9a-166b40bd7536
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.clientdetachprovider, ClientDetachProvider callback function [Network Drivers Starting with Windows Vista], ClientDetachProvider, NPI_CLIENT_DETACH_PROVIDER_FN, NPI_CLIENT_DETACH_PROVIDER_FN, netioddk/ClientDetachProvider, PNPI_CLIENT_DETACH_PROVIDER_FN callback function [Network Drivers Starting with Windows Vista], PNPI_CLIENT_DETACH_PROVIDER_FN, nmrref_5197d4f5-2cd0-4134-bccb-b509853718cd.xml
+ms.keywords: ClientDetachProvider, ClientDetachProvider callback function [Network Drivers Starting with Windows Vista], NPI_CLIENT_DETACH_PROVIDER_FN, PNPI_CLIENT_DETACH_PROVIDER_FN, PNPI_CLIENT_DETACH_PROVIDER_FN callback function [Network Drivers Starting with Windows Vista], netioddk/ClientDetachProvider, netvista.clientdetachprovider, nmrref_5197d4f5-2cd0-4134-bccb-b509853718cd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	PNPI_CLIENT_DETACH_PROVIDER_FN
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS"
+req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
 ---
 
 # NPI_CLIENT_DETACH_PROVIDER_FN callback
@@ -172,7 +172,7 @@ The NMR calls a client module's
 
 ## -see-also
 
-<a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
+<a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
 
 
 
@@ -180,8 +180,16 @@ The NMR calls a client module's
 
 
 
-<a href="..\netioddk\nf-netioddk-nmrclientdetachprovidercomplete.md">
-   NmrClientDetachProviderComplete</a>
+<a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
+   ProviderCleanupBindingContext</a>
+
+
+
+<a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
+
+
+
+<a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
 
 
 
@@ -189,27 +197,8 @@ The NMR calls a client module's
 
 
 
-
-
-<a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
-
-
-
-<a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
-   ProviderCleanupBindingContext</a>
-
-
-
-<a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
-
-
-
-<a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
-   ProviderCleanupBindingContext</a>
-
-
-
-<a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
+<a href="..\netioddk\nf-netioddk-nmrclientdetachprovidercomplete.md">
+   NmrClientDetachProviderComplete</a>
 
 
 

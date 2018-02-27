@@ -7,8 +7,8 @@ old-location: display\d3dkmt_presentflags.htm
 old-project: display
 ms.assetid: 2ebee0bd-90f0-4628-8ddf-9e8029b4959a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.d3dkmt_presentflags, OpenGL_Structs_bd28ba63-6019-4cc5-b1d0-7275a5a575b3.xml, D3DKMT_PRESENTFLAGS structure [Display Devices], D3DKMT_PRESENTFLAGS, d3dkmthk/D3DKMT_PRESENTFLAGS, _D3DKMT_PRESENTFLAGS
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_PRESENTFLAGS, D3DKMT_PRESENTFLAGS structure [Display Devices], OpenGL_Structs_bd28ba63-6019-4cc5-b1d0-7275a5a575b3.xml, _D3DKMT_PRESENTFLAGS, d3dkmthk/D3DKMT_PRESENTFLAGS, display.d3dkmt_presentflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -382,11 +382,15 @@ If any of the <b>FlipStereo</b>, <b>FlipStereoTemporaryMono</b>, or <b>FlipStere
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags.md">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a>
+
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present.md">D3DKMT_PRESENT</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setvidpnsourceaddress.md">DXGKARG_SETVIDPNSOURCEADDRESS</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
 
 
 
@@ -394,7 +398,7 @@ If any of the <b>FlipStereo</b>, <b>FlipStereoTemporaryMono</b>, or <b>FlipStere
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags.md">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setvidpnsourceaddress.md">DXGKARG_SETVIDPNSOURCEADDRESS</a>
 
 
 
@@ -406,5 +410,5 @@ If any of the <b>FlipStereo</b>, <b>FlipStereoTemporaryMono</b>, or <b>FlipStere
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_PRESENTFLAGS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_PRESENTFLAGS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

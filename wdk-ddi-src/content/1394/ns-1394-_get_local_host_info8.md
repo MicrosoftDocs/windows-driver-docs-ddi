@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: DA30F8BA-B920-458E-B7C7-8D7B7081507A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GET_LOCAL_HOST_INFO8, 1394/PGET_LOCAL_HOST_INFO8, PGET_LOCAL_HOST_INFO8, 1394/GET_LOCAL_HOST_INFO8, _GET_LOCAL_HOST_INFO8, GET_LOCAL_HOST_INFO8 structure [Buses], PGET_LOCAL_HOST_INFO8 structure pointer [Buses], IEEE.get_local_host_info8, *PGET_LOCAL_HOST_INFO8
+ms.keywords: "*PGET_LOCAL_HOST_INFO8, 1394/GET_LOCAL_HOST_INFO8, 1394/PGET_LOCAL_HOST_INFO8, GET_LOCAL_HOST_INFO8, GET_LOCAL_HOST_INFO8 structure [Buses], IEEE.get_local_host_info8, PGET_LOCAL_HOST_INFO8, PGET_LOCAL_HOST_INFO8 structure pointer [Buses], _GET_LOCAL_HOST_INFO8"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

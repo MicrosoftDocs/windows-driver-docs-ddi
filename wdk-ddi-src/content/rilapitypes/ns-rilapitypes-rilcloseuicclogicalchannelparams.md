@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4e7d2a46-b31e-4ead-8918-b6da970eb7c9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilcloseuicclogicalchannelparams_2, rilapitypes/RILCLOSEUICCLOGICALCHANNELPARAMS, RILCLOSEUICCLOGICALCHANNELPARAMS, *LPRILCLOSEUICCLOGICALCHANNELPARAMS, RILCLOSEUICCLOGICALCHANNELPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*LPRILCLOSEUICCLOGICALCHANNELPARAMS, RILCLOSEUICCLOGICALCHANNELPARAMS, RILCLOSEUICCLOGICALCHANNELPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilcloseuicclogicalchannelparams_2, rilapitypes/RILCLOSEUICCLOGICALCHANNELPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILCLOSEUICCLOGICALCHANNELPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILCLOSEUICCLOGICALCHANNELPARAMS, RILCLOSEUICCLOGICALCHANNELPARAMS"
+req.typenames: RILCLOSEUICCLOGICALCHANNELPARAMS, *LPRILCLOSEUICCLOGICALCHANNELPARAMS
 req.product: Windows 10 or later.
 ---
 

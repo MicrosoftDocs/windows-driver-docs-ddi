@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F2F92DAE-6C13-4EE6-9DE7-B77F5FAFAE60
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndiswdirxinorderdataindication, NdisWdiRxInorderDataIndication callback function [Network Drivers Starting with Windows Vista], NdisWdiRxInorderDataIndication, NDIS_WDI_RX_INORDER_DATA_IND, NDIS_WDI_RX_INORDER_DATA_IND, dot11wdi/NdisWdiRxInorderDataIndication
+ms.keywords: NDIS_WDI_RX_INORDER_DATA_IND, NdisWdiRxInorderDataIndication, NdisWdiRxInorderDataIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiRxInorderDataIndication, netvista.ndiswdirxinorderdataindication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	NdisWdiRxInorderDataIndication
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # NDIS_WDI_RX_INORDER_DATA_IND callback
@@ -148,19 +148,11 @@ The RxMgr tracks the number of frames indicated to NDIS against the limit specif
 
 
 
-<a href="..\dot11wdi\ne-dot11wdi-_wdi_rx_indication_level.md">WDI_RX_INDICATION_LEVEL</a>
-
-
-
-<a href="https://msdn.microsoft.com/EEEA7181-4A24-4F40-8A44-65EC38D1A867">WDI RX path</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_receive_throttle_parameters.md">NDIS_RECEIVE_THROTTLE_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297640">WDI_EXTENDED_TID</a>
 
 
 
@@ -172,7 +164,15 @@ The RxMgr tracks the number of frames indicated to NDIS against the limit specif
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297640">WDI_EXTENDED_TID</a>
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
+
+
+
+<a href="..\dot11wdi\ne-dot11wdi-_wdi_rx_indication_level.md">WDI_RX_INDICATION_LEVEL</a>
+
+
+
+<a href="https://msdn.microsoft.com/EEEA7181-4A24-4F40-8A44-65EC38D1A867">WDI RX path</a>
 
 
 

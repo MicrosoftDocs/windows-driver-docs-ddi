@@ -4,11 +4,11 @@ title: IOCTL_GET_USB_DESCRIPTOR
 author: windows-driver-content
 description: Returns a specified USB Descriptor.
 old-location: image\ioctl_get_usb_descriptor.htm
-old-project: Image
+old-project: image
 ms.assetid: a5490a2a-d406-4029-b8be-446236a936bb
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: image.ioctl_get_usb_descriptor, IOCTL_GET_USB_DESCRIPTOR control code [Imaging Devices], IOCTL_GET_USB_DESCRIPTOR, usbscan/IOCTL_GET_USB_DESCRIPTOR, stifnc_9d8ca100-d268-4e51-88fb-925e0a029ece.xml
+ms.date: 2/23/2018
+ms.keywords: IOCTL_GET_USB_DESCRIPTOR, IOCTL_GET_USB_DESCRIPTOR control code [Imaging Devices], image.ioctl_get_usb_descriptor, stifnc_9d8ca100-d268-4e51-88fb-925e0a029ece.xml, usbscan/IOCTL_GET_USB_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

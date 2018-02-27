@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 430ee7fd-cffb-452d-b2e8-0dc252987487
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iqueuecallbackiostop, IQueueCallbackIoStop interface, IQueueCallbackIoStop interface, described, IQueueCallbackIoStop, wudfddi/IQueueCallbackIoStop, UMDFQueueObjectRef_cf62ed54-43d3-4a9e-8e82-85695bf30527.xml, umdf.iqueuecallbackiostop
+ms.keywords: IQueueCallbackIoStop, IQueueCallbackIoStop interface, IQueueCallbackIoStop interface, described, UMDFQueueObjectRef_cf62ed54-43d3-4a9e-8e82-85695bf30527.xml, umdf.iqueuecallbackiostop, wdf.iqueuecallbackiostop, wudfddi/IQueueCallbackIoStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 The <b>IQueueCallbackIoStop</b> interface contains a method that stops the processing of an I/O request from a queue.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueueCallbackIoStop</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IQueueCallbackIoStop</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IQueueCallbackIoStop</b> interface has these methods.
@@ -72,9 +79,7 @@ The <a href="https://msdn.microsoft.com/baa48d1b-b7da-4f89-b2e8-9a9ae2086527">On
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/baa48d1b-b7da-4f89-b2e8-9a9ae2086527">OnIoStop</a> callback function stops the processing of the specified I/O request from the specified queue. 
-
- 
+</table> 
 
 
 ## -remarks

@@ -7,8 +7,8 @@ old-location: dtf\iwdtfpnpaction2_restartdevice.htm
 old-project: dtf
 ms.assetid: 6023ca71-47ce-4add-891f-e125252ace08
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: RestartDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, RestartDevice method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFPNPAction2.RestartDevice, IWDTFPNPAction2, RestartDevice, wdtfpnpaction/IWDTFPNPAction2::RestartDevice, dtf.iwdtfpnpaction2_restartdevice, IWDTFPNPAction2 interface [Windows Device Testing Framework], RestartDevice method, IWDTFPNPAction2::RestartDevice, Microsoft::WDTF::IWDTFPNPAction2::RestartDevice
+ms.date: 2/23/2018
+ms.keywords: IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], RestartDevice method, IWDTFPNPAction2::RestartDevice, Microsoft.WDTF.IWDTFPNPAction2.RestartDevice, Microsoft::WDTF::IWDTFPNPAction2::RestartDevice, RestartDevice method [Windows Device Testing Framework], RestartDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, RestartDevice,IWDTFPNPAction2.RestartDevice, dtf.iwdtfpnpaction2_restartdevice, wdtfpnpaction/IWDTFPNPAction2::RestartDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -102,5 +102,5 @@ See the MSDN docs for details.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFPNPAction2::RestartDevice method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFPNPAction2::RestartDevice method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: af25d03f-32c5-4e2c-930f-1b905edc566b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDeviceAssignSxWakeSettings method, kmdf.wdfdeviceassignsxwakesettings, WdfDeviceAssignSxWakeSettings, DFDeviceObjectGeneralRef_1a9b9467-862d-422a-9cf6-501d1ddefe5e.xml, wdf.wdfdeviceassignsxwakesettings, wdfdevice/WdfDeviceAssignSxWakeSettings
+ms.keywords: DFDeviceObjectGeneralRef_1a9b9467-862d-422a-9cf6-501d1ddefe5e.xml, WdfDeviceAssignSxWakeSettings, WdfDeviceAssignSxWakeSettings method, kmdf.wdfdeviceassignsxwakesettings, wdf.wdfdeviceassignsxwakesettings, wdfdevice/WdfDeviceAssignSxWakeSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

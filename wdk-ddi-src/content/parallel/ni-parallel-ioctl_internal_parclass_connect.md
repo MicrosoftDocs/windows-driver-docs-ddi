@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 77dc31a1-a50c-4727-b730-1785e5d4a355
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.ioctl_internal_parclass_connect, IOCTL_INTERNAL_PARCLASS_CONNECT control code [Parallel Ports], IOCTL_INTERNAL_PARCLASS_CONNECT, parallel/IOCTL_INTERNAL_PARCLASS_CONNECT, cisspd_03b94b78-be74-4421-bb08-0860d6d8dca5.xml
+ms.keywords: IOCTL_INTERNAL_PARCLASS_CONNECT, IOCTL_INTERNAL_PARCLASS_CONNECT control code [Parallel Ports], cisspd_03b94b78-be74-4421-bb08-0860d6d8dca5.xml, parallel/IOCTL_INTERNAL_PARCLASS_CONNECT, parports.ioctl_internal_parclass_connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_PARCLASS_CONNECT
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # IOCTL_INTERNAL_PARCLASS_CONNECT IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5c716207-b093-499a-8fad-344b5ac51e25
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndisclgetprotocolvccontextfromtapicallid, NdisClGetProtocolVcContextFromTapiCallId function [Network Drivers Starting with Windows Vista], NdisClGetProtocolVcContextFromTapiCallId, ndis/NdisClGetProtocolVcContextFromTapiCallId, condis_client_ref_0f7c98a1-306b-40b4-b84c-0e624c936e90.xml
+ms.keywords: NdisClGetProtocolVcContextFromTapiCallId, NdisClGetProtocolVcContextFromTapiCallId function [Network Drivers Starting with Windows Vista], condis_client_ref_0f7c98a1-306b-40b4-b84c-0e624c936e90.xml, ndis/NdisClGetProtocolVcContextFromTapiCallId, netvista.ndisclgetprotocolvccontextfromtapicallid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisClGetProtocolVcContextFromTapiCallId
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisClGetProtocolVcContextFromTapiCallId function
@@ -161,7 +161,7 @@ See the
 
 
 
-<a href="..\ndis\nf-ndis-ndiscogettapicallid.md">NdisCoGetTapiCallId</a>
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
 
 

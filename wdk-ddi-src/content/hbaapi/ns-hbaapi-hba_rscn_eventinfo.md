@@ -7,8 +7,8 @@ old-location: storage\hba_rscn_eventinfo.htm
 old-project: storage
 ms.assetid: d726d974-a877-464d-9721-6caf8a8402bf
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PHBA_RSCN_EVENTINFO structure pointer [Storage Devices], structs-Fibre_c0cb4c14-5ff5-44cb-abb4-08673227f193.xml, storage.hba_rscn_eventinfo, HBA_RSCN_EVENTINFO, HBA_RSCN_EventInfo structure [Storage Devices], HBA_RSCN_EVENTINFO structure [Storage Devices], PHBA_RSCN_EVENTINFO, hbaapi/HBA_RSCN_EventInfo, *PHBA_RSCN_EVENTINFO, HBA_RSCN_EventInfo, hbaapi/PHBA_RSCN_EVENTINFO
+ms.date: 2/24/2018
+ms.keywords: "*PHBA_RSCN_EVENTINFO, HBA_RSCN_EVENTINFO, HBA_RSCN_EVENTINFO structure [Storage Devices], HBA_RSCN_EventInfo, HBA_RSCN_EventInfo structure [Storage Devices], PHBA_RSCN_EVENTINFO, PHBA_RSCN_EVENTINFO structure pointer [Storage Devices], hbaapi/HBA_RSCN_EventInfo, hbaapi/PHBA_RSCN_EVENTINFO, storage.hba_rscn_eventinfo, structs-Fibre_c0cb4c14-5ff5-44cb-abb4-08673227f193.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,17 +90,17 @@ Reserved.
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_pty_eventinfo.md">HBA_Pty_EventInfo</a>
-
-
-
 <a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a>
 
 
 
- 
+<a href="..\hbaapi\ns-hbaapi-hba_pty_eventinfo.md">HBA_Pty_EventInfo</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_RSCN_EventInfo structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_RSCN_EventInfo structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

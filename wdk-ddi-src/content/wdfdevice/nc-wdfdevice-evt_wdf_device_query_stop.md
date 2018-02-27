@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4f2ed29a-fed0-4286-81db-7a4c8a15a7dd
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdevicequerystop, EvtDeviceQueryStop callback function, EvtDeviceQueryStop, EVT_WDF_DEVICE_QUERY_STOP, EVT_WDF_DEVICE_QUERY_STOP, wdfdevice/EvtDeviceQueryStop, DFDeviceObjectGeneralRef_06abba34-8d71-46bf-8496-b6f27fe66dce.xml, kmdf.evtdevicequerystop
+ms.keywords: DFDeviceObjectGeneralRef_06abba34-8d71-46bf-8496-b6f27fe66dce.xml, EVT_WDF_DEVICE_QUERY_STOP, EvtDeviceQueryStop, EvtDeviceQueryStop callback function, kmdf.evtdevicequerystop, wdf.evtdevicequerystop, wdfdevice/EvtDeviceQueryStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

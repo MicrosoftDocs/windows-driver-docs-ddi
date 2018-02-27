@@ -7,8 +7,8 @@ old-location: kernel\psgetserversiloactiveconsoleid.htm
 old-project: kernel
 ms.assetid: 66b3c35d-681c-464a-86fa-972825bf3e97
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PsGetServerSiloActiveConsoleId, kernel.psgetserversiloactiveconsoleid, PsGetServerSiloActiveConsoleId method [Kernel-Mode Driver Architecture], ntddk/PsGetServerSiloActiveConsoleId
+ms.date: 2/24/2018
+ms.keywords: PsGetServerSiloActiveConsoleId, PsGetServerSiloActiveConsoleId method [Kernel-Mode Driver Architecture], kernel.psgetserversiloactiveconsoleid, ntddk/PsGetServerSiloActiveConsoleId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsGetServerSiloActiveConsoleId
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsGetServerSiloActiveConsoleId function

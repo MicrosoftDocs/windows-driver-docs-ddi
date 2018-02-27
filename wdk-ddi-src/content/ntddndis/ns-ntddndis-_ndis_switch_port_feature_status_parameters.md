@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 117ba27f-812a-406d-8120-99ba89551164
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, *PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, _NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, netvista.ndis_switch_port_feature_status_parameters, NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, netvista.ndis_switch_port_feature_status_parameters, ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS"
+req.typenames: NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, *PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS
 ---
 
 # _NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure
@@ -182,7 +182,7 @@ An <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_feature_status_custom.md">
 
 ## -see-also
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_property_type.md">NDIS_SWITCH_PORT_PROPERTY_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598274">OID_SWITCH_PORT_FEATURE_STATUS_QUERY</a>
 
 
 
@@ -190,11 +190,11 @@ An <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_feature_status_custom.md">
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_property_type.md">NDIS_SWITCH_PORT_PROPERTY_TYPE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

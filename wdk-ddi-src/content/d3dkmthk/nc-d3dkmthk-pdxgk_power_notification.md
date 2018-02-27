@@ -7,8 +7,8 @@ old-location: display\pdxgk_power_notification.htm
 old-project: display
 ms.assetid: 11549B4E-7929-4957-9775-BF8AAF501D45
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.pdxgk_power_notification, *PDXGK_POWER_NOTIFICATION callback function [Display Devices], *PDXGK_POWER_NOTIFICATION, d3dkmthk/*PDXGK_POWER_NOTIFICATION
+ms.date: 2/24/2018
+ms.keywords: "*PDXGK_POWER_NOTIFICATION, *PDXGK_POWER_NOTIFICATION callback function [Display Devices], d3dkmthk/*PDXGK_POWER_NOTIFICATION, display.pdxgk_power_notification"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -7,8 +7,8 @@ old-location: kernel\kequerydpcwatchdoginformation.htm
 old-project: kernel
 ms.assetid: d776b815-815b-491d-b84b-5bf1944c9fac
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.kequerydpcwatchdoginformation, KeQueryDpcWatchdogInformation, wdm/KeQueryDpcWatchdogInformation, KeQueryDpcWatchdogInformation routine [Kernel-Mode Driver Architecture], k105_0a2f37cc-0062-4315-b7f1-9bbe814d69b4.xml
+ms.date: 2/24/2018
+ms.keywords: KeQueryDpcWatchdogInformation, KeQueryDpcWatchdogInformation routine [Kernel-Mode Driver Architecture], k105_0a2f37cc-0062-4315-b7f1-9bbe814d69b4.xml, kernel.kequerydpcwatchdoginformation, wdm/KeQueryDpcWatchdogInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,5 +135,5 @@ DPC routines should run only for brief periods, and should delegate as much proc
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeQueryDpcWatchdogInformation routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeQueryDpcWatchdogInformation routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

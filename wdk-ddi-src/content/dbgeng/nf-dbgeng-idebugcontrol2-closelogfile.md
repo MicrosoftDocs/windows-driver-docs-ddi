@@ -4,11 +4,11 @@ title: IDebugControl2::CloseLogFile method
 author: windows-driver-content
 description: The CloseLogFile method closes the currently-open log file.
 old-location: debugger\closelogfile.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 86ae188b-379c-474e-9f21-60286af19656
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: CloseLogFile, CloseLogFile method [Windows Debugging], IDebugControl2 interface, IDebugControl, IDebugControl_988fe3ac-a51d-4757-995d-40fe9d66aa02.xml, IDebugControl2, debugger.closelogfile, CloseLogFile method [Windows Debugging], IDebugControl2 interface [Windows Debugging], CloseLogFile method, IDebugControl3 interface [Windows Debugging], CloseLogFile method, IDebugControl2::CloseLogFile, dbgeng/IDebugControl3::CloseLogFile, IDebugControl::CloseLogFile, dbgeng/IDebugControl::CloseLogFile, dbgeng/IDebugControl2::CloseLogFile, CloseLogFile method [Windows Debugging], IDebugControl3 interface, IDebugControl3::CloseLogFile, IDebugControl interface [Windows Debugging], CloseLogFile method, CloseLogFile method [Windows Debugging], IDebugControl interface
+ms.date: 2/23/2018
+ms.keywords: CloseLogFile method [Windows Debugging], CloseLogFile method [Windows Debugging], IDebugControl interface, CloseLogFile method [Windows Debugging], IDebugControl2 interface, CloseLogFile method [Windows Debugging], IDebugControl3 interface, CloseLogFile,IDebugControl2.CloseLogFile, IDebugControl interface [Windows Debugging], CloseLogFile method, IDebugControl2, IDebugControl2 interface [Windows Debugging], CloseLogFile method, IDebugControl2::CloseLogFile, IDebugControl3 interface [Windows Debugging], CloseLogFile method, IDebugControl3::CloseLogFile, IDebugControl::CloseLogFile, IDebugControl_988fe3ac-a51d-4757-995d-40fe9d66aa02.xml, dbgeng/IDebugControl2::CloseLogFile, dbgeng/IDebugControl3::CloseLogFile, dbgeng/IDebugControl::CloseLogFile, debugger.closelogfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -110,27 +110,11 @@ For more about log files, see <a href="https://msdn.microsoft.com/library/window
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547016">GetLogFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/730cfab3-5529-4054-ba62-8a780572603d">.logclose</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -142,9 +126,25 @@ For more about log files, see <a href="https://msdn.microsoft.com/library/window
 
 
 
- 
+<a href="https://msdn.microsoft.com/730cfab3-5529-4054-ba62-8a780572603d">.logclose</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::CloseLogFile method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::CloseLogFile method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

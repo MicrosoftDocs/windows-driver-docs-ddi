@@ -7,8 +7,8 @@ old-location: dtf\itracer.htm
 old-project: dtf
 ms.assetid: 3873ed15-cb68-4442-8b4d-e4b370d29728
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dtf.itracer, ITracer interface [Windows Device Testing Framework], ITracer interface [Windows Device Testing Framework], described, ITracer, wdtf/ITracer, ITracer_dcaa8d23-ed67-4084-b214-0e2506076e77.xml
+ms.date: 2/23/2018
+ms.keywords: ITracer, ITracer interface [Windows Device Testing Framework], ITracer interface [Windows Device Testing Framework], described, ITracer_dcaa8d23-ed67-4084-b214-0e2506076e77.xml, dtf.itracer, wdtf/ITracer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -53,6 +53,13 @@ req.product: Windows 10 or later.
 The <b>ITracer</b> interface enables individual instances of every WDTF interface to determine the specific tracing settings for a given implementation coclass. These settings are recorded in the registry.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITracer</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITracer</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>ITracer</b> interface has these methods.
@@ -70,9 +77,7 @@ Retrieves the tracing bit mask for this coclass, given a specified trace-level.
 
 </td>
 </tr>
-</table>Retrieves the tracing bit mask for this coclass, given a specified trace-level.
-
- 
+</table> 
 
 
 ## -remarks
@@ -336,5 +341,5 @@ TraceLevel Path: HKCR\WDTF.Tracer.1\
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20ITracer interface%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20ITracer interface%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

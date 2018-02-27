@@ -7,8 +7,8 @@ old-location: kernel\psgetparentsilo.htm
 old-project: kernel
 ms.assetid: 57fa5563-3a02-449a-a934-85c75f450500
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: ntddk/PsGetParentSilo, PsGetParentSilo function [Kernel-Mode Driver Architecture], PsGetParentSilo, kernel.psgetparentsilo
+ms.date: 2/24/2018
+ms.keywords: PsGetParentSilo, PsGetParentSilo function [Kernel-Mode Driver Architecture], kernel.psgetparentsilo, ntddk/PsGetParentSilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsGetParentSilo
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsGetParentSilo function

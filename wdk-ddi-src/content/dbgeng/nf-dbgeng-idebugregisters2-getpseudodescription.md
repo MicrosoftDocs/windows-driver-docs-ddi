@@ -4,11 +4,11 @@ title: IDebugRegisters2::GetPseudoDescription method
 author: windows-driver-content
 description: The GetPseudoDescription method returns a description of a pseudo-register, including its name and type.
 old-location: debugger\getpseudodescription.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: dc1c7b8a-1233-4f22-8c5f-273f370a1e06
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugRegisters2, dbgeng/IDebugRegisters2::GetPseudoDescription, GetPseudoDescription method [Windows Debugging], GetPseudoDescription, debugger.getpseudodescription, GetPseudoDescription method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters_7b1f8069-32d0-4fb4-9cee-7fd045bae8d3.xml, IDebugRegisters2::GetPseudoDescription, IDebugRegisters2 interface [Windows Debugging], GetPseudoDescription method
+ms.date: 2/23/2018
+ms.keywords: GetPseudoDescription method [Windows Debugging], GetPseudoDescription method [Windows Debugging], IDebugRegisters2 interface, GetPseudoDescription,IDebugRegisters2.GetPseudoDescription, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetPseudoDescription method, IDebugRegisters2::GetPseudoDescription, IDebugRegisters_7b1f8069-32d0-4fb4-9cee-7fd045bae8d3.xml, dbgeng/IDebugRegisters2::GetPseudoDescription, debugger.getpseudodescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -170,5 +170,5 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugRegisters2::GetPseudoDescription method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters2::GetPseudoDescription method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

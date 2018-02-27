@@ -7,8 +7,8 @@ old-location: stream\ksallocatedeviceheader.htm
 old-project: stream
 ms.assetid: 554f03bf-cacd-401b-aa34-fcfe1c31091e
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ks/KsAllocateDeviceHeader, stream.ksallocatedeviceheader, KsAllocateDeviceHeader function [Streaming Media Devices], KsAllocateDeviceHeader, ksfunc_715031de-7d7e-4e24-8e1c-072c7bc271fb.xml
+ms.date: 2/23/2018
+ms.keywords: KsAllocateDeviceHeader, KsAllocateDeviceHeader function [Streaming Media Devices], ks/KsAllocateDeviceHeader, ksfunc_715031de-7d7e-4e24-8e1c-072c7bc271fb.xml, stream.ksallocatedeviceheader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,17 +125,17 @@ Drivers must not free the memory allocated for the subobject KSOBJECT_CREATE_ITE
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
-
-
-
 <a href="..\ks\nf-ks-ksfreedeviceheader.md">KsFreeDeviceHeader</a>
 
 
 
- 
+<a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsAllocateDeviceHeader function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsAllocateDeviceHeader function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

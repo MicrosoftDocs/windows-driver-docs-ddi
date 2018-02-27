@@ -7,8 +7,8 @@ old-location: storage\tape_write_marks.htm
 old-project: storage
 ms.assetid: 5baa7fd0-e806-4da8-9c87-c86ebc003e60
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: ntddtape/TAPE_WRITE_MARKS, TAPE_WRITE_MARKS, TAPE_WRITE_MARKS structure [Storage Devices], *PTAPE_WRITE_MARKS, PTAPE_WRITE_MARKS structure pointer [Storage Devices], _TAPE_WRITE_MARKS, PTAPE_WRITE_MARKS, storage.tape_write_marks, structs-tape_18332ea5-6bfb-4acf-8c84-0a77ded0cc72.xml, ntddtape/PTAPE_WRITE_MARKS
+ms.date: 2/24/2018
+ms.keywords: "*PTAPE_WRITE_MARKS, PTAPE_WRITE_MARKS, PTAPE_WRITE_MARKS structure pointer [Storage Devices], TAPE_WRITE_MARKS, TAPE_WRITE_MARKS structure [Storage Devices], _TAPE_WRITE_MARKS, ntddtape/PTAPE_WRITE_MARKS, ntddtape/TAPE_WRITE_MARKS, storage.tape_write_marks, structs-tape_18332ea5-6bfb-4acf-8c84-0a77ded0cc72.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -146,5 +146,5 @@ When set to <b>TRUE</b>, indicates that the target device should return status i
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_WRITE_MARKS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_WRITE_MARKS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

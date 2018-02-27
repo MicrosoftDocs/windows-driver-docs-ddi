@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: E9C5B866-1EB0-4043-B22F-DF2F4CFAE64C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SPB_TRANSFER_BUFFER structure [Buses], SPB.spb_transfer_buffer, spb/SPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER, SPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER structure pointer [Buses], spb/PSPB_TRANSFER_BUFFER, *PSPB_TRANSFER_BUFFER
+ms.keywords: "*PSPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER structure pointer [Buses], SPB.spb_transfer_buffer, SPB_TRANSFER_BUFFER, SPB_TRANSFER_BUFFER structure [Buses], spb/PSPB_TRANSFER_BUFFER, spb/SPB_TRANSFER_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SPB_TRANSFER_BUFFER
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_TRANSFER_BUFFER, SPB_TRANSFER_BUFFER"
+req.typenames: SPB_TRANSFER_BUFFER, *PSPB_TRANSFER_BUFFER
 req.product: Windows 10 or later.
 ---
 
@@ -104,14 +104,14 @@ A pointer to an array of <b>SPB_TRANSFER_BUFFER_LIST_ENTRY</b> structures that d
 The number of elements in the <b>List</b> array.
 
 
-#### - Simple
-
-A SPB_TRANSFER_BUFFER_LIST_ENTRY  structure that specifies the base address and the length of a simple transfer buffer. Use this member of the union if <b>Format</b> is <b>SpbTransferBufferFormatSimple</b> or <b>SpbTransferBufferFormatSimpleNonPaged</b>. The <b>SpbTransferBufferFormatSimpleNonPaged</b> format is used only by kernel-mode clients.
-
-
 #### - Mdl
 
 A pointer to an MDL that describes the buffer. This member is used only by kernel-mode clients. Use this member of the union if <b>Format</b> is <b>SpbTransferBufferFormatMdl</b>. For more information, see Remarks.
+
+
+#### - Simple
+
+A SPB_TRANSFER_BUFFER_LIST_ENTRY  structure that specifies the base address and the length of a simple transfer buffer. Use this member of the union if <b>Format</b> is <b>SpbTransferBufferFormatSimple</b> or <b>SpbTransferBufferFormatSimpleNonPaged</b>. The <b>SpbTransferBufferFormatSimpleNonPaged</b> format is used only by kernel-mode clients.
 
 
 ## -remarks

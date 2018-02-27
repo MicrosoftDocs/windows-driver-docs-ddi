@@ -4,11 +4,11 @@ title: IDebugSymbolGroup::RemoveSymbolByIndex method
 author: windows-driver-content
 description: The RemoveSymbolByIndex method removes the specified symbol from a symbol group.
 old-location: debugger\removesymbolbyindex.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 1903d454-02d1-4528-9b8f-3c2eab8c6a6a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugSymbolGroup interface [Windows Debugging], RemoveSymbolByIndex method, IDebugSymbolGroup2 interface [Windows Debugging], RemoveSymbolByIndex method, RemoveSymbolByIndex method [Windows Debugging], IDebugSymbolGroup2::RemoveSymbolByIndex, RemoveSymbolByIndex, dbgeng/IDebugSymbolGroup2::RemoveSymbolByIndex, ComOther_d532b37e-11c9-4cff-a619-0b9dffef0af1.xml, RemoveSymbolByIndex method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup::RemoveSymbolByIndex, dbgeng/IDebugSymbolGroup::RemoveSymbolByIndex, IDebugSymbolGroup, debugger.removesymbolbyindex, RemoveSymbolByIndex method [Windows Debugging], IDebugSymbolGroup interface
+ms.date: 2/23/2018
+ms.keywords: ComOther_d532b37e-11c9-4cff-a619-0b9dffef0af1.xml, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], RemoveSymbolByIndex method, IDebugSymbolGroup2 interface [Windows Debugging], RemoveSymbolByIndex method, IDebugSymbolGroup2::RemoveSymbolByIndex, IDebugSymbolGroup::RemoveSymbolByIndex, RemoveSymbolByIndex method [Windows Debugging], RemoveSymbolByIndex method [Windows Debugging], IDebugSymbolGroup interface, RemoveSymbolByIndex method [Windows Debugging], IDebugSymbolGroup2 interface, RemoveSymbolByIndex,IDebugSymbolGroup.RemoveSymbolByIndex, dbgeng/IDebugSymbolGroup2::RemoveSymbolByIndex, dbgeng/IDebugSymbolGroup::RemoveSymbolByIndex, debugger.removesymbolbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -120,15 +120,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537925">AddSymbol</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 
 
@@ -144,5 +140,5 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbolGroup::RemoveSymbolByIndex method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbolGroup::RemoveSymbolByIndex method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

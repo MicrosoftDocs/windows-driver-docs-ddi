@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 5EEE0B7D-2857-42D1-A387-9D38DAC2E368
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ntddser/SERIAL_QUEUE_SIZE, SERIAL_QUEUE_SIZE, *PSERIAL_QUEUE_SIZE, serports.serial_queue_size, PSERIAL_QUEUE_SIZE, _SERIAL_QUEUE_SIZE, PSERIAL_QUEUE_SIZE structure pointer [Serial Ports], ntddser/PSERIAL_QUEUE_SIZE, SERIAL_QUEUE_SIZE structure [Serial Ports]
+ms.keywords: "*PSERIAL_QUEUE_SIZE, PSERIAL_QUEUE_SIZE, PSERIAL_QUEUE_SIZE structure pointer [Serial Ports], SERIAL_QUEUE_SIZE, SERIAL_QUEUE_SIZE structure [Serial Ports], _SERIAL_QUEUE_SIZE, ntddser/PSERIAL_QUEUE_SIZE, ntddser/SERIAL_QUEUE_SIZE, serports.serial_queue_size"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SERIAL_QUEUE_SIZE
 product: Windows
 targetos: Windows
-req.typenames: "*PSERIAL_QUEUE_SIZE, SERIAL_QUEUE_SIZE"
+req.typenames: SERIAL_QUEUE_SIZE, *PSERIAL_QUEUE_SIZE
 ---
 
 # _SERIAL_QUEUE_SIZE structure

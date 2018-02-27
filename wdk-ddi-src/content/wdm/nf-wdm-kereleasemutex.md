@@ -7,8 +7,8 @@ old-location: kernel\kereleasemutex.htm
 old-project: kernel
 ms.assetid: d220f913-6111-435d-b617-257edf2a9c68
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: KeReleaseMutex, k105_4237a9e6-715b-4e40-aab8-9b1458a220ae.xml, wdm/KeReleaseMutex, kernel.kereleasemutex, KeReleaseMutex routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: KeReleaseMutex, KeReleaseMutex routine [Kernel-Mode Driver Architecture], k105_4237a9e6-715b-4e40-aab8-9b1458a220ae.xml, kernel.kereleasemutex, wdm/KeReleaseMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,6 +115,18 @@ For more information about mutex objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545549">ExReleaseFastMutex</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
+
+
+
 <a href="..\wdm\nf-wdm-kereadstatemutex.md">KeReadStateMutex</a>
 
 
@@ -123,7 +135,7 @@ For more information about mutex objects, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545549">ExReleaseFastMutex</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545567">ExReleaseFastMutexUnsafe</a>
 
 
 
@@ -131,21 +143,9 @@ For more information about mutex objects, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545549">ExReleaseFastMutex</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeReleaseMutex routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeReleaseMutex routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6637E939-010E-4462-92CE-50C4DB867694
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: SetExtendedPolicy method, umdf.iwdfinterrupt_setextendedpolicy, IWDFInterrupt, IWDFInterrupt::SetExtendedPolicy, SetExtendedPolicy method, IWDFInterrupt interface, SetExtendedPolicy, wudfddi/IWDFInterrupt::SetExtendedPolicy, IWDFInterrupt interface, SetExtendedPolicy method, wdf.iwdfinterrupt_setextendedpolicy
+ms.keywords: IWDFInterrupt, IWDFInterrupt interface, SetExtendedPolicy method, IWDFInterrupt::SetExtendedPolicy, SetExtendedPolicy method, SetExtendedPolicy method, IWDFInterrupt interface, SetExtendedPolicy,IWDFInterrupt.SetExtendedPolicy, umdf.iwdfinterrupt_setextendedpolicy, wdf.iwdfinterrupt_setextendedpolicy, wudfddi/IWDFInterrupt::SetExtendedPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -132,7 +132,7 @@ pInterrupt-&gt;SetExtendedPolicy(
 
 ## -see-also
 
-<a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_extended_policy.md">WDF_INTERRUPT_EXTENDED_POLICY</a>
+<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
 
 
 
@@ -140,7 +140,7 @@ pInterrupt-&gt;SetExtendedPolicy(
 
 
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
+<a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_extended_policy.md">WDF_INTERRUPT_EXTENDED_POLICY</a>
 
 
 

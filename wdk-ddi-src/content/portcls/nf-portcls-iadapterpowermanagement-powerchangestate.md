@@ -7,8 +7,8 @@ old-location: audio\iadapterpowermanagement_powerchangestate.htm
 old-project: audio
 ms.assetid: b3e0fca7-d5ab-4d52-9702-dae83c540a71
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iadapterpowermanagement_powerchangestate, PowerChangeState method [Audio Devices], IAdapterPowerManagement interface, PowerChangeState method [Audio Devices], audmp-routines_7898e689-94c5-4577-80d8-a88676cd44dc.xml, IAdapterPowerManagement::PowerChangeState, PowerChangeState, portcls/IAdapterPowerManagement::PowerChangeState, IAdapterPowerManagement, IAdapterPowerManagement interface [Audio Devices], PowerChangeState method
+ms.date: 2/22/2018
+ms.keywords: IAdapterPowerManagement, IAdapterPowerManagement interface [Audio Devices], PowerChangeState method, IAdapterPowerManagement::PowerChangeState, PowerChangeState method [Audio Devices], PowerChangeState method [Audio Devices], IAdapterPowerManagement interface, PowerChangeState,IAdapterPowerManagement.PowerChangeState, audio.iadapterpowermanagement_powerchangestate, audmp-routines_7898e689-94c5-4577-80d8-a88676cd44dc.xml, portcls/IAdapterPowerManagement::PowerChangeState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -150,7 +150,7 @@ The code for this method must reside in paged memory.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-ipowernotify.md">IPowerNotify</a>
+<a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
 
 
 
@@ -158,7 +158,7 @@ The code for this method must reside in paged memory.
 
 
 
-<a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
+<a href="..\portcls\nn-portcls-ipowernotify.md">IPowerNotify</a>
 
 
 
@@ -166,5 +166,5 @@ The code for this method must reside in paged memory.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IAdapterPowerManagement::PowerChangeState method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IAdapterPowerManagement::PowerChangeState method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

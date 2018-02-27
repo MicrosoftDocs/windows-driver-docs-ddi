@@ -7,8 +7,8 @@ old-location: display\dxgk_vidpnsourcemodeset_interface_pfnacquirenextmodeinfo.h
 old-project: display
 ms.assetid: d9cb1ff1-c428-46e5-884a-5fc39e16300e
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgk_vidpnsourcemodeset_interface_pfnacquirenextmodeinfo, pfnAcquireNextModeInfo callback function [Display Devices], pfnAcquireNextModeInfo, DXGKDDI_VIDPNSOURCEMODESET_ACQUIRENEXTMODEINFO, DXGKDDI_VIDPNSOURCEMODESET_ACQUIRENEXTMODEINFO, d3dkmddi/pfnAcquireNextModeInfo, VidPnFunctions_d74c5638-dbfc-4d3b-8db3-ac1723d082aa.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_ACQUIRENEXTMODEINFO, VidPnFunctions_d74c5638-dbfc-4d3b-8db3-ac1723d082aa.xml, d3dkmddi/pfnAcquireNextModeInfo, display.dxgk_vidpnsourcemodeset_interface_pfnacquirenextmodeinfo, pfnAcquireNextModeInfo, pfnAcquireNextModeInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -141,14 +141,14 @@ The D3DKMDT_HVIDPNSOURCEMODESET data type is defined in <i>D3dkmdt.h</i>.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_releasemodeinfo.md">pfnReleaseModeInfo</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_acquirefirstmodeinfo.md">pfnAcquireFirstModeInfo</a>
 
 
 
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_releasemodeinfo.md">pfnReleaseModeInfo</a>
 
 
@@ -157,5 +157,5 @@ The D3DKMDT_HVIDPNSOURCEMODESET data type is defined in <i>D3dkmdt.h</i>.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_VIDPNSOURCEMODESET_ACQUIRENEXTMODEINFO callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_VIDPNSOURCEMODESET_ACQUIRENEXTMODEINFO callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 211A3DBB-96B8-4DB5-BB50-FAB7500D999F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SERCX_ACTIVITY_INIT function [Serial Ports], 1/SERCX_ACTIVITY_INIT, serports.sercx_activity_init, SERCX_ACTIVITY_INIT
+ms.keywords: 1/SERCX_ACTIVITY_INIT, SERCX_ACTIVITY_INIT, SERCX_ACTIVITY_INIT function [Serial Ports], serports.sercx_activity_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SERCX_ACTIVITY_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
+req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
 

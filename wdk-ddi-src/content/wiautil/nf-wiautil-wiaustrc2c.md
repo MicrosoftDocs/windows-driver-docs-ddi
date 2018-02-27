@@ -4,11 +4,11 @@ title: wiauStrC2C function
 author: windows-driver-content
 description: The wiauStrC2C function copies an ANSI character string to another ANSI character string.
 old-location: image\wiaustrc2c.htm
-old-project: Image
+old-project: image
 ms.assetid: 7e8cd99a-d1b1-4261-9643-4a84bddfdc01
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: wiauFncs_2266a6c9-ed4b-4af8-947a-d634bd9e9912.xml, wiautil/wiauStrC2C, image.wiaustrc2c, wiauStrC2C, wiauStrC2C function [Imaging Devices]
+ms.date: 2/23/2018
+ms.keywords: image.wiaustrc2c, wiauFncs_2266a6c9-ed4b-4af8-947a-d634bd9e9912.xml, wiauStrC2C, wiauStrC2C function [Imaging Devices], wiautil/wiauStrC2C
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,17 +100,17 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaustrc2w.md">wiauStrC2W</a>
-
-
-
 <a href="..\wiautil\nf-wiautil-wiaustrw2c.md">wiauStrW2C</a>
 
 
 
- 
+<a href="..\wiautil\nf-wiautil-wiaustrc2w.md">wiauStrC2W</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20wiauStrC2C function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiauStrC2C function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

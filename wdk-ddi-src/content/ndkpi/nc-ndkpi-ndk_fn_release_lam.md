@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8CEBDCCE-5B71-443D-9DE5-F789E16843D7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_release_lam, NdkReleaseLam callback function [Network Drivers Starting with Windows Vista], NdkReleaseLam, NDK_FN_RELEASE_LAM, NDK_FN_RELEASE_LAM, ndkpi/NdkReleaseLam
+ms.keywords: NDK_FN_RELEASE_LAM, NdkReleaseLam, NdkReleaseLam callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkReleaseLam, netvista.ndk_fn_release_lam
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -103,11 +103,11 @@ None
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_logical_address_mapping.md">NDK_LOGICAL_ADDRESS_MAPPING</a>
-
-
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
 
 
 
@@ -115,7 +115,7 @@ None
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_logical_address_mapping.md">NDK_LOGICAL_ADDRESS_MAPPING</a>
 
 
 

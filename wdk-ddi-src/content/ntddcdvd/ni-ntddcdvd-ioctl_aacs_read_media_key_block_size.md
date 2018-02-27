@@ -7,8 +7,8 @@ old-location: storage\ioctl_aacs_read_media_key_block_size.htm
 old-project: storage
 ms.assetid: 2b8e5461-c935-46d8-afe3-c82a7566a4c7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.ioctl_aacs_read_media_key_block_size, IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE control code [Storage Devices], IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE, ntddcdvd/IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE, k307_0f77e9ec-80d5-4a17-8aa5-3cea982a9099.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE, IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE control code [Storage Devices], k307_0f77e9ec-80d5-4a17-8aa5-3cea982a9099.xml, ntddcdvd/IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE, storage.ioctl_aacs_read_media_key_block_size
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

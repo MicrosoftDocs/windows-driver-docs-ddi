@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3DB6AC6F-2A6F-43E1-B98D-B4E5C8A87845
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwditaltxrxdeleteport, MiniportWdiTalTxRxDeletePort callback function [Network Drivers Starting with Windows Vista], MiniportWdiTalTxRxDeletePort, MINIPORT_WDI_TAL_TXRX_DELETE_PORT, MINIPORT_WDI_TAL_TXRX_DELETE_PORT, dot11wdi/MiniportWdiTalTxRxDeletePort
+ms.keywords: MINIPORT_WDI_TAL_TXRX_DELETE_PORT, MiniportWdiTalTxRxDeletePort, MiniportWdiTalTxRxDeletePort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxDeletePort, netvista.miniportwditaltxrxdeleteport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	MiniportWdiTalTxRxDeletePort
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_TAL_TXRX_DELETE_PORT callback
@@ -96,11 +96,11 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn925950">OID_WDI_TASK_DELETE_PORT</a>
+<a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
 
 
 
@@ -108,11 +108,11 @@ This callback function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn925950">OID_WDI_TASK_DELETE_PORT</a>
 
 
 
-<a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
 
 

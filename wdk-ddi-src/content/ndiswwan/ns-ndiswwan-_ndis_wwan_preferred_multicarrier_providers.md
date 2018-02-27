@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4856D1DF-8A31-4290-91C6-A4FC289BDC35
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndiswwan/PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, _NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, ndiswwan/NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, *PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_preferred_multicarrier_providers, NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS
+ms.keywords: "*PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, ndiswwan/NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, ndiswwan/PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, netvista.ndis_wwan_preferred_multicarrier_providers"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS"
+req.typenames: NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, *PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS
 ---
 
 # _NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS structure
@@ -172,11 +172,11 @@ Response to  <a href="https://msdn.microsoft.com/library/windows/hardware/ff5698
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569830">OID_WWAN_PREFERRED_PROVIDERS</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 
 
 

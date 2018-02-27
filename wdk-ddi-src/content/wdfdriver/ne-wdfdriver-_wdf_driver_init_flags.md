@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cbabd178-3496-4851-9acf-f0718eaebdcd
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfdriver/WdfDriverInitNonPnpDriver, kmdf.wdf_driver_init_flags, wdf.wdf_driver_init_flags, _WDF_DRIVER_INIT_FLAGS, WdfDriverInitNoDispatchOverride, WdfVerifyOn, DFDriverObjectRef_a77b530c-fd37-4ffe-a006-7deaa8156040.xml, wdfdriver/WDF_DRIVER_INIT_FLAGS, wdfdriver/WdfDriverInitNoDispatchOverride, WdfDriverInitNonPnpDriver, wdfdriver/WdfVerifyOn, WDF_DRIVER_INIT_FLAGS enumeration, WdfVerifierOn, wdfdriver/WdfVerifierOn, WDF_DRIVER_INIT_FLAGS
+ms.keywords: DFDriverObjectRef_a77b530c-fd37-4ffe-a006-7deaa8156040.xml, WDF_DRIVER_INIT_FLAGS, WDF_DRIVER_INIT_FLAGS enumeration, WdfDriverInitNoDispatchOverride, WdfDriverInitNonPnpDriver, WdfVerifierOn, WdfVerifyOn, _WDF_DRIVER_INIT_FLAGS, kmdf.wdf_driver_init_flags, wdf.wdf_driver_init_flags, wdfdriver/WDF_DRIVER_INIT_FLAGS, wdfdriver/WdfDriverInitNoDispatchOverride, wdfdriver/WdfDriverInitNonPnpDriver, wdfdriver/WdfVerifierOn, wdfdriver/WdfVerifyOn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -117,7 +117,7 @@ The WDF_DRIVER_INIT_FLAGS enumeration is used to specify the value for the <b>Dr
 
 
 
-<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

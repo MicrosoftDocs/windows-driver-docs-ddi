@@ -4,11 +4,11 @@ title: IDebugClient4::OpenDumpFileWide method
 author: windows-driver-content
 description: The OpenDumpFileWide method opens a dump file as a debugger target.
 old-location: debugger\opendumpfilewide.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 56efc94f-ef1e-41f9-ab99-57f0be34a770
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: OpenDumpFileWide method [Windows Debugging], IDebugClient4, OpenDumpFileWide, dbgeng/IDebugClient5::OpenDumpFileWide, IDebugClient4 interface [Windows Debugging], OpenDumpFileWide method, IDebugClient5 interface [Windows Debugging], OpenDumpFileWide method, OpenDumpFileWide method [Windows Debugging], IDebugClient4 interface, dbgeng/IDebugClient4::OpenDumpFileWide, IDebugClient5::OpenDumpFileWide, debugger.opendumpfilewide, IDebugClient4::OpenDumpFileWide, IDebugClient_e3280682-6272-4324-bba5-120a95f27b15.xml, OpenDumpFileWide method [Windows Debugging], IDebugClient5 interface
+ms.date: 2/23/2018
+ms.keywords: IDebugClient4, IDebugClient4 interface [Windows Debugging], OpenDumpFileWide method, IDebugClient4::OpenDumpFileWide, IDebugClient5 interface [Windows Debugging], OpenDumpFileWide method, IDebugClient5::OpenDumpFileWide, IDebugClient_e3280682-6272-4324-bba5-120a95f27b15.xml, OpenDumpFileWide method [Windows Debugging], OpenDumpFileWide method [Windows Debugging], IDebugClient4 interface, OpenDumpFileWide method [Windows Debugging], IDebugClient5 interface, OpenDumpFileWide,IDebugClient4.OpenDumpFileWide, dbgeng/IDebugClient4::OpenDumpFileWide, dbgeng/IDebugClient5::OpenDumpFileWide, debugger.opendumpfilewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -122,7 +122,15 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564611">.opendump (Open Dump File)</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
 
 
 
@@ -134,21 +142,13 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564611">.opendump (Open Dump File)</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564611">.opendump (Open Dump File)</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient4::OpenDumpFileWide method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient4::OpenDumpFileWide method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

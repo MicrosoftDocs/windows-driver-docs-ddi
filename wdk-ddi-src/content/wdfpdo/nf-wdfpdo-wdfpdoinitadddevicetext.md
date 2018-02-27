@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e46a9aee-8d96-41f5-b0f9-01846fefe4cb
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfpdo/WdfPdoInitAddDeviceText, DFDeviceObjectFdoPdoRef_1167066a-5ec9-47b8-be03-32127121fa91.xml, WdfPdoInitAddDeviceText method, wdf.wdfpdoinitadddevicetext, WdfPdoInitAddDeviceText, kmdf.wdfpdoinitadddevicetext
+ms.keywords: DFDeviceObjectFdoPdoRef_1167066a-5ec9-47b8-be03-32127121fa91.xml, WdfPdoInitAddDeviceText, WdfPdoInitAddDeviceText method, kmdf.wdfpdoinitadddevicetext, wdf.wdfpdoinitadddevicetext, wdfpdo/WdfPdoInitAddDeviceText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfPdoInitAddDeviceText
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
+req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
 req.product: Windows 10 or later.
 ---
 

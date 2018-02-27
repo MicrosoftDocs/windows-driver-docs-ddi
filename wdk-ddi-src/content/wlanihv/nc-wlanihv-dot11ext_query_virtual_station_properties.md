@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4ea71ef7-c897-413c-a542-e8068bcc66a6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extqueryvirtualstationproperties, Dot11ExtQueryVirtualStationProperties callback function [Network Drivers Starting with Windows Vista], Dot11ExtQueryVirtualStationProperties, DOT11EXT_QUERY_VIRTUAL_STATION_PROPERTIES, DOT11EXT_QUERY_VIRTUAL_STATION_PROPERTIES, wlanihv/Dot11ExtQueryVirtualStationProperties, Native_802.11_IHV_Ext_c8da5f60-0502-4381-b9e4-f9b8e245e5e8.xml
+ms.keywords: DOT11EXT_QUERY_VIRTUAL_STATION_PROPERTIES, Dot11ExtQueryVirtualStationProperties, Dot11ExtQueryVirtualStationProperties callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_c8da5f60-0502-4381-b9e4-f9b8e245e5e8.xml, netvista.dot11extqueryvirtualstationproperties, wlanihv/Dot11ExtQueryVirtualStationProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtQueryVirtualStationProperties
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 

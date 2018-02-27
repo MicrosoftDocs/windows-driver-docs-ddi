@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: 90bb06c3-2975-4290-b6f1-0c36e7b8678b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCMCIA.ioctl_get_tuple_data, IOCTL_GET_TUPLE_DATA control code [Buses], IOCTL_GET_TUPLE_DATA, ntddpcm/IOCTL_GET_TUPLE_DATA, memcdref_80c1671e-c0c2-4429-b703-ffb389cc7af5.xml
+ms.keywords: IOCTL_GET_TUPLE_DATA, IOCTL_GET_TUPLE_DATA control code [Buses], PCMCIA.ioctl_get_tuple_data, memcdref_80c1671e-c0c2-4429-b703-ffb389cc7af5.xml, ntddpcm/IOCTL_GET_TUPLE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: PCMCIA_CONTROLLER_CLASS, *PPCMCIA_CONTROLLER_CLASS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

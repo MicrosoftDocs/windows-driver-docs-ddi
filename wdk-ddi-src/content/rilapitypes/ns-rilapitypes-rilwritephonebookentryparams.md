@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ae92f321-d6dc-4e48-8107-1a6fbd3bb15a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS, netvista.rilwritephonebookentryparams_2, RILWRITEPHONEBOOKENTRYPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILWRITEPHONEBOOKENTRYPARAMS"
+ms.keywords: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilwritephonebookentryparams_2, rilapitypes/RILWRITEPHONEBOOKENTRYPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

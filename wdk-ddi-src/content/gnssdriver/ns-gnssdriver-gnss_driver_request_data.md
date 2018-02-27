@@ -7,8 +7,8 @@ old-location: sensors\gnss_driver_request_data.htm
 old-project: sensors
 ms.assetid: 801FBD9D-304A-41AC-AD28-00DE95DEFE63
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: gnssdriver/PGNSS_DRIVER_REQUEST_DATA, GNSS_DRIVER_REQUEST_DATA structure [Sensor Devices], PGNSS_DRIVER_REQUEST_DATA, PGNSS_DRIVER_REQUEST_DATA structure pointer [Sensor Devices], GNSS_DRIVER_REQUEST_DATA, gnssdriver/GNSS_DRIVER_REQUEST_DATA, sensors.gnss_driver_request_data
+ms.date: 2/22/2018
+ms.keywords: GNSS_DRIVER_REQUEST_DATA, GNSS_DRIVER_REQUEST_DATA structure [Sensor Devices], PGNSS_DRIVER_REQUEST_DATA, PGNSS_DRIVER_REQUEST_DATA structure pointer [Sensor Devices], gnssdriver/GNSS_DRIVER_REQUEST_DATA, gnssdriver/PGNSS_DRIVER_REQUEST_DATA, sensors.gnss_driver_request_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

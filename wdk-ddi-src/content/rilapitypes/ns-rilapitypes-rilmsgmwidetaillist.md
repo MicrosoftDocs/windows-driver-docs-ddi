@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dbaae4cd-3d0e-4130-af03-9f30a7cd6139
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RILMSGMWIDETAILLIST, RILMSGMWIDETAILLIST structure [Network Drivers Starting with Windows Vista], *LPRILMSGMWIDETAILLIST, RILMSGMWIDETAILLIST, netvista.rilmsgmwidetaillist_2
+ms.keywords: "*LPRILMSGMWIDETAILLIST, RILMSGMWIDETAILLIST, RILMSGMWIDETAILLIST structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwidetaillist_2, rilapitypes/RILMSGMWIDETAILLIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILMSGMWIDETAILLIST
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILMSGMWIDETAILLIST, RILMSGMWIDETAILLIST"
+req.typenames: RILMSGMWIDETAILLIST, *LPRILMSGMWIDETAILLIST
 req.product: Windows 10 or later.
 ---
 

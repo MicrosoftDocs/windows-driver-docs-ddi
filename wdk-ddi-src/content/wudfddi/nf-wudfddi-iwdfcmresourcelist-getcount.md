@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91F88EC2-C0BD-42E1-8C57-437909E2CCA2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetCount method, IWDFCmResourceList, GetCount method, IWDFCmResourceList interface, wdf.iwdfcmresourcelist_getcount, IWDFCmResourceList interface, GetCount method, GetCount, umdf.iwdfcmresourcelist_getcount, wudfddi/IWDFCmResourceList::GetCount, IWDFCmResourceList::GetCount
+ms.keywords: GetCount method, GetCount method, IWDFCmResourceList interface, GetCount,IWDFCmResourceList.GetCount, IWDFCmResourceList, IWDFCmResourceList interface, GetCount method, IWDFCmResourceList::GetCount, umdf.iwdfcmresourcelist_getcount, wdf.iwdfcmresourcelist_getcount, wudfddi/IWDFCmResourceList::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: da3f5f28-2794-491b-a359-be8508b050bf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisInitializeListHead macro [Network Drivers Starting with Windows Vista], NdisInitializeListHead, ndis/NdisInitializeListHead, ndis_interlocked_ref_35d40751-6f2b-43db-801d-40479f3e0b6b.xml, netvista.ndisinitializelisthead
+ms.keywords: NdisInitializeListHead, NdisInitializeListHead macro [Network Drivers Starting with Windows Vista], ndis/NdisInitializeListHead, ndis_interlocked_ref_35d40751-6f2b-43db-801d-40479f3e0b6b.xml, netvista.ndisinitializelisthead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisInitializeListHead
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisInitializeListHead macro
@@ -104,21 +104,12 @@ Callers of <b>NdisInitializeListHead</b> can be running at any IRQL. If <b>NdisI
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
-   NdisInterlockedInsertTailList</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
    Drivers</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
 
 
@@ -129,6 +120,15 @@ Callers of <b>NdisInitializeListHead</b> can be running at any IRQL. If <b>NdisI
 
 <a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
    NdisInterlockedInsertHeadList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
+   NdisInterlockedInsertTailList</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

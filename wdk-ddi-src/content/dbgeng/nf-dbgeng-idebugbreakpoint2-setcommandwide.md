@@ -4,11 +4,11 @@ title: IDebugBreakpoint2::SetCommandWide method
 author: windows-driver-content
 description: The SetCommandWide method sets the command that is executed when a breakpoint is triggered.
 old-location: debugger\setcommandwide.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 3edab087-01e4-4cd4-82d3-38d67962c93c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: SetCommandWide, dbgeng/IDebugBreakpoint2::SetCommandWide, SetCommandWide method [Windows Debugging], IDebugBreakpoint2, IDebugBreakpoint2::SetCommandWide, SetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging], SetCommandWide method, debugger.setcommandwide
+ms.date: 2/23/2018
+ms.keywords: IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetCommandWide method, IDebugBreakpoint2::SetCommandWide, SetCommandWide method [Windows Debugging], SetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface, SetCommandWide,IDebugBreakpoint2.SetCommandWide, dbgeng/IDebugBreakpoint2::SetCommandWide, debugger.setcommandwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

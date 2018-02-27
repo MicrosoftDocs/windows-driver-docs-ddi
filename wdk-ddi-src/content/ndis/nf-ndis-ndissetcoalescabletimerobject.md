@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f6f50bba-cda5-41ed-9e0b-1aea5113a22b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_timer_ref_1f787022-10cd-4ae1-97d9-f40bae70a844.xml, ndis/NdisSetCoalescableTimerObject, netvista.ndissetcoalescabletimerobject, NdisSetCoalescableTimerObject function [Network Drivers Starting with Windows Vista], NdisSetCoalescableTimerObject
+ms.keywords: NdisSetCoalescableTimerObject, NdisSetCoalescableTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisSetCoalescableTimerObject, ndis_timer_ref_1f787022-10cd-4ae1-97d9-f40bae70a844.xml, netvista.ndissetcoalescabletimerobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisSetCoalescableTimerObject
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisSetCoalescableTimerObject function
@@ -201,15 +201,11 @@ To cancel a timer, call the
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
 
 
 
@@ -217,11 +213,15 @@ To cancel a timer, call the
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
+<a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
+<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
 
 
 

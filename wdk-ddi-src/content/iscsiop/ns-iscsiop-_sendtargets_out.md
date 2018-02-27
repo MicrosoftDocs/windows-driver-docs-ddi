@@ -7,8 +7,8 @@ old-location: storage\sendtargets_out.htm
 old-project: storage
 ms.assetid: 82efeeb9-1167-4114-9d88-7ef66f613f80
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: iscsiop/SendTargets_OUT, storage.sendtargets_out, PSendTargets_OUT, *PSendTargets_OUT, PSendTargets_OUT structure pointer [Storage Devices], iscsiop/PSendTargets_OUT, structs-iSCSI_c54a2d75-d780-4605-bdaf-5953f7ce5008.xml, SendTargets_OUT, _SendTargets_OUT, SendTargets_OUT structure [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PSendTargets_OUT, PSendTargets_OUT, PSendTargets_OUT structure pointer [Storage Devices], SendTargets_OUT, SendTargets_OUT structure [Storage Devices], _SendTargets_OUT, iscsiop/PSendTargets_OUT, iscsiop/SendTargets_OUT, storage.sendtargets_out, structs-iSCSI_c54a2d75-d780-4605-bdaf-5953f7ce5008.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SendTargets_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSendTargets_OUT, SendTargets_OUT"
+req.typenames: SendTargets_OUT, *PSendTargets_OUT
 ---
 
 # _SendTargets_OUT structure
@@ -95,7 +95,7 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_sendtargets_in.md">SendTargets_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a>
 
 
 
@@ -103,7 +103,7 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a>
+<a href="..\iscsiop\ns-iscsiop-_sendtargets_in.md">SendTargets_IN</a>
 
 
 
@@ -111,5 +111,5 @@ You must implement this method.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SendTargets_OUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SendTargets_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

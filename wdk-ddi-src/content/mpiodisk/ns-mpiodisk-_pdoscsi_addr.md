@@ -7,8 +7,8 @@ old-location: storage\pdoscsi_addr.htm
 old-project: storage
 ms.assetid: ad31cff9-06bd-4c3a-b1e1-5a82cc6b48a2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "_PDOSCSI_ADDR, PDOSCSI_ADDR structure [Storage Devices], mpiodisk/PDOSCSI_ADDR, structs-scsibus_4875cdbd-eeff-447f-b682-a2ab41196146.xml, mpiodisk/PPDOSCSI_ADDR, storage.pdoscsi_addr, PPDOSCSI_ADDR structure pointer [Storage Devices], PPDOSCSI_ADDR, *PPDOSCSI_ADDR, PDOSCSI_ADDR"
+ms.date: 2/24/2018
+ms.keywords: "*PPDOSCSI_ADDR, PDOSCSI_ADDR, PDOSCSI_ADDR structure [Storage Devices], PPDOSCSI_ADDR, PPDOSCSI_ADDR structure pointer [Storage Devices], _PDOSCSI_ADDR, mpiodisk/PDOSCSI_ADDR, mpiodisk/PPDOSCSI_ADDR, storage.pdoscsi_addr, structs-scsibus_4875cdbd-eeff-447f-b682-a2ab41196146.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PDOSCSI_ADDR
 product: Windows
 targetos: Windows
-req.typenames: "*PPDOSCSI_ADDR, PDOSCSI_ADDR"
+req.typenames: PDOSCSI_ADDR, *PPDOSCSI_ADDR
 ---
 
 # _PDOSCSI_ADDR structure

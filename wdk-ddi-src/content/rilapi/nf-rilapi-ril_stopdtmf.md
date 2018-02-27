@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d7f70ecd-0a11-48bf-9a8b-d2e08c280f51
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_StopDTMF, netvista.ril_stopdtmf, RIL_StopDTMF method [Network Drivers Starting with Windows Vista], rilapi/RIL_StopDTMF
+ms.keywords: RIL_StopDTMF, RIL_StopDTMF method [Network Drivers Starting with Windows Vista], netvista.ril_stopdtmf, rilapi/RIL_StopDTMF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_StopDTMF
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

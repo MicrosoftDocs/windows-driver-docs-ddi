@@ -7,8 +7,8 @@ old-location: stream\usbcamd_device_data.htm
 old-project: stream
 ms.assetid: 1841be02-e30f-4685-82ea-2d9c02ce7277
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: PUSBCAMD_DEVICE_DATA, USBCAMD_DEVICE_DATA, usbcamdi/USBCAMD_DEVICE_DATA, _USBCAMD_DEVICE_DATA, USBCAMD_DEVICE_DATA structure [Streaming Media Devices], PUSBCAMD_DEVICE_DATA structure pointer [Streaming Media Devices], *PUSBCAMD_DEVICE_DATA, usbcamdi/PUSBCAMD_DEVICE_DATA, stream.usbcamd_device_data, usbcmdpr_1e4ea0e1-71e0-4c0e-a2bd-668f8fac9b02.xml
+ms.date: 2/23/2018
+ms.keywords: "*PUSBCAMD_DEVICE_DATA, PUSBCAMD_DEVICE_DATA, PUSBCAMD_DEVICE_DATA structure pointer [Streaming Media Devices], USBCAMD_DEVICE_DATA, USBCAMD_DEVICE_DATA structure [Streaming Media Devices], _USBCAMD_DEVICE_DATA, stream.usbcamd_device_data, usbcamdi/PUSBCAMD_DEVICE_DATA, usbcamdi/USBCAMD_DEVICE_DATA, usbcmdpr_1e4ea0e1-71e0-4c0e-a2bd-668f8fac9b02.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBCAMD_DEVICE_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA, USBCAMD_DEVICE_DATA"
+req.typenames: USBCAMD_DEVICE_DATA, *PUSBCAMD_DEVICE_DATA
 req.product: Windows 10 or later.
 ---
 
@@ -166,5 +166,5 @@ A camera minidriver passes a USBCAMD_DEVICE_DATA structure to USBCAMD as a param
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_DEVICE_DATA structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_DEVICE_DATA structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

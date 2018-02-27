@@ -7,8 +7,8 @@ old-location: devtest\pcw_counter_descriptor.htm
 old-project: devtest
 ms.assetid: 0b099aec-f254-4cfb-87cb-2f8965d5faae
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: "_PCW_COUNTER_DESCRIPTOR, devtest.pcw_counter_descriptor, wdm/PCW_COUNTER_DESCRIPTOR, *PPCW_COUNTER_DESCRIPTOR, PPCW_COUNTER_DESCRIPTOR, PPCW_COUNTER_DESCRIPTOR structure pointer [Driver Development Tools], wdm/PPCW_COUNTER_DESCRIPTOR, PCW_COUNTER_DESCRIPTOR, km_pcw_8507bc5e-60f4-4b71-bb2f-d62360076e2c.xml, PCW_COUNTER_DESCRIPTOR structure [Driver Development Tools]"
+ms.date: 2/23/2018
+ms.keywords: "*PPCW_COUNTER_DESCRIPTOR, PCW_COUNTER_DESCRIPTOR, PCW_COUNTER_DESCRIPTOR structure [Driver Development Tools], PPCW_COUNTER_DESCRIPTOR, PPCW_COUNTER_DESCRIPTOR structure pointer [Driver Development Tools], _PCW_COUNTER_DESCRIPTOR, devtest.pcw_counter_descriptor, km_pcw_8507bc5e-60f4-4b71-bb2f-d62360076e2c.xml, wdm/PCW_COUNTER_DESCRIPTOR, wdm/PPCW_COUNTER_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCW_COUNTER_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PPCW_COUNTER_DESCRIPTOR, PCW_COUNTER_DESCRIPTOR"
+req.typenames: PCW_COUNTER_DESCRIPTOR, *PPCW_COUNTER_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fd5967cc-fb30-4882-9567-4617b9f9e723
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltClose, fltkernel/FltClose, FltClose function [Installable File System Drivers], FltApiRef_a_to_d_f50e2397-1161-4e6e-9688-2baa417f6845.xml, ifsk.fltclose
+ms.keywords: FltApiRef_a_to_d_f50e2397-1161-4e6e-9688-2baa417f6845.xml, FltClose, FltClose function [Installable File System Drivers], fltkernel/FltClose, ifsk.fltclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,7 +111,7 @@ Handle created by a successful call to <a href="..\fltkernel\nf-fltkernel-fltcre
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 
@@ -119,7 +119,7 @@ Handle created by a successful call to <a href="..\fltkernel\nf-fltkernel-fltcre
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
 
 
 

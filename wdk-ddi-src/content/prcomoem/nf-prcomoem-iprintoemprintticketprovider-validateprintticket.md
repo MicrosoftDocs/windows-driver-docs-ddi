@@ -7,8 +7,8 @@ old-location: print\iprintoemprintticketprovider_validateprintticket.htm
 old-project: print
 ms.assetid: 359f1a4b-8bcc-4c4a-97d7-6515993765e3
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices], ValidatePrintTicket method, print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml, IPrintOemPrintTicketProvider, print.iprintoemprintticketprovider_validateprintticket, ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider::ValidatePrintTicket, prcomoem/IPrintOemPrintTicketProvider::ValidatePrintTicket, ValidatePrintTicket, ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface
+ms.date: 2/22/2018
+ms.keywords: ",  , ,, ., :, I, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], ValidatePrintTicket method, IPrintOemPrintTicketProvider::ValidatePrintTicket, O, P, T, V, ValidatePrintTicket, ValidatePrintTicket method [Print Devices], ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, ValidatePrintTicket,IPrintOemPrintTicketProvider.ValidatePrintTicket, a, c, d, e, i, k, l, m, n, o, prcomoem/IPrintOemPrintTicketProvider::ValidatePrintTicket, print.iprintoemprintticketprovider_validateprintticket, print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml, r, t, v"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemPrintTicketProvider.ValidatePrintTicket
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -93,7 +93,7 @@ If necessary, the <code>IPrintOemPrintTicketProvider::ValidatePrintTicket</code>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/a32b5ec9-b4f2-4f33-879d-252806bd34ed">IPrintOemPrintTicketProvider</a>
+<a href="..\prcomoem\nn-prcomoem-iprintoemprintticketprovider.md">IPrintOemPrintTicketProvider</a>
 
 
 
@@ -101,5 +101,5 @@ If necessary, the <code>IPrintOemPrintTicketProvider::ValidatePrintTicket</code>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemPrintTicketProvider::ValidatePrintTicket method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemPrintTicketProvider::ValidatePrintTicket method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

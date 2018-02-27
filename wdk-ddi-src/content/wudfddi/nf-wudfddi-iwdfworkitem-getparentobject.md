@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D965D8D3-B78C-4126-A675-D6D8A85AA158
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFWorkItem interface, GetParentObject method, IWDFWorkItem::GetParentObject, wdf.iwdfworkitem_getparentobject, GetParentObject, GetParentObject method, IWDFWorkItem interface, GetParentObject method, IWDFWorkItem, wudfddi/IWDFWorkItem::GetParentObject, umdf.iwdfworkitem_getparentobject
+ms.keywords: GetParentObject method, GetParentObject method, IWDFWorkItem interface, GetParentObject,IWDFWorkItem.GetParentObject, IWDFWorkItem, IWDFWorkItem interface, GetParentObject method, IWDFWorkItem::GetParentObject, umdf.iwdfworkitem_getparentobject, wdf.iwdfworkitem_getparentobject, wudfddi/IWDFWorkItem::GetParentObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

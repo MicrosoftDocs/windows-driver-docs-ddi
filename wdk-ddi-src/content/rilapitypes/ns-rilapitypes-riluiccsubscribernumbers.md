@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7c9f7c52-edb3-48cd-b532-0e100692fee4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RILUMTSMRL, *LPRILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS structure [Network Drivers Starting with Windows Vista], netvista.riluiccsubscribernumbers, RILUICCSUBSCRIBERNUMBERS
+ms.keywords: "*LPRILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS structure [Network Drivers Starting with Windows Vista], netvista.riluiccsubscribernumbers, rilapitypes/RILUMTSMRL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,7 +82,7 @@ The number of subscribers.
 
 ### -field rsiInfo
 
-Array of <a href="..\ntddrilapitypes\ns-ntddrilapitypes-rilsubscriberinfo.md">RILSUBSCRIBERINFO</a>, each of which specifies a phone number assigned to the user as defined below. Although statically declared as a one-element array, the actual length is dwNumSubscribers.
+Array of <a href="..\rilapitypes\ns-rilapitypes-rilsubscriberinfo.md">RILSUBSCRIBERINFO</a>, each of which specifies a phone number assigned to the user as defined below. Although statically declared as a one-element array, the actual length is dwNumSubscribers.
 
 
 ## -see-also

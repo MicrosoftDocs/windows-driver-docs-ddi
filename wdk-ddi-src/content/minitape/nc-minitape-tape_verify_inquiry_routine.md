@@ -7,8 +7,8 @@ old-location: storage\tapeminiverifyinquiry.htm
 old-project: storage
 ms.assetid: ed216b13-546a-4d0c-82db-79c175912556
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.tapeminiverifyinquiry, (*TAPE_VERIFY_INQUIRY_ROUTINE) routine [Storage Devices], (*TAPE_VERIFY_INQUIRY_ROUTINE), TAPE_VERIFY_INQUIRY_ROUTINE, TAPE_VERIFY_INQUIRY_ROUTINE, minitape/(*TAPE_VERIFY_INQUIRY_ROUTINE), tapemini_d8a92eee-8b82-4fac-b568-fbe40c906ec1.xml
+ms.date: 2/24/2018
+ms.keywords: "(*TAPE_VERIFY_INQUIRY_ROUTINE), (*TAPE_VERIFY_INQUIRY_ROUTINE) routine [Storage Devices], TAPE_VERIFY_INQUIRY_ROUTINE, minitape/(*TAPE_VERIFY_INQUIRY_ROUTINE), storage.tapeminiverifyinquiry, tapemini_d8a92eee-8b82-4fac-b568-fbe40c906ec1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	(*TAPE_VERIFY_INQUIRY_ROUTINE)
 product: Windows
 targetos: Windows
-req.typenames: "*PPROCESSOR_NUMBER, PROCESSOR_NUMBER"
+req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
 ---
 
 # TAPE_VERIFY_INQUIRY_ROUTINE callback
@@ -101,10 +101,6 @@ Pointer to a MODE_CAPABILITIES_PAGE structure that contains low-level informatio
 
 ## -see-also
 
-<a href="..\minitape\nf-minitape-tapeclasscomparememory.md">TapeClassCompareMemory</a>
-
-
-
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
@@ -117,5 +113,5 @@ Pointer to a MODE_CAPABILITIES_PAGE structure that contains low-level informatio
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_VERIFY_INQUIRY_ROUTINE routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_VERIFY_INQUIRY_ROUTINE routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

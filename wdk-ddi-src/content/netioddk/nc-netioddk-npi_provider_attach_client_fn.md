@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6c8e6cf1-0528-4da2-acc1-81ec9dbc23c3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.providerattachclient, ProviderAttachClient callback function [Network Drivers Starting with Windows Vista], ProviderAttachClient, NPI_PROVIDER_ATTACH_CLIENT_FN, NPI_PROVIDER_ATTACH_CLIENT_FN, netioddk/ProviderAttachClient, PNPI_PROVIDER_ATTACH_CLIENT_FN callback function [Network Drivers Starting with Windows Vista], PNPI_PROVIDER_ATTACH_CLIENT_FN, nmrref_7b693216-cb96-4608-aae0-77ddde6dc28c.xml
+ms.keywords: NPI_PROVIDER_ATTACH_CLIENT_FN, PNPI_PROVIDER_ATTACH_CLIENT_FN, PNPI_PROVIDER_ATTACH_CLIENT_FN callback function [Network Drivers Starting with Windows Vista], ProviderAttachClient, ProviderAttachClient callback function [Network Drivers Starting with Windows Vista], netioddk/ProviderAttachClient, netvista.providerattachclient, nmrref_7b693216-cb96-4608-aae0-77ddde6dc28c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	PNPI_PROVIDER_ATTACH_CLIENT_FN
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS"
+req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
 ---
 
 # NPI_PROVIDER_ATTACH_CLIENT_FN callback
@@ -264,16 +264,11 @@ The NMR calls a provider module's
 
 
 
-<a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
+<a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
-
-
-
-<a href="..\netioddk\nf-netioddk-nmrproviderdetachclientcomplete.md">
-   NmrProviderDetachClientComplete</a>
+<a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">NPI_REGISTRATION_INSTANCE</a>
 
 
 
@@ -282,17 +277,16 @@ The NMR calls a provider module's
 
 
 
-<a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
+<a href="..\netioddk\nf-netioddk-nmrproviderdetachclientcomplete.md">
+   NmrProviderDetachClientComplete</a>
 
 
 
-
-
-<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
+<a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
 
 
 
-<a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">NPI_REGISTRATION_INSTANCE</a>
+<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
 
 
 

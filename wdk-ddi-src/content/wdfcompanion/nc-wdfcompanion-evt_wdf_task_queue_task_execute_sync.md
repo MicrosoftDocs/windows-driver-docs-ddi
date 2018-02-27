@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c45d1873-fb29-49ee-b99b-09861478ac89
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evt_wdf_task_queue_task_execute_sync, EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback function, EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC, EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC, EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC, wdfcompanion/EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
+ms.keywords: EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC, EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback function, wdf.evt_wdf_task_queue_task_execute_sync, wdfcompanion/EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG"
+req.typenames: WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG
 req.product: Windows 10 or later.
 ---
 

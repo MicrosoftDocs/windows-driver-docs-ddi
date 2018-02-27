@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 34884B88-187A-4079-843D-F777287442F7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfunifiedpropertystorefactory, IWDFUnifiedPropertyStoreFactory interface, IWDFUnifiedPropertyStoreFactory interface, described, IWDFUnifiedPropertyStoreFactory, wudfddi/IWDFUnifiedPropertyStoreFactory, umdf.iwdfunifiedpropertystorefactory
+ms.keywords: IWDFUnifiedPropertyStoreFactory, IWDFUnifiedPropertyStoreFactory interface, IWDFUnifiedPropertyStoreFactory interface, described, umdf.iwdfunifiedpropertystorefactory, wdf.iwdfunifiedpropertystorefactory, wudfddi/IWDFUnifiedPropertyStoreFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 The <b>IWDFUnifiedPropertyStoreFactory</b> interface is a factory interface that is used to create a unified property store interface.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUnifiedPropertyStoreFactory</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWDFUnifiedPropertyStoreFactory</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDFUnifiedPropertyStoreFactory</b> interface has these methods.
@@ -72,9 +79,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451406">Retri
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451406">RetrieveUnifiedDevicePropertyStore</a> method retrieves a unified property store interface.
-
- 
+</table> 
 
 
 ## -remarks

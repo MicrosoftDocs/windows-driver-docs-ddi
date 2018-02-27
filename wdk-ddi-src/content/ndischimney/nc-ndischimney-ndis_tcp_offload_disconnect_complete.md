@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e862d9fe-a60c-4397-95ce-62aa1ef17eae
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndistcpoffloaddisconnectcomplete, NdisTcpOffloadDisconnectComplete callback function [Network Drivers Starting with Windows Vista], NdisTcpOffloadDisconnectComplete, NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE, NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE, ndischimney/NdisTcpOffloadDisconnectComplete, tcp_chim_ndis_func_4a062983-d7c0-47c4-9eeb-dd3561c6b31a.xml
+ms.keywords: NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE, NdisTcpOffloadDisconnectComplete, NdisTcpOffloadDisconnectComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadDisconnectComplete, netvista.ndistcpoffloaddisconnectcomplete, tcp_chim_ndis_func_4a062983-d7c0-47c4-9eeb-dd3561c6b31a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -191,15 +191,6 @@ Note that the
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
-   NdisAdvanceNetBufferDataStart</a>
-
-
-
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
 
 
@@ -208,9 +199,17 @@ Note that the
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+   NdisAdvanceNetBufferDataStart</a>
 
 
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
+   MiniportTcpOffloadDisconnect</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: storage\ioctl_mountmgr_auto_dl_assignments.htm
 old-project: storage
 ms.assetid: 59ceeaaf-0916-4f0a-a636-624f2f70a64c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.ioctl_mountmgr_auto_dl_assignments, IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS control code [Storage Devices], IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS, mountmgr/IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS, k307_ec5f9d47-ffd0-481c-8ce9-fa0465c5b69c.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS, IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS control code [Storage Devices], k307_ec5f9d47-ffd0-481c-8ce9-fa0465c5b69c.xml, mountmgr/IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS, storage.ioctl_mountmgr_auto_dl_assignments
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

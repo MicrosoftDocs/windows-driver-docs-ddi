@@ -7,8 +7,8 @@ old-location: storage\create_disk_gpt.htm
 old-project: storage
 ms.assetid: 24ae7329-064f-43bf-8c1d-8aad9fdf2254
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: ntdddisk/CREATE_DISK_GPT, PCREATE_DISK_GPT, *PCREATE_DISK_GPT, CREATE_DISK_GPT structure [Storage Devices], CREATE_DISK_GPT, PCREATE_DISK_GPT structure pointer [Storage Devices], _CREATE_DISK_GPT, structs-disk_c5c62f65-c252-482b-bbf7-1bb021920649.xml, ntdddisk/PCREATE_DISK_GPT, storage.create_disk_gpt
+ms.date: 2/24/2018
+ms.keywords: "*PCREATE_DISK_GPT, CREATE_DISK_GPT, CREATE_DISK_GPT structure [Storage Devices], PCREATE_DISK_GPT, PCREATE_DISK_GPT structure pointer [Storage Devices], _CREATE_DISK_GPT, ntdddisk/CREATE_DISK_GPT, ntdddisk/PCREATE_DISK_GPT, storage.create_disk_gpt, structs-disk_c5c62f65-c252-482b-bbf7-1bb021920649.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CREATE_DISK_GPT
 product: Windows
 targetos: Windows
-req.typenames: "*PCREATE_DISK_GPT, CREATE_DISK_GPT"
+req.typenames: CREATE_DISK_GPT, *PCREATE_DISK_GPT
 ---
 
 # _CREATE_DISK_GPT structure
@@ -80,17 +80,17 @@ Specifies the maximum number of partitions allowed on the disk.
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
-
-
-
 <a href="..\ntdddisk\ns-ntdddisk-_create_disk.md">CREATE_DISK</a>
 
 
 
- 
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CREATE_DISK_GPT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CREATE_DISK_GPT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

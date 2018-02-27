@@ -7,8 +7,8 @@ old-location: display\idarg_in_reportframestatistics.htm
 old-project: display
 ms.assetid: 3d3e0dca-bb05-4e5c-aa4a-76bb178f60bf
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: IDARG_IN_REPORTFRAMESTATISTICS structure [Display Devices], iddcx/IDARG_IN_REPORTFRAMESTATISTICS, IDARG_IN_REPORTFRAMESTATISTICS, display.idarg_in_reportframestatistics
+ms.date: 2/24/2018
+ms.keywords: IDARG_IN_REPORTFRAMESTATISTICS, IDARG_IN_REPORTFRAMESTATISTICS structure [Display Devices], display.idarg_in_reportframestatistics, iddcx/IDARG_IN_REPORTFRAMESTATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

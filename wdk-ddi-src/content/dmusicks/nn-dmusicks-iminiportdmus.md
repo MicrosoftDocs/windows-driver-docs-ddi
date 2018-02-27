@@ -7,8 +7,8 @@ old-location: audio\iminiportdmus.htm
 old-project: audio
 ms.assetid: 12cd3533-1830-46cd-a1eb-350f7461a61d
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iminiportdmus, IMiniportDMus interface [Audio Devices], IMiniportDMus interface [Audio Devices], described, IMiniportDMus, dmusicks/IMiniportDMus, audmp-routines_b123c50b-e4b9-4f19-a2c4-b33fb335bec6.xml
+ms.date: 2/22/2018
+ms.keywords: IMiniportDMus, IMiniportDMus interface [Audio Devices], IMiniportDMus interface [Audio Devices], described, audio.iminiportdmus, audmp-routines_b123c50b-e4b9-4f19-a2c4-b33fb335bec6.xml, dmusicks/IMiniportDMus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -56,6 +56,13 @@ An adapter driver forms a miniport/port driver pair by binding an <code>IMinipor
 The <code>IMiniportDMus</code> interface provides methods for initializing the miniport driver, for creating a new DirectMusic stream, and for notifying the miniport driver of an interrupt service request.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportDMus</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMiniportDMus</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IMiniportDMus</b> interface has these methods.
@@ -92,12 +99,5 @@ The <code>NewStream</code> method creates a new instance of a logical stream ass
 
 </td>
 </tr>
-</table>The <code>Init</code> method initializes the DMus miniport object.
-
-The <code>NewStream</code> method creates a new instance of a logical stream associated with a specified physical channel.
-
-
-   This method does not currently need to be implemented in the miniport driver. The<code> Service</code> method is currently unused.
-
- 
+</table> 
 

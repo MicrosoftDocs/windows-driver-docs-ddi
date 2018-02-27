@@ -7,8 +7,8 @@ old-location: storage\atachannelinitroutine.htm
 old-project: storage
 ms.assetid: c59f93cc-d182-4764-a207-0799e55c6cf6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.atachannelinitroutine, AtaChannelInitRoutine routine [Storage Devices], AtaChannelInitRoutine, IDE_CHANNEL_INIT, IDE_CHANNEL_INIT, irb/AtaChannelInitRoutine, atartns_7bbe3bef-24c7-4666-9b83-a29646d92f71.xml
+ms.date: 2/24/2018
+ms.keywords: AtaChannelInitRoutine, AtaChannelInitRoutine routine [Storage Devices], IDE_CHANNEL_INIT, atartns_7bbe3bef-24c7-4666-9b83-a29646d92f71.xml, irb/AtaChannelInitRoutine, storage.atachannelinitroutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -113,7 +113,7 @@ A vendor-supplied miniport driver that supports the channel interface must imple
 
 <ol>
 <li>
-While in its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine, the miniport driver calls the port driver's <a href="..\irb\nf-irb-ataportinitializeex.md">AtaPortInitializeEx</a> library routine to launch the initialization of the controller and the miniport driver. 
+While in its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine, the miniport driver calls the port driver's <a href="..\irb\nf-irb-ataportinitializeex.md">AtaPortInitializeEx</a> library routine to launch the initialization of the controller and the miniport driver. 
 
 </li>
 <li>
@@ -130,7 +130,7 @@ The port driver calls the <b><i>AtaAdapterControl</i></b> routine by using contr
 
 ## -see-also
 
-<a href="..\irb\ns-irb-_ide_controller_interface.md">IDE_CONTROLLER_INTERFACE</a>
+<a href="..\irb\nf-irb-ataportinitializeex.md">AtaPortInitializeEx</a>
 
 
 
@@ -146,5 +146,5 @@ The port driver calls the <b><i>AtaAdapterControl</i></b> routine by using contr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaChannelInitRoutine routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaChannelInitRoutine routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

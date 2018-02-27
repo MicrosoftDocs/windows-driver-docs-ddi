@@ -7,8 +7,8 @@ old-location: dtf\iwdtflog2.htm
 old-project: dtf
 ms.assetid: e09d0c3d-28a0-4c8d-ac70-9575968cbea1
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dtf.iwdtflog2, IWDTFLOG2 interface [Windows Device Testing Framework], IWDTFLOG2 interface [Windows Device Testing Framework], described, IWDTFLOG2, wdtf/IWDTFLOG2, Microsoft.WDTF.IWDTFLOG2
+ms.date: 2/23/2018
+ms.keywords: IWDTFLOG2, IWDTFLOG2 interface [Windows Device Testing Framework], IWDTFLOG2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFLOG2, dtf.iwdtflog2, wdtf/IWDTFLOG2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -52,6 +52,13 @@ req.product: Windows 10 or later.
 
 Defines operations that enable the test case author to add to the WDTF test log.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFLOG2</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWDTFLOG2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -97,15 +104,7 @@ Marks the start of a test case.
 
 </td>
 </tr>
-</table>Marks the end of a test case.
-
-Writes an error entry to the test case log.
-
-Writes an informational entry to the test case log.
-
-Marks the start of a test case.
-
- 
+</table> 
 
 
 ## -remarks

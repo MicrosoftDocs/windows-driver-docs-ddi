@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0f33ae87-164e-40dc-a915-28211a0d74b7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportreturnnetbufferlists, MiniportReturnNetBufferLists callback function [Network Drivers Starting with Windows Vista], MiniportReturnNetBufferLists, MINIPORT_RETURN_NET_BUFFER_LISTS, MINIPORT_RETURN_NET_BUFFER_LISTS, ndis/MiniportReturnNetBufferLists, ndis_sendrcv_ref_dfe745f1-643d-4834-827c-687aa6404cf2.xml
+ms.keywords: MINIPORT_RETURN_NET_BUFFER_LISTS, MiniportReturnNetBufferLists, MiniportReturnNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/MiniportReturnNetBufferLists, ndis_sendrcv_ref_dfe745f1-643d-4834-827c-687aa6404cf2.xml, netvista.miniportreturnnetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -176,6 +176,10 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
    NdisMIndicateReceiveNetBufferLists</a>
 
@@ -189,12 +193,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

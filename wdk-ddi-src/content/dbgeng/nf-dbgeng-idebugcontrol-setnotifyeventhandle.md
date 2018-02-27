@@ -4,11 +4,11 @@ title: IDebugControl::SetNotifyEventHandle method
 author: windows-driver-content
 description: The SetNotifyEventHandle method sets the event that will be signaled after the next exception in a target.
 old-location: debugger\setnotifyeventhandle.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 0c0059a7-4b0f-4b74-b543-ad5904d40033
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.setnotifyeventhandle, dbgeng/IDebugControl::SetNotifyEventHandle, dbgeng/IDebugControl3::SetNotifyEventHandle, IDebugControl, SetNotifyEventHandle method [Windows Debugging], IDebugControl interface, SetNotifyEventHandle method [Windows Debugging], IDebugControl3 interface [Windows Debugging], SetNotifyEventHandle method, dbgeng/IDebugControl2::SetNotifyEventHandle, IDebugControl2 interface [Windows Debugging], SetNotifyEventHandle method, IDebugControl2::SetNotifyEventHandle, IDebugControl interface [Windows Debugging], SetNotifyEventHandle method, IDebugControl::SetNotifyEventHandle, SetNotifyEventHandle method [Windows Debugging], IDebugControl2 interface, IDebugControl3::SetNotifyEventHandle, SetNotifyEventHandle method [Windows Debugging], IDebugControl3 interface, IDebugControl_9934efa7-aed4-4706-8885-71d78f6950a8.xml, SetNotifyEventHandle
+ms.date: 2/23/2018
+ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], SetNotifyEventHandle method, IDebugControl2 interface [Windows Debugging], SetNotifyEventHandle method, IDebugControl2::SetNotifyEventHandle, IDebugControl3 interface [Windows Debugging], SetNotifyEventHandle method, IDebugControl3::SetNotifyEventHandle, IDebugControl::SetNotifyEventHandle, IDebugControl_9934efa7-aed4-4706-8885-71d78f6950a8.xml, SetNotifyEventHandle method [Windows Debugging], SetNotifyEventHandle method [Windows Debugging], IDebugControl interface, SetNotifyEventHandle method [Windows Debugging], IDebugControl2 interface, SetNotifyEventHandle method [Windows Debugging], IDebugControl3 interface, SetNotifyEventHandle,IDebugControl.SetNotifyEventHandle, dbgeng/IDebugControl2::SetNotifyEventHandle, dbgeng/IDebugControl3::SetNotifyEventHandle, dbgeng/IDebugControl::SetNotifyEventHandle, debugger.setnotifyeventhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,7 +115,7 @@ The event will only be signaled once.  After it has been signaled, <b>GetNotifyE
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -135,5 +135,5 @@ The event will only be signaled once.  After it has been signaled, <b>GetNotifyE
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::SetNotifyEventHandle method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetNotifyEventHandle method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

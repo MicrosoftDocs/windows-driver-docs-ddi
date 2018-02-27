@@ -4,11 +4,11 @@ title: IDebugControl2::GetNumberProcessors method
 author: windows-driver-content
 description: The GetNumberProcessors method returns the number of processors on the computer running the current target.
 old-location: debugger\getnumberprocessors.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: b3f4af4e-dbba-4f14-8935-f894865cbe7d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: dbgeng/IDebugControl::GetNumberProcessors, IDebugControl2::GetNumberProcessors, IDebugControl, IDebugControl2, GetNumberProcessors method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::GetNumberProcessors, IDebugControl interface [Windows Debugging], GetNumberProcessors method, GetNumberProcessors method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetNumberProcessors, IDebugControl::GetNumberProcessors, dbgeng/IDebugControl3::GetNumberProcessors, debugger.getnumberprocessors, IDebugControl3 interface [Windows Debugging], GetNumberProcessors method, GetNumberProcessors method [Windows Debugging], IDebugControl interface, GetNumberProcessors method [Windows Debugging], GetNumberProcessors, IDebugControl_0ddf74be-971f-4bd8-bdfd-4ceedfbbdc0f.xml, IDebugControl2 interface [Windows Debugging], GetNumberProcessors method
+ms.date: 2/23/2018
+ms.keywords: GetNumberProcessors method [Windows Debugging], GetNumberProcessors method [Windows Debugging], IDebugControl interface, GetNumberProcessors method [Windows Debugging], IDebugControl2 interface, GetNumberProcessors method [Windows Debugging], IDebugControl3 interface, GetNumberProcessors,IDebugControl2.GetNumberProcessors, IDebugControl interface [Windows Debugging], GetNumberProcessors method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetNumberProcessors method, IDebugControl2::GetNumberProcessors, IDebugControl3 interface [Windows Debugging], GetNumberProcessors method, IDebugControl3::GetNumberProcessors, IDebugControl::GetNumberProcessors, IDebugControl_0ddf74be-971f-4bd8-bdfd-4ceedfbbdc0f.xml, dbgeng/IDebugControl2::GetNumberProcessors, dbgeng/IDebugControl3::GetNumberProcessors, dbgeng/IDebugControl::GetNumberProcessors, debugger.getnumberprocessors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

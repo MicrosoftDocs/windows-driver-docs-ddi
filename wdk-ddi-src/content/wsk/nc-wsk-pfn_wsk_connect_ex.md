@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1BC518E9-747C-4406-8A2A-40A3BCB0A3AA
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wskconnectex, WskConnectEx callback function [Network Drivers Starting with Windows Vista], WskConnectEx, PFN_WSK_CONNECT_EX, PFN_WSK_CONNECT_EX, wsk/WskConnectEx
+ms.keywords: PFN_WSK_CONNECT_EX, WskConnectEx, WskConnectEx callback function [Network Drivers Starting with Windows Vista], netvista.wskconnectex, wsk/WskConnectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	WskConnectEx
 product: Windows
 targetos: Windows
-req.typenames: "*PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO"
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -232,32 +232,7 @@ Before calling <b>WskConnectEx</b> with a provided send buffer, if the WSK appli
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
-   WSK_PROVIDER_CONNECTION_DISPATCH</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
 
 
 
@@ -265,7 +240,29 @@ Before calling <b>WskConnectEx</b> with a provided send buffer, if the WSK appli
 
 
 
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">
+   WSK_PROVIDER_STREAM_DISPATCH</a>
+
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_disconnect_event.md">WskDisconnectEvent</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+   WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
 
 
@@ -273,8 +270,11 @@ Before calling <b>WskConnectEx</b> with a provided send buffer, if the WSK appli
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">
-   WSK_PROVIDER_STREAM_DISPATCH</a>
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
 
 
 

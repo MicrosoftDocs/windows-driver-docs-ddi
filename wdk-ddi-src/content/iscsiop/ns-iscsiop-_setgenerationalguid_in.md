@@ -7,8 +7,8 @@ old-location: storage\setgenerationalguid_in.htm
 old-project: storage
 ms.assetid: 24568c37-9641-4e3e-b788-f71db4f3f70f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PSetGenerationalGuid_IN structure pointer [Storage Devices], _SetGenerationalGuid_IN, SetGenerationalGuid_IN, SetGenerationalGuid_IN structure [Storage Devices], storage.setgenerationalguid_in, structs-iSCSI_e40eec29-19af-4f5a-8c5f-11b40c76ae0c.xml, PSetGenerationalGuid_IN, iscsiop/SetGenerationalGuid_IN, *PSetGenerationalGuid_IN, iscsiop/PSetGenerationalGuid_IN
+ms.date: 2/24/2018
+ms.keywords: "*PSetGenerationalGuid_IN, PSetGenerationalGuid_IN, PSetGenerationalGuid_IN structure pointer [Storage Devices], SetGenerationalGuid_IN, SetGenerationalGuid_IN structure [Storage Devices], _SetGenerationalGuid_IN, iscsiop/PSetGenerationalGuid_IN, iscsiop/SetGenerationalGuid_IN, storage.setgenerationalguid_in, structs-iSCSI_e40eec29-19af-4f5a-8c5f-11b40c76ae0c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,17 +83,17 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_setgenerationalguid_out.md">SetGenerationalGuid_OUT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
 
 
 
- 
+<a href="..\iscsiop\ns-iscsiop-_setgenerationalguid_out.md">SetGenerationalGuid_OUT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SetGenerationalGuid_IN structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SetGenerationalGuid_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

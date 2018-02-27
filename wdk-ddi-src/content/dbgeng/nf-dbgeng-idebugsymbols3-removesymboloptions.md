@@ -4,11 +4,11 @@ title: IDebugSymbols3::RemoveSymbolOptions method
 author: windows-driver-content
 description: The RemoveSymbolOptions method turns off some of the engine's global symbol options.
 old-location: debugger\removesymboloptions.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: a4e1f579-8056-4e2b-9b90-735c3414abbd
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.removesymboloptions, IDebugSymbols_a6b53bc6-23e5-4dae-b3b8-09330e91caba.xml, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], RemoveSymbolOptions method, dbgeng/IDebugSymbols2::RemoveSymbolOptions, IDebugSymbols2::RemoveSymbolOptions, RemoveSymbolOptions, IDebugSymbols::RemoveSymbolOptions, IDebugSymbols3 interface [Windows Debugging], RemoveSymbolOptions method, IDebugSymbols, dbgeng/IDebugSymbols::RemoveSymbolOptions, RemoveSymbolOptions method [Windows Debugging], RemoveSymbolOptions method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3, IDebugSymbols3::RemoveSymbolOptions, IDebugSymbols interface [Windows Debugging], RemoveSymbolOptions method, IDebugSymbols2, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::RemoveSymbolOptions
+ms.date: 2/23/2018
+ms.keywords: IDebugSymbols interface [Windows Debugging], RemoveSymbolOptions method, IDebugSymbols2 interface [Windows Debugging], RemoveSymbolOptions method, IDebugSymbols2::RemoveSymbolOptions, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], RemoveSymbolOptions method, IDebugSymbols3::RemoveSymbolOptions, IDebugSymbols::RemoveSymbolOptions, IDebugSymbols_a6b53bc6-23e5-4dae-b3b8-09330e91caba.xml, RemoveSymbolOptions method [Windows Debugging], RemoveSymbolOptions method [Windows Debugging], IDebugSymbols interface, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, RemoveSymbolOptions,IDebugSymbols3.RemoveSymbolOptions, dbgeng/IDebugSymbols2::RemoveSymbolOptions, dbgeng/IDebugSymbols3::RemoveSymbolOptions, dbgeng/IDebugSymbols::RemoveSymbolOptions, debugger.removesymboloptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,19 +115,15 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537930">AddSymbolOptions</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556798">SetSymbolOptions</a>
 
 
 
@@ -135,7 +131,11 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556798">SetSymbolOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549139">GetSymbolOptions</a>
 
 
 
@@ -143,5 +143,5 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::RemoveSymbolOptions method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::RemoveSymbolOptions method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

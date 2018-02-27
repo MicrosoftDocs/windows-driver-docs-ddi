@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7c88ff02-e791-4642-ad40-78f2ef2cba7d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportshutdownex, MiniportShutdownEx callback function [Network Drivers Starting with Windows Vista], MiniportShutdownEx, MINIPORT_SHUTDOWN, MINIPORT_SHUTDOWN, ndis/MiniportShutdownEx, miniport_functions_ref_1ef84db9-b4af-4e59-9bb8-6f467a0866d5.xml
+ms.keywords: MINIPORT_SHUTDOWN, MiniportShutdownEx, MiniportShutdownEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_1ef84db9-b4af-4e59-9bb8-6f467a0866d5.xml, ndis/MiniportShutdownEx, netvista.miniportshutdownex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -198,23 +198,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/b47e2cbe-9da3-4600-9afe-b082e60b87fb">Miniport Adapter States and Operations</a>
-
-
-
-<a href="https://msdn.microsoft.com/3ca03511-a912-4ee3-bd9f-1bd8e6996c48">Adapter States of a Miniport Driver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetbusdata.md">NdisMSetBusData</a>
+<a href="https://msdn.microsoft.com/57d964f1-03c7-4b54-9d04-1d187c96e052">Miniport Adapter Shutdown</a>
 
 
 
@@ -223,6 +207,22 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 <a href="..\ndis\nf-ndis-ndismsetbusdata.md">NdisMSetBusData</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/3ca03511-a912-4ee3-bd9f-1bd8e6996c48">Adapter States of a Miniport Driver</a>
+
+
+
+<a href="https://msdn.microsoft.com/b47e2cbe-9da3-4600-9afe-b082e60b87fb">Miniport Adapter States and Operations</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 898AE09B-2C92-4229-9A86-901CDA98CFAA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_querysetcontrollerinformation, CLIENT_QuerySetControllerInformation callback function [Parallel Ports], CLIENT_QuerySetControllerInformation, GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION, GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION, gpioclx/CLIENT_QuerySetControllerInformation
+ms.keywords: CLIENT_QuerySetControllerInformation, CLIENT_QuerySetControllerInformation callback function [Parallel Ports], GPIO.client_querysetcontrollerinformation, GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION, gpioclx/CLIENT_QuerySetControllerInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_QuerySetControllerInformation
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO"
+req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
 
 # GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION callback

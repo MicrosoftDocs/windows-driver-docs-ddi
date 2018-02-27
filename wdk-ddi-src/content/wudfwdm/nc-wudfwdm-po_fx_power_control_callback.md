@@ -7,8 +7,8 @@ old-location: kernel\powercontrolcallback.htm
 old-project: kernel
 ms.assetid: 110DAD1A-606B-4973-8724-03B531B2AEA9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.powercontrolcallback, PowerControlCallback routine [Kernel-Mode Driver Architecture], PowerControlCallback, PO_FX_POWER_CONTROL_CALLBACK, PO_FX_POWER_CONTROL_CALLBACK, wdm/PowerControlCallback
+ms.date: 2/24/2018
+ms.keywords: PO_FX_POWER_CONTROL_CALLBACK, PowerControlCallback, PowerControlCallback routine [Kernel-Mode Driver Architecture], kernel.powercontrolcallback, wdm/PowerControlCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	PowerControlCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -186,17 +186,17 @@ The PO_FX_POWER_CONTROL_CALLBACK function type is defined in the Wdm.h header fi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxpowercontrol.md">PoFxPowerControl</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-pofxpowercontrol.md">PoFxPowerControl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PowerControlCallback routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PowerControlCallback routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

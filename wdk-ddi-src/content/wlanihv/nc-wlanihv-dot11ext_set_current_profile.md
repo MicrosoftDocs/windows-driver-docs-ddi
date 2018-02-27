@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2fcf4f93-8d50-44e1-a657-d98b7b00bcfc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extsetcurrentprofile, Dot11ExtSetCurrentProfile callback function [Network Drivers Starting with Windows Vista], Dot11ExtSetCurrentProfile, DOT11EXT_SET_CURRENT_PROFILE, DOT11EXT_SET_CURRENT_PROFILE, wlanihv/Dot11ExtSetCurrentProfile, Native_802.11_IHV_Ext_0a4afb35-a806-47f0-8f52-76c88ba5ffac.xml
+ms.keywords: DOT11EXT_SET_CURRENT_PROFILE, Dot11ExtSetCurrentProfile, Dot11ExtSetCurrentProfile callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_0a4afb35-a806-47f0-8f52-76c88ba5ffac.xml, netvista.dot11extsetcurrentprofile, wlanihv/Dot11ExtSetCurrentProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSetCurrentProfile
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -159,12 +159,7 @@ The IHV Extensions DLL must not call
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
-   Dot11ExtIhvPerformPreAssociate</a>
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
 
 
 
@@ -173,9 +168,12 @@ The IHV Extensions DLL must not call
 
 
 
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+   Dot11ExtIhvPerformPreAssociate</a>
 
 
 

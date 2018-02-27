@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c0f77100-ffd0-4fef-80b0-fc399ef96aee
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_WWAN_SET_PROVISIONED_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_PROVISIONED_CONTEXT, netvista.ndis_wwan_set_provisioned_context, *PNDIS_WWAN_SET_PROVISIONED_CONTEXT, _NDIS_WWAN_SET_PROVISIONED_CONTEXT, ndiswwan/NDIS_WWAN_SET_PROVISIONED_CONTEXT, NDIS_WWAN_SET_PROVISIONED_CONTEXT structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SET_PROVISIONED_CONTEXT, WwanRef_0f679f5b-26a4-4069-b4d7-65835090f56f.xml, PNDIS_WWAN_SET_PROVISIONED_CONTEXT
+ms.keywords: "*PNDIS_WWAN_SET_PROVISIONED_CONTEXT, NDIS_WWAN_SET_PROVISIONED_CONTEXT, NDIS_WWAN_SET_PROVISIONED_CONTEXT structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PROVISIONED_CONTEXT, PNDIS_WWAN_SET_PROVISIONED_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], WwanRef_0f679f5b-26a4-4069-b4d7-65835090f56f.xml, _NDIS_WWAN_SET_PROVISIONED_CONTEXT, ndiswwan/NDIS_WWAN_SET_PROVISIONED_CONTEXT, ndiswwan/PNDIS_WWAN_SET_PROVISIONED_CONTEXT, netvista.ndis_wwan_set_provisioned_context"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_SET_PROVISIONED_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_SET_PROVISIONED_CONTEXT, NDIS_WWAN_SET_PROVISIONED_CONTEXT"
+req.typenames: NDIS_WWAN_SET_PROVISIONED_CONTEXT, *PNDIS_WWAN_SET_PROVISIONED_CONTEXT
 ---
 
 # _NDIS_WWAN_SET_PROVISIONED_CONTEXT structure
@@ -129,11 +129,11 @@ A formatted
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

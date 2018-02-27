@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e0cb14fa-82d0-4ce3-8672-801e7f04d522
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi/IPnpCallback::OnQueryStop, IPnpCallback interface, OnQueryStop method, OnQueryStop, OnQueryStop method, OnQueryStop method, IPnpCallback interface, IPnpCallback::OnQueryStop, IPnpCallback, UMDFDeviceObjectRef_9215c39e-2cb9-4de6-9fb3-f228dad51f6d.xml, wdf.ipnpcallback_onquerystop, umdf.ipnpcallback_onquerystop
+ms.keywords: IPnpCallback, IPnpCallback interface, OnQueryStop method, IPnpCallback::OnQueryStop, OnQueryStop method, OnQueryStop method, IPnpCallback interface, OnQueryStop,IPnpCallback.OnQueryStop, UMDFDeviceObjectRef_9215c39e-2cb9-4de6-9fb3-f228dad51f6d.xml, umdf.ipnpcallback_onquerystop, wdf.ipnpcallback_onquerystop, wudfddi/IPnpCallback::OnQueryStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -103,7 +103,7 @@ For more information about the <b>OnQueryStop</b> callback method, see <a href="
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 
 
@@ -111,7 +111,7 @@ For more information about the <b>OnQueryStop</b> callback method, see <a href="
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
 
 
 

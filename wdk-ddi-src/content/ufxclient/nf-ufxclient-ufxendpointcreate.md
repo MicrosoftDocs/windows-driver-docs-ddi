@@ -4,11 +4,11 @@ title: UfxEndpointCreate function
 author: windows-driver-content
 description: Creates an endpoint object.
 old-location: buses\ufxendpointcreate.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 060CADB7-AAC9-401A-9198-FC306CE74A34
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: ufxclient/UfxEndpointCreate, buses.ufxendpointcreate, UfxEndpointCreate method [Buses], UfxEndpointCreate
+ms.date: 2/24/2018
+ms.keywords: UfxEndpointCreate, UfxEndpointCreate method [Buses], buses.ufxendpointcreate, ufxclient/UfxEndpointCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxEndpointCreate
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

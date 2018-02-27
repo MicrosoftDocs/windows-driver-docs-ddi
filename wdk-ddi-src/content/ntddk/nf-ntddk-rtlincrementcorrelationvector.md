@@ -7,8 +7,8 @@ old-location: kernel\rtlincrementcorrelationvector.htm
 old-project: kernel
 ms.assetid: bb252dd5-9bf3-41bd-ab46-9524735970c5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RtlIncrementCorrelationVector, RtlIncrementCorrelationVector function [Kernel-Mode Driver Architecture], ntddk/RtlIncrementCorrelationVector, kernel.rtlincrementcorrelationvector
+ms.date: 2/24/2018
+ms.keywords: RtlIncrementCorrelationVector, RtlIncrementCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlincrementcorrelationvector, ntddk/RtlIncrementCorrelationVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlIncrementCorrelationVector
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlIncrementCorrelationVector function

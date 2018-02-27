@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: DC2782AB-BDFA-45C2-BC2E-ED4B946597D4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_get_cq_results_ex, NDK_FN_GET_CQ_RESULTS_EX callback function [Network Drivers Starting with Windows Vista], NDK_FN_GET_CQ_RESULTS_EX, NDK_FN_GET_CQ_RESULTS_EX, NDK_FN_GET_CQ_RESULTS_EX, ndkpi/NDK_FN_GET_CQ_RESULTS_EX
+ms.keywords: NDK_FN_GET_CQ_RESULTS_EX, NDK_FN_GET_CQ_RESULTS_EX callback function [Network Drivers Starting with Windows Vista], ndkpi/NDK_FN_GET_CQ_RESULTS_EX, netvista.ndk_fn_get_cq_results_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -103,6 +103,14 @@ Zero means there were no completions in the CQ.
 
 ## -see-also
 
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_cq_results.md">NDK_FN_GET_CQ_RESULTS</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+
+
+
 <a href="..\ndkpi\ns-ndkpi-_ndk_result_ex.md">NDK_RESULT_EX</a>
 
 
@@ -111,15 +119,7 @@ Zero means there were no completions in the CQ.
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
-
-
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_cq_results.md">NDK_FN_GET_CQ_RESULTS</a>
 
 
 

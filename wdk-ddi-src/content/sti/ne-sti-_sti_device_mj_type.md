@@ -4,11 +4,11 @@ title: "_STI_DEVICE_MJ_TYPE"
 author: windows-driver-content
 description: The STI_DEVICE_TYPE type identifies the device type of a still image device.The DWORD is divided into a HIWORD containing the major device type, and a LOWORD containing a vendor-defined subtype.
 old-location: image\sti_device_type.htm
-old-project: Image
+old-project: image
 ms.assetid: f5ab3aa3-c24e-4716-b94a-525c6b6776dc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: image.sti_device_type, StiDeviceTypeStreamingVideo, sti/STI_DEVICE_TYPE, sti/StiDeviceTypeStreamingVideo, STI_DEVICE_MJ_TYPE, StiDeviceTypeDefault, STI_DEVICE_MJ_TYPE enumeration [Imaging Devices], stifnc_1cbf2c9f-0c97-439a-8503-c07c68b7d947.xml, StiDeviceTypeScanner, _STI_DEVICE_MJ_TYPE, sti/StiDeviceTypeScanner, STI_DEVICE_TYPE, StiDeviceTypeDigitalCamera, sti/StiDeviceTypeDigitalCamera, STI_DEVICE_TYPE enumeration [Imaging Devices], sti/StiDeviceTypeDefault
+ms.date: 2/23/2018
+ms.keywords: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE enumeration [Imaging Devices], STI_DEVICE_TYPE, STI_DEVICE_TYPE enumeration [Imaging Devices], StiDeviceTypeDefault, StiDeviceTypeDigitalCamera, StiDeviceTypeScanner, StiDeviceTypeStreamingVideo, _STI_DEVICE_MJ_TYPE, image.sti_device_type, sti/STI_DEVICE_TYPE, sti/StiDeviceTypeDefault, sti/StiDeviceTypeDigitalCamera, sti/StiDeviceTypeScanner, sti/StiDeviceTypeStreamingVideo, stifnc_1cbf2c9f-0c97-439a-8503-c07c68b7d947.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STI_DEVICE_MJ_TYPE
 product: Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE
+req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: dtf\iwdtfsimpleioex2.htm
 old-project: dtf
 ms.assetid: a916e6b1-692c-47e9-83cc-3aeae80fb624
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfsimpleioex2, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], described, IWDTFSimpleIOEx2, wdtfinterfaces/IWDTFSimpleIOEx2, Microsoft.WDTF.IWDTFSimpleIOEx2
+ms.date: 2/23/2018
+ms.keywords: IWDTFSimpleIOEx2, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFSimpleIOEx2, dtf.iwdtfsimpleioex2, wdtfinterfaces/IWDTFSimpleIOEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -53,6 +53,13 @@ req.product: Windows 10 or later.
 Defines operations for a simple synchronous I/O functionality test.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSimpleIOEx2</b> interface inherits from <b>IWDTFAction2</b>. <b>IWDTFSimpleIOEx2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDTFSimpleIOEx2</b> interface has these methods.
@@ -88,13 +95,7 @@ Performs a small amount of simple I/O to the device.
 
 </td>
 </tr>
-</table>Closes the device.
-
-Opens the device.
-
-Performs a small amount of simple I/O to the device.
-
- 
+</table> 
 
 
 ## -remarks

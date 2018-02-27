@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: c472b4bf-4c7f-4c30-ad03-2017d26d52b4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: gpiobtn.hwn_client_get_state, HwnClientGetState callback function, HwnClientGetState, HWN_CLIENT_GET_STATE, HWN_CLIENT_GET_STATE, hwnclx/HwnClientGetState, *PHWN_CLIENT_GET_STATE callback function pointer, *PHWN_CLIENT_GET_STATE
+ms.keywords: "*PHWN_CLIENT_GET_STATE, *PHWN_CLIENT_GET_STATE callback function pointer, HWN_CLIENT_GET_STATE, HwnClientGetState, HwnClientGetState callback function, gpiobtn.hwn_client_get_state, hwnclx/HwnClientGetState"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	*PHWN_CLIENT_GET_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PHPMI_QUERY_CAPABILITIES_RESPONSE, HPMI_QUERY_CAPABILITIES_RESPONSE"
+req.typenames: HPMI_QUERY_CAPABILITIES_RESPONSE, *PHPMI_QUERY_CAPABILITIES_RESPONSE
 ---
 
 # HWN_CLIENT_GET_STATE callback
@@ -149,11 +149,11 @@ If <i>OutputBuffer</i> is not large enough to contain all of the settings reques
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
+
+
+<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
 
 
 

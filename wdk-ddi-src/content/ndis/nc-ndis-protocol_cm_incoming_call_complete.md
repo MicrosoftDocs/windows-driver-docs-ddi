@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 353e929b-17c8-47e8-82fd-b646e93a5b9a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolcmincomingcallcomplete, ProtocolCmIncomingCallComplete callback function [Network Drivers Starting with Windows Vista], ProtocolCmIncomingCallComplete, PROTOCOL_CM_INCOMING_CALL_COMPLETE, PROTOCOL_CM_INCOMING_CALL_COMPLETE, ndis/ProtocolCmIncomingCallComplete, condis_call_manager_ref_0760b8c9-29b8-40ff-b8a9-03e4c4f792e2.xml
+ms.keywords: PROTOCOL_CM_INCOMING_CALL_COMPLETE, ProtocolCmIncomingCallComplete, ProtocolCmIncomingCallComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_0760b8c9-29b8-40ff-b8a9-03e4c4f792e2.xml, ndis/ProtocolCmIncomingCallComplete, netvista.protocolcmincomingcallcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

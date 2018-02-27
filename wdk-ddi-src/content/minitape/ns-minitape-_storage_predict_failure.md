@@ -7,8 +7,8 @@ old-location: storage\storage_predict_failure.htm
 old-project: storage
 ms.assetid: 0b88ec6d-a7e0-4bb8-8a12-c7f170ac2334
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*PSTORAGE_PREDICT_FAILURE, _STORAGE_PREDICT_FAILURE, structs-general_b1bed4c9-33a9-4adf-a456-e420d1e2f317.xml, STORAGE_PREDICT_FAILURE, storage.storage_predict_failure, ntddstor/STORAGE_PREDICT_FAILURE, PSTORAGE_PREDICT_FAILURE structure pointer [Storage Devices], PSTORAGE_PREDICT_FAILURE, ntddstor/PSTORAGE_PREDICT_FAILURE, STORAGE_PREDICT_FAILURE structure [Storage Devices]"
+ms.date: 2/24/2018
+ms.keywords: "*PSTORAGE_PREDICT_FAILURE, PSTORAGE_PREDICT_FAILURE, PSTORAGE_PREDICT_FAILURE structure pointer [Storage Devices], STORAGE_PREDICT_FAILURE, STORAGE_PREDICT_FAILURE structure [Storage Devices], _STORAGE_PREDICT_FAILURE, ntddstor/PSTORAGE_PREDICT_FAILURE, ntddstor/STORAGE_PREDICT_FAILURE, storage.storage_predict_failure, structs-general_b1bed4c9-33a9-4adf-a456-e420d1e2f317.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,5 +101,5 @@ If the device supports failure prediction, the disk class driver queries the dev
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORAGE_PREDICT_FAILURE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORAGE_PREDICT_FAILURE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

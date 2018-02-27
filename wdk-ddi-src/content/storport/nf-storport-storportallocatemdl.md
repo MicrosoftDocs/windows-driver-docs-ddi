@@ -7,8 +7,8 @@ old-location: storage\storportallocatemdl.htm
 old-project: storage
 ms.assetid: 45450486-3264-4fc8-8051-f7c48997e3dd
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: StorPortAllocateMdl routine [Storage Devices], StorPortAllocateMdl, storport/StorPortAllocateMdl, storage.storportallocatemdl, storprt_d80c510f-4cc4-4687-ab5b-9b9b5cf399ce.xml
+ms.date: 2/24/2018
+ms.keywords: StorPortAllocateMdl, StorPortAllocateMdl routine [Storage Devices], storage.storportallocatemdl, storport/StorPortAllocateMdl, storprt_d80c510f-4cc4-4687-ab5b-9b9b5cf399ce.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -7,8 +7,8 @@ old-location: stream\kspinregisterhandshakecallback.htm
 old-project: stream
 ms.assetid: a5b9f731-e029-40c2-9fbb-d7a3b63615df
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: avfunc_9588944b-a56b-473a-848d-0a01031b6911.xml, ks/KsPinRegisterHandshakeCallback, KsPinRegisterHandshakeCallback, stream.kspinregisterhandshakecallback, KsPinRegisterHandshakeCallback function [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: KsPinRegisterHandshakeCallback, KsPinRegisterHandshakeCallback function [Streaming Media Devices], avfunc_9588944b-a56b-473a-848d-0a01031b6911.xml, ks/KsPinRegisterHandshakeCallback, stream.kspinregisterhandshakecallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,19 +101,7 @@ Minidrivers that support private protocols between a given pin and another AVStr
 
 ## -see-also
 
-<a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a>
-
-
-
 <a href="..\ks\nf-ks-kspinregisterpowercallbacks.md">KsPinRegisterPowerCallbacks</a>
-
-
-
-<a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
-
-
-
-<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
 
 
 
@@ -121,13 +109,25 @@ Minidrivers that support private protocols between a given pin and another AVStr
 
 
 
+<a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a>
+
+
+
+<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
+
+
+
 <a href="..\ks\nf-ks-ksfilterregisterpowercallbacks.md">KsFilterRegisterPowerCallbacks</a>
 
 
 
- 
+<a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinRegisterHandshakeCallback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinRegisterHandshakeCallback function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

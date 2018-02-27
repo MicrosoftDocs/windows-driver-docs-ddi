@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e0f22096-3d82-4e1c-9398-d5e441fbb473
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDriverOpenParametersRegistryKey method, WdfDriverOpenParametersRegistryKey, wdfdriver/WdfDriverOpenParametersRegistryKey, kmdf.wdfdriveropenparametersregistrykey, wdf.wdfdriveropenparametersregistrykey, DFDriverObjectRef_c79992f7-2a85-4c1b-859d-9bfdf441a9c4.xml
+ms.keywords: DFDriverObjectRef_c79992f7-2a85-4c1b-859d-9bfdf441a9c4.xml, WdfDriverOpenParametersRegistryKey, WdfDriverOpenParametersRegistryKey method, kmdf.wdfdriveropenparametersregistrykey, wdf.wdfdriveropenparametersregistrykey, wdfdriver/WdfDriverOpenParametersRegistryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -180,15 +180,7 @@ status = WdfDriverOpenParametersRegistryKey(
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
-
-
-
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryclose.md">WdfRegistryClose</a>
-
-
-
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 
 
@@ -196,11 +188,19 @@ status = WdfDriverOpenParametersRegistryKey(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 
 
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 

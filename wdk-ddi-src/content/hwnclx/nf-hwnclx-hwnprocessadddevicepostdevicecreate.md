@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: 907cdeac-e2f0-48fa-bbf0-082c0fce6401
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: HwNProcessAddDevicePostDeviceCreate function, HwNProcessAddDevicePostDeviceCreate, hwnclx/HwNProcessAddDevicePostDeviceCreate, gpiobtn.hwnprocessadddevicepostdevicecreate
+ms.keywords: HwNProcessAddDevicePostDeviceCreate, HwNProcessAddDevicePostDeviceCreate function, gpiobtn.hwnprocessadddevicepostdevicecreate, hwnclx/HwNProcessAddDevicePostDeviceCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	HwNProcessAddDevicePostDeviceCreate
 product: Windows
 targetos: Windows
-req.typenames: "*PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX"
+req.typenames: HWN_CLX_EXPORT_INDEX, *PHWN_CLX_EXPORT_INDEX
 ---
 
 # HwNProcessAddDevicePostDeviceCreate function
@@ -98,11 +98,11 @@ Returns STATUS_SUCCESS if function succeeds. Returns STATUS_INVALID_PARAMETER if
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
+
+
+<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
 
 
 

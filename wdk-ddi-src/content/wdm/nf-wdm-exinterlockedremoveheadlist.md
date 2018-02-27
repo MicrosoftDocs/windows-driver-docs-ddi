@@ -7,8 +7,8 @@ old-location: kernel\exinterlockedremoveheadlist.htm
 old-project: kernel
 ms.assetid: d024da2c-9629-4907-98b8-a29dc6022ac0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: wdm/ExInterlockedRemoveHeadList, ExInterlockedRemoveHeadList, ExInterlockedRemoveHeadList routine [Kernel-Mode Driver Architecture], k102_6ab2420a-7522-4445-9a6e-c8a603f5cff8.xml, kernel.exinterlockedremoveheadlist
+ms.date: 2/24/2018
+ms.keywords: ExInterlockedRemoveHeadList, ExInterlockedRemoveHeadList routine [Kernel-Mode Driver Architecture], k102_6ab2420a-7522-4445-9a6e-c8a603f5cff8.xml, kernel.exinterlockedremoveheadlist, wdm/ExInterlockedRemoveHeadList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,7 +103,7 @@ The <b>ExInterlockedRemoveHeadList</b> routine can be called at any IRQL. The st
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
+<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
 
 
 
@@ -111,7 +111,7 @@ The <b>ExInterlockedRemoveHeadList</b> routine can be called at any IRQL. The st
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 
 
@@ -119,7 +119,7 @@ The <b>ExInterlockedRemoveHeadList</b> routine can be called at any IRQL. The st
 
 
 
-<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
 
 
 
@@ -127,5 +127,5 @@ The <b>ExInterlockedRemoveHeadList</b> routine can be called at any IRQL. The st
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExInterlockedRemoveHeadList routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExInterlockedRemoveHeadList routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

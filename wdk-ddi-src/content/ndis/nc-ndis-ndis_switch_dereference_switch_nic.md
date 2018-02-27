@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 58C72F81-07B9-45FE-A8BA-0405DBE4CA20
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.DereferenceSwitchNic, DereferenceSwitchNic callback function [Network Drivers Starting with Windows Vista], DereferenceSwitchNic, NDIS_SWITCH_DEREFERENCE_SWITCH_NIC, NDIS_SWITCH_DEREFERENCE_SWITCH_NIC, ndis/DereferenceSwitchNic
+ms.keywords: DereferenceSwitchNic, DereferenceSwitchNic callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_DEREFERENCE_SWITCH_NIC, ndis/DereferenceSwitchNic, netvista.DereferenceSwitchNic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -116,7 +116,7 @@ The extension must call <i>DereferenceSwitchNic</i> if it had previously called 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598264">OID_SWITCH_NIC_DELETE</a>
+<a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
 
 
 
@@ -124,7 +124,7 @@ The extension must call <i>DereferenceSwitchNic</i> if it had previously called 
 
 
 
-<a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598264">OID_SWITCH_NIC_DELETE</a>
 
 
 

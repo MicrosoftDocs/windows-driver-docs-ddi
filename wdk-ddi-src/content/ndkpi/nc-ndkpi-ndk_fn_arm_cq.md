@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8204EC7B-8F90-4F34-BFFB-9F1574AF69BC
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_arm_cq, NdkArmCq callback function [Network Drivers Starting with Windows Vista], NdkArmCq, NDK_FN_ARM_CQ, NDK_FN_ARM_CQ, ndkpi/NdkArmCq
+ms.keywords: NDK_FN_ARM_CQ, NdkArmCq, NdkArmCq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkArmCq, netvista.ndk_fn_arm_cq
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -144,11 +144,11 @@ If the CQ is closed while a call to <i>NdkCqNotificationCallback</i> is in-progr
 
 ## -see-also
 
+<a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
+
+
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_cq.md">NDK_FN_CREATE_CQ</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_cq_notification_callback.md">NDK_FN_CQ_NOTIFICATION_CALLBACK</a>
 
 
 
@@ -156,7 +156,7 @@ If the CQ is closed while a call to <i>NdkCqNotificationCallback</i> is in-progr
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_cq_notification_callback.md">NDK_FN_CQ_NOTIFICATION_CALLBACK</a>
 
 
 

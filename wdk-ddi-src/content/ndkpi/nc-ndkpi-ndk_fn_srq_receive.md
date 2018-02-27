@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1D615DEA-5599-4A3D-AEE7-BDBFE9D40C47
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_srq_receive, NdkSrqReceive callback function [Network Drivers Starting with Windows Vista], NdkSrqReceive, NDK_FN_SRQ_RECEIVE, NDK_FN_SRQ_RECEIVE, ndkpi/NdkSrqReceive
+ms.keywords: NDK_FN_SRQ_RECEIVE, NdkSrqReceive, NdkSrqReceive callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkSrqReceive, netvista.ndk_fn_srq_receive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -156,11 +156,11 @@ An error occurred.
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
-
-
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
 
 
 

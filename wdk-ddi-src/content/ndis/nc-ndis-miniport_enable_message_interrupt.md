@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b0e1bbef-8116-4455-aa5c-7f47386a3700
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportenablemessageinterrupt, MiniportEnableMessageInterrupt callback function [Network Drivers Starting with Windows Vista], MiniportEnableMessageInterrupt, MINIPORT_ENABLE_MESSAGE_INTERRUPT, MINIPORT_ENABLE_MESSAGE_INTERRUPT, ndis/MiniportEnableMessageInterrupt, ndis_interrupts_miniport_functions_ref_cc88ce4b-e75b-4da8-89aa-3d449451a0d3.xml
+ms.keywords: MINIPORT_ENABLE_MESSAGE_INTERRUPT, MiniportEnableMessageInterrupt, MiniportEnableMessageInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportEnableMessageInterrupt, ndis_interrupts_miniport_functions_ref_cc88ce4b-e75b-4da8-89aa-3d449451a0d3.xml, netvista.miniportenablemessageinterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -170,16 +170,25 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_disable_message_interrupt.md">
+   MiniportDisableMessageInterrupt</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
 
 
 
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">
+   IO_INTERRUPT_MESSAGE_INFO_ENTRY</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_disable_message_interrupt.md">
-   MiniportDisableMessageInterrupt</a>
 
 
 
@@ -189,19 +198,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 <a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">
-   IO_INTERRUPT_MESSAGE_INFO_ENTRY</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
 
 
 

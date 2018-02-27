@@ -7,8 +7,8 @@ old-location: stream\ioctl_avc_class.htm
 old-project: stream
 ms.assetid: 033069b8-98e5-4302-ae4e-71f9249533ff
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ioctl_avc_class, IOCTL_AVC_CLASS control code [Streaming Media Devices], IOCTL_AVC_CLASS, avc/IOCTL_AVC_CLASS, avcref_720c03f6-d568-4ebe-8bd8-295fd8a6c222.xml
+ms.date: 2/23/2018
+ms.keywords: IOCTL_AVC_CLASS, IOCTL_AVC_CLASS control code [Streaming Media Devices], avc/IOCTL_AVC_CLASS, avcref_720c03f6-d568-4ebe-8bd8-295fd8a6c222.xml, stream.ioctl_avc_class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: AVC_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -197,7 +197,7 @@ Most AV/C functions must be called IRQL = PASSIVE_LEVEL. A few may be called at 
 
 ## -see-also
 
-<a href="..\avc\ns-avc-_avc_command_irb.md">AVC_COMMAND_IRB</a>
+<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
 
 
 
@@ -205,15 +205,7 @@ Most AV/C functions must be called IRQL = PASSIVE_LEVEL. A few may be called at 
 
 
 
-<a href="..\avc\ni-avc-ioctl_avc_bus_reset.md">IOCTL_AVC_BUS_RESET</a>
-
-
-
-<a href="..\avc\ni-avc-ioctl_avc_update_virtual_subunit_info.md">IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO</a>
-
-
-
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+<a href="..\avc\ns-avc-_avc_command_irb.md">AVC_COMMAND_IRB</a>
 
 
 
@@ -221,13 +213,21 @@ Most AV/C functions must be called IRQL = PASSIVE_LEVEL. A few may be called at 
 
 
 
+<a href="..\avc\ni-avc-ioctl_avc_bus_reset.md">IOCTL_AVC_BUS_RESET</a>
+
+
+
 <a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
 
 
 
- 
+<a href="..\avc\ni-avc-ioctl_avc_update_virtual_subunit_info.md">IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IOCTL_AVC_CLASS control code%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IOCTL_AVC_CLASS control code%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

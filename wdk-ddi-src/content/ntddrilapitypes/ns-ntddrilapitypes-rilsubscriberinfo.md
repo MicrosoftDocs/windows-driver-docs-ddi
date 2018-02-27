@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b05a38c6-afc5-4dc1-8e51-ecf9d47e144e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILSUBSCRIBERINFO, rilapitypes/RILSUBSCRIBERINFO, *LPRILSUBSCRIBERINFO, netvista.rilsubscriberinfo, RILSUBSCRIBERINFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*LPRILSUBSCRIBERINFO, RILSUBSCRIBERINFO, RILSUBSCRIBERINFO structure [Network Drivers Starting with Windows Vista], netvista.rilsubscriberinfo, rilapitypes/RILSUBSCRIBERINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,12 +78,12 @@ The size of the structure in bytes.
 
 ### -field dwParams
 
-A bitwise combination of <a href="..\ntddrilapitypes\ne-ntddrilapitypes-rilsubscriberinfoparammask.md">RILSUBSCRIBERINFOPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
+A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilsubscriberinfoparammask.md">RILSUBSCRIBERINFOPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
 ### -field raAddress
 
-Phone number of the subscriber line, of type <a href="..\ntddrilapitypes\ne-ntddrilapitypes-riladdresstype.md">RILADDRESSTYPE</a>.
+Phone number of the subscriber line, of type <a href="..\rilapitypes\ne-rilapitypes-riladdresstype.md">RILADDRESSTYPE</a>.
 
 
 ### -field wszDescription
@@ -93,7 +93,7 @@ Text description of the subscriber line.
 
 ### -field dwService
 
-Specifies the service related to the subscriber phone number, of type <a href="..\ntddrilapitypes\ne-ntddrilapitypes-rilsubscriberinfoservice.md">RILSUBSCRIBERINFOSERVICE</a>.
+Specifies the service related to the subscriber phone number, of type <a href="..\rilapitypes\ne-rilapitypes-rilsubscriberinfoservice.md">RILSUBSCRIBERINFOSERVICE</a>.
 
 
 ## -see-also

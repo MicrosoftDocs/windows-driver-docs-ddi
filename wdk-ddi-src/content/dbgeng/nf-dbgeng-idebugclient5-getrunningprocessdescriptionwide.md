@@ -4,11 +4,11 @@ title: IDebugClient5::GetRunningProcessDescriptionWide method
 author: windows-driver-content
 description: The GetRunningProcessDescriptionWide method returns a description of the process that includes the executable image name, the service names, the MTS package names, and the command line.
 old-location: debugger\getrunningprocessdescriptionwide.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 1af85bbe-19e8-4e16-a598-f9822fd6f766
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugClient4, IDebugClient4 interface [Windows Debugging], GetRunningProcessDescriptionWide method, dbgeng/IDebugClient3::GetRunningProcessDescriptionWide, GetRunningProcessDescriptionWide method [Windows Debugging], IDebugClient4 interface, IDebugClient4::GetRunningProcessDescriptionWide, IDebugClient5, GetRunningProcessDescriptionWide method [Windows Debugging], dbgeng/IDebugClient5::GetRunningProcessDescriptionWide, dbgeng/IDebugClient4::GetRunningProcessDescriptionWide, IDebugClient5::GetRunningProcessDescriptionWide, GetRunningProcessDescriptionWide, IDebugClient3::GetRunningProcessDescriptionWide, GetRunningProcessDescriptionWide method [Windows Debugging], IDebugClient3 interface, IDebugClient3, debugger.getrunningprocessdescriptionwide, GetRunningProcessDescriptionWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], GetRunningProcessDescriptionWide method, IDebugClient3 interface [Windows Debugging], GetRunningProcessDescriptionWide method
+ms.date: 2/23/2018
+ms.keywords: GetRunningProcessDescriptionWide method [Windows Debugging], GetRunningProcessDescriptionWide method [Windows Debugging], IDebugClient3 interface, GetRunningProcessDescriptionWide method [Windows Debugging], IDebugClient4 interface, GetRunningProcessDescriptionWide method [Windows Debugging], IDebugClient5 interface, GetRunningProcessDescriptionWide,IDebugClient5.GetRunningProcessDescriptionWide, IDebugClient3 interface [Windows Debugging], GetRunningProcessDescriptionWide method, IDebugClient3::GetRunningProcessDescriptionWide, IDebugClient4 interface [Windows Debugging], GetRunningProcessDescriptionWide method, IDebugClient4::GetRunningProcessDescriptionWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetRunningProcessDescriptionWide method, IDebugClient5::GetRunningProcessDescriptionWide, dbgeng/IDebugClient3::GetRunningProcessDescriptionWide, dbgeng/IDebugClient4::GetRunningProcessDescriptionWide, dbgeng/IDebugClient5::GetRunningProcessDescriptionWide, debugger.getrunningprocessdescriptionwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -222,11 +222,11 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 
 
@@ -234,11 +234,15 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
 
 
 
@@ -250,13 +254,9 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient3::GetRunningProcessDescriptionWide method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient3::GetRunningProcessDescriptionWide method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

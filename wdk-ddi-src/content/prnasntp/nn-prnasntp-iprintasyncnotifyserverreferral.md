@@ -7,8 +7,8 @@ old-location: print\iprintasyncnotifyserverreferral.htm
 old-project: print
 ms.assetid: 46B3C57E-EE02-4821-9D5F-A2005CFC2998
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.iprintasyncnotifyserverreferral, IPrintAsyncNotifyServerReferral interface [Print Devices], IPrintAsyncNotifyServerReferral interface [Print Devices], described, IPrintAsyncNotifyServerReferral, prnasntp/IPrintAsyncNotifyServerReferral
+ms.date: 2/23/2018
+ms.keywords: IPrintAsyncNotifyServerReferral, IPrintAsyncNotifyServerReferral interface [Print Devices], IPrintAsyncNotifyServerReferral interface [Print Devices], described, print.iprintasyncnotifyserverreferral, prnasntp/IPrintAsyncNotifyServerReferral
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -52,6 +52,13 @@ req.product: Windows 10 or later.
 
 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintAsyncNotifyServerReferral</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintAsyncNotifyServerReferral</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 

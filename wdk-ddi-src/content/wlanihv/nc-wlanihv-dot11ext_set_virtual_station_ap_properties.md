@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 11ba5799-2bb5-475f-bf69-cf1a1c3c128c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extsetvirtualstationapproperties, Dot11ExtSetVirtualStationAPProperties callback function [Network Drivers Starting with Windows Vista], Dot11ExtSetVirtualStationAPProperties, DOT11EXT_SET_VIRTUAL_STATION_AP_PROPERTIES, DOT11EXT_SET_VIRTUAL_STATION_AP_PROPERTIES, wlanihv/Dot11ExtSetVirtualStationAPProperties, Native_802.11_IHV_Ext_99551e02-eec3-413e-a14d-60d6ce5c09ee.xml
+ms.keywords: DOT11EXT_SET_VIRTUAL_STATION_AP_PROPERTIES, Dot11ExtSetVirtualStationAPProperties, Dot11ExtSetVirtualStationAPProperties callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_99551e02-eec3-413e-a14d-60d6ce5c09ee.xml, netvista.dot11extsetvirtualstationapproperties, wlanihv/Dot11ExtSetVirtualStationAPProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSetVirtualStationAPProperties
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -144,7 +144,7 @@ If the IHV Extensions DLL calls
 
 ## -see-also
 
-
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 

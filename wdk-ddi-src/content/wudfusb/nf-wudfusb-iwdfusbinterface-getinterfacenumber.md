@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: de8de14a-94a8-49e2-912a-9c174f5a2c74
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFUsbInterface::GetInterfaceNumber, IWDFUsbInterface, UMDFUSBref_4f4d9bc1-a1a1-4cc4-87ba-522fa3f8a0f7.xml, GetInterfaceNumber, GetInterfaceNumber method, wudfusb/IWDFUsbInterface::GetInterfaceNumber, GetInterfaceNumber method, IWDFUsbInterface interface, umdf.iwdfusbinterface_getinterfacenumber, wdf.iwdfusbinterface_getinterfacenumber, IWDFUsbInterface interface, GetInterfaceNumber method
+ms.keywords: GetInterfaceNumber method, GetInterfaceNumber method, IWDFUsbInterface interface, GetInterfaceNumber,IWDFUsbInterface.GetInterfaceNumber, IWDFUsbInterface, IWDFUsbInterface interface, GetInterfaceNumber method, IWDFUsbInterface::GetInterfaceNumber, UMDFUSBref_4f4d9bc1-a1a1-4cc4-87ba-522fa3f8a0f7.xml, umdf.iwdfusbinterface_getinterfacenumber, wdf.iwdfusbinterface_getinterfacenumber, wudfusb/IWDFUsbInterface::GetInterfaceNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbInterface.GetInterfaceNumber
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

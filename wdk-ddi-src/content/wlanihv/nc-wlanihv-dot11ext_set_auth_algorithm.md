@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 49fbdd9d-4352-48b5-81bc-3092eef2e255
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extsetauthalgorithm, Dot11ExtSetAuthAlgorithm callback function [Network Drivers Starting with Windows Vista], Dot11ExtSetAuthAlgorithm, DOT11EXT_SET_AUTH_ALGORITHM, DOT11EXT_SET_AUTH_ALGORITHM, wlanihv/Dot11ExtSetAuthAlgorithm, Native_802.11_IHV_Ext_85806dab-a810-4b45-9c94-7b0b7e40a6a2.xml
+ms.keywords: DOT11EXT_SET_AUTH_ALGORITHM, Dot11ExtSetAuthAlgorithm, Dot11ExtSetAuthAlgorithm callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_85806dab-a810-4b45-9c94-7b0b7e40a6a2.xml, netvista.dot11extsetauthalgorithm, wlanihv/Dot11ExtSetAuthAlgorithm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSetAuthAlgorithm
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -114,23 +114,6 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
-   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
-
-
-
-
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
-<a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
    Dot11ExtPreAssociateCompletion</a>
 
@@ -143,6 +126,14 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
 
 
 

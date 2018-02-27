@@ -7,8 +7,8 @@ old-location: kernel\rtlint64tounicodestring.htm
 old-project: kernel
 ms.assetid: 36f146a7-cdc2-4b88-bd9a-5008bf94c180
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: wdm/RtlInt64ToUnicodeString, RtlInt64ToUnicodeString routine [Kernel-Mode Driver Architecture], kernel.rtlint64tounicodestring, k109_b6248e50-c6e8-4c61-a9f0-83fb434bd69c.xml, RtlInt64ToUnicodeString
+ms.date: 2/24/2018
+ms.keywords: RtlInt64ToUnicodeString, RtlInt64ToUnicodeString routine [Kernel-Mode Driver Architecture], k109_b6248e50-c6e8-4c61-a9f0-83fb434bd69c.xml, kernel.rtlint64tounicodestring, wdm/RtlInt64ToUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -185,10 +185,6 @@ The specified code base is not valid. The only valid values are 0, 2, 8, 10, and
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\wudfwdm\nf-wudfwdm-rtlunicodestringtointeger.md">RtlUnicodeStringToInteger</a>
 
 
@@ -197,9 +193,13 @@ The specified code base is not valid. The only valid values are 0, 2, 8, 10, and
 
 
 
- 
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlInt64ToUnicodeString routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlInt64ToUnicodeString routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

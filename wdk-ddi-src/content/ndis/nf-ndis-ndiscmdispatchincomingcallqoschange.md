@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eee2625e-6dc8-4f54-81e9-2d31d25f62d7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisCmDispatchIncomingCallQoSChange, condis_call_manager_ref_01f18e60-ebc6-4192-9544-a57b07a4575e.xml, netvista.ndiscmdispatchincomingcallqoschange, ndis/NdisCmDispatchIncomingCallQoSChange, NdisCmDispatchIncomingCallQoSChange function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisCmDispatchIncomingCallQoSChange, NdisCmDispatchIncomingCallQoSChange function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_01f18e60-ebc6-4192-9544-a57b07a4575e.xml, ndis/NdisCmDispatchIncomingCallQoSChange, netvista.ndiscmdispatchincomingcallqoschange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisCmDispatchIncomingCallQoSChange
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCmDispatchIncomingCallQoSChange function
@@ -128,7 +128,17 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcallqoschange.md">
+   NdisMCmDispatchIncomingCallQoSChange</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+   ProtocolCoReceiveNetBufferLists</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
 
 
 
@@ -137,21 +147,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
-   ProtocolCoReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcallqoschange.md">
-   NdisMCmDispatchIncomingCallQoSChange</a>
 
 
 
@@ -159,8 +155,11 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
-   ProtocolCoReceiveNetBufferLists</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
 
 
 

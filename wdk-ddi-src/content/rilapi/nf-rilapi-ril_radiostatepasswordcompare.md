@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f984bb4f-ecc8-4e6c-bb2c-a721395f1958
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_RadioStatePasswordCompare, netvista.ril_radiostatepasswordcompare, rilapi/RIL_RadioStatePasswordCompare, RIL_RadioStatePasswordCompare method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_RadioStatePasswordCompare, RIL_RadioStatePasswordCompare method [Network Drivers Starting with Windows Vista], netvista.ril_radiostatepasswordcompare, rilapi/RIL_RadioStatePasswordCompare
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_RadioStatePasswordCompare
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

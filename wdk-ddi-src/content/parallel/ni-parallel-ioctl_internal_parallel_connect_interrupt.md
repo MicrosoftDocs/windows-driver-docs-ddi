@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 8cf5f2fc-e298-4f5b-bca4-3034e8a4a061
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.ioctl_internal_parallel_connect_interrupt, IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT control code [Parallel Ports], IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT, parallel/IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT, cisspd_b43103ce-7b3e-413b-914c-fbaf1d7789ee.xml
+ms.keywords: IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT, IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT control code [Parallel Ports], cisspd_b43103ce-7b3e-413b-914c-fbaf1d7789ee.xml, parallel/IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT, parports.ioctl_internal_parallel_connect_interrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -122,11 +122,11 @@ The value of the <b>Parameters.DeviceIoControl.OuputBufferLength</b> member is l
 
 ## -see-also
 
+<a href="..\parallel\ns-parallel-_parallel_interrupt_information.md">PARALLEL_INTERRUPT_INFORMATION</a>
+
+
+
 <a href="..\parallel\ns-parallel-_parallel_interrupt_service_routine.md">PARALLEL_INTERRUPT_SERVICE_ROUTINE</a>
-
-
-
-<a href="..\parallel\ni-parallel-ioctl_internal_parallel_disconnect_interrupt.md">IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT</a>
 
 
 

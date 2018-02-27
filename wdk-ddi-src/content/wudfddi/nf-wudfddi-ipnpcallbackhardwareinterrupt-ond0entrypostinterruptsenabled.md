@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6AA5AA6F-DC73-40E6-8EE0-CAA91D89A0E8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled, umdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, wudfddi/IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled, IPnpCallbackHardwareInterrupt, OnD0EntryPostInterruptsEnabled method, OnD0EntryPostInterruptsEnabled, OnD0EntryPostInterruptsEnabled method, IPnpCallbackHardwareInterrupt interface, IPnpCallbackHardwareInterrupt interface, OnD0EntryPostInterruptsEnabled method
+ms.keywords: IPnpCallbackHardwareInterrupt, IPnpCallbackHardwareInterrupt interface, OnD0EntryPostInterruptsEnabled method, IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled, OnD0EntryPostInterruptsEnabled method, OnD0EntryPostInterruptsEnabled method, IPnpCallbackHardwareInterrupt interface, OnD0EntryPostInterruptsEnabled,IPnpCallbackHardwareInterrupt.OnD0EntryPostInterruptsEnabled, umdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, wdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, wudfddi/IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -106,11 +106,11 @@ For more information, see <a href="https://msdn.microsoft.com/432907e7-05a3-4a99
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439755">OnD0ExitPreInterruptsDisabled</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardwareinterrupt.md">IPnpCallbackHardwareInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439755">OnD0ExitPreInterruptsDisabled</a>
 
 
 

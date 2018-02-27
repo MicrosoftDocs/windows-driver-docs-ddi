@@ -7,8 +7,8 @@ old-location: stream\ksfilter_descriptor.htm
 old-project: stream
 ms.assetid: c9e3c1ea-a8c9-45db-a31c-7f8e95cf6b2b
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KSFILTER_DESCRIPTOR structure [Streaming Media Devices], stream.ksfilter_descriptor, ks/PKSFILTER_DESCRIPTOR, PKSFILTER_DESCRIPTOR structure pointer [Streaming Media Devices], ks/KSFILTER_DESCRIPTOR, KSFILTER_DESCRIPTOR, _KSFILTER_DESCRIPTOR, PKSFILTER_DESCRIPTOR, *PKSFILTER_DESCRIPTOR, avstruct_f9b8c041-9001-42a5-989e-3de86daa56fe.xml
+ms.date: 2/23/2018
+ms.keywords: "*PKSFILTER_DESCRIPTOR, KSFILTER_DESCRIPTOR, KSFILTER_DESCRIPTOR structure [Streaming Media Devices], PKSFILTER_DESCRIPTOR, PKSFILTER_DESCRIPTOR structure pointer [Streaming Media Devices], _KSFILTER_DESCRIPTOR, avstruct_f9b8c041-9001-42a5-989e-3de86daa56fe.xml, ks/KSFILTER_DESCRIPTOR, ks/PKSFILTER_DESCRIPTOR, stream.ksfilter_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -313,22 +313,6 @@ Similarly, if you do not use <b>DEFINE_KS_FILTER_NODE_DESCRIPTORS</b> to set <i>
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kscomponentid.md">KSCOMPONENTID</a>
-
-
-
-<a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
-
-
-
-<a href="..\ks\nf-ks-kscreatefilterfactory.md">KsCreateFilterFactory</a>
-
-
-
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
-
-
-
 <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
 
@@ -337,7 +321,19 @@ Similarly, if you do not use <b>DEFINE_KS_FILTER_NODE_DESCRIPTORS</b> to set <i>
 
 
 
-<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
+<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+
+
+
+<a href="..\ks\nf-ks-kscreatefilterfactory.md">KsCreateFilterFactory</a>
+
+
+
+<a href="..\ks\ns-ks-kscomponentid.md">KSCOMPONENTID</a>
+
+
+
+<a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
 
 
 
@@ -345,5 +341,5 @@ Similarly, if you do not use <b>DEFINE_KS_FILTER_NODE_DESCRIPTORS</b> to set <i>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSFILTER_DESCRIPTOR structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSFILTER_DESCRIPTOR structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

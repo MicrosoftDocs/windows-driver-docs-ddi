@@ -7,8 +7,8 @@ old-location: display\cryptosessionkeyexchange.htm
 old-project: display
 ms.assetid: f8055bb3-b8f1-47f5-9ae0-8e7a26989871
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.cryptosessionkeyexchange, CryptoSessionKeyExchange callback function [Display Devices], CryptoSessionKeyExchange, PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE, PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE, d3dumddi/CryptoSessionKeyExchange, UserModeDisplayDriver_Functions_36eab785-562d-4f2d-bcf2-2da53708f98d.xml
+ms.date: 2/24/2018
+ms.keywords: CryptoSessionKeyExchange, CryptoSessionKeyExchange callback function [Display Devices], PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE, UserModeDisplayDriver_Functions_36eab785-562d-4f2d-bcf2-2da53708f98d.xml, d3dumddi/CryptoSessionKeyExchange, display.cryptosessionkeyexchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -151,5 +151,5 @@ For D3DKEYEXCHANGE_RSAES_OAEP, the <b>pData</b> member of the <a href="..\d3dumd
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: kernel\expandedstackcall.htm
 old-project: kernel
 ms.assetid: ca9af049-f183-458c-b43f-891678a7be5e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.expandedstackcall, ExpandedStackCall routine [Kernel-Mode Driver Architecture], ExpandedStackCall, EXPAND_STACK_CALLOUT, EXPAND_STACK_CALLOUT, ntddk/ExpandedStackCall, DrvrRtns_2b43fd11-2258-4b8d-adb7-58dcc5d37897.xml
+ms.date: 2/24/2018
+ms.keywords: DrvrRtns_2b43fd11-2258-4b8d-adb7-58dcc5d37897.xml, EXPAND_STACK_CALLOUT, ExpandedStackCall, ExpandedStackCall routine [Kernel-Mode Driver Architecture], kernel.expandedstackcall, ntddk/ExpandedStackCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	ExpandedStackCall
 product: Windows
 targetos: Windows
-req.typenames: "*PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA"
+req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 ---
 
 # EXPAND_STACK_CALLOUT callback
@@ -144,5 +144,5 @@ The EXPAND_STACK_CALLOUT function type is defined in the Wdm.h header file. To m
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExpandedStackCall routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExpandedStackCall routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\agpreleasephysical.htm
 old-project: display
 ms.assetid: 4da0f5cb-a017-4df5-958b-c76b7a08495a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.agpreleasephysical, AgpReleasePhysical callback function [Display Devices], AgpReleasePhysical, PAGP_RELEASE_PHYSICAL, PAGP_RELEASE_PHYSICAL, videoagp/AgpReleasePhysical, VideoPort_Functions_427923a7-3205-41a7-a470-dbc7d531e47f.xml
+ms.date: 2/24/2018
+ms.keywords: AgpReleasePhysical, AgpReleasePhysical callback function [Display Devices], PAGP_RELEASE_PHYSICAL, VideoPort_Functions_427923a7-3205-41a7-a470-dbc7d531e47f.xml, display.agpreleasephysical, videoagp/AgpReleasePhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	AgpReleasePhysical
 product: Windows
 targetos: Windows
-req.typenames: "*PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST"
+req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -114,5 +114,5 @@ The miniport driver must call <a href="..\videoagp\nc-videoagp-pagp_free_physica
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PAGP_RELEASE_PHYSICAL callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PAGP_RELEASE_PHYSICAL callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

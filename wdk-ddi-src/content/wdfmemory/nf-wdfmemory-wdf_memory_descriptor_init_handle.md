@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e5449684-dd37-4d49-ae9f-372f295cecf8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_MEMORY_DESCRIPTOR_INIT_HANDLE function, DFMemoryObjectRef_1cec1e9e-7279-4278-a5c2-2eaaaa7a8074.xml, wdf.wdf_memory_descriptor_init_handle, wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_HANDLE, kmdf.wdf_memory_descriptor_init_handle, WDF_MEMORY_DESCRIPTOR_INIT_HANDLE
+ms.keywords: DFMemoryObjectRef_1cec1e9e-7279-4278-a5c2-2eaaaa7a8074.xml, WDF_MEMORY_DESCRIPTOR_INIT_HANDLE, WDF_MEMORY_DESCRIPTOR_INIT_HANDLE function, kmdf.wdf_memory_descriptor_init_handle, wdf.wdf_memory_descriptor_init_handle, wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_HANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -162,9 +162,10 @@ status = WdfUsbTargetDeviceSendControlTransferSynchronously(
 
 <a href="..\wdfmemory\ns-wdfmemory-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
-
-
 <a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_mdl.md">WDF_MEMORY_DESCRIPTOR_INIT_MDL</a>
+
+
+
 
 
 

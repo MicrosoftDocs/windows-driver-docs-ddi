@@ -7,8 +7,8 @@ old-location: storage\msiscsi_persistentlogins.htm
 old-project: storage
 ms.assetid: c735d9c9-8e87-4a80-af1d-c97d457f78fa
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: iscsiop/MSiSCSI_PersistentLogins, *PMSiSCSI_PersistentLogins, PMSiSCSI_PersistentLogins structure pointer [Storage Devices], _MSiSCSI_PersistentLogins, structs-iSCSI_150a8086-8025-4140-9fdb-75d05bfcb0ac.xml, MSiSCSI_PersistentLogins, MSiSCSI_PersistentLogins structure [Storage Devices], iscsiop/PMSiSCSI_PersistentLogins, storage.msiscsi_persistentlogins, PMSiSCSI_PersistentLogins
+ms.date: 2/24/2018
+ms.keywords: "*PMSiSCSI_PersistentLogins, MSiSCSI_PersistentLogins, MSiSCSI_PersistentLogins structure [Storage Devices], PMSiSCSI_PersistentLogins, PMSiSCSI_PersistentLogins structure pointer [Storage Devices], _MSiSCSI_PersistentLogins, iscsiop/MSiSCSI_PersistentLogins, iscsiop/PMSiSCSI_PersistentLogins, storage.msiscsi_persistentlogins, structs-iSCSI_150a8086-8025-4140-9fdb-75d05bfcb0ac.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_PersistentLogins
 product: Windows
 targetos: Windows
-req.typenames: "*PMSiSCSI_PersistentLogins, MSiSCSI_PersistentLogins"
+req.typenames: MSiSCSI_PersistentLogins, *PMSiSCSI_PersistentLogins
 ---
 
 # _MSiSCSI_PersistentLogins structure
@@ -95,15 +95,15 @@ Miniport drivers that manage iSCSI initiators automatically establish persistent
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561556">ISCSI_Persistent_Login WMI Class</a>
+
+
+
 <a href="..\iscsiop\ns-iscsiop-_iscsi_persistent_login.md">ISCSI_Persistent_Login</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561556">ISCSI_Persistent_Login WMI Class</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561556">ISCSI_Persistent_Login WMI Class</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563096">MSiSCSI_PersistentLogins WMI Class</a>
 
 
 
@@ -111,5 +111,5 @@ Miniport drivers that manage iSCSI initiators automatically establish persistent
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_PersistentLogins structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_PersistentLogins structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

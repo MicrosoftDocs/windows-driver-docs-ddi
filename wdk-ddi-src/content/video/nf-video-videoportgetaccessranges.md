@@ -7,8 +7,8 @@ old-location: display\videoportgetaccessranges.htm
 old-project: display
 ms.assetid: 7a858b32-408e-4926-9aba-44046b0266e2
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: VideoPortGetAccessRanges function [Display Devices], VideoPortGetAccessRanges, display.videoportgetaccessranges, video/VideoPortGetAccessRanges, VideoPort_Functions_a0db7d5d-01be-4c3c-9ea2-2ebd9b8aaca3.xml
+ms.date: 2/24/2018
+ms.keywords: VideoPortGetAccessRanges, VideoPortGetAccessRanges function [Display Devices], VideoPort_Functions_a0db7d5d-01be-4c3c-9ea2-2ebd9b8aaca3.xml, display.videoportgetaccessranges, video/VideoPortGetAccessRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -156,15 +156,11 @@ If the <i>HwVidFindAdapter</i> function claims bus-relative access ranges and po
 
 ## -see-also
 
+<a href="..\video\nf-video-videoportsetbusdata.md">VideoPortSetBusData</a>
+
+
+
 <a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
-
-
-
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-
-
-
-<a href="..\miniport\ns-miniport-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
 
 
 
@@ -172,7 +168,15 @@ If the <i>HwVidFindAdapter</i> function claims bus-relative access ranges and po
 
 
 
-<a href="..\video\nf-video-videoportsetbusdata.md">VideoPortSetBusData</a>
+<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
+
+
+
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+
+
+<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
 
 
 
@@ -180,11 +184,7 @@ If the <i>HwVidFindAdapter</i> function claims bus-relative access ranges and po
 
 
 
-<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
-
-
-
-<a href="..\miniport\ns-miniport-_pci_common_config.md">PCI_COMMON_CONFIG</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 
 
@@ -196,5 +196,5 @@ If the <i>HwVidFindAdapter</i> function claims bus-relative access ranges and po
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortGetAccessRanges function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortGetAccessRanges function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

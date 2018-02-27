@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 2F654D79-7DB6-45C4-8E6D-2EBAEF2DA7F5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_reconfigureinterrupt, CLIENT_ReconfigureInterrupt callback function [Parallel Ports], CLIENT_ReconfigureInterrupt, GPIO_CLIENT_RECONFIGURE_INTERRUPT, GPIO_CLIENT_RECONFIGURE_INTERRUPT, gpioclx/CLIENT_ReconfigureInterrupt
+ms.keywords: CLIENT_ReconfigureInterrupt, CLIENT_ReconfigureInterrupt callback function [Parallel Ports], GPIO.client_reconfigureinterrupt, GPIO_CLIENT_RECONFIGURE_INTERRUPT, gpioclx/CLIENT_ReconfigureInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_ReconfigureInterrupt
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO"
+req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
 
 # GPIO_CLIENT_RECONFIGURE_INTERRUPT callback
@@ -143,7 +143,7 @@ The GPIO_CLIENT_RECONFIGURE_INTERRUPT function type is defined in the Gpioclx.h 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439449">CONTROLLER_ATTRIBUTE_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698256">GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS</a>
 
 
 
@@ -151,11 +151,11 @@ The GPIO_CLIENT_RECONFIGURE_INTERRUPT function type is defined in the Gpioclx.h 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439449">CONTROLLER_ATTRIBUTE_FLAGS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698256">GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS</a>
 
 
 

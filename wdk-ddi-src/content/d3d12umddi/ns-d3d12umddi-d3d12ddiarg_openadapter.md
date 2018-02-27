@@ -7,8 +7,8 @@ old-location: display\d3d12ddiarg_openadapter.htm
 old-project: display
 ms.assetid: 1FABEEBC-358C-40EB-8F5C-F834EE57A1A8
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3D12DDIARG_OPENADAPTER structure [Display Devices], d3d12umddi/D3D12DDIARG_OPENADAPTER, display.d3d12ddiarg_openadapter, D3D12DDIARG_OPENADAPTER
+ms.date: 2/24/2018
+ms.keywords: D3D12DDIARG_OPENADAPTER, D3D12DDIARG_OPENADAPTER structure [Display Devices], d3d12umddi/D3D12DDIARG_OPENADAPTER, display.d3d12ddiarg_openadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

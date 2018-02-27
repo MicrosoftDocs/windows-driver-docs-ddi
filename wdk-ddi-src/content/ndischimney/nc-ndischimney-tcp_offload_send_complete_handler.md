@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6f9c7964-e475-421c-99d6-f4fc31a26f02
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocoltcpoffloadsendcomplete, ProtocolTcpOffloadSendComplete callback function [Network Drivers Starting with Windows Vista], ProtocolTcpOffloadSendComplete, TCP_OFFLOAD_SEND_COMPLETE_HANDLER, TCP_OFFLOAD_SEND_COMPLETE_HANDLER, ndischimney/ProtocolTcpOffloadSendComplete, tcp_chim_protocol_func_5d69efad-e470-44ce-850f-b7693d1a1f2e.xml
+ms.keywords: ProtocolTcpOffloadSendComplete, ProtocolTcpOffloadSendComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_SEND_COMPLETE_HANDLER, ndischimney/ProtocolTcpOffloadSendComplete, netvista.protocoltcpoffloadsendcomplete, tcp_chim_protocol_func_5d69efad-e470-44ce-850f-b7693d1a1f2e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -139,7 +139,7 @@ In response, NDIS calls the overyling driver's
 
 ## -see-also
 
-<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpsend.md">NdisOffloadTcpSend</a>
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
 
 
 
@@ -147,7 +147,7 @@ In response, NDIS calls the overyling driver's
 
 
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
+<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpsend.md">NdisOffloadTcpSend</a>
 
 
 
@@ -155,7 +155,7 @@ In response, NDIS calls the overyling driver's
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpSendOffload</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 

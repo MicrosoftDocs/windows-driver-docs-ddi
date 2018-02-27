@@ -7,8 +7,8 @@ old-location: pos\linedisplayverticalbitmapalignment.htm
 old-project: pos
 ms.assetid: ADB42318-BE2F-4D70-912C-79D29DF12D72
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: LineDisplayVerticalBitmapAlignment enumeration, pos.linedisplayverticalbitmapalignment, LineDisplayVerticalBitmapAlignment, pointofservicecommontypes/LineDisplayVerticalBitmapAlignment, pointofservicecommontypes/
+ms.date: 2/23/2018
+ms.keywords: LineDisplayVerticalBitmapAlignment, LineDisplayVerticalBitmapAlignment enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayVerticalBitmapAlignment, pos.linedisplayverticalbitmapalignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

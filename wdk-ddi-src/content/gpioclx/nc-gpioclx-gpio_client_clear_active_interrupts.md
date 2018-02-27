@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 8D66F806-92BA-4A70-99F6-1C221E8752A3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_clearactiveinterrupts, CLIENT_ClearActiveInterrupts callback function [Parallel Ports], CLIENT_ClearActiveInterrupts, GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS, GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS, gpioclx/CLIENT_ClearActiveInterrupts
+ms.keywords: CLIENT_ClearActiveInterrupts, CLIENT_ClearActiveInterrupts callback function [Parallel Ports], GPIO.client_clearactiveinterrupts, GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS, gpioclx/CLIENT_ClearActiveInterrupts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_ClearActiveInterrupts
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO"
+req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
 
 # GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS callback
@@ -145,15 +145,7 @@ The GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS function type is defined in the Gpioclx.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698247">GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
 
 
@@ -161,7 +153,15 @@ The GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS function type is defined in the Gpioclx.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698247">GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS</a>
 
 
 

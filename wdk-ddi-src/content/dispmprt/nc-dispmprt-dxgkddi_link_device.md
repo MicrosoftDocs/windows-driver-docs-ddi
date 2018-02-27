@@ -7,8 +7,8 @@ old-location: display\dxgkddilinkdevice.htm
 old-project: display
 ms.assetid: fb9b7c58-1c4f-42e4-a59f-4a529d3caca2
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgkddilinkdevice, DxgkDdiLinkDevice callback function [Display Devices], DxgkDdiLinkDevice, DXGKDDI_LINK_DEVICE, DXGKDDI_LINK_DEVICE, dispmprt/DxgkDdiLinkDevice, DmFunctions_3dcba945-b441-49a2-9d1e-af0ff235136c.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_LINK_DEVICE, DmFunctions_3dcba945-b441-49a2-9d1e-af0ff235136c.xml, DxgkDdiLinkDevice, DxgkDdiLinkDevice callback function [Display Devices], display.dxgkddilinkdevice, dispmprt/DxgkDdiLinkDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -115,19 +115,17 @@ Plug and Play or power events cause the leading linked adapter to power up or st
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\dispmprt\ns-dispmprt-_linked_device.md">LINKED_DEVICE</a>
 
 
 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
 
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_LINK_DEVICE callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_LINK_DEVICE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

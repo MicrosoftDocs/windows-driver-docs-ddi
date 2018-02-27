@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 688619b9-ab0b-4459-8f1b-74815043a190
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wskgetaddressinfo, WskGetAddressInfo callback function [Network Drivers Starting with Windows Vista], WskGetAddressInfo, PFN_WSK_GET_ADDRESS_INFO, PFN_WSK_GET_ADDRESS_INFO, wsk/WskGetAddressInfo, wskref_4b8f8dcc-eebb-4613-b130-3f7ae2921a8b.xml
+ms.keywords: PFN_WSK_GET_ADDRESS_INFO, WskGetAddressInfo, WskGetAddressInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskgetaddressinfo, wsk/WskGetAddressInfo, wskref_4b8f8dcc-eebb-4613-b130-3f7ae2921a8b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	WskGetAddressInfo
 product: Windows
 targetos: Windows
-req.typenames: "*PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO"
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -288,11 +288,11 @@ The process to which the
 
 
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

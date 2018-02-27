@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: E2C1705D-4E5E-4FB5-9889-24503ADB9A3C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_SERCX2_PIO_TRANSMIT_CONFIG, serports.sercx2_pio_transmit_config, PSERCX2_PIO_TRANSMIT_CONFIG, SERCX2_PIO_TRANSMIT_CONFIG, *PSERCX2_PIO_TRANSMIT_CONFIG, PSERCX2_PIO_TRANSMIT_CONFIG structure pointer [Serial Ports], 2/SERCX2_PIO_TRANSMIT_CONFIG, 2/PSERCX2_PIO_TRANSMIT_CONFIG, SERCX2_PIO_TRANSMIT_CONFIG structure [Serial Ports]"
+ms.keywords: "*PSERCX2_PIO_TRANSMIT_CONFIG, 2/PSERCX2_PIO_TRANSMIT_CONFIG, 2/SERCX2_PIO_TRANSMIT_CONFIG, PSERCX2_PIO_TRANSMIT_CONFIG, PSERCX2_PIO_TRANSMIT_CONFIG structure pointer [Serial Ports], SERCX2_PIO_TRANSMIT_CONFIG, SERCX2_PIO_TRANSMIT_CONFIG structure [Serial Ports], _SERCX2_PIO_TRANSMIT_CONFIG, serports.sercx2_pio_transmit_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SERCX2_PIO_TRANSMIT_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX2_PIO_TRANSMIT_CONFIG, SERCX2_PIO_TRANSMIT_CONFIG"
+req.typenames: SERCX2_PIO_TRANSMIT_CONFIG, *PSERCX2_PIO_TRANSMIT_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -136,19 +136,11 @@ The <a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCrea
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_drain_fifo.md">EvtSerCx2PioTransmitDrainFifo</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_initialize_transaction.md">EvtSerCx2PioTransmitInitializeTransaction</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2_pio_transmit_config_init.md">SERCX2_PIO_TRANSMIT_CONFIG_INIT</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_write_buffer.md">EvtSerCx2PioTransmitWriteBuffer</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_purge_fifo.md">EvtSerCx2PioTransmitPurgeFifo</a>
 
 
 
@@ -160,15 +152,23 @@ The <a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCrea
 
 
 
+<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_drain_fifo.md">EvtSerCx2PioTransmitDrainFifo</a>
+
+
+
 <a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_cancel_ready_notification.md">EvtSerCx2PioTransmitCancelReadyNotification</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_purge_fifo.md">EvtSerCx2PioTransmitPurgeFifo</a>
-
-
-
 <a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_enable_ready_notification.md">EvtSerCx2PioTransmitEnableReadyNotification</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_write_buffer.md">EvtSerCx2PioTransmitWriteBuffer</a>
 
 
 

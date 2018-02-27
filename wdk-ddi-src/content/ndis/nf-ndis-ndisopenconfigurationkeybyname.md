@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9ce7f40f-28f1-4303-9f7a-24ff1213bab1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisOpenConfigurationKeyByName, ndis_configuration_ref_b952e09a-cef5-46f7-b566-6995e8581862.xml, ndis/NdisOpenConfigurationKeyByName, NdisOpenConfigurationKeyByName function [Network Drivers Starting with Windows Vista], netvista.ndisopenconfigurationkeybyname
+ms.keywords: NdisOpenConfigurationKeyByName, NdisOpenConfigurationKeyByName function [Network Drivers Starting with Windows Vista], ndis/NdisOpenConfigurationKeyByName, ndis_configuration_ref_b952e09a-cef5-46f7-b566-6995e8581862.xml, netvista.ndisopenconfigurationkeybyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisOpenConfigurationKeyByName
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisOpenConfigurationKeyByName function
@@ -160,11 +160,7 @@ After a driver has consumed and, possibly, modified the registry configuration i
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 
@@ -180,8 +176,11 @@ After a driver has consumed and, possibly, modified the registry configuration i
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyindex.md">
-   NdisOpenConfigurationKeyByIndex</a>
+<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
 
 
 
@@ -189,11 +188,12 @@ After a driver has consumed and, possibly, modified the registry configuration i
 
 
 
-<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
+<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyindex.md">
+   NdisOpenConfigurationKeyByIndex</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: display\dxgkddipreemptcommand.htm
 old-project: display
 ms.assetid: 8cea02d4-f25e-4ff4-8c9e-aa360a764c4b
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgkddipreemptcommand, DxgkDdiPreemptCommand callback function [Display Devices], DxgkDdiPreemptCommand, DXGKDDI_PREEMPTCOMMAND, DXGKDDI_PREEMPTCOMMAND, d3dkmddi/DxgkDdiPreemptCommand, DmFunctions_a378e47e-622c-41bf-95e7-21e4088d7026.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_PREEMPTCOMMAND, DmFunctions_a378e47e-622c-41bf-95e7-21e4088d7026.xml, DxgkDdiPreemptCommand, DxgkDdiPreemptCommand callback function [Display Devices], d3dkmddi/DxgkDdiPreemptCommand, display.dxgkddipreemptcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -124,6 +124,10 @@ If the driver returns an error code, the Microsoft DirectX graphics kernel subsy
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_synchronize_execution.md">DxgkCbSynchronizeExecution</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a>
 
 
@@ -132,24 +136,11 @@ If the driver returns an error code, the Microsoft DirectX graphics kernel subsy
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
 
 
 
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_synchronize_execution.md">DxgkCbSynchronizeExecution</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_preemptcommand.md">DXGKARG_PREEMPTCOMMAND</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
@@ -157,5 +148,5 @@ If the driver returns an error code, the Microsoft DirectX graphics kernel subsy
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_PREEMPTCOMMAND callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_PREEMPTCOMMAND callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A307584E-CBF6-4CEB-8A0F-D519DA7599D3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_query_adapter_info, NdkQueryAdapterInfo callback function [Network Drivers Starting with Windows Vista], NdkQueryAdapterInfo, NDK_FN_QUERY_ADAPTER_INFO, NDK_FN_QUERY_ADAPTER_INFO, ndkpi/NdkQueryAdapterInfo
+ms.keywords: NDK_FN_QUERY_ADAPTER_INFO, NdkQueryAdapterInfo, NdkQueryAdapterInfo callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkQueryAdapterInfo, netvista.ndk_fn_query_adapter_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -159,11 +159,11 @@ An error occurred.
 
 
 
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
 
 
 

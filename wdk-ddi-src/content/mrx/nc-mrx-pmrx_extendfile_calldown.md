@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2fde7925-040b-4a8c-8a95-29321f1ae474
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.mrxextendforcache, MRxExtendForCache, MRxExtendForCache routine [Installable File System Drivers], MRxExtendForCache, PMRX_EXTENDFILE_CALLDOWN, PMRX_EXTENDFILE_CALLDOWN, mrx/MRxExtendForCache, mrxref_9d9e2b3a-589c-41a3-b786-fbaaab97814a.xml
+ms.keywords: MRxExtendForCache, MRxExtendForCache routine [Installable File System Drivers], PMRX_EXTENDFILE_CALLDOWN, ifsk.mrxextendforcache, mrx/MRxExtendForCache, mrxref_9d9e2b3a-589c-41a3-b786-fbaaab97814a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -131,7 +131,27 @@ A network mini-redirector that caches file or directory information may need to 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549847">MRxCollapseOpen</a>
+
+
+
 <a href="..\mrx\nc-mrx-pmrx_deallocate_for_fcb.md">MRxDeallocateForFcb</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_calldown.md">MRxCloseSrvOpen</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
 
 
 
@@ -143,15 +163,7 @@ A network mini-redirector that caches file or directory information may need to 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550691">MRxIsLockRealizable</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549847">MRxCollapseOpen</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
+<a href="..\mrx\nc-mrx-pmrx_deallocate_for_fobx.md">MRxDeallocateForFobx</a>
 
 
 
@@ -168,18 +180,6 @@ A network mini-redirector that caches file or directory information may need to 
 
 
 <a href="..\mrx\nc-mrx-pmrx_forceclosed_calldown.md">MRxForceClosed</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_deallocate_for_fobx.md">MRxDeallocateForFobx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_calldown.md">MRxCloseSrvOpen</a>
 
 
 

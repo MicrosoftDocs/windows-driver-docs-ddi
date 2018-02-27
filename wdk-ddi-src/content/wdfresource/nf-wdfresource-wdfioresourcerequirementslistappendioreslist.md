@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: efb3617d-86be-4380-ad1a-0a333d248168
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfIoResourceRequirementsListAppendIoResList, wdf.wdfioresourcerequirementslistappendioreslist, kmdf.wdfioresourcerequirementslistappendioreslist, wdfresource/WdfIoResourceRequirementsListAppendIoResList, DFResourceObjectRef_1d064295-4660-4112-9512-9c5ff7196485.xml, WdfIoResourceRequirementsListAppendIoResList method
+ms.keywords: DFResourceObjectRef_1d064295-4660-4112-9512-9c5ff7196485.xml, WdfIoResourceRequirementsListAppendIoResList, WdfIoResourceRequirementsListAppendIoResList method, kmdf.wdfioresourcerequirementslistappendioreslist, wdf.wdfioresourcerequirementslistappendioreslist, wdfresource/WdfIoResourceRequirementsListAppendIoResList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -186,11 +186,11 @@ Example_EvtDeviceResourceRequirementsQuery(
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistinsertioreslist.md">WdfIoResourceRequirementsListInsertIoResList</a>
-
-
-
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistcreate.md">WdfIoResourceListCreate</a>
+
+
+
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistinsertioreslist.md">WdfIoResourceRequirementsListInsertIoResList</a>
 
 
 

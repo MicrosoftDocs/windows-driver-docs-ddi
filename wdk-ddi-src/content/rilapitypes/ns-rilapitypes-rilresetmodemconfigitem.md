@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9ac8f93e-4eac-47ec-bc1d-090abb339626
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*LPRILRESETMODEMCONFIGITEM, RILRESETMODEMCONFIGITEM, rilapitypes/RILRESETMODEMCONFIGITEM, RILRESETMODEMCONFIGITEM structure [Network Drivers Starting with Windows Vista], netvista.rilresetmodemconfigitem_2"
+ms.keywords: "*LPRILRESETMODEMCONFIGITEM, RILRESETMODEMCONFIGITEM, RILRESETMODEMCONFIGITEM structure [Network Drivers Starting with Windows Vista], netvista.rilresetmodemconfigitem_2, rilapitypes/RILRESETMODEMCONFIGITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

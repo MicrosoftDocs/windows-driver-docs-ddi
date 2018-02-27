@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 53f94e25-ca6c-4230-8447-d36774322dc7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisMCmRegisterSapComplete, netvista.ndismcmregistersapcomplete, NdisMCmRegisterSapComplete, condis_mcm_ref_4b7dfebf-1828-41cd-9645-0fc6774cc9a8.xml, NdisMCmRegisterSapComplete macro [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisMCmRegisterSapComplete, NdisMCmRegisterSapComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_4b7dfebf-1828-41cd-9645-0fc6774cc9a8.xml, ndis/NdisMCmRegisterSapComplete, netvista.ndismcmregistersapcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisMCmRegisterSapComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmRegisterSapComplete macro
@@ -142,20 +142,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmregistersapcomplete.md">NdisCmRegisterSapComplete</a>
 
 
 
@@ -165,6 +152,19 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmregistersapcomplete.md">NdisCmRegisterSapComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
 
 
 

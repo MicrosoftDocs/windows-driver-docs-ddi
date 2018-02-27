@@ -7,8 +7,8 @@ old-location: kernel\iowmiopenblock.htm
 old-project: kernel
 ms.assetid: c23d1861-59df-4bd4-a005-173ccac53049
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.iowmiopenblock, IoWMIOpenBlock routine [Kernel-Mode Driver Architecture], wdm/IoWMIOpenBlock, IoWMIOpenBlock, k104_19f378c4-3729-4668-aef0-0e675d2e1ae4.xml
+ms.date: 2/24/2018
+ms.keywords: IoWMIOpenBlock, IoWMIOpenBlock routine [Kernel-Mode Driver Architecture], k104_19f378c4-3729-4668-aef0-0e675d2e1ae4.xml, kernel.iowmiopenblock, wdm/IoWMIOpenBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,31 +142,7 @@ Use <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> to cl
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmisetnotificationcallback.md">IoWMISetNotificationCallback</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowmiqueryalldata.md">IoWMIQueryAllData</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowmiexecutemethod.md">IoWMIExecuteMethod</a>
-
-
-
 <a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetSingleItem</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowmiquerysingleinstancemultiple.md">IoWMIQuerySingleInstanceMultiple</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowmiqueryalldatamultiple.md">IoWMIQueryAllDataMultiple</a>
 
 
 
@@ -174,13 +150,37 @@ Use <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> to cl
 
 
 
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
 <a href="..\wdm\nf-wdm-iowmiexecutemethod.md">IoWMIExecuteMethod</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-iowmiqueryalldatamultiple.md">IoWMIQueryAllDataMultiple</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmisetnotificationcallback.md">IoWMISetNotificationCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmiquerysingleinstancemultiple.md">IoWMIQuerySingleInstanceMultiple</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmiqueryalldata.md">IoWMIQueryAllData</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoWMIOpenBlock routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoWMIOpenBlock routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

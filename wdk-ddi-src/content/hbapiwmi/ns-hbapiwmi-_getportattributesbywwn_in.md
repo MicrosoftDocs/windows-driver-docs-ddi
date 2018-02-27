@@ -7,8 +7,8 @@ old-location: storage\getportattributesbywwn_in.htm
 old-project: storage
 ms.assetid: 2b189ece-6c49-42e2-8ef2-b3db516fc844
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PGetPortAttributesByWWN_IN, hbapiwmi/GetPortAttributesByWWN_IN, storage.getportattributesbywwn_in, *PGetPortAttributesByWWN_IN, _GetPortAttributesByWWN_IN, PGetPortAttributesByWWN_IN structure pointer [Storage Devices], GetPortAttributesByWWN_IN structure [Storage Devices], structs-Fibre_0093904b-888e-48de-ba79-5302d0ed6b75.xml, hbapiwmi/PGetPortAttributesByWWN_IN, GetPortAttributesByWWN_IN
+ms.date: 2/24/2018
+ms.keywords: "*PGetPortAttributesByWWN_IN, GetPortAttributesByWWN_IN, GetPortAttributesByWWN_IN structure [Storage Devices], PGetPortAttributesByWWN_IN, PGetPortAttributesByWWN_IN structure pointer [Storage Devices], _GetPortAttributesByWWN_IN, hbapiwmi/GetPortAttributesByWWN_IN, hbapiwmi/PGetPortAttributesByWWN_IN, storage.getportattributesbywwn_in, structs-Fibre_0093904b-888e-48de-ba79-5302d0ed6b75.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GetPortAttributesByWWN_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PGetPortAttributesByWWN_IN, GetPortAttributesByWWN_IN"
+req.typenames: GetPortAttributesByWWN_IN, *PGetPortAttributesByWWN_IN
 ---
 
 # _GetPortAttributesByWWN_IN structure
@@ -93,5 +93,5 @@ For a definition of FC_Port and a discussion of worldwide names, see the T11 com
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetPortAttributesByWWN_IN structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetPortAttributesByWWN_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

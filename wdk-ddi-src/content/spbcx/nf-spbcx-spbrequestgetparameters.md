@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 676C28C4-E6F3-4190-927B-67D5618F5645
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SPB.spbrequestgetparameters, SpbRequestGetParameters method [Buses], spbcx/SpbRequestGetParameters, SpbRequestGetParameters
+ms.keywords: SPB.spbrequestgetparameters, SpbRequestGetParameters, SpbRequestGetParameters method [Buses], spbcx/SpbRequestGetParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	SpbRequestGetParameters
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE"
+req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -121,7 +121,7 @@ SpbRequestGetParameters(spbRequest, &amp;parameters);
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SPB_REQUEST_PARAMETERS</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
 
 
 
@@ -129,7 +129,7 @@ SpbRequestGetParameters(spbRequest, &amp;parameters);
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406210">SPB_REQUEST_PARAMETERS_INIT</a>
 
 
 

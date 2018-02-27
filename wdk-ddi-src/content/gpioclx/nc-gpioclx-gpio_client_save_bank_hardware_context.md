@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: D2D2E231-E174-4C9F-96C3-35E744212F18
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_savebankhardwarecontext, CLIENT_SaveBankHardwareContext callback function [Parallel Ports], CLIENT_SaveBankHardwareContext, GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT, GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT, gpioclx/CLIENT_SaveBankHardwareContext
+ms.keywords: CLIENT_SaveBankHardwareContext, CLIENT_SaveBankHardwareContext callback function [Parallel Ports], GPIO.client_savebankhardwarecontext, GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT, gpioclx/CLIENT_SaveBankHardwareContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_SaveBankHardwareContext
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO"
+req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
 
 # GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT callback
@@ -147,11 +147,11 @@ The GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT function type is defined in the Gpioc
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439414">CLIENT_RestoreBankHardwareContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 
 
@@ -167,7 +167,7 @@ The GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT function type is defined in the Gpioc
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 

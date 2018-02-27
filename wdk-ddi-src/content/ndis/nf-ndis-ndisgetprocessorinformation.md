@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2cee5cf4-7dee-49d2-905c-2b9634137ce4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisGetProcessorInformation function [Network Drivers Starting with Windows Vista], netvista.ndisgetprocessorinformation, NdisGetProcessorInformation, ndis/NdisGetProcessorInformation, ndis_sysinfo_ref_1479e4eb-4467-48da-bab6-1f60993f5ef2.xml
+ms.keywords: NdisGetProcessorInformation, NdisGetProcessorInformation function [Network Drivers Starting with Windows Vista], ndis/NdisGetProcessorInformation, ndis_sysinfo_ref_1479e4eb-4467-48da-bab6-1f60993f5ef2.xml, netvista.ndisgetprocessorinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisGetProcessorInformation
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGetProcessorInformation function
@@ -140,13 +140,8 @@ RSS-capable miniport drivers that support MSI-X call
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisgetprocessorinformationex.md">
-   NdisGetProcessorInformationEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisgetprocessorinformationex.md">
-   NdisGetProcessorInformationEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+   MiniportFilterResourceRequirements</a>
 
 
 
@@ -156,6 +151,11 @@ RSS-capable miniport drivers that support MSI-X call
 
 <a href="..\ndis\nf-ndis-ndisgetrssprocessorinformation.md">
    NdisGetRssProcessorInformation</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisgetprocessorinformationex.md">
+   NdisGetProcessorInformationEx</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 181B2619-A8A8-45ED-935B-B4F12A0695E0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.sercx2customreceivetransactionnewdatanotification, SerCx2CustomReceiveTransactionNewDataNotification, SerCx2CustomReceiveTransactionNewDataNotification method [Serial Ports], 2/SerCx2CustomReceiveTransactionNewDataNotification
+ms.keywords: 2/SerCx2CustomReceiveTransactionNewDataNotification, SerCx2CustomReceiveTransactionNewDataNotification, SerCx2CustomReceiveTransactionNewDataNotification method [Serial Ports], serports.sercx2customreceivetransactionnewdatanotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SerCx2CustomReceiveTransactionNewDataNotification
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
+req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
 
@@ -103,11 +103,11 @@ If a serial controller driver supports new-data notifications for custom-receive
 
 
 
-<a href="https://msdn.microsoft.com/C3E446AB-17AA-4FD8-8245-16D95134B0E7">EvtSerCx2CustomReceiveTransactionEnableNewDataNotification</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/C3E446AB-17AA-4FD8-8245-16D95134B0E7">EvtSerCx2CustomReceiveTransactionEnableNewDataNotification</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: kernel\rtl_osversioninfoexw.htm
 old-project: kernel
 ms.assetid: 88471e00-4913-44fd-b9f4-960ec46fb75a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: wdm/RTL_OSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, *POSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW structure pointer [Kernel-Mode Driver Architecture], kstruct_d_a7e48147-5619-4ab4-b83a-18139aa0a2c5.xml, _OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, kernel.rtl_osversioninfoexw, OSVERSIONINFOEX, wdm/PRTL_OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW structure [Kernel-Mode Driver Architecture], OSVERSIONINFOEXW
+ms.date: 2/24/2018
+ms.keywords: "*LPOSVERSIONINFOEXW, *POSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, OSVERSIONINFOEX, OSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW structure pointer [Kernel-Mode Driver Architecture], RTL_OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW structure [Kernel-Mode Driver Architecture], _OSVERSIONINFOEXW, kernel.rtl_osversioninfoexw, kstruct_d_a7e48147-5619-4ab4-b83a-18139aa0a2c5.xml, wdm/PRTL_OSVERSIONINFOEXW, wdm/RTL_OSVERSIONINFOEXW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RTL_OSVERSIONINFOEXW
 product: Windows
 targetos: Windows
-req.typenames: "*LPOSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, *POSVERSIONINFOEXW, OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW"
+req.typenames: OSVERSIONINFOEXW, *POSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW
 req.product: Windows 10 or later.
 ---
 
@@ -607,11 +607,11 @@ Not applicable
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFOW</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
+
+
+
+<a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFOW</a>
 
 
 
@@ -623,5 +623,5 @@ Not applicable
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RTL_OSVERSIONINFOEXW structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RTL_OSVERSIONINFOEXW structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

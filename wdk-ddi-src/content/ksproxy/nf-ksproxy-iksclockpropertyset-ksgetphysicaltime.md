@@ -7,8 +7,8 @@ old-location: stream\iksclockpropertyset_ksgetphysicaltime.htm
 old-project: stream
 ms.assetid: 25875f28-292f-40d9-8b29-ec9af49b0bc0
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KsGetPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface, ksproxy_d242cd7a-c210-41b2-9c3c-59900c79e351.xml, KsGetPhysicalTime, IKsClockPropertySet::KsGetPhysicalTime, IKsClockPropertySet, KsGetPhysicalTime method [Streaming Media Devices], ksproxy/IKsClockPropertySet::KsGetPhysicalTime, stream.iksclockpropertyset_ksgetphysicaltime, IKsClockPropertySet interface [Streaming Media Devices], KsGetPhysicalTime method
+ms.date: 2/23/2018
+ms.keywords: IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], KsGetPhysicalTime method, IKsClockPropertySet::KsGetPhysicalTime, KsGetPhysicalTime method [Streaming Media Devices], KsGetPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface, KsGetPhysicalTime,IKsClockPropertySet.KsGetPhysicalTime, ksproxy/IKsClockPropertySet::KsGetPhysicalTime, ksproxy_d242cd7a-c210-41b2-9c3c-59900c79e351.xml, stream.iksclockpropertyset_ksgetphysicaltime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -106,5 +106,5 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsClockPropertySet::KsGetPhysicalTime method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsClockPropertySet::KsGetPhysicalTime method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

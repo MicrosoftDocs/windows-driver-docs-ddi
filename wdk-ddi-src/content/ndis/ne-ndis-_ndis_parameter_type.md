@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f17e390a-fa13-4435-ad1e-3fecc035ec41
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisParameterHexInteger, _NDIS_PARAMETER_TYPE, *PNDIS_PARAMETER_TYPE, PNDIS_PARAMETER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ndis_configuration_ref_05a453df-2660-470b-8eaf-7a59dcb20e04.xml, ndis/NdisParameterBinary, NdisParameterInteger, ndis/PNDIS_PARAMETER_TYPE, NdisParameterBinary, ndis/NDIS_PARAMETER_TYPE, ndis/NdisParameterString, ndis/NdisParameterInteger, ndis/NdisParameterHexInteger, NdisParameterString, PNDIS_PARAMETER_TYPE, netvista.ndis_parameter_type, NDIS_PARAMETER_TYPE, NDIS_PARAMETER_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisParameterMultiString, ndis/NdisParameterMultiString
+ms.keywords: "*PNDIS_PARAMETER_TYPE, NDIS_PARAMETER_TYPE, NDIS_PARAMETER_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisParameterBinary, NdisParameterHexInteger, NdisParameterInteger, NdisParameterMultiString, NdisParameterString, PNDIS_PARAMETER_TYPE, PNDIS_PARAMETER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_PARAMETER_TYPE, ndis/NDIS_PARAMETER_TYPE, ndis/NdisParameterBinary, ndis/NdisParameterHexInteger, ndis/NdisParameterInteger, ndis/NdisParameterMultiString, ndis/NdisParameterString, ndis/PNDIS_PARAMETER_TYPE, ndis_configuration_ref_05a453df-2660-470b-8eaf-7a59dcb20e04.xml, netvista.ndis_parameter_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PARAMETER_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PARAMETER_TYPE, NDIS_PARAMETER_TYPE"
+req.typenames: NDIS_PARAMETER_TYPE, *PNDIS_PARAMETER_TYPE
 ---
 
 # _NDIS_PARAMETER_TYPE enumeration

@@ -4,11 +4,11 @@ title: IWiaImageFilter
 author: windows-driver-content
 description: The IWiaImageFilter interface is an extension interface implemented by image processing filter developers and called by Microsoft Windows Image Acquisition (WIA).
 old-location: image\iwiaimagefilter_interface.htm
-old-project: Image
+old-project: image
 ms.assetid: de74898b-ac04-468d-874d-7ca281e22a86
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: image.iwiaimagefilter_interface, IWiaImageFilter interface [Imaging Devices], IWiaImageFilter interface [Imaging Devices], described, IWiaImageFilter, wia_lh/IWiaImageFilter, IWiaErrorHandler_3922a578-25ee-448c-a0db-c339711ad2cb.xml
+ms.date: 2/23/2018
+ms.keywords: IWiaErrorHandler_3922a578-25ee-448c-a0db-c339711ad2cb.xml, IWiaImageFilter, IWiaImageFilter interface [Imaging Devices], IWiaImageFilter interface [Imaging Devices], described, image.iwiaimagefilter_interface, wia_lh/IWiaImageFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -40,7 +40,7 @@ apiname:
 -	IWiaImageFilter
 product: Windows
 targetos: Windows
-req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
+req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -52,6 +52,13 @@ req.product: Windows 10 or later.
 
 The <b>IWiaImageFilter</b> interface is an extension interface implemented by image processing filter developers and called by Microsoft Windows Image Acquisition (WIA).
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaImageFilter</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWiaImageFilter</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -79,9 +86,5 @@ The <b>IWiaImageFilter::InitializeFilter</b> method stores the references to <i>
 
 </td>
 </tr>
-</table>The <b>IWiaImageFilter::FilterPreviewImage</b> method is called by the WIA Preview component, when an application calls the <b>IWiaPreview::UpdatePreview</b> method.
-
-The <b>IWiaImageFilter::InitializeFilter</b> method stores the references to <i>pWiaItem2</i> and <i>pWiaTransferCallback</i> parameters passed into the method.
-
- 
+</table> 
 

@@ -7,8 +7,8 @@ old-location: stream\kspindataintersectionex.htm
 old-project: stream
 ms.assetid: 4d471d91-7b2c-441d-a640-4f66ef7f1b2f
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.kspindataintersectionex, KsPinDataIntersectionEx, KsPinDataIntersectionEx function [Streaming Media Devices], ksfunc_22cbace6-b96b-44d7-9c30-24580f37dd58.xml, ks/KsPinDataIntersectionEx
+ms.date: 2/23/2018
+ms.keywords: KsPinDataIntersectionEx, KsPinDataIntersectionEx function [Streaming Media Devices], ks/KsPinDataIntersectionEx, ksfunc_22cbace6-b96b-44d7-9c30-24580f37dd58.xml, stream.kspindataintersectionex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -166,5 +166,5 @@ These differences excepted, <b>KsPinDataIntersection</b> and <b>KsPinDataInterse
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinDataIntersectionEx function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinDataIntersectionEx function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

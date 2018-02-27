@@ -7,8 +7,8 @@ old-location: display\d3dkmdt_gdisurfacedata.htm
 old-project: display
 ms.assetid: 7ae789dd-2454-4ed6-bd26-5ebfd9c33768
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: "_D3DKMDT_GDISURFACEDATA, display.d3dkmdt_gdisurfacedata, D3DKMDT_GDISURFACEDATA structure [Display Devices], DmStructs_91525c19-9d84-4406-b456-c6d80cb0f1d3.xml, D3DKMDT_GDISURFACEDATA, d3dkmdt/D3DKMDT_GDISURFACEDATA"
+ms.date: 2/24/2018
+ms.keywords: D3DKMDT_GDISURFACEDATA, D3DKMDT_GDISURFACEDATA structure [Display Devices], DmStructs_91525c19-9d84-4406-b456-c6d80cb0f1d3.xml, _D3DKMDT_GDISURFACEDATA, d3dkmdt/D3DKMDT_GDISURFACEDATA, display.d3dkmdt_gdisurfacedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,11 +125,7 @@ The D3DKMDT_GDISURFACEDATA structure is passed by the Microsoft DirectX graphics
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md">DxgkDdiGetStandardAllocationDriverData</a>
-
-
-
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
 
 
@@ -137,7 +133,11 @@ The D3DKMDT_GDISURFACEDATA structure is passed by the Microsoft DirectX graphics
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md">DxgkDdiGetStandardAllocationDriverData</a>
 
 
 
@@ -145,5 +145,5 @@ The D3DKMDT_GDISURFACEDATA structure is passed by the Microsoft DirectX graphics
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_GDISURFACEDATA structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_GDISURFACEDATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

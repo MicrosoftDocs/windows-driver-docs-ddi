@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3331C043-CFB2-434C-8475-2F5F094F2460
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.evt_vmb_channel_pnp_failure, EvtChannelPnpFailure callback function [Network Drivers Starting with Windows Vista], EvtChannelPnpFailure, EVT_VMB_CHANNEL_PNP_FAILURE, EVT_VMB_CHANNEL_PNP_FAILURE, vmbuskernelmodeclientlibapi/EvtChannelPnpFailure, PFN_VMB_CHANNEL_PNP_FAILURE callback function pointer [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_PNP_FAILURE
+ms.keywords: EVT_VMB_CHANNEL_PNP_FAILURE, EvtChannelPnpFailure, EvtChannelPnpFailure callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_PNP_FAILURE, PFN_VMB_CHANNEL_PNP_FAILURE callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_pnp_failure, vmbuskernelmodeclientlibapi/EvtChannelPnpFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

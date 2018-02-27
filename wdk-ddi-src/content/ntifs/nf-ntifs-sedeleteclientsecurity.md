@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 413469b9-2f6c-4f4d-8723-80645a72744c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: seref_bab4478e-d302-478b-8819-79c9b2f79aa7.xml, SeDeleteClientSecurity routine [Installable File System Drivers], ifsk.sedeleteclientsecurity, SeDeleteClientSecurity, ntifs/SeDeleteClientSecurity
+ms.keywords: SeDeleteClientSecurity, SeDeleteClientSecurity routine [Installable File System Drivers], ifsk.sedeleteclientsecurity, ntifs/SeDeleteClientSecurity, seref_bab4478e-d302-478b-8819-79c9b2f79aa7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

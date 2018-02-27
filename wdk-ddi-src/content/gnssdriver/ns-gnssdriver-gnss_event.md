@@ -7,8 +7,8 @@ old-location: sensors\gnss_event.htm
 old-project: sensors
 ms.assetid: FECF2444-CFF7-4B4D-AC3A-D3DD9B045AFD
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: sensors.gnss_event, GNSS_EVENT, PGNSS_EVENT structure pointer [Sensor Devices], PGNSS_EVENT, *PGNSS_EVENT, GNSS_EVENT structure [Sensor Devices], gnssdriver/GNSS_EVENT, gnssdriver/PGNSS_EVENT
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_EVENT, GNSS_EVENT, GNSS_EVENT structure [Sensor Devices], PGNSS_EVENT, PGNSS_EVENT structure pointer [Sensor Devices], gnssdriver/GNSS_EVENT, gnssdriver/PGNSS_EVENT, sensors.gnss_event"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -114,39 +114,9 @@ The GNSS driver must fill in appropriate size to avoid excessive data-copy betwe
 
 
 
-#### - Unused[512]
-
-Padding buffer.
-
-
-#### - FixData
-
-This structure is filled if EventType is GNSS_Fix_Available.
-
-
 #### - AgnssRequest
 
 This structure is filled if EventType is GNSS_Require_Agnss.
-
-
-#### - NiRequest
-
-This structure is filled if EventType is GNSS_Event_Ni.
-
-
-#### - ErrorInformation
-
-This structure is filled if EventType is GNSS_Error.
-
-
-#### - NmeaData
-
-This structure is filled if EventType is GNSS_Event_NmeaData.
-
-
-#### - GeofenceAlertData
-
-This structure is filled if EventType is GNSS_Event_GeofenceAlertData.
 
 
 #### - BreadcrumbAlertData
@@ -154,9 +124,9 @@ This structure is filled if EventType is GNSS_Event_GeofenceAlertData.
 This structure contains alert information for when the breadcrumb buffer has reached a level where OS read operations should be performed.
 
 
-#### - GeofencesTrackingStatus
+#### - CustomData[ANYSIZE_ARRAY]
 
-This structure is filled if EventType is GNSS_Event_GeofencesTrackingStatus.
+Custom data field.
 
 
 #### - DriverRequestData
@@ -164,9 +134,39 @@ This structure is filled if EventType is GNSS_Event_GeofencesTrackingStatus.
 This structure is filled if EventType is GNSS_Event_DriverRequest.
 
 
-#### - CustomData[ANYSIZE_ARRAY]
+#### - ErrorInformation
 
-Custom data field.
+This structure is filled if EventType is GNSS_Error.
+
+
+#### - FixData
+
+This structure is filled if EventType is GNSS_Fix_Available.
+
+
+#### - GeofenceAlertData
+
+This structure is filled if EventType is GNSS_Event_GeofenceAlertData.
+
+
+#### - GeofencesTrackingStatus
+
+This structure is filled if EventType is GNSS_Event_GeofencesTrackingStatus.
+
+
+#### - NiRequest
+
+This structure is filled if EventType is GNSS_Event_Ni.
+
+
+#### - NmeaData
+
+This structure is filled if EventType is GNSS_Event_NmeaData.
+
+
+#### - Unused[512]
+
+Padding buffer.
 
 
 ## -remarks

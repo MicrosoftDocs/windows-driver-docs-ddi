@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a79f6f98-1ebb-498e-9e20-cfdd22a0da7a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfRegistryOpenKey, wdfregistry/WdfRegistryOpenKey, WdfRegistryOpenKey method, kmdf.wdfregistryopenkey, DFRegKeyObjectRef_a53062c9-844d-4a0f-bfea-738b0adba93c.xml, wdf.wdfregistryopenkey
+ms.keywords: DFRegKeyObjectRef_a53062c9-844d-4a0f-bfea-738b0adba93c.xml, WdfRegistryOpenKey, WdfRegistryOpenKey method, kmdf.wdfregistryopenkey, wdf.wdfregistryopenkey, wdfregistry/WdfRegistryOpenKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -258,11 +258,11 @@ if (NT_SUCCESS(status)){
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryclose.md">WdfRegistryClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitopenregistrykey.md">WdfFdoInitOpenRegistryKey</a>
 
 
 
@@ -270,15 +270,11 @@ if (NT_SUCCESS(status)){
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a>
 
 
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryclose.md">WdfRegistryClose</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -290,7 +286,11 @@ if (NT_SUCCESS(status)){
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

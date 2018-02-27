@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 4223dd79-cac7-41bd-8c94-12baf8e8367a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SCO_INDICATION_CODE enumeration [Bluetooth Devices], bthddi/ScoIndicationRemoteConnect, _SCO_INDICATION_CODE, bthddi/SCO_INDICATION_CODE, ScoIndicationAddReference, bthddi/PSCO_INDICATION_CODE, bthddi/ScoIndicationReleaseReference, PSCO_INDICATION_CODE, bltooth.sco_indication_code, bthddi/ScoIndicationAddReference, ScoIndicationReleaseReference, ScoIndicationRemoteConnect, ScoIndicationRemoteDisconnect, bthddi/ScoIndicationRemoteDisconnect, *PSCO_INDICATION_CODE, PSCO_INDICATION_CODE enumeration pointer [Bluetooth Devices], SCO_INDICATION_CODE, bth_enums_e7290768-826f-4240-904c-07222b05d377.xml
+ms.keywords: "*PSCO_INDICATION_CODE, PSCO_INDICATION_CODE, PSCO_INDICATION_CODE enumeration pointer [Bluetooth Devices], SCO_INDICATION_CODE, SCO_INDICATION_CODE enumeration [Bluetooth Devices], ScoIndicationAddReference, ScoIndicationReleaseReference, ScoIndicationRemoteConnect, ScoIndicationRemoteDisconnect, _SCO_INDICATION_CODE, bltooth.sco_indication_code, bth_enums_e7290768-826f-4240-904c-07222b05d377.xml, bthddi/PSCO_INDICATION_CODE, bthddi/SCO_INDICATION_CODE, bthddi/ScoIndicationAddReference, bthddi/ScoIndicationReleaseReference, bthddi/ScoIndicationRemoteConnect, bthddi/ScoIndicationRemoteDisconnect"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

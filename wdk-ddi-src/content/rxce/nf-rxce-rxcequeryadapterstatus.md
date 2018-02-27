@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ebe9bec3-6c38-48d8-b9af-03aadbc09d98
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rxcequeryadapterstatus, rxce/RxCeQueryAdapterStatus, RxCeQueryAdapterStatus function [Installable File System Drivers], rxref_0813f428-95ae-47df-969c-c00563f3b3c8.xml, RxCeQueryAdapterStatus
+ms.keywords: RxCeQueryAdapterStatus, RxCeQueryAdapterStatus function [Installable File System Drivers], ifsk.rxcequeryadapterstatus, rxce/RxCeQueryAdapterStatus, rxref_0813f428-95ae-47df-969c-c00563f3b3c8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,7 +142,7 @@ The <i>pTransport</i> parameter passed to this routine was invalid.
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcequerytransportinformation.md">RxCeQueryTransportInformation</a>
+<a href="..\rxce\nf-rxce-rxcequeryinformation.md">RxCeQueryInformation</a>
 
 
 
@@ -150,7 +150,7 @@ The <i>pTransport</i> parameter passed to this routine was invalid.
 
 
 
-<a href="..\rxce\nf-rxce-rxcequeryinformation.md">RxCeQueryInformation</a>
+<a href="..\rxce\nf-rxce-rxcequerytransportinformation.md">RxCeQueryTransportInformation</a>
 
 
 

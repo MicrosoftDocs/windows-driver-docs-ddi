@@ -7,8 +7,8 @@ old-location: dtf\iwdtfdriverpackageaction2_isdigitalsigned.htm
 old-project: dtf
 ms.assetid: 421682aa-2e21-4650-bae0-f47e6beff632
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: IWDTFDriverPackageAction2::get_IsDigitalSigned, get_IsDigitalSigned, IsDigitalSigned property [Windows Device Testing Framework], IsDigitalSigned property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_IsDigitalSigned, IWDTFDriverPackageAction2.IsDigitalSigned, IWDTFDriverPackageAction2, Microsoft.WDTF.IWDTFDriverPackageAction2.IsDigitalSigned, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], IsDigitalSigned property, dtf.iwdtfdriverpackageaction2_isdigitalsigned, wdtfdriverpackageaction/IWDTFDriverPackageAction2::IsDigitalSigned, Microsoft::WDTF::IWDTFDriverPackageAction2::IsDigitalSigned
+ms.date: 2/23/2018
+ms.keywords: IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], IsDigitalSigned property, IWDTFDriverPackageAction2.IsDigitalSigned, IWDTFDriverPackageAction2::get_IsDigitalSigned, IsDigitalSigned property [Windows Device Testing Framework], IsDigitalSigned property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, Microsoft.WDTF.IWDTFDriverPackageAction2.IsDigitalSigned, Microsoft::WDTF::IWDTFDriverPackageAction2::IsDigitalSigned, dtf.iwdtfdriverpackageaction2_isdigitalsigned, get_IsDigitalSigned,IWDTFDriverPackageAction2.get_IsDigitalSigned, wdtfdriverpackageaction/IWDTFDriverPackageAction2::IsDigitalSigned, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_IsDigitalSigned
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -79,5 +79,5 @@ HRESULT get_IsDigitalSigned(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFDriverPackageAction2::IsDigitalSigned property%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFDriverPackageAction2::IsDigitalSigned property%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

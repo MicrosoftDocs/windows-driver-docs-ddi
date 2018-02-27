@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1925cfd4-f83f-48a5-b928-2c663ac0dc61
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, *PNDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, ndischimney/PNDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, _NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, ndischimney/NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, PNDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, tcp_chim_struct_8bfa1be6-3a5f-463a-a2c2-8f2a1f7e55e3.xml, netvista.ndis_client_chimney_offload_tcp_characteristics, NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PNDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, PNDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, ndischimney/NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, ndischimney/PNDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, netvista.ndis_client_chimney_offload_tcp_characteristics, tcp_chim_struct_8bfa1be6-3a5f-463a-a2c2-8f2a1f7e55e3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS"
+req.typenames: NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, *PNDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
 ---
 
 # _NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure
@@ -158,12 +158,17 @@ To register its TCP chimney offload entry points, a protocol or intermediate dri
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_send_complete_handler.md">
-   ProtocolTcpOffloadSendComplete</a>
+<a href="..\ndischimney\nc-ndischimney-tcp_offload_recv_complete_handler.md">
+   ProtocolTcpOffloadReceiveComplete</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-tcp_offload_disconnect_complete_handler.md">
+   ProtocolTcpOffloadDisconnectComplete</a>
 
 
 
@@ -179,17 +184,13 @@ To register its TCP chimney offload entry points, a protocol or intermediate dri
 
 
 
+<a href="..\ndischimney\nc-ndischimney-tcp_offload_send_complete_handler.md">
+   ProtocolTcpOffloadSendComplete</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-tcp_offload_receive_indicate_handler.md">
    ProtocolTcpOffloadReceiveIndicate</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_disconnect_complete_handler.md">
-   ProtocolTcpOffloadDisconnectComplete</a>
 
 
 

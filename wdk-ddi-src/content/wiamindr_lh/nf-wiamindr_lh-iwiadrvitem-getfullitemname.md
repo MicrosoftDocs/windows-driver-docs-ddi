@@ -4,11 +4,11 @@ title: IWiaDrvItem::GetFullItemName method
 author: windows-driver-content
 description: The IWiaDrvItem::GetFullItemName method gets the item's full name, including path information.
 old-location: image\iwiadrvitem_getfullitemname.htm
-old-project: Image
+old-project: image
 ms.assetid: 810faf49-faa9-45f2-af94-af576f4c1075
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GetFullItemName method [Imaging Devices], DrvItem_1b166476-d17a-4953-9c73-6e3d7c9cd0f9.xml, IWiaDrvItem interface [Imaging Devices], GetFullItemName method, IWiaDrvItem, GetFullItemName method [Imaging Devices], IWiaDrvItem interface, wiamindr_lh/IWiaDrvItem::GetFullItemName, IWiaDrvItem::GetFullItemName, image.iwiadrvitem_getfullitemname, GetFullItemName
+ms.date: 2/23/2018
+ms.keywords: DrvItem_1b166476-d17a-4953-9c73-6e3d7c9cd0f9.xml, GetFullItemName method [Imaging Devices], GetFullItemName method [Imaging Devices], IWiaDrvItem interface, GetFullItemName,IWiaDrvItem.GetFullItemName, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], GetFullItemName method, IWiaDrvItem::GetFullItemName, image.iwiadrvitem_getfullitemname, wiamindr_lh/IWiaDrvItem::GetFullItemName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -102,17 +102,17 @@ The name returned in <i>pbstrFullItemName </i>is the name associated with the it
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
-
-
-
 <a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>
 
 
 
- 
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IWiaDrvItem::GetFullItemName method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaDrvItem::GetFullItemName method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

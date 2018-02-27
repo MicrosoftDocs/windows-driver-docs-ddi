@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b2f996b1-0c1a-4ad5-a4c4-5d84ca94c5a1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rtlremoveunicodeprefix, RtlRemoveUnicodePrefix routine [Installable File System Drivers], rtlref_a6eb361a-f00b-4377-913c-8494c49d4064.xml, RtlRemoveUnicodePrefix, ntifs/RtlRemoveUnicodePrefix
+ms.keywords: RtlRemoveUnicodePrefix, RtlRemoveUnicodePrefix routine [Installable File System Drivers], ifsk.rtlremoveunicodeprefix, ntifs/RtlRemoveUnicodePrefix, rtlref_a6eb361a-f00b-4377-913c-8494c49d4064.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,10 +103,6 @@ For information about other string-handling routines, see <a href="https://msdn.
 ## -see-also
 
 <a href="..\ntifs\nf-ntifs-rtlnextunicodeprefix.md">RtlNextUnicodePrefix</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlinsertunicodeprefix.md">RtlInsertUnicodePrefix</a>
 
 
 

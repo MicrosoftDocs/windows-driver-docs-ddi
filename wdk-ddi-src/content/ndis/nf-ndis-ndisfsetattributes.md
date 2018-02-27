@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 66e20ac3-e97d-429d-868e-79c04881702b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisFSetAttributes, NdisFSetAttributes, netvista.ndisfsetattributes, filter_ndis_functions_ref_67ad6b8c-e7ae-45d7-9213-48e8a2b6c2ff.xml, NdisFSetAttributes function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisFSetAttributes, NdisFSetAttributes function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_67ad6b8c-e7ae-45d7-9213-48e8a2b6c2ff.xml, ndis/NdisFSetAttributes, netvista.ndisfsetattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFSetAttributes
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFSetAttributes function

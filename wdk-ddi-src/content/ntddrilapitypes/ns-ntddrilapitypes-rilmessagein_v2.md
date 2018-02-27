@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 44d4f693-4aab-4023-88b7-19c1bfcc7e5a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*LPRILMESSAGEIN, RILMESSAGEIN_V2, netvista.rilmessagein_v2, RILMESSAGEIN, RILMESSAGEIN_V2 structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMESSAGEIN_V2"
+ms.keywords: "*LPRILMESSAGEIN, RILMESSAGEIN, RILMESSAGEIN_V2, RILMESSAGEIN_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilmessagein_v2, ntddrilapitypes/RILMESSAGEIN_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILMESSAGEIN_V2
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILMESSAGEIN, RILMESSAGEIN_V2, RILMESSAGEIN"
+req.typenames: RILMESSAGEIN_V2, RILMESSAGEIN, *LPRILMESSAGEIN
 ---
 
 # RILMESSAGEIN_V2 structure

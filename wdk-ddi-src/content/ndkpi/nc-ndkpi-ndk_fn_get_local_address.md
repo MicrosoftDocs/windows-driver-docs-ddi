@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: EA7B1E9C-5777-4002-BCB3-57479B86993C
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_get_local_address, NdkGetLocalAddress callback function [Network Drivers Starting with Windows Vista], NdkGetLocalAddress, NDK_FN_GET_LOCAL_ADDRESS, NDK_FN_GET_LOCAL_ADDRESS, ndkpi/NdkGetLocalAddress
+ms.keywords: NDK_FN_GET_LOCAL_ADDRESS, NdkGetLocalAddress, NdkGetLocalAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetLocalAddress, netvista.ndk_fn_get_local_address
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -149,11 +149,11 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
-
-
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
 
 
 

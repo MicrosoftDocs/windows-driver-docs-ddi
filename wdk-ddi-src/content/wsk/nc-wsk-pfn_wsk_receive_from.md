@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 769fea0d-e35a-4385-8027-f1518c25b637
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wskreceivefrom, WskReceiveFrom callback function [Network Drivers Starting with Windows Vista], WskReceiveFrom, PFN_WSK_RECEIVE_FROM, PFN_WSK_RECEIVE_FROM, wsk/WskReceiveFrom, wskref_5c6ab859-3010-468f-8cb2-820cbb641a19.xml
+ms.keywords: PFN_WSK_RECEIVE_FROM, WskReceiveFrom, WskReceiveFrom callback function [Network Drivers Starting with Windows Vista], netvista.wskreceivefrom, wsk/WskReceiveFrom, wskref_5c6ab859-3010-468f-8cb2-820cbb641a19.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	WskReceiveFrom
 product: Windows
 targetos: Windows
-req.typenames: "*PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO"
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -302,7 +302,28 @@ If the
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
+   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
 
 
 
@@ -314,31 +335,11 @@ If the
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
-
-
-
 <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/sio-wsk-set-remote-address">SIO_WSK_SET_REMOTE_ADDRESS</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/sio-wsk-set-remote-address">SIO_WSK_SET_REMOTE_ADDRESS</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
 
 
 

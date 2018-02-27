@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0a4866a8-a2f2-447b-8aa9-73203b7fc4bb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/PNDIS_BIND_PARAMETERS, protocol_structures_ref_25c90ff2-4a09-41f2-8b66-666a91dbfe17.xml, netvista.ndis_bind_parameters, PNDIS_BIND_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_BIND_PARAMETERS, _NDIS_BIND_PARAMETERS, NDIS_BIND_PARAMETERS, *PNDIS_BIND_PARAMETERS, NDIS_BIND_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_BIND_PARAMETERS
+ms.keywords: "*PNDIS_BIND_PARAMETERS, NDIS_BIND_PARAMETERS, NDIS_BIND_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_BIND_PARAMETERS, PNDIS_BIND_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_BIND_PARAMETERS, ndis/NDIS_BIND_PARAMETERS, ndis/PNDIS_BIND_PARAMETERS, netvista.ndis_bind_parameters, protocol_structures_ref_25c90ff2-4a09-41f2-8b66-666a91dbfe17.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -541,81 +541,11 @@ NDIS passes a pointer to an NDIS_BIND_PARAMETERS structure in the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569074">OID_802_3_PERMANENT_ADDRESS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569597">OID_GEN_MAC_OPTIONS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569574">OID_GEN_CURRENT_LOOKAHEAD</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_capabilities.md">
-   NDIS_RECEIVE_FILTER_CAPABILITIES</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-802-3-maximum-list-size">OID_802_3_MAXIMUM_LIST_SIZE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_tcp_connection_offload.md">NDIS_TCP_CONNECTION_OFFLOAD</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_capabilities.md">NDIS_NIC_SWITCH_CAPABILITIES</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
-   OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
 
 
 
@@ -624,7 +554,11 @@ NDIS passes a pointer to an NDIS_BIND_PARAMETERS structure in the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info_array.md">NDIS_NIC_SWITCH_INFO_ARRAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
 
 
 
@@ -632,7 +566,16 @@ NDIS passes a pointer to an NDIS_BIND_PARAMETERS structure in the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+   OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569597">OID_GEN_MAC_OPTIONS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
 
 
 
@@ -640,11 +583,39 @@ NDIS passes a pointer to an NDIS_BIND_PARAMETERS structure in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569598">OID_GEN_MAXIMUM_FRAME_SIZE</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_tcp_connection_offload.md">NDIS_TCP_CONNECTION_OFFLOAD</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info_array.md">NDIS_NIC_SWITCH_INFO_ARRAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569074">OID_802_3_PERMANENT_ADDRESS</a>
 
 
 
@@ -652,11 +623,40 @@ NDIS passes a pointer to an NDIS_BIND_PARAMETERS structure in the
 
 
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_capabilities.md">
+   NDIS_RECEIVE_FILTER_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569598">OID_GEN_MAXIMUM_FRAME_SIZE</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569574">OID_GEN_CURRENT_LOOKAHEAD</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_capabilities.md">NDIS_NIC_SWITCH_CAPABILITIES</a>
 
 
 

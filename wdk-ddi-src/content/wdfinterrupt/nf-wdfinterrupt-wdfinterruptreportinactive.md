@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 322E70AA-5825-4199-B822-B48B12E62393
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf._wdfinterruptreportinactive, WdfInterruptReportInactive, wdf.wdfinterruptreportinactive, kmdf.wdfinterruptreportinactive, WdfInterruptReportInactive method, wdfinterrupt/WdfInterruptReportInactive
+ms.keywords: WdfInterruptReportInactive, WdfInterruptReportInactive method, kmdf._wdfinterruptreportinactive, kmdf.wdfinterruptreportinactive, wdf.wdfinterruptreportinactive, wdfinterrupt/WdfInterruptReportInactive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -7,8 +7,8 @@ old-location: storage\hwmsinterruptroutine.htm
 old-project: storage
 ms.assetid: d8e90489-c847-48e7-89c4-f7a397a8de14
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.hwmsinterruptroutine, HwMSInterruptRoutine routine [Storage Devices], HwMSInterruptRoutine, HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE, HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE, storport/HwMSInterruptRoutine, stormini_153bf378-505e-413b-90b2-24af3fd9d502.xml
+ms.date: 2/24/2018
+ms.keywords: HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE, HwMSInterruptRoutine, HwMSInterruptRoutine routine [Storage Devices], storage.hwmsinterruptroutine, stormini_153bf378-505e-413b-90b2-24af3fd9d502.xml, storport/HwMSInterruptRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -173,19 +173,9 @@ The <b>HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE</b> function type is defined in the
 
 
 
-To define an <b>HwMSInterruptRoutine</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+## -see-also
 
 <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
-
-
-
-<a href="..\storport\nf-storport-storportreleasemsispinlock.md">StorPortReleaseMSISpinLock</a>
-
-
-
-
-
-<a href="..\storport\nf-storport-storportacquiremsispinlock.md">StorPortAcquireMSISpinLock</a>
 
 
 
@@ -193,9 +183,17 @@ To define an <b>HwMSInterruptRoutine</b> callback function, you must first provi
 
 
 
- 
+<a href="..\storport\nf-storport-storportreleasemsispinlock.md">StorPortReleaseMSISpinLock</a>
+
+
+
+<a href="..\storport\nf-storport-storportacquiremsispinlock.md">StorPortAcquireMSISpinLock</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 06E7FC94-628D-4601-8173-F118043A13FB
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.reportfilterednetbufferlists, ReportFilteredNetBufferLists callback function [Network Drivers Starting with Windows Vista], ReportFilteredNetBufferLists, NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS, NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS, ndis/ReportFilteredNetBufferLists
+ms.keywords: NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS, ReportFilteredNetBufferLists, ReportFilteredNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/ReportFilteredNetBufferLists, netvista.reportfilterednetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -173,7 +173,11 @@ If the packet is being dropped due to policy based on the destination port, the 
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -181,11 +185,7 @@ If the packet is being dropped due to policy based on the destination port, the 
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/inf-addservice-directive">INF AddService Directive</a>
 
 
 
@@ -193,7 +193,7 @@ If the packet is being dropped due to policy based on the destination port, the 
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 953048ab-872c-4b94-8aef-bcfcb86ea4d8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iusbtargetpipecontinuousreadercallbackreadcomplete, IUsbTargetPipeContinuousReaderCallbackReadComplete interface, IUsbTargetPipeContinuousReaderCallbackReadComplete interface, described, IUsbTargetPipeContinuousReaderCallbackReadComplete, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadComplete, UMDFUSBref_bb387411-90fe-4347-910f-4c0fa535a309.xml, umdf.iusbtargetpipecontinuousreadercallbackreadcomplete
+ms.keywords: IUsbTargetPipeContinuousReaderCallbackReadComplete, IUsbTargetPipeContinuousReaderCallbackReadComplete interface, IUsbTargetPipeContinuousReaderCallbackReadComplete interface, described, UMDFUSBref_bb387411-90fe-4347-910f-4c0fa535a309.xml, umdf.iusbtargetpipecontinuousreadercallbackreadcomplete, wdf.iusbtargetpipecontinuousreadercallbackreadcomplete, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -40,7 +40,7 @@ apiname:
 -	IUsbTargetPipeContinuousReaderCallbackReadComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -57,6 +57,13 @@ req.product: Windows 10 or later.
 
 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUsbTargetPipeContinuousReaderCallbackReadComplete</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUsbTargetPipeContinuousReaderCallbackReadComplete</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -75,7 +82,5 @@ A driver's <a href="https://msdn.microsoft.com/946e0206-7609-4dc7-91c2-a6aadad91
 
 </td>
 </tr>
-</table>A driver's <a href="https://msdn.microsoft.com/946e0206-7609-4dc7-91c2-a6aadad91751">OnReaderCompletion</a> event callback function informs the driver that a continuous reader has successfully completed a read request.
-
- 
+</table> 
 

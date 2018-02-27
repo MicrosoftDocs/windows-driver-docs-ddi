@@ -7,8 +7,8 @@ old-location: display\dxgkddi_checkmultiplaneoverlaysupport3.htm
 old-project: display
 ms.assetid: 2EA7E8C4-51E0-4BDE-B69B-1A40FEB82952
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgkddi_checkmultiplaneoverlaysupport3, DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3 callback function [Display Devices], DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3, d3dkmddi/DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3, DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3 callback function [Display Devices], d3dkmddi/DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3, display.dxgkddi_checkmultiplaneoverlaysupport3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

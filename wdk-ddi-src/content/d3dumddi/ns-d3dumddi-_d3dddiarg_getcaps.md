@@ -7,8 +7,8 @@ old-location: display\d3dddiarg_getcaps.htm
 old-project: display
 ms.assetid: 50063bd0-c9d4-4013-8f83-8f9d92aa87c0
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: UMDisplayDriver_param_Structs_05260c15-4f63-4a85-b9c8-db53ed8135cd.xml, D3DDDIARG_GETCAPS structure [Display Devices], _D3DDDIARG_GETCAPS, D3DDDIARG_GETCAPS, d3dumddi/D3DDDIARG_GETCAPS, display.d3dddiarg_getcaps
+ms.date: 2/24/2018
+ms.keywords: D3DDDIARG_GETCAPS, D3DDDIARG_GETCAPS structure [Display Devices], UMDisplayDriver_param_Structs_05260c15-4f63-4a85-b9c8-db53ed8135cd.xml, _D3DDDIARG_GETCAPS, d3dumddi/D3DDDIARG_GETCAPS, display.d3dddiarg_getcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,17 +101,17 @@ For information on how to specify <b>D3DDDIARG_GETCAPS</b> member values along w
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
 
- 
+<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_GETCAPS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_GETCAPS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

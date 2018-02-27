@@ -7,8 +7,8 @@ old-location: dtf\iwdtfdriversetupsystemaction2.htm
 old-project: dtf
 ms.assetid: d825c8de-7565-494a-ae49-be404493945e
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfdriversetupsystemaction2, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], described, IWDTFDriverSetupSystemAction2, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2, Microsoft.WDTF.IWDTFDriverSetupSystemAction2
+ms.date: 2/23/2018
+ms.keywords: IWDTFDriverSetupSystemAction2, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFDriverSetupSystemAction2, dtf.iwdtfdriversetupsystemaction2, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -52,6 +52,13 @@ req.product: Windows 10 or later.
 
 Defines operations that control the system during driver setup.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFDriverSetupSystemAction2</b> interface inherits from <b>IWDTFAction2</b>. <b>IWDTFDriverSetupSystemAction2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -124,19 +131,5 @@ Waits until all device installations have completed.
 
 </td>
 </tr>
-</table>Clears the system device setup triage logs.
-
-Imports a driver packge to the system driver store.
-
-Returns a value that indicates whether a package has already been imported.
-
-Removes a driver package from the driver store.
-
-Rescan all devices in the system.
-
-Copies the driver setup triage logs.
-
-Waits until all device installations have completed.
-
- 
+</table> 
 

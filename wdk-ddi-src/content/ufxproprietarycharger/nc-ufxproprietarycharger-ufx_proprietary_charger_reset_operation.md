@@ -4,11 +4,11 @@ title: UFX_PROPRIETARY_CHARGER_RESET_OPERATION
 author: windows-driver-content
 description: The filter driver's implementation to reset a charger operation.
 old-location: buses\ufx_proprietary_charger_reset_operation.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: F307A139-B55A-4C29-BE2F-14C243115F8C
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.ufx_proprietary_charger_reset_operation, UfxProprietaryChargerReset callback function [Buses], UfxProprietaryChargerReset, UFX_PROPRIETARY_CHARGER_RESET_OPERATION, UFX_PROPRIETARY_CHARGER_RESET_OPERATION, ufxproprietarycharger/UfxProprietaryChargerReset, PFN_UFX_PROPRIETARY_CHARGER_RESET_OPERATION callback function pointer [Buses], PFN_UFX_PROPRIETARY_CHARGER_RESET_OPERATION
+ms.date: 2/24/2018
+ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_RESET_OPERATION, PFN_UFX_PROPRIETARY_CHARGER_RESET_OPERATION callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_RESET_OPERATION, UfxProprietaryChargerReset, UfxProprietaryChargerReset callback function [Buses], buses.ufx_proprietary_charger_reset_operation, ufxproprietarycharger/UfxProprietaryChargerReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	PFN_UFX_PROPRIETARY_CHARGER_RESET_OPERATION
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS"
+req.typenames: UFX_ENDPOINT_CALLBACKS, *PUFX_ENDPOINT_CALLBACKS
 req.product: Windows 10 or later.
 ---
 
@@ -106,5 +106,5 @@ To support handling of proprietary chargers, the USB lower filter driver must pu
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UFX_PROPRIETARY_CHARGER_RESET_OPERATION callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UFX_PROPRIETARY_CHARGER_RESET_OPERATION callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6ab11b97-e422-4ce9-b98b-51496974cb47
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMFreeSharedMemory, ndis/NdisMFreeSharedMemory, netvista.ndismfreesharedmemory, miniport_memory_shared_ref_1aab9bae-ae02-40ba-83ec-1dd880e207cf.xml, NdisMFreeSharedMemory function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisMFreeSharedMemory, NdisMFreeSharedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_1aab9bae-ae02-40ba-83ec-1dd880e207cf.xml, ndis/NdisMFreeSharedMemory, netvista.ndismfreesharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMFreeSharedMemory
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMFreeSharedMemory function
@@ -171,8 +171,8 @@ Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of 
 
 
 
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
-   NdisMAllocateSharedMemoryAsyncEx</a>
+<a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
+   MiniportSharedMemoryAllocateComplete</a>
 
 
 
@@ -184,12 +184,12 @@ Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of 
 
 
 
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
    NdisMAllocateSharedMemoryAsyncEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_shutdown.md">MiniportShutdownEx</a>
 
 
 

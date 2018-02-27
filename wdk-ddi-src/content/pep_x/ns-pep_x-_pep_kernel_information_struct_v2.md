@@ -7,8 +7,8 @@ old-location: kernel\pep_kernel_information.htm
 old-project: kernel
 ms.assetid: 4FBBEF08-3BDA-43B2-A05B-B6BFC2787FC6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: pep_x/PEP_KERNEL_INFORMATION, pep_x/PEP_KERNEL_INFORMATION_STRUCT_V1, *PPEP_KERNEL_INFORMATION, _PEP_KERNEL_INFORMATION_STRUCT_V1, PPEP_KERNEL_INFORMATION_STRUCT_V1 structure pointer [Kernel-Mode Driver Architecture], PEP_KERNEL_INFORMATION_STRUCT_V1, PEP_KERNEL_INFORMATION_STRUCT_V2, PEP_KERNEL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PPEP_KERNEL_INFORMATION_STRUCT_V2, *PPEP_KERNEL_INFORMATION_STRUCT_V1, pep_x/PPEP_KERNEL_INFORMATION_STRUCT_V1, _PEP_KERNEL_INFORMATION_STRUCT_V2, PPEP_KERNEL_INFORMATION_STRUCT_V1, kernel.pep_kernel_information, PEP_KERNEL_INFORMATION, PEP_KERNEL_INFORMATION_STRUCT_V1 structure [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: "*PPEP_KERNEL_INFORMATION, *PPEP_KERNEL_INFORMATION_STRUCT_V2, PEP_KERNEL_INFORMATION, PEP_KERNEL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PEP_KERNEL_INFORMATION_STRUCT_V1, PEP_KERNEL_INFORMATION_STRUCT_V1 structure [Kernel-Mode Driver Architecture], PEP_KERNEL_INFORMATION_STRUCT_V2, PPEP_KERNEL_INFORMATION_STRUCT_V1, PPEP_KERNEL_INFORMATION_STRUCT_V1 structure pointer [Kernel-Mode Driver Architecture], _PEP_KERNEL_INFORMATION_STRUCT_V2, kernel.pep_kernel_information, pep_x/PEP_KERNEL_INFORMATION, pep_x/PEP_KERNEL_INFORMATION_STRUCT_V1, pep_x/PPEP_KERNEL_INFORMATION_STRUCT_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_KERNEL_INFORMATION_STRUCT_V1
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_KERNEL_INFORMATION_STRUCT_V2, PEP_KERNEL_INFORMATION_STRUCT_V2"
+req.typenames: PEP_KERNEL_INFORMATION_STRUCT_V2, *PPEP_KERNEL_INFORMATION_STRUCT_V2
 ---
 
 # _PEP_KERNEL_INFORMATION_STRUCT_V2 structure
@@ -161,30 +161,15 @@ The <b>KernelInformation</b> parameter to the <a href="..\pepfx\nf-pepfx-pofxreg
 
 ## -see-also
 
+<a href="..\pepfx\nc-pepfx-pofxcallbackrequestcommon.md">RequestCommon</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186629">CompleteWork</a>
 
 
 
-<a href="..\pepfx\nc-pepfx-pofxcallbackupdateprocessoridlestate.md">UpdateProcessorIdleState</a>
-
-
-
-<a href="..\pepfx\nc-pepfx-pofxcallbackrequestworker.md">RequestWorker</a>
-
-
-
-<a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
-
-
-
-
-
-
-<a href="..\pepfx\nc-pepfx-pofxcallbackprocessorhalt.md">ProcessorHalt</a>
-
-
-
-<a href="..\pepfx\nc-pepfx-pofxcallbackupdateplatformidlestate.md">UpdatePlatformIdleState</a>
+<a href="..\pepfx\nc-pepfx-pofxcallbackplatformidleveto.md">PlatformIdleVeto</a>
 
 
 
@@ -192,7 +177,27 @@ The <b>KernelInformation</b> parameter to the <a href="..\pepfx\nf-pepfx-pofxreg
 
 
 
+<a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
+
+
+
+<a href="..\pepfx\nc-pepfx-pofxcallbackrequestworker.md">RequestWorker</a>
+
+
+
+<a href="..\pepfx\nc-pepfx-pofxcallbackprocessorhalt.md">ProcessorHalt</a>
+
+
+
 <a href="..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a>
+
+
+
+<a href="..\pepfx\nc-pepfx-pofxcallbackupdateprocessoridlestate.md">UpdateProcessorIdleState</a>
+
+
+
+<a href="..\pepfx\nc-pepfx-pofxcallbackupdateplatformidlestate.md">UpdatePlatformIdleState</a>
 
 
 
@@ -200,15 +205,11 @@ The <b>KernelInformation</b> parameter to the <a href="..\pepfx\nf-pepfx-pofxreg
 
 
 
-<a href="..\pepfx\nc-pepfx-pofxcallbackrequestcommon.md">RequestCommon</a>
-
-
-
 <a href="..\pepfx\nc-pepfx-pofxcallbackprocessoridleveto.md">ProcessorIdleVeto</a>
 
 
 
-<a href="..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a>
+<a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
 
 
 
@@ -216,5 +217,5 @@ The <b>KernelInformation</b> parameter to the <a href="..\pepfx\nf-pepfx-pofxreg
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_KERNEL_INFORMATION_STRUCT_V1 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_KERNEL_INFORMATION_STRUCT_V1 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d2d505e0-aeac-4871-8c60-d026b2833043
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtinterruptdpc, EvtInterruptDpc callback function, EvtInterruptDpc, EVT_WDF_INTERRUPT_DPC, EVT_WDF_INTERRUPT_DPC, wdfinterrupt/EvtInterruptDpc, DFInterruptObjectRef_9d7e9cb2-6cfd-4b39-82c8-8a29033e390a.xml, kmdf.evtinterruptdpc
+ms.keywords: DFInterruptObjectRef_9d7e9cb2-6cfd-4b39-82c8-8a29033e390a.xml, EVT_WDF_INTERRUPT_DPC, EvtInterruptDpc, EvtInterruptDpc callback function, kmdf.evtinterruptdpc, wdf.evtinterruptdpc, wdfinterrupt/EvtInterruptDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -159,11 +159,7 @@ The <b>EVT_WDF_INTERRUPT_DPC</b> function type is defined in the Wdfinterrupt.h 
 
 ## -see-also
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>
-
-
-
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a>
 
 
 
@@ -171,7 +167,11 @@ The <b>EVT_WDF_INTERRUPT_DPC</b> function type is defined in the Wdfinterrupt.h 
 
 
 
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a>
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>
+
+
+
+<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: audio\iporttopology.htm
 old-project: audio
 ms.assetid: 820b00e8-a917-4bef-ac36-e8103f59d998
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iporttopology, IPortTopology interface [Audio Devices], IPortTopology interface [Audio Devices], described, IPortTopology, portcls/IPortTopology, audmp-routines_88974b5c-4520-41ed-b0c7-75cceff72e0f.xml
+ms.date: 2/22/2018
+ms.keywords: IPortTopology, IPortTopology interface [Audio Devices], IPortTopology interface [Audio Devices], described, audio.iporttopology, audmp-routines_88974b5c-4520-41ed-b0c7-75cceff72e0f.xml, portcls/IPortTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

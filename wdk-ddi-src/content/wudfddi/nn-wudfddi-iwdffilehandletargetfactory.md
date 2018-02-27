@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b4754176-53a2-4ee4-a441-5d9a4a4a17e2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdffilehandletargetfactory, IWDFFileHandleTargetFactory interface, IWDFFileHandleTargetFactory interface, described, IWDFFileHandleTargetFactory, wudfddi/IWDFFileHandleTargetFactory, UMDFDeviceObjectRef_01a7fcc5-c259-4bad-b44c-9a20eeae1751.xml, umdf.iwdffilehandletargetfactory
+ms.keywords: IWDFFileHandleTargetFactory, IWDFFileHandleTargetFactory interface, IWDFFileHandleTargetFactory interface, described, UMDFDeviceObjectRef_01a7fcc5-c259-4bad-b44c-9a20eeae1751.xml, umdf.iwdffilehandletargetfactory, wdf.iwdffilehandletargetfactory, wudfddi/IWDFFileHandleTargetFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 The <b>IWDFFileHandleTargetFactory</b> interface is a factory interface that is used to create a file-handle-based target device object.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFFileHandleTargetFactory</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWDFFileHandleTargetFactory</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDFFileHandleTargetFactory</b> interface has these methods.
@@ -72,9 +79,7 @@ The <a href="https://msdn.microsoft.com/579a2cef-1e37-426c-9f69-8766dc9011ba">Cr
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/579a2cef-1e37-426c-9f69-8766dc9011ba">CreateFileHandleTarget</a> method creates a file-handle-based I/O target object.
-
- 
+</table> 
 
 
 ## -remarks

@@ -7,8 +7,8 @@ old-location: display\dxgkcbquerymonitorinterface.htm
 old-project: display
 ms.assetid: 0c23e72d-3eb9-4511-a386-1dcc2f4910b7
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgkcbquerymonitorinterface, DxgkCbQueryMonitorInterface callback function [Display Devices], DxgkCbQueryMonitorInterface, DXGKCB_QUERYMONITORINTERFACE, DXGKCB_QUERYMONITORINTERFACE, d3dkmddi/DxgkCbQueryMonitorInterface, DpFunctions_6d1b7fa2-c5ab-4fd0-8a60-740c5415777c.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKCB_QUERYMONITORINTERFACE, DpFunctions_6d1b7fa2-c5ab-4fd0-8a60-740c5415777c.xml, DxgkCbQueryMonitorInterface, DxgkCbQueryMonitorInterface callback function [Display Devices], d3dkmddi/DxgkCbQueryMonitorInterface, display.dxgkcbquerymonitorinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -106,5 +106,5 @@ NTSTATUS APIENTRY DxgkCbQueryMonitorInterface(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_QUERYMONITORINTERFACE callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_QUERYMONITORINTERFACE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

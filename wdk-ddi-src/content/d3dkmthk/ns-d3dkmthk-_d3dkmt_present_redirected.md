@@ -7,8 +7,8 @@ old-location: display\d3dkmt-present-redirected.htm
 old-project: display
 ms.assetid: a883d80a-0240-4a2a-b3d8-ca87080717ee
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DKMT_PRESENT_REDIRECTED structure [Display Devices], d3dkmthk/D3DKMT_PRESENT_REDIRECTED, display.d3dkmt-present-redirected, D3DKMT_PRESENT_REDIRECTED, _D3DKMT_PRESENT_REDIRECTED
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_PRESENT_REDIRECTED, D3DKMT_PRESENT_REDIRECTED structure [Display Devices], _D3DKMT_PRESENT_REDIRECTED, d3dkmthk/D3DKMT_PRESENT_REDIRECTED, display.d3dkmt-present-redirected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

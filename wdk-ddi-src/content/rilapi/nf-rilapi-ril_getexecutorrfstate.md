@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2ef0961b-4f7c-46a8-8cfa-aabbfc213565
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_GetExecutorRFState, rilapi/RIL_GetExecutorRFState, netvista.ril_getexecutorrfstate, RIL_GetExecutorRFState method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_GetExecutorRFState, RIL_GetExecutorRFState method [Network Drivers Starting with Windows Vista], netvista.ril_getexecutorrfstate, rilapi/RIL_GetExecutorRFState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_GetExecutorRFState
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

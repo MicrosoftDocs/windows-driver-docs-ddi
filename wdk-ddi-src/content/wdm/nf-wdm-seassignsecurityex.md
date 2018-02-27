@@ -7,8 +7,8 @@ old-location: kernel\seassignsecurityex.htm
 old-project: kernel
 ms.assetid: 94f6d3a3-7f0d-4f57-8240-3c4a10cf4488
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: k110_e014ad32-3cbd-47e6-908b-65357203ee59.xml, SeAssignSecurityEx, kernel.seassignsecurityex, wdm/SeAssignSecurityEx, SeAssignSecurityEx routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: SeAssignSecurityEx, SeAssignSecurityEx routine [Kernel-Mode Driver Architecture], k110_e014ad32-3cbd-47e6-908b-65357203ee59.xml, kernel.seassignsecurityex, wdm/SeAssignSecurityEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -353,10 +353,6 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
 <a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
 
 
@@ -365,7 +361,11 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
+<a href="..\wdm\nf-wdm-sedeassignsecurity.md">SeDeassignSecurity</a>
+
+
+
+<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
 
 
 
@@ -373,5 +373,5 @@ For more information about security and access control, see the documentation on
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20SeAssignSecurityEx routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20SeAssignSecurityEx routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

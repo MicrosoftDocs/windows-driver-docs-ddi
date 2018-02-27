@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 99bc222f-9c27-45b7-ade1-2401dfa41d7c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.ioctl_bth_get_device_info, IOCTL_BTH_GET_DEVICE_INFO control code [Bluetooth Devices], IOCTL_BTH_GET_DEVICE_INFO, bthioctl/IOCTL_BTH_GET_DEVICE_INFO, bth_ioctls_427504e3-7414-4d2c-b835-b612ed73ce01.xml
+ms.keywords: IOCTL_BTH_GET_DEVICE_INFO, IOCTL_BTH_GET_DEVICE_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_device_info, bth_ioctls_427504e3-7414-4d2c-b835-b612ed73ce01.xml, bthioctl/IOCTL_BTH_GET_DEVICE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_BTH_GET_DEVICE_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1"
+req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ---
 
 # IOCTL_BTH_GET_DEVICE_INFO IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -189,11 +189,11 @@ The BTH_DEVICE_INFO_LIST structure includes storage for the first BTH_DEVICE_INF
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_device_info_list.md">BTH_DEVICE_INFO_LIST</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
+
+
+
+<a href="..\bthioctl\ns-bthioctl-_bth_device_info_list.md">BTH_DEVICE_INFO_LIST</a>
 
 
 

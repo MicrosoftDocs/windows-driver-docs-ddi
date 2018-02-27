@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 63D3B055-A3B0-4A76-B53C-C5E87C40A52C
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PWWAN_IP_ADDRESS_STATE, wwan/WWAN_IP_ADDRESS_STATE, PWWAN_IP_ADDRESS_STATE structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_ip_address_state, WWAN_IP_ADDRESS_STATE, PWWAN_IP_ADDRESS_STATE, _WWAN_IP_ADDRESS_STATE, WWAN_IP_ADDRESS_STATE structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_IP_ADDRESS_STATE"
+ms.keywords: "*PWWAN_IP_ADDRESS_STATE, PWWAN_IP_ADDRESS_STATE, PWWAN_IP_ADDRESS_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_IP_ADDRESS_STATE, WWAN_IP_ADDRESS_STATE structure [Network Drivers Starting with Windows Vista], _WWAN_IP_ADDRESS_STATE, netvista.wwan_ip_address_state, wwan/PWWAN_IP_ADDRESS_STATE, wwan/WWAN_IP_ADDRESS_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7747645c-398f-434e-9f0c-21b6d3c7d963
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PNDIS_PM_PARAMETERS, netvista.ndis_pm_parameters, ntddndis/NDIS_PM_PARAMETERS, miniport_power_management_ref_dc82d32a-ee0e-4167-b322-f0b91ece8002.xml, PNDIS_PM_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_PM_PARAMETERS, NDIS_PM_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PM_PARAMETERS, _NDIS_PM_PARAMETERS, NDIS_PM_PARAMETERS"
+ms.keywords: "*PNDIS_PM_PARAMETERS, NDIS_PM_PARAMETERS, NDIS_PM_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PM_PARAMETERS, PNDIS_PM_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_PARAMETERS, miniport_power_management_ref_dc82d32a-ee0e-4167-b322-f0b91ece8002.xml, netvista.ndis_pm_parameters, ntddndis/NDIS_PM_PARAMETERS, ntddndis/PNDIS_PM_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PM_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PM_PARAMETERS, NDIS_PM_PARAMETERS"
+req.typenames: NDIS_PM_PARAMETERS, *PNDIS_PM_PARAMETERS
 ---
 
 # _NDIS_PM_PARAMETERS structure
@@ -403,15 +403,15 @@ An overlying driver should not try to enable capabilities that a network adapter
 
 
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569768">OID_PM_PARAMETERS</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>
 
 
 
@@ -419,7 +419,7 @@ An overlying driver should not try to enable capabilities that a network adapter
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
 
 
 

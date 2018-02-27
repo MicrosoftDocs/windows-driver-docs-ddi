@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E2527150-2F62-4729-BC6A-FE6027BCCA35
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wwan/WwanDeviceServiceSessionOpen, netvista.wwan_device_service_session_state, WwanDeviceServiceSessionClosed, WwanDeviceServiceSessionOpen, wwan/WWAN_DEVICE_SERVICE_SESSION_STATE, wwan/WwanDeviceServiceSessionClosed, _WWAN_DEVICE_SERVICE_SESSION_STATE, *PWWAN_DEVICE_SERVICE_SESSION_STATE, WWAN_DEVICE_SERVICE_SESSION_STATE, WWAN_DEVICE_SERVICE_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PWWAN_DEVICE_SERVICE_SESSION_STATE, WWAN_DEVICE_SERVICE_SESSION_STATE, WWAN_DEVICE_SERVICE_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista], WwanDeviceServiceSessionClosed, WwanDeviceServiceSessionOpen, _WWAN_DEVICE_SERVICE_SESSION_STATE, netvista.wwan_device_service_session_state, wwan/WWAN_DEVICE_SERVICE_SESSION_STATE, wwan/WwanDeviceServiceSessionClosed, wwan/WwanDeviceServiceSessionOpen"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_DEVICE_SERVICE_SESSION_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_DEVICE_SERVICE_SESSION_STATE, WWAN_DEVICE_SERVICE_SESSION_STATE"
+req.typenames: WWAN_DEVICE_SERVICE_SESSION_STATE, *PWWAN_DEVICE_SERVICE_SESSION_STATE
 req.product: Windows 10 or later.
 ---
 

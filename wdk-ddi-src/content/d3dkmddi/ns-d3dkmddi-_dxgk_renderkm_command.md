@@ -7,8 +7,8 @@ old-location: display\dxgk_renderkm_command.htm
 old-project: display
 ms.assetid: 998bf0ca-c08d-41d9-ba3e-74a620ed51ae
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgk_renderkm_command, _DXGK_RENDERKM_COMMAND, d3dkmddi/DXGK_RENDERKM_COMMAND, DmStructs_b23578a5-ae81-42c8-95ce-3ba9b4691d57.xml, DXGK_RENDERKM_COMMAND structure [Display Devices], DXGK_RENDERKM_COMMAND
+ms.date: 2/24/2018
+ms.keywords: DXGK_RENDERKM_COMMAND, DXGK_RENDERKM_COMMAND structure [Display Devices], DmStructs_b23578a5-ae81-42c8-95ce-3ba9b4691d57.xml, _DXGK_RENDERKM_COMMAND, d3dkmddi/DXGK_RENDERKM_COMMAND, display.dxgk_renderkm_command
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -158,23 +158,7 @@ Each command varies in length depending on the value of the <b>OpCode</b> member
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md">DXGK_GDIARG_TRANSPARENTBLT</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_cleartypeblend.md">DXGK_GDIARG_CLEARTYPEBLEND</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_colorfill.md">DXGK_GDIARG_COLORFILL</a>
-
-
-
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_renderkm_operation.md">DXGK_RENDERKM_OPERATION</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_stretchblt.md">DXGK_GDIARG_STRETCHBLT</a>
 
 
 
@@ -186,7 +170,23 @@ Each command varies in length depending on the value of the <b>OpCode</b> member
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_stretchblt.md">DXGK_GDIARG_STRETCHBLT</a>
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_renderkm_operation.md">DXGK_RENDERKM_OPERATION</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_cleartypeblend.md">DXGK_GDIARG_CLEARTYPEBLEND</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_alphablend.md">DXGK_GDIARG_ALPHABLEND</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md">DXGK_GDIARG_TRANSPARENTBLT</a>
 
 
 
@@ -198,5 +198,5 @@ Each command varies in length depending on the value of the <b>OpCode</b> member
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_RENDERKM_COMMAND structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_RENDERKM_COMMAND structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

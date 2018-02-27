@@ -7,8 +7,8 @@ old-location: print\iprintcorehelper_getfontsubstitution.htm
 old-project: print
 ms.assetid: 09fc48eb-b124-45b1-a796-71d9a6961e07
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: GetFontSubstitution method [Print Devices], IPrintCoreHelper interface, IPrintCoreHelper, GetFontSubstitution, GetFontSubstitution method [Print Devices], IPrintCoreHelper::GetFontSubstitution, prcomoem/IPrintCoreHelper::GetFontSubstitution, print_unidrv-pscript_allplugins_04228fad-ab7f-432f-b4b9-dafb18144503.xml, print.iprintcorehelper_getfontsubstitution, IPrintCoreHelper interface [Print Devices], GetFontSubstitution method
+ms.date: 2/23/2018
+ms.keywords: GetFontSubstitution method [Print Devices], GetFontSubstitution method [Print Devices], IPrintCoreHelper interface, GetFontSubstitution,IPrintCoreHelper.GetFontSubstitution, IPrintCoreHelper, IPrintCoreHelper interface [Print Devices], GetFontSubstitution method, IPrintCoreHelper::GetFontSubstitution, prcomoem/IPrintCoreHelper::GetFontSubstitution, print.iprintcorehelper_getfontsubstitution, print_unidrv-pscript_allplugins_04228fad-ab7f-432f-b4b9-dafb18144503.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelper.GetFontSubstitution
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -168,17 +168,17 @@ To obtain a list of available fonts, create an information context for the curre
 
 ## -see-also
 
+<a href="..\prcomoem\nn-prcomoem-iprintcorehelper.md">IPrintCoreHelper</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552962">IPrintCoreHelper::SetFontSubstitution</a>
 
 
 
-<a href="https://msdn.microsoft.com/db13410f-e4cb-4077-bb4b-7963e97b435c">IPrintCoreHelper</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelper::GetFontSubstitution method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelper::GetFontSubstitution method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

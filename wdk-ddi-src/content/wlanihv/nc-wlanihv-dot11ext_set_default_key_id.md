@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 405da147-9b41-4563-8694-6619f86ed366
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extsetdefaultkeyid, Dot11ExtSetDefaultKeyId callback function [Network Drivers Starting with Windows Vista], Dot11ExtSetDefaultKeyId, DOT11EXT_SET_DEFAULT_KEY_ID, DOT11EXT_SET_DEFAULT_KEY_ID, wlanihv/Dot11ExtSetDefaultKeyId, Native_802.11_IHV_Ext_60922941-d9b1-4d73-8029-513d127944e2.xml
+ms.keywords: DOT11EXT_SET_DEFAULT_KEY_ID, Dot11ExtSetDefaultKeyId, Dot11ExtSetDefaultKeyId callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_60922941-d9b1-4d73-8029-513d127944e2.xml, netvista.dot11extsetdefaultkeyid, wlanihv/Dot11ExtSetDefaultKeyId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSetDefaultKeyId
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -123,21 +123,15 @@ A call to the
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
-
-
-
-
 <a href="https://msdn.microsoft.com/1de1a420-e2ec-4716-8a03-73c9278eb33b">802.11 Cipher Key Types</a>
 
 
 
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY_ID</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 

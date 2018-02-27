@@ -7,8 +7,8 @@ old-location: display\setviewport.htm
 old-project: display
 ms.assetid: ef0847a3-d4f5-4a9e-a041-1b8f8523fdf7
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.setviewport, SetViewport callback function [Display Devices], SetViewport, PFND3DDDI_SETVIEWPORT, PFND3DDDI_SETVIEWPORT, d3dumddi/SetViewport, UserModeDisplayDriver_Functions_6b0d00a2-6316-4ac0-878c-e8554e92ef57.xml
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_SETVIEWPORT, SetViewport, SetViewport callback function [Display Devices], UserModeDisplayDriver_Functions_6b0d00a2-6316-4ac0-878c-e8554e92ef57.xml, d3dumddi/SetViewport, display.setviewport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -113,5 +113,5 @@ __checkReturn HRESULT APIENTRY SetViewport(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_SETVIEWPORT callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_SETVIEWPORT callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

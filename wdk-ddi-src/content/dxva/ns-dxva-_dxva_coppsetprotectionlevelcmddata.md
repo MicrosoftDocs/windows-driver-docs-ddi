@@ -7,8 +7,8 @@ old-location: display\dxva_coppsetprotectionlevelcmddata.htm
 old-project: display
 ms.assetid: d68d6e50-1373-43bc-a22b-dd9db47614c8
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: DXVA_COPPSetProtectionLevelCmdData, DXVA_COPPSetProtectionLevelCmdData structure [Display Devices], dxvaref_ac7e802b-dd23-49da-ab02-21d80eaabe86.xml, display.dxva_coppsetprotectionlevelcmddata, _DXVA_COPPSetProtectionLevelCmdData, dxva/DXVA_COPPSetProtectionLevelCmdData
+ms.date: 2/24/2018
+ms.keywords: DXVA_COPPSetProtectionLevelCmdData, DXVA_COPPSetProtectionLevelCmdData structure [Display Devices], _DXVA_COPPSetProtectionLevelCmdData, display.dxva_coppsetprotectionlevelcmddata, dxva/DXVA_COPPSetProtectionLevelCmdData, dxvaref_ac7e802b-dd23-49da-ab02-21d80eaabe86.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -146,5 +146,5 @@ Specifies additional 32-bit data for the protection type in <b>ProtType</b>. Not
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_COPPSetProtectionLevelCmdData structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_COPPSetProtectionLevelCmdData structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: IDebugDataSpaces4::WriteVirtualUncached method
 author: windows-driver-content
 description: The WriteVirtualUncached method writes data to the target's virtual address space.
 old-location: debugger\writevirtualuncached.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 01b729cb-d7d0-4c8d-a438-51319ef8e1c8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugDataSpaces4::WriteVirtualUncached, dbgeng/IDebugDataSpaces::WriteVirtualUncached, IDebugDataSpaces3::WriteVirtualUncached, IDebugDataSpaces2::WriteVirtualUncached, WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_6b986179-8f9c-4b4f-b42c-0c91088868ec.xml, IDebugDataSpaces3, WriteVirtualUncached method [Windows Debugging], WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces::WriteVirtualUncached, IDebugDataSpaces3 interface [Windows Debugging], WriteVirtualUncached method, dbgeng/IDebugDataSpaces4::WriteVirtualUncached, IDebugDataSpaces, WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces interface, dbgeng/IDebugDataSpaces2::WriteVirtualUncached, WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces interface [Windows Debugging], WriteVirtualUncached method, IDebugDataSpaces4, debugger.writevirtualuncached, IDebugDataSpaces2, IDebugDataSpaces4 interface [Windows Debugging], WriteVirtualUncached method, WriteVirtualUncached, IDebugDataSpaces2 interface [Windows Debugging], WriteVirtualUncached method, dbgeng/IDebugDataSpaces3::WriteVirtualUncached
+ms.date: 2/23/2018
+ms.keywords: IDebugDataSpaces interface [Windows Debugging], WriteVirtualUncached method, IDebugDataSpaces2 interface [Windows Debugging], WriteVirtualUncached method, IDebugDataSpaces2::WriteVirtualUncached, IDebugDataSpaces3 interface [Windows Debugging], WriteVirtualUncached method, IDebugDataSpaces3::WriteVirtualUncached, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], WriteVirtualUncached method, IDebugDataSpaces4::WriteVirtualUncached, IDebugDataSpaces::WriteVirtualUncached, IDebugDataSpaces_6b986179-8f9c-4b4f-b42c-0c91088868ec.xml, WriteVirtualUncached method [Windows Debugging], WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces interface, WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces2 interface, WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces3 interface, WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces4 interface, WriteVirtualUncached,IDebugDataSpaces4.WriteVirtualUncached, dbgeng/IDebugDataSpaces2::WriteVirtualUncached, dbgeng/IDebugDataSpaces3::WriteVirtualUncached, dbgeng/IDebugDataSpaces4::WriteVirtualUncached, dbgeng/IDebugDataSpaces::WriteVirtualUncached, debugger.writevirtualuncached
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -134,19 +134,11 @@ This method behaves identically to <a href="https://msdn.microsoft.com/library/w
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561468">WriteVirtual</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
 
 
@@ -158,9 +150,17 @@ This method behaves identically to <a href="https://msdn.microsoft.com/library/w
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554361">ReadVirtualUncached</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugDataSpaces::WriteVirtualUncached method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugDataSpaces::WriteVirtualUncached method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

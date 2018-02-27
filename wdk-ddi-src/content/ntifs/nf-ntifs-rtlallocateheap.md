@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 38f4c2b7-f9cd-42f2-b75e-725976b6b9dd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlAllocateHeap routine [Installable File System Drivers], ifsk.rtlallocateheap, RtlAllocateHeap, ntifs/RtlAllocateHeap, rtlref_fa360ead-62c7-46c3-8d66-a73ee9e1a0bb.xml
+ms.keywords: RtlAllocateHeap, RtlAllocateHeap routine [Installable File System Drivers], ifsk.rtlallocateheap, ntifs/RtlAllocateHeap, rtlref_fa360ead-62c7-46c3-8d66-a73ee9e1a0bb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

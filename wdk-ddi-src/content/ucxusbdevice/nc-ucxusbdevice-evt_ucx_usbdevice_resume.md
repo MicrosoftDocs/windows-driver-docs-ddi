@@ -4,11 +4,11 @@ title: EVT_UCX_USBDEVICE_RESUME
 author: windows-driver-content
 description: UCX invokes this callback function to resume a device from suspend state.
 old-location: buses\evt_ucx_usbdevice_resume.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 876D9754-B3AA-42C5-8BDD-60CFD4F78951
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_usbdevice_resume, EvtUcxDeviceResume callback function [Buses], EvtUcxDeviceResume, EVT_UCX_USBDEVICE_RESUME, EVT_UCX_USBDEVICE_RESUME, ucxusbdevice/EvtUcxDeviceResume, *PFN_UCX_USBDEVICE_RESUME callback function [Buses], *PFN_UCX_USBDEVICE_RESUME
+ms.date: 2/24/2018
+ms.keywords: "*PFN_UCX_USBDEVICE_RESUME, *PFN_UCX_USBDEVICE_RESUME callback function [Buses], EVT_UCX_USBDEVICE_RESUME, EvtUcxDeviceResume, EvtUcxDeviceResume callback function [Buses], buses.evt_ucx_usbdevice_resume, ucxusbdevice/EvtUcxDeviceResume"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	*PFN_UCX_USBDEVICE_RESUME
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_INFO, STREAM_INFO"
+req.typenames: STREAM_INFO, *PSTREAM_INFO
 req.product: Windows 10 or later.
 ---
 

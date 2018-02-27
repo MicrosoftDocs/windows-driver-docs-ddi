@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: B57BC3A4-6116-48EA-905A-CFA7AC0A5E8F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/FsRtlQueryKernelEaFile, FsRtlQueryKernelEaFile routine [Installable File System Drivers], ifsk.fsrtlquerykerneleafile, FsRtlQueryKernelEaFile
+ms.keywords: FsRtlQueryKernelEaFile, FsRtlQueryKernelEaFile routine [Installable File System Drivers], ifsk.fsrtlquerykerneleafile, ntifs/FsRtlQueryKernelEaFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -203,11 +203,11 @@ This routine <b>FsRtlQueryKernelEaFile </b>assumes all passed in buffers are fro
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff961908">ZwSetEaFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/E5EA2E40-2CC3-4C7B-8BCC-4793F76ECBAD">FsRtlSetKernelEaFile</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: display\iddcxmonitorcreate.htm
 old-project: display
 ms.assetid: 2e089827-dd50-43cb-9e1a-34c439780831
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.iddcxmonitorcreate, iddcx/IddCxMonitorCreate, IddCxMonitorCreate method [Display Devices], IddCxMonitorCreate
+ms.date: 2/24/2018
+ms.keywords: IddCxMonitorCreate, IddCxMonitorCreate method [Display Devices], display.iddcxmonitorcreate, iddcx/IddCxMonitorCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

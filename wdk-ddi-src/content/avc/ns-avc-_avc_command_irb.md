@@ -7,8 +7,8 @@ old-location: stream\avc_command_irb.htm
 old-project: stream
 ms.assetid: 0aefbce4-a838-40c4-b31f-ff8dd13621f7
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: PAVC_COMMAND_IRB, AVC_COMMAND_IRB structure [Streaming Media Devices], _AVC_COMMAND_IRB, stream.avc_command_irb, avcref_1f88c208-64b9-40d1-9048-d10b105b5569.xml, *PAVC_COMMAND_IRB, avc/AVC_COMMAND_IRB, avc/PAVC_COMMAND_IRB, AVC_COMMAND_IRB, PAVC_COMMAND_IRB structure pointer [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PAVC_COMMAND_IRB, AVC_COMMAND_IRB, AVC_COMMAND_IRB structure [Streaming Media Devices], PAVC_COMMAND_IRB, PAVC_COMMAND_IRB structure pointer [Streaming Media Devices], _AVC_COMMAND_IRB, avc/AVC_COMMAND_IRB, avc/PAVC_COMMAND_IRB, avcref_1f88c208-64b9-40d1-9048-d10b105b5569.xml, stream.avc_command_irb"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AVC_COMMAND_IRB
 product: Windows
 targetos: Windows
-req.typenames: "*PAVC_COMMAND_IRB, AVC_COMMAND_IRB"
+req.typenames: AVC_COMMAND_IRB, *PAVC_COMMAND_IRB
 ---
 
 # _AVC_COMMAND_IRB structure
@@ -175,11 +175,11 @@ This structure is used with the <a href="https://msdn.microsoft.com/library/wind
 
 ## -see-also
 
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554163">AVC_FUNCTION_GET_REQUEST</a>
+
+
+
+<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
 
 
 
@@ -187,7 +187,7 @@ This structure is used with the <a href="https://msdn.microsoft.com/library/wind
 
 
 
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554150">AVC_FUNCTION_COMMAND</a>
 
 
 
@@ -195,5 +195,5 @@ This structure is used with the <a href="https://msdn.microsoft.com/library/wind
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVC_COMMAND_IRB structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVC_COMMAND_IRB structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

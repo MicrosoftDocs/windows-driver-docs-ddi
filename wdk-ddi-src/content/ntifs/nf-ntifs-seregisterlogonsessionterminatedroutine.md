@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6cba6db5-b91f-46f0-939e-b02693c81438
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/SeRegisterLogonSessionTerminatedRoutine, SeRegisterLogonSessionTerminatedRoutine, SeRegisterLogonSessionTerminatedRoutine routine [Installable File System Drivers], seref_7188551f-9c46-472f-8976-67ee53b994c5.xml, ifsk.seregisterlogonsessionterminatedroutine
+ms.keywords: SeRegisterLogonSessionTerminatedRoutine, SeRegisterLogonSessionTerminatedRoutine routine [Installable File System Drivers], ifsk.seregisterlogonsessionterminatedroutine, ntifs/SeRegisterLogonSessionTerminatedRoutine, seref_7188551f-9c46-472f-8976-67ee53b994c5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

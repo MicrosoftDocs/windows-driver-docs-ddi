@@ -7,8 +7,8 @@ old-location: storage\feature_header.htm
 old-project: storage
 ms.assetid: 61831fbb-48ad-4831-8b69-7b1a5cafa629
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: FEATURE_HEADER structure [Storage Devices], *PFEATURE_HEADER, ntddmmc/PFEATURE_HEADER, ntddmmc/FEATURE_HEADER, FEATURE_HEADER, storage.feature_header, PFEATURE_HEADER, _FEATURE_HEADER, PFEATURE_HEADER structure pointer [Storage Devices], structs-CD-ROM_41d7886f-d383-4416-8f89-b40f1bb0bc7f.xml
+ms.date: 2/24/2018
+ms.keywords: "*PFEATURE_HEADER, FEATURE_HEADER, FEATURE_HEADER structure [Storage Devices], PFEATURE_HEADER, PFEATURE_HEADER structure pointer [Storage Devices], _FEATURE_HEADER, ntddmmc/FEATURE_HEADER, ntddmmc/PFEATURE_HEADER, storage.feature_header, structs-CD-ROM_41d7886f-d383-4416-8f89-b40f1bb0bc7f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,7 +104,7 @@ Indicates the number of bytes of feature information that follow this header. Th
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_get_configuration_header.md">GET_CONFIGURATION_HEADER</a>
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_configuration.md">IOCTL_CDROM_GET_CONFIGURATION</a>
 
 
 
@@ -120,5 +120,5 @@ Indicates the number of bytes of feature information that follow this header. Th
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FEATURE_HEADER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FEATURE_HEADER structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

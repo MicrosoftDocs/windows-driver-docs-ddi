@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a9d5e3cd-2e95-4ad6-9380-64fe4df9e27f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtinterruptdisable, EvtInterruptDisable callback function, EvtInterruptDisable, EVT_WDF_INTERRUPT_DISABLE, EVT_WDF_INTERRUPT_DISABLE, wdfinterrupt/EvtInterruptDisable, DFInterruptObjectRef_4dfbc961-e1c4-494e-9e6d-d657fd5d59d9.xml, kmdf.evtinterruptdisable
+ms.keywords: DFInterruptObjectRef_4dfbc961-e1c4-494e-9e6d-d657fd5d59d9.xml, EVT_WDF_INTERRUPT_DISABLE, EvtInterruptDisable, EvtInterruptDisable callback function, kmdf.evtinterruptdisable, wdf.evtinterruptdisable, wdfinterrupt/EvtInterruptDisable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -151,15 +151,11 @@ The <b>EVT_WDF_INTERRUPT_DISABLE</b> function type is defined in the Wdfinterrup
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit_pre_interrupts_disabled.md">EvtDeviceD0ExitPreInterruptsDisabled</a>
-
-
-
-<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
-
-
-
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_enable.md">EvtInterruptEnable</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit_pre_interrupts_disabled.md">EvtDeviceD0ExitPreInterruptsDisabled</a>
 
 
 
@@ -167,7 +163,11 @@ The <b>EVT_WDF_INTERRUPT_DISABLE</b> function type is defined in the Wdfinterrup
 
 
 
+<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
 
+
+
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptdisable.md">WdfInterruptDisable</a>
 
 
 

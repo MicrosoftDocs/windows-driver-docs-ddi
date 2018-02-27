@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1f91c2ef-300d-43f5-8d2c-d4f2fd326915
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fsrtlref_2c3b8577-e61e-4ff3-9443-b3838077d762.xml, FsRtlAcknowledgeEcp, ifsk.fsrtlacknowledgeecp, ntifs/FsRtlAcknowledgeEcp, FsRtlAcknowledgeEcp routine [Installable File System Drivers]
+ms.keywords: FsRtlAcknowledgeEcp, FsRtlAcknowledgeEcp routine [Installable File System Drivers], fsrtlref_2c3b8577-e61e-4ff3-9443-b3838077d762.xml, ifsk.fsrtlacknowledgeecp, ntifs/FsRtlAcknowledgeEcp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,15 +98,7 @@ You can use the <a href="..\fltkernel\nf-fltkernel-fltisecpacknowledged.md">FltI
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
 
 
 
@@ -118,7 +110,15 @@ You can use the <a href="..\fltkernel\nf-fltkernel-fltisecpacknowledged.md">FltI
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 
 

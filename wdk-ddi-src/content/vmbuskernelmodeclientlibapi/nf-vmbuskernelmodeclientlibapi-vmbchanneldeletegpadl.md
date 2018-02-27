@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B1446A29-F2C1-4F08-8B38-5BE9188F5132
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: VmbChannelDeleteGpadl, netvista.vmbchanneldeletegpadl, VmbChannelDeleteGpadl function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelDeleteGpadl
+ms.keywords: VmbChannelDeleteGpadl, VmbChannelDeleteGpadl function [Network Drivers Starting with Windows Vista], netvista.vmbchanneldeletegpadl, vmbuskernelmodeclientlibapi/VmbChannelDeleteGpadl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrommdl.md">VmbChannelCreateGpadlFromMdl</a>
-
-
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrombuffer.md">VmbChannelCreateGpadlFromBuffer</a>
+
+
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrommdl.md">VmbChannelCreateGpadlFromMdl</a>
 
 
 

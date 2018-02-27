@@ -7,8 +7,8 @@ old-location: display\hwvidquerynamedvaluecallback.htm
 old-project: display
 ms.assetid: 90020700-b9c8-42e6-bafa-908cbc3eb233
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.hwvidquerynamedvaluecallback, HwVidQueryNamedValueCallback callback function [Display Devices], HwVidQueryNamedValueCallback, PMINIPORT_GET_REGISTRY_ROUTINE, PMINIPORT_GET_REGISTRY_ROUTINE, video/HwVidQueryNamedValueCallback, VideoMiniport_Functions_4e6a63e7-cf5f-4cb6-9e9a-10286e40d762.xml
+ms.date: 2/24/2018
+ms.keywords: HwVidQueryNamedValueCallback, HwVidQueryNamedValueCallback callback function [Display Devices], PMINIPORT_GET_REGISTRY_ROUTINE, VideoMiniport_Functions_4e6a63e7-cf5f-4cb6-9e9a-10286e40d762.xml, display.hwvidquerynamedvaluecallback, video/HwVidQueryNamedValueCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -134,7 +134,7 @@ The returned <i>ValueData</i> is on the stack, so it can be referenced locally. 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
+<a href="..\video\nf-video-videoportsetregistryparameters.md">VideoPortSetRegistryParameters</a>
 
 
 
@@ -142,7 +142,7 @@ The returned <i>ValueData</i> is on the stack, so it can be referenced locally. 
 
 
 
-<a href="..\video\nf-video-videoportsetregistryparameters.md">VideoPortSetRegistryParameters</a>
+<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
 
 
 
@@ -150,7 +150,7 @@ The returned <i>ValueData</i> is on the stack, so it can be referenced locally. 
 
 
 
-<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 
 
@@ -158,5 +158,5 @@ The returned <i>ValueData</i> is on the stack, so it can be referenced locally. 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PMINIPORT_GET_REGISTRY_ROUTINE callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PMINIPORT_GET_REGISTRY_ROUTINE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

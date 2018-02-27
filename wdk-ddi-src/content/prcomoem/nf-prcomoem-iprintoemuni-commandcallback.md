@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_commandcallback.htm
 old-project: print
 ms.assetid: e1708017-a546-4770-8ad1-7052b3d4e264
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IPrintOemUni interface [Print Devices], CommandCallback method, IPrintOemUni::CommandCallback, prcomoem/IPrintOemUni::CommandCallback, CommandCallback method [Print Devices], CommandCallback, IPrintOemUni, CommandCallback method [Print Devices], IPrintOemUni interface, print_unidrv-pscript_rendering_edbed499-5cc1-48dc-92cd-dbe70d8560aa.xml, print.iprintoemuni_commandcallback
+ms.date: 2/23/2018
+ms.keywords: CommandCallback method [Print Devices], CommandCallback method [Print Devices], IPrintOemUni interface, CommandCallback,IPrintOemUni.CommandCallback, IPrintOemUni, IPrintOemUni interface [Print Devices], CommandCallback method, IPrintOemUni::CommandCallback, prcomoem/IPrintOemUni::CommandCallback, print.iprintoemuni_commandcallback, print_unidrv-pscript_rendering_edbed499-5cc1-48dc-92cd-dbe70d8560aa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.CommandCallback
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

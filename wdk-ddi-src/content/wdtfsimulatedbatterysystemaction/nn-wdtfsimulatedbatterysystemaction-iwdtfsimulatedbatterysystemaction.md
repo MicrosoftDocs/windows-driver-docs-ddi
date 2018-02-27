@@ -7,8 +7,8 @@ old-location: dtf\iwdtfsimulatedbatterysystemaction.htm
 old-project: dtf
 ms.assetid: 38df72bd-5206-4655-846c-ae925ed648eb
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfsimulatedbatterysystemaction, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], described, IWDTFSimulatedBatterySystemAction, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction
+ms.date: 2/23/2018
+ms.keywords: IWDTFSimulatedBatterySystemAction, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], described, dtf.iwdtfsimulatedbatterysystemaction, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -52,6 +52,13 @@ req.product: Windows 10 or later.
 
 IWDTFSimulatedBatterySystemAction Interface
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSimulatedBatterySystemAction</b> interface inherits from <b>IWDTFAction2</b>. <b>IWDTFSimulatedBatterySystemAction</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -124,19 +131,5 @@ Sets the simulated battery status to DC power.
 
 </td>
 </tr>
-</table>Disables real batteries if they are present in the system.
-
-Disables the simulated battery.
-
-Enables real batteries if they are present in the system.
-
-Enables the simulated battery.
-
-Sets the charge percentage reported to the OS by the simulated battery.
-
-Sets the simulated battery status to AC power.
-
-Sets the simulated battery status to DC power.
-
- 
+</table> 
 

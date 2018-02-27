@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 774d1bda-2d9b-4ab4-97cf-b358471d8716
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.ioctl_bth_sdp_submit_record_with_info, IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO control code [Bluetooth Devices], IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO, bthioctl/IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO, bth_ioctls_6ae2aeb0-ecf1-40c4-9135-2397c40a278e.xml
+ms.keywords: IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO, IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_submit_record_with_info, bth_ioctls_6ae2aeb0-ecf1-40c4-9135-2397c40a278e.xml, bthioctl/IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1"
+req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ---
 
 # IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -178,11 +178,11 @@ A member of the structure passed to the input buffer, or the stream passed to th
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_sdp_record.md">BTH_SDP_RECORD</a>
-
-
-
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record.md">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
+
+
+
+<a href="..\bthioctl\ns-bthioctl-_bth_sdp_record.md">BTH_SDP_RECORD</a>
 
 
 

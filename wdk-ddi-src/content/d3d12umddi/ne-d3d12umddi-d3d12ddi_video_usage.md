@@ -7,8 +7,8 @@ old-location: display\d3d12ddi_video_usage.htm
 old-project: display
 ms.assetid: 663790EE-A9E3-4EBC-93C7-20DE0D759A26
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3d12umddi/D3D12_VIDEO_USAGE_QUALITY, d3d12umddi/D3D12DDI_VIDEO_USAGE_NORMAL, D3D12_VIDEO_USAGE_QUALITY, D3D12DDI_VIDEO_USAGE, display.d3d12ddi_video_usage, D3D12DDI_VIDEO_USAGE_NORMAL, D3D12DDI_VIDEO_USAGE enumeration [Display Devices], d3d12umddi/D3D12DDI_VIDEO_USAGE_POWER, d3d12umddi/D3D12DDI_VIDEO_USAGE, D3D12DDI_VIDEO_USAGE_POWER
+ms.date: 2/24/2018
+ms.keywords: D3D12DDI_VIDEO_USAGE, D3D12DDI_VIDEO_USAGE enumeration [Display Devices], D3D12DDI_VIDEO_USAGE_NORMAL, D3D12DDI_VIDEO_USAGE_POWER, D3D12_VIDEO_USAGE_QUALITY, d3d12umddi/D3D12DDI_VIDEO_USAGE, d3d12umddi/D3D12DDI_VIDEO_USAGE_NORMAL, d3d12umddi/D3D12DDI_VIDEO_USAGE_POWER, d3d12umddi/D3D12_VIDEO_USAGE_QUALITY, display.d3d12ddi_video_usage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

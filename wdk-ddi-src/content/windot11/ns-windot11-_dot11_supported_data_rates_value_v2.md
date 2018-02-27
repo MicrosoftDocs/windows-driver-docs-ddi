@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2407204b-215c-481e-876d-740bc3d55ee3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11_supported_data_rates_value_v2, DOT11_SUPPORTED_DATA_RATES_VALUE_V2, windot11/PDOT11_SUPPORTED_DATA_RATES_VALUE_V2, _DOT11_SUPPORTED_DATA_RATES_VALUE_V2, Native_802.11_data_types_20f2b1ba-9639-4a8b-b5c1-f7441300bea5.xml, PDOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure pointer [Network Drivers Starting with Windows Vista], PDOT11_SUPPORTED_DATA_RATES_VALUE_V2, DOT11_SUPPORTED_DATA_RATES_VALUE_V1, *PDOT11_SUPPORTED_DATA_RATES_VALUE_V1, DOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure [Network Drivers Starting with Windows Vista], windot11/DOT11_SUPPORTED_DATA_RATES_VALUE_V2, *PDOT11_SUPPORTED_DATA_RATES_VALUE_V2
+ms.keywords: "*PDOT11_SUPPORTED_DATA_RATES_VALUE_V1, *PDOT11_SUPPORTED_DATA_RATES_VALUE_V2, DOT11_SUPPORTED_DATA_RATES_VALUE_V1, DOT11_SUPPORTED_DATA_RATES_VALUE_V2, DOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_20f2b1ba-9639-4a8b-b5c1-f7441300bea5.xml, PDOT11_SUPPORTED_DATA_RATES_VALUE_V2, PDOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SUPPORTED_DATA_RATES_VALUE_V2, netvista.dot11_supported_data_rates_value_v2, windot11/DOT11_SUPPORTED_DATA_RATES_VALUE_V2, windot11/PDOT11_SUPPORTED_DATA_RATES_VALUE_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,12 +106,12 @@ If the number of supported rates in either array is less than 255, the miniport 
 
 ## -see-also
 
+<a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">DOT11_DATA_RATE_MAPPING_ENTRY</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
    OID_DOT11_DATA_RATE_MAPPING_TABLE</a>
-
-
-
-<a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">DOT11_DATA_RATE_MAPPING_ENTRY</a>
 
 
 

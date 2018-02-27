@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_checkresourceallocationinfo_0022.htm
 old-project: display
 ms.assetid: 9B223440-7462-4DF1-990B-82115DE50D67
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.pfnd3d12ddi_checkresourceallocationinfo_0022, pfnCheckResourceAllocationInfo callback function [Display Devices], pfnCheckResourceAllocationInfo, PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0022, PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0022, d3d12umddi/pfnCheckResourceAllocationInfo
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0022, d3d12umddi/pfnCheckResourceAllocationInfo, display.pfnd3d12ddi_checkresourceallocationinfo_0022, pfnCheckResourceAllocationInfo, pfnCheckResourceAllocationInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

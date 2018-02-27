@@ -7,8 +7,8 @@ old-location: pci\ioctl-sriov-invalidate-block.htm
 old-project: PCI
 ms.assetid: b6f0e65f-c8e4-418f-a4b2-a7037368d5a3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PCI.ioctl-sriov-invalidate-block, IOCTL_SRIOV_INVALIDATE_BLOCK control code [Buses], IOCTL_SRIOV_INVALIDATE_BLOCK, pcivirt/IOCTL_SRIOV_INVALIDATE_BLOCK
+ms.date: 2/24/2018
+ms.keywords: IOCTL_SRIOV_INVALIDATE_BLOCK, IOCTL_SRIOV_INVALIDATE_BLOCK control code [Buses], PCI.ioctl-sriov-invalidate-block, pcivirt/IOCTL_SRIOV_INVALIDATE_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

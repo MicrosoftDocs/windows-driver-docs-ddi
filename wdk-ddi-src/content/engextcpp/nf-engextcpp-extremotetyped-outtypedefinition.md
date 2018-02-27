@@ -4,11 +4,11 @@ title: ExtRemoteTyped::OutTypeDefinition method
 author: windows-driver-content
 description: The OutTypeDefinition method prints the type of the typed data represented by this object.
 old-location: debugger\extremotetyped_outtypedefinition.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: f7d24a3b-b5a8-4924-85d9-8bf7983b95fa
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: OutTypeDefinition method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped, debugger.extremotetyped_outtypedefinition, EngExtCpp_Ref_1186a4c5-f5d3-4f87-b8d0-b4a10cc2b4e7.xml, ExtRemoteTyped interface [Windows Debugging], OutTypeDefinition method, OutTypeDefinition, OutTypeDefinition method [Windows Debugging], ExtRemoteTyped::OutTypeDefinition
+ms.date: 2/23/2018
+ms.keywords: EngExtCpp_Ref_1186a4c5-f5d3-4f87-b8d0-b4a10cc2b4e7.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], OutTypeDefinition method, ExtRemoteTyped::OutTypeDefinition, OutTypeDefinition method [Windows Debugging], OutTypeDefinition method [Windows Debugging], ExtRemoteTyped interface, OutTypeDefinition,ExtRemoteTyped.OutTypeDefinition, debugger.extremotetyped_outtypedefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

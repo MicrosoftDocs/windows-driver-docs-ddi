@@ -7,8 +7,8 @@ old-location: storage\ufs_geometry_descriptor.htm
 old-project: storage
 ms.assetid: DD3AEB66-E36B-4F18-AFEC-D344132D4B8C
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: UFS_GEOMETRY_DESCRIPTOR, ufs/UFS_GEOMETRY_DESCRIPTOR, PUFS_GEOMETRY_DESCRIPTOR structure pointer [Storage Devices], UFS_GEOMETRY_DESCRIPTOR structure [Storage Devices], ufs/PUFS_GEOMETRY_DESCRIPTOR, *PUFS_GEOMETRY_DESCRIPTOR, storage.ufs_geometry_descriptor, PUFS_GEOMETRY_DESCRIPTOR
+ms.date: 2/24/2018
+ms.keywords: "*PUFS_GEOMETRY_DESCRIPTOR, PUFS_GEOMETRY_DESCRIPTOR, PUFS_GEOMETRY_DESCRIPTOR structure pointer [Storage Devices], UFS_GEOMETRY_DESCRIPTOR, UFS_GEOMETRY_DESCRIPTOR structure [Storage Devices], storage.ufs_geometry_descriptor, ufs/PUFS_GEOMETRY_DESCRIPTOR, ufs/UFS_GEOMETRY_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UFS_GEOMETRY_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PUFS_GEOMETRY_DESCRIPTOR, UFS_GEOMETRY_DESCRIPTOR"
+req.typenames: UFS_GEOMETRY_DESCRIPTOR, *PUFS_GEOMETRY_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 

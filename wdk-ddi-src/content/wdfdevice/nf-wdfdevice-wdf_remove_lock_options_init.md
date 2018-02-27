@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 08D0CE94-E37E-4BAE-99C8-FB4EDF7BCDDB
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_REMOVE_LOCK_OPTIONS_INIT, WDF_REMOVE_LOCK_OPTIONS_INIT function, wdf.wdf_remove_lock_options_init, kmdf.wdf_remove_lock_options_init, wdfdevice/WDF_REMOVE_LOCK_OPTIONS_INIT
+ms.keywords: WDF_REMOVE_LOCK_OPTIONS_INIT, WDF_REMOVE_LOCK_OPTIONS_INIT function, kmdf.wdf_remove_lock_options_init, wdf.wdf_remove_lock_options_init, wdfdevice/WDF_REMOVE_LOCK_OPTIONS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,7 +111,7 @@ For a code example that uses <b>WDF_REMOVE_LOCK_OPTIONS_INIT</b>, see <a href=".
 
 ## -see-also
 
-<a href="..\wdfdevice\ne-wdfdevice-_wdf_remove_lock_options_flags.md">WDF_REMOVE_LOCK_OPTIONS_FLAGS</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetremovelockoptions.md">WdfDeviceInitSetRemoveLockOptions</a>
 
 
 
@@ -119,7 +119,7 @@ For a code example that uses <b>WDF_REMOVE_LOCK_OPTIONS_INIT</b>, see <a href=".
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetremovelockoptions.md">WdfDeviceInitSetRemoveLockOptions</a>
+<a href="..\wdfdevice\ne-wdfdevice-_wdf_remove_lock_options_flags.md">WDF_REMOVE_LOCK_OPTIONS_FLAGS</a>
 
 
 

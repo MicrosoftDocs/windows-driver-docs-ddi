@@ -7,8 +7,8 @@ old-location: audio\phdaudio_unsolicited_response_callback.htm
 old-project: audio
 ms.assetid: B98F669D-D0DE-4FF2-903C-D51E0FEEE840
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.phdaudio_unsolicited_response_callback, HDAudioUnsolicitedResponseCallback callback function [Audio Devices], HDAudioUnsolicitedResponseCallback, PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK, PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK, hdaudio/HDAudioUnsolicitedResponseCallback, HDAudioUnsolicitedResponseCallback callback function [Audio Devices], HDAudioUnsolicitedResponseCallback
+ms.date: 2/22/2018
+ms.keywords: HDAudioUnsolicitedResponseCallback, HDAudioUnsolicitedResponseCallback callback function [Audio Devices], PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK, audio.phdaudio_unsolicited_response_callback, hdaudio/HDAudioUnsolicitedResponseCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	HDAudioUnsolicitedResponseCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT"
+req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
 ---
 
 # PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK callback

@@ -4,11 +4,11 @@ title: IWiaMiniDrv
 author: windows-driver-content
 description: The IWiaMiniDrv interface provides the methods that are the entry points for all communication between the minidriver and the WIA service. These methods allow the WIA service to control the device.
 old-location: image\iwiaminidrv_interface.htm
-old-project: Image
+old-project: image
 ms.assetid: 15068d10-5e24-427c-9684-24ce67b75ada
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: image.iwiaminidrv_interface, IWiaMiniDrv interface [Imaging Devices], IWiaMiniDrv interface [Imaging Devices], described, IWiaMiniDrv, wiamindr_lh/IWiaMiniDrv, MiniDrv_8a22bfee-13f8-4efc-b31d-8dd9fabfe131.xml
+ms.date: 2/23/2018
+ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], IWiaMiniDrv interface [Imaging Devices], described, MiniDrv_8a22bfee-13f8-4efc-b31d-8dd9fabfe131.xml, image.iwiaminidrv_interface, wiamindr_lh/IWiaMiniDrv
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -54,6 +54,13 @@ The <b>IWiaMiniDrv</b> interface provides the methods that are the entry points 
 
 A WIA minidriver writer must implement each method in this interface, although the implementations are not required to do anything more than return E_NOTIMPL (for <a href="https://msdn.microsoft.com/library/windows/hardware/ff543958">IWiaMiniDrv::drvAnalyzeItem</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>) or S_OK (for the other methods in this interface).
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaMiniDrv</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWiaMiniDrv</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -216,39 +223,5 @@ The <b>IWiaMiniDrv::drvWriteItemProperties</b> method writes driver item propert
 
 </td>
 </tr>
-</table>The <b>IWiaMiniDrv::drvAcquireItemData</b> method is called by the WIA service to transfer data from the device to an application.
-
-The <b>IWiaMiniDrv::drvAnalyzeItem</b> method inspects an item, and creates subitems, if necessary.
-
-The <b>IWiaMiniDrv::drvDeleteItem</b> method deletes the current driver item.
-
-The <b>IWiaMiniDrv::drvDeviceCommand</b> method issues a command to a WIA device.
-
-The <b>IWiaMiniDrv::drvFreeDrvItemContext</b> method frees a device-specific context.
-
-The <b>IWiaMiniDrv::drvGetCapabilities</b> method returns an array of events and commands that a device supports.
-
-The <b>IWiaMiniDrv::drvGetDeviceErrorStr </b>method maps an error code to a Unicode string that describes the error.
-
-The <b>IWiaMiniDrv::drvGetWiaFormatInfo</b> method finds the image formats and media types that the WIA hardware device supports.
-
-The <b>IWiaMiniDrv::drvInitializeWia</b> method initializes the minidriver and builds the driver item tree representing the device.
-
-The<b> IWiaMiniDrv::drvInitItemProperties</b> method initializes WIA driver item properties for each item in an application item tree.
-
-The <b>IWiaMiniDrv::drvLockWiaDevice</b> method locks the WIA hardware device so that only the current minidriver can access it.
-
-The <b>IWiaMiniDrv::drvNotifyPnpEvent</b> method responds to the event received from the WIA service.
-
-The <b>IWiaMiniDrv::drvReadItemProperties</b> method reads the driver item properties that need to be updated.
-
-The <b>IWiaMiniDrv::drvUnInitializeWia</b> method releases resources held by the minidriver.
-
-The <b>IWiaMiniDrv::drvUnLockWiaDevice</b> method unlocks the WIA hardware device so that any minidriver can access it.
-
-The <b>IWiaMiniDrv::drvValidateItemProperties</b> method validates an item's properties against the set of valid values for each property and will update those properties if necessary.
-
-The <b>IWiaMiniDrv::drvWriteItemProperties</b> method writes driver item properties to a WIA hardware device.
-
- 
+</table> 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7e626306-6ad9-4d99-a578-60bf69a3e73d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_INTERRUPT_INFO, DFInterruptObjectRef_3f4ade63-40f9-4d5a-96a0-e4f7013171d5.xml, PWDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO structure, PWDF_INTERRUPT_INFO structure pointer, wdfinterrupt/PWDF_INTERRUPT_INFO, wdfinterrupt/WDF_INTERRUPT_INFO, _WDF_INTERRUPT_INFO, wdf.wdf_interrupt_info, kmdf.wdf_interrupt_info
+ms.keywords: "*PWDF_INTERRUPT_INFO, DFInterruptObjectRef_3f4ade63-40f9-4d5a-96a0-e4f7013171d5.xml, PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO structure pointer, WDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO structure, _WDF_INTERRUPT_INFO, kmdf.wdf_interrupt_info, wdf.wdf_interrupt_info, wdfinterrupt/PWDF_INTERRUPT_INFO, wdfinterrupt/WDF_INTERRUPT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_INTERRUPT_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO"
+req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -118,7 +118,7 @@ The IRQL at which the device interrupts.
 
 ### -field Mode
 
-A <a href="..\miniport\ne-miniport-_kinterrupt_mode.md">KINTERRUPT_MODE</a>-typed enumerator that indicates whether the interrupt is level-triggered or edge-triggered.
+A <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>-typed enumerator that indicates whether the interrupt is level-triggered or edge-triggered.
 
 
 ### -field Polarity
@@ -152,7 +152,7 @@ The <b>WDF_INTERRUPT_INFO</b> structure is used as input to the <a href="..\wdfi
 
 ## -see-also
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetinfo.md">WdfInterruptGetInfo</a>
+<a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
 
 
@@ -162,13 +162,14 @@ The <b>WDF_INTERRUPT_INFO</b> structure is used as input to the <a href="..\wdfi
 
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
 
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetinfo.md">WdfInterruptGetInfo</a>
+
 
 
 <a href="..\wdfinterrupt\ne-wdfinterrupt-_wdf_interrupt_polarity.md">WDF_INTERRUPT_POLARITY</a>
 
 
 
-<a href="..\miniport\ne-miniport-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
 
 

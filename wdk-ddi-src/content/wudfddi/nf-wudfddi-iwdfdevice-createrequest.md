@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 031ce604-9d6f-4fdd-bacc-d1897f260a14
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFDevice::CreateRequest, IWDFDevice, CreateRequest, wudfddi/IWDFDevice::CreateRequest, wdf.iwdfdevice_createrequest, UMDFDeviceObjectRef_9eb18b05-e5fc-48cf-907b-ed7d188eac4b.xml, CreateRequest method, IWDFDevice interface, IWDFDevice interface, CreateRequest method, CreateRequest method, umdf.iwdfdevice_createrequest
+ms.keywords: CreateRequest method, CreateRequest method, IWDFDevice interface, CreateRequest,IWDFDevice.CreateRequest, IWDFDevice, IWDFDevice interface, CreateRequest method, IWDFDevice::CreateRequest, UMDFDeviceObjectRef_9eb18b05-e5fc-48cf-907b-ed7d188eac4b.xml, umdf.iwdfdevice_createrequest, wdf.iwdfdevice_createrequest, wudfddi/IWDFDevice::CreateRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -184,19 +184,7 @@ CUmdfHidDevice::SendInterruptPipeRead(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559236">IWDFIoTarget::FormatRequestForWrite</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559230">IWDFIoTarget::FormatRequestForIoctl</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a>
 
 
 
@@ -204,7 +192,19 @@ CUmdfHidDevice::SendInterruptPipeRead(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559230">IWDFIoTarget::FormatRequestForIoctl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559236">IWDFIoTarget::FormatRequestForWrite</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 

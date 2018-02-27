@@ -7,8 +7,8 @@ old-location: display\dxgkddi_createprotectedsession.htm
 old-project: display
 ms.assetid: 0FAE7AA0-839D-4D21-BC10-46B2B651979F
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgkddi_createprotectedsession, DXGKDDI_CREATEPROTECTEDSESSION callback function [Display Devices], DXGKDDI_CREATEPROTECTEDSESSION, d3dkmddi/DXGKDDI_CREATEPROTECTEDSESSION
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_CREATEPROTECTEDSESSION, DXGKDDI_CREATEPROTECTEDSESSION callback function [Display Devices], d3dkmddi/DXGKDDI_CREATEPROTECTEDSESSION, display.dxgkddi_createprotectedsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

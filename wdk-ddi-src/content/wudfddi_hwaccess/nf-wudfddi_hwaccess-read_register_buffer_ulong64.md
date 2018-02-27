@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8961126F-FE54-4369-A929-6CC4BDC67598
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: READ_REGISTER_BUFFER_ULONG64 function, umdf.read_register_buffer_ulong64, READ_REGISTER_BUFFER_ULONG64, wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG64, wdf.read_register_buffer_ulong64
+ms.keywords: READ_REGISTER_BUFFER_ULONG64, READ_REGISTER_BUFFER_ULONG64 function, umdf.read_register_buffer_ulong64, wdf.read_register_buffer_ulong64, wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	READ_REGISTER_BUFFER_ULONG64
 product: Windows
 targetos: Windows
-req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
+req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ void READ_REGISTER_BUFFER_ULONG64(
 
 
 
-#### - pDevice [in]
+### -param pDevice [in]
 
 Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
 

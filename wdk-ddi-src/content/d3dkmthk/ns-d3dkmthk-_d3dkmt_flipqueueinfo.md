@@ -7,8 +7,8 @@ old-location: display\d3dkmt_flipqueueinfo.htm
 old-project: display
 ms.assetid: 5bf5eb72-aa51-4ab3-ab68-13e6303f12a9
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DKMT_FLIPQUEUEINFO, OpenGL_Structs_db4a7b98-df53-4e1e-a990-0a2f45d71525.xml, _D3DKMT_FLIPQUEUEINFO, D3DKMT_FLIPQUEUEINFO structure [Display Devices], display.d3dkmt_flipqueueinfo, d3dkmthk/D3DKMT_FLIPQUEUEINFO
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_FLIPQUEUEINFO, D3DKMT_FLIPQUEUEINFO structure [Display Devices], OpenGL_Structs_db4a7b98-df53-4e1e-a990-0a2f45d71525.xml, _D3DKMT_FLIPQUEUEINFO, d3dkmthk/D3DKMT_FLIPQUEUEINFO, display.d3dkmt_flipqueueinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,7 +86,7 @@ typedef struct _D3DKMT_FLIPQUEUEINFO {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipinfoflags.md">D3DKMT_FLIPINFOFLAGS</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
 
 
 
@@ -102,5 +102,5 @@ typedef struct _D3DKMT_FLIPQUEUEINFO {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_FLIPQUEUEINFO structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_FLIPQUEUEINFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

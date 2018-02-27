@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c3ff7c9d-380e-4d66-88a4-aef7abe20c9d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFDeviceObjectGeneralRef_e2dc5cb6-4f45-441c-b242-5b67ea8fa381.xml, wdfdevice/WdfDeviceClearRemovalRelationsDevices, kmdf.wdfdeviceclearremovalrelationsdevices, wdf.wdfdeviceclearremovalrelationsdevices, WdfDeviceClearRemovalRelationsDevices method, WdfDeviceClearRemovalRelationsDevices
+ms.keywords: DFDeviceObjectGeneralRef_e2dc5cb6-4f45-441c-b242-5b67ea8fa381.xml, WdfDeviceClearRemovalRelationsDevices, WdfDeviceClearRemovalRelationsDevices method, kmdf.wdfdeviceclearremovalrelationsdevices, wdf.wdfdeviceclearremovalrelationsdevices, wdfdevice/WdfDeviceClearRemovalRelationsDevices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

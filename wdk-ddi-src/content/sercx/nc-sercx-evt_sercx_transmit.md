@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: B32335E4-3BDF-4161-9BE2-CF3557D76988
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercxtransmit, EvtSerCxTransmit callback function [Serial Ports], EvtSerCxTransmit, EVT_SERCX_TRANSMIT, EVT_SERCX_TRANSMIT, 1/EvtSerCxTransmit
+ms.keywords: 1/EvtSerCxTransmit, EVT_SERCX_TRANSMIT, EvtSerCxTransmit, EvtSerCxTransmit callback function [Serial Ports], serports.evtsercxtransmit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -161,11 +161,11 @@ For more information about SDV requirements for function declarations, see <a hr
 
 
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-
-
 <a href="..\wdfdpc\nf-wdfdpc-wdfdpcenqueue.md">WdfDpcEnqueue</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

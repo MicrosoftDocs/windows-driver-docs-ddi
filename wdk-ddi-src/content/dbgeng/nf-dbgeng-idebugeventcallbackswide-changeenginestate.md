@@ -4,11 +4,11 @@ title: IDebugEventCallbacksWide::ChangeEngineState method
 author: windows-driver-content
 description: The ChangeEngineState callback method is called by the engine when its state has changed.
 old-location: debugger\idebugeventcallbackswide_changeenginestate.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 14205476-3f58-4105-99a7-a3baa2eba033
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugEventCallbacksWide, IDebugEventCallbacksWide::ChangeEngineState, dbgeng/IDebugEventCallbacksWide::ChangeEngineState, ChangeEngineState method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging], ChangeEngineState method, debugger.idebugeventcallbackswide_changeenginestate, ChangeEngineState, ChangeEngineState method [Windows Debugging]
+ms.date: 2/23/2018
+ms.keywords: ChangeEngineState method [Windows Debugging], ChangeEngineState method [Windows Debugging], IDebugEventCallbacksWide interface, ChangeEngineState,IDebugEventCallbacksWide.ChangeEngineState, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], ChangeEngineState method, IDebugEventCallbacksWide::ChangeEngineState, dbgeng/IDebugEventCallbacksWide::ChangeEngineState, debugger.idebugeventcallbackswide_changeenginestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

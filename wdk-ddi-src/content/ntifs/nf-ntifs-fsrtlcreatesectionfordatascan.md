@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2bf6fb1b-e2d6-496d-808e-e739951cc7c5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlCreateSectionForDataScan routine [Installable File System Drivers], fsrtlref_5117d865-19da-4ec5-8b20-cccab94eb013.xml, ntifs/FsRtlCreateSectionForDataScan, ifsk.fsrtlcreatesectionfordatascan, FsRtlCreateSectionForDataScan
+ms.keywords: FsRtlCreateSectionForDataScan, FsRtlCreateSectionForDataScan routine [Installable File System Drivers], fsrtlref_5117d865-19da-4ec5-8b20-cccab94eb013.xml, ifsk.fsrtlcreatesectionfordatascan, ntifs/FsRtlCreateSectionForDataScan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -348,7 +348,11 @@ For more information on creating mapped sections and views of memory, see <a hre
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatesection.md">ZwCreateSection</a>
 
 
 
@@ -360,11 +364,7 @@ For more information on creating mapped sections and views of memory, see <a hre
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatesection.md">ZwCreateSection</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 

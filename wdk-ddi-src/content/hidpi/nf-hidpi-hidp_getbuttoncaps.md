@@ -7,8 +7,8 @@ old-location: hid\hidp_getbuttoncaps.htm
 old-project: hid
 ms.assetid: 228b95b0-1087-422f-a995-809743c6103e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: HidP_GetButtonCaps, hidfunc_57425ae7-03dd-42b7-b9b3-0581569ab442.xml, hidpi/HidP_GetButtonCaps, hid.hidp_getbuttoncaps, HidP_GetButtonCaps routine [Human Input Devices]
+ms.date: 2/24/2018
+ms.keywords: HidP_GetButtonCaps, HidP_GetButtonCaps routine [Human Input Devices], hid.hidp_getbuttoncaps, hidfunc_57425ae7-03dd-42b7-b9b3-0581569ab442.xml, hidpi/HidP_GetButtonCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -136,7 +136,7 @@ The preparsed data is not valid.
 
 <b>HidP_GetButtonCaps</b> returns the capability of all buttons in a top level collection for a specified report type. 
 
-<i>ButtonCapsLength</i> should be set to the value of the <b>Number</b><i>Xxx</i><b>ButtonCaps</b> member of the <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure returned by <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>, where <i>Xxx</i> specifies the report type.
+<i>ButtonCapsLength</i> should be set to the value of the <b>Number</b><i>Xxx</i><b>ButtonCaps</b> member of the <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure returned by <a href="..\hidclass\nc-hidclass-phidp_getcaps.md">HidP_GetCaps</a>, where <i>Xxx</i> specifies the report type.
 
 To obtain a subset of button capabilities, selected by <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage</a>, <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage page</a>, or <a href="https://msdn.microsoft.com/3f934661-c33c-4c08-82ac-ee2e0f519c8e">link collection</a>, use <a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>.
 
@@ -149,7 +149,7 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
+<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
 
 
 
@@ -157,17 +157,17 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 
 
+<a href="..\hidclass\nc-hidclass-phidp_getcaps.md">HidP_GetCaps</a>
+
+
+
 <a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>
 
 
 
-<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_GetButtonCaps routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_GetButtonCaps routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

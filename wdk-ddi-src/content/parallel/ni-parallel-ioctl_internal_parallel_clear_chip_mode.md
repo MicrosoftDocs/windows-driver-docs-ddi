@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: bca93bca-96f6-46bb-ba24-9f39b5ad1ab4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.ioctl_internal_parallel_clear_chip_mode, IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE control code [Parallel Ports], IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE, parallel/IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE, cisspd_912d58fe-f6f8-40c5-b4fe-e8237ea64c04.xml
+ms.keywords: IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE, IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE control code [Parallel Ports], cisspd_912d58fe-f6f8-40c5-b4fe-e8237ea64c04.xml, parallel/IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE, parports.ioctl_internal_parallel_clear_chip_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -123,11 +123,11 @@ The specified operating mode is not the same as the current operating mode of th
 
 ## -see-also
 
-<a href="..\parallel\ns-parallel-_parallel_chip_mode.md">PARALLEL_CHIP_MODE</a>
-
-
-
 <a href="..\parallel\ni-parallel-ioctl_internal_parallel_set_chip_mode.md">IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE</a>
+
+
+
+<a href="..\parallel\ns-parallel-_parallel_chip_mode.md">PARALLEL_CHIP_MODE</a>
 
 
 

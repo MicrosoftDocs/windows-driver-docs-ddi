@@ -4,11 +4,11 @@ title: IOCTL_INTERNAL_USB_RECORD_FAILURE
 author: windows-driver-content
 description: The IOCTL_INTERNAL_USB_RECORD_FAILURE IOCTL is used by the USB hub driver. Do not use.
 old-location: buses\ioctl_internal_usb_record_failure.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: b0b2f80c-38d3-47c7-b57b-d49fb5b6edd7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.ioctl_internal_usb_record_failure, IOCTL_INTERNAL_USB_RECORD_FAILURE control code [Buses], IOCTL_INTERNAL_USB_RECORD_FAILURE, usbioctl/IOCTL_INTERNAL_USB_RECORD_FAILURE
+ms.date: 2/24/2018
+ms.keywords: IOCTL_INTERNAL_USB_RECORD_FAILURE, IOCTL_INTERNAL_USB_RECORD_FAILURE control code [Buses], buses.ioctl_internal_usb_record_failure, usbioctl/IOCTL_INTERNAL_USB_RECORD_FAILURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

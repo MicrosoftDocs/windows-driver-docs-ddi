@@ -7,8 +7,8 @@ old-location: audio\pc_rebalance_type.htm
 old-project: audio
 ms.assetid: CE700126-8C29-4218-9248-F722523A4DA3
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: PcRebalanceNotSupported, PcRebalanceRemoveSubdevices, portcls/PC_REBALANCE_TYPE, portcls/PcRebalanceNotSupported, portcls/PcRebalanceRemoveSubdevices, audio.pc_rebalance_type, PC_REBALANCE_TYPE enumeration [Audio Devices], PC_REBALANCE_TYPE
+ms.date: 2/22/2018
+ms.keywords: PC_REBALANCE_TYPE, PC_REBALANCE_TYPE enumeration [Audio Devices], PcRebalanceNotSupported, PcRebalanceRemoveSubdevices, audio.pc_rebalance_type, portcls/PC_REBALANCE_TYPE, portcls/PcRebalanceNotSupported, portcls/PcRebalanceRemoveSubdevices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

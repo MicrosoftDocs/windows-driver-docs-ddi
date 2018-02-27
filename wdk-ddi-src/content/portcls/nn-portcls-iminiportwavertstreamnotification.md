@@ -7,8 +7,8 @@ old-location: audio\iminiportwavertstreamnotification.htm
 old-project: audio
 ms.assetid: e009c459-77f7-43ee-9e95-8408324b0a9b
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iminiportwavertstreamnotification, IMiniportWaveRTStreamNotification interface [Audio Devices], IMiniportWaveRTStreamNotification interface [Audio Devices], described, IMiniportWaveRTStreamNotification, portcls/IMiniportWaveRTStreamNotification, audmp-routines_a49bf74b-367b-44f4-b8de-a3adf6240b36.xml
+ms.date: 2/22/2018
+ms.keywords: IMiniportWaveRTStreamNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], IMiniportWaveRTStreamNotification interface [Audio Devices], described, audio.iminiportwavertstreamnotification, audmp-routines_a49bf74b-367b-44f4-b8de-a3adf6240b36.xml, portcls/IMiniportWaveRTStreamNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

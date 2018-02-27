@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 89183961-0A96-4ED0-8316-E6A2C99C929F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_build_lam, NdkBuildLam callback function [Network Drivers Starting with Windows Vista], NdkBuildLam, NDK_FN_BUILD_LAM, NDK_FN_BUILD_LAM, ndkpi/NdkBuildLam
+ms.keywords: NDK_FN_BUILD_LAM, NdkBuildLam, NdkBuildLam callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkBuildLam, netvista.ndk_fn_build_lam
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -231,23 +231,7 @@ If a provider has an error while processing an <i>NdkBuildLam</i> request, the p
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
-
-
-
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_logical_address_mapping.md">NDK_LOGICAL_ADDRESS_MAPPING</a>
 
 
 
@@ -255,7 +239,23 @@ If a provider has an error while processing an <i>NdkBuildLam</i> request, the p
 
 
 
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_logical_address_mapping.md">NDK_LOGICAL_ADDRESS_MAPPING</a>
+
+
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_privileged_memory_region_token.md">NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_release_lam.md">NDK_FN_RELEASE_LAM</a>
 
 
 

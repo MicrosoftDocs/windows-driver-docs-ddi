@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9b0cbcc4-e38a-4266-afc5-8b2755d79f4c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: windot11/DOT11_PHY_TYPE_INFO, windot11/PDOT11_PHY_TYPE_INFO, PDOT11_PHY_TYPE_INFO structure pointer [Network Drivers Starting with Windows Vista], PDOT11_PHY_TYPE_INFO, _DOT11_PHY_TYPE_INFO, Native_802.11_data_types_20e3d688-253f-416e-b9b0-8adec6bf7415.xml, netvista.dot11_phy_type_info, DOT11_PHY_TYPE_INFO, *PDOT11_PHY_TYPE_INFO, DOT11_PHY_TYPE_INFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PDOT11_PHY_TYPE_INFO, DOT11_PHY_TYPE_INFO, DOT11_PHY_TYPE_INFO structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_20e3d688-253f-416e-b9b0-8adec6bf7415.xml, PDOT11_PHY_TYPE_INFO, PDOT11_PHY_TYPE_INFO structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PHY_TYPE_INFO, netvista.dot11_phy_type_info, windot11/DOT11_PHY_TYPE_INFO, windot11/PDOT11_PHY_TYPE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_PHY_TYPE_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_PHY_TYPE_INFO, DOT11_PHY_TYPE_INFO"
+req.typenames: DOT11_PHY_TYPE_INFO, *PDOT11_PHY_TYPE_INFO
 req.product: Windows 10 or later.
 ---
 

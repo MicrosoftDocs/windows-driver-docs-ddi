@@ -7,8 +7,8 @@ old-location: kernel\allocatecommonbufferex.htm
 old-project: kernel
 ms.assetid: F7456BD7-689C-4534-B6F0-028A5359A2E9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.allocatecommonbufferex, AllocateCommonBufferEx, AllocateCommonBufferEx callback function [Kernel-Mode Driver Architecture], AllocateCommonBufferEx, PALLOCATE_COMMON_BUFFER_EX, PALLOCATE_COMMON_BUFFER_EX, wdm/AllocateCommonBufferEx
+ms.date: 2/24/2018
+ms.keywords: AllocateCommonBufferEx, AllocateCommonBufferEx callback function [Kernel-Mode Driver Architecture], PALLOCATE_COMMON_BUFFER_EX, kernel.allocatecommonbufferex, wdm/AllocateCommonBufferEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	AllocateCommonBufferEx
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -143,25 +143,7 @@ For more information about DMA operations that use a common buffer, see the foll
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
-
-
-
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
-
 <a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
-
-
-
-<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
-
-
-
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 
 
@@ -169,9 +151,21 @@ For more information about DMA operations that use a common buffer, see the foll
 
 
 
- 
+<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PALLOCATE_COMMON_BUFFER_EX callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PALLOCATE_COMMON_BUFFER_EX callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

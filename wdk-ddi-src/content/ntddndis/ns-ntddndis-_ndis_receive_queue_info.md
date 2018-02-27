@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7cdc45d4-e8aa-437a-b6fc-8b8c0dc17585
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: virtual_machine_queue_ref_5052da2e-c93a-40f9-b129-07538556ef29.xml, NDIS_RECEIVE_QUEUE_INFO, *PNDIS_RECEIVE_QUEUE_INFO, ntddndis/NDIS_RECEIVE_QUEUE_INFO, netvista.ndis_receive_queue_info, NDIS_RECEIVE_QUEUE_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_INFO structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_RECEIVE_QUEUE_INFO, PNDIS_RECEIVE_QUEUE_INFO, _NDIS_RECEIVE_QUEUE_INFO
+ms.keywords: "*PNDIS_RECEIVE_QUEUE_INFO, NDIS_RECEIVE_QUEUE_INFO, NDIS_RECEIVE_QUEUE_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_INFO, PNDIS_RECEIVE_QUEUE_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_INFO, netvista.ndis_receive_queue_info, ntddndis/NDIS_RECEIVE_QUEUE_INFO, ntddndis/PNDIS_RECEIVE_QUEUE_INFO, virtual_machine_queue_ref_5052da2e-c93a-40f9-b129-07538556ef29.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_RECEIVE_QUEUE_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_RECEIVE_QUEUE_INFO, NDIS_RECEIVE_QUEUE_INFO"
+req.typenames: NDIS_RECEIVE_QUEUE_INFO, *PNDIS_RECEIVE_QUEUE_INFO
 ---
 
 # _NDIS_RECEIVE_QUEUE_INFO structure
@@ -211,12 +211,7 @@ With a successful return from the <a href="https://docs.microsoft.com/en-us/wind
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-queues">OID_RECEIVE_FILTER_ENUM_QUEUES</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_operational_state.md">
-   NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
 
 
 
@@ -224,12 +219,7 @@ With a successful return from the <a href="https://docs.microsoft.com/en-us/wind
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_operational_state.md">
-   NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_type.md">NDIS_RECEIVE_QUEUE_TYPE</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -237,7 +227,16 @@ With a successful return from the <a href="https://docs.microsoft.com/en-us/wind
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_type.md">NDIS_RECEIVE_QUEUE_TYPE</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_operational_state.md">
+   NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569785">OID_RECEIVE_FILTER_CLEAR_FILTER</a>
 
 
 

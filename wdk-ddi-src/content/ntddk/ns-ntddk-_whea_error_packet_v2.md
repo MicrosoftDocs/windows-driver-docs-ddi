@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 10cfc201-d5c9-4887-997e-673ef6abb7db
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WHEA_ERROR_PACKET, WHEA_ERROR_PACKET_V2, whea.whea_error_packet_v2, WHEA_ERROR_PACKET_V2 structure [WHEA Drivers and Applications], *PWHEA_ERROR_PACKET, ntddk/WHEA_ERROR_PACKET_V2, ntddk/PWHEA_ERROR_PACKET_V2, PWHEA_ERROR_PACKET_V2 structure pointer [WHEA Drivers and Applications], whearef_dda917df-4c9e-435e-ab12-1520e13d3dac.xml, PWHEA_ERROR_PACKET_V2, _WHEA_ERROR_PACKET_V2, *PWHEA_ERROR_PACKET_V2
+ms.keywords: "*PWHEA_ERROR_PACKET, *PWHEA_ERROR_PACKET_V2, PWHEA_ERROR_PACKET_V2, PWHEA_ERROR_PACKET_V2 structure pointer [WHEA Drivers and Applications], WHEA_ERROR_PACKET, WHEA_ERROR_PACKET_V2, WHEA_ERROR_PACKET_V2 structure [WHEA Drivers and Applications], _WHEA_ERROR_PACKET_V2, ntddk/PWHEA_ERROR_PACKET_V2, ntddk/WHEA_ERROR_PACKET_V2, whea.whea_error_packet_v2, whearef_dda917df-4c9e-435e-ab12-1520e13d3dac.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_ERROR_PACKET_V2
 product: Windows
 targetos: Windows
-req.typenames: WHEA_ERROR_PACKET_V2, *PWHEA_ERROR_PACKET_V2, *PWHEA_ERROR_PACKET, WHEA_ERROR_PACKET
+req.typenames: WHEA_ERROR_PACKET_V2, *PWHEA_ERROR_PACKET_V2, WHEA_ERROR_PACKET, *PWHEA_ERROR_PACKET
 ---
 
 # _WHEA_ERROR_PACKET_V2 structure
@@ -235,11 +235,15 @@ In addition, <a href="https://msdn.microsoft.com/7c56a8e2-11e9-4ef0-83f2-50a1771
 
 ## -see-also
 
+<a href="..\ntddk\ns-ntddk-_whea_error_packet_flags.md">WHEA_ERROR_PACKET_FLAGS</a>
+
+
+
 <a href="..\ntddk\ne-ntddk-_whea_error_type.md">WHEA_ERROR_TYPE</a>
 
 
 
-<a href="..\ntddk\ne-ntddk-_whea_error_source_type.md">WHEA_ERROR_SOURCE_TYPE</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_packet_v1.md">WHEA_ERROR_PACKET_V1</a>
 
 
 
@@ -247,19 +251,15 @@ In addition, <a href="https://msdn.microsoft.com/7c56a8e2-11e9-4ef0-83f2-50a1771
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_packet_flags.md">WHEA_ERROR_PACKET_FLAGS</a>
+<a href="..\ntddk\ne-ntddk-_whea_error_packet_data_format.md">WHEA_ERROR_PACKET_DATA_FORMAT</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_packet_flags.md">WHEA_ERROR_PACKET_FLAGS</a>
+<a href="..\ntddk\ne-ntddk-_whea_error_source_type.md">WHEA_ERROR_SOURCE_TYPE</a>
 
 
 
 <a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_error_packet_v1.md">WHEA_ERROR_PACKET_V1</a>
 
 
 

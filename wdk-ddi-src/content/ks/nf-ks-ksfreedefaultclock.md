@@ -7,8 +7,8 @@ old-location: stream\ksfreedefaultclock.htm
 old-project: stream
 ms.assetid: e2fc87c9-e48f-4e18-ae1b-52a7cc701e91
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ks/KsFreeDefaultClock, KsFreeDefaultClock function [Streaming Media Devices], ksfunc_30a51e64-775e-4412-9a8c-b186e6caf932.xml, stream.ksfreedefaultclock, KsFreeDefaultClock
+ms.date: 2/23/2018
+ms.keywords: KsFreeDefaultClock, KsFreeDefaultClock function [Streaming Media Devices], ks/KsFreeDefaultClock, ksfunc_30a51e64-775e-4412-9a8c-b186e6caf932.xml, stream.ksfreedefaultclock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

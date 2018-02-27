@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 91182ed5-e444-41a7-b6fc-f14d0407f089
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.pparallel_deselect_routine, (*PPARALLEL_DESELECT_ROUTINE) callback function [Parallel Ports], (*PPARALLEL_DESELECT_ROUTINE), parallel/(*PPARALLEL_DESELECT_ROUTINE), cisspd_e8bc6fa2-03e4-4845-bfd6-0ebaf573e1b2.xml
+ms.keywords: "(*PPARALLEL_DESELECT_ROUTINE), (*PPARALLEL_DESELECT_ROUTINE) callback function [Parallel Ports], cisspd_e8bc6fa2-03e4-4845-bfd6-0ebaf573e1b2.xml, parallel/(*PPARALLEL_DESELECT_ROUTINE), parports.pparallel_deselect_routine"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	(*PPARALLEL_DESELECT_ROUTINE)
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # PPARALLEL_DESELECT_ROUTINE callback
@@ -183,19 +183,19 @@ For more information, see <a href="https://msdn.microsoft.com/1a3ac1b1-9180-4b71
 
 ## -see-also
 
-<a href="..\parallel\ni-parallel-ioctl_internal_deselect_device.md">IOCTL_INTERNAL_DESELECT_DEVICE</a>
-
-
-
-<a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
-
-
-
 <a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
 
 
 
 <a href="..\parallel\nc-parallel-pparallel_try_select_routine.md">PPARALLEL_TRY_SELECT_ROUTINE</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_deselect_device.md">IOCTL_INTERNAL_DESELECT_DEVICE</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
 
 
 

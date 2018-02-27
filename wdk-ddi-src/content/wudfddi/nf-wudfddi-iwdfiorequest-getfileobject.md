@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2d6567f1-9e2a-405f-ae8d-eb531cc29275
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetFileObject, wudfddi/IWDFIoRequest::GetFileObject, GetFileObject method, IWDFIoRequest interface, IWDFIoRequest, GetFileObject method, IWDFIoRequest::GetFileObject, wdf.iwdfiorequest_getfileobject, umdf.iwdfiorequest_getfileobject, IWDFIoRequest interface, GetFileObject method, UMDFRequestObjectRef_50a8506d-039a-448a-8459-30e89ac1021c.xml
+ms.keywords: GetFileObject method, GetFileObject method, IWDFIoRequest interface, GetFileObject,IWDFIoRequest.GetFileObject, IWDFIoRequest, IWDFIoRequest interface, GetFileObject method, IWDFIoRequest::GetFileObject, UMDFRequestObjectRef_50a8506d-039a-448a-8459-30e89ac1021c.xml, umdf.iwdfiorequest_getfileobject, wdf.iwdfiorequest_getfileobject, wudfddi/IWDFIoRequest::GetFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

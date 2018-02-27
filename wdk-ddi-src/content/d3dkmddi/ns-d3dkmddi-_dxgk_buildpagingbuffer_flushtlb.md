@@ -7,8 +7,8 @@ old-location: display\dxgk_buildpagingbuffer_flushtlb.htm
 old-project: display
 ms.assetid: 9FDE47A4-1784-41EB-9F60-76368D6DFEED
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: "_DXGK_BUILDPAGINGBUFFER_FLUSHTLB, DXGK_BUILDPAGINGBUFFER_FLUSHTLB, d3dkmddi/DXGK_BUILDPAGINGBUFFER_FLUSHTLB, display.dxgk_buildpagingbuffer_flushtlb, DXGK_BUILDPAGINGBUFFER_FLUSHTLB structure [Display Devices]"
+ms.date: 2/24/2018
+ms.keywords: DXGK_BUILDPAGINGBUFFER_FLUSHTLB, DXGK_BUILDPAGINGBUFFER_FLUSHTLB structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_FLUSHTLB, d3dkmddi/DXGK_BUILDPAGINGBUFFER_FLUSHTLB, display.dxgk_buildpagingbuffer_flushtlb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

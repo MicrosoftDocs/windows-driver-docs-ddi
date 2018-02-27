@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: A6911DD2-0524-4E83-A42E-6E3E7107A928
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.ioctl_gpio_read_pins, IOCTL_GPIO_READ_PINS control code [Parallel Ports], IOCTL_GPIO_READ_PINS, gpio/IOCTL_GPIO_READ_PINS
+ms.keywords: GPIO.ioctl_gpio_read_pins, IOCTL_GPIO_READ_PINS, IOCTL_GPIO_READ_PINS control code [Parallel Ports], gpio/IOCTL_GPIO_READ_PINS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_GPIO_READ_PINS
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO"
+req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
 
 # IOCTL_GPIO_READ_PINS IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -128,7 +128,7 @@ For code examples that show how to use the <b>IOCTL_GPIO_READ_PINS</b> request t
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
 
 
@@ -136,7 +136,7 @@ For code examples that show how to use the <b>IOCTL_GPIO_READ_PINS</b> request t
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
 
 

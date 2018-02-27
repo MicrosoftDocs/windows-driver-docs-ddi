@@ -4,11 +4,11 @@ title: "_STREAM_INFO"
 author: windows-driver-content
 description: This structure stores information about a stream associated with a bulk endpoint.
 old-location: buses\_stream_info.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: B8AE8866-AC13-4E7B-8815-70846DEECA12
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: ucxsstreams/_STREAM_INFO, STREAM_INFO structure [Buses], ucxsstreams/P_STREAM_INFO, _STREAM_INFO, STREAM_INFO, buses._stream_info, P_STREAM_INFO structure pointer [Buses], P_STREAM_INFO, *PSTREAM_INFO
+ms.date: 2/24/2018
+ms.keywords: "*PSTREAM_INFO, P_STREAM_INFO, P_STREAM_INFO structure pointer [Buses], STREAM_INFO, STREAM_INFO structure [Buses], _STREAM_INFO, buses._stream_info, ucxsstreams/P_STREAM_INFO, ucxsstreams/_STREAM_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STREAM_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_INFO, STREAM_INFO"
+req.typenames: STREAM_INFO, *PSTREAM_INFO
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: storage\sub_q_channel_data.htm
 old-project: storage
 ms.assetid: d0304ac7-cb19-499c-81af-98be33312951
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "_SUB_Q_CHANNEL_DATA, structs-CD-ROM_f35761c8-b362-48eb-9cfa-6ee5e7232411.xml, *PSUB_Q_CHANNEL_DATA, PSUB_Q_CHANNEL_DATA union pointer [Storage Devices], ntddcdrm/PSUB_Q_CHANNEL_DATA, ntddcdrm/SUB_Q_CHANNEL_DATA, SUB_Q_CHANNEL_DATA union [Storage Devices], SUB_Q_CHANNEL_DATA, storage.sub_q_channel_data, PSUB_Q_CHANNEL_DATA"
+ms.date: 2/24/2018
+ms.keywords: "*PSUB_Q_CHANNEL_DATA, PSUB_Q_CHANNEL_DATA, PSUB_Q_CHANNEL_DATA union pointer [Storage Devices], SUB_Q_CHANNEL_DATA, SUB_Q_CHANNEL_DATA union [Storage Devices], _SUB_Q_CHANNEL_DATA, ntddcdrm/PSUB_Q_CHANNEL_DATA, ntddcdrm/SUB_Q_CHANNEL_DATA, storage.sub_q_channel_data, structs-CD-ROM_f35761c8-b362-48eb-9cfa-6ee5e7232411.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,10 +95,6 @@ The value of the <b>Format </b>member of the CDROM_SUB_Q_DATA_FORMAT structure t
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
-
-
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_track_isrc.md">SUB_Q_TRACK_ISRC</a>
 
 
@@ -107,7 +103,11 @@ The value of the <b>Format </b>member of the CDROM_SUB_Q_DATA_FORMAT structure t
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_media_catalog_number.md">SUB_Q_MEDIA_CATALOG_NUMBER</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_current_position.md">SUB_Q_CURRENT_POSITION</a>
 
 
 
@@ -119,5 +119,5 @@ The value of the <b>Format </b>member of the CDROM_SUB_Q_DATA_FORMAT structure t
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SUB_Q_CHANNEL_DATA union%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SUB_Q_CHANNEL_DATA union%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

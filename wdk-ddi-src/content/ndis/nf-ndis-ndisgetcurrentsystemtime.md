@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eef32784-ea27-42c0-9a7a-74ce3d76665d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndisgetcurrentsystemtime, ndis/NdisGetCurrentSystemTime, NdisGetCurrentSystemTime, ndis_sysinfo_ref_cfd2358c-a52a-43d9-a07b-c64abb3e28b1.xml, NdisGetCurrentSystemTime macro [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisGetCurrentSystemTime, NdisGetCurrentSystemTime macro [Network Drivers Starting with Windows Vista], ndis/NdisGetCurrentSystemTime, ndis_sysinfo_ref_cfd2358c-a52a-43d9-a07b-c64abb3e28b1.xml, netvista.ndisgetcurrentsystemtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -41,7 +41,7 @@ apiname:
 -	NdisGetCurrentSystemTime
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGetCurrentSystemTime macro

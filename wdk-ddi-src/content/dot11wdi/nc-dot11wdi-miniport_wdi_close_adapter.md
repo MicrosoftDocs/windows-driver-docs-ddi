@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E6A96765-3D95-431B-B29A-5BD7641325A8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwdicloseadapter, MiniportWdiCloseAdapter callback function [Network Drivers Starting with Windows Vista], MiniportWdiCloseAdapter, MINIPORT_WDI_CLOSE_ADAPTER, MINIPORT_WDI_CLOSE_ADAPTER, dot11wdi/MiniportWdiCloseAdapter
+ms.keywords: MINIPORT_WDI_CLOSE_ADAPTER, MiniportWdiCloseAdapter, MiniportWdiCloseAdapter callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiCloseAdapter, netvista.miniportwdicloseadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	MiniportWdiCloseAdapter
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_CLOSE_ADAPTER callback
@@ -126,15 +126,15 @@ An appropriate NDIS_STATUS code in the case of a failure.
 
 
 
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_close_adapter_complete.md">CloseAdapterComplete</a>
-
-
-
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_close_adapter_complete.md">CloseAdapterComplete</a>
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a>
 
 
 
 <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_allocate_adapter.md">MiniportWdiAllocateAdapter</a>
+
+
+
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_close_adapter_complete.md">CloseAdapterComplete</a>
 
 
 

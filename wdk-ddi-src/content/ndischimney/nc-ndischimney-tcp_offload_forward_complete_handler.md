@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 02a11841-d98a-4c74-8922-458826e2911e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocoltcpoffloadforwardcomplete, ProtocolTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], ProtocolTcpOffloadForwardComplete, TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER, TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER, ndischimney/ProtocolTcpOffloadForwardComplete, tcp_chim_protocol_func_18981e3f-fec9-483d-b60e-54017ebd57d1.xml
+ms.keywords: ProtocolTcpOffloadForwardComplete, ProtocolTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER, ndischimney/ProtocolTcpOffloadForwardComplete, netvista.protocoltcpoffloadforwardcomplete, tcp_chim_protocol_func_18981e3f-fec9-483d-b60e-54017ebd57d1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -139,25 +139,24 @@ In response, NDIS calls the overlying driver's or host stack's
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
-   NdisTcpOffloadForwardComplete</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
-   NdisTcpOffloadForwardComplete</a>
-
-
-
 <a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpdisconnect.md">NdisOffloadTcpForward</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
+   NdisTcpOffloadForwardComplete</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

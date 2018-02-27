@@ -7,8 +7,8 @@ old-location: pci\pci_express_correctable_error_status.htm
 old-project: PCI
 ms.assetid: 24d10f3a-5188-4dda-8e4e-1dc7ae2ddc88
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PCI_EXPRESS_CORRECTABLE_ERROR_STATUS union [Buses], PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, wdm/PPCI_CORRECTABLE_ERROR_STATUS, pci_struct_1366a090-7405-4cd8-b725-19753a248441.xml, PPCI_CORRECTABLE_ERROR_STATUS, PPCI_CORRECTABLE_ERROR_STATUS union pointer [Buses], *PPCI_CORRECTABLE_ERROR_STATUS, _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, wdm/PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, PCI.pci_express_correctable_error_status
+ms.date: 2/24/2018
+ms.keywords: "*PPCI_CORRECTABLE_ERROR_STATUS, PCI.pci_express_correctable_error_status, PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, PCI_EXPRESS_CORRECTABLE_ERROR_STATUS union [Buses], PPCI_CORRECTABLE_ERROR_STATUS, PPCI_CORRECTABLE_ERROR_STATUS union pointer [Buses], _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, pci_struct_1366a090-7405-4cd8-b725-19753a248441.xml, wdm/PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, wdm/PPCI_CORRECTABLE_ERROR_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_EXPRESS_CORRECTABLE_ERROR_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PPCI_CORRECTABLE_ERROR_STATUS, PCI_EXPRESS_CORRECTABLE_ERROR_STATUS"
+req.typenames: PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, *PPCI_CORRECTABLE_ERROR_STATUS
 ---
 
 # _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure
@@ -88,19 +88,9 @@ typedef union _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS {
 A ULONG representation of the contents of the PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure.
 
 
-#### - ReceiverError
+#### - AdvisoryNonFatalError
 
-A single bit that indicates that a receiver error has occurred.
-
-
-#### - Reserved1
-
-Reserved.
-
-
-#### - BadTLP
-
-A single bit that indicates that a bad transaction layer packet (TLP) error has occurred.
+A single bit that indicates that an advisory non-fatal error has occurred.
 
 
 #### - BadDLLP
@@ -108,14 +98,19 @@ A single bit that indicates that a bad transaction layer packet (TLP) error has 
 A single bit that indicates that a bad data link layer packet (DLLP) error has occurred.
 
 
+#### - BadTLP
+
+A single bit that indicates that a bad transaction layer packet (TLP) error has occurred.
+
+
+#### - ReceiverError
+
+A single bit that indicates that a receiver error has occurred.
+
+
 #### - ReplayNumRollover
 
 A single bit that indicates that the counter that counts the number of times the retry buffer has been re-transmitted has rolled over.
-
-
-#### - Reserved2
-
-Reserved.
 
 
 #### - ReplayTimerTimeout
@@ -123,9 +118,14 @@ Reserved.
 A single bit that indicates that the replay timer has timed out.
 
 
-#### - AdvisoryNonFatalError
+#### - Reserved1
 
-A single bit that indicates that an advisory non-fatal error has occurred.
+Reserved.
+
+
+#### - Reserved2
+
+Reserved.
 
 
 #### - Reserved3
@@ -146,7 +146,7 @@ A PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure is contained in the <a href="ht
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
 
 
 
@@ -154,7 +154,7 @@ A PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure is contained in the <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
 
 
@@ -162,5 +162,5 @@ A PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure is contained in the <a href="ht
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_CORRECTABLE_ERROR_STATUS union%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_CORRECTABLE_ERROR_STATUS union%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

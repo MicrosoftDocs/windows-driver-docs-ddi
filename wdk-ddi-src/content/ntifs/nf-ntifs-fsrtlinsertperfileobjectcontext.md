@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 852b8b71-8a8c-4e9e-b27e-78fc2df8d5bd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fsrtlref_21a21edf-cf20-4c0b-aaef-bc75656238c4.xml, ntifs/FsRtlInsertPerFileObjectContext, ifsk.fsrtlinsertperfileobjectcontext, FsRtlInsertPerFileObjectContext function [Installable File System Drivers], FsRtlInsertPerFileObjectContext
+ms.keywords: FsRtlInsertPerFileObjectContext, FsRtlInsertPerFileObjectContext function [Installable File System Drivers], fsrtlref_21a21edf-cf20-4c0b-aaef-bc75656238c4.xml, ifsk.fsrtlinsertperfileobjectcontext, ntifs/FsRtlInsertPerFileObjectContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -145,7 +145,7 @@ After a FSRTL_PER_FILEOBJECT_CONTEXT structure or filter-defined per-file-object
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtllookupperfileobjectcontext.md">FsRtlLookupPerFileObjectContext</a>
+<a href="..\ntifs\nf-ntifs-fsrtlremoveperfileobjectcontext.md">FsRtlRemovePerFileObjectContext</a>
 
 
 
@@ -157,7 +157,7 @@ After a FSRTL_PER_FILEOBJECT_CONTEXT structure or filter-defined per-file-object
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlremoveperfileobjectcontext.md">FsRtlRemovePerFileObjectContext</a>
+<a href="..\ntifs\ns-ntifs-_fsrtl_per_fileobject_context.md">FSRTL_PER_FILEOBJECT_CONTEXT</a>
 
 
 

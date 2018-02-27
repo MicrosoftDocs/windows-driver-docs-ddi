@@ -7,8 +7,8 @@ old-location: devtest\vdbgprintex.htm
 old-project: devtest
 ms.assetid: e7118f5b-819f-428f-a5e6-80a36705d626
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: devtest.vdbgprintex, vDbgPrintEx routine [Driver Development Tools], vDbgPrintEx, wdm/vDbgPrintEx, DebugFns_e3774486-d60a-4853-8d86-5ffb99ef4bcb.xml
+ms.date: 2/23/2018
+ms.keywords: DebugFns_e3774486-d60a-4853-8d86-5ffb99ef4bcb.xml, devtest.vdbgprintex, vDbgPrintEx, vDbgPrintEx routine [Driver Development Tools], wdm/vDbgPrintEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -158,5 +158,5 @@ This routine is defined in Wdm.h. Component filter IDs are defined in Dpfilter.h
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20vDbgPrintEx routine%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20vDbgPrintEx routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

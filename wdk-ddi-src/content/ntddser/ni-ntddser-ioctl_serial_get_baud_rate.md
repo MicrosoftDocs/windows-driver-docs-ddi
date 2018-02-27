@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 074ab68e-7cd5-44e4-b3f6-2d6ddc5f3095
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.ioctl_serial_get_baud_rate, IOCTL_SERIAL_GET_BAUD_RATE control code [Serial Ports], IOCTL_SERIAL_GET_BAUD_RATE, ntddser/IOCTL_SERIAL_GET_BAUD_RATE, serref_d3a435b0-2934-465a-9c60-91210895755e.xml
+ms.keywords: IOCTL_SERIAL_GET_BAUD_RATE, IOCTL_SERIAL_GET_BAUD_RATE control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_BAUD_RATE, serports.ioctl_serial_get_baud_rate, serref_d3a435b0-2934-465a-9c60-91210895755e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -111,11 +111,11 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_baud_rate.md">IOCTL_SERIAL_SET_BAUD_RATE</a>
-
-
-
 <a href="..\ntddser\ns-ntddser-_serial_baud_rate.md">SERIAL_BAUD_RATE</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_baud_rate.md">IOCTL_SERIAL_SET_BAUD_RATE</a>
 
 
 

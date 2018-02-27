@@ -7,8 +7,8 @@ old-location: storage\storage_media_type.htm
 old-project: storage
 ms.assetid: 70214b6e-92d2-418a-ad8a-8701df02fdc3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: IBM_Magstar_3590, ntddstor/DMI, LTO_Accelis, ntddstor/AVATAR_F2, ntddstor/SONY_DTF, CLEANER_CARTRIDGE, ntddstor/PHILIPS_12_WO, ntddstor/SYQUEST_SYJET, CYGNET_12_WO, ntddstor/PSTORAGE_MEDIA_TYPE, STK_9840, ntddstor/MiniQic, ntddstor/PD_5_RW, Travan, NCTP, ntddstor/DVD_RAM, ntddstor/STK_9940, ntddstor/ABL_5_WO, ntddstor/PINNACLE_APEX_5_RW, ntddstor/STK_DATA_D3, KODAK_14_WO, DVD_R, STK_DATA_D3, ntddstor/STORAGE_MEDIA_TYPE, MO_NFR_525, SYQUEST_EZ135, NIKON_12_RW, PHILIPS_12_WO, storage.storage_media_type, ABL_5_WO, PSTORAGE_MEDIA_TYPE enumeration pointer [Storage Devices], HITACHI_12_WO, MO_5_WO, VXATape_2, ADR_2, ntddstor/DST_M, DVD_RW, ntddstor/VXATape_2, ntddstor/MP2_8mm, ntddstor/DV_6mm, AIT_8mm, AVATAR_F2, ntddstor/MO_5_WO, ntddstor/AIT1_8mm, ntddstor/IOMEGA_ZIP, LTO_Ultrium, ntddstor/DVD_R, ntddstor/PC_5_WO, ntddstor/IBM_Magstar_3590, ntddstor/DDS_4mm, ntddstor/VXATape, PINNACLE_APEX_5_RW, ntddstor/AIT_8mm, ntddstor/DVD_ROM, CD_ROM, MiniQic, ntddstor/NCTP, ntddstor/ADR_2, AIT1_8mm, ntddstor/IBM_Magstar_MP, STORAGE_MEDIA_TYPE enumeration [Storage Devices], ntddstor/Travan, ntddstor/DLT, ntddstor/IOMEGA_JAZ, ntddstor/QIC, SYQUEST_SYJET, ntddstor/IBM_3480, MP2_8mm, DST_M, SONY_DTF, ntddstor/DVD_RW, DV_6mm, ADR_1, VXATape, ntddstor/SONY_D2, MO_3_RW, ntddstor/SYQUEST_EZFLYER, VXATape_1, ntddstor/SYQUEST_EZ135, CD_R, ntddstor/LTO_Ultrium, ntddstor/LTO_Accelis, ntddstor/ADR_1, DVD_ROM, SAIT, SONY_D2, PD_5_RW, ntddstor/CLEANER_CARTRIDGE, STK_9940, DMI, ntddstor/CD_ROM, STORAGE_MEDIA_TYPE, DVD_RAM, *PSTORAGE_MEDIA_TYPE, DST_L, ntddstor/AME_8mm, structs-general_d1e0e1bc-5ce9-49d0-9ab5-94b5e495d124.xml, ntddstor/STK_9840, IOMEGA_ZIP, ntddstor/MP_8mm, ntddstor/IBM_3490E, ntddstor/SONY_12_WO, CD_RW, SYQUEST_EZFLYER, IOMEGA_JAZ, MO_5_RW, DLT, ntddstor/HITACHI_12_WO, IBM_3480, AME_8mm, ntddstor/NIKON_12_RW, ntddstor/CD_R, _STORAGE_MEDIA_TYPE, ntddstor/CYGNET_12_WO, ntddstor/MO_5_LIMDOW, ntddstor/VXATape_1, PSTORAGE_MEDIA_TYPE, ntddstor/CD_RW, ntddstor/DST_L, DST_S, ntddstor/MO_NFR_525, PC_5_WO, PC_5_RW, ntddstor/MO_5_RW, IBM_Magstar_MP, SONY_12_WO, MO_5_LIMDOW, ntddstor/SAIT, DDS_4mm, QIC, ntddstor/MO_3_RW, IBM_3490E, ntddstor/KODAK_14_WO, MP_8mm, ntddstor/PC_5_RW, ntddstor/DST_S
+ms.date: 2/24/2018
+ms.keywords: "*PSTORAGE_MEDIA_TYPE, ABL_5_WO, ADR_1, ADR_2, AIT1_8mm, AIT_8mm, AME_8mm, AVATAR_F2, CD_R, CD_ROM, CD_RW, CLEANER_CARTRIDGE, CYGNET_12_WO, DDS_4mm, DLT, DMI, DST_L, DST_M, DST_S, DVD_R, DVD_RAM, DVD_ROM, DVD_RW, DV_6mm, HITACHI_12_WO, IBM_3480, IBM_3490E, IBM_Magstar_3590, IBM_Magstar_MP, IOMEGA_JAZ, IOMEGA_ZIP, KODAK_14_WO, LTO_Accelis, LTO_Ultrium, MO_3_RW, MO_5_LIMDOW, MO_5_RW, MO_5_WO, MO_NFR_525, MP2_8mm, MP_8mm, MiniQic, NCTP, NIKON_12_RW, PC_5_RW, PC_5_WO, PD_5_RW, PHILIPS_12_WO, PINNACLE_APEX_5_RW, PSTORAGE_MEDIA_TYPE, PSTORAGE_MEDIA_TYPE enumeration pointer [Storage Devices], QIC, SAIT, SONY_12_WO, SONY_D2, SONY_DTF, STK_9840, STK_9940, STK_DATA_D3, STORAGE_MEDIA_TYPE, STORAGE_MEDIA_TYPE enumeration [Storage Devices], SYQUEST_EZ135, SYQUEST_EZFLYER, SYQUEST_SYJET, Travan, VXATape, VXATape_1, VXATape_2, _STORAGE_MEDIA_TYPE, ntddstor/ABL_5_WO, ntddstor/ADR_1, ntddstor/ADR_2, ntddstor/AIT1_8mm, ntddstor/AIT_8mm, ntddstor/AME_8mm, ntddstor/AVATAR_F2, ntddstor/CD_R, ntddstor/CD_ROM, ntddstor/CD_RW, ntddstor/CLEANER_CARTRIDGE, ntddstor/CYGNET_12_WO, ntddstor/DDS_4mm, ntddstor/DLT, ntddstor/DMI, ntddstor/DST_L, ntddstor/DST_M, ntddstor/DST_S, ntddstor/DVD_R, ntddstor/DVD_RAM, ntddstor/DVD_ROM, ntddstor/DVD_RW, ntddstor/DV_6mm, ntddstor/HITACHI_12_WO, ntddstor/IBM_3480, ntddstor/IBM_3490E, ntddstor/IBM_Magstar_3590, ntddstor/IBM_Magstar_MP, ntddstor/IOMEGA_JAZ, ntddstor/IOMEGA_ZIP, ntddstor/KODAK_14_WO, ntddstor/LTO_Accelis, ntddstor/LTO_Ultrium, ntddstor/MO_3_RW, ntddstor/MO_5_LIMDOW, ntddstor/MO_5_RW, ntddstor/MO_5_WO, ntddstor/MO_NFR_525, ntddstor/MP2_8mm, ntddstor/MP_8mm, ntddstor/MiniQic, ntddstor/NCTP, ntddstor/NIKON_12_RW, ntddstor/PC_5_RW, ntddstor/PC_5_WO, ntddstor/PD_5_RW, ntddstor/PHILIPS_12_WO, ntddstor/PINNACLE_APEX_5_RW, ntddstor/PSTORAGE_MEDIA_TYPE, ntddstor/QIC, ntddstor/SAIT, ntddstor/SONY_12_WO, ntddstor/SONY_D2, ntddstor/SONY_DTF, ntddstor/STK_9840, ntddstor/STK_9940, ntddstor/STK_DATA_D3, ntddstor/STORAGE_MEDIA_TYPE, ntddstor/SYQUEST_EZ135, ntddstor/SYQUEST_EZFLYER, ntddstor/SYQUEST_SYJET, ntddstor/Travan, ntddstor/VXATape, ntddstor/VXATape_1, ntddstor/VXATape_2, storage.storage_media_type, structs-general_d1e0e1bc-5ce9-49d0-9ab5-94b5e495d124.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_MEDIA_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_MEDIA_TYPE, STORAGE_MEDIA_TYPE"
+req.typenames: STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE, STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE
 ---
 
 # _STORAGE_MEDIA_TYPE enumeration
@@ -449,7 +449,7 @@ Indicates an STK 9840 device.
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_get_media_types.md">GET_MEDIA_TYPES</a>
+<a href="..\ntddstor\ns-ntddstor-_device_media_info.md">DEVICE_MEDIA_INFO</a>
 
 
 
@@ -457,7 +457,7 @@ Indicates an STK 9840 device.
 
 
 
-<a href="..\ntddstor\ns-ntddstor-_device_media_info.md">DEVICE_MEDIA_INFO</a>
+<a href="..\ntddstor\ns-ntddstor-_get_media_types.md">GET_MEDIA_TYPES</a>
 
 
 
@@ -465,5 +465,5 @@ Indicates an STK 9840 device.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORAGE_MEDIA_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORAGE_MEDIA_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

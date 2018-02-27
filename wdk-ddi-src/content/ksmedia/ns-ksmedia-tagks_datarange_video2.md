@@ -7,8 +7,8 @@ old-location: stream\ks_datarange_video2.htm
 old-project: stream
 ms.assetid: bddb19cb-7705-470b-ad22-14fd72f3db11
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: PKS_DATARANGE_VIDEO2, ksmedia/PKS_DATARANGE_VIDEO2, vidcapstruct_f014ea98-b1a5-4d05-aea3-b13e7a3f5918.xml, tagKS_DATARANGE_VIDEO2, ksmedia/KS_DATARANGE_VIDEO2, *PKS_DATARANGE_VIDEO2, KS_DATARANGE_VIDEO2, stream.ks_datarange_video2, KS_DATARANGE_VIDEO2 structure [Streaming Media Devices], PKS_DATARANGE_VIDEO2 structure pointer [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PKS_DATARANGE_VIDEO2, KS_DATARANGE_VIDEO2, KS_DATARANGE_VIDEO2 structure [Streaming Media Devices], PKS_DATARANGE_VIDEO2, PKS_DATARANGE_VIDEO2 structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_VIDEO2, ksmedia/PKS_DATARANGE_VIDEO2, stream.ks_datarange_video2, tagKS_DATARANGE_VIDEO2, vidcapstruct_f014ea98-b1a5-4d05-aea3-b13e7a3f5918.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -119,7 +119,11 @@ This structure should be used instead of a <a href="..\ksmedia\ns-ksmedia-tagks_
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 
@@ -127,13 +131,9 @@ This structure should be used instead of a <a href="..\ksmedia\ns-ksmedia-tagks_
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_DATARANGE_VIDEO2 structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_DATARANGE_VIDEO2 structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

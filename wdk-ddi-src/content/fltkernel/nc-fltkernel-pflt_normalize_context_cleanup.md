@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 968cfc99-4862-41f7-bf7e-d579a3e8061f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.pflt_normalize_context_cleanup, NormalizeContextCleanupCallback routine [Installable File System Drivers], NormalizeContextCleanupCallback, PFLT_NORMALIZE_CONTEXT_CLEANUP, PFLT_NORMALIZE_CONTEXT_CLEANUP, fltkernel/NormalizeContextCleanupCallback, FltCallbacks_3391a3bd-55a2-4f87-b116-78c2e4f93b88.xml
+ms.keywords: FltCallbacks_3391a3bd-55a2-4f87-b116-78c2e4f93b88.xml, NormalizeContextCleanupCallback, NormalizeContextCleanupCallback routine [Installable File System Drivers], PFLT_NORMALIZE_CONTEXT_CLEANUP, fltkernel/NormalizeContextCleanupCallback, ifsk.pflt_normalize_context_cleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -99,11 +99,19 @@ The filter manager calls this callback routine to allow the minifilter driver to
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_normalize_name_component_ex.md">PFLT_NORMALIZE_NAME_COMPONENT_EX</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_normalize_name_component.md">PFLT_NORMALIZE_NAME_COMPONENT</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
 
 
 
@@ -111,15 +119,7 @@ The filter manager calls this callback routine to allow the minifilter driver to
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_normalize_name_component_ex.md">PFLT_NORMALIZE_NAME_COMPONENT_EX</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

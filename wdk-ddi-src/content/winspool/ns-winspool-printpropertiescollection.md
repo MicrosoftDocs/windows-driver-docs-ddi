@@ -7,8 +7,8 @@ old-location: print\printpropertiescollection.htm
 old-project: print
 ms.assetid: 824E8A5C-7530-4C7B-B093-386DD3D45A6B
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: PrintPropertiesCollection structure [Print Devices], PrintPropertiesCollection, winspool/PrintPropertiesCollection, print.printpropertiescollection
+ms.date: 2/23/2018
+ms.keywords: PrintPropertiesCollection, PrintPropertiesCollection structure [Print Devices], print.printpropertiescollection, winspool/PrintPropertiesCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

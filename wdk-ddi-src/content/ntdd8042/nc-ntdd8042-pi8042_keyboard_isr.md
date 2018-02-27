@@ -7,8 +7,8 @@ old-location: hid\pi8042_keyboard_isr.htm
 old-project: hid
 ms.assetid: e21fa089-0650-4a3f-96f9-f479d36ef080
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: hid.pi8042_keyboard_isr, KeyboardIsr callback function [Human Input Devices], KeyboardIsr, PI8042_KEYBOARD_ISR, PI8042_KEYBOARD_ISR, ntdd8042/KeyboardIsr, i8042ref_34293f47-3e6c-4721-ab58-8ac531543c8e.xml
+ms.date: 2/24/2018
+ms.keywords: KeyboardIsr, KeyboardIsr callback function [Human Input Devices], PI8042_KEYBOARD_ISR, hid.pi8042_keyboard_isr, i8042ref_34293f47-3e6c-4721-ab58-8ac531543c8e.xml, ntdd8042/KeyboardIsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	KeyboardIsr
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes"
+req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
 ---
 
 # PI8042_KEYBOARD_ISR callback
@@ -135,19 +135,7 @@ The PI8042_KEYBOARD_ISR callback runs in kernel mode at the IRQL of the I8042prt
 
 ## -see-also
 
-<a href="..\ntdd8042\ne-ntdd8042-_keyboard_scan_state.md">KEYBOARD_SCAN_STATE</a>
-
-
-
 <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
-
-
-
-<a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
-
-
-
-<a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
 
 
 
@@ -155,9 +143,21 @@ The PI8042_KEYBOARD_ISR callback runs in kernel mode at the IRQL of the I8042prt
 
 
 
- 
+<a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542337">KEYBOARD_INPUT_DATA</a>
+
+
+
+<a href="..\ntdd8042\ne-ntdd8042-_keyboard_scan_state.md">KEYBOARD_SCAN_STATE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20PI8042_KEYBOARD_ISR callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20PI8042_KEYBOARD_ISR callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

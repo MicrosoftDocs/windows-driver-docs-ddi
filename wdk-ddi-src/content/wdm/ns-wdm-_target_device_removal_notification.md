@@ -7,8 +7,8 @@ old-location: kernel\target_device_removal_notification.htm
 old-project: kernel
 ms.assetid: a14656ca-131a-4722-aae7-041eddc8517a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PTARGET_DEVICE_REMOVAL_NOTIFICATION, TARGET_DEVICE_REMOVAL_NOTIFICATION, PTARGET_DEVICE_REMOVAL_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], kernel.target_device_removal_notification, _TARGET_DEVICE_REMOVAL_NOTIFICATION, *PTARGET_DEVICE_REMOVAL_NOTIFICATION, wdm/PTARGET_DEVICE_REMOVAL_NOTIFICATION, wdm/TARGET_DEVICE_REMOVAL_NOTIFICATION, kstruct_d_9b46ee83-c40a-435c-a544-456672ebca33.xml, TARGET_DEVICE_REMOVAL_NOTIFICATION structure [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: "*PTARGET_DEVICE_REMOVAL_NOTIFICATION, PTARGET_DEVICE_REMOVAL_NOTIFICATION, PTARGET_DEVICE_REMOVAL_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], TARGET_DEVICE_REMOVAL_NOTIFICATION, TARGET_DEVICE_REMOVAL_NOTIFICATION structure [Kernel-Mode Driver Architecture], _TARGET_DEVICE_REMOVAL_NOTIFICATION, kernel.target_device_removal_notification, kstruct_d_9b46ee83-c40a-435c-a544-456672ebca33.xml, wdm/PTARGET_DEVICE_REMOVAL_NOTIFICATION, wdm/TARGET_DEVICE_REMOVAL_NOTIFICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TARGET_DEVICE_REMOVAL_NOTIFICATION
 product: Windows
 targetos: Windows
-req.typenames: "*PTARGET_DEVICE_REMOVAL_NOTIFICATION, TARGET_DEVICE_REMOVAL_NOTIFICATION"
+req.typenames: TARGET_DEVICE_REMOVAL_NOTIFICATION, *PTARGET_DEVICE_REMOVAL_NOTIFICATION
 req.product: Windows 10 or later.
 ---
 
@@ -93,11 +93,7 @@ Pointer to a file object for the device.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
-
-
-
-<a href="..\wdm\ns-wdm-_hwprofile_change_notification.md">HWPROFILE_CHANGE_NOTIFICATION</a>
+<a href="..\wdm\ns-wdm-_device_interface_change_notification.md">DEVICE_INTERFACE_CHANGE_NOTIFICATION</a>
 
 
 
@@ -105,7 +101,11 @@ Pointer to a file object for the device.
 
 
 
-<a href="..\wdm\ns-wdm-_device_interface_change_notification.md">DEVICE_INTERFACE_CHANGE_NOTIFICATION</a>
+<a href="..\wdm\ns-wdm-_hwprofile_change_notification.md">HWPROFILE_CHANGE_NOTIFICATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
 
 
 
@@ -113,5 +113,5 @@ Pointer to a file object for the device.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TARGET_DEVICE_REMOVAL_NOTIFICATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TARGET_DEVICE_REMOVAL_NOTIFICATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: print\drvupgraderegistrysetting.htm
 old-project: print
 ms.assetid: cb03b9d4-b623-49b8-a63d-ae97b33065c5
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.drvupgraderegistrysetting, DrvUpgradeRegistrySetting, DrvUpgradeRegistrySetting callback function [Print Devices], DrvUpgradeRegistrySetting, PFN_DrvUpgradeRegistrySetting, PFN_DrvUpgradeRegistrySetting, printoem/DrvUpgradeRegistrySetting, print_obsoletefunctions_089531d9-0bcb-4fed-84c4-59a3be1ed82e.xml
+ms.date: 2/23/2018
+ms.keywords: DrvUpgradeRegistrySetting, DrvUpgradeRegistrySetting callback function [Print Devices], PFN_DrvUpgradeRegistrySetting, print.drvupgraderegistrysetting, print_obsoletefunctions_089531d9-0bcb-4fed-84c4-59a3be1ed82e.xml, printoem/DrvUpgradeRegistrySetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

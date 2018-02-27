@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 311C5273-1C16-4EA7-96B4-838CCE6926BA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_startcontroller, CLIENT_StartController callback function [Parallel Ports], CLIENT_StartController, GPIO_CLIENT_START_CONTROLLER, GPIO_CLIENT_START_CONTROLLER, gpioclx/CLIENT_StartController
+ms.keywords: CLIENT_StartController, CLIENT_StartController callback function [Parallel Ports], GPIO.client_startcontroller, GPIO_CLIENT_START_CONTROLLER, gpioclx/CLIENT_StartController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_StartController
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO"
+req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
 
 # GPIO_CLIENT_START_CONTROLLER callback

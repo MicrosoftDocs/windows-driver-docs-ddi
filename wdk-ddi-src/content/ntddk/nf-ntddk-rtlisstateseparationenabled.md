@@ -7,8 +7,8 @@ old-location: kernel\rtlisstateseparationenabled.htm
 old-project: kernel
 ms.assetid: 7c28a82c-e039-4045-94cd-b47a45d15e28
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RtlIsStateSeparationEnabled, RtlIsStateSeparationEnabled function [Kernel-Mode Driver Architecture], ntddk/RtlIsStateSeparationEnabled, kernel.rtlisstateseparationenabled
+ms.date: 2/24/2018
+ms.keywords: RtlIsStateSeparationEnabled, RtlIsStateSeparationEnabled function [Kernel-Mode Driver Architecture], kernel.rtlisstateseparationenabled, ntddk/RtlIsStateSeparationEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlIsStateSeparationEnabled
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlIsStateSeparationEnabled function

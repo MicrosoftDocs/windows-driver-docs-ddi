@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 72AF3D52-D109-42A7-9F25-14A3F5EDC94A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercx2customreceivetransactioncleanup, EvtSerCx2CustomReceiveTransactionCleanup callback function [Serial Ports], EvtSerCx2CustomReceiveTransactionCleanup, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_CLEANUP, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_CLEANUP, 2/EvtSerCx2CustomReceiveTransactionCleanup
+ms.keywords: 2/EvtSerCx2CustomReceiveTransactionCleanup, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_CLEANUP, EvtSerCx2CustomReceiveTransactionCleanup, EvtSerCx2CustomReceiveTransactionCleanup callback function [Serial Ports], serports.evtsercx2customreceivetransactioncleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -137,11 +137,11 @@ The <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_CLEANUP</b> function type is define
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2customreceivetransactioncleanupcomplete.md">SerCx2CustomReceiveTransactionCleanupComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
 
 
 

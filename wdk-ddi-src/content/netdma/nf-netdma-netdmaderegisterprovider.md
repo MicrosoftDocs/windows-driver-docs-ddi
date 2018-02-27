@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8832adbc-c2ab-4742-94a0-4e33d03eaaf1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NetDmaDeregisterProvider function [Network Drivers Starting with Windows Vista], netdma/NetDmaDeregisterProvider, NetDmaDeregisterProvider, netdma_ref_0fac8a7e-7721-4854-8d0e-6926243ff2ea.xml, netvista.netdmaderegisterprovider
+ms.keywords: NetDmaDeregisterProvider, NetDmaDeregisterProvider function [Network Drivers Starting with Windows Vista], netdma/NetDmaDeregisterProvider, netdma_ref_0fac8a7e-7721-4854-8d0e-6926243ff2ea.xml, netvista.netdmaderegisterprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -120,7 +120,7 @@ Call
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: print\oemimageprocessing.htm
 old-project: print
 ms.assetid: 965e17bc-2a38-4caa-a0dd-41ee1e1198f0
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: OEMImageProcessing, print_obsoletefunctions_c65011ae-a69c-4cbe-88a8-13847401c7df.xml, OEMImageProcessing function [Print Devices], print.oemimageprocessing, printoem/OEMImageProcessing
+ms.date: 2/23/2018
+ms.keywords: OEMImageProcessing, OEMImageProcessing function [Print Devices], print.oemimageprocessing, print_obsoletefunctions_c65011ae-a69c-4cbe-88a8-13847401c7df.xml, printoem/OEMImageProcessing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

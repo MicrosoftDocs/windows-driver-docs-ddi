@@ -7,8 +7,8 @@ old-location: audio\iminiportwavepcistream_service.htm
 old-project: audio
 ms.assetid: d41e0774-54b4-43cc-997d-fbd512440450
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: Service, Service method [Audio Devices], portcls/IMiniportWavePciStream::Service, IMiniportWavePciStream interface [Audio Devices], Service method, Service method [Audio Devices], IMiniportWavePciStream interface, audio.iminiportwavepcistream_service, audmp-routines_c723ca89-3315-43a2-b93b-86c5bce87910.xml, IMiniportWavePciStream::Service, IMiniportWavePciStream
+ms.date: 2/22/2018
+ms.keywords: IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], Service method, IMiniportWavePciStream::Service, Service method [Audio Devices], Service method [Audio Devices], IMiniportWavePciStream interface, Service,IMiniportWavePciStream.Service, audio.iminiportwavepcistream_service, audmp-routines_c723ca89-3315-43a2-b93b-86c5bce87910.xml, portcls/IMiniportWavePciStream::Service
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -94,6 +94,10 @@ When the miniport driver's ISR calls the port driver's <a href="https://msdn.mic
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536918">IPortWavePci::Notify</a>
+
+
+
 <a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
 
 
@@ -102,7 +106,7 @@ When the miniport driver's ISR calls the port driver's <a href="https://msdn.mic
 
 
 
-<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 
@@ -110,13 +114,9 @@ When the miniport driver's ISR calls the port driver's <a href="https://msdn.mic
 
 
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWavePciStream::Service method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWavePciStream::Service method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

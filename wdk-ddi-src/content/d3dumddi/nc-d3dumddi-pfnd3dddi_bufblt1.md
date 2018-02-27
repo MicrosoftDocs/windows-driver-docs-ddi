@@ -7,8 +7,8 @@ old-location: display\bufblt1.htm
 old-project: display
 ms.assetid: 92F2AED7-935F-4E3E-934F-D6DF9AA87495
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.bufblt1, BufBlt1 callback function [Display Devices], BufBlt1, PFND3DDDI_BUFBLT1, PFND3DDDI_BUFBLT1, d3dumddi/BufBlt1
+ms.date: 2/24/2018
+ms.keywords: BufBlt1, BufBlt1 callback function [Display Devices], PFND3DDDI_BUFBLT1, d3dumddi/BufBlt1, display.bufblt1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -102,17 +102,17 @@ __checkReturn HRESULT APIENTRY* BufBlt1(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_bufferblt1.md">D3DDDIARG_BUFFERBLT1</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
- 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_bufferblt1.md">D3DDDIARG_BUFFERBLT1</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_BUFBLT1 callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_BUFBLT1 callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\storportsetdevicequeuedepth.htm
 old-project: storage
 ms.assetid: e79b4294-5ba4-4fcc-97e2-69613b65f574
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storprt_1f3e0e5d-fa3e-4314-aa0a-4d8494c78fb2.xml, StorPortSetDeviceQueueDepth, storport/StorPortSetDeviceQueueDepth, storage.storportsetdevicequeuedepth, StorPortSetDeviceQueueDepth routine [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: StorPortSetDeviceQueueDepth, StorPortSetDeviceQueueDepth routine [Storage Devices], storage.storportsetdevicequeuedepth, storport/StorPortSetDeviceQueueDepth, storprt_1f3e0e5d-fa3e-4314-aa0a-4d8494c78fb2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

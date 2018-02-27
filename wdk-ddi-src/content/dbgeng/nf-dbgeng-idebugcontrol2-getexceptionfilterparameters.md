@@ -4,11 +4,11 @@ title: IDebugControl2::GetExceptionFilterParameters method
 author: windows-driver-content
 description: The GetExceptionFilterParameters method returns the parameters for exception filters specified by exception codes or by index.
 old-location: debugger\getexceptionfilterparameters.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 6c3db06a-0305-480f-ab7f-38e4295ebe9b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl3::GetExceptionFilterParameters, debugger.getexceptionfilterparameters, IDebugControl, IDebugControl interface [Windows Debugging], GetExceptionFilterParameters method, IDebugControl2, GetExceptionFilterParameters method [Windows Debugging], IDebugControl_012d902c-ff4c-4ac8-9a35-b6cdcd1e2894.xml, GetExceptionFilterParameters method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], GetExceptionFilterParameters method, IDebugControl2 interface [Windows Debugging], GetExceptionFilterParameters method, IDebugControl2::GetExceptionFilterParameters, dbgeng/IDebugControl3::GetExceptionFilterParameters, GetExceptionFilterParameters method [Windows Debugging], IDebugControl interface, IDebugControl::GetExceptionFilterParameters, dbgeng/IDebugControl2::GetExceptionFilterParameters, GetExceptionFilterParameters, GetExceptionFilterParameters method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::GetExceptionFilterParameters
+ms.date: 2/23/2018
+ms.keywords: GetExceptionFilterParameters method [Windows Debugging], GetExceptionFilterParameters method [Windows Debugging], IDebugControl interface, GetExceptionFilterParameters method [Windows Debugging], IDebugControl2 interface, GetExceptionFilterParameters method [Windows Debugging], IDebugControl3 interface, GetExceptionFilterParameters,IDebugControl2.GetExceptionFilterParameters, IDebugControl interface [Windows Debugging], GetExceptionFilterParameters method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetExceptionFilterParameters method, IDebugControl2::GetExceptionFilterParameters, IDebugControl3 interface [Windows Debugging], GetExceptionFilterParameters method, IDebugControl3::GetExceptionFilterParameters, IDebugControl::GetExceptionFilterParameters, IDebugControl_012d902c-ff4c-4ac8-9a35-b6cdcd1e2894.xml, dbgeng/IDebugControl2::GetExceptionFilterParameters, dbgeng/IDebugControl3::GetExceptionFilterParameters, dbgeng/IDebugControl::GetExceptionFilterParameters, debugger.getexceptionfilterparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -135,11 +135,7 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556683">SetExceptionFilterParameters</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556683">SetExceptionFilterParameters</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -147,17 +143,21 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556683">SetExceptionFilterParameters</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::GetExceptionFilterParameters method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetExceptionFilterParameters method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

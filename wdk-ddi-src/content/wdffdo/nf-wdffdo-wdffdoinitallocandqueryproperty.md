@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9c275d89-e01d-445b-8c60-ae5268cd28c3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfFdoInitAllocAndQueryProperty method, WdfFdoInitAllocAndQueryProperty, wdf.wdffdoinitallocandqueryproperty, wdffdo/WdfFdoInitAllocAndQueryProperty, kmdf.wdffdoinitallocandqueryproperty, DFDeviceObjectFdoPdoRef_2de90bea-c2df-4aa7-b64f-b17df042268c.xml
+ms.keywords: DFDeviceObjectFdoPdoRef_2de90bea-c2df-4aa7-b64f-b17df042268c.xml, WdfFdoInitAllocAndQueryProperty, WdfFdoInitAllocAndQueryProperty method, kmdf.wdffdoinitallocandqueryproperty, wdf.wdffdoinitallocandqueryproperty, wdffdo/WdfFdoInitAllocAndQueryProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -191,11 +191,11 @@ if(NT_SUCCESS(status)){
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitqueryproperty.md">WdfFdoInitQueryProperty</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryproperty.md">WdfDeviceAllocAndQueryProperty</a>
+
+
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitqueryproperty.md">WdfFdoInitQueryProperty</a>
 
 
 

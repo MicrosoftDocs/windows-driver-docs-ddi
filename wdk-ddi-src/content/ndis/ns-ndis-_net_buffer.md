@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 66a725f9-ae72-41b4-8840-63c9ff89ace7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_NET_BUFFER, ndis/PNET_BUFFER, NET_BUFFER, PNET_BUFFER structure pointer [Network Drivers Starting with Windows Vista], netvista.net_buffer, *PNET_BUFFER, NET_BUFFER structure [Network Drivers Starting with Windows Vista], ndis/NET_BUFFER, ndis_netbuf_structures_ref_e07734b2-9135-48a5-b3d4-f6e252a52c45.xml, PNET_BUFFER"
+ms.keywords: "*PNET_BUFFER, NET_BUFFER, NET_BUFFER structure [Network Drivers Starting with Windows Vista], PNET_BUFFER, PNET_BUFFER structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER, ndis/NET_BUFFER, ndis/PNET_BUFFER, ndis_netbuf_structures_ref_e07734b2-9135-48a5-b3d4-f6e252a52c45.xml, netvista.net_buffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NET_BUFFER
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_BUFFER, NET_BUFFER"
+req.typenames: NET_BUFFER, *PNET_BUFFER, NET_BUFFER, *PNET_BUFFER
 ---
 
 # _NET_BUFFER structure
@@ -167,16 +167,16 @@ A
      <a href="..\ndis\ns-ndis-_net_buffer_header.md">NET_BUFFER_HEADER</a> structure.
 
 
+#### - ScatterGatherList
+
+The SCATTER_GATHER_LIST structure describes a scatter/gather list for DMA.
+
+
 #### - SharedMemoryInfo
 
 A pointer to an 
       <a href="..\ndis\ns-ndis-_net_buffer_shared_memory.md">
       NET_BUFFER_SHARED_MEMORY</a> structure.
-
-
-#### - ScatterGatherList
-
-The SCATTER_GATHER_LIST structure describes a scatter/gather list for DMA.
 
 
 ## -remarks
@@ -292,8 +292,15 @@ For more information on how to use net buffers, see
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferlistdatastart.md">
-   NdisRetreatNetBufferListDataStart</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">NET_BUFFER_CURRENT_MDL_OFFSET</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_header.md">NET_BUFFER_HEADER</a>
+
+
+
+<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
 
 
 
@@ -301,24 +308,15 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568386">NET_BUFFER_FIRST_MDL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568383">NET_BUFFER_DATA_OFFSET</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">NET_BUFFER_CURRENT_MDL_OFFSET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568417">NET_BUFFER_PROTOCOL_RESERVED</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
-   NdisAllocateNetBufferListPool</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568382">NET_BUFFER_DATA_LENGTH</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568378">NET_BUFFER_CHECKSUM_BIAS</a>
+<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
 
 
 
@@ -330,15 +328,32 @@ For more information on how to use net buffers, see
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568378">NET_BUFFER_CHECKSUM_BIAS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568386">NET_BUFFER_FIRST_MDL</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568417">NET_BUFFER_PROTOCOL_RESERVED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568379">NET_BUFFER_CURRENT_MDL</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_header.md">NET_BUFFER_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568382">NET_BUFFER_DATA_LENGTH</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
+   NdisRetreatNetBufferDataStart</a>
 
 
 
@@ -347,33 +362,18 @@ For more information on how to use net buffers, see
 
 
 
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+   NdisAllocateNetBufferListPool</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
    NdisAllocateNetBufferAndNetBufferList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568383">NET_BUFFER_DATA_OFFSET</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
-
-
-
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568379">NET_BUFFER_CURRENT_MDL</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
-   NdisRetreatNetBufferDataStart</a>
+<a href="..\ndis\nf-ndis-ndisretreatnetbufferlistdatastart.md">
+   NdisRetreatNetBufferListDataStart</a>
 
 
 

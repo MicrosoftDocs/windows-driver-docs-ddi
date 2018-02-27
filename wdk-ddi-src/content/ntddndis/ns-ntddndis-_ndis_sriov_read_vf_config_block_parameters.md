@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fafad6f2-8092-4067-afad-208877309010
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, netvista.ndis_sriov_read_vf_config_block_parameters, _NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, ntddndis/PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS
+ms.keywords: "*PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, netvista.ndis_sriov_read_vf_config_block_parameters, ntddndis/NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, ntddndis/PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS"
+req.typenames: NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, *PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS
 ---
 
 # _NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS structure

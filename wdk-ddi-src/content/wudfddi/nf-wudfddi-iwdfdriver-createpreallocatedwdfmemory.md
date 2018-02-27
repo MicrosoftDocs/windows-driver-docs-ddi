@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9c24f42b-0f1d-4b93-99af-f4a5069b5223
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: CreatePreallocatedWdfMemory method, umdf.iwdfdriver_createpreallocatedwdfmemory, CreatePreallocatedWdfMemory, CreatePreallocatedWdfMemory method, IWDFDriver interface, UMDFDriverObjectRef_273a5206-8415-4251-88e8-6f20c29f50e2.xml, IWDFDriver::CreatePreallocatedWdfMemory, IWDFDriver, wdf.iwdfdriver_createpreallocatedwdfmemory, IWDFDriver interface, CreatePreallocatedWdfMemory method, wudfddi/IWDFDriver::CreatePreallocatedWdfMemory
+ms.keywords: CreatePreallocatedWdfMemory method, CreatePreallocatedWdfMemory method, IWDFDriver interface, CreatePreallocatedWdfMemory,IWDFDriver.CreatePreallocatedWdfMemory, IWDFDriver, IWDFDriver interface, CreatePreallocatedWdfMemory method, IWDFDriver::CreatePreallocatedWdfMemory, UMDFDriverObjectRef_273a5206-8415-4251-88e8-6f20c29f50e2.xml, umdf.iwdfdriver_createpreallocatedwdfmemory, wdf.iwdfdriver_createpreallocatedwdfmemory, wudfddi/IWDFDriver::CreatePreallocatedWdfMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -173,18 +173,6 @@ The following code example shows how to create a memory object for a buffer.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560162">IWDFMemory::SetBuffer</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
 
@@ -194,6 +182,18 @@ The following code example shows how to create a memory object for a buffer.
 
 
 <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560162">IWDFMemory::SetBuffer</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
 
 

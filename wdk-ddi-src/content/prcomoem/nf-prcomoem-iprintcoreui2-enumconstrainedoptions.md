@@ -7,8 +7,8 @@ old-location: print\iprintcoreui2_enumconstrainedoptions.htm
 old-project: print
 ms.assetid: 815a20f4-9bd7-4f8d-8444-545097d1c4b3
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: EnumConstrainedOptions method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], EnumConstrainedOptions method, EnumConstrainedOptions, print.iprintcoreui2_enumconstrainedoptions, EnumConstrainedOptions method [Print Devices], prcomoem/IPrintCoreUI2::EnumConstrainedOptions, print_unidrv-pscript_ui_43a11382-d457-4845-aaa0-4eb87a11929a.xml, IPrintCoreUI2::EnumConstrainedOptions
+ms.date: 2/23/2018
+ms.keywords: EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices], IPrintCoreUI2 interface, EnumConstrainedOptions,IPrintCoreUI2.EnumConstrainedOptions, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], EnumConstrainedOptions method, IPrintCoreUI2::EnumConstrainedOptions, prcomoem/IPrintCoreUI2::EnumConstrainedOptions, print.iprintcoreui2_enumconstrainedoptions, print_unidrv-pscript_ui_43a11382-d457-4845-aaa0-4eb87a11929a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreUI2.EnumConstrainedOptions
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -196,11 +196,7 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
-
-
-
-<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
 
 
@@ -208,11 +204,15 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
+<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2d2e486-d69d-4a6d-aaab-a7b8806665b4">IPrintCoreUI2</a>
+<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
 
 
@@ -220,5 +220,5 @@ To reduce the need to make two calls per data access, pass the method an output 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreUI2::EnumConstrainedOptions method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreUI2::EnumConstrainedOptions method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

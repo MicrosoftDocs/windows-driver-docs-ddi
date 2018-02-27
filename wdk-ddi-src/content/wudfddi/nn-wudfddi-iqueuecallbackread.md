@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ccae49a2-2081-44f2-b1f6-cb1e98b74e5d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iqueuecallbackread, IQueueCallbackRead interface, IQueueCallbackRead interface, described, IQueueCallbackRead, wudfddi/IQueueCallbackRead, UMDFQueueObjectRef_ea1187c2-6bd1-43a0-aeeb-6d9e1ee48cd7.xml, umdf.iqueuecallbackread
+ms.keywords: IQueueCallbackRead, IQueueCallbackRead interface, IQueueCallbackRead interface, described, UMDFQueueObjectRef_ea1187c2-6bd1-43a0-aeeb-6d9e1ee48cd7.xml, umdf.iqueuecallbackread, wdf.iqueuecallbackread, wudfddi/IQueueCallbackRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 An I/O queue notifies a driver when a read request is available for the driver. The I/O queue notifies the driver when an application calls the Microsoft Win32 <b>ReadFile</b> or <b>ReadFileEx</b> function. The driver can handle the notification by registering the <b>IQueueCallbackRead</b> interface.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueueCallbackRead</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IQueueCallbackRead</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IQueueCallbackRead</b> interface has these methods.
@@ -72,9 +79,7 @@ The <a href="https://msdn.microsoft.com/e11a823d-0b08-42fd-b093-4c464c152afe">On
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/e11a823d-0b08-42fd-b093-4c464c152afe">OnRead</a> method is called to handle a read request when an application reads information from a device through the Microsoft Win32 <b>ReadFile</b> or <b>ReadFileEx</b> function. 
-
- 
+</table> 
 
 
 ## -remarks

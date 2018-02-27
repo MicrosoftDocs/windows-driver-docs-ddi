@@ -7,8 +7,8 @@ old-location: storage\sendlirr_out.htm
 old-project: storage
 ms.assetid: 842842c2-ed79-4c8a-b9c1-d73c47998f91
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: SendLIRR_OUT structure [Storage Devices], hbapiwmi/SendLIRR_OUT, _SendLIRR_OUT, PSendLIRR_OUT structure pointer [Storage Devices], structs-Fibre_193ae454-313d-4ada-a161-39c403226edf.xml, hbapiwmi/PSendLIRR_OUT, *PSendLIRR_OUT, PSendLIRR_OUT, SendLIRR_OUT, storage.sendlirr_out
+ms.date: 2/24/2018
+ms.keywords: "*PSendLIRR_OUT, PSendLIRR_OUT, PSendLIRR_OUT structure pointer [Storage Devices], SendLIRR_OUT, SendLIRR_OUT structure [Storage Devices], _SendLIRR_OUT, hbapiwmi/PSendLIRR_OUT, hbapiwmi/SendLIRR_OUT, storage.sendlirr_out, structs-Fibre_193ae454-313d-4ada-a161-39c403226edf.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SendLIRR_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSendLIRR_OUT, SendLIRR_OUT"
+req.typenames: SendLIRR_OUT, *PSendLIRR_OUT
 ---
 
 # _SendLIRR_OUT structure
@@ -109,5 +109,5 @@ The WMI tool suite generates a declaration of the SendLIRR_OUT structure in <i>H
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SendLIRR_OUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SendLIRR_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

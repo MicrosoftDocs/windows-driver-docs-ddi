@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 80131AB6-4A2B-4D99-9289-CE9FE26E0695
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PWDF_DMA_SYSTEM_PROFILE_CONFIG structure pointer, _WDF_DMA_SYSTEM_PROFILE_CONFIG, kmdf.wdf_dma_system_profile_config, *PWDF_DMA_SYSTEM_PROFILE_CONFIG, wdf.wdf_dma_system_profile_config, PWDF_DMA_SYSTEM_PROFILE_CONFIG, wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG structure, wdfdmaenabler/PWDF_DMA_SYSTEM_PROFILE_CONFIG
+ms.keywords: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, PWDF_DMA_SYSTEM_PROFILE_CONFIG, PWDF_DMA_SYSTEM_PROFILE_CONFIG structure pointer, WDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG structure, _WDF_DMA_SYSTEM_PROFILE_CONFIG, kmdf.wdf_dma_system_profile_config, wdf.wdf_dma_system_profile_config, wdfdmaenabler/PWDF_DMA_SYSTEM_PROFILE_CONFIG, wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_DMA_SYSTEM_PROFILE_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
+req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -125,11 +125,11 @@ If <b>DemandMode</b> is set to FALSE, the DMA transfer may begin before the fram
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile.md">WdfDmaEnablerConfigureSystemProfile</a>
-
-
-
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_system_profile_config_init.md">WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</a>
+
+
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile.md">WdfDmaEnablerConfigureSystemProfile</a>
 
 
 

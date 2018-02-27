@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ADEEB57F-79FF-4AA7-84AF-FED413E47057
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WWAN_GSM_NMR, PWWAN_GSM_NMR structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_gsm_nmr, PWWAN_GSM_NMR, wwan/WWAN_GSM_NMR, wwan/PWWAN_GSM_NMR, *PWWAN_GSM_NMR, _WWAN_GSM_NMR, WWAN_GSM_NMR structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PWWAN_GSM_NMR, PWWAN_GSM_NMR, PWWAN_GSM_NMR structure pointer [Network Drivers Starting with Windows Vista], WWAN_GSM_NMR, WWAN_GSM_NMR structure [Network Drivers Starting with Windows Vista], _WWAN_GSM_NMR, netvista.wwan_gsm_nmr, wwan/PWWAN_GSM_NMR, wwan/WWAN_GSM_NMR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_GSM_NMR
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_GSM_NMR, WWAN_GSM_NMR"
+req.typenames: WWAN_GSM_NMR, *PWWAN_GSM_NMR
 req.product: Windows 10 or later.
 ---
 
@@ -88,15 +88,7 @@ The array of NMR records, each specified as a <a href="..\wwan\ns-wwan-_wwan_gsm
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_gsm_nmr_info.md">WWAN_GSM_NMR_INFO</a>
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_gsm_serving_cell_info.md">WWAN_GSM_SERVING_CELL_INFO</a>
 
 
 
@@ -105,6 +97,10 @@ The array of NMR records, each specified as a <a href="..\wwan\ns-wwan-_wwan_gsm
 
 
 <a href="..\wwan\ns-wwan-_wwan_gsm_nmr_info.md">WWAN_GSM_NMR_INFO</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_gsm_serving_cell_info.md">WWAN_GSM_SERVING_CELL_INFO</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3276dff3-d12a-4a30-bbdc-a582a2228df3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltSetSecurityObject function [Installable File System Drivers], FltSetSecurityObject, fltkernel/FltSetSecurityObject, ifsk.fltsetsecurityobject, FltApiRef_p_to_z_1174281c-5ba7-489b-8b8a-c0a4697ce678.xml
+ms.keywords: FltApiRef_p_to_z_1174281c-5ba7-489b-8b8a-c0a4697ce678.xml, FltSetSecurityObject, FltSetSecurityObject function [Installable File System Drivers], fltkernel/FltSetSecurityObject, ifsk.fltsetsecurityobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -258,7 +258,7 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwquerysecurityobject.md">ZwQuerySecurityObject</a>
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 
@@ -274,7 +274,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+<a href="..\ntifs\nf-ntifs-zwquerysecurityobject.md">ZwQuerySecurityObject</a>
 
 
 

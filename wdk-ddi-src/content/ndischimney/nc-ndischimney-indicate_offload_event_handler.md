@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 608c1c7c-1eb3-4d86-9471-313fce2df00e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolindicateoffloadevent, ProtocolIndicateOffloadEvent callback function [Network Drivers Starting with Windows Vista], ProtocolIndicateOffloadEvent, INDICATE_OFFLOAD_EVENT_HANDLER, INDICATE_OFFLOAD_EVENT_HANDLER, ndischimney/ProtocolIndicateOffloadEvent, tcp_chim_protocol_func_cc94798f-b74a-45d5-b78f-383698003486.xml
+ms.keywords: INDICATE_OFFLOAD_EVENT_HANDLER, ProtocolIndicateOffloadEvent, ProtocolIndicateOffloadEvent callback function [Network Drivers Starting with Windows Vista], ndischimney/ProtocolIndicateOffloadEvent, netvista.protocolindicateoffloadevent, tcp_chim_protocol_func_cc94798f-b74a-45d5-b78f-383698003486.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -149,24 +149,25 @@ The implementation of this function for intermediate drivers is to be determined
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>
-
-
-
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">NEIGHBOR_OFFLOAD_STATE_CONST</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
+   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
 
 
 
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
    NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
+
+
+
+<a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>
 
 
 

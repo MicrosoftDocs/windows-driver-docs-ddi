@@ -7,8 +7,8 @@ old-location: kernel\pofxissuecomponentperfstatechange.htm
 old-project: kernel
 ms.assetid: DBB4747B-F6CF-4842-988C-6FAA9C552EA9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PO_FX_FLAG_ASYNC_ONLY, kernel.pofxissuecomponentperfstatechange, PO_FX_FLAG_BLOCKING, PoFxIssueComponentPerfStateChange routine [Kernel-Mode Driver Architecture], PoFxIssueComponentPerfStateChange, wdm/PoFxIssueComponentPerfStateChange
+ms.date: 2/24/2018
+ms.keywords: PO_FX_FLAG_ASYNC_ONLY, PO_FX_FLAG_BLOCKING, PoFxIssueComponentPerfStateChange, PoFxIssueComponentPerfStateChange routine [Kernel-Mode Driver Architecture], kernel.pofxissuecomponentperfstatechange, wdm/PoFxIssueComponentPerfStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -163,10 +163,6 @@ Only a single call of the <b>PoFxIssueComponentPerfStateChange</b> routine  is a
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
-
-
-
 <a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
 
 
@@ -175,17 +171,21 @@ Only a single call of the <b>PoFxIssueComponentPerfStateChange</b> routine  is a
 
 
 
+<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechangemultiple.md">PoFxIssueComponentPerfStateChangeMultiple</a>
+
+
+
 <a href="..\wudfwdm\ne-wudfwdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoFxIssueComponentPerfStateChange routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoFxIssueComponentPerfStateChange routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

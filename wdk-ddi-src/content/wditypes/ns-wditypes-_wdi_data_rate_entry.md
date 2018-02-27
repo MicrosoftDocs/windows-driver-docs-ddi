@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 16A4B49B-9912-40BE-80E8-68416B966B71
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wdi_data_rate_entry, _WDI_DATA_RATE_ENTRY, wditypes/PWDI_DATA_RATE_ENTRY, PWDI_DATA_RATE_ENTRY structure pointer [Device and Driver Installation], *PWDI_DATA_RATE_ENTRY, netvista.wifi_data_rate_entry, WDI_DATA_RATE_ENTRY structure [Device and Driver Installation], wditypes/WDI_DATA_RATE_ENTRY, PWDI_DATA_RATE_ENTRY, WDI_DATA_RATE_ENTRY
+ms.keywords: "*PWDI_DATA_RATE_ENTRY, PWDI_DATA_RATE_ENTRY, PWDI_DATA_RATE_ENTRY structure pointer [Device and Driver Installation], WDI_DATA_RATE_ENTRY, WDI_DATA_RATE_ENTRY structure [Device and Driver Installation], _WDI_DATA_RATE_ENTRY, netvista.wdi_data_rate_entry, netvista.wifi_data_rate_entry, wditypes/PWDI_DATA_RATE_ENTRY, wditypes/WDI_DATA_RATE_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

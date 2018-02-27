@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f8f91c50-b434-438a-ad3c-d5d3c3982f4a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoRegisterFsRegistrationChangeMountAware routine [Installable File System Drivers], ioref_c69a27ef-45f5-4873-bd11-34e984cc5c11.xml, ifsk.ioregisterfsregistrationchangemountaware, IoRegisterFsRegistrationChangeMountAware, ntifs/IoRegisterFsRegistrationChangeMountAware
+ms.keywords: IoRegisterFsRegistrationChangeMountAware, IoRegisterFsRegistrationChangeMountAware routine [Installable File System Drivers], ifsk.ioregisterfsregistrationchangemountaware, ioref_c69a27ef-45f5-4873-bd11-34e984cc5c11.xml, ntifs/IoRegisterFsRegistrationChangeMountAware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -157,6 +157,14 @@ When <i>SynchronizeWithMounts</i> is specified as <b>TRUE</b>, <b>IoRegisterFsRe
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
 
 
@@ -165,15 +173,7 @@ When <i>SynchronizeWithMounts</i> is specified as <b>TRUE</b>, <b>IoRegisterFsRe
 
 
 
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
+<a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f57fe6ac-87ad-4db8-a715-816885b87d68
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfmemoryassignbuffer, WdfMemoryAssignBuffer, kmdf.wdfmemoryassignbuffer, DFMemoryObjectRef_c2bf3437-5c1e-44d6-97ab-6ede16f7bc53.xml, WdfMemoryAssignBuffer method, wdfmemory/WdfMemoryAssignBuffer
+ms.keywords: DFMemoryObjectRef_c2bf3437-5c1e-44d6-97ab-6ede16f7bc53.xml, WdfMemoryAssignBuffer, WdfMemoryAssignBuffer method, kmdf.wdfmemoryassignbuffer, wdf.wdfmemoryassignbuffer, wdfmemory/WdfMemoryAssignBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

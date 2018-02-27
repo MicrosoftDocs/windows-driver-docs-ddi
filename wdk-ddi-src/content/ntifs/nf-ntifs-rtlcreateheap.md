@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 77ba5ba3-11d3-4c28-86e6-91f3189b5403
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rtlref_e57e4a89-3686-4ab4-85e2-af223cdb3b18.xml, ntifs/RtlCreateHeap, ifsk.rtlcreateheap, RtlCreateHeap routine [Installable File System Drivers], RtlCreateHeap
+ms.keywords: RtlCreateHeap, RtlCreateHeap routine [Installable File System Drivers], ifsk.rtlcreateheap, ntifs/RtlCreateHeap, rtlref_e57e4a89-3686-4ab4-85e2-af223cdb3b18.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -439,15 +439,15 @@ The process has multiple threads, and the application provides its own mechanism
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlfreeheap.md">RtlFreeHeap</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-rtldestroyheap.md">RtlDestroyHeap</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
 
 
 

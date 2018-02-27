@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 72271173-8851-4980-9b52-f9e14f1fe071
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iremotetargetcallbackremoval, IRemoteTargetCallbackRemoval interface, IRemoteTargetCallbackRemoval interface, described, IRemoteTargetCallbackRemoval, wudfddi/IRemoteTargetCallbackRemoval, UMDFIoTargetObjectRef_7508512a-9bfc-4563-bf01-48e9caf6ba4f.xml, umdf.iremotetargetcallbackremoval
+ms.keywords: IRemoteTargetCallbackRemoval, IRemoteTargetCallbackRemoval interface, IRemoteTargetCallbackRemoval interface, described, UMDFIoTargetObjectRef_7508512a-9bfc-4563-bf01-48e9caf6ba4f.xml, umdf.iremotetargetcallbackremoval, wdf.iremotetargetcallbackremoval, wudfddi/IRemoteTargetCallbackRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 The <b>IRemoteTargetCallbackRemoval</b> interface provides callback functions that the framework calls to notify the driver about events that are associated with the removal of a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a>.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRemoteTargetCallbackRemoval</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRemoteTargetCallbackRemoval</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IRemoteTargetCallbackRemoval</b> interface has these methods.
@@ -90,13 +97,7 @@ A UMDF-based driver's <a href="https://msdn.microsoft.com/bfac8f91-2367-4194-8e9
 
 </td>
 </tr>
-</table>A UMDF-based driver's <a href="https://msdn.microsoft.com/10a9510a-a11c-46fa-adb8-b122f6c571f4">OnRemoteTargetQueryRemove</a> event callback function determines whether a remote I/O target's device can be stopped and removed.
-
-A UMDF-based driver's <a href="https://msdn.microsoft.com/26a6e9e7-f1bb-4174-a640-f665cecfd191">OnRemoteTargetRemoveCanceled</a> event callback function performs operations that are necessary when the operating system cancels the removal of a remote I/O target's device.
-
-A UMDF-based driver's <a href="https://msdn.microsoft.com/bfac8f91-2367-4194-8e98-e274025c049a">OnRemoteTargetRemoveComplete</a> event callback function performs operations that are necessary after the operating system completes the removal of a remote I/O target's device.
-
- 
+</table> 
 
 
 ## -remarks

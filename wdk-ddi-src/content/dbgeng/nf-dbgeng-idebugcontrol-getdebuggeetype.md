@@ -4,11 +4,11 @@ title: IDebugControl::GetDebuggeeType method
 author: windows-driver-content
 description: The GetDebuggeeType method describes the nature of the current target.
 old-location: debugger\getdebuggeetype.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 86f236fa-73f8-4071-b6da-6de2d276cbff
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl::GetDebuggeeType, dbgeng/IDebugControl2::GetDebuggeeType, IDebugControl, IDebugControl2 interface [Windows Debugging], GetDebuggeeType method, IDebugControl3 interface [Windows Debugging], GetDebuggeeType method, dbgeng/IDebugControl3::GetDebuggeeType, IDebugControl_4179686c-b047-41f5-98cc-28f2c6bd852d.xml, IDebugControl3::GetDebuggeeType, GetDebuggeeType method [Windows Debugging], dbgeng/IDebugControl::GetDebuggeeType, GetDebuggeeType method [Windows Debugging], IDebugControl3 interface, GetDebuggeeType, GetDebuggeeType method [Windows Debugging], IDebugControl interface, IDebugControl2::GetDebuggeeType, IDebugControl interface [Windows Debugging], GetDebuggeeType method, GetDebuggeeType method [Windows Debugging], IDebugControl2 interface, debugger.getdebuggeetype
+ms.date: 2/23/2018
+ms.keywords: GetDebuggeeType method [Windows Debugging], GetDebuggeeType method [Windows Debugging], IDebugControl interface, GetDebuggeeType method [Windows Debugging], IDebugControl2 interface, GetDebuggeeType method [Windows Debugging], IDebugControl3 interface, GetDebuggeeType,IDebugControl.GetDebuggeeType, IDebugControl, IDebugControl interface [Windows Debugging], GetDebuggeeType method, IDebugControl2 interface [Windows Debugging], GetDebuggeeType method, IDebugControl2::GetDebuggeeType, IDebugControl3 interface [Windows Debugging], GetDebuggeeType method, IDebugControl3::GetDebuggeeType, IDebugControl::GetDebuggeeType, IDebugControl_4179686c-b047-41f5-98cc-28f2c6bd852d.xml, dbgeng/IDebugControl2::GetDebuggeeType, dbgeng/IDebugControl3::GetDebuggeeType, dbgeng/IDebugControl::GetDebuggeeType, debugger.getdebuggeetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

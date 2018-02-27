@@ -7,8 +7,8 @@ old-location: display\int10writememory.htm
 old-project: display
 ms.assetid: a1143ca4-9c39-4bd7-92e1-473bdb447eb5
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.int10writememory, Int10WriteMemory callback function [Display Devices], Int10WriteMemory, PINT10_WRITE_MEMORY, PINT10_WRITE_MEMORY, video/Int10WriteMemory, VideoPort_Functions_6a882de2-2147-4b15-b4d8-6a87c49fa3d9.xml
+ms.date: 2/24/2018
+ms.keywords: Int10WriteMemory, Int10WriteMemory callback function [Display Devices], PINT10_WRITE_MEMORY, VideoPort_Functions_6a882de2-2147-4b15-b4d8-6a87c49fa3d9.xml, display.int10writememory, video/Int10WriteMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -128,5 +128,5 @@ The video port implements this function, which can be accessed through a pointer
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PINT10_WRITE_MEMORY callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PINT10_WRITE_MEMORY callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

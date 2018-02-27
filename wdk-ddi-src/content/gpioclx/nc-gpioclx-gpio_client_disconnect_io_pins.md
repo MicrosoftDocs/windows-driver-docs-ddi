@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: FA6ACAE4-54D9-4EE6-AC63-3FFB973DD37F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_disconnectiopins, CLIENT_DisconnectIoPins callback function [Parallel Ports], CLIENT_DisconnectIoPins, GPIO_CLIENT_DISCONNECT_IO_PINS, GPIO_CLIENT_DISCONNECT_IO_PINS, gpioclx/CLIENT_DisconnectIoPins
+ms.keywords: CLIENT_DisconnectIoPins, CLIENT_DisconnectIoPins callback function [Parallel Ports], GPIO.client_disconnectiopins, GPIO_CLIENT_DISCONNECT_IO_PINS, gpioclx/CLIENT_DisconnectIoPins
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_DisconnectIoPins
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO"
+req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
 
 # GPIO_CLIENT_DISCONNECT_IO_PINS callback
@@ -145,15 +145,15 @@ The GPIO_CLIENT_DISCONNECT_IO_PINS function type is defined in the Gpioclx.h hea
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439347">CLIENT_ConnectIoPins</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698250">GPIO_DISCONNECT_IO_PINS_PARAMETERS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439347">CLIENT_ConnectIoPins</a>
 
 
 

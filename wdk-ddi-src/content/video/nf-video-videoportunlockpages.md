@@ -7,8 +7,8 @@ old-location: display\videoportunlockpages.htm
 old-project: display
 ms.assetid: c233d4e1-285c-4f74-bb37-808cf855b19c
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.videoportunlockpages, VideoPortUnlockPages, VideoPortUnlockPages function [Display Devices], video/VideoPortUnlockPages, VideoPort_Functions_f7a233cf-3db5-49db-94e9-d2c6ec96f05d.xml
+ms.date: 2/24/2018
+ms.keywords: VideoPortUnlockPages, VideoPortUnlockPages function [Display Devices], VideoPort_Functions_f7a233cf-3db5-49db-94e9-d2c6ec96f05d.xml, display.videoportunlockpages, video/VideoPortUnlockPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,5 +111,5 @@ This function can be called only within the context of a DMA IOCTL. It cannot be
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortUnlockPages function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortUnlockPages function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

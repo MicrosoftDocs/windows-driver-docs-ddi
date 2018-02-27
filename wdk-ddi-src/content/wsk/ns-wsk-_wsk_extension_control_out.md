@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aec44058-13ad-4093-91b1-e5dca6f2e295
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PWSK_EXTENSION_CONTROL_OUT structure pointer [Network Drivers Starting with Windows Vista], WSK_EXTENSION_CONTROL_OUT structure [Network Drivers Starting with Windows Vista], wsk/PWSK_EXTENSION_CONTROL_OUT, PWSK_EXTENSION_CONTROL_OUT, wsk/WSK_EXTENSION_CONTROL_OUT, _WSK_EXTENSION_CONTROL_OUT, netvista.wsk_extension_control_out, *PWSK_EXTENSION_CONTROL_OUT, WSK_EXTENSION_CONTROL_OUT, wskref_fd819b16-7a6d-4206-b29e-d376e84c8e4d.xml
+ms.keywords: "*PWSK_EXTENSION_CONTROL_OUT, PWSK_EXTENSION_CONTROL_OUT, PWSK_EXTENSION_CONTROL_OUT structure pointer [Network Drivers Starting with Windows Vista], WSK_EXTENSION_CONTROL_OUT, WSK_EXTENSION_CONTROL_OUT structure [Network Drivers Starting with Windows Vista], _WSK_EXTENSION_CONTROL_OUT, netvista.wsk_extension_control_out, wsk/PWSK_EXTENSION_CONTROL_OUT, wsk/WSK_EXTENSION_CONTROL_OUT, wskref_fd819b16-7a6d-4206-b29e-d376e84c8e4d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,15 +100,15 @@ The WSK subsystem fills in the contents of the WSK_EXTENSION_CONTROL_OUT structu
 
 ## -see-also
 
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
+
 <a href="..\wsk\ns-wsk-_wsk_extension_control_in.md">WSK_EXTENSION_CONTROL_IN</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570819">SIO_WSK_REGISTER_EXTENSION</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 
 

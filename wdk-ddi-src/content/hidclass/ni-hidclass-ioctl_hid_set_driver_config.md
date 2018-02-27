@@ -7,8 +7,8 @@ old-location: hid\ioctl_hid_set_driver_config.htm
 old-project: hid
 ms.assetid: E20A1105-CB86-4CE3-91A4-23B08B4D0393
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: hid.ioctl_hid_set_driver_config, IOCTL_HID_SET_DRIVER_CONFIG control code [Human Input Devices], IOCTL_HID_SET_DRIVER_CONFIG, hidclass/IOCTL_HID_SET_DRIVER_CONFIG
+ms.date: 2/24/2018
+ms.keywords: IOCTL_HID_SET_DRIVER_CONFIG, IOCTL_HID_SET_DRIVER_CONFIG control code [Human Input Devices], hid.ioctl_hid_set_driver_config, hidclass/IOCTL_HID_SET_DRIVER_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

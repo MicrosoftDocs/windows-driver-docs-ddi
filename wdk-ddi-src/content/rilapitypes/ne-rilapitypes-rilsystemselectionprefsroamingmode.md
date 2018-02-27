@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7dbb25a5-7bcc-453d-854e-7796acbfd079
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RILSYSTEMSELECTIONPREFSROAMINGMODE, RILSYSTEMSELECTIONPREFSROAMINGMODE, rilapitypes/RIL_ROAMMODE_AUTOMATIC, rilapitypes/RIL_ROAMMODE_DOMESTIC, RIL_ROAMMODE_MAX, RILSYSTEMSELECTIONPREFSROAMINGMODE enumeration [Network Drivers Starting with Windows Vista], RIL_ROAMMODE_AUTOMATIC, RIL_ROAMMODE_DOMESTIC, rilapitypes/RIL_ROAMMODE_MAX, netvista.rilsystemselectionprefsroamingmode_2
+ms.keywords: RILSYSTEMSELECTIONPREFSROAMINGMODE, RILSYSTEMSELECTIONPREFSROAMINGMODE enumeration [Network Drivers Starting with Windows Vista], RIL_ROAMMODE_AUTOMATIC, RIL_ROAMMODE_DOMESTIC, RIL_ROAMMODE_MAX, netvista.rilsystemselectionprefsroamingmode_2, rilapitypes/RILSYSTEMSELECTIONPREFSROAMINGMODE, rilapitypes/RIL_ROAMMODE_AUTOMATIC, rilapitypes/RIL_ROAMMODE_DOMESTIC, rilapitypes/RIL_ROAMMODE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

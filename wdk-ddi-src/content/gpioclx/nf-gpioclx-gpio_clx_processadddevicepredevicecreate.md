@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 8492CCCB-2BA9-419D-A22F-DE06D08D4CC7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO_CLX_ProcessAddDevicePreDeviceCreate, GPIO_CLX_ProcessAddDevicePreDeviceCreate method [Parallel Ports], GPIO.gpio_clx_processadddevicepredevicecreate, gpioclx/GPIO_CLX_ProcessAddDevicePreDeviceCreate
+ms.keywords: GPIO.gpio_clx_processadddevicepredevicecreate, GPIO_CLX_ProcessAddDevicePreDeviceCreate, GPIO_CLX_ProcessAddDevicePreDeviceCreate method [Parallel Ports], gpioclx/GPIO_CLX_ProcessAddDevicePreDeviceCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -186,10 +186,6 @@ In the preceding code example, the <b>WdfDeviceCreate</b> call creates the frame
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439484">GPIO_CLX_ProcessAddDevicePostDeviceCreate</a>
 
 
@@ -198,7 +194,11 @@ In the preceding code example, the <b>WdfDeviceCreate</b> call creates the frame
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+
+
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 

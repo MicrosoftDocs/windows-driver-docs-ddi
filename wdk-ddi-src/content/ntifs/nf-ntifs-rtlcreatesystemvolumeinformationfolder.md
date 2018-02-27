@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bcbbddc7-6675-4555-bd05-588762148554
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rtlref_f854cbbb-1aa4-4f0a-8d2d-5b160634a155.xml, ifsk.rtlcreatesystemvolumeinformationfolder, RtlCreateSystemVolumeInformationFolder routine [Installable File System Drivers], ntifs/RtlCreateSystemVolumeInformationFolder, RtlCreateSystemVolumeInformationFolder
+ms.keywords: RtlCreateSystemVolumeInformationFolder, RtlCreateSystemVolumeInformationFolder routine [Installable File System Drivers], ifsk.rtlcreatesystemvolumeinformationfolder, ntifs/RtlCreateSystemVolumeInformationFolder, rtlref_f854cbbb-1aa4-4f0a-8d2d-5b160634a155.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

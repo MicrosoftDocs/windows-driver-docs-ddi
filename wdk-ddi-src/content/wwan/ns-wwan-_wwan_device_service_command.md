@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 475D7ECF-B8A8-445D-8ED7-029BD57C8C48
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WWAN_DEVICE_SERVICE_COMMAND structure [Network Drivers Starting with Windows Vista], netvista.wwan_device_service_command, PWWAN_DEVICE_SERVICE_COMMAND structure pointer [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_COMMAND, wwan/WWAN_DEVICE_SERVICE_COMMAND, WWAN_DEVICE_SERVICE_COMMAND, *PWWAN_DEVICE_SERVICE_COMMAND, PWWAN_DEVICE_SERVICE_COMMAND, wwan/PWWAN_DEVICE_SERVICE_COMMAND
+ms.keywords: "*PWWAN_DEVICE_SERVICE_COMMAND, PWWAN_DEVICE_SERVICE_COMMAND, PWWAN_DEVICE_SERVICE_COMMAND structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_COMMAND, WWAN_DEVICE_SERVICE_COMMAND structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_COMMAND, netvista.wwan_device_service_command, wwan/PWWAN_DEVICE_SERVICE_COMMAND, wwan/WWAN_DEVICE_SERVICE_COMMAND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_DEVICE_SERVICE_COMMAND
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_DEVICE_SERVICE_COMMAND, WWAN_DEVICE_SERVICE_COMMAND"
+req.typenames: WWAN_DEVICE_SERVICE_COMMAND, *PWWAN_DEVICE_SERVICE_COMMAND
 req.product: Windows 10 or later.
 ---
 

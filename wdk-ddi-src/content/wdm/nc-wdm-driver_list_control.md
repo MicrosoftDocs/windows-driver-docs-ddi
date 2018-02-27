@@ -7,8 +7,8 @@ old-location: kernel\adapterlistcontrol.htm
 old-project: kernel
 ms.assetid: 9fb49710-5d8c-4376-9898-7f0ae570ee94
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.adapterlistcontrol, AdapterListControl, AdapterListControl routine [Kernel-Mode Driver Architecture], AdapterListControl, DRIVER_LIST_CONTROL, DRIVER_LIST_CONTROL, wdm/AdapterListControl, DrvrRtns_feb5903f-df38-4471-ab1e-2e6341620774.xml
+ms.date: 2/24/2018
+ms.keywords: AdapterListControl, AdapterListControl routine [Kernel-Mode Driver Architecture], DRIVER_LIST_CONTROL, DrvrRtns_feb5903f-df38-4471-ab1e-2e6341620774.xml, kernel.adapterlistcontrol, wdm/AdapterListControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	AdapterListControl
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 60C47437-A999-4F82-B144-6F77410E5C07
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndispdfreecounter, NdisPDFreeCounter callback function [Network Drivers Starting with Windows Vista], NdisPDFreeCounter, NDIS_PD_FREE_COUNTER, NDIS_PD_FREE_COUNTER, ndis/NdisPDFreeCounter
+ms.keywords: NDIS_PD_FREE_COUNTER, NdisPDFreeCounter, NdisPDFreeCounter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDFreeCounter, netvista.ndispdfreecounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

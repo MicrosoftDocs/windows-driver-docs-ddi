@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f1d5bbd9-45e3-4802-ab9b-77ff6bdcd6ec
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PDOT11_PEER_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_peer_info, DOT11_PEER_INFO structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_PEER_INFO, *PDOT11_PEER_INFO, DOT11_PEER_INFO, PDOT11_PEER_INFO, _DOT11_PEER_INFO, windot11/DOT11_PEER_INFO, Native_802.11_data_types_411bca70-e6de-4dc0-8326-76f5eb5c6a86.xml
+ms.keywords: "*PDOT11_PEER_INFO, DOT11_PEER_INFO, DOT11_PEER_INFO structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_411bca70-e6de-4dc0-8326-76f5eb5c6a86.xml, PDOT11_PEER_INFO, PDOT11_PEER_INFO structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PEER_INFO, netvista.dot11_peer_info, windot11/DOT11_PEER_INFO, windot11/PDOT11_PEER_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -219,11 +219,15 @@ This member has a value of zero if the peer is not associated.
 
 
 
+<a href="..\windot11\ns-windot11-_dot11_peer_statistics.md">DOT11_PEER_STATISTICS</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisgetcurrentsystemtime.md">NdisGetCurrentSystemTime</a>
 
 
 
-<a href="..\windot11\ns-windot11-_dot11_peer_statistics.md">DOT11_PEER_STATISTICS</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -232,10 +236,6 @@ This member has a value of zero if the peer is not associated.
 
 
 <a href="..\windot11\ns-windot11-_dot11_peer_info_list.md">DOT11_PEER_INFO_LIST</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

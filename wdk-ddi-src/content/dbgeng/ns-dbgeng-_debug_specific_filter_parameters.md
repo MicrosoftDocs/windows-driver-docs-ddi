@@ -4,11 +4,11 @@ title: "_DEBUG_SPECIFIC_FILTER_PARAMETERS"
 author: windows-driver-content
 description: The DEBUG_SPECIFIC_FILTER_PARAMETERS structure contains the parameters for a specific event filter.
 old-location: debugger\debug_specific_filter_parameters.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 06926380-aae5-4d9f-94e0-43098f8a0423
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: dbgeng/PDEBUG_SPECIFIC_FILTER_PARAMETERS, Structures_b0152b9b-4809-46c8-81a7-5f571720eca1.xml, dbgeng/DEBUG_SPECIFIC_FILTER_PARAMETERS, PDEBUG_SPECIFIC_FILTER_PARAMETERS structure pointer [Windows Debugging], _DEBUG_SPECIFIC_FILTER_PARAMETERS, debugger.debug_specific_filter_parameters, *PDEBUG_SPECIFIC_FILTER_PARAMETERS, PDEBUG_SPECIFIC_FILTER_PARAMETERS, DEBUG_SPECIFIC_FILTER_PARAMETERS, DEBUG_SPECIFIC_FILTER_PARAMETERS structure [Windows Debugging]
+ms.date: 2/23/2018
+ms.keywords: "*PDEBUG_SPECIFIC_FILTER_PARAMETERS, DEBUG_SPECIFIC_FILTER_PARAMETERS, DEBUG_SPECIFIC_FILTER_PARAMETERS structure [Windows Debugging], PDEBUG_SPECIFIC_FILTER_PARAMETERS, PDEBUG_SPECIFIC_FILTER_PARAMETERS structure pointer [Windows Debugging], Structures_b0152b9b-4809-46c8-81a7-5f571720eca1.xml, _DEBUG_SPECIFIC_FILTER_PARAMETERS, dbgeng/DEBUG_SPECIFIC_FILTER_PARAMETERS, dbgeng/PDEBUG_SPECIFIC_FILTER_PARAMETERS, debugger.debug_specific_filter_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,5 +112,5 @@ Specifies the size, in characters, of the specific event filter argument.  This 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20DEBUG_SPECIFIC_FILTER_PARAMETERS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20DEBUG_SPECIFIC_FILTER_PARAMETERS structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

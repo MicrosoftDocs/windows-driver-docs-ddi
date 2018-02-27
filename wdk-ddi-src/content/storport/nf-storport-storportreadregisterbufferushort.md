@@ -7,8 +7,8 @@ old-location: storage\storportreadregisterbufferushort.htm
 old-project: storage
 ms.assetid: 169f1089-ac17-4d4c-b989-018ff087aa39
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: StorPortReadRegisterBufferUshort, storage.storportreadregisterbufferushort, storport/StorPortReadRegisterBufferUshort, StorPortReadRegisterBufferUshort routine [Storage Devices], storprt_9ba740e5-78b0-464d-903c-6bb4c22788fd.xml
+ms.date: 2/24/2018
+ms.keywords: StorPortReadRegisterBufferUshort, StorPortReadRegisterBufferUshort routine [Storage Devices], storage.storportreadregisterbufferushort, storport/StorPortReadRegisterBufferUshort, storprt_9ba740e5-78b0-464d-903c-6bb4c22788fd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -127,17 +127,17 @@ For more information, see <a href="..\storport\nf-storport-scsiportreadregisterb
 
 ## -see-also
 
-<a href="..\storport\nf-storport-scsiportreadregisterbufferushort.md">ScsiPortReadRegisterBufferUshort</a>
-
-
-
 <a href="..\storport\nf-storport-storportreadregisterushort.md">StorPortReadRegisterUshort</a>
 
 
 
- 
+<a href="..\storport\nf-storport-scsiportreadregisterbufferushort.md">ScsiPortReadRegisterBufferUshort</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortReadRegisterBufferUshort routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortReadRegisterBufferUshort routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: stream\ks_tuner_tuning_flags.htm
 old-project: stream
 ms.assetid: f8742053-0d02-40af-9a6e-7af029db8575
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ksmedia/KS_TUNER_TUNING_EXACT, ksmedia/KS_TUNER_TUNING_COARSE, KS_TUNER_TUNING_COARSE, vidcapstruct_af322917-69e6-4688-885d-45422c594348.xml, ksmedia/KS_TUNER_TUNING_FINE, KS_TUNER_TUNING_FLAGS enumeration [Streaming Media Devices], KS_TUNER_TUNING_FINE, KS_TUNER_TUNING_EXACT, ksmedia/KS_TUNER_TUNING_FLAGS, KS_TUNER_TUNING_FLAGS, stream.ks_tuner_tuning_flags
+ms.date: 2/23/2018
+ms.keywords: KS_TUNER_TUNING_COARSE, KS_TUNER_TUNING_EXACT, KS_TUNER_TUNING_FINE, KS_TUNER_TUNING_FLAGS, KS_TUNER_TUNING_FLAGS enumeration [Streaming Media Devices], ksmedia/KS_TUNER_TUNING_COARSE, ksmedia/KS_TUNER_TUNING_EXACT, ksmedia/KS_TUNER_TUNING_FINE, ksmedia/KS_TUNER_TUNING_FLAGS, stream.ks_tuner_tuning_flags, vidcapstruct_af322917-69e6-4688-885d-45422c594348.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -94,5 +94,5 @@ The tuning operation should perform a fast search and attempt only to determine 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_TUNER_TUNING_FLAGS enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_TUNER_TUNING_FLAGS enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

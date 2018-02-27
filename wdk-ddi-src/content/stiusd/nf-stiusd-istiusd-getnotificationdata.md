@@ -4,11 +4,11 @@ title: IStiUSD::GetNotificationData method
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::GetNotificationData method returns a description of the most recent event that occurred on a still image device.
 old-location: image\istiusd_getnotificationdata.htm
-old-project: Image
+old-project: image
 ms.assetid: c4293fa8-07c9-40b2-acc2-8a3128b6dad4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IStiUSD, GetNotificationData, GetNotificationData method [Imaging Devices], IStiUSD interface, IStiUSD interface [Imaging Devices], GetNotificationData method, stiusd/IStiUSD::GetNotificationData, image.istiusd_getnotificationdata, stifnc_1641dbac-f429-4f85-9cd0-25ef82000992.xml, IStiUSD::GetNotificationData, GetNotificationData method [Imaging Devices]
+ms.date: 2/23/2018
+ms.keywords: GetNotificationData method [Imaging Devices], GetNotificationData method [Imaging Devices], IStiUSD interface, GetNotificationData,IStiUSD.GetNotificationData, IStiUSD, IStiUSD interface [Imaging Devices], GetNotificationData method, IStiUSD::GetNotificationData, image.istiusd_getnotificationdata, stifnc_1641dbac-f429-4f85-9cd0-25ef82000992.xml, stiusd/IStiUSD::GetNotificationData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

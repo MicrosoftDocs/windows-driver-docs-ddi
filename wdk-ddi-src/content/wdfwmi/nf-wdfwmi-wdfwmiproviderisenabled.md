@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7b4fd9ff-09a7-44df-a3e6-0af5d7ea624e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfWmiProviderIsEnabled, DFWMIRef_3231e5bd-aa1c-4bf8-92ef-4b6c29308d95.xml, wdf.wdfwmiproviderisenabled, kmdf.wdfwmiproviderisenabled, wdfwmi/WdfWmiProviderIsEnabled, WdfWmiProviderIsEnabled method
+ms.keywords: DFWMIRef_3231e5bd-aa1c-4bf8-92ef-4b6c29308d95.xml, WdfWmiProviderIsEnabled, WdfWmiProviderIsEnabled method, kmdf.wdfwmiproviderisenabled, wdf.wdfwmiproviderisenabled, wdfwmi/WdfWmiProviderIsEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,19 +126,19 @@ eventNotifEnabled = WdfWmiProviderIsEnabled(
 
 ## -see-also
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
-
-
-
-<a href="..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_control.md">WDF_WMI_PROVIDER_CONTROL</a>
-
-
-
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetprovider.md">WdfWmiInstanceGetProvider</a>
 
 
 
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
+
+
+
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
+
+
+
+<a href="..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_control.md">WDF_WMI_PROVIDER_CONTROL</a>
 
 
 

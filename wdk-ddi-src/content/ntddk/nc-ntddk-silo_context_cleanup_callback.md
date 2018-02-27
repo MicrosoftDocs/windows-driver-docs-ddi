@@ -7,8 +7,8 @@ old-location: kernel\silo_context_cleanup_callback.htm
 old-project: kernel
 ms.assetid: 452E63E8-DFBB-43AF-81F4-0405C3EF74CE
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.silo_context_cleanup_callback, CleanupCallback callback function [Kernel-Mode Driver Architecture], CleanupCallback, SILO_CONTEXT_CLEANUP_CALLBACK, SILO_CONTEXT_CLEANUP_CALLBACK, ntddk/CleanupCallback
+ms.date: 2/24/2018
+ms.keywords: CleanupCallback, CleanupCallback callback function [Kernel-Mode Driver Architecture], SILO_CONTEXT_CLEANUP_CALLBACK, kernel.silo_context_cleanup_callback, ntddk/CleanupCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	CleanupCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA"
+req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 ---
 
 # SILO_CONTEXT_CLEANUP_CALLBACK callback

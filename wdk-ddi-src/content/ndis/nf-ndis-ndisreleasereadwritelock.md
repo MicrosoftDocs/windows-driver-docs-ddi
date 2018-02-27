@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a910ae2d-8a3b-451c-b1f2-a19f7f9f14a2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisReleaseReadWriteLock, ndis/NdisReleaseReadWriteLock, netvista.ndisreleasereadwritelock, NdisReleaseReadWriteLock function [Network Drivers Starting with Windows Vista], ndis_read_write_lock_ref_4f0f9891-a4a6-457d-b547-4f5543fbc534.xml
+ms.keywords: NdisReleaseReadWriteLock, NdisReleaseReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisReleaseReadWriteLock, ndis_read_write_lock_ref_4f0f9891-a4a6-457d-b547-4f5543fbc534.xml, netvista.ndisreleasereadwritelock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NdisReleaseReadWriteLock
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisReleaseReadWriteLock function
@@ -125,19 +125,19 @@ A driver must call the
 
 
 
+<a href="..\ndis\ns-ndis-_ndis_rw_lock.md">NDIS_RW_LOCK</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisacquirereadwritelock.md">NdisAcquireReadWriteLock</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_rw_lock.md">NDIS_RW_LOCK</a>
+<a href="..\ndis\nf-ndis-ndisinitializereadwritelock.md">NdisInitializeReadWriteLock</a>
 
 
 
 <a href="..\ndis\ns-ndis-_lock_state.md">LOCK_STATE</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_rw_lock.md">NDIS_RW_LOCK</a>
 
 
 

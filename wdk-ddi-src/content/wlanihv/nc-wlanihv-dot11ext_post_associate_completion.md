@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 25db270c-3de8-4ced-82f1-2cd778006538
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extpostassociatecompletion, Dot11ExtPostAssociateCompletion callback function [Network Drivers Starting with Windows Vista], Dot11ExtPostAssociateCompletion, DOT11EXT_POST_ASSOCIATE_COMPLETION, DOT11EXT_POST_ASSOCIATE_COMPLETION, wlanihv/Dot11ExtPostAssociateCompletion, Native_802.11_IHV_Ext_d7368927-721a-4cd4-9ccc-ccb02964b811.xml
+ms.keywords: DOT11EXT_POST_ASSOCIATE_COMPLETION, Dot11ExtPostAssociateCompletion, Dot11ExtPostAssociateCompletion callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_d7368927-721a-4cd4-9ccc-ccb02964b811.xml, netvista.dot11extpostassociatecompletion, wlanihv/Dot11ExtPostAssociateCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtPostAssociateCompletion
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -232,11 +232,8 @@ The IHV Extensions DLL must call
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+   Functions</a>
 
 
 
@@ -244,14 +241,7 @@ The IHV Extensions DLL must call
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
-
-
-
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_send_packet.md">Dot11ExtSendPacket</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 
@@ -260,10 +250,15 @@ The IHV Extensions DLL must call
 
 
 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
-   Functions</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_send_packet.md">Dot11ExtSendPacket</a>
+
+
+
+<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
 
 
 

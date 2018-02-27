@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 2E3652CB-24F1-4467-AF1D-CFD52392B2DB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercx2piotransmitinitializetransaction, EvtSerCx2PioTransmitInitializeTransaction callback function [Serial Ports], EvtSerCx2PioTransmitInitializeTransaction, EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION, EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION, 2/EvtSerCx2PioTransmitInitializeTransaction
+ms.keywords: 2/EvtSerCx2PioTransmitInitializeTransaction, EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION, EvtSerCx2PioTransmitInitializeTransaction, EvtSerCx2PioTransmitInitializeTransaction callback function [Serial Ports], serports.evtsercx2piotransmitinitializetransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -148,11 +148,11 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION</b> function type is defin
 
 
 
-<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
 
 
 

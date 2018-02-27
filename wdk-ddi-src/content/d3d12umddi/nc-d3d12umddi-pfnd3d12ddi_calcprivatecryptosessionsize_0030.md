@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_calcprivatecryptosessionsize_0030_.htm
 old-project: display
 ms.assetid: 5C6A62D2-C4D1-4024-B777-EA4AAC7AC971
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.pfnd3d12ddi_calcprivatecryptosessionsize_0030_, PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030 entry point [Display Devices], PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030, d3d12umddi/PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030, PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030, display.pfnd3d12ddi_calcprivatecryptosessionsize_0030_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

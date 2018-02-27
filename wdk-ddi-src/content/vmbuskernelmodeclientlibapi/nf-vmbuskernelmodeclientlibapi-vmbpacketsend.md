@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: EBB981CB-0107-497A-B6E6-9271E22A8D5F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbPacketSend, VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION, netvista.vmbpacketsend, VmbPacketSend function [Network Drivers Starting with Windows Vista], VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, VmbPacketSend
+ms.keywords: VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION, VmbPacketSend, VmbPacketSend function [Network Drivers Starting with Windows Vista], netvista.vmbpacketsend, vmbuskernelmodeclientlibapi/VmbPacketSend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

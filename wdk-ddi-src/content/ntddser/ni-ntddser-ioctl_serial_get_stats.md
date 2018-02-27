@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 264b8460-acda-46ba-b070-e2956f7cfc50
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.ioctl_serial_get_stats, IOCTL_SERIAL_GET_STATS control code [Serial Ports], IOCTL_SERIAL_GET_STATS, ntddser/IOCTL_SERIAL_GET_STATS, serref_c5deddd3-8649-4628-a62e-810d4693052e.xml
+ms.keywords: IOCTL_SERIAL_GET_STATS, IOCTL_SERIAL_GET_STATS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_STATS, serports.ioctl_serial_get_stats, serref_c5deddd3-8649-4628-a62e-810d4693052e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

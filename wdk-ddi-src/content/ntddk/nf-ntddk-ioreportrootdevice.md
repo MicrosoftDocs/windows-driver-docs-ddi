@@ -7,8 +7,8 @@ old-location: kernel\ioreportrootdevice.htm
 old-project: kernel
 ms.assetid: 43063BD3-8F2C-4F27-A304-75FBD5C87674
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: IoReportRootDevice routine [Kernel-Mode Driver Architecture], kernel.ioreportrootdevice, ntddk/IoReportRootDevice, IoReportRootDevice
+ms.date: 2/24/2018
+ms.keywords: IoReportRootDevice, IoReportRootDevice routine [Kernel-Mode Driver Architecture], kernel.ioreportrootdevice, ntddk/IoReportRootDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoReportRootDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoReportRootDevice function
@@ -87,7 +87,7 @@ Pointer to the driver object of the driver that detected the device.
 
 Drivers for devices that cannot be detected by a PnP bus driver use <b>IoReportRootDevice</b> to report their device to the system. Devices that can be detected by a PnP bus driver should be reported in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a> request.
 
-A driver typically calls this routine from its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine.
+A driver typically calls this routine from its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine.
 
 <b>IoReportRootDevice</b> marks the device as a root-enumerated device and this identification is persistent across system boots. The PnP manager "detects" the device on the root-enumerated list and configures it like a PnP device: the PnP manager queries for device information, identifies the appropriate drivers and calls their <i>AddDevice</i> routines, and sends all the appropriate PnP IRPs.
 
@@ -105,7 +105,11 @@ A driver writer must provide an INF file that matches any of the specified hardw
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioreportresourcefordetection.md">IoReportResourceForDetection</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
 
 
 
@@ -117,11 +121,7 @@ A driver writer must provide an INF file that matches any of the specified hardw
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
-
-
-
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
 
 
 
@@ -129,7 +129,7 @@ A driver writer must provide an INF file that matches any of the specified hardw
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+<a href="..\ntddk\nf-ntddk-ioreportresourcefordetection.md">IoReportResourceForDetection</a>
 
 
 
@@ -137,5 +137,5 @@ A driver writer must provide an INF file that matches any of the specified hardw
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoReportRootDevice routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoReportRootDevice routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

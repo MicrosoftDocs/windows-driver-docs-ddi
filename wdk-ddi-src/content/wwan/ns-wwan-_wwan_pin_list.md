@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7ddea69c-db40-4fae-9ca9-5eadc9b40b0c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PWWAN_PIN_LIST, wwan/PWWAN_PIN_LIST, WWAN_PIN_LIST, WwanRef_b23c520d-20ea-4597-8dd2-2a1f9cd68938.xml, wwan/WWAN_PIN_LIST, _WWAN_PIN_LIST, *PWWAN_PIN_LIST, netvista.wwan_pin_list, WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista], PWWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PWWAN_PIN_LIST, PWWAN_PIN_LIST, PWWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_LIST, WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista], WwanRef_b23c520d-20ea-4597-8dd2-2a1f9cd68938.xml, _WWAN_PIN_LIST, netvista.wwan_pin_list, wwan/PWWAN_PIN_LIST, wwan/WWAN_PIN_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_PIN_LIST
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_PIN_LIST, WWAN_PIN_LIST"
+req.typenames: WWAN_PIN_LIST, *PWWAN_PIN_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -144,11 +144,11 @@ Description for custom PIN. This is a custom vendor-defined PIN type. It is not 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_desc.md">WWAN_PIN_DESC</a>
-
-
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_pin_list.md">NDIS_WWAN_PIN_LIST</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_pin_desc.md">WWAN_PIN_DESC</a>
 
 
 

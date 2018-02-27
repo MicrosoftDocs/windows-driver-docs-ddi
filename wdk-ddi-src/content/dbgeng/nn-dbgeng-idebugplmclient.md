@@ -4,11 +4,11 @@ title: IDebugPlmClient
 author: windows-driver-content
 description: This interface supports Process Lifecycle Management (PLM) for the debug client.
 old-location: debugger\idebugplmclient.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 2D713354-4C93-4DC1-A3E9-7E6BC991FD08
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.idebugplmclient, IDebugPlmClient interface [Windows Debugging], IDebugPlmClient interface [Windows Debugging], described, IDebugPlmClient, dbgeng/IDebugPlmClient
+ms.date: 2/23/2018
+ms.keywords: IDebugPlmClient, IDebugPlmClient interface [Windows Debugging], IDebugPlmClient interface [Windows Debugging], described, dbgeng/IDebugPlmClient, debugger.idebugplmclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -52,6 +52,13 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 This interface supports Process Lifecycle Management (PLM) for the debug client.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugPlmClient</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugPlmClient</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IDebugPlmClient</b> interface has these methods.
@@ -69,7 +76,5 @@ Launches a suspended Process Lifecycle Management (PLM) application.
 
 </td>
 </tr>
-</table>Launches a suspended Process Lifecycle Management (PLM) application.
-
- 
+</table> 
 

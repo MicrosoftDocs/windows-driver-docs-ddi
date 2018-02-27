@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8418ed17-39f0-4a3b-9eb5-453c7cc2ae98
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rxref_b1284b31-72f0-4e0e-9602-817080b96e16.xml, RxResumeBlockedOperations_Serially, ifsk.rxresumeblockedoperations_serially, RxResumeBlockedOperations_Serially function [Installable File System Drivers], rxcontx/RxResumeBlockedOperations_Serially
+ms.keywords: RxResumeBlockedOperations_Serially, RxResumeBlockedOperations_Serially function [Installable File System Drivers], ifsk.rxresumeblockedoperations_serially, rxcontx/RxResumeBlockedOperations_Serially, rxref_b1284b31-72f0-4e0e-9602-817080b96e16.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,27 +107,7 @@ A network mini-redirector may need to call <b>RxResumeBlockedOperations_Serially
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxfsdpostrequest.md">RxFsdPostRequest</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
-
-
-
 <a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
 
 
 
@@ -135,7 +115,27 @@ A network mini-redirector may need to call <b>RxResumeBlockedOperations_Serially
 
 
 
+<a href="..\rxprocs\nf-rxprocs-rxfsdpostrequest.md">RxFsdPostRequest</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
+
+
+
 <a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
 
 
 

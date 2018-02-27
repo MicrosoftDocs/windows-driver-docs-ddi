@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a90b1318-ce21-4483-b253-767674fe0a2f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisGetNetBufferListProtocolId, NdisGetNetBufferListProtocolId function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_7ce217e7-6d68-4e22-af32-bc984c1b7677.xml, NdisGetNetBufferListProtocolId, netvista.ndisgetnetbufferlistprotocolid
+ms.keywords: NdisGetNetBufferListProtocolId, NdisGetNetBufferListProtocolId function [Network Drivers Starting with Windows Vista], ndis/NdisGetNetBufferListProtocolId, ndis_netbuf_functions_ref_7ce217e7-6d68-4e22-af32-bc984c1b7677.xml, netvista.ndisgetnetbufferlistprotocolid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisGetNetBufferListProtocolId
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGetNetBufferListProtocolId function

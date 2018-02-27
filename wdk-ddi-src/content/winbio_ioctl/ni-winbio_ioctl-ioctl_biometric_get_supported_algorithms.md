@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 0bc373a8-af60-419a-88e1-58888b88f24d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: biometric.ioctl_biometric_get_supported_algorithms, IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS control code [Biometric Devices], IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS, winbio_ioctl/IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS, biometric_ref_64928d1a-978a-4bc9-8f4a-bac423c00133.xml
+ms.keywords: IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS, IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS control code [Biometric Devices], biometric.ioctl_biometric_get_supported_algorithms, biometric_ref_64928d1a-978a-4bc9-8f4a-bac423c00133.xml, winbio_ioctl/IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS
 product: Windows
 targetos: Windows
-req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
+req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

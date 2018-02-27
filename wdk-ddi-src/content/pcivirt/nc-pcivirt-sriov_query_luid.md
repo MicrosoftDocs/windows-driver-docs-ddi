@@ -7,8 +7,8 @@ old-location: pci\sriov_query_luid.htm
 old-project: PCI
 ms.assetid: 9bb8e54f-b42a-4f61-a3f5-6972141c8f28
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PCI.sriov_query_luid, SriovQueryLuid callback function [Buses], SriovQueryLuid, SRIOV_QUERY_LUID, SRIOV_QUERY_LUID, pcivirt/SriovQueryLuid, *PSRIOV_QUERY_LUID callback function pointer [Buses], *PSRIOV_QUERY_LUID
+ms.date: 2/24/2018
+ms.keywords: "*PSRIOV_QUERY_LUID, *PSRIOV_QUERY_LUID callback function pointer [Buses], PCI.sriov_query_luid, SRIOV_QUERY_LUID, SriovQueryLuid, SriovQueryLuid callback function [Buses], pcivirt/SriovQueryLuid"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

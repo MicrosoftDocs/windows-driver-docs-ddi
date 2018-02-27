@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 993C600F-E2FA-46D7-AE66-77048B481660
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwditaltxrxpeerdeleteconfirm, MiniportWdiTalTxRxPeerDeleteConfirm callback function [Network Drivers Starting with Windows Vista], MiniportWdiTalTxRxPeerDeleteConfirm, MINIPORT_WDI_TAL_TXRX_PEER_DELETE_CONFIRM, MINIPORT_WDI_TAL_TXRX_PEER_DELETE_CONFIRM, dot11wdi/MiniportWdiTalTxRxPeerDeleteConfirm
+ms.keywords: MINIPORT_WDI_TAL_TXRX_PEER_DELETE_CONFIRM, MiniportWdiTalTxRxPeerDeleteConfirm, MiniportWdiTalTxRxPeerDeleteConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxPeerDeleteConfirm, netvista.miniportwditaltxrxpeerdeleteconfirm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	MiniportWdiTalTxRxPeerDeleteConfirm
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_TAL_TXRX_PEER_DELETE_CONFIRM callback
@@ -102,27 +102,15 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_abort_confirm.md">TxAbortConfirm</a>
-
-
-
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
-
-
-
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_peer_delete_ind.md">PeerDeleteIndication</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
-
-
-
 <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_peer_create_ind.md">PeerCreateIndication</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_abort_confirm.md">TxAbortConfirm</a>
+
+
+
+<a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
 
 
 
@@ -130,11 +118,23 @@ This callback function does not return a value.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
+
+
+
 <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_abort.md">MiniportWdiTxAbort</a>
 
 
 
-<a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_peer_delete_ind.md">PeerDeleteIndication</a>
+
+
+
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
 
 

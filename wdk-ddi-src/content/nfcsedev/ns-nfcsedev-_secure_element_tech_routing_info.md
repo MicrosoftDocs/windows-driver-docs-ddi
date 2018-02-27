@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 62622A56-D84A-40E4-9CFA-4B0938B8FD85
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SECURE_ELEMENT_TECH_ROUTING_INFO, nfpdrivers._secure_element_tech_routing_info, _SECURE_ELEMENT_TECH_ROUTING_INFO, nfcsedev/P_SECURE_ELEMENT_TECH_ROUTING_INFO, SECURE_ELEMENT_TECH_ROUTING_INFO structure [Near-Field Proximity Drivers], P_SECURE_ELEMENT_TECH_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], P_SECURE_ELEMENT_TECH_ROUTING_INFO, nfcsedev/_SECURE_ELEMENT_TECH_ROUTING_INFO, *PSECURE_ELEMENT_TECH_ROUTING_INFO
+ms.keywords: "*PSECURE_ELEMENT_TECH_ROUTING_INFO, P_SECURE_ELEMENT_TECH_ROUTING_INFO, P_SECURE_ELEMENT_TECH_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_TECH_ROUTING_INFO, SECURE_ELEMENT_TECH_ROUTING_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_TECH_ROUTING_INFO, nfcsedev/P_SECURE_ELEMENT_TECH_ROUTING_INFO, nfcsedev/_SECURE_ELEMENT_TECH_ROUTING_INFO, nfpdrivers._secure_element_tech_routing_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

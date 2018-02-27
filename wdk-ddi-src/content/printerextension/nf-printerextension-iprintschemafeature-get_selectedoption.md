@@ -7,8 +7,8 @@ old-location: print\iprintschemafeature_put_selectedoption.htm
 old-project: print
 ms.assetid: DEFA0559-9946-4F4D-B5DC-A0E5E872114A
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: get_SelectedOption, printerextension/IPrintSchemaFeature::SelectedOption, printerextension/IPrintSchemaFeature::put_SelectedOption, IPrintSchemaFeature interface [Print Devices], SelectedOption property, IPrintSchemaFeature.SelectedOption, SelectedOption property [Print Devices], IPrintSchemaFeature interface, IPrintSchemaFeature::get_SelectedOption, IPrintSchemaFeature, print.iprintschemafeature_put_selectedoption, SelectedOption property [Print Devices], IPrintSchemaFeature::put_SelectedOption
+ms.date: 2/23/2018
+ms.keywords: IPrintSchemaFeature, IPrintSchemaFeature interface [Print Devices], SelectedOption property, IPrintSchemaFeature.SelectedOption, IPrintSchemaFeature::get_SelectedOption, IPrintSchemaFeature::put_SelectedOption, SelectedOption property [Print Devices], SelectedOption property [Print Devices], IPrintSchemaFeature interface, get_SelectedOption, get_SelectedOption,IPrintSchemaFeature.get_SelectedOption, print.iprintschemafeature_put_selectedoption, printerextension/IPrintSchemaFeature::SelectedOption, printerextension/IPrintSchemaFeature::put_SelectedOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT put_SelectedOption(
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
 
 
 
- 
+<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaFeature::SelectedOption property%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaFeature::SelectedOption property%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

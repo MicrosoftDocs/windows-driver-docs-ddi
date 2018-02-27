@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: FF89A868-1289-4D1D-BFA8-17E65ED7F8C4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: nfpdrivers.ioctl_nfp_set_payload, IOCTL_NFP_SET_PAYLOAD control code [Near-Field Proximity Drivers], IOCTL_NFP_SET_PAYLOAD, nfpdev/IOCTL_NFP_SET_PAYLOAD
+ms.keywords: IOCTL_NFP_SET_PAYLOAD, IOCTL_NFP_SET_PAYLOAD control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_SET_PAYLOAD, nfpdrivers.ioctl_nfp_set_payload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: SECURE_ELEMENT_TECH_ROUTING_INFO, *PSECURE_ELEMENT_TECH_ROUTING_I
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

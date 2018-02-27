@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e54864de-9558-44b1-9c5a-0f2ecc6516b1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: nmrref_7fb0e7ef-62a3-4dc4-a0e2-b38005056317.xml, NmrClientDetachProviderComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrClientDetachProviderComplete, netvista.nmrclientdetachprovidercomplete, NmrClientDetachProviderComplete
+ms.keywords: NmrClientDetachProviderComplete, NmrClientDetachProviderComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrClientDetachProviderComplete, netvista.nmrclientdetachprovidercomplete, nmrref_7fb0e7ef-62a3-4dc4-a0e2-b38005056317.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NmrClientDetachProviderComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS"
+req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
 ---
 
 # NmrClientDetachProviderComplete function
@@ -107,11 +107,11 @@ A client module should not call the
 
 ## -see-also
 
-<a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
-
-
-
 <a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
+
+
+
+<a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
 
 
 

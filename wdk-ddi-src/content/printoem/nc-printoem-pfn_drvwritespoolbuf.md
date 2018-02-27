@@ -7,8 +7,8 @@ old-location: print\drvwritespoolbuf.htm
 old-project: print
 ms.assetid: a0de6757-3be8-4c8f-bc6f-93c2e097fec7
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.drvwritespoolbuf, DrvWriteSpoolBuf, DrvWriteSpoolBuf callback function [Print Devices], DrvWriteSpoolBuf, PFN_DrvWriteSpoolBuf, PFN_DrvWriteSpoolBuf, printoem/DrvWriteSpoolBuf, print_obsoletefunctions_06e6fe98-5851-4c2e-863a-5afe735321fb.xml
+ms.date: 2/23/2018
+ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf callback function [Print Devices], PFN_DrvWriteSpoolBuf, print.drvwritespoolbuf, print_obsoletefunctions_06e6fe98-5851-4c2e-863a-5afe735321fb.xml, printoem/DrvWriteSpoolBuf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 57214e6a-cd29-4576-894a-9523ca3c7e7d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlFastUnlockAllByKey routine [Installable File System Drivers], ifsk.fsrtlfastunlockallbykey, fsrtlref_193afe01-52f3-4dbc-8a33-bd058beb10ce.xml, ntifs/FsRtlFastUnlockAllByKey, FsRtlFastUnlockAllByKey
+ms.keywords: FsRtlFastUnlockAllByKey, FsRtlFastUnlockAllByKey routine [Installable File System Drivers], fsrtlref_193afe01-52f3-4dbc-8a33-bd058beb10ce.xml, ifsk.fsrtlfastunlockallbykey, ntifs/FsRtlFastUnlockAllByKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,11 +116,11 @@ After releasing the byte-range locks, <b>FsRtlFastUnlockAllByKey</b> completes a
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
 
 
 

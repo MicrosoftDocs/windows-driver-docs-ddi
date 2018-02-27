@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2b54949b-807e-47fe-a304-872500b41212
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfRegistryAssignMultiString method, wdfregistry/WdfRegistryAssignMultiString, DFRegKeyObjectRef_b96025c1-d241-4e63-9f1f-f394311d0706.xml, WdfRegistryAssignMultiString, wdf.wdfregistryassignmultistring, kmdf.wdfregistryassignmultistring
+ms.keywords: DFRegKeyObjectRef_b96025c1-d241-4e63-9f1f-f394311d0706.xml, WdfRegistryAssignMultiString, WdfRegistryAssignMultiString method, kmdf.wdfregistryassignmultistring, wdf.wdfregistryassignmultistring, wdfregistry/WdfRegistryAssignMultiString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -256,35 +256,7 @@ if (col != NULL) {
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
-
-
-
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectionadd.md">WdfCollectionAdd</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignunicodestring.md">WdfRegistryAssignUnicodeString</a>
-
-
-
-<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignunicodestring.md">WdfRegistryAssignUnicodeString</a>
-
-
-
-<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmemory.md">WdfRegistryAssignMemory</a>
 
 
 
@@ -292,11 +264,39 @@ if (col != NULL) {
 
 
 
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignunicodestring.md">WdfRegistryAssignUnicodeString</a>
+
+
+
+<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignulong.md">WdfRegistryAssignULong</a>
+
+
+
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignstring.md">WdfRegistryAssignString</a>
 
 
 
+<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+
+
+
+<a href="..\wdfcollection\nf-wdfcollection-wdfcollectionadd.md">WdfCollectionAdd</a>
+
+
+
+<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
+
+
+
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectioncreate.md">WdfCollectionCreate</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

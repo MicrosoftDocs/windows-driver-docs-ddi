@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 35d70d0b-c1b9-433f-941d-6cb61ddf0b62
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NetDmaRegisterProvider, NetDmaRegisterProvider function [Network Drivers Starting with Windows Vista], netdma_ref_5267288c-9502-40f7-9af1-557babf3f840.xml, netdma/NetDmaRegisterProvider, netvista.netdmaregisterprovider
+ms.keywords: NetDmaRegisterProvider, NetDmaRegisterProvider function [Network Drivers Starting with Windows Vista], netdma/NetDmaRegisterProvider, netdma_ref_5267288c-9502-40f7-9af1-557babf3f840.xml, netvista.netdmaregisterprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -214,22 +214,21 @@ To deregister a DMA provider, a DMA provider driver calls the
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
-
-
-<a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
-   NET_DMA_PROVIDER_CHARACTERISTICS</a>
-
-
-
 <a href="https://msdn.microsoft.com/f43dc60e-de88-4af0-ad83-3ce3a414d880">
    IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
 
 
 
-<a href="..\netdma\nc-netdma-dma_channels_cpu_affinity_handler.md">
-   ProviderSetDmaChannelCpuAffinity</a>
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+
+
+<a href="..\netdma\nf-netdma-netdmaderegisterprovider.md">NetDmaDeregisterProvider</a>
+
+
+
+<a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
+   NET_DMA_PROVIDER_CHARACTERISTICS</a>
 
 
 

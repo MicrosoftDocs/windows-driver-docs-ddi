@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bf872769-c084-44c9-97e8-58eb54f943b2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltCancellableWaitForSingleObject, FltApiRef_a_to_d_e71d2b38-ae04-4026-bb99-d0d99ea4ec05.xml, FltCancellableWaitForSingleObject routine [Installable File System Drivers], fltkernel/FltCancellableWaitForSingleObject, ifsk.fltcancellablewaitforsingleobject
+ms.keywords: FltApiRef_a_to_d_e71d2b38-ae04-4026-bb99-d0d99ea4ec05.xml, FltCancellableWaitForSingleObject, FltCancellableWaitForSingleObject routine [Installable File System Drivers], fltkernel/FltCancellableWaitForSingleObject, ifsk.fltcancellablewaitforsingleobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -187,7 +187,7 @@ A special consideration applies when the <i>Object</i> parameter passed to <b>Fl
 
 A mutex can be recursively acquired only MINLONG times. If this limit is exceeded, the routine raises a STATUS_MUTANT_LIMIT_EXCEEDED exception.
 
-<b>FltCancellableWaitForSingleObject</b> must be called at IRQL PASSIVE_LEVEL if the <i>CallbackData</i> parameter represents a valid filter manager IRP. Otherwise, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the <a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a> routines. However, special kernel APCs must not be disabled. 
+<b>FltCancellableWaitForSingleObject</b> must be called at IRQL PASSIVE_LEVEL if the <i>CallbackData</i> parameter represents a valid filter manager IRP. Otherwise, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a> routines. However, special kernel APCs must not be disabled. 
 
 The <b>FltCancellableWaitForSingleObject</b> routine will assert on debug builds if the <i>CallbackData</i> represents a Filter Manager IRP operation, but the IRP in the <i>CallbackData</i> structure is <b>NULL</b>.
 
@@ -196,27 +196,7 @@ The <b>FltCancellableWaitForSingleObject</b> routine will assert on debug builds
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlcancellablewaitforsingleobject.md">FsRtlCancellableWaitForSingleObject</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
 
 
@@ -224,15 +204,19 @@ The <b>FltCancellableWaitForSingleObject</b> routine will assert on debug builds
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
-
-
-
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcancellablewaitformultipleobjects.md">FltCancellableWaitForMultipleObjects</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
 
 
 
@@ -240,7 +224,23 @@ The <b>FltCancellableWaitForSingleObject</b> routine will assert on debug builds
 
 
 
-<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
+<a href="..\ntifs\nf-ntifs-fsrtlcancellablewaitforsingleobject.md">FsRtlCancellableWaitForSingleObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsetcancelcompletion.md">FltSetCancelCompletion</a>
 
 
 

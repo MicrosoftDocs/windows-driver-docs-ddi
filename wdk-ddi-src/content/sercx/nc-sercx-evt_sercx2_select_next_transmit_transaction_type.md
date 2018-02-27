@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: EE46CB43-18BA-4FD7-A60D-07DB1760B8E7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercx2selectnexttransmittransactiontype, EvtSerCx2SelectNextTransmitTransactionType callback function [Serial Ports], EvtSerCx2SelectNextTransmitTransactionType, EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE, EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE, 2/EvtSerCx2SelectNextTransmitTransactionType
+ms.keywords: 2/EvtSerCx2SelectNextTransmitTransactionType, EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE, EvtSerCx2SelectNextTransmitTransactionType, EvtSerCx2SelectNextTransmitTransactionType callback function [Serial Ports], serports.evtsercx2selectnexttransmittransactiontype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -176,7 +176,19 @@ The <b>EVT_SERCX2_CUSTOM_TRANSMIT_SELECT_NEXT_TRANSACTION_TYPE</b> function type
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMTRANSMIT</a>
+<a href="..\sercx\ns-sercx-_sercx2_system_dma_transmit_config.md">SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
+
+
+
+<a href="..\sercx\ne-sercx-_sercx2_transaction_type.md">SERCX2_TRANSACTION_TYPE</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 
@@ -188,23 +200,11 @@ The <b>EVT_SERCX2_CUSTOM_TRANSMIT_SELECT_NEXT_TRANSACTION_TYPE</b> function type
 
 
 
-<a href="..\sercx\ns-sercx-_sercx2_system_dma_transmit_config.md">SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG</a>
-
-
-
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransmitCreate</a>
 
 
 
-<a href="..\sercx\ne-sercx-_sercx2_transaction_type.md">SERCX2_TRANSACTION_TYPE</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMTRANSMIT</a>
 
 
 

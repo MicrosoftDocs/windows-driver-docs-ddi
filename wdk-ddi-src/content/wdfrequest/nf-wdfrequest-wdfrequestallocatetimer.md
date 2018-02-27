@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e77aece7-df27-42d8-8e25-6907a5401ff9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfrequestallocatetimer, WdfRequestAllocateTimer method, WdfRequestAllocateTimer, DFRequestObjectRef_ae292896-d156-44ae-b0cd-3f807fbc1765.xml, wdfrequest/WdfRequestAllocateTimer, kmdf.wdfrequestallocatetimer
+ms.keywords: DFRequestObjectRef_ae292896-d156-44ae-b0cd-3f807fbc1765.xml, WdfRequestAllocateTimer, WdfRequestAllocateTimer method, kmdf.wdfrequestallocatetimer, wdf.wdfrequestallocatetimer, wdfrequest/WdfRequestAllocateTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

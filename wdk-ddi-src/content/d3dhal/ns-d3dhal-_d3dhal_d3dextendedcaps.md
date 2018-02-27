@@ -7,8 +7,8 @@ old-location: display\d3dhal_d3dextendedcaps.htm
 old-project: display
 ms.assetid: b1e63dce-6d51-438c-a4aa-cc17d9292576
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: "*LPD3DHAL_D3DEXTENDEDCAPS, d3dstrct_f8cf62b4-6fd7-4a14-aa62-61e8f51ed444.xml, display.d3dhal_d3dextendedcaps, d3dhal/D3DHAL_D3DEXTENDEDCAPS, D3DHAL_D3DEXTENDEDCAPS, LPD3DHAL_D3DEXTENDEDCAPS structure pointer [Display Devices], LPD3DHAL_D3DEXTENDEDCAPS, d3dhal/LPD3DHAL_D3DEXTENDEDCAPS, _D3DHAL_D3DEXTENDEDCAPS, D3DHAL_D3DEXTENDEDCAPS structure [Display Devices]"
+ms.date: 2/24/2018
+ms.keywords: "*LPD3DHAL_D3DEXTENDEDCAPS, D3DHAL_D3DEXTENDEDCAPS, D3DHAL_D3DEXTENDEDCAPS structure [Display Devices], LPD3DHAL_D3DEXTENDEDCAPS, LPD3DHAL_D3DEXTENDEDCAPS structure pointer [Display Devices], _D3DHAL_D3DEXTENDEDCAPS, d3dhal/D3DHAL_D3DEXTENDEDCAPS, d3dhal/LPD3DHAL_D3DEXTENDEDCAPS, d3dstrct_f8cf62b4-6fd7-4a14-aa62-61e8f51ed444.xml, display.d3dhal_d3dextendedcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -711,5 +711,5 @@ When the driver fills in this structure, it can set values for execute buffer ca
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_D3DEXTENDEDCAPS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_D3DEXTENDEDCAPS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

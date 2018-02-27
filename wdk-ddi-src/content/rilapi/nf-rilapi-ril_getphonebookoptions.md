@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7d8ff1cc-e5d6-473b-bc16-e87468bb546c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapi/RIL_GetPhonebookOptions, netvista.ril_getphonebookoptions, RIL_GetPhonebookOptions method [Network Drivers Starting with Windows Vista], RIL_GetPhonebookOptions
+ms.keywords: RIL_GetPhonebookOptions, RIL_GetPhonebookOptions method [Network Drivers Starting with Windows Vista], netvista.ril_getphonebookoptions, rilapi/RIL_GetPhonebookOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_GetPhonebookOptions
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

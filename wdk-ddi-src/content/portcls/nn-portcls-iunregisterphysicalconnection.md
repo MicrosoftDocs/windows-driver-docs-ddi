@@ -7,8 +7,8 @@ old-location: audio\iunregisterphysicalconnection.htm
 old-project: audio
 ms.assetid: 876a457e-8774-4c51-bd23-6451b3e3a7b7
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iunregisterphysicalconnection, IUnregisterPhysicalConnection interface [Audio Devices], IUnregisterPhysicalConnection interface [Audio Devices], described, IUnregisterPhysicalConnection, portcls/IUnregisterPhysicalConnection, audmp-routines_b26d005c-70d9-4df0-80ae-446907f22fd4.xml
+ms.date: 2/22/2018
+ms.keywords: IUnregisterPhysicalConnection, IUnregisterPhysicalConnection interface [Audio Devices], IUnregisterPhysicalConnection interface [Audio Devices], described, audio.iunregisterphysicalconnection, audmp-routines_b26d005c-70d9-4df0-80ae-446907f22fd4.xml, portcls/IUnregisterPhysicalConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -80,6 +80,13 @@ The port driver uses the information that it obtains from PcRegisterPhysicalConn
 When deleting a subdevice from an adapter's topology, the driver must unregister the subdevice's physical connections to that portion of the topology. Failure to unregister the subdevice's physical connections can cause memory leaks.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUnregisterPhysicalConnection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUnregisterPhysicalConnection</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IUnregisterPhysicalConnection</b> interface has these methods.
@@ -115,11 +122,5 @@ The <code>UnregisterPhysicalConnectionToExternal</code> method deletes the regis
 
 </td>
 </tr>
-</table>The <code>UnregisterPhysicalConnection</code> method deletes the registration of a physical connection that was registered by a previous call to <a href="..\portcls\nf-portcls-pcregisterphysicalconnection.md">PcRegisterPhysicalConnection</a>.
-
-The <b>UnregisterPhysicalConnectionFromExternal</b> method deletes the registration of a physical connection that was registered by a previous call to <a href="..\portcls\nf-portcls-pcregisterphysicalconnectionfromexternal.md">PcRegisterPhysicalConnectionFromExternal</a>.
-
-The <code>UnregisterPhysicalConnectionToExternal</code> method deletes the registration of a physical connection that was registered by a previous call to <a href="..\portcls\nf-portcls-pcregisterphysicalconnectiontoexternal.md">PcRegisterPhysicalConnectionToExternal</a>.
-
- 
+</table> 
 

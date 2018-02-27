@@ -7,8 +7,8 @@ old-location: display\getpitch.htm
 old-project: display
 ms.assetid: 1a5721a3-c03f-4827-9626-c9b6af5059a1
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.getpitch, GetPitch callback function [Display Devices], GetPitch, PFND3DDDI_GETPITCH, PFND3DDDI_GETPITCH, d3dumddi/GetPitch, UserModeDisplayDriver_Functions_6a055fa5-1f52-4d88-af1b-e9cab4abef13.xml
+ms.date: 2/24/2018
+ms.keywords: GetPitch, GetPitch callback function [Display Devices], PFND3DDDI_GETPITCH, UserModeDisplayDriver_Functions_6a055fa5-1f52-4d88-af1b-e9cab4abef13.xml, d3dumddi/GetPitch, display.getpitch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -142,7 +142,7 @@ The surface for which the <i>GetPitch</i> function returns the pitch can be non-
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getpitch.md">D3DDDIARG_GETPITCH</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_encryptionblt.md">EncryptionBlt</a>
 
 
 
@@ -150,7 +150,7 @@ The surface for which the <i>GetPitch</i> function returns the pitch can be non-
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_encryptionblt.md">EncryptionBlt</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getpitch.md">D3DDDIARG_GETPITCH</a>
 
 
 
@@ -158,5 +158,5 @@ The surface for which the <i>GetPitch</i> function returns the pitch can be non-
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_GETPITCH callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_GETPITCH callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

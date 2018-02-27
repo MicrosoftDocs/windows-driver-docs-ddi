@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c37844d9-206a-4060-8b46-9afe691fe8f9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_BTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND structure [Bluetooth Devices], bthioctl/PBTH_VENDOR_SPECIFIC_COMMAND, bltooth.bth_vendor_specific_command, PBTH_VENDOR_SPECIFIC_COMMAND structure pointer [Bluetooth Devices], *PBTH_VENDOR_SPECIFIC_COMMAND, bth_ref_568c918a-282f-48e0-994a-c49289976bb6.xml, bthioctl/BTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND, PBTH_VENDOR_SPECIFIC_COMMAND"
+ms.keywords: "*PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND structure [Bluetooth Devices], PBTH_VENDOR_SPECIFIC_COMMAND, PBTH_VENDOR_SPECIFIC_COMMAND structure pointer [Bluetooth Devices], _BTH_VENDOR_SPECIFIC_COMMAND, bltooth.bth_vendor_specific_command, bth_ref_568c918a-282f-48e0-994a-c49289976bb6.xml, bthioctl/BTH_VENDOR_SPECIFIC_COMMAND, bthioctl/PBTH_VENDOR_SPECIFIC_COMMAND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -146,11 +146,11 @@ If such patterns are specified, the
 
 
 
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_hci_vendor_command.md">IOCTL_BTH_HCI_VENDOR_COMMAND</a>
+
+
+
 <a href="..\bthioctl\ns-bthioctl-_bth_vendor_pattern.md">BTH_VENDOR_PATTERN</a>
-
-
-
-<a href="..\bthioctl\ns-bthioctl-_bth_command_header.md">BTH_COMMAND_HEADER</a>
 
 
 

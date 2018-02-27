@@ -7,8 +7,8 @@ old-location: kernel\pep_acpi_object_type.htm
 old-project: kernel
 ms.assetid: 81875C20-8E0E-4BAC-B85F-3D275F8B4708
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PepAcpiObjectTypeMaximum, pepfx/PEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE, _PEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], PepAcpiObjectTypeMethod, *PPEP_ACPI_OBJECT_TYPE, pepfx/PepAcpiObjectTypeMethod, pepfx/PepAcpiObjectTypeMaximum, kernel.pep_acpi_object_type
+ms.date: 2/24/2018
+ms.keywords: "*PPEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], PepAcpiObjectTypeMaximum, PepAcpiObjectTypeMethod, _PEP_ACPI_OBJECT_TYPE, kernel.pep_acpi_object_type, pepfx/PEP_ACPI_OBJECT_TYPE, pepfx/PepAcpiObjectTypeMaximum, pepfx/PepAcpiObjectTypeMethod"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_OBJECT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE"
+req.typenames: PEP_ACPI_OBJECT_TYPE, *PPEP_ACPI_OBJECT_TYPE
 ---
 
 # _PEP_ACPI_OBJECT_TYPE enumeration
@@ -100,5 +100,5 @@ The <b>Type</b> member of the <a href="..\pepfx\ns-pepfx-_pep_acpi_query_object_
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_ACPI_OBJECT_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_ACPI_OBJECT_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

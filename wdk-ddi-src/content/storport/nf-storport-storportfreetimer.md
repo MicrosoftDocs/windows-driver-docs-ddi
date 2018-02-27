@@ -7,8 +7,8 @@ old-location: storage\storportfreetimer.htm
 old-project: storage
 ms.assetid: AF6B1693-6242-4F09-8226-472E75B809F3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.storportfreetimer, StorPortFreeTimer routine [Storage Devices], StorPortFreeTimer, storport/StorPortFreeTimer
+ms.date: 2/24/2018
+ms.keywords: StorPortFreeTimer, StorPortFreeTimer routine [Storage Devices], storage.storportfreetimer, storport/StorPortFreeTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -162,6 +162,10 @@ Miniports should call <b>StorPortFreeTimer</b> whenever a work item is no longer
 
 ## -see-also
 
+<a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
+
+
+
 <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
 
@@ -170,13 +174,9 @@ Miniports should call <b>StorPortFreeTimer</b> whenever a work item is no longer
 
 
 
-<a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortFreeTimer routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortFreeTimer routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: IDebugBreakpoint::GetParameters method
 author: windows-driver-content
 description: The GetParameters method returns the parameters for a breakpoint.
 old-location: debugger\getparameters.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 6b0e2a3d-2a62-4a79-a4e1-03168277caec
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugBreakpoint2 interface [Windows Debugging], GetParameters method, GetParameters method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::GetParameters, IDebugBreakpoint interface [Windows Debugging], GetParameters method, GetParameters method [Windows Debugging], GetParameters, dbgeng/IDebugBreakpoint::GetParameters, debugger.getparameters, IDebugBreakpoint::GetParameters, IDebugBreakpoint, GetParameters method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2::GetParameters, ComOther_1e2f7a47-0f38-492a-a8b2-9eaa124a2f20.xml
+ms.date: 2/23/2018
+ms.keywords: ComOther_1e2f7a47-0f38-492a-a8b2-9eaa124a2f20.xml, GetParameters method [Windows Debugging], GetParameters method [Windows Debugging], IDebugBreakpoint interface, GetParameters method [Windows Debugging], IDebugBreakpoint2 interface, GetParameters,IDebugBreakpoint.GetParameters, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], GetParameters method, IDebugBreakpoint2 interface [Windows Debugging], GetParameters method, IDebugBreakpoint2::GetParameters, IDebugBreakpoint::GetParameters, dbgeng/IDebugBreakpoint2::GetParameters, dbgeng/IDebugBreakpoint::GetParameters, debugger.getparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

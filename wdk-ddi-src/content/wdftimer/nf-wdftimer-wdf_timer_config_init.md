@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2bf613ff-e178-4a33-a1ae-ea6d4bb78d0a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_TIMER_CONFIG_INIT function, DFTimerObjectRef_aed045cc-b5e1-4e47-8f6b-41d6b858c9f2.xml, WDF_TIMER_CONFIG_INIT, kmdf.wdf_timer_config_init, wdf.wdf_timer_config_init, wdftimer/WDF_TIMER_CONFIG_INIT
+ms.keywords: DFTimerObjectRef_aed045cc-b5e1-4e47-8f6b-41d6b858c9f2.xml, WDF_TIMER_CONFIG_INIT, WDF_TIMER_CONFIG_INIT function, kmdf.wdf_timer_config_init, wdf.wdf_timer_config_init, wdftimer/WDF_TIMER_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,7 +108,7 @@ For a code example that uses <b>WDF_TIMER_CONFIG_INIT</b>, see <a href="..\wdfti
 
 ## -see-also
 
-<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init_periodic.md">WDF_TIMER_CONFIG_INIT_PERIODIC</a>
+<a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
 
 
 

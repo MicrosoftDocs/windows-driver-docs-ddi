@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 509f4fa5-37c8-4098-aade-767aad5d6d6a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_QUERY_INTERFACE_CONFIG_INIT function, wdf.wdf_query_interface_config_init, WDF_QUERY_INTERFACE_CONFIG_INIT, DFDeviceObjectDriverDefIntRef_d7e26200-d711-4c81-92d6-d2c2c1f052b0.xml, kmdf.wdf_query_interface_config_init, wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG_INIT
+ms.keywords: DFDeviceObjectDriverDefIntRef_d7e26200-d711-4c81-92d6-d2c2c1f052b0.xml, WDF_QUERY_INTERFACE_CONFIG_INIT, WDF_QUERY_INTERFACE_CONFIG_INIT function, kmdf.wdf_query_interface_config_init, wdf.wdf_query_interface_config_init, wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_QUERY_INTERFACE_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_PDO_EVENT_CALLBACKS, WDF_PDO_EVENT_CALLBACKS"
+req.typenames: WDF_PDO_EVENT_CALLBACKS, *PWDF_PDO_EVENT_CALLBACKS
 req.product: Windows 10 or later.
 ---
 
@@ -80,7 +80,7 @@ A pointer to the driver's <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wd
 
 ### -param Interface [in]
 
-A pointer to an <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure.
+A pointer to an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
 
 
 ### -param InterfaceType [in]
@@ -127,7 +127,7 @@ For a code example that uses <b>WDF_QUERY_INTERFACE_CONFIG_INIT</b>, see <a href
 
 
 
-<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 

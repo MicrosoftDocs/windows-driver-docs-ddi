@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cdfe1932-ee3d-41ea-8d7b-85c17c0f1722
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfdevice/WdfDeviceCreateDeviceInterface, WdfDeviceCreateDeviceInterface method, kmdf.wdfdevicecreatedeviceinterface, DFDeviceObjectGeneralRef_467c4866-4ba7-4450-9aec-e63c3172d604.xml, WdfDeviceCreateDeviceInterface, wdf.wdfdevicecreatedeviceinterface
+ms.keywords: DFDeviceObjectGeneralRef_467c4866-4ba7-4450-9aec-e63c3172d604.xml, WdfDeviceCreateDeviceInterface, WdfDeviceCreateDeviceInterface method, kmdf.wdfdevicecreatedeviceinterface, wdf.wdfdevicecreatedeviceinterface, wdfdevice/WdfDeviceCreateDeviceInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

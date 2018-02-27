@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a5044eb5-d619-4adb-a00c-2d01e0311ade
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfMemoryGetBuffer, wdfmemory/WdfMemoryGetBuffer, WdfMemoryGetBuffer method, DFMemoryObjectRef_6f8615ee-5e34-46c5-8c83-4b52433753aa.xml, kmdf.wdfmemorygetbuffer, wdf.wdfmemorygetbuffer
+ms.keywords: DFMemoryObjectRef_6f8615ee-5e34-46c5-8c83-4b52433753aa.xml, WdfMemoryGetBuffer, WdfMemoryGetBuffer method, kmdf.wdfmemorygetbuffer, wdf.wdfmemorygetbuffer, wdfmemory/WdfMemoryGetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,15 +140,15 @@ OsrFxEvtUsbInterruptPipeReadComplete(
 
 ## -see-also
 
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
+
+
+
 <a href="..\wdfobject\nf-wdfobject-wdfobjectcontextgetobject.md">WdfObjectContextGetObject</a>
 
 
 
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
-
-
-
-<a href="..\wdfobject\nf-wdfobject-wdfobjectcontextgetobject.md">WdfObjectContextGetObject</a>
 
 
 

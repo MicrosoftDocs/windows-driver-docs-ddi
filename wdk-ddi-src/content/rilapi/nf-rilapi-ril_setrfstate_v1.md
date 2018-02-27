@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c4cc9119-6e95-4c76-a320-536cc2609e3e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapi/RIL_SetRFState_V1, RIL_SetRFState_V1, RIL_SetRFState_V1 method [Network Drivers Starting with Windows Vista], netvista.ril_setrfstate_v1
+ms.keywords: RIL_SetRFState_V1, RIL_SetRFState_V1 method [Network Drivers Starting with Windows Vista], netvista.ril_setrfstate_v1, rilapi/RIL_SetRFState_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_SetRFState_V1
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

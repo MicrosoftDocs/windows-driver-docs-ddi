@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdriverdeviceadd, EvtDriverDeviceAdd callback function, EvtDriverDeviceAdd, EVT_WDF_DRIVER_DEVICE_ADD, EVT_WDF_DRIVER_DEVICE_ADD, wdfdriver/EvtDriverDeviceAdd, DFDriverObjectRef_9b5ff898-9b1b-4eb6-87f7-42bee5deab18.xml, kmdf.evtdriverdeviceadd
+ms.keywords: DFDriverObjectRef_9b5ff898-9b1b-4eb6-87f7-42bee5deab18.xml, EVT_WDF_DRIVER_DEVICE_ADD, EvtDriverDeviceAdd, EvtDriverDeviceAdd callback function, kmdf.evtdriverdeviceadd, wdf.evtdriverdeviceadd, wdfdriver/EvtDriverDeviceAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	EvtDriverDeviceAdd
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DPC_CONFIG, WDF_DPC_CONFIG"
+req.typenames: WDF_DPC_CONFIG, *PWDF_DPC_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -189,12 +189,6 @@ The <b>EVT_WDF_DRIVER_DEVICE_ADD</b> function type is defined in the WdfDriver.h
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
-
-
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
 
 
@@ -202,6 +196,8 @@ The <b>EVT_WDF_DRIVER_DEVICE_ADD</b> function type is defined in the WdfDriver.h
 <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
 
 
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 3F9831D1-68A9-4FDB-93C6-6983E6BFE945
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: P_SECURE_ELEMENT_AID_ROUTING_INFO, _SECURE_ELEMENT_AID_ROUTING_INFO, SECURE_ELEMENT_AID_ROUTING_INFO, *PSECURE_ELEMENT_AID_ROUTING_INFO, nfcsedev/_SECURE_ELEMENT_AID_ROUTING_INFO, nfpdrivers._secure_element_aid_routing_info, P_SECURE_ELEMENT_AID_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_AID_ROUTING_INFO structure [Near-Field Proximity Drivers], nfcsedev/P_SECURE_ELEMENT_AID_ROUTING_INFO
+ms.keywords: "*PSECURE_ELEMENT_AID_ROUTING_INFO, P_SECURE_ELEMENT_AID_ROUTING_INFO, P_SECURE_ELEMENT_AID_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_AID_ROUTING_INFO, SECURE_ELEMENT_AID_ROUTING_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_AID_ROUTING_INFO, nfcsedev/P_SECURE_ELEMENT_AID_ROUTING_INFO, nfcsedev/_SECURE_ELEMENT_AID_ROUTING_INFO, nfpdrivers._secure_element_aid_routing_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SECURE_ELEMENT_AID_ROUTING_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PSECURE_ELEMENT_AID_ROUTING_INFO, SECURE_ELEMENT_AID_ROUTING_INFO"
+req.typenames: SECURE_ELEMENT_AID_ROUTING_INFO, *PSECURE_ELEMENT_AID_ROUTING_INFO
 ---
 
 # _SECURE_ELEMENT_AID_ROUTING_INFO structure

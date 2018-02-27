@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f521af88-eb96-4077-8882-9b1d02c6c87c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolqueryoffloadcomplete, ProtocolQueryOffloadComplete callback function [Network Drivers Starting with Windows Vista], ProtocolQueryOffloadComplete, QUERY_OFFLOAD_COMPLETE_HANDLER, QUERY_OFFLOAD_COMPLETE_HANDLER, ndischimney/ProtocolQueryOffloadComplete, tcp_chim_protocol_func_044230e2-8c5e-4f7c-8f6c-5b7ba8f48810.xml
+ms.keywords: ProtocolQueryOffloadComplete, ProtocolQueryOffloadComplete callback function [Network Drivers Starting with Windows Vista], QUERY_OFFLOAD_COMPLETE_HANDLER, ndischimney/ProtocolQueryOffloadComplete, netvista.protocolqueryoffloadcomplete, tcp_chim_protocol_func_044230e2-8c5e-4f7c-8f6c-5b7ba8f48810.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -133,7 +133,7 @@ From the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure that was passed to its
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
 
 
 
@@ -151,11 +151,12 @@ From the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure that was passed to its
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndisqueryoffloadstate.md">NdisQueryOffload</a>
+<a href="..\ndischimney\nf-ndischimney-ndismqueryoffloadstatecomplete.md">
+   NdisMQueryOffloadStateComplete</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 

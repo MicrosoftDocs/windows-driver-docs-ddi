@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aba2efca-7d1f-4594-af65-13356f0e3f8b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtcleanupcallback, EvtCleanupCallback callback function, EvtCleanupCallback, EVT_WDF_OBJECT_CONTEXT_CLEANUP, EVT_WDF_OBJECT_CONTEXT_CLEANUP, wdfobject/EvtCleanupCallback, DFGenObjectRef_aef7bd25-42a4-41d2-9ba1-1b1113159657.xml, kmdf.evtcleanupcallback
+ms.keywords: DFGenObjectRef_aef7bd25-42a4-41d2-9ba1-1b1113159657.xml, EVT_WDF_OBJECT_CONTEXT_CLEANUP, EvtCleanupCallback, EvtCleanupCallback callback function, kmdf.evtcleanupcallback, wdf.evtcleanupcallback, wdfobject/EvtCleanupCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -230,11 +230,11 @@ The <b>EVT_WDF_OBJECT_CONTEXT_CLEANUP</b> function type is defined in the Wdfobj
 
 
 
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
 
 
 
@@ -242,7 +242,7 @@ The <b>EVT_WDF_OBJECT_CONTEXT_CLEANUP</b> function type is defined in the Wdfobj
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
 
 
 

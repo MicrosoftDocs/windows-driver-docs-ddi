@@ -7,8 +7,8 @@ old-location: audio\iportwmiregistration_unregisterwmiprovider.htm
 old-project: audio
 ms.assetid: 51c43e1a-ec8e-4dd2-ab08-b90cd89d9b5d
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: portcls/IPortWMIRegistration::UnregisterWMIProvider, UnregisterWMIProvider, IPortWMIRegistration interface [Audio Devices], UnregisterWMIProvider method, audmp-routines_3c640b1e-b98a-491d-a586-c6acaf8b07d4.xml, UnregisterWMIProvider method [Audio Devices], IPortWMIRegistration interface, IPortWMIRegistration, UnregisterWMIProvider method [Audio Devices], audio.iportwmiregistration_unregisterwmiprovider, IPortWMIRegistration::UnregisterWMIProvider
+ms.date: 2/22/2018
+ms.keywords: IPortWMIRegistration, IPortWMIRegistration interface [Audio Devices], UnregisterWMIProvider method, IPortWMIRegistration::UnregisterWMIProvider, UnregisterWMIProvider method [Audio Devices], UnregisterWMIProvider method [Audio Devices], IPortWMIRegistration interface, UnregisterWMIProvider,IPortWMIRegistration.UnregisterWMIProvider, audio.iportwmiregistration_unregisterwmiprovider, audmp-routines_3c640b1e-b98a-491d-a586-c6acaf8b07d4.xml, portcls/IPortWMIRegistration::UnregisterWMIProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -85,10 +85,6 @@ The <code>UnregisterWMIProvider</code> method returns STATUS_SUCCESS if the call
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
 <a href="..\portcls\nn-portcls-iportwmiregistration.md">IPortWMIRegistration</a>
 
 
@@ -97,9 +93,13 @@ The <code>UnregisterWMIProvider</code> method returns STATUS_SUCCESS if the call
 
 
 
- 
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWMIRegistration::UnregisterWMIProvider method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWMIRegistration::UnregisterWMIProvider method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

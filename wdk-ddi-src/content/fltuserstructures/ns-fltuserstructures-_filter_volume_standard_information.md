@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 51f2f837-7d67-4a9d-a365-d9d1b24977e5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fltuserstructures/FILTER_VOLUME_STANDARD_INFORMATION, FILTER_VOLUME_STANDARD_INFORMATION, PFILTER_VOLUME_STANDARD_INFORMATION structure pointer [Installable File System Drivers], FltSystemStructures_cf6b475f-0334-4d11-8449-f66c611011bf.xml, *PFILTER_VOLUME_STANDARD_INFORMATION, ifsk.filter_volume_standard_information, FILTER_VOLUME_STANDARD_INFORMATION structure [Installable File System Drivers], PFILTER_VOLUME_STANDARD_INFORMATION, _FILTER_VOLUME_STANDARD_INFORMATION, fltuserstructures/PFILTER_VOLUME_STANDARD_INFORMATION
+ms.keywords: "*PFILTER_VOLUME_STANDARD_INFORMATION, FILTER_VOLUME_STANDARD_INFORMATION, FILTER_VOLUME_STANDARD_INFORMATION structure [Installable File System Drivers], FltSystemStructures_cf6b475f-0334-4d11-8449-f66c611011bf.xml, PFILTER_VOLUME_STANDARD_INFORMATION, PFILTER_VOLUME_STANDARD_INFORMATION structure pointer [Installable File System Drivers], _FILTER_VOLUME_STANDARD_INFORMATION, fltuserstructures/FILTER_VOLUME_STANDARD_INFORMATION, fltuserstructures/PFILTER_VOLUME_STANDARD_INFORMATION, ifsk.filter_volume_standard_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -135,11 +135,7 @@ A FILTER_VOLUME_STANDARD_INFORMATION structure can be allocated from paged or no
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltenumeratevolumeinformation.md">FltEnumerateVolumeInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541522">FilterVolumeFindClose</a>
 
 
 
@@ -151,11 +147,15 @@ A FILTER_VOLUME_STANDARD_INFORMATION structure can be allocated from paged or no
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541522">FilterVolumeFindClose</a>
+<a href="..\fltkernel\nf-fltkernel-fltenumeratevolumeinformation.md">FltEnumerateVolumeInformation</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltenumeratevolumes.md">FltEnumerateVolumes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a>
 
 
 

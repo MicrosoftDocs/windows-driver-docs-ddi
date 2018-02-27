@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 479ff048-f57f-42ca-8787-f87ed055fdbf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fwpsk/FwpsvSwitchEventsSubscribe0, netvista.fwpsvswitcheventssubscribe0, FwpsvSwitchEventsSubscribe0, FwpsvSwitchEventsSubscribe0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: FwpsvSwitchEventsSubscribe0, FwpsvSwitchEventsSubscribe0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsvSwitchEventsSubscribe0, netvista.fwpsvswitcheventssubscribe0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

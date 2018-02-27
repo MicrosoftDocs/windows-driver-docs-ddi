@@ -7,8 +7,8 @@ old-location: smartcrd\os_dep_data__wdm_.htm
 old-project: smartcrd
 ms.assetid: 76f6f0d1-cb2f-4cda-aeb0-7421e18e3c27
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*POS_DEP_DATA, POS_DEP_DATA, smcnt/POS_DEP_DATA, OS_DEP_DATA (WDM) structure [Smart Card Reader Devices], _OS_DEP_DATA, OS_DEP_DATA structure [Smart Card Reader Devices], OS_DEP_DATA, OS_DEP_DATA (WDM), scstruct_f7288ef8-a011-44c0-ab86-db7cc6d1a985.xml, smcnt/OS_DEP_DATA, POS_DEP_DATA structure pointer [Smart Card Reader Devices], smartcrd.os_dep_data__wdm_"
+ms.date: 2/22/2018
+ms.keywords: "*POS_DEP_DATA, OS_DEP_DATA, OS_DEP_DATA (WDM), OS_DEP_DATA (WDM) structure [Smart Card Reader Devices], OS_DEP_DATA structure [Smart Card Reader Devices], POS_DEP_DATA, POS_DEP_DATA structure pointer [Smart Card Reader Devices], _OS_DEP_DATA, scstruct_f7288ef8-a011-44c0-ab86-db7cc6d1a985.xml, smartcrd.os_dep_data__wdm_, smcnt/OS_DEP_DATA, smcnt/POS_DEP_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

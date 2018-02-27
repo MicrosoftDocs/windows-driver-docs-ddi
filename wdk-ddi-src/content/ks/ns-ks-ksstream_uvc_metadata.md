@@ -7,8 +7,8 @@ old-location: stream\ksstream_uvc_metadata.htm
 old-project: stream
 ms.assetid: 99ED5E06-23C7-4B24-BD9B-E6713B1D58D2
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KSSTREAM_UVC_METADATA, PKSSTREAM_UVC_METADATA, PKSSTREAM_UVC_METADATA structure pointer [Streaming Media Devices], ks/KSSTREAM_UVC_METADATA, *PKSSTREAM_UVC_METADATA, stream.ksstream_uvc_metadata, ks/PKSSTREAM_UVC_METADATA, KSSTREAM_UVC_METADATA structure [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PKSSTREAM_UVC_METADATA, KSSTREAM_UVC_METADATA, KSSTREAM_UVC_METADATA structure [Streaming Media Devices], PKSSTREAM_UVC_METADATA, PKSSTREAM_UVC_METADATA structure pointer [Streaming Media Devices], ks/KSSTREAM_UVC_METADATA, ks/PKSSTREAM_UVC_METADATA, stream.ksstream_uvc_metadata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSSTREAM_UVC_METADATA
 product: Windows
 targetos: Windows
-req.typenames: "*PKSSTREAM_UVC_METADATA, KSSTREAM_UVC_METADATA"
+req.typenames: KSSTREAM_UVC_METADATA, *PKSSTREAM_UVC_METADATA
 ---
 
 # KSSTREAM_UVC_METADATA structure

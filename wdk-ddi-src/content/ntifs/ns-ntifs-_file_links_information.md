@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: adf1d2f3-4395-43d9-8157-e9f246e2bba8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/PFILE_LINKS_INFORMATION, ifsk.file_links_information, FILE_LINKS_INFORMATION structure [Installable File System Drivers], PFILE_LINKS_INFORMATION, _FILE_LINKS_INFORMATION, ntifs/FILE_LINKS_INFORMATION, PFILE_LINKS_INFORMATION structure pointer [Installable File System Drivers], *PFILE_LINKS_INFORMATION, FILE_LINKS_INFORMATION
+ms.keywords: "*PFILE_LINKS_INFORMATION, FILE_LINKS_INFORMATION, FILE_LINKS_INFORMATION structure [Installable File System Drivers], PFILE_LINKS_INFORMATION, PFILE_LINKS_INFORMATION structure pointer [Installable File System Drivers], _FILE_LINKS_INFORMATION, ifsk.file_links_information, ntifs/FILE_LINKS_INFORMATION, ntifs/PFILE_LINKS_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 98993973-91a4-456a-9343-c744408055ed
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 61883/CIP_VALIDATE_INFO, PCIP_VALIDATE_INFO structure pointer [Buses], 61883_structures_9f8bc3f2-ad43-4e0b-a4f9-8d441397f11d.xml, 61883/PCIP_VALIDATE_INFO, IEEE.cip_validate_info, PCIP_VALIDATE_INFO, _CIP_VALIDATE_INFO, *PCIP_VALIDATE_INFO, CIP_VALIDATE_INFO structure [Buses], CIP_VALIDATE_INFO
+ms.keywords: "*PCIP_VALIDATE_INFO, 61883/CIP_VALIDATE_INFO, 61883/PCIP_VALIDATE_INFO, 61883_structures_9f8bc3f2-ad43-4e0b-a4f9-8d441397f11d.xml, CIP_VALIDATE_INFO, CIP_VALIDATE_INFO structure [Buses], IEEE.cip_validate_info, PCIP_VALIDATE_INFO, PCIP_VALIDATE_INFO structure pointer [Buses], _CIP_VALIDATE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

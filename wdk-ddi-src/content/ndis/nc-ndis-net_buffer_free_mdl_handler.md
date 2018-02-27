@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a92b2de9-231d-4dcc-8220-857063a35eb1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.netfreemdl, NetFreeMdl callback function [Network Drivers Starting with Windows Vista], NetFreeMdl, NET_BUFFER_FREE_MDL_HANDLER, NET_BUFFER_FREE_MDL_HANDLER, ndis/NetFreeMdl, ndis_netbuf_functions_ref_a005ffba-5557-4d9b-a647-63e9e06fa8ef.xml
+ms.keywords: NET_BUFFER_FREE_MDL_HANDLER, NetFreeMdl, NetFreeMdl callback function [Network Drivers Starting with Windows Vista], ndis/NetFreeMdl, ndis_netbuf_functions_ref_a005ffba-5557-4d9b-a647-63e9e06fa8ef.xml, netvista.netfreemdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -112,12 +112,12 @@ NDIS calls
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
    NdisAdvanceNetBufferDataStart</a>
+
+
+
+<a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
 
 
 

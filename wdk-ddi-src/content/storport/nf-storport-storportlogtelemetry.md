@@ -7,8 +7,8 @@ old-location: storage\storportlogtelemetry.htm
 old-project: storage
 ms.assetid: 3B32F31C-3850-43D4-9C6E-40D35B8AF4D4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.storportlogtelemetry, storport/StorPortLogTelemetry, StorPortLogTelemetry routine [Storage Devices], StorPortLogTelemetry
+ms.date: 2/24/2018
+ms.keywords: StorPortLogTelemetry, StorPortLogTelemetry routine [Storage Devices], storage.storportlogtelemetry, storport/StorPortLogTelemetry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -168,5 +168,5 @@ If miniport has no payload to fill in Event-&gt;EventBuffer, it should set Event
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortLogTelemetry routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortLogTelemetry routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

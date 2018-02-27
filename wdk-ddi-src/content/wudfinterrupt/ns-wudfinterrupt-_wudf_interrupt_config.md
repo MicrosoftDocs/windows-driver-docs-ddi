@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7A849A10-2C47-42E2-8BEB-E1D979D3C893
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfinterrupt/PWUDF_INTERRUPT_CONFIG, umdf.wudf_interrupt_config, _WUDF_INTERRUPT_CONFIG, PWUDF_INTERRUPT_CONFIG, WUDF_INTERRUPT_CONFIG structure, PWUDF_INTERRUPT_CONFIG structure pointer, WUDF_INTERRUPT_CONFIG, wudfinterrupt/WUDF_INTERRUPT_CONFIG, wdf.wudf_interrupt_config, *PWUDF_INTERRUPT_CONFIG
+ms.keywords: "*PWUDF_INTERRUPT_CONFIG, PWUDF_INTERRUPT_CONFIG, PWUDF_INTERRUPT_CONFIG structure pointer, WUDF_INTERRUPT_CONFIG, WUDF_INTERRUPT_CONFIG structure, _WUDF_INTERRUPT_CONFIG, umdf.wudf_interrupt_config, wdf.wudf_interrupt_config, wudfinterrupt/PWUDF_INTERRUPT_CONFIG, wudfinterrupt/WUDF_INTERRUPT_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,7 +86,7 @@ The size, in bytes, of this structure.
 
 ### -field ShareVector
 
-A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value. If this value is <b>WdfTrue</b>, the interrupt vector can be shared. If the value is <b>WdfFalse</b>, the interrupt vector cannot be shared. If the value is <b>WdfDefault</b> and the interrupt is level-triggered,  the Plug and Play manager uses the bus driver's value. If the value is <b>WdfDefault</b> and the interrupt is not level-triggered, the interrupt vector cannot be shared.
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value. If this value is <b>WdfTrue</b>, the interrupt vector can be shared. If the value is <b>WdfFalse</b>, the interrupt vector cannot be shared. If the value is <b>WdfDefault</b> and the interrupt is level-triggered,  the Plug and Play manager uses the bus driver's value. If the value is <b>WdfDefault</b> and the interrupt is not level-triggered, the interrupt vector cannot be shared.
 
 
 ### -field AutomaticSerialization
@@ -144,15 +144,15 @@ UMDF supports edge-triggered, line-based interrupts and message-signaled interru
 
 ## -see-also
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wudf_interrupt_config_init.md">WUDF_INTERRUPT_CONFIG_INIT</a>
-
-
-
 <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556991">IWDFDeviceInitialize::SetLockingConstraint</a>
+
+
+
+<a href="..\wudfinterrupt\nf-wudfinterrupt-wudf_interrupt_config_init.md">WUDF_INTERRUPT_CONFIG_INIT</a>
 
 
 

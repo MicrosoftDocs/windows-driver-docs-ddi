@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 83fadb77-90c2-4331-949c-5d8828ce33e2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_COMPANION_EVENT_CALLBACKS_INIT, wdf.wdf_companion_event_callbacks_init, WDF_COMPANION_EVENT_CALLBACKS_INIT method, wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS_INIT
+ms.keywords: WDF_COMPANION_EVENT_CALLBACKS_INIT, WDF_COMPANION_EVENT_CALLBACKS_INIT method, wdf.wdf_companion_event_callbacks_init, wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -7,8 +7,8 @@ old-location: stream\kssynchronousdevicecontrol.htm
 old-project: stream
 ms.assetid: 82c8f0c0-d9df-4f0d-8a45-dda8fa8a132a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KsSynchronousDeviceControl, ksproxy/KsSynchronousDeviceControl, stream.kssynchronousdevicecontrol, KsSynchronousDeviceControl function [Streaming Media Devices], ksproxy_5bfad2d0-2ee7-476d-a67b-e7c877505280.xml
+ms.date: 2/23/2018
+ms.keywords: KsSynchronousDeviceControl, KsSynchronousDeviceControl function [Streaming Media Devices], ksproxy/KsSynchronousDeviceControl, ksproxy_5bfad2d0-2ee7-476d-a67b-e7c877505280.xml, stream.kssynchronousdevicecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,15 +128,15 @@ An application can set the control code in <i>IoControl</i> and the buffers at <
 
 <ul>
 <li>
-Set <i>IoControl</i> to <a href="..\ks\ni-ks-ioctl_ks_property.md">IOCTL_KS_PROPERTY</a> to access a property. Set <i>InBuffer</i> to point to a <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that specifies the property of the property set to access and whether to retrieve information about the property or set information in the property. To set information in the property, set <i>OutBuffer</i> to point to that information. To retrieve information from the property, set <i>OutBuffer</i> to receive that information. 
+Set <i>IoControl</i> to <a href="..\ks\ni-ks-ioctl_ks_property.md">IOCTL_KS_PROPERTY</a> to access a property. Set <i>InBuffer</i> to point to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure that specifies the property of the property set to access and whether to retrieve information about the property or set information in the property. To set information in the property, set <i>OutBuffer</i> to point to that information. To retrieve information from the property, set <i>OutBuffer</i> to receive that information. 
 
 </li>
 <li>
-Set <i>IoControl</i> to <a href="..\ks\ni-ks-ioctl_ks_method.md">IOCTL_KS_METHOD</a> to execute a method. Set <i>InBuffer</i> to point to a <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a> structure that specifies the method of the method set to execute and whether to read and/or write data related to the method. To read data, set <i>OutBuffer</i> to point to that data. To write data, set <i>OutBuffer</i> to receive that data.
+Set <i>IoControl</i> to <a href="..\ks\ni-ks-ioctl_ks_method.md">IOCTL_KS_METHOD</a> to execute a method. Set <i>InBuffer</i> to point to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a> structure that specifies the method of the method set to execute and whether to read and/or write data related to the method. To read data, set <i>OutBuffer</i> to point to that data. To write data, set <i>OutBuffer</i> to receive that data.
 
 </li>
 <li>
-Set <i>IoControl</i> to <a href="..\ks\ni-ks-ioctl_ks_enable_event.md">IOCTL_KS_ENABLE_EVENT</a> to request that the KS object specified by <i>Handle</i> notify the application whenever a specific event action occurs. Set <i>InBuffer</i> to point to a <a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a> structure that specifies the event of the event set about which to notify. Set <i>OutBuffer</i> to point to a <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure that describes how the KS object should notify the application when the event occurs. Also see <a href="https://msdn.microsoft.com/3eaa1d65-8417-4a07-b358-823394baec9b">KS Events</a>.
+Set <i>IoControl</i> to <a href="..\ks\ni-ks-ioctl_ks_enable_event.md">IOCTL_KS_ENABLE_EVENT</a> to request that the KS object specified by <i>Handle</i> notify the application whenever a specific event action occurs. Set <i>InBuffer</i> to point to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a> structure that specifies the event of the event set about which to notify. Set <i>OutBuffer</i> to point to a <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure that describes how the KS object should notify the application when the event occurs. Also see <a href="https://msdn.microsoft.com/3eaa1d65-8417-4a07-b358-823394baec9b">KS Events</a>.
 
 </li>
 <li>
@@ -153,35 +153,11 @@ After the call to <b>KsSynchronousDeviceControl</b>, <i>OutBuffer</i> will conta
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
-
-
-
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
-
-
 <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
 
 
-<a href="..\ks\ni-ks-ioctl_ks_enable_event.md">IOCTL_KS_ENABLE_EVENT</a>
-
-
-
-<a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a>
-
-
-
-<a href="..\ks\ni-ks-ioctl_ks_method.md">IOCTL_KS_METHOD</a>
-
-
-
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
-
-
-
-<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
 
 
 
@@ -189,9 +165,33 @@ After the call to <b>KsSynchronousDeviceControl</b>, <i>OutBuffer</i> will conta
 
 
 
- 
+<a href="..\ks\ni-ks-ioctl_ks_method.md">IOCTL_KS_METHOD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
+
+
+
+<a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a>
+
+
+
+<a href="..\ks\ni-ks-ioctl_ks_enable_event.md">IOCTL_KS_ENABLE_EVENT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsSynchronousDeviceControl function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsSynchronousDeviceControl function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

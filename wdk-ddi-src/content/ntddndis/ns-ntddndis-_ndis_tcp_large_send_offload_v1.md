@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3e26b6ae-15e1-41d5-b00d-3e09c1534413
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, ntddndis/NDIS_TCP_LARGE_SEND_OFFLOAD_V1, tcpip_offload_ref_2a3bb0f8-f05b-462f-984d-774f607ee0da.xml, *PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, NDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure pointer [Network Drivers Starting with Windows Vista], PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, NDIS_TCP_LARGE_SEND_OFFLOAD_V1, _NDIS_TCP_LARGE_SEND_OFFLOAD_V1, netvista.ndis_tcp_large_send_offload_v1
+ms.keywords: "*PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, NDIS_TCP_LARGE_SEND_OFFLOAD_V1, NDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, PNDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_LARGE_SEND_OFFLOAD_V1, netvista.ndis_tcp_large_send_offload_v1, ntddndis/NDIS_TCP_LARGE_SEND_OFFLOAD_V1, ntddndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, tcpip_offload_ref_2a3bb0f8-f05b-462f-984d-774f607ee0da.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_TCP_LARGE_SEND_OFFLOAD_V1
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, NDIS_TCP_LARGE_SEND_OFFLOAD_V1"
+req.typenames: NDIS_TCP_LARGE_SEND_OFFLOAD_V1, *PNDIS_TCP_LARGE_SEND_OFFLOAD_V1
 ---
 
 # _NDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure
@@ -195,29 +195,16 @@ The values in the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
-   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_tcp_large_send_offload_v2.md">
+   NDIS_TCP_LARGE_SEND_OFFLOAD_V2</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
-   NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 
 
@@ -225,12 +212,25 @@ The values in the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_tcp_large_send_offload_v2.md">
-   NDIS_TCP_LARGE_SEND_OFFLOAD_V2</a>
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
+   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+   NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a>
 
 
 

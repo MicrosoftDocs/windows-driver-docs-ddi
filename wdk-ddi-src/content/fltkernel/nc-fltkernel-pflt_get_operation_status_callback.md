@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f3fedf69-260c-4117-b302-db3ce6b182a0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.PFLT_GET_OPERATION_STATUS_CALLBACK, OperationStatusCallback routine [Installable File System Drivers], OperationStatusCallback, PFLT_GET_OPERATION_STATUS_CALLBACK, PFLT_GET_OPERATION_STATUS_CALLBACK, fltkernel/OperationStatusCallback
+ms.keywords: OperationStatusCallback, OperationStatusCallback routine [Installable File System Drivers], PFLT_GET_OPERATION_STATUS_CALLBACK, fltkernel/OperationStatusCallback, ifsk.PFLT_GET_OPERATION_STATUS_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -120,7 +120,7 @@ Most minifilter drivers never need to register a routine of type <i>PFLT_GET_OPE
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
 
 
 
@@ -128,7 +128,7 @@ Most minifilter drivers never need to register a routine of type <i>PFLT_GET_OPE
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
 
 
 

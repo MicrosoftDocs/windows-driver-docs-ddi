@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 4EC1935D-038C-418C-AB28-A49085877B4A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 1/SerCxRetrieveReceiveBuffer, serports.sercxretrievereceivebuffer, SerCxRetrieveReceiveBuffer, SerCxRetrieveReceiveBuffer method [Serial Ports]
+ms.keywords: 1/SerCxRetrieveReceiveBuffer, SerCxRetrieveReceiveBuffer, SerCxRetrieveReceiveBuffer method [Serial Ports], serports.sercxretrievereceivebuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SerCxRetrieveReceiveBuffer
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
+req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
 
@@ -146,11 +146,11 @@ The serial controller driver calls this method to acquire a buffer to contain in
 
 ## -see-also
 
-<a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx_buffer_descriptor_init.md">SERCX_BUFFER_DESCRIPTOR_INIT</a>
+
+
+
+<a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a>
 
 
 

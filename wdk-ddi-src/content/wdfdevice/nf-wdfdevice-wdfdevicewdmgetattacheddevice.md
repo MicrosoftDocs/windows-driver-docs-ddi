@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 216fe649-18c0-4782-8040-21ce87fbd888
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDeviceWdmGetAttachedDevice, wdf.wdfdevicewdmgetattacheddevice, WdfDeviceWdmGetAttachedDevice method, kmdf.wdfdevicewdmgetattacheddevice, DFDeviceObjectGeneralRef_cfd9610b-28f6-4c5c-a532-9c5fae3576fc.xml, wdfdevice/WdfDeviceWdmGetAttachedDevice
+ms.keywords: DFDeviceObjectGeneralRef_cfd9610b-28f6-4c5c-a532-9c5fae3576fc.xml, WdfDeviceWdmGetAttachedDevice, WdfDeviceWdmGetAttachedDevice method, kmdf.wdfdevicewdmgetattacheddevice, wdf.wdfdevicewdmgetattacheddevice, wdfdevice/WdfDeviceWdmGetAttachedDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -120,11 +120,11 @@ The following code example creates a tracing message that contains pointers to t
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetphysicaldevice.md">WdfDeviceWdmGetPhysicalDevice</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetdeviceobject.md">WdfDeviceWdmGetDeviceObject</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetphysicaldevice.md">WdfDeviceWdmGetPhysicalDevice</a>
 
 
 

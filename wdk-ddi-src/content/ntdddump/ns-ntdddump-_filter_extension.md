@@ -7,8 +7,8 @@ old-location: storage\filter_extension.htm
 old-project: storage
 ms.assetid: 1113e917-3273-4ba7-8702-fe90a22fb024
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: FILTER_EXTENSION structure [Storage Devices], FILTER_EXTENSION, *PFILTER_EXTENSION, structs-filter_c9e640bb-9678-4e2f-9341-0d26b36e65e6.xml, PFILTER_EXTENSION structure pointer [Storage Devices], storage.filter_extension, ntdddump/PFILTER_EXTENSION, _FILTER_EXTENSION, ntdddump/FILTER_EXTENSION, PFILTER_EXTENSION
+ms.date: 2/24/2018
+ms.keywords: "*PFILTER_EXTENSION, FILTER_EXTENSION, FILTER_EXTENSION structure [Storage Devices], PFILTER_EXTENSION, PFILTER_EXTENSION structure pointer [Storage Devices], _FILTER_EXTENSION, ntdddump/FILTER_EXTENSION, ntdddump/PFILTER_EXTENSION, storage.filter_extension, structs-filter_c9e640bb-9678-4e2f-9341-0d26b36e65e6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -132,5 +132,5 @@ A pointer to the context data that is provided by the filter driver in <a href="
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FILTER_EXTENSION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FILTER_EXTENSION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

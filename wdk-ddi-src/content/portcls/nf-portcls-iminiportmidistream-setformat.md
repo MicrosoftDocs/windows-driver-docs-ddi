@@ -7,8 +7,8 @@ old-location: audio\iminiportmidistream_setformat.htm
 old-project: audio
 ms.assetid: 35e11004-c716-4c6a-ba0a-be04750afb7a
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audmp-routines_9e75b920-4cc0-4acb-83e6-f970524e0587.xml, IMiniportMidiStream::SetFormat, SetFormat, SetFormat method [Audio Devices], portcls/IMiniportMidiStream::SetFormat, audio.iminiportmidistream_setformat, IMiniportMidiStream, IMiniportMidiStream interface [Audio Devices], SetFormat method, SetFormat method [Audio Devices], IMiniportMidiStream interface
+ms.date: 2/22/2018
+ms.keywords: IMiniportMidiStream, IMiniportMidiStream interface [Audio Devices], SetFormat method, IMiniportMidiStream::SetFormat, SetFormat method [Audio Devices], SetFormat method [Audio Devices], IMiniportMidiStream interface, SetFormat,IMiniportMidiStream.SetFormat, audio.iminiportmidistream_setformat, audmp-routines_9e75b920-4cc0-4acb-83e6-f970524e0587.xml, portcls/IMiniportMidiStream::SetFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -104,5 +104,5 @@ The <code>SetFormat</code> method essentially does nothing because the data form
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportMidiStream::SetFormat method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportMidiStream::SetFormat method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

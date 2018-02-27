@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 53a5348c-71d1-4d58-82bf-1f8bf8daff90
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/RtlEnumerateGenericTable, rtlref_5fb7c196-aee1-4dcc-a39c-587472a2fbe9.xml, RtlEnumerateGenericTable routine [Installable File System Drivers], RtlEnumerateGenericTable, ifsk.rtlenumerategenerictable
+ms.keywords: RtlEnumerateGenericTable, RtlEnumerateGenericTable routine [Installable File System Drivers], ifsk.rtlenumerategenerictable, ntddk/RtlEnumerateGenericTable, rtlref_5fb7c196-aee1-4dcc-a39c-587472a2fbe9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlEnumerateGenericTable
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlEnumerateGenericTable function
@@ -124,11 +124,11 @@ Callers of <b>RtlEnumerateGenericTable</b> must be running at IRQL &lt; DISPATCH
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplaying</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
 
 
@@ -140,7 +140,7 @@ Callers of <b>RtlEnumerateGenericTable</b> must be running at IRQL &lt; DISPATCH
 
 
 
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplaying</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c1cba1fa-3952-4f2f-829f-2f5983349df8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IsInEndPoint method, IWDFUsbTargetPipe interface, IWDFUsbTargetPipe::IsInEndPoint, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, IsInEndPoint method, wudfusb/IWDFUsbTargetPipe::IsInEndPoint, wdf.iwdfusbtargetpipe_isinendpoint, UMDFUSBref_07580c26-1173-4624-9199-c8dc8ef59edf.xml, IsInEndPoint, umdf.iwdfusbtargetpipe_isinendpoint, IsInEndPoint method
+ms.keywords: IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, IsInEndPoint method, IWDFUsbTargetPipe::IsInEndPoint, IsInEndPoint method, IsInEndPoint method, IWDFUsbTargetPipe interface, IsInEndPoint,IWDFUsbTargetPipe.IsInEndPoint, UMDFUSBref_07580c26-1173-4624-9199-c8dc8ef59edf.xml, umdf.iwdfusbtargetpipe_isinendpoint, wdf.iwdfusbtargetpipe_isinendpoint, wudfusb/IWDFUsbTargetPipe::IsInEndPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbTargetPipe.IsInEndPoint
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

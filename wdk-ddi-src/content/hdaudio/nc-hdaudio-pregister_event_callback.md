@@ -7,8 +7,8 @@ old-location: audio\registereventcallback.htm
 old-project: audio
 ms.assetid: 0f94146b-aa60-4106-aba6-0f1cb3e53008
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.registereventcallback, RegisterEventCallback callback function [Audio Devices], RegisterEventCallback, PREGISTER_EVENT_CALLBACK, PREGISTER_EVENT_CALLBACK, hdaudio/RegisterEventCallback, aud-prop2_4ef71e0f-0887-4d20-8198-cb5b9c161647.xml
+ms.date: 2/22/2018
+ms.keywords: PREGISTER_EVENT_CALLBACK, RegisterEventCallback, RegisterEventCallback callback function [Audio Devices], aud-prop2_4ef71e0f-0887-4d20-8198-cb5b9c161647.xml, audio.registereventcallback, hdaudio/RegisterEventCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	RegisterEventCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT"
+req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
 ---
 
 # PREGISTER_EVENT_CALLBACK callback
@@ -171,7 +171,11 @@ The first call parameter is a structure of type <a href="..\hdaudio\ns-hdaudio-_
 
 ## -see-also
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-punregister_event_callback.md">UnregisterEventCallback</a>
 
 
 
@@ -187,13 +191,9 @@ The first call parameter is a structure of type <a href="..\hdaudio\ns-hdaudio-_
 
 
 
-<a href="..\hdaudio\nc-hdaudio-punregister_event_callback.md">UnregisterEventCallback</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PREGISTER_EVENT_CALLBACK callback function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PREGISTER_EVENT_CALLBACK callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5d05793b-cb35-435d-aa59-6ac380668d91
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndisadjustnetbuffercurrentmdl, ndis/NdisAdjustNetBufferCurrentMdl, ndis_netbuf_functions_ref_a555c8dc-ed71-46b9-8922-32bfad03f2a1.xml, NdisAdjustNetBufferCurrentMdl function [Network Drivers Starting with Windows Vista], NdisAdjustNetBufferCurrentMdl
+ms.keywords: NdisAdjustNetBufferCurrentMdl, NdisAdjustNetBufferCurrentMdl function [Network Drivers Starting with Windows Vista], ndis/NdisAdjustNetBufferCurrentMdl, ndis_netbuf_functions_ref_a555c8dc-ed71-46b9-8922-32bfad03f2a1.xml, netvista.ndisadjustnetbuffercurrentmdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisAdjustNetBufferCurrentMdl
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisAdjustNetBufferCurrentMdl function

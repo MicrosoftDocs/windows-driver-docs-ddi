@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ad4ace83-c6c1-4b5f-b998-f46f3e721165
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdeviceselfmanagedioflush, EvtDeviceSelfManagedIoFlush callback function, EvtDeviceSelfManagedIoFlush, EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH, EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH, wdfdevice/EvtDeviceSelfManagedIoFlush, DFDeviceObjectGeneralRef_d464c7ae-10fa-4838-b152-9bbaeaac76de.xml, kmdf.evtdeviceselfmanagedioflush
+ms.keywords: DFDeviceObjectGeneralRef_d464c7ae-10fa-4838-b152-9bbaeaac76de.xml, EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH, EvtDeviceSelfManagedIoFlush, EvtDeviceSelfManagedIoFlush callback function, kmdf.evtdeviceselfmanagedioflush, wdf.evtdeviceselfmanagedioflush, wdfdevice/EvtDeviceSelfManagedIoFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -142,7 +142,7 @@ The <b>EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH</b> function type is defined in the 
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md">EvtDeviceSelfManagedIoCleanup</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_restart.md">EvtDeviceSelfManagedIoRestart</a>
 
 
 
@@ -150,11 +150,11 @@ The <b>EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH</b> function type is defined in the 
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_restart.md">EvtDeviceSelfManagedIoRestart</a>
-
-
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_suspend.md">EvtDeviceSelfManagedIoSuspend</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md">EvtDeviceSelfManagedIoCleanup</a>
 
 
 

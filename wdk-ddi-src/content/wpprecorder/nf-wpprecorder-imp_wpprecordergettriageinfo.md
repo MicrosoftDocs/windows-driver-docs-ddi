@@ -7,8 +7,8 @@ old-location: devtest\wpprecordergettriageinfo.htm
 old-project: devtest
 ms.assetid: D2790496-1F86-4EF0-8AFE-77AC0C89EE05
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: imp_WppRecorderGetTriageInfo function [Driver Development Tools], wpprecorder/imp_WppRecorderGetTriageInfo, imp_WppRecorderGetTriageInfo, devtest.wpprecordergettriageinfo
+ms.date: 2/23/2018
+ms.keywords: devtest.wpprecordergettriageinfo, imp_WppRecorderGetTriageInfo, imp_WppRecorderGetTriageInfo function [Driver Development Tools], wpprecorder/imp_WppRecorderGetTriageInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	imp_WppRecorderGetTriageInfo
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 

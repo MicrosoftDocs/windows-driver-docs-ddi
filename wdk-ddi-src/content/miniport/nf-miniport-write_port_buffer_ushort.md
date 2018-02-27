@@ -7,8 +7,8 @@ old-location: kernel\write_port_buffer_ushort.htm
 old-project: kernel
 ms.assetid: e715c0b5-8f72-4642-9a48-2066df0a2650
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: wdm/WRITE_PORT_BUFFER_USHORT, kernel.write_port_buffer_ushort, WRITE_PORT_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], k103_c8549446-4478-4c5d-82c2-55e963c81cf3.xml, WRITE_PORT_BUFFER_USHORT
+ms.date: 2/24/2018
+ms.keywords: WRITE_PORT_BUFFER_USHORT, WRITE_PORT_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], k103_c8549446-4478-4c5d-82c2-55e963c81cf3.xml, kernel.write_port_buffer_ushort, wdm/WRITE_PORT_BUFFER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

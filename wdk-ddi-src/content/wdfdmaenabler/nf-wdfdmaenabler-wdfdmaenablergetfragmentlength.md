@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f7481655-4413-4937-8a0a-99ca07d5b7b0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfdmaenablergetfragmentlength, wdf.wdfdmaenablergetfragmentlength, DFDmaObjectRef_7c147fef-46f6-49aa-b8a9-9ef1a82ef963.xml, WdfDmaEnablerGetFragmentLength method, wdfdmaenabler/WdfDmaEnablerGetFragmentLength, WdfDmaEnablerGetFragmentLength
+ms.keywords: DFDmaObjectRef_7c147fef-46f6-49aa-b8a9-9ef1a82ef963.xml, WdfDmaEnablerGetFragmentLength, WdfDmaEnablerGetFragmentLength method, kmdf.wdfdmaenablergetfragmentlength, wdf.wdfdmaenablergetfragmentlength, wdfdmaenabler/WdfDmaEnablerGetFragmentLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -154,15 +154,15 @@ if (mapRegistersAllocated &lt; minimumMapRegisters) {
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetmaximumlength.md">WdfDmaEnablerGetMaximumLength</a>
-
-
-
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetmaximumlength.md">WdfDmaEnablerGetMaximumLength</a>
-
-
-
 <a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md">WDF_DMA_DIRECTION</a>
+
+
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+
+
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetmaximumlength.md">WdfDmaEnablerGetMaximumLength</a>
 
 
 

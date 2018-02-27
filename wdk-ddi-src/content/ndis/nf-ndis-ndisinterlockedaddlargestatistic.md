@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7bc753b1-5e09-431b-b226-fb7194dd6947
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisInterlockedAddLargeStatistic, ndis/NdisInterlockedAddLargeStatistic, netvista.ndisinterlockedaddlargestatistic, NdisInterlockedAddLargeStatistic macro [Network Drivers Starting with Windows Vista], ndis_interlocked_ref_f1b7622e-acc8-45d7-b85e-c39058b595fe.xml
+ms.keywords: NdisInterlockedAddLargeStatistic, NdisInterlockedAddLargeStatistic macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedAddLargeStatistic, ndis_interlocked_ref_f1b7622e-acc8-45d7-b85e-c39058b595fe.xml, netvista.ndisinterlockedaddlargestatistic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisInterlockedAddLargeStatistic
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisInterlockedAddLargeStatistic macro

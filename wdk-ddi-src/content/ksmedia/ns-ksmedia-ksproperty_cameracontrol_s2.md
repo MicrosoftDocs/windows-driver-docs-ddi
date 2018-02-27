@@ -7,8 +7,8 @@ old-location: stream\ksproperty_cameracontrol_s2.htm
 old-project: stream
 ms.assetid: b0ea25c0-5b10-403f-8c61-7840fe062596
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: PKSPROPERTY_CAMERACONTROL_S2, KSPROPERTY_CAMERACONTROL_S2 structure [Streaming Media Devices], stream.ksproperty_cameracontrol_s2, ksmedia/PKSPROPERTY_CAMERACONTROL_S2, ksmedia/KSPROPERTY_CAMERACONTROL_S2, PKSPROPERTY_CAMERACONTROL_S2 structure pointer [Streaming Media Devices], vidcapstruct_8ffb951a-dfed-4871-b8f8-36e975884c1e.xml, KSPROPERTY_CAMERACONTROL_S2, *PKSPROPERTY_CAMERACONTROL_S2
+ms.date: 2/23/2018
+ms.keywords: "*PKSPROPERTY_CAMERACONTROL_S2, KSPROPERTY_CAMERACONTROL_S2, KSPROPERTY_CAMERACONTROL_S2 structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S2, PKSPROPERTY_CAMERACONTROL_S2 structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_S2, ksmedia/PKSPROPERTY_CAMERACONTROL_S2, stream.ksproperty_cameracontrol_s2, vidcapstruct_8ffb951a-dfed-4871-b8f8-36e975884c1e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,7 +73,7 @@ typedef struct {
 
 ### -field Property
 
-Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type. 
+Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure that describes the property set, property ID, and request type. 
 
 
 ### -field Value1

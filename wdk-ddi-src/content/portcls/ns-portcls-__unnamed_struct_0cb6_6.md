@@ -1,14 +1,14 @@
 ---
 UID: NS:portcls.__unnamed_struct_0cb6_6
-title: "*PPCAUTOMATION_TABLE"
+title: PCAUTOMATION_TABLE
 author: windows-driver-content
 description: The PCAUTOMATION_TABLE structure contains a miniport driver's master table of properties, methods, and events.
 old-location: audio\pcautomation_table.htm
 old-project: audio
 ms.assetid: 9761a967-063d-4194-8b67-eec476d3372e
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: PPCAUTOMATION_TABLE, PCAUTOMATION_TABLE, audio.pcautomation_table, *PPCAUTOMATION_TABLE, portcls/PCAUTOMATION_TABLE, audpc-struct_2322a469-8fd0-4c56-b8d2-df6cf8b8d1dd.xml, portcls/PPCAUTOMATION_TABLE, PCAUTOMATION_TABLE structure [Audio Devices], PPCAUTOMATION_TABLE structure pointer [Audio Devices]
+ms.date: 2/22/2018
+ms.keywords: "*PPCAUTOMATION_TABLE, PCAUTOMATION_TABLE, PCAUTOMATION_TABLE structure [Audio Devices], PPCAUTOMATION_TABLE, PPCAUTOMATION_TABLE structure pointer [Audio Devices], audio.pcautomation_table, audpc-struct_2322a469-8fd0-4c56-b8d2-df6cf8b8d1dd.xml, portcls/PCAUTOMATION_TABLE, portcls/PPCAUTOMATION_TABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,10 +40,10 @@ apiname:
 -	PCAUTOMATION_TABLE
 product: Windows
 targetos: Windows
-req.typenames: "*PPCAUTOMATION_TABLE, PCAUTOMATION_TABLE"
+req.typenames: PCAUTOMATION_TABLE, *PPCAUTOMATION_TABLE
 ---
 
-# *PPCAUTOMATION_TABLE structure
+# PCAUTOMATION_TABLE structure
 
 
 ## -description
@@ -76,104 +76,52 @@ typedef struct {
 
 
 
-### -field portcls.PropertyItemSize
-
- 
-
-
-### -field portcls.PropertyCount
-
- 
-
-
-### -field portcls.Properties
-
- 
-
-
-### -field portcls.MethodItemSize
-
- 
-
-
-### -field portcls.MethodCount
-
- 
-
-
-### -field portcls.Methods
-
- 
-
-
-### -field portcls.EventItemSize
-
- 
-
-
-### -field portcls.EventCount
-
- 
-
-
-### -field portcls.Events
-
- 
-
-
-### -field portcls.Reserved
-
- 
-
-
-
-
-#### - EventCount
-
-Specifies the number of event items in the <b>Events</b> array.
-
-
-#### - EventItemSize
-
-Specifies the size in bytes of the event structure used. Set this member to <b>sizeof</b>(PCEVENT_ITEM) or greater. See the following Remarks section.
-
-
-#### - Events
-
-Pointer to the filter's array of events. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_5.md">PCEVENT_ITEM</a> structures.
-
-
-#### - MethodCount
-
-Specifies the number of method items in the <b>Methods</b> array.
-
-
-#### - MethodItemSize
-
-Specifies the size in bytes of the methods structure used. Set this member to <b>sizeof</b>(PCMETHOD_ITEM) or greater. See the following Remarks section.
-
-
-#### - Methods
-
-Pointer to the filter's array of methods. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_4.md">PCMETHOD_ITEM</a> structures.
-
-
-#### - Properties
-
-Pointer to the filter's array of properties. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_3.md">PCPROPERTY_ITEM</a> structures.
-
-
-#### - PropertyCount
-
-Specifies the number of property items in the <i>Properties</i> array.
-
-
-#### - PropertyItemSize
+### -field PropertyItemSize
 
 Specifies the size in bytes of the property structure used. Set this member to <b>sizeof</b>(PCPROPERTY_ITEM) or greater. See the following Remarks section.
 
 
-#### - Reserved
+### -field PropertyCount
+
+Specifies the number of property items in the <i>Properties</i> array.
+
+
+### -field Properties
+
+Pointer to the filter's array of properties. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_3.md">PCPROPERTY_ITEM</a> structures.
+
+
+### -field MethodItemSize
+
+Specifies the size in bytes of the methods structure used. Set this member to <b>sizeof</b>(PCMETHOD_ITEM) or greater. See the following Remarks section.
+
+
+### -field MethodCount
+
+Specifies the number of method items in the <b>Methods</b> array.
+
+
+### -field Methods
+
+Pointer to the filter's array of methods. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_4.md">PCMETHOD_ITEM</a> structures.
+
+
+### -field EventItemSize
+
+Specifies the size in bytes of the event structure used. Set this member to <b>sizeof</b>(PCEVENT_ITEM) or greater. See the following Remarks section.
+
+
+### -field EventCount
+
+Specifies the number of event items in the <b>Events</b> array.
+
+
+### -field Events
+
+Pointer to the filter's array of events. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_5.md">PCEVENT_ITEM</a> structures.
+
+
+### -field Reserved
 
 Reserved. Initialize to zero.
 
@@ -191,14 +139,6 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMini
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
-
-
-
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_9.md">PCFILTER_DESCRIPTOR</a>
-
-
-
 <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_5.md">PCEVENT_ITEM</a>
 
 
@@ -211,9 +151,17 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMini
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+
+
+
+<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_9.md">PCFILTER_DESCRIPTOR</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PCAUTOMATION_TABLE structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PCAUTOMATION_TABLE structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

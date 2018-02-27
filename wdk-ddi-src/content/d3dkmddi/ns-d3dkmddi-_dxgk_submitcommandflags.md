@@ -7,8 +7,8 @@ old-location: display\dxgk_submitcommandflags.htm
 old-project: display
 ms.assetid: b73e49d1-3e71-4c36-b628-3d5a3975e5fa
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: DXGK_SUBMITCOMMANDFLAGS structure [Display Devices], DmStructs_c3c77059-3e18-4fe7-a845-b59bb117ba30.xml, display.dxgk_submitcommandflags, d3dkmddi/DXGK_SUBMITCOMMANDFLAGS, _DXGK_SUBMITCOMMANDFLAGS, DXGK_SUBMITCOMMANDFLAGS
+ms.date: 2/24/2018
+ms.keywords: DXGK_SUBMITCOMMANDFLAGS, DXGK_SUBMITCOMMANDFLAGS structure [Display Devices], DmStructs_c3c77059-3e18-4fe7-a845-b59bb117ba30.xml, _DXGK_SUBMITCOMMANDFLAGS, d3dkmddi/DXGK_SUBMITCOMMANDFLAGS, display.dxgk_submitcommandflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -191,5 +191,5 @@ Setting this member to zero is equivalent to setting the remaining 26 bits (0xFF
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_SUBMITCOMMANDFLAGS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_SUBMITCOMMANDFLAGS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

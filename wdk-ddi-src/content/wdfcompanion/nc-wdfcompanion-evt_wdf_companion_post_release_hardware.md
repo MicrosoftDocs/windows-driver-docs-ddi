@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ebba5344-dc3a-443f-a080-991dd784eb54
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evt_wdf_companion_post_release_hardware, EVT_WDF_COMPANION_POST_RELEASE_HARDWARE callback function, EVT_WDF_COMPANION_POST_RELEASE_HARDWARE, EVT_WDF_COMPANION_POST_RELEASE_HARDWARE, EVT_WDF_COMPANION_POST_RELEASE_HARDWARE, wdfcompanion/EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
+ms.keywords: EVT_WDF_COMPANION_POST_RELEASE_HARDWARE, EVT_WDF_COMPANION_POST_RELEASE_HARDWARE callback function, wdf.evt_wdf_companion_post_release_hardware, wdfcompanion/EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG"
+req.typenames: WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: audio\pfndrmforwardcontenttodeviceobject.htm
 old-project: audio
 ms.assetid: A6256D6D-A952-4E10-B8E7-A28E3D8D9585
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.pfndrmforwardcontenttodeviceobject, DRMForwardContentToDeviceObject callback function [Audio Devices], DRMForwardContentToDeviceObject, PFNDRMFORWARDCONTENTTODEVICEOBJECT, PFNDRMFORWARDCONTENTTODEVICEOBJECT, drmk/DRMForwardContentToDeviceObject, DRMForwardContentToDeviceObject callback function [Audio Devices], DRMForwardContentToDeviceObject
+ms.date: 2/22/2018
+ms.keywords: DRMForwardContentToDeviceObject, DRMForwardContentToDeviceObject callback function [Audio Devices], PFNDRMFORWARDCONTENTTODEVICEOBJECT, audio.pfndrmforwardcontenttodeviceobject, drmk/DRMForwardContentToDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	DRMForwardContentToDeviceObject
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
+req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---
 
 # PFNDRMFORWARDCONTENTTODEVICEOBJECT callback

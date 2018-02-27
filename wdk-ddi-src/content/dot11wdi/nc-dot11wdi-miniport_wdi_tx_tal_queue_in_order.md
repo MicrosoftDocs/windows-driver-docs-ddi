@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E82E19EA-4336-49DE-9CE4-DFBA0A347DFE
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwditxtalqueueinorder, MiniportWdiTxTalQueueInOrder callback function [Network Drivers Starting with Windows Vista], MiniportWdiTxTalQueueInOrder, MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER, MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER, dot11wdi/MiniportWdiTxTalQueueInOrder
+ms.keywords: MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER, MiniportWdiTxTalQueueInOrder, MiniportWdiTxTalQueueInOrder callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTalQueueInOrder, netvista.miniportwditxtalqueueinorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	MiniportWdiTxTalQueueInOrder
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER callback
@@ -157,14 +157,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_frame_status.md">WDI_TX_FRAME_STATUS</a>
-
-
-
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
-
-
-
 <a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
 
 
@@ -177,7 +169,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
+<a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_pause_reason.md">WDI_TX_PAUSE_REASON</a>
+
+
+
+<a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_frame_status.md">WDI_TX_FRAME_STATUS</a>
+
+
+
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bed68aa8-499d-41fd-997b-a46316913cc8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndismregisterminiportdriver, miniport_ndis_functions_ref_d6406d6d-f738-4f65-90af-38038b188cc7.xml, ndis/NdisMRegisterMiniportDriver, NdisMRegisterMiniportDriver function [Network Drivers Starting with Windows Vista], NdisMRegisterMiniportDriver
+ms.keywords: NdisMRegisterMiniportDriver, NdisMRegisterMiniportDriver function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_d6406d6d-f738-4f65-90af-38038b188cc7.xml, ndis/NdisMRegisterMiniportDriver, netvista.ndismregisterminiportdriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMRegisterMiniportDriver
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMRegisterMiniportDriver function
@@ -77,7 +77,7 @@ NDIS_STATUS NdisMRegisterMiniportDriver(
 ### -param DriverObject [in]
 
 A pointer to an opaque driver object that the miniport driver received in its 
-     <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine at the 
+     <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine at the 
      <i>Argument1</i> parameter (see 
      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
      Miniport Drivers</a>).
@@ -86,7 +86,7 @@ A pointer to an opaque driver object that the miniport driver received in its
 ### -param RegistryPath [in]
 
 A pointer to an opaque registry path that the miniport driver received in its 
-     <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine at the 
+     <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine at the 
      <i>Argument2</i> parameter.
 
 
@@ -195,7 +195,7 @@ This is a default error status, returned when none of the preceding errors cause
 
 An NDIS driver calls 
     <b>NdisMRegisterMiniportDriver</b> from its 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. For more information, see 
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. For more information, see 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
     Miniport Drivers</a>.
 
@@ -230,7 +230,7 @@ After a driver calls
     <i>MiniportDriverCharacteristics</i> parameter.
 
 If an error occurs in 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> after 
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> after 
     <b>NdisMRegisterMiniportDriver</b> returns successfully, the driver must call the 
     <a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
     NdisMDeregisterMiniportDriver</a> function before 
@@ -244,22 +244,20 @@ If an error occurs in
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">
+   NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">
-   NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">
-   NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
-   NdisMDeregisterMiniportDriver</a>
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
 
 
 
@@ -267,7 +265,8 @@ If an error occurs in
 
 
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
+   NdisMDeregisterMiniportDriver</a>
 
 
 

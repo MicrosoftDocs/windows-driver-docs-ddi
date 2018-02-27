@@ -4,11 +4,11 @@ title: USBD_CreateConfigurationRequestEx function
 author: windows-driver-content
 description: The USBD_CreateConfigurationRequestEx routine allocates and formats a URB to select a configuration for a USB device.USBD_CreateConfigurationRequestEx replaces USBD_CreateConfigurationRequest.
 old-location: buses\usbd_createconfigurationrequestex.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 9683b171-4f2e-4a18-89b7-76d49001be37
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: USBD_CreateConfigurationRequestEx routine [Buses], USBD_CreateConfigurationRequestEx, usbdlib/USBD_CreateConfigurationRequestEx, buses.usbd_createconfigurationrequestex, usbfunc_d0c1e002-ed01-4bd4-98f0-b4b2d6da2ca6.xml
+ms.date: 2/24/2018
+ms.keywords: USBD_CreateConfigurationRequestEx, USBD_CreateConfigurationRequestEx routine [Buses], buses.usbd_createconfigurationrequestex, usbdlib/USBD_CreateConfigurationRequestEx, usbfunc_d0c1e002-ed01-4bd4-98f0-b4b2d6da2ca6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,7 +102,7 @@ The returned value is a pointer to the <a href="..\usb\ns-usb-_urb.md">URB</a> s
 
 After the USB driver stack completes the select-configuration request, you can inspect the  <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structures.  The <b>Pipes</b> member of <b>USBD_INTERFACE_INFORMATION</b> points to an array of <a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a> structures. The USB bus driver fills the array of <b>USBD_PIPE_INFORMATION</b> structures with information about the  pipes associated with the endpoints of the interface. The client driver can obtain pipe handles from the <code>Pipes[i].PipeHandle</code> and use them to send I/O requests to specific pipes. 
 
-After you have completed all operations with the returned <a href="..\usb\ns-usb-_urb.md">URB</a>, you must free the <b>URB</b> by calling <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>. 
+After you have completed all operations with the returned <a href="..\usb\ns-usb-_urb.md">URB</a>, you must free the <b>URB</b> by calling <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. 
 
 You can  allocate the configuration descriptor and the array from nonpaged or paged pool. Callers of this routine can run at IRQL &lt;= DISPATCH_LEVEL if the memory pointed to by <i>ConfigurationDescriptor</i> and <i>InterfaceList</i> is allocated from nonpaged pool. Otherwise, callers must run at IRQL &lt; DISPATCH_LEVEL.
 
@@ -111,11 +111,11 @@ You can  allocate the configuration descriptor and the array from nonpaged or pa
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_select_configuration.md">_URB_SELECT_CONFIGURATION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/gg615081">How to Select a Configuration for a USB Device</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_select_configuration.md">_URB_SELECT_CONFIGURATION</a>
 
 
 
@@ -131,5 +131,5 @@ You can  allocate the configuration descriptor and the array from nonpaged or pa
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USBD_CreateConfigurationRequestEx routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_CreateConfigurationRequestEx routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

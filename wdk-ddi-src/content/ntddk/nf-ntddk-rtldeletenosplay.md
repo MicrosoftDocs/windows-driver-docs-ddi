@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 09d8096a-71f9-4e9d-a66b-282424394b76
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rtlref_def5bfa8-367a-410e-8e3c-fdbf11cce05e.xml, RtlDeleteNoSplay routine [Installable File System Drivers], RtlDeleteNoSplay, ifsk.rtldeletenosplay, ntddk/RtlDeleteNoSplay
+ms.keywords: RtlDeleteNoSplay, RtlDeleteNoSplay routine [Installable File System Drivers], ifsk.rtldeletenosplay, ntddk/RtlDeleteNoSplay, rtlref_def5bfa8-367a-410e-8e3c-fdbf11cce05e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlDeleteNoSplay
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlDeleteNoSplay function
@@ -102,6 +102,14 @@ Callers of <b>RtlDeleteNoSplay</b> must be running at IRQL &lt;= DISPATCH_LEVEL 
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-rtldelete.md">RtlDelete</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
 
 
@@ -111,14 +119,6 @@ Callers of <b>RtlDeleteNoSplay</b> must be running at IRQL &lt;= DISPATCH_LEVEL 
 
 
 <a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtldelete.md">RtlDelete</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
 
 
 

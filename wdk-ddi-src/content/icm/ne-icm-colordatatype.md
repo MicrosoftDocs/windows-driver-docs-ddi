@@ -7,8 +7,8 @@ old-location: print\colordatatype.htm
 old-project: print
 ms.assetid: ff7c9a81-3445-4a9e-aee3-2c63aafb0c82
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: icm/COLOR_FLOAT, print.colordatatype, *PCOLORDATATYPE, icm/COLOR_FLOAT16, icm/COLOR_S2DOT13FIXED, COLORDATATYPE enumeration [Print Devices], COLOR_BYTE, icm/COLORDATATYPE, COLOR_10b_R10G10B10A2_XR, COLORDATATYPE, COLOR_WORD, COLOR_10b_R10G10B10A2, icm/COLOR_10b_R10G10B10A2_XR, COLOR_S2DOT13FIXED, colorfnc_6619f1aa-d905-47ef-bd39-2fe34446e831.xml, COLOR_FLOAT16, COLOR_FLOAT, icm/COLOR_WORD, icm/COLOR_BYTE, icm/COLOR_10b_R10G10B10A2
+ms.date: 2/23/2018
+ms.keywords: "*PCOLORDATATYPE, COLORDATATYPE, COLORDATATYPE enumeration [Print Devices], COLOR_10b_R10G10B10A2, COLOR_10b_R10G10B10A2_XR, COLOR_BYTE, COLOR_FLOAT, COLOR_FLOAT16, COLOR_S2DOT13FIXED, COLOR_WORD, colorfnc_6619f1aa-d905-47ef-bd39-2fe34446e831.xml, icm/COLORDATATYPE, icm/COLOR_10b_R10G10B10A2, icm/COLOR_10b_R10G10B10A2_XR, icm/COLOR_BYTE, icm/COLOR_FLOAT, icm/COLOR_FLOAT16, icm/COLOR_S2DOT13FIXED, icm/COLOR_WORD, print.colordatatype"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

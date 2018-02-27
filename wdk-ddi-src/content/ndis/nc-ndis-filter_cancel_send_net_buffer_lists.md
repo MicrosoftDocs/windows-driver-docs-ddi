@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 55979b0d-61a6-43da-8fa5-11159b1a48d1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.filtercancelsendnetbufferlists, FilterCancelSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], FilterCancelSendNetBufferLists, FILTER_CANCEL_SEND_NET_BUFFER_LISTS, FILTER_CANCEL_SEND_NET_BUFFER_LISTS, ndis/FilterCancelSendNetBufferLists, (*FILTER_CANCEL_SEND_HANDLER) callback function [Network Drivers Starting with Windows Vista], (*FILTER_CANCEL_SEND_HANDLER), filter_functions_ref_4538f981-3e2c-496b-bbea-e85baf122257.xml
+ms.keywords: "(*FILTER_CANCEL_SEND_HANDLER), (*FILTER_CANCEL_SEND_HANDLER) callback function [Network Drivers Starting with Windows Vista], FILTER_CANCEL_SEND_NET_BUFFER_LISTS, FilterCancelSendNetBufferLists, FilterCancelSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_4538f981-3e2c-496b-bbea-e85baf122257.xml, ndis/FilterCancelSendNetBufferLists, netvista.filtercancelsendnetbufferlists"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	(*FILTER_CANCEL_SEND_HANDLER)
 product: Windows
 targetos: Windows
-req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
+req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
 
 # FILTER_CANCEL_SEND_NET_BUFFER_LISTS callback
@@ -207,23 +207,16 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
-   NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</a>
-
-
-
-
-
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+   NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</a>
 
 
 
@@ -236,14 +229,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
-
-
-
-
-
-<a href="..\ndis\nf-ndis-ndisfsendnetbufferlistscomplete.md">
-   NdisFSendNetBufferListsComplete</a>
 
 
 

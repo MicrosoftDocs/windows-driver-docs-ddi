@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0a15a8c9-74af-4d93-bd12-a3c81c177684
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.filterattach, FilterAttach callback function [Network Drivers Starting with Windows Vista], FilterAttach, FILTER_ATTACH, FILTER_ATTACH, ndis/FilterAttach, filter_functions_ref_1e3f64d6-a779-4732-824a-87af6a7adc25.xml
+ms.keywords: FILTER_ATTACH, FilterAttach, FilterAttach callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_1e3f64d6-a779-4732-824a-87af6a7adc25.xml, ndis/FilterAttach, netvista.filterattach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -268,15 +268,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
+<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 
 
@@ -284,7 +280,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
 
 
 

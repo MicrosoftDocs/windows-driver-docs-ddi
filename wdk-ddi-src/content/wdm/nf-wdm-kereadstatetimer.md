@@ -7,8 +7,8 @@ old-location: kernel\kereadstatetimer.htm
 old-project: kernel
 ms.assetid: 0f7fc534-4a81-42e0-a3e6-8b91baa28b55
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: KeReadStateTimer routine [Kernel-Mode Driver Architecture], wdm/KeReadStateTimer, k105_8e101501-f419-40ff-91cd-a8aee0ffcbc8.xml, KeReadStateTimer, kernel.kereadstatetimer
+ms.date: 2/24/2018
+ms.keywords: KeReadStateTimer, KeReadStateTimer routine [Kernel-Mode Driver Architecture], k105_8e101501-f419-40ff-91cd-a8aee0ffcbc8.xml, kernel.kereadstatetimer, wdm/KeReadStateTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,15 +99,11 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 
 
+<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
+
+
+
 <a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
 
 
 
@@ -115,9 +111,13 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 
 
- 
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeReadStateTimer routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeReadStateTimer routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

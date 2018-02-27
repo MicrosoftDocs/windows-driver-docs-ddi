@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b060bd22-113f-4f78-8763-d1d19cf198b8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rxcebuildvc, RxCeBuildVC, RxCeBuildVC function [Installable File System Drivers], rxref_4f4f58c7-5970-4a86-883e-359e92bddaa3.xml, rxce/RxCeBuildVC
+ms.keywords: RxCeBuildVC, RxCeBuildVC function [Installable File System Drivers], ifsk.rxcebuildvc, rxce/RxCeBuildVC, rxref_4f4f58c7-5970-4a86-883e-359e92bddaa3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

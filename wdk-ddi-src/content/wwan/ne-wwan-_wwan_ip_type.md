@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E4CE7BE7-021A-4C9A-B467-B63AACEC1266
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wwan/WwanIPTypeIPv4, netvista.wwan_ip_type, wwan/WwanIPTypeIPv6, wwan/WwanIPTypeIpv4v6, WWAN_IP_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanIPTypeIPv6, _WWAN_IP_TYPE, *PWWAN_IP_TYPE, wwan/WWAN_IP_TYPE, WwanIPTypeIpv4v6, WwanIPTypeDefault, WwanIPTypeIPv4, wwan/WwanIPTypeDefault, WWAN_IP_TYPE
+ms.keywords: "*PWWAN_IP_TYPE, WWAN_IP_TYPE, WWAN_IP_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanIPTypeDefault, WwanIPTypeIPv4, WwanIPTypeIPv6, WwanIPTypeIpv4v6, _WWAN_IP_TYPE, netvista.wwan_ip_type, wwan/WWAN_IP_TYPE, wwan/WwanIPTypeDefault, wwan/WwanIPTypeIPv4, wwan/WwanIPTypeIPv6, wwan/WwanIPTypeIpv4v6"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_IP_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_IP_TYPE, WWAN_IP_TYPE"
+req.typenames: WWAN_IP_TYPE, *PWWAN_IP_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -98,11 +98,11 @@ IPv4 with IPv6
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_context_state.md">WWAN_CONTEXT_STATE</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_context_state.md">WWAN_CONTEXT_STATE</a>
 
 
 

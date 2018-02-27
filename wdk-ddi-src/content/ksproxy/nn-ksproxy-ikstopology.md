@@ -7,8 +7,8 @@ old-location: stream\ikstopology.htm
 old-project: stream
 ms.assetid: 418a415c-b4db-41a1-825e-66704c45e134
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ikstopology, IKsTopology interface [Streaming Media Devices], IKsTopology interface [Streaming Media Devices], described, IKsTopology, ksproxy/IKsTopology, ksproxy_521e5b73-c9cc-4cb2-acf5-746e470678cd.xml
+ms.date: 2/23/2018
+ms.keywords: IKsTopology, IKsTopology interface [Streaming Media Devices], IKsTopology interface [Streaming Media Devices], described, ksproxy/IKsTopology, ksproxy_521e5b73-c9cc-4cb2-acf5-746e470678cd.xml, stream.ikstopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -52,6 +52,13 @@ req.typenames: PIPE_STATE
 The <b>IKsTopology</b> interface provides a method that opens topology node objects contained within a filter.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsTopology</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IKsTopology</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IKsTopology</b> interface has these methods.
@@ -69,9 +76,7 @@ Requests a KS filter object to open a topology node object.
 
 </td>
 </tr>
-</table>Requests a KS filter object to open a topology node object.
-
- 
+</table> 
 
 
 ## -remarks

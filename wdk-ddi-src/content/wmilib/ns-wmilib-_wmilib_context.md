@@ -7,8 +7,8 @@ old-location: kernel\wmilib_context.htm
 old-project: kernel
 ms.assetid: c9319f35-9745-47c4-a98d-4321e0d39f86
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: wmilib/WMILIB_CONTEXT, WMILIB_CONTEXT, WMILIB_CONTEXT structure [Kernel-Mode Driver Architecture], kernel.wmilib_context, PWMILIB_CONTEXT structure pointer [Kernel-Mode Driver Architecture], PWMILIB_CONTEXT, *PWMILIB_CONTEXT, wmilib/PWMILIB_CONTEXT, kstruct_d_b6452306-8092-4c47-aacf-c3ccd558d1f5.xml, _WMILIB_CONTEXT
+ms.date: 2/24/2018
+ms.keywords: "*PWMILIB_CONTEXT, PWMILIB_CONTEXT, PWMILIB_CONTEXT structure pointer [Kernel-Mode Driver Architecture], WMILIB_CONTEXT, WMILIB_CONTEXT structure [Kernel-Mode Driver Architecture], _WMILIB_CONTEXT, kernel.wmilib_context, kstruct_d_b6452306-8092-4c47-aacf-c3ccd558d1f5.xml, wmilib/PWMILIB_CONTEXT, wmilib/WMILIB_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WMILIB_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: "*PWMILIB_CONTEXT, WMILIB_CONTEXT"
+req.typenames: WMILIB_CONTEXT, *PWMILIB_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -130,6 +130,22 @@ Memory for this structure can be allocated from paged pool.
 
 ## -see-also
 
+<a href="..\wmilib\nc-wmilib-wmi_execute_method_callback.md">DpWmiExecuteMethod</a>
+
+
+
+<a href="..\wmilib\nc-wmilib-wmi_set_datablock_callback.md">DpWmiSetDataBlock</a>
+
+
+
+<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
+
+
+
+<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
+
+
+
 <a href="..\wmilib\ns-wmilib-_wmiguidreginfo.md">WMIGUIDREGINFO</a>
 
 
@@ -138,7 +154,7 @@ Memory for this structure can be allocated from paged pool.
 
 
 
-<a href="..\wmilib\nc-wmilib-wmi_execute_method_callback.md">DpWmiExecuteMethod</a>
+<a href="..\wmilib\nc-wmilib-wmi_query_datablock_callback.md">DpWmiQueryDataBlock</a>
 
 
 
@@ -146,25 +162,9 @@ Memory for this structure can be allocated from paged pool.
 
 
 
-<a href="..\wmilib\nc-wmilib-wmi_set_datablock_callback.md">DpWmiSetDataBlock</a>
-
-
-
-<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
-
-
-
-<a href="..\wmilib\nc-wmilib-wmi_query_datablock_callback.md">DpWmiQueryDataBlock</a>
-
-
-
-<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WMILIB_CONTEXT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WMILIB_CONTEXT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

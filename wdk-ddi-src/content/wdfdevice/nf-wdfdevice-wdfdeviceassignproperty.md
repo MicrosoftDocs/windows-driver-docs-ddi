@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5110C452-53E6-401A-9D14-EBD95D3F8BE2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfdevice/WdfDeviceAssignProperty, wdf.wdfdeviceassignproperty, WdfDeviceAssignProperty method, WdfDeviceAssignProperty
+ms.keywords: WdfDeviceAssignProperty, WdfDeviceAssignProperty method, wdf.wdfdeviceassignproperty, wdfdevice/WdfDeviceAssignProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

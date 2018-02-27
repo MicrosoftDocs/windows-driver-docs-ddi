@@ -7,8 +7,8 @@ old-location: hid\hid_xfer_packet.htm
 old-project: hid
 ms.assetid: b256e6fd-d44f-482a-836d-a812634b4b3a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: hidclass/HID_XFER_PACKET, _HID_XFER_PACKET, PHID_XFER_PACKET structure pointer [Human Input Devices], HID_XFER_PACKET structure [Human Input Devices], HID_XFER_PACKET, hid.hid_xfer_packet, hidstrct_55f22385-a5ed-46b5-9f97-9d47ee731145.xml, PHID_XFER_PACKET, *PHID_XFER_PACKET, hidclass/PHID_XFER_PACKET
+ms.date: 2/24/2018
+ms.keywords: "*PHID_XFER_PACKET, HID_XFER_PACKET, HID_XFER_PACKET structure [Human Input Devices], PHID_XFER_PACKET, PHID_XFER_PACKET structure pointer [Human Input Devices], _HID_XFER_PACKET, hid.hid_xfer_packet, hidclass/HID_XFER_PACKET, hidclass/PHID_XFER_PACKET, hidstrct_55f22385-a5ed-46b5-9f97-9d47ee731145.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,14 +96,6 @@ The HID class driver uses this structure to specify information about a HID repo
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
-
-
-
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
-
-
-
 <a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
 
 
@@ -112,9 +104,17 @@ The HID class driver uses this structure to specify information about a HID repo
 
 
 
- 
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HID_XFER_PACKET structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HID_XFER_PACKET structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

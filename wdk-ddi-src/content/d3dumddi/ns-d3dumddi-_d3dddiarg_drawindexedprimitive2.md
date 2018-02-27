@@ -7,8 +7,8 @@ old-location: display\d3dddiarg_drawindexedprimitive2.htm
 old-project: display
 ms.assetid: 91bf3d1d-5be2-4790-9e6d-07db5eed4f06
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DDDIARG_DRAWINDEXEDPRIMITIVE2 structure [Display Devices], display.d3dddiarg_drawindexedprimitive2, d3dumddi/D3DDDIARG_DRAWINDEXEDPRIMITIVE2, _D3DDDIARG_DRAWINDEXEDPRIMITIVE2, D3DDDIARG_DRAWINDEXEDPRIMITIVE2, UMDisplayDriver_param_Structs_464c958b-5ca2-4e21-9d1f-a7c32cb49295.xml
+ms.date: 2/24/2018
+ms.keywords: D3DDDIARG_DRAWINDEXEDPRIMITIVE2, D3DDDIARG_DRAWINDEXEDPRIMITIVE2 structure [Display Devices], UMDisplayDriver_param_Structs_464c958b-5ca2-4e21-9d1f-a7c32cb49295.xml, _D3DDDIARG_DRAWINDEXEDPRIMITIVE2, d3dumddi/D3DDDIARG_DRAWINDEXEDPRIMITIVE2, display.d3dddiarg_drawindexedprimitive2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -123,5 +123,5 @@ When the runtime specifies triangle-edge flags in the value that is pointed to b
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_DRAWINDEXEDPRIMITIVE2 structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_DRAWINDEXEDPRIMITIVE2 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

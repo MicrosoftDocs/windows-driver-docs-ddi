@@ -7,8 +7,8 @@ old-location: kernel\rtlulongtouchar.htm
 old-project: kernel
 ms.assetid: 4958FB4E-D049-40EB-A6CA-973DCF7F397B
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RtlULongToUChar function [Kernel-Mode Driver Architecture], kernel.rtlulongtouchar, RtlULongToUChar, ntintsafe/RtlULongToUChar
+ms.date: 2/24/2018
+ms.keywords: RtlULongToUChar, RtlULongToUChar function [Kernel-Mode Driver Architecture], kernel.rtlulongtouchar, ntintsafe/RtlULongToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

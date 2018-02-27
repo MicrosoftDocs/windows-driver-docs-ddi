@@ -7,8 +7,8 @@ old-location: print\oemcommand.htm
 old-project: print
 ms.assetid: 67f75696-dee4-43ec-90fd-96fd1a91ec16
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: OEMCommand function [Print Devices], OEMCommand, printoem/OEMCommand, print_obsoletefunctions_f6d1a0f9-6560-4e4c-9826-c2714b7c1ad3.xml, print.oemcommand
+ms.date: 2/23/2018
+ms.keywords: OEMCommand, OEMCommand function [Print Devices], print.oemcommand, print_obsoletefunctions_f6d1a0f9-6560-4e4c-9826-c2714b7c1ad3.xml, printoem/OEMCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

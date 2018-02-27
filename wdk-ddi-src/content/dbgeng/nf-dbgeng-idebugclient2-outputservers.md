@@ -4,11 +4,11 @@ title: IDebugClient2::OutputServers method
 author: windows-driver-content
 description: The OutputServers method lists the servers running on a given computer.
 old-location: debugger\outputservers.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: cb08e0d9-8c4b-4b7f-be3d-4e7c87d7f3d4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: dbgeng/IDebugClient2::OutputServers, IDebugClient_8fecfb37-5e4d-4a2b-af1e-df081e636337.xml, debugger.outputservers, dbgeng/IDebugClient3::OutputServers, IDebugClient3 interface [Windows Debugging], OutputServers method, OutputServers method [Windows Debugging], IDebugClient2 interface [Windows Debugging], OutputServers method, IDebugClient5::OutputServers, IDebugClient4::OutputServers, IDebugClient3::OutputServers, IDebugClient4 interface [Windows Debugging], OutputServers method, OutputServers method [Windows Debugging], IDebugClient4 interface, IDebugClient, OutputServers method [Windows Debugging], IDebugClient2 interface, OutputServers method [Windows Debugging], IDebugClient3 interface, OutputServers, dbgeng/IDebugClient5::OutputServers, dbgeng/IDebugClient4::OutputServers, IDebugClient2::OutputServers, OutputServers method [Windows Debugging], IDebugClient interface, IDebugClient5 interface [Windows Debugging], OutputServers method, IDebugClient2, dbgeng/IDebugClient::OutputServers, IDebugClient::OutputServers, OutputServers method [Windows Debugging], IDebugClient5 interface, IDebugClient interface [Windows Debugging], OutputServers method
+ms.date: 2/23/2018
+ms.keywords: IDebugClient interface [Windows Debugging], OutputServers method, IDebugClient2, IDebugClient2 interface [Windows Debugging], OutputServers method, IDebugClient2::OutputServers, IDebugClient3 interface [Windows Debugging], OutputServers method, IDebugClient3::OutputServers, IDebugClient4 interface [Windows Debugging], OutputServers method, IDebugClient4::OutputServers, IDebugClient5 interface [Windows Debugging], OutputServers method, IDebugClient5::OutputServers, IDebugClient::OutputServers, IDebugClient_8fecfb37-5e4d-4a2b-af1e-df081e636337.xml, OutputServers method [Windows Debugging], OutputServers method [Windows Debugging], IDebugClient interface, OutputServers method [Windows Debugging], IDebugClient2 interface, OutputServers method [Windows Debugging], IDebugClient3 interface, OutputServers method [Windows Debugging], IDebugClient4 interface, OutputServers method [Windows Debugging], IDebugClient5 interface, OutputServers,IDebugClient2.OutputServers, dbgeng/IDebugClient2::OutputServers, dbgeng/IDebugClient3::OutputServers, dbgeng/IDebugClient4::OutputServers, dbgeng/IDebugClient5::OutputServers, dbgeng/IDebugClient::OutputServers, debugger.outputservers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -165,19 +165,23 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558813">StartServer</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
@@ -189,15 +193,11 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
 
 
 
@@ -205,5 +205,5 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient::OutputServers method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::OutputServers method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

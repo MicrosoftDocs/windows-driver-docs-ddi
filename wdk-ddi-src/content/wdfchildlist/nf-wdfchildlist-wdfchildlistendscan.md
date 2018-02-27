@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 73891793-e59f-4c67-af93-07929d7c7326
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfchildlist/WdfChildListEndScan, WdfChildListEndScan, wdf.wdfchildlistendscan, WdfChildListEndScan method, DFDeviceObjectChildListRef_ffd03c13-6074-4679-bb87-b2c028fc8ded.xml, kmdf.wdfchildlistendscan
+ms.keywords: DFDeviceObjectChildListRef_ffd03c13-6074-4679-bb87-b2c028fc8ded.xml, WdfChildListEndScan, WdfChildListEndScan method, kmdf.wdfchildlistendscan, wdf.wdfchildlistendscan, wdfchildlist/WdfChildListEndScan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,11 +111,11 @@ For a code example that uses <b>WdfChildListEndScan</b>, see <a href="..\wdfchil
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiteration.md">WdfChildListBeginIteration</a>
-
-
-
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>
+
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistenditeration.md">WdfChildListEndIteration</a>
 
 
 

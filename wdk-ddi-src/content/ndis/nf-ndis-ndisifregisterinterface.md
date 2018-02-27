@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisIfRegisterInterface, NdisIfRegisterInterface, NdisIfRegisterInterface function [Network Drivers Starting with Windows Vista], netvista.ndisifregisterinterface, net_if_functions_ref_baca325c-667d-4472-9c91-dbc8fd41d033.xml
+ms.keywords: NdisIfRegisterInterface, NdisIfRegisterInterface function [Network Drivers Starting with Windows Vista], ndis/NdisIfRegisterInterface, net_if_functions_ref_baca325c-667d-4472-9c91-dbc8fd41d033.xml, netvista.ndisifregisterinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisIfRegisterInterface
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisIfRegisterInterface function
@@ -235,6 +235,18 @@ To indicate that an interface should be removed from the list of known interface
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_if_information.md">NET_IF_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisifderegisterinterface.md">NdisIfDeregisterInterface</a>
 
 
@@ -243,19 +255,7 @@ To indicate that an interface should be removed from the list of known interface
 
 
 
-<a href="..\ndis\ns-ndis-_net_if_information.md">NET_IF_INFORMATION</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisifregisterprovider.md">NdisIfRegisterProvider</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 

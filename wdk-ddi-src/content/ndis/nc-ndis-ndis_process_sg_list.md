@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5b99e0ec-7c82-46d6-b32a-246b368cf4f1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.netprocesssglist, NetProcessSGList callback function [Network Drivers Starting with Windows Vista], NetProcessSGList, NDIS_PROCESS_SG_LIST, NDIS_PROCESS_SG_LIST, ndis/NetProcessSGList, ndis_shared_memory_ref_0c3e2851-6897-4997-a974-2a108e1e5ee9.xml
+ms.keywords: NDIS_PROCESS_SG_LIST, NetProcessSGList, NetProcessSGList callback function [Network Drivers Starting with Windows Vista], ndis/NetProcessSGList, ndis_shared_memory_ref_0c3e2851-6897-4997-a974-2a108e1e5ee9.xml, netvista.netprocesssglist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -130,15 +130,15 @@ The driver specified the entry point (NDIS_PROCESS_SG_LIST_HANDLER) for
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">NdisBuildScatterGatherList</a>
-
-
-
 <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">NdisBuildScatterGatherList</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

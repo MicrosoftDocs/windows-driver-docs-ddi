@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 735C613E-BEAA-4E95-AF9D-A94A4BD940DE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_IRB_REQ_ASYNC_LOCK, IRB_REQ_ASYNC_LOCK, IEEE.irb_req_async_lock, IRB_REQ_ASYNC_LOCK structure [Buses], 1394/IRB_REQ_ASYNC_LOCK"
+ms.keywords: 1394/IRB_REQ_ASYNC_LOCK, IEEE.irb_req_async_lock, IRB_REQ_ASYNC_LOCK, IRB_REQ_ASYNC_LOCK structure [Buses], _IRB_REQ_ASYNC_LOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 83e8389f-1960-4fe0-9a33-526311ecba82
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltApiRef_p_to_z_17d1087d-2a25-4c72-aed4-9246b4610b8b.xml, FltSendMessage, ifsk.fltsendmessage, FltSendMessage function [Installable File System Drivers], fltkernel/FltSendMessage
+ms.keywords: FltApiRef_p_to_z_17d1087d-2a25-4c72-aed4-9246b4610b8b.xml, FltSendMessage, FltSendMessage function [Installable File System Drivers], fltkernel/FltSendMessage, ifsk.fltsendmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -221,15 +221,15 @@ If <i>Timeout</i> is zero when the minifilter driver is waiting for the reply, t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541513">FilterSendMessage</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541513">FilterSendMessage</a>
 
 
 

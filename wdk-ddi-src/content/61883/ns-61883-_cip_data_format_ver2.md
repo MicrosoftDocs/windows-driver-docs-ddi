@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: C78543F5-82CC-43CF-8769-1E721C17FF9C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 61883/PCIP_DATA_FORMAT_VER2, PCIP_DATA_FORMAT_VER2, CIP_DATA_FORMAT_VER2 structure [Buses], 61883/CIP_DATA_FORMAT_VER2, PCIP_DATA_FORMAT_VER2 structure pointer [Buses], CIP_DATA_FORMAT_VER2, *PCIP_DATA_FORMAT, CIP_DATA_FORMAT, *PCIP_DATA_FORMAT_VER2, _CIP_DATA_FORMAT_VER2, IEEE.cip_data_format_ver2
+ms.keywords: "*PCIP_DATA_FORMAT, *PCIP_DATA_FORMAT_VER2, 61883/CIP_DATA_FORMAT_VER2, 61883/PCIP_DATA_FORMAT_VER2, CIP_DATA_FORMAT, CIP_DATA_FORMAT_VER2, CIP_DATA_FORMAT_VER2 structure [Buses], IEEE.cip_data_format_ver2, PCIP_DATA_FORMAT_VER2, PCIP_DATA_FORMAT_VER2 structure pointer [Buses], _CIP_DATA_FORMAT_VER2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CIP_DATA_FORMAT_VER2
 product: Windows
 targetos: Windows
-req.typenames: "*PCIP_DATA_FORMAT_VER2, CIP_DATA_FORMAT_VER2"
+req.typenames: CIP_DATA_FORMAT_VER2, *PCIP_DATA_FORMAT_VER2
 ---
 
 # _CIP_DATA_FORMAT_VER2 structure

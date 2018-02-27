@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d4579703-0d51-4e23-b458-b2be43951dac
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/RtlValidSid, rtlref_8d79344c-bb78-433f-be34-84e314b232a0.xml, RtlValidSid, RtlValidSid routine [Installable File System Drivers], ifsk.rtlvalidsid
+ms.keywords: RtlValidSid, RtlValidSid routine [Installable File System Drivers], ifsk.rtlvalidsid, ntifs/RtlValidSid, rtlref_8d79344c-bb78-433f-be34-84e314b232a0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,7 +93,7 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
+<a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
 
 
 
@@ -101,11 +101,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-rtllengthrequiredsid.md">RtlLengthRequiredSid</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a>
+<a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
 
 
 
@@ -113,11 +109,15 @@ For more information about security and access control, see the documentation on
 
 
 
+<a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
+<a href="..\ntifs\nf-ntifs-rtllengthrequiredsid.md">RtlLengthRequiredSid</a>
 
 
 

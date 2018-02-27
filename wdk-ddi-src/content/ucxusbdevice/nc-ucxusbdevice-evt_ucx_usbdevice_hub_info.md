@@ -4,11 +4,11 @@ title: EVT_UCX_USBDEVICE_HUB_INFO
 author: windows-driver-content
 description: The client driver's implementation that UCX calls to retrieve hub properties.
 old-location: buses\evt_ucx_usbdevice_hub_info.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 5bf8000d-63d8-4901-b3fc-d3c43cefe37e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_usbdevice_hub_info, EvtUcxUsbDeviceHubInfo callback function [Buses], EvtUcxUsbDeviceHubInfo, EVT_UCX_USBDEVICE_HUB_INFO, EVT_UCX_USBDEVICE_HUB_INFO, ucxusbdevice/EvtUcxUsbDeviceHubInfo, PEVT_UCX_USBDEVICE_HUB_INFO callback function pointer [Buses], PEVT_UCX_USBDEVICE_HUB_INFO
+ms.date: 2/24/2018
+ms.keywords: EVT_UCX_USBDEVICE_HUB_INFO, EvtUcxUsbDeviceHubInfo, EvtUcxUsbDeviceHubInfo callback function [Buses], PEVT_UCX_USBDEVICE_HUB_INFO, PEVT_UCX_USBDEVICE_HUB_INFO callback function pointer [Buses], buses.evt_ucx_usbdevice_hub_info, ucxusbdevice/EvtUcxUsbDeviceHubInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	PEVT_UCX_USBDEVICE_HUB_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_INFO, STREAM_INFO"
+req.typenames: STREAM_INFO, *PSTREAM_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -150,6 +150,10 @@ UsbDevice_EvtUcxUsbDeviceHubInfo(
 
 
 
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_ucx_usbdevice_event_callbacks.md">UCX_USBDEVICE_EVENT_CALLBACKS</a>
+
+
+
 <a href="..\ucxusbdevice\nf-ucxusbdevice-ucx_usbdevice_event_callbacks_init.md">UCX_USBDEVICE_EVENT_CALLBACKS_INIT</a>
 
 
@@ -158,13 +162,9 @@ UsbDevice_EvtUcxUsbDeviceHubInfo(
 
 
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_ucx_usbdevice_event_callbacks.md">UCX_USBDEVICE_EVENT_CALLBACKS</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20EVT_UCX_USBDEVICE_HUB_INFO callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UCX_USBDEVICE_HUB_INFO callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: UfxDeviceProprietaryChargerDetectComplete function
 author: windows-driver-content
 description: Notifies UFX about a detected proprietary port/charger type.
 old-location: buses\ufxdeviceproprietarychargerdetectcomplete.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 5E85D80B-4C0F-4C91-A1B5-565E09FD3743
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: ufxclient/UfxDeviceProprietaryChargerDetectComplete, buses.ufxdeviceproprietarychargerdetectcomplete, UfxDeviceProprietaryChargerDetectComplete method [Buses], UfxDeviceProprietaryChargerDetectComplete
+ms.date: 2/24/2018
+ms.keywords: UfxDeviceProprietaryChargerDetectComplete, UfxDeviceProprietaryChargerDetectComplete method [Buses], buses.ufxdeviceproprietarychargerdetectcomplete, ufxclient/UfxDeviceProprietaryChargerDetectComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxDeviceProprietaryChargerDetectComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

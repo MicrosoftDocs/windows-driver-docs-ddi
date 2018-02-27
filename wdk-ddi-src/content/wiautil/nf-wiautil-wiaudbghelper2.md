@@ -4,11 +4,11 @@ title: wiauDbgHelper2 function
 author: windows-driver-content
 description: The wiauDbgHelper2 function writes a message to a log file, or debugger, or both.
 old-location: image\wiaudbghelper2.htm
-old-project: Image
+old-project: image
 ms.assetid: 577ce93a-5a90-4e85-afc6-3791f402c238
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: image.wiaudbghelper2, wiauFncs_6ccf146a-ec2e-4ca4-827a-dec2f8ea629d.xml, wiauDbgHelper2 function [Imaging Devices], wiautil/wiauDbgHelper2, wiauDbgHelper2
+ms.date: 2/23/2018
+ms.keywords: image.wiaudbghelper2, wiauDbgHelper2, wiauDbgHelper2 function [Imaging Devices], wiauFncs_6ccf146a-ec2e-4ca4-827a-dec2f8ea629d.xml, wiautil/wiauDbgHelper2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,6 +127,22 @@ The <b>wiauDbgHelper2</b> function enables those using it to write <b>printf</b>
 
 ## -see-also
 
+<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
+
+
+
 <a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
 
 
@@ -135,25 +151,9 @@ The <b>wiauDbgHelper2</b> function enables those using it to write <b>printf</b>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
-
-
-
-<a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
-
-
-
-<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
-
-
-
-<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20wiauDbgHelper2 function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiauDbgHelper2 function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

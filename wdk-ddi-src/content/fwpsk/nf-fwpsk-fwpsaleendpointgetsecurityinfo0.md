@@ -157,12 +157,12 @@ An error occurred.
 
 ## -see-also
 
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointsetsecurityinfo0.md">
    FwpsAleEndpointSetSecurityInfo0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
 
 
 

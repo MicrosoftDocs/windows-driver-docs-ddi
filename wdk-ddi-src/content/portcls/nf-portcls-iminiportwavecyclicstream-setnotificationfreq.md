@@ -7,8 +7,8 @@ old-location: audio\iminiportwavecyclicstream_setnotificationfreq.htm
 old-project: audio
 ms.assetid: b909c11c-de56-43e8-b339-b92249bc7e1c
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: portcls/IMiniportWaveCyclicStream::SetNotificationFreq, IMiniportWaveCyclicStream, SetNotificationFreq method [Audio Devices], SetNotificationFreq, IMiniportWaveCyclicStream::SetNotificationFreq, IMiniportWaveCyclicStream interface [Audio Devices], SetNotificationFreq method, audmp-routines_9db148da-326d-4176-a852-83fa1e453246.xml, audio.iminiportwavecyclicstream_setnotificationfreq, SetNotificationFreq method [Audio Devices], IMiniportWaveCyclicStream interface
+ms.date: 2/22/2018
+ms.keywords: IMiniportWaveCyclicStream, IMiniportWaveCyclicStream interface [Audio Devices], SetNotificationFreq method, IMiniportWaveCyclicStream::SetNotificationFreq, SetNotificationFreq method [Audio Devices], SetNotificationFreq method [Audio Devices], IMiniportWaveCyclicStream interface, SetNotificationFreq,IMiniportWaveCyclicStream.SetNotificationFreq, audio.iminiportwavecyclicstream_setnotificationfreq, audmp-routines_9db148da-326d-4176-a852-83fa1e453246.xml, portcls/IMiniportWaveCyclicStream::SetNotificationFreq
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,7 +100,7 @@ In all current Windows releases, the WaveCyclic port driver specifies an <i>Inte
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 
@@ -112,7 +112,7 @@ In all current Windows releases, the WaveCyclic port driver specifies an <i>Inte
 
 
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
 
 
 
@@ -120,5 +120,5 @@ In all current Windows releases, the WaveCyclic port driver specifies an <i>Inte
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveCyclicStream::SetNotificationFreq method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveCyclicStream::SetNotificationFreq method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

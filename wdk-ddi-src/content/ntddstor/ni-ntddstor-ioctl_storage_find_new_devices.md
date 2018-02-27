@@ -7,8 +7,8 @@ old-location: storage\ioctl_storage_find_new_devices.htm
 old-project: storage
 ms.assetid: 359169a3-602d-4910-badf-c777c1a804e7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.ioctl_storage_find_new_devices, IOCTL_STORAGE_FIND_NEW_DEVICES control code [Storage Devices], IOCTL_STORAGE_FIND_NEW_DEVICES, ntddstor/IOCTL_STORAGE_FIND_NEW_DEVICES, k307_2bd9c727-e25a-4c21-9173-af7bc2c830c6.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_STORAGE_FIND_NEW_DEVICES, IOCTL_STORAGE_FIND_NEW_DEVICES control code [Storage Devices], k307_2bd9c727-e25a-4c21-9173-af7bc2c830c6.xml, ntddstor/IOCTL_STORAGE_FIND_NEW_DEVICES, storage.ioctl_storage_find_new_devices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_STORAGE_FIND_NEW_DEVICES
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION"
+req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ---
 
 # IOCTL_STORAGE_FIND_NEW_DEVICES IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*PSTORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

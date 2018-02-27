@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 21a2fa9c-24c1-4964-aaa7-96ac86b8c078
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfIoTargetCreate, wdfiotarget/WdfIoTargetCreate, wdf.wdfiotargetcreate, kmdf.wdfiotargetcreate, DFIOTargetRef_3de8d750-e0e1-4a74-8e2b-977a27db024f.xml, WdfIoTargetCreate method
+ms.keywords: DFIOTargetRef_3de8d750-e0e1-4a74-8e2b-977a27db024f.xml, WdfIoTargetCreate, WdfIoTargetCreate method, kmdf.wdfiotargetcreate, wdf.wdfiotargetcreate, wdfiotarget/WdfIoTargetCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -173,11 +173,11 @@ For a code example that uses <b>WdfIoTargetCreate</b>, see <a href="..\wdfiotarg
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
-
-
-
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: stream\bda_transport_info.htm
 old-project: stream
 ms.assetid: 995a1d2f-8e2b-426e-a08c-283124ce905e
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: bdamedia/PBDA_TRANSPORT_INFO, PBDA_TRANSPORT_INFO, stream.bda_transport_info, BDA_TRANSPORT_INFO structure [Streaming Media Devices], bdaref_3ee17c26-da8b-4d04-87fc-6c9912de349d.xml, tagBDA_TRANSPORT_INFO, BDA_TRANSPORT_INFO, bdamedia/BDA_TRANSPORT_INFO, *PBDA_TRANSPORT_INFO, PBDA_TRANSPORT_INFO structure pointer [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PBDA_TRANSPORT_INFO, BDA_TRANSPORT_INFO, BDA_TRANSPORT_INFO structure [Streaming Media Devices], PBDA_TRANSPORT_INFO, PBDA_TRANSPORT_INFO structure pointer [Streaming Media Devices], bdamedia/BDA_TRANSPORT_INFO, bdamedia/PBDA_TRANSPORT_INFO, bdaref_3ee17c26-da8b-4d04-87fc-6c9912de349d.xml, stream.bda_transport_info, tagBDA_TRANSPORT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BDA_TRANSPORT_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PBDA_TRANSPORT_INFO, BDA_TRANSPORT_INFO"
+req.typenames: BDA_TRANSPORT_INFO, *PBDA_TRANSPORT_INFO
 ---
 
 # tagBDA_TRANSPORT_INFO structure
@@ -103,15 +103,15 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 ## -see-also
 
-<a href="..\bdamedia\ns-bdamedia-tagks_datarange_bda_transport.md">KS_DATARANGE_BDA_TRANSPORT</a>
-
-
-
 <a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
 
 
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+<a href="..\bdamedia\ns-bdamedia-tagks_datarange_bda_transport.md">KS_DATARANGE_BDA_TRANSPORT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 
@@ -119,5 +119,5 @@ Pins of filters specify the data ranges they support to enable stream connection
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BDA_TRANSPORT_INFO structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BDA_TRANSPORT_INFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\dxgkvgpu_escape_head_.htm
 old-project: display
 ms.assetid: BB9D12EB-A1B1-4D7B-A1E4-40A932F62C88
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: DXGKVGPU_ESCAPE_HEAD, _DXGKVGPU_ESCAPE_HEAD, d3dukmdt/DXGKVGPU_ESCAPE_HEAD, DXGKVGPU_ESCAPE_HEAD structure [Display Devices], display.dxgkvgpu_escape_head_
+ms.date: 2/24/2018
+ms.keywords: DXGKVGPU_ESCAPE_HEAD, DXGKVGPU_ESCAPE_HEAD structure [Display Devices], _DXGKVGPU_ESCAPE_HEAD, d3dukmdt/DXGKVGPU_ESCAPE_HEAD, display.dxgkvgpu_escape_head_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

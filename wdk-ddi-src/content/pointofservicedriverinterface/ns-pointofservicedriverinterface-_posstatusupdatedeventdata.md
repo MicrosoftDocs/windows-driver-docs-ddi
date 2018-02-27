@@ -7,8 +7,8 @@ old-location: pos\posstatusupdatedeventdata.htm
 old-project: pos
 ms.assetid: 382e5441-dce1-428b-90af-d57b5f930abb
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: pos.posstatusupdatedeventdata, pointofservicedriverinterface/PosStatusUpdatedEventData, PosStatusUpdatedEventData, PosStatusUpdatedEventData structure, _PosStatusUpdatedEventData
+ms.date: 2/23/2018
+ms.keywords: PosStatusUpdatedEventData, PosStatusUpdatedEventData structure, _PosStatusUpdatedEventData, pointofservicedriverinterface/PosStatusUpdatedEventData, pos.posstatusupdatedeventdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,7 @@ typedef struct _PosStatusUpdatedEventData {
 
 ### -field Header
 
-A <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_poseventdataheader.md">PosEventDataHeader</a> structure that contains information about the event that was raised and the amount of memory, in bytes, that this event data uses.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn772232">PosEventDataHeader</a> structure that contains information about the event that was raised and the amount of memory, in bytes, that this event data uses.
 
 
 ### -field Status

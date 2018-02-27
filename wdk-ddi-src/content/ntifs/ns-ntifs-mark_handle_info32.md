@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: BAC97D72-23C4-49A6-A13D-0F011113DB32
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/PMARK_HANDLE_INFO32, PMARK_HANDLE_INFO32 structure pointer [Installable File System Drivers], PMARK_HANDLE_INFO32, MARK_HANDLE_TXF_SYSTEM_LOG, ifsk.mark_handle_info32, MARK_HANDLE_PROTECT_CLUSTERS, MARK_HANDLE_INFO32, USN_SOURCE_AUXILIARY_DATA, USN_SOURCE_REPLICATION_MANAGEMENT, ntifs/MARK_HANDLE_INFO32, MARK_HANDLE_NOT_TXF_SYSTEM_LOG, MARK_HANDLE_NOT_REALTIME, *PMARK_HANDLE_INFO32, MARK_HANDLE_REALTIME, USN_SOURCE_DATA_MANAGEMENT, MARK_HANDLE_INFO32 structure [Installable File System Drivers]
+ms.keywords: "*PMARK_HANDLE_INFO32, MARK_HANDLE_INFO32, MARK_HANDLE_INFO32 structure [Installable File System Drivers], MARK_HANDLE_NOT_REALTIME, MARK_HANDLE_NOT_TXF_SYSTEM_LOG, MARK_HANDLE_PROTECT_CLUSTERS, MARK_HANDLE_REALTIME, MARK_HANDLE_TXF_SYSTEM_LOG, PMARK_HANDLE_INFO32, PMARK_HANDLE_INFO32 structure pointer [Installable File System Drivers], USN_SOURCE_AUXILIARY_DATA, USN_SOURCE_DATA_MANAGEMENT, USN_SOURCE_REPLICATION_MANAGEMENT, ifsk.mark_handle_info32, ntifs/MARK_HANDLE_INFO32, ntifs/PMARK_HANDLE_INFO32"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MARK_HANDLE_INFO32
 product: Windows
 targetos: Windows
-req.typenames: "*PMARK_HANDLE_INFO32, MARK_HANDLE_INFO32"
+req.typenames: MARK_HANDLE_INFO32, *PMARK_HANDLE_INFO32
 ---
 
 # MARK_HANDLE_INFO32 structure
@@ -325,11 +325,11 @@ When running on a 64-bit system, file system minifilters must interpret the inpu
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/6f736b31-279d-4118-a5e3-ad3c2bea2250">MARK_HANDLE_INFO</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltis32bitprocess.md">FltIs32bitProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/6f736b31-279d-4118-a5e3-ad3c2bea2250">MARK_HANDLE_INFO</a>
 
 
 

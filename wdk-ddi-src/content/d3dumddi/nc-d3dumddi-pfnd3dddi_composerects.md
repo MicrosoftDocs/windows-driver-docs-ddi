@@ -7,8 +7,8 @@ old-location: display\composerects.htm
 old-project: display
 ms.assetid: b6a6b549-7590-4b27-b759-631fa62a76d2
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.composerects, ComposeRects callback function [Display Devices], ComposeRects, PFND3DDDI_COMPOSERECTS, PFND3DDDI_COMPOSERECTS, d3dumddi/ComposeRects, UserModeDisplayDriver_Functions_fca43b4e-1c5d-46b9-a68f-928378ed22a1.xml
+ms.date: 2/24/2018
+ms.keywords: ComposeRects, ComposeRects callback function [Display Devices], PFND3DDDI_COMPOSERECTS, UserModeDisplayDriver_Functions_fca43b4e-1c5d-46b9-a68f-928378ed22a1.xml, d3dumddi/ComposeRects, display.composerects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -202,17 +202,17 @@ The following example code shows an operation that <b>ComposeRects</b> performs:
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_composerects.md">D3DDDIARG_COMPOSERECTS</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
- 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_composerects.md">D3DDDIARG_COMPOSERECTS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_COMPOSERECTS callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_COMPOSERECTS callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

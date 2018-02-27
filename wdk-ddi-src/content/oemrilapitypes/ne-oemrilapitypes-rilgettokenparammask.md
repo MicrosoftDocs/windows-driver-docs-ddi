@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d791b497-3ef3-42f1-a6e6-980992c97f45
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: oemrilapitypes/RIL_PARAM_GETTOKEN_HEADER, oemrilapitypes/RIL_PARAM_GETTOKEN_ALL, oemrilapitypes/RIL_PARAM_GETTOKEN_PROTOCOL_ID, RIL_PARAM_GETTOKEN_ALL, RIL_PARAM_GETTOKEN_HEADER, RILDEVSPECIFICPARAMMASK, netvista.rilgettokenparammask, RILDEVSPECIFICPARAMMASK enumeration [Network Drivers Starting with Windows Vista], oemrilapitypes/RILGETTOKENPARAMMASK, RILGETTOKENPARAMMASK, RIL_PARAM_GETTOKEN_PROTOCOL_ID, RIL_PARAM_GETTOKEN_TIMEOUT, oemrilapitypes/RIL_PARAM_GETTOKEN_TIMEOUT, RILGETTOKENPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RILDEVSPECIFICPARAMMASK, RILDEVSPECIFICPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILGETTOKENPARAMMASK, RILGETTOKENPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_GETTOKEN_ALL, RIL_PARAM_GETTOKEN_HEADER, RIL_PARAM_GETTOKEN_PROTOCOL_ID, RIL_PARAM_GETTOKEN_TIMEOUT, netvista.rilgettokenparammask, oemrilapitypes/RILGETTOKENPARAMMASK, oemrilapitypes/RIL_PARAM_GETTOKEN_ALL, oemrilapitypes/RIL_PARAM_GETTOKEN_HEADER, oemrilapitypes/RIL_PARAM_GETTOKEN_PROTOCOL_ID, oemrilapitypes/RIL_PARAM_GETTOKEN_TIMEOUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

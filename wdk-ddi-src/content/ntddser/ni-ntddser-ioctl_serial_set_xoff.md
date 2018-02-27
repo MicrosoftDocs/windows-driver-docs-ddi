@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: cfddecbd-e225-484f-ba5c-6223a724b414
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.ioctl_serial_set_xoff, IOCTL_SERIAL_SET_XOFF control code [Serial Ports], IOCTL_SERIAL_SET_XOFF, ntddser/IOCTL_SERIAL_SET_XOFF, serref_a2b3591a-cd26-4073-a7ab-af7f2b3f43b6.xml
+ms.keywords: IOCTL_SERIAL_SET_XOFF, IOCTL_SERIAL_SET_XOFF control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_XOFF, serports.ioctl_serial_set_xoff, serref_a2b3591a-cd26-4073-a7ab-af7f2b3f43b6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

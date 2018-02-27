@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: f9c3c289-30b8-4cec-8c38-198d1ba3d8ae
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PPMI_BUDGETING_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], pmi/PPMI_BUDGETING_CONFIGURATION, powermeter.pmi_budgeting_configuration, _PMI_BUDGETING_CONFIGURATION, PMI_BUDGETING_CONFIGURATION, *PPMI_BUDGETING_CONFIGURATION, pmi/PMI_BUDGETING_CONFIGURATION, PowerMeterRef_4f031bae-843f-473d-9f3c-d7caf7a9ef1a.xml, PPMI_BUDGETING_CONFIGURATION, PMI_BUDGETING_CONFIGURATION structure [Power Metering and Budgeting Devices]
+ms.keywords: "*PPMI_BUDGETING_CONFIGURATION, PMI_BUDGETING_CONFIGURATION, PMI_BUDGETING_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_BUDGETING_CONFIGURATION, PPMI_BUDGETING_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_4f031bae-843f-473d-9f3c-d7caf7a9ef1a.xml, _PMI_BUDGETING_CONFIGURATION, pmi/PMI_BUDGETING_CONFIGURATION, pmi/PPMI_BUDGETING_CONFIGURATION, powermeter.pmi_budgeting_configuration"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PMI_BUDGETING_CONFIGURATION
 product: Windows
 targetos: Windows
-req.typenames: "*PPMI_BUDGETING_CONFIGURATION, PMI_BUDGETING_CONFIGURATION"
+req.typenames: PMI_BUDGETING_CONFIGURATION, *PPMI_BUDGETING_CONFIGURATION
 ---
 
 # _PMI_BUDGETING_CONFIGURATION structure
@@ -91,6 +91,10 @@ Unlike other PMI capability or configuration data, the power meter's current bud
 
 
 
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
+
+
+
 <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
 
 
@@ -99,11 +103,7 @@ Unlike other PMI capability or configuration data, the power meter's current bud
 
 
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
-
-
-
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
+<a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a>
 
 
 

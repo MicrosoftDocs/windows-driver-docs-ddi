@@ -7,8 +7,8 @@ old-location: display\d3dddiarg_presentmultiplaneoverlay.htm
 old-project: display
 ms.assetid: 862441ee-8a6e-4ddc-8dba-d3d990f45cfc
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3dumddi/D3DDDIARG_PRESENTMULTIPLANEOVERLAY, D3DDDIARG_PRESENTMULTIPLANEOVERLAY structure [Display Devices], display.d3dddiarg_presentmultiplaneoverlay, D3DDDIARG_PRESENTMULTIPLANEOVERLAY
+ms.date: 2/24/2018
+ms.keywords: D3DDDIARG_PRESENTMULTIPLANEOVERLAY, D3DDDIARG_PRESENTMULTIPLANEOVERLAY structure [Display Devices], d3dumddi/D3DDDIARG_PRESENTMULTIPLANEOVERLAY, display.d3dddiarg_presentmultiplaneoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,10 +106,6 @@ typedef struct D3DDDIARG_PRESENTMULTIPLANEOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_present_multiplane_overlay.md">D3DDDI_PRESENT_MULTIPLANE_OVERLAY</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_presentflags.md">D3DDDI_PRESENTFLAGS</a>
 
 
@@ -118,9 +114,13 @@ typedef struct D3DDDIARG_PRESENTMULTIPLANEOVERLAY {
 
 
 
- 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_present_multiplane_overlay.md">D3DDDI_PRESENT_MULTIPLANE_OVERLAY</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_PRESENTMULTIPLANEOVERLAY structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_PRESENTMULTIPLANEOVERLAY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

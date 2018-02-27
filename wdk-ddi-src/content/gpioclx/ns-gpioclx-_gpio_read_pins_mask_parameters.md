@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 679C9A71-7F39-4344-93D0-6B1332D76CF7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.gpio_read_pins_mask_parameters, gpioclx/PGPIO_READ_PINS_MASK_PARAMETERS, PGPIO_READ_PINS_MASK_PARAMETERS structure pointer [Parallel Ports], *PGPIO_READ_PINS_MASK_PARAMETERS, GPIO_READ_PINS_MASK_PARAMETERS, _GPIO_READ_PINS_MASK_PARAMETERS, PGPIO_READ_PINS_MASK_PARAMETERS, gpioclx/GPIO_READ_PINS_MASK_PARAMETERS, GPIO_READ_PINS_MASK_PARAMETERS structure [Parallel Ports]
+ms.keywords: "*PGPIO_READ_PINS_MASK_PARAMETERS, GPIO.gpio_read_pins_mask_parameters, GPIO_READ_PINS_MASK_PARAMETERS, GPIO_READ_PINS_MASK_PARAMETERS structure [Parallel Ports], PGPIO_READ_PINS_MASK_PARAMETERS, PGPIO_READ_PINS_MASK_PARAMETERS structure pointer [Parallel Ports], _GPIO_READ_PINS_MASK_PARAMETERS, gpioclx/GPIO_READ_PINS_MASK_PARAMETERS, gpioclx/PGPIO_READ_PINS_MASK_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,11 +105,11 @@ The <i>ReadParameters</i> parameter of the <a href="https://msdn.microsoft.com/l
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439406">CLIENT_ReadGpioPinsUsingMask</a>
 
 
 

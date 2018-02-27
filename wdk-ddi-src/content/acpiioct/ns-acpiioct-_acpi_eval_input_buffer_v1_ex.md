@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 3a5d4572-0455-4fd0-aeff-fc99d72433b6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PACPI_EVAL_INPUT_BUFFER_V1_EX, *PACPI_EVAL_INPUT_BUFFER_EX, PACPI_EVAL_INPUT_BUFFER_V1_EX structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_V1_EX, acpiioct/ACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_V1_EX structure [ACPI Devices], *PACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_V1_EX, acpi-meth-eval-ref_13d68b28-6366-40cb-84d0-b6dcb7520c93.xml, acpi.acpi_eval_input_buffer_ex
+ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_EX, *PACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_EX, ACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_V1_EX structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_V1_EX, PACPI_EVAL_INPUT_BUFFER_V1_EX structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_V1_EX, acpi-meth-eval-ref_13d68b28-6366-40cb-84d0-b6dcb7520c93.xml, acpi.acpi_eval_input_buffer_ex, acpiioct/ACPI_EVAL_INPUT_BUFFER_V1_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_V1_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ACPI_EVAL_INPUT_BUFFER_V1_EX
 product: Windows
 targetos: Windows
-req.typenames: ACPI_EVAL_INPUT_BUFFER_V1_EX, *PACPI_EVAL_INPUT_BUFFER_V1_EX, *PACPI_EVAL_INPUT_BUFFER_EX, ACPI_EVAL_INPUT_BUFFER_EX
+req.typenames: ACPI_EVAL_INPUT_BUFFER_V1_EX, *PACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_EX, *PACPI_EVAL_INPUT_BUFFER_EX
 ---
 
 # _ACPI_EVAL_INPUT_BUFFER_V1_EX structure
@@ -105,11 +105,11 @@ For more information about how to use this structure, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method_ex.md">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>
-
-
-
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method_ex.md">IOCTL_ACPI_EVAL_METHOD_EX</a>
+
+
+
+<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method_ex.md">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>
 
 
 

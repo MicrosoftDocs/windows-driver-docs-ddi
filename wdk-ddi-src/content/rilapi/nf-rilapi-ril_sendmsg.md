@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0ae1ed49-af07-4e34-80fa-34a55c973cfb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_SendMsg method [Network Drivers Starting with Windows Vista], RIL_SendMsg, rilapi/RIL_SendMsg, netvista.ril_sendmsg
+ms.keywords: RIL_SendMsg, RIL_SendMsg method [Network Drivers Starting with Windows Vista], netvista.ril_sendmsg, rilapi/RIL_SendMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_SendMsg
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

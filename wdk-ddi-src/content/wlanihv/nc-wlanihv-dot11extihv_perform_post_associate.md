@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a6e9af7d-4c33-4dea-92fe-e2cd8eed6697
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvperformpostassociate, Dot11ExtIhvPerformPostAssociate callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvPerformPostAssociate, DOT11EXTIHV_PERFORM_POST_ASSOCIATE, DOT11EXTIHV_PERFORM_POST_ASSOCIATE, wlanihv/Dot11ExtIhvPerformPostAssociate, Native_802.11_IHV_Ext_ecc5c19e-9fde-48a4-b3a7-6a1f94a20765.xml
+ms.keywords: DOT11EXTIHV_PERFORM_POST_ASSOCIATE, Dot11ExtIhvPerformPostAssociate, Dot11ExtIhvPerformPostAssociate callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_ecc5c19e-9fde-48a4-b3a7-6a1f94a20765.xml, netvista.dot11extihvperformpostassociate, wlanihv/Dot11ExtIhvPerformPostAssociate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvPerformPostAssociate
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -168,7 +168,12 @@ For more information about the post-association operation, see
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
+   NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a>
+
+
+
+<a href="..\wlclient\ns-wlclient-_dot11_port_state.md">DOT11_PORT_STATE</a>
 
 
 
@@ -177,16 +182,11 @@ For more information about the post-association operation, see
 
 
 
-<a href="..\wlclient\ns-wlclient-_dot11_port_state.md">DOT11_PORT_STATE</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
-   NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 

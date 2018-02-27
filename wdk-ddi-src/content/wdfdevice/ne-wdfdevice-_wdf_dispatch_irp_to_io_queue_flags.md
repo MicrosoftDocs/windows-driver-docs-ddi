@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6A205F51-990F-4721-B4C7-B96E944D2A54
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: "_WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS, WDF_DISPATCH_IRP_TO_IO_QUEUE_INVOKE_INCALLERCTX_CALLBACK, WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS, wdfdevice/WDF_DISPATCH_IRP_TO_IO_QUEUE_INVOKE_INCALLERCTX_CALLBACK, wdfdevice/WDF_FORWARD_IRP_TO_IO_QUEUE_FLAGS, wdf.wdf_dispatch_irp_to_io_queue_flags, WDF_FORWARD_IRP_TO_IO_QUEUE_FLAGS enumeration, kmdf.wdf_forward_irp_to_io_queue_options_flags, wdfdevice/WDF_DISPATCH_IRP_TO_IO_QUEUE_NO_FLAGS, WDF_DISPATCH_IRP_TO_IO_QUEUE_NO_FLAGS, WDF_DISPATCH_IRP_TO_IO_QUEUE_PREPROCESSED_IRP, kmdf.wdf_forward_irp_to_io_queue_flags, wdfdevice/WDF_DISPATCH_IRP_TO_IO_QUEUE_PREPROCESSED_IRP, kmdf.wdf_dispatch_irp_to_io_queue_flags, WDF_FORWARD_IRP_TO_IO_QUEUE_FLAGS"
+ms.keywords: WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS, WDF_DISPATCH_IRP_TO_IO_QUEUE_INVOKE_INCALLERCTX_CALLBACK, WDF_DISPATCH_IRP_TO_IO_QUEUE_NO_FLAGS, WDF_DISPATCH_IRP_TO_IO_QUEUE_PREPROCESSED_IRP, WDF_FORWARD_IRP_TO_IO_QUEUE_FLAGS, WDF_FORWARD_IRP_TO_IO_QUEUE_FLAGS enumeration, _WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS, kmdf.wdf_dispatch_irp_to_io_queue_flags, kmdf.wdf_forward_irp_to_io_queue_flags, kmdf.wdf_forward_irp_to_io_queue_options_flags, wdf.wdf_dispatch_irp_to_io_queue_flags, wdfdevice/WDF_DISPATCH_IRP_TO_IO_QUEUE_INVOKE_INCALLERCTX_CALLBACK, wdfdevice/WDF_DISPATCH_IRP_TO_IO_QUEUE_NO_FLAGS, wdfdevice/WDF_DISPATCH_IRP_TO_IO_QUEUE_PREPROCESSED_IRP, wdfdevice/WDF_FORWARD_IRP_TO_IO_QUEUE_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -98,11 +98,11 @@ Specifies that the IRP was preprocessed by the driver's <a href="..\wdfdevice\nc
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue.md">WdfDeviceWdmDispatchIrpToIoQueue</a>
-
-
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess.md">EvtDeviceWdmIrpPreprocess</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue.md">WdfDeviceWdmDispatchIrpToIoQueue</a>
 
 
 

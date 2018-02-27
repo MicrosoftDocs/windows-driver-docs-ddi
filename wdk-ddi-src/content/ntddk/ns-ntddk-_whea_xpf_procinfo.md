@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 90fb54dd-a2df-423c-8dd6-bd99c5ad1de4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PWHEA_XPF_PROCINFO structure pointer [WHEA Drivers and Applications], ntddk/PWHEA_XPF_PROCINFO, WHEA_XPF_PROCINFO structure [WHEA Drivers and Applications], WHEA_XPF_PROCINFO, whearef_adb42f7c-687b-47ef-b3fe-312ef995e5c5.xml, _WHEA_XPF_PROCINFO, whea.whea_xpf_procinfo, PWHEA_XPF_PROCINFO, *PWHEA_XPF_PROCINFO, ntddk/WHEA_XPF_PROCINFO
+ms.keywords: "*PWHEA_XPF_PROCINFO, PWHEA_XPF_PROCINFO, PWHEA_XPF_PROCINFO structure pointer [WHEA Drivers and Applications], WHEA_XPF_PROCINFO, WHEA_XPF_PROCINFO structure [WHEA Drivers and Applications], _WHEA_XPF_PROCINFO, ntddk/PWHEA_XPF_PROCINFO, ntddk/WHEA_XPF_PROCINFO, whea.whea_xpf_procinfo, whearef_adb42f7c-687b-47ef-b3fe-312ef995e5c5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_XPF_PROCINFO
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_XPF_PROCINFO, WHEA_XPF_PROCINFO"
+req.typenames: WHEA_XPF_PROCINFO, *PWHEA_XPF_PROCINFO
 ---
 
 # _WHEA_XPF_PROCINFO structure
@@ -193,7 +193,15 @@ The <a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PR
 
 ## -see-also
 
+<a href="..\ntddk\ns-ntddk-_whea_xpf_cache_check.md">WHEA_XPF_CACHE_CHECK</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_whea_xpf_tlb_check.md">WHEA_XPF_TLB_CHECK</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_xpf_ms_check.md">WHEA_XPF_MS_CHECK</a>
 
 
 
@@ -201,19 +209,11 @@ The <a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PR
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_bus_check.md">WHEA_XPF_BUS_CHECK</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_xpf_cache_check.md">WHEA_XPF_CACHE_CHECK</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_ms_check.md">WHEA_XPF_MS_CHECK</a>
+<a href="..\ntddk\ns-ntddk-_whea_xpf_bus_check.md">WHEA_XPF_BUS_CHECK</a>
 
 
 

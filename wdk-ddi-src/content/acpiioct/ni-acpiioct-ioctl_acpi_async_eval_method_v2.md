@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: B502D754-9768-4AA5-AD94-1E99290DA924
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: acpi.ioctl_acpi_async_eval_method_v2, IOCTL_ACPI_ASYNC_EVAL_METHOD_V2 control code [ACPI Devices], IOCTL_ACPI_ASYNC_EVAL_METHOD_V2, acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_V2
+ms.keywords: IOCTL_ACPI_ASYNC_EVAL_METHOD_V2, IOCTL_ACPI_ASYNC_EVAL_METHOD_V2 control code [ACPI Devices], acpi.ioctl_acpi_async_eval_method_v2, acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_ACPI_ASYNC_EVAL_METHOD_V2
 product: Windows
 targetos: Windows
-req.typenames: "*PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS"
+req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 ---
 
 # IOCTL_ACPI_ASYNC_EVAL_METHOD_V2 IOCTL
@@ -119,7 +119,7 @@ The size, in bytes, of the output buffer.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 

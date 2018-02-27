@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c019f382-1ad3-4b08-a254-ae803e2b6bc6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SdpCreateNodeTree function [Bluetooth Devices], SdpCreateNodeTree, bth_funcs_95027cd6-7f0b-48e1-a574-990754e28e74.xml, bltooth.sdpcreatenodetree, sdplib/SdpCreateNodeTree
+ms.keywords: SdpCreateNodeTree, SdpCreateNodeTree function [Bluetooth Devices], bltooth.sdpcreatenodetree, bth_funcs_95027cd6-7f0b-48e1-a574-990754e28e74.xml, sdplib/SdpCreateNodeTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,7 +100,7 @@ When an SDP tree is no longer needed, the Bluetooth profile driver should destro
     <a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a> function. 
     <b>SdpFreeTree</b> frees the root node and all child nodes that have been attached to it. Individual 
     <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a> structures can be freed by calling the 
-    <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> driver support routine as long as they
+    <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> driver support routine as long as they
     are no longer part of a tree or other list.
 
 Bluetooth profile drivers can obtain a pointer to this function through the BTHDDI_SDP_NODE_INTERFACE
@@ -111,11 +111,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the BTHD
 
 ## -see-also
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_tree_root_node.md">SDP_TREE_ROOT_NODE</a>
+<a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 

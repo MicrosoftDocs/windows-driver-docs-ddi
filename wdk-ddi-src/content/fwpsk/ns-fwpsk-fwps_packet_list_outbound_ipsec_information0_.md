@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 18312157-f41c-474d-9cf4-446d8b189c4d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fwpsk/FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0, netvista.fwps_packet_list_outbound_ipsec_information0, FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 structure [Network Drivers Starting with Windows Vista], wfp_ref_3_struct_3_fwps_P-Z_b5959556-81fe-4c93-9700-2214fee005c5.xml, FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0_, FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0
+ms.keywords: FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0, FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0_, fwpsk/FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0, netvista.fwps_packet_list_outbound_ipsec_information0, wfp_ref_3_struct_3_fwps_P-Z_b5959556-81fe-4c93-9700-2214fee005c5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

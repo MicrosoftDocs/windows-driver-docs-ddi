@@ -7,8 +7,8 @@ old-location: print\ipartimage_setimagecontent.htm
 old-project: print
 ms.assetid: 5d7a59ac-93de-4a41-9313-df189e1f6e36
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: SetImageContent method [Print Devices], filterpipeline/IPartImage::SetImageContent, IPartImage, IPartImage::SetImageContent, SetImageContent method [Print Devices], IPartImage interface, IPartImage interface [Print Devices], SetImageContent method, SetImageContent, filterpipeline_1bbf6da0-f016-486d-a06d-768614fe1d5a.xml, print.ipartimage_setimagecontent
+ms.date: 2/23/2018
+ms.keywords: IPartImage, IPartImage interface [Print Devices], SetImageContent method, IPartImage::SetImageContent, SetImageContent method [Print Devices], SetImageContent method [Print Devices], IPartImage interface, SetImageContent,IPartImage.SetImageContent, filterpipeline/IPartImage::SetImageContent, filterpipeline_1bbf6da0-f016-486d-a06d-768614fe1d5a.xml, print.ipartimage_setimagecontent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

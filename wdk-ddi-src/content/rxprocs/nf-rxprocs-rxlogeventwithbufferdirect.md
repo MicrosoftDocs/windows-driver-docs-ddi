@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 09a7d452-efa1-4846-8077-1f6ce60515e7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rxlogeventwithbufferdirect, rxref_95cd6139-10e2-4cf1-bfd9-51b3d6dd1119.xml, RxLogEventWithBufferDirect function [Installable File System Drivers], RxLogEventWithBufferDirect, rxprocs/RxLogEventWithBufferDirect
+ms.keywords: RxLogEventWithBufferDirect, RxLogEventWithBufferDirect function [Installable File System Drivers], ifsk.rxlogeventwithbufferdirect, rxprocs/RxLogEventWithBufferDirect, rxref_95cd6139-10e2-4cf1-bfd9-51b3d6dd1119.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -138,15 +138,15 @@ The <b>RxLogEventWithAnnotation</b> routine needs to allocate memory in order to
 
 ## -see-also
 
+<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
+
+
+
 <a href="..\rxprocs\nf-rxprocs-rxlogeventwithannotation.md">RxLogEventWithAnnotation</a>
 
 
 
 <a href="..\rxprocs\nf-rxprocs-rxlogeventdirect.md">RxLogEventDirect</a>
-
-
-
-<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
 
 
 

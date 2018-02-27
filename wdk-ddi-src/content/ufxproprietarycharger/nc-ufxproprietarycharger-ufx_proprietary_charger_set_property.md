@@ -4,11 +4,11 @@ title: UFX_PROPRIETARY_CHARGER_SET_PROPERTY
 author: windows-driver-content
 description: The filter driver's implementation to set a configurable property on the charger.
 old-location: buses\ufx_proprietary_charger_set_property.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 504878FA-3234-4BE7-95D9-6CCE08DB4D8A
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.ufx_proprietary_charger_set_property, UfxProprietaryChargerSetProperty callback function [Buses], UfxProprietaryChargerSetProperty, UFX_PROPRIETARY_CHARGER_SET_PROPERTY, UFX_PROPRIETARY_CHARGER_SET_PROPERTY, ufxproprietarycharger/UfxProprietaryChargerSetProperty, PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback function pointer [Buses], PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY
+ms.date: 2/24/2018
+ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY, PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_SET_PROPERTY, UfxProprietaryChargerSetProperty, UfxProprietaryChargerSetProperty callback function [Buses], buses.ufx_proprietary_charger_set_property, ufxproprietarycharger/UfxProprietaryChargerSetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS"
+req.typenames: UFX_ENDPOINT_CALLBACKS, *PUFX_ENDPOINT_CALLBACKS
 req.product: Windows 10 or later.
 ---
 
@@ -114,5 +114,5 @@ In this callback function, the driver sets the specified property value. For exa
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

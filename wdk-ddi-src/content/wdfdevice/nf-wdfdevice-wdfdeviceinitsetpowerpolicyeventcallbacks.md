@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ae74d58c-3b36-4298-aa6f-4c272e7ff61c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfdeviceinitsetpowerpolicyeventcallbacks, WdfDeviceInitSetPowerPolicyEventCallbacks, WdfDeviceInitSetPowerPolicyEventCallbacks method, wdfdevice/WdfDeviceInitSetPowerPolicyEventCallbacks, kmdf.wdfdeviceinitsetpowerpolicyeventcallbacks, DFDeviceObjectGeneralRef_7a73b769-9408-4349-b269-53dff2261d3d.xml
+ms.keywords: DFDeviceObjectGeneralRef_7a73b769-9408-4349-b269-53dff2261d3d.xml, WdfDeviceInitSetPowerPolicyEventCallbacks, WdfDeviceInitSetPowerPolicyEventCallbacks method, kmdf.wdfdeviceinitsetpowerpolicyeventcallbacks, wdf.wdfdeviceinitsetpowerpolicyeventcallbacks, wdfdevice/WdfDeviceInitSetPowerPolicyEventCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

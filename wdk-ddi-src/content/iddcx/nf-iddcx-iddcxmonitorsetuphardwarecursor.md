@@ -7,8 +7,8 @@ old-location: display\iddcxmonitorsetuphardwarecursor.htm
 old-project: display
 ms.assetid: 6182898d-d7c0-4ff2-b222-d83bd00cd1ec
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: iddcx/IddCxMonitorSetupHardwareCursor, IddCxMonitorSetupHardwareCursor, display.iddcxmonitorsetuphardwarecursor, IddCxMonitorSetupHardwareCursor method [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: IddCxMonitorSetupHardwareCursor, IddCxMonitorSetupHardwareCursor method [Display Devices], display.iddcxmonitorsetuphardwarecursor, iddcx/IddCxMonitorSetupHardwareCursor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

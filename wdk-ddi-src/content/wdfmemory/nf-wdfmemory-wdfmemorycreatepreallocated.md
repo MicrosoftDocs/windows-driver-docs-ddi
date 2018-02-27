@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8c4f9abc-f03d-4084-b0ce-34aea5dd7d96
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfmemorycreatepreallocated, WdfMemoryCreatePreallocated method, DFMemoryObjectRef_03f219cd-a77b-4a17-b67a-2b01e0aeb3e6.xml, kmdf.wdfmemorycreatepreallocated, wdfmemory/WdfMemoryCreatePreallocated, WdfMemoryCreatePreallocated
+ms.keywords: DFMemoryObjectRef_03f219cd-a77b-4a17-b67a-2b01e0aeb3e6.xml, WdfMemoryCreatePreallocated, WdfMemoryCreatePreallocated method, kmdf.wdfmemorycreatepreallocated, wdf.wdfmemorycreatepreallocated, wdfmemory/WdfMemoryCreatePreallocated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -199,7 +199,7 @@ status = WdfMemoryCreatePreallocated(
 
 ## -see-also
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatefromlookaside.md">WdfMemoryCreateFromLookaside</a>
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
 
 
 
@@ -207,11 +207,11 @@ status = WdfMemoryCreatePreallocated(
 
 
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatefromlookaside.md">WdfMemoryCreateFromLookaside</a>
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -219,7 +219,7 @@ status = WdfMemoryCreatePreallocated(
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 

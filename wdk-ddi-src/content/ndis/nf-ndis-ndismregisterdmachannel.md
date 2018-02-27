@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 32e92f77-8f45-408b-a284-c00d3b5bd1b4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMRegisterDmaChannel function [Network Drivers Starting with Windows Vista], dma_ref_c0361623-95c8-4218-b848-8da949f22033.xml, netvista.ndismregisterdmachannel, ndis/NdisMRegisterDmaChannel, NdisMRegisterDmaChannel
+ms.keywords: NdisMRegisterDmaChannel, NdisMRegisterDmaChannel function [Network Drivers Starting with Windows Vista], dma_ref_c0361623-95c8-4218-b848-8da949f22033.xml, ndis/NdisMRegisterDmaChannel, netvista.ndismregisterdmachannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMRegisterDmaChannel
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMRegisterDmaChannel function
@@ -294,11 +294,11 @@ If the driver successfully registers the DMA channel, it must later call the
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

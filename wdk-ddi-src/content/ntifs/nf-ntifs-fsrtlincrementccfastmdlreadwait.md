@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a3a811dc-1dbf-4656-b7ec-bad818f6d1f1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlIncrementCcFastMdlReadWait routine [Installable File System Drivers], FsRtlIncrementCcFastMdlReadWait, ifsk.fsrtlincrementccfastmdlreadwait, fsrtlref_6ab13976-a131-41bf-970c-f2a554d87d92.xml, ntifs/FsRtlIncrementCcFastMdlReadWait
+ms.keywords: FsRtlIncrementCcFastMdlReadWait, FsRtlIncrementCcFastMdlReadWait routine [Installable File System Drivers], fsrtlref_6ab13976-a131-41bf-970c-f2a554d87d92.xml, ifsk.fsrtlincrementccfastmdlreadwait, ntifs/FsRtlIncrementCcFastMdlReadWait
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,7 +90,7 @@ File system drivers should call this function to update the <b>CcFastMdlReadWait
 
 The counter is only used to record fast I/O MDL read operations for a nonzero length.  <b>FsRtlIncrementCcFastMdlReadWait</b> should not be called for a zero-length fast I/O MDL read.
 
-File system drivers should not increment the <b>CcFastMdlReadWait</b> performance counter if their fast I/O MDL read handler returns <b>FALSE</b> due to <a href="..\ntifs\nf-ntifs-iogettoplevelirp.md">IoGetTopLevelIrp</a> returning a non-<b>NULL</b> value.  The counter should only be incremented if the file system driver actually attempts to satisfy a nonzero-length fast I/O MDL read.
+File system drivers should not increment the <b>CcFastMdlReadWait</b> performance counter if their fast I/O MDL read handler returns <b>FALSE</b> due to <a href="..\wdm\nf-wdm-iogettoplevelirp.md">IoGetTopLevelIrp</a> returning a non-<b>NULL</b> value.  The counter should only be incremented if the file system driver actually attempts to satisfy a nonzero-length fast I/O MDL read.
 
 
 
@@ -101,7 +101,7 @@ File system drivers should not increment the <b>CcFastMdlReadWait</b> performanc
 
 
 
-<a href="..\ntifs\nf-ntifs-iogettoplevelirp.md">IoGetTopLevelIrp</a>
+<a href="..\wdm\nf-wdm-iogettoplevelirp.md">IoGetTopLevelIrp</a>
 
 
 

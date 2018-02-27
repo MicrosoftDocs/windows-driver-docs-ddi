@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 76BC179A-7484-433C-8467-B13BA7008B90
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PCMP_GET_PLUG_STATE, _CMP_GET_PLUG_STATE, CMP_GET_PLUG_STATE, PCMP_GET_PLUG_STATE structure pointer [Buses], CMP_GET_PLUG_STATE structure [Buses], PCMP_GET_PLUG_STATE, IEEE.cmp_get_plug_state, 61883/CMP_GET_PLUG_STATE, 61883/PCMP_GET_PLUG_STATE"
+ms.keywords: "*PCMP_GET_PLUG_STATE, 61883/CMP_GET_PLUG_STATE, 61883/PCMP_GET_PLUG_STATE, CMP_GET_PLUG_STATE, CMP_GET_PLUG_STATE structure [Buses], IEEE.cmp_get_plug_state, PCMP_GET_PLUG_STATE, PCMP_GET_PLUG_STATE structure pointer [Buses], _CMP_GET_PLUG_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CMP_GET_PLUG_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PCMP_GET_PLUG_STATE, CMP_GET_PLUG_STATE"
+req.typenames: CMP_GET_PLUG_STATE, *PCMP_GET_PLUG_STATE
 ---
 
 # _CMP_GET_PLUG_STATE structure

@@ -7,8 +7,8 @@ old-location: display\pfnsetdisplayprivatedriverformatcb.htm
 old-project: display
 ms.assetid: 499e6de7-67cc-4834-bcec-4f3907b180f7
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.pfnsetdisplayprivatedriverformatcb, pfnSetDisplayPrivateDriverFormatCb callback function [Display Devices], pfnSetDisplayPrivateDriverFormatCb, PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB, PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB, d3dumddi/pfnSetDisplayPrivateDriverFormatCb, D3Druntime_Functions_36bd86e3-96bb-4c68-85a1-a678a54daed4.xml
+ms.date: 2/24/2018
+ms.keywords: D3Druntime_Functions_36bd86e3-96bb-4c68-85a1-a678a54daed4.xml, PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB, d3dumddi/pfnSetDisplayPrivateDriverFormatCb, display.pfnsetdisplayprivatedriverformatcb, pfnSetDisplayPrivateDriverFormatCb, pfnSetDisplayPrivateDriverFormatCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -179,6 +179,10 @@ The user-mode display driver can call <b>pfnSetDisplayPrivateDriverFormatCb</b> 
 
 
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
 
 
@@ -187,13 +191,9 @@ The user-mode display driver can call <b>pfnSetDisplayPrivateDriverFormatCb</b> 
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

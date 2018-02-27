@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: f0955e88-df80-4f53-bc5f-5a38a840aab4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.ioctl_bth_sdp_service_attribute_search, IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH control code [Bluetooth Devices], IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH, bthioctl/IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH, bth_ioctls_73db8572-0986-4ac7-a76c-4cb3777c0660.xml
+ms.keywords: IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH, IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_service_attribute_search, bth_ioctls_73db8572-0986-4ac7-a76c-4cb3777c0660.xml, bthioctl/IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH
 product: Windows
 targetos: Windows
-req.typenames: "*PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1"
+req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ---
 
 # IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -217,16 +217,16 @@ After a profile driver obtains an SDP record, it can use SDP functions to parse 
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_sdp_stream_response.md">BTH_SDP_STREAM_RESPONSE</a>
-
-
-
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
 
 
 
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
+
+
+
+<a href="..\bthioctl\ns-bthioctl-_bth_sdp_stream_response.md">BTH_SDP_STREAM_RESPONSE</a>
 
 
 

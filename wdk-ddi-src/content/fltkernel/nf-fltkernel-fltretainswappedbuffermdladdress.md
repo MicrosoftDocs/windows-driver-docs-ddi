@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 80498410-9617-414d-997c-0d55f891ba3c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fltkernel/FltRetainSwappedBufferMdlAddress, ifsk.fltretainswappedbuffermdladdress, FltRetainSwappedBufferMdlAddress, FltRetainSwappedBufferMdlAddress function [Installable File System Drivers], FltApiRef_p_to_z_3832baaa-37bc-47cc-9df4-12c92fd0ddd8.xml
+ms.keywords: FltApiRef_p_to_z_3832baaa-37bc-47cc-9df4-12c92fd0ddd8.xml, FltRetainSwappedBufferMdlAddress, FltRetainSwappedBufferMdlAddress function [Installable File System Drivers], fltkernel/FltRetainSwappedBufferMdlAddress, ifsk.fltretainswappedbuffermdladdress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,7 +98,7 @@ After calling <b>FltRetainSwappedBufferMdlAddress</b>, the caller is responsible
 
 ## -see-also
 
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
 
 
 
@@ -106,15 +106,15 @@ After calling <b>FltRetainSwappedBufferMdlAddress</b>, the caller is responsible
 
 
 
-<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
-
-
-
-<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltdecodeparameters.md">FltDecodeParameters</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
 
 
 

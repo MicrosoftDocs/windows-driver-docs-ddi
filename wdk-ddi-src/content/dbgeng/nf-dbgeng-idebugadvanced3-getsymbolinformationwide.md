@@ -4,11 +4,11 @@ title: IDebugAdvanced3::GetSymbolInformationWide method
 author: windows-driver-content
 description: The SetSymbolInformationWide method returns specified information about a symbol.
 old-location: debugger\getsymbolinformationwide.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 8fa6a00d-ad4e-47e2-bffe-4d9d70846fd6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformationWide method, dbgeng/IDebugAdvanced3::GetSymbolInformationWide, IDebugAdvanced3, GetSymbolInformationWide method [Windows Debugging], GetSymbolInformationWide, IDebugAdvanced3::GetSymbolInformationWide, debugger.getsymbolinformationwide, GetSymbolInformationWide method [Windows Debugging], IDebugAdvanced3 interface
+ms.date: 2/23/2018
+ms.keywords: GetSymbolInformationWide method [Windows Debugging], GetSymbolInformationWide method [Windows Debugging], IDebugAdvanced3 interface, GetSymbolInformationWide,IDebugAdvanced3.GetSymbolInformationWide, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformationWide method, IDebugAdvanced3::GetSymbolInformationWide, dbgeng/IDebugAdvanced3::GetSymbolInformationWide, debugger.getsymbolinformationwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

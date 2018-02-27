@@ -7,8 +7,8 @@ old-location: kernel\kesetcoalescabletimer.htm
 old-project: kernel
 ms.assetid: e053c120-8c43-4714-acf1-0648958eabb8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: wdm/KeSetCoalescableTimer, k105_3e45ae54-682d-47f6-a577-28277cee4829.xml, KeSetCoalescableTimer routine [Kernel-Mode Driver Architecture], KeSetCoalescableTimer, kernel.kesetcoalescabletimer
+ms.date: 2/24/2018
+ms.keywords: KeSetCoalescableTimer, KeSetCoalescableTimer routine [Kernel-Mode Driver Architecture], k105_3e45ae54-682d-47f6-a577-28277cee4829.xml, kernel.kesetcoalescabletimer, wdm/KeSetCoalescableTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,7 +140,7 @@ If the <i>Dpc</i> parameter is non-<b>NULL</b>, the routine creates an associati
 
 Only one instance of a particular DPC object can be in the system DPC queue at a time. To avoid potential race conditions, avoid passing the same DPC object to both the <b>KeSetCoalescableTimer</b> and <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a> routines.
 
-Avoid changing the importance or the target processor of a DPC that is associated with an active timer. Either cancel the timer or make sure that the timer has expired before you call a routine such as <a href="..\ntddk\nf-ntddk-kesetimportancedpc.md">KeSetImportanceDpc</a> or <a href="..\wdm\nf-wdm-kesettargetprocessordpcex.md">KeSetTargetProcessorDpcEx</a> to change the DPC settings. For example, if a driver updates the target processor of a DPC while a timer enables the DPC to run, the DPC might run on an arbitrary processor.
+Avoid changing the importance or the target processor of a DPC that is associated with an active timer. Either cancel the timer or make sure that the timer has expired before you call a routine such as <a href="..\wdm\nf-wdm-kesetimportancedpc.md">KeSetImportanceDpc</a> or <a href="..\wdm\nf-wdm-kesettargetprocessordpcex.md">KeSetTargetProcessorDpcEx</a> to change the DPC settings. For example, if a driver updates the target processor of a DPC while a timer enables the DPC to run, the DPC might run on an arbitrary processor.
 
 A periodic timer automatically restarts as soon as it expires. Therefore, in a multiprocessor system, the DPC for a periodic timer might be running on two or more processors at the same time.
 
@@ -163,31 +163,11 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keflushqueueddpcs.md">KeFlushQueuedDpcs</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-kesetimportancedpc.md">KeSetImportanceDpc</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554250">KTIMER</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
-
-
-
 <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 
 
@@ -199,7 +179,11 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+<a href="..\wdm\nf-wdm-kesettargetprocessordpcex.md">KeSetTargetProcessorDpcEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 
 
 
@@ -207,13 +191,29 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 
 
+<a href="..\wdm\nf-wdm-keflushqueueddpcs.md">KeFlushQueuedDpcs</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesetimportancedpc.md">KeSetImportanceDpc</a>
+
+
+
 <a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeSetCoalescableTimer routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeSetCoalescableTimer routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

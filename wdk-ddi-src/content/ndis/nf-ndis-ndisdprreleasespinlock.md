@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d6a7af70-6a1e-471b-919f-80a704d25446
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisDprReleaseSpinLock macro [Network Drivers Starting with Windows Vista], ndis_spin_lock_ref_7f9e73b2-9284-4a8c-895e-209a7685fa94.xml, ndis/NdisDprReleaseSpinLock, NdisDprReleaseSpinLock, netvista.ndisdprreleasespinlock
+ms.keywords: NdisDprReleaseSpinLock, NdisDprReleaseSpinLock macro [Network Drivers Starting with Windows Vista], ndis/NdisDprReleaseSpinLock, ndis_spin_lock_ref_7f9e73b2-9284-4a8c-895e-209a7685fa94.xml, netvista.ndisdprreleasespinlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -41,7 +41,7 @@ apiname:
 -	NdisDprReleaseSpinLock
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisDprReleaseSpinLock macro

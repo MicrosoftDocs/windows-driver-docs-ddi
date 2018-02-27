@@ -7,8 +7,8 @@ old-location: smartcrd\scard_reader_capabilities.htm
 old-project: smartcrd
 ms.assetid: f55b74d0-d545-419a-87fb-c320f789aaf4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PSCARD_READER_CAPABILITIES, *PSCARD_READER_CAPABILITIES structure [Smart Card Reader Devices], smclib/SCARD_READER_CAPABILITIES, smclib/*PSCARD_READER_CAPABILITIES, SCARD_READER_CAPABILITIES structure [Smart Card Reader Devices], SCARD_READER_CAPABILITIES, scstruct_bf7b8868-e647-42c5-8e1d-18681db95b08.xml, _SCARD_READER_CAPABILITIES, smartcrd.scard_reader_capabilities"
+ms.date: 2/22/2018
+ms.keywords: "*PSCARD_READER_CAPABILITIES, *PSCARD_READER_CAPABILITIES structure [Smart Card Reader Devices], SCARD_READER_CAPABILITIES, SCARD_READER_CAPABILITIES structure [Smart Card Reader Devices], _SCARD_READER_CAPABILITIES, scstruct_bf7b8868-e647-42c5-8e1d-18681db95b08.xml, smartcrd.scard_reader_capabilities, smclib/*PSCARD_READER_CAPABILITIES, smclib/SCARD_READER_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

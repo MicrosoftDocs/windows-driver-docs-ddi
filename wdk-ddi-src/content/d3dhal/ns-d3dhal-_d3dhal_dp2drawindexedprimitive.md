@@ -7,8 +7,8 @@ old-location: display\d3dhal_dp2drawindexedprimitive.htm
 old-project: display
 ms.assetid: b28290c7-2c02-4422-af7b-4188d6f54b54
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3dstrct_61b06507-bfbe-4733-ac52-03d27bac0a07.xml, LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE structure pointer [Display Devices], d3dhal/D3DHAL_DP2DRAWINDEXEDPRIMITIVE, _D3DHAL_DP2DRAWINDEXEDPRIMITIVE, D3DHAL_DP2DRAWINDEXEDPRIMITIVE, display.d3dhal_dp2drawindexedprimitive, LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE, D3DHAL_DP2DRAWINDEXEDPRIMITIVE structure [Display Devices], *LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE, d3dhal/LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE
+ms.date: 2/24/2018
+ms.keywords: "*LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE, D3DHAL_DP2DRAWINDEXEDPRIMITIVE, D3DHAL_DP2DRAWINDEXEDPRIMITIVE structure [Display Devices], LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE, LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE structure pointer [Display Devices], _D3DHAL_DP2DRAWINDEXEDPRIMITIVE, d3dhal/D3DHAL_DP2DRAWINDEXEDPRIMITIVE, d3dhal/LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE, d3dstrct_61b06507-bfbe-4733-ac52-03d27bac0a07.xml, display.d3dhal_dp2drawindexedprimitive"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -128,10 +128,6 @@ As with vertices, the actual indices to use are not passed with the token data, 
 
 ## -see-also
 
-D3DDP2OP_DRAWINDEXEDPRIMITIVE
-
-
-
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
@@ -144,9 +140,13 @@ D3DDP2OP_DRAWINDEXEDPRIMITIVE
 
 
 
- 
+D3DDP2OP_DRAWINDEXEDPRIMITIVE
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2DRAWINDEXEDPRIMITIVE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2DRAWINDEXEDPRIMITIVE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

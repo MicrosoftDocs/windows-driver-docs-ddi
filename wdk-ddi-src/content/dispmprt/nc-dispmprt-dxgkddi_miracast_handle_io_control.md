@@ -7,8 +7,8 @@ old-location: display\dxgkddimiracastiocontrol.htm
 old-project: display
 ms.assetid: 83E817C3-A30D-4597-A490-C4FB93A78FCE
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgkddimiracastiocontrol, DxgkDdiMiracastIoControl callback function [Display Devices], DxgkDdiMiracastIoControl, DXGKDDI_MIRACAST_HANDLE_IO_CONTROL, DXGKDDI_MIRACAST_HANDLE_IO_CONTROL, dispmprt/DxgkDdiMiracastIoControl
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_MIRACAST_HANDLE_IO_CONTROL, DxgkDdiMiracastIoControl, DxgkDdiMiracastIoControl callback function [Display Devices], display.dxgkddimiracastiocontrol, dispmprt/DxgkDdiMiracastIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -153,15 +153,11 @@ The threading and synchronization level for this function is set by how the user
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-probeforread.md">ProbeForRead</a>
-
-
-
 <a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a>
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>
+<a href="..\wdm\nf-wdm-probeforread.md">ProbeForRead</a>
 
 
 
@@ -169,7 +165,11 @@ The threading and synchronization level for this function is set by how the user
 
 
 
-<a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
@@ -177,5 +177,5 @@ The threading and synchronization level for this function is set by how the user
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_MIRACAST_HANDLE_IO_CONTROL callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_MIRACAST_HANDLE_IO_CONTROL callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

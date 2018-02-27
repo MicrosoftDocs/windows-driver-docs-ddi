@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6db3cdd2-3865-42d7-8b63-3dcacaec5941
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RIL_PARAM_URS_ALL, RIL_PARAM_URS_RECORDTYPE, rilapitypes/RIL_PARAM_URS_RECORDTYPE, RIL_PARAM_URS_ITEMCOUNT, RILUICCRECORDSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_URS_SIZE, RILUICCRECORDSTATUSPARAMMASK, rilapitypes/RIL_PARAM_URS_FILELOCKSTATUS, RIL_PARAM_URS_FILELOCKSTATUS, rilapitypes/RILUICCRECORDSTATUSPARAMMASK, RIL_PARAM_URS_ALL, netvista.riluiccrecordstatusparammask, rilapitypes/RIL_PARAM_URS_ITEMCOUNT, rilapitypes/RIL_PARAM_URS_SIZE
+ms.keywords: RILUICCRECORDSTATUSPARAMMASK, RILUICCRECORDSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_URS_ALL, RIL_PARAM_URS_FILELOCKSTATUS, RIL_PARAM_URS_ITEMCOUNT, RIL_PARAM_URS_RECORDTYPE, RIL_PARAM_URS_SIZE, netvista.riluiccrecordstatusparammask, rilapitypes/RILUICCRECORDSTATUSPARAMMASK, rilapitypes/RIL_PARAM_URS_ALL, rilapitypes/RIL_PARAM_URS_FILELOCKSTATUS, rilapitypes/RIL_PARAM_URS_ITEMCOUNT, rilapitypes/RIL_PARAM_URS_RECORDTYPE, rilapitypes/RIL_PARAM_URS_SIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

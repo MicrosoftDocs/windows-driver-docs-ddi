@@ -7,8 +7,8 @@ old-location: display\dxgk_set_timing_path_info.htm
 old-project: display
 ms.assetid: 23B42F75-6313-430F-8CD3-EBAAE87C7815
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3dkmddi/PDXGK_SET_TIMING_PATH_INFO, DXGK_SET_TIMING_PATH_INFO structure [Display Devices], display.dxgk_set_timing_path_info, PDXGK_SET_TIMING_PATH_INFO structure pointer [Display Devices], DXGK_SET_TIMING_PATH_INFO, _DXGK_SET_TIMING_PATH_INFO, PDXGK_SET_TIMING_PATH_INFO, d3dkmddi/DXGK_SET_TIMING_PATH_INFO
+ms.date: 2/24/2018
+ms.keywords: DXGK_SET_TIMING_PATH_INFO, DXGK_SET_TIMING_PATH_INFO structure [Display Devices], PDXGK_SET_TIMING_PATH_INFO, PDXGK_SET_TIMING_PATH_INFO structure pointer [Display Devices], _DXGK_SET_TIMING_PATH_INFO, d3dkmddi/DXGK_SET_TIMING_PATH_INFO, d3dkmddi/PDXGK_SET_TIMING_PATH_INFO, display.dxgk_set_timing_path_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -187,6 +187,18 @@ A DXGK_GLITCH_DURATION value which indicates approximately how long the glitch l
 This value is reserved for system use.
 
 
+#### - DiagnosticInfo
+
+Set of information filled out by the driver for each path to describe any side-effects of the timing change.
+In many cases, glitches are inevitable so these fields attempt to understand the underlying cause and the extent of user impact.
+
+
+
+#### - InputFlags
+
+A set of flags specifying what the OS wants the driver to do.
+
+
 #### - OutputColorSpace
 
 A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a> value which describes the output color space intended for the transported pixels.  The driver is responsible for sending appropriate metadata to ensure the display device is set up to interpret pixels correctly for this color space. 
@@ -207,19 +219,7 @@ Given that there are no plans to support ST.2084 gamma with Rec.709 primaries, o
 
 
 
-#### - InputFlags
-
-A set of flags specifying what the OS wants the driver to do.
-
-
 #### - OutputFlags
 
 A set of flags specifying outcomes the OS needs to be aware of relating to this path.
-
-
-#### - DiagnosticInfo
-
-Set of information filled out by the driver for each path to describe any side-effects of the timing change.
-In many cases, glitches are inevitable so these fields attempt to understand the underlying cause and the extent of user impact.
-
 

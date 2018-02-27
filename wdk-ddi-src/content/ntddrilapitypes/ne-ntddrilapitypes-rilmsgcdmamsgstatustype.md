@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 60365fd7-3897-4948-a251-098e5a91c959
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RIL_MSGSTATUSTYPE_DELIVERYACK, ntddrilapitypes/RIL_MSGSTATUSTYPE_MAX, RIL_MSGSTATUSTYPE_USERACK, RILMSGCDMAMSGSTATUSTYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGSTATUSTYPE_USERACK, RIL_MSGSTATUSTYPE_DELIVERYACK, RILMSGCDMAMSGSTATUSTYPE, netvista.rilmsgcdmamsgstatustype, RIL_MSGSTATUSTYPE_MAX, ntddrilapitypes/RILMSGCDMAMSGSTATUSTYPE, ntddrilapitypes/RIL_MSGSTATUSTYPE_READACK, RIL_MSGSTATUSTYPE_READACK
+ms.keywords: RILMSGCDMAMSGSTATUSTYPE, RILMSGCDMAMSGSTATUSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGSTATUSTYPE_DELIVERYACK, RIL_MSGSTATUSTYPE_MAX, RIL_MSGSTATUSTYPE_READACK, RIL_MSGSTATUSTYPE_USERACK, netvista.rilmsgcdmamsgstatustype, ntddrilapitypes/RILMSGCDMAMSGSTATUSTYPE, ntddrilapitypes/RIL_MSGSTATUSTYPE_DELIVERYACK, ntddrilapitypes/RIL_MSGSTATUSTYPE_MAX, ntddrilapitypes/RIL_MSGSTATUSTYPE_READACK, ntddrilapitypes/RIL_MSGSTATUSTYPE_USERACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

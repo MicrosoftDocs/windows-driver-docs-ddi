@@ -7,8 +7,8 @@ old-location: display\d3dddi_createhwqueueflags_.htm
 old-project: display
 ms.assetid: 50318DEC-8EE4-4208-8E7D-E8BFEA4BA06B
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: "_D3DDDI_CREATEHWQUEUEFLAGS, D3DDDI_CREATEHWQUEUEFLAGS structure [Display Devices], display.d3dddi_createhwqueueflags_, d3dukmdt/D3DDDI_CREATEHWQUEUEFLAGS, D3DDDI_CREATEHWQUEUEFLAGS"
+ms.date: 2/24/2018
+ms.keywords: D3DDDI_CREATEHWQUEUEFLAGS, D3DDDI_CREATEHWQUEUEFLAGS structure [Display Devices], _D3DDDI_CREATEHWQUEUEFLAGS, d3dukmdt/D3DDDI_CREATEHWQUEUEFLAGS, display.d3dddi_createhwqueueflags_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

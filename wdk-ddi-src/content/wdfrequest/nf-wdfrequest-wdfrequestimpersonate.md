@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E5267F04-D693-453B-BAD2-C61F89B07F6E
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfrequestimpersonate, WdfRequestImpersonate, wdfrequest/WdfRequestImpersonate, WdfRequestImpersonate method
+ms.keywords: WdfRequestImpersonate, WdfRequestImpersonate method, wdf.wdfrequestimpersonate, wdfrequest/WdfRequestImpersonate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

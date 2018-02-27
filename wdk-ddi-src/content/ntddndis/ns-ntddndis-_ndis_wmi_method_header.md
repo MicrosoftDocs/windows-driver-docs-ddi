@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c39a9438-d3be-4f01-96d5-01c7339a666a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_wmi_method_header, NDIS_WMI_METHOD_HEADER structure [Network Drivers Starting with Windows Vista], ndis_wmi_ref_fa232798-c72c-4823-806a-c8b7cf28001d.xml, _NDIS_WMI_METHOD_HEADER, *PNDIS_WMI_METHOD_HEADER, PNDIS_WMI_METHOD_HEADER structure pointer [Network Drivers Starting with Windows Vista], NDIS_WMI_METHOD_HEADER, ntddndis/PNDIS_WMI_METHOD_HEADER, ntddndis/NDIS_WMI_METHOD_HEADER, PNDIS_WMI_METHOD_HEADER
+ms.keywords: "*PNDIS_WMI_METHOD_HEADER, NDIS_WMI_METHOD_HEADER, NDIS_WMI_METHOD_HEADER structure [Network Drivers Starting with Windows Vista], PNDIS_WMI_METHOD_HEADER, PNDIS_WMI_METHOD_HEADER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WMI_METHOD_HEADER, ndis_wmi_ref_fa232798-c72c-4823-806a-c8b7cf28001d.xml, netvista.ndis_wmi_method_header, ntddndis/NDIS_WMI_METHOD_HEADER, ntddndis/PNDIS_WMI_METHOD_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WMI_METHOD_HEADER
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WMI_METHOD_HEADER, NDIS_WMI_METHOD_HEADER"
+req.typenames: NDIS_WMI_METHOD_HEADER, *PNDIS_WMI_METHOD_HEADER
 ---
 
 # _NDIS_WMI_METHOD_HEADER structure

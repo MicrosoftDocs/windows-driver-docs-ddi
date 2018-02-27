@@ -7,8 +7,8 @@ old-location: kernel\po_fx_core_device.htm
 old-project: kernel
 ms.assetid: 46C16795-412B-48E7-A7E8-E474CEC51849
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PPO_FX_CORE_DEVICE structure pointer [Kernel-Mode Driver Architecture], PO_FX_CORE_DEVICE structure [Kernel-Mode Driver Architecture], pepfx/PO_FX_CORE_DEVICE, pepfx/PPO_FX_CORE_DEVICE, _PO_FX_CORE_DEVICE, PPO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE, kernel.po_fx_core_device, *PPO_FX_CORE_DEVICE
+ms.date: 2/24/2018
+ms.keywords: "*PPO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE structure [Kernel-Mode Driver Architecture], PPO_FX_CORE_DEVICE, PPO_FX_CORE_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PO_FX_CORE_DEVICE, kernel.po_fx_core_device, pepfx/PO_FX_CORE_DEVICE, pepfx/PPO_FX_CORE_DEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PO_FX_CORE_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE"
+req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
 ---
 
 # _PO_FX_CORE_DEVICE structure
@@ -129,6 +129,18 @@ For more information about component transitions between the active condition an
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a>
+
+
+
+<a href="..\pepfx\nf-pepfx-pofxregistercoredevice.md">PoFxRegisterCoreDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186630">ComponentCriticalTransitionCallback</a>
 
 
@@ -137,25 +149,13 @@ For more information about component transitions between the active condition an
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
-
-
-
-<a href="..\pepfx\nf-pepfx-pofxregistercoredevice.md">PoFxRegisterCoreDevice</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PO_FX_CORE_DEVICE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PO_FX_CORE_DEVICE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

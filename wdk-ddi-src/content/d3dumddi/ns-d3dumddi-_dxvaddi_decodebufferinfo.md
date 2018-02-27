@@ -7,8 +7,8 @@ old-location: display\dxvaddi_decodebufferinfo.htm
 old-project: display
 ms.assetid: e0a0ad31-86c1-44bd-b069-70442973a539
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: DXVADDI_DECODEBUFFERINFO structure [Display Devices], DXVA2_Structs_b076dffc-bfe0-4141-a075-9349b69af16c.xml, display.dxvaddi_decodebufferinfo, d3dumddi/DXVADDI_DECODEBUFFERINFO, DXVADDI_DECODEBUFFERINFO, _DXVADDI_DECODEBUFFERINFO
+ms.date: 2/24/2018
+ms.keywords: DXVA2_Structs_b076dffc-bfe0-4141-a075-9349b69af16c.xml, DXVADDI_DECODEBUFFERINFO, DXVADDI_DECODEBUFFERINFO structure [Display Devices], _DXVADDI_DECODEBUFFERINFO, d3dumddi/DXVADDI_DECODEBUFFERINFO, display.dxvaddi_decodebufferinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,15 +109,15 @@ A pointer to the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodeinput.md">DXVAD
 
 
 
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodeinput.md">DXVADDI_DECODEINPUT</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodeinput.md">DXVADDI_DECODEINPUT</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodeinput.md">DXVADDI_DECODEINPUT</a>
+<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
 
 
@@ -125,5 +125,5 @@ A pointer to the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodeinput.md">DXVAD
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_DECODEBUFFERINFO structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_DECODEBUFFERINFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\videoportgetromimage.htm
 old-project: display
 ms.assetid: e4930661-fb88-458b-9460-129ab057e0f4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: VideoPort_Functions_070e50af-a33d-4dc5-9bd1-9f60367f49b2.xml, VideoPortGetRomImage, display.videoportgetromimage, VideoPortGetRomImage function [Display Devices], video/VideoPortGetRomImage
+ms.date: 2/24/2018
+ms.keywords: VideoPortGetRomImage, VideoPortGetRomImage function [Display Devices], VideoPort_Functions_070e50af-a33d-4dc5-9bd1-9f60367f49b2.xml, display.videoportgetromimage, video/VideoPortGetRomImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,5 +127,5 @@ The miniport driver can free the buffer allocated by the video port driver by ca
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortGetRomImage function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortGetRomImage function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

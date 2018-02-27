@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: E7975BAE-4255-4D07-A747-481D210D1244
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: gpioclx/GPIO_MASK_INTERRUPT_PARAMETERS, PGPIO_MASK_INTERRUPT_PARAMETERS, _GPIO_MASK_INTERRUPT_PARAMETERS, GPIO_MASK_INTERRUPT_PARAMETERS structure [Parallel Ports], GPIO_MASK_INTERRUPT_PARAMETERS, gpioclx/PGPIO_MASK_INTERRUPT_PARAMETERS, *PGPIO_MASK_INTERRUPT_PARAMETERS, GPIO.gpio_mask_interrupt_parameters, PGPIO_MASK_INTERRUPT_PARAMETERS structure pointer [Parallel Ports]
+ms.keywords: "*PGPIO_MASK_INTERRUPT_PARAMETERS, GPIO.gpio_mask_interrupt_parameters, GPIO_MASK_INTERRUPT_PARAMETERS, GPIO_MASK_INTERRUPT_PARAMETERS structure [Parallel Ports], PGPIO_MASK_INTERRUPT_PARAMETERS, PGPIO_MASK_INTERRUPT_PARAMETERS structure pointer [Parallel Ports], _GPIO_MASK_INTERRUPT_PARAMETERS, gpioclx/GPIO_MASK_INTERRUPT_PARAMETERS, gpioclx/PGPIO_MASK_INTERRUPT_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,15 +97,15 @@ GPIO controllers that have memory-mapped registers are expected to always succee
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439380">CLIENT_MaskInterrupts</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439380">CLIENT_MaskInterrupts</a>
 
 
 

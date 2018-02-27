@@ -7,8 +7,8 @@ old-location: kernel\obdereferenceobjectdeferdeletewithtag.htm
 old-project: kernel
 ms.assetid: 72f1622f-a364-4d93-9c49-c4c7bcda6488
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: ObDereferenceObjectDeferDeleteWithTag routine [Kernel-Mode Driver Architecture], ObDereferenceObjectDeferDeleteWithTag, k107_c6da92e4-6a70-4f19-bd09-4308964b1e14.xml, wdm/ObDereferenceObjectDeferDeleteWithTag, kernel.obdereferenceobjectdeferdeletewithtag
+ms.date: 2/24/2018
+ms.keywords: ObDereferenceObjectDeferDeleteWithTag, ObDereferenceObjectDeferDeleteWithTag routine [Kernel-Mode Driver Architecture], k107_c6da92e4-6a70-4f19-bd09-4308964b1e14.xml, kernel.obdereferenceobjectdeferdeletewithtag, wdm/ObDereferenceObjectDeferDeleteWithTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,10 +109,6 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandlewithtag.md">ObReferenceObjectByHandleWithTag</a>
-
-
-
 <a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
 
 
@@ -121,9 +117,13 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 
 
- 
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandlewithtag.md">ObReferenceObjectByHandleWithTag</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ObDereferenceObjectDeferDeleteWithTag routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ObDereferenceObjectDeferDeleteWithTag routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

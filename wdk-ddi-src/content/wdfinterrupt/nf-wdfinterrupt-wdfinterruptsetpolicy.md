@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f61bef13-d9b5-4e6a-8657-995a1fcbf7b1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfinterruptsetpolicy, kmdf.wdfinterruptsetpolicy, WdfInterruptSetPolicy method, WdfInterruptSetPolicy, wdfinterrupt/WdfInterruptSetPolicy, DFInterruptObjectRef_86b7a562-3aee-4c0b-9a68-f98a2b76588f.xml
+ms.keywords: DFInterruptObjectRef_86b7a562-3aee-4c0b-9a68-f98a2b76588f.xml, WdfInterruptSetPolicy, WdfInterruptSetPolicy method, kmdf.wdfinterruptsetpolicy, wdf.wdfinterruptsetpolicy, wdfinterrupt/WdfInterruptSetPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -152,7 +152,7 @@ WdfInterruptSetPolicy(
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetextendedpolicy.md">WdfInterruptSetExtendedPolicy</a>
 
 
 
@@ -160,7 +160,7 @@ WdfInterruptSetPolicy(
 
 
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetextendedpolicy.md">WdfInterruptSetExtendedPolicy</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

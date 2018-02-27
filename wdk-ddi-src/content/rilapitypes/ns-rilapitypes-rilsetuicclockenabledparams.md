@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c29aa1f0-d274-4782-9b56-31a84e2686e4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RILSETUICCLOCKENABLEDPARAMS, netvista.rilsetuicclockenabledparams_2, RILSETUICCLOCKENABLEDPARAMS, RILSETUICCLOCKENABLEDPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSETUICCLOCKENABLEDPARAMS
+ms.keywords: "*LPRILSETUICCLOCKENABLEDPARAMS, RILSETUICCLOCKENABLEDPARAMS, RILSETUICCLOCKENABLEDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetuicclockenabledparams_2, rilapitypes/RILSETUICCLOCKENABLEDPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSETUICCLOCKENABLEDPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILSETUICCLOCKENABLEDPARAMS, RILSETUICCLOCKENABLEDPARAMS"
+req.typenames: RILSETUICCLOCKENABLEDPARAMS, *LPRILSETUICCLOCKENABLEDPARAMS
 req.product: Windows 10 or later.
 ---
 

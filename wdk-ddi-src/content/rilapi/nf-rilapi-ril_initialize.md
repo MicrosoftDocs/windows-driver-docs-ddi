@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7287281b-8c7b-4842-b312-1fff130a5de6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ril_initialize, rilapi/RIL_Initialize, RIL_Initialize method [Network Drivers Starting with Windows Vista], RIL_Initialize
+ms.keywords: RIL_Initialize, RIL_Initialize method [Network Drivers Starting with Windows Vista], netvista.ril_initialize, rilapi/RIL_Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_Initialize
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

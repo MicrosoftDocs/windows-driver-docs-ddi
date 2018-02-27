@@ -4,11 +4,11 @@ title: IDebugEventCallbacks::LoadModule method
 author: windows-driver-content
 description: The LoadModule callback method is called by the engine when a module-load debugging event occurs in the target.
 old-location: debugger\idebugeventcallbacks_loadmodule.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: f4efcbf3-f78a-4e0e-9741-4f9b68814e5b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: dbgeng/IDebugEventCallbacks::LoadModule, LoadModule method [Windows Debugging], IDebugEventCallbacks interface, LoadModule method [Windows Debugging], debugger.idebugeventcallbacks_loadmodule, IDebugEventCallbacks::LoadModule, IDebugEventCallbacks interface [Windows Debugging], LoadModule method, LoadModule, IDebugEventCallbacks, ComCallbacks_3d8f0501-0915-425e-a940-aa5f41bad734.xml
+ms.date: 2/23/2018
+ms.keywords: ComCallbacks_3d8f0501-0915-425e-a940-aa5f41bad734.xml, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], LoadModule method, IDebugEventCallbacks::LoadModule, LoadModule method [Windows Debugging], LoadModule method [Windows Debugging], IDebugEventCallbacks interface, LoadModule,IDebugEventCallbacks.LoadModule, dbgeng/IDebugEventCallbacks::LoadModule, debugger.idebugeventcallbacks_loadmodule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

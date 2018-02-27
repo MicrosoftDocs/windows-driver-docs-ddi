@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_calcprivateprotectedresourcesessionsize_0030.h
 old-project: display
 ms.assetid: 3D677BE9-32D7-4EA4-988F-83A64CFA3FFC
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.pfnd3d12ddi_calcprivateprotectedresourcesessionsize_0030, PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0030 entry point [Display Devices], PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0030, d3d12umddi/PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0030
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0030, PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0030 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0030, display.pfnd3d12ddi_calcprivateprotectedresourcesessionsize_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

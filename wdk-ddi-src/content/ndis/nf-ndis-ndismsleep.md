@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5b6c3fc5-4220-4a4b-9412-8bfc8141ea90
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisMSleep, NdisMSleep function [Network Drivers Starting with Windows Vista], ndis_delay_ref_81af917a-626a-493f-97ed-c4ce48999b12.xml, netvista.ndismsleep, NdisMSleep
+ms.keywords: NdisMSleep, NdisMSleep function [Network Drivers Starting with Windows Vista], ndis/NdisMSleep, ndis_delay_ref_81af917a-626a-493f-97ed-c4ce48999b12.xml, netvista.ndismsleep
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMSleep
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMSleep function
@@ -124,11 +124,15 @@ Both
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisstallexecution.md">NdisStallExecution</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
 
 
 
@@ -141,10 +145,6 @@ Both
 
 
 <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
-
-
-
-<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
 
 
 

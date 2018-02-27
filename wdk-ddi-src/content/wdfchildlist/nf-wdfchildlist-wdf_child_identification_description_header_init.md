@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5c0d7abf-05e3-45fc-b5a4-db6f79a94a87
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFDeviceObjectChildListRef_dbb576dd-7020-4c96-8f3a-568fd58f6cf5.xml, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT function, wdf.wdf_child_identification_description_header_init, wdfchildlist/WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT, kmdf.wdf_child_identification_description_header_init, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT
+ms.keywords: DFDeviceObjectChildListRef_dbb576dd-7020-4c96-8f3a-568fd58f6cf5.xml, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT function, kmdf.wdf_child_identification_description_header_init, wdf.wdf_child_identification_description_header_init, wdfchildlist/WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

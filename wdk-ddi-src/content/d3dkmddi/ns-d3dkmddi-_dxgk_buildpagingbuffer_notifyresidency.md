@@ -7,8 +7,8 @@ old-location: display\dxgk_buildpagingbuffer_notifyresidency.htm
 old-project: display
 ms.assetid: 0E70F621-03CD-4593-88C7-DF6F2ADC902A
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, display.dxgk_buildpagingbuffer_notifyresidency, DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY structure [Display Devices], d3dkmddi/DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, _DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY
+ms.date: 2/24/2018
+ms.keywords: DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, d3dkmddi/DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, display.dxgk_buildpagingbuffer_notifyresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,14 +82,14 @@ The kernel mode driver handle returned from <a href="..\d3dkmddi\nc-d3dkmddi-dxg
 The physical address of the allocation. The physical address (0, 0) is invalid and is used when the allocation is being evicted.  
 
 
-#### - Resident
-
-Set to 0 when the allocation is evicted and set to 1 when the allocation is committed.
-
-
 #### - Reserved
 
 This member is not used and should be set to zero.
+
+
+#### - Resident
+
+Set to 0 when the allocation is evicted and set to 1 when the allocation is committed.
 
 
 ## -remarks
@@ -123,5 +123,5 @@ Note that the <i>NotifyResidency</i> operation will be issued only once during a
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

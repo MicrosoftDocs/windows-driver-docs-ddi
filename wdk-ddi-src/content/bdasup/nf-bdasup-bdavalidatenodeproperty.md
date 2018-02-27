@@ -7,8 +7,8 @@ old-location: stream\bdavalidatenodeproperty.htm
 old-project: stream
 ms.assetid: e3a6d757-68c5-49d1-92cc-0ebf6ba6bbec
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: BdaValidateNodeProperty, bdaref_a6f1ec2f-9e23-4cbb-a3dc-fab0d2c5ca1c.xml, stream.bdavalidatenodeproperty, BdaValidateNodeProperty function [Streaming Media Devices], bdasup/BdaValidateNodeProperty
+ms.date: 2/23/2018
+ms.keywords: BdaValidateNodeProperty, BdaValidateNodeProperty function [Streaming Media Devices], bdaref_a6f1ec2f-9e23-4cbb-a3dc-fab0d2c5ca1c.xml, bdasup/BdaValidateNodeProperty, stream.bdavalidatenodeproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	BdaValidateNodeProperty
 product: Windows
 targetos: Windows
-req.typenames: "*PKSP_BDA_NODE_PIN, KSP_BDA_NODE_PIN"
+req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 ---
 
 # BdaValidateNodeProperty function
@@ -88,7 +88,7 @@ Points to the IRP for the request to validate that the current pin controls the 
 
 #### - pKSProperty [in]
 
-Points to a <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property and request type of the property request.
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
 
 ## -returns
@@ -111,11 +111,7 @@ A pin method in a BDA minidriver calls the <b>BdaValidateNodeProperty</b> functi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564286">KSPROPERTY_BDA_AUTODEMODULATE_START</a>
-
-
-
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566533">KSPROPSETID_BdaAutodemodulate</a>
 
 
 
@@ -123,11 +119,15 @@ A pin method in a BDA minidriver calls the <b>BdaValidateNodeProperty</b> functi
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566542">KSPROPSETID_BdaFrequencyFilter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566533">KSPROPSETID_BdaAutodemodulate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564286">KSPROPERTY_BDA_AUTODEMODULATE_START</a>
 
 
 
@@ -135,5 +135,5 @@ A pin method in a BDA minidriver calls the <b>BdaValidateNodeProperty</b> functi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaValidateNodeProperty function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaValidateNodeProperty function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

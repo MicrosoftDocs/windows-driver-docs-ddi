@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 5861FC4E-9902-4839-9829-B04F6AED61FE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO_WRITE_PINS_MASK_PARAMETERS structure [Parallel Ports], *PGPIO_WRITE_PINS_MASK_PARAMETERS, gpioclx/GPIO_WRITE_PINS_MASK_PARAMETERS, PGPIO_WRITE_PINS_MASK_PARAMETERS, GPIO_WRITE_PINS_MASK_PARAMETERS, PGPIO_WRITE_PINS_MASK_PARAMETERS structure pointer [Parallel Ports], GPIO.gpio_write_pins_mask_parameters, _GPIO_WRITE_PINS_MASK_PARAMETERS, gpioclx/PGPIO_WRITE_PINS_MASK_PARAMETERS
+ms.keywords: "*PGPIO_WRITE_PINS_MASK_PARAMETERS, GPIO.gpio_write_pins_mask_parameters, GPIO_WRITE_PINS_MASK_PARAMETERS, GPIO_WRITE_PINS_MASK_PARAMETERS structure [Parallel Ports], PGPIO_WRITE_PINS_MASK_PARAMETERS, PGPIO_WRITE_PINS_MASK_PARAMETERS structure pointer [Parallel Ports], _GPIO_WRITE_PINS_MASK_PARAMETERS, gpioclx/GPIO_WRITE_PINS_MASK_PARAMETERS, gpioclx/PGPIO_WRITE_PINS_MASK_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GPIO_WRITE_PINS_MASK_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PGPIO_WRITE_PINS_MASK_PARAMETERS, GPIO_WRITE_PINS_MASK_PARAMETERS"
+req.typenames: GPIO_WRITE_PINS_MASK_PARAMETERS, *PGPIO_WRITE_PINS_MASK_PARAMETERS
 ---
 
 # _GPIO_WRITE_PINS_MASK_PARAMETERS structure
@@ -107,15 +107,15 @@ The <i>WriteParameters</i> parameter of the <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439445">CLIENT_WriteGpioPinsUsingMask</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
 

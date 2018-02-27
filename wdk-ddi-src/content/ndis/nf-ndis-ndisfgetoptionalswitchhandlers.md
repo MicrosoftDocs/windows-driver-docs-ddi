@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bf034ecd-5c1b-4117-a7b0-bcca3971386b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisFGetOptionalSwitchHandlers function [Network Drivers Starting with Windows Vista], NdisFGetOptionalSwitchHandlers, netvista.ndisfgetoptionalswitchhandlers, ndis/NdisFGetOptionalSwitchHandlers
+ms.keywords: NdisFGetOptionalSwitchHandlers, NdisFGetOptionalSwitchHandlers function [Network Drivers Starting with Windows Vista], ndis/NdisFGetOptionalSwitchHandlers, netvista.ndisfgetoptionalswitchhandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFGetOptionalSwitchHandlers
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFGetOptionalSwitchHandlers function

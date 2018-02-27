@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 79ABCF93-4EC3-49D5-9943-C820B0B8CF66
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: gpioclx/GPIO_DISCONNECT_IO_PINS_PARAMETERS, gpioclx/PGPIO_DISCONNECT_IO_PINS_PARAMETERS, GPIO_DISCONNECT_IO_PINS_PARAMETERS structure [Parallel Ports], GPIO_DISCONNECT_IO_PINS_PARAMETERS, PGPIO_DISCONNECT_IO_PINS_PARAMETERS, GPIO.gpio_disconnect_io_pins_parameters, *PGPIO_DISCONNECT_IO_PINS_PARAMETERS, _GPIO_DISCONNECT_IO_PINS_PARAMETERS, PGPIO_DISCONNECT_IO_PINS_PARAMETERS structure pointer [Parallel Ports]
+ms.keywords: "*PGPIO_DISCONNECT_IO_PINS_PARAMETERS, GPIO.gpio_disconnect_io_pins_parameters, GPIO_DISCONNECT_IO_PINS_PARAMETERS, GPIO_DISCONNECT_IO_PINS_PARAMETERS structure [Parallel Ports], PGPIO_DISCONNECT_IO_PINS_PARAMETERS, PGPIO_DISCONNECT_IO_PINS_PARAMETERS structure pointer [Parallel Ports], _GPIO_DISCONNECT_IO_PINS_PARAMETERS, gpioclx/GPIO_DISCONNECT_IO_PINS_PARAMETERS, gpioclx/PGPIO_DISCONNECT_IO_PINS_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GPIO_DISCONNECT_IO_PINS_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PGPIO_DISCONNECT_IO_PINS_PARAMETERS, GPIO_DISCONNECT_IO_PINS_PARAMETERS"
+req.typenames: GPIO_DISCONNECT_IO_PINS_PARAMETERS, *PGPIO_DISCONNECT_IO_PINS_PARAMETERS
 ---
 
 # _GPIO_DISCONNECT_IO_PINS_PARAMETERS structure
@@ -111,19 +111,19 @@ For example, a peripheral device driver might open a logical connection to a GPI
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439505">GPIO_CONNECT_IO_PINS_MODE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439374">CLIENT_DisconnectIoPins</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439505">GPIO_CONNECT_IO_PINS_MODE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439374">CLIENT_DisconnectIoPins</a>
 
 
 

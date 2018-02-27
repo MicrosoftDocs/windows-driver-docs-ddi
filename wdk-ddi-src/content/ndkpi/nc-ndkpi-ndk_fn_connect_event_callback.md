@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D7009707-7139-4572-A620-C8ACFA6B5665
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_connect_event_callback, NdkConnectEventCallback callback function [Network Drivers Starting with Windows Vista], NdkConnectEventCallback, NDK_FN_CONNECT_EVENT_CALLBACK, NDK_FN_CONNECT_EVENT_CALLBACK, ndkpi/NdkConnectEventCallback
+ms.keywords: NDK_FN_CONNECT_EVENT_CALLBACK, NdkConnectEventCallback, NdkConnectEventCallback callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkConnectEventCallback, netvista.ndk_fn_connect_event_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

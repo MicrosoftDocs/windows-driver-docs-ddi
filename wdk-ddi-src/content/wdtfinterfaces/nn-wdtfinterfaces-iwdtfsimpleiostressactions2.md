@@ -7,8 +7,8 @@ old-location: dtf\iwdtfsimpleiostressactions2.htm
 old-project: dtf
 ms.assetid: d50bf1d1-fa36-4ab1-9173-bdaf2f5a9f28
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfsimpleiostressactions2, IWDTFSimpleIOStressActions2 interface [Windows Device Testing Framework], IWDTFSimpleIOStressActions2 interface [Windows Device Testing Framework], described, IWDTFSimpleIOStressActions2, wdtfinterfaces/IWDTFSimpleIOStressActions2
+ms.date: 2/23/2018
+ms.keywords: IWDTFSimpleIOStressActions2, IWDTFSimpleIOStressActions2 interface [Windows Device Testing Framework], IWDTFSimpleIOStressActions2 interface [Windows Device Testing Framework], described, dtf.iwdtfsimpleiostressactions2, wdtfinterfaces/IWDTFSimpleIOStressActions2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -52,6 +52,13 @@ req.product: Windows 10 or later.
 
 Defines operations for a collection of simple asynchronous I/O functionality tests.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSimpleIOStressActions2</b> interface inherits from <b>IWDTFSimpleIOStressActionsBase2</b>. <b>IWDTFSimpleIOStressActions2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -133,21 +140,5 @@ Waits for the completion of any of the asynchronous events.
 
 </td>
 </tr>
-</table>Continues the I/O.
-
-Asynchronously signals the I/O to continue.
-
-Pauses the I/O.
-
-Opens the device.
-
-Asynchronously signals a start event to occur.
-
-Stops the device.
-
-Asynchronously signals the stop event to occur.
-
-Waits for the completion of any of the asynchronous events.
-
- 
+</table> 
 

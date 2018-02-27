@@ -4,11 +4,11 @@ title: IDebugControl3::SetExpressionSyntax method
 author: windows-driver-content
 description: The SetExpressionSyntax method sets the syntax that the engine will use to evaluate expressions.
 old-location: debugger\setexpressionsyntax.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: ab98312f-0240-498f-992a-b05cbcc64c04
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl3, SetExpressionSyntax method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::SetExpressionSyntax, SetExpressionSyntax method [Windows Debugging], IDebugControl3::SetExpressionSyntax, SetExpressionSyntax, IDebugControl_6f1ebcec-908b-4f00-b9cf-e7a036bc05e5.xml, IDebugControl3 interface [Windows Debugging], SetExpressionSyntax method, debugger.setexpressionsyntax
+ms.date: 2/23/2018
+ms.keywords: IDebugControl3, IDebugControl3 interface [Windows Debugging], SetExpressionSyntax method, IDebugControl3::SetExpressionSyntax, IDebugControl_6f1ebcec-908b-4f00-b9cf-e7a036bc05e5.xml, SetExpressionSyntax method [Windows Debugging], SetExpressionSyntax method [Windows Debugging], IDebugControl3 interface, SetExpressionSyntax,IDebugControl3.SetExpressionSyntax, dbgeng/IDebugControl3::SetExpressionSyntax, debugger.setexpressionsyntax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -133,7 +133,7 @@ After the expression syntax has been changed, the engine sends out notification 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
 
 
 
@@ -141,7 +141,7 @@ After the expression syntax has been changed, the engine sends out notification 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
 
 
@@ -149,5 +149,5 @@ After the expression syntax has been changed, the engine sends out notification 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl3::SetExpressionSyntax method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl3::SetExpressionSyntax method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

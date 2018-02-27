@@ -7,8 +7,8 @@ old-location: stream\ioctl_avc_bus_reset.htm
 old-project: stream
 ms.assetid: 8f87ee5f-74bb-446f-8be3-214cc2c01c1b
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ioctl_avc_bus_reset, IOCTL_AVC_BUS_RESET control code [Streaming Media Devices], IOCTL_AVC_BUS_RESET, avc/IOCTL_AVC_BUS_RESET, avcref_4be76d4b-17fe-4ae6-a078-ebb079499d55.xml
+ms.date: 2/23/2018
+ms.keywords: IOCTL_AVC_BUS_RESET, IOCTL_AVC_BUS_RESET control code [Streaming Media Devices], avc/IOCTL_AVC_BUS_RESET, avcref_4be76d4b-17fe-4ae6-a078-ebb079499d55.xml, stream.ioctl_avc_bus_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: AVC_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -151,6 +151,10 @@ Must be called at IRQL = PASSIVE_LEVEL
 
 
 
+<a href="..\avc\ns-avc-_avc_subunit_addr_spec.md">AVC_SUBUNIT_ADDR_SPEC</a>
+
+
+
 <a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
 
 
@@ -159,13 +163,9 @@ Must be called at IRQL = PASSIVE_LEVEL
 
 
 
-<a href="..\avc\ns-avc-_avc_subunit_addr_spec.md">AVC_SUBUNIT_ADDR_SPEC</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IOCTL_AVC_BUS_RESET control code%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IOCTL_AVC_BUS_RESET control code%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

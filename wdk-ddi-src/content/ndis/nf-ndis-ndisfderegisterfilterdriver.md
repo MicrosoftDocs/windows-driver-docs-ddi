@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f97ecce3-73b9-4c51-b4a4-e114420af2c9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisFDeregisterFilterDriver function [Network Drivers Starting with Windows Vista], ndis/NdisFDeregisterFilterDriver, netvista.ndisfderegisterfilterdriver, NdisFDeregisterFilterDriver, filter_ndis_functions_ref_d158c9c1-1e83-464f-b00a-421b658c8c32.xml
+ms.keywords: NdisFDeregisterFilterDriver, NdisFDeregisterFilterDriver function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_d158c9c1-1e83-464f-b00a-421b658c8c32.xml, ndis/NdisFDeregisterFilterDriver, netvista.ndisfderegisterfilterdriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFDeregisterFilterDriver
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFDeregisterFilterDriver function

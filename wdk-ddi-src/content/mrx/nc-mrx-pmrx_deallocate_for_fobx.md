@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3b33df22-7757-4270-8cb0-59e8f5d5a80a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.mrxdeallocateforfobx, MRxDeallocateForFobx, MRxDeallocateForFobx routine [Installable File System Drivers], MRxDeallocateForFobx, PMRX_DEALLOCATE_FOR_FOBX, PMRX_DEALLOCATE_FOR_FOBX, mrx/MRxDeallocateForFobx, mrxref_2b2fa1f1-19f9-4a9b-9105-7c5946428b88.xml
+ms.keywords: MRxDeallocateForFobx, MRxDeallocateForFobx routine [Installable File System Drivers], PMRX_DEALLOCATE_FOR_FOBX, ifsk.mrxdeallocateforfobx, mrx/MRxDeallocateForFobx, mrxref_2b2fa1f1-19f9-4a9b-9105-7c5946428b88.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -106,15 +106,11 @@ RDBSS ignores the return value from <i>MRxDeallocateForFobx</i>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_extendfile_calldown.md">MRxExtendForCache</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549847">MRxCollapseOpen</a>
 
 
 
@@ -122,7 +118,15 @@ RDBSS ignores the return value from <i>MRxDeallocateForFobx</i>.
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
+<a href="..\mrx\nc-mrx-pmrx_calldown.md">MRxCloseSrvOpen</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_deallocate_for_fobx.md">MRxDeallocateForFobx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
 
 
 
@@ -130,11 +134,15 @@ RDBSS ignores the return value from <i>MRxDeallocateForFobx</i>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
+<a href="..\mrx\nc-mrx-pmrx_forceclosed_calldown.md">MRxForceClosed</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxfinalizenetfobx.md">RxFinalizeNetFOBX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
 
 
 
@@ -150,23 +158,15 @@ RDBSS ignores the return value from <i>MRxDeallocateForFobx</i>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549847">MRxCollapseOpen</a>
+<a href="..\fcb\nf-fcb-rxfinalizenetfobx.md">RxFinalizeNetFOBX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
+<a href="..\mrx\nc-mrx-pmrx_extendfile_calldown.md">MRxExtendForCache</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_forceclosed_calldown.md">MRxForceClosed</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_deallocate_for_fobx.md">MRxDeallocateForFobx</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_calldown.md">MRxCloseSrvOpen</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>
 
 
 

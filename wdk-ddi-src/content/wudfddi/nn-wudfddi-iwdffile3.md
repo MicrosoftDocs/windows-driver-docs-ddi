@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 67F55A00-2DE4-4ECE-8DAF-BBCBB156454E
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdffile3, IWDFFile3 interface, IWDFFile3 interface, described, IWDFFile3, wudfddi/IWDFFile3, umdf.iwdffile3
+ms.keywords: IWDFFile3, IWDFFile3 interface, IWDFFile3 interface, described, umdf.iwdffile3, wdf.iwdffile3, wudfddi/IWDFFile3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 Drivers obtain the <b>IWDFFile3</b> interface by calling <b>IWDFFile::QueryInterface</b>.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFFile3</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdffile2.md">IWDFFile2</a>. <b>IWDFFile3</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDFFile3</b> interface has these methods.
@@ -72,9 +79,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451279">GetIn
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451279">GetInitiatorProcessId</a> method retrieves the initiator process ID associated with an <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface.
-
- 
+</table> 
 
 
 ## -see-also

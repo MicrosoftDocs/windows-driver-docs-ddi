@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 56d35556-1e1b-422f-acbf-f52708fbf7bf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rillocationinfo, RILLOCATIONINFO structure [Network Drivers Starting with Windows Vista], *LPRILLOCATIONINFO, RILLOCATIONINFO, ntddrilapitypes/RILLOCATIONINFO
+ms.keywords: "*LPRILLOCATIONINFO, RILLOCATIONINFO, RILLOCATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rillocationinfo, ntddrilapitypes/RILLOCATIONINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

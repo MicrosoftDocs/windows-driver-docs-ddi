@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 83125C65-021F-4EEE-8819-B73752908DE7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_create_srq, NdkCreateSrq callback function [Network Drivers Starting with Windows Vista], NdkCreateSrq, NDK_FN_CREATE_SRQ, NDK_FN_CREATE_SRQ, ndkpi/NdkCreateSrq
+ms.keywords: NDK_FN_CREATE_SRQ, NdkCreateSrq, NdkCreateSrq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateSrq, netvista.ndk_fn_create_srq
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -111,7 +111,7 @@ A context value that the NDK provider passes back to the <i>NdkSrqNotificationCa
 
 ### -param *Affinity [in, optional]
 
-An affinity mask (<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>) that specifies preferred processors that the consumer would choose to run the <i>NdkSrqNotificationCallback</i> callbacks. Providers should honor the processor preferences if their underlying hardware allows it, but consumers cannot assume that <i>NdkSrqNotificationCallback</i> callbacks will occur only on the preferred processors. Set <i>Affinity</i> to NULL if there are no preferred processors.
+An affinity mask (<a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a>) that specifies preferred processors that the consumer would choose to run the <i>NdkSrqNotificationCallback</i> callbacks. Providers should honor the processor preferences if their underlying hardware allows it, but consumers cannot assume that <i>NdkSrqNotificationCallback</i> callbacks will occur only on the preferred processors. Set <i>Affinity</i> to NULL if there are no preferred processors.
 
 
 ### -param CreateCompletion [in]
@@ -221,19 +221,15 @@ The <i>NdkCreateSrq</i> function creates an NDK shared receive queue (SRQ) objec
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_srq_notification_callback.md">NDK_FN_SRQ_NOTIFICATION_CALLBACK</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
-
-
-
 <a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_srq_notification_callback.md">NDK_FN_SRQ_NOTIFICATION_CALLBACK</a>
 
 
 
@@ -245,7 +241,11 @@ The <i>NdkCreateSrq</i> function creates an NDK shared receive queue (SRQ) objec
 
 
 
-<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
+<a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
 
 
 

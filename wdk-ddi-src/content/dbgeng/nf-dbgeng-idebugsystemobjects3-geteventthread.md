@@ -4,11 +4,11 @@ title: IDebugSystemObjects3::GetEventThread method
 author: windows-driver-content
 description: The GetEventThread method returns the engine thread ID for the thread on which the last event occurred.
 old-location: debugger\geteventthread.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 7a28c9bd-480e-4864-b7ff-9ff0dc1d04ad
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugSystemObjects4 interface [Windows Debugging], GetEventThread method, IDebugSystemObjects2 interface [Windows Debugging], GetEventThread method, dbgeng/IDebugSystemObjects::GetEventThread, IDebugSystemObjects::GetEventThread, IDebugSystemObjects, IDebugSystemObjects2::GetEventThread, GetEventThread method [Windows Debugging], IDebugSystemObjects3 interface, debugger.geteventthread, GetEventThread, GetEventThread method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects3::GetEventThread, IDebugSystemObjects4::GetEventThread, IDebugSystemObjects interface [Windows Debugging], GetEventThread method, GetEventThread method [Windows Debugging], IDebugSystemObjects interface, GetEventThread method [Windows Debugging], dbgeng/IDebugSystemObjects2::GetEventThread, IDebugSystemObjects2, GetEventThread method [Windows Debugging], IDebugSystemObjects2 interface, dbgeng/IDebugSystemObjects3::GetEventThread, IDebugSystemObjects_2074b9ad-a761-42fd-93ed-4774c2ddf3a5.xml, dbgeng/IDebugSystemObjects4::GetEventThread, IDebugSystemObjects3 interface [Windows Debugging], GetEventThread method, IDebugSystemObjects3
+ms.date: 2/23/2018
+ms.keywords: GetEventThread method [Windows Debugging], GetEventThread method [Windows Debugging], IDebugSystemObjects interface, GetEventThread method [Windows Debugging], IDebugSystemObjects2 interface, GetEventThread method [Windows Debugging], IDebugSystemObjects3 interface, GetEventThread method [Windows Debugging], IDebugSystemObjects4 interface, GetEventThread,IDebugSystemObjects3.GetEventThread, IDebugSystemObjects interface [Windows Debugging], GetEventThread method, IDebugSystemObjects2 interface [Windows Debugging], GetEventThread method, IDebugSystemObjects2::GetEventThread, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetEventThread method, IDebugSystemObjects3::GetEventThread, IDebugSystemObjects4 interface [Windows Debugging], GetEventThread method, IDebugSystemObjects4::GetEventThread, IDebugSystemObjects::GetEventThread, IDebugSystemObjects_2074b9ad-a761-42fd-93ed-4774c2ddf3a5.xml, dbgeng/IDebugSystemObjects2::GetEventThread, dbgeng/IDebugSystemObjects3::GetEventThread, dbgeng/IDebugSystemObjects4::GetEventThread, dbgeng/IDebugSystemObjects::GetEventThread, debugger.geteventthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

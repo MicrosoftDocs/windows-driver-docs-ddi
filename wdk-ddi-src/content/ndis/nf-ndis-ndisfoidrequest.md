@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8434bf2c-9c9a-49a1-bf88-b67b1eec721c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisFOidRequest function [Network Drivers Starting with Windows Vista], NdisFOidRequest, netvista.ndisfoidrequest, ndis/NdisFOidRequest, ndis_request_ref_b5034fc8-9122-4c87-b690-a6989c1592c1.xml
+ms.keywords: NdisFOidRequest, NdisFOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFOidRequest, ndis_request_ref_b5034fc8-9122-4c87-b690-a6989c1592c1.xml, netvista.ndisfoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFOidRequest
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFOidRequest function
@@ -140,7 +140,7 @@ A driver can call
 
 
 
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
@@ -148,11 +148,11 @@ A driver can call
 
 
 
-<a href="..\ndis\nc-ndis-filter_oid_request_complete.md">FilterOidRequestComplete</a>
+<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
 
 
 

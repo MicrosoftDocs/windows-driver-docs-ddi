@@ -7,8 +7,8 @@ old-location: display\dxgk_vidpntargetmodeset_interface_pfnacquirepinnedmodeinfo
 old-project: display
 ms.assetid: 0a321ee2-f246-498d-b658-a01e275644be
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgk_vidpntargetmodeset_interface_pfnacquirepinnedmodeinfo, pfnAcquirePinnedModeInfo callback function [Display Devices], pfnAcquirePinnedModeInfo, DXGKDDI_VIDPNTARGETMODESET_ACQUIREPINNEDMODEINFO, DXGKDDI_VIDPNTARGETMODESET_ACQUIREPINNEDMODEINFO, d3dkmddi/pfnAcquirePinnedModeInfo, VidPnFunctions_81cb0000-6d1d-448f-8e4a-ca5df30d97ea.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_VIDPNTARGETMODESET_ACQUIREPINNEDMODEINFO, VidPnFunctions_81cb0000-6d1d-448f-8e4a-ca5df30d97ea.xml, d3dkmddi/pfnAcquirePinnedModeInfo, display.dxgk_vidpntargetmodeset_interface_pfnacquirepinnedmodeinfo, pfnAcquirePinnedModeInfo, pfnAcquirePinnedModeInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -137,6 +137,10 @@ The D3DKMDT_HVIDPNTARGETMODESET data type is defined in <i>D3dkmdt.h</i>.
 
 ## -see-also
 
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_target_mode.md">D3DKMDT_VIDPN_TARGET_MODE</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntargetmodeset_pinmode.md">pfnPinMode</a>
 
 
@@ -145,13 +149,9 @@ The D3DKMDT_HVIDPNTARGETMODESET data type is defined in <i>D3dkmdt.h</i>.
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntargetmodeset_pinmode.md">pfnPinMode</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_VIDPNTARGETMODESET_ACQUIREPINNEDMODEINFO callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_VIDPNTARGETMODESET_ACQUIREPINNEDMODEINFO callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

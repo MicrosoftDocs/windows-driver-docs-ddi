@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b92072a6-fa6e-4b8d-83c3-b2844443f5c8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFQueueObjectRef_9f415317-56ca-4c4f-9f33-560258351999.xml, wdfio/WdfIoQueueStopSynchronously, WdfIoQueueStopSynchronously method, kmdf.wdfioqueuestopsynchronously, WdfIoQueueStopSynchronously, wdf.wdfioqueuestopsynchronously
+ms.keywords: DFQueueObjectRef_9f415317-56ca-4c4f-9f33-560258351999.xml, WdfIoQueueStopSynchronously, WdfIoQueueStopSynchronously method, kmdf.wdfioqueuestopsynchronously, wdf.wdfioqueuestopsynchronously, wdfio/WdfIoQueueStopSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,11 +126,11 @@ The following code example stops a specified queue.
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuestart.md">WdfIoQueueStart</a>
-
-
-
 <a href="..\wdfio\nf-wdfio-wdfioqueuestop.md">WdfIoQueueStop</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuestart.md">WdfIoQueueStart</a>
 
 
 

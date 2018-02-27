@@ -4,11 +4,11 @@ title: IDebugControl2::GetBreakpointParameters method
 author: windows-driver-content
 description: The GetBreakpointParameters method returns the parameters of one or more breakpoints.
 old-location: debugger\getbreakpointparameters.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: c4426dfa-7c14-4ef0-8660-855ee24ed7fe
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl2::GetBreakpointParameters, dbgeng/IDebugControl3::GetBreakpointParameters, IDebugControl, GetBreakpointParameters method [Windows Debugging], debugger.getbreakpointparameters, GetBreakpointParameters, IDebugControl2, dbgeng/IDebugControl2::GetBreakpointParameters, IDebugControl_7b2d9423-82db-4274-a1f7-eebcda92e6c3.xml, IDebugControl interface [Windows Debugging], GetBreakpointParameters method, IDebugControl3 interface [Windows Debugging], GetBreakpointParameters method, IDebugControl2 interface [Windows Debugging], GetBreakpointParameters method, IDebugControl::GetBreakpointParameters, IDebugControl3::GetBreakpointParameters, GetBreakpointParameters method [Windows Debugging], IDebugControl interface, GetBreakpointParameters method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::GetBreakpointParameters, GetBreakpointParameters method [Windows Debugging], IDebugControl3 interface
+ms.date: 2/23/2018
+ms.keywords: GetBreakpointParameters method [Windows Debugging], GetBreakpointParameters method [Windows Debugging], IDebugControl interface, GetBreakpointParameters method [Windows Debugging], IDebugControl2 interface, GetBreakpointParameters method [Windows Debugging], IDebugControl3 interface, GetBreakpointParameters,IDebugControl2.GetBreakpointParameters, IDebugControl interface [Windows Debugging], GetBreakpointParameters method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetBreakpointParameters method, IDebugControl2::GetBreakpointParameters, IDebugControl3 interface [Windows Debugging], GetBreakpointParameters method, IDebugControl3::GetBreakpointParameters, IDebugControl::GetBreakpointParameters, IDebugControl_7b2d9423-82db-4274-a1f7-eebcda92e6c3.xml, dbgeng/IDebugControl2::GetBreakpointParameters, dbgeng/IDebugControl3::GetBreakpointParameters, dbgeng/IDebugControl::GetBreakpointParameters, debugger.getbreakpointparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -142,19 +142,7 @@ Some of the parameters might not be returned.  This happens if either a breakpoi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545639">GetBreakpointByIndex</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545617">GetBreakpointById</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -162,13 +150,25 @@ Some of the parameters might not be returned.  This happens if either a breakpoi
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545639">GetBreakpointByIndex</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::GetBreakpointParameters method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetBreakpointParameters method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

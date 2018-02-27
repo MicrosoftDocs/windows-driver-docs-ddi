@@ -7,8 +7,8 @@ old-location: kernel\cmcallbackgetkeyobjectid.htm
 old-project: kernel
 ms.assetid: e8db3009-7941-4fcc-a888-22c887bf59d5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: ConfigMgrRef_dbab8a69-78b4-4ae8-8409-e62e62ea8b9e.xml, CmCallbackGetKeyObjectID routine [Kernel-Mode Driver Architecture], CmCallbackGetKeyObjectID, kernel.cmcallbackgetkeyobjectid, wdm/CmCallbackGetKeyObjectID
+ms.date: 2/24/2018
+ms.keywords: CmCallbackGetKeyObjectID, CmCallbackGetKeyObjectID routine [Kernel-Mode Driver Architecture], ConfigMgrRef_dbab8a69-78b4-4ae8-8409-e62e62ea8b9e.xml, kernel.cmcallbackgetkeyobjectid, wdm/CmCallbackGetKeyObjectID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,7 +142,7 @@ For more information about <b>CmCallbackGetKeyObjectID</b> and registry filterin
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\wdm\nf-wdm-cmcallbackgetkeyobjectidex.md">CmCallbackGetKeyObjectIDEx</a>
 
 
 
@@ -150,15 +150,15 @@ For more information about <b>CmCallbackGetKeyObjectID</b> and registry filterin
 
 
 
-<a href="..\wdm\nf-wdm-cmcallbackgetkeyobjectidex.md">CmCallbackGetKeyObjectIDEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
 
 
 
-<a href="..\wdm\nf-wdm-cmcallbackgetkeyobjectidex.md">CmCallbackGetKeyObjectIDEx</a>
+<a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -166,5 +166,5 @@ For more information about <b>CmCallbackGetKeyObjectID</b> and registry filterin
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CmCallbackGetKeyObjectID routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CmCallbackGetKeyObjectID routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

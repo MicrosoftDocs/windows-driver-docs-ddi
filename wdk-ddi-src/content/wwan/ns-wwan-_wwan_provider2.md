@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0B9352EE-C7CE-4F9D-9373-0096222295A4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PWWAN_PROVIDER2, PWWAN_PROVIDER2 structure pointer [Network Drivers Starting with Windows Vista], _WWAN_PROVIDER2, WWAN_PROVIDER2 structure [Network Drivers Starting with Windows Vista], PWWAN_PROVIDER2, wwan/WWAN_PROVIDER2, netvista.wwan_provider2, wwan/PWWAN_PROVIDER2, WWAN_PROVIDER2"
+ms.keywords: "*PWWAN_PROVIDER2, PWWAN_PROVIDER2, PWWAN_PROVIDER2 structure pointer [Network Drivers Starting with Windows Vista], WWAN_PROVIDER2, WWAN_PROVIDER2 structure [Network Drivers Starting with Windows Vista], _WWAN_PROVIDER2, netvista.wwan_provider2, wwan/PWWAN_PROVIDER2, wwan/WWAN_PROVIDER2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

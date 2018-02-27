@@ -7,8 +7,8 @@ old-location: stream\ks_dvdcopy_set_copy_state.htm
 old-project: stream
 ms.assetid: e4f637b7-52ce-4ec8-8348-0b65a7f788ad
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KS_DVDCOPY_SET_COPY_STATE structure [Streaming Media Devices], PKS_DVDCOPY_SET_COPY_STATE, ksmedia/PKS_DVDCOPY_SET_COPY_STATE, dvdref_215efe26-9ca5-4f3b-836f-86a682cd88f8.xml, stream.ks_dvdcopy_set_copy_state, ksmedia/KS_DVDCOPY_SET_COPY_STATE, PKS_DVDCOPY_SET_COPY_STATE structure pointer [Streaming Media Devices], _KS_DVDCOPY_SET_COPY_STATE, *PKS_DVDCOPY_SET_COPY_STATE, KS_DVDCOPY_SET_COPY_STATE
+ms.date: 2/23/2018
+ms.keywords: "*PKS_DVDCOPY_SET_COPY_STATE, KS_DVDCOPY_SET_COPY_STATE, KS_DVDCOPY_SET_COPY_STATE structure [Streaming Media Devices], PKS_DVDCOPY_SET_COPY_STATE, PKS_DVDCOPY_SET_COPY_STATE structure pointer [Streaming Media Devices], _KS_DVDCOPY_SET_COPY_STATE, dvdref_215efe26-9ca5-4f3b-836f-86a682cd88f8.xml, ksmedia/KS_DVDCOPY_SET_COPY_STATE, ksmedia/PKS_DVDCOPY_SET_COPY_STATE, stream.ks_dvdcopy_set_copy_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_DVDCOPY_SET_COPY_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PKS_DVDCOPY_SET_COPY_STATE, KS_DVDCOPY_SET_COPY_STATE"
+req.typenames: KS_DVDCOPY_SET_COPY_STATE, *PKS_DVDCOPY_SET_COPY_STATE
 ---
 
 # _KS_DVDCOPY_SET_COPY_STATE structure
@@ -85,17 +85,17 @@ For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c
 
 ## -see-also
 
-<a href="..\ksmedia\ne-ksmedia-ks_dvdcopystate.md">KS_DVDCOPYSTATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565147">KSPROPERTY_DVDCOPY_SET_COPY_STATE</a>
 
 
 
- 
+<a href="..\ksmedia\ne-ksmedia-ks_dvdcopystate.md">KS_DVDCOPYSTATE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_DVDCOPY_SET_COPY_STATE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_DVDCOPY_SET_COPY_STATE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

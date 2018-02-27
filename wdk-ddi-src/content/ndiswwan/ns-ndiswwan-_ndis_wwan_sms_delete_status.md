@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 78591487-d534-4e9e-852a-5826b8a98a9b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_WWAN_SMS_DELETE_STATUS structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SMS_DELETE_STATUS, ndiswwan/NDIS_WWAN_SMS_DELETE_STATUS, PNDIS_WWAN_SMS_DELETE_STATUS, NDIS_WWAN_SMS_DELETE_STATUS structure [Network Drivers Starting with Windows Vista], WwanRef_aa4755ba-7eac-42ef-8901-170593ed60af.xml, *PNDIS_WWAN_SMS_DELETE_STATUS, netvista.ndis_wwan_sms_delete_status, ndiswwan/PNDIS_WWAN_SMS_DELETE_STATUS, _NDIS_WWAN_SMS_DELETE_STATUS
+ms.keywords: "*PNDIS_WWAN_SMS_DELETE_STATUS, NDIS_WWAN_SMS_DELETE_STATUS, NDIS_WWAN_SMS_DELETE_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_DELETE_STATUS, PNDIS_WWAN_SMS_DELETE_STATUS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_aa4755ba-7eac-42ef-8901-170593ed60af.xml, _NDIS_WWAN_SMS_DELETE_STATUS, ndiswwan/NDIS_WWAN_SMS_DELETE_STATUS, ndiswwan/PNDIS_WWAN_SMS_DELETE_STATUS, netvista.ndis_wwan_sms_delete_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_SMS_DELETE_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_SMS_DELETE_STATUS, NDIS_WWAN_SMS_DELETE_STATUS"
+req.typenames: NDIS_WWAN_SMS_DELETE_STATUS, *PNDIS_WWAN_SMS_DELETE_STATUS
 ---
 
 # _NDIS_WWAN_SMS_DELETE_STATUS structure

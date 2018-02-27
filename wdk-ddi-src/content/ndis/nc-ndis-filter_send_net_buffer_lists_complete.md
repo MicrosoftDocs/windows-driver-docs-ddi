@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1a3a1e80-29f1-4f19-b3c7-9a8b189f18c4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.filtersendnetbufferlistscomplete, FilterSendNetBufferListsComplete callback function [Network Drivers Starting with Windows Vista], FilterSendNetBufferListsComplete, FILTER_SEND_NET_BUFFER_LISTS_COMPLETE, FILTER_SEND_NET_BUFFER_LISTS_COMPLETE, ndis/FilterSendNetBufferListsComplete, filter_functions_ref_5022c19b-6433-4c57-aa68-20270400950b.xml
+ms.keywords: FILTER_SEND_NET_BUFFER_LISTS_COMPLETE, FilterSendNetBufferListsComplete, FilterSendNetBufferListsComplete callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_5022c19b-6433-4c57-aa68-20270400950b.xml, ndis/FilterSendNetBufferListsComplete, netvista.filtersendnetbufferlistscomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -215,15 +215,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_set_module_options.md">FilterSetModuleOptions</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfsendnetbufferlists.md">NdisFSendNetBufferLists</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
@@ -231,11 +223,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\nf-ndis-ndisfsendnetbufferlists.md">NdisFSendNetBufferLists</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nc-ndis-filter_set_module_options.md">FilterSetModuleOptions</a>
 
 
 
@@ -243,8 +235,16 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisfsendnetbufferlistscomplete.md">
    NdisFSendNetBufferListsComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 

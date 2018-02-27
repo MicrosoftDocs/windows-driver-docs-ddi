@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: D04C836E-C440-4AB9-BB44-7D1E8E0F681D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO_READ_PINS_PARAMETERS, _GPIO_READ_PINS_PARAMETERS, gpioclx/PGPIO_READ_PINS_PARAMETERS, PGPIO_READ_PINS_PARAMETERS structure pointer [Parallel Ports], gpioclx/GPIO_READ_PINS_PARAMETERS, PGPIO_READ_PINS_PARAMETERS, GPIO_READ_PINS_PARAMETERS structure [Parallel Ports], GPIO.gpio_read_pins_parameters, *PGPIO_READ_PINS_PARAMETERS
+ms.keywords: "*PGPIO_READ_PINS_PARAMETERS, GPIO.gpio_read_pins_parameters, GPIO_READ_PINS_PARAMETERS, GPIO_READ_PINS_PARAMETERS structure [Parallel Ports], PGPIO_READ_PINS_PARAMETERS, PGPIO_READ_PINS_PARAMETERS structure pointer [Parallel Ports], _GPIO_READ_PINS_PARAMETERS, gpioclx/GPIO_READ_PINS_PARAMETERS, gpioclx/PGPIO_READ_PINS_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,15 +113,15 @@ The <i>ReadParameters</i> parameter of the <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439404">CLIENT_ReadGpioPins</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
 

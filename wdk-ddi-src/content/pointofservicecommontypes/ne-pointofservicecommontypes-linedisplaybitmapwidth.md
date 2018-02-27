@@ -7,8 +7,8 @@ old-location: pos\linedisplaybitmapwidth.htm
 old-project: pos
 ms.assetid: 062E3340-8545-4867-99E6-8D280F5693A9
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: LineDisplayBitmapWidth, pos.linedisplaybitmapwidth, pointofservicecommontypes/LineDisplayBitmapWidth, LineDisplayBitmapWidth enumeration, pointofservicecommontypes/
+ms.date: 2/23/2018
+ms.keywords: LineDisplayBitmapWidth, LineDisplayBitmapWidth enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayBitmapWidth, pos.linedisplaybitmapwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

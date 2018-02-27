@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5eabc972-f372-4d70-ab38-8830f7907a7a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RIL_DCSTYPE_MSGWAIT, rilapitypes/RIL_DCSTYPE_MSGCLASS, RIL_DCSTYPE_MSGWAIT, RIL_DCSTYPE_MAX, rilapitypes/RIL_DCSTYPE_MAX, netvista.rilmsgdcstype_2, rilapitypes/RILMSGDCSTYPE, RILMSGDCSTYPE, RIL_DCSTYPE_LANGUAGE, rilapitypes/RIL_DCSTYPE_LANGUAGE, RIL_DCSTYPE_MSGCLASS, RILMSGDCSTYPE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RILMSGDCSTYPE, RILMSGDCSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_DCSTYPE_LANGUAGE, RIL_DCSTYPE_MAX, RIL_DCSTYPE_MSGCLASS, RIL_DCSTYPE_MSGWAIT, netvista.rilmsgdcstype_2, rilapitypes/RILMSGDCSTYPE, rilapitypes/RIL_DCSTYPE_LANGUAGE, rilapitypes/RIL_DCSTYPE_MAX, rilapitypes/RIL_DCSTYPE_MSGCLASS, rilapitypes/RIL_DCSTYPE_MSGWAIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: D9E19BD1-2C44-4F86-9AEB-F50443FAE8DC
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercxfilecleanup, EvtSerCxFileCleanup callback function [Serial Ports], EvtSerCxFileCleanup, EVT_SERCX_FILECLEANUP, EVT_SERCX_FILECLEANUP, 1/EvtSerCxFileCleanup
+ms.keywords: 1/EvtSerCxFileCleanup, EVT_SERCX_FILECLEANUP, EvtSerCxFileCleanup, EvtSerCxFileCleanup callback function [Serial Ports], serports.evtsercxfilecleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

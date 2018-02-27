@@ -7,8 +7,8 @@ old-location: storage\scsireadcapacity_in.htm
 old-project: storage
 ms.assetid: 7a9d6f43-88f7-490e-9446-e707b6497a38
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PScsiReadCapacity_IN, structs-iSCSI_6363c086-0475-4bd2-bc15-5e49091e710b.xml, PScsiReadCapacity_IN structure pointer [Storage Devices], *PScsiReadCapacity_IN, ScsiReadCapacity_IN structure [Storage Devices], iscsiop/PScsiReadCapacity_IN, iscsiop/ScsiReadCapacity_IN, _ScsiReadCapacity_IN, storage.scsireadcapacity_in, ScsiReadCapacity_IN
+ms.date: 2/24/2018
+ms.keywords: "*PScsiReadCapacity_IN, PScsiReadCapacity_IN, PScsiReadCapacity_IN structure pointer [Storage Devices], ScsiReadCapacity_IN, ScsiReadCapacity_IN structure [Storage Devices], _ScsiReadCapacity_IN, iscsiop/PScsiReadCapacity_IN, iscsiop/ScsiReadCapacity_IN, storage.scsireadcapacity_in, structs-iSCSI_6363c086-0475-4bd2-bc15-5e49091e710b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ScsiReadCapacity_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PScsiReadCapacity_IN, ScsiReadCapacity_IN"
+req.typenames: ScsiReadCapacity_IN, *PScsiReadCapacity_IN
 ---
 
 # _ScsiReadCapacity_IN structure
@@ -89,15 +89,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_scsireadcapacity_out.md">ScsiReadCapacity_OUT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
+
+
+
+<a href="..\iscsiop\ns-iscsiop-_scsireadcapacity_out.md">ScsiReadCapacity_OUT</a>
 
 
 
@@ -105,9 +101,13 @@ You must implement this method.
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiReadCapacity_IN structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiReadCapacity_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

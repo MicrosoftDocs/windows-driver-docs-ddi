@@ -7,8 +7,8 @@ old-location: kernel\rtlstringcchprintfex.htm
 old-project: kernel
 ms.assetid: 8b43acd5-9204-41ff-8c63-76769bfa5469
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RtlStringCchPrintfExA, ntstrsafe/RtlStringCchPrintfExW, kernel.rtlstringcchprintfex, STRSAFE_IGNORE_NULLS, STRSAFE_FILL_BEHIND_NULL, RtlStringCchPrintfExW, STRSAFE_NULL_ON_FAILURE, ntstrsafe/RtlStringCchPrintfExA, safestrings_910ac2be-9b28-42eb-9353-61db14fee430.xml, RtlStringCchPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_ON_FAILURE, STRSAFE_NO_TRUNCATION, RtlStringCchPrintfEx
+ms.date: 2/24/2018
+ms.keywords: RtlStringCchPrintfEx, RtlStringCchPrintfExA, RtlStringCchPrintfExW, RtlStringCchPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchprintfex, ntstrsafe/RtlStringCchPrintfExA, ntstrsafe/RtlStringCchPrintfExW, safestrings_910ac2be-9b28-42eb-9353-61db14fee430.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCchPrintfExW
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlStringCchPrintfExW function
@@ -314,7 +314,7 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfexw.md">RtlStringCbPrintfEx</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfexw.md">RtlStringCchVPrintfEx</a>
 
 
 
@@ -322,7 +322,7 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfexw.md">RtlStringCchVPrintfEx</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfexw.md">RtlStringCbPrintfEx</a>
 
 
 
@@ -330,5 +330,5 @@ For more information about the safe string functions, see <a href="https://msdn.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCchPrintfExW function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCchPrintfExW function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

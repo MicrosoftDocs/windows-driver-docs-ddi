@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b41fc37a-d41f-49ca-848f-844e049dd987
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfinterrupt/WdfInterruptSynchronize, DFInterruptObjectRef_d56eadd2-4636-43bb-b842-318243bcf192.xml, wdf.wdfinterruptsynchronize, WdfInterruptSynchronize method, kmdf.wdfinterruptsynchronize, WdfInterruptSynchronize
+ms.keywords: DFInterruptObjectRef_d56eadd2-4636-43bb-b842-318243bcf192.xml, WdfInterruptSynchronize, WdfInterruptSynchronize method, kmdf.wdfinterruptsynchronize, wdf.wdfinterruptsynchronize, wdfinterrupt/WdfInterruptSynchronize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -153,11 +153,11 @@ synchronizeReturnValue = WdfInterruptSynchronize(
 
 
 
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_synchronize.md">EvtInterruptSynchronize</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547376">WdfInterruptReleaseLock</a>
+
+
+
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_synchronize.md">EvtInterruptSynchronize</a>
 
 
 

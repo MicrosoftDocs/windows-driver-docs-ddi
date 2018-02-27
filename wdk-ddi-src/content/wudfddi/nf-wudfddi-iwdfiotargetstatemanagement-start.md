@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e242b62a-7a4f-491b-b1a7-3388cf9c5a40
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfiotargetstatemanagement_start, IWDFIoTargetStateManagement interface, Start method, UMDFIoTargetObjectRef_931a0267-704f-44f7-8f52-0344afb86f81.xml, Start, Start method, wdf.iwdfiotargetstatemanagement_start, wudfddi/IWDFIoTargetStateManagement::Start, Start method, IWDFIoTargetStateManagement interface, IWDFIoTargetStateManagement::Start, IWDFIoTargetStateManagement
+ms.keywords: IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, Start method, IWDFIoTargetStateManagement::Start, Start method, Start method, IWDFIoTargetStateManagement interface, Start,IWDFIoTargetStateManagement.Start, UMDFIoTargetObjectRef_931a0267-704f-44f7-8f52-0344afb86f81.xml, umdf.iwdfiotargetstatemanagement_start, wdf.iwdfiotargetstatemanagement_start, wudfddi/IWDFIoTargetStateManagement::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -182,11 +182,11 @@ CMyDevice::OnD0Entry(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotargetstatemanagement.md">IWDFIoTargetStateManagement</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560289">IWDFRemoteTarget::Stop</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiotargetstatemanagement.md">IWDFIoTargetStateManagement</a>
 
 
 

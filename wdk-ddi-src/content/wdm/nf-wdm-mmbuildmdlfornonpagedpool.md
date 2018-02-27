@@ -7,8 +7,8 @@ old-location: kernel\mmbuildmdlfornonpagedpool.htm
 old-project: kernel
 ms.assetid: f83a9a57-be44-4aa0-bb2e-740f48d82e06
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.mmbuildmdlfornonpagedpool, wdm/MmBuildMdlForNonPagedPool, k106_58d8437c-b6da-4b88-85a4-300392fb58f9.xml, MmBuildMdlForNonPagedPool, MmBuildMdlForNonPagedPool routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: MmBuildMdlForNonPagedPool, MmBuildMdlForNonPagedPool routine [Kernel-Mode Driver Architecture], k106_58d8437c-b6da-4b88-85a4-300392fb58f9.xml, kernel.mmbuildmdlfornonpagedpool, wdm/MmBuildMdlForNonPagedPool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,7 +86,7 @@ None
 
 
 
-At entry, the specified MDL must describe a buffer in nonpaged system memory, such as memory that is allocated by the <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> routine with <i>PoolType</i> = <b>NonPagedPool</b> or by the <a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a> routine. <b>MmBuildMdlForNonPagedPool</b> updates the MDL to describe the underlying physical pages.
+At entry, the specified MDL must describe a buffer in nonpaged system memory, such as memory that is allocated by the <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> routine with <i>PoolType</i> = <b>NonPagedPool</b> or by the <a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a> routine. <b>MmBuildMdlForNonPagedPool</b> updates the MDL to describe the underlying physical pages.
 
 <b>MmBuildMdlForNonPagedPool</b> may not be used with MDLs describing buffers allocated on a kernel stack. To build an MDL describing a kernel stack buffer, drivers must call <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>. This rule applies even if the driver guarantees that the kernel stack cannot be paged out.
 
@@ -101,11 +101,7 @@ A driver can use the <b>MmMapLockedPagesSpecifyCache</b> routine to map an MDL t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+<a href="..\wdm\nf-wdm-mmunmaplockedpages.md">MmUnmapLockedPages</a>
 
 
 
@@ -117,11 +113,15 @@ A driver can use the <b>MmMapLockedPagesSpecifyCache</b> routine to map an MDL t
 
 
 
-<a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmunmaplockedpages.md">MmUnmapLockedPages</a>
+<a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
 
 
 
@@ -133,5 +133,5 @@ A driver can use the <b>MmMapLockedPagesSpecifyCache</b> routine to map an MDL t
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmBuildMdlForNonPagedPool routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmBuildMdlForNonPagedPool routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

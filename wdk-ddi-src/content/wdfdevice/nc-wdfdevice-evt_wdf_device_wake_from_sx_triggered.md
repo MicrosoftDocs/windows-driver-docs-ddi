@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a1899d90-4906-458d-b7e3-122655f4d926
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdevicewakefromsxtriggered, EvtDeviceWakeFromSxTriggered callback function, EvtDeviceWakeFromSxTriggered, EVT_WDF_DEVICE_WAKE_FROM_SX_TRIGGERED, EVT_WDF_DEVICE_WAKE_FROM_SX_TRIGGERED, wdfdevice/EvtDeviceWakeFromSxTriggered, DFDeviceObjectGeneralRef_38946496-1155-44d9-8636-8343c4623000.xml, kmdf.evtdevicewakefromsxtriggered
+ms.keywords: DFDeviceObjectGeneralRef_38946496-1155-44d9-8636-8343c4623000.xml, EVT_WDF_DEVICE_WAKE_FROM_SX_TRIGGERED, EvtDeviceWakeFromSxTriggered, EvtDeviceWakeFromSxTriggered callback function, kmdf.evtdevicewakefromsxtriggered, wdf.evtdevicewakefromsxtriggered, wdfdevice/EvtDeviceWakeFromSxTriggered
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

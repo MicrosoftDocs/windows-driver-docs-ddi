@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aac9382c-5177-4216-bf3d-7970b18662eb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.nmrregisterprovider, NmrRegisterProvider, netioddk/NmrRegisterProvider, NmrRegisterProvider function [Network Drivers Starting with Windows Vista], nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml
+ms.keywords: NmrRegisterProvider, NmrRegisterProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrRegisterProvider, netvista.nmrregisterprovider, nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NmrRegisterProvider
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS"
+req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
 ---
 
 # NmrRegisterProvider function
@@ -162,7 +162,7 @@ A provider module calls the
 
 A provider module typically calls the 
     <b>NmrRegisterProvider</b> function from its 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> function after it has completed
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> function after it has completed
     all other initialization tasks. The call to the 
     <b>NmrRegisterProvider</b> function indicates to the NMR that the provider module is ready to attach to
     any client modules that have registered or will register as clients of the same 
@@ -174,7 +174,7 @@ A provider module typically calls the
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
 
 
 
@@ -182,7 +182,7 @@ A provider module typically calls the
 
 
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: storage\ioctl_cdrom_stop_audio.htm
 old-project: storage
 ms.assetid: 9d250950-7ecf-4433-9aaf-7696abb5b66c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.ioctl_cdrom_stop_audio, IOCTL_CDROM_STOP_AUDIO control code [Storage Devices], IOCTL_CDROM_STOP_AUDIO, ntddcdrm/IOCTL_CDROM_STOP_AUDIO, k307_f800aa8a-b12c-4373-9e6a-0b2a12182540.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_CDROM_STOP_AUDIO, IOCTL_CDROM_STOP_AUDIO control code [Storage Devices], k307_f800aa8a-b12c-4373-9e6a-0b2a12182540.xml, ntddcdrm/IOCTL_CDROM_STOP_AUDIO, storage.ioctl_cdrom_stop_audio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

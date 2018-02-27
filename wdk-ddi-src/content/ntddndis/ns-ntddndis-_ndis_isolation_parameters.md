@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 71A01647-3415-4F76-A67C-D1022C8A11D9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_ISOLATION_PARAMETERS, PNDIS_ISOLATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_ISOLATION_PARAMETERS, NDIS_ISOLATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_ISOLATION_PARAMETERS, ntddndis/NDIS_ISOLATION_PARAMETERS, NDIS_ISOLATION_PARAMETERS, _NDIS_ISOLATION_PARAMETERS, netvista.ndis_isolation_parameters
+ms.keywords: "*PNDIS_ISOLATION_PARAMETERS, NDIS_ISOLATION_PARAMETERS, NDIS_ISOLATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_ISOLATION_PARAMETERS, PNDIS_ISOLATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_ISOLATION_PARAMETERS, netvista.ndis_isolation_parameters, ntddndis/NDIS_ISOLATION_PARAMETERS, ntddndis/PNDIS_ISOLATION_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,11 +120,7 @@ A <b>ULONG</b> value that specifies the offset, in bytes, to the first <a href="
 
 ## -see-also
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_isolation_mode.md">NDIS_ISOLATION_MODE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn383680">NDIS_ISOLATION_PARAMETERS_GET_FIRST_ROUTING_DOMAIN_ENTRY</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_routing_domain_entry.md">NDIS_ROUTING_DOMAIN_ENTRY</a>
 
 
 
@@ -132,7 +128,11 @@ A <b>ULONG</b> value that specifies the offset, in bytes, to the first <a href="
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_isolation_mode.md">NDIS_ISOLATION_MODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn383680">NDIS_ISOLATION_PARAMETERS_GET_FIRST_ROUTING_DOMAIN_ENTRY</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -140,7 +140,7 @@ A <b>ULONG</b> value that specifies the offset, in bytes, to the first <a href="
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_routing_domain_entry.md">NDIS_ROUTING_DOMAIN_ENTRY</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_isolation_mode.md">NDIS_ISOLATION_MODE</a>
 
 
 

@@ -4,11 +4,11 @@ title: EVT_UCX_USBDEVICE_SUSPEND
 author: windows-driver-content
 description: UCX invokes this callback function to send a device suspend state.
 old-location: buses\evt_ucx_usbdevice_suspend.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 809F946C-DDD4-4C4D-9F0F-F2B4A4657D12
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_usbdevice_suspend, EvtUcxDeviceSuspend callback function [Buses], EvtUcxDeviceSuspend, EVT_UCX_USBDEVICE_SUSPEND, EVT_UCX_USBDEVICE_SUSPEND, ucxusbdevice/EvtUcxDeviceSuspend, *PFN_UCX_USBDEVICE_SUSPEND callback function [Buses], *PFN_UCX_USBDEVICE_SUSPEND
+ms.date: 2/24/2018
+ms.keywords: "*PFN_UCX_USBDEVICE_SUSPEND, *PFN_UCX_USBDEVICE_SUSPEND callback function [Buses], EVT_UCX_USBDEVICE_SUSPEND, EvtUcxDeviceSuspend, EvtUcxDeviceSuspend callback function [Buses], buses.evt_ucx_usbdevice_suspend, ucxusbdevice/EvtUcxDeviceSuspend"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	*PFN_UCX_USBDEVICE_SUSPEND
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_INFO, STREAM_INFO"
+req.typenames: STREAM_INFO, *PSTREAM_INFO
 req.product: Windows 10 or later.
 ---
 

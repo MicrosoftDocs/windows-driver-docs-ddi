@@ -7,8 +7,8 @@ old-location: pci\pci_express_link_quiescent_interface_.htm
 old-project: PCI
 ms.assetid: c57ef3e0-5d4d-4545-9c70-b2e11e5823ec
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PPCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE structure [Buses], PCI.pci_express_link_quiescent_interface_, wdm/, _PCI_EXPRESS_LINK_QUIESCENT_INTERFACE"
+ms.date: 2/24/2018
+ms.keywords: "*PPCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI.pci_express_link_quiescent_interface_, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE structure [Buses], _PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, wdm/"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_EXPRESS_LINK_QUIESCENT_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: "*PPCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE"
+req.typenames: PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, *PPCI_EXPRESS_LINK_QUIESCENT_INTERFACE
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5054cc41-06af-48f0-b273-276bd639c16c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fsrtlref_167dd1d3-f49d-4393-9003-af16aa144e0b.xml, FsRtlPostPagingFileStackOverflow routine [Installable File System Drivers], ntifs/FsRtlPostPagingFileStackOverflow, FsRtlPostPagingFileStackOverflow, ifsk.fsrtlpostpagingfilestackoverflow
+ms.keywords: FsRtlPostPagingFileStackOverflow, FsRtlPostPagingFileStackOverflow routine [Installable File System Drivers], fsrtlref_167dd1d3-f49d-4393-9003-af16aa144e0b.xml, ifsk.fsrtlpostpagingfilestackoverflow, ntifs/FsRtlPostPagingFileStackOverflow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,15 +109,15 @@ A file system typically calls <b>FsRtlPostPagingFileStackOverflow</b> during a p
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpoststackoverflow~r2.md">FsRtlPostStackOverflow</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-fsrtlispagingfile.md">FsRtlIsPagingFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
 
 
 

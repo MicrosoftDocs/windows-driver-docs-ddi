@@ -4,11 +4,11 @@ title: IDebugControl::CallExtension method
 author: windows-driver-content
 description: The CallExtension method calls a debugger extension.
 old-location: debugger\callextension.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 0d0f23db-5eef-486a-a393-dd3b37826f48
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: CallExtension method [Windows Debugging], IDebugControl2::CallExtension, IDebugControl, IDebugControl interface [Windows Debugging], CallExtension method, CallExtension method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], CallExtension method, dbgeng/IDebugControl::CallExtension, IDebugControl3 interface [Windows Debugging], CallExtension method, debugger.callextension, dbgeng/IDebugControl2::CallExtension, CallExtension, IDebugControl3::CallExtension, CallExtension method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::CallExtension, IDebugControl::CallExtension, CallExtension method [Windows Debugging], IDebugControl3 interface, IDebugControl_c37b420a-b94b-4d54-8a5a-2e1a74b49f26.xml
+ms.date: 2/23/2018
+ms.keywords: CallExtension method [Windows Debugging], CallExtension method [Windows Debugging], IDebugControl interface, CallExtension method [Windows Debugging], IDebugControl2 interface, CallExtension method [Windows Debugging], IDebugControl3 interface, CallExtension,IDebugControl.CallExtension, IDebugControl, IDebugControl interface [Windows Debugging], CallExtension method, IDebugControl2 interface [Windows Debugging], CallExtension method, IDebugControl2::CallExtension, IDebugControl3 interface [Windows Debugging], CallExtension method, IDebugControl3::CallExtension, IDebugControl::CallExtension, IDebugControl_c37b420a-b94b-4d54-8a5a-2e1a74b49f26.xml, dbgeng/IDebugControl2::CallExtension, dbgeng/IDebugControl3::CallExtension, dbgeng/IDebugControl::CallExtension, debugger.callextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -127,18 +127,6 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546733">GetExtensionFunction</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
@@ -151,9 +139,21 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546733">GetExtensionFunction</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::CallExtension method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::CallExtension method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

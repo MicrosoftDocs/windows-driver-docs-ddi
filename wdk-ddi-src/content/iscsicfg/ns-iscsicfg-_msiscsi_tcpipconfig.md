@@ -7,8 +7,8 @@ old-location: storage\msiscsi_tcpipconfig.htm
 old-project: storage
 ms.assetid: 1f33d262-0488-46cb-a762-1f3e24cdd219
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*PMSiSCSI_TCPIPConfig, iscsicfg/MSiSCSI_TCPIPConfig, MSiSCSI_TCPIPConfig structure [Storage Devices], PMSiSCSI_TCPIPConfig, structs-iSCSI_4ca5e222-7926-4646-a915-014cf20caed1.xml, MSiSCSI_TCPIPConfig, _MSiSCSI_TCPIPConfig, PMSiSCSI_TCPIPConfig structure pointer [Storage Devices], storage.msiscsi_tcpipconfig, iscsicfg/PMSiSCSI_TCPIPConfig"
+ms.date: 2/24/2018
+ms.keywords: "*PMSiSCSI_TCPIPConfig, MSiSCSI_TCPIPConfig, MSiSCSI_TCPIPConfig structure [Storage Devices], PMSiSCSI_TCPIPConfig, PMSiSCSI_TCPIPConfig structure pointer [Storage Devices], _MSiSCSI_TCPIPConfig, iscsicfg/MSiSCSI_TCPIPConfig, iscsicfg/PMSiSCSI_TCPIPConfig, storage.msiscsi_tcpipconfig, structs-iSCSI_4ca5e222-7926-4646-a915-014cf20caed1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -143,5 +143,5 @@ The WMI tool suite automatically generates a declaration of the MSiSCSI_TCPIPCon
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_TCPIPConfig structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_TCPIPConfig structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

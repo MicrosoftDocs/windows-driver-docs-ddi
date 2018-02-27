@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 45512F88-D4B8-4488-99EB-B47EE7443425
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: nfpdrivers.evtnfccxdeviceiocontrol_, EvtNfcCxDeviceIoControl callback function [Near-Field Proximity Drivers], EvtNfcCxDeviceIoControl, EVT_NFC_CX_DEVICE_IO_CONTROL, EVT_NFC_CX_DEVICE_IO_CONTROL, nfccx/EvtNfcCxDeviceIoControl
+ms.keywords: EVT_NFC_CX_DEVICE_IO_CONTROL, EvtNfcCxDeviceIoControl, EvtNfcCxDeviceIoControl callback function [Near-Field Proximity Drivers], nfccx/EvtNfcCxDeviceIoControl, nfpdrivers.evtnfccxdeviceiocontrol_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -119,11 +119,11 @@ The client can complete the request either synchronously or asynchronously. The 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 

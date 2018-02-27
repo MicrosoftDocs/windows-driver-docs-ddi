@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 34257ef2-947a-463a-b234-04fbaffa9344
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wsksendto, WskSendTo callback function [Network Drivers Starting with Windows Vista], WskSendTo, PFN_WSK_SEND_TO, PFN_WSK_SEND_TO, wsk/WskSendTo, wskref_9e00d25c-f00b-4656-8e67-37a22bd36a16.xml
+ms.keywords: PFN_WSK_SEND_TO, WskSendTo, WskSendTo callback function [Network Drivers Starting with Windows Vista], netvista.wsksendto, wsk/WskSendTo, wskref_9e00d25c-f00b-4656-8e67-37a22bd36a16.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	WskSendTo
 product: Windows
 targetos: Windows
-req.typenames: "*PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO"
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -239,31 +239,11 @@ The WSK subsystem does not perform any buffering of data when it sends datagrams
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
 
 
 
 <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 
@@ -272,7 +252,27 @@ The WSK subsystem does not perform any buffering of data when it sends datagrams
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
+
+
+
 <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: stream\lamp_capabilities_white.htm
 old-project: stream
 ms.assetid: F407B953-8B03-4053-A5F4-3E96E9F9645E
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: lamp/LAMP_CAPABILITIES_WHITE, LAMP_CAPABILITIES_WHITE, stream.lamp_capabilities_white, LAMP_CAPABILITIES_WHITE structure [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: LAMP_CAPABILITIES_WHITE, LAMP_CAPABILITIES_WHITE structure [Streaming Media Devices], lamp/LAMP_CAPABILITIES_WHITE, stream.lamp_capabilities_white
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

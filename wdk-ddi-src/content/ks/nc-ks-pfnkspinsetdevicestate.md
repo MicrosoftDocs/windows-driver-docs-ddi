@@ -7,8 +7,8 @@ old-location: stream\avstrminipinsetdevicestate.htm
 old-project: stream
 ms.assetid: df68dda0-6128-46c9-bf2b-562c10f9a6f1
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.avstrminipinsetdevicestate, AVStrMiniPinSetDeviceState, AVStrMiniPinSetDeviceState routine [Streaming Media Devices], AVStrMiniPinSetDeviceState, PFNKSPINSETDEVICESTATE, PFNKSPINSETDEVICESTATE, ks/AVStrMiniPinSetDeviceState, avstclbk_5a0f9097-33fb-4047-a361-bf14ac834cc3.xml
+ms.date: 2/23/2018
+ms.keywords: AVStrMiniPinSetDeviceState, AVStrMiniPinSetDeviceState routine [Streaming Media Devices], PFNKSPINSETDEVICESTATE, avstclbk_5a0f9097-33fb-4047-a361-bf14ac834cc3.xml, ks/AVStrMiniPinSetDeviceState, stream.avstrminipinsetdevicestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -123,5 +123,5 @@ This routine is optional.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSPINSETDEVICESTATE routine%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSPINSETDEVICESTATE routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

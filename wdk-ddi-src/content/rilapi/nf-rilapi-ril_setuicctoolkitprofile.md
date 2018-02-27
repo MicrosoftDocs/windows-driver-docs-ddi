@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 123bf713-d238-491a-bc53-1f35dbb34feb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ril_setuicctoolkitprofile, RIL_SetUiccToolkitProfile method [Network Drivers Starting with Windows Vista], RIL_SetUiccToolkitProfile, rilapi/RIL_SetUiccToolkitProfile
+ms.keywords: RIL_SetUiccToolkitProfile, RIL_SetUiccToolkitProfile method [Network Drivers Starting with Windows Vista], netvista.ril_setuicctoolkitprofile, rilapi/RIL_SetUiccToolkitProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_SetUiccToolkitProfile
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

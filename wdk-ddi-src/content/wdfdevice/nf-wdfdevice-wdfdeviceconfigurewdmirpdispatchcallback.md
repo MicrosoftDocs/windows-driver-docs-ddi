@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 594E0FF1-A965-4CE4-A2EA-C9098685FCED
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDeviceConfigureWdmIrpDispatchCallback, wdf.wdfdeviceconfigurewdmirpdispatchcallback, WdfDeviceConfigureWdmIrpDispatchCallback method, wdfdevice/WdfDeviceConfigureWdmIrpDispatchCallback, kmdf.wdfdeviceconfigurewdmirpdispatchcallback
+ms.keywords: WdfDeviceConfigureWdmIrpDispatchCallback, WdfDeviceConfigureWdmIrpDispatchCallback method, kmdf.wdfdeviceconfigurewdmirpdispatchcallback, wdf.wdfdeviceconfigurewdmirpdispatchcallback, wdfdevice/WdfDeviceConfigureWdmIrpDispatchCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -169,15 +169,15 @@ A driver might call the <b>WdfDeviceConfigureWdmIrpDispatchCallback</b> method f
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirp.md">WdfDeviceWdmDispatchIrp</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue.md">WdfDeviceWdmDispatchIrpToIoQueue</a>
 
 
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirp.md">WdfDeviceWdmDispatchIrp</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch.md">EvtDeviceWdmIrpDispatch</a>
 
 
 

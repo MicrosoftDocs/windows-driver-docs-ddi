@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_publishdriverinterface.htm
 old-project: print
 ms.assetid: 72bfa383-a7f2-4aa6-a45c-564928705e42
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print_unidrv-pscript_rendering_c9525b65-4bc0-42cb-b416-7b2034581b0e.xml, PublishDriverInterface, PublishDriverInterface method [Print Devices], IPrintOemUni interface [Print Devices], PublishDriverInterface method, IPrintOemUni, prcomoem/IPrintOemUni::PublishDriverInterface, print.iprintoemuni_publishdriverinterface, PublishDriverInterface method [Print Devices], IPrintOemUni interface, IPrintOemUni::PublishDriverInterface
+ms.date: 2/23/2018
+ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], PublishDriverInterface method, IPrintOemUni::PublishDriverInterface, PublishDriverInterface method [Print Devices], PublishDriverInterface method [Print Devices], IPrintOemUni interface, PublishDriverInterface,IPrintOemUni.PublishDriverInterface, prcomoem/IPrintOemUni::PublishDriverInterface, print.iprintoemuni_publishdriverinterface, print_unidrv-pscript_rendering_c9525b65-4bc0-42cb-b416-7b2034581b0e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.PublishDriverInterface
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -70,7 +70,7 @@ HRESULT PublishDriverInterface(
 
 ### -param pIUnknown
 
-Caller-supplied pointer to the <b>IUnknown</b> interface of the driver's <a href="https://msdn.microsoft.com/84b3f43c-039a-4e9d-b596-41c08f1e0284">IPrintOemDriverUni COM Interface</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff552940">IPrintCoreHelperUni interface</a>.
+Caller-supplied pointer to the <b>IUnknown</b> interface of the driver's <a href="https://msdn.microsoft.com/84b3f43c-039a-4e9d-b596-41c08f1e0284">IPrintOemDriverUni COM Interface</a> or <a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni.md">IPrintCoreHelperUni interface</a>.
 
 
 ## -returns
@@ -135,17 +135,17 @@ If the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 
 ## -see-also
 
+<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554256">IPrintOemUni::GetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUni::PublishDriverInterface method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUni::PublishDriverInterface method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

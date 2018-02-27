@@ -7,8 +7,8 @@ old-location: kernel\psdereferencesilocontext.htm
 old-project: kernel
 ms.assetid: B71C7E8F-E136-4C13-B771-03B3C3C1BE64
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: ntddk/PsDereferenceSiloContext, PsDereferenceSiloContext, kernel.psdereferencesilocontext, PsDereferenceSiloContext routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: PsDereferenceSiloContext, PsDereferenceSiloContext routine [Kernel-Mode Driver Architecture], kernel.psdereferencesilocontext, ntddk/PsDereferenceSiloContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsDereferenceSiloContext
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsDereferenceSiloContext function

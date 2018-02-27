@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8B03835A-98EE-4157-BD05-C52D01EE5F5E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.fwpsinjectmacreceiveasync0, FwpsInjectMacReceiveAsync0, fwpsk/FwpsInjectMacSendAsync0, FwpsInjectMacSendAsync0, FwpsInjectMacSendAsync0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: FwpsInjectMacReceiveAsync0, FwpsInjectMacSendAsync0, FwpsInjectMacSendAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectMacSendAsync0, netvista.fwpsinjectmacreceiveasync0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -243,12 +243,20 @@ Injected frames could get classified again if the packets match the same filter 
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
-     FwpsAllocateCloneNetBufferList0</a>
-
-
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">FwpsQueryPacketInjectionState0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
+     FwpsAllocateNetBufferAndNetBufferList0</a>
 
 
 
@@ -259,14 +267,6 @@ Injected frames could get classified again if the packets match the same filter 
 
 <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">
        FwpsInjectionHandleCreate0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">FwpsQueryPacketInjectionState0</a>
 
 
 

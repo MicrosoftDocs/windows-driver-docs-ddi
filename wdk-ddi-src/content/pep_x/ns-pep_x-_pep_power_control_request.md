@@ -7,8 +7,8 @@ old-location: kernel\pep_power_control_request.htm
 old-project: kernel
 ms.assetid: E6665E96-5C58-4533-906A-D9525BA6824C
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.pep_power_control_request, PPEP_POWER_CONTROL_REQUEST, *PPEP_POWER_CONTROL_REQUEST, pepfx/PEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST structure [Kernel-Mode Driver Architecture], PPEP_POWER_CONTROL_REQUEST structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST, _PEP_POWER_CONTROL_REQUEST
+ms.date: 2/24/2018
+ms.keywords: "*PPEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST structure [Kernel-Mode Driver Architecture], PPEP_POWER_CONTROL_REQUEST, PPEP_POWER_CONTROL_REQUEST structure pointer [Kernel-Mode Driver Architecture], _PEP_POWER_CONTROL_REQUEST, kernel.pep_power_control_request, pepfx/PEP_POWER_CONTROL_REQUEST, pepfx/PPEP_POWER_CONTROL_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_POWER_CONTROL_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST"
+req.typenames: PEP_POWER_CONTROL_REQUEST, *PPEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST, *PPEP_POWER_CONTROL_REQUEST
 ---
 
 # _PEP_POWER_CONTROL_REQUEST structure
@@ -129,11 +129,11 @@ The driver for a device can call the <a href="..\wdm\nf-wdm-pofxpowercontrol.md"
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxpowercontrol.md">PoFxPowerControl</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxpowercontrol.md">PoFxPowerControl</a>
 
 
 
@@ -145,5 +145,5 @@ The driver for a device can call the <a href="..\wdm\nf-wdm-pofxpowercontrol.md"
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_POWER_CONTROL_REQUEST structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_POWER_CONTROL_REQUEST structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

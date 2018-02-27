@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 44ab1cf3-abd3-4100-a6ad-51f2322881b1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfwmiprovidergettracinghandle, WdfWmiProviderGetTracingHandle method, wdfwmi/WdfWmiProviderGetTracingHandle, WdfWmiProviderGetTracingHandle, DFWMIRef_eea0d3ab-8fb8-4053-8260-e5c396a06524.xml, kmdf.wdfwmiprovidergettracinghandle
+ms.keywords: DFWMIRef_eea0d3ab-8fb8-4053-8260-e5c396a06524.xml, WdfWmiProviderGetTracingHandle, WdfWmiProviderGetTracingHandle method, kmdf.wdfwmiprovidergettracinghandle, wdf.wdfwmiprovidergettracinghandle, wdfwmi/WdfWmiProviderGetTracingHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,11 +123,11 @@ tracingHandle = WdfWmiProviderGetTracingHandle(wmiProvider);</pre>
 
 
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetprovider.md">WdfWmiInstanceGetProvider</a>
-
-
-
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
+
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetprovider.md">WdfWmiInstanceGetProvider</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: print\iprintoemui2_documentevent.htm
 old-project: print
 ms.assetid: c98d1510-7db8-4fd6-a95f-1906f553d1c5
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: DocumentEvent method [Print Devices], print.iprintoemui2_documentevent, DocumentEvent method [Print Devices], IPrintOemUI2 interface, print_unidrv-pscript_ui_03e403e4-7b60-413c-a8d2-025b3124f427.xml, DocumentEvent, IPrintOemUI2::DocumentEvent, IPrintOemUI2, prcomoem/IPrintOemUI2::DocumentEvent, IPrintOemUI2 interface [Print Devices], DocumentEvent method
+ms.date: 2/23/2018
+ms.keywords: DocumentEvent method [Print Devices], DocumentEvent method [Print Devices], IPrintOemUI2 interface, DocumentEvent,IPrintOemUI2.DocumentEvent, IPrintOemUI2, IPrintOemUI2 interface [Print Devices], DocumentEvent method, IPrintOemUI2::DocumentEvent, prcomoem/IPrintOemUI2::DocumentEvent, print.iprintoemui2_documentevent, print_unidrv-pscript_ui_03e403e4-7b60-413c-a8d2-025b3124f427.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUI2.DocumentEvent
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -603,29 +603,29 @@ For a plug-in writer who is implementing the <b>IPrintOemUI2</b> interface, but 
 
 ## -see-also
 
-<a href="..\winddiui\ns-winddiui-_docevent_createdcpre.md">DOCEVENT_CREATEDCPRE</a>
-
-
-
-<a href="https://msdn.microsoft.com/9b7afb56-7abb-4f20-b69d-12a28d7e3617">IPrintOemUI2</a>
-
-
-
-<a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
-
-
-
-<a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
-
-
-
 <a href="..\winddiui\ns-winddiui-_docevent_filter.md">DOCEVENT_FILTER</a>
 
 
 
- 
+<a href="..\winddiui\ns-winddiui-_docevent_createdcpre.md">DOCEVENT_CREATEDCPRE</a>
+
+
+
+<a href="..\winddiui\ns-winddiui-_docevent_escape.md">DOCEVENT_ESCAPE</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemui2.md">IPrintOemUI2</a>
+
+
+
+<a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUI2::DocumentEvent method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUI2::DocumentEvent method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

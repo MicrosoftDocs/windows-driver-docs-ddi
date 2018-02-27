@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: DC0AB4E3-AA73-4DD5-B91D-95F9D3792321
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercxapplyconfig, EvtSerCxApplyConfig callback function [Serial Ports], EvtSerCxApplyConfig, EVT_SERCX_APPLY_CONFIG, EVT_SERCX_APPLY_CONFIG, 1/EvtSerCxApplyConfig
+ms.keywords: 1/EvtSerCxApplyConfig, EVT_SERCX_APPLY_CONFIG, EvtSerCxApplyConfig, EvtSerCxApplyConfig callback function [Serial Ports], serports.evtsercxapplyconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -258,11 +258,11 @@ The PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER and PPNP_SERIAL_BUS_DESCRIPTOR
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_apply_default_configuration.md">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercxgetconnectionparameters.md">SerCxGetConnectionParameters</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_apply_default_configuration.md">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a>
 
 
 

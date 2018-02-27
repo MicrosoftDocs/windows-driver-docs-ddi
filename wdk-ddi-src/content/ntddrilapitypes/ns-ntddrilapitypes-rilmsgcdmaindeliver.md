@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fdff17ac-2ffd-45b0-8f01-a21af1ffa9d0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*LPRILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER, netvista.rilmsgcdmaindeliver, RILMSGCDMAINDELIVER structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMSGCDMAINDELIVER"
+ms.keywords: "*LPRILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER structure [Network Drivers Starting with Windows Vista], netvista.rilmsgcdmaindeliver, ntddrilapitypes/RILMSGCDMAINDELIVER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILMSGCDMAINDELIVER
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER"
+req.typenames: RILMSGCDMAINDELIVER, *LPRILMSGCDMAINDELIVER
 ---
 
 # RILMSGCDMAINDELIVER structure

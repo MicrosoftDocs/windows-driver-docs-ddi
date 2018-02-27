@@ -7,8 +7,8 @@ old-location: stream\bdacommitchanges.htm
 old-project: stream
 ms.assetid: 89bac523-65f1-462e-a734-285cda9e33ac
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: BdaCommitChanges function [Streaming Media Devices], bdaref_41fbbc81-4461-47a2-ba7a-725b696329f3.xml, bdasup/BdaCommitChanges, stream.bdacommitchanges, BdaCommitChanges
+ms.date: 2/23/2018
+ms.keywords: BdaCommitChanges, BdaCommitChanges function [Streaming Media Devices], bdaref_41fbbc81-4461-47a2-ba7a-725b696329f3.xml, bdasup/BdaCommitChanges, stream.bdacommitchanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	BdaCommitChanges
 product: Windows
 targetos: Windows
-req.typenames: "*PKSP_BDA_NODE_PIN, KSP_BDA_NODE_PIN"
+req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 ---
 
 # BdaCommitChanges function
@@ -120,19 +120,7 @@ See <a href="https://msdn.microsoft.com/1c0dace6-b618-4705-bf5d-65457d14c072">De
 
 
 
-<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
-
-
-
-<a href="..\bdasup\nf-bdasup-bdastartchanges.md">BdaStartChanges</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563409">KSMETHOD_BDA_COMMIT_CHANGES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556518">BDA_CHANGE_STATE</a>
 
 
 
@@ -140,9 +128,21 @@ See <a href="https://msdn.microsoft.com/1c0dace6-b618-4705-bf5d-65457d14c072">De
 
 
 
- 
+<a href="..\bdasup\nf-bdasup-bdastartchanges.md">BdaStartChanges</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556518">BDA_CHANGE_STATE</a>
+
+
+
+<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaCommitChanges function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaCommitChanges function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

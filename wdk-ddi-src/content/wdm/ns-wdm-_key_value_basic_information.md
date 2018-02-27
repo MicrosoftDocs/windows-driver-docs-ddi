@@ -7,8 +7,8 @@ old-location: kernel\key_value_basic_information.htm
 old-project: kernel
 ms.assetid: b3b14c21-3613-4f84-9e7d-368c4cc3fa9d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kstruct_c_ba44285c-18a4-4a35-a31b-c2a6573d7023.xml, KEY_VALUE_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], KEY_VALUE_BASIC_INFORMATION, wdm/KEY_VALUE_BASIC_INFORMATION, _KEY_VALUE_BASIC_INFORMATION, PKEY_VALUE_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.key_value_basic_information, *PKEY_VALUE_BASIC_INFORMATION, wdm/PKEY_VALUE_BASIC_INFORMATION, PKEY_VALUE_BASIC_INFORMATION
+ms.date: 2/24/2018
+ms.keywords: "*PKEY_VALUE_BASIC_INFORMATION, KEY_VALUE_BASIC_INFORMATION, KEY_VALUE_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_VALUE_BASIC_INFORMATION, PKEY_VALUE_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_VALUE_BASIC_INFORMATION, kernel.key_value_basic_information, kstruct_c_ba44285c-18a4-4a35-a31b-c2a6573d7023.xml, wdm/KEY_VALUE_BASIC_INFORMATION, wdm/PKEY_VALUE_BASIC_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -230,11 +230,11 @@ A kernel-mode driver can obtain a <b>KEY_VALUE_BASIC_INFORMATION</b> that descri
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
 
 
 
-<a href="..\wdm\ne-wdm-_key_value_information_class.md">KEY_VALUE_INFORMATION_CLASS</a>
+<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
 
 
 
@@ -246,7 +246,7 @@ A kernel-mode driver can obtain a <b>KEY_VALUE_BASIC_INFORMATION</b> that descri
 
 
 
-<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
 
 
 
@@ -254,5 +254,5 @@ A kernel-mode driver can obtain a <b>KEY_VALUE_BASIC_INFORMATION</b> that descri
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KEY_VALUE_BASIC_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KEY_VALUE_BASIC_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

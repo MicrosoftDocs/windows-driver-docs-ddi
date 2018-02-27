@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dd1730f5-58ff-4d0d-9a00-17cd1fe36c5f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PFLT_RELATED_OBJECTS, fltkernel/FLT_RELATED_OBJECTS, ifsk.flt_related_objects, PFLT_RELATED_OBJECTS structure pointer [Installable File System Drivers], FLT_RELATED_OBJECTS structure [Installable File System Drivers], FLT_RELATED_OBJECTS, FltSystemStructures_24fcdf06-9d2e-41bf-89f8-08cb37782089.xml, _FLT_RELATED_OBJECTS, *PFLT_RELATED_OBJECTS, fltkernel/PFLT_RELATED_OBJECTS
+ms.keywords: "*PFLT_RELATED_OBJECTS, FLT_RELATED_OBJECTS, FLT_RELATED_OBJECTS structure [Installable File System Drivers], FltSystemStructures_24fcdf06-9d2e-41bf-89f8-08cb37782089.xml, PFLT_RELATED_OBJECTS, PFLT_RELATED_OBJECTS structure pointer [Installable File System Drivers], _FLT_RELATED_OBJECTS, fltkernel/FLT_RELATED_OBJECTS, fltkernel/PFLT_RELATED_OBJECTS, ifsk.flt_related_objects"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -150,6 +150,30 @@ To retrieve pointers to a minifilter driver's contexts for the objects in an FLT
 
 ## -see-also
 
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_query_teardown_callback.md">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_related_contexts.md">FLT_RELATED_CONTEXTS</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
+
+
+
 <a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
 
 
@@ -159,30 +183,6 @@ To retrieve pointers to a minifilter driver's contexts for the objects in an FLT
 
 
 <a href="..\fltkernel\nf-fltkernel-fltdocompletionprocessingwhensafe.md">FltDoCompletionProcessingWhenSafe</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_query_teardown_callback.md">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>
 
 
 

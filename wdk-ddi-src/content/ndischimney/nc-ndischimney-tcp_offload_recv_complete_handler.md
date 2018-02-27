@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 78201512-6b70-4b4b-9016-0f42fed41ac6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocoltcpoffloadreceivecomplete, ProtocolTcpOffloadReceiveComplete callback function [Network Drivers Starting with Windows Vista], ProtocolTcpOffloadReceiveComplete, TCP_OFFLOAD_RECV_COMPLETE_HANDLER, TCP_OFFLOAD_RECV_COMPLETE_HANDLER, ndischimney/ProtocolTcpOffloadReceiveComplete, tcp_chim_protocol_func_3f02ff3b-3b86-4a30-8022-2c540b5e9484.xml
+ms.keywords: ProtocolTcpOffloadReceiveComplete, ProtocolTcpOffloadReceiveComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_RECV_COMPLETE_HANDLER, ndischimney/ProtocolTcpOffloadReceiveComplete, netvista.protocoltcpoffloadreceivecomplete, tcp_chim_protocol_func_3f02ff3b-3b86-4a30-8022-2c540b5e9484.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -140,20 +140,20 @@ In response, NDIS calls the overlying driver's
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
    NdisOffloadTcpReceiveComplete</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceive.md">NdisOffloadTcpReceive</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 

@@ -4,11 +4,11 @@ title: IDebugSystemObjects
 author: windows-driver-content
 description: IDebugSystemObjects interface
 old-location: debugger\idebugsystemobjects.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: ed830f09-10c0-4614-b002-8ede0e5e30bb
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.idebugsystemobjects, IDebugSystemObjects interface [Windows Debugging], IDebugSystemObjects interface [Windows Debugging], described, IDebugSystemObjects, dbgeng/IDebugSystemObjects, IDebugSystemObjects_82c2f1f3-4eb4-4071-ba0b-d2e4d2929ce2.xml
+ms.date: 2/23/2018
+ms.keywords: IDebugSystemObjects, IDebugSystemObjects interface [Windows Debugging], IDebugSystemObjects interface [Windows Debugging], described, IDebugSystemObjects_82c2f1f3-4eb4-4071-ba0b-d2e4d2929ce2.xml, dbgeng/IDebugSystemObjects, debugger.idebugsystemobjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -50,6 +50,13 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSystemObjects</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugSystemObjects</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -320,84 +327,26 @@ Makes the specified thread the current thread.
 
 </td>
 </tr>
-</table>Returns the location of the system data structure describing the current process.
-
-Returns the name of executable file loaded in the current process.
-
-Returns the system handle for the current process.
-
-Returns the engine process ID for the current process.
-
-Returns the process environment block (PEB) of the current process.
-
-Returns the system process ID of the current process.
-
-Returns the location of the system data structure for the current thread.
-
-Returns the system handle for the current thread.
-
-Returns the engine thread ID for the current thread.
-
-Returns the system thread ID of the current thread.
-
-Returns the location of the thread environment block (TEB) for the current thread.
-
-Returns the engine process ID for the process on which the last event occurred.
-
-Returns the engine thread ID for the thread on which the last event occurred.
-
-Returns the number of processes for the current target.
-
-Returns the number of threads in the current process.
-
-Returns the engine process ID for the specified process.
-
-Returns the engine process ID for the specified process.
-
-Returns the engine process ID for the specified process.
-
-Returns the engine process ID for a process specified by its system process ID.
-
-Returns the engine process ID and system process ID for the specified processes in the current target.
-
-Returns the engine thread ID for the specified thread.
-
-Returns the engine thread ID for the specified thread.
-
-Returns the engine thread ID for the kernel-modevirtual thread corresponding to the specified processor.
-
-Returns the engine thread ID for the specified thread.
-
-Returns the engine thread ID of the specified thread.
-
-Returns the engine and system thread IDs for the specified threads in the current process.
-
-Returns the total number of threads for all the processes in the current target, in addition to the largest number of threads in any process for the current target.
-
-Makes the specified process the current process.
-
-Makes the specified thread the current thread.
-
- 
+</table> 
 
 
 ## -see-also
+
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects2.md">IDebugSystemObjects2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSystemObjects interface%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSystemObjects interface%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\d3dwddm1_3ddi_tile_mapping_flag.htm
 old-project: display
 ms.assetid: 1149547D-9165-42AA-B12A-5C7681A8EAC1
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3d10umddi/D3DWDDM1_3DDI_TILE_MAPPING_FLAG, d3d10umddi/D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE, display.d3dwddm1_3ddi_tile_mapping_flag, D3DWDDM1_3DDI_TILE_MAPPING_FLAG enumeration [Display Devices], D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE, D3DWDDM1_3DDI_TILE_MAPPING_FLAG
+ms.date: 2/24/2018
+ms.keywords: D3DWDDM1_3DDI_TILE_MAPPING_FLAG, D3DWDDM1_3DDI_TILE_MAPPING_FLAG enumeration [Display Devices], D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE, d3d10umddi/D3DWDDM1_3DDI_TILE_MAPPING_FLAG, d3d10umddi/D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE, display.d3dwddm1_3ddi_tile_mapping_flag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

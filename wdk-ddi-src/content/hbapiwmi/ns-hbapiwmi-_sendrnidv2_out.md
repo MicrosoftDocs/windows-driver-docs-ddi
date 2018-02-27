@@ -7,8 +7,8 @@ old-location: storage\sendrnidv2_out.htm
 old-project: storage
 ms.assetid: 2d8f1b49-5add-4dd9-998f-d0c1e79f3e7d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: hbapiwmi/SendRNIDV2_OUT, structs-Fibre_78855dda-228d-432f-8189-8be83df6d2ea.xml, PSendRNIDV2_OUT, _SendRNIDV2_OUT, *PSendRNIDV2_OUT, SendRNIDV2_OUT, storage.sendrnidv2_out, hbapiwmi/PSendRNIDV2_OUT, SendRNIDV2_OUT structure [Storage Devices], PSendRNIDV2_OUT structure pointer [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PSendRNIDV2_OUT, PSendRNIDV2_OUT, PSendRNIDV2_OUT structure pointer [Storage Devices], SendRNIDV2_OUT, SendRNIDV2_OUT structure [Storage Devices], _SendRNIDV2_OUT, hbapiwmi/PSendRNIDV2_OUT, hbapiwmi/SendRNIDV2_OUT, storage.sendrnidv2_out, structs-Fibre_78855dda-228d-432f-8189-8be83df6d2ea.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SendRNIDV2_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSendRNIDV2_OUT, SendRNIDV2_OUT"
+req.typenames: SendRNIDV2_OUT, *PSendRNIDV2_OUT
 ---
 
 # _SendRNIDV2_OUT structure
@@ -109,5 +109,5 @@ The WMI tool suite generates a declaration of the SendRNIDV2_OUT structure in <i
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SendRNIDV2_OUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SendRNIDV2_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

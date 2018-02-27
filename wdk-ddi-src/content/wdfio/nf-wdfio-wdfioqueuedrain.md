@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 376579c6-545d-4f5a-8ba4-0046c0b2b755
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfIoQueueDrain method, DFQueueObjectRef_39ca90c2-1fc9-4f1c-b05f-d46f668a3cd1.xml, kmdf.wdfioqueuedrain, WdfIoQueueDrain, wdf.wdfioqueuedrain, wdfio/WdfIoQueueDrain
+ms.keywords: DFQueueObjectRef_39ca90c2-1fc9-4f1c-b05f-d46f668a3cd1.xml, WdfIoQueueDrain, WdfIoQueueDrain method, kmdf.wdfioqueuedrain, wdf.wdfioqueuedrain, wdfio/WdfIoQueueDrain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -143,15 +143,15 @@ The following code example drains an I/O queue and calls a driver's <b>EvtIoQueu
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuedrainsynchronously.md">WdfIoQueueDrainSynchronously</a>
-
-
-
 <a href="..\wdfio\nf-wdfio-wdfioqueuepurge.md">WdfIoQueuePurge</a>
 
 
 
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuedrainsynchronously.md">WdfIoQueueDrainSynchronously</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 11e8338d-4ca3-49a4-8cfe-ac9f15434b4f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FwpsDiscardClonedStreamData0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_D-H_b09851bf-8f28-4f16-8c7d-b6f89b276845.xml, netvista.fwpsdiscardclonedstreamdata0, FwpsDiscardClonedStreamData0, fwpsk/FwpsDiscardClonedStreamData0
+ms.keywords: FwpsDiscardClonedStreamData0, FwpsDiscardClonedStreamData0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsDiscardClonedStreamData0, netvista.fwpsdiscardclonedstreamdata0, wfp_ref_2_funct_3_fwps_D-H_b09851bf-8f28-4f16-8c7d-b6f89b276845.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,11 +121,11 @@ This function can be called when a cloned
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpsclonestreamdata0.md">FwpsCloneStreamData0</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

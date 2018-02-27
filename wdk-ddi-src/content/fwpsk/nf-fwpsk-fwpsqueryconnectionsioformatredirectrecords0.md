@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: AE24409D-AA60-4694-8855-AB2B0F6B1635
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fwpsk/FwpsQueryConnectionSioFormatRedirectRecords0, FwpsQueryConnectionSioFormatRedirectRecords0 function [Network Drivers Starting with Windows Vista], FwpsQueryConnectionSioFormatRedirectRecords0, netvista.fwpsqueryconnectionsioformatredirectrecords0
+ms.keywords: FwpsQueryConnectionSioFormatRedirectRecords0, FwpsQueryConnectionSioFormatRedirectRecords0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryConnectionSioFormatRedirectRecords0, netvista.fwpsqueryconnectionsioformatredirectrecords0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -153,7 +153,7 @@ The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function is designed to 
 
 
 
-<a href="https://msdn.microsoft.com/E0D7CC1A-8F93-45A0-9543-3F2ACAF352F5">SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS (SDK)</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh859713">SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS (WDK)</a>
 
 
 
@@ -161,11 +161,11 @@ The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function is designed to 
 
 
 
-<a href="https://msdn.microsoft.com/0AC78ED4-A6EC-4D62-919C-1EF7CDE8EE80">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS (SDK)</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh859714">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS (WDK)</a>
+
+
+
+<a href="https://msdn.microsoft.com/0AC78ED4-A6EC-4D62-919C-1EF7CDE8EE80">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS (SDK)</a>
 
 
 

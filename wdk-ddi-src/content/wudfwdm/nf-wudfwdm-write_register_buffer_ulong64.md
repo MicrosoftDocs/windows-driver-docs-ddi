@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 18858A87-D7D8-4387-AD84-6717EC3DAC25
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WRITE_REGISTER_BUFFER_ULONG64, wdf.write_register_buffer_ulong64, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_ULONG64, umdf.write_register_buffer_ulong64, WRITE_REGISTER_BUFFER_ULONG64 function
+ms.keywords: WRITE_REGISTER_BUFFER_ULONG64, WRITE_REGISTER_BUFFER_ULONG64 function, umdf.write_register_buffer_ulong64, wdf.write_register_buffer_ulong64, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_ULONG64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WRITE_REGISTER_BUFFER_ULONG64
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT"
+req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
 req.product: Windows 10 or later.
 ---
 

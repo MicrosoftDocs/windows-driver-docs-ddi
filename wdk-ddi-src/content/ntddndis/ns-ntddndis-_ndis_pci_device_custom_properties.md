@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fd61184f-0502-492d-9014-6afbfd70c189
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddndis/PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES, ntddndis/NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, *PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES, PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES, NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, ndis_pci_properties_ref_46b46f9e-32d9-47fb-ad16-bb8b56a5d5bd.xml, PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, NDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure [Network Drivers Starting with Windows Vista], netvista.ndis_pci_device_custom_properties
+ms.keywords: "*PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES, NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, NDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure [Network Drivers Starting with Windows Vista], PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES, PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, ndis_pci_properties_ref_46b46f9e-32d9-47fb-ad16-bb8b56a5d5bd.xml, netvista.ndis_pci_device_custom_properties, ntddndis/NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, ntddndis/PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PCI_DEVICE_CUSTOM_PROPERTIES
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES, NDIS_PCI_DEVICE_CUSTOM_PROPERTIES"
+req.typenames: NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, *PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES
 ---
 
 # _NDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure
@@ -201,12 +201,12 @@ Some high performance miniport adapters can adjust the hardware configuration an
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566745">
    GUID_NDIS_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
 
 
 

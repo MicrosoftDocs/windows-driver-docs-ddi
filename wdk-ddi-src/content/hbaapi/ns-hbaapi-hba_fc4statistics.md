@@ -7,8 +7,8 @@ old-location: storage\hba_fc4statistics.htm
 old-project: storage
 ms.assetid: e1e37d2c-5688-4528-9cc5-62e70a7561fe
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: hbaapi/PHBA_FC4STATISTICS, structs-Fibre_1ab7a8f5-1b91-44ea-82b7-9c9ee92ce0e5.xml, HBA_FC4STATISTICS structure [Storage Devices], HBA_FC4Statistics structure [Storage Devices], HBA_FC4Statistics, PHBA_FC4STATISTICS, HBA_FC4STATISTICS, PHBA_FC4STATISTICS structure pointer [Storage Devices], storage.hba_fc4statistics, *PHBA_FC4STATISTICS, hbaapi/HBA_FC4Statistics
+ms.date: 2/24/2018
+ms.keywords: "*PHBA_FC4STATISTICS, HBA_FC4STATISTICS, HBA_FC4STATISTICS structure [Storage Devices], HBA_FC4Statistics, HBA_FC4Statistics structure [Storage Devices], PHBA_FC4STATISTICS, PHBA_FC4STATISTICS structure pointer [Storage Devices], hbaapi/HBA_FC4Statistics, hbaapi/PHBA_FC4STATISTICS, storage.hba_fc4statistics, structs-Fibre_1ab7a8f5-1b91-44ea-82b7-9c9ee92ce0e5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,5 +106,5 @@ Contains the number of megabytes of output data that a port has transmitted.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_FC4Statistics structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_FC4Statistics structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

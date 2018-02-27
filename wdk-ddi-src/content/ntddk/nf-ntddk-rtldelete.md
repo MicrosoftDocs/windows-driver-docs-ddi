@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ca73b7cf-56c0-4e83-8804-59f73fbd4714
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlDelete, ifsk.rtldelete, rtlref_637fb420-7027-4426-a4a0-7ae887ad1950.xml, ntddk/RtlDelete, RtlDelete routine [Installable File System Drivers]
+ms.keywords: RtlDelete, RtlDelete routine [Installable File System Drivers], ifsk.rtldelete, ntddk/RtlDelete, rtlref_637fb420-7027-4426-a4a0-7ae887ad1950.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlDelete
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlDelete function
@@ -96,6 +96,14 @@ Callers of <b>RtlDelete</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the 
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtldeletenosplay.md">RtlDeleteNoSplay</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
 
 
@@ -104,15 +112,7 @@ Callers of <b>RtlDelete</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the 
 
 
 
-<a href="..\ntddk\nf-ntddk-rtldeletenosplay.md">RtlDeleteNoSplay</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7ce47eab-c1d7-4a0d-accb-c8a925aa3d1d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfPdoInitSetEventCallbacks method, wdfpdo/WdfPdoInitSetEventCallbacks, wdf.wdfpdoinitseteventcallbacks, DFDeviceObjectFdoPdoRef_00002737-467e-4449-8c6c-498860a18747.xml, kmdf.wdfpdoinitseteventcallbacks, WdfPdoInitSetEventCallbacks
+ms.keywords: DFDeviceObjectFdoPdoRef_00002737-467e-4449-8c6c-498860a18747.xml, WdfPdoInitSetEventCallbacks, WdfPdoInitSetEventCallbacks method, kmdf.wdfpdoinitseteventcallbacks, wdf.wdfpdoinitseteventcallbacks, wdfpdo/WdfPdoInitSetEventCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfPdoInitSetEventCallbacks
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
+req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -128,11 +128,11 @@ WdfPdoInitSetEventCallbacks(
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdf_pdo_event_callbacks_init.md">WDF_PDO_EVENT_CALLBACKS_INIT</a>
-
-
-
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitallocate.md">WdfPdoInitAllocate</a>
+
+
+
+<a href="..\wdfpdo\nf-wdfpdo-wdf_pdo_event_callbacks_init.md">WDF_PDO_EVENT_CALLBACKS_INIT</a>
 
 
 

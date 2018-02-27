@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 32d3b680-298b-443e-a2c4-db8fc057bf75
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfdevice2_assignsxwakesettings, AssignSxWakeSettings method, UMDFDeviceObjectRef_7e411333-6c21-4ed6-af60-b78f3a32bd65.xml, IWDFDevice2 interface, AssignSxWakeSettings method, wdf.iwdfdevice2_assignsxwakesettings, IWDFDevice2::AssignSxWakeSettings, IWDFDevice2, AssignSxWakeSettings, wudfddi/IWDFDevice2::AssignSxWakeSettings, AssignSxWakeSettings method, IWDFDevice2 interface
+ms.keywords: AssignSxWakeSettings method, AssignSxWakeSettings method, IWDFDevice2 interface, AssignSxWakeSettings,IWDFDevice2.AssignSxWakeSettings, IWDFDevice2, IWDFDevice2 interface, AssignSxWakeSettings method, IWDFDevice2::AssignSxWakeSettings, UMDFDeviceObjectRef_7e411333-6c21-4ed6-af60-b78f3a32bd65.xml, umdf.iwdfdevice2_assignsxwakesettings, wdf.iwdfdevice2_assignsxwakesettings, wudfddi/IWDFDevice2::AssignSxWakeSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -79,12 +79,12 @@ A <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>-
 
 ### -param UserControlOfWakeSettings [in]
 
-A <a href="..\wdfdevice\ne-wdfdevice-_wdf_power_policy_sx_wake_user_control.md">WDF_POWER_POLICY_SX_WAKE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's wake settings.
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_sx_wake_user_control.md">WDF_POWER_POLICY_SX_WAKE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's wake settings.
 
 
 ### -param Enabled [in]
 
-A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator that indicates whether the device can wake the system (that is, restore the system to S0) when the system is in a low-power state. This member can have one of the following values:
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator that indicates whether the device can wake the system (that is, restore the system to S0) when the system is in a low-power state. This member can have one of the following values:
 
 <b>WdfTrue</b> - Waking the system is enabled.
 

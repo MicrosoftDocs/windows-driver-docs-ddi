@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: E08674F1-CE63-464B-9C70-96F93C574753
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SPB.evtspbcontrollerlock, EvtSpbControllerLock callback function [Buses], EvtSpbControllerLock, EVT_SPB_CONTROLLER_LOCK, EVT_SPB_CONTROLLER_LOCK, spbcx/EvtSpbControllerLock
+ms.keywords: EVT_SPB_CONTROLLER_LOCK, EvtSpbControllerLock, EvtSpbControllerLock callback function [Buses], SPB.evtspbcontrollerlock, spbcx/EvtSpbControllerLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	EvtSpbControllerLock
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_TRANSFER_LIST_ENTRY, SPB_TRANSFER_LIST_ENTRY"
+req.typenames: SPB_TRANSFER_LIST_ENTRY, *PSPB_TRANSFER_LIST_ENTRY
 req.product: Windows 10 or later.
 ---
 
@@ -165,19 +165,11 @@ The EVT_SPB_CONTROLLER_LOCK function type is defined in the Spbcx.h header file.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406206">SPB_CONTROLLER_CONFIG</a>
 
 
 
@@ -185,7 +177,15 @@ The EVT_SPB_CONTROLLER_LOCK function type is defined in the Spbcx.h header file.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
 
 
 
@@ -193,7 +193,7 @@ The EVT_SPB_CONTROLLER_LOCK function type is defined in the Spbcx.h header file.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406206">SPB_CONTROLLER_CONFIG</a>
+<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
 
 
 

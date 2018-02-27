@@ -7,8 +7,8 @@ old-location: dtf\iwdtfaction2.htm
 old-project: dtf
 ms.assetid: 0ca56301-9e46-4082-a5a4-41a9c655fbd8
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfaction2, IWDTFAction2 interface [Windows Device Testing Framework], IWDTFAction2 interface [Windows Device Testing Framework], described, IWDTFAction2, wdtf/IWDTFAction2, Microsoft.WDTF.IWDTFAction2
+ms.date: 2/23/2018
+ms.keywords: IWDTFAction2, IWDTFAction2 interface [Windows Device Testing Framework], IWDTFAction2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFAction2, dtf.iwdtfaction2, wdtf/IWDTFAction2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -53,6 +53,14 @@ req.product: Windows 10 or later.
 Defines operations and properties that can control an instance of the 
 <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a> interface.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFAction2</b> interface inherits from <b>IAction</b>. <b>IWDTFAction2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
 
 ## -members
 
@@ -125,23 +133,8 @@ Gets a value that indicates whether the last operation was successful.
 
 </td>
 </tr>
-</table>Disables object error logging for the action.
-
-Disables object logging for the action.
-
-Enables object error logging for the action.
-
-Enables object logging for the action.
-
-Returns the status code for the last operation.
-
-Returns the status for the last operation as a string.
-
-Gets a value that indicates whether the last operation was successful.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFAction2</b> interface has these properties.
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFAction2</b> interface has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
@@ -164,13 +157,5 @@ Gets the target to which this action refers.
 
 </td>
 </tr>
-</table>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406329">Target</a>
-
-
-Read-only
-
-Gets the target to which this action refers.
-
- 
+</table> 
 

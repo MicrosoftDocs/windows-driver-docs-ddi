@@ -7,8 +7,8 @@ old-location: print\oemescape.htm
 old-project: print
 ms.assetid: 3acc1c1f-5696-4297-a34e-047e402dbdcb
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: OEMEscape, print.oemescape, print_unidrv-pscript_rendering_6f5f3a3e-6027-4524-bb11-1010dfc48727.xml, printoem/OEMEscape, OEMEscape function [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: OEMEscape, OEMEscape function [Print Devices], print.oemescape, print_unidrv-pscript_rendering_6f5f3a3e-6027-4524-bb11-1010dfc48727.xml, printoem/OEMEscape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

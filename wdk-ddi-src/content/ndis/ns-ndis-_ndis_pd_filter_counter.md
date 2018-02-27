@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 74660B47-0219-4724-AD7E-B20A2BB520EB
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_pd_filter_counter, _NDIS_PD_FILTER_COUNTER, PNDIS_PD_FILTER_COUNTER structure pointer [Network Drivers Starting with Windows Vista], PNDIS_PD_FILTER_COUNTER, ndis/PNDIS_PD_FILTER_COUNTER, NDIS_PD_FILTER_COUNTER, NDIS_PD_FILTER_COUNTER structure [Network Drivers Starting with Windows Vista], ndis/NDIS_PD_FILTER_COUNTER
+ms.keywords: NDIS_PD_FILTER_COUNTER, NDIS_PD_FILTER_COUNTER structure [Network Drivers Starting with Windows Vista], PNDIS_PD_FILTER_COUNTER, PNDIS_PD_FILTER_COUNTER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_FILTER_COUNTER, ndis/NDIS_PD_FILTER_COUNTER, ndis/PNDIS_PD_FILTER_COUNTER, netvista.ndis_pd_filter_counter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

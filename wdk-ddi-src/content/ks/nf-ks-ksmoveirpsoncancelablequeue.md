@@ -7,8 +7,8 @@ old-location: stream\ksmoveirpsoncancelablequeue.htm
 old-project: stream
 ms.assetid: 1f6b4d93-fca8-40da-b87e-c95169f142ea
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KsMoveIrpsOnCancelableQueue, stream.ksmoveirpsoncancelablequeue, KsMoveIrpsOnCancelableQueue function [Streaming Media Devices], ks/KsMoveIrpsOnCancelableQueue, ksfunc_e01b21f7-96b7-4a6c-b6cb-3667d7b6b4dc.xml
+ms.date: 2/23/2018
+ms.keywords: KsMoveIrpsOnCancelableQueue, KsMoveIrpsOnCancelableQueue function [Streaming Media Devices], ks/KsMoveIrpsOnCancelableQueue, ksfunc_e01b21f7-96b7-4a6c-b6cb-3667d7b6b4dc.xml, stream.ksmoveirpsoncancelablequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -141,5 +141,5 @@ The function can be called at DISPATCH_LEVEL or lower.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsMoveIrpsOnCancelableQueue function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsMoveIrpsOnCancelableQueue function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 0E0480BA-0F9D-4AD4-8FEC-35B3757494B9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_maskinterrupts, CLIENT_MaskInterrupts callback function [Parallel Ports], CLIENT_MaskInterrupts, GPIO_CLIENT_MASK_INTERRUPTS, GPIO_CLIENT_MASK_INTERRUPTS, gpioclx/CLIENT_MaskInterrupts
+ms.keywords: CLIENT_MaskInterrupts, CLIENT_MaskInterrupts callback function [Parallel Ports], GPIO.client_maskinterrupts, GPIO_CLIENT_MASK_INTERRUPTS, gpioclx/CLIENT_MaskInterrupts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_MaskInterrupts
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO"
+req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
 
 # GPIO_CLIENT_MASK_INTERRUPTS callback
@@ -145,15 +145,11 @@ The GPIO_CLIENT_MASK_INTERRUPTS function type is defined in the Gpioclx.h header
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698252">GPIO_MASK_INTERRUPT_PARAMETERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 
 
@@ -161,7 +157,11 @@ The GPIO_CLIENT_MASK_INTERRUPTS function type is defined in the Gpioclx.h header
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698252">GPIO_MASK_INTERRUPT_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 

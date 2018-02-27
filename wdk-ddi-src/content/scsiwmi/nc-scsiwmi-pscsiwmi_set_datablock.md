@@ -7,8 +7,8 @@ old-location: storage\hwscsiwmisetdatablock.htm
 old-project: storage
 ms.assetid: 5523d4d6-8eb5-48eb-a652-6612101b8422
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.hwscsiwmisetdatablock, HwScsiWmiSetDataBlock, HwScsiWmiSetDataBlock callback function [Storage Devices], HwScsiWmiSetDataBlock, PSCSIWMI_SET_DATABLOCK, PSCSIWMI_SET_DATABLOCK, scsiwmi/HwScsiWmiSetDataBlock, Scsimini_b75fb6d1-48dc-4fcb-ae05-bf278c382ecf.xml
+ms.date: 2/24/2018
+ms.keywords: HwScsiWmiSetDataBlock, HwScsiWmiSetDataBlock callback function [Storage Devices], PSCSIWMI_SET_DATABLOCK, Scsimini_b75fb6d1-48dc-4fcb-ae05-bf278c382ecf.xml, scsiwmi/HwScsiWmiSetDataBlock, storage.hwscsiwmisetdatablock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	HwScsiWmiSetDataBlock
 product: Windows
 targetos: Windows
-req.typenames: "*PSCSISCAN_INFO, SCSISCAN_INFO"
+req.typenames: SCSISCAN_INFO, *PSCSISCAN_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -131,6 +131,10 @@ The miniport driver should call <a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostpr
 
 ## -see-also
 
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+
+
+
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
 
 
@@ -139,13 +143,9 @@ The miniport driver should call <a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostpr
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20PSCSIWMI_SET_DATABLOCK callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20PSCSIWMI_SET_DATABLOCK callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

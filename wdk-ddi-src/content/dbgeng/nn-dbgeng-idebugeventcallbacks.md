@@ -4,11 +4,11 @@ title: IDebugEventCallbacks
 author: windows-driver-content
 description: IDebugEventCallbacks interface
 old-location: debugger\idebugeventcallbacks.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: f5e51d0e-0967-4e35-b24b-4bd99c975569
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.idebugeventcallbacks, IDebugEventCallbacks interface [Windows Debugging], IDebugEventCallbacks interface [Windows Debugging], described, IDebugEventCallbacks, dbgeng/IDebugEventCallbacks, ComCallbacks_72745555-ec34-41fa-9305-cf23357bcd17.xml
+ms.date: 2/23/2018
+ms.keywords: ComCallbacks_72745555-ec34-41fa-9305-cf23357bcd17.xml, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], IDebugEventCallbacks interface [Windows Debugging], described, dbgeng/IDebugEventCallbacks, debugger.idebugeventcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -50,6 +50,13 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugEventCallbacks</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugEventCallbacks</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -185,35 +192,7 @@ This method is called by the engine when a module-unload debugging event occurs 
 
 </td>
 </tr>
-</table> This method is called by the engine when the target issues a breakpoint exception.
-
-This method is called by the engine when it makes or detects changes to the target.
-
-This method is called by the engine when its state has changed.
-
-This method is called by the engine when the symbol state changes.
-
-This method is called by the engine when a create-process debugging event occurs in the target.
-
-This method is called by the engine when a create-thread debugging event occurs in the target.
-
-This method is called by the engine when an exception debugging event occurs in the target.
-
-This method is called by the engine when an exit-process debugging event occurs in the target.
-
-This method is called by the engine when an exit-thread debugging event occurs in the target.
-
-This method is called to determine which events the <b>IDebugEventCallbacks</b> object is interested in.
-
-This method is called by the engine when a module-load debugging event occurs in the target.
-
-This method is called by the engine when a change occurs in the debugger session.
-
-This method is called by the engine when a system error occurs in the target.
-
-This method is called by the engine when a module-unload debugging event occurs in the target.
-
- 
+</table> 
 
 
 ## -remarks

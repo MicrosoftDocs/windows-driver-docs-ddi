@@ -7,8 +7,8 @@ old-location: hid\hidp_link_collection_node.htm
 old-project: hid
 ms.assetid: 66ffd219-4a62-404d-ba51-4a91eccfcf96
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: HIDP_LINK_COLLECTION_NODE structure [Human Input Devices], hidstrct_8d1c79e1-c19d-4896-9572-cae49a06304a.xml, PHIDP_LINK_COLLECTION_NODE structure pointer [Human Input Devices], hidpi/PHIDP_LINK_COLLECTION_NODE, *PHIDP_LINK_COLLECTION_NODE, _HIDP_LINK_COLLECTION_NODE, hid.hidp_link_collection_node, hidpi/HIDP_LINK_COLLECTION_NODE, PHIDP_LINK_COLLECTION_NODE, HIDP_LINK_COLLECTION_NODE
+ms.date: 2/24/2018
+ms.keywords: "*PHIDP_LINK_COLLECTION_NODE, HIDP_LINK_COLLECTION_NODE, HIDP_LINK_COLLECTION_NODE structure [Human Input Devices], PHIDP_LINK_COLLECTION_NODE, PHIDP_LINK_COLLECTION_NODE structure pointer [Human Input Devices], _HIDP_LINK_COLLECTION_NODE, hid.hidp_link_collection_node, hidpi/HIDP_LINK_COLLECTION_NODE, hidpi/PHIDP_LINK_COLLECTION_NODE, hidstrct_8d1c79e1-c19d-4896-9572-cae49a06304a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HIDP_LINK_COLLECTION_NODE
 product: Windows
 targetos: Windows
-req.typenames: "*PHIDP_LINK_COLLECTION_NODE, HIDP_LINK_COLLECTION_NODE"
+req.typenames: HIDP_LINK_COLLECTION_NODE, *PHIDP_LINK_COLLECTION_NODE
 ---
 
 # _HIDP_LINK_COLLECTION_NODE structure
@@ -137,6 +137,10 @@ The <a href="..\hidpi\nf-hidpi-hidp_getlinkcollectionnodes.md">HidP_GetLinkColle
 
 ## -see-also
 
+<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
+
+
+
 <a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
 
 
@@ -145,13 +149,9 @@ The <a href="..\hidpi\nf-hidpi-hidp_getlinkcollectionnodes.md">HidP_GetLinkColle
 
 
 
-<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HIDP_LINK_COLLECTION_NODE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HIDP_LINK_COLLECTION_NODE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

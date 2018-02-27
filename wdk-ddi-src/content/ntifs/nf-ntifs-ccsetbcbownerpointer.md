@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fa99ebc4-72d3-42ef-9dda-dcfdd438f66f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: CcSetBcbOwnerPointer, ccref_9ad1d1a5-0600-4cfa-88d3-e4e5d2cd9df1.xml, ntifs/CcSetBcbOwnerPointer, ifsk.ccsetbcbownerpointer, CcSetBcbOwnerPointer routine [Installable File System Drivers]
+ms.keywords: CcSetBcbOwnerPointer, CcSetBcbOwnerPointer routine [Installable File System Drivers], ccref_9ad1d1a5-0600-4cfa-88d3-e4e5d2cd9df1.xml, ifsk.ccsetbcbownerpointer, ntifs/CcSetBcbOwnerPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

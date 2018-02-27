@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: a788cd28-81a7-4b8c-b9c5-76dd2b1cd0f3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: sd-rtns_44707c61-dadc-4151-b06a-8df3def56ab9.xml, SdBusOpenInterface, SdBusOpenInterface function [Buses], ntddsd/SdBusOpenInterface, SD.sdbusopeninterface
+ms.keywords: SD.sdbusopeninterface, SdBusOpenInterface, SdBusOpenInterface function [Buses], ntddsd/SdBusOpenInterface, sd-rtns_44707c61-dadc-4151-b06a-8df3def56ab9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

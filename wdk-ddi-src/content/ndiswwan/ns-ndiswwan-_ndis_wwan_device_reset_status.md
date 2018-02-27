@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D18E8633-BEAD-49A5-A730-10564AFF8A3E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_WWAN_DEVICE_RESET_STATUS, ndiswwan/NDIS_WWAN_DEVICE_RESET_STATUS, _NDIS_WWAN_DEVICE_RESET_STATUS, NDIS_WWAN_DEVICE_RESET_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_RESET_STATUS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_DEVICE_RESET_STATUS, NDIS_WWAN_DEVICE_RESET_STATUS, ndiswwan/PNDIS_WWAN_DEVICE_RESET_STATUS, netvista.ndis_wwan_device_reset_status
+ms.keywords: "*PNDIS_WWAN_DEVICE_RESET_STATUS, NDIS_WWAN_DEVICE_RESET_STATUS, NDIS_WWAN_DEVICE_RESET_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_RESET_STATUS, PNDIS_WWAN_DEVICE_RESET_STATUS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_RESET_STATUS, ndiswwan/NDIS_WWAN_DEVICE_RESET_STATUS, ndiswwan/PNDIS_WWAN_DEVICE_RESET_STATUS, netvista.ndis_wwan_device_reset_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -184,11 +184,11 @@ The operation failed because the device does not support this OID.
 
 
 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-device-reset-status">NDIS_STATUS_WWAN_DEVICE_RESET_STATUS</a>
+
+
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-modem-reset-operations">MB modem reset operations</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-reset">OID_WWAN_DEVICE_RESET</a>
 
 
 

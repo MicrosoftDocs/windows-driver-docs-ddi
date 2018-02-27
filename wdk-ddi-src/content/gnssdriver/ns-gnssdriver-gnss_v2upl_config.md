@@ -7,8 +7,8 @@ old-location: sensors\gnss_v2upl_config.htm
 old-project: sensors
 ms.assetid: A1DCC547-8CAA-46B9-A855-5F591C69A3B0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: gnssdriver/GNSS_V2UPL_CONFIG, PGNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG structure [Sensor Devices], sensors.gnss_v2upl_config, gnssdriver/PGNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG, PGNSS_V2UPL_CONFIG structure pointer [Sensor Devices], *PGNSS_V2UPL_CONFIG
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG structure [Sensor Devices], PGNSS_V2UPL_CONFIG, PGNSS_V2UPL_CONFIG structure pointer [Sensor Devices], gnssdriver/GNSS_V2UPL_CONFIG, gnssdriver/PGNSS_V2UPL_CONFIG, sensors.gnss_v2upl_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -4,11 +4,11 @@ title: IOCTL_USB_HCD_GET_STATS_2
 author: windows-driver-content
 description: The IOCTL_USB_HCD_GET_STATS_2 IOCTL has been deprecated. Do not use.
 old-location: buses\ioctl_usb_hcd_get_stats_2.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 64d229b3-9f06-432d-8d4f-7469e0deb11a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.ioctl_usb_hcd_get_stats_2, IOCTL_USB_HCD_GET_STATS_2 control code [Buses], IOCTL_USB_HCD_GET_STATS_2, usbioctl/IOCTL_USB_HCD_GET_STATS_2, usbirp_62df7d2d-dc01-46bf-8ce8-aa1a0082387e.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_USB_HCD_GET_STATS_2, IOCTL_USB_HCD_GET_STATS_2 control code [Buses], buses.ioctl_usb_hcd_get_stats_2, usbioctl/IOCTL_USB_HCD_GET_STATS_2, usbirp_62df7d2d-dc01-46bf-8ce8-aa1a0082387e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

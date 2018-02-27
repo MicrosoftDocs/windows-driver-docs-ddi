@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C4D09CAD-833A-43A0-AC03-EEDE8270EA12
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwdiopenadapter, MiniportWdiOpenAdapter callback function [Network Drivers Starting with Windows Vista], MiniportWdiOpenAdapter, MINIPORT_WDI_OPEN_ADAPTER, MINIPORT_WDI_OPEN_ADAPTER, dot11wdi/MiniportWdiOpenAdapter
+ms.keywords: MINIPORT_WDI_OPEN_ADAPTER, MiniportWdiOpenAdapter, MiniportWdiOpenAdapter callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiOpenAdapter, netvista.miniportwdiopenadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	MiniportWdiOpenAdapter
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_OPEN_ADAPTER callback
@@ -127,15 +127,11 @@ An appropriate NDIS_STATUS code in the case of a failure.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
-
-
-
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_open_adapter_complete.md">OpenAdapterComplete</a>
-
-
-
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
 
 
 
@@ -144,6 +140,10 @@ An appropriate NDIS_STATUS code in the case of a failure.
 
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a>
+
+
+
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_open_adapter_complete.md">OpenAdapterComplete</a>
 
 
 

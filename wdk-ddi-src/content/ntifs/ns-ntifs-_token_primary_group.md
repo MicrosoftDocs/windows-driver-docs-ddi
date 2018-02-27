@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9c9a7f63-7fe8-48a9-b4d0-10586e6b86bc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TOKEN_PRIMARY_GROUP, TOKEN_PRIMARY_GROUP structure [Installable File System Drivers], securitystructures_8d3bc1f9-abc5-4ac3-8351-cf2c56db6a20.xml, PTOKEN_PRIMARY_GROUP, ntifs/TOKEN_PRIMARY_GROUP, _TOKEN_PRIMARY_GROUP, ntifs/PTOKEN_PRIMARY_GROUP, *PTOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP structure pointer [Installable File System Drivers], ifsk.token_primary_group
+ms.keywords: "*PTOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP structure pointer [Installable File System Drivers], TOKEN_PRIMARY_GROUP, TOKEN_PRIMARY_GROUP structure [Installable File System Drivers], _TOKEN_PRIMARY_GROUP, ifsk.token_primary_group, ntifs/PTOKEN_PRIMARY_GROUP, ntifs/TOKEN_PRIMARY_GROUP, securitystructures_8d3bc1f9-abc5-4ac3-8351-cf2c56db6a20.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,10 +78,6 @@ Pointer to a SID structure representing a group that will become the primary gro
 
 
 
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
@@ -90,7 +86,11 @@ Pointer to a SID structure representing a group that will become the primary gro
 
 
 
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: stream\ksallocator_dispatch.htm
 old-project: stream
 ms.assetid: 6e6e6dde-3b41-44a7-b51d-1b1f06db0853
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ksallocator_dispatch, PKSALLOCATOR_DISPATCH, avstruct_73d2c793-a55a-45f3-af31-fc18240ca1df.xml, PKSALLOCATOR_DISPATCH structure pointer [Streaming Media Devices], *PKSALLOCATOR_DISPATCH, ks/KSALLOCATOR_DISPATCH, KSALLOCATOR_DISPATCH, _KSALLOCATOR_DISPATCH, ks/PKSALLOCATOR_DISPATCH, KSALLOCATOR_DISPATCH structure [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PKSALLOCATOR_DISPATCH, KSALLOCATOR_DISPATCH, KSALLOCATOR_DISPATCH structure [Streaming Media Devices], PKSALLOCATOR_DISPATCH, PKSALLOCATOR_DISPATCH structure pointer [Streaming Media Devices], _KSALLOCATOR_DISPATCH, avstruct_73d2c793-a55a-45f3-af31-fc18240ca1df.xml, ks/KSALLOCATOR_DISPATCH, ks/PKSALLOCATOR_DISPATCH, stream.ksallocator_dispatch"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,5 +109,5 @@ By providing a pointer to a KSALLOCATOR_DISPATCH structure in the relevant <a hr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSALLOCATOR_DISPATCH structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSALLOCATOR_DISPATCH structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

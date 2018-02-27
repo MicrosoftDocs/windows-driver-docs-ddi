@@ -4,11 +4,11 @@ title: IWiaDrvItem::GetNextSiblingItem method
 author: windows-driver-content
 description: The IWiaDrvItem::GetNextSiblingItem method gets the next sibling of the current item in an IWiaDrvItem folder.
 old-location: image\iwiadrvitem_getnextsiblingitem.htm
-old-project: Image
+old-project: image
 ms.assetid: bc348f40-aaa4-4cd4-9dee-c02748d7412c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GetNextSiblingItem method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices], GetNextSiblingItem method, wiamindr_lh/IWiaDrvItem::GetNextSiblingItem, GetNextSiblingItem method [Imaging Devices], DrvItem_659ed27a-dca2-40de-acb7-f057178e9ab7.xml, image.iwiadrvitem_getnextsiblingitem, IWiaDrvItem, IWiaDrvItem::GetNextSiblingItem, GetNextSiblingItem
+ms.date: 2/23/2018
+ms.keywords: DrvItem_659ed27a-dca2-40de-acb7-f057178e9ab7.xml, GetNextSiblingItem method [Imaging Devices], GetNextSiblingItem method [Imaging Devices], IWiaDrvItem interface, GetNextSiblingItem,IWiaDrvItem.GetNextSiblingItem, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], GetNextSiblingItem method, IWiaDrvItem::GetNextSiblingItem, image.iwiadrvitem_getnextsiblingitem, wiamindr_lh/IWiaDrvItem::GetNextSiblingItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,10 +100,6 @@ Minidrivers obtain a pointer to the first child item in a folder by calling <a h
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543878">IWiaDrvItem::GetFirstChildItem</a>
 
 
@@ -112,9 +108,13 @@ Minidrivers obtain a pointer to the first child item in a folder by calling <a h
 
 
 
- 
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IWiaDrvItem::GetNextSiblingItem method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaDrvItem::GetNextSiblingItem method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 25F820D4-04AF-488E-BBDA-1E9D82B7483E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_create_cq, NdkCreateCq callback function [Network Drivers Starting with Windows Vista], NdkCreateCq, NDK_FN_CREATE_CQ, NDK_FN_CREATE_CQ, ndkpi/NdkCreateCq
+ms.keywords: NDK_FN_CREATE_CQ, NdkCreateCq, NdkCreateCq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateCq, netvista.ndk_fn_create_cq
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -99,7 +99,7 @@ A context value that the NDK provider passes back to the <i>NdkCqNotificationCal
 
 ### -param *Affinity [in, optional]
 
-An affinity mask (<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>) that provides preferred processors that the consumer would choose to run the <i>NdkCqNotificationCallback</i> callbacks. Providers should honor the processor preferences if their underlying hardware allows it, but consumers cannot assume that <i>NdkCqNotificationCallback</i> callbacks will occur only on the preferred processors. Set <i>Affinity</i> to NULL if there are no preferred processors.
+An affinity mask (<a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a>) that provides preferred processors that the consumer would choose to run the <i>NdkCqNotificationCallback</i> callbacks. Providers should honor the processor preferences if their underlying hardware allows it, but consumers cannot assume that <i>NdkCqNotificationCallback</i> callbacks will occur only on the preferred processors. Set <i>Affinity</i> to NULL if there are no preferred processors.
 
 
 ### -param CreateCompletion [in]
@@ -209,11 +209,11 @@ The <i>NdkCreateCq</i> function creates an NDK completion queue (CQ) object. If 
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_arm_cq.md">NDK_FN_ARM_CQ</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_cq_notification_callback.md">NDK_FN_CQ_NOTIFICATION_CALLBACK</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
 
 
 
@@ -225,15 +225,7 @@ The <i>NdkCreateCq</i> function creates an NDK completion queue (CQ) object. If 
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_arm_cq.md">NDK_FN_ARM_CQ</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_cq_notification_callback.md">NDK_FN_CQ_NOTIFICATION_CALLBACK</a>
 
 
 
@@ -241,7 +233,15 @@ The <i>NdkCreateCq</i> function creates an NDK completion queue (CQ) object. If 
 
 
 
-<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
+<a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bf865b33-6e44-4724-868d-73150cf5b589
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvonexindicateresult, Dot11ExtIhvOneXIndicateResult callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvOneXIndicateResult, DOT11EXTIHV_ONEX_INDICATE_RESULT, DOT11EXTIHV_ONEX_INDICATE_RESULT, wlanihv/Dot11ExtIhvOneXIndicateResult, Native_802.11_IHV_Ext_af60ece5-6f3a-4a5b-9207-0e3cf68a012b.xml
+ms.keywords: DOT11EXTIHV_ONEX_INDICATE_RESULT, Dot11ExtIhvOneXIndicateResult, Dot11ExtIhvOneXIndicateResult callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_af60ece5-6f3a-4a5b-9207-0e3cf68a012b.xml, netvista.dot11extihvonexindicateresult, wlanihv/Dot11ExtIhvOneXIndicateResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvOneXIndicateResult
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -136,11 +136,15 @@ For more information about using the 802.1X module for authentication, see
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
 
 
 
-<a href="..\wlanihv\ne-wlanihv-_dot11_msonex_result.md">DOT11_MSONEX_RESULT</a>
+<a href="..\wlanihv\ns-wlanihv-_dot11_msonex_result_params.md">DOT11_MSONEX_RESULT_PARAMS</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
 
 
 
@@ -149,11 +153,7 @@ For more information about using the 802.1X module for authentication, see
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
 
 
 

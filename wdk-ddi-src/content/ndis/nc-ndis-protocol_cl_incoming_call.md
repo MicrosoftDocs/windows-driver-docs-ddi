@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8a5922ac-b22b-444e-9ea0-3bb56e71ef33
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolclincomingcall, ProtocolClIncomingCall callback function [Network Drivers Starting with Windows Vista], ProtocolClIncomingCall, PROTOCOL_CL_INCOMING_CALL, PROTOCOL_CL_INCOMING_CALL, ndis/ProtocolClIncomingCall, condis_client_ref_8c9188c3-7134-4fab-a9c7-67862e881054.xml
+ms.keywords: PROTOCOL_CL_INCOMING_CALL, ProtocolClIncomingCall, ProtocolClIncomingCall callback function [Network Drivers Starting with Windows Vista], condis_client_ref_8c9188c3-7134-4fab-a9c7-67862e881054.xml, ndis/ProtocolClIncomingCall, netvista.protocolclincomingcall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -218,15 +218,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclincomingcallcomplete.md">NdisClIncomingCallComplete</a>
+<a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
 
 
 
@@ -238,19 +234,23 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisclincomingcallcomplete.md">NdisClIncomingCallComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 324EB2B8-9CF0-4A8B-B6D0-B5748EBCB53E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 2/SerCx2SystemDmaTransmitDrainFifoComplete, serports.sercx2systemdmatransmitdrainfifocomplete, SerCx2SystemDmaTransmitDrainFifoComplete method [Serial Ports], SerCx2SystemDmaTransmitDrainFifoComplete
+ms.keywords: 2/SerCx2SystemDmaTransmitDrainFifoComplete, SerCx2SystemDmaTransmitDrainFifoComplete, SerCx2SystemDmaTransmitDrainFifoComplete method [Serial Ports], serports.sercx2systemdmatransmitdrainfifocomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SerCx2SystemDmaTransmitDrainFifoComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
+req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
 
@@ -104,11 +104,11 @@ For more information, see <a href="https://msdn.microsoft.com/8569E76F-CAFF-4A2C
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_drain_fifo.md">EvtSerCx2SystemDmaTransmitDrainFifo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
 
 
 

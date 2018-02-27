@@ -7,8 +7,8 @@ old-location: audio\pc_exit_latency.htm
 old-project: audio
 ms.assetid: 9D1DA7D6-4200-4B5A-9EA5-0455DF56D6D8
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.pc_exit_latency, PcExitLatencyResponsive, portcls/PcExitLatencyInstant, PcExitLatencyFast, portcls/PcExitLatencyResponsive, *PPC_EXIT_LATENCY, PC_EXIT_LATENCY enumeration [Audio Devices], PcExitLatencyInstant, _PC_EXIT_LATENCY, PC_EXIT_LATENCY, portcls/PcExitLatencyFast, portcls/PC_EXIT_LATENCY
+ms.date: 2/22/2018
+ms.keywords: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY, PC_EXIT_LATENCY enumeration [Audio Devices], PcExitLatencyFast, PcExitLatencyInstant, PcExitLatencyResponsive, _PC_EXIT_LATENCY, audio.pc_exit_latency, portcls/PC_EXIT_LATENCY, portcls/PcExitLatencyFast, portcls/PcExitLatencyInstant, portcls/PcExitLatencyResponsive"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

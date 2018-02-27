@@ -7,8 +7,8 @@ old-location: kernel\rtlint8touint8.htm
 old-project: kernel
 ms.assetid: 884F36CD-8F2F-401C-A800-33735764B844
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RtlInt8ToUInt8 function [Kernel-Mode Driver Architecture], RtlInt8ToUInt8, kernel.rtlint8touint8, ntintsafe/RtlInt8ToUInt8
+ms.date: 2/24/2018
+ms.keywords: RtlInt8ToUInt8, RtlInt8ToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlint8touint8, ntintsafe/RtlInt8ToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

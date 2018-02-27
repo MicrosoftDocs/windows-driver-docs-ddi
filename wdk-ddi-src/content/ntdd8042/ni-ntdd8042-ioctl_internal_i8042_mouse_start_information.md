@@ -7,8 +7,8 @@ old-location: hid\ioctl_internal_i8042_mouse_start_information.htm
 old-project: hid
 ms.assetid: aa7d5802-d1d0-4c7c-bf55-0f0b5b664113
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: hid.ioctl_internal_i8042_mouse_start_information, IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION control code [Human Input Devices], IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION, ntdd8042/IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION, i8042ref_c4c81870-f104-4979-86e3-03bd376e34ce.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION, IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION control code [Human Input Devices], hid.ioctl_internal_i8042_mouse_start_information, i8042ref_c4c81870-f104-4979-86e3-03bd376e34ce.xml, ntdd8042/IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PMOUSE_STATE, MOUSE_STATE"
+req.typenames: MOUSE_STATE, *PMOUSE_STATE
 ---
 
 # IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*PMOUSE_STATE, MOUSE_STATE"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -120,5 +120,5 @@ The <b>Status</b> member is set to STATUS_SUCCESS.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

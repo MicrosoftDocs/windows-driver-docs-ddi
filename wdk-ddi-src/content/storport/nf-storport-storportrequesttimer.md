@@ -7,8 +7,8 @@ old-location: storage\storportrequesttimer.htm
 old-project: storage
 ms.assetid: EE5A6D39-EC76-4D97-B2EC-4A43225C2FB5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: StorPortRequestTimer, storport/StorPortRequestTimer, storage.storportrequesttimer, StorPortRequestTimer routine [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: StorPortRequestTimer, StorPortRequestTimer routine [Storage Devices], storage.storportrequesttimer, storport/StorPortRequestTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -192,7 +192,7 @@ The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportfreetimer.md">StorPortFreeTimer</a>
+<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
 
 
 
@@ -200,17 +200,17 @@ The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the
 
 
 
-<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
-
-
-
 <a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>
 
 
 
- 
+<a href="..\storport\nf-storport-storportfreetimer.md">StorPortFreeTimer</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortRequestTimer routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortRequestTimer routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

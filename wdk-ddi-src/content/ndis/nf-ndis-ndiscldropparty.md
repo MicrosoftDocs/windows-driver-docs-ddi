@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f5d04730-a7eb-4670-9b47-f8c52267aea8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndiscldropparty, NdisClDropParty, NdisClDropParty function [Network Drivers Starting with Windows Vista], ndis/NdisClDropParty, condis_client_ref_a86ff56b-e523-4d1b-a3ef-60ec953514c6.xml
+ms.keywords: NdisClDropParty, NdisClDropParty function [Network Drivers Starting with Windows Vista], condis_client_ref_a86ff56b-e523-4d1b-a3ef-60ec953514c6.xml, ndis/NdisClDropParty, netvista.ndiscldropparty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisClDropParty
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisClDropParty function
@@ -185,11 +185,7 @@ The caller of
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
 
 
 
@@ -197,11 +193,7 @@ The caller of
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
 
 
 
@@ -209,7 +201,15 @@ The caller of
 
 
 
+<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
 
 
 

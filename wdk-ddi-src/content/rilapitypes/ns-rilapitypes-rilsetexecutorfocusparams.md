@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 724df793-72cb-4460-bec8-0136b86ff82d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*LPRILSETEXECUTORFOCUSPARAMS, netvista.rilsetexecutorfocusparams_2, rilapitypes/RILSETEXECUTORFOCUSPARAMS, RILSETEXECUTORFOCUSPARAMS structure [Network Drivers Starting with Windows Vista], RILSETEXECUTORFOCUSPARAMS"
+ms.keywords: "*LPRILSETEXECUTORFOCUSPARAMS, RILSETEXECUTORFOCUSPARAMS, RILSETEXECUTORFOCUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetexecutorfocusparams_2, rilapitypes/RILSETEXECUTORFOCUSPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

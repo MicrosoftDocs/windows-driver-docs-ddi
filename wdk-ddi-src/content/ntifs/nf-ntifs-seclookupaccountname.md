@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5b1c3cc4-6185-4299-86ed-662a2b445042
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SecLookupAccountName function [Installable File System Drivers], ifsk.seclookupaccountname, SecLookupAccountName, ntifs/SecLookupAccountName, ksecddref_1f4959e5-ea3b-440d-af1b-df05782eefce.xml
+ms.keywords: SecLookupAccountName, SecLookupAccountName function [Installable File System Drivers], ifsk.seclookupaccountname, ksecddref_1f4959e5-ea3b-440d-af1b-df05782eefce.xml, ntifs/SecLookupAccountName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -212,7 +212,7 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="..\ntifs\nf-ntifs-seclookupwellknownsid.md">SecLookupWellKnownSid</a>
 
 
 
@@ -220,7 +220,7 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 
 
 
-<a href="..\ntifs\nf-ntifs-seclookupwellknownsid.md">SecLookupWellKnownSid</a>
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 

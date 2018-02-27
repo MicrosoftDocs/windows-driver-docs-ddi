@@ -7,8 +7,8 @@ old-location: pci\pci_pmc.htm
 old-project: PCI
 ms.assetid: e6ec18a3-2da6-4b3a-afe3-17435463fd39
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PCI_PMC, PPCI_PMC structure pointer [Buses], pci_struct_5ac33692-66a0-4c2e-89dc-e5ace757e06b.xml, wdm/PCI_PMC, PCI_PMC structure [Buses], _PCI_PMC, *PPCI_PMC, PCI.pci_pmc, wdm/PPCI_PMC, PPCI_PMC
+ms.date: 2/24/2018
+ms.keywords: "*PPCI_PMC, PCI.pci_pmc, PCI_PMC, PCI_PMC structure [Buses], PPCI_PMC, PPCI_PMC structure pointer [Buses], _PCI_PMC, pci_struct_5ac33692-66a0-4c2e-89dc-e5ace757e06b.xml, wdm/PCI_PMC, wdm/PPCI_PMC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_PMC
 product: Windows
 targetos: Windows
-req.typenames: "*PPCI_PMC, PCI_PMC"
+req.typenames: PCI_PMC, *PPCI_PMC
 ---
 
 # _PCI_PMC structure
@@ -183,5 +183,5 @@ The power management capabilities register, whose contents are reported in the P
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_PMC structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_PMC structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

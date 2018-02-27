@@ -7,8 +7,8 @@ old-location: stream\kscamera_profile_info.htm
 old-project: stream
 ms.assetid: 566052ED-2FD8-46A9-8C4E-9FED660D93BF
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: PKSCAMERA_PROFILE_INFO, _KSCAMERA_PROFILE_INFO, ksmedia/KSCAMERA_PROFILE_INFO, KSCAMERA_PROFILE_INFO, ksmedia/PKSCAMERA_PROFILE_INFO, PKSCAMERA_PROFILE_INFO structure pointer [Streaming Media Devices], *PKSCAMERA_PROFILE_INFO, stream.kscamera_profile_info, KSCAMERA_PROFILE_INFO structure [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PKSCAMERA_PROFILE_INFO, KSCAMERA_PROFILE_INFO, KSCAMERA_PROFILE_INFO structure [Streaming Media Devices], PKSCAMERA_PROFILE_INFO, PKSCAMERA_PROFILE_INFO structure pointer [Streaming Media Devices], _KSCAMERA_PROFILE_INFO, ksmedia/KSCAMERA_PROFILE_INFO, ksmedia/PKSCAMERA_PROFILE_INFO, stream.kscamera_profile_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSCAMERA_PROFILE_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PKSCAMERA_PROFILE_INFO, KSCAMERA_PROFILE_INFO"
+req.typenames: KSCAMERA_PROFILE_INFO, *PKSCAMERA_PROFILE_INFO
 ---
 
 # _KSCAMERA_PROFILE_INFO structure

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a5f61a83-43db-4ad7-9b18-0cdf574ea546
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFDeviceInitialize, SetFilter, umdf.iwdfdeviceinitialize_setfilter, UMDFDeviceObjectRef_742df830-2e67-4f03-bdfb-77cef5bc21bf.xml, wdf.iwdfdeviceinitialize_setfilter, SetFilter method, IWDFDeviceInitialize::SetFilter, IWDFDeviceInitialize interface, SetFilter method, wudfddi/IWDFDeviceInitialize::SetFilter, SetFilter method, IWDFDeviceInitialize interface
+ms.keywords: IWDFDeviceInitialize, IWDFDeviceInitialize interface, SetFilter method, IWDFDeviceInitialize::SetFilter, SetFilter method, SetFilter method, IWDFDeviceInitialize interface, SetFilter,IWDFDeviceInitialize.SetFilter, UMDFDeviceObjectRef_742df830-2e67-4f03-bdfb-77cef5bc21bf.xml, umdf.iwdfdeviceinitialize_setfilter, wdf.iwdfdeviceinitialize_setfilter, wudfddi/IWDFDeviceInitialize::SetFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E93091A2-203B-418D-93E7-1219DED25C52
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/IoGetOplockKeyContextEx, IoGetOplockKeyContextEx routine [Installable File System Drivers], IoGetOplockKeyContextEx, ifsk.iogetoplockkeycontext, IoGetOplockKeyContext
+ms.keywords: IoGetOplockKeyContext, IoGetOplockKeyContextEx, IoGetOplockKeyContextEx routine [Installable File System Drivers], ifsk.iogetoplockkeycontext, ntddk/IoGetOplockKeyContextEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	IoGetOplockKeyContextEx
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoGetOplockKeyContext function
@@ -93,7 +93,7 @@ Use the <b>IoGetOplockKeyContext</b> routine only in Windows 7. Because  <a hre
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406392">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551003">OPLOCK_KEY_ECP_CONTEXT</a>
 
 
 
@@ -105,7 +105,7 @@ Use the <b>IoGetOplockKeyContext</b> routine only in Windows 7. Because  <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551003">OPLOCK_KEY_ECP_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406392">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
 
 
 

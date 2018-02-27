@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9604c9bf-f15e-49fd-82c8-90a4a5cc1ba0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fsrtloplockbreaktonone, FsRtlOplockBreakToNone, fsrtlref_8d6206fb-3cc8-4f43-83b1-266c398f933e.xml, FsRtlOplockBreakToNone function [Installable File System Drivers], ntifs/FsRtlOplockBreakToNone
+ms.keywords: FsRtlOplockBreakToNone, FsRtlOplockBreakToNone function [Installable File System Drivers], fsrtlref_8d6206fb-3cc8-4f43-83b1-266c398f933e.xml, ifsk.fsrtloplockbreaktonone, ntifs/FsRtlOplockBreakToNone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

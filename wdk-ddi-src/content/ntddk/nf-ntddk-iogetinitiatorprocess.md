@@ -7,8 +7,8 @@ old-location: kernel\iogetinitiatorprocess.htm
 old-project: kernel
 ms.assetid: 653B4FD5-4C07-420A-BE8A-CC8C46BC6F0F
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.iogetinitiatorprocess, IoGetInitiatorProcess function [Kernel-Mode Driver Architecture], IoGetInitiatorProcess, ntddk/IoGetInitiatorProcess
+ms.date: 2/24/2018
+ms.keywords: IoGetInitiatorProcess, IoGetInitiatorProcess function [Kernel-Mode Driver Architecture], kernel.iogetinitiatorprocess, ntddk/IoGetInitiatorProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoGetInitiatorProcess
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoGetInitiatorProcess function

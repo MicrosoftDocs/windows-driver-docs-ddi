@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 81aa5707-b614-429b-bd8e-0204eec74e0f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.netdmaisr, netdma_ref_5a9b1659-b106-4eed-931d-f2ad8b2476e9.xml, NetDmaIsr, NetDmaIsr function [Network Drivers Starting with Windows Vista], netdma/NetDmaIsr
+ms.keywords: NetDmaIsr, NetDmaIsr function [Network Drivers Starting with Windows Vista], netdma/NetDmaIsr, netdma_ref_5a9b1659-b106-4eed-931d-f2ad8b2476e9.xml, netvista.netdmaisr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,11 +126,11 @@ A DMA provider driver should do as little work as possible in its ISR handler. T
 
 ## -see-also
 
-<a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
-
-
-
 <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
+
+
+<a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
 
 
 

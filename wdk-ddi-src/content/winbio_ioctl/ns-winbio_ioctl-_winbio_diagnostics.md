@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 06f6abf1-9b44-4cf3-96d3-2017e0f6adda
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PWINBIO_DIAGNOSTICS, winbio_ioctl/PWINBIO_DIAGNOSTICS, WINBIO_DIAGNOSTICS structure [Biometric Devices], winbio_ioctl/WINBIO_DIAGNOSTICS, *PWINBIO_DIAGNOSTICS, biometric.winbio_diagnostics, PWINBIO_DIAGNOSTICS structure pointer [Biometric Devices], biometric_ref_eca83e57-bec6-4d83-8596-978b73eed6de.xml, _WINBIO_DIAGNOSTICS, WINBIO_DIAGNOSTICS
+ms.keywords: "*PWINBIO_DIAGNOSTICS, PWINBIO_DIAGNOSTICS, PWINBIO_DIAGNOSTICS structure pointer [Biometric Devices], WINBIO_DIAGNOSTICS, WINBIO_DIAGNOSTICS structure [Biometric Devices], _WINBIO_DIAGNOSTICS, biometric.winbio_diagnostics, biometric_ref_eca83e57-bec6-4d83-8596-978b73eed6de.xml, winbio_ioctl/PWINBIO_DIAGNOSTICS, winbio_ioctl/WINBIO_DIAGNOSTICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WINBIO_DIAGNOSTICS
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_DIAGNOSTICS, WINBIO_DIAGNOSTICS"
+req.typenames: WINBIO_DIAGNOSTICS, *PWINBIO_DIAGNOSTICS
 req.product: Windows 10 or later.
 ---
 

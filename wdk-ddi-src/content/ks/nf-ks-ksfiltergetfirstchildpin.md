@@ -7,8 +7,8 @@ old-location: stream\ksfiltergetfirstchildpin.htm
 old-project: stream
 ms.assetid: b026908a-51d4-45a8-9c0e-1c163563bfbf
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ksfiltergetfirstchildpin, KsFilterGetFirstChildPin function [Streaming Media Devices], ks/KsFilterGetFirstChildPin, avfunc_303477ee-598b-4b5b-baae-1e520c154e99.xml, KsFilterGetFirstChildPin
+ms.date: 2/23/2018
+ms.keywords: KsFilterGetFirstChildPin, KsFilterGetFirstChildPin function [Streaming Media Devices], avfunc_303477ee-598b-4b5b-baae-1e520c154e99.xml, ks/KsFilterGetFirstChildPin, stream.ksfiltergetfirstchildpin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,10 +99,6 @@ Note that the object hierarchy is guaranteed stable only while the appropriate m
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetnextsiblingpin.md">KsPinGetNextSiblingPin</a>
-
-
-
 <a href="..\ks\nf-ks-ksfiltergetchildpincount.md">KsFilterGetChildPinCount</a>
 
 
@@ -111,9 +107,13 @@ Note that the object hierarchy is guaranteed stable only while the appropriate m
 
 
 
- 
+<a href="..\ks\nf-ks-kspingetnextsiblingpin.md">KsPinGetNextSiblingPin</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterGetFirstChildPin function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterGetFirstChildPin function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

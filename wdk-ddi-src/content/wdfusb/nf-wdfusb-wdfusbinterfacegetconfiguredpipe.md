@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0836a969-e484-485f-9b65-202c177b4f43
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfusbinterfacegetconfiguredpipe, kmdf.wdfusbinterfacegetconfiguredpipe, WdfUsbInterfaceGetConfiguredPipe, wdfusb/WdfUsbInterfaceGetConfiguredPipe, WdfUsbInterfaceGetConfiguredPipe method, DFUsbRef_65a97d99-39c5-4750-95e1-6c9c20c169bb.xml
+ms.keywords: DFUsbRef_65a97d99-39c5-4750-95e1-6c9c20c169bb.xml, WdfUsbInterfaceGetConfiguredPipe, WdfUsbInterfaceGetConfiguredPipe method, kmdf.wdfusbinterfacegetconfiguredpipe, wdf.wdfusbinterfacegetconfiguredpipe, wdfusb/WdfUsbInterfaceGetConfiguredPipe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfUsbInterfaceGetConfiguredPipe
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -152,7 +152,7 @@ for (i = 0; i &lt; count; i++) {
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumconfiguredpipes.md">WdfUsbInterfaceGetNumConfiguredPipes</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
 
 
 

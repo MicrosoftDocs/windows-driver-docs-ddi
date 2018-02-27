@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 89fd8a33-9b2e-401a-9b48-49b4b19d3cb2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fltacknowledgeecp, FltAcknowledgeEcp routine [Installable File System Drivers], fltkernel/FltAcknowledgeEcp, FltAcknowledgeEcp, FltApiRef_a_to_d_17c8b1d4-47d1-4871-be9d-57986967a083.xml
+ms.keywords: FltAcknowledgeEcp, FltAcknowledgeEcp routine [Installable File System Drivers], FltApiRef_a_to_d_17c8b1d4-47d1-4871-be9d-57986967a083.xml, fltkernel/FltAcknowledgeEcp, ifsk.fltacknowledgeecp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,15 +105,7 @@ The ECP pointed to by the <i>EcpContext</i> parameter is marked as "acknowledged
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
 
 
 
@@ -125,7 +117,15 @@ The ECP pointed to by the <i>EcpContext</i> parameter is marked as "acknowledged
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 
 

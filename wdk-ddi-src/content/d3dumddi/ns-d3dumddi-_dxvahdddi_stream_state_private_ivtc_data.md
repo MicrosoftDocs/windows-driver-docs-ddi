@@ -7,8 +7,8 @@ old-location: display\dxvahdddi_stream_state_private_ivtc_data.htm
 old-project: display
 ms.assetid: d882a13e-cc07-4e82-857e-499bc397517e
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure [Display Devices], DXVA2_Structs_f5928683-1553-42e0-a36e-86ff64301b45.xml, display.dxvahdddi_stream_state_private_ivtc_data, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
+ms.date: 2/24/2018
+ms.keywords: DXVA2_Structs_f5928683-1553-42e0-a36e-86ff64301b45.xml, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, display.dxvahdddi_stream_state_private_ivtc_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -241,5 +241,5 @@ The application continues to query the statistics to determine if the frames are
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

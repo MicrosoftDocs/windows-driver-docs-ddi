@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1af8b1cd-c594-49c7-8c25-674226295d90
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NDIS_NIC_SWITCH_VF_INFO, ntddndis/PNDIS_NIC_SWITCH_VF_INFO, ntddndis/NDIS_NIC_SWITCH_VF_INFO, *PNDIS_NIC_SWITCH_VF_INFO, _NDIS_NIC_SWITCH_VF_INFO, PNDIS_NIC_SWITCH_VF_INFO, netvista.ndis_nic_switch_vf_info, NDIS_NIC_SWITCH_VF_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VF_INFO structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PNDIS_NIC_SWITCH_VF_INFO, NDIS_NIC_SWITCH_VF_INFO, NDIS_NIC_SWITCH_VF_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VF_INFO, PNDIS_NIC_SWITCH_VF_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VF_INFO, netvista.ndis_nic_switch_vf_info, ntddndis/NDIS_NIC_SWITCH_VF_INFO, ntddndis/PNDIS_NIC_SWITCH_VF_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_NIC_SWITCH_VF_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_NIC_SWITCH_VF_INFO, NDIS_NIC_SWITCH_VF_INFO"
+req.typenames: NDIS_NIC_SWITCH_VF_INFO, *PNDIS_NIC_SWITCH_VF_INFO
 ---
 
 # _NDIS_NIC_SWITCH_VF_INFO structure

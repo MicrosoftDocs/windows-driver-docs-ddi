@@ -7,8 +7,8 @@ old-location: print\iprintclassobjectfactory.htm
 old-project: print
 ms.assetid: 09691b81-6488-4972-8cbc-7873e6717287
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.iprintclassobjectfactory, IPrintClassObjectFactory interface [Print Devices], IPrintClassObjectFactory interface [Print Devices], described, IPrintClassObjectFactory, filterpipeline/IPrintClassObjectFactory, filterpipeline_dfad10be-6be6-4a74-8efb-e53182e469b7.xml
+ms.date: 2/23/2018
+ms.keywords: IPrintClassObjectFactory, IPrintClassObjectFactory interface [Print Devices], IPrintClassObjectFactory interface [Print Devices], described, filterpipeline/IPrintClassObjectFactory, filterpipeline_dfad10be-6be6-4a74-8efb-e53182e469b7.xml, print.iprintclassobjectfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -52,6 +52,13 @@ req.typenames: EXpsFontRestriction
 The<b>IPrintClassObjectFactory</b> interface creates print filter-related interfaces.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintClassObjectFactory</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintClassObjectFactory</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IPrintClassObjectFactory</b> interface has these methods.
@@ -69,7 +76,5 @@ The <b>GetPrintClassObject</b> method creates a print filter-related object for 
 
 </td>
 </tr>
-</table>The <b>GetPrintClassObject</b> method creates a print filter-related object for a specified printer by using the IID of the interface object to create.
-
- 
+</table> 
 

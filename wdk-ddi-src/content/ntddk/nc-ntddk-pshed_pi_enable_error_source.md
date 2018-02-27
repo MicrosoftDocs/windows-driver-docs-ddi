@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: f2bc3b38-003e-4078-9bbd-d535e8971491
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: whea.enableerrorsource, EnableErrorSource callback function [WHEA Drivers and Applications], EnableErrorSource, PSHED_PI_ENABLE_ERROR_SOURCE, PSHED_PI_ENABLE_ERROR_SOURCE, ntddk/EnableErrorSource, whearef_d2fcd602-03f5-466c-bd90-abd81f15ec38.xml
+ms.keywords: EnableErrorSource, EnableErrorSource callback function [WHEA Drivers and Applications], PSHED_PI_ENABLE_ERROR_SOURCE, ntddk/EnableErrorSource, whea.enableerrorsource, whearef_d2fcd602-03f5-466c-bd90-abd81f15ec38.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	EnableErrorSource
 product: Windows
 targetos: Windows
-req.typenames: "*PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA"
+req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 ---
 
 # PSHED_PI_ENABLE_ERROR_SOURCE callback
@@ -150,7 +150,11 @@ If the PSHED plug-in successfully enables the error source, the PSHED will updat
 
 
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_set_error_source_info.md">SetErrorSourceInfo</a>
+<a href="..\ntddk\nc-ntddk-pshed_pi_disable_error_source.md">DisableErrorSource</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
 
 
 
@@ -159,10 +163,6 @@ If the PSHED plug-in successfully enables the error source, the PSHED will updat
 
 
 <a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
 
 
 

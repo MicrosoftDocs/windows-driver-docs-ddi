@@ -7,8 +7,8 @@ old-location: display\videoportgetregistryparameters.htm
 old-project: display
 ms.assetid: beca2e83-df56-4ed0-8ea8-b0090e574cd3
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: VideoPort_Functions_f4e1230a-ae49-4751-8c60-e05043dbb049.xml, VideoPortGetRegistryParameters function [Display Devices], video/VideoPortGetRegistryParameters, display.videoportgetregistryparameters, VideoPortGetRegistryParameters
+ms.date: 2/24/2018
+ms.keywords: VideoPortGetRegistryParameters, VideoPortGetRegistryParameters function [Display Devices], VideoPort_Functions_f4e1230a-ae49-4751-8c60-e05043dbb049.xml, display.videoportgetregistryparameters, video/VideoPortGetRegistryParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,6 +128,22 @@ Miniport drivers should not query configuration information stored in the <b>Def
 
 ## -see-also
 
+<a href="..\video\nf-video-videoportsetregistryparameters.md">VideoPortSetRegistryParameters</a>
+
+
+
+<a href="..\video\nf-video-videoportflushregistry.md">VideoPortFlushRegistry</a>
+
+
+
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
+
+
+
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 
@@ -136,19 +152,7 @@ Miniport drivers should not query configuration information stored in the <b>Def
 
 
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-
-
-
-<a href="..\video\nf-video-videoportflushregistry.md">VideoPortFlushRegistry</a>
-
-
-
 <a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
-
-
-
-<a href="..\video\nf-video-videoportsetregistryparameters.md">VideoPortSetRegistryParameters</a>
 
 
 
@@ -156,13 +160,9 @@ Miniport drivers should not query configuration information stored in the <b>Def
 
 
 
-<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortGetRegistryParameters function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortGetRegistryParameters function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

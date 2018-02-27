@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4AE7E897-556B-40C4-BC12-31D957552690
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_write, NdkWrite callback function [Network Drivers Starting with Windows Vista], NdkWrite, NDK_FN_WRITE, NDK_FN_WRITE, ndkpi/NdkWrite, NDK_OP_FLAG_SILENT_SUCCESS, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_DEFER
+ms.keywords: NDK_FN_WRITE, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkWrite, NdkWrite callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkWrite, netvista.ndk_fn_write
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -226,7 +226,7 @@ An error occurred.
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
 
 
 
@@ -234,7 +234,7 @@ An error occurred.
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
 
 
 

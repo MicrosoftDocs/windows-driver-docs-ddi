@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aa8b64a7-eae9-444c-892f-841ca5a610cf
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: "*PWDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG, kmdf.wdf_io_queue_config, wdf.wdf_io_queue_config, PWDF_IO_QUEUE_CONFIG structure pointer, wdfio/WDF_IO_QUEUE_CONFIG, WDF_IO_QUEUE_CONFIG structure, DFQueueObjectRef_5fda62f6-b76d-4691-9354-e091af8a5567.xml, wdfio/PWDF_IO_QUEUE_CONFIG, WDF_IO_QUEUE_CONFIG, _WDF_IO_QUEUE_CONFIG"
+ms.keywords: "*PWDF_IO_QUEUE_CONFIG, DFQueueObjectRef_5fda62f6-b76d-4691-9354-e091af8a5567.xml, PWDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG structure pointer, WDF_IO_QUEUE_CONFIG, WDF_IO_QUEUE_CONFIG structure, _WDF_IO_QUEUE_CONFIG, kmdf.wdf_io_queue_config, wdf.wdf_io_queue_config, wdfio/PWDF_IO_QUEUE_CONFIG, wdfio/WDF_IO_QUEUE_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,7 +100,7 @@ A <a href="..\wdfio\ne-wdfio-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPAT
 
 ### -field PowerManaged
 
-A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that, if set to <b>WdfTrue</b>, indicates that the framework handles power management of the queue. 
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that, if set to <b>WdfTrue</b>, indicates that the framework handles power management of the queue. 
 
 If set to <b>WdfFalse</b>, the driver must handle power management of the queue. 
 
@@ -196,11 +196,7 @@ For parallel queues,
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init_default_queue.md">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>
-
-
-
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
 
 
 
@@ -208,9 +204,14 @@ For parallel queues,
 
 
 
+
+
+
 <a href="..\wdfio\ne-wdfio-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
 
 <a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
+
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init_default_queue.md">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e189d2f6-ef1c-45ed-8b55-8aae0661a426
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFIoRequest2, GetQueryInformationParameters, IWDFIoRequest2::GetQueryInformationParameters, UMDFRequestObjectRef_595d2b4c-1286-4243-b440-0efaae03980d.xml, wdf.iwdfiorequest2_getqueryinformationparameters, GetQueryInformationParameters method, IWDFIoRequest2 interface, umdf.iwdfiorequest2_getqueryinformationparameters, wudfddi/IWDFIoRequest2::GetQueryInformationParameters, IWDFIoRequest2 interface, GetQueryInformationParameters method, GetQueryInformationParameters method
+ms.keywords: GetQueryInformationParameters method, GetQueryInformationParameters method, IWDFIoRequest2 interface, GetQueryInformationParameters,IWDFIoRequest2.GetQueryInformationParameters, IWDFIoRequest2, IWDFIoRequest2 interface, GetQueryInformationParameters method, IWDFIoRequest2::GetQueryInformationParameters, UMDFRequestObjectRef_595d2b4c-1286-4243-b440-0efaae03980d.xml, umdf.iwdfiorequest2_getqueryinformationparameters, wdf.iwdfiorequest2_getqueryinformationparameters, wudfddi/IWDFIoRequest2::GetQueryInformationParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

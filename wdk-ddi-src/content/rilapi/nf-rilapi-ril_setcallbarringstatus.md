@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2012944f-b889-4084-92c8-95c1340599f3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapi/RIL_SetCallBarringStatus, RIL_SetCallBarringStatus method [Network Drivers Starting with Windows Vista], RIL_SetCallBarringStatus, netvista.ril_setcallbarringstatus
+ms.keywords: RIL_SetCallBarringStatus, RIL_SetCallBarringStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setcallbarringstatus, rilapi/RIL_SetCallBarringStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_SetCallBarringStatus
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

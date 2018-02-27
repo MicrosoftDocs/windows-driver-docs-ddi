@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 578f7633-307e-4cda-b8fe-ae73a095976f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfusbtargetpipe_retrievepipepolicy, RetrievePipePolicy, IWDFUsbTargetPipe interface, RetrievePipePolicy method, IWDFUsbTargetPipe, RetrievePipePolicy method, umdf.iwdfusbtargetpipe_retrievepipepolicy, UMDFUSBref_97c7b2db-213f-4cdd-8901-547af39b087e.xml, IWDFUsbTargetPipe::RetrievePipePolicy, RetrievePipePolicy method, IWDFUsbTargetPipe interface, wudfusb/IWDFUsbTargetPipe::RetrievePipePolicy
+ms.keywords: IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, RetrievePipePolicy method, IWDFUsbTargetPipe::RetrievePipePolicy, RetrievePipePolicy method, RetrievePipePolicy method, IWDFUsbTargetPipe interface, RetrievePipePolicy,IWDFUsbTargetPipe.RetrievePipePolicy, UMDFUSBref_97c7b2db-213f-4cdd-8901-547af39b087e.xml, umdf.iwdfusbtargetpipe_retrievepipepolicy, wdf.iwdfusbtargetpipe_retrievepipepolicy, wudfusb/IWDFUsbTargetPipe::RetrievePipePolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbTargetPipe.RetrievePipePolicy
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -156,15 +156,15 @@ The <b>RetrievePipePolicy</b> method generates a UMDF request and synchronously 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560421">IWDFUsbTargetPipe::SetPipePolicy</a>
-
-
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540266">WinUsb_GetPipePolicy</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560421">IWDFUsbTargetPipe::SetPipePolicy</a>
 
 
 

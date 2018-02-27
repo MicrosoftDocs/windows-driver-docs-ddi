@@ -7,8 +7,8 @@ old-location: kernel\iotimer.htm
 old-project: kernel
 ms.assetid: c41b7489-afd2-4ddf-b296-6d42e3ff6cbf
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.iotimer, IoTimer routine [Kernel-Mode Driver Architecture], IoTimer, IO_TIMER_ROUTINE, IO_TIMER_ROUTINE, wdm/IoTimer, DrvrRtns_e0e54c40-37d6-41b3-8374-b1a7763d54ed.xml
+ms.date: 2/24/2018
+ms.keywords: DrvrRtns_e0e54c40-37d6-41b3-8374-b1a7763d54ed.xml, IO_TIMER_ROUTINE, IoTimer, IoTimer routine [Kernel-Mode Driver Architecture], kernel.iotimer, wdm/IoTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	IoTimer
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 

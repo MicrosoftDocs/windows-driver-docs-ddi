@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0af476f6-0113-4aeb-b7d6-8e0e64a89bd0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.providercleanupbindingcontext, ProviderCleanupBindingContext callback function [Network Drivers Starting with Windows Vista], ProviderCleanupBindingContext, NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN, NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN, netioddk/ProviderCleanupBindingContext, PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN callback function [Network Drivers Starting with Windows Vista], PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN, nmrref_9723dfb1-96dd-410c-a5cd-1adfb6aa9544.xml
+ms.keywords: NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN, PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN, PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN callback function [Network Drivers Starting with Windows Vista], ProviderCleanupBindingContext, ProviderCleanupBindingContext callback function [Network Drivers Starting with Windows Vista], netioddk/ProviderCleanupBindingContext, netvista.providercleanupbindingcontext, nmrref_9723dfb1-96dd-410c-a5cd-1adfb6aa9544.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS"
+req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
 ---
 
 # NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN callback
@@ -123,23 +123,15 @@ The NMR calls a provider module's
 
 ## -see-also
 
+<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
+
+
+
+<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
+
+
+
 <a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
-
-
-
-<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
-
-
-
-
-
-<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
-
-
-
-<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
-
-
 
 
 

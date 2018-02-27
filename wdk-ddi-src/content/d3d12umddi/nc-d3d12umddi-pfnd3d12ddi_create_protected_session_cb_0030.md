@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_create_protected_session_cb_0030.htm
 old-project: display
 ms.assetid: 64E38759-2863-4481-8A89-6E6263CEFE8B
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.pfnd3d12ddi_create_protected_session_cb_0030, PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030 callback function [Display Devices], PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030, d3d12umddi/PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030, PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030, display.pfnd3d12ddi_create_protected_session_cb_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

@@ -4,11 +4,11 @@ title: IDebugSymbols3::GetModuleByModuleName method
 author: windows-driver-content
 description: The GetModuleByModuleName method searches through the target's modules for one with the specified name.
 old-location: debugger\getmodulebymodulename.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 243b79fe-b1b2-48b4-bb0b-c56b787e7b83
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugSymbols::GetModuleByModuleName, GetModuleByModuleName method [Windows Debugging], GetModuleByModuleName method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::GetModuleByModuleName, IDebugSymbols interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols2 interface [Windows Debugging], GetModuleByModuleName method, debugger.getmodulebymodulename, GetModuleByModuleName method [Windows Debugging], IDebugSymbols2 interface, GetModuleByModuleName, IDebugSymbols, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols3::GetModuleByModuleName, dbgeng/IDebugSymbols3::GetModuleByModuleName, IDebugSymbols3, GetModuleByModuleName method [Windows Debugging], IDebugSymbols interface, IDebugSymbols_1a407f12-64e8-43a3-b831-ef8c9b701537.xml, IDebugSymbols2, IDebugSymbols2::GetModuleByModuleName, dbgeng/IDebugSymbols::GetModuleByModuleName
+ms.date: 2/23/2018
+ms.keywords: GetModuleByModuleName method [Windows Debugging], GetModuleByModuleName method [Windows Debugging], IDebugSymbols interface, GetModuleByModuleName method [Windows Debugging], IDebugSymbols2 interface, GetModuleByModuleName method [Windows Debugging], IDebugSymbols3 interface, GetModuleByModuleName,IDebugSymbols3.GetModuleByModuleName, IDebugSymbols interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols2 interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols2::GetModuleByModuleName, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols3::GetModuleByModuleName, IDebugSymbols::GetModuleByModuleName, IDebugSymbols_1a407f12-64e8-43a3-b831-ef8c9b701537.xml, dbgeng/IDebugSymbols2::GetModuleByModuleName, dbgeng/IDebugSymbols3::GetModuleByModuleName, dbgeng/IDebugSymbols::GetModuleByModuleName, debugger.getmodulebymodulename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -144,7 +144,7 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547102">GetModuleByModuleName2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
@@ -152,17 +152,17 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547102">GetModuleByModuleName2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::GetModuleByModuleName method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetModuleByModuleName method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

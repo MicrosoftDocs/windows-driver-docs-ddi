@@ -7,8 +7,8 @@ old-location: display\d3dvalidatetexturestagestate.htm
 old-project: display
 ms.assetid: 6376842f-ebf5-43b0-81d8-fc5b15f595ab
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.d3dvalidatetexturestagestate, D3dValidateTextureStageState callback function [Display Devices], D3dValidateTextureStageState, LPD3DHAL_VALIDATETEXTURESTAGESTATECB, LPD3DHAL_VALIDATETEXTURESTAGESTATECB, d3dhal/D3dValidateTextureStageState, d3dfncs_f83c205a-4cad-4365-beee-442a66e2c67a.xml
+ms.date: 2/24/2018
+ms.keywords: D3dValidateTextureStageState, D3dValidateTextureStageState callback function [Display Devices], LPD3DHAL_VALIDATETEXTURESTAGESTATECB, d3dfncs_f83c205a-4cad-4365-beee-442a66e2c67a.xml, d3dhal/D3dValidateTextureStageState, display.d3dvalidatetexturestagestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	D3dValidateTextureStageState
 product: Windows
 targetos: Windows
-req.typenames: "*LPD3DTRANSFORMCAPS, D3DTRANSFORMCAPS"
+req.typenames: D3DTRANSFORMCAPS, *LPD3DTRANSFORMCAPS
 ---
 
 # LPD3DHAL_VALIDATETEXTURESTAGESTATECB callback
@@ -251,5 +251,5 @@ Attempting the simultaneous use of multiple textures and MIP mapped trilinear fi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3dValidateTextureStageState callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3dValidateTextureStageState callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 20ba1eef-2377-4e17-a2ff-002f1bbe15f0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndisunmapfile, ndis_file_ref_5be88800-5866-4969-8534-2d76953bf4de.xml, NdisUnmapFile, ndis/NdisUnmapFile, NdisUnmapFile function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisUnmapFile, NdisUnmapFile function [Network Drivers Starting with Windows Vista], ndis/NdisUnmapFile, ndis_file_ref_5be88800-5866-4969-8534-2d76953bf4de.xml, netvista.ndisunmapfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisUnmapFile
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisUnmapFile function
@@ -101,10 +101,6 @@ To reduce resource usage, a miniport driver should always call
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismapfile.md">NdisMapFile</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
@@ -114,6 +110,10 @@ To reduce resource usage, a miniport driver should always call
 
 
 <a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
 
 
 

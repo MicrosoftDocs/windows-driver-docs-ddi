@@ -7,8 +7,8 @@ old-location: kernel\ioreportresourcefordetection.htm
 old-project: kernel
 ms.assetid: 83b8e0b0-112c-4263-91f8-0c2e20dd76a4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: ntddk/IoReportResourceForDetection, kernel.ioreportresourcefordetection, IoReportResourceForDetection, k104_e2a8d386-d1bb-4bf5-aa30-d3a905e91174.xml, IoReportResourceForDetection routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: IoReportResourceForDetection, IoReportResourceForDetection routine [Kernel-Mode Driver Architecture], k104_e2a8d386-d1bb-4bf5-aa30-d3a905e91174.xml, kernel.ioreportresourcefordetection, ntddk/IoReportResourceForDetection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoReportResourceForDetection
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoReportResourceForDetection function
@@ -75,7 +75,7 @@ NTSTATUS IoReportResourceForDetection(
 
 ### -param DriverObject [in]
 
-Pointer to the driver object that was input to the driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine.
+Pointer to the driver object that was input to the driver's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine.
 
 
 ### -param DriverList [in, optional]
@@ -196,5 +196,5 @@ Callers of <b>IoReportResourceForDetection</b> must be running at IRQL = PASSIVE
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoReportResourceForDetection routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoReportResourceForDetection routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

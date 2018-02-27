@@ -7,8 +7,8 @@ old-location: display\d3dkmt-standardallocationtype.htm
 old-project: display
 ms.assetid: 7ce6d148-bfe8-4040-a4c1-ccd22fd07307
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: "_D3DKMT_STANDARDALLOCATIONTYPE, D3DKMT_STANDARDALLOCATIONTYPE, d3dkmthk/D3DKMT_STANDARDALLOCATIONTYPE, display.d3dkmt-standardallocationtype, D3DKMT_STANDARDALLOCATIONTYPE enumeration [Display Devices], d3dkmthk/D3DKMT_STANDARDALLOCATIONTYPE_EXISTINGHEAP, D3DKMT_STANDARDALLOCATIONTYPE_EXISTINGHEAP"
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_STANDARDALLOCATIONTYPE, D3DKMT_STANDARDALLOCATIONTYPE enumeration [Display Devices], D3DKMT_STANDARDALLOCATIONTYPE_EXISTINGHEAP, _D3DKMT_STANDARDALLOCATIONTYPE, d3dkmthk/D3DKMT_STANDARDALLOCATIONTYPE, d3dkmthk/D3DKMT_STANDARDALLOCATIONTYPE_EXISTINGHEAP, display.d3dkmt-standardallocationtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

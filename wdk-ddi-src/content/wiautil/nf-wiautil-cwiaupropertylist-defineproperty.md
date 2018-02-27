@@ -4,11 +4,11 @@ title: CWiauPropertyList::DefineProperty method
 author: windows-driver-content
 description: The CWiauPropertyList::DefineProperty method adds a property definition to a property list object.
 old-location: image\cwiaupropertylist_defineproperty.htm
-old-project: Image
+old-project: image
 ms.assetid: 599c97af-1285-4fb9-af0b-edcd48249692
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: wiauFncs_8be9dc72-0d8c-4894-aab0-47a312d9fae7.xml, CWiauPropertyList, CWiauPropertyList::DefineProperty, DefineProperty method [Imaging Devices], CWiauPropertyList interface, wiautil/CWiauPropertyList::DefineProperty, image.cwiaupropertylist_defineproperty, CWiauPropertyList interface [Imaging Devices], DefineProperty method, DefineProperty, DefineProperty method [Imaging Devices]
+ms.date: 2/23/2018
+ms.keywords: CWiauPropertyList, CWiauPropertyList interface [Imaging Devices], DefineProperty method, CWiauPropertyList::DefineProperty, DefineProperty method [Imaging Devices], DefineProperty method [Imaging Devices], CWiauPropertyList interface, DefineProperty,CWiauPropertyList.DefineProperty, image.cwiaupropertylist_defineproperty, wiauFncs_8be9dc72-0d8c-4894-aab0-47a312d9fae7.xml, wiautil/CWiauPropertyList::DefineProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -119,17 +119,17 @@ Before a property can be added to a property list, the property list must be ini
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540396">CWiauPropertyList::Init</a>
-
-
-
 <a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540396">CWiauPropertyList::Init</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20CWiauPropertyList::DefineProperty method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20CWiauPropertyList::DefineProperty method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

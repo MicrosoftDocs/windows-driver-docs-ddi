@@ -4,11 +4,11 @@ title: "_ENDPOINTS_CONFIGURE"
 author: windows-driver-content
 description: Describes endpoints to enable or disable endpoints. This structure is passed by UCX in the EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE callback function.
 old-location: buses\_endpoints_configure.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: C24B7D85-AEA9-43B3-9BEE-262CAA255834
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses._endpoints_configure, ucxendpoint/P_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses], ENDPOINTS_CONFIGURE structure [Buses], _ENDPOINTS_CONFIGURE, *PENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE, ucxendpoint/_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE
+ms.date: 2/24/2018
+ms.keywords: "*PENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE structure [Buses], P_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses], _ENDPOINTS_CONFIGURE, buses._endpoints_configure, ucxendpoint/P_ENDPOINTS_CONFIGURE, ucxendpoint/_ENDPOINTS_CONFIGURE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ENDPOINTS_CONFIGURE
 product: Windows
 targetos: Windows
-req.typenames: "*PENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE"
+req.typenames: ENDPOINTS_CONFIGURE, *PENDPOINTS_CONFIGURE
 req.product: Windows 10 or later.
 ---
 
@@ -165,5 +165,5 @@ The setting number of the alternate setting that contains the endpoints.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20ENDPOINTS_CONFIGURE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20ENDPOINTS_CONFIGURE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

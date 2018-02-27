@@ -7,8 +7,8 @@ old-location: storage\disk_cache_information.htm
 old-project: storage
 ms.assetid: 17ea8b6b-d41f-4224-880a-49443756d0de
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: ntdddisk/PDISK_CACHE_INFORMATION, ntdddisk/DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION, _DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION structure [Storage Devices], PDISK_CACHE_INFORMATION structure pointer [Storage Devices], *PDISK_CACHE_INFORMATION, storage.disk_cache_information, structs-disk_def992c5-6103-4eab-8598-4d52808e6b8c.xml, PDISK_CACHE_INFORMATION
+ms.date: 2/24/2018
+ms.keywords: "*PDISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION structure [Storage Devices], PDISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION structure pointer [Storage Devices], _DISK_CACHE_INFORMATION, ntdddisk/DISK_CACHE_INFORMATION, ntdddisk/PDISK_CACHE_INFORMATION, storage.disk_cache_information, structs-disk_def992c5-6103-4eab-8598-4d52808e6b8c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -157,17 +157,17 @@ Contains the scalar multiplier of the transfer length of the request when <b>Pre
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_cache_information.md">DISK_CACHE_INFORMATION</a>
-
-
-
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_cache_information.md">IOCTL_DISK_GET_CACHE_INFORMATION</a>
 
 
 
- 
+<a href="..\ntdddisk\ns-ntdddisk-_disk_cache_information.md">DISK_CACHE_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DISK_CACHE_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DISK_CACHE_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e997fce6-ee3a-433f-b9b7-3e2932093a1a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NDIS_RECEIVE_QUEUE_STATE, ndis/PNDIS_RECEIVE_QUEUE_STATE, netvista.ndis_receive_queue_state, virtual_machine_queue_ref_4cbbc25f-cd33-45d7-b279-1661570110f0.xml, PNDIS_RECEIVE_QUEUE_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_QUEUE_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_STATE, NDIS_RECEIVE_QUEUE_STATE, _NDIS_RECEIVE_QUEUE_STATE, *PNDIS_RECEIVE_QUEUE_STATE
+ms.keywords: "*PNDIS_RECEIVE_QUEUE_STATE, NDIS_RECEIVE_QUEUE_STATE, NDIS_RECEIVE_QUEUE_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_STATE, PNDIS_RECEIVE_QUEUE_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_STATE, ndis/NDIS_RECEIVE_QUEUE_STATE, ndis/PNDIS_RECEIVE_QUEUE_STATE, netvista.ndis_receive_queue_state, virtual_machine_queue_ref_4cbbc25f-cd33-45d7-b279-1661570110f0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,11 +120,6 @@ The <b>NDIS_RECEIVE_QUEUE_STATE</b> structure is used in the
 
 <a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_operational_state.md">
    NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567214">
-   NDIS_STATUS_RECEIVE_QUEUE_STATE</a>
 
 
 

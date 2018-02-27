@@ -4,11 +4,11 @@ title: IDebugSymbols3::GetSymbolEntriesByOffset method
 author: windows-driver-content
 description: The GetSymbolEntriesByOffset method returns the symbols which are located at a specified address.
 old-location: debugger\getsymbolentriesbyoffset.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 93df59dc-adae-49b7-acf4-1cfdd142fd96
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GetSymbolEntriesByOffset, IDebugSymbols3::GetSymbolEntriesByOffset, debugger.getsymbolentriesbyoffset, GetSymbolEntriesByOffset method [Windows Debugging], dbgeng/IDebugSymbols3::GetSymbolEntriesByOffset, IDebugSymbols3, GetSymbolEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_dba4bc10-a8a8-476d-b668-652c24743ea5.xml, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByOffset method
+ms.date: 2/23/2018
+ms.keywords: GetSymbolEntriesByOffset method [Windows Debugging], GetSymbolEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface, GetSymbolEntriesByOffset,IDebugSymbols3.GetSymbolEntriesByOffset, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByOffset method, IDebugSymbols3::GetSymbolEntriesByOffset, IDebugSymbols_dba4bc10-a8a8-476d-b668-652c24743ea5.xml, dbgeng/IDebugSymbols3::GetSymbolEntriesByOffset, debugger.getsymbolentriesbyoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -153,5 +153,5 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols3::GetSymbolEntriesByOffset method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3::GetSymbolEntriesByOffset method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

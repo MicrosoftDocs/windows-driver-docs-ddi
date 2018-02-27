@@ -7,8 +7,8 @@ old-location: audio\iminiportstreamaudioenginenode.htm
 old-project: audio
 ms.assetid: B3F7D3AC-C756-47D2-9E7C-7930621753C3
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iminiportstreamaudioenginenode, IMiniportStreamAudioEngineNode interface [Audio Devices], IMiniportStreamAudioEngineNode interface [Audio Devices], described, IMiniportStreamAudioEngineNode, portcls/IMiniportStreamAudioEngineNode
+ms.date: 2/22/2018
+ms.keywords: IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], IMiniportStreamAudioEngineNode interface [Audio Devices], described, audio.iminiportstreamaudioenginenode, portcls/IMiniportStreamAudioEngineNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -51,6 +51,13 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 This interface allows a miniport driver to use KS properties that access the audio engine via a pin instance handle.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportStreamAudioEngineNode</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMiniportStreamAudioEngineNode</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -177,31 +184,5 @@ Sets the loopback protection status of the audio engine node.
 
 </td>
 </tr>
-</table>Gets the state of the local effects (LFX) node that is in the path of the audio stream.
-
-Gets the allowed stepping value for the audio stream attribute.
-
-Gets a count of the number of channels available for the stream.
-
-Gets the state of the Mute node in the path of the audio stream.
-
-Gets the value of the PeakMeter node in the path of the audio stream.
-
-Gets the current volume level that is applied to the audio stream.
-
-	Gets the number of bytes that the DMA has fetched from the audio buffer since the beginning of the stream.
-
-Gets the current cursor position in the audio data stream that is being rendered to the endpoint.
-
-Sets the state of the local effects (LFX) node that is in the path of the audio stream.
-
-Sets the state of the Mute node in the path of the audio stream.
-
-Sets the volume level to be applied to the audio stream.
-
-Sets the current cursor position in the audio data stream that is being captured from the endpoint.
-
-Sets the loopback protection status of the audio engine node.
-
- 
+</table> 
 

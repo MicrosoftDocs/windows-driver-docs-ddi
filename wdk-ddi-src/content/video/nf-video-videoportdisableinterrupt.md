@@ -7,8 +7,8 @@ old-location: display\videoportdisableinterrupt.htm
 old-project: display
 ms.assetid: 4a2be8af-e393-4c7f-9377-cb2842778104
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.videoportdisableinterrupt, VideoPort_Functions_b01a5ae8-7e44-4ac8-9e11-ee266f34a4da.xml, video/VideoPortDisableInterrupt, VideoPortDisableInterrupt, VideoPortDisableInterrupt function [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: VideoPortDisableInterrupt, VideoPortDisableInterrupt function [Display Devices], VideoPort_Functions_b01a5ae8-7e44-4ac8-9e11-ee266f34a4da.xml, display.videoportdisableinterrupt, video/VideoPortDisableInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,10 +113,6 @@ If the video miniport driver has not registered an <a href="..\video\nc-video-pv
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
-
-
-
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
 
 
@@ -129,9 +125,13 @@ If the video miniport driver has not registered an <a href="..\video\nc-video-pv
 
 
 
- 
+<a href="..\video\nf-video-videoportenableinterrupt.md">VideoPortEnableInterrupt</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortDisableInterrupt function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortDisableInterrupt function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

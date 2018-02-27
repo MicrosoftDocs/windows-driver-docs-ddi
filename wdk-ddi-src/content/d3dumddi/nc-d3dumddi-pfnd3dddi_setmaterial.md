@@ -7,8 +7,8 @@ old-location: display\setmaterial.htm
 old-project: display
 ms.assetid: e1273478-a450-44fa-95d5-ee86cb3a46b2
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.setmaterial, SetMaterial callback function [Display Devices], SetMaterial, PFND3DDDI_SETMATERIAL, PFND3DDDI_SETMATERIAL, d3dumddi/SetMaterial, UserModeDisplayDriver_Functions_004e812d-4be5-4222-9a29-e206e17a2fa1.xml
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_SETMATERIAL, SetMaterial, SetMaterial callback function [Display Devices], UserModeDisplayDriver_Functions_004e812d-4be5-4222-9a29-e206e17a2fa1.xml, d3dumddi/SetMaterial, display.setmaterial
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -110,17 +110,17 @@ Material properties detail a material's diffuse reflection, ambient reflection, 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setmaterial.md">D3DDDIARG_SETMATERIAL</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
- 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setmaterial.md">D3DDDIARG_SETMATERIAL</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_SETMATERIAL callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_SETMATERIAL callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

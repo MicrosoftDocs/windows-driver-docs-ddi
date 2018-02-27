@@ -7,8 +7,8 @@ old-location: pci\read_write_mitigated_registers.htm
 old-project: PCI
 ms.assetid: 7cd45484-0fee-4b8e-aa35-4142883c146e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PCI.read_write_mitigated_registers, ReadWriteMitigatedRegister callback function [Buses], ReadWriteMitigatedRegister, READ_WRITE_MITIGATED_REGISTER, READ_WRITE_MITIGATED_REGISTER, pcivirt/ReadWriteMitigatedRegister, *PREAD_WRITE_MITIGATED_REGISTER callback function pointer [Buses], *PREAD_WRITE_MITIGATED_REGISTER
+ms.date: 2/24/2018
+ms.keywords: "*PREAD_WRITE_MITIGATED_REGISTER, *PREAD_WRITE_MITIGATED_REGISTER callback function pointer [Buses], PCI.read_write_mitigated_registers, READ_WRITE_MITIGATED_REGISTER, ReadWriteMitigatedRegister, ReadWriteMitigatedRegister callback function [Buses], pcivirt/ReadWriteMitigatedRegister"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

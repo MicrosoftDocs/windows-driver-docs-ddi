@@ -7,8 +7,8 @@ old-location: stream\ksprocesspin.htm
 old-project: stream
 ms.assetid: a1625eb2-a38b-4517-b873-f33b5ced8705
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KSPROCESSPIN structure [Streaming Media Devices], PKSPROCESSPIN structure pointer [Streaming Media Devices], *PKSPROCESSPIN, PKSPROCESSPIN, KSPROCESSPIN, ks/PKSPROCESSPIN, avstruct_a374bc58-a61f-4d3b-9b20-de14b7cc423f.xml, ks/KSPROCESSPIN, _KSPROCESSPIN, stream.ksprocesspin
+ms.date: 2/23/2018
+ms.keywords: "*PKSPROCESSPIN, KSPROCESSPIN, KSPROCESSPIN structure [Streaming Media Devices], PKSPROCESSPIN, PKSPROCESSPIN structure pointer [Streaming Media Devices], _KSPROCESSPIN, avstruct_a374bc58-a61f-4d3b-9b20-de14b7cc423f.xml, ks/KSPROCESSPIN, ks/PKSPROCESSPIN, stream.ksprocesspin"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -145,15 +145,15 @@ Most clients are concerned with the members <b>Pin</b>, <b>Data</b>, <b>BytesAva
 
 
 
-<a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a>
-
-
-
 <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
 
 
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
+
+
+
+<a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a>
 
 
 
@@ -161,5 +161,5 @@ Most clients are concerned with the members <b>Pin</b>, <b>Data</b>, <b>BytesAva
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROCESSPIN structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROCESSPIN structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

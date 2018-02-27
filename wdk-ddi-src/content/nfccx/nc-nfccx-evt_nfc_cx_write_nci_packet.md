@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: B734439A-E345-44CC-8FD0-8E38A718A773
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: nfpdrivers.evtnfccxwritencipacket, EvtNfcCxWriteNciPacket callback function [Near-Field Proximity Drivers], EvtNfcCxWriteNciPacket, EVT_NFC_CX_WRITE_NCI_PACKET, EVT_NFC_CX_WRITE_NCI_PACKET, nfccx/EvtNfcCxWriteNciPacket
+ms.keywords: EVT_NFC_CX_WRITE_NCI_PACKET, EvtNfcCxWriteNciPacket, EvtNfcCxWriteNciPacket callback function [Near-Field Proximity Drivers], nfccx/EvtNfcCxWriteNciPacket, nfpdrivers.evtnfccxwritencipacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -101,11 +101,11 @@ The client driver should not make any blocking calls when handling this function
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 

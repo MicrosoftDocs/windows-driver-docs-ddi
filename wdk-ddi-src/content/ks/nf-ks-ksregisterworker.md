@@ -7,8 +7,8 @@ old-location: stream\ksregisterworker.htm
 old-project: stream
 ms.assetid: b9c74a56-3f2c-4b94-8fb2-6b44075ec34b
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ks/KsRegisterWorker, KsRegisterWorker function [Streaming Media Devices], ksfunc_c2cb48b6-6268-4d53-a81b-07c1984f80aa.xml, KsRegisterWorker, stream.ksregisterworker
+ms.date: 2/23/2018
+ms.keywords: KsRegisterWorker, KsRegisterWorker function [Streaming Media Devices], ks/KsRegisterWorker, ksfunc_c2cb48b6-6268-4d53-a81b-07c1984f80aa.xml, stream.ksregisterworker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

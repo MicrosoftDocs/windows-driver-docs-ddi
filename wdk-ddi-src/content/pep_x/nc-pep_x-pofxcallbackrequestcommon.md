@@ -7,8 +7,8 @@ old-location: kernel\requestcommon.htm
 old-project: kernel
 ms.assetid: 16699B3D-D02B-4D01-9EBE-003C92B06D31
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.requestcommon, RequestCommon, RequestCommon routine [Kernel-Mode Driver Architecture], RequestCommon, POFXCALLBACKREQUESTCOMMON, POFXCALLBACKREQUESTCOMMON, pepfx/RequestCommon
+ms.date: 2/24/2018
+ms.keywords: POFXCALLBACKREQUESTCOMMON, RequestCommon, RequestCommon routine [Kernel-Mode Driver Architecture], kernel.requestcommon, pepfx/RequestCommon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	RequestCommon
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE"
+req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
 ---
 
 # POFXCALLBACKREQUESTCOMMON callback
@@ -111,5 +111,5 @@ A PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20POFXCALLBACKREQUESTCOMMON routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20POFXCALLBACKREQUESTCOMMON routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

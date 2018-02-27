@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 608AD247-19C8-40E8-B2FF-D49818AE4AD7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: windot11/PDOT11_KEY_ALGO_BIP, *PDOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP, PDOT11_KEY_ALGO_BIP, windot11/DOT11_KEY_ALGO_BIP, PDOT11_KEY_ALGO_BIP structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_key_algo_bip, DOT11_KEY_ALGO_BIP structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PDOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP structure [Network Drivers Starting with Windows Vista], PDOT11_KEY_ALGO_BIP, PDOT11_KEY_ALGO_BIP structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_key_algo_bip, windot11/DOT11_KEY_ALGO_BIP, windot11/PDOT11_KEY_ALGO_BIP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

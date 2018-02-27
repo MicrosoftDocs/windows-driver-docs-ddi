@@ -7,8 +7,8 @@ old-location: storage\ioctl_storage_reset_device.htm
 old-project: storage
 ms.assetid: 85ada0f2-5690-4686-86e5-0e1cdc6b2054
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.ioctl_storage_reset_device, IOCTL_STORAGE_RESET_DEVICE control code [Storage Devices], IOCTL_STORAGE_RESET_DEVICE, ntddstor/IOCTL_STORAGE_RESET_DEVICE, k307_489c36aa-d120-4d01-b5bd-29adca082064.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_STORAGE_RESET_DEVICE, IOCTL_STORAGE_RESET_DEVICE control code [Storage Devices], k307_489c36aa-d120-4d01-b5bd-29adca082064.xml, ntddstor/IOCTL_STORAGE_RESET_DEVICE, storage.ioctl_storage_reset_device
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_STORAGE_RESET_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION"
+req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ---
 
 # IOCTL_STORAGE_RESET_DEVICE IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*PSTORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

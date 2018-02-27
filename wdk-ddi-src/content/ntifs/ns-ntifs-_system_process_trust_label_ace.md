@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: DF334754-8027-418D-B329-877492896B82
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SYSTEM_PROCESS_TRUST_LABEL_ACE, SYSTEM_PROCESS_TRUST_LABEL_ACE structure [Installable File System Drivers], ntifs/SYSTEM_PROCESS_TRUST_LABEL_ACE, *PSYSTEM_PROCESS_TRUST_LABEL_ACE, ifsk.system_process_trust_label_ace, _SYSTEM_PROCESS_TRUST_LABEL_ACE
+ms.keywords: "*PSYSTEM_PROCESS_TRUST_LABEL_ACE, SYSTEM_PROCESS_TRUST_LABEL_ACE, SYSTEM_PROCESS_TRUST_LABEL_ACE structure [Installable File System Drivers], _SYSTEM_PROCESS_TRUST_LABEL_ACE, ifsk.system_process_trust_label_ace, ntifs/SYSTEM_PROCESS_TRUST_LABEL_ACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

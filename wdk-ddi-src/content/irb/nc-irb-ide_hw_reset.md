@@ -7,8 +7,8 @@ old-location: storage\idehwreset.htm
 old-project: storage
 ms.assetid: 722810c8-ddf2-4910-8cf3-af3511d8c167
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.idehwreset, IdeHwReset routine [Storage Devices], IdeHwReset, IDE_HW_RESET, IDE_HW_RESET, irb/IdeHwReset, atartns_c3c999ac-3737-48ab-be9b-99c83013b878.xml
+ms.date: 2/24/2018
+ms.keywords: IDE_HW_RESET, IdeHwReset, IdeHwReset routine [Storage Devices], atartns_c3c999ac-3737-48ab-be9b-99c83013b878.xml, irb/IdeHwReset, storage.idehwreset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

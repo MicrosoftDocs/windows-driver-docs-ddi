@@ -2,13 +2,13 @@
 UID: NC:ks.PFNKSCLOCK_CORRELATEDTIME
 title: PFNKSCLOCK_CORRELATEDTIME
 author: windows-driver-content
-description: KStrClockGetCorrelatedTime is a system-supplied routine that retrieves both the current system time and the corresponding clock tick count since boot.
+description: The routine is a system-supplied routine that retrieves and the following:KStrClockGetCorrelatedTime is a system-supplied routine that retrieves both the current system time and the corresponding clock tick count since boot.KStrClockGetCorrelatedPhysicalTime is a system-supplied routine that retrieves both the current system time minus suspended delta and the corresponding clock tick since boot.
 old-location: stream\kstrclockgetcorrelatedtime.htm
 old-project: stream
 ms.assetid: 1fc71718-a1fb-4e82-9805-7830e761cd6d
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.kstrclockgetcorrelatedtime, KStrClockGetCorrelatedTime, KStrClockGetCorrelatedTime routine [Streaming Media Devices], KStrClockGetCorrelatedTime, PFNKSCLOCK_CORRELATEDTIME, PFNKSCLOCK_CORRELATEDTIME, ks/KStrClockGetCorrelatedTime, ksfunc_dd229adf-e2be-44ac-bda2-f947b0f559a3.xml
+ms.date: 2/23/2018
+ms.keywords: KStrClockGetCorrelatedPhysicalTime, KStrClockGetCorrelatedTime, PFNKSCLOCK_CORRELATEDTIME, SystemCorrelatedTime, SystemCorrelatedTime routine [Streaming Media Devices], ks/SystemCorrelatedTime, ksfunc_dd229adf-e2be-44ac-bda2-f947b0f559a3.xml, stream.kstrclockgetcorrelatedtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -37,7 +37,7 @@ apitype:
 apilocation:
 -	ks.h
 apiname:
--	KStrClockGetCorrelatedTime
+-	SystemCorrelatedTime
 product: Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
@@ -49,16 +49,21 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ## -description
 
 
+The routine 
+      is a system-supplied routine that retrieves  and the following:
+
 <i>KStrClockGetCorrelatedTime</i> is a system-supplied routine that retrieves both the current system time and the corresponding clock tick count since boot.
+
+<i>KStrClockGetCorrelatedPhysicalTime</i> is a system-supplied routine that retrieves both the current system time minus suspended delta and the corresponding clock tick since boot.
 
 
 ## -prototype
 
 
 ````
-PFNKSCLOCK_CORRELATEDTIME KStrClockGetCorrelatedTime;
+PFNKSCLOCK_CORRELATEDTIME SystemCorrelatedTime;
 
-LONGLONG FASTCALL KStrClockGetCorrelatedTime(
+LONGLONG FASTCALL SystemCorrelatedTime(
   _In_  PFILE_OBJECT FileObject,
   _Out_ PLONGLONG    SystemTime
 )
@@ -105,6 +110,10 @@ Both time values are specified in 100 nanosecond units.
 
 ## -see-also
 
+<a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a>
+
+
+
 <a href="..\ks\ns-ks-ksclock_functiontable.md">KSCLOCK_FUNCTIONTABLE</a>
 
 
@@ -113,11 +122,7 @@ Both time values are specified in 100 nanosecond units.
 
 
 
-<a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
 
 
 
@@ -125,5 +130,5 @@ Both time values are specified in 100 nanosecond units.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSCLOCK_CORRELATEDTIME routine%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSCLOCK_CORRELATEDTIME routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

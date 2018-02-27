@@ -7,8 +7,8 @@ old-location: dtf\itracing_settracelevel.htm
 old-project: dtf
 ms.assetid: 3b0b43c4-24b9-41e7-9861-6733c79bf40a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ITracing interface [Windows Device Testing Framework], SetTraceLevel method, SetTraceLevel method [Windows Device Testing Framework], SetTraceLevel method [Windows Device Testing Framework], ITracing interface, wdtf/ITracing::SetTraceLevel, dtf.itracing_settracelevel, ITracing_e998383b-984d-4f24-b684-06e81e453714.xml, ITracing::SetTraceLevel, SetTraceLevel, ITracing
+ms.date: 2/23/2018
+ms.keywords: ITracing, ITracing interface [Windows Device Testing Framework], SetTraceLevel method, ITracing::SetTraceLevel, ITracing_e998383b-984d-4f24-b684-06e81e453714.xml, SetTraceLevel method [Windows Device Testing Framework], SetTraceLevel method [Windows Device Testing Framework], ITracing interface, SetTraceLevel,ITracing.SetTraceLevel, dtf.itracing_settracelevel, wdtf/ITracing::SetTraceLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -188,10 +188,6 @@ else
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-itracer.md">ITracer</a>
-
-
-
 <a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
 
 
@@ -200,9 +196,13 @@ else
 
 
 
- 
+<a href="..\wdtf\nn-wdtf-itracer.md">ITracer</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20ITracing::SetTraceLevel method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20ITracing::SetTraceLevel method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

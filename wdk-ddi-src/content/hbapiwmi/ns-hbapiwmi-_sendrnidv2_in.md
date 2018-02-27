@@ -7,8 +7,8 @@ old-location: storage\sendrnidv2_in.htm
 old-project: storage
 ms.assetid: b9c0833d-96ac-41cb-815f-b2df27f46cb4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PSendRNIDV2_IN, SendRNIDV2_IN, *PSendRNIDV2_IN, _SendRNIDV2_IN, storage.sendrnidv2_in, SendRNIDV2_IN structure [Storage Devices], hbapiwmi/SendRNIDV2_IN, structs-Fibre_5411860d-c8c8-4f4d-b4cc-751973c3d02e.xml, PSendRNIDV2_IN structure pointer [Storage Devices], hbapiwmi/PSendRNIDV2_IN
+ms.date: 2/24/2018
+ms.keywords: "*PSendRNIDV2_IN, PSendRNIDV2_IN, PSendRNIDV2_IN structure pointer [Storage Devices], SendRNIDV2_IN, SendRNIDV2_IN structure [Storage Devices], _SendRNIDV2_IN, hbapiwmi/PSendRNIDV2_IN, hbapiwmi/SendRNIDV2_IN, storage.sendrnidv2_in, structs-Fibre_5411860d-c8c8-4f4d-b4cc-751973c3d02e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,5 +109,5 @@ The WMI tool suite generates a declaration of the SendRNIDV2_IN structure in <i>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SendRNIDV2_IN structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SendRNIDV2_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

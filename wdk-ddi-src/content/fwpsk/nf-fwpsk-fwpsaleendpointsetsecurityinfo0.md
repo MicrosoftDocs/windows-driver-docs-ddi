@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7b7fed83-dcf8-466d-8bd7-42a5ed15cced
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.fwpsaleendpointsetsecurityinfo0, wfp_ref_2_funct_3_fwps_A-B_7999c73b-ee7d-4a54-b279-8a691a99d94d.xml, FwpsAleEndpointSetSecurityInfo0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointSetSecurityInfo0, FwpsAleEndpointSetSecurityInfo0
+ms.keywords: FwpsAleEndpointSetSecurityInfo0, FwpsAleEndpointSetSecurityInfo0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointSetSecurityInfo0, netvista.fwpsaleendpointsetsecurityinfo0, wfp_ref_2_funct_3_fwps_A-B_7999c73b-ee7d-4a54-b279-8a691a99d94d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -155,12 +155,12 @@ An error occurred.
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetsecurityinfo0.md">
    FwpsAleEndpointGetSecurityInfo0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
 
 
 

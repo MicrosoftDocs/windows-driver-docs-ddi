@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 400823C4-5F71-4334-9160-FAC0690F209F
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.write_port_ulong, wudfddi_hwaccess/WRITE_PORT_ULONG, wdf.write_port_ulong, WRITE_PORT_ULONG, WRITE_PORT_ULONG function
+ms.keywords: WRITE_PORT_ULONG, WRITE_PORT_ULONG function, umdf.write_port_ulong, wdf.write_port_ulong, wudfddi_hwaccess/WRITE_PORT_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WRITE_PORT_ULONG
 product: Windows
 targetos: Windows
-req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
+req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: display\destroyresource.htm
 old-project: display
 ms.assetid: 1af85315-4367-49de-9453-eef62c838c97
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.destroyresource, DestroyResource callback function [Display Devices], DestroyResource, PFND3DDDI_DESTROYRESOURCE, PFND3DDDI_DESTROYRESOURCE, d3dumddi/DestroyResource, UserModeDisplayDriver_Functions_7d6c0444-aa22-4348-9da4-9708414284e9.xml
+ms.date: 2/24/2018
+ms.keywords: DestroyResource, DestroyResource callback function [Display Devices], PFND3DDDI_DESTROYRESOURCE, UserModeDisplayDriver_Functions_7d6c0444-aa22-4348-9da4-9708414284e9.xml, d3dumddi/DestroyResource, display.destroyresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -116,7 +116,7 @@ For more information about creating and destroying resources, see <a href="https
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
@@ -124,7 +124,7 @@ For more information about creating and destroying resources, see <a href="https
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
 
 
 
@@ -132,7 +132,7 @@ For more information about creating and destroying resources, see <a href="https
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openresource.md">OpenResource</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
 
 
@@ -140,5 +140,5 @@ For more information about creating and destroying resources, see <a href="https
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_DESTROYRESOURCE callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_DESTROYRESOURCE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

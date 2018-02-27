@@ -7,8 +7,8 @@ old-location: kernel\key_node_information.htm
 old-project: kernel
 ms.assetid: 2eed1a3d-fc40-4416-ad61-d82bf4fb69a1
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kstruct_c_a41bb6c8-4e12-4aac-94cf-a24d32727c5e.xml, kernel.key_node_information, PKEY_NODE_INFORMATION, PKEY_NODE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_NODE_INFORMATION, wdm/PKEY_NODE_INFORMATION, KEY_NODE_INFORMATION, wdm/KEY_NODE_INFORMATION, KEY_NODE_INFORMATION structure [Kernel-Mode Driver Architecture], *PKEY_NODE_INFORMATION
+ms.date: 2/24/2018
+ms.keywords: "*PKEY_NODE_INFORMATION, KEY_NODE_INFORMATION, KEY_NODE_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_NODE_INFORMATION, PKEY_NODE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_NODE_INFORMATION, kernel.key_node_information, kstruct_c_a41bb6c8-4e12-4aac-94cf-a24d32727c5e.xml, wdm/KEY_NODE_INFORMATION, wdm/PKEY_NODE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KEY_NODE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PKEY_NODE_INFORMATION, KEY_NODE_INFORMATION"
+req.typenames: KEY_NODE_INFORMATION, *PKEY_NODE_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -114,11 +114,19 @@ The <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a> and <a href="..
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
 
 
 
 <a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
 
 
 
@@ -134,15 +142,7 @@ The <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a> and <a href="..
 
 
 
-<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
 
 
 
@@ -150,5 +150,5 @@ The <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a> and <a href="..
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KEY_NODE_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KEY_NODE_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

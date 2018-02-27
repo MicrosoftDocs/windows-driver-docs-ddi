@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: fba604bc-2fab-448c-bbc7-8ea30ff6de6b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: acpi.acpi_enum_children_input_buffer, _ACPI_ENUM_CHILDREN_INPUT_BUFFER, PACPI_ENUM_CHILDREN_INPUT_BUFFER, ACPI_ENUM_CHILDREN_INPUT_BUFFER, PACPI_ENUM_CHILDREN_INPUT_BUFFER structure pointer [ACPI Devices], ACPI_ENUM_CHILDREN_INPUT_BUFFER structure [ACPI Devices], acpi-meth-eval-ref_3d8ce8a3-94f9-4ea0-9a16-f76c08928fc4.xml, *PACPI_ENUM_CHILDREN_INPUT_BUFFER, acpiioct/PACPI_ENUM_CHILDREN_INPUT_BUFFER, acpiioct/ACPI_ENUM_CHILDREN_INPUT_BUFFER
+ms.keywords: "*PACPI_ENUM_CHILDREN_INPUT_BUFFER, ACPI_ENUM_CHILDREN_INPUT_BUFFER, ACPI_ENUM_CHILDREN_INPUT_BUFFER structure [ACPI Devices], PACPI_ENUM_CHILDREN_INPUT_BUFFER, PACPI_ENUM_CHILDREN_INPUT_BUFFER structure pointer [ACPI Devices], _ACPI_ENUM_CHILDREN_INPUT_BUFFER, acpi-meth-eval-ref_3d8ce8a3-94f9-4ea0-9a16-f76c08928fc4.xml, acpi.acpi_enum_children_input_buffer, acpiioct/ACPI_ENUM_CHILDREN_INPUT_BUFFER, acpiioct/PACPI_ENUM_CHILDREN_INPUT_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ACPI_ENUM_CHILDREN_INPUT_BUFFER
 product: Windows
 targetos: Windows
-req.typenames: "*PACPI_ENUM_CHILDREN_INPUT_BUFFER, ACPI_ENUM_CHILDREN_INPUT_BUFFER"
+req.typenames: ACPI_ENUM_CHILDREN_INPUT_BUFFER, *PACPI_ENUM_CHILDREN_INPUT_BUFFER
 ---
 
 # _ACPI_ENUM_CHILDREN_INPUT_BUFFER structure

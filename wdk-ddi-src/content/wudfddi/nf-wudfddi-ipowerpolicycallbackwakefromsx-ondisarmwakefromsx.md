@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0e2f42af-3eb7-4957-be91-4f31d2d558c2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IPowerPolicyCallbackWakeFromSx, wdf.ipowerpolicycallbackwakefromsx_ondisarmwakefromsx, IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx, UMDFDeviceObjectRef_65152bfc-4855-40ba-ab0d-abfc2415441d.xml, IPowerPolicyCallbackWakeFromSx interface, OnDisarmWakeFromSx method, OnDisarmWakeFromSx method, IPowerPolicyCallbackWakeFromSx interface, OnDisarmWakeFromSx, wudfddi/IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx, OnDisarmWakeFromSx method, umdf.ipowerpolicycallbackwakefromsx_ondisarmwakefromsx
+ms.keywords: IPowerPolicyCallbackWakeFromSx, IPowerPolicyCallbackWakeFromSx interface, OnDisarmWakeFromSx method, IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx, OnDisarmWakeFromSx method, OnDisarmWakeFromSx method, IPowerPolicyCallbackWakeFromSx interface, OnDisarmWakeFromSx,IPowerPolicyCallbackWakeFromSx.OnDisarmWakeFromSx, UMDFDeviceObjectRef_65152bfc-4855-40ba-ab0d-abfc2415441d.xml, umdf.ipowerpolicycallbackwakefromsx_ondisarmwakefromsx, wdf.ipowerpolicycallbackwakefromsx_ondisarmwakefromsx, wudfddi/IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

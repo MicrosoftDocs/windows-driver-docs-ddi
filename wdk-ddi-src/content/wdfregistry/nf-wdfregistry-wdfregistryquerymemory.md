@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2d689ede-418e-4bf3-8c0e-82ded1085382
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfregistry/WdfRegistryQueryMemory, DFRegKeyObjectRef_97e02e2b-59d4-4041-a22d-e3a8905c096f.xml, wdf.wdfregistryquerymemory, WdfRegistryQueryMemory method, WdfRegistryQueryMemory, kmdf.wdfregistryquerymemory
+ms.keywords: DFRegKeyObjectRef_97e02e2b-59d4-4041-a22d-e3a8905c096f.xml, WdfRegistryQueryMemory, WdfRegistryQueryMemory method, kmdf.wdfregistryquerymemory, wdf.wdfregistryquerymemory, wdfregistry/WdfRegistryQueryMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -248,11 +248,11 @@ pBuf = (PUCHAR)WdfMemoryGetBuffer(
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
 
 
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymultistring.md">WdfRegistryQueryMultiString</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryunicodestring.md">WdfRegistryQueryUnicodeString</a>
 
 
 
@@ -260,15 +260,11 @@ pBuf = (PUCHAR)WdfMemoryGetBuffer(
 
 
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerystring.md">WdfRegistryQueryString</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryunicodestring.md">WdfRegistryQueryUnicodeString</a>
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
 
 
 
@@ -280,11 +276,15 @@ pBuf = (PUCHAR)WdfMemoryGetBuffer(
 
 
 
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerystring.md">WdfRegistryQueryString</a>
+
+
+
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymultistring.md">WdfRegistryQueryMultiString</a>
 
 
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryulong.md">WdfRegistryQueryULong</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: audio\drmforwardcontenttodeviceobject.htm
 old-project: audio
 ms.assetid: 1ce67fb6-190e-4de2-9877-f06cd08cf424
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: drmk/DrmForwardContentToDeviceObject, audio.drmforwardcontenttodeviceobject, DrmForwardContentToDeviceObject function [Audio Devices], aud-prop2_45870b55-07dc-48bf-a8ff-8005a7791dc1.xml, DrmForwardContentToDeviceObject
+ms.date: 2/22/2018
+ms.keywords: DrmForwardContentToDeviceObject, DrmForwardContentToDeviceObject function [Audio Devices], aud-prop2_45870b55-07dc-48bf-a8ff-8005a7791dc1.xml, audio.drmforwardcontenttodeviceobject, drmk/DrmForwardContentToDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	DrmForwardContentToDeviceObject
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
+req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---
 
 # DrmForwardContentToDeviceObject function
@@ -211,7 +211,7 @@ The handler for the KSPROPERTY_DRMAUDIOSTREAM_CONTENTID property must verify tha
 
 ## -see-also
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+<a href="..\portcls\nf-portcls-pcforwardcontenttodeviceobject.md">PcForwardContentToDeviceObject</a>
 
 
 
@@ -223,7 +223,7 @@ The handler for the KSPROPERTY_DRMAUDIOSTREAM_CONTENTID property must verify tha
 
 
 
-<a href="..\portcls\nf-portcls-pcforwardcontenttodeviceobject.md">PcForwardContentToDeviceObject</a>
+<a href="..\drmk\ns-drmk-tagdrmforward.md">DRMFORWARD</a>
 
 
 
@@ -231,17 +231,17 @@ The handler for the KSPROPERTY_DRMAUDIOSTREAM_CONTENTID property must verify tha
 
 
 
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
 
 
-<a href="..\drmk\ns-drmk-tagdrmforward.md">DRMFORWARD</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20DrmForwardContentToDeviceObject function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20DrmForwardContentToDeviceObject function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

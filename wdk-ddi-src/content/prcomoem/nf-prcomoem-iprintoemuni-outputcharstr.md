@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_outputcharstr.htm
 old-project: print
 ms.assetid: 73518253-d65a-40ab-8735-44e92fbbed57
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IPrintOemUni interface [Print Devices], OutputCharStr method, print.iprintoemuni_outputcharstr, OutputCharStr method [Print Devices], IPrintOemUni::OutputCharStr, prcomoem/IPrintOemUni::OutputCharStr, IPrintOemUni, OutputCharStr, OutputCharStr method [Print Devices], IPrintOemUni interface, print_unidrv-pscript_rendering_89b41d7b-5ceb-44a1-9b48-71751df6e40a.xml
+ms.date: 2/23/2018
+ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], OutputCharStr method, IPrintOemUni::OutputCharStr, OutputCharStr method [Print Devices], OutputCharStr method [Print Devices], IPrintOemUni interface, OutputCharStr,IPrintOemUni.OutputCharStr, prcomoem/IPrintOemUni::OutputCharStr, print.iprintoemuni_outputcharstr, print_unidrv-pscript_rendering_89b41d7b-5ceb-44a1-9b48-71751df6e40a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.OutputCharStr
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

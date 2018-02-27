@@ -4,11 +4,11 @@ title: IWiaDrvItem::DumpItemData method
 author: windows-driver-content
 description: The IWiaDrvItem::DumpItemData method dumps private data associated with an IWiaDrvItem item into an allocated private buffer.
 old-location: image\iwiadrvitem_dumpitemdata.htm
-old-project: Image
+old-project: image
 ms.assetid: e17da654-60a7-4942-99f9-f55df87a1ca3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: image.iwiadrvitem_dumpitemdata, IWiaDrvItem interface [Imaging Devices], DumpItemData method, wiamindr_lh/IWiaDrvItem::DumpItemData, DumpItemData, DumpItemData method [Imaging Devices], DrvItem_fae1b45f-719d-4bce-92fd-d43844178800.xml, IWiaDrvItem::DumpItemData, IWiaDrvItem, DumpItemData method [Imaging Devices], IWiaDrvItem interface
+ms.date: 2/23/2018
+ms.keywords: DrvItem_fae1b45f-719d-4bce-92fd-d43844178800.xml, DumpItemData method [Imaging Devices], DumpItemData method [Imaging Devices], IWiaDrvItem interface, DumpItemData,IWiaDrvItem.DumpItemData, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], DumpItemData method, IWiaDrvItem::DumpItemData, image.iwiadrvitem_dumpitemdata, wiamindr_lh/IWiaDrvItem::DumpItemData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5AA3DD53-26A0-460F-9F6D-3515F9C334FA
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WRITE_PORT_UCHAR function, wudfddi_hwaccess/WRITE_PORT_UCHAR, umdf.write_port_uchar, wdf.write_port_uchar, WRITE_PORT_UCHAR
+ms.keywords: WRITE_PORT_UCHAR, WRITE_PORT_UCHAR function, umdf.write_port_uchar, wdf.write_port_uchar, wudfddi_hwaccess/WRITE_PORT_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WRITE_PORT_UCHAR
 product: Windows
 targetos: Windows
-req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
+req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
 req.product: Windows 10 or later.
 ---
 

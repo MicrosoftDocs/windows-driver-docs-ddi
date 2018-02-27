@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: a54902d0-aa07-4cd0-8ef1-a3c17dff2ac9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.ioctl_par_set_information, IOCTL_PAR_SET_INFORMATION control code [Parallel Ports], IOCTL_PAR_SET_INFORMATION, ntddpar/IOCTL_PAR_SET_INFORMATION, cisspd_950d6397-7eff-4966-a734-0497f1a84257.xml
+ms.keywords: IOCTL_PAR_SET_INFORMATION, IOCTL_PAR_SET_INFORMATION control code [Parallel Ports], cisspd_950d6397-7eff-4966-a734-0497f1a84257.xml, ntddpar/IOCTL_PAR_SET_INFORMATION, parports.ioctl_par_set_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_PAR_SET_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION"
+req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ---
 
 # IOCTL_PAR_SET_INFORMATION IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

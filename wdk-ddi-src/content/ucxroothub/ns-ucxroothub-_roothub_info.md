@@ -4,11 +4,11 @@ title: "_ROOTHUB_INFO"
 author: windows-driver-content
 description: Provides information about a USB root hub. This structure is passed by UCX in the EVT_UCX_ROOTHUB_GET_INFO callback function.
 old-location: buses\_roothub_info.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 634398E9-7AAA-424C-8C81-287F70CE3578
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: P_ROOTHUB_INFO, ROOTHUB_INFO, ucxroothub/P_ROOTHUB_INFO, ROOTHUB_INFO structure [Buses], buses._roothub_info, P_ROOTHUB_INFO structure pointer [Buses], *PROOTHUB_INFO, _ROOTHUB_INFO, ucxroothub/_ROOTHUB_INFO
+ms.date: 2/24/2018
+ms.keywords: "*PROOTHUB_INFO, P_ROOTHUB_INFO, P_ROOTHUB_INFO structure pointer [Buses], ROOTHUB_INFO, ROOTHUB_INFO structure [Buses], _ROOTHUB_INFO, buses._roothub_info, ucxroothub/P_ROOTHUB_INFO, ucxroothub/_ROOTHUB_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,5 +113,5 @@ The exit latency for the slowest link for U2 transition.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20ROOTHUB_INFO structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20ROOTHUB_INFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

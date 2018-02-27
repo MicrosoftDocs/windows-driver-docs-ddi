@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1689b6f9-88f3-456f-9a7c-c6b4e76cb336
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndistcpoffloadsendcomplete, NdisTcpOffloadSendComplete callback function [Network Drivers Starting with Windows Vista], NdisTcpOffloadSendComplete, NDIS_TCP_OFFLOAD_SEND_COMPLETE, NDIS_TCP_OFFLOAD_SEND_COMPLETE, ndischimney/NdisTcpOffloadSendComplete, tcp_chim_ndis_func_8893982f-08b9-4963-8a52-533a8ee94cde.xml
+ms.keywords: NDIS_TCP_OFFLOAD_SEND_COMPLETE, NdisTcpOffloadSendComplete, NdisTcpOffloadSendComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadSendComplete, netvista.ndistcpoffloadsendcomplete, tcp_chim_ndis_func_8893982f-08b9-4963-8a52-533a8ee94cde.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -174,7 +174,12 @@ Call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+   NdisAdvanceNetBufferDataStart</a>
 
 
 
@@ -182,25 +187,11 @@ Call the
 
 
 
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpOffloadSend</a>
-
-
-
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-
-
-<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
-   NdisAdvanceNetBufferDataStart</a>
 
 
 

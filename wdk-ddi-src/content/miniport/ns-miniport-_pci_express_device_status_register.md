@@ -7,8 +7,8 @@ old-location: pci\pci_express_device_status_register.htm
 old-project: PCI
 ms.assetid: a4c92364-59d4-442c-879b-fba770d8d612
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PCI_EXPRESS_DEVICE_STATUS_REGISTER union [Buses], ntddk/PCI_EXPRESS_DEVICE_STATUS_REGISTER, _PCI_EXPRESS_DEVICE_STATUS_REGISTER, *PPCI_EXPRESS_DEVICE_STATUS_REGISTER, PCI_EXPRESS_DEVICE_STATUS_REGISTER, PPCI_EXPRESS_DEVICE_STATUS_REGISTER, pci_struct_90e0cf73-2c43-444d-bdaa-77fd00d483a7.xml, ntddk/PPCI_EXPRESS_DEVICE_STATUS_REGISTER, PPCI_EXPRESS_DEVICE_STATUS_REGISTER union pointer [Buses], PCI.pci_express_device_status_register
+ms.date: 2/24/2018
+ms.keywords: "*PPCI_EXPRESS_DEVICE_STATUS_REGISTER, PCI.pci_express_device_status_register, PCI_EXPRESS_DEVICE_STATUS_REGISTER, PCI_EXPRESS_DEVICE_STATUS_REGISTER union [Buses], PPCI_EXPRESS_DEVICE_STATUS_REGISTER, PPCI_EXPRESS_DEVICE_STATUS_REGISTER union pointer [Buses], _PCI_EXPRESS_DEVICE_STATUS_REGISTER, ntddk/PCI_EXPRESS_DEVICE_STATUS_REGISTER, ntddk/PPCI_EXPRESS_DEVICE_STATUS_REGISTER, pci_struct_90e0cf73-2c43-444d-bdaa-77fd00d483a7.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,14 +86,14 @@ typedef union _PCI_EXPRESS_DEVICE_STATUS_REGISTER {
 A USHORT representation of the contents of the PCI_EXPRESS_DEVICE_STATUS_REGISTER structure.
 
 
+#### - AuxPowerDetected
+
+A single bit that indicates that AUX power has been detected.
+
+
 #### - CorrectableErrorDetected
 
 A single bit that indicates that a correctable error has been detected.
-
-
-#### - NonFatalErrorDetected
-
-A single bit that indicates that a non-fatal uncorrectable error has been detected.
 
 
 #### - FatalErrorDetected
@@ -101,14 +101,14 @@ A single bit that indicates that a non-fatal uncorrectable error has been detect
 A single bit that indicates that a non-fatal uncorrectable error has been detected.
 
 
-#### - UnsupportedRequestDetected
+#### - NonFatalErrorDetected
 
-A single bit that indicates that an unsupported request has been detected.
+A single bit that indicates that a non-fatal uncorrectable error has been detected.
 
 
-#### - AuxPowerDetected
+#### - Rsvd
 
-A single bit that indicates that AUX power has been detected.
+Reserved.
 
 
 #### - TransactionsPending
@@ -116,9 +116,9 @@ A single bit that indicates that AUX power has been detected.
 A single bit that indicates that the device has issued non-posted requests that have not been completed. The device clears this bit when all outstanding non-posted requests have completed or have been terminated by the completion timeout mechanism.
 
 
-#### - Rsvd
+#### - UnsupportedRequestDetected
 
-Reserved.
+A single bit that indicates that an unsupported request has been detected.
 
 
 ## -remarks
@@ -142,5 +142,5 @@ A PCI_EXPRESS_DEVICE_STATUS_REGISTER structure is contained in the <a href="http
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_DEVICE_STATUS_REGISTER union%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_DEVICE_STATUS_REGISTER union%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

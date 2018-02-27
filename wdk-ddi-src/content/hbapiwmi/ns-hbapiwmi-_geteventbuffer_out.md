@@ -7,8 +7,8 @@ old-location: storage\geteventbuffer_out.htm
 old-project: storage
 ms.assetid: 1ba41017-8c4b-49eb-b0ec-8e58c2673314
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PGetEventBuffer_OUT, _GetEventBuffer_OUT, PGetEventBuffer_OUT structure pointer [Storage Devices], hbapiwmi/GetEventBuffer_OUT, hbapiwmi/PGetEventBuffer_OUT, GetEventBuffer_OUT structure [Storage Devices], structs-Fibre_af1916c9-60f8-4601-b9dd-d4575a100d98.xml, *PGetEventBuffer_OUT, GetEventBuffer_OUT, storage.geteventbuffer_out
+ms.date: 2/24/2018
+ms.keywords: "*PGetEventBuffer_OUT, GetEventBuffer_OUT, GetEventBuffer_OUT structure [Storage Devices], PGetEventBuffer_OUT, PGetEventBuffer_OUT structure pointer [Storage Devices], _GetEventBuffer_OUT, hbapiwmi/GetEventBuffer_OUT, hbapiwmi/PGetEventBuffer_OUT, storage.geteventbuffer_out, structs-Fibre_af1916c9-60f8-4601-b9dd-d4575a100d98.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,5 +105,5 @@ The WMI tool suite generates a declaration of the GetEventBuffer_OUT structure i
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetEventBuffer_OUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetEventBuffer_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

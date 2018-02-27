@@ -7,8 +7,8 @@ old-location: print\iprintcorehelperuni_setfontsubstitution.htm
 old-project: print
 ms.assetid: 73afb4e9-23c7-473c-937f-045bf5e332f7
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: SetFontSubstitution, IPrintCoreHelperUni::SetFontSubstitution, IPrintCoreHelperUni interface [Print Devices], SetFontSubstitution method, SetFontSubstitution method [Print Devices], print.iprintcorehelperuni_setfontsubstitution, prcomoem/IPrintCoreHelperUni::SetFontSubstitution, print_unidrv-pscript_allplugins_ce9f5c67-e9b5-4fc1-ac5b-1606f7d84b88.xml, IPrintCoreHelperUni, SetFontSubstitution method [Print Devices], IPrintCoreHelperUni interface
+ms.date: 2/23/2018
+ms.keywords: IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], SetFontSubstitution method, IPrintCoreHelperUni::SetFontSubstitution, SetFontSubstitution method [Print Devices], SetFontSubstitution method [Print Devices], IPrintCoreHelperUni interface, SetFontSubstitution,IPrintCoreHelperUni.SetFontSubstitution, prcomoem/IPrintCoreHelperUni::SetFontSubstitution, print.iprintcorehelperuni_setfontsubstitution, print_unidrv-pscript_allplugins_ce9f5c67-e9b5-4fc1-ac5b-1606f7d84b88.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperUni.SetFontSubstitution
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -166,17 +166,17 @@ To obtain a list of valid device fonts, create an information context for the cu
 
 ## -see-also
 
+<a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni.md">IPrintCoreHelperUni</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552936">IPrintCoreHelperUni::GetFontSubstitution</a>
 
 
 
-<a href="https://msdn.microsoft.com/e581d190-8185-45c1-80c7-ff8eb305360e">IPrintCoreHelperUni</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperUni::SetFontSubstitution method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperUni::SetFontSubstitution method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

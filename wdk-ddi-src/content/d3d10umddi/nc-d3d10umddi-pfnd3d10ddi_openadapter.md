@@ -7,8 +7,8 @@ old-location: display\openadapter10.htm
 old-project: display
 ms.assetid: 50c10021-2bad-4e3c-99cc-24cf31fbc95d
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.openadapter10, OpenAdapter10 callback function [Display Devices], OpenAdapter10, PFND3D10DDI_OPENADAPTER, PFND3D10DDI_OPENADAPTER, d3d10umddi/OpenAdapter10, UserModeDisplayDriverDx10_Functions_686164e4-0e8b-40ab-8095-cdc3efb34866.xml
+ms.date: 2/24/2018
+ms.keywords: OpenAdapter10, OpenAdapter10 callback function [Display Devices], PFND3D10DDI_OPENADAPTER, UserModeDisplayDriverDx10_Functions_686164e4-0e8b-40ab-8095-cdc3efb34866.xml, d3d10umddi/OpenAdapter10, display.openadapter10
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	OpenAdapter10
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_OPENADAPTER callback
@@ -152,5 +152,5 @@ The Direct3D runtime can open multiple graphics adapter objects from a single gr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_OPENADAPTER callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_OPENADAPTER callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: pos\linedisplaycursortypeflags.htm
 old-project: pos
 ms.assetid: DD09C18C-C2FA-43DD-9E5F-ACA36132DAAD
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: LineDisplayCursorTypeFlags enumeration, pointofservicecommontypes/LineDisplayCursorTypeFlags, pos.linedisplaycursortypeflags, LineDisplayCursorTypeFlags, pointofservicecommontypes/
+ms.date: 2/23/2018
+ms.keywords: LineDisplayCursorTypeFlags, LineDisplayCursorTypeFlags enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayCursorTypeFlags, pos.linedisplaycursortypeflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

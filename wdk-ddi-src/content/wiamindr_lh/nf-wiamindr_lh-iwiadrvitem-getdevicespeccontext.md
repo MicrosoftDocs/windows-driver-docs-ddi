@@ -4,11 +4,11 @@ title: IWiaDrvItem::GetDeviceSpecContext method
 author: windows-driver-content
 description: The IWiaDrvItem::GetDeviceSpecContext method gets a device-specific context.
 old-location: image\iwiadrvitem_getdevicespeccontext.htm
-old-project: Image
+old-project: image
 ms.assetid: 04f8d7ef-43c6-43b7-afa1-06ae379a8e26
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GetDeviceSpecContext method [Imaging Devices], IWiaDrvItem interface, GetDeviceSpecContext method [Imaging Devices], wiamindr_lh/IWiaDrvItem::GetDeviceSpecContext, GetDeviceSpecContext, IWiaDrvItem interface [Imaging Devices], GetDeviceSpecContext method, IWiaDrvItem, image.iwiadrvitem_getdevicespeccontext, IWiaDrvItem::GetDeviceSpecContext, DrvItem_c9edf09c-212c-456c-9eb2-c6c87adf59f3.xml
+ms.date: 2/23/2018
+ms.keywords: DrvItem_c9edf09c-212c-456c-9eb2-c6c87adf59f3.xml, GetDeviceSpecContext method [Imaging Devices], GetDeviceSpecContext method [Imaging Devices], IWiaDrvItem interface, GetDeviceSpecContext,IWiaDrvItem.GetDeviceSpecContext, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], GetDeviceSpecContext method, IWiaDrvItem::GetDeviceSpecContext, image.iwiadrvitem_getdevicespeccontext, wiamindr_lh/IWiaDrvItem::GetDeviceSpecContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,17 +100,17 @@ Minidrivers typically use this method to obtain a pointer to a device-specific c
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
-
-
-
 <a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>
 
 
 
- 
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IWiaDrvItem::GetDeviceSpecContext method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaDrvItem::GetDeviceSpecContext method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

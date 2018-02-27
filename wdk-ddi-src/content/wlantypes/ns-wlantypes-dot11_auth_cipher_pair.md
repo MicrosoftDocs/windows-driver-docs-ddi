@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 301e9c21-69e7-48d3-b170-de01684f4a12
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11_auth_cipher_pair, PDOT11_AUTH_CIPHER_PAIR, wlantypes/PDOT11_AUTH_CIPHER_PAIR, *PDOT11_AUTH_CIPHER_PAIR, Native_802.11_data_types_84940691-1e26-4039-927d-e1f1e0d14ea1.xml, wlantypes/DOT11_AUTH_CIPHER_PAIR, PDOT11_AUTH_CIPHER_PAIR structure pointer [Network Drivers Starting with Windows Vista], DOT11_AUTH_CIPHER_PAIR, DOT11_AUTH_CIPHER_PAIR structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PDOT11_AUTH_CIPHER_PAIR, DOT11_AUTH_CIPHER_PAIR, DOT11_AUTH_CIPHER_PAIR structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_84940691-1e26-4039-927d-e1f1e0d14ea1.xml, PDOT11_AUTH_CIPHER_PAIR, PDOT11_AUTH_CIPHER_PAIR structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_auth_cipher_pair, wlantypes/DOT11_AUTH_CIPHER_PAIR, wlantypes/PDOT11_AUTH_CIPHER_PAIR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_AUTH_CIPHER_PAIR
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_AUTH_CIPHER_PAIR, DOT11_AUTH_CIPHER_PAIR"
+req.typenames: DOT11_AUTH_CIPHER_PAIR, *PDOT11_AUTH_CIPHER_PAIR
 req.product: Windows 10 or later.
 ---
 
@@ -122,14 +122,6 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 
 
-<a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">DOT11_AUTH_CIPHER_PAIR_LIST</a>
-
-
-
-<a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
 
@@ -137,6 +129,14 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">DOT11_AUTH_CIPHER_PAIR_LIST</a>
+
+
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
 
 
 

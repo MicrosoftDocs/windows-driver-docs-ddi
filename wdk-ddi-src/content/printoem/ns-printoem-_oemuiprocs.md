@@ -7,8 +7,8 @@ old-location: print\oemuiprocs.htm
 old-project: print
 ms.assetid: 67dfb4bd-c43c-4da3-833d-34050d49dea3
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: printoem/OEMUIPROCS, print.oemuiprocs, _OEMUIPROCS, *POEMUIPROCS, POEMUIPROCS structure pointer [Print Devices], OEMUIPROCS, OEMUIPROCS structure [Print Devices], printoem/POEMUIPROCS, print_unidrv-pscript_ui_2252155b-8f63-4c0f-886b-c66b26ccdd5f.xml, POEMUIPROCS
+ms.date: 2/23/2018
+ms.keywords: "*POEMUIPROCS, OEMUIPROCS, OEMUIPROCS structure [Print Devices], POEMUIPROCS, POEMUIPROCS structure pointer [Print Devices], _OEMUIPROCS, print.oemuiprocs, print_unidrv-pscript_ui_2252155b-8f63-4c0f-886b-c66b26ccdd5f.xml, printoem/OEMUIPROCS, printoem/POEMUIPROCS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OEMUIPROCS
 product: Windows
 targetos: Windows
-req.typenames: "*POEMUIPROCS, OEMUIPROCS"
+req.typenames: OEMUIPROCS, *POEMUIPROCS
 req.product: Windows 10 or later.
 ---
 

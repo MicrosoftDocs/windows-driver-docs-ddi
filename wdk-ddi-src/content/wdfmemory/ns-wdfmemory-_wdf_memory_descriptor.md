@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0683cb81-4ae7-4296-b46a-ad2e8b25a781
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_MEMORY_DESCRIPTOR structure, PWDF_MEMORY_DESCRIPTOR, *PWDF_MEMORY_DESCRIPTOR, WDF_MEMORY_DESCRIPTOR, wdfmemory/PWDF_MEMORY_DESCRIPTOR, wdf.wdf_memory_descriptor, kmdf.wdf_memory_descriptor, wdfmemory/WDF_MEMORY_DESCRIPTOR, DFMemoryObjectRef_2c2271fb-6f3f-466d-b1dd-d254bc7ec96e.xml, _WDF_MEMORY_DESCRIPTOR, PWDF_MEMORY_DESCRIPTOR structure pointer
+ms.keywords: "*PWDF_MEMORY_DESCRIPTOR, DFMemoryObjectRef_2c2271fb-6f3f-466d-b1dd-d254bc7ec96e.xml, PWDF_MEMORY_DESCRIPTOR, PWDF_MEMORY_DESCRIPTOR structure pointer, WDF_MEMORY_DESCRIPTOR, WDF_MEMORY_DESCRIPTOR structure, _WDF_MEMORY_DESCRIPTOR, kmdf.wdf_memory_descriptor, wdf.wdf_memory_descriptor, wdfmemory/PWDF_MEMORY_DESCRIPTOR, wdfmemory/WDF_MEMORY_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -154,9 +154,10 @@ To initialize a <b>WDF_MEMORY_DESCRIPTOR</b> structure, your driver should call 
 
 <a href="..\wdfmemory\ns-wdfmemory-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
-
-
 <a href="..\wdfmemory\ne-wdfmemory-_wdf_memory_descriptor_type.md">WDF_MEMORY_DESCRIPTOR_TYPE</a>
+
+
+
 
 
 

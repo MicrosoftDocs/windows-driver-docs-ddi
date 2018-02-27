@@ -7,8 +7,8 @@ old-location: kernel\pep_ppm_idle_complete_v2.htm
 old-project: kernel
 ms.assetid: 2807D1D7-DCAF-446C-8DAD-CAF244B52CD2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "_PEP_PPM_IDLE_COMPLETE_V2, *PPEP_PPM_IDLE_COMPLETE_V2, PPEP_PPM_IDLE_COMPLETE_V2 structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_IDLE_COMPLETE_V2, PPEP_PPM_IDLE_COMPLETE_V2, pepfx/PPEP_PPM_IDLE_COMPLETE_V2, pepfx/PEP_PPM_IDLE_COMPLETE_V2, PEP_PPM_IDLE_COMPLETE_V2 structure [Kernel-Mode Driver Architecture], kernel.pep_ppm_idle_complete_v2"
+ms.date: 2/24/2018
+ms.keywords: "*PPEP_PPM_IDLE_COMPLETE_V2, PEP_PPM_IDLE_COMPLETE_V2, PEP_PPM_IDLE_COMPLETE_V2 structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_COMPLETE_V2, PPEP_PPM_IDLE_COMPLETE_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_COMPLETE_V2, kernel.pep_ppm_idle_complete_v2, pepfx/PEP_PPM_IDLE_COMPLETE_V2, pepfx/PPEP_PPM_IDLE_COMPLETE_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_IDLE_COMPLETE_V2
 product: Windows
 targetos: Windows
-req.typenames: PEP_PPM_IDLE_COMPLETE_V2, *PPEP_PPM_IDLE_COMPLETE_V2
+req.typenames: PEP_PPM_IDLE_COMPLETE_V2, *PPEP_PPM_IDLE_COMPLETE_V2, PEP_PPM_IDLE_COMPLETE_V2, *PPEP_PPM_IDLE_COMPLETE_V2
 ---
 
 # _PEP_PPM_IDLE_COMPLETE_V2 structure

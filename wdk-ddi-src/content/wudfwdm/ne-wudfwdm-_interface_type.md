@@ -7,8 +7,8 @@ old-location: kernel\interface_type.htm
 old-project: kernel
 ms.assetid: 4d20f3fd-d06e-420b-af69-9ef34addc611
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: wdm/Eisa, InterfaceTypeUndefined, wdm/CBus, MPIBus, Vmcs, kernel.interface_type, wdm/InternalPowerBus, PINTERFACE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PINTERFACE_TYPE, wdm/MPSABus, *PINTERFACE_TYPE, ACPIBus, PNPISABus, NuBus, wdm/PCMCIABus, InternalPowerBus, INTERFACE_TYPE enumeration [Kernel-Mode Driver Architecture], PCIBus, wdm/ProcessorInternal, CBus, Eisa, wdm/PCIBus, MPSABus, wdm/Vmcs, _INTERFACE_TYPE, wdm/InterfaceTypeUndefined, MaximumInterfaceType, INTERFACE_TYPE, wdm/NuBus, wdm/VMEBus, ProcessorInternal, TurboChannel, wdm/ACPIBus, wdm/PINTERFACE_TYPE, sysenum_a73e08e6-79ef-4a5b-82b1-cfd4bc4269f8.xml, wdm/Isa, wdm/PNPISABus, wdm/INTERFACE_TYPE, MicroChannel, PCMCIABus, VMEBus, wdm/MPIBus, Internal, wdm/MaximumInterfaceType, wdm/PNPBus, Isa, wdm/TurboChannel, PNPBus, wdm/Internal, wdm/MicroChannel
+ms.date: 2/24/2018
+ms.keywords: "*PINTERFACE_TYPE, ACPIBus, CBus, Eisa, INTERFACE_TYPE, INTERFACE_TYPE enumeration [Kernel-Mode Driver Architecture], InterfaceTypeUndefined, Internal, InternalPowerBus, Isa, MPIBus, MPSABus, MaximumInterfaceType, MicroChannel, NuBus, PCIBus, PCMCIABus, PINTERFACE_TYPE, PINTERFACE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PNPBus, PNPISABus, ProcessorInternal, TurboChannel, VMEBus, Vmcs, _INTERFACE_TYPE, kernel.interface_type, sysenum_a73e08e6-79ef-4a5b-82b1-cfd4bc4269f8.xml, wdm/ACPIBus, wdm/CBus, wdm/Eisa, wdm/INTERFACE_TYPE, wdm/InterfaceTypeUndefined, wdm/Internal, wdm/InternalPowerBus, wdm/Isa, wdm/MPIBus, wdm/MPSABus, wdm/MaximumInterfaceType, wdm/MicroChannel, wdm/NuBus, wdm/PCIBus, wdm/PCMCIABus, wdm/PINTERFACE_TYPE, wdm/PNPBus, wdm/PNPISABus, wdm/ProcessorInternal, wdm/TurboChannel, wdm/VMEBus, wdm/Vmcs"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	INTERFACE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PINTERFACE_TYPE, INTERFACE_TYPE"
+req.typenames: INTERFACE_TYPE, *PINTERFACE_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -189,23 +189,7 @@ Marks the upper limit of the possible bus types.
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
-
-
-
 <a href="..\storport\nf-storport-storportvalidaterange.md">StorPortValidateRange</a>
-
-
-
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
-
-
-
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
 
 
 
@@ -213,9 +197,25 @@ Marks the upper limit of the possible bus types.
 
 
 
- 
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+
+
+<a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20INTERFACE_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20INTERFACE_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

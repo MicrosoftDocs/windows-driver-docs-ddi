@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c0f94079-7398-4998-b2b2-471aa8c538a1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.notifyfn0, notifyFn0 callback function [Network Drivers Starting with Windows Vista], notifyFn0, FWPS_CALLOUT_NOTIFY_FN0, FWPS_CALLOUT_NOTIFY_FN0, fwpsk/notifyFn0, wfp_ref_2_funct_4_callout_67d79632-69ad-41a2-8a0e-21f4020b0550.xml
+ms.keywords: FWPS_CALLOUT_NOTIFY_FN0, fwpsk/notifyFn0, netvista.notifyfn0, notifyFn0, notifyFn0 callback function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_4_callout_67d79632-69ad-41a2-8a0e-21f4020b0550.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -217,11 +217,7 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn1.md">notifyFn1</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn2.md">notifyFn2</a>
 
 
 
@@ -233,15 +229,19 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 
 
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn1.md">notifyFn1</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
+
+
+
 <a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
 
 
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a>
 
 
 

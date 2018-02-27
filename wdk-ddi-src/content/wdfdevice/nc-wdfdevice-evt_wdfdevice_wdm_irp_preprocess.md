@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aff9cb60-d61b-47a8-aae4-6ffd2a1b7a9a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdevicewdmirppreprocess, EvtDeviceWdmIrpPreprocess callback function, EvtDeviceWdmIrpPreprocess, EVT_WDFDEVICE_WDM_IRP_PREPROCESS, EVT_WDFDEVICE_WDM_IRP_PREPROCESS, wdfdevice/EvtDeviceWdmIrpPreprocess, DFDeviceObjectGeneralRef_7329adf6-5814-40cb-ac9b-a7fb67b5f05c.xml, kmdf.evtdevicewdmirppreprocess
+ms.keywords: DFDeviceObjectGeneralRef_7329adf6-5814-40cb-ac9b-a7fb67b5f05c.xml, EVT_WDFDEVICE_WDM_IRP_PREPROCESS, EvtDeviceWdmIrpPreprocess, EvtDeviceWdmIrpPreprocess callback function, kmdf.evtdevicewdmirppreprocess, wdf.evtdevicewdmirppreprocess, wdfdevice/EvtDeviceWdmIrpPreprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

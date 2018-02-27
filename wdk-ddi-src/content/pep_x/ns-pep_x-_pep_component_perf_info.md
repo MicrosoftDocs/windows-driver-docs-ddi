@@ -7,8 +7,8 @@ old-location: kernel\pep_component_perf_info.htm
 old-project: kernel
 ms.assetid: F05D67A0-6583-4C3E-B9AA-B99381A18047
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.pep_component_perf_info, pepfx/PEP_COMPONENT_PERF_INFO, _PEP_COMPONENT_PERF_INFO, *PPEP_COMPONENT_PERF_INFO, PPEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO structure [Kernel-Mode Driver Architecture], pepfx/PPEP_COMPONENT_PERF_INFO, PPEP_COMPONENT_PERF_INFO structure pointer [Kernel-Mode Driver Architecture], PEP_COMPONENT_PERF_INFO
+ms.date: 2/24/2018
+ms.keywords: "*PPEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_PERF_INFO, PPEP_COMPONENT_PERF_INFO structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_PERF_INFO, kernel.pep_component_perf_info, pepfx/PEP_COMPONENT_PERF_INFO, pepfx/PPEP_COMPONENT_PERF_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_COMPONENT_PERF_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO"
+req.typenames: PEP_COMPONENT_PERF_INFO, *PPEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO, *PPEP_COMPONENT_PERF_INFO
 ---
 
 # _PEP_COMPONENT_PERF_INFO structure
@@ -91,7 +91,7 @@ The <b>PEP_COMPONENT_PERF_INFO</b> structure contains input values that are supp
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186848">PEP_DPM_REGISTER_COMPONENT_PERF_STATES</a>
+<a href="..\pepfx\ns-pepfx-_pep_component_perf_info.md">PEP_COMPONENT_PERF_INFO</a>
 
 
 
@@ -99,17 +99,17 @@ The <b>PEP_COMPONENT_PERF_INFO</b> structure contains input values that are supp
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186848">PEP_DPM_REGISTER_COMPONENT_PERF_STATES</a>
+
+
+
 <a href="..\pepfx\ns-pepfx-_pep_register_component_perf_states.md">PEP_REGISTER_COMPONENT_PERF_STATES</a>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_component_perf_info.md">PEP_COMPONENT_PERF_INFO</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_COMPONENT_PERF_INFO structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_COMPONENT_PERF_INFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8966ea8f-9760-4a09-b9d3-8fd1ac278b12
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdevicearmwakefromsxwithreason, EvtDeviceArmWakeFromSxWithReason callback function, EvtDeviceArmWakeFromSxWithReason, EVT_WDF_DEVICE_ARM_WAKE_FROM_SX_WITH_REASON, EVT_WDF_DEVICE_ARM_WAKE_FROM_SX_WITH_REASON, wdfdevice/EvtDeviceArmWakeFromSxWithReason, DFDeviceObjectGeneralRef_4d1a0d9f-ce8a-465c-afb9-0ded36c70f42.xml, kmdf.evtdevicearmwakefromsxwithreason
+ms.keywords: DFDeviceObjectGeneralRef_4d1a0d9f-ce8a-465c-afb9-0ded36c70f42.xml, EVT_WDF_DEVICE_ARM_WAKE_FROM_SX_WITH_REASON, EvtDeviceArmWakeFromSxWithReason, EvtDeviceArmWakeFromSxWithReason callback function, kmdf.evtdevicearmwakefromsxwithreason, wdf.evtdevicearmwakefromsxwithreason, wdfdevice/EvtDeviceArmWakeFromSxWithReason
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -182,15 +182,15 @@ The <b>EVT_WDF_DEVICE_ARM_WAKE_FROM_SX_WITH_REASON</b> function type is defined 
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md">EvtDeviceArmWakeFromS0</a>
-
-
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md">EvtDeviceArmWakeFromSx</a>
 
 
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_disarm_wake_from_sx.md">EvtDeviceDisarmWakeFromSx</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md">EvtDeviceArmWakeFromS0</a>
 
 
 

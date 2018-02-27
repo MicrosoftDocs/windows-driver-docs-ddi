@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 21b1c6ef-b8f3-4230-bc3f-7ac19c6cb2d1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILMSGSERVICEINFO structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMSGSERVICEINFO, netvista.rilmsgserviceinfo, RILMSGSERVICEINFO, *LPRILMSGSERVICEINFO
+ms.keywords: "*LPRILMSGSERVICEINFO, RILMSGSERVICEINFO, RILMSGSERVICEINFO structure [Network Drivers Starting with Windows Vista], netvista.rilmsgserviceinfo, ntddrilapitypes/RILMSGSERVICEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILMSGSERVICEINFO
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILMSGSERVICEINFO, RILMSGSERVICEINFO"
+req.typenames: RILMSGSERVICEINFO, *LPRILMSGSERVICEINFO
 ---
 
 # RILMSGSERVICEINFO structure

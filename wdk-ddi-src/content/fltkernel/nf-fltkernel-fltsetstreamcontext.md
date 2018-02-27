@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c10e46a5-62e4-4d78-a672-34fc218800eb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fltsetstreamcontext, fltkernel/FltSetStreamContext, FltApiRef_p_to_z_b304d975-533c-4794-aabc-e706fed09893.xml, FltSetStreamContext routine [Installable File System Drivers], FltSetStreamContext
+ms.keywords: FltApiRef_p_to_z_b304d975-533c-4794-aabc-e706fed09893.xml, FltSetStreamContext, FltSetStreamContext routine [Installable File System Drivers], fltkernel/FltSetStreamContext, ifsk.fltsetstreamcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -221,7 +221,11 @@ For more information about context reference counting, see <a href="https://msdn
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetstreamcontext.md">FltGetStreamContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 
 
@@ -234,10 +238,6 @@ For more information about context reference counting, see <a href="https://msdn
 
 
 <a href="..\fltkernel\nf-fltkernel-fltdeletestreamcontext.md">FltDeleteStreamContext</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
 
 
 

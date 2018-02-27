@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: edfd5b49-f658-46c7-a3f3-221afb35abb7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: "*PWINBIO_SENSOR_ATTRIBUTES, winbio_ioctl/WINBIO_SENSOR_ATTRIBUTES, _WINBIO_SENSOR_ATTRIBUTES, WINBIO_SENSOR_ATTRIBUTES, PWINBIO_SENSOR_ATTRIBUTES, biometric.winbio_sensor_attributes, WINBIO_SENSOR_ATTRIBUTES structure [Biometric Devices], winbio_ioctl/PWINBIO_SENSOR_ATTRIBUTES, PWINBIO_SENSOR_ATTRIBUTES structure pointer [Biometric Devices], biometric_ref_958b511b-a855-4897-87d8-f0d7bb4970ce.xml"
+ms.keywords: "*PWINBIO_SENSOR_ATTRIBUTES, PWINBIO_SENSOR_ATTRIBUTES, PWINBIO_SENSOR_ATTRIBUTES structure pointer [Biometric Devices], WINBIO_SENSOR_ATTRIBUTES, WINBIO_SENSOR_ATTRIBUTES structure [Biometric Devices], _WINBIO_SENSOR_ATTRIBUTES, biometric.winbio_sensor_attributes, biometric_ref_958b511b-a855-4897-87d8-f0d7bb4970ce.xml, winbio_ioctl/PWINBIO_SENSOR_ATTRIBUTES, winbio_ioctl/WINBIO_SENSOR_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WINBIO_SENSOR_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_SENSOR_ATTRIBUTES, WINBIO_SENSOR_ATTRIBUTES"
+req.typenames: WINBIO_SENSOR_ATTRIBUTES, *PWINBIO_SENSOR_ATTRIBUTES
 req.product: Windows 10 or later.
 ---
 

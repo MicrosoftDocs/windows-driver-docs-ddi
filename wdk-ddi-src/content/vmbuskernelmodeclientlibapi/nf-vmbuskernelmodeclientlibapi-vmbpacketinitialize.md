@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D5D8D994-0BB6-44FC-A696-F2E0264445C1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.vmbpacketinitialize, vmbuskernelmodeclientlibapi/VmbPacketInitialize, VmbPacketInitialize function [Network Drivers Starting with Windows Vista], VmbPacketInitialize
+ms.keywords: VmbPacketInitialize, VmbPacketInitialize function [Network Drivers Starting with Windows Vista], netvista.vmbpacketinitialize, vmbuskernelmodeclientlibapi/VmbPacketInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -150,11 +150,11 @@ sending the packet.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a>
-
-
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsizeofpacket.md">VmbChannelSizeofPacket</a>
+
+
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a>
 
 
 

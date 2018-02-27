@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 634c2177-8e6f-4967-a555-928eb512fce3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILUICCLOCK structure [Network Drivers Starting with Windows Vista], *LPRILUICCLOCK, RILUICCLOCK, rilapitypes/RILUICCLOCK, netvista.riluicclock
+ms.keywords: "*LPRILUICCLOCK, RILUICCLOCK, RILUICCLOCK structure [Network Drivers Starting with Windows Vista], netvista.riluicclock, rilapitypes/RILUICCLOCK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,7 +76,7 @@ Specifies the UICC application context for this lock. In the case of PIN1 or UPI
 
 ### -field dwKeyRef
 
-The key for this lock of <a href="..\ntddrilapitypes\ne-ntddrilapitypes-riluicckeyref.md">RILUICCKEYREF</a> type. PIN1 keys are in the range 0x01..0x08 and may be shared by multiple applications. The Universal PIN is designated with key 0x11. PIN2 keys are in the range 0x81..0x88 and are local to each application (not shared). Two additional special values are defined: 0x00 represents a lock that is always verified (the “ALWays” access condition on the UICC) and 0xFF represents a lock that cannot be verified (the “NEVer” access condition).
+The key for this lock of <a href="..\rilapitypes\ne-rilapitypes-riluicckeyref.md">RILUICCKEYREF</a> type. PIN1 keys are in the range 0x01..0x08 and may be shared by multiple applications. The Universal PIN is designated with key 0x11. PIN2 keys are in the range 0x81..0x88 and are local to each application (not shared). Two additional special values are defined: 0x00 represents a lock that is always verified (the “ALWays” access condition on the UICC) and 0xFF represents a lock that cannot be verified (the “NEVer” access condition).
 
 
 ## -see-also

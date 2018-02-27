@@ -7,8 +7,8 @@ old-location: pci\pci_express_uncorrectable_error_status.htm
 old-project: PCI
 ms.assetid: 9d7dcdee-052a-4082-a337-be3a35c5eef9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, pci_struct_9341a010-06c8-46ee-931f-2a67756c12d2.xml, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS union pointer [Buses], PCI.pci_express_uncorrectable_error_status, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, _PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS union [Buses]
+ms.date: 2/24/2018
+ms.keywords: "*PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PCI.pci_express_uncorrectable_error_status, PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS union [Buses], PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS union pointer [Buses], _PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, pci_struct_9341a010-06c8-46ee-931f-2a67756c12d2.xml, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS"
+req.typenames: PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS
 req.product: Windows 10 or later.
 ---
 
@@ -95,39 +95,9 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS {
 A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure.
 
 
-#### - Undefined
+#### - CompleterAbort
 
-A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that a link training error has occurred.
-
-
-#### - Reserved1
-
-Reserved.
-
-
-#### - DataLinkProtocolError
-
-A single bit that indicates that a data link protocol error has occurred.
-
-
-#### - SurpriseDownError
-
-A single bit that indicates that a surprise down error has occurred.
-
-
-#### - Reserved2
-
-Reserved.
-
-
-#### - PoisonedTLP
-
-A single bit that indicates that a poisoned transaction layer packet (TLP) has been detected.
-
-
-#### - FlowControlProtocolError
-
-A single bit that indicates that a flow control protocol error has occurred.
+A single bit that indicates that a completer abort has occurred.
 
 
 #### - CompletionTimeout
@@ -135,24 +105,9 @@ A single bit that indicates that a flow control protocol error has occurred.
 A single bit that indicates that a completion timeout has occurred.
 
 
-#### - CompleterAbort
+#### - DataLinkProtocolError
 
-A single bit that indicates that a completer abort has occurred.
-
-
-#### - UnexpectedCompletion
-
-A single bit that indicates that an unexpected completion has occurred.
-
-
-#### - ReceiverOverflow
-
-A single bit that indicates that the receiver has overflowed.
-
-
-#### - MalformedTLP
-
-A single bit that indicates that a malformed transaction layer packet (TLP) has been detected.
+A single bit that indicates that a data link protocol error has occurred.
 
 
 #### - ECRCError
@@ -160,14 +115,59 @@ A single bit that indicates that a malformed transaction layer packet (TLP) has 
 A single bit that indicates that an end-to-end cyclic redundancy check (ECRC) error has occurred.
 
 
-#### - UnsupportedRequestError
+#### - FlowControlProtocolError
 
-A single bit that indicates that an unsupported request error has occurred.
+A single bit that indicates that a flow control protocol error has occurred.
+
+
+#### - MalformedTLP
+
+A single bit that indicates that a malformed transaction layer packet (TLP) has been detected.
+
+
+#### - PoisonedTLP
+
+A single bit that indicates that a poisoned transaction layer packet (TLP) has been detected.
+
+
+#### - ReceiverOverflow
+
+A single bit that indicates that the receiver has overflowed.
+
+
+#### - Reserved1
+
+Reserved.
+
+
+#### - Reserved2
+
+Reserved.
 
 
 #### - Reserved3
 
 Reserved.
+
+
+#### - SurpriseDownError
+
+A single bit that indicates that a surprise down error has occurred.
+
+
+#### - Undefined
+
+A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that a link training error has occurred.
+
+
+#### - UnexpectedCompletion
+
+A single bit that indicates that an unexpected completion has occurred.
+
+
+#### - UnsupportedRequestError
+
+A single bit that indicates that an unsupported request error has occurred.
 
 
 ## -remarks
@@ -183,7 +183,7 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure is contained in the <a href="
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
 
 
 
@@ -191,7 +191,7 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure is contained in the <a href="
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
 
 
@@ -199,5 +199,5 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure is contained in the <a href="
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS union%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS union%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

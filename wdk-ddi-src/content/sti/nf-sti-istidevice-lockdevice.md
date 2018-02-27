@@ -4,11 +4,11 @@ title: IStiDevice::LockDevice method
 author: windows-driver-content
 description: The IStiDevice::LockDevice method locks a device for exclusive use by the caller.
 old-location: image\istidevice_lockdevice.htm
-old-project: Image
+old-project: image
 ms.assetid: 208d9dc3-736b-4684-b8d3-802f6df78142
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: LockDevice method [Imaging Devices], image.istidevice_lockdevice, LockDevice method [Imaging Devices], IStiDevice interface, stifnc_05519c97-dd77-4c30-836e-5b1991a5b3f7.xml, IStiDevice interface [Imaging Devices], LockDevice method, LockDevice, IStiDevice, sti/IStiDevice::LockDevice, IStiDevice::LockDevice
+ms.date: 2/23/2018
+ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], LockDevice method, IStiDevice::LockDevice, LockDevice method [Imaging Devices], LockDevice method [Imaging Devices], IStiDevice interface, LockDevice,IStiDevice.LockDevice, image.istidevice_lockdevice, sti/IStiDevice::LockDevice, stifnc_05519c97-dd77-4c30-836e-5b1991a5b3f7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiDevice.LockDevice
 product: Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE
+req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
 ---
 

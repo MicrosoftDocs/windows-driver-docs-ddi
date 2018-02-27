@@ -7,8 +7,8 @@ old-location: storage\dvd_read_structure.htm
 old-project: storage
 ms.assetid: fe8c55de-e542-4c0d-a96b-31ad39e11dff
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: structs-DVD_64ffaf42-815a-4a1e-a712-7027930d099f.xml, ntddcdvd/DVD_READ_STRUCTURE, PDVD_READ_STRUCTURE structure pointer [Storage Devices], *PDVD_READ_STRUCTURE, storage.dvd_read_structure, ntddcdvd/PDVD_READ_STRUCTURE, PDVD_READ_STRUCTURE, DVD_READ_STRUCTURE structure [Storage Devices], DVD_READ_STRUCTURE
+ms.date: 2/24/2018
+ms.keywords: "*PDVD_READ_STRUCTURE, DVD_READ_STRUCTURE, DVD_READ_STRUCTURE structure [Storage Devices], PDVD_READ_STRUCTURE, PDVD_READ_STRUCTURE structure pointer [Storage Devices], ntddcdvd/DVD_READ_STRUCTURE, ntddcdvd/PDVD_READ_STRUCTURE, storage.dvd_read_structure, structs-DVD_64ffaf42-815a-4a1e-a712-7027930d099f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,17 +101,17 @@ The DVD_READ_STRUCTURE structure contains data such as copyright information, or
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
-
-
-
 <a href="..\ntddcdvd\ne-ntddcdvd-dvd_structure_format.md">DVD_STRUCTURE_FORMAT</a>
 
 
 
- 
+<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DVD_READ_STRUCTURE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DVD_READ_STRUCTURE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

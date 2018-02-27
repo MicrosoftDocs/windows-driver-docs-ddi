@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 417c3ffd-5c40-430d-9aec-169203dba685
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: mrxfcb/RxAcquireExclusiveFcbResourceInMRx, RxAcquireExclusiveFcbResourceInMRx routine [Installable File System Drivers], RxAcquireExclusiveFcbResourceInMRx, rxref_54a3508a-7d99-487a-9363-a13500540230.xml, ifsk.rxacquireexclusivefcbresourceinmrx
+ms.keywords: RxAcquireExclusiveFcbResourceInMRx, RxAcquireExclusiveFcbResourceInMRx routine [Installable File System Drivers], ifsk.rxacquireexclusivefcbresourceinmrx, mrxfcb/RxAcquireExclusiveFcbResourceInMRx, rxref_54a3508a-7d99-487a-9363-a13500540230.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -130,11 +130,11 @@ An FCB resource acquired with <b>RxAcquireExclusiveFcbResourceInMRx </b>should b
 
 
 
-<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceinmrx.md">RxReleaseFcbResourceInMRx</a>
-
-
-
 <a href="..\mrxfcb\nf-mrxfcb-rxacquiresharedfcbresourceinmrx.md">RxAcquireSharedFcbResourceInMRx</a>
+
+
+
+<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>
 
 
 

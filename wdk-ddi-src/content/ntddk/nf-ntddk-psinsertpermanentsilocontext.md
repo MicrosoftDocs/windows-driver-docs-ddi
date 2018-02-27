@@ -7,8 +7,8 @@ old-location: kernel\psinsertpermanentsilocontext.htm
 old-project: kernel
 ms.assetid: ADBAB25B-7646-4E0E-AFD8-18B87A293674
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: ntddk/PsInsertPermanentSiloContext, PsInsertPermanentSiloContext routine [Kernel-Mode Driver Architecture], PsInsertPermanentSiloContext, kernel.psinsertpermanentsilocontext
+ms.date: 2/24/2018
+ms.keywords: PsInsertPermanentSiloContext, PsInsertPermanentSiloContext routine [Kernel-Mode Driver Architecture], kernel.psinsertpermanentsilocontext, ntddk/PsInsertPermanentSiloContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsInsertPermanentSiloContext
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsInsertPermanentSiloContext function

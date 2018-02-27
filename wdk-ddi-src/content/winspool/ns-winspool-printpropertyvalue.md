@@ -7,8 +7,8 @@ old-location: print\printpropertyvalue.htm
 old-project: print
 ms.assetid: B442AE8E-A4CE-481A-A69C-496CBF3E4722
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: PrintPropertyValue structure [Print Devices], print.printpropertyvalue, PrintPropertyValue, winspool/PrintPropertyValue
+ms.date: 2/23/2018
+ms.keywords: PrintPropertyValue, PrintPropertyValue structure [Print Devices], print.printpropertyvalue, winspool/PrintPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

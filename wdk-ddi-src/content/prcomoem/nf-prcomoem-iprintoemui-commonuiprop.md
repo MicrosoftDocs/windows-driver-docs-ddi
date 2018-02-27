@@ -7,8 +7,8 @@ old-location: print\iprintoemui_commonuiprop.htm
 old-project: print
 ms.assetid: 6218913c-d11c-4646-a292-5f8740097d58
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IPrintOemUI interface [Print Devices], CommonUIProp method, print_unidrv-pscript_ui_dd201198-0df4-479d-9c48-0fa934fb0b56.xml, CommonUIProp method [Print Devices], IPrintOemUI, CommonUIProp, CommonUIProp method [Print Devices], IPrintOemUI interface, print.iprintoemui_commonuiprop, prcomoem/IPrintOemUI::CommonUIProp, IPrintOemUI::CommonUIProp
+ms.date: 2/23/2018
+ms.keywords: CommonUIProp method [Print Devices], CommonUIProp method [Print Devices], IPrintOemUI interface, CommonUIProp,IPrintOemUI.CommonUIProp, IPrintOemUI, IPrintOemUI interface [Print Devices], CommonUIProp method, IPrintOemUI::CommonUIProp, prcomoem/IPrintOemUI::CommonUIProp, print.iprintoemui_commonuiprop, print_unidrv-pscript_ui_dd201198-0df4-479d-9c48-0fa934fb0b56.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUI.CommonUIProp
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

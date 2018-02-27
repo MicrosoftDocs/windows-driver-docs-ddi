@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 8ede391a-acda-4540-a8bb-1b232695d632
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: whea.geterrorsourceinfo, GetErrorSourceInfo callback function [WHEA Drivers and Applications], GetErrorSourceInfo, PSHED_PI_GET_ERROR_SOURCE_INFO, PSHED_PI_GET_ERROR_SOURCE_INFO, ntddk/GetErrorSourceInfo, whearef_977e9d78-23ec-408f-ba18-a4a96f9a8e62.xml
+ms.keywords: GetErrorSourceInfo, GetErrorSourceInfo callback function [WHEA Drivers and Applications], PSHED_PI_GET_ERROR_SOURCE_INFO, ntddk/GetErrorSourceInfo, whea.geterrorsourceinfo, whearef_977e9d78-23ec-408f-ba18-a4a96f9a8e62.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	GetErrorSourceInfo
 product: Windows
 targetos: Windows
-req.typenames: "*PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA"
+req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 ---
 
 # PSHED_PI_GET_ERROR_SOURCE_INFO callback
@@ -135,7 +135,7 @@ If a PSHED plug-in is registered to participate in error source discovery and it
 
 ## -see-also
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_get_all_error_sources.md">GetAllErrorSources</a>
+<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
 
 
 
@@ -143,11 +143,11 @@ If a PSHED plug-in is registered to participate in error source discovery and it
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
+
+
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_get_all_error_sources.md">GetAllErrorSources</a>
 
 
 

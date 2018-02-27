@@ -7,8 +7,8 @@ old-location: kernel\rtlulonglongtolonglong.htm
 old-project: kernel
 ms.assetid: 7F91DDA1-AF01-4DA9-AB3B-AA5CA87C5FD6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: ntintsafe/RtlULongLongToLongLong, RtlULongLongToLongLong function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtolonglong, RtlULongLongToLongLong
+ms.date: 2/24/2018
+ms.keywords: RtlULongLongToLongLong, RtlULongLongToLongLong function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtolonglong, ntintsafe/RtlULongLongToLongLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -7,8 +7,8 @@ old-location: dtf\iwdtfsystemaction2.htm
 old-project: dtf
 ms.assetid: 783ddaaa-f39f-4e66-85aa-4788bf7959a6
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfsystemaction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], IWDTFSystemAction2 interface [Windows Device Testing Framework], described, IWDTFSystemAction2, wdtfsystemaction/IWDTFSystemAction2, Microsoft.WDTF.IWDTFSystemAction2
+ms.date: 2/23/2018
+ms.keywords: IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], IWDTFSystemAction2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFSystemAction2, dtf.iwdtfsystemaction2, wdtfsystemaction/IWDTFSystemAction2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -52,6 +52,14 @@ req.product: Windows 10 or later.
 
 Defines operations and properties that support driver testing.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSystemAction2</b> interface inherits from <b>IWDTFAction2</b>. <b>IWDTFSystemAction2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
 
 ## -members
 
@@ -155,33 +163,8 @@ Puts the system into the desired sleep state.
 
 </td>
 </tr>
-</table>Puts the system into Connected Standby state and 
-    exits Connected Standby state after the desired time has passed.
-
-Returns the first supported sleep state.
-
-Returns the next supported sleep state.
-
-Analyzes a power trace session that has already been collected and stored in the associated trace message (.etl) log file. 
-
-Ends a power trace session. This method
-    is available starting with Windows 8.
-
-Starts a power trace session using the default location to store the associated trace message file. This method
-    is available starting with Windows 8.
-
-Starts a power trace session and specifies the  path to store the associated trace message file. This method
-    is available starting with Windows 8.
-
-Restart the system and the current test.
-
-Restarts the system and the current test with context data.
-
-Puts the system into the desired sleep state.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSystemAction2</b> interface has these properties.
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSystemAction2</b> interface has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
@@ -271,48 +254,5 @@ Gets or sets the time in seconds when the system will wake from the sleep state.
 
 </td>
 </tr>
-</table>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt158256">Critical</a>
-
-
-Read/write
-
-Gets or sets a value that indicates whether the the system power state is critical.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439312">GetRebootContext</a>
-
-
-Read-only
-
-Gets the context data after the system restarts as a result of a call to
-	      <a href="https://msdn.microsoft.com/library/windows/hardware/hh439321">RebootRestartWithContext</a>.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439315">IsRestarted</a>
-
-
-Read-only
-
-Gets a value that indicates whether the test script restarted as a result of a call to 
-	      <a href="https://msdn.microsoft.com/library/windows/hardware/hh439319">RebootRestart</a> or 
-	      <a href="https://msdn.microsoft.com/library/windows/hardware/hh439321">RebootRestartWithContext</a>.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439317">IsRestartedWithContext</a>
-
-
-Read-only
-
-Gets a value that indicates whether the test script was restarted for a specific context.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439328">SleepWakeTimeInSeconds</a>
-
-
-Read/write
-
-Gets or sets the time in seconds when the system will wake from the sleep state.
-
- 
+</table> 
 

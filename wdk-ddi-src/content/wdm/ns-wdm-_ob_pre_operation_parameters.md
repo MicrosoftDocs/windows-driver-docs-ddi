@@ -7,8 +7,8 @@ old-location: kernel\ob_pre_operation_parameters.htm
 old-project: kernel
 ms.assetid: 211bd3b1-34ca-414d-9167-0587c90cb56a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: wdm/OB_PRE_OPERATION_PARAMETERS, OB_PRE_OPERATION_PARAMETERS, kstruct_c_328dfe5b-e8ed-4277-9003-e194abbf81ba.xml, kernel.ob_pre_operation_parameters, POB_PRE_OPERATION_PARAMETERS union pointer [Kernel-Mode Driver Architecture], POB_PRE_OPERATION_PARAMETERS, *POB_PRE_OPERATION_PARAMETERS, wdm/POB_PRE_OPERATION_PARAMETERS, _OB_PRE_OPERATION_PARAMETERS, OB_PRE_OPERATION_PARAMETERS union [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: "*POB_PRE_OPERATION_PARAMETERS, OB_PRE_OPERATION_PARAMETERS, OB_PRE_OPERATION_PARAMETERS union [Kernel-Mode Driver Architecture], POB_PRE_OPERATION_PARAMETERS, POB_PRE_OPERATION_PARAMETERS union pointer [Kernel-Mode Driver Architecture], _OB_PRE_OPERATION_PARAMETERS, kernel.ob_pre_operation_parameters, kstruct_c_328dfe5b-e8ed-4277-9003-e194abbf81ba.xml, wdm/OB_PRE_OPERATION_PARAMETERS, wdm/POB_PRE_OPERATION_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,11 +81,11 @@ An <a href="..\wdm\ns-wdm-_ob_pre_duplicate_handle_information.md">OB_PRE_DUPLIC
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
-
-
-
 <a href="..\wdm\ns-wdm-_ob_pre_duplicate_handle_information.md">OB_PRE_DUPLICATE_HANDLE_INFORMATION</a>
+
+
+
+<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
 
 
@@ -97,5 +97,5 @@ An <a href="..\wdm\ns-wdm-_ob_pre_duplicate_handle_information.md">OB_PRE_DUPLIC
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20OB_PRE_OPERATION_PARAMETERS union%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20OB_PRE_OPERATION_PARAMETERS union%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: UfxEndpointInitSetEventCallbacks function
 author: windows-driver-content
 description: Initialize a UFXENDPOINT_INIT structure.
 old-location: buses\ufxendpointinitseteventcallbacks.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: D3D8D948-400A-47A0-98E9-ECF5643DB5D2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: UfxEndpointInitSetEventCallbacks, ufxclient/UfxEndpointInitSetEventCallbacks, buses.ufxendpointinitseteventcallbacks, UfxEndpointInitSetEventCallbacks method [Buses]
+ms.date: 2/24/2018
+ms.keywords: UfxEndpointInitSetEventCallbacks, UfxEndpointInitSetEventCallbacks method [Buses], buses.ufxendpointinitseteventcallbacks, ufxclient/UfxEndpointInitSetEventCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxEndpointInitSetEventCallbacks
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

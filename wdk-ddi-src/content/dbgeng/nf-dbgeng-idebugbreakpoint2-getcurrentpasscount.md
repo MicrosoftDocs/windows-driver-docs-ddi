@@ -4,11 +4,11 @@ title: IDebugBreakpoint2::GetCurrentPassCount method
 author: windows-driver-content
 description: The GetCurrentPassCount method returns the remaining number of times that the target must reach the breakpoint location before the breakpoint is triggered.
 old-location: debugger\getcurrentpasscount.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: ff9b9988-6790-48d1-8423-60c63b0a90cf
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: dbgeng/IDebugBreakpoint2::GetCurrentPassCount, GetCurrentPassCount, IDebugBreakpoint interface [Windows Debugging], GetCurrentPassCount method, dbgeng/IDebugBreakpoint::GetCurrentPassCount, IDebugBreakpoint::GetCurrentPassCount, GetCurrentPassCount method [Windows Debugging], ComOther_b9308489-679e-4ced-bd73-84cbeaadc669.xml, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetCurrentPassCount method, debugger.getcurrentpasscount, IDebugBreakpoint, GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2::GetCurrentPassCount, GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint interface
+ms.date: 2/23/2018
+ms.keywords: ComOther_b9308489-679e-4ced-bd73-84cbeaadc669.xml, GetCurrentPassCount method [Windows Debugging], GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint interface, GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint2 interface, GetCurrentPassCount,IDebugBreakpoint2.GetCurrentPassCount, IDebugBreakpoint interface [Windows Debugging], GetCurrentPassCount method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetCurrentPassCount method, IDebugBreakpoint2::GetCurrentPassCount, IDebugBreakpoint::GetCurrentPassCount, dbgeng/IDebugBreakpoint2::GetCurrentPassCount, dbgeng/IDebugBreakpoint::GetCurrentPassCount, debugger.getcurrentpasscount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

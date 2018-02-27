@@ -7,8 +7,8 @@ old-location: storage\sendcmdinparams.htm
 old-project: storage
 ms.assetid: 4c02da7e-2d93-4e0c-9666-acb380c6d39a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: ntdddisk/PSENDCMDINPARAMS, LPSENDCMDINPARAMS, *LPSENDCMDINPARAMS, structs-IDE_b80faf9d-dfcf-4eac-b0be-fb18964c4c2b.xml, _SENDCMDINPARAMS, PSENDCMDINPARAMS structure pointer [Storage Devices], *PSENDCMDINPARAMS, SENDCMDINPARAMS structure [Storage Devices], PSENDCMDINPARAMS, ntdddisk/LPSENDCMDINPARAMS, SENDCMDINPARAMS, storage.sendcmdinparams, LPSENDCMDINPARAMS structure pointer [Storage Devices], ntdddisk/SENDCMDINPARAMS
+ms.date: 2/24/2018
+ms.keywords: "*LPSENDCMDINPARAMS, *PSENDCMDINPARAMS, LPSENDCMDINPARAMS, LPSENDCMDINPARAMS structure pointer [Storage Devices], PSENDCMDINPARAMS, PSENDCMDINPARAMS structure pointer [Storage Devices], SENDCMDINPARAMS, SENDCMDINPARAMS structure [Storage Devices], _SENDCMDINPARAMS, ntdddisk/LPSENDCMDINPARAMS, ntdddisk/PSENDCMDINPARAMS, ntdddisk/SENDCMDINPARAMS, storage.sendcmdinparams, structs-IDE_b80faf9d-dfcf-4eac-b0be-fb18964c4c2b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -115,7 +115,7 @@ The SENDCMDINPARAMS structure is also used with the <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_sendcmdoutparams.md">SENDCMDOUTPARAMS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
 
 
 
@@ -123,7 +123,7 @@ The SENDCMDINPARAMS structure is also used with the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
+<a href="..\ntdddisk\ns-ntdddisk-_sendcmdoutparams.md">SENDCMDOUTPARAMS</a>
 
 
 
@@ -131,5 +131,5 @@ The SENDCMDINPARAMS structure is also used with the <a href="https://msdn.micros
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SENDCMDINPARAMS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SENDCMDINPARAMS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

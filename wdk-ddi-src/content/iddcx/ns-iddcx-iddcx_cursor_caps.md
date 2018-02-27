@@ -7,8 +7,8 @@ old-location: display\iddcx_cursor_caps.htm
 old-project: display
 ms.assetid: 3bd92999-07f3-43bb-a826-4fea3e19168a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: iddcx/IDDCX_CURSOR_CAPS, IDDCX_CURSOR_CAPS, IDDCX_CURSOR_CAPS structure [Display Devices], display.iddcx_cursor_caps
+ms.date: 2/24/2018
+ms.keywords: IDDCX_CURSOR_CAPS, IDDCX_CURSOR_CAPS structure [Display Devices], display.iddcx_cursor_caps, iddcx/IDDCX_CURSOR_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5CC345FA-C3EF-4122-8E9C-6EA27B20DD5A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.CopyNetBufferListInfo, CopyNetBufferListInfo callback function [Network Drivers Starting with Windows Vista], CopyNetBufferListInfo, NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO, NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO, ndis/CopyNetBufferListInfo
+ms.keywords: CopyNetBufferListInfo, CopyNetBufferListInfo callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO, ndis/CopyNetBufferListInfo, netvista.CopyNetBufferListInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -155,15 +155,11 @@ For example, the extension can call <a href="..\ndis\nf-ndis-ndisallocateclonene
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">NdisAllocateCloneNetBufferList</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
+<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_detail_net_buffer_list_info.md">NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</a>
 
 
 
@@ -171,7 +167,11 @@ For example, the extension can call <a href="..\ndis\nf-ndis-ndisallocateclonene
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_detail_net_buffer_list_info.md">NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</a>
+<a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">NdisAllocateCloneNetBufferList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
 
 
 

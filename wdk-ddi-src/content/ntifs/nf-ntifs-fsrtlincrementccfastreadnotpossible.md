@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2e0ae5d1-5189-4f78-9729-9c1b9bbf046d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fsrtlincrementccfastreadnotpossible, FsRtlIncrementCcFastReadNotPossible routine [Installable File System Drivers], FsRtlIncrementCcFastReadNotPossible, ntifs/FsRtlIncrementCcFastReadNotPossible, fsrtlref_7789e1c4-9ac3-48c7-9191-f5eba5f4e5e0.xml
+ms.keywords: FsRtlIncrementCcFastReadNotPossible, FsRtlIncrementCcFastReadNotPossible routine [Installable File System Drivers], fsrtlref_7789e1c4-9ac3-48c7-9191-f5eba5f4e5e0.xml, ifsk.fsrtlincrementccfastreadnotpossible, ntifs/FsRtlIncrementCcFastReadNotPossible
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,7 +97,7 @@ File system drivers should call this function to update the performance counter 
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadnowait.md">FsRtlIncrementCcFastReadNoWait</a>
+<a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadwait.md">FsRtlIncrementCcFastReadWait</a>
 
 
 

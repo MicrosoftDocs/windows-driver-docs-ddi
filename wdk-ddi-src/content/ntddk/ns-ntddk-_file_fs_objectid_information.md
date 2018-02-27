@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 37da9699-2edb-4a32-a865-2bf3b1cef157
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FILE_FS_OBJECTID_INFORMATION, PFILE_FS_OBJECTID_INFORMATION structure pointer [Installable File System Drivers], fileinformationstructures_6a17f2c2-0aae-44a7-a65c-02c1ed2a9ed4.xml, PFILE_FS_OBJECTID_INFORMATION, ifsk.file_fs_objectid_information, *PFILE_FS_OBJECTID_INFORMATION, ntddk/FILE_FS_OBJECTID_INFORMATION, FILE_FS_OBJECTID_INFORMATION structure [Installable File System Drivers], _FILE_FS_OBJECTID_INFORMATION, ntddk/PFILE_FS_OBJECTID_INFORMATION
+ms.keywords: "*PFILE_FS_OBJECTID_INFORMATION, FILE_FS_OBJECTID_INFORMATION, FILE_FS_OBJECTID_INFORMATION structure [Installable File System Drivers], PFILE_FS_OBJECTID_INFORMATION, PFILE_FS_OBJECTID_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_OBJECTID_INFORMATION, fileinformationstructures_6a17f2c2-0aae-44a7-a65c-02c1ed2a9ed4.xml, ifsk.file_fs_objectid_information, ntddk/FILE_FS_OBJECTID_INFORMATION, ntddk/PFILE_FS_OBJECTID_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,23 +125,7 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwsetvolumeinformationfile.md">ZwSetVolumeInformationFile</a>
 
 
 
@@ -149,7 +133,23 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwsetvolumeinformationfile.md">ZwSetVolumeInformationFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
 
 
 

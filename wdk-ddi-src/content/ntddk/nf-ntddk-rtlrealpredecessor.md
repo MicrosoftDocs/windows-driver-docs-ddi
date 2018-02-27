@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8cb981a4-7dea-4d42-bbde-35cf5494494b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rtlrealpredecessor, RtlRealPredecessor, rtlref_1c872dd0-50cb-48ff-a7e4-e3c88b3b087f.xml, ntddk/RtlRealPredecessor, RtlRealPredecessor routine [Installable File System Drivers]
+ms.keywords: RtlRealPredecessor, RtlRealPredecessor routine [Installable File System Drivers], ifsk.rtlrealpredecessor, ntddk/RtlRealPredecessor, rtlref_1c872dd0-50cb-48ff-a7e4-e3c88b3b087f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlRealPredecessor
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlRealPredecessor function
@@ -106,11 +106,11 @@ Callers of <b>RtlRealPredecessor</b> must be running at IRQL &lt;= DISPATCH_LEVE
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlrealsuccessor.md">RtlRealSuccessor</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
 
 
 

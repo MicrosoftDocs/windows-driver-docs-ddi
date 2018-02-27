@@ -7,8 +7,8 @@ old-location: print\router_notify_callback.htm
 old-project: print
 ms.assetid: 97D8FEEA-B6D7-4AD7-A067-B503AF8F23FF
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.router_notify_callback, ROUTER_NOTIFY_CALLBACK callback function [Print Devices], ROUTER_NOTIFY_CALLBACK, ROUTER_NOTIFY_CALLBACK, ROUTER_NOTIFY_CALLBACK, winsplp/ROUTER_NOTIFY_CALLBACK
+ms.date: 2/23/2018
+ms.keywords: ROUTER_NOTIFY_CALLBACK, ROUTER_NOTIFY_CALLBACK callback function [Print Devices], print.router_notify_callback, winsplp/ROUTER_NOTIFY_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

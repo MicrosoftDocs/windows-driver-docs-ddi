@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 38d74ce1-9d9d-4da5-a2b3-579048850b28
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdeviced0entrypostinterruptsenabled, EvtDeviceD0EntryPostInterruptsEnabled callback function, EvtDeviceD0EntryPostInterruptsEnabled, EVT_WDF_DEVICE_D0_ENTRY_POST_INTERRUPTS_ENABLED, EVT_WDF_DEVICE_D0_ENTRY_POST_INTERRUPTS_ENABLED, wdfdevice/EvtDeviceD0EntryPostInterruptsEnabled, DFDeviceObjectGeneralRef_e37cc70a-3e3e-4268-afda-8b802cc72461.xml, kmdf.evtdeviced0entrypostinterruptsenabled
+ms.keywords: DFDeviceObjectGeneralRef_e37cc70a-3e3e-4268-afda-8b802cc72461.xml, EVT_WDF_DEVICE_D0_ENTRY_POST_INTERRUPTS_ENABLED, EvtDeviceD0EntryPostInterruptsEnabled, EvtDeviceD0EntryPostInterruptsEnabled callback function, kmdf.evtdeviced0entrypostinterruptsenabled, wdf.evtdeviced0entrypostinterruptsenabled, wdfdevice/EvtDeviceD0EntryPostInterruptsEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

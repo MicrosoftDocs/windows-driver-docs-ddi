@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e5d70be6-daa5-4d2e-94fd-5739edd8821e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT structure [Network Drivers Starting with Windows Vista], *PNET_BUFFER_LIST_CONTEXT, _NET_BUFFER_LIST_CONTEXT, ndis/NET_BUFFER_LIST_CONTEXT, PNET_BUFFER_LIST_CONTEXT, ndis_netbuf_structures_ref_8f7ae065-a4d5-4fc9-92f1-36e25e19bac2.xml, PNET_BUFFER_LIST_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], netvista.net_buffer_list_context, ndis/PNET_BUFFER_LIST_CONTEXT
+ms.keywords: "*PNET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST_CONTEXT, PNET_BUFFER_LIST_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_LIST_CONTEXT, ndis/NET_BUFFER_LIST_CONTEXT, ndis/PNET_BUFFER_LIST_CONTEXT, ndis_netbuf_structures_ref_8f7ae065-a4d5-4fc9-92f1-36e25e19bac2.xml, netvista.net_buffer_list_context"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NET_BUFFER_LIST_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT"
+req.typenames: NET_BUFFER_LIST_CONTEXT, *PNET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT, *PNET_BUFFER_LIST_CONTEXT
 ---
 
 # _NET_BUFFER_LIST_CONTEXT structure
@@ -185,17 +185,8 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568390">
-   NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
-   NdisAllocateNetBufferListPool</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistcontext.md">
+   NdisAllocateNetBufferListContext</a>
 
 
 
@@ -203,8 +194,18 @@ For more information on how to use net buffers, see
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistcontext.md">
-   NdisAllocateNetBufferListContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568390">
+   NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568391">
+   NET_BUFFER_LIST_CONTEXT_DATA_START</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+   NdisAllocateNetBufferListPool</a>
 
 
 

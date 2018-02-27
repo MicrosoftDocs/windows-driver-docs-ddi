@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8a400515-3619-4fe9-8e08-638859442ea3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocoltcpoffloadreceiveindicate, ProtocolTcpOffloadReceiveIndicate callback function [Network Drivers Starting with Windows Vista], ProtocolTcpOffloadReceiveIndicate, TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER, TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER, ndischimney/ProtocolTcpOffloadReceiveIndicate, tcp_chim_protocol_func_c65e1895-a874-4c93-b25f-f2951a0a19db.xml
+ms.keywords: ProtocolTcpOffloadReceiveIndicate, ProtocolTcpOffloadReceiveIndicate callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER, ndischimney/ProtocolTcpOffloadReceiveIndicate, netvista.protocoltcpoffloadreceiveindicate, tcp_chim_protocol_func_c65e1895-a874-4c93-b25f-f2951a0a19db.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -216,10 +216,6 @@ The
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
-
-
-
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
 
 
@@ -228,19 +224,23 @@ The
 
 
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceivereturn.md">NdisOffloadTcpReceiveReturn</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceivereturn.md">NdisOffloadTcpReceiveReturn</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+
+
+<a href="..\ndischimney\nf-ndischimney-ndisinitiateoffload.md">NdisInitiateOffload</a>
+
+
+
+<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceivereturn.md">NdisOffloadTcpReceiveReturn</a>
 
 
 

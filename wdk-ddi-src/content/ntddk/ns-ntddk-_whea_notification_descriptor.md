@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 5b228bb8-dd31-484d-b87a-ec7fed433a4a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: "_WHEA_NOTIFICATION_DESCRIPTOR, WHEA_NOTIFICATION_TYPE_POLLED, Reserved, ntddk/WHEA_NOTIFICATION_DESCRIPTOR, ErrorThresholdWindowRW, PollIntervalRW, WHEA_NOTIFICATION_TYPE_LOCALINTERRUPT, AsUSHORT, WHEA_NOTIFICATION_TYPE_SCI, whearef_c2a5ab66-2598-447b-8f5b-d6398c55ff1a.xml, *PWHEA_NOTIFICATION_DESCRIPTOR, whea.whea_notification_descriptor, SwitchToPollingWindowRW, WHEA_NOTIFICATION_TYPE_NMI, ErrorThresholdRW, WHEA_NOTIFICATION_TYPE_EXTERNALINTERRUPT, WHEA_NOTIFICATION_DESCRIPTOR structure [WHEA Drivers and Applications], WHEA_NOTIFICATION_DESCRIPTOR, SwitchToPollingThresholdRW"
+ms.keywords: "*PWHEA_NOTIFICATION_DESCRIPTOR, AsUSHORT, ErrorThresholdRW, ErrorThresholdWindowRW, PollIntervalRW, Reserved, SwitchToPollingThresholdRW, SwitchToPollingWindowRW, WHEA_NOTIFICATION_DESCRIPTOR, WHEA_NOTIFICATION_DESCRIPTOR structure [WHEA Drivers and Applications], WHEA_NOTIFICATION_TYPE_EXTERNALINTERRUPT, WHEA_NOTIFICATION_TYPE_LOCALINTERRUPT, WHEA_NOTIFICATION_TYPE_NMI, WHEA_NOTIFICATION_TYPE_POLLED, WHEA_NOTIFICATION_TYPE_SCI, _WHEA_NOTIFICATION_DESCRIPTOR, ntddk/WHEA_NOTIFICATION_DESCRIPTOR, whea.whea_notification_descriptor, whearef_c2a5ab66-2598-447b-8f5b-d6398c55ff1a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -550,11 +550,11 @@ A WHEA_NOTIFICATION_DESCRIPTOR structure is contained within the <a href="..\ntd
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_generic_error_descriptor.md">WHEA_GENERIC_ERROR_DESCRIPTOR</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_xpf_cmc_descriptor.md">WHEA_XPF_CMC_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_generic_error_descriptor.md">WHEA_GENERIC_ERROR_DESCRIPTOR</a>
 
 
 

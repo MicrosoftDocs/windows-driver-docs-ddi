@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 713c8ecc-e0a5-480a-9c53-e331aeaeb38e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NDIS_PM_CAPABILITIES, PNDIS_PM_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], miniport_power_management_ref_e70356b9-5c5a-4b38-b413-553a772da8b6.xml, netvista.ndis_pm_capabilities, NDIS_PM_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_PM_CAPABILITIES, ntddndis/NDIS_PM_CAPABILITIES, *PNDIS_PM_CAPABILITIES, _NDIS_PM_CAPABILITIES, ntddndis/PNDIS_PM_CAPABILITIES
+ms.keywords: "*PNDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_PM_CAPABILITIES, PNDIS_PM_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_CAPABILITIES, miniport_power_management_ref_e70356b9-5c5a-4b38-b413-553a772da8b6.xml, netvista.ndis_pm_capabilities, ntddndis/NDIS_PM_CAPABILITIES, ntddndis/PNDIS_PM_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PM_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES"
+req.typenames: NDIS_PM_CAPABILITIES, *PNDIS_PM_CAPABILITIES
 ---
 
 # _NDIS_PM_CAPABILITIES structure
@@ -613,16 +613,13 @@ The
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">NdisMIndicateReceiveNetBufferLists</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
    NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567410">
+   NDIS_STATUS_PM_CAPABILITIES_CHANGE</a>
 
 
 
@@ -630,11 +627,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439808">NDIS_STATUS_PM_WAKE_REASON</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">NdisMIndicateReceiveNetBufferLists</a>
 
 
 
@@ -642,8 +635,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567410">
-   NDIS_STATUS_PM_CAPABILITIES_CHANGE</a>
+<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439808">NDIS_STATUS_PM_WAKE_REASON</a>
 
 
 

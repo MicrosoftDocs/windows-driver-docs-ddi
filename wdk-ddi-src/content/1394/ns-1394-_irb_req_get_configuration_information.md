@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 639B72C4-F99D-4983-8539-00A93398465F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_IRB_REQ_GET_CONFIGURATION_INFORMATION, IRB_REQ_GET_CONFIGURATION_INFORMATION structure [Buses], 1394/IRB_REQ_GET_CONFIGURATION_INFORMATION, IEEE.irb_req_get_configuration_information, IRB_REQ_GET_CONFIGURATION_INFORMATION"
+ms.keywords: 1394/IRB_REQ_GET_CONFIGURATION_INFORMATION, IEEE.irb_req_get_configuration_information, IRB_REQ_GET_CONFIGURATION_INFORMATION, IRB_REQ_GET_CONFIGURATION_INFORMATION structure [Buses], _IRB_REQ_GET_CONFIGURATION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

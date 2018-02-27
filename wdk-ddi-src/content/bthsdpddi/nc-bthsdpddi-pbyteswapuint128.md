@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 04a3400a-e526-47d2-a602-6ecaa7ee7fcf
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.sdpbyteswapuint128, SdpByteSwapUint128 callback function [Bluetooth Devices], SdpByteSwapUint128, PBYTESWAPUINT128, PBYTESWAPUINT128, sdplib/SdpByteSwapUint128, bth_funcs_48f64465-c4dd-4cf2-8655-b55d5f0c89ba.xml
+ms.keywords: PBYTESWAPUINT128, SdpByteSwapUint128, SdpByteSwapUint128 callback function [Bluetooth Devices], bltooth.sdpbyteswapuint128, bth_funcs_48f64465-c4dd-4cf2-8655-b55d5f0c89ba.xml, sdplib/SdpByteSwapUint128
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

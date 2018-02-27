@@ -7,8 +7,8 @@ old-location: display\d3dddi_mapgpuvirtualaddress.htm
 old-project: display
 ms.assetid: A23F5847-0DA9-4F3F-B1C1-DACCA35DBC53
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: Zero, d3dukmdt/D3DDDI_MAPGPUVIRTUALADDRESS, D3DDDI_MAPGPUVIRTUALADDRESS structure [Display Devices], Write, Execute, D3DDDI_MAPGPUVIRTUALADDRESS, NoAccess, display.d3dddi_mapgpuvirtualaddress
+ms.date: 2/24/2018
+ms.keywords: D3DDDI_MAPGPUVIRTUALADDRESS, D3DDDI_MAPGPUVIRTUALADDRESS structure [Display Devices], Execute, NoAccess, Write, Zero, d3dukmdt/D3DDDI_MAPGPUVIRTUALADDRESS, display.d3dddi_mapgpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -206,11 +206,11 @@ A zero fence value might be returned, meaning that the operation is already comp
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddigpuvirtualaddress_protection_type.md">D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb.md">pfnMapGpuVirtualAddressCb</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddigpuvirtualaddress_protection_type.md">D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</a>
 
 
 
@@ -226,5 +226,5 @@ A zero fence value might be returned, meaning that the operation is already comp
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDI_MAPGPUVIRTUALADDRESS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDI_MAPGPUVIRTUALADDRESS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b264fac0-61d9-4789-b60b-c0b309eb25f1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfWorkItemEnqueue, WdfWorkItemEnqueue method, kmdf.wdfworkitemenqueue, wdf.wdfworkitemenqueue, wdfworkitem/WdfWorkItemEnqueue, DFWorkItemObjectRef_f2f5dbe5-20e0-4cb8-aeca-663934d0fc92.xml
+ms.keywords: DFWorkItemObjectRef_f2f5dbe5-20e0-4cb8-aeca-663934d0fc92.xml, WdfWorkItemEnqueue, WdfWorkItemEnqueue method, kmdf.wdfworkitemenqueue, wdf.wdfworkitemenqueue, wdfworkitem/WdfWorkItemEnqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -231,19 +231,19 @@ The driver's <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca41
 
 ## -see-also
 
-<a href="..\miniport\nf-miniport-interlockedexchange.md">InterlockedExchange</a>
-
-
-
-<a href="..\miniport\nf-miniport-interlockedcompareexchange.md">InterlockedCompareExchange</a>
-
-
-
 <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
+
+
+
 <a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
 
 

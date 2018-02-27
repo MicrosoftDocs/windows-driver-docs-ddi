@@ -7,8 +7,8 @@ old-location: display\d3dkmt_reclaimallocations2.htm
 old-project: display
 ms.assetid: 7980F1FD-D7C2-4C74-8652-89FD38BE4D1F
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DKMT_RECLAIMALLOCATIONS2, D3DKMT_RECLAIMALLOCATIONS2 structure [Display Devices], _D3DKMT_RECLAIMALLOCATIONS2, display.d3dkmt_reclaimallocations2, d3dkmthk/D3DKMT_RECLAIMALLOCATIONS2
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_RECLAIMALLOCATIONS2, D3DKMT_RECLAIMALLOCATIONS2 structure [Display Devices], _D3DKMT_RECLAIMALLOCATIONS2, d3dkmthk/D3DKMT_RECLAIMALLOCATIONS2, display.d3dkmt_reclaimallocations2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

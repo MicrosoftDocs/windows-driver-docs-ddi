@@ -4,11 +4,11 @@ title: "_USB_NODE_INFORMATION"
 author: windows-driver-content
 description: The USB_NODE_INFORMATION structure is used with the IOCTL_USB_GET_NODE_INFORMATION I/O control request to retrieve information about a parent device.
 old-location: buses\usb_node_information.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 56d30c25-00e7-4edf-af06-64519eb5f755
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: usbioctl/USB_NODE_INFORMATION, _USB_NODE_INFORMATION, PUSB_NODE_INFORMATION, buses.usb_node_information, USB_NODE_INFORMATION, USB_NODE_INFORMATION structure [Buses], PUSB_NODE_INFORMATION structure pointer [Buses], usbstrct_c3f807a8-2895-4a43-bfd3-84092fb4115e.xml, *PUSB_NODE_INFORMATION, usbioctl/PUSB_NODE_INFORMATION
+ms.date: 2/24/2018
+ms.keywords: "*PUSB_NODE_INFORMATION, PUSB_NODE_INFORMATION, PUSB_NODE_INFORMATION structure pointer [Buses], USB_NODE_INFORMATION, USB_NODE_INFORMATION structure [Buses], _USB_NODE_INFORMATION, buses.usb_node_information, usbioctl/PUSB_NODE_INFORMATION, usbioctl/USB_NODE_INFORMATION, usbstrct_c3f807a8-2895-4a43-bfd3-84092fb4115e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_NODE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_NODE_INFORMATION, USB_NODE_INFORMATION"
+req.typenames: USB_NODE_INFORMATION, *PUSB_NODE_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -105,7 +105,19 @@ A parent device can be either a hub or a composite device. The USB stack treats 
 
 ## -see-also
 
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_information.md">IOCTL_USB_GET_NODE_INFORMATION</a>
+
+
+
+<a href="..\usbioctl\ns-usbioctl-_usb_mi_parent_information.md">USB_MI_PARENT_INFORMATION</a>
+
+
+
 <a href="..\usbioctl\ns-usbioctl-_usb_hub_information.md">USB_HUB_INFORMATION</a>
+
+
+
+<a href="..\usbioctl\ne-usbioctl-_usb_hub_node.md">USB_HUB_NODE</a>
 
 
 
@@ -113,21 +125,9 @@ A parent device can be either a hub or a composite device. The USB stack treats 
 
 
 
-<a href="..\usbioctl\ne-usbioctl-_usb_hub_node.md">USB_HUB_NODE</a>
-
-
-
-<a href="..\usbioctl\ne-usbioctl-_usb_hub_node.md">USB_HUB_NODE</a>
-
-
-
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_information.md">IOCTL_USB_GET_NODE_INFORMATION</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USB_NODE_INFORMATION structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_NODE_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

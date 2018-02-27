@@ -4,11 +4,11 @@ title: IStiUSD::UnLockDevice method
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::UnLockDevice method unlocks a device that was locked by a previous call to IStiUSD::LockDevice.
 old-location: image\istiusd_unlockdevice.htm
-old-project: Image
+old-project: image
 ms.assetid: ae19ae38-3bca-42c8-8713-68bb161104b8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: UnLockDevice method [Imaging Devices], IStiUSD::UnLockDevice, stiusd/IStiUSD::UnLockDevice, IStiUSD interface [Imaging Devices], UnLockDevice method, IStiUSD, image.istiusd_unlockdevice, stifnc_8c11e0a0-68ec-4556-ae40-6bed6b5b4831.xml, UnLockDevice method [Imaging Devices], IStiUSD interface, UnLockDevice
+ms.date: 2/23/2018
+ms.keywords: IStiUSD, IStiUSD interface [Imaging Devices], UnLockDevice method, IStiUSD::UnLockDevice, UnLockDevice method [Imaging Devices], UnLockDevice method [Imaging Devices], IStiUSD interface, UnLockDevice,IStiUSD.UnLockDevice, image.istiusd_unlockdevice, stifnc_8c11e0a0-68ec-4556-ae40-6bed6b5b4831.xml, stiusd/IStiUSD::UnLockDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,6 +88,10 @@ If a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543
 
 ## -see-also
 
+<a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543770">IStiDevice::UnLockDevice</a>
 
 
@@ -96,5 +100,5 @@ If a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IStiUSD::UnLockDevice method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStiUSD::UnLockDevice method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

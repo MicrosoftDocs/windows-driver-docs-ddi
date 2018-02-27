@@ -7,8 +7,8 @@ old-location: audio\ksds3d_hrtf_filter_format_msg.htm
 old-project: audio
 ms.assetid: c0122c96-5bd3-4c1f-85d3-5d4ead5c0c86
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.ksds3d_hrtf_filter_format_msg, KSDS3D_HRTF_FILTER_FORMAT_MSG, ksmedia/PKSDS3D_HRTF_FILTER_FORMAT_MSG, *PKSDS3D_HRTF_FILTER_FORMAT_MSG, PKSDS3D_HRTF_FILTER_FORMAT_MSG structure pointer [Audio Devices], PKSDS3D_HRTF_FILTER_FORMAT_MSG, ksmedia/KSDS3D_HRTF_FILTER_FORMAT_MSG, KSDS3D_HRTF_FILTER_FORMAT_MSG structure [Audio Devices], aud-prop_5ad5b67d-5302-44e1-b4e0-16d66334f57b.xml
+ms.date: 2/22/2018
+ms.keywords: "*PKSDS3D_HRTF_FILTER_FORMAT_MSG, KSDS3D_HRTF_FILTER_FORMAT_MSG, KSDS3D_HRTF_FILTER_FORMAT_MSG structure [Audio Devices], PKSDS3D_HRTF_FILTER_FORMAT_MSG, PKSDS3D_HRTF_FILTER_FORMAT_MSG structure pointer [Audio Devices], aud-prop_5ad5b67d-5302-44e1-b4e0-16d66334f57b.xml, audio.ksds3d_hrtf_filter_format_msg, ksmedia/KSDS3D_HRTF_FILTER_FORMAT_MSG, ksmedia/PKSDS3D_HRTF_FILTER_FORMAT_MSG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSDS3D_HRTF_FILTER_FORMAT_MSG
 product: Windows
 targetos: Windows
-req.typenames: "*PKSDS3D_HRTF_FILTER_FORMAT_MSG, KSDS3D_HRTF_FILTER_FORMAT_MSG"
+req.typenames: KSDS3D_HRTF_FILTER_FORMAT_MSG, *PKSDS3D_HRTF_FILTER_FORMAT_MSG
 ---
 
 # KSDS3D_HRTF_FILTER_FORMAT_MSG structure
@@ -137,5 +137,5 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSDS3D_HRTF_FILTER_FORMAT_MSG structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSDS3D_HRTF_FILTER_FORMAT_MSG structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

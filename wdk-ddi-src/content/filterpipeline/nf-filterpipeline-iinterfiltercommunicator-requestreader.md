@@ -7,8 +7,8 @@ old-location: print\iinterfiltercommunicator_requestreader.htm
 old-project: print
 ms.assetid: 2b38b1b7-0d65-4457-bc7d-c52ff11aba48
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IInterFilterCommunicator, filterpipeline/IInterFilterCommunicator::RequestReader, IInterFilterCommunicator interface [Print Devices], RequestReader method, IInterFilterCommunicator::RequestReader, print.iinterfiltercommunicator_requestreader, RequestReader, filterpipeline_dba6ebe4-7acb-471e-80e4-cedc8c2523b0.xml, RequestReader method [Print Devices], RequestReader method [Print Devices], IInterFilterCommunicator interface
+ms.date: 2/23/2018
+ms.keywords: IInterFilterCommunicator, IInterFilterCommunicator interface [Print Devices], RequestReader method, IInterFilterCommunicator::RequestReader, RequestReader method [Print Devices], RequestReader method [Print Devices], IInterFilterCommunicator interface, RequestReader,IInterFilterCommunicator.RequestReader, filterpipeline/IInterFilterCommunicator::RequestReader, filterpipeline_dba6ebe4-7acb-471e-80e4-cedc8c2523b0.xml, print.iinterfiltercommunicator_requestreader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -104,5 +104,5 @@ The <b>IInterFilterCommunicator</b> object is passed to each filter in the <a hr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IInterFilterCommunicator::RequestReader method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IInterFilterCommunicator::RequestReader method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

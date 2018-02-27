@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1e18515c-2f24-4690-b5fd-0915ef30307b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvinitvirtualstation, Dot11ExtIhvInitVirtualStation callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvInitVirtualStation, DOT11EXTIHV_INIT_VIRTUAL_STATION, DOT11EXTIHV_INIT_VIRTUAL_STATION, wlanihv/Dot11ExtIhvInitVirtualStation, Native_802.11_IHV_Ext_1daef8e4-6444-447a-b7a7-0189715a6ab9.xml
+ms.keywords: DOT11EXTIHV_INIT_VIRTUAL_STATION, Dot11ExtIhvInitVirtualStation, Dot11ExtIhvInitVirtualStation callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_1daef8e4-6444-447a-b7a7-0189715a6ab9.xml, netvista.dot11extihvinitvirtualstation, wlanihv/Dot11ExtIhvInitVirtualStation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvInitVirtualStation
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -150,15 +150,15 @@ For more information about
 
 ## -see-also
 
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a>
-
-
-
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a>
 
 
 
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_handlers.md">DOT11EXT_IHV_HANDLERS</a>
+
+
+
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a>
 
 
 

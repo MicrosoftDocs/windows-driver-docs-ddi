@@ -7,8 +7,8 @@ old-location: stream\ksgateaddoninputtoand.htm
 old-project: stream
 ms.assetid: cde5e5d8-9af7-452e-afaa-8669c5749c9e
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KsGateAddOnInputToAnd function [Streaming Media Devices], KsGateAddOnInputToAnd, stream.ksgateaddoninputtoand, avfunc_a7d04c8d-b1d7-46a8-bd34-2ec9de4f2196.xml, ks/KsGateAddOnInputToAnd
+ms.date: 2/23/2018
+ms.keywords: KsGateAddOnInputToAnd, KsGateAddOnInputToAnd function [Streaming Media Devices], avfunc_a7d04c8d-b1d7-46a8-bd34-2ec9de4f2196.xml, ks/KsGateAddOnInputToAnd, stream.ksgateaddoninputtoand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,14 +98,6 @@ This call is an empty function. It should be used for code readability and clari
 
 
 
-<a href="..\ks\nf-ks-ksgateaddoffinputtoand.md">KsGateAddOffInputToAnd</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateremoveoffinputfromand.md">KsGateRemoveOffInputFromAnd</a>
-
-
-
 <a href="..\ks\nf-ks-ksgateremoveoninputfromand.md">KsGateRemoveOnInputFromAnd</a>
 
 
@@ -114,9 +106,17 @@ This call is an empty function. It should be used for code readability and clari
 
 
 
- 
+<a href="..\ks\nf-ks-ksgateaddoffinputtoand.md">KsGateAddOffInputToAnd</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateremoveoffinputfromand.md">KsGateRemoveOffInputFromAnd</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsGateAddOnInputToAnd function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsGateAddOnInputToAnd function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

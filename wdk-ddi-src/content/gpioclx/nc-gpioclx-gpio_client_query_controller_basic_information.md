@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 5674317C-6785-46F5-880F-71FAF2CD3C64
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.client_querycontrollerbasicinformation, CLIENT_QueryControllerBasicInformation callback function [Parallel Ports], CLIENT_QueryControllerBasicInformation, GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION, GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION, gpioclx/CLIENT_QueryControllerBasicInformation
+ms.keywords: CLIENT_QueryControllerBasicInformation, CLIENT_QueryControllerBasicInformation callback function [Parallel Ports], GPIO.client_querycontrollerbasicinformation, GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION, gpioclx/CLIENT_QueryControllerBasicInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_QueryControllerBasicInformation
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO"
+req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
 
 # GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION callback
@@ -147,11 +147,11 @@ The GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION function type is defined in t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 
 

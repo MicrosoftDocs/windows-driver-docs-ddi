@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 6446d667-1a35-4055-b9e7-41d372df9db2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.ioctl_par_get_device_caps, IOCTL_PAR_GET_DEVICE_CAPS control code [Parallel Ports], IOCTL_PAR_GET_DEVICE_CAPS, ntddpar/IOCTL_PAR_GET_DEVICE_CAPS, cisspd_ea215140-7641-4554-bf95-362942d13143.xml
+ms.keywords: IOCTL_PAR_GET_DEVICE_CAPS, IOCTL_PAR_GET_DEVICE_CAPS control code [Parallel Ports], cisspd_ea215140-7641-4554-bf95-362942d13143.xml, ntddpar/IOCTL_PAR_GET_DEVICE_CAPS, parports.ioctl_par_get_device_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_PAR_GET_DEVICE_CAPS
 product: Windows
 targetos: Windows
-req.typenames: "*POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION"
+req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ---
 
 # IOCTL_PAR_GET_DEVICE_CAPS IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -131,11 +131,11 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is less than the
 
 ## -see-also
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_get_mode.md">IOCTL_IEEE1284_GET_MODE</a>
-
-
-
 <a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
+
+
+
+<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_get_mode.md">IOCTL_IEEE1284_GET_MODE</a>
 
 
 

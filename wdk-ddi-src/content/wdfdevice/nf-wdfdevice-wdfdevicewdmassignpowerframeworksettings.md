@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 676A458E-A6E0-4F09-AAF2-21EA122EF74D
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfdevicewdmassignpowerframeworksettings, kmdf.wdfdevicewdmassignpowerframeworksettings, WdfDeviceWdmAssignPowerFrameworkSettings method, WdfDeviceWdmAssignPowerFrameworkSettings, wdfdevice/WdfDeviceWdmAssignPowerFrameworkSettings
+ms.keywords: WdfDeviceWdmAssignPowerFrameworkSettings, WdfDeviceWdmAssignPowerFrameworkSettings method, kmdf.wdfdevicewdmassignpowerframeworksettings, wdf.wdfdevicewdmassignpowerframeworksettings, wdfdevice/WdfDeviceWdmAssignPowerFrameworkSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

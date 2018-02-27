@@ -7,8 +7,8 @@ old-location: stream\korelease.htm
 old-project: stream
 ms.assetid: 59be582c-0f56-45d8-b407-e588ee0f7f8b
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.korelease, KoRelease, kcom/KoRelease, ksfunc_5a688121-dc73-48fe-8b85-1f6c14fb3a22.xml, KoRelease function [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: KoRelease, KoRelease function [Streaming Media Devices], kcom/KoRelease, ksfunc_5a688121-dc73-48fe-8b85-1f6c14fb3a22.xml, stream.korelease
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	KoRelease
 product: Windows
 targetos: Windows
-req.typenames: "*PCONNECT_DATA, CONNECT_DATA"
+req.typenames: CONNECT_DATA, *PCONNECT_DATA
 ---
 
 # KoRelease function

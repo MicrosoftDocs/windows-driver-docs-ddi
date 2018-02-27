@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c0f39e50-8bf1-4ac9-8610-18915b375797
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDeviceInitSetPowerNotPageable method, wdfdevice/WdfDeviceInitSetPowerNotPageable, kmdf.wdfdeviceinitsetpowernotpageable, WdfDeviceInitSetPowerNotPageable, DFDeviceObjectGeneralRef_b7acdb97-66a4-497f-b9fb-4335d9147c1a.xml, wdf.wdfdeviceinitsetpowernotpageable
+ms.keywords: DFDeviceObjectGeneralRef_b7acdb97-66a4-497f-b9fb-4335d9147c1a.xml, WdfDeviceInitSetPowerNotPageable, WdfDeviceInitSetPowerNotPageable method, kmdf.wdfdeviceinitsetpowernotpageable, wdf.wdfdeviceinitsetpowernotpageable, wdfdevice/WdfDeviceInitSetPowerNotPageable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

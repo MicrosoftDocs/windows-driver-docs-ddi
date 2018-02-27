@@ -4,11 +4,11 @@ title: IStiDevice::UnLockDevice method
 author: windows-driver-content
 description: The IStiDevice::UnLockDevice method unlocks a device that was locked by a previous call to IStiDevice::LockDevice.
 old-location: image\istidevice_unlockdevice.htm
-old-project: Image
+old-project: image
 ms.assetid: 0bcd48c6-be8a-47af-9e34-a06ce572925c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: UnLockDevice method [Imaging Devices], image.istidevice_unlockdevice, UnLockDevice method [Imaging Devices], IStiDevice interface, IStiDevice, stifnc_7f72c1a7-41cd-4191-8c8f-390dfc991246.xml, UnLockDevice, IStiDevice interface [Imaging Devices], UnLockDevice method, sti/IStiDevice::UnLockDevice, IStiDevice::UnLockDevice
+ms.date: 2/23/2018
+ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], UnLockDevice method, IStiDevice::UnLockDevice, UnLockDevice method [Imaging Devices], UnLockDevice method [Imaging Devices], IStiDevice interface, UnLockDevice,IStiDevice.UnLockDevice, image.istidevice_unlockdevice, sti/IStiDevice::UnLockDevice, stifnc_7f72c1a7-41cd-4191-8c8f-390dfc991246.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiDevice.UnLockDevice
 product: Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE
+req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
 ---
 

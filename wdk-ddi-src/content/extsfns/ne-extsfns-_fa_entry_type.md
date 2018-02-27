@@ -4,11 +4,11 @@ title: "_FA_ENTRY_TYPE"
 author: windows-driver-content
 description: A DebugFailureAnalysis object has a collection of failure analysis entries (FA entries).
 old-location: debugger\fa_entry_type.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 49E0D15E-4214-421F-9C3F-E7C7A481CA10
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: DEBUG_FA_ENTRY_ULONG, extsfns/FA_ENTRY_TYPE, extsfns/DEBUG_FA_ENTRY_STRUCTURED_DATA, DEBUG_FA_ENTRY_POINTER, extsfns/DEBUG_FA_ENTRY_NO_TYPE, _FA_ENTRY_TYPE, extsfns/DEBUG_FA_ENTRY_INSTRUCTION_OFFSET, FA_ENTRY_TYPE enumeration [Windows Debugging], extsfns/DEBUG_FA_ENTRY_POINTER, FA_ENTRY_TYPE, debugger.fa_entry_type, extsfns/DEBUG_FA_ENTRY_ULONG64, DEBUG_FA_ENTRY_INSTRUCTION_OFFSET, DEBUG_FA_ENTRY_UNICODE_STRING, DEBUG_FA_ENTRY_ANSI_STRING, extsfns/DEBUG_FA_ENTRY_ULONG, DEBUG_FA_ENTRY_ULONG64, extsfns/DEBUG_FA_ENTRY_EXTENSION_CMD, DEBUG_FA_ENTRY_EXTENSION_CMD, extsfns/DEBUG_FA_ENTRY_ARRAY, DEBUG_FA_ENTRY_STRUCTURED_DATA, extsfns/DEBUG_FA_ENTRY_ANSI_STRING, extsfns/DEBUG_FA_ENTRY_UNICODE_STRING, DEBUG_FA_ENTRY_ARRAY, DEBUG_FA_ENTRY_NO_TYPE
+ms.date: 2/23/2018
+ms.keywords: DEBUG_FA_ENTRY_ANSI_STRING, DEBUG_FA_ENTRY_ARRAY, DEBUG_FA_ENTRY_EXTENSION_CMD, DEBUG_FA_ENTRY_INSTRUCTION_OFFSET, DEBUG_FA_ENTRY_NO_TYPE, DEBUG_FA_ENTRY_POINTER, DEBUG_FA_ENTRY_STRUCTURED_DATA, DEBUG_FA_ENTRY_ULONG, DEBUG_FA_ENTRY_ULONG64, DEBUG_FA_ENTRY_UNICODE_STRING, FA_ENTRY_TYPE, FA_ENTRY_TYPE enumeration [Windows Debugging], _FA_ENTRY_TYPE, debugger.fa_entry_type, extsfns/DEBUG_FA_ENTRY_ANSI_STRING, extsfns/DEBUG_FA_ENTRY_ARRAY, extsfns/DEBUG_FA_ENTRY_EXTENSION_CMD, extsfns/DEBUG_FA_ENTRY_INSTRUCTION_OFFSET, extsfns/DEBUG_FA_ENTRY_NO_TYPE, extsfns/DEBUG_FA_ENTRY_POINTER, extsfns/DEBUG_FA_ENTRY_STRUCTURED_DATA, extsfns/DEBUG_FA_ENTRY_ULONG, extsfns/DEBUG_FA_ENTRY_ULONG64, extsfns/DEBUG_FA_ENTRY_UNICODE_STRING, extsfns/FA_ENTRY_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -133,15 +133,11 @@ A bitwise OR of this value and one of the basic types indicates an array. For ex
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
-
-
-
-<a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a>
-
-
-
 <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
+
+
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
@@ -153,9 +149,13 @@ A bitwise OR of this value and one of the basic types indicates an array. For ex
 
 
 
- 
+<a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20FA_ENTRY_TYPE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20FA_ENTRY_TYPE enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 98257b56-e586-41e7-80c3-f9f96d471125
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_sysinfo_ref_d2259157-f4fd-4fd8-b86e-f685ab4213d5.xml, NdisGetRoutineAddress function [Network Drivers Starting with Windows Vista], netvista.ndisgetroutineaddress, NdisGetRoutineAddress, ndis/NdisGetRoutineAddress
+ms.keywords: NdisGetRoutineAddress, NdisGetRoutineAddress function [Network Drivers Starting with Windows Vista], ndis/NdisGetRoutineAddress, ndis_sysinfo_ref_d2259157-f4fd-4fd8-b86e-f685ab4213d5.xml, netvista.ndisgetroutineaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisGetRoutineAddress
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGetRoutineAddress function
@@ -111,18 +111,18 @@ No performance improvement is gained by using the address that is returned by
 
 Typically, an NDIS driver calls 
     <b>NdisGetRoutineAddress</b> in its 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine.
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine.
 
 
 
 
 ## -see-also
 
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 
 

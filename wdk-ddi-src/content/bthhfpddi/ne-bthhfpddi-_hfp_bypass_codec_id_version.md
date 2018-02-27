@@ -7,8 +7,8 @@ old-location: audio\hfp_bypass_codec_id_version.htm
 old-project: audio
 ms.assetid: A16980CD-3F2F-4A67-902A-F3D72AA042D9
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: bthhfpddi/HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION, _HFP_BYPASS_CODEC_ID_VERSION, audio.hfp_bypass_codec_id_version, REQ_HFP_BYPASS_CODEC_ID_V1, bthhfpddi/REQ_HFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION enumeration [Audio Devices]
+ms.date: 2/22/2018
+ms.keywords: "*PHFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION enumeration [Audio Devices], REQ_HFP_BYPASS_CODEC_ID_V1, _HFP_BYPASS_CODEC_ID_VERSION, audio.hfp_bypass_codec_id_version, bthhfpddi/HFP_BYPASS_CODEC_ID_VERSION, bthhfpddi/REQ_HFP_BYPASS_CODEC_ID_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -86,5 +86,5 @@ Codec ID structure version 1.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20HFP_BYPASS_CODEC_ID_VERSION enumeration%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20HFP_BYPASS_CODEC_ID_VERSION enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

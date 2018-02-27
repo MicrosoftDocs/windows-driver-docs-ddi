@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 810503b9-75cd-4b38-ab1f-de240968ded6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportinterrupt, MiniportInterrupt callback function [Network Drivers Starting with Windows Vista], MiniportInterrupt, MINIPORT_ISR, MINIPORT_ISR, ndis/MiniportInterrupt, ndis_interrupts_miniport_functions_ref_1de81c1c-10f4-4b41-81bf-495192b65f02.xml
+ms.keywords: MINIPORT_ISR, MiniportInterrupt, MiniportInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportInterrupt, ndis_interrupts_miniport_functions_ref_1de81c1c-10f4-4b41-81bf-495192b65f02.xml, netvista.miniportinterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -315,11 +315,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
+<a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a>
 
 
 
@@ -328,16 +328,19 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_interrupt_characteristics.md">
-   NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</a>
+<a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -351,13 +354,8 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
-   NdisMSynchronizeWithInterruptEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
-   MiniportSynchronizeInterrupt</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_interrupt_characteristics.md">
+   NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F039450D-3B66-4891-9078-7058E889C2F0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfunifiedpropertystore, IWDFUnifiedPropertyStore interface, IWDFUnifiedPropertyStore interface, described, IWDFUnifiedPropertyStore, wudfddi/IWDFUnifiedPropertyStore, umdf.iwdfunifiedpropertystore
+ms.keywords: IWDFUnifiedPropertyStore, IWDFUnifiedPropertyStore interface, IWDFUnifiedPropertyStore interface, described, umdf.iwdfunifiedpropertystore, wdf.iwdfunifiedpropertystore, wudfddi/IWDFUnifiedPropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 The <b>IWDFUnifiedPropertyStore</b> interface exposes a unified property store.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUnifiedPropertyStore</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWDFUnifiedPropertyStore</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDFUnifiedPropertyStore</b> interface has these methods.
@@ -82,12 +89,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451414">SetPr
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451410">GetPropertyData</a> method retrieves the current setting for a device property.
-
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451414">SetPropertyData</a> method modifies the current setting of a device property.
-
- 
+</table> 
 
 
 ## -remarks

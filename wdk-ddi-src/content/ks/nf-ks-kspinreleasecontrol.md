@@ -7,8 +7,8 @@ old-location: stream\kspinreleasecontrol.htm
 old-project: stream
 ms.assetid: ead50a69-fe33-4e6c-84f9-98491d188140
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: avfunc_24f35b7d-4ecc-4a64-8b78-9972ba7bab5c.xml, ks/KsPinReleaseControl, KsPinReleaseControl, KsPinReleaseControl function [Streaming Media Devices], stream.kspinreleasecontrol
+ms.date: 2/23/2018
+ms.keywords: KsPinReleaseControl, KsPinReleaseControl function [Streaming Media Devices], avfunc_24f35b7d-4ecc-4a64-8b78-9972ba7bab5c.xml, ks/KsPinReleaseControl, stream.kspinreleasecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,10 +94,6 @@ Note that this function is an inline call to <a href="..\ks\nf-ks-ksreleasecontr
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
-
-
-
 <a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
 
 
@@ -106,9 +102,13 @@ Note that this function is an inline call to <a href="..\ks\nf-ks-ksreleasecontr
 
 
 
- 
+<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinReleaseControl function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinReleaseControl function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

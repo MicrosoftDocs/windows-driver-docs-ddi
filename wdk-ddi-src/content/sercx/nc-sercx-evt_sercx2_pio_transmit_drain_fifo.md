@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: A21E14DA-0B76-4DA2-B628-C3A4DE843FA9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercx2piotransmitdrainfifo, EvtSerCx2PioTransmitDrainFifo callback function [Serial Ports], EvtSerCx2PioTransmitDrainFifo, EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO, EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO, 2/EvtSerCx2PioTransmitDrainFifo
+ms.keywords: 2/EvtSerCx2PioTransmitDrainFifo, EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO, EvtSerCx2PioTransmitDrainFifo, EvtSerCx2PioTransmitDrainFifo callback function [Serial Ports], serports.evtsercx2piotransmitdrainfifo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -145,7 +145,7 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO</b> function type is defined in the Se
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+<a href="..\sercx\nf-sercx-sercx2piotransmitdrainfifocomplete.md">SerCx2PioTransmitDrainFifoComplete</a>
 
 
 
@@ -153,19 +153,19 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO</b> function type is defined in the Se
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
-
-
-
 <a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_purge_fifo.md">EvtSerCx2PioTransmitPurgeFifo</a>
 
 
 
+<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_cancel_drain_fifo.md">EvtSerCx2PioTransmitCancelDrainFifo</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_cancel_drain_fifo.md">EvtSerCx2PioTransmitCancelDrainFifo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 
 
 

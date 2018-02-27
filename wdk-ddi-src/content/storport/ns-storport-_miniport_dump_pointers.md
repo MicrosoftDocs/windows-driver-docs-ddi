@@ -7,8 +7,8 @@ old-location: storage\miniport_dump_pointers.htm
 old-project: storage
 ms.assetid: a61da8e7-6db0-4d89-bf68-8fa74c284720
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PMINIPORT_DUMP_POINTERS structure pointer [Storage Devices], PMINIPORT_DUMP_POINTERS, MINIPORT_DUMP_POINTERS structure [Storage Devices], storport/PMINIPORT_DUMP_POINTERS, _MINIPORT_DUMP_POINTERS, storage.miniport_dump_pointers, MINIPORT_DUMP_POINTERS, *PMINIPORT_DUMP_POINTERS, storport/MINIPORT_DUMP_POINTERS, structs-virtual_34ca963f-93fe-4e7d-8e02-02bde32cf2ef.xml
+ms.date: 2/24/2018
+ms.keywords: "*PMINIPORT_DUMP_POINTERS, MINIPORT_DUMP_POINTERS, MINIPORT_DUMP_POINTERS structure [Storage Devices], PMINIPORT_DUMP_POINTERS, PMINIPORT_DUMP_POINTERS structure pointer [Storage Devices], _MINIPORT_DUMP_POINTERS, storage.miniport_dump_pointers, storport/MINIPORT_DUMP_POINTERS, storport/PMINIPORT_DUMP_POINTERS, structs-virtual_34ca963f-93fe-4e7d-8e02-02bde32cf2ef.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-A Storport miniport driver uses this structure to support the <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> (SRB) function code SRB_FUNCTION_DUMP_POINTERS. When a miniport driver receives this kind of SRB, the <b>DataBuffer</b> SRB member points to a <b>MINIPORT_DUMP_POINTERS</b> structure. This SRB is sent to the miniport driver that is used to control the disk that holds the crash dump data after the SRB was returned from the miniport driver's <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a> routine. Virtual miniport drivers are required to support SRB_FUNCTION_DUMP_POINTERS.
+A Storport miniport driver uses this structure to support the <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> (SRB) function code SRB_FUNCTION_DUMP_POINTERS. When a miniport driver receives this kind of SRB, the <b>DataBuffer</b> SRB member points to a <b>MINIPORT_DUMP_POINTERS</b> structure. This SRB is sent to the miniport driver that is used to control the disk that holds the crash dump data after the SRB was returned from the miniport driver's <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a> routine. Virtual miniport drivers are required to support SRB_FUNCTION_DUMP_POINTERS.
 
 
 ## -syntax
@@ -172,7 +172,7 @@ Indicates, when <b>TRUE</b>, that the HBA is a bus master. The Storport driver i
 
 ### -field MapBuffers
 
-Indicates whether the Storport driver maps SRB data buffer addresses to system virtual addresses. For more information, see the <b>MapBuffers</b> member of <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>.
+Indicates whether the Storport driver maps SRB data buffer addresses to system virtual addresses. For more information, see the <b>MapBuffers</b> member of <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>.
 
 
 ### -field MaximumNumberOfTargets
@@ -189,22 +189,22 @@ A pointer to an array of ACCESS_RANGE-type elements. The Storport driver initial
 
 
 
-Starting with Windows 8, physical minport drivers can optionally support SRB_FUNCTION_DUMP_POINTERS. If a physical miniport supports this function, it must set the STOR_FEATURE_DUMP_POINTERS flag in the <b>FeatureSupport</b> member of the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure before calling <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. Physical miniports are required to set at least the <b>Version</b> and <b>Size</b> members of <b>MINIPORT_DUMP_POINTERS</b>. Also, if different from the value given in <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>, the <b>MaximumTransferLength</b> member is required for a physical miniport.
+Starting with Windows 8, physical minport drivers can optionally support SRB_FUNCTION_DUMP_POINTERS. If a physical miniport supports this function, it must set the STOR_FEATURE_DUMP_POINTERS flag in the <b>FeatureSupport</b> member of the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure before calling <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. Physical miniports are required to set at least the <b>Version</b> and <b>Size</b> members of <b>MINIPORT_DUMP_POINTERS</b>. Also, if different from the value given in <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>, the <b>MaximumTransferLength</b> member is required for a physical miniport.
 
 
 
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
-
 <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
 
 
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
+
+<a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
 
 
 
@@ -216,5 +216,5 @@ Starting with Windows 8, physical minport drivers can optionally support SRB_FU
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MINIPORT_DUMP_POINTERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MINIPORT_DUMP_POINTERS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

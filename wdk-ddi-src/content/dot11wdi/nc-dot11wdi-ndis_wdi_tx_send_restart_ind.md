@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 40976CC1-89A4-420F-867F-99F857670DAE
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndiswditxsendrestartindication, NdisWdiTxSendRestartIndication callback function [Network Drivers Starting with Windows Vista], NdisWdiTxSendRestartIndication, NDIS_WDI_TX_SEND_RESTART_IND, NDIS_WDI_TX_SEND_RESTART_IND, dot11wdi/NdisWdiTxSendRestartIndication
+ms.keywords: NDIS_WDI_TX_SEND_RESTART_IND, NdisWdiTxSendRestartIndication, NdisWdiTxSendRestartIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxSendRestartIndication, netvista.ndiswditxsendrestartindication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	NdisWdiTxSendRestartIndication
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # NDIS_WDI_TX_SEND_RESTART_IND callback
@@ -141,7 +141,11 @@ If <b>TargetPriorityQueueing</b> is true, <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_pause_reason.md">WDI_TX_PAUSE_REASON</a>
+<a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
 
 
 
@@ -153,11 +157,7 @@ If <b>TargetPriorityQueueing</b> is true, <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
-
-
-
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_pause_ind.md">NdisWdiTxSendPauseIndication</a>
+<a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_pause_reason.md">WDI_TX_PAUSE_REASON</a>
 
 
 

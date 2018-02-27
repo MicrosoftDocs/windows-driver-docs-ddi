@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B62F63EB-747A-4672-9A79-5065A8BC04D1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wwan_umts_mrl, PWWAN_UMTS_MRL, _WWAN_UMTS_MRL, *PWWAN_UMTS_MRL, PWWAN_UMTS_MRL structure pointer [Network Drivers Starting with Windows Vista], WWAN_UMTS_MRL structure [Network Drivers Starting with Windows Vista], wwan/WWAN_UMTS_MRL, WWAN_UMTS_MRL, wwan/PWWAN_UMTS_MRL
+ms.keywords: "*PWWAN_UMTS_MRL, PWWAN_UMTS_MRL, PWWAN_UMTS_MRL structure pointer [Network Drivers Starting with Windows Vista], WWAN_UMTS_MRL, WWAN_UMTS_MRL structure [Network Drivers Starting with Windows Vista], _WWAN_UMTS_MRL, netvista.wwan_umts_mrl, wwan/PWWAN_UMTS_MRL, wwan/WWAN_UMTS_MRL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_UMTS_MRL
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_UMTS_MRL, WWAN_UMTS_MRL"
+req.typenames: WWAN_UMTS_MRL, *PWWAN_UMTS_MRL
 req.product: Windows 10 or later.
 ---
 
@@ -88,19 +88,19 @@ The array of MRL records, each specified as a <a href="..\wwan\ns-wwan-_wwan_umt
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_umts_serving_cell_info.md">WWAN_UMTS_SERVING_CELL_INFO</a>
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_umts_serving_cell_info.md">WWAN_UMTS_SERVING_CELL_INFO</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_umts_mrl_info.md">WWAN_UMTS_MRL_INFO</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_umts_serving_cell_info.md">WWAN_UMTS_SERVING_CELL_INFO</a>
 
 
 

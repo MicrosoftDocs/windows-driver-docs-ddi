@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7b5a7e9e-b10b-4c94-80b1-172cd9f0c9ca
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NET_DMA_PROVIDER_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], NET_DMA_PROVIDER_ATTRIBUTES, *PNET_DMA_PROVIDER_ATTRIBUTES, netdma_ref_a00d6e7c-6712-49c9-9c64-d200e96074c5.xml, PNET_DMA_PROVIDER_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.net_dma_provider_attributes, PNET_DMA_PROVIDER_ATTRIBUTES, _NET_DMA_PROVIDER_ATTRIBUTES, netdma/NET_DMA_PROVIDER_ATTRIBUTES, netdma/PNET_DMA_PROVIDER_ATTRIBUTES
+ms.keywords: "*PNET_DMA_PROVIDER_ATTRIBUTES, NET_DMA_PROVIDER_ATTRIBUTES, NET_DMA_PROVIDER_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNET_DMA_PROVIDER_ATTRIBUTES, PNET_DMA_PROVIDER_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_PROVIDER_ATTRIBUTES, netdma/NET_DMA_PROVIDER_ATTRIBUTES, netdma/PNET_DMA_PROVIDER_ATTRIBUTES, netdma_ref_a00d6e7c-6712-49c9-9c64-d200e96074c5.xml, netvista.net_dma_provider_attributes"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -146,16 +146,16 @@ A DMA provider driver initializes a DMA engine and starts a DMA provider while h
 
 
 
+<a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
+   NET_DMA_PROVIDER_CHARACTERISTICS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
 
 
 <a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
-
-
-
-<a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
-   NET_DMA_PROVIDER_CHARACTERISTICS</a>
 
 
 

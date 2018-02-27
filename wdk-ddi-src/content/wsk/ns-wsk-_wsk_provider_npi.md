@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 471689f4-d1f6-4785-82df-313fe2ca627a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wskref_cbed200a-9ed1-4cd6-b6be-220799cbae1c.xml, PWSK_PROVIDER_NPI structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_NPI, WSK_PROVIDER_NPI structure [Network Drivers Starting with Windows Vista], wsk/PWSK_PROVIDER_NPI, *PWSK_PROVIDER_NPI, wsk/WSK_PROVIDER_NPI, PWSK_PROVIDER_NPI, netvista.wsk_provider_npi, _WSK_PROVIDER_NPI
+ms.keywords: "*PWSK_PROVIDER_NPI, PWSK_PROVIDER_NPI, PWSK_PROVIDER_NPI structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_NPI, WSK_PROVIDER_NPI structure [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_NPI, netvista.wsk_provider_npi, wsk/PWSK_PROVIDER_NPI, wsk/WSK_PROVIDER_NPI, wskref_cbed200a-9ed1-4cd6-b6be-220799cbae1c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,7 +94,7 @@ A pointer to a constant
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
 
 
 

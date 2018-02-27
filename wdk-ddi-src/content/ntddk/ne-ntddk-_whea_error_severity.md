@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 3b056910-dc33-4608-bb7d-a3f13bc546ca
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WHEA_ERROR_SEVERITY, WheaErrSevCorrected, whearef_e9b0fee6-a6cf-4f61-a3b6-ef53553aa3ff.xml, ntddk/WheaErrSevFatal, PWHEA_ERROR_SEVERITY, WHEA_ERROR_SEVERITY enumeration [WHEA Drivers and Applications], PWHEA_ERROR_SEVERITY enumeration pointer [WHEA Drivers and Applications], WheaErrSevRecoverable, _WHEA_ERROR_SEVERITY, *PWHEA_ERROR_SEVERITY, ntddk/PWHEA_ERROR_SEVERITY, whea.whea_error_severity, ntddk/WheaErrSevCorrected, ntddk/WheaErrSevRecoverable, ntddk/WHEA_ERROR_SEVERITY, WheaErrSevFatal, ntddk/WheaErrSevInformational, WheaErrSevInformational
+ms.keywords: "*PWHEA_ERROR_SEVERITY, PWHEA_ERROR_SEVERITY, PWHEA_ERROR_SEVERITY enumeration pointer [WHEA Drivers and Applications], WHEA_ERROR_SEVERITY, WHEA_ERROR_SEVERITY enumeration [WHEA Drivers and Applications], WheaErrSevCorrected, WheaErrSevFatal, WheaErrSevInformational, WheaErrSevRecoverable, _WHEA_ERROR_SEVERITY, ntddk/PWHEA_ERROR_SEVERITY, ntddk/WHEA_ERROR_SEVERITY, ntddk/WheaErrSevCorrected, ntddk/WheaErrSevFatal, ntddk/WheaErrSevInformational, ntddk/WheaErrSevRecoverable, whea.whea_error_severity, whearef_e9b0fee6-a6cf-4f61-a3b6-ef53553aa3ff.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -111,11 +111,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 
 

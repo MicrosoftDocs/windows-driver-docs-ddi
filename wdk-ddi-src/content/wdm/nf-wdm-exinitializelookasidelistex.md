@@ -7,8 +7,8 @@ old-location: kernel\exinitializelookasidelistex.htm
 old-project: kernel
 ms.assetid: 2f6072d2-808b-452f-a789-0c6f63195440
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.exinitializelookasidelistex, k102_1ceb4bd5-41cb-4f77-b435-a8bf922afbc2.xml, ExInitializeLookasideListEx routine [Kernel-Mode Driver Architecture], ExInitializeLookasideListEx, wdm/ExInitializeLookasideListEx
+ms.date: 2/24/2018
+ms.keywords: ExInitializeLookasideListEx, ExInitializeLookasideListEx routine [Kernel-Mode Driver Architecture], k102_1ceb4bd5-41cb-4f77-b435-a8bf922afbc2.xml, kernel.exinitializelookasidelistex, wdm/ExInitializeLookasideListEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -200,7 +200,7 @@ After <b>ExInitializeLookasideListEx</b> returns, the lookaside list is initiali
 
 If the driver does not supply <i>LookasideListAllocateEx</i> and <i>LookasideListFreeEx</i> routines, the <b>ExAllocateFromLookasideListEx</b> and <b>ExFreeToLookasideListEx</b> routines use default allocation and deallocation routines instead.
 
-There is no benefit to providing <i>LookasideListAllocateEx</i> and <i>LookasideListFreeEx</i> routines that do nothing but call <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> and <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>. The same effect can be achieved with better performance by simply setting the <i>Allocate</i> and <i>Free</i> parameters to <b>NULL</b>.
+There is no benefit to providing <i>LookasideListAllocateEx</i> and <i>LookasideListFreeEx</i> routines that do nothing but call <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> and <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. The same effect can be achieved with better performance by simply setting the <i>Allocate</i> and <i>Free</i> parameters to <b>NULL</b>.
 
 Before a driver unloads, it must explicitly free any lookaside lists it created. Failure to do so is a serious programming error. Call the <a href="..\wdm\nf-wdm-exdeletelookasidelistex.md">ExDeleteLookasideListEx</a> routine to free a lookaside list. This routine frees the storage for any remaining entries in the specified lookaside list and then removes the list from the system-wide set of active lookaside lists.
 
@@ -306,7 +306,7 @@ After the <code>MyLookasideListAllocateEx</code> routine in this example returns
 
 <b>ExAllocateFromLookasideListEx</b> and <b>ExFreeFromLookasideListEx</b> do not synchronize their calls to driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554324">LookasideListFreeEx</a> routines. Thus, if the <code>MyLookasideListAllocateEx</code> and <code>MyLookasideListFreeEx</code> routines in the preceding code examples must be thread-safe, the driver must provide the necessary synchronization.
 
-The example routine, <code>MyLookasideListAllocateEx</code>, synchronizes its access of the <code>MyContext-&gt;NumberOfAllocations</code> variable with other threads that might increment and decrement this variable. To provide this synchronization, <code>MyLookasideListAllocateEx</code> calls the <a href="..\miniport\nf-miniport-interlockedincrement.md">InterlockedIncrement</a> routine to atomically increment this variable. Similarly, the <code>MyLookasideListFreeEx</code> routine (not shown) can call the <a href="..\miniport\nf-miniport-interlockeddecrement.md">InterlockedDecrement</a> routine to atomically decrement this variable.
+The example routine, <code>MyLookasideListAllocateEx</code>, synchronizes its access of the <code>MyContext-&gt;NumberOfAllocations</code> variable with other threads that might increment and decrement this variable. To provide this synchronization, <code>MyLookasideListAllocateEx</code> calls the <a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a> routine to atomically increment this variable. Similarly, the <code>MyLookasideListFreeEx</code> routine (not shown) can call the <a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a> routine to atomically decrement this variable.
 
 However, if the sole purpose of the <code>MyContext-&gt;NumberOfAllocations</code> variable in the preceding code example is simply to gather statistics on lookaside list allocations, atomic increments and decrements are hardly necessary. In this case, the remote possibility of a missed increment or decrement should not be a concern.
 
@@ -318,19 +318,19 @@ For more information about thread safety for lookaside lists, see <a href="https
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exdeletelookasidelistex.md">ExDeleteLookasideListEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
-
-
-
 <a href="..\wdm\nf-wdm-exallocatefromlookasidelistex.md">ExAllocateFromLookasideListEx</a>
 
 
 
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a>
+
+
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554324">LookasideListFreeEx</a>
 
 
 
@@ -338,11 +338,11 @@ For more information about thread safety for lookaside lists, see <a href="https
 
 
 
-<a href="..\miniport\nf-miniport-interlockedincrement.md">InterlockedIncrement</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
 
 
 
@@ -354,19 +354,7 @@ For more information about thread safety for lookaside lists, see <a href="https
 
 
 
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554324">LookasideListFreeEx</a>
-
-
-
-<a href="..\miniport\nf-miniport-interlockeddecrement.md">InterlockedDecrement</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 
@@ -374,9 +362,21 @@ For more information about thread safety for lookaside lists, see <a href="https
 
 
 
- 
+<a href="..\wdm\nf-wdm-exdeletelookasidelistex.md">ExDeleteLookasideListEx</a>
+
+
+
+<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExInitializeLookasideListEx routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExInitializeLookasideListEx routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

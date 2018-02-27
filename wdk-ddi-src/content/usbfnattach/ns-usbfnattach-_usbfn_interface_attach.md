@@ -4,11 +4,11 @@ title: "_USBFN_INTERFACE_ATTACH"
 author: windows-driver-content
 description: Stores pointers to driver-implemented callback functions for handling attach and detach operations.
 old-location: buses\usbfn_interface_attach.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: C7D7935C-0536-43E6-8924-1DC13B258007
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: usbfnattach/USBFN_INTERFACE_ATTACH, _USBFN_INTERFACE_ATTACH, buses.usbfn_interface_attach, PUSBFN_INTERFACE_ATTACH, PUSBFN_INTERFACE_ATTACH structure pointer [Buses], usbfnattach/PUSBFN_INTERFACE_ATTACH, *PUSBFN_INTERFACE_ATTACH, USBFN_INTERFACE_ATTACH structure [Buses], USBFN_INTERFACE_ATTACH
+ms.date: 2/24/2018
+ms.keywords: "*PUSBFN_INTERFACE_ATTACH, PUSBFN_INTERFACE_ATTACH, PUSBFN_INTERFACE_ATTACH structure pointer [Buses], USBFN_INTERFACE_ATTACH, USBFN_INTERFACE_ATTACH structure [Buses], _USBFN_INTERFACE_ATTACH, buses.usbfn_interface_attach, usbfnattach/PUSBFN_INTERFACE_ATTACH, usbfnattach/USBFN_INTERFACE_ATTACH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,5 +101,5 @@ A pointer to the driver's implementation of the <a href="..\usbfnattach\nc-usbfn
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USBFN_INTERFACE_ATTACH structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBFN_INTERFACE_ATTACH structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

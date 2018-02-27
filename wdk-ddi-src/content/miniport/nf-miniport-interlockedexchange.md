@@ -7,8 +7,8 @@ old-location: kernel\interlockedexchange.htm
 old-project: kernel
 ms.assetid: c9bee5b0-eeaf-4c82-9f02-d00cf9202f78
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: k102_ae8d85b7-040e-4c44-9476-68d6919a50e4.xml, InterlockedExchange routine [Kernel-Mode Driver Architecture], InterlockedExchange, wdm/InterlockedExchange, kernel.interlockedexchange
+ms.date: 2/24/2018
+ms.keywords: InterlockedExchange, InterlockedExchange routine [Kernel-Mode Driver Architecture], k102_ae8d85b7-040e-4c44-9476-68d6919a50e4.xml, kernel.interlockedexchange, wdm/InterlockedExchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,6 +109,14 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
+
+
+
 <a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
 
 
@@ -117,17 +125,9 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 
-<a href="..\miniport\nf-miniport-interlockeddecrement.md">InterlockedDecrement</a>
-
-
-
-<a href="..\miniport\nf-miniport-interlockedincrement.md">InterlockedIncrement</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20InterlockedExchange routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20InterlockedExchange routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\d3dkmt_outputduplpresent.htm
 old-project: display
 ms.assetid: 1820e11c-0888-4d6d-aa75-b895c863eb43
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3dkmthk/D3DKMT_OUTPUTDUPLPRESENT, display.d3dkmt_outputduplpresent, _D3DKMT_OUTPUTDUPLPRESENT, D3DKMT_OUTPUTDUPLPRESENT, D3DKMT_OUTPUTDUPLPRESENT structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_OUTPUTDUPLPRESENT, D3DKMT_OUTPUTDUPLPRESENT structure [Display Devices], _D3DKMT_OUTPUTDUPLPRESENT, d3dkmthk/D3DKMT_OUTPUTDUPLPRESENT, display.d3dkmt_outputduplpresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,17 +117,17 @@ The zero-based identification number of a video present source in a path of a vi
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_rgns.md">D3DKMT_PRESENT_RGNS</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_outputduplpresentflags.md">D3DKMT_OUTPUTDUPLPRESENTFLAGS</a>
 
 
 
- 
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_rgns.md">D3DKMT_PRESENT_RGNS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_OUTPUTDUPLPRESENT structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_OUTPUTDUPLPRESENT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

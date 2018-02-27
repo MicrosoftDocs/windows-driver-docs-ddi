@@ -7,8 +7,8 @@ old-location: storage\hba_registerforlinkevents.htm
 old-project: storage
 ms.assetid: f0e6834c-b827-4342-83f1-5980f8edce24
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: fibreHBA_rtns_7fd8f7c4-faaf-4190-99c8-560615e14365.xml, HBA_RegisterForLinkEvents, hbaapi/HBA_RegisterForLinkEvents, storage.hba_registerforlinkevents, HBA_RegisterForLinkEvents routine [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: HBA_RegisterForLinkEvents, HBA_RegisterForLinkEvents routine [Storage Devices], fibreHBA_rtns_7fd8f7c4-faaf-4190-99c8-560615e14365.xml, hbaapi/HBA_RegisterForLinkEvents, storage.hba_registerforlinkevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -183,17 +183,17 @@ Only RLIR events are reported. To stop event delivery, call <a href="..\hbaapi\n
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 
- 
+<a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_RegisterForLinkEvents routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_RegisterForLinkEvents routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: hid\internal_i8042_hook_mouse.htm
 old-project: hid
 ms.assetid: 7ac9fc14-9e94-412b-811a-6013d46020a0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PINTERNAL_I8042_HOOK_MOUSE, PINTERNAL_I8042_HOOK_MOUSE, ntdd8042/PINTERNAL_I8042_HOOK_MOUSE, PINTERNAL_I8042_HOOK_MOUSE structure pointer [Human Input Devices], ntdd8042/INTERNAL_I8042_HOOK_MOUSE, i8042ref_23133caf-3bd0-4160-8213-899e37b7703e.xml, INTERNAL_I8042_HOOK_MOUSE, hid.internal_i8042_hook_mouse, INTERNAL_I8042_HOOK_MOUSE structure [Human Input Devices], _INTERNAL_I8042_HOOK_MOUSE"
+ms.date: 2/24/2018
+ms.keywords: "*PINTERNAL_I8042_HOOK_MOUSE, INTERNAL_I8042_HOOK_MOUSE, INTERNAL_I8042_HOOK_MOUSE structure [Human Input Devices], PINTERNAL_I8042_HOOK_MOUSE, PINTERNAL_I8042_HOOK_MOUSE structure pointer [Human Input Devices], _INTERNAL_I8042_HOOK_MOUSE, hid.internal_i8042_hook_mouse, i8042ref_23133caf-3bd0-4160-8213-899e37b7703e.xml, ntdd8042/INTERNAL_I8042_HOOK_MOUSE, ntdd8042/PINTERNAL_I8042_HOOK_MOUSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	INTERNAL_I8042_HOOK_MOUSE
 product: Windows
 targetos: Windows
-req.typenames: "*PINTERNAL_I8042_HOOK_MOUSE, INTERNAL_I8042_HOOK_MOUSE"
+req.typenames: INTERNAL_I8042_HOOK_MOUSE, *PINTERNAL_I8042_HOOK_MOUSE
 ---
 
 # _INTERNAL_I8042_HOOK_MOUSE structure
@@ -111,11 +111,7 @@ This structure is only used with an <a href="..\ntdd8042\ni-ntdd8042-ioctl_inter
 
 ## -see-also
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_isr_write_port.md">PI8042_ISR_WRITE_PORT</a>
-
-
-
-<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_mouse.md">IOCTL_INTERNAL_I8042_HOOK_MOUSE</a>
+<a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a>
 
 
 
@@ -127,6 +123,10 @@ This structure is only used with an <a href="..\ntdd8042\ni-ntdd8042-ioctl_inter
 
 
 
+<a href="..\ntdd8042\nc-ntdd8042-pi8042_isr_write_port.md">PI8042_ISR_WRITE_PORT</a>
+
+
+
 <a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_mouse.md">IOCTL_INTERNAL_I8042_HOOK_MOUSE</a>
 
 
@@ -135,5 +135,5 @@ This structure is only used with an <a href="..\ntdd8042\ni-ntdd8042-ioctl_inter
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20INTERNAL_I8042_HOOK_MOUSE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20INTERNAL_I8042_HOOK_MOUSE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: bca4bfc6-d44f-4b10-a30a-ba2acefad7a9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bthddi/ScoDisconnectRequest, _SCO_DISCONNECT_REASON, PSCO_DISCONNECT_REASON enumeration pointer [Bluetooth Devices], bltooth.sco_disconnect_reason, bthddi/PSCO_DISCONNECT_REASON, bthddi/ScoHciDisconnect, *PSCO_DISCONNECT_REASON, ScoRadioPoweredDown, ScoDisconnectRequest, bthddi/ScoRadioPoweredDown, bth_enums_ea951efc-1250-4414-9592-2bffe239dc95.xml, PSCO_DISCONNECT_REASON, SCO_DISCONNECT_REASON enumeration [Bluetooth Devices], ScoHardwareRemoval, SCO_DISCONNECT_REASON, bthddi/ScoHardwareRemoval, ScoHciDisconnect, bthddi/SCO_DISCONNECT_REASON
+ms.keywords: "*PSCO_DISCONNECT_REASON, PSCO_DISCONNECT_REASON, PSCO_DISCONNECT_REASON enumeration pointer [Bluetooth Devices], SCO_DISCONNECT_REASON, SCO_DISCONNECT_REASON enumeration [Bluetooth Devices], ScoDisconnectRequest, ScoHardwareRemoval, ScoHciDisconnect, ScoRadioPoweredDown, _SCO_DISCONNECT_REASON, bltooth.sco_disconnect_reason, bth_enums_ea951efc-1250-4414-9592-2bffe239dc95.xml, bthddi/PSCO_DISCONNECT_REASON, bthddi/SCO_DISCONNECT_REASON, bthddi/ScoDisconnectRequest, bthddi/ScoHardwareRemoval, bthddi/ScoHciDisconnect, bthddi/ScoRadioPoweredDown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	SCO_DISCONNECT_REASON
 product: Windows
 targetos: Windows
-req.typenames: "*PSCO_DISCONNECT_REASON, SCO_DISCONNECT_REASON"
+req.typenames: SCO_DISCONNECT_REASON, *PSCO_DISCONNECT_REASON
 ---
 
 # _SCO_DISCONNECT_REASON enumeration
@@ -116,11 +116,11 @@ Currently,
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
-
-
-
 <a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">SCO_INDICATION_PARAMETERS</a>
+
+
+
+<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
 
 
 

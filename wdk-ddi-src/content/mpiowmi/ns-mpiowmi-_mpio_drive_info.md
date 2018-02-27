@@ -7,8 +7,8 @@ old-location: storage\mpio_drive_info.htm
 old-project: storage
 ms.assetid: 38d79fae-9701-4e92-bf73-4732e02c17ab
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: MPIO_DRIVE_INFO, structs-scsibus_307e7c06-15cc-4d25-9cd6-115370e20036.xml, *PMPIO_DRIVE_INFO, MPIO_DRIVE_INFO structure [Storage Devices], storage.mpio_drive_info, mpiowmi/PMPIO_DRIVE_INFO, _MPIO_DRIVE_INFO, mpiowmi/MPIO_DRIVE_INFO, PMPIO_DRIVE_INFO structure pointer [Storage Devices], PMPIO_DRIVE_INFO
+ms.date: 2/24/2018
+ms.keywords: "*PMPIO_DRIVE_INFO, MPIO_DRIVE_INFO, MPIO_DRIVE_INFO structure [Storage Devices], PMPIO_DRIVE_INFO, PMPIO_DRIVE_INFO structure pointer [Storage Devices], _MPIO_DRIVE_INFO, mpiowmi/MPIO_DRIVE_INFO, mpiowmi/PMPIO_DRIVE_INFO, storage.mpio_drive_info, structs-scsibus_307e7c06-15cc-4d25-9cd6-115370e20036.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

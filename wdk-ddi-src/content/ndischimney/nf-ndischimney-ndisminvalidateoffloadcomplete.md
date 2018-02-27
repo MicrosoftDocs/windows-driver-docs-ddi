@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fd14e983-ea4b-41f2-973d-88b114306e75
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: tcp_chim_ndis_func_14e16158-2af9-4901-a986-0bfa329d9ac5.xml, netvista.ndisminvalidateoffloadcomplete, ndischimney/NdisMInvalidateOffloadComplete, NdisMInvalidateOffloadComplete, NdisMInvalidateOffloadComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisMInvalidateOffloadComplete, NdisMInvalidateOffloadComplete function [Network Drivers Starting with Windows Vista], ndischimney/NdisMInvalidateOffloadComplete, netvista.ndisminvalidateoffloadcomplete, tcp_chim_ndis_func_14e16158-2af9-4901-a986-0bfa329d9ac5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,7 +131,7 @@ The invalidate operation did not succeed. In this case, the offload target has s
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="..\ndischimney\nc-ndischimney-w_invalidate_offload_handler.md">MiniportInvalidateOffload</a>
 
 
 

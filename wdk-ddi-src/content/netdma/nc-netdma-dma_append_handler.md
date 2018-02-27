@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 51de8ddf-cbfc-4e49-b44a-207307a937e7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.providerappenddma, ProviderAppendDma callback function [Network Drivers Starting with Windows Vista], ProviderAppendDma, DMA_APPEND_HANDLER, DMA_APPEND_HANDLER, netdma/ProviderAppendDma, netdma_ref_ce5895a2-ac0c-4b98-98be-9f95edf091d3.xml
+ms.keywords: DMA_APPEND_HANDLER, ProviderAppendDma, ProviderAppendDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAppendDma, netdma_ref_ce5895a2-ac0c-4b98-98be-9f95edf091d3.xml, netvista.providerappenddma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -195,15 +195,15 @@ NetDMA calls
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
-
-
-
-<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
-
-
-
 <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
+
+
+<a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
 
 
 

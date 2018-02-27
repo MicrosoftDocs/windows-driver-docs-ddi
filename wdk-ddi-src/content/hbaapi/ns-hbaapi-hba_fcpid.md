@@ -7,8 +7,8 @@ old-location: storage\hba_fcpid.htm
 old-project: storage
 ms.assetid: fed2c733-5011-4dba-a8ec-3a0742574949
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: HBA_FCPID, *PHBA_FCPID, HBA_FcpId, storage.hba_fcpid, hbaapi/HBA_FcpId, structs-Fibre_55770ec7-2c28-4db3-b2bb-20f50e232ba4.xml, HBA_FcpId structure [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PHBA_FCPID, HBA_FCPID, HBA_FcpId, HBA_FcpId structure [Storage Devices], hbaapi/HBA_FcpId, storage.hba_fcpid, structs-Fibre_55770ec7-2c28-4db3-b2bb-20f50e232ba4.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBA_FcpId
 product: Windows
 targetos: Windows
-req.typenames: "*PHBA_FCPID, HBA_FCPID"
+req.typenames: HBA_FCPID, *PHBA_FCPID
 ---
 
 # HBA_FcpId structure

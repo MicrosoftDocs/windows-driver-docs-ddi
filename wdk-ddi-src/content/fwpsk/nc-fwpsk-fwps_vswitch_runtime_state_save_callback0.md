@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2CDD666F-3D88-4078-9A4C-D7A107806EA7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.fwps_vswitch_runtime_state_save_callback0, vSwitchRuntimeStateSaveNotifyFn callback function [Network Drivers Starting with Windows Vista], vSwitchRuntimeStateSaveNotifyFn, FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0, FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0, fwpsk/vSwitchRuntimeStateSaveNotifyFn
+ms.keywords: FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0, fwpsk/vSwitchRuntimeStateSaveNotifyFn, netvista.fwps_vswitch_runtime_state_save_callback0, vSwitchRuntimeStateSaveNotifyFn, vSwitchRuntimeStateSaveNotifyFn callback function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -202,6 +202,14 @@ See the <i>vSwitchRuntimeStateRestoreNotifyFn</i> (<a href="..\fwpsk\nc-fwpsk-fw
 
 ## -see-also
 
+<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_runtime_state_restore_callback0.md">FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598268">OID_SWITCH_NIC_SAVE</a>
 
 
@@ -214,19 +222,11 @@ See the <i>vSwitchRuntimeStateRestoreNotifyFn</i> (<a href="..\fwpsk\nc-fwpsk-fw
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsvswitchnotifycomplete0.md">FwpsvSwitchNotifyComplete0</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_save_state.md">NDIS_SWITCH_NIC_SAVE_STATE</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_runtime_state_restore_callback0.md">FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsvswitchnotifycomplete0.md">FwpsvSwitchNotifyComplete0</a>
 
 
 

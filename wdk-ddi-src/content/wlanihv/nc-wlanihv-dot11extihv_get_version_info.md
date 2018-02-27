@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: af75e59d-c4af-43ca-a160-ddc8a7a4a88e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvgetversioninfo, Dot11ExtIhvGetVersionInfo callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvGetVersionInfo, DOT11EXTIHV_GET_VERSION_INFO, DOT11EXTIHV_GET_VERSION_INFO, wlanihv/Dot11ExtIhvGetVersionInfo, Native_802.11_IHV_Ext_1b6acc66-1f69-45c3-8596-3f0c96e21a91.xml
+ms.keywords: DOT11EXTIHV_GET_VERSION_INFO, Dot11ExtIhvGetVersionInfo, Dot11ExtIhvGetVersionInfo callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_1b6acc66-1f69-45c3-8596-3f0c96e21a91.xml, netvista.dot11extihvgetversioninfo, wlanihv/Dot11ExtIhvGetVersionInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvGetVersionInfo
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -131,11 +131,11 @@ For more information about
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a>
-
-
-
 <a href="..\wlanihv\ns-wlanihv-_dot11_ihv_version_info.md">DOT11_IHV_VERSION_INFO</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a>
 
 
 

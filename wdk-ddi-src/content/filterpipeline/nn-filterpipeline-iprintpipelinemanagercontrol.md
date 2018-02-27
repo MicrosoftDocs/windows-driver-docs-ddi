@@ -7,8 +7,8 @@ old-location: print\iprintpipelinemanagercontrol.htm
 old-project: print
 ms.assetid: 82efbe8d-0928-4550-9de1-a806a00791eb
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.iprintpipelinemanagercontrol, IPrintPipelineManagerControl interface [Print Devices], IPrintPipelineManagerControl interface [Print Devices], described, IPrintPipelineManagerControl, filterpipeline/IPrintPipelineManagerControl, filterpipeline_5b9732d1-6a75-4059-84fa-1bbbdeb70eb3.xml
+ms.date: 2/23/2018
+ms.keywords: IPrintPipelineManagerControl, IPrintPipelineManagerControl interface [Print Devices], IPrintPipelineManagerControl interface [Print Devices], described, filterpipeline/IPrintPipelineManagerControl, filterpipeline_5b9732d1-6a75-4059-84fa-1bbbdeb70eb3.xml, print.iprintpipelinemanagercontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -61,6 +61,13 @@ Report when the filters are finished processing.
 </li>
 </ul>
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintPipelineManagerControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintPipelineManagerControl</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IPrintPipelineManagerControl</b> interface has these methods.
@@ -87,9 +94,5 @@ The <code>RequestShutdown</code> method requests that a pipeline be shut down.
 
 </td>
 </tr>
-</table>The <code>FilterFinished</code> method reports that a filter is finished processing.
-
-The <code>RequestShutdown</code> method requests that a pipeline be shut down.
-
- 
+</table> 
 

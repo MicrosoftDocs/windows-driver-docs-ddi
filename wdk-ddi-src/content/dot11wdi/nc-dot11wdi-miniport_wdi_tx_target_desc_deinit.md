@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C7C6C175-5E9D-4C6B-8A6B-F903DDE4DC78
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwditxtargetdescdeinit, MiniportWdiTxTargetDescDeInit callback function [Network Drivers Starting with Windows Vista], MiniportWdiTxTargetDescDeInit, MINIPORT_WDI_TX_TARGET_DESC_DEINIT, MINIPORT_WDI_TX_TARGET_DESC_DEINIT, dot11wdi/MiniportWdiTxTargetDescDeInit
+ms.keywords: MINIPORT_WDI_TX_TARGET_DESC_DEINIT, MiniportWdiTxTargetDescDeInit, MiniportWdiTxTargetDescDeInit callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTargetDescDeInit, netvista.miniportwditxtargetdescdeinit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	MiniportWdiTxTargetDescDeInit
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_TX_TARGET_DESC_DEINIT callback
@@ -149,11 +149,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/8DF3E82E-761E-4A90-A789-1CB8EE8F0377">WDI TX path</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
 
 
 

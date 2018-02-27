@@ -7,8 +7,8 @@ old-location: stream\ksdataformat.htm
 old-project: stream
 ms.assetid: e39a59f4-6ec2-402d-8f8e-12324d6cbfa8
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KSDATAFORMAT, *PKSDATAFORMAT, KSDATARANGE, PKSDATARANGE, ks/KSDATARANGE, stream.ksdataformat, PKSDATARANGE structure pointer [Streaming Media Devices], KSDATARANGE structure [Streaming Media Devices], ks-struct_787a73ee-98dd-4e97-b7ea-2ed38ff564c7.xml, PKSDATAFORMAT, ks/KSDATAFORMAT, ks/PKSDATARANGE, PKSDATAFORMAT structure pointer [Streaming Media Devices], ks/PKSDATAFORMAT, KSDATAFORMAT structure [Streaming Media Devices], *PKSDATARANGE
+ms.date: 2/23/2018
+ms.keywords: "*PKSDATAFORMAT, *PKSDATARANGE, KSDATAFORMAT, KSDATAFORMAT structure [Streaming Media Devices], KSDATARANGE, KSDATARANGE structure [Streaming Media Devices], PKSDATAFORMAT, PKSDATAFORMAT structure pointer [Streaming Media Devices], PKSDATARANGE, PKSDATARANGE structure pointer [Streaming Media Devices], ks-struct_787a73ee-98dd-4e97-b7ea-2ed38ff564c7.xml, ks/KSDATAFORMAT, ks/KSDATARANGE, ks/PKSDATAFORMAT, ks/PKSDATARANGE, stream.ksdataformat"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSDATAFORMAT
 product: Windows
 targetos: Windows
-req.typenames: "*PKSDATAFORMAT, KSDATAFORMAT, KSDATARANGE, *PKSDATARANGE"
+req.typenames: KSDATAFORMAT, *PKSDATAFORMAT, KSDATARANGE, *PKSDATARANGE
 ---
 
 # KSDATAFORMAT structure
@@ -152,5 +152,5 @@ For a list of <b>MajorFormat</b>, <b>SubFormat</b>, and <b>Specifier</b> combina
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSDATAFORMAT structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSDATAFORMAT structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

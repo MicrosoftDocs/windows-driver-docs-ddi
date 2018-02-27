@@ -7,8 +7,8 @@ old-location: hid\ioctl_hid_get_report_descriptor.htm
 old-project: hid
 ms.assetid: 7f0e6295-9c96-4167-8414-6f7b7b171f37
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: hid.ioctl_hid_get_report_descriptor, IOCTL_HID_GET_REPORT_DESCRIPTOR control code [Human Input Devices], IOCTL_HID_GET_REPORT_DESCRIPTOR, hidport/IOCTL_HID_GET_REPORT_DESCRIPTOR, hidioreq_01b638bd-f2d5-4acc-8527-9fd98bde8144.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_HID_GET_REPORT_DESCRIPTOR, IOCTL_HID_GET_REPORT_DESCRIPTOR control code [Human Input Devices], hid.ioctl_hid_get_report_descriptor, hidioreq_01b638bd-f2d5-4acc-8527-9fd98bde8144.xml, hidport/IOCTL_HID_GET_REPORT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -133,5 +133,5 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O to 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20IOCTL_HID_GET_REPORT_DESCRIPTOR control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20IOCTL_HID_GET_REPORT_DESCRIPTOR control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

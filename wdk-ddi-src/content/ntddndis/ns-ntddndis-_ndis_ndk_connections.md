@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 24149E73-6BA8-4C5E-8649-25A90A3D01AF
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_NDK_CONNECTIONS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_CONNECTIONS, ntddndis/NDIS_NDK_CONNECTIONS, ntddndis/PNDIS_NDK_CONNECTIONS, netvista.ndis_ndk_connections, NDIS_NDK_CONNECTIONS structure [Network Drivers Starting with Windows Vista], NDIS_NDK_CONNECTIONS, PNDIS_NDK_CONNECTIONS
+ms.keywords: NDIS_NDK_CONNECTIONS, NDIS_NDK_CONNECTIONS structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_CONNECTIONS, PNDIS_NDK_CONNECTIONS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_CONNECTIONS, netvista.ndis_ndk_connections, ntddndis/NDIS_NDK_CONNECTIONS, ntddndis/PNDIS_NDK_CONNECTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -134,7 +134,7 @@ If the RDMA technology for the NDK provider requires the provider to map ND conn
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451810">OID_NDK_CONNECTIONS</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_connection_entry.md">NDIS_NDK_CONNECTION_ENTRY</a>
 
 
 

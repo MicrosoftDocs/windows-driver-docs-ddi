@@ -7,8 +7,8 @@ old-location: display\d3dddiarg_texblt.htm
 old-project: display
 ms.assetid: e236ac2e-24d7-45a4-aa88-b496c8d92764
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DDDIARG_TEXBLT, _D3DDDIARG_TEXBLT, D3DDDIARG_TEXBLT structure [Display Devices], display.d3dddiarg_texblt, UMDisplayDriver_param_Structs_4a343a1e-c364-4261-9f86-e179e0fc2f7c.xml, d3dumddi/D3DDDIARG_TEXBLT
+ms.date: 2/24/2018
+ms.keywords: D3DDDIARG_TEXBLT, D3DDDIARG_TEXBLT structure [Display Devices], UMDisplayDriver_param_Structs_4a343a1e-c364-4261-9f86-e179e0fc2f7c.xml, _D3DDDIARG_TEXBLT, d3dumddi/D3DDDIARG_TEXBLT, display.d3dddiarg_texblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,6 +98,10 @@ typedef struct _D3DDDIARG_TEXBLT {
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_texblt.md">TexBlt</a>
 
 
@@ -106,13 +110,9 @@ typedef struct _D3DDDIARG_TEXBLT {
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_TEXBLT structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_TEXBLT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

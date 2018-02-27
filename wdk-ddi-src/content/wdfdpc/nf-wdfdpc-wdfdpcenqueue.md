@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 08bc78de-ba04-4845-9d22-c06cd5684f7f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFDpcObjectRef_76e257ac-ac8b-4724-8a24-6828bfe93e74.xml, WdfDpcEnqueue method, wdfdpc/WdfDpcEnqueue, kmdf.wdfdpcenqueue, WdfDpcEnqueue, wdf.wdfdpcenqueue
+ms.keywords: DFDpcObjectRef_76e257ac-ac8b-4724-8a24-6828bfe93e74.xml, WdfDpcEnqueue, WdfDpcEnqueue method, kmdf.wdfdpcenqueue, wdf.wdfdpcenqueue, wdfdpc/WdfDpcEnqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDpcEnqueue
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
+req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -119,11 +119,11 @@ The following code example schedules the execution of the callback function that
 
 ## -see-also
 
-<a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>
-
-
-
 <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
+
+
+
+<a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>
 
 
 

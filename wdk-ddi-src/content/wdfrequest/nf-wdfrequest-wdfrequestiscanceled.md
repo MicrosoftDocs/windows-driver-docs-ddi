@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 73ec4bf1-ba48-4b51-8824-61ce42f9708d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfrequestiscanceled, wdfrequest/WdfRequestIsCanceled, WdfRequestIsCanceled method, WdfRequestIsCanceled, wdf.wdfrequestiscanceled, DFRequestObjectRef_2306854d-71f7-475f-bd8c-a74e2e6630ca.xml
+ms.keywords: DFRequestObjectRef_2306854d-71f7-475f-bd8c-a74e2e6630ca.xml, WdfRequestIsCanceled, WdfRequestIsCanceled method, kmdf.wdfrequestiscanceled, wdf.wdfrequestiscanceled, wdfrequest/WdfRequestIsCanceled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -153,7 +153,7 @@ The following code example calls <a href="..\wdfrequest\nf-wdfrequest-wdfrequest
 
 
 
-<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: storage\dump_unload.htm
 old-project: storage
 ms.assetid: 51a04ca9-4ccd-409e-b47a-1105637e6f6f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.dump_unload, Dump_Unload routine [Storage Devices], Dump_Unload, PDUMP_UNLOAD, PDUMP_UNLOAD, ntdddump/Dump_Unload, filter_rtns_01414353-4ca7-409e-a360-a7ad69a57b40.xml
+ms.date: 2/24/2018
+ms.keywords: Dump_Unload, Dump_Unload routine [Storage Devices], PDUMP_UNLOAD, filter_rtns_01414353-4ca7-409e-a360-a7ad69a57b40.xml, ntdddump/Dump_Unload, storage.dump_unload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	Dump_Unload
 product: Windows
 targetos: Windows
-req.typenames: "*PVERIFY_INFORMATION, VERIFY_INFORMATION"
+req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 ---
 
 # DUMP_UNLOAD callback
@@ -94,5 +94,5 @@ If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must retur
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20Dump_Unload routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20Dump_Unload routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

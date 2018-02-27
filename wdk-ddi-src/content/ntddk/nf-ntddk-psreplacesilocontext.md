@@ -7,8 +7,8 @@ old-location: kernel\psreplacesilocontext.htm
 old-project: kernel
 ms.assetid: C2A8F7FF-7DBA-4725-A64C-7F694C8001C0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PsReplaceSiloContext routine [Kernel-Mode Driver Architecture], kernel.psreplacesilocontext, PsReplaceSiloContext, ntddk/PsReplaceSiloContext
+ms.date: 2/24/2018
+ms.keywords: PsReplaceSiloContext, PsReplaceSiloContext routine [Kernel-Mode Driver Architecture], kernel.psreplacesilocontext, ntddk/PsReplaceSiloContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsReplaceSiloContext
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsReplaceSiloContext function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c8d2ff26-d233-4683-9811-c23896203bd5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extsenduirequest, Dot11ExtSendUIRequest callback function [Network Drivers Starting with Windows Vista], Dot11ExtSendUIRequest, DOT11EXT_SEND_UI_REQUEST, DOT11EXT_SEND_UI_REQUEST, wlanihv/Dot11ExtSendUIRequest, Native_802.11_IHV_Ext_1adad832-45d5-4691-85d9-0acc0534cdc0.xml
+ms.keywords: DOT11EXT_SEND_UI_REQUEST, Dot11ExtSendUIRequest, Dot11ExtSendUIRequest callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_1adad832-45d5-4691-85d9-0acc0534cdc0.xml, netvista.dot11extsenduirequest, wlanihv/Dot11ExtSendUIRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSendUIRequest
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -138,11 +138,8 @@ The operating system can query the completion status of the request through a ca
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_is_ui_request_pending.md">
+   Dot11ExtIhvIsUIRequestPending</a>
 
 
 
@@ -151,12 +148,15 @@ The operating system can query the completion status of the request through a ca
 
 
 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_is_ui_request_pending.md">
-   Dot11ExtIhvIsUIRequestPending</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_calcprivatevideodecodersize_0032.htm
 old-project: display
 ms.assetid: 90F05A41-692B-4301-81F3-56035072C8A3
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.pfnd3d12ddi_calcprivatevideodecodersize_0032, PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032 entry point [Display Devices], PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032, d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032, PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032, display.pfnd3d12ddi_calcprivatevideodecodersize_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

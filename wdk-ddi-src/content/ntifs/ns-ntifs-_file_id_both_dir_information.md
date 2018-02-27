@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 57a66b41-f9f6-42e1-95d7-010cacd1374a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/FILE_ID_BOTH_DIR_INFORMATION, *PFILE_ID_BOTH_DIR_INFORMATION, FILE_ID_BOTH_DIR_INFORMATION, ntifs/PFILE_ID_BOTH_DIR_INFORMATION, PFILE_ID_BOTH_DIR_INFORMATION, FILE_ID_BOTH_DIR_INFORMATION structure [Installable File System Drivers], _FILE_ID_BOTH_DIR_INFORMATION, fileinformationstructures_e4d079c2-5491-4692-bdf2-a6f356bdf431.xml, PFILE_ID_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers], ifsk.file_id_both_dir_information
+ms.keywords: "*PFILE_ID_BOTH_DIR_INFORMATION, FILE_ID_BOTH_DIR_INFORMATION, FILE_ID_BOTH_DIR_INFORMATION structure [Installable File System Drivers], PFILE_ID_BOTH_DIR_INFORMATION, PFILE_ID_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_ID_BOTH_DIR_INFORMATION, fileinformationstructures_e4d079c2-5491-4692-bdf2-a6f356bdf431.xml, ifsk.file_id_both_dir_information, ntifs/FILE_ID_BOTH_DIR_INFORMATION, ntifs/PFILE_ID_BOTH_DIR_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_ID_BOTH_DIR_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_ID_BOTH_DIR_INFORMATION, FILE_ID_BOTH_DIR_INFORMATION"
+req.typenames: FILE_ID_BOTH_DIR_INFORMATION, *PFILE_ID_BOTH_DIR_INFORMATION
 ---
 
 # _FILE_ID_BOTH_DIR_INFORMATION structure
@@ -198,7 +198,7 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
 
 
 

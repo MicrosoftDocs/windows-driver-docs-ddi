@@ -4,11 +4,11 @@ title: IDebugSymbols2::GetFieldOffset method
 author: windows-driver-content
 description: The GetFieldOffset method returns the offset of a field from the base address of an instance of a type.
 old-location: debugger\getfieldoffset2.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 4081ddf9-673d-4df6-8698-726a70d32c03
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GetFieldOffset method [Windows Debugging], IDebugSymbols::GetFieldOffset, IDebugSymbols interface [Windows Debugging], GetFieldOffset method, IDebugSymbols2::GetFieldOffset, dbgeng/IDebugSymbols::GetFieldOffset, IDebugSymbols2 interface [Windows Debugging], GetFieldOffset method, dbgeng/IDebugSymbols3::GetFieldOffset, GetFieldOffset method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3::GetFieldOffset, IDebugSymbols2, GetFieldOffset method [Windows Debugging], IDebugSymbols2 interface, GetFieldOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetFieldOffset method, IDebugSymbols_3e5be57a-3af9-4fe3-a7cc-4f31fb9b54f0.xml, IDebugSymbols, dbgeng/IDebugSymbols2::GetFieldOffset, GetFieldOffset, debugger.getfieldoffset2
+ms.date: 2/23/2018
+ms.keywords: GetFieldOffset method [Windows Debugging], GetFieldOffset method [Windows Debugging], IDebugSymbols interface, GetFieldOffset method [Windows Debugging], IDebugSymbols2 interface, GetFieldOffset method [Windows Debugging], IDebugSymbols3 interface, GetFieldOffset,IDebugSymbols2.GetFieldOffset, IDebugSymbols interface [Windows Debugging], GetFieldOffset method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetFieldOffset method, IDebugSymbols2::GetFieldOffset, IDebugSymbols3 interface [Windows Debugging], GetFieldOffset method, IDebugSymbols3::GetFieldOffset, IDebugSymbols::GetFieldOffset, IDebugSymbols_3e5be57a-3af9-4fe3-a7cc-4f31fb9b54f0.xml, dbgeng/IDebugSymbols2::GetFieldOffset, dbgeng/IDebugSymbols3::GetFieldOffset, dbgeng/IDebugSymbols::GetFieldOffset, debugger.getfieldoffset2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

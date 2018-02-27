@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3be2ef6c-391e-4d1c-a1a6-e3228f5cc67d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetType method, IWDFIoRequest::GetType, GetType, wdf.iwdfiorequest_gettype, GetType method, IWDFIoRequest interface, IWDFIoRequest interface, GetType method, wudfddi/IWDFIoRequest::GetType, IWDFIoRequest, umdf.iwdfiorequest_gettype, UMDFRequestObjectRef_8f8bc7b0-b527-4325-a2dc-a9ef5e73cc28.xml
+ms.keywords: GetType method, GetType method, IWDFIoRequest interface, GetType,IWDFIoRequest.GetType, IWDFIoRequest, IWDFIoRequest interface, GetType method, IWDFIoRequest::GetType, UMDFRequestObjectRef_8f8bc7b0-b527-4325-a2dc-a9ef5e73cc28.xml, umdf.iwdfiorequest_gettype, wdf.iwdfiorequest_gettype, wudfddi/IWDFIoRequest::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

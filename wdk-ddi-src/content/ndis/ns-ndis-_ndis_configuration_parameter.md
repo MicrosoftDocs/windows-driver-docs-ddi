@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 80250799-4263-43c0-85d5-f1c1c1fb0bae
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_configuration_ref_14664bdb-06c7-4d27-b71b-d6a69f3e3396.xml, netvista.ndis_configuration_parameter, ndis/PNDIS_CONFIGURATION_PARAMETER, PNDIS_CONFIGURATION_PARAMETER structure pointer [Network Drivers Starting with Windows Vista], PNDIS_CONFIGURATION_PARAMETER, *PNDIS_CONFIGURATION_PARAMETER, NDIS_CONFIGURATION_PARAMETER structure [Network Drivers Starting with Windows Vista], ndis/NDIS_CONFIGURATION_PARAMETER, _NDIS_CONFIGURATION_PARAMETER, NDIS_CONFIGURATION_PARAMETER
+ms.keywords: "*PNDIS_CONFIGURATION_PARAMETER, NDIS_CONFIGURATION_PARAMETER, NDIS_CONFIGURATION_PARAMETER structure [Network Drivers Starting with Windows Vista], PNDIS_CONFIGURATION_PARAMETER, PNDIS_CONFIGURATION_PARAMETER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_CONFIGURATION_PARAMETER, ndis/NDIS_CONFIGURATION_PARAMETER, ndis/PNDIS_CONFIGURATION_PARAMETER, ndis_configuration_ref_14664bdb-06c7-4d27-b71b-d6a69f3e3396.xml, netvista.ndis_configuration_parameter"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -149,15 +149,11 @@ To write parameters to the registry, an NDIS driver can call the
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\ndis\ne-ndis-_ndis_parameter_type.md">NDIS_PARAMETER_TYPE</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
+<a href="..\ndis\ns-ndis-binary_data.md">BINARY_DATA</a>
 
 
 
@@ -165,7 +161,11 @@ To write parameters to the registry, an NDIS driver can call the
 
 
 
-<a href="..\ndis\ns-ndis-binary_data.md">BINARY_DATA</a>
+<a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

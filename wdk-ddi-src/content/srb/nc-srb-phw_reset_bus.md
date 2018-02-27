@@ -7,8 +7,8 @@ old-location: storage\phw_reset_bus.htm
 old-project: storage
 ms.assetid: 8c41ca6d-4b55-4858-b8bb-d7b2e682a8f7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.phw_reset_bus, (*PHW_RESET_BUS) callback function [Storage Devices], (*PHW_RESET_BUS), srb/(*PHW_RESET_BUS), ide_minikr_6cda3e23-0fa6-48dd-a0c0-3d47287eb829.xml
+ms.date: 2/24/2018
+ms.keywords: "(*PHW_RESET_BUS), (*PHW_RESET_BUS) callback function [Storage Devices], ide_minikr_6cda3e23-0fa6-48dd-a0c0-3d47287eb829.xml, srb/(*PHW_RESET_BUS), storage.phw_reset_bus"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	(*PHW_RESET_BUS)
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -103,17 +103,17 @@ For more information about the bus reset routine that is used with the StorPort 
 
 ## -see-also
 
+<a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
+
+
+
 <a href="..\srb\nc-srb-phw_reset_bus.md">HwScsiResetBus</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557318">HwScsiResetBus</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20PHW_RESET_BUS callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20PHW_RESET_BUS callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

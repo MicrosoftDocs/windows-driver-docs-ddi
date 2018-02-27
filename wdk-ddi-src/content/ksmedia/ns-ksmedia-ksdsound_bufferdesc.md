@@ -7,8 +7,8 @@ old-location: audio\ksdsound_bufferdesc.htm
 old-project: audio
 ms.assetid: 95b2f2ff-b98f-4210-9a4f-898573679aa7
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: "*PKSDSOUND_BUFFERDESC, PKSDSOUND_BUFFERDESC structure pointer [Audio Devices], PKSDSOUND_BUFFERDESC, aud-prop_309ec354-b919-40c7-8751-9e0a0000f7c8.xml, ksmedia/PKSDSOUND_BUFFERDESC, audio.ksdsound_bufferdesc, KSDSOUND_BUFFERDESC structure [Audio Devices], KSDSOUND_BUFFERDESC, ksmedia/KSDSOUND_BUFFERDESC"
+ms.date: 2/22/2018
+ms.keywords: "*PKSDSOUND_BUFFERDESC, KSDSOUND_BUFFERDESC, KSDSOUND_BUFFERDESC structure [Audio Devices], PKSDSOUND_BUFFERDESC, PKSDSOUND_BUFFERDESC structure pointer [Audio Devices], aud-prop_309ec354-b919-40c7-8751-9e0a0000f7c8.xml, audio.ksdsound_bufferdesc, ksmedia/KSDSOUND_BUFFERDESC, ksmedia/PKSDSOUND_BUFFERDESC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSDSOUND_BUFFERDESC
 product: Windows
 targetos: Windows
-req.typenames: "*PKSDSOUND_BUFFERDESC, KSDSOUND_BUFFERDESC"
+req.typenames: KSDSOUND_BUFFERDESC, *PKSDSOUND_BUFFERDESC
 ---
 
 # KSDSOUND_BUFFERDESC structure
@@ -161,15 +161,23 @@ Note that the <b>WaveFormatEx</b> member of the KSDSOUND_BUFFERDESC structure ca
 
 ## -see-also
 
+<a href="..\ksmedia\ns-ksmedia-ksdataformat_dsound.md">KSDATAFORMAT_DSOUND</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-waveformatextensible.md">WAVEFORMATEXTENSIBLE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
 
 
 
@@ -185,17 +193,9 @@ Note that the <b>WaveFormatEx</b> member of the KSDSOUND_BUFFERDESC structure ca
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537190">KSNODETYPE_SRC</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-waveformatextensible.md">WAVEFORMATEXTENSIBLE</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSDSOUND_BUFFERDESC structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSDSOUND_BUFFERDESC structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

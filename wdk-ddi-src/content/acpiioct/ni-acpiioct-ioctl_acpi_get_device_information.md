@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 08C27EC1-0948-4E8F-A391-01FE2C1A34DB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: acpi.ioctl_acpi_get_device_information, IOCTL_ACPI_GET_DEVICE_INFORMATION control code [ACPI Devices], IOCTL_ACPI_GET_DEVICE_INFORMATION, acpiioct/IOCTL_ACPI_GET_DEVICE_INFORMATION
+ms.keywords: IOCTL_ACPI_GET_DEVICE_INFORMATION, IOCTL_ACPI_GET_DEVICE_INFORMATION control code [ACPI Devices], acpi.ioctl_acpi_get_device_information, acpiioct/IOCTL_ACPI_GET_DEVICE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_ACPI_GET_DEVICE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS"
+req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 ---
 
 # IOCTL_ACPI_GET_DEVICE_INFORMATION IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

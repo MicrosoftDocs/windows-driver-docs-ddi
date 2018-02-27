@@ -7,8 +7,8 @@ old-location: display\getvideodecoderprofilecount.htm
 old-project: display
 ms.assetid: ae24bc29-177e-48a1-adf9-ed8c79b7f39c
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.getvideodecoderprofilecount, pfnGetVideoDecoderProfileCount callback function [Display Devices], pfnGetVideoDecoderProfileCount, PFND3D11_1DDI_GETVIDEODECODERPROFILECOUNT, PFND3D11_1DDI_GETVIDEODECODERPROFILECOUNT, d3d10umddi/pfnGetVideoDecoderProfileCount
+ms.date: 2/24/2018
+ms.keywords: PFND3D11_1DDI_GETVIDEODECODERPROFILECOUNT, d3d10umddi/pfnGetVideoDecoderProfileCount, display.getvideodecoderprofilecount, pfnGetVideoDecoderProfileCount, pfnGetVideoDecoderProfileCount callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	pfnGetVideoDecoderProfileCount
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_GETVIDEODECODERPROFILECOUNT callback

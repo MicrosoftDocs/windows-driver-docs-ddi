@@ -7,8 +7,8 @@ old-location: audio\ksaudio_channel_config.htm
 old-project: audio
 ms.assetid: 64e46fd5-f6bf-425d-b2a5-c938f8e565b9
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: KSAUDIO_CHANNEL_CONFIG structure [Audio Devices], KSAUDIO_CHANNEL_CONFIG, aud-prop_e81a721c-474b-4b51-8bed-df294a477050.xml, PKSAUDIO_CHANNEL_CONFIG structure pointer [Audio Devices], ksmedia/KSAUDIO_CHANNEL_CONFIG, PKSAUDIO_CHANNEL_CONFIG, *PKSAUDIO_CHANNEL_CONFIG, ksmedia/PKSAUDIO_CHANNEL_CONFIG, audio.ksaudio_channel_config
+ms.date: 2/22/2018
+ms.keywords: "*PKSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG structure [Audio Devices], PKSAUDIO_CHANNEL_CONFIG, PKSAUDIO_CHANNEL_CONFIG structure pointer [Audio Devices], aud-prop_e81a721c-474b-4b51-8bed-df294a477050.xml, audio.ksaudio_channel_config, ksmedia/KSAUDIO_CHANNEL_CONFIG, ksmedia/PKSAUDIO_CHANNEL_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSAUDIO_CHANNEL_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PKSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG"
+req.typenames: KSAUDIO_CHANNEL_CONFIG, *PKSAUDIO_CHANNEL_CONFIG
 ---
 
 # KSAUDIO_CHANNEL_CONFIG structure
@@ -644,5 +644,5 @@ Side Right (8 MSBs)
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSAUDIO_CHANNEL_CONFIG structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSAUDIO_CHANNEL_CONFIG structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS
 author: windows-driver-content
 description: Do not use.
 old-location: buses\ioctl_internal_usbfn_deactivate_usb_bus.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 73BD1E87-150F-4C91-811E-D7139E98B365
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.ioctl_internal_usbfn_deactivate_usb_bus, IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS control code [Buses], IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS, usbfnioctl/IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS
+ms.date: 2/24/2018
+ms.keywords: IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS, IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS control code [Buses], buses.ioctl_internal_usbfn_deactivate_usb_bus, usbfnioctl/IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

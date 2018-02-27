@@ -7,8 +7,8 @@ old-location: display\d3dhal_dp2bufferblt.htm
 old-project: display
 ms.assetid: 3c2cb5c2-7461-40fc-a6c7-e4a107b24f74
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3dhal/D3DHAL_DP2BUFFERBLT, _D3DHAL_DP2BUFFERBLT, d3dstrct_a8101d2a-8883-434e-8577-90e18bc3f2e0.xml, D3DHAL_DP2BUFFERBLT, LPD3DHAL_DP2BUFFERBLT structure pointer [Display Devices], D3DHAL_DP2BUFFERBLT structure [Display Devices], *LPD3DHAL_DP2BUFFERBLT, d3dhal/LPD3DHAL_DP2BUFFERBLT, display.d3dhal_dp2bufferblt, LPD3DHAL_DP2BUFFERBLT
+ms.date: 2/24/2018
+ms.keywords: "*LPD3DHAL_DP2BUFFERBLT, D3DHAL_DP2BUFFERBLT, D3DHAL_DP2BUFFERBLT structure [Display Devices], LPD3DHAL_DP2BUFFERBLT, LPD3DHAL_DP2BUFFERBLT structure pointer [Display Devices], _D3DHAL_DP2BUFFERBLT, d3dhal/D3DHAL_DP2BUFFERBLT, d3dhal/LPD3DHAL_DP2BUFFERBLT, d3dstrct_a8101d2a-8883-434e-8577-90e18bc3f2e0.xml, display.d3dhal_dp2bufferblt"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,25 +113,25 @@ See Remarks for <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2texblt.md">D3DHAL_DP2TEX
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/8b012e65-b78b-41a4-ac05-d9be015b6ed8">CreateD3DBuffer</a>
-
-
-
-D3DDP2OP_BUFFERBLT
-
-
-
-D3DDP2OP_BUFFERBLT
-
-
-
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
- 
+D3DDP2OP_BUFFERBLT
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
+
+
+<a href="https://msdn.microsoft.com/8b012e65-b78b-41a4-ac05-d9be015b6ed8">CreateD3DBuffer</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2BUFFERBLT structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2BUFFERBLT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

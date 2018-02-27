@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: CC6259B8-AF3B-4FCE-94E3-7A5CD80C64A7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_create_listener, NdkCreateListener callback function [Network Drivers Starting with Windows Vista], NdkCreateListener, NDK_FN_CREATE_LISTENER, NDK_FN_CREATE_LISTENER, ndkpi/NdkCreateListener
+ms.keywords: NDK_FN_CREATE_LISTENER, NdkCreateListener, NdkCreateListener callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateListener, netvista.ndk_fn_create_listener
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -197,7 +197,7 @@ The <i>NdkCreateListener</i> function creates an NDK listener object. If the fun
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
 
 
 
@@ -205,7 +205,7 @@ The <i>NdkCreateListener</i> function creates an NDK listener object. If the fun
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
 
 
 

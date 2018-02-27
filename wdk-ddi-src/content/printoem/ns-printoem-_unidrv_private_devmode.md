@@ -7,8 +7,8 @@ old-location: print\unidrv_private_devmode.htm
 old-project: print
 ms.assetid: 91b8ba63-5276-43f8-81a6-07afc1a77ced
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: "*PUNIDRV_PRIVATE_DEVMODE, PUNIDRV_PRIVATE_DEVMODE structure pointer [Print Devices], _UNIDRV_PRIVATE_DEVMODE, UNIDRV_PRIVATE_DEVMODE structure [Print Devices], print.unidrv_private_devmode, printoem/PUNIDRV_PRIVATE_DEVMODE, UNIDRV_PRIVATE_DEVMODE, printoem/UNIDRV_PRIVATE_DEVMODE, print_unidrv-pscript_ui_accecb33-b4e7-4e2d-a2f2-d792456eb9db.xml, PUNIDRV_PRIVATE_DEVMODE"
+ms.date: 2/23/2018
+ms.keywords: "*PUNIDRV_PRIVATE_DEVMODE, PUNIDRV_PRIVATE_DEVMODE, PUNIDRV_PRIVATE_DEVMODE structure pointer [Print Devices], UNIDRV_PRIVATE_DEVMODE, UNIDRV_PRIVATE_DEVMODE structure [Print Devices], _UNIDRV_PRIVATE_DEVMODE, print.unidrv_private_devmode, print_unidrv-pscript_ui_accecb33-b4e7-4e2d-a2f2-d792456eb9db.xml, printoem/PUNIDRV_PRIVATE_DEVMODE, printoem/UNIDRV_PRIVATE_DEVMODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -143,5 +143,5 @@ Verify that the private portion of your plug-in's DEVMODEW structure begins with
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UNIDRV_PRIVATE_DEVMODE structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UNIDRV_PRIVATE_DEVMODE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

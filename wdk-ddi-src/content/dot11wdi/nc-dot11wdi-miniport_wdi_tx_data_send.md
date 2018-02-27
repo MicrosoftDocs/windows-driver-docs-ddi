@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A9EB1E8C-BD10-450F-9F4B-CD19C8AF13EA
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwditxdatasend, MiniportWdiTxDataSend callback function [Network Drivers Starting with Windows Vista], MiniportWdiTxDataSend, MINIPORT_WDI_TX_DATA_SEND, MINIPORT_WDI_TX_DATA_SEND, dot11wdi/MiniportWdiTxDataSend
+ms.keywords: MINIPORT_WDI_TX_DATA_SEND, MiniportWdiTxDataSend, MiniportWdiTxDataSend callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxDataSend, netvista.miniportwditxdatasend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	MiniportWdiTxDataSend
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_TX_DATA_SEND callback
@@ -182,19 +182,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_pause_ind.md">NdisWdiTxSendPauseIndication</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt297640">WDI_EXTENDED_TID</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
-
-
-
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
-
-
-
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_dequeue_ind.md">NdisWdiTxDequeueIndication</a>
 
 
 
@@ -211,6 +203,14 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 <a href="https://msdn.microsoft.com/8DF3E82E-761E-4A90-A789-1CB8EE8F0377">WDI TX path</a>
+
+
+
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
+
+
+
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_dequeue_ind.md">NdisWdiTxDequeueIndication</a>
 
 
 

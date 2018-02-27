@@ -7,8 +7,8 @@ old-location: display\ioctl_video_save_hardware_state.htm
 old-project: display
 ms.assetid: 24d786df-2cdd-465c-b468-212e109d5ae1
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.ioctl_video_save_hardware_state, IOCTL_VIDEO_SAVE_HARDWARE_STATE control code [Display Devices], IOCTL_VIDEO_SAVE_HARDWARE_STATE, ntddvdeo/IOCTL_VIDEO_SAVE_HARDWARE_STATE, Video_IOCTLs_2595d8e2-5b1e-47dd-b3ba-627425f84215.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_VIDEO_SAVE_HARDWARE_STATE, IOCTL_VIDEO_SAVE_HARDWARE_STATE control code [Display Devices], Video_IOCTLs_2595d8e2-5b1e-47dd-b3ba-627425f84215.xml, display.ioctl_video_save_hardware_state, ntddvdeo/IOCTL_VIDEO_SAVE_HARDWARE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -126,5 +126,5 @@ If the miniport driver successfully saves the adapter state, it sets the <b>Info
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20IOCTL_VIDEO_SAVE_HARDWARE_STATE control code%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20IOCTL_VIDEO_SAVE_HARDWARE_STATE control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\scsi_power_request_block.htm
 old-project: storage
 ms.assetid: 04981b68-db32-461b-b24b-8b2bf2e53f78
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*PSCSI_POWER_REQUEST_BLOCK, storport/PSCSI_POWER_REQUEST_BLOCK, PSCSI_POWER_REQUEST_BLOCK structure pointer [Storage Devices], PSCSI_POWER_REQUEST_BLOCK, storage.scsi_power_request_block, SCSI_POWER_REQUEST_BLOCK structure [Storage Devices], SCSI_POWER_REQUEST_BLOCK, _SCSI_POWER_REQUEST_BLOCK, storport/SCSI_POWER_REQUEST_BLOCK, structs-storport_de071b99-aa78-4c21-845e-f47b7d0297c0.xml"
+ms.date: 2/24/2018
+ms.keywords: "*PSCSI_POWER_REQUEST_BLOCK, PSCSI_POWER_REQUEST_BLOCK, PSCSI_POWER_REQUEST_BLOCK structure pointer [Storage Devices], SCSI_POWER_REQUEST_BLOCK, SCSI_POWER_REQUEST_BLOCK structure [Storage Devices], _SCSI_POWER_REQUEST_BLOCK, storage.scsi_power_request_block, storport/PSCSI_POWER_REQUEST_BLOCK, storport/SCSI_POWER_REQUEST_BLOCK, structs-storport_de071b99-aa78-4c21-845e-f47b7d0297c0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -49,7 +49,7 @@ req.typenames: SCSI_POWER_REQUEST_BLOCK, *PSCSI_POWER_REQUEST_BLOCK
 ## -description
 
 
-The <b>SCSI_POWER_REQUEST_BLOCK</b> structure is a special version of a <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> that is used for power management requests.
+The <b>SCSI_POWER_REQUEST_BLOCK</b> structure is a special version of a <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> that is used for power management requests.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
@@ -101,7 +101,7 @@ The operation to perform. For the <b>SCSI_POWER_REQUEST_BLOCK</b> structure, thi
 
 The status of the completed request. This member should be set by the miniport driver before it notifies the Storport driver that the request has completed. A miniport driver notifies the Storport driver that the request has completed by calling the <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a> function with the <a href="https://msdn.microsoft.com/abceaf2c-3512-409c-9274-096eab810ab2">RequestComplete</a> notification type.
 
-See <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> in the WDK documentation for a list of possible values for this member.
+See <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> in the WDK documentation for a list of possible values for this member.
 
 
 ### -field SrbPowerFlags
@@ -126,7 +126,7 @@ The logical unit number (LUN) of the device.
 
 ### -field DevicePowerState
 
-An enumerator value of type <a href="..\minitape\ne-minitape-_stor_device_power_state.md">STOR_DEVICE_POWER_STATE</a> that specifies the requested power state of the device.
+An enumerator value of type <a href="..\storport\ne-storport-_stor_device_power_state.md">STOR_DEVICE_POWER_STATE</a> that specifies the requested power state of the device.
 
 
 ### -field SrbFlags
@@ -171,12 +171,12 @@ Miniport driver should ignore this member.
 
 ### -field SrbExtension
 
-A pointer to the SRB extension. A miniport driver must not use this member if it set <b>SrbExtensionSize</b> to zero in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure. The Storport driver does not initialize the memory that this member points to. The HBA can directly access the data that the miniport driver writes into the SRB extension. A miniport driver can obtain the physical address of the SRB extension by calling the <a href="..\storport\nf-storport-storportgetphysicaladdress.md">StorPortGetPhysicalAddress</a> routine. 
+A pointer to the SRB extension. A miniport driver must not use this member if it set <b>SrbExtensionSize</b> to zero in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure. The Storport driver does not initialize the memory that this member points to. The HBA can directly access the data that the miniport driver writes into the SRB extension. A miniport driver can obtain the physical address of the SRB extension by calling the <a href="..\storport\nf-storport-storportgetphysicaladdress.md">StorPortGetPhysicalAddress</a> routine. 
 
 
 ### -field PowerAction
 
-An enumerator value of type <a href="..\minitape\ne-minitape-pstor_power_action.md">STOR_POWER_ACTION</a> that specifies the type of system shutdown that is about to occur. This value is meaningful only if the device is moving into the D1, D2, or D3 power state as indicated by the <b>DevicePowerState</b> member. 
+An enumerator value of type <a href="..\storport\ne-storport-pstor_power_action.md">STOR_POWER_ACTION</a> that specifies the type of system shutdown that is about to occur. This value is meaningful only if the device is moving into the D1, D2, or D3 power state as indicated by the <b>DevicePowerState</b> member. 
 
 
 ### -field Reserved
@@ -224,11 +224,7 @@ The miniport can access the adapter's hardware resources.
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
-
-
-
-<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
@@ -236,9 +232,13 @@ The miniport can access the adapter's hardware resources.
 
 
 
- 
+<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_POWER_REQUEST_BLOCK structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_POWER_REQUEST_BLOCK structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

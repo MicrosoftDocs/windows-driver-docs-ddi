@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 893B53DA-B858-4E21-9DD9-D244702ACF46
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_get_remote_token_from_mw, NdkGetRemoteTokenFromMw callback function [Network Drivers Starting with Windows Vista], NdkGetRemoteTokenFromMw, NDK_FN_GET_REMOTE_TOKEN_FROM_MW, NDK_FN_GET_REMOTE_TOKEN_FROM_MW, ndkpi/NdkGetRemoteTokenFromMw
+ms.keywords: NDK_FN_GET_REMOTE_TOKEN_FROM_MW, NdkGetRemoteTokenFromMw, NdkGetRemoteTokenFromMw callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetRemoteTokenFromMw, netvista.ndk_fn_get_remote_token_from_mw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -96,11 +96,11 @@ The
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_bind.md">NDK_FN_BIND</a>
-
-
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_bind.md">NDK_FN_BIND</a>
 
 
 

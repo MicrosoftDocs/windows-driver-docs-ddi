@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 59EE8C41-1951-4EA7-BE49-B39C15B082E9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlEnumerateGenericTableAvl routine [Installable File System Drivers], ntddk/RtlEnumerateGenericTableAvl, RtlEnumerateGenericTableAvl, ifsk.rtlenumerategenerictableavl
+ms.keywords: RtlEnumerateGenericTableAvl, RtlEnumerateGenericTableAvl routine [Installable File System Drivers], ifsk.rtlenumerategenerictableavl, ntddk/RtlEnumerateGenericTableAvl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlEnumerateGenericTableAvl
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlEnumerateGenericTableAvl function
@@ -122,7 +122,11 @@ Callers of <b>RtlEnumerateGenericTableAvl</b> must be running at IRQL &lt; DISPA
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
+<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
 
 
@@ -135,10 +139,6 @@ Callers of <b>RtlEnumerateGenericTableAvl</b> must be running at IRQL &lt; DISPA
 
 
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
 
 

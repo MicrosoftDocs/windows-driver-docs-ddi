@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 413ea129-2c55-4e7f-ad7c-ce99840f7066
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NDIS_WWAN_DRIVER_CAPS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DRIVER_CAPS, _NDIS_WWAN_DRIVER_CAPS, ndiswwan/NDIS_WWAN_DRIVER_CAPS, PNDIS_WWAN_DRIVER_CAPS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_9c8d6cfb-7f4b-47ac-879b-4c3ada7f9239.xml, netvista.ndis_wwan_driver_caps, *PNDIS_WWAN_DRIVER_CAPS, ndiswwan/PNDIS_WWAN_DRIVER_CAPS, NDIS_WWAN_DRIVER_CAPS
+ms.keywords: "*PNDIS_WWAN_DRIVER_CAPS, NDIS_WWAN_DRIVER_CAPS, NDIS_WWAN_DRIVER_CAPS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DRIVER_CAPS, PNDIS_WWAN_DRIVER_CAPS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_9c8d6cfb-7f4b-47ac-879b-4c3ada7f9239.xml, _NDIS_WWAN_DRIVER_CAPS, ndiswwan/NDIS_WWAN_DRIVER_CAPS, ndiswwan/PNDIS_WWAN_DRIVER_CAPS, netvista.ndis_wwan_driver_caps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_DRIVER_CAPS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_DRIVER_CAPS, NDIS_WWAN_DRIVER_CAPS"
+req.typenames: NDIS_WWAN_DRIVER_CAPS, *PNDIS_WWAN_DRIVER_CAPS
 ---
 
 # _NDIS_WWAN_DRIVER_CAPS structure
@@ -128,11 +128,11 @@ A
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_driver_caps.md">WWAN_DRIVER_CAPS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5a3fa72c-241e-4270-92eb-70f135d79871
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi/IWDFIoRequest::UnmarkCancelable, UnmarkCancelable, IWDFIoRequest::UnmarkCancelable, UMDFRequestObjectRef_365794c9-1bce-43ef-8ce5-83affed9b18e.xml, IWDFIoRequest interface, UnmarkCancelable method, umdf.iwdfiorequest_unmarkcancelable, UnmarkCancelable method, IWDFIoRequest interface, wdf.iwdfiorequest_unmarkcancelable, IWDFIoRequest, UnmarkCancelable method
+ms.keywords: IWDFIoRequest, IWDFIoRequest interface, UnmarkCancelable method, IWDFIoRequest::UnmarkCancelable, UMDFRequestObjectRef_365794c9-1bce-43ef-8ce5-83affed9b18e.xml, UnmarkCancelable method, UnmarkCancelable method, IWDFIoRequest interface, UnmarkCancelable,IWDFIoRequest.UnmarkCancelable, umdf.iwdfiorequest_unmarkcancelable, wdf.iwdfiorequest_unmarkcancelable, wudfddi/IWDFIoRequest::UnmarkCancelable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -321,11 +321,11 @@ Also see the code example on <a href="..\wdfrequest\nf-wdfrequest-wdfrequestunma
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
 
 
 

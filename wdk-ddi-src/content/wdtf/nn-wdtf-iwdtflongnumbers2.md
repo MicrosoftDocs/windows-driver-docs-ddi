@@ -7,8 +7,8 @@ old-location: dtf\iwdtflongnumbers2.htm
 old-project: dtf
 ms.assetid: 2a6c4cf7-179e-4e20-bab4-a4181a0ee64c
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dtf.iwdtflongnumbers2, IWDTFLongNumbers2 interface [Windows Device Testing Framework], IWDTFLongNumbers2 interface [Windows Device Testing Framework], described, IWDTFLongNumbers2, wdtf/IWDTFLongNumbers2, Microsoft.WDTF.IWDTFLongNumbers2
+ms.date: 2/23/2018
+ms.keywords: IWDTFLongNumbers2, IWDTFLongNumbers2 interface [Windows Device Testing Framework], IWDTFLongNumbers2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFLongNumbers2, dtf.iwdtflongnumbers2, wdtf/IWDTFLongNumbers2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -53,6 +53,14 @@ req.product: Windows 10 or later.
 Defines operations and properties for a collection of long numbers.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFLongNumbers2</b> interface inherits from <b>ITracing</b>. <b>IWDTFLongNumbers2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDTFLongNumbers2</b> interface has these methods.
@@ -79,13 +87,8 @@ Removes a long number from the collection.
 
 </td>
 </tr>
-</table>Adds a single long number to the collection.
-
-Removes a long number from the collection.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFLongNumbers2</b> interface has these properties.
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFLongNumbers2</b> interface has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
@@ -141,30 +144,5 @@ Gets an individual long number in the collection.
 
 </td>
 </tr>
-</table>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
-
-
-Read-only
-
-Gets a new iteration variable that the <b>For Each</b> 
-loop structure implicitly uses.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
-
-
-Read-only
-
-Gets the number of long numbers in this collection.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
-
-
-Read-only
-
-Gets an individual long number in the collection.
-
- 
+</table> 
 

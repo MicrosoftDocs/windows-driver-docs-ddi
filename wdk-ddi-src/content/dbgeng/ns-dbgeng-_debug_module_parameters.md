@@ -4,11 +4,11 @@ title: "_DEBUG_MODULE_PARAMETERS"
 author: windows-driver-content
 description: The DEBUG_MODULE_PARAMETERS structure contains most of the parameters for describing a module.
 old-location: debugger\debug_module_parameters.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 3f10997f-263f-4d1b-ab0a-d44201aaaf37
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: DEBUG_MODULE_PARAMETERS structure [Windows Debugging], PDEBUG_MODULE_PARAMETERS, _DEBUG_MODULE_PARAMETERS, dbgeng/DEBUG_MODULE_PARAMETERS, DEBUG_MODULE_PARAMETERS, debugger.debug_module_parameters, Structures_6e7366d2-9f49-4b7e-a277-d788808e4c40.xml, dbgeng/PDEBUG_MODULE_PARAMETERS, PDEBUG_MODULE_PARAMETERS structure pointer [Windows Debugging], *PDEBUG_MODULE_PARAMETERS
+ms.date: 2/23/2018
+ms.keywords: "*PDEBUG_MODULE_PARAMETERS, DEBUG_MODULE_PARAMETERS, DEBUG_MODULE_PARAMETERS structure [Windows Debugging], PDEBUG_MODULE_PARAMETERS, PDEBUG_MODULE_PARAMETERS structure pointer [Windows Debugging], Structures_6e7366d2-9f49-4b7e-a277-d788808e4c40.xml, _DEBUG_MODULE_PARAMETERS, dbgeng/DEBUG_MODULE_PARAMETERS, dbgeng/PDEBUG_MODULE_PARAMETERS, debugger.debug_module_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

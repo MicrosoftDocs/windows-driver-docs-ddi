@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: de92bf06-b8fa-4c16-9216-95d68ca75111
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi_types/WdfPowerDeviceD3, WdfPowerDeviceD0, WdfPowerDeviceD1, WdfPowerDeviceD2, wdf.wdf_power_device_state_umdf, wudfddi_types/WdfPowerDevicePrepareForHibernation, WDF_POWER_DEVICE_STATE, wudfddi_types/WdfPowerDeviceInvalid, _WDF_POWER_DEVICE_STATE, WdfPowerDeviceD3Final, WdfPowerDeviceMaximum, WdfPowerDeviceD3, wudfddi_types/WDF_POWER_DEVICE_STATE, wudfddi_types/WdfPowerDeviceMaximum, wudfddi_types/WdfPowerDeviceD1, wudfddi_types/WdfPowerDeviceD0, *PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE enumeration, WdfPowerDevicePrepareForHibernation, umdfstructs_2037a598-edcf-4359-b17d-3d5f42eda92a.xml, wudfddi_types/WdfPowerDeviceD3Final, umdf.wdf_power_device_state, WdfPowerDeviceInvalid, wudfddi_types/WdfPowerDeviceD2
+ms.keywords: "*PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE enumeration, WdfPowerDeviceD0, WdfPowerDeviceD1, WdfPowerDeviceD2, WdfPowerDeviceD3, WdfPowerDeviceD3Final, WdfPowerDeviceInvalid, WdfPowerDeviceMaximum, WdfPowerDevicePrepareForHibernation, _WDF_POWER_DEVICE_STATE, umdf.wdf_power_device_state, umdfstructs_2037a598-edcf-4359-b17d-3d5f42eda92a.xml, wdf.wdf_power_device_state_umdf, wudfddi_types/WDF_POWER_DEVICE_STATE, wudfddi_types/WdfPowerDeviceD0, wudfddi_types/WdfPowerDeviceD1, wudfddi_types/WdfPowerDeviceD2, wudfddi_types/WdfPowerDeviceD3, wudfddi_types/WdfPowerDeviceD3Final, wudfddi_types/WdfPowerDeviceInvalid, wudfddi_types/WdfPowerDeviceMaximum, wudfddi_types/WdfPowerDevicePrepareForHibernation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -129,11 +129,11 @@ The framework supplies one of the values of <a href="..\wudfddi_types\ne-wudfddi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
 
 
 

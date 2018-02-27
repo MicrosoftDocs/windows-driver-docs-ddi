@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: d08b2435-fb6f-49cd-8da3-c49676623357
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: gpiobtn.hwn_client_initialize_device, HwnClientInitializeDevice callback function, HwnClientInitializeDevice, HWN_CLIENT_INITIALIZE_DEVICE, HWN_CLIENT_INITIALIZE_DEVICE, hwnclx/HwnClientInitializeDevice, *PHWN_CLIENT_INITIALIZE_DEVICE callback function pointer, *PHWN_CLIENT_INITIALIZE_DEVICE
+ms.keywords: "*PHWN_CLIENT_INITIALIZE_DEVICE, *PHWN_CLIENT_INITIALIZE_DEVICE callback function pointer, HWN_CLIENT_INITIALIZE_DEVICE, HwnClientInitializeDevice, HwnClientInitializeDevice callback function, gpiobtn.hwn_client_initialize_device, hwnclx/HwnClientInitializeDevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	*PHWN_CLIENT_INITIALIZE_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: "*PHPMI_QUERY_CAPABILITIES_RESPONSE, HPMI_QUERY_CAPABILITIES_RESPONSE"
+req.typenames: HPMI_QUERY_CAPABILITIES_RESPONSE, *PHPMI_QUERY_CAPABILITIES_RESPONSE
 ---
 
 # HWN_CLIENT_INITIALIZE_DEVICE callback
@@ -117,11 +117,11 @@ Register your implementation of this callback function by setting the appropriat
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
+
+
+<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
 
 
 

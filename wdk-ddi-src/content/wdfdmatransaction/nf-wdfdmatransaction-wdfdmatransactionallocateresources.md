@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 69D251D9-1B33-49FD-8D48-EFCBD6640632
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDmaTransactionAllocateResources, wdfdmatransaction/WdfDmaTransactionAllocateResources, WdfDmaTransactionAllocateResources method, kmdf.wdfdmatransactionallocateresources, wdf.wdfdmatransactionallocateresources
+ms.keywords: WdfDmaTransactionAllocateResources, WdfDmaTransactionAllocateResources method, kmdf.wdfdmatransactionallocateresources, wdf.wdfdmatransactionallocateresources, wdfdmatransaction/WdfDmaTransactionAllocateResources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDmaTransactionAllocateResources
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
+req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -184,15 +184,19 @@ To call <b>WdfDmaTransactionAllocateResources</b> in a non-blocking manner, the 
 
 ## -see-also
 
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
+
+
+
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionfreeresources.md">WdfDmaTransactionFreeResources</a>
 
 
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetimmediateexecution.md">WdfDmaTransactionSetImmediateExecution</a>
-
-
-
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetimmediateexecution.md">WdfDmaTransactionSetImmediateExecution</a>
 
 
 
@@ -201,10 +205,6 @@ To call <b>WdfDmaTransactionAllocateResources</b> in a non-blocking manner, the 
 
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
-
-
-
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
 
 
 

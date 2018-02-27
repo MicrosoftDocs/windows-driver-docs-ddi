@@ -4,11 +4,11 @@ title: EVT_UDECX_USB_DEVICE_ENDPOINT_ADD
 author: windows-driver-content
 description: The USB device emulation class extension (UdeCx) invokes this callback function to request the client driver to create a dynamic endpoint on the virtual USB device.
 old-location: buses\evt_udecx_usb_device_endpoint_add.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 82E17C75-BE81-4263-AC04-D3C93505917D
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.evt_udecx_usb_device_endpoint_add, EvtUsbDeviceEndpointAdd callback function [Buses], EvtUsbDeviceEndpointAdd, EVT_UDECX_USB_DEVICE_ENDPOINT_ADD, EVT_UDECX_USB_DEVICE_ENDPOINT_ADD, udecxusbdevice/EvtUsbDeviceEndpointAdd
+ms.date: 2/24/2018
+ms.keywords: EVT_UDECX_USB_DEVICE_ENDPOINT_ADD, EvtUsbDeviceEndpointAdd, EvtUsbDeviceEndpointAdd callback function [Buses], buses.evt_udecx_usb_device_endpoint_add, udecxusbdevice/EvtUsbDeviceEndpointAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -104,11 +104,11 @@ In the implementation, the client driver is expected to create the endpoint by c
 
 ## -see-also
 
-<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+
+
+
+<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
 
 
 
@@ -120,5 +120,5 @@ In the implementation, the client driver is expected to create the endpoint by c
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20EVT_UDECX_USB_DEVICE_ENDPOINT_ADD callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UDECX_USB_DEVICE_ENDPOINT_ADD callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

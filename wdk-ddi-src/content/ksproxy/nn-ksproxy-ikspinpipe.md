@@ -7,8 +7,8 @@ old-location: stream\ikspinpipe.htm
 old-project: stream
 ms.assetid: bb9ebe0b-4a6e-41ff-a460-6c0b3a749d8d
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ikspinpipe, IKsPinPipe interface [Streaming Media Devices], IKsPinPipe interface [Streaming Media Devices], described, IKsPinPipe, ksproxy/IKsPinPipe, ksproxy_baf35b14-3ad8-491c-86cf-9ac2b76d9504.xml
+ms.date: 2/23/2018
+ms.keywords: IKsPinPipe, IKsPinPipe interface [Streaming Media Devices], IKsPinPipe interface [Streaming Media Devices], described, ksproxy/IKsPinPipe, ksproxy_baf35b14-3ad8-491c-86cf-9ac2b76d9504.xml, stream.ikspinpipe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -53,6 +53,13 @@ The <b>IKsPinPipe</b> interface is for proxy use and not recommended for applica
 
 The IID for this interface is IID_IKsPinPipe.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPinPipe</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IKsPinPipe</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -161,31 +168,8 @@ Not recommended for application use.
 
 </td>
 </tr>
-</table>Not recommended for application use.
-
-Returns the name of a filter
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Returns the name of a pin. 
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Not recommended for application use.
-
-Not recommended for application use.
-
- 
-
-The following methods are listed in Vtable order.
+</table> 
+<h3><a id="methods"></a><a id="METHODS"></a>Inherited Methods</h3>The following methods are listed in Vtable order.
 <table>
 <tr>
 <th>IUnknown method</th>
@@ -221,17 +205,5 @@ Decrements reference count.
 
 </td>
 </tr>
-</table><b>QueryInterface</b>
-
-Returns pointers to supported interfaces.
-
-<b>AddRef</b>
-
-Increments reference count.
-
-<b>Release</b>
-
-Decrements reference count.
-
- 
+</table> 
 

@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 2fcbdfe3-bcce-4e5b-a16b-501612975e82
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: whea.readerrorrecord, ReadErrorRecord callback function [WHEA Drivers and Applications], ReadErrorRecord, PSHED_PI_READ_ERROR_RECORD, PSHED_PI_READ_ERROR_RECORD, ntddk/ReadErrorRecord, whearef_ec353a58-1ca7-4356-8651-52802d855582.xml
+ms.keywords: PSHED_PI_READ_ERROR_RECORD, ReadErrorRecord, ReadErrorRecord callback function [WHEA Drivers and Applications], ntddk/ReadErrorRecord, whea.readerrorrecord, whearef_ec353a58-1ca7-4356-8651-52802d855582.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	ReadErrorRecord
 product: Windows
 targetos: Windows
-req.typenames: "*PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA"
+req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 ---
 
 # PSHED_PI_READ_ERROR_RECORD callback
@@ -179,15 +179,11 @@ The Windows kernel calls into the PSHED to read an error record from the system'
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
-
-
-
 <a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_record.md">ClearErrorRecord</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
 
 
 
@@ -196,6 +192,10 @@ The Windows kernel calls into the PSHED to read an error record from the system'
 
 
 <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
 
 
 

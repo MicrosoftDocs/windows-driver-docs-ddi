@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: d4aa5fa9-966c-49c5-b41c-ca963a201e21
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: BTH_PROFILE_DRIVER_INTERFACE structure [Bluetooth Devices], bth_structs_0df6b87d-3846-49ed-9614-e83f2e828e7d.xml, bltooth.bth_profile_driver_interface, bthddi/BTH_PROFILE_DRIVER_INTERFACE, PBTH_PROFILE_DRIVER_INTERFACE, _BTH_PROFILE_DRIVER_INTERFACE, bthddi/PBTH_PROFILE_DRIVER_INTERFACE, PBTH_PROFILE_DRIVER_INTERFACE structure pointer [Bluetooth Devices], *PBTH_PROFILE_DRIVER_INTERFACE, BTH_PROFILE_DRIVER_INTERFACE
+ms.keywords: "*PBTH_PROFILE_DRIVER_INTERFACE, BTH_PROFILE_DRIVER_INTERFACE, BTH_PROFILE_DRIVER_INTERFACE structure [Bluetooth Devices], PBTH_PROFILE_DRIVER_INTERFACE, PBTH_PROFILE_DRIVER_INTERFACE structure pointer [Bluetooth Devices], _BTH_PROFILE_DRIVER_INTERFACE, bltooth.bth_profile_driver_interface, bth_structs_0df6b87d-3846-49ed-9614-e83f2e828e7d.xml, bthddi/BTH_PROFILE_DRIVER_INTERFACE, bthddi/PBTH_PROFILE_DRIVER_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,7 +78,7 @@ typedef struct _BTH_PROFILE_DRIVER_INTERFACE {
 A structure that describes the 
      <b>BTH_PROFILE_DRIVER_INTERFACE</b> interface for use by profile drivers. For more information about this
      structure, see 
-     <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>.
+     <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>.
 
 
 ### -field BthAllocateBrb
@@ -128,6 +128,14 @@ All the members of this structure, other than the
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
+
+<a href="..\bthddi\nc-bthddi-pfnbth_is_bluetooth_version_available.md">IsBluetoothVersionAvailable</a>
+
+
+
 <a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
 
 
@@ -136,15 +144,7 @@ All the members of this structure, other than the
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnbth_is_bluetooth_version_available.md">IsBluetoothVersionAvailable</a>
-
-
-
-<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
-
-
-
-<a href="..\bthddi\nc-bthddi-pfnbth_reuse_brb.md">BthReuseBrb</a>
+<a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
 
 
 

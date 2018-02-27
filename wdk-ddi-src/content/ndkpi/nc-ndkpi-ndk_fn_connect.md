@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: AFB291B7-7962-46D2-BB00-E1CB8B0BF5FC
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_connect, NdkConnect callback function [Network Drivers Starting with Windows Vista], NdkConnect, NDK_FN_CONNECT, NDK_FN_CONNECT, ndkpi/NdkConnect
+ms.keywords: NDK_FN_CONNECT, NdkConnect, NdkConnect callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkConnect, netvista.ndk_fn_connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -331,15 +331,11 @@ An error occurred.
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_disconnect.md">NDK_FN_DISCONNECT</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_connection_data.md">NDK_FN_GET_CONNECTION_DATA</a>
 
 
 
@@ -351,11 +347,15 @@ An error occurred.
 
 
 
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_disconnect.md">NDK_FN_DISCONNECT</a>
+
+
+
 <a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_connection_data.md">NDK_FN_GET_CONNECTION_DATA</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: storage\format_ex_parameters.htm
 old-project: storage
 ms.assetid: 0c87a0b8-f355-48a4-a119-11e047e159d0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PFORMAT_EX_PARAMETERS structure pointer [Storage Devices], storage.format_ex_parameters, ntdddisk/FORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS, ntdddisk/PFORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS structure [Storage Devices], PFORMAT_EX_PARAMETERS, structs-disk_753384dd-08cd-40ee-90dc-61a82e5e0d14.xml, *PFORMAT_EX_PARAMETERS, _FORMAT_EX_PARAMETERS
+ms.date: 2/24/2018
+ms.keywords: "*PFORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS structure [Storage Devices], PFORMAT_EX_PARAMETERS, PFORMAT_EX_PARAMETERS structure pointer [Storage Devices], _FORMAT_EX_PARAMETERS, ntdddisk/FORMAT_EX_PARAMETERS, ntdddisk/PFORMAT_EX_PARAMETERS, storage.format_ex_parameters, structs-disk_753384dd-08cd-40ee-90dc-61a82e5e0d14.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,17 +120,17 @@ Contains an array whose first element indicates the number of the sector where t
 
 
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks_ex.md">IOCTL_DISK_FORMAT_TRACKS_EX</a>
-
-
-
 <a href="..\ntdddisk\ns-ntdddisk-_format_parameters.md">FORMAT_PARAMETERS</a>
 
 
 
- 
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks_ex.md">IOCTL_DISK_FORMAT_TRACKS_EX</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FORMAT_EX_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FORMAT_EX_PARAMETERS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

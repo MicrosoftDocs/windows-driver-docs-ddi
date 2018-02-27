@@ -7,8 +7,8 @@ old-location: audio\pcgettimeinterval.htm
 old-project: audio
 ms.assetid: 22afd9b9-9bed-45b0-afd8-1a5a34b9e6ad
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: PcGetTimeInterval function [Audio Devices], PcGetTimeInterval, audpc-routines_a68c0cf5-01b7-4e01-a719-f0bdea2d367f.xml, portcls/PcGetTimeInterval, audio.pcgettimeinterval
+ms.date: 2/22/2018
+ms.keywords: PcGetTimeInterval, PcGetTimeInterval function [Audio Devices], audio.pcgettimeinterval, audpc-routines_a68c0cf5-01b7-4e01-a719-f0bdea2d367f.xml, portcls/PcGetTimeInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -133,5 +133,5 @@ and then checking to see whether the required interval has passed
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcGetTimeInterval function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcGetTimeInterval function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

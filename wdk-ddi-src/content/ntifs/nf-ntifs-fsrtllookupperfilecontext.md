@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b15598bd-8362-44f1-83ce-b4282d6604b0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fsrtllookupperfilecontext, FsRtlLookupPerFileContext, FsRtlLookupPerFileContext routine [Installable File System Drivers], fsrtlref_ab859bb7-ea43-4d55-ab37-feebddd270ff.xml, ntifs/FsRtlLookupPerFileContext
+ms.keywords: FsRtlLookupPerFileContext, FsRtlLookupPerFileContext routine [Installable File System Drivers], fsrtlref_ab859bb7-ea43-4d55-ab37-feebddd270ff.xml, ifsk.fsrtllookupperfilecontext, ntifs/FsRtlLookupPerFileContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,6 +106,14 @@ If the file system does not support per-file context objects, <b>NULL</b> is ret
 
 ## -see-also
 
+<a href="..\ntifs\ns-ntifs-_fsrtl_per_file_context.md">FSRTL_PER_FILE_CONTEXT</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a>
 
 
@@ -114,15 +122,7 @@ If the file system does not support per-file context objects, <b>NULL</b> is ret
 
 
 
-<a href="..\ntifs\ns-ntifs-_fsrtl_per_file_context.md">FSRTL_PER_FILE_CONTEXT</a>
-
-
-
 <a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a>
 
 
 

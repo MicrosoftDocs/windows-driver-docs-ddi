@@ -7,8 +7,8 @@ old-location: stream\ksnulldriverunload.htm
 old-project: stream
 ms.assetid: 1fe4c3b7-4627-4a59-9779-fa2be29f387a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ks/KsNullDriverUnload, ksfunc_449d73af-488d-4c4b-b5cb-f706fd48beab.xml, KsNullDriverUnload function [Streaming Media Devices], KsNullDriverUnload, stream.ksnulldriverunload
+ms.date: 2/23/2018
+ms.keywords: KsNullDriverUnload, KsNullDriverUnload function [Streaming Media Devices], ks/KsNullDriverUnload, ksfunc_449d73af-488d-4c4b-b5cb-f706fd48beab.xml, stream.ksnulldriverunload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

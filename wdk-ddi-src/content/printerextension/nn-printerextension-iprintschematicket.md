@@ -7,8 +7,8 @@ old-location: print\iprintschematicket_interface.htm
 old-project: print
 ms.assetid: 190B0B88-6018-4B43-8699-78427421D6FF
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.iprintschematicket_interface, IPrintSchemaTicket interface [Print Devices], IPrintSchemaTicket interface [Print Devices], described, IPrintSchemaTicket, printerextension/IPrintSchemaTicket
+ms.date: 2/23/2018
+ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], IPrintSchemaTicket interface [Print Devices], described, print.iprintschematicket_interface, printerextension/IPrintSchemaTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -52,6 +52,14 @@ req.product: Windows 10 or later.
 
 Provides the primary method to access and validate a PrintTicket.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintSchemaTicket</b> interface inherits from <a href="..\printerextension\nn-printerextension-iprintschemaelement.md">IPrintSchemaElement</a>. <b>IPrintSchemaTicket</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
 
 ## -members
 
@@ -115,21 +123,8 @@ Gets an asynchronous PrintTicket validation operation context.
 
 </td>
 </tr>
-</table>Gets an  asynchronous PrintTicket commit operation context.
-
-Gets an <a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a> object that represents the printer capabilities based on the current settings of this <b>IPrintSchemaTicket</b> object.
-
-Gets a named feature from the PrintTicket, by name and full namespace URI.
-
-Gets a feature from the PrintTicket based on the specified key name.
-
-Notifies the print system that the XML DOM object has changed.
-
-Gets an asynchronous PrintTicket validation operation context.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintSchemaTicket</b> interface has these properties.
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintSchemaTicket</b> interface has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
@@ -168,23 +163,7 @@ Sets the copy count.
 
 </td>
 </tr>
-</table>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973238">JobCopiesAllDocuments</a>
-
-
-Read-only
-
-Gets the copy count.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973238">JobCopiesAllDocuments</a>
-
-
-Write-only
-
-Sets the copy count.
-
- 
+</table> 
 
 
 ## -remarks
@@ -198,7 +177,7 @@ To obtain an IXMLDOMDocument2 object for the PrintTicket object, you must first 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaelement.md">IPrintSchemaElement</a>
+<a href="https://msdn.microsoft.com/5E7F2292-1F71-4581-8E34-86F1464EC08F">IPrintSchemaElement::XmlNode</a>
 
 
 
@@ -206,7 +185,7 @@ To obtain an IXMLDOMDocument2 object for the PrintTicket object, you must first 
 
 
 
-<a href="https://msdn.microsoft.com/5E7F2292-1F71-4581-8E34-86F1464EC08F">IPrintSchemaElement::XmlNode</a>
+<a href="..\printerextension\nn-printerextension-iprintschemaelement.md">IPrintSchemaElement</a>
 
 
 
@@ -218,5 +197,5 @@ To obtain an IXMLDOMDocument2 object for the PrintTicket object, you must first 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaTicket interface%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaTicket interface%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

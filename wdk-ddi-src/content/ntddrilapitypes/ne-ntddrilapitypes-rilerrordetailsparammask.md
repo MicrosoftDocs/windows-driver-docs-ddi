@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5890ea36-73af-4d64-bea3-12b75d479e6e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILERRORDETAILSPARAMMASK, netvista.rilerrordetailsparammask, RILERRORDETAILSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILERRORDETAILSPARAMMASK
+ms.keywords: RILERRORDETAILSPARAMMASK, RILERRORDETAILSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilerrordetailsparammask, ntddrilapitypes/RILERRORDETAILSPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -7,8 +7,8 @@ old-location: kernel\io_session_notification_function.htm
 old-project: kernel
 ms.assetid: ff7a5191-35d9-4927-9c23-7f5ad0cfd7ab
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.io_session_notification_function, IO_SESSION_NOTIFICATION_FUNCTION callback function [Kernel-Mode Driver Architecture], IO_SESSION_NOTIFICATION_FUNCTION, wdm/IO_SESSION_NOTIFICATION_FUNCTION, DrvrRtns_b956c11f-2757-437b-b406-958fdced8f94.xml
+ms.date: 2/24/2018
+ms.keywords: DrvrRtns_b956c11f-2757-437b-b406-958fdced8f94.xml, IO_SESSION_NOTIFICATION_FUNCTION, IO_SESSION_NOTIFICATION_FUNCTION callback function [Kernel-Mode Driver Architecture], kernel.io_session_notification_function, wdm/IO_SESSION_NOTIFICATION_FUNCTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	IO_SESSION_NOTIFICATION_FUNCTION
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -169,7 +169,7 @@ The IO_SESSION_NOTIFICATION_FUNCTION function type is defined in the Wdm.h heade
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a>
+<a href="..\wdm\ns-wdm-_io_session_state_notification.md">IO_SESSION_STATE_NOTIFICATION</a>
 
 
 
@@ -181,17 +181,17 @@ The IO_SESSION_NOTIFICATION_FUNCTION function type is defined in the Wdm.h heade
 
 
 
-<a href="..\wdm\ns-wdm-_io_session_connect_info.md">IO_SESSION_CONNECT_INFO</a>
-
-
-
 <a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a>
 
 
 
- 
+<a href="..\wdm\ns-wdm-_io_session_connect_info.md">IO_SESSION_CONNECT_INFO</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_SESSION_NOTIFICATION_FUNCTION callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_SESSION_NOTIFICATION_FUNCTION callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

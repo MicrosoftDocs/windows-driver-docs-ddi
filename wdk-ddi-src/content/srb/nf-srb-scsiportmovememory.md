@@ -7,8 +7,8 @@ old-location: storage\scsiportmovememory.htm
 old-project: storage
 ms.assetid: c4ed9551-3dc8-4f76-9bcb-26030f76c244
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: srb/ScsiPortMoveMemory, storage.scsiportmovememory, scsiprt_88a58a03-0663-4aad-b048-2a2d3641e94e.xml, ScsiPortMoveMemory, ScsiPortMoveMemory routine [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: ScsiPortMoveMemory, ScsiPortMoveMemory routine [Storage Devices], scsiprt_88a58a03-0663-4aad-b048-2a2d3641e94e.xml, srb/ScsiPortMoveMemory, storage.scsiportmovememory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

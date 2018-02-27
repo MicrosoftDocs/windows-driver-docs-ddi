@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 050752CC-FBD6-4EB1-A17F-53C5C569E3FB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: QueryBankInterruptBindingInformation, QueryControllerFunctionBankMappingInformation, QuerySetRequestMaximumType, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration [Parallel Ports], _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, QueryBankPowerInformation, gpioclx/QuerySetRequestMaximumType, gpioclx/QueryControllerFunctionBankMappingInformation, gpioclx/QueryBankPowerInformation, *PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, GPIO.client_controller_query_set_request_type, gpioclx/QueryBankInterruptBindingInformation, gpioclx/CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
+ms.keywords: "*PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration [Parallel Ports], GPIO.client_controller_query_set_request_type, QueryBankInterruptBindingInformation, QueryBankPowerInformation, QueryControllerFunctionBankMappingInformation, QuerySetRequestMaximumType, _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/QueryBankInterruptBindingInformation, gpioclx/QueryBankPowerInformation, gpioclx/QueryControllerFunctionBankMappingInformation, gpioclx/QuerySetRequestMaximumType"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -101,15 +101,15 @@ The <b>RequestType</b> member of the <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698241">CLIENT_QuerySetControllerInformation</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698238">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698241">CLIENT_QuerySetControllerInformation</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: display\d3dddicaps_architecture_info.htm
 old-project: display
 ms.assetid: ad35cd3f-87bd-4d57-ab13-4cb2b268ad35
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DDDICAPS_ARCHITECTURE_INFO, display.d3dddicaps_architecture_info, D3DDDICAPS_ARCHITECTURE_INFO structure [Display Devices], d3dumddi/D3DDDICAPS_ARCHITECTURE_INFO
+ms.date: 2/24/2018
+ms.keywords: D3DDDICAPS_ARCHITECTURE_INFO, D3DDDICAPS_ARCHITECTURE_INFO structure [Display Devices], d3dumddi/D3DDDICAPS_ARCHITECTURE_INFO, display.d3dddicaps_architecture_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

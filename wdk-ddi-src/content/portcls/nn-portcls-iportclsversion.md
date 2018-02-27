@@ -7,8 +7,8 @@ old-location: audio\iportclsversion.htm
 old-project: audio
 ms.assetid: 8a367bcb-680b-41be-975f-1a1f4bec3b60
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iportclsversion, IPortClsVersion interface [Audio Devices], IPortClsVersion interface [Audio Devices], described, IPortClsVersion, portcls/IPortClsVersion, audmp-routines_47212df8-c1b8-4e77-bd5f-90b74a6ae08c.xml
+ms.date: 2/22/2018
+ms.keywords: IPortClsVersion, IPortClsVersion interface [Audio Devices], IPortClsVersion interface [Audio Devices], described, audio.iportclsversion, audmp-routines_47212df8-c1b8-4e77-bd5f-90b74a6ae08c.xml, portcls/IPortClsVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

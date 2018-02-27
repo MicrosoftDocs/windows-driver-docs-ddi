@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2ca1fdbe-efd3-4607-aab1-751e6d5d025b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddndis/NDIS_PM_WOL_PATTERN, _NDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN, netvista.ndis_pm_wol_pattern, PNDIS_PM_WOL_PATTERN, ntddndis/PNDIS_PM_WOL_PATTERN, *PNDIS_PM_WOL_PATTERN, PNDIS_PM_WOL_PATTERN structure pointer [Network Drivers Starting with Windows Vista], miniport_power_management_ref_ce048c91-111a-406d-8dc9-958394bc78cd.xml, NDIS_PM_WOL_PATTERN structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PNDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN structure [Network Drivers Starting with Windows Vista], PNDIS_PM_WOL_PATTERN, PNDIS_PM_WOL_PATTERN structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_WOL_PATTERN, miniport_power_management_ref_ce048c91-111a-406d-8dc9-958394bc78cd.xml, netvista.ndis_pm_wol_pattern, ntddndis/NDIS_PM_WOL_PATTERN, ntddndis/PNDIS_PM_WOL_PATTERN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PM_WOL_PATTERN
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN"
+req.typenames: NDIS_PM_WOL_PATTERN, *PNDIS_PM_WOL_PATTERN
 ---
 
 # _NDIS_PM_WOL_PATTERN structure
@@ -355,7 +355,11 @@ The upper layer driver sets the NDIS_PM_WOL_IPV4_DEST_ADDR_WILDCARD_ENABLED and
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_counted_string.md">NDIS_PM_COUNTED_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569764">OID_PM_ADD_WOL_PATTERN</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -367,11 +371,7 @@ The upper layer driver sets the NDIS_PM_WOL_IPV4_DEST_ADDR_WILDCARD_ENABLED and
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569772">OID_PM_WOL_PATTERN_LIST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569764">OID_PM_ADD_WOL_PATTERN</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_counted_string.md">NDIS_PM_COUNTED_STRING</a>
 
 
 

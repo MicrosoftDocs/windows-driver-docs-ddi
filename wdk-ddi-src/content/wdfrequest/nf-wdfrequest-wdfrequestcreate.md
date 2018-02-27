@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 94329e5a-9efb-4e88-92a6-457098d1245f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfRequestCreate, WdfRequestCreate method, kmdf.wdfrequestcreate, DFRequestObjectRef_9c240f29-fd5e-4d6e-9a54-31abb05507c5.xml, wdfrequest/WdfRequestCreate, wdf.wdfrequestcreate
+ms.keywords: DFRequestObjectRef_9c240f29-fd5e-4d6e-9a54-31abb05507c5.xml, WdfRequestCreate, WdfRequestCreate method, kmdf.wdfrequestcreate, wdf.wdfrequestcreate, wdfrequest/WdfRequestCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -204,7 +204,7 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreatefromirp.md">WdfRequestCreateFromIrp</a>
 
 
 
@@ -212,19 +212,19 @@ if (!NT_SUCCESS(status)) {
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreatefromirp.md">WdfRequestCreateFromIrp</a>
-
-
-
 <a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetrequestattributes.md">WdfDeviceInitSetRequestAttributes</a>
-
-
-
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetrequestattributes.md">WdfDeviceInitSetRequestAttributes</a>
 
 
 

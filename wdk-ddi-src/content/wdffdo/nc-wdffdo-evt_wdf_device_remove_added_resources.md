@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b18c2b34-db6d-4553-9340-556da1fd7991
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdeviceremoveaddedresources, EvtDeviceRemoveAddedResources callback function, EvtDeviceRemoveAddedResources, EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES, EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES, wdffdo/EvtDeviceRemoveAddedResources, DFDeviceObjectFdoPdoRef_c1020fff-8895-4ece-ae27-ef33d3a65de6.xml, kmdf.evtdeviceremoveaddedresources
+ms.keywords: DFDeviceObjectFdoPdoRef_c1020fff-8895-4ece-ae27-ef33d3a65de6.xml, EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES, EvtDeviceRemoveAddedResources, EvtDeviceRemoveAddedResources callback function, kmdf.evtdeviceremoveaddedresources, wdf.evtdeviceremoveaddedresources, wdffdo/EvtDeviceRemoveAddedResources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -160,11 +160,11 @@ The <b>EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES</b> function type is defined in the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff540870">EvtDeviceFilterRemoveResourceRequirements</a>
-
-
-
 <a href="https://msdn.microsoft.com/7d9b38b5-989d-45a3-8771-57a8d1f98725">EvtDeviceFilterAddResourceRequirements</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff540870">EvtDeviceFilterRemoveResourceRequirements</a>
 
 
 

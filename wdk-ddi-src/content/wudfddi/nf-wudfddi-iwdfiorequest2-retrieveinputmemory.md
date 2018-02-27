@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 32596330-6cd9-4f82-9140-7f9a26cf7932
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: RetrieveInputMemory, IWDFIoRequest2, wudfddi/IWDFIoRequest2::RetrieveInputMemory, umdf.iwdfiorequest2_retrieveinputmemory, wdf.iwdfiorequest2_retrieveinputmemory, IWDFIoRequest2::RetrieveInputMemory, RetrieveInputMemory method, IWDFIoRequest2 interface, IWDFIoRequest2 interface, RetrieveInputMemory method, RetrieveInputMemory method, UMDFRequestObjectRef_48cb0129-5727-4321-a4c5-77ae12fd685b.xml
+ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, RetrieveInputMemory method, IWDFIoRequest2::RetrieveInputMemory, RetrieveInputMemory method, RetrieveInputMemory method, IWDFIoRequest2 interface, RetrieveInputMemory,IWDFIoRequest2.RetrieveInputMemory, UMDFRequestObjectRef_48cb0129-5727-4321-a4c5-77ae12fd685b.xml, umdf.iwdfiorequest2_retrieveinputmemory, wdf.iwdfiorequest2_retrieveinputmemory, wudfddi/IWDFIoRequest2::RetrieveInputMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -194,15 +194,7 @@ Exit:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559046">IWDFIoRequest2::RetrieveOutputMemory</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559046">IWDFIoRequest2::RetrieveOutputMemory</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559041">IWDFIoRequest2::RetrieveOutputBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
 
 
 
@@ -214,7 +206,15 @@ Exit:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559033">IWDFIoRequest2::RetrieveInputBuffer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559046">IWDFIoRequest2::RetrieveOutputMemory</a>
 
 
 

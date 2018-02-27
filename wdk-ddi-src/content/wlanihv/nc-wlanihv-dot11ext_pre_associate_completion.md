@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e617c0ac-0f02-4e15-ba11-81de6331b83d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extpreassociatecompletion, Dot11ExtPreAssociateCompletion callback function [Network Drivers Starting with Windows Vista], Dot11ExtPreAssociateCompletion, DOT11EXT_PRE_ASSOCIATE_COMPLETION, DOT11EXT_PRE_ASSOCIATE_COMPLETION, wlanihv/Dot11ExtPreAssociateCompletion, Native_802.11_IHV_Ext_aca82f29-a84e-48e3-b239-754b5b49d99c.xml
+ms.keywords: DOT11EXT_PRE_ASSOCIATE_COMPLETION, Dot11ExtPreAssociateCompletion, Dot11ExtPreAssociateCompletion callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_aca82f29-a84e-48e3-b239-754b5b49d99c.xml, netvista.dot11extpreassociatecompletion, wlanihv/Dot11ExtPreAssociateCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtPreAssociateCompletion
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -189,8 +189,6 @@ The IHV Extensions DLL must call
 
 ## -see-also
 
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
    Dot11ExtIhvPerformPreAssociate</a>
 
@@ -200,22 +198,16 @@ The IHV Extensions DLL must call
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+   Functions</a>
 
 
 
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
-   Dot11ExtIhvPerformPreAssociate</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
-   Functions</a>
 
 
 

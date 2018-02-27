@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a3e089bf-6037-4d85-92ce-db9c865bdc02
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltCbdqInitialize, fltkernel/FltCbdqInitialize, ifsk.fltcbdqinitialize, FltCbdqInitialize function [Installable File System Drivers], FltApiRef_a_to_d_e365fdac-7834-4388-b8ba-65593b045d19.xml
+ms.keywords: FltApiRef_a_to_d_e365fdac-7834-4388-b8ba-65593b045d19.xml, FltCbdqInitialize, FltCbdqInitialize function [Installable File System Drivers], fltkernel/FltCbdqInitialize, ifsk.fltcbdqinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -398,11 +398,11 @@ This routine should complete a canceled I/O operation. Normally, minifilter driv
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltcbdqremoveio.md">FltCbdqRemoveIo</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
@@ -410,7 +410,15 @@ This routine should complete a canceled I/O operation. Normally, minifilter driv
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcbdqremoveio.md">FltCbdqRemoveIo</a>
+<a href="..\fltkernel\nf-fltkernel-fltcbdqinsertio.md">FltCbdqInsertIo</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcbdqdisable.md">FltCbdqDisable</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcbdqremovenextio.md">FltCbdqRemoveNextIo</a>
 
 
 
@@ -422,23 +430,15 @@ This routine should complete a canceled I/O operation. Normally, minifilter driv
 
 
 
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
-
-
-
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data_queue.md">FLT_CALLBACK_DATA_QUEUE</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcbdqdisable.md">FltCbdqDisable</a>
+<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcompletependedpreoperation.md">FltCompletePendedPreOperation</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
 
 
 

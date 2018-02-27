@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 520b02d0-a078-4af9-93a3-4fee5bbfee99
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wskbind, WskBind callback function [Network Drivers Starting with Windows Vista], WskBind, PFN_WSK_BIND, PFN_WSK_BIND, wsk/WskBind, wskref_5d411257-ce57-4331-913a-c195e71a1138.xml
+ms.keywords: PFN_WSK_BIND, WskBind, WskBind callback function [Network Drivers Starting with Windows Vista], netvista.wskbind, wsk/WskBind, wskref_5d411257-ce57-4331-913a-c195e71a1138.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	WskBind
 product: Windows
 targetos: Windows
-req.typenames: "*PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO"
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -202,8 +202,7 @@ For a stream socket, calling the <b>WskBind</b> function binds the socket to the
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
-   WSK_PROVIDER_CONNECTION_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
 
 
 
@@ -211,23 +210,8 @@ For a stream socket, calling the <b>WskBind</b> function binds the socket to the
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
+   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
 
 
@@ -235,7 +219,24 @@ For a stream socket, calling the <b>WskBind</b> function binds the socket to the
 
 
 
+<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+   WSK_PROVIDER_CONNECTION_DISPATCH</a>
+
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 83bfddd5-fc4d-4f5c-9904-7564810f5b4c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfIoQueueGetState method, DFQueueObjectRef_756666e1-e5eb-4bcc-907e-65b10e580396.xml, wdf.wdfioqueuegetstate, WdfIoQueueGetState, wdfio/WdfIoQueueGetState, kmdf.wdfioqueuegetstate
+ms.keywords: DFQueueObjectRef_756666e1-e5eb-4bcc-907e-65b10e580396.xml, WdfIoQueueGetState, WdfIoQueueGetState method, kmdf.wdfioqueuegetstate, wdf.wdfioqueuegetstate, wdfio/WdfIoQueueGetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

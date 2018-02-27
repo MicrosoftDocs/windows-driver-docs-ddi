@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: CE485A6F-8480-4535-9145-A8CBF78C804D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: NFC_CX_HOST_ACTION enumeration [Near-Field Proximity Drivers], nfpdrivers.nfc_cx_host_action, nfccx/HostActionStart, nfccx/HostActionRestart, *PNFC_CX_HOST_ACTION, nfccx/HostActionStop, HostActionUnload, HostActionStop, nfccx/HostActionUnload, NFC_CX_HOST_ACTION, HostActionStart, HostActionRestart, _NFC_CX_HOST_ACTION, nfccx/NFC_CX_HOST_ACTION
+ms.keywords: "*PNFC_CX_HOST_ACTION, HostActionRestart, HostActionStart, HostActionStop, HostActionUnload, NFC_CX_HOST_ACTION, NFC_CX_HOST_ACTION enumeration [Near-Field Proximity Drivers], _NFC_CX_HOST_ACTION, nfccx/HostActionRestart, nfccx/HostActionStart, nfccx/HostActionStop, nfccx/HostActionUnload, nfccx/NFC_CX_HOST_ACTION, nfpdrivers.nfc_cx_host_action"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NFC_CX_HOST_ACTION
 product: Windows
 targetos: Windows
-req.typenames: "*PNFC_CX_HOST_ACTION, NFC_CX_HOST_ACTION"
+req.typenames: NFC_CX_HOST_ACTION, *PNFC_CX_HOST_ACTION
 ---
 
 # _NFC_CX_HOST_ACTION enumeration
@@ -92,11 +92,11 @@ Specifies to unload the driver.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 

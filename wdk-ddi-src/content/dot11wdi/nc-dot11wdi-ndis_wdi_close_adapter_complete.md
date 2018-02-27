@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 42500F6F-8E97-454F-819F-8EA3785C0D04
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndiswdicloseadaptercomplete, NdisWdiCloseAdapterComplete callback function [Network Drivers Starting with Windows Vista], NdisWdiCloseAdapterComplete, NDIS_WDI_CLOSE_ADAPTER_COMPLETE, NDIS_WDI_CLOSE_ADAPTER_COMPLETE, dot11wdi/NdisWdiCloseAdapterComplete
+ms.keywords: NDIS_WDI_CLOSE_ADAPTER_COMPLETE, NdisWdiCloseAdapterComplete, NdisWdiCloseAdapterComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiCloseAdapterComplete, netvista.ndiswdicloseadaptercomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -40,7 +40,7 @@ apiname:
 -	NdisWdiCloseAdapterComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # NDIS_WDI_CLOSE_ADAPTER_COMPLETE callback
@@ -94,11 +94,11 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a>
-
-
-
 <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_close_adapter.md">MiniportWdiCloseAdapter</a>
+
+
+
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a>
 
 
 

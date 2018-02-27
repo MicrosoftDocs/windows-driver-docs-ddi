@@ -7,8 +7,8 @@ old-location: stream\strminirequesttimeout.htm
 old-project: stream
 ms.assetid: be3972af-1c62-4d4d-95f7-00f894ae7f21
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.strminirequesttimeout, StrMiniRequestTimeout routine [Streaming Media Devices], StrMiniRequestTimeout, PHW_REQUEST_TIMEOUT_HANDLER, PHW_REQUEST_TIMEOUT_HANDLER, strmini/StrMiniRequestTimeout, strmini-routines_74b67060-d244-452f-a5a5-217fd4c65614.xml
+ms.date: 2/23/2018
+ms.keywords: PHW_REQUEST_TIMEOUT_HANDLER, StrMiniRequestTimeout, StrMiniRequestTimeout routine [Streaming Media Devices], stream.strminirequesttimeout, strmini-routines_74b67060-d244-452f-a5a5-217fd4c65614.xml, strmini/StrMiniRequestTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

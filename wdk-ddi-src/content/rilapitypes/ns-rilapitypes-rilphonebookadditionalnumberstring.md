@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 06bd4e24-2859-4170-a02f-f97007b666e7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilphonebookadditionalnumberstring_2, rilapitypes/RILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING structure [Network Drivers Starting with Windows Vista], *LPRILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING
+ms.keywords: "*LPRILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookadditionalnumberstring_2, rilapitypes/RILPHONEBOOKADDITIONALNUMBERSTRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILPHONEBOOKADDITIONALNUMBERSTRING
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING"
+req.typenames: RILPHONEBOOKADDITIONALNUMBERSTRING, *LPRILPHONEBOOKADDITIONALNUMBERSTRING
 req.product: Windows 10 or later.
 ---
 

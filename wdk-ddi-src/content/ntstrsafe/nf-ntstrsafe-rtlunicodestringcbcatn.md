@@ -7,8 +7,8 @@ old-location: kernel\rtlunicodestringcbcatn.htm
 old-project: kernel
 ms.assetid: 246c2abd-ad07-4910-968c-dbd5fefff5bc
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RtlUnicodeStringCbCatN function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnicodeStringCbCatN, safestrings_3c51b953-50f8-4fb8-829a-f41951a0a1a8.xml, RtlUnicodeStringCbCatN, kernel.rtlunicodestringcbcatn
+ms.date: 2/24/2018
+ms.keywords: RtlUnicodeStringCbCatN, RtlUnicodeStringCbCatN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcatn, ntstrsafe/RtlUnicodeStringCbCatN, safestrings_3c51b953-50f8-4fb8-829a-f41951a0a1a8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlUnicodeStringCbCatN
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlUnicodeStringCbCatN function
@@ -163,10 +163,6 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcatnex.md">RtlUnicodeStringCbCatNEx</a>
 
 
@@ -175,9 +171,13 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
- 
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUnicodeStringCbCatN function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUnicodeStringCbCatN function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

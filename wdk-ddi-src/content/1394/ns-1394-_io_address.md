@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: db703d46-d37f-442a-a543-ce9e9c5ea3cb
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IO_ADDRESS structure [Buses], 1394/PIO_ADDRESS, 1394/IO_ADDRESS, *PIO_ADDRESS, PIO_ADDRESS structure pointer [Buses], IEEE.io_address, PIO_ADDRESS, _IO_ADDRESS, IO_ADDRESS, 1394stct_1683915b-161d-4741-91b9-32f632b56e59.xml
+ms.keywords: "*PIO_ADDRESS, 1394/IO_ADDRESS, 1394/PIO_ADDRESS, 1394stct_1683915b-161d-4741-91b9-32f632b56e59.xml, IEEE.io_address, IO_ADDRESS, IO_ADDRESS structure [Buses], PIO_ADDRESS, PIO_ADDRESS structure pointer [Buses], _IO_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,7 +80,7 @@ Holds a structure of type <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537634">REQUEST_ASYNC_READ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537642">REQUEST_GET_CONFIGURATION_INFO</a>
 
 
 
@@ -88,11 +88,7 @@ Holds a structure of type <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536906">ADDRESS_OFFSET</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536906">ADDRESS_OFFSET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537634">REQUEST_ASYNC_READ</a>
 
 
 
@@ -101,6 +97,10 @@ Holds a structure of type <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537636">REQUEST_ASYNC_WRITE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536906">ADDRESS_OFFSET</a>
 
 
 

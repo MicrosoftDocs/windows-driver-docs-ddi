@@ -7,8 +7,8 @@ old-location: storage\storage_crypto_descriptor.htm
 old-project: storage
 ms.assetid: 1D948882-2286-4080-A41B-D20714FC0A66
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*PSTORAGE_CRYPTO_DESCRIPTOR, PSTORAGE_CRYPTO_DESCRIPTOR, _STORAGE_CRYPTO_DESCRIPTOR, PSTORAGE_CRYPTO_DESCRIPTOR structure pointer [Storage Devices], ntddstor/PSTORAGE_CRYPTO_DESCRIPTOR, storage.storage_crypto_descriptor, STORAGE_CRYPTO_DESCRIPTOR structure [Storage Devices], ntddstor/STORAGE_CRYPTO_DESCRIPTOR, STORAGE_CRYPTO_DESCRIPTOR"
+ms.date: 2/24/2018
+ms.keywords: "*PSTORAGE_CRYPTO_DESCRIPTOR, PSTORAGE_CRYPTO_DESCRIPTOR, PSTORAGE_CRYPTO_DESCRIPTOR structure pointer [Storage Devices], STORAGE_CRYPTO_DESCRIPTOR, STORAGE_CRYPTO_DESCRIPTOR structure [Storage Devices], _STORAGE_CRYPTO_DESCRIPTOR, ntddstor/PSTORAGE_CRYPTO_DESCRIPTOR, ntddstor/STORAGE_CRYPTO_DESCRIPTOR, storage.storage_crypto_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_CRYPTO_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_CRYPTO_DESCRIPTOR, STORAGE_CRYPTO_DESCRIPTOR"
+req.typenames: STORAGE_CRYPTO_DESCRIPTOR, *PSTORAGE_CRYPTO_DESCRIPTOR
 ---
 
 # _STORAGE_CRYPTO_DESCRIPTOR structure

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ad2b3372-f8b4-49dc-ba20-2ee89d60f41f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.cccopywritewontflush, ntifs/CcCopyWriteWontFlush, ccref_a8540235-ac2e-4d04-8153-95e2dae5a650.xml, CcCopyWriteWontFlush function [Installable File System Drivers], CcCopyWriteWontFlush
+ms.keywords: CcCopyWriteWontFlush, CcCopyWriteWontFlush function [Installable File System Drivers], ccref_a8540235-ac2e-4d04-8153-95e2dae5a650.xml, ifsk.cccopywritewontflush, ntifs/CcCopyWriteWontFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -7,8 +7,8 @@ old-location: kernel\pep_work_acpi_notify.htm
 old-project: kernel
 ms.assetid: DFFDDF13-B8C7-4AB0-B2C9-9F34D19B21AE
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PEP_WORK_ACPI_NOTIFY, kernel.pep_work_acpi_notify, PEP_WORK_ACPI_NOTIFY structure [Kernel-Mode Driver Architecture], _PEP_WORK_ACPI_NOTIFY, pepfx/PEP_WORK_ACPI_NOTIFY, PPEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY, pepfx/PPEP_WORK_ACPI_NOTIFY, PPEP_WORK_ACPI_NOTIFY structure pointer [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: "*PPEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIFY structure [Kernel-Mode Driver Architecture], PPEP_WORK_ACPI_NOTIFY, PPEP_WORK_ACPI_NOTIFY structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_ACPI_NOTIFY, kernel.pep_work_acpi_notify, pepfx/PEP_WORK_ACPI_NOTIFY, pepfx/PPEP_WORK_ACPI_NOTIFY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_WORK_ACPI_NOTIFY
 product: Windows
 targetos: Windows
-req.typenames: PEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY
+req.typenames: PEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY
 ---
 
 # _PEP_WORK_ACPI_NOTIFY structure
@@ -101,5 +101,5 @@ The <b>AcpiNotify</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_informa
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_WORK_ACPI_NOTIFY structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_WORK_ACPI_NOTIFY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

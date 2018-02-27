@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6dc32dd7-e15b-4c93-92d1-5b7206ed98c0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFIoQueue::DrainSynchronously, umdf.iwdfioqueue_drainsynchronously, DrainSynchronously method, IWDFIoQueue, DrainSynchronously, IWDFIoQueue interface, DrainSynchronously method, wdf.iwdfioqueue_drainsynchronously, wudfddi/IWDFIoQueue::DrainSynchronously, DrainSynchronously method, IWDFIoQueue interface, UMDFQueueObjectRef_35105420-0461-4879-aba2-28c32ece9aab.xml
+ms.keywords: DrainSynchronously method, DrainSynchronously method, IWDFIoQueue interface, DrainSynchronously,IWDFIoQueue.DrainSynchronously, IWDFIoQueue, IWDFIoQueue interface, DrainSynchronously method, IWDFIoQueue::DrainSynchronously, UMDFQueueObjectRef_35105420-0461-4879-aba2-28c32ece9aab.xml, umdf.iwdfioqueue_drainsynchronously, wdf.iwdfioqueue_drainsynchronously, wudfddi/IWDFIoQueue::DrainSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -90,11 +90,11 @@ The <b>DrainSynchronously</b> method is a synchronous version of the <a href="ht
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a>
 
 
 

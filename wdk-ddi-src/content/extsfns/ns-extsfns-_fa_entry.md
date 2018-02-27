@@ -4,11 +4,11 @@ title: "_FA_ENTRY"
 author: windows-driver-content
 description: A DebugFailureAnalysis object has a collection of failure analysis entries (FA entries). Each FA entry is represented by an FA_ENTRY structure. For more information, see Failure Analysis Entries, Tags, and Data Types.
 old-location: debugger\fa_entry.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 912DCC1E-2C81-4702-8E12-6331DFB298F0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PFA_ENTRY, _FA_ENTRY, FA_ENTRY structure [Windows Debugging], debugger.fa_entry, FA_ENTRY, extsfns/FA_ENTRY"
+ms.date: 2/23/2018
+ms.keywords: "*PFA_ENTRY, FA_ENTRY, FA_ENTRY structure [Windows Debugging], _FA_ENTRY, debugger.fa_entry, extsfns/FA_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FA_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*PFA_ENTRY, FA_ENTRY"
+req.typenames: FA_ENTRY, *PFA_ENTRY
 ---
 
 # _FA_ENTRY structure
@@ -86,15 +86,15 @@ The size of the <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B9
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj991807">Failure Analysis Entries</a>
+
+
+
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
+
+
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
@@ -106,5 +106,5 @@ The size of the <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B9
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20FA_ENTRY structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20FA_ENTRY structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

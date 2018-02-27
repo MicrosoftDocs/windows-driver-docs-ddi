@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: C923D37B-595F-41CF-B2F3-F12303120C95
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercx2fileclose, EvtSerCx2FileClose callback function [Serial Ports], EvtSerCx2FileClose, EVT_SERCX2_FILECLOSE, EVT_SERCX2_FILECLOSE, 2/EvtSerCx2FileClose
+ms.keywords: 2/EvtSerCx2FileClose, EVT_SERCX2_FILECLOSE, EvtSerCx2FileClose, EvtSerCx2FileClose callback function [Serial Ports], serports.evtsercx2fileclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

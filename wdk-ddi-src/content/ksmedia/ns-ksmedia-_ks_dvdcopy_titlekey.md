@@ -7,8 +7,8 @@ old-location: stream\ks_dvdcopy_titlekey.htm
 old-project: stream
 ms.assetid: 8f85bc55-d05b-4075-9ae5-ba5a5516eeb4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ksmedia/KS_DVDCOPY_TITLEKEY, ksmedia/PKS_DVDCOPY_TITLEKEY, _KS_DVDCOPY_TITLEKEY, PKS_DVDCOPY_TITLEKEY, dvdref_58692699-8652-436a-92d5-2284c4d30265.xml, PKS_DVDCOPY_TITLEKEY structure pointer [Streaming Media Devices], stream.ks_dvdcopy_titlekey, KS_DVDCOPY_TITLEKEY, *PKS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY structure [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PKS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY structure [Streaming Media Devices], PKS_DVDCOPY_TITLEKEY, PKS_DVDCOPY_TITLEKEY structure pointer [Streaming Media Devices], _KS_DVDCOPY_TITLEKEY, dvdref_58692699-8652-436a-92d5-2284c4d30265.xml, ksmedia/KS_DVDCOPY_TITLEKEY, ksmedia/PKS_DVDCOPY_TITLEKEY, stream.ks_dvdcopy_titlekey"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_DVDCOPY_TITLEKEY
 product: Windows
 targetos: Windows
-req.typenames: "*PKS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY"
+req.typenames: KS_DVDCOPY_TITLEKEY, *PKS_DVDCOPY_TITLEKEY
 ---
 
 # _KS_DVDCOPY_TITLEKEY structure
@@ -229,5 +229,5 @@ For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_DVDCOPY_TITLEKEY structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_DVDCOPY_TITLEKEY structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

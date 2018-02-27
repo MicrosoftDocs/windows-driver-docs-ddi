@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A0946287-3ED2-4DE1-A3D7-46611B25BB93
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelSaveBegin, netvista.vmbchannelsavebegin, VmbChannelSaveBegin function [Network Drivers Starting with Windows Vista], VmbChannelSaveBegin
+ms.keywords: VmbChannelSaveBegin, VmbChannelSaveBegin function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsavebegin, vmbuskernelmodeclientlibapi/VmbChannelSaveBegin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

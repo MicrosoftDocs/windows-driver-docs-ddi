@@ -7,8 +7,8 @@ old-location: pci\ioctl-sriov-event-complete.htm
 old-project: PCI
 ms.assetid: 5299ec17-1fcb-4449-9ec4-73a4d818df0d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PCI.ioctl-sriov-event-complete, IOCTL_SRIOV_EVENT_COMPLETE control code [Buses], IOCTL_SRIOV_EVENT_COMPLETE, pcivirt/IOCTL_SRIOV_EVENT_COMPLETE
+ms.date: 2/24/2018
+ms.keywords: IOCTL_SRIOV_EVENT_COMPLETE, IOCTL_SRIOV_EVENT_COMPLETE control code [Buses], PCI.ioctl-sriov-event-complete, pcivirt/IOCTL_SRIOV_EVENT_COMPLETE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

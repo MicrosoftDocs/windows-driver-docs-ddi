@@ -7,8 +7,8 @@ old-location: kernel\irq_priority.htm
 old-project: kernel
 ms.assetid: 1dee65e7-27fb-4665-82e2-d7cb3c223f87
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*PIRQ_PRIORITY, _IRQ_PRIORITY, wdm/IRQ_PRIORITY, wdm/IrqPriorityLow, wdm/IrqPriorityUndefined, IrqPriorityHigh, IRQ_PRIORITY enumeration [Kernel-Mode Driver Architecture], IrqPriorityLow, wdm/IrqPriorityNormal, wdm/IrqPriorityHigh, PIRQ_PRIORITY enumeration pointer [Kernel-Mode Driver Architecture], PIRQ_PRIORITY, kernel.irq_priority, sysenum_a5a51a77-ee9c-4e74-9ee4-b097eb361c18.xml, IrqPriorityNormal, wdm/PIRQ_PRIORITY, IRQ_PRIORITY, IrqPriorityUndefined"
+ms.date: 2/24/2018
+ms.keywords: "*PIRQ_PRIORITY, IRQ_PRIORITY, IRQ_PRIORITY enumeration [Kernel-Mode Driver Architecture], IrqPriorityHigh, IrqPriorityLow, IrqPriorityNormal, IrqPriorityUndefined, PIRQ_PRIORITY, PIRQ_PRIORITY enumeration pointer [Kernel-Mode Driver Architecture], _IRQ_PRIORITY, kernel.irq_priority, sysenum_a5a51a77-ee9c-4e74-9ee4-b097eb361c18.xml, wdm/IRQ_PRIORITY, wdm/IrqPriorityHigh, wdm/IrqPriorityLow, wdm/IrqPriorityNormal, wdm/IrqPriorityUndefined, wdm/PIRQ_PRIORITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	IRQ_PRIORITY
 product: Windows
 targetos: Windows
-req.typenames: "*PIRQ_PRIORITY, IRQ_PRIORITY"
+req.typenames: IRQ_PRIORITY, *PIRQ_PRIORITY
 ---
 
 # _IRQ_PRIORITY enumeration
@@ -101,7 +101,7 @@ The system uses <b>IRQ_PRIORITY</b> to assign IRQLs for devices. For example, it
 
 ## -see-also
 
-<a href="..\miniport\ns-miniport-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
@@ -109,5 +109,5 @@ The system uses <b>IRQ_PRIORITY</b> to assign IRQLs for devices. For example, it
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IRQ_PRIORITY enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IRQ_PRIORITY enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: pos\posbarcodescannerdatareceivedeventdata.htm
 old-project: pos
 ms.assetid: 220713c4-ecfe-43a2-aebf-f1b00b75e49b
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: "_PosBarcodeScannerDataReceivedEventData, PosBarcodeScannerDataReceivedEventData structure, PosBarcodeScannerDataReceivedEventData, pointofservicedriverinterface/PosBarcodeScannerDataReceivedEventData, pos.posbarcodescannerdatareceivedeventdata"
+ms.date: 2/23/2018
+ms.keywords: PosBarcodeScannerDataReceivedEventData, PosBarcodeScannerDataReceivedEventData structure, _PosBarcodeScannerDataReceivedEventData, pointofservicedriverinterface/PosBarcodeScannerDataReceivedEventData, pos.posbarcodescannerdatareceivedeventdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _PosBarcodeScannerDataReceivedEventData {
 
 ### -field Header
 
-The <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_poseventdataheader.md">PosEventDataHeader</a> header information for this event.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn772232">PosEventDataHeader</a> header information for this event.
 
 
 ### -field DataType

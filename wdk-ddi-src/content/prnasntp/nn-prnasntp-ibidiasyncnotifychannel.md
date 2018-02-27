@@ -7,8 +7,8 @@ old-location: print\ibidiasyncnotifychannel.htm
 old-project: print
 ms.assetid: 5038BCFA-6E18-4BF8-9442-4F12D77418B0
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.ibidiasyncnotifychannel, IBidiAsyncNotifyChannel interface [Print Devices], IBidiAsyncNotifyChannel interface [Print Devices], described, IBidiAsyncNotifyChannel, prnasntp/IBidiAsyncNotifyChannel
+ms.date: 2/23/2018
+ms.keywords: IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel interface [Print Devices], IBidiAsyncNotifyChannel interface [Print Devices], described, print.ibidiasyncnotifychannel, prnasntp/IBidiAsyncNotifyChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -52,6 +52,13 @@ req.product: Windows 10 or later.
 
 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBidiAsyncNotifyChannel</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBidiAsyncNotifyChannel</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 

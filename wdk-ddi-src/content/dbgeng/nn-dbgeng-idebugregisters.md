@@ -4,11 +4,11 @@ title: IDebugRegisters
 author: windows-driver-content
 description: IDebugRegisters interface
 old-location: debugger\idebugregisters.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: a2587ea7-20cd-43be-ba71-750e699ee0ce
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.idebugregisters, IDebugRegisters interface [Windows Debugging], IDebugRegisters interface [Windows Debugging], described, IDebugRegisters, dbgeng/IDebugRegisters, IDebugRegisters_ca710692-a977-4276-b779-2b66311938dc.xml
+ms.date: 2/23/2018
+ms.keywords: IDebugRegisters, IDebugRegisters interface [Windows Debugging], IDebugRegisters interface [Windows Debugging], described, IDebugRegisters_ca710692-a977-4276-b779-2b66311938dc.xml, dbgeng/IDebugRegisters, debugger.idebugregisters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -50,6 +50,13 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugRegisters</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugRegisters</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -158,29 +165,7 @@ Sets the value of several of the target's registers.
 
 </td>
 </tr>
-</table>Returns the description of a register.
-
-Returns the location of the stack frame for the current function.
-
-Returns the index of the named register.
-
-Returns the location of the current thread's current instruction.
-
-Returns the number of registers on the target computer.
-
-Returns the current thread's current stack location.
-
-Gets the value of one of the target's registers.
-
-Gets the value of several of the target's registers.
-
-Formats and sends the target's registers to the clients as output.
-
-Sets the value of one of the target's registers.
-
-Sets the value of several of the target's registers.
-
- 
+</table> 
 
 
 ## -see-also
@@ -193,5 +178,5 @@ Sets the value of several of the target's registers.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugRegisters interface%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters interface%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: WIAS_LTRACE macro
 author: windows-driver-content
 description: The WIAS_LTRACE macro is obsolete for Windows Vista and later. It is recommended that the WIAS_TRACE macro be used instead.The WIAS_LTRACE macro writes a diagnostic WIA_TRACE message to the log file.
 old-location: image\wias_ltrace.htm
-old-project: Image
+old-project: image
 ms.assetid: 513fd718-3d35-4a7b-be28-b002a8108e86
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IWiaLog_bb7ae826-5b43-47c1-bf94-bd491d8b91a7.xml, WIAS_LTRACE, wiamdef/WIAS_LTRACE, WIAS_LTRACE macro [Imaging Devices], image.wias_ltrace
+ms.date: 2/23/2018
+ms.keywords: IWiaLog_bb7ae826-5b43-47c1-bf94-bd491d8b91a7.xml, WIAS_LTRACE, WIAS_LTRACE macro [Imaging Devices], image.wias_ltrace, wiamdef/WIAS_LTRACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	WIAS_LTRACE
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -199,11 +199,7 @@ The WIAS_LTRACE macro is not recommended for Windows Vista, because it does not 
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_lhresult.md">WIAS_LHRESULT</a>
-
-
-
-<a href="..\wiautil\nf-wiautil-wias_lerror.md">WIAS_LERROR</a>
+<a href="..\wiautil\nf-wiautil-wias_trace.md">WIAS_TRACE</a>
 
 
 
@@ -211,7 +207,11 @@ The WIAS_LTRACE macro is not recommended for Windows Vista, because it does not 
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_trace.md">WIAS_TRACE</a>
+<a href="..\wiautil\nf-wiautil-wias_lerror.md">WIAS_LERROR</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wias_lhresult.md">WIAS_LHRESULT</a>
 
 
 
@@ -219,5 +219,5 @@ The WIAS_LTRACE macro is not recommended for Windows Vista, because it does not 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20WIAS_LTRACE macro%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20WIAS_LTRACE macro%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

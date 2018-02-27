@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 394593f5-92eb-4f84-adbe-67e0e5320ff0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdftimerstop, wdftimer/WdfTimerStop, wdf.wdftimerstop, WdfTimerStop, WdfTimerStop method, DFTimerObjectRef_6b433db6-e7a0-4521-961d-56c3de8a97ad.xml
+ms.keywords: DFTimerObjectRef_6b433db6-e7a0-4521-961d-56c3de8a97ad.xml, WdfTimerStop, WdfTimerStop method, kmdf.wdftimerstop, wdf.wdftimerstop, wdftimer/WdfTimerStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: C744C48E-476A-46F8-97BE-B3484E6FEF27
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_IRB_REQ_GET_GENERATION_COUNT, 1394/IRB_REQ_GET_GENERATION_COUNT, IRB_REQ_GET_GENERATION_COUNT, IRB_REQ_GET_GENERATION_COUNT structure [Buses], IEEE.irb_req_get_generation_count"
+ms.keywords: 1394/IRB_REQ_GET_GENERATION_COUNT, IEEE.irb_req_get_generation_count, IRB_REQ_GET_GENERATION_COUNT, IRB_REQ_GET_GENERATION_COUNT structure [Buses], _IRB_REQ_GET_GENERATION_COUNT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

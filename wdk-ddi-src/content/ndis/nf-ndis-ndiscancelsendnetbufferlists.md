@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7b61db73-ddd4-4d46-b378-9a82fdf041ea
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisCancelSendNetBufferLists, ndis_sendrcv_ref_f4aca438-863f-44fa-9503-8ac339010360.xml, ndis/NdisCancelSendNetBufferLists, NdisCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista], netvista.ndiscancelsendnetbufferlists
+ms.keywords: NdisCancelSendNetBufferLists, NdisCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisCancelSendNetBufferLists, ndis_sendrcv_ref_f4aca438-863f-44fa-9503-8ac339010360.xml, netvista.ndiscancelsendnetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisCancelSendNetBufferLists
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCancelSendNetBufferLists function
@@ -152,17 +152,16 @@ In all cases, NDIS returns network data that was submitted for transmission to t
 
 
 
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
    ProtocolSendNetBufferListsComplete</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
-   NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
 
 
 
@@ -170,7 +169,8 @@ In all cases, NDIS returns network data that was submitted for transmission to t
 
 
 
-<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+   NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a>
 
 
 
