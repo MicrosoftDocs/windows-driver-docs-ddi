@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5295be15-b42e-4e5b-8257-434fb9ed6c83
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, R, RtlCopyString, RtlCopyString routine [Kernel-Mode Driver Architecture], S, g, i, k109_c68983f1-ec02-405f-a3a6-d1f3884fe303.xml, kernel.rtlcopystring, l, n, ntddk/RtlCopyString, o, p, r, t, y"
+ms.keywords: RtlCopyString, RtlCopyString routine [Kernel-Mode Driver Architecture], k109_c68983f1-ec02-405f-a3a6-d1f3884fe303.xml, kernel.rtlcopystring, ntddk/RtlCopyString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,7 +102,7 @@ The <i>DestinationString</i> and <i>SourceString</i> buffers must be resident if
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlcopyunicodestring.md">RtlCopyUnicodeString</a>
+<a href="..\wudfwdm\nf-wudfwdm-rtlcopyunicodestring.md">RtlCopyUnicodeString</a>
 
 
 

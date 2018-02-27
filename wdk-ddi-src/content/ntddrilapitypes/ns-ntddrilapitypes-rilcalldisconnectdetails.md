@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c933e219-47bb-4896-b5ee-bd2fd59f4e8c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , *, *LPRILCALLDISCONNECTDETAILS, ,, A, C, D, E, I, L, N, O, P, R, RILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS structure [Network Drivers Starting with Windows Vista], S, T, netvista.rilcalldisconnectdetails, ntddrilapitypes/RILCALLDISCONNECTDETAILS"
+ms.keywords: "*LPRILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS structure [Network Drivers Starting with Windows Vista], netvista.rilcalldisconnectdetails, ntddrilapitypes/RILCALLDISCONNECTDETAILS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,20 +84,20 @@ typedef struct _RILCALLDISCONNECTDETAILS {
 ### -field RILCAUSEUNION
 
 
+#### - dwASCode
+
+
+#### - dwOtherCode
+
+
+#### - unGPP2Cause
+
+
 #### - unGPPCause
 
 
 #### - unGPPRejectCause
 
 
-#### - unGPP2Cause
-
-
 #### - unIMSSIPCause
-
-
-#### - dwASCode
-
-
-#### - dwOtherCode
 

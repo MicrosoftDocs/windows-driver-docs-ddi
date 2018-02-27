@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 828bb255-4640-4508-866e-e3641ca05773
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , *, *PDS3DVECTOR, ,, 3, C, D, DS3DVECTOR, DS3DVECTOR structure [Audio Devices], E, O, P, PDS3DVECTOR, PDS3DVECTOR structure pointer [Audio Devices], R, S, T, V, _, _DS3DVECTOR, aud-prop_3e17b5ec-c2fc-4e6c-bff1-27be36e376c9.xml, audio.ds3dvector, ksmedia/DS3DVECTOR, ksmedia/PDS3DVECTOR"
+ms.keywords: "*PDS3DVECTOR, DS3DVECTOR, DS3DVECTOR structure [Audio Devices], PDS3DVECTOR, PDS3DVECTOR structure pointer [Audio Devices], _DS3DVECTOR, aud-prop_3e17b5ec-c2fc-4e6c-bff1-27be36e376c9.xml, audio.ds3dvector, ksmedia/DS3DVECTOR, ksmedia/PDS3DVECTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,19 +80,9 @@ typedef struct _DS3DVECTOR {
 
 
 
-#### - x
-
-Specifies the x-coordinate of the position.
-
-
 #### - dvX
 
 Specifies the x-component of the vector.
-
-
-#### - y
-
-Specifies the y-coordinate of the position.
 
 
 #### - dvY
@@ -100,27 +90,37 @@ Specifies the y-coordinate of the position.
 Specifies the y-component of the vector.
 
 
-#### - z
-
-Specifies the z-coordinate of the position.
-
-
 #### - dvZ
 
 Specifies the z-component of the vector.
 
 
+#### - x
+
+Specifies the x-coordinate of the position.
+
+
+#### - y
+
+Specifies the y-coordinate of the position.
+
+
+#### - z
+
+Specifies the z-coordinate of the position.
+
+
 ## -see-also
+
+<a href="..\ksmedia\ns-ksmedia-ksds3d_listener_all.md">KSDS3D_LISTENER_ALL</a>
+
+
 
 <a href="..\ksmedia\ns-ksmedia-ksds3d_listener_orientation.md">KSDS3D_LISTENER_ORIENTATION</a>
 
 
 
 <a href="..\ksmedia\ns-ksmedia-ksds3d_buffer_all.md">KSDS3D_BUFFER_ALL</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksds3d_listener_all.md">KSDS3D_LISTENER_ALL</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 16F04DFD-3AF6-48E0-9BCF-9FE0FC397F91
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 3, A, D, D3DDDI_MAKERESIDENT, D3DDDI_MAKERESIDENT structure [Display Devices], E, I, K, M, N, R, S, T, _, d3dukmdt/D3DDDI_MAKERESIDENT, display.d3dddi_makeresident"
+ms.keywords: D3DDDI_MAKERESIDENT, D3DDDI_MAKERESIDENT structure [Display Devices], d3dukmdt/D3DDDI_MAKERESIDENT, display.d3dddi_makeresident
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,7 +111,7 @@ typedef struct D3DDDI_MAKERESIDENT {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtmakeresident.md">D3DKMTMakeResident</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_makeresidentcb.md">pfnMakeResidentCb</a>
 
 
 
@@ -119,7 +119,7 @@ typedef struct D3DDDI_MAKERESIDENT {
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_makeresidentcb.md">pfnMakeResidentCb</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtmakeresident.md">D3DKMTMakeResident</a>
 
 
 

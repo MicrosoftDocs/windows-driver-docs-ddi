@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 38e77d21-a386-4de8-8d1c-db48434828c6
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 3, D, D3DKMTDestroySynchronizationObject, D3DKMTDestroySynchronizationObject function [Display Devices], K, M, O, OpenGL_Functions_181e72ed-9dd7-4b4c-b6e6-9231a2603f20.xml, S, T, a, b, c, d3dkmthk/D3DKMTDestroySynchronizationObject, display.d3dkmtdestroysynchronizationobject, e, h, i, j, n, o, r, s, t, y, z"
+ms.keywords: D3DKMTDestroySynchronizationObject, D3DKMTDestroySynchronizationObject function [Display Devices], OpenGL_Functions_181e72ed-9dd7-4b4c-b6e6-9231a2603f20.xml, d3dkmthk/D3DKMTDestroySynchronizationObject, display.d3dkmtdestroysynchronizationobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

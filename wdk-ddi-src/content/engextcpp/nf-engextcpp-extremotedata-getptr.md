@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f9778881-9b53-49c5-9fe8-80f9a866b9af
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, E, EngExtCpp_Ref_6aea2145-72ce-4bdc-afb2-1fa360e643da.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetPtr method, ExtRemoteData::GetPtr, G, GetPtr method [Windows Debugging], GetPtr method [Windows Debugging], ExtRemoteData class, GetPtr,ExtRemoteData.GetPtr, P, R, a, debugger.extremotedata_getptr, e, m, o, r, t, x"
+ms.keywords: EngExtCpp_Ref_6aea2145-72ce-4bdc-afb2-1fa360e643da.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetPtr method, ExtRemoteData::GetPtr, GetPtr method [Windows Debugging], GetPtr method [Windows Debugging], ExtRemoteData class, GetPtr,ExtRemoteData.GetPtr, debugger.extremotedata_getptr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -91,11 +91,11 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544035">ExtRemoteData::GetLongPtr</a>
+
+
+
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
 
 

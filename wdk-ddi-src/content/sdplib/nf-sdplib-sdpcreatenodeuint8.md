@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: b5ac8079-032f-4d25-ba12-8fdc0622b8b5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , 8, C, I, N, S, SdpCreateNodeUInt8, SdpCreateNodeUInt8 function [Bluetooth Devices], U, a, bltooth.sdpcreatenodeuint8, bth_funcs_836c7c8c-76a0-4bce-8b30-79550dd5f173.xml, d, e, n, o, p, r, sdplib/SdpCreateNodeUInt8, t"
+ms.keywords: SdpCreateNodeUInt8, SdpCreateNodeUInt8 function [Bluetooth Devices], bltooth.sdpcreatenodeuint8, bth_funcs_836c7c8c-76a0-4bce-8b30-79550dd5f173.xml, sdplib/SdpCreateNodeUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,11 +125,7 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 ## -see-also
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
-
-
-
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
 
 
 
@@ -137,7 +133,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
+
+
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
 
 
 

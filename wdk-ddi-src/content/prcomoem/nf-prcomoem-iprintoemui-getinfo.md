@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: be1eb547-f824-4d6d-818f-8ac1740d1d24
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, G, GetInfo method [Print Devices], GetInfo method [Print Devices], IPrintOemUI interface, GetInfo,IPrintOemUI.GetInfo, I, IPrintOemUI, IPrintOemUI interface [Print Devices], GetInfo method, IPrintOemUI::GetInfo, O, P, U, e, f, i, m, n, o, prcomoem/IPrintOemUI::GetInfo, print.iprintoemui_getinfo, print_unidrv-pscript_ui_8ec47e58-ddf5-4445-85d9-475cfbe0e51b.xml, r, t"
+ms.keywords: GetInfo method [Print Devices], GetInfo method [Print Devices], IPrintOemUI interface, GetInfo,IPrintOemUI.GetInfo, IPrintOemUI, IPrintOemUI interface [Print Devices], GetInfo method, IPrintOemUI::GetInfo, prcomoem/IPrintOemUI::GetInfo, print.iprintoemui_getinfo, print_unidrv-pscript_ui_8ec47e58-ddf5-4445-85d9-475cfbe0e51b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -180,15 +180,15 @@ For more information about creating and installing user interface plug-ins, see 
 
 ## -see-also
 
+<a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554256">IPrintOemUni::GetInfo</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553221">IPrintOemPS::GetInfo</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
 
 
 

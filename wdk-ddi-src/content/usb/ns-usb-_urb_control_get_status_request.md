@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6a005ff3-951f-462d-84e6-e1fd931c5afc
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, B, C, E, G, L, N, O, Q, R, S, T, U, _, _URB_CONTROL_GET_STATUS_REQUEST, _URB_CONTROL_GET_STATUS_REQUEST structure [Buses], buses._urb_control_get_status_request, usb/_URB_CONTROL_GET_STATUS_REQUEST, usbstrct_b91864c5-b19a-492d-a5dc-1fabdf4c37f9.xml"
+ms.keywords: "_URB_CONTROL_GET_STATUS_REQUEST, _URB_CONTROL_GET_STATUS_REQUEST structure [Buses], buses._urb_control_get_status_request, usb/_URB_CONTROL_GET_STATUS_REQUEST, usbstrct_b91864c5-b19a-492d-a5dc-1fabdf4c37f9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

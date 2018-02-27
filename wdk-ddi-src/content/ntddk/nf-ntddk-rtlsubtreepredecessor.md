@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 19c1bea8-dba7-45a5-9620-0d6a928019ce
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , P, R, RtlSubtreePredecessor, RtlSubtreePredecessor routine [Installable File System Drivers], S, b, c, d, e, ifsk.rtlsubtreepredecessor, l, ntddk/RtlSubtreePredecessor, o, r, rtlref_0d0ea0f4-2b16-4d9c-8747-78d6ddcc90d6.xml, s, t, u"
+ms.keywords: RtlSubtreePredecessor, RtlSubtreePredecessor routine [Installable File System Drivers], ifsk.rtlsubtreepredecessor, ntddk/RtlSubtreePredecessor, rtlref_0d0ea0f4-2b16-4d9c-8747-78d6ddcc90d6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

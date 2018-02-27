@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 636db99c-9195-4476-b1a6-a8067f27c6bd
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, F, I, IFixedDocumentSequence, IFixedDocumentSequence interface [Print Devices], SetPrintTicket method, IFixedDocumentSequence::SetPrintTicket, P, S, SetPrintTicket method [Print Devices], SetPrintTicket method [Print Devices], IFixedDocumentSequence interface, SetPrintTicket,IFixedDocumentSequence.SetPrintTicket, T, c, d, e, filterpipeline/IFixedDocumentSequence::SetPrintTicket, filterpipeline_01f88943-7bfe-4819-b553-a6c563ac5f49.xml, i, k, m, n, o, print.ifixeddocumentsequence_setprintticket, q, r, t, u, x"
+ms.keywords: IFixedDocumentSequence, IFixedDocumentSequence interface [Print Devices], SetPrintTicket method, IFixedDocumentSequence::SetPrintTicket, SetPrintTicket method [Print Devices], SetPrintTicket method [Print Devices], IFixedDocumentSequence interface, SetPrintTicket,IFixedDocumentSequence.SetPrintTicket, filterpipeline/IFixedDocumentSequence::SetPrintTicket, filterpipeline_01f88943-7bfe-4819-b553-a6c563ac5f49.xml, print.ifixeddocumentsequence_setprintticket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53665c1d-8c0b-45c7-8d23-13c0964eda39
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, D, G, P, V, VideoPortGetDeviceBase, VideoPortGetDeviceBase function [Display Devices], VideoPort_Functions_ee5844a6-6337-42b7-b960-5228ad1c1ae4.xml, a, c, d, display.videoportgetdevicebase, e, i, o, r, s, t, v, video/VideoPortGetDeviceBase"
+ms.keywords: VideoPortGetDeviceBase, VideoPortGetDeviceBase function [Display Devices], VideoPort_Functions_ee5844a6-6337-42b7-b960-5228ad1c1ae4.xml, display.videoportgetdevicebase, video/VideoPortGetDeviceBase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -193,15 +193,19 @@ If a miniport driver does not support an adapter that it has mapped a logical ra
 
 
 
+<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
+
+
+
 <a href="..\video\nf-video-videoportfreedevicebase.md">VideoPortFreeDeviceBase</a>
 
 
 
-<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
+<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
 
 
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
 
 
 
@@ -209,11 +213,7 @@ If a miniport driver does not support an adapter that it has mapped a logical ra
 
 
 
-<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
-
-
-
-<a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 
 
@@ -225,7 +225,7 @@ If a miniport driver does not support an adapter that it has mapped a logical ra
 
 
 
-<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
+<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
 
 
 
@@ -233,7 +233,7 @@ If a miniport driver does not support an adapter that it has mapped a logical ra
 
 
 
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+<a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
 
 
 

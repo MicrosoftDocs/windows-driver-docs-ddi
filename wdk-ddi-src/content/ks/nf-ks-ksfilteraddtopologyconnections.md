@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 32a61103-5f2f-4b73-a299-bf6a14c3bec9
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, C, F, K, KsFilterAddTopologyConnections, KsFilterAddTopologyConnections function [Streaming Media Devices], T, avfunc_99b8984f-5ca2-460b-ab20-230fd09b6d13.xml, c, d, e, g, i, ks/KsFilterAddTopologyConnections, l, n, o, p, r, s, stream.ksfilteraddtopologyconnections, t, y"
+ms.keywords: KsFilterAddTopologyConnections, KsFilterAddTopologyConnections function [Streaming Media Devices], avfunc_99b8984f-5ca2-460b-ab20-230fd09b6d13.xml, ks/KsFilterAddTopologyConnections, stream.ksfilteraddtopologyconnections
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,11 +107,11 @@ For more information about mutexes, see <a href="https://msdn.microsoft.com/011e
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
-
-
-
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+
+
+<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
 
 
 

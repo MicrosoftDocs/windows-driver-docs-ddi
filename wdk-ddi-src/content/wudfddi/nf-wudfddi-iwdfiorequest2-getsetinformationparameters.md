@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 44872d92-4a71-4cc7-9f7c-c95477ac3264
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., 2, :, D, F, G, GetSetInformationParameters method, GetSetInformationParameters method, IWDFIoRequest2 interface, GetSetInformationParameters,IWDFIoRequest2.GetSetInformationParameters, I, IWDFIoRequest2, IWDFIoRequest2 interface, GetSetInformationParameters method, IWDFIoRequest2::GetSetInformationParameters, P, R, S, UMDFRequestObjectRef_ed4dd211-1a7c-4ca3-9450-ab4320ece88d.xml, W, a, e, f, i, m, n, o, q, r, s, t, u, umdf.iwdfiorequest2_getsetinformationparameters, wdf.iwdfiorequest2_getsetinformationparameters, wudfddi/IWDFIoRequest2::GetSetInformationParameters"
+ms.keywords: GetSetInformationParameters method, GetSetInformationParameters method, IWDFIoRequest2 interface, GetSetInformationParameters,IWDFIoRequest2.GetSetInformationParameters, IWDFIoRequest2, IWDFIoRequest2 interface, GetSetInformationParameters method, IWDFIoRequest2::GetSetInformationParameters, UMDFRequestObjectRef_ed4dd211-1a7c-4ca3-9450-ab4320ece88d.xml, umdf.iwdfiorequest2_getsetinformationparameters, wdf.iwdfiorequest2_getsetinformationparameters, wudfddi/IWDFIoRequest2::GetSetInformationParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,7 +73,7 @@ void GetSetInformationParameters(
 
 ### -param pInformationClass [out, optional]
 
-A pointer to a driver-allocated variable that receives a <a href="..\wdffileobject\ne-wdffileobject-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value. This pointer is optional and can be <b>NULL</b>.
+A pointer to a driver-allocated variable that receives a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value. This pointer is optional and can be <b>NULL</b>.
 
 
 ### -param pSizeInBytes [out, optional]
@@ -177,11 +177,11 @@ exit:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558997">IWDFIoRequest2::GetQueryInformationParameters</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558997">IWDFIoRequest2::GetQueryInformationParameters</a>
 
 
 

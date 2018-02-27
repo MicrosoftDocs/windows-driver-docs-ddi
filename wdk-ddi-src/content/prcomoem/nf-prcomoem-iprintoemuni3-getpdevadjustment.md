@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bb7d7248-9520-4bc8-8483-b05b78608fc7
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 3, :, A, D, E, G, GetPDEVAdjustment method [Print Devices], GetPDEVAdjustment method [Print Devices], IPrintOemUni3 interface, GetPDEVAdjustment,IPrintOemUni3.GetPDEVAdjustment, I, IPrintOemUni3, IPrintOemUni3 interface [Print Devices], GetPDEVAdjustment method, IPrintOemUni3::GetPDEVAdjustment, O, P, U, V, d, e, i, j, m, n, prcomoem/IPrintOemUni3::GetPDEVAdjustment, print.iprintoemuni3_getpdevadjustment, print_unidrv-pscript_rendering_d30dca0e-9e1d-4d42-9f9d-e6abd364da96.xml, r, s, t, u"
+ms.keywords: GetPDEVAdjustment method [Print Devices], GetPDEVAdjustment method [Print Devices], IPrintOemUni3 interface, GetPDEVAdjustment,IPrintOemUni3.GetPDEVAdjustment, IPrintOemUni3, IPrintOemUni3 interface [Print Devices], GetPDEVAdjustment method, IPrintOemUni3::GetPDEVAdjustment, prcomoem/IPrintOemUni3::GetPDEVAdjustment, print.iprintoemuni3_getpdevadjustment, print_unidrv-pscript_rendering_d30dca0e-9e1d-4d42-9f9d-e6abd364da96.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -157,7 +157,7 @@ Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code>
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_pdev_use_true_color.md">PDEV_USE_TRUE_COLOR</a>
+<a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
 
 
 
@@ -165,7 +165,7 @@ Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code>
 
 
 
-<a href="..\printoem\ns-printoem-_pdev_adjust_imageable_origin_area.md">PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA</a>
+<a href="..\prcomoem\nn-prcomoem-iprintoemuni3.md">IPrintOemUni3</a>
 
 
 
@@ -173,15 +173,15 @@ Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code>
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni3.md">IPrintOemUni3</a>
-
-
-
-<a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
-
-
-
 <a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
+
+
+
+<a href="..\printoem\ns-printoem-_pdev_adjust_imageable_origin_area.md">PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA</a>
+
+
+
+<a href="..\printoem\ns-printoem-_pdev_use_true_color.md">PDEV_USE_TRUE_COLOR</a>
 
 
 

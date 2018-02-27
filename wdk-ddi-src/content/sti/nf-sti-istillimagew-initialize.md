@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2410f27f-f880-4870-a86a-2d6000b651fd
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, I, IStillImageW, IStillImageW interface [Imaging Devices], Initialize method, IStillImageW::Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices], IStillImageW interface, Initialize,IStillImageW.Initialize, S, W, a, e, g, i, image.istillimage_initialize, l, m, n, sti/IStillImageW::Initialize, stifnc_31e54f97-84af-47bf-a1b1-17ab697caef3.xml, t, z"
+ms.keywords: IStillImageW, IStillImageW interface [Imaging Devices], Initialize method, IStillImageW::Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices], IStillImageW interface, Initialize,IStillImageW.Initialize, image.istillimage_initialize, sti/IStillImageW::Initialize, stifnc_31e54f97-84af-47bf-a1b1-17ab697caef3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

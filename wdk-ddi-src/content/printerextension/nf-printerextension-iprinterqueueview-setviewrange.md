@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, I, IPrinterQueueView, IPrinterQueueView interface [Print Devices], SetViewRange method, IPrinterQueueView::SetViewRange, P, Q, R, S, SetViewRange method [Print Devices], SetViewRange method [Print Devices], IPrinterQueueView interface, SetViewRange,IPrinterQueueView.SetViewRange, V, a, e, g, i, n, print.iprinterqueueview_setviewrange, printerextension/IPrinterQueueView::SetViewRange, r, t, u, w"
+ms.keywords: IPrinterQueueView, IPrinterQueueView interface [Print Devices], SetViewRange method, IPrinterQueueView::SetViewRange, SetViewRange method [Print Devices], SetViewRange method [Print Devices], IPrinterQueueView interface, SetViewRange,IPrinterQueueView.SetViewRange, print.iprinterqueueview_setviewrange, printerextension/IPrinterQueueView::SetViewRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

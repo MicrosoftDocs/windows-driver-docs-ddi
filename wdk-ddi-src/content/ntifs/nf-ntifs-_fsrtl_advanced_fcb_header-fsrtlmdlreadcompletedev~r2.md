@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6b48327a-885c-418e-b7d1-c3995642cf1c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, D, F, FsRtlMdlReadCompleteDev, FsRtlMdlReadCompleteDev routine [Installable File System Drivers], M, R, a, d, e, fsrtlref_76db9e4c-412e-48a6-b2ae-e6877195dd05.xml, ifsk.fsrtlmdlreadcompletedev, l, m, ntifs/FsRtlMdlReadCompleteDev, o, p, s, t, v"
+ms.keywords: FsRtlMdlReadCompleteDev, FsRtlMdlReadCompleteDev routine [Installable File System Drivers], fsrtlref_76db9e4c-412e-48a6-b2ae-e6877195dd05.xml, ifsk.fsrtlmdlreadcompletedev, ntifs/FsRtlMdlReadCompleteDev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

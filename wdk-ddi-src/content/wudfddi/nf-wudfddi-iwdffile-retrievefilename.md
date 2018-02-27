@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7858f3ba-e02a-4115-bf30-12e3a6a75965
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, D, F, I, IWDFFile, IWDFFile interface, RetrieveFileName method, IWDFFile::RetrieveFileName, N, R, RetrieveFileName method, RetrieveFileName method, IWDFFile interface, RetrieveFileName,IWDFFile.RetrieveFileName, UMDFFileObjectRef_6c460bef-f774-4f9c-9e56-3c57ad023ae8.xml, W, a, e, i, l, m, r, t, umdf.iwdffile_retrievefilename, v, wdf.iwdffile_retrievefilename, wudfddi/IWDFFile::RetrieveFileName"
+ms.keywords: IWDFFile, IWDFFile interface, RetrieveFileName method, IWDFFile::RetrieveFileName, RetrieveFileName method, RetrieveFileName method, IWDFFile interface, RetrieveFileName,IWDFFile.RetrieveFileName, UMDFFileObjectRef_6c460bef-f774-4f9c-9e56-3c57ad023ae8.xml, umdf.iwdffile_retrievefilename, wdf.iwdffile_retrievefilename, wudfddi/IWDFFile::RetrieveFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 24ce2918-1d9f-41eb-add1-a50b888f0a99
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., 2, :, D, F, FormatRequestForQueryInformation method, FormatRequestForQueryInformation method, IWDFIoTarget2 interface, FormatRequestForQueryInformation,IWDFIoTarget2.FormatRequestForQueryInformation, I, IWDFIoTarget2, IWDFIoTarget2 interface, FormatRequestForQueryInformation method, IWDFIoTarget2::FormatRequestForQueryInformation, Q, R, T, UMDFIoTargetObjectRef_8057f7bc-65c3-491b-9aa3-a5fc9e790524.xml, W, a, e, f, g, i, m, n, o, q, r, s, t, u, umdf.iwdfiotarget2_formatrequestforqueryinformation, wdf.iwdfiotarget2_formatrequestforqueryinformation, wudfddi/IWDFIoTarget2::FormatRequestForQueryInformation, y"
+ms.keywords: FormatRequestForQueryInformation method, FormatRequestForQueryInformation method, IWDFIoTarget2 interface, FormatRequestForQueryInformation,IWDFIoTarget2.FormatRequestForQueryInformation, IWDFIoTarget2, IWDFIoTarget2 interface, FormatRequestForQueryInformation method, IWDFIoTarget2::FormatRequestForQueryInformation, UMDFIoTargetObjectRef_8057f7bc-65c3-491b-9aa3-a5fc9e790524.xml, umdf.iwdfiotarget2_formatrequestforqueryinformation, wdf.iwdfiotarget2_formatrequestforqueryinformation, wudfddi/IWDFIoTarget2::FormatRequestForQueryInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,7 +81,7 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest<
 
 ### -param InformationClass [in]
 
-A <a href="..\wdffileobject\ne-wdffileobject-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value that specifies the type of information to obtain.
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value that specifies the type of information to obtain.
 
 
 ### -param pFile [in, optional]
@@ -224,11 +224,11 @@ Error;
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559191">IWDFIoTarget2::FormatRequestForSetInformation</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget2.md">IWDFIoTarget2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559191">IWDFIoTarget2::FormatRequestForSetInformation</a>
 
 
 

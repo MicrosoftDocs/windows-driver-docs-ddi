@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9d68a41d-0f2b-4cf0-92c6-8e05ce6b4378
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , I, S, SplIsSessionZero, SplIsSessionZero function [Print Devices], Z, e, i, l, n, o, p, print.splissessionzero, r, s, spoolfnc_8fd112f0-f2bf-4a33-8411-c1ce7c620390.xml, winsplp/SplIsSessionZero"
+ms.keywords: SplIsSessionZero, SplIsSessionZero function [Print Devices], print.splissessionzero, spoolfnc_8fd112f0-f2bf-4a33-8411-c1ce7c620390.xml, winsplp/SplIsSessionZero
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

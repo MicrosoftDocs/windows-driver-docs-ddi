@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 572A2C38-A990-4225-A3FC-6E899A248B1C
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , *, *PGNSS_SELFTESTRESULT, ,, E, F, G, GNSS_SELFTESTRESULT, GNSS_SELFTESTRESULT structure [Sensor Devices], L, N, P, PGNSS_SELFTESTRESULT, PGNSS_SELFTESTRESULT structure pointer [Sensor Devices], R, S, T, U, _, gnssdriver/GNSS_SELFTESTRESULT, gnssdriver/PGNSS_SELFTESTRESULT, sensors.gnss_selftestresult"
+ms.keywords: "*PGNSS_SELFTESTRESULT, GNSS_SELFTESTRESULT, GNSS_SELFTESTRESULT structure [Sensor Devices], PGNSS_SELFTESTRESULT, PGNSS_SELFTESTRESULT structure pointer [Sensor Devices], gnssdriver/GNSS_SELFTESTRESULT, gnssdriver/PGNSS_SELFTESTRESULT, sensors.gnss_selftestresult"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -126,12 +126,12 @@ The length of the buffer for returning any additional information about the self
 
 
 
-#### - Unused[512]
-
-Padding buffer.
-
-
 #### - OutBuffer[BYTE]
 
 The buffer that will contain the additional information about the self-test.
+
+
+#### - Unused[512]
+
+Padding buffer.
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 24e47733-14c2-4d2c-8b0a-8cdfd68c8b3b
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PReportDiscoveredTargets2_OUT, ,, 2, D, O, P, PReportDiscoveredTargets2_OUT, PReportDiscoveredTargets2_OUT structure pointer [Storage Devices], R, ReportDiscoveredTargets2_OUT, ReportDiscoveredTargets2_OUT structure [Storage Devices], T, U, _, _ReportDiscoveredTargets2_OUT, a, c, d, e, g, i, iscsifnd/PReportDiscoveredTargets2_OUT, iscsifnd/ReportDiscoveredTargets2_OUT, o, p, r, s, storage.reportdiscoveredtargets2_out, structs-iSCSI_b6c57e31-b994-4873-97e5-87499d4ce120.xml, t, v"
+ms.keywords: "*PReportDiscoveredTargets2_OUT, PReportDiscoveredTargets2_OUT, PReportDiscoveredTargets2_OUT structure pointer [Storage Devices], ReportDiscoveredTargets2_OUT, ReportDiscoveredTargets2_OUT structure [Storage Devices], _ReportDiscoveredTargets2_OUT, iscsifnd/PReportDiscoveredTargets2_OUT, iscsifnd/ReportDiscoveredTargets2_OUT, storage.reportdiscoveredtargets2_out, structs-iSCSI_b6c57e31-b994-4873-97e5-87499d4ce120.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

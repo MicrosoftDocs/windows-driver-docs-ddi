@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53565c01-9e6f-4ade-8c4a-2a4dbe7d48c7
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 3, D, D3DKMT_DIRTYREGIONS, D3DKMT_DIRTYREGIONS structure [Display Devices], E, G, I, K, M, N, O, OpenGL_Structs_a6113f9d-8ffc-4e75-8366-8329ad6c114b.xml, R, S, T, Y, _, _D3DKMT_DIRTYREGIONS, d3dkmthk/D3DKMT_DIRTYREGIONS, display.d3dkmt_dirtyregions"
+ms.keywords: D3DKMT_DIRTYREGIONS, D3DKMT_DIRTYREGIONS structure [Display Devices], OpenGL_Structs_a6113f9d-8ffc-4e75-8366-8329ad6c114b.xml, _D3DKMT_DIRTYREGIONS, d3dkmthk/D3DKMT_DIRTYREGIONS, display.d3dkmt_dirtyregions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

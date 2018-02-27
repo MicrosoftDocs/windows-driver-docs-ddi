@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: D281BCBB-CDC6-442C-9A47-DF07D1BE1B28
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , *, *PCMP_MONITOR_PLUGS, ,, 61883/CMP_MONITOR_PLUGS, 61883/PCMP_MONITOR_PLUGS, C, CMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS structure [Buses], G, I, IEEE.cmp_monitor_plugs, L, M, N, O, P, PCMP_MONITOR_PLUGS, PCMP_MONITOR_PLUGS structure pointer [Buses], R, S, T, U, _, _CMP_MONITOR_PLUGS"
+ms.keywords: "*PCMP_MONITOR_PLUGS, 61883/CMP_MONITOR_PLUGS, 61883/PCMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS structure [Buses], IEEE.cmp_monitor_plugs, PCMP_MONITOR_PLUGS, PCMP_MONITOR_PLUGS structure pointer [Buses], _CMP_MONITOR_PLUGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

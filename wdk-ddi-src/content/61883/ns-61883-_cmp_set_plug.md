@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 2C47165D-9D04-46C8-A1EC-04E6F32AE516
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , *, *PCMP_SET_PLUG, ,, 61883/CMP_SET_PLUG, 61883/PCMP_SET_PLUG, C, CMP_SET_PLUG, CMP_SET_PLUG structure [Buses], E, G, IEEE.cmp_set_plug, L, M, P, PCMP_SET_PLUG, PCMP_SET_PLUG structure pointer [Buses], S, T, U, _, _CMP_SET_PLUG"
+ms.keywords: "*PCMP_SET_PLUG, 61883/CMP_SET_PLUG, 61883/PCMP_SET_PLUG, CMP_SET_PLUG, CMP_SET_PLUG structure [Buses], IEEE.cmp_set_plug, PCMP_SET_PLUG, PCMP_SET_PLUG structure pointer [Buses], _CMP_SET_PLUG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

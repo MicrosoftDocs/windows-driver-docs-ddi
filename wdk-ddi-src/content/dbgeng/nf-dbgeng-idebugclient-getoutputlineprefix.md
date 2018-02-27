@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: FE836B10-1782-4B0E-9D4B-2740FE94B6E1
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, D, G, GetOutputLinePrefix method [Windows Debugging], GetOutputLinePrefix method [Windows Debugging], IDebugClient interface, GetOutputLinePrefix,IDebugClient.GetOutputLinePrefix, I, IDebugClient, IDebugClient interface [Windows Debugging], GetOutputLinePrefix method, IDebugClient::GetOutputLinePrefix, L, O, P, b, dbgeng/IDebugClient::GetOutputLinePrefix, debugger.idebugclient_getoutputlineprefix, e, f, g, i, l, n, p, r, t, u, x"
+ms.keywords: GetOutputLinePrefix method [Windows Debugging], GetOutputLinePrefix method [Windows Debugging], IDebugClient interface, GetOutputLinePrefix,IDebugClient.GetOutputLinePrefix, IDebugClient, IDebugClient interface [Windows Debugging], GetOutputLinePrefix method, IDebugClient::GetOutputLinePrefix, dbgeng/IDebugClient::GetOutputLinePrefix, debugger.idebugclient_getoutputlineprefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

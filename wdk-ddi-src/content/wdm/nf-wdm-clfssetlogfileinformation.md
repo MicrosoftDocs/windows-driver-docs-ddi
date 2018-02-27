@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9f44b1ce-25d4-438f-b4eb-cff7bbfb5e0a
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, ClfsSetLogFileInformation, ClfsSetLogFileInformation routine [Kernel-Mode Driver Architecture], Clfs_15ad655b-ee70-4ee8-9868-4e7ab96dfb3a.xml, F, I, L, S, a, e, f, g, i, kernel.clfssetlogfileinformation, l, m, n, o, r, s, t, wdm/ClfsSetLogFileInformation"
+ms.keywords: ClfsSetLogFileInformation, ClfsSetLogFileInformation routine [Kernel-Mode Driver Architecture], Clfs_15ad655b-ee70-4ee8-9868-4e7ab96dfb3a.xml, kernel.clfssetlogfileinformation, wdm/ClfsSetLogFileInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -180,7 +180,7 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a>
+<a href="..\wdm\ne-wdm-_cls_log_information_class.md">CLFS_LOG_INFORMATION_CLASS</a>
 
 
 
@@ -192,15 +192,15 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a>
+
+
+
 <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
 
 
 
 <a href="..\wdm\ns-wdm-_clfs_stream_id_information.md">CLFS_STREAM_ID_INFORMATION</a>
-
-
-
-<a href="..\wdm\ne-wdm-_cls_log_information_class.md">CLFS_LOG_INFORMATION_CLASS</a>
 
 
 

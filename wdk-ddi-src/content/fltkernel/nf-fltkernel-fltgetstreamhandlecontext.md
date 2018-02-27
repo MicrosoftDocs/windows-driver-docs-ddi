@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c6e7c0d8-8005-4a40-a13b-ee58feeabbf0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, F, FltApiRef_e_to_o_4a329c48-3a48-47bc-b998-3aaee454fbef.xml, FltGetStreamHandleContext, FltGetStreamHandleContext routine [Installable File System Drivers], G, H, S, a, d, e, fltkernel/FltGetStreamHandleContext, ifsk.fltgetstreamhandlecontext, l, m, n, o, r, t, x"
+ms.keywords: FltApiRef_e_to_o_4a329c48-3a48-47bc-b998-3aaee454fbef.xml, FltGetStreamHandleContext, FltGetStreamHandleContext routine [Installable File System Drivers], fltkernel/FltGetStreamHandleContext, ifsk.fltgetstreamhandlecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,15 +142,11 @@ To delete a stream handle context, call <a href="..\fltkernel\nf-fltkernel-fltde
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltdeletestreamhandlecontext.md">FltDeleteStreamHandleContext</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetstreamhandlecontext.md">FltSetStreamHandleContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 
 
@@ -158,7 +154,11 @@ To delete a stream handle context, call <a href="..\fltkernel\nf-fltkernel-fltde
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsetstreamhandlecontext.md">FltSetStreamHandleContext</a>
 
 
 

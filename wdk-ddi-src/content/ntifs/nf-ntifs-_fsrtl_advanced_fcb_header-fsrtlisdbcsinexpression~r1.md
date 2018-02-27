@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 87292b33-4b82-4ac5-b71b-523391e5fea2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , D, E, F, FsRtlIsDbcsInExpression, FsRtlIsDbcsInExpression routine [Installable File System Drivers], I, R, b, c, e, fsrtlref_f38a4fe0-8553-4e19-a6c9-fb83a81c6cb5.xml, i, ifsk.fsrtlisdbcsinexpression, l, n, ntifs/FsRtlIsDbcsInExpression, o, p, r, s, t, x"
+ms.keywords: FsRtlIsDbcsInExpression, FsRtlIsDbcsInExpression routine [Installable File System Drivers], fsrtlref_f38a4fe0-8553-4e19-a6c9-fb83a81c6cb5.xml, ifsk.fsrtlisdbcsinexpression, ntifs/FsRtlIsDbcsInExpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

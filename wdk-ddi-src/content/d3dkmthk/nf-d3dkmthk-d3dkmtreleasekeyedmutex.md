@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c2a50621-fa84-4525-86f7-845e886203fe
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 3, D, D3DKMTReleaseKeyedMutex, D3DKMTReleaseKeyedMutex function [Display Devices], K, M, OpenGL_Functions_16fd3037-2615-49c0-8500-7c93bcda3c9f.xml, R, T, a, d, d3dkmthk/D3DKMTReleaseKeyedMutex, display.d3dkmtreleasekeyedmutex, e, l, s, t, u, x, y"
+ms.keywords: D3DKMTReleaseKeyedMutex, D3DKMTReleaseKeyedMutex function [Display Devices], OpenGL_Functions_16fd3037-2615-49c0-8500-7c93bcda3c9f.xml, d3dkmthk/D3DKMTReleaseKeyedMutex, display.d3dkmtreleasekeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

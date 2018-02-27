@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6f06e89c-5298-4335-ab9a-ef69e635152c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, C, I, IImpersonateCallback, IImpersonateCallback interface, OnImpersonate method, IImpersonateCallback::OnImpersonate, O, OnImpersonate method, OnImpersonate method, IImpersonateCallback interface, OnImpersonate,IImpersonateCallback.OnImpersonate, UMDFRequestObjectRef_e3752371-61b0-44ba-af86-0cf244e27894.xml, a, b, c, e, k, l, m, n, o, p, r, s, t, umdf.iimpersonatecallback_onimpersonate, wdf.iimpersonatecallback_onimpersonate, wudfddi/IImpersonateCallback::OnImpersonate"
+ms.keywords: IImpersonateCallback, IImpersonateCallback interface, OnImpersonate method, IImpersonateCallback::OnImpersonate, OnImpersonate method, OnImpersonate method, IImpersonateCallback interface, OnImpersonate,IImpersonateCallback.OnImpersonate, UMDFRequestObjectRef_e3752371-61b0-44ba-af86-0cf244e27894.xml, umdf.iimpersonatecallback_onimpersonate, wdf.iimpersonatecallback_onimpersonate, wudfddi/IImpersonateCallback::OnImpersonate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

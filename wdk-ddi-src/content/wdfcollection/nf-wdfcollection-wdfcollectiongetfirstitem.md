@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4884de4d-6e5f-4c9f-bd49-2fc58481e9c6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , C, DFCollectionObjectRef_1a816492-f120-48f9-9c10-88f71947008c.xml, F, G, I, W, WdfCollectionGetFirstItem, WdfCollectionGetFirstItem method, c, d, e, f, i, kmdf.wdfcollectiongetfirstitem, l, m, n, o, r, s, t, wdf.wdfcollectiongetfirstitem, wdfcollection/WdfCollectionGetFirstItem"
+ms.keywords: DFCollectionObjectRef_1a816492-f120-48f9-9c10-88f71947008c.xml, WdfCollectionGetFirstItem, WdfCollectionGetFirstItem method, kmdf.wdfcollectiongetfirstitem, wdf.wdfcollectiongetfirstitem, wdfcollection/WdfCollectionGetFirstItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

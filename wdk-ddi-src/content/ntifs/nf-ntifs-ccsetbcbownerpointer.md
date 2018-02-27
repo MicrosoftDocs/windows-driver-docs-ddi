@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fa99ebc4-72d3-42ef-9dda-dcfdd438f66f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , B, C, CcSetBcbOwnerPointer, CcSetBcbOwnerPointer routine [Installable File System Drivers], O, P, S, b, c, ccref_9ad1d1a5-0600-4cfa-88d3-e4e5d2cd9df1.xml, e, i, ifsk.ccsetbcbownerpointer, n, ntifs/CcSetBcbOwnerPointer, o, r, t, w"
+ms.keywords: CcSetBcbOwnerPointer, CcSetBcbOwnerPointer routine [Installable File System Drivers], ccref_9ad1d1a5-0600-4cfa-88d3-e4e5d2cd9df1.xml, ifsk.ccsetbcbownerpointer, ntifs/CcSetBcbOwnerPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,15 +102,15 @@ BCBs that have been modified by <b>CcSetBcbOwnerPointer</b> cannot be unpinned b
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-ccunpindataforthread.md">CcUnpinDataForThread</a>
 
 
 
 <a href="..\wdm\nf-wdm-exsetresourceownerpointer.md">ExSetResourceOwnerPointer</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
 
 

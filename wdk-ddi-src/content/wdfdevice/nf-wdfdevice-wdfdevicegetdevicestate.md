@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 510197cf-8eab-4e1a-8b51-c1c08c58532b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , D, DFDeviceObjectGeneralRef_459b9aad-7503-4319-be67-4b713a32559e.xml, G, S, W, WdfDeviceGetDeviceState, WdfDeviceGetDeviceState method, a, c, d, e, f, i, kmdf.wdfdevicegetdevicestate, t, v, wdf.wdfdevicegetdevicestate, wdfdevice/WdfDeviceGetDeviceState"
+ms.keywords: DFDeviceObjectGeneralRef_459b9aad-7503-4319-be67-4b713a32559e.xml, WdfDeviceGetDeviceState, WdfDeviceGetDeviceState method, kmdf.wdfdevicegetdevicestate, wdf.wdfdevicegetdevicestate, wdfdevice/WdfDeviceGetDeviceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: a577a116-9e5e-42d3-aac0-a6b90131ad9d
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, I, P, PcwCloseInstance, PcwCloseInstance function [Driver Development Tools], a, c, devtest.pcwcloseinstance, e, km_pcw_f30288bf-ff25-46fd-b058-74294fc03278.xml, l, n, o, s, t, w, wdm/PcwCloseInstance"
+ms.keywords: PcwCloseInstance, PcwCloseInstance function [Driver Development Tools], devtest.pcwcloseinstance, km_pcw_f30288bf-ff25-46fd-b058-74294fc03278.xml, wdm/PcwCloseInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

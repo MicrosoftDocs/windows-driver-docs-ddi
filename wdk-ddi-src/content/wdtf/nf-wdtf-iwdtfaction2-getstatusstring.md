@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 21f7a3ea-5db9-4666-865c-c6b1ca9ba20f
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, D, F, G, GetStatusString method [Windows Device Testing Framework], GetStatusString method [Windows Device Testing Framework], IWDTFAction2 interface, GetStatusString,IWDTFAction2.GetStatusString, I, IWDTFAction2, IWDTFAction2 interface [Windows Device Testing Framework], GetStatusString method, IWDTFAction2::GetStatusString, Microsoft.WDTF.IWDTFAction2.GetStatusString, Microsoft::WDTF::IWDTFAction2::GetStatusString, S, T, W, a, c, dtf.iwdtfaction2_getstatusstring, e, g, i, n, o, r, s, t, u, wdtf/IWDTFAction2::GetStatusString"
+ms.keywords: GetStatusString method [Windows Device Testing Framework], GetStatusString method [Windows Device Testing Framework], IWDTFAction2 interface, GetStatusString,IWDTFAction2.GetStatusString, IWDTFAction2, IWDTFAction2 interface [Windows Device Testing Framework], GetStatusString method, IWDTFAction2::GetStatusString, Microsoft.WDTF.IWDTFAction2.GetStatusString, Microsoft::WDTF::IWDTFAction2::GetStatusString, dtf.iwdtfaction2_getstatusstring, wdtf/IWDTFAction2::GetStatusString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

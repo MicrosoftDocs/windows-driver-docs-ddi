@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ba50fcac-acb1-43de-aacc-b47845f19f44
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , E, R, RtlEqualUnicodeString, RtlEqualUnicodeString routine [Kernel-Mode Driver Architecture], S, U, a, c, d, e, g, i, k109_59d7c507-968a-4cf5-b1f0-91c8cd7ccb64.xml, kernel.rtlequalunicodestring, l, n, o, q, r, t, u, wdm/RtlEqualUnicodeString"
+ms.keywords: RtlEqualUnicodeString, RtlEqualUnicodeString routine [Kernel-Mode Driver Architecture], k109_59d7c507-968a-4cf5-b1f0-91c8cd7ccb64.xml, kernel.rtlequalunicodestring, wdm/RtlEqualUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e6ffb893-a79f-4cc0-9052-667b835f4ad3
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, K, KeMemoryBarrier, KeMemoryBarrier routine [Kernel-Mode Driver Architecture], M, a, e, i, k105_972df62d-6449-40d7-9bfa-0c420cf8f106.xml, kernel.kememorybarrier, m, o, r, wdm/KeMemoryBarrier, y"
+ms.keywords: KeMemoryBarrier, KeMemoryBarrier routine [Kernel-Mode Driver Architecture], k105_972df62d-6449-40d7-9bfa-0c420cf8f106.xml, kernel.kememorybarrier, wdm/KeMemoryBarrier
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

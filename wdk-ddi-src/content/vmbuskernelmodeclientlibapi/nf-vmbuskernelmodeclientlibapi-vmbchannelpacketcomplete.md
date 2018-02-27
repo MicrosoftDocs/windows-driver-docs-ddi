@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1DC215DF-1F53-4910-84D5-17E13BE6202A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, P, V, VmbChannelPacketComplete, VmbChannelPacketComplete function [Network Drivers Starting with Windows Vista], a, b, c, e, h, k, l, m, n, netvista.vmbchannelpacketcomplete, o, p, t, vmbuskernelmodeclientlibapi/VmbChannelPacketComplete"
+ms.keywords: VmbChannelPacketComplete, VmbChannelPacketComplete function [Network Drivers Starting with Windows Vista], netvista.vmbchannelpacketcomplete, vmbuskernelmodeclientlibapi/VmbChannelPacketComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

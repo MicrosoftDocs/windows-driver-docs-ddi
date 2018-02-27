@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e9e1f353-4501-487d-ba2d-ee1572d93507
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , ,, C, E, F, G, I, L, M, N, O, P, R, RILMSGSERVICEINFOMSGSUPPORT, RILMSGSERVICEINFOMSGSUPPORT enumeration [Network Drivers Starting with Windows Vista], RIL_MSI_SMS_BROADCAST, RIL_MSI_SMS_OUTGOING, S, T, U, V, netvista.rilmsgserviceinfomsgsupport_2, rilapitypes/RILMSGSERVICEINFOMSGSUPPORT, rilapitypes/RIL_MSI_SMS_BROADCAST, rilapitypes/RIL_MSI_SMS_OUTGOING"
+ms.keywords: RILMSGSERVICEINFOMSGSUPPORT, RILMSGSERVICEINFOMSGSUPPORT enumeration [Network Drivers Starting with Windows Vista], RIL_MSI_SMS_BROADCAST, RIL_MSI_SMS_OUTGOING, netvista.rilmsgserviceinfomsgsupport_2, rilapitypes/RILMSGSERVICEINFOMSGSUPPORT, rilapitypes/RIL_MSI_SMS_BROADCAST, rilapitypes/RIL_MSI_SMS_OUTGOING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

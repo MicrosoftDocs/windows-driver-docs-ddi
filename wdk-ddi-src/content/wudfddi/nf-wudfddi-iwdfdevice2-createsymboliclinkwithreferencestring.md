@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bce932a6-2f73-4d0e-8616-45fd41abb776
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., 2, :, C, CreateSymbolicLinkWithReferenceString method, CreateSymbolicLinkWithReferenceString method, IWDFDevice2 interface, CreateSymbolicLinkWithReferenceString,IWDFDevice2.CreateSymbolicLinkWithReferenceString, D, F, I, IWDFDevice2, IWDFDevice2 interface, CreateSymbolicLinkWithReferenceString method, IWDFDevice2::CreateSymbolicLinkWithReferenceString, L, R, S, UMDFDeviceObjectRef_40f806fa-5db7-48db-b3c7-0f338947887e.xml, W, a, b, c, e, f, g, h, i, k, l, m, n, o, r, t, umdf.iwdfdevice2_createsymboliclinkwithreferencestring, v, wdf.iwdfdevice2_createsymboliclinkwithreferencestring, wudfddi/IWDFDevice2::CreateSymbolicLinkWithReferenceString, y"
+ms.keywords: CreateSymbolicLinkWithReferenceString method, CreateSymbolicLinkWithReferenceString method, IWDFDevice2 interface, CreateSymbolicLinkWithReferenceString,IWDFDevice2.CreateSymbolicLinkWithReferenceString, IWDFDevice2, IWDFDevice2 interface, CreateSymbolicLinkWithReferenceString method, IWDFDevice2::CreateSymbolicLinkWithReferenceString, UMDFDeviceObjectRef_40f806fa-5db7-48db-b3c7-0f338947887e.xml, umdf.iwdfdevice2_createsymboliclinkwithreferencestring, wdf.iwdfdevice2_createsymboliclinkwithreferencestring, wudfddi/IWDFDevice2::CreateSymbolicLinkWithReferenceString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -201,11 +201,11 @@ The following code example creates a symbolic name string, obtains the <a href="
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557023">IWDFDevice::CreateSymbolicLink</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: b205a0a4-a659-47ff-90d5-b1bb58983e36
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, D, E, EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], IWDTFPNPActions2 interface, EDTTryStopDeviceFailRestart,IWDTFPNPActions2.EDTTryStopDeviceFailRestart, F, I, IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method, IWDTFPNPActions2::EDTTryStopDeviceFailRestart, N, P, R, S, T, W, a, c, dtf.iwdtfpnpactions2_edttrystopdevicefailrestart, e, i, l, n, o, p, r, s, t, v, wdtfpnpaction/IWDTFPNPActions2::EDTTryStopDeviceFailRestart, y"
+ms.keywords: EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], IWDTFPNPActions2 interface, EDTTryStopDeviceFailRestart,IWDTFPNPActions2.EDTTryStopDeviceFailRestart, IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method, IWDTFPNPActions2::EDTTryStopDeviceFailRestart, dtf.iwdtfpnpactions2_edttrystopdevicefailrestart, wdtfpnpaction/IWDTFPNPActions2::EDTTryStopDeviceFailRestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

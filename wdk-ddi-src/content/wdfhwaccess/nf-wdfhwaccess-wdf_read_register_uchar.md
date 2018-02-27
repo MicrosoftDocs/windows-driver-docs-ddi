@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C8633689-0900-42BB-9D0D-6F95CBA13A37
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , A, C, D, E, F, G, H, I, R, S, T, U, W, WDF_READ_REGISTER_UCHAR, WDF_READ_REGISTER_UCHAR function, _, wdf.wdf_read_register_uchar, wdfhwaccess/WDF_READ_REGISTER_UCHAR"
+ms.keywords: WDF_READ_REGISTER_UCHAR, WDF_READ_REGISTER_UCHAR function, wdf.wdf_read_register_uchar, wdfhwaccess/WDF_READ_REGISTER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

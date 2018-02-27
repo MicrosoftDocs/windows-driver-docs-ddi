@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6a4dfb93-4044-4a7a-a993-38c91f84cae2
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 2, A, B, H, HBA_ScsiReportLUNsV2, HBA_ScsiReportLUNsV2 routine [Storage Devices], L, N, R, S, U, V, _, c, e, fibreHBA_rtns_ca5de2ac-67e1-49e0-9397-c5e987854154.xml, hbaapi/HBA_ScsiReportLUNsV2, i, o, p, r, s, storage.hba_scsireportlunsv2, t"
+ms.keywords: HBA_ScsiReportLUNsV2, HBA_ScsiReportLUNsV2 routine [Storage Devices], fibreHBA_rtns_ca5de2ac-67e1-49e0-9397-c5e987854154.xml, hbaapi/HBA_ScsiReportLUNsV2, storage.hba_scsireportlunsv2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

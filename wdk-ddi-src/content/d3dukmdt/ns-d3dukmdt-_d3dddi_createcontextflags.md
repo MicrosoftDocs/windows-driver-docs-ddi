@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e450f85c-4c73-44a8-9d0a-da2c212c87c9
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 3, A, C, D, D3DDDI_CREATECONTEXTFLAGS, D3DDDI_CREATECONTEXTFLAGS structure [Display Devices], D3D_other_Structs_e20f9457-1008-4c63-a924-d5fa75929be5.xml, E, F, G, I, L, N, O, R, S, T, X, _, _D3DDDI_CREATECONTEXTFLAGS, d3dukmdt/D3DDDI_CREATECONTEXTFLAGS, display.d3dddi_createcontextflags"
+ms.keywords: D3DDDI_CREATECONTEXTFLAGS, D3DDDI_CREATECONTEXTFLAGS structure [Display Devices], D3D_other_Structs_e20f9457-1008-4c63-a924-d5fa75929be5.xml, _D3DDDI_CREATECONTEXTFLAGS, d3dukmdt/D3DDDI_CREATECONTEXTFLAGS, display.d3dddi_createcontextflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -100,11 +100,6 @@ An alignment restriction value.
 A visible node mask.
 
 
-#### - hDevice
-
-A device handle. 
-
-
 #### - CreateResource [in]
 
 A pointer to a create resource.
@@ -113,6 +108,11 @@ A pointer to a create resource.
 #### - ResourceOptimizationFlags
 
 Resource optimization flags.
+
+
+#### - hDevice
+
+A device handle. 
 
 
 #### - pInfo [out]

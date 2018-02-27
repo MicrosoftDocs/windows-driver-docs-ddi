@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B6C61023-F840-4517-83C1-BC9CBDFC27B0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , 0, F, FwpsOpenToken0, FwpsOpenToken0 function [Network Drivers Starting with Windows Vista], O, T, e, fwpsk/FwpsOpenToken0, k, n, netvista.fwpsopentoken0, o, p, s, w"
+ms.keywords: FwpsOpenToken0, FwpsOpenToken0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsOpenToken0, netvista.fwpsopentoken0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

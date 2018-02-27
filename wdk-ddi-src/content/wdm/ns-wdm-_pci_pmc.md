@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: e6ec18a3-2da6-4b3a-afe3-17435463fd39
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PPCI_PMC, ,, C, I, M, P, PCI.pci_pmc, PCI_PMC, PCI_PMC structure [Buses], PPCI_PMC, PPCI_PMC structure pointer [Buses], _, _PCI_PMC, pci_struct_5ac33692-66a0-4c2e-89dc-e5ace757e06b.xml, wdm/PCI_PMC, wdm/PPCI_PMC"
+ms.keywords: "*PPCI_PMC, PCI.pci_pmc, PCI_PMC, PCI_PMC structure [Buses], PPCI_PMC, PPCI_PMC structure pointer [Buses], _PCI_PMC, pci_struct_5ac33692-66a0-4c2e-89dc-e5ace757e06b.xml, wdm/PCI_PMC, wdm/PPCI_PMC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -163,46 +163,6 @@ Indicates that the device can assert the PME signal from D3.
  
 
 
-
-
-##### - Support.Rsvd2
-
-Reserved. 
-
-
-##### - Support.D1
-
-Reserved. 
-
-
-##### - Support.D2
-
-Reserved. 
-
-
-##### - Support.PMED0
-
-Indicates that the device can assert the PME signal from D0. 
-
-
-##### - Support.PMED1
-
-Indicates that the device can assert the PME signal from D1. 
-
-
-##### - Support.PMED2
-
-Indicates that the device can assert the PME signal from D2. 
-
-
-##### - Support.PMED3Hot
-
-Indicates that the device can assert the PME signal from D3. 
-
-
-##### - Support.PMED3Cold
-
-Indicates that the device can assert the PME signal from D3. 
 
 
 ## -remarks

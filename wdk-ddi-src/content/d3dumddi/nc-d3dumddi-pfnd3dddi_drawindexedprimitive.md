@@ -101,11 +101,11 @@ __checkReturn HRESULT APIENTRY DrawIndexedPrimitive(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawindexedprimitive.md">D3DDDIARG_DRAWINDEXEDPRIMITIVE</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawindexedprimitive.md">D3DDDIARG_DRAWINDEXEDPRIMITIVE</a>
 
 
 

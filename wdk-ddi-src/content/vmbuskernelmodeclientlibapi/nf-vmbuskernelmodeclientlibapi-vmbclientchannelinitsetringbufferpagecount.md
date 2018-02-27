@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 560A7CD9-5D9D-434B-ACEE-5852CC9A2CC3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , B, C, I, P, R, S, V, VmbClientChannelInitSetRingBufferPageCount, VmbClientChannelInitSetRingBufferPageCount function [Network Drivers Starting with Windows Vista], a, b, e, f, g, h, i, l, m, n, netvista.vmbclientchannelinitsetringbufferpagecount, o, r, t, u, vmbuskernelmodeclientlibapi/VmbClientChannelInitSetRingBufferPageCount"
+ms.keywords: VmbClientChannelInitSetRingBufferPageCount, VmbClientChannelInitSetRingBufferPageCount function [Network Drivers Starting with Windows Vista], netvista.vmbclientchannelinitsetringbufferpagecount, vmbuskernelmodeclientlibapi/VmbClientChannelInitSetRingBufferPageCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

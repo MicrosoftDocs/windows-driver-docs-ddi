@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20ee0633-a743-46e8-a094-37099b8e4427
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, P, R, S, StorPortCompleteRequest, StorPortCompleteRequest routine [Storage Devices], e, l, m, o, p, q, r, s, storage.storportcompleterequest, storport/StorPortCompleteRequest, storprt_c91d5dfe-31de-4804-a0be-c2bab228fbb9.xml, t, u"
+ms.keywords: StorPortCompleteRequest, StorPortCompleteRequest routine [Storage Devices], storage.storportcompleterequest, storport/StorPortCompleteRequest, storprt_c91d5dfe-31de-4804-a0be-c2bab228fbb9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

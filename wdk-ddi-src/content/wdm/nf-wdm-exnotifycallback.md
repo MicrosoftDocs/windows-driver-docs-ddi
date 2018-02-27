@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5c126639-494d-45b4-81c2-1af6dc773db6
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, E, ExNotifyCallback, ExNotifyCallback routine [Kernel-Mode Driver Architecture], N, a, b, c, f, i, k, k102_befd9baa-99b3-427b-a0c3-4287e5563482.xml, kernel.exnotifycallback, l, o, t, wdm/ExNotifyCallback, x, y"
+ms.keywords: ExNotifyCallback, ExNotifyCallback routine [Kernel-Mode Driver Architecture], k102_befd9baa-99b3-427b-a0c3-4287e5563482.xml, kernel.exnotifycallback, wdm/ExNotifyCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,11 +111,11 @@ Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. The system
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a>
-
-
-
 <a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a>
 
 
 

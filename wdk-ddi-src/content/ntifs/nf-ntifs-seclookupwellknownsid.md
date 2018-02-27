@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fbf06a28-d6f8-424c-95e0-ce24653cac64
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , K, L, S, SecLookupWellKnownSid, SecLookupWellKnownSid function [Installable File System Drivers], W, c, d, e, i, ifsk.seclookupwellknownsid, k, ksecddref_4c0053b3-cdaa-4cdc-a4d3-6329ccf64f98.xml, l, n, ntifs/SecLookupWellKnownSid, o, p, u, w"
+ms.keywords: SecLookupWellKnownSid, SecLookupWellKnownSid function [Installable File System Drivers], ifsk.seclookupwellknownsid, ksecddref_4c0053b3-cdaa-4cdc-a4d3-6329ccf64f98.xml, ntifs/SecLookupWellKnownSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -563,11 +563,11 @@ If the function cannot find the well known SID for the <i>SidType</i> specified,
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 

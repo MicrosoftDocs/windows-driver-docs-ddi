@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fb570110-a0a5-4a95-9a26-c4e4ada309b2
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 3, :, C, D, E, G, GetNumberEvents method [Windows Debugging], GetNumberEvents method [Windows Debugging], IDebugControl3 interface, GetNumberEvents,IDebugControl3.GetNumberEvents, I, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetNumberEvents method, IDebugControl3::GetNumberEvents, IDebugControl_520cbec0-e8b3-49d1-9938-a8f496585758.xml, N, b, dbgeng/IDebugControl3::GetNumberEvents, debugger.getnumberevents, e, g, l, m, n, o, r, s, t, u, v"
+ms.keywords: GetNumberEvents method [Windows Debugging], GetNumberEvents method [Windows Debugging], IDebugControl3 interface, GetNumberEvents,IDebugControl3.GetNumberEvents, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetNumberEvents method, IDebugControl3::GetNumberEvents, IDebugControl_520cbec0-e8b3-49d1-9938-a8f496585758.xml, dbgeng/IDebugControl3::GetNumberEvents, debugger.getnumberevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

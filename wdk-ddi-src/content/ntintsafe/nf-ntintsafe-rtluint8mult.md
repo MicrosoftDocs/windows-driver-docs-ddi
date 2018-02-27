@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3F9E47F5-1DE3-4949-BE92-8C8F571BFD3D
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 8, I, M, R, RtlUInt8Mult, RtlUInt8Mult function [Kernel-Mode Driver Architecture], U, kernel.rtluint8mult, l, n, ntintsafe/RtlUInt8Mult, t, u"
+ms.keywords: RtlUInt8Mult, RtlUInt8Mult function [Kernel-Mode Driver Architecture], kernel.rtluint8mult, ntintsafe/RtlUInt8Mult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

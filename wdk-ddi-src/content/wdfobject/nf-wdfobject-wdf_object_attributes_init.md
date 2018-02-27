@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c8412ad0-a3c2-41cf-aed6-32b244bc3969
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , A, B, C, D, DFGenObjectRef_2d1e5e34-5637-4301-807c-ad525d4cb34b.xml, E, F, I, J, N, O, R, S, T, U, W, WDF_OBJECT_ATTRIBUTES_INIT, WDF_OBJECT_ATTRIBUTES_INIT function, _, kmdf.wdf_object_attributes_init, wdf.wdf_object_attributes_init, wdfobject/WDF_OBJECT_ATTRIBUTES_INIT"
+ms.keywords: DFGenObjectRef_2d1e5e34-5637-4301-807c-ad525d4cb34b.xml, WDF_OBJECT_ATTRIBUTES_INIT, WDF_OBJECT_ATTRIBUTES_INIT function, kmdf.wdf_object_attributes_init, wdf.wdf_object_attributes_init, wdfobject/WDF_OBJECT_ATTRIBUTES_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

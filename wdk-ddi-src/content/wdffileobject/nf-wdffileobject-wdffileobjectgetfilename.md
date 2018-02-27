@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9d4e45c7-ed1f-476a-8522-4213ac42a3c3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , DFFileObjectRef_07be4c38-fa04-41d3-8f8e-f7ec5ed6ff18.xml, F, G, N, O, W, WdfFileObjectGetFileName, WdfFileObjectGetFileName method, a, b, c, d, e, f, i, j, kmdf.wdffileobjectgetfilename, l, m, t, wdf.wdffileobjectgetfilename, wdffileobject/WdfFileObjectGetFileName"
+ms.keywords: DFFileObjectRef_07be4c38-fa04-41d3-8f8e-f7ec5ed6ff18.xml, WdfFileObjectGetFileName, WdfFileObjectGetFileName method, kmdf.wdffileobjectgetfilename, wdf.wdffileobjectgetfilename, wdffileobject/WdfFileObjectGetFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -141,11 +141,11 @@ MyEvtDeviceFileCreate (
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreatedeviceinterface.md">WdfDeviceCreateDeviceInterface</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

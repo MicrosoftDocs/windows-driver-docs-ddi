@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1a4907c9-8e3b-4fb6-a7d4-89985e470e48
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., 2, :, D, F, I, IWDFDevice2, IWDFDevice2 interface, StopIdle method, IWDFDevice2::StopIdle, S, StopIdle method, StopIdle method, IWDFDevice2 interface, StopIdle,IWDFDevice2.StopIdle, UMDFDeviceObjectRef_8b32ad46-c35a-4b3a-8779-fa183d9cbb72.xml, W, c, d, e, i, l, o, p, t, umdf.iwdfdevice2_stopidle, v, wdf.iwdfdevice2_stopidle, wudfddi/IWDFDevice2::StopIdle"
+ms.keywords: IWDFDevice2, IWDFDevice2 interface, StopIdle method, IWDFDevice2::StopIdle, StopIdle method, StopIdle method, IWDFDevice2 interface, StopIdle,IWDFDevice2.StopIdle, UMDFDeviceObjectRef_8b32ad46-c35a-4b3a-8779-fa183d9cbb72.xml, umdf.iwdfdevice2_stopidle, wdf.iwdfdevice2_stopidle, wudfddi/IWDFDevice2::StopIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

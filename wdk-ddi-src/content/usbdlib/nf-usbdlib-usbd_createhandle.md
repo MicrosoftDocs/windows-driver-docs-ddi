@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 97757CBA-8291-40A3-B247-D41E7FEB1D7C
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, C, D, H, S, U, USBD_CreateHandle, USBD_CreateHandle routine [Buses], _, a, buses.usbd_register, d, e, l, n, r, t, usbdlib/USBD_CreateHandle"
+ms.keywords: USBD_CreateHandle, USBD_CreateHandle routine [Buses], buses.usbd_register, usbdlib/USBD_CreateHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -285,11 +285,11 @@ NTSTATUS MyAddDevice( __in PDRIVER_OBJECT  DriverObject,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406258">Best Practices: Using URBs</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406258">Best Practices: Using URBs</a>
 
 
 

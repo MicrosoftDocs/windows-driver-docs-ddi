@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1C6DDEAE-5E49-40AF-9667-3C185A82BDE8
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, E, I, S, U, UdecxUsbEndpointInitSetEndpointAddress, UdecxUsbEndpointInitSetEndpointAddress function [Buses], b, buses.udecxusbendpointinitsetendpointaddress, c, d, e, i, n, o, p, r, s, t, udecxusbendpoint/UdecxUsbEndpointInitSetEndpointAddress, x"
+ms.keywords: UdecxUsbEndpointInitSetEndpointAddress, UdecxUsbEndpointInitSetEndpointAddress function [Buses], buses.udecxusbendpointinitsetendpointaddress, udecxusbendpoint/UdecxUsbEndpointInitSetEndpointAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 94DD7FBF-2D4F-4DD9-A49E-A9FA494BF995
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 6, :, C, D, G, GetSynchronizationStatus method [Windows Debugging], GetSynchronizationStatus method [Windows Debugging], IDebugControl6 interface, GetSynchronizationStatus,IDebugControl6.GetSynchronizationStatus, I, IDebugControl6, IDebugControl6 interface [Windows Debugging], GetSynchronizationStatus method, IDebugControl6::GetSynchronizationStatus, S, a, b, c, dbgeng/IDebugControl6::GetSynchronizationStatus, debugger.idebugcontrol6_getsynchronizationstatus, e, g, h, i, l, n, o, r, s, t, u, y, z"
+ms.keywords: GetSynchronizationStatus method [Windows Debugging], GetSynchronizationStatus method [Windows Debugging], IDebugControl6 interface, GetSynchronizationStatus,IDebugControl6.GetSynchronizationStatus, IDebugControl6, IDebugControl6 interface [Windows Debugging], GetSynchronizationStatus method, IDebugControl6::GetSynchronizationStatus, dbgeng/IDebugControl6::GetSynchronizationStatus, debugger.idebugcontrol6_getsynchronizationstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,11 +117,11 @@ When the client object connects to a session, the most recent output from the se
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558852">Synchronizing with the Target Computer</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol6.md">IDebugControl6</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558852">Synchronizing with the Target Computer</a>
 
 
 

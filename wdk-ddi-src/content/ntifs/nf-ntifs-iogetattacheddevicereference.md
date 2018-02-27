@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 540a4e5c-8d7b-4ba8-a9a6-6e13d9b85f23
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, D, G, I, IoGetAttachedDeviceReference, IoGetAttachedDeviceReference routine [Kernel-Mode Driver Architecture], R, a, c, d, e, f, h, i, k104_f7fa8878-306a-4de2-b418-8102754306f7.xml, kernel.iogetattacheddevicereference, n, o, r, t, v, wdm/IoGetAttachedDeviceReference"
+ms.keywords: IoGetAttachedDeviceReference, IoGetAttachedDeviceReference routine [Kernel-Mode Driver Architecture], k104_f7fa8878-306a-4de2-b418-8102754306f7.xml, kernel.iogetattacheddevicereference, wdm/IoGetAttachedDeviceReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

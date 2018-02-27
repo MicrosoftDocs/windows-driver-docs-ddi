@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 147d2c1c-c12d-4c39-bec5-579ece083ee7
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PCDROM_SPEED_REQUEST, ,, C, CDROM_SPEED_REQUEST, CDROM_SPEED_REQUEST enumeration [Storage Devices], CdromSetSpeed, CdromSetStreaming, D, E, M, O, P, PCDROM_SPEED_REQUEST, PCDROM_SPEED_REQUEST enumeration pointer [Storage Devices], Q, R, S, T, U, _, _CDROM_SPEED_REQUEST, ntddcdrm/CDROM_SPEED_REQUEST, ntddcdrm/CdromSetSpeed, ntddcdrm/CdromSetStreaming, ntddcdrm/PCDROM_SPEED_REQUEST, storage.cdrom_speed_request, structs-CD-ROM_6feeaa4e-8500-4ca8-9d0f-3e29a858eb94.xml"
+ms.keywords: "*PCDROM_SPEED_REQUEST, CDROM_SPEED_REQUEST, CDROM_SPEED_REQUEST enumeration [Storage Devices], CdromSetSpeed, CdromSetStreaming, PCDROM_SPEED_REQUEST, PCDROM_SPEED_REQUEST enumeration pointer [Storage Devices], _CDROM_SPEED_REQUEST, ntddcdrm/CDROM_SPEED_REQUEST, ntddcdrm/CdromSetSpeed, ntddcdrm/CdromSetStreaming, ntddcdrm/PCDROM_SPEED_REQUEST, storage.cdrom_speed_request, structs-CD-ROM_6feeaa4e-8500-4ca8-9d0f-3e29a858eb94.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -80,7 +80,7 @@ The CD-ROM class driver will use the SET STREAMING command to set the spindle sp
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_streaming.md">CDROM_SET_STREAMING</a>
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a>
 
 
 
@@ -88,7 +88,7 @@ The CD-ROM class driver will use the SET STREAMING command to set the spindle sp
 
 
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_streaming.md">CDROM_SET_STREAMING</a>
 
 
 

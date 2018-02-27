@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5E85D80B-4C0F-4C91-A1B5-565E09FD3743
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, D, P, U, UfxDeviceProprietaryChargerDetectComplete, UfxDeviceProprietaryChargerDetectComplete method [Buses], a, buses.ufxdeviceproprietarychargerdetectcomplete, c, e, f, g, h, i, l, m, o, p, r, t, ufxclient/UfxDeviceProprietaryChargerDetectComplete, v, x, y"
+ms.keywords: UfxDeviceProprietaryChargerDetectComplete, UfxDeviceProprietaryChargerDetectComplete method [Buses], buses.ufxdeviceproprietarychargerdetectcomplete, ufxclient/UfxDeviceProprietaryChargerDetectComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

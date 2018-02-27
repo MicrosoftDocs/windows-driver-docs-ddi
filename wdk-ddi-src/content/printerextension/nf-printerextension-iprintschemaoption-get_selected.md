@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 639D25DC-027F-4B53-AD7B-B26011B66171
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, I, IPrintSchemaOption, IPrintSchemaOption interface [Print Devices], Selected property, IPrintSchemaOption.Selected, IPrintSchemaOption::get_Selected, O, P, S, Selected property [Print Devices], Selected property [Print Devices], IPrintSchemaOption interface, _, a, c, d, e, g, get_Selected, get_Selected,IPrintSchemaOption.get_Selected, h, i, l, m, n, o, p, print.iprintschemaoption_selected, printerextension/IPrintSchemaOption::Selected, printerextension/IPrintSchemaOption::get_Selected, r, t"
+ms.keywords: IPrintSchemaOption, IPrintSchemaOption interface [Print Devices], Selected property, IPrintSchemaOption.Selected, IPrintSchemaOption::get_Selected, Selected property [Print Devices], Selected property [Print Devices], IPrintSchemaOption interface, get_Selected, get_Selected,IPrintSchemaOption.get_Selected, print.iprintschemaoption_selected, printerextension/IPrintSchemaOption::Selected, printerextension/IPrintSchemaOption::get_Selected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

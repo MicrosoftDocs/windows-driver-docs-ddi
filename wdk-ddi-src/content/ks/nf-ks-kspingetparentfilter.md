@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: adbd1e83-37f0-4e0c-92e3-92c6c79eb24f
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , F, G, K, KsPinGetParentFilter, KsPinGetParentFilter function [Streaming Media Devices], P, a, avfunc_0a7c672c-072d-49f8-b1de-93ee1e5c8e1c.xml, e, i, ks/KsPinGetParentFilter, l, n, r, s, stream.kspingetparentfilter, t"
+ms.keywords: KsPinGetParentFilter, KsPinGetParentFilter function [Streaming Media Devices], avfunc_0a7c672c-072d-49f8-b1de-93ee1e5c8e1c.xml, ks/KsPinGetParentFilter, stream.kspingetparentfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

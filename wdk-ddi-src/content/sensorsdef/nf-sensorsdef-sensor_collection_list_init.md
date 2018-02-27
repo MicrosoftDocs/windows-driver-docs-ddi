@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 50860DA0-D42C-4ACB-A574-C0DEA85713BD
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , C, E, I, L, N, O, R, S, SENSOR_COLLECTION_LIST_INIT, SENSOR_COLLECTION_LIST_INIT function [Sensor Devices], T, _, sensors.sensor_collection_list_init, sensorsdef/SENSOR_COLLECTION_LIST_INIT"
+ms.keywords: SENSOR_COLLECTION_LIST_INIT, SENSOR_COLLECTION_LIST_INIT function [Sensor Devices], sensors.sensor_collection_list_init, sensorsdef/SENSOR_COLLECTION_LIST_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

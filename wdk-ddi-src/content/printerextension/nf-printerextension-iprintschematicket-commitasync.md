@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: CFEDCABF-A875-4A69-954D-267765350E9D
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, C, CommitAsync method [Print Devices], CommitAsync method [Print Devices], IPrintSchemaTicket interface, CommitAsync,IPrintSchemaTicket.CommitAsync, I, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], CommitAsync method, IPrintSchemaTicket::CommitAsync, P, S, T, a, c, e, h, i, k, m, n, o, print.iprintschematicket_commitasync, printerextension/IPrintSchemaTicket::CommitAsync, r, s, t, y"
+ms.keywords: CommitAsync method [Print Devices], CommitAsync method [Print Devices], IPrintSchemaTicket interface, CommitAsync,IPrintSchemaTicket.CommitAsync, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], CommitAsync method, IPrintSchemaTicket::CommitAsync, print.iprintschematicket_commitasync, printerextension/IPrintSchemaTicket::CommitAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -103,11 +103,11 @@ To perform the commit operation, call the <a href="https://msdn.microsoft.com/8A
 
 
 
-<a href="https://msdn.microsoft.com/B1599F21-D6DD-497D-9CD8-6C637ABAA33A">IPrintSchemaAsyncOperationEvent::Completed</a>
-
-
-
 <a href="https://msdn.microsoft.com/8AEA34AA-1A5E-43F6-8EE1-B1A078B6AEA3">IPrintSchemaAsyncOperation::Start</a>
+
+
+
+<a href="https://msdn.microsoft.com/B1599F21-D6DD-497D-9CD8-6C637ABAA33A">IPrintSchemaAsyncOperationEvent::Completed</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0b140ddc-52b5-4aee-afeb-5b2be57fe7b7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, A, F, G, GetAllocatorFraming method [Audio Devices], GetAllocatorFraming method [Audio Devices], IMiniportWavePciStream interface, GetAllocatorFraming,IMiniportWavePciStream.GetAllocatorFraming, I, IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], GetAllocatorFraming method, IMiniportWavePciStream::GetAllocatorFraming, M, P, S, W, a, audio.iminiportwavepcistream_getallocatorframing, audmp-routines_aef1d53f-2db6-4372-90fa-fb501c199e41.xml, c, e, g, i, l, m, n, o, p, portcls/IMiniportWavePciStream::GetAllocatorFraming, r, t, v"
+ms.keywords: GetAllocatorFraming method [Audio Devices], GetAllocatorFraming method [Audio Devices], IMiniportWavePciStream interface, GetAllocatorFraming,IMiniportWavePciStream.GetAllocatorFraming, IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], GetAllocatorFraming method, IMiniportWavePciStream::GetAllocatorFraming, audio.iminiportwavepcistream_getallocatorframing, audmp-routines_aef1d53f-2db6-4372-90fa-fb501c199e41.xml, portcls/IMiniportWavePciStream::GetAllocatorFraming
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -94,11 +94,11 @@ See the discussion of allocator framing in <a href="https://msdn.microsoft.com/6
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+
+
+
+<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
 
 
 

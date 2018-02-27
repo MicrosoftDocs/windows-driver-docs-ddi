@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 0C1CEDD8-EA78-4188-AD05-99608B400C84
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , 2, 2/SerCx2SystemDmaReceiveGetDmaEnabler, C, D, E, G, R, S, SerCx2SystemDmaReceiveGetDmaEnabler, SerCx2SystemDmaReceiveGetDmaEnabler method [Serial Ports], a, b, c, e, i, l, m, n, r, s, serports.sercx2systemdmareceivegetdmaenabler, t, v, x, y"
+ms.keywords: 2/SerCx2SystemDmaReceiveGetDmaEnabler, SerCx2SystemDmaReceiveGetDmaEnabler, SerCx2SystemDmaReceiveGetDmaEnabler method [Serial Ports], serports.sercx2systemdmareceivegetdmaenabler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

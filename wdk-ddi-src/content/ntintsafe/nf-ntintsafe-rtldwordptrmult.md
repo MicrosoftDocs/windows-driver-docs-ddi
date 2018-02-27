@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E7EEE6D7-19C8-481F-BAEF-15998819D2D0
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , D, M, P, R, RtlDWordPtrMult, RtlDWordPtrMult function [Kernel-Mode Driver Architecture], W, d, kernel.rtldwordptrmult, l, ntintsafe/RtlDWordPtrMult, o, r, t, u"
+ms.keywords: RtlDWordPtrMult, RtlDWordPtrMult function [Kernel-Mode Driver Architecture], kernel.rtldwordptrmult, ntintsafe/RtlDWordPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

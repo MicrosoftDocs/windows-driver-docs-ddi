@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3bd25a77-bce6-4cd3-808c-6df3b3033dd2
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , D, DrvSplStartDoc, DrvSplStartDoc function [Print Devices], S, a, c, l, o, p, print.drvsplstartdoc, print_interface-graphics_c37a0824-d460-4d62-b029-55ec4bc842d2.xml, r, t, v, winddiui/DrvSplStartDoc"
+ms.keywords: DrvSplStartDoc, DrvSplStartDoc function [Print Devices], print.drvsplstartdoc, print_interface-graphics_c37a0824-d460-4d62-b029-55ec4bc842d2.xml, winddiui/DrvSplStartDoc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2bf6fb1b-e2d6-496d-808e-e739951cc7c5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, D, F, FsRtlCreateSectionForDataScan, FsRtlCreateSectionForDataScan routine [Installable File System Drivers], R, S, a, c, e, fsrtlref_5117d865-19da-4ec5-8b20-cccab94eb013.xml, i, ifsk.fsrtlcreatesectionfordatascan, l, n, ntifs/FsRtlCreateSectionForDataScan, o, r, s, t"
+ms.keywords: FsRtlCreateSectionForDataScan, FsRtlCreateSectionForDataScan routine [Installable File System Drivers], fsrtlref_5117d865-19da-4ec5-8b20-cccab94eb013.xml, ifsk.fsrtlcreatesectionfordatascan, ntifs/FsRtlCreateSectionForDataScan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -348,7 +348,7 @@ For more information on creating mapped sections and views of memory, see <a hre
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-mmforcesectionclosed.md">MmForceSectionClosed</a>
+<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
 
 
 
@@ -360,7 +360,7 @@ For more information on creating mapped sections and views of memory, see <a hre
 
 
 
-<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
+<a href="..\ntifs\nf-ntifs-mmforcesectionclosed.md">MmForceSectionClosed</a>
 
 
 

@@ -99,7 +99,7 @@ Pointer to a <a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a>
 
 The video port calls <i>HwVidQueryInterface</i> when it receives an IRP_MN_QUERY_INTERFACE request. If the miniport driver fails the call, the video port driver passes the request to the parent of the miniport driver's device.
 
-<i>HwVidQueryInterface</i> should fill in the members of the <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure to which <i>QueryInterface</i>-&gt;<b>Interface</b> points as follows:
+<i>HwVidQueryInterface</i> should fill in the members of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure to which <i>QueryInterface</i>-&gt;<b>Interface</b> points as follows:
 
 <ul>
 <li>
@@ -136,7 +136,7 @@ A child device is enumerated by <a href="..\video\nc-video-pvideo_hw_get_child_d
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportreleasedevicelock.md">VideoPortReleaseDeviceLock</a>
+<a href="..\video\nf-video-videoportacquiredevicelock.md">VideoPortAcquireDeviceLock</a>
 
 
 
@@ -144,11 +144,11 @@ A child device is enumerated by <a href="..\video\nc-video-pvideo_hw_get_child_d
 
 
 
+<a href="..\video\nf-video-videoportreleasedevicelock.md">VideoPortReleaseDeviceLock</a>
+
+
+
 <a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a>
-
-
-
-<a href="..\video\nf-video-videoportacquiredevicelock.md">VideoPortAcquireDeviceLock</a>
 
 
 

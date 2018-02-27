@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 85363a0b-0e62-499e-bcdb-4b86c4a0c3a0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , F, FsRtlIsPagingFile, FsRtlIsPagingFile routine [Installable File System Drivers], I, P, R, a, e, fsrtlref_80254cb1-bb65-4b1b-8fe4-c975b0f00c63.xml, g, i, ifsk.fsrtlispagingfile, l, n, ntifs/FsRtlIsPagingFile, s, t"
+ms.keywords: FsRtlIsPagingFile, FsRtlIsPagingFile routine [Installable File System Drivers], fsrtlref_80254cb1-bb65-4b1b-8fe4-c975b0f00c63.xml, ifsk.fsrtlispagingfile, ntifs/FsRtlIsPagingFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,11 @@ File system filter drivers call <b>FsRtlIsPagingFile</b> to determine whether a 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpostpagingfilestackoverflow~r2.md">FsRtlPostPagingFileStackOverflow</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpostpagingfilestackoverflow~r2.md">FsRtlPostPagingFileStackOverflow</a>
 
 
 

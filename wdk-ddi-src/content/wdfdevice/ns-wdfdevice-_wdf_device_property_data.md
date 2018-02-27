@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C49562C0-D8B6-4BAE-96EB-4005D9EB19DE
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , *, *PWDF_DEVICE_PROPERTY_DATA, ,, A, C, D, E, F, I, O, P, PWDF_DEVICE_PROPERTY_DATA, PWDF_DEVICE_PROPERTY_DATA structure pointer, R, T, V, W, WDF_DEVICE_PROPERTY_DATA, WDF_DEVICE_PROPERTY_DATA structure, Y, _, _WDF_DEVICE_PROPERTY_DATA, wdf.wdf_device_property_data, wdfdevice/PWDF_DEVICE_PROPERTY_DATA, wdfdevice/WDF_DEVICE_PROPERTY_DATA"
+ms.keywords: "*PWDF_DEVICE_PROPERTY_DATA, PWDF_DEVICE_PROPERTY_DATA, PWDF_DEVICE_PROPERTY_DATA structure pointer, WDF_DEVICE_PROPERTY_DATA, WDF_DEVICE_PROPERTY_DATA structure, _WDF_DEVICE_PROPERTY_DATA, wdf.wdf_device_property_data, wdfdevice/PWDF_DEVICE_PROPERTY_DATA, wdfdevice/WDF_DEVICE_PROPERTY_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,6 +124,10 @@ Drivers should initialize this structure by calling <a href="..\wdfdevice\nf-wdf
 
 ## -see-also
 
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitquerypropertyex.md">WdfFdoInitQueryPropertyEx</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdf_device_property_data_init.md">WDF_DEVICE_PROPERTY_DATA_INIT</a>
 
 
@@ -132,19 +136,15 @@ Drivers should initialize this structure by calling <a href="..\wdfdevice\nf-wdf
 
 
 
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitallocandquerypropertyex.md">WdfFdoInitAllocAndQueryPropertyEx</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicequerypropertyex.md">WdfDeviceQueryPropertyEx</a>
 
 
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandquerypropertyex.md">WdfDeviceAllocAndQueryPropertyEx</a>
-
-
-
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitquerypropertyex.md">WdfFdoInitQueryPropertyEx</a>
-
-
-
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitallocandquerypropertyex.md">WdfFdoInitAllocAndQueryPropertyEx</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: abe43441-3e00-4d85-ae84-dd738303ab1b
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, ArrayElement method [Windows Debugging], ArrayElement method [Windows Debugging], ExtRemoteTyped interface, ArrayElement,ExtRemoteTyped.ArrayElement, E, EngExtCpp_Ref_086fc0ab-cf63-4079-86d4-552dd2a1593d.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], ArrayElement method, ExtRemoteTyped::ArrayElement, R, T, a, d, debugger.extremotetyped_arrayelement, e, l, m, n, o, p, r, t, x, y"
+ms.keywords: ArrayElement method [Windows Debugging], ArrayElement method [Windows Debugging], ExtRemoteTyped interface, ArrayElement,ExtRemoteTyped.ArrayElement, EngExtCpp_Ref_086fc0ab-cf63-4079-86d4-552dd2a1593d.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], ArrayElement method, ExtRemoteTyped::ArrayElement, debugger.extremotetyped_arrayelement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

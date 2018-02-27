@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7F099F7E-6E1F-499A-AF09-80B20429B892
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PDOT4_DRIVER_CMD, ,, 4, C, D, DOT4_DRIVER_CMD, DOT4_DRIVER_CMD structure [Print Devices], E, I, M, O, P, PDOT4_DRIVER_CMD, PDOT4_DRIVER_CMD structure pointer [Print Devices], R, T, V, _, _DOT4_DRIVER_CMD, d4drvif/DOT4_DRIVER_CMD, d4drvif/PDOT4_DRIVER_CMD, print.dot4_driver_cmd"
+ms.keywords: "*PDOT4_DRIVER_CMD, DOT4_DRIVER_CMD, DOT4_DRIVER_CMD structure [Print Devices], PDOT4_DRIVER_CMD, PDOT4_DRIVER_CMD structure pointer [Print Devices], _DOT4_DRIVER_CMD, d4drvif/DOT4_DRIVER_CMD, d4drvif/PDOT4_DRIVER_CMD, print.dot4_driver_cmd"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

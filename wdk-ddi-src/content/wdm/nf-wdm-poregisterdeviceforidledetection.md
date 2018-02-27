@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f786fa36-1faa-4e12-aec1-872b44c01a85
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , D, F, I, P, PoRegisterDeviceForIdleDetection, PoRegisterDeviceForIdleDetection routine [Kernel-Mode Driver Architecture], R, c, d, e, g, i, kernel.poregisterdeviceforidledetection, l, n, o, portn_be0ccb17-9465-4f61-a8ed-fa945f5340d6.xml, r, s, t, v, wdm/PoRegisterDeviceForIdleDetection"
+ms.keywords: PoRegisterDeviceForIdleDetection, PoRegisterDeviceForIdleDetection routine [Kernel-Mode Driver Architecture], kernel.poregisterdeviceforidledetection, portn_be0ccb17-9465-4f61-a8ed-fa945f5340d6.xml, wdm/PoRegisterDeviceForIdleDetection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -139,15 +139,15 @@ If both <i>ConservationIdleTime</i> and <i>PerformanceIdleTime</i> are zero, thi
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559755">PoSetDeviceBusy</a>
-
-
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4A05474B-9856-48B0-9289-D87B8FF54B2F
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, I, IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], SetSize method, IPrinterScriptableStream::SetSize, P, S, SetSize method [Print Devices], SetSize method [Print Devices], IPrinterScriptableStream interface, SetSize,IPrinterScriptableStream.SetSize, a, b, c, e, i, l, m, n, p, print.iprinterscriptablestream__setsize, printerextension/IPrinterScriptableStream::SetSize, r, t, z"
+ms.keywords: IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], SetSize method, IPrinterScriptableStream::SetSize, SetSize method [Print Devices], SetSize method [Print Devices], IPrinterScriptableStream interface, SetSize,IPrinterScriptableStream.SetSize, print.iprinterscriptablestream__setsize, printerextension/IPrinterScriptableStream::SetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

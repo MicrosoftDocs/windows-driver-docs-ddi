@@ -93,11 +93,9 @@ HRESULT APIENTRY* pfnVideoDecoderSubmitBuffers(
 
 
 
-#### - hDevice [in]
+#### - BufferCount [in]
 
-A handle to the display device (graphics context).
-
-
+The number of buffers in the array that is referenced by the <i>pBufferDesc</i> parameter.
 
 
 #### - hDecoder [in]
@@ -107,9 +105,11 @@ A handle to the video decoder object that was created through a call to the <a h
 
 
 
-#### - BufferCount [in]
+#### - hDevice [in]
 
-The number of buffers in the array that is referenced by the <i>pBufferDesc</i> parameter.
+A handle to the display device (graphics context).
+
+
 
 
 #### - pBufferDesc [in]
@@ -191,19 +191,19 @@ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_encrypted_block_info.md">D3D11_1DDI_ENCRYPTED_BLOCK_INFO</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3D11_1DDI_AES_CTR_IV</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>
 
 
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoderr_buffer_desc.md">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_encrypted_block_info.md">D3D11_1DDI_ENCRYPTED_BLOCK_INFO</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3D11_1DDI_AES_CTR_IV</a>
 
 
 

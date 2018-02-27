@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9f03af94-0a29-42f4-84f1-09d8d1c97dd6
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , E, K, KeStallExecutionProcessor, KeStallExecutionProcessor routine [Kernel-Mode Driver Architecture], P, S, a, c, e, i, k105_47405815-7368-4100-b39d-43f5a242f5c1.xml, kernel.kestallexecutionprocessor, l, n, o, r, s, t, u, wdm/KeStallExecutionProcessor, x"
+ms.keywords: KeStallExecutionProcessor, KeStallExecutionProcessor routine [Kernel-Mode Driver Architecture], k105_47405815-7368-4100-b39d-43f5a242f5c1.xml, kernel.kestallexecutionprocessor, wdm/KeStallExecutionProcessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,15 +95,15 @@ This routine is for use by device drivers and other software that must wait for 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
 <a href="..\wdm\nf-wdm-kedelayexecutionthread.md">KeDelayExecutionThread</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
 
 

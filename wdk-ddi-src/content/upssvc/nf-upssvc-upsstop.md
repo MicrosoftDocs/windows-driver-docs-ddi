@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 55555e58-eaba-4c39-a771-9924da3fcfc4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , P, S, U, UPSStop, UPSStop function [Battery Devices], UPS_fns_60f920b5-6225-4569-a60a-dfb1c6b2538c.xml, battery.upsstop, o, p, t, upssvc/UPSStop"
+ms.keywords: UPSStop, UPSStop function [Battery Devices], UPS_fns_60f920b5-6225-4569-a60a-dfb1c6b2538c.xml, battery.upsstop, upssvc/UPSStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

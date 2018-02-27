@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 90013f42-9393-4037-8d0d-13fe5d7caa0b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , ,, A, ACL_DISCONNECTED, ACL_MODE, ACL_MODE enumeration [Bluetooth Devices], ACL_MODE_ACTIVE, ACL_MODE_ENTER_ACTIVE, ACL_MODE_ENTER_HOLD, ACL_MODE_ENTER_PARK, ACL_MODE_ENTER_SNIFF, ACL_MODE_HOLD, ACL_MODE_PARK, ACL_MODE_SNIFF, C, D, E, L, M, O, _, _ACL_MODE, bltooth.acl_mode, bth_enums_52494ea2-66f0-4c7d-8f7b-c427a21ee826.xml, bthddi/ACL_DISCONNECTED, bthddi/ACL_MODE, bthddi/ACL_MODE_ACTIVE, bthddi/ACL_MODE_ENTER_ACTIVE, bthddi/ACL_MODE_ENTER_HOLD, bthddi/ACL_MODE_ENTER_PARK, bthddi/ACL_MODE_ENTER_SNIFF, bthddi/ACL_MODE_HOLD, bthddi/ACL_MODE_PARK, bthddi/ACL_MODE_SNIFF"
+ms.keywords: ACL_DISCONNECTED, ACL_MODE, ACL_MODE enumeration [Bluetooth Devices], ACL_MODE_ACTIVE, ACL_MODE_ENTER_ACTIVE, ACL_MODE_ENTER_HOLD, ACL_MODE_ENTER_PARK, ACL_MODE_ENTER_SNIFF, ACL_MODE_HOLD, ACL_MODE_PARK, ACL_MODE_SNIFF, _ACL_MODE, bltooth.acl_mode, bth_enums_52494ea2-66f0-4c7d-8f7b-c427a21ee826.xml, bthddi/ACL_DISCONNECTED, bthddi/ACL_MODE, bthddi/ACL_MODE_ACTIVE, bthddi/ACL_MODE_ENTER_ACTIVE, bthddi/ACL_MODE_ENTER_HOLD, bthddi/ACL_MODE_ENTER_PARK, bthddi/ACL_MODE_ENTER_SNIFF, bthddi/ACL_MODE_HOLD, bthddi/ACL_MODE_PARK, bthddi/ACL_MODE_SNIFF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

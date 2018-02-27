@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: D7CA9DAB-E350-42D5-A008-5CC12D5313D3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , A, C, D, F, FltSetActivityIdCallbackData, FltSetActivityIdCallbackData routine [Installable File System Drivers], I, S, a, b, c, d, e, fltkernel/FltSetActivityIdCallbackData, i, ifsk.fltsetactivityidcallbackdata, k, l, t, v, y"
+ms.keywords: FltSetActivityIdCallbackData, FltSetActivityIdCallbackData routine [Installable File System Drivers], fltkernel/FltSetActivityIdCallbackData, ifsk.fltsetactivityidcallbackdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -134,11 +134,11 @@ An activity ID pointed to by <i>Guid</i> was set for the IRP in <i>CallbackData<
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltpropagateactivityidtothread.md">FltPropagateActivityIdToThread</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltgetactivityidcallbackdata.md">FltGetActivityIdCallbackData</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltpropagateactivityidtothread.md">FltPropagateActivityIdToThread</a>
 
 
 

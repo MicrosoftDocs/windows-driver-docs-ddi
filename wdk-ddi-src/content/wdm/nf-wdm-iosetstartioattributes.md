@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 47ae3578-231c-49c8-a851-9f165db27fb1
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, I, IoSetStartIoAttributes, IoSetStartIoAttributes routine [Kernel-Mode Driver Architecture], S, a, b, e, i, k104_cf8613cc-f891-45f7-816c-224b3294f8dd.xml, kernel.iosetstartioattributes, o, r, s, t, u, wdm/IoSetStartIoAttributes"
+ms.keywords: IoSetStartIoAttributes, IoSetStartIoAttributes routine [Kernel-Mode Driver Architecture], k104_cf8613cc-f891-45f7-816c-224b3294f8dd.xml, kernel.iosetstartioattributes, wdm/IoSetStartIoAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,11 +96,11 @@ None
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a>
-
-
-
 <a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a>
 
 
 

@@ -93,6 +93,16 @@ HRESULT APIENTRY* pfnVideoProcessorGetStreamExtension(
 
 
 
+#### - DataSize [in]
+
+The size, in bytes, of the private state data in the buffer referenced by the <i>pData</i> parameter.
+
+
+#### - StreamIndex [in]
+
+The zero-based index of the input stream.
+
+
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -107,26 +117,16 @@ A handle to the video processor object that was created through a call to the <a
 
 
 
-#### - StreamIndex [in]
+#### - pData [in, out]
 
-The zero-based index of the input stream.
+A pointer to a buffer that contains the private state data. 
+
+
 
 
 #### - pGuid [in]
 
 A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
-
-
-
-
-#### - DataSize [in]
-
-The size, in bytes, of the private state data in the buffer referenced by the <i>pData</i> parameter.
-
-
-#### - pData [in, out]
-
-A pointer to a buffer that contains the private state data. 
 
 
 

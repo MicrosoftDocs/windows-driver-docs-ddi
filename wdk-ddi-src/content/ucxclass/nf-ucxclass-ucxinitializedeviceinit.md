@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A92A3E2E-1C73-40BD-808A-CBC14404F3E9
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , D, I, U, UcxInitializeDeviceInit, UcxInitializeDeviceInit method [Buses], a, buses._ucxinitializedeviceinit, c, e, i, l, n, t, ucxclass/UcxInitializeDeviceInit, v, x, z"
+ms.keywords: UcxInitializeDeviceInit, UcxInitializeDeviceInit method [Buses], buses._ucxinitializedeviceinit, ucxclass/UcxInitializeDeviceInit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

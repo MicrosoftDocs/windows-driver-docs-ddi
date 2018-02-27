@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8f5df76b-57c9-4c5a-9ca2-f02c8d903a8b
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, C, G, GetOptions method [Print Devices], GetOptions method [Print Devices], IPrintCorePS2 interface, GetOptions,IPrintCorePS2.GetOptions, I, IPrintCorePS2, IPrintCorePS2 interface [Print Devices], GetOptions method, IPrintCorePS2::GetOptions, O, P, S, e, i, n, o, p, prcomoem/IPrintCorePS2::GetOptions, print.iprintcoreps2_getoptions, print_unidrv-pscript_rendering_5efb04dd-f01b-4da4-9ac3-34a3e62a1ec3.xml, r, s, t"
+ms.keywords: GetOptions method [Print Devices], GetOptions method [Print Devices], IPrintCorePS2 interface, GetOptions,IPrintCorePS2.GetOptions, IPrintCorePS2, IPrintCorePS2 interface [Print Devices], GetOptions method, IPrintCorePS2::GetOptions, prcomoem/IPrintCorePS2::GetOptions, print.iprintcoreps2_getoptions, print_unidrv-pscript_rendering_5efb04dd-f01b-4da4-9ac3-34a3e62a1ec3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

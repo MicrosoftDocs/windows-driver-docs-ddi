@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 76b076d1-640b-4378-bf6d-36d87a8a5042
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , D, L, N, NdisQueryDepthSList, NdisQueryDepthSList macro [Network Drivers Starting with Windows Vista], Q, S, d, e, h, i, ndis/NdisQueryDepthSList, ndis_interlocked_ref_f44c64cf-029a-408e-84a0-a8c09bc91592.xml, netvista.ndisquerydepthslist, p, r, s, t, u, y"
+ms.keywords: NdisQueryDepthSList, NdisQueryDepthSList macro [Network Drivers Starting with Windows Vista], ndis/NdisQueryDepthSList, ndis_interlocked_ref_f44c64cf-029a-408e-84a0-a8c09bc91592.xml, netvista.ndisquerydepthslist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

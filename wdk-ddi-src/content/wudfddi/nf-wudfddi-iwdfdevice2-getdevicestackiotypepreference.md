@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3a1f6432-3f61-4502-ac98-fa984539f88e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., 2, :, D, F, G, GetDeviceStackIoTypePreference method, GetDeviceStackIoTypePreference method, IWDFDevice2 interface, GetDeviceStackIoTypePreference,IWDFDevice2.GetDeviceStackIoTypePreference, I, IWDFDevice2, IWDFDevice2 interface, GetDeviceStackIoTypePreference method, IWDFDevice2::GetDeviceStackIoTypePreference, P, S, T, UMDFDeviceObjectRef_f6402826-fe3b-46c7-a4a8-d1d4f74e4b5c.xml, W, a, c, e, f, i, k, n, o, p, r, t, umdf.iwdfdevice2_getdevicestackiotypepreference, v, wdf.iwdfdevice2_getdevicestackiotypepreference, wudfddi/IWDFDevice2::GetDeviceStackIoTypePreference, y"
+ms.keywords: GetDeviceStackIoTypePreference method, GetDeviceStackIoTypePreference method, IWDFDevice2 interface, GetDeviceStackIoTypePreference,IWDFDevice2.GetDeviceStackIoTypePreference, IWDFDevice2, IWDFDevice2 interface, GetDeviceStackIoTypePreference method, IWDFDevice2::GetDeviceStackIoTypePreference, UMDFDeviceObjectRef_f6402826-fe3b-46c7-a4a8-d1d4f74e4b5c.xml, umdf.iwdfdevice2_getdevicestackiotypepreference, wdf.iwdfdevice2_getdevicestackiotypepreference, wudfddi/IWDFDevice2::GetDeviceStackIoTypePreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

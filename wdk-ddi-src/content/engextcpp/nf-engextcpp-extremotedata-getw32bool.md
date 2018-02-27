@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a17812f5-4e20-4793-9352-3cabed25a6da
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, 3, :, B, D, E, EngExtCpp_Ref_367ee79b-5fdf-41ca-b43c-f9f29b3a872c.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetW32Bool method, ExtRemoteData::GetW32Bool, G, GetW32Bool method [Windows Debugging], GetW32Bool method [Windows Debugging], ExtRemoteData class, GetW32Bool,ExtRemoteData.GetW32Bool, R, W, a, debugger.extremotedata_getw32bool, e, l, m, o, t, x"
+ms.keywords: EngExtCpp_Ref_367ee79b-5fdf-41ca-b43c-f9f29b3a872c.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetW32Bool method, ExtRemoteData::GetW32Bool, GetW32Bool method [Windows Debugging], GetW32Bool method [Windows Debugging], ExtRemoteData class, GetW32Bool,ExtRemoteData.GetW32Bool, debugger.extremotedata_getw32bool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -93,11 +93,11 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544050">ExtRemoteData::GetStdBool</a>
+
+
+
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
 
 

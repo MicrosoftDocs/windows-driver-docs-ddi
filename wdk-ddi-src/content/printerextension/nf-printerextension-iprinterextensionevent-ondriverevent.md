@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F00FD4FB-08D5-42D4-8CC2-85EE02D95E4B
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, E, I, IPrinterExtensionEvent, IPrinterExtensionEvent interface [Print Devices], OnDriverEvent method, IPrinterExtensionEvent::OnDriverEvent, O, OnDriverEvent method [Print Devices], OnDriverEvent method [Print Devices], IPrinterExtensionEvent interface, OnDriverEvent,IPrinterExtensionEvent.OnDriverEvent, P, e, i, n, o, print.iprinterextensionevent_ondriverevent, printerextension/IPrinterExtensionEvent::OnDriverEvent, r, s, t, v, x"
+ms.keywords: IPrinterExtensionEvent, IPrinterExtensionEvent interface [Print Devices], OnDriverEvent method, IPrinterExtensionEvent::OnDriverEvent, OnDriverEvent method [Print Devices], OnDriverEvent method [Print Devices], IPrinterExtensionEvent interface, OnDriverEvent,IPrinterExtensionEvent.OnDriverEvent, print.iprinterextensionevent_ondriverevent, printerextension/IPrinterExtensionEvent::OnDriverEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

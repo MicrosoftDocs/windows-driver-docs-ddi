@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 0f2c321c-f03b-4655-bbd1-25fcc6c52cfa
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PPCI_EXPRESS_ROOT_CONTROL_REGISTER, ,, C, E, G, I, L, N, O, P, PCI.pci_express_root_control_register, PCI_EXPRESS_ROOT_CONTROL_REGISTER, PCI_EXPRESS_ROOT_CONTROL_REGISTER union [Buses], PPCI_EXPRESS_ROOT_CONTROL_REGISTER, PPCI_EXPRESS_ROOT_CONTROL_REGISTER union pointer [Buses], R, S, T, X, _, _PCI_EXPRESS_ROOT_CONTROL_REGISTER, ntddk/PCI_EXPRESS_ROOT_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_ROOT_CONTROL_REGISTER, pci_struct_ef335e30-c046-4066-8411-27bf96cbcd08.xml"
+ms.keywords: "*PPCI_EXPRESS_ROOT_CONTROL_REGISTER, PCI.pci_express_root_control_register, PCI_EXPRESS_ROOT_CONTROL_REGISTER, PCI_EXPRESS_ROOT_CONTROL_REGISTER union [Buses], PPCI_EXPRESS_ROOT_CONTROL_REGISTER, PPCI_EXPRESS_ROOT_CONTROL_REGISTER union pointer [Buses], _PCI_EXPRESS_ROOT_CONTROL_REGISTER, ntddk/PCI_EXPRESS_ROOT_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_ROOT_CONTROL_REGISTER, pci_struct_ef335e30-c046-4066-8411-27bf96cbcd08.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,14 +85,14 @@ typedef union _PCI_EXPRESS_ROOT_CONTROL_REGISTER {
 A USHORT representation of the contents of the PCI_EXPRESS_ROOT_CONTROL_REGISTER structure.
 
 
+#### - CRSSoftwareVisibilityEnable
+
+A single bit that indicates that the root port is enabled to return configuration request retry status (CRS) completion status to software.
+
+
 #### - CorrectableSerrEnable
 
 A single bit that indicates that a system error should be generated if a correctable error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
-
-
-#### - NonFatalSerrEnable
-
-A single bit that indicates that a system error should be generated if a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
 
 
 #### - FatalSerrEnable
@@ -100,14 +100,14 @@ A single bit that indicates that a system error should be generated if a non-fat
 A single bit that indicates that a system error should be generated if a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
 
 
+#### - NonFatalSerrEnable
+
+A single bit that indicates that a system error should be generated if a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
+
+
 #### - PMEInterruptEnable
 
 A single bit that indicates that interrupts are enabled for power management events.
-
-
-#### - CRSSoftwareVisibilityEnable
-
-A single bit that indicates that the root port is enabled to return configuration request retry status (CRS) completion status to software.
 
 
 #### - Rsvd

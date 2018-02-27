@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b3585a06-fdb0-4fe9-8d5c-63680039a789
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 1, 3, A, B, C, D, D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW, D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure [Display Devices], E, F, G, H, I, O, R, S, U, UMDisplayDriver_Dx11param_Structs_49ef78b9-8a6f-4b67-bf2f-bae79086b6c7.xml, V, W, X, _, d3d10umddi/D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW, display.d3d11ddiarg_bufferex_shaderresourceview"
+ms.keywords: D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW, D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_49ef78b9-8a6f-4b67-bf2f-bae79086b6c7.xml, d3d10umddi/D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW, display.d3d11ddiarg_bufferex_shaderresourceview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,12 +80,17 @@ typedef struct D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW {
 [in] A valid bitwise OR of flag values that describe the buffer. Currently, the Direct3D runtime supports only the D3D11_DDI_BUFFEREX_SRV_FLAG_RAW (0x00000001) flag. If this flag is set, the buffer is in raw format. 
 
 
-#### - FirstElement
+#### - ElementOffset
 
 [in] The offset, in bytes, to the first element in the buffer. 
 
 
-#### - ElementOffset
+#### - ElementWidth
+
+[in] The width, in elements, in the buffer. 
+
+
+#### - FirstElement
 
 [in] The offset, in bytes, to the first element in the buffer. 
 
@@ -95,18 +100,13 @@ typedef struct D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW {
 [in] The number of elements in the buffer. 
 
 
-#### - ElementWidth
-
-[in] The width, in elements, in the buffer. 
-
-
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize(D3D11)</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createshaderresourceview.md">CreateShaderResourceView(D3D11)</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize(D3D11)</a>
 
 
 

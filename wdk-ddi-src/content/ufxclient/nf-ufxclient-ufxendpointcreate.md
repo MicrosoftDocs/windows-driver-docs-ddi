@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 060CADB7-AAC9-401A-9198-FC306CE74A34
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, E, U, UfxEndpointCreate, UfxEndpointCreate method [Buses], a, buses.ufxendpointcreate, d, e, f, i, n, o, p, r, t, ufxclient/UfxEndpointCreate, x"
+ms.keywords: UfxEndpointCreate, UfxEndpointCreate method [Buses], buses.ufxendpointcreate, ufxclient/UfxEndpointCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c0d5ea59-c1df-403b-9e74-b1ab60761640
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, D, F, I, IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, Stop method, IWDFIoTargetStateManagement::Stop, M, S, Stop method, Stop method, IWDFIoTargetStateManagement interface, Stop,IWDFIoTargetStateManagement.Stop, T, UMDFIoTargetObjectRef_e3b5b892-9d72-49ad-8d58-9cf751f831ad.xml, W, a, e, g, m, n, o, p, r, t, umdf.iwdfiotargetstatemanagement_stop, wdf.iwdfiotargetstatemanagement_stop, wudfddi/IWDFIoTargetStateManagement::Stop"
+ms.keywords: IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, Stop method, IWDFIoTargetStateManagement::Stop, Stop method, Stop method, IWDFIoTargetStateManagement interface, Stop,IWDFIoTargetStateManagement.Stop, UMDFIoTargetObjectRef_e3b5b892-9d72-49ad-8d58-9cf751f831ad.xml, umdf.iwdfiotargetstatemanagement_stop, wdf.iwdfiotargetstatemanagement_stop, wudfddi/IWDFIoTargetStateManagement::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

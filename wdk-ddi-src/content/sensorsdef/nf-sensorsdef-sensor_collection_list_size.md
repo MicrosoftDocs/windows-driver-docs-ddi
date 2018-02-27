@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 98191F02-E047-41BC-922F-867DED522E59
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , C, E, I, L, N, O, R, S, SENSOR_COLLECTION_LIST_SIZE, SENSOR_COLLECTION_LIST_SIZE function [Sensor Devices], T, Z, _, sensors.sensor_collection_list_size, sensorsdef/SENSOR_COLLECTION_LIST_SIZE"
+ms.keywords: SENSOR_COLLECTION_LIST_SIZE, SENSOR_COLLECTION_LIST_SIZE function [Sensor Devices], sensors.sensor_collection_list_size, sensorsdef/SENSOR_COLLECTION_LIST_SIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 70f90cfd-9828-41a6-a7f9-6b0033e46b74
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , A, DFRequestObjectRef_14594eba-ca7f-433b-9fd4-717053a09158.xml, R, S, W, WdfRequestStopAcknowledge, WdfRequestStopAcknowledge method, c, d, e, f, g, k, kmdf.wdfrequeststopacknowledge, l, n, o, p, q, s, t, u, w, wdf.wdfrequeststopacknowledge, wdfrequest/WdfRequestStopAcknowledge"
+ms.keywords: DFRequestObjectRef_14594eba-ca7f-433b-9fd4-717053a09158.xml, WdfRequestStopAcknowledge, WdfRequestStopAcknowledge method, kmdf.wdfrequeststopacknowledge, wdf.wdfrequeststopacknowledge, wdfrequest/WdfRequestStopAcknowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -214,7 +214,7 @@ MyEvtIoStop(
 
 ## -see-also
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a>
+<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
 
 
 
@@ -222,7 +222,7 @@ MyEvtIoStop(
 
 
 
-<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a>
 
 
 

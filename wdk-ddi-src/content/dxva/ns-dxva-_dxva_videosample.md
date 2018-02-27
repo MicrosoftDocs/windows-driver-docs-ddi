@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2fab4993-0b34-44ce-a905-5094e6e3ce47
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *LPDXVA_VideoSample, ,, A, D, DXVA_VideoSample, DXVA_VideoSample structure [Display Devices], L, LPDXVA_VideoSample, LPDXVA_VideoSample structure pointer [Display Devices], P, S, V, X, _, _DXVA_VideoSample, a, d, display.dxva_videosample, dxva/DXVA_VideoSample, dxva/LPDXVA_VideoSample, dxvaref_08c56205-0793-4556-bb9a-e682eb6ca354.xml, e, i, l, m, o, p"
+ms.keywords: "*LPDXVA_VideoSample, DXVA_VideoSample, DXVA_VideoSample structure [Display Devices], LPDXVA_VideoSample, LPDXVA_VideoSample structure pointer [Display Devices], _DXVA_VideoSample, display.dxva_videosample, dxva/DXVA_VideoSample, dxva/LPDXVA_VideoSample, dxvaref_08c56205-0793-4556-bb9a-e682eb6ca354.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

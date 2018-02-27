@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 900db70b-4cdb-41e7-a4cf-0dc435b9fe7d
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, P, PoUnregisterPowerSettingCallback, PoUnregisterPowerSettingCallback routine [Kernel-Mode Driver Architecture], S, U, a, b, c, e, g, i, k, kernel.pounregisterpowersettingcallback, l, n, o, portn_52c569d1-68d0-48a4-88e7-c2ffb27aa530.xml, r, s, t, w, wdm/PoUnregisterPowerSettingCallback"
+ms.keywords: PoUnregisterPowerSettingCallback, PoUnregisterPowerSettingCallback routine [Kernel-Mode Driver Architecture], kernel.pounregisterpowersettingcallback, portn_52c569d1-68d0-48a4-88e7-c2ffb27aa530.xml, wdm/PoUnregisterPowerSettingCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

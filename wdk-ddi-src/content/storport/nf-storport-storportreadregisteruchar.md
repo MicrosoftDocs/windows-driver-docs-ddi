@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1edf800d-f097-4d3f-ae89-1b11e4f82f2d
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , P, R, S, StorPortReadRegisterUchar, StorPortReadRegisterUchar routine [Storage Devices], U, a, c, d, e, g, h, i, o, r, s, storage.storportreadregisteruchar, storport/StorPortReadRegisterUchar, storprt_9f2898e2-6b5e-45ae-9162-57c58a3471f7.xml, t"
+ms.keywords: StorPortReadRegisterUchar, StorPortReadRegisterUchar routine [Storage Devices], storage.storportreadregisteruchar, storport/StorPortReadRegisterUchar, storprt_9f2898e2-6b5e-45ae-9162-57c58a3471f7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -105,11 +105,11 @@ For more information, see <a href="..\storport\nf-storport-scsiportreadregisteru
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportreadregisterbufferuchar.md">StorPortReadRegisterBufferUchar</a>
-
-
-
 <a href="..\storport\nf-storport-scsiportreadregisteruchar.md">ScsiPortReadRegisterUchar</a>
+
+
+
+<a href="..\storport\nf-storport-storportreadregisterbufferuchar.md">StorPortReadRegisterBufferUchar</a>
 
 
 

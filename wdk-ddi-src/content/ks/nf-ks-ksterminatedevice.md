@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3d6ad381-0bd9-47d8-a4dd-e434b62bf5a1
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , D, K, KsTerminateDevice, KsTerminateDevice function [Streaming Media Devices], T, a, avfunc_42f55ca4-ed73-4ea2-9f33-462d9d13e3e3.xml, c, e, i, ks/KsTerminateDevice, m, n, r, s, stream.ksterminatedevice, t, v"
+ms.keywords: KsTerminateDevice, KsTerminateDevice function [Streaming Media Devices], avfunc_42f55ca4-ed73-4ea2-9f33-462d9d13e3e3.xml, ks/KsTerminateDevice, stream.ksterminatedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,15 +93,7 @@ Normally, AVStream calls <b>KsTerminateDevice</b> upon receipt of a PnP remove d
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
-
-
-
-<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
-
-
-
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
 
 
 
@@ -109,7 +101,15 @@ Normally, AVStream calls <b>KsTerminateDevice</b> upon receipt of a PnP remove d
 
 
 
+<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
+
+
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
 
 
 
@@ -117,7 +117,7 @@ Normally, AVStream calls <b>KsTerminateDevice</b> upon receipt of a PnP remove d
 
 
 
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: CDBAB58C-F051-4047-A538-5504F0E28EC7
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, I, IPrintSchemaParameterInitializer, IPrintSchemaParameterInitializer interface [Print Devices], Value property, IPrintSchemaParameterInitializer,get_Value, IPrintSchemaParameterInitializer.Value, IPrintSchemaParameterInitializer::get_Value, IPrintSchemaParameterInitializer::put_Value, P, S, V, Value property [Print Devices], Value property [Print Devices], IPrintSchemaParameterInitializer interface, _, a, c, e, get_Value,IPrintSchemaParameterInitializer.get_Value, h, i, l, m, n, p, print.iprintschemaparameterinitializer_getvalue, printerextension/IPrintSchemaParameterInitializer::Value, printerextension/IPrintSchemaParameterInitializer::get_Value, put_Value,IPrintSchemaParameterInitializer.put_Value, r, t, u, z"
+ms.keywords: IPrintSchemaParameterInitializer, IPrintSchemaParameterInitializer interface [Print Devices], Value property, IPrintSchemaParameterInitializer,get_Value, IPrintSchemaParameterInitializer.Value, IPrintSchemaParameterInitializer::get_Value, IPrintSchemaParameterInitializer::put_Value, Value property [Print Devices], Value property [Print Devices], IPrintSchemaParameterInitializer interface, print.iprintschemaparameterinitializer_getvalue, printerextension/IPrintSchemaParameterInitializer::Value, printerextension/IPrintSchemaParameterInitializer::get_Value, put_Value,IPrintSchemaParameterInitializer.put_Value
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

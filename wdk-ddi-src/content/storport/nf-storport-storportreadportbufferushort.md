@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7b45811c-4e5f-4344-b0b3-15d36b912b5b
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, P, R, S, StorPortReadPortBufferUshort, StorPortReadPortBufferUshort routine [Storage Devices], U, a, d, e, f, h, o, r, s, storage.storportreadportbufferushort, storport/StorPortReadPortBufferUshort, storprt_8bb9a625-864a-4566-a570-87425b6bc9af.xml, t, u"
+ms.keywords: StorPortReadPortBufferUshort, StorPortReadPortBufferUshort routine [Storage Devices], storage.storportreadportbufferushort, storport/StorPortReadPortBufferUshort, storprt_8bb9a625-864a-4566-a570-87425b6bc9af.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -96,16 +96,6 @@ TBD
 
 
 
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Port [in]
-
-Pointer to the address from which to read. 
-
-
 #### - Buffer [in]
 
 Pointer to the buffer that receives the data that is read.
@@ -114,6 +104,16 @@ Pointer to the buffer that receives the data that is read.
 #### - Count [in]
 
 Number of data items to be read. Each data item has a size of <b>sizeof</b>(USHORT). 
+
+
+#### - HwDeviceExtension [in]
+
+Pointer to the hardware device extension.
+
+
+#### - Port [in]
+
+Pointer to the address from which to read. 
 
 
 ## -remarks
@@ -127,11 +127,11 @@ For more information, see <a href="..\storport\nf-storport-scsiportreadportbuffe
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportreadportushort.md">StorPortReadPortUshort</a>
-
-
-
 <a href="..\storport\nf-storport-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>
+
+
+
+<a href="..\storport\nf-storport-storportreadportushort.md">StorPortReadPortUshort</a>
 
 
 

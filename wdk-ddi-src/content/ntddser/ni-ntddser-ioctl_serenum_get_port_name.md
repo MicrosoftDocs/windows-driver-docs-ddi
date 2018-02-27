@@ -112,14 +112,14 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_SUCCESS
-
-The request completed successfully.
-
-
 #### -STATUS_BUFFER_TOO_SMALL
 
 The output buffer is too small to hold the port name string.
+
+
+#### -STATUS_SUCCESS
+
+The request completed successfully.
 
 
 #### -STATUS_UNSUCCESSFUL

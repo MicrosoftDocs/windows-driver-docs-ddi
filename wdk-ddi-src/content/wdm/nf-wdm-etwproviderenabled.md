@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 28b0a40e-e8e8-4953-8a3a-f3f1b58ad80f
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , E, EtwProviderEnabled, EtwProviderEnabled function [Driver Development Tools], P, a, b, d, devtest.etwproviderenabled, e, etw_km_ea4989d3-f349-4dda-9d86-f1b9528ddf1c.xml, i, l, n, o, r, t, v, w, wdm/EtwProviderEnabled"
+ms.keywords: EtwProviderEnabled, EtwProviderEnabled function [Driver Development Tools], devtest.etwproviderenabled, etw_km_ea4989d3-f349-4dda-9d86-f1b9528ddf1c.xml, wdm/EtwProviderEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4d2ab950-a045-4b5a-be9b-0b80c442e63d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, D, I, L, M, P, R, RIL_SetDMProfileConfigInfo, RIL_SetDMProfileConfigInfo method [Network Drivers Starting with Windows Vista], S, _, e, f, g, i, l, n, netvista.ril_setdmprofileconfiginfo, o, r, rilapi/RIL_SetDMProfileConfigInfo, t"
+ms.keywords: RIL_SetDMProfileConfigInfo, RIL_SetDMProfileConfigInfo method [Network Drivers Starting with Windows Vista], netvista.ril_setdmprofileconfiginfo, rilapi/RIL_SetDMProfileConfigInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

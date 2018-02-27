@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0ccae1e9-23d4-44cd-ae5a-985490db1d86
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , D, DFDeviceObjectGeneralRef_ab116304-7951-4b19-b197-3943a4a415db.xml, K, O, R, W, WdfDeviceOpenRegistryKey, WdfDeviceOpenRegistryKey method, c, d, e, f, g, i, kmdf.wdfdeviceopenregistrykey, n, p, r, s, t, v, wdf.wdfdeviceopenregistrykey, wdfdevice/WdfDeviceOpenRegistryKey, y"
+ms.keywords: DFDeviceObjectGeneralRef_ab116304-7951-4b19-b197-3943a4a415db.xml, WdfDeviceOpenRegistryKey, WdfDeviceOpenRegistryKey method, kmdf.wdfdeviceopenregistrykey, wdf.wdfdeviceopenregistrykey, wdfdevice/WdfDeviceOpenRegistryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

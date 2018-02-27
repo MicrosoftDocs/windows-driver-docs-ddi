@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f1197dfd-03d7-4ac2-8f11-60da413e32b2
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , I, IoStartNextPacket, IoStartNextPacket routine [Kernel-Mode Driver Architecture], N, P, S, a, c, e, k, k104_5a02a1fa-cf0e-43b0-a4e8-db1da8ad110c.xml, kernel.iostartnextpacket, o, r, t, wdm/IoStartNextPacket, x"
+ms.keywords: IoStartNextPacket, IoStartNextPacket routine [Kernel-Mode Driver Architecture], k104_5a02a1fa-cf0e-43b0-a4e8-db1da8ad110c.xml, kernel.iostartnextpacket, wdm/IoStartNextPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,19 +107,19 @@ Callers of <b>IoStartNextPacket</b> must be running at IRQL = DISPATCH_LEVEL. Us
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a>
-
-
-
 <a href="..\wdm\nf-wdm-iostartnextpacketbykey.md">IoStartNextPacketByKey</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
 <a href="..\wdm\nf-wdm-iosetstartioattributes.md">IoSetStartIoAttributes</a>
+
+
+
+<a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

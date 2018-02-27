@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 696d0870-966e-44ac-859e-d530dd6c76b8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , D, I, N, NdisIfDeregisterInterface, NdisIfDeregisterInterface function [Network Drivers Starting with Windows Vista], a, c, d, e, f, g, i, n, ndis/NdisIfDeregisterInterface, net_if_functions_ref_dc1bdf3d-3cca-4d4a-b0f9-4bdef32bcdb0.xml, netvista.ndisifderegisterinterface, r, s, t"
+ms.keywords: NdisIfDeregisterInterface, NdisIfDeregisterInterface function [Network Drivers Starting with Windows Vista], ndis/NdisIfDeregisterInterface, net_if_functions_ref_dc1bdf3d-3cca-4d4a-b0f9-4bdef32bcdb0.xml, netvista.ndisifderegisterinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8d14604f-c9e5-4a2d-bb51-ef1925b39118
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , E, L, R, RxLockEnumerator, RxLockEnumerator function [Installable File System Drivers], a, c, e, ifsk.rxlockenumerator, k, m, n, o, r, rxprocs/RxLockEnumerator, rxref_62372da9-aa80-447e-8e79-6bc1f1c5cf54.xml, t, u, x"
+ms.keywords: RxLockEnumerator, RxLockEnumerator function [Installable File System Drivers], ifsk.rxlockenumerator, rxprocs/RxLockEnumerator, rxref_62372da9-aa80-447e-8e79-6bc1f1c5cf54.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

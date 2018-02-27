@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D5D8D994-0BB6-44FC-A696-F2E0264445C1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , I, P, V, VmbPacketInitialize, VmbPacketInitialize function [Network Drivers Starting with Windows Vista], a, b, c, e, i, k, l, m, n, netvista.vmbpacketinitialize, t, vmbuskernelmodeclientlibapi/VmbPacketInitialize, z"
+ms.keywords: VmbPacketInitialize, VmbPacketInitialize function [Network Drivers Starting with Windows Vista], netvista.vmbpacketinitialize, vmbuskernelmodeclientlibapi/VmbPacketInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

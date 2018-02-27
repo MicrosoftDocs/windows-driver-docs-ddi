@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: da3d19ab-258d-4214-8674-b35fec06534b
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 4, :, C, D, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], OutputContextStackTrace method, IDebugControl4::OutputContextStackTrace, IDebugControl_6d7b3f4e-9b64-41f5-8d26-ba745fae5d43.xml, O, OutputContextStackTrace method [Windows Debugging], OutputContextStackTrace method [Windows Debugging], IDebugControl4 interface, OutputContextStackTrace,IDebugControl4.OutputContextStackTrace, S, T, a, b, c, dbgeng/IDebugControl4::OutputContextStackTrace, debugger.outputcontextstacktrace, e, g, k, l, n, o, p, r, t, u, x"
+ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], OutputContextStackTrace method, IDebugControl4::OutputContextStackTrace, IDebugControl_6d7b3f4e-9b64-41f5-8d26-ba745fae5d43.xml, OutputContextStackTrace method [Windows Debugging], OutputContextStackTrace method [Windows Debugging], IDebugControl4 interface, OutputContextStackTrace,IDebugControl4.OutputContextStackTrace, dbgeng/IDebugControl4::OutputContextStackTrace, debugger.outputcontextstacktrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -265,15 +265,15 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>
-
-
-
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
 
 
 

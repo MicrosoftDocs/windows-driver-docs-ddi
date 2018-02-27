@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a06bbe25-9841-4aeb-9d51-257dd1472027
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, CcUnpinData, CcUnpinData routine [Installable File System Drivers], D, U, a, c, ccref_ba560a38-4d3b-409f-b1ea-19c3a117615e.xml, i, ifsk.ccunpindata, n, ntifs/CcUnpinData, p, t"
+ms.keywords: CcUnpinData, CcUnpinData routine [Installable File System Drivers], ccref_ba560a38-4d3b-409f-b1ea-19c3a117615e.xml, ifsk.ccunpindata, ntifs/CcUnpinData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,7 +100,11 @@ BCBs that have been modified by <a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.md">CcSetBcbOwnerPointer</a>
+<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
 
 
 
@@ -108,11 +112,7 @@ BCBs that have been modified by <a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
+<a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.md">CcSetBcbOwnerPointer</a>
 
 
 

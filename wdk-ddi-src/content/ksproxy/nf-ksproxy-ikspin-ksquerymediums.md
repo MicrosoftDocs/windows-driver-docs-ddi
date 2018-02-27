@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: de6efd10-7f97-422a-abd4-c21c4cbc1dd7
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, I, IKsPin, IKsPin interface [Streaming Media Devices], KsQueryMediums method, IKsPin::KsQueryMediums, K, KsQueryMediums method [Streaming Media Devices], KsQueryMediums method [Streaming Media Devices], IKsPin interface, KsQueryMediums,IKsPin.KsQueryMediums, M, P, Q, d, e, i, ksproxy/IKsPin::KsQueryMediums, ksproxy_88debe31-2dd5-41bc-80c0-164b28dc586f.xml, m, n, r, s, stream.ikspin_ksquerymediums, u, y"
+ms.keywords: IKsPin, IKsPin interface [Streaming Media Devices], KsQueryMediums method, IKsPin::KsQueryMediums, KsQueryMediums method [Streaming Media Devices], KsQueryMediums method [Streaming Media Devices], IKsPin interface, KsQueryMediums,IKsPin.KsQueryMediums, ksproxy/IKsPin::KsQueryMediums, ksproxy_88debe31-2dd5-41bc-80c0-164b28dc586f.xml, stream.ikspin_ksquerymediums
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -94,11 +94,11 @@ Applications call <b>KsQueryMediums</b> to retrieve mediums that pins support in
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a>
-
-
-
 <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a>
 
 
 

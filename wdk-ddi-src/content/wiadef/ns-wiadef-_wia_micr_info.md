@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: E91F5D6F-40F9-4CE2-8C51-4CA7FB27F2C3
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, A, C, F, I, M, N, O, R, W, WIA_MICR_INFO, WIA_MICR_INFO structure [Imaging Devices], _, _WIA_MICR_INFO, image.wia_micr_info, wiadef/WIA_MICR_INFO"
+ms.keywords: WIA_MICR_INFO, WIA_MICR_INFO structure [Imaging Devices], _WIA_MICR_INFO, image.wia_micr_info, wiadef/WIA_MICR_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

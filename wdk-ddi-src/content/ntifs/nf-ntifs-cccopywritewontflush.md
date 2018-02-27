@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ad2b3372-f8b4-49dc-ba20-2ee89d60f41f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, CcCopyWriteWontFlush, CcCopyWriteWontFlush function [Installable File System Drivers], F, W, c, ccref_a8540235-ac2e-4d04-8153-95e2dae5a650.xml, e, h, i, ifsk.cccopywritewontflush, l, n, ntifs/CcCopyWriteWontFlush, o, p, r, s, t, u, y"
+ms.keywords: CcCopyWriteWontFlush, CcCopyWriteWontFlush function [Installable File System Drivers], ccref_a8540235-ac2e-4d04-8153-95e2dae5a650.xml, ifsk.cccopywritewontflush, ntifs/CcCopyWriteWontFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,11 @@ Length in bytes of the data to be copied.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
 
 
 

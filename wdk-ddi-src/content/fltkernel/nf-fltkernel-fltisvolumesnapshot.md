@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: eb35e108-577e-4897-8f8c-f3c54753c1f7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , F, FltApiRef_e_to_o_652c8b18-8114-460b-852f-9c6bc8ff687f.xml, FltIsVolumeSnapshot, FltIsVolumeSnapshot routine [Installable File System Drivers], I, S, V, a, e, fltkernel/FltIsVolumeSnapshot, h, ifsk.fltisvolumesnapshot, l, m, n, o, p, s, t, u"
+ms.keywords: FltApiRef_e_to_o_652c8b18-8114-460b-852f-9c6bc8ff687f.xml, FltIsVolumeSnapshot, FltIsVolumeSnapshot routine [Installable File System Drivers], fltkernel/FltIsVolumeSnapshot, ifsk.fltisvolumesnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

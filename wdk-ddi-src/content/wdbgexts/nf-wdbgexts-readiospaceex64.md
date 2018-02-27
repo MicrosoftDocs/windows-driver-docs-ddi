@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6903a684-e9da-4ff0-b5ea-330b070849c6
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , 4, 6, E, I, R, ReadIoSpaceEx64, ReadIoSpaceEx64 function [Windows Debugging], S, WdbgExts_Ref_5d81517c-f30d-4f8c-b4fe-e3487ad6c49e.xml, a, c, d, debugger.readiospaceex64, e, o, p, wdbgexts/ReadIoSpaceEx64, x"
+ms.keywords: ReadIoSpaceEx64, ReadIoSpaceEx64 function [Windows Debugging], WdbgExts_Ref_5d81517c-f30d-4f8c-b4fe-e3487ad6c49e.xml, debugger.readiospaceex64, wdbgexts/ReadIoSpaceEx64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

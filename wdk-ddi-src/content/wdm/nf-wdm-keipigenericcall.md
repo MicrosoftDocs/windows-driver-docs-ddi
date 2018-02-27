@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 11424e94-d279-4003-a97c-a46d1a75e8e5
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, G, I, K, KeIpiGenericCall, KeIpiGenericCall routine [Kernel-Mode Driver Architecture], a, c, e, i, k105_f819c564-ecbc-4d28-aa64-6936c8ad3542.xml, kernel.keipigenericcall, l, n, p, r, wdm/KeIpiGenericCall"
+ms.keywords: KeIpiGenericCall, KeIpiGenericCall routine [Kernel-Mode Driver Architecture], k105_f819c564-ecbc-4d28-aa64-6936c8ad3542.xml, kernel.keipigenericcall, wdm/KeIpiGenericCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

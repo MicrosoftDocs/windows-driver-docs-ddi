@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 57E13395-9E23-4708-B4EC-6839CB6FC62B
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, Constrained property [Print Devices], Constrained property [Print Devices], IPrintSchemaOption interface, I, IPrintSchemaOption, IPrintSchemaOption interface [Print Devices], Constrained property, IPrintSchemaOption.Constrained, IPrintSchemaOption::get_Constrained, O, P, S, _, a, c, d, e, g, get_Constrained, get_Constrained,IPrintSchemaOption.get_Constrained, h, i, m, n, o, p, print.iprintschemaoption_constrained, printerextension/IPrintSchemaOption::Constrained, printerextension/IPrintSchemaOption::get_Constrained, r, s, t"
+ms.keywords: Constrained property [Print Devices], Constrained property [Print Devices], IPrintSchemaOption interface, IPrintSchemaOption, IPrintSchemaOption interface [Print Devices], Constrained property, IPrintSchemaOption.Constrained, IPrintSchemaOption::get_Constrained, get_Constrained, get_Constrained,IPrintSchemaOption.get_Constrained, print.iprintschemaoption_constrained, printerextension/IPrintSchemaOption::Constrained, printerextension/IPrintSchemaOption::get_Constrained
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

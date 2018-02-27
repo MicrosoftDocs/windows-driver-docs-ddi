@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a2526734-c0bf-4f6b-b91e-2f6891c46c69
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, E, I, IKsPinEx, IKsPinEx interface [Streaming Media Devices], KsNotifyError method, IKsPinEx::KsNotifyError, K, KsNotifyError method [Streaming Media Devices], KsNotifyError method [Streaming Media Devices], IKsPinEx interface, KsNotifyError,IKsPinEx.KsNotifyError, N, P, f, i, ksproxy/IKsPinEx::KsNotifyError, ksproxy_41c855aa-58a3-4bf6-bb8a-1eb8dfe2a3e1.xml, n, o, r, s, stream.ikspinex_ksnotifyerror, t, x, y"
+ms.keywords: IKsPinEx, IKsPinEx interface [Streaming Media Devices], KsNotifyError method, IKsPinEx::KsNotifyError, KsNotifyError method [Streaming Media Devices], KsNotifyError method [Streaming Media Devices], IKsPinEx interface, KsNotifyError,IKsPinEx.KsNotifyError, ksproxy/IKsPinEx::KsNotifyError, ksproxy_41c855aa-58a3-4bf6-bb8a-1eb8dfe2a3e1.xml, stream.ikspinex_ksnotifyerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

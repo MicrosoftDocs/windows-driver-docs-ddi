@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 406508b2-7509-4d2b-ac22-63644eedcec0
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , I, IoWritePartitionTable, IoWritePartitionTable routine [Storage Devices], P, T, W, a, b, e, i, l, n, ntddk/IoWritePartitionTable, o, r, rtns-disk_9358ac66-e3ba-43c0-856f-0f8b4c0ee832.xml, storage.iowritepartitiontable, t"
+ms.keywords: IoWritePartitionTable, IoWritePartitionTable routine [Storage Devices], ntddk/IoWritePartitionTable, rtns-disk_9358ac66-e3ba-43c0-856f-0f8b4c0ee832.xml, storage.iowritepartitiontable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 87EED8B5-676C-4056-812B-B0424148FCFA
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, G, GetProperties method [Print Devices], GetProperties method [Print Devices], IPrinterQueue interface, GetProperties,IPrinterQueue.GetProperties, I, IPrinterQueue, IPrinterQueue interface [Print Devices], GetProperties method, IPrinterQueue::GetProperties, P, Q, e, i, n, o, p, print.iprinterqueue_getproperties, printerextension/IPrinterQueue::GetProperties, r, s, t, u"
+ms.keywords: GetProperties method [Print Devices], GetProperties method [Print Devices], IPrinterQueue interface, GetProperties,IPrinterQueue.GetProperties, IPrinterQueue, IPrinterQueue interface [Print Devices], GetProperties method, IPrinterQueue::GetProperties, print.iprinterqueue_getproperties, printerextension/IPrinterQueue::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -84,11 +84,11 @@ This method returns and <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
 
 
 

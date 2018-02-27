@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 069defee-6295-4492-b0bb-135c476c79aa
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, P, R, S, StorPortReadRegisterBufferUlong, StorPortReadRegisterBufferUlong routine [Storage Devices], U, a, d, e, f, g, i, l, n, o, r, s, storage.storportreadregisterbufferulong, storport/StorPortReadRegisterBufferUlong, storprt_18f8816c-5e0f-4139-829d-d9de65d63529.xml, t, u"
+ms.keywords: StorPortReadRegisterBufferUlong, StorPortReadRegisterBufferUlong routine [Storage Devices], storage.storportreadregisterbufferulong, storport/StorPortReadRegisterBufferUlong, storprt_18f8816c-5e0f-4139-829d-d9de65d63529.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -96,16 +96,6 @@ TBD
 
 
 
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Register [in]
-
-Pointer to the register where the data is to be read. 
-
-
 #### - Buffer [in]
 
 Pointer to the buffer that receives the data that is read.
@@ -114,6 +104,16 @@ Pointer to the buffer that receives the data that is read.
 #### - Count [in]
 
 Specifies the number of data items to be read. Each data item has a size of <b>sizeof</b>(ULONG). 
+
+
+#### - HwDeviceExtension [in]
+
+Pointer to the hardware device extension.
+
+
+#### - Register [in]
+
+Pointer to the register where the data is to be read. 
 
 
 ## -remarks
@@ -127,11 +127,11 @@ For more information, see <a href="..\storport\nf-storport-scsiportreadregisterb
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportreadregisterulong.md">StorPortReadRegisterUlong</a>
-
-
-
 <a href="..\storport\nf-storport-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>
+
+
+
+<a href="..\storport\nf-storport-storportreadregisterulong.md">StorPortReadRegisterUlong</a>
 
 
 

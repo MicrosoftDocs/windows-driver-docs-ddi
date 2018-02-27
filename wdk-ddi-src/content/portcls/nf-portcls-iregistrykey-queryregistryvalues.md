@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: eb3aa7ec-65f7-4e3d-8059-e9627de9818c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, I, IRegistryKey, IRegistryKey interface [Audio Devices], QueryRegistryValues method, IRegistryKey::QueryRegistryValues, K, Q, QueryRegistryValues method [Audio Devices], QueryRegistryValues method [Audio Devices], IRegistryKey interface, QueryRegistryValues,IRegistryKey.QueryRegistryValues, R, V, a, audio.iregistrykey_queryregistryvalues, audmp-routines_b2601a0c-3b8f-4e2b-868c-cf189eca7e05.xml, e, g, i, l, portcls/IRegistryKey::QueryRegistryValues, r, s, t, u, y"
+ms.keywords: IRegistryKey, IRegistryKey interface [Audio Devices], QueryRegistryValues method, IRegistryKey::QueryRegistryValues, QueryRegistryValues method [Audio Devices], QueryRegistryValues method [Audio Devices], IRegistryKey interface, QueryRegistryValues,IRegistryKey.QueryRegistryValues, audio.iregistrykey_queryregistryvalues, audmp-routines_b2601a0c-3b8f-4e2b-868c-cf189eca7e05.xml, portcls/IRegistryKey::QueryRegistryValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

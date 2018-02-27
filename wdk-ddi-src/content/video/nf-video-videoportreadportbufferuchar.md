@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7eda10df-56f8-4bb5-8f36-6246e51c1638
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, P, R, U, V, VideoPortReadPortBufferUchar, VideoPortReadPortBufferUchar function [Display Devices], VideoPort_Functions_b3c67bc0-e12c-4625-bba6-d7fb64e0c824.xml, a, c, d, display.videoportreadportbufferuchar, e, f, h, i, o, r, t, u, video/VideoPortReadPortBufferUchar"
+ms.keywords: VideoPortReadPortBufferUchar, VideoPortReadPortBufferUchar function [Display Devices], VideoPort_Functions_b3c67bc0-e12c-4625-bba6-d7fb64e0c824.xml, display.videoportreadportbufferuchar, video/VideoPortReadPortBufferUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

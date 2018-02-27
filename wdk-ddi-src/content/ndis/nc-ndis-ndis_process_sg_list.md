@@ -130,12 +130,11 @@ The driver specified the entry point (NDIS_PROCESS_SG_LIST_HANDLER) for
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
-   NDIS_SCATTER_GATHER_LIST_PARAMETERS</a>
-
-
-
 <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">NdisBuildScatterGatherList</a>
 
 
 
@@ -143,7 +142,8 @@ The driver specified the entry point (NDIS_PROCESS_SG_LIST_HANDLER) for
 
 
 
-<a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">NdisBuildScatterGatherList</a>
+<a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
+   NDIS_SCATTER_GATHER_LIST_PARAMETERS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: EB0F515D-A2FF-4744-ABC8-8FFD9DD08F24
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, B, C, G, GetChannelNotificationType method [Print Devices], GetChannelNotificationType method [Print Devices], IBidiAsyncNotifyChannel interface, GetChannelNotificationType,IBidiAsyncNotifyChannel.GetChannelNotificationType, I, IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel interface [Print Devices], GetChannelNotificationType method, IBidiAsyncNotifyChannel::GetChannelNotificationType, N, T, a, c, d, e, f, h, i, l, n, o, p, print.ibidiasyncnotifychannel_getchannelnotificationtype, prnasntp/IBidiAsyncNotifyChannel::GetChannelNotificationType, s, t, y"
+ms.keywords: GetChannelNotificationType method [Print Devices], GetChannelNotificationType method [Print Devices], IBidiAsyncNotifyChannel interface, GetChannelNotificationType,IBidiAsyncNotifyChannel.GetChannelNotificationType, IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel interface [Print Devices], GetChannelNotificationType method, IBidiAsyncNotifyChannel::GetChannelNotificationType, print.ibidiasyncnotifychannel_getchannelnotificationtype, prnasntp/IBidiAsyncNotifyChannel::GetChannelNotificationType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

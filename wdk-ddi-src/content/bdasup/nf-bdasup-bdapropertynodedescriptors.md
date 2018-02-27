@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 46e38460-9284-4305-997d-bf72b308f301
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , B, BdaPropertyNodeDescriptors, BdaPropertyNodeDescriptors function [Streaming Media Devices], D, N, P, a, bdaref_67976a51-5f21-4369-be96-ab6a2b758e85.xml, bdasup/BdaPropertyNodeDescriptors, c, d, e, i, o, p, r, s, stream.bdapropertynodedescriptors, t, y"
+ms.keywords: BdaPropertyNodeDescriptors, BdaPropertyNodeDescriptors function [Streaming Media Devices], bdaref_67976a51-5f21-4369-be96-ab6a2b758e85.xml, bdasup/BdaPropertyNodeDescriptors, stream.bdapropertynodedescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -119,11 +119,11 @@ For a list of BDA nodes that are available to create in a template topology, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 

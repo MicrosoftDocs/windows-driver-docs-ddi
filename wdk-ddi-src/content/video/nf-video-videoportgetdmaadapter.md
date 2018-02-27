@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e28649d3-cb4f-4589-b421-a7cdd9139e4c
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, D, G, P, V, VideoPortGetDmaAdapter, VideoPortGetDmaAdapter function [Display Devices], VideoPort_Functions_a45601ab-cd5a-4aed-95ec-731f09b175a4.xml, a, d, display.videoportgetdmaadapter, e, i, m, o, p, r, t, video/VideoPortGetDmaAdapter"
+ms.keywords: VideoPortGetDmaAdapter, VideoPortGetDmaAdapter function [Display Devices], VideoPort_Functions_a45601ab-cd5a-4aed-95ec-731f09b175a4.xml, display.videoportgetdmaadapter, video/VideoPortGetDmaAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -119,11 +119,11 @@ This structure is available in Windows XP and later.
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
-
-
-
 <a href="..\video\nf-video-videoportputdmaadapter.md">VideoPortPutDmaAdapter</a>
+
+
+
+<a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
 
 
 

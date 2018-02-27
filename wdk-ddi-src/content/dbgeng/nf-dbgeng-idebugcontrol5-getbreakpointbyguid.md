@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: AC316591-CCF9-4040-B1A3-29AB2033B673
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 5, :, B, C, D, G, GetBreakpointByGuid method [Windows Debugging], GetBreakpointByGuid method [Windows Debugging], IDebugControl5 interface, GetBreakpointByGuid,IDebugControl5.GetBreakpointByGuid, I, IDebugControl5, IDebugControl5 interface [Windows Debugging], GetBreakpointByGuid method, IDebugControl5::GetBreakpointByGuid, a, b, d, dbgeng/IDebugControl5::GetBreakpointByGuid, debugger.idebugcontrol5_getbreakpointbyguid, e, g, i, k, l, n, o, p, r, t, u, y"
+ms.keywords: GetBreakpointByGuid method [Windows Debugging], GetBreakpointByGuid method [Windows Debugging], IDebugControl5 interface, GetBreakpointByGuid,IDebugControl5.GetBreakpointByGuid, IDebugControl5, IDebugControl5 interface [Windows Debugging], GetBreakpointByGuid method, IDebugControl5::GetBreakpointByGuid, dbgeng/IDebugControl5::GetBreakpointByGuid, debugger.idebugcontrol5_getbreakpointbyguid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f6944297-9aca-4912-a398-c5f3a3e8d4b4
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, DeviceReset method [Imaging Devices], DeviceReset method [Imaging Devices], IStiUSD interface, DeviceReset,IStiUSD.DeviceReset, I, IStiUSD, IStiUSD interface [Imaging Devices], DeviceReset method, IStiUSD::DeviceReset, R, S, U, c, e, i, image.istiusd_devicereset, s, stifnc_94561ed6-1f7a-411e-b699-37d56165b2f7.xml, stiusd/IStiUSD::DeviceReset, t, v"
+ms.keywords: DeviceReset method [Imaging Devices], DeviceReset method [Imaging Devices], IStiUSD interface, DeviceReset,IStiUSD.DeviceReset, IStiUSD, IStiUSD interface [Imaging Devices], DeviceReset method, IStiUSD::DeviceReset, image.istiusd_devicereset, stifnc_94561ed6-1f7a-411e-b699-37d56165b2f7.xml, stiusd/IStiUSD::DeviceReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -79,11 +79,11 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543733">IStiDevice::DeviceReset</a>
-
-
-
 <a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543733">IStiDevice::DeviceReset</a>
 
 
 

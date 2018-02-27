@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6d115616-85d4-43f8-b0c8-ea5b5c2e4eff
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , A, D, I, L, N, R, RIL_DeleteAdditionalNumberString, RIL_DeleteAdditionalNumberString method [Network Drivers Starting with Windows Vista], S, _, a, b, d, e, g, i, l, m, n, netvista.ril_deleteadditionalnumberstring, o, r, rilapi/RIL_DeleteAdditionalNumberString, t, u"
+ms.keywords: RIL_DeleteAdditionalNumberString, RIL_DeleteAdditionalNumberString method [Network Drivers Starting with Windows Vista], netvista.ril_deleteadditionalnumberstring, rilapi/RIL_DeleteAdditionalNumberString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

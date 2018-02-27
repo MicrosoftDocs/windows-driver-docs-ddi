@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: efd2eea8-2b05-49a2-b136-a3e1e3e739c5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, I, IMiniportWaveRT, IMiniportWaveRT interface [Audio Devices], NewStream method, IMiniportWaveRT::NewStream, M, N, NewStream method [Audio Devices], NewStream method [Audio Devices], IMiniportWaveRT interface, NewStream,IMiniportWaveRT.NewStream, R, S, T, W, a, audio.iminiportwavert_newstream, audmp-routines_f6e65bf7-d19d-42fc-a0f0-2d2c83e88250.xml, e, i, m, n, o, p, portcls/IMiniportWaveRT::NewStream, r, t, v, w"
+ms.keywords: IMiniportWaveRT, IMiniportWaveRT interface [Audio Devices], NewStream method, IMiniportWaveRT::NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices], IMiniportWaveRT interface, NewStream,IMiniportWaveRT.NewStream, audio.iminiportwavert_newstream, audmp-routines_f6e65bf7-d19d-42fc-a0f0-2d2c83e88250.xml, portcls/IMiniportWaveRT::NewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -134,11 +134,11 @@ The <i>Stream</i> and <i>PortStream</i> parameters follow the reference-counting
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536749">IMiniportWaveRTStream::GetPosition</a>
+
+
+
+IMiniportWaveRTStream
 
 
 
@@ -146,7 +146,7 @@ The <i>Stream</i> and <i>PortStream</i> parameters follow the reference-counting
 
 
 
-IMiniportWaveRTStream
+<a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
 
 
 

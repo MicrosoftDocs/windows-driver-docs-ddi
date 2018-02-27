@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 54a5009d-9893-4766-b9fd-7e7474b55949
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , I, InitializePrintProvidor, InitializePrintProvidor function [Print Devices], P, a, d, e, i, l, n, o, print.initializeprintprovidor, r, spoolfnc_b67588a9-bccb-4181-8fd0-cbdc1b7af7c5.xml, t, v, winsplp/InitializePrintProvidor, z"
+ms.keywords: InitializePrintProvidor, InitializePrintProvidor function [Print Devices], print.initializeprintprovidor, spoolfnc_b67588a9-bccb-4181-8fd0-cbdc1b7af7c5.xml, winsplp/InitializePrintProvidor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

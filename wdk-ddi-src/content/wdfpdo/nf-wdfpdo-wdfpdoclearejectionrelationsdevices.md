@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 09154884-130d-47aa-be00-08a3a4da6f22
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , C, D, DFDeviceObjectFdoPdoRef_ddbc7fa5-d0c0-4074-901e-bc7a8ea50fa4.xml, E, P, R, W, WdfPdoClearEjectionRelationsDevices, WdfPdoClearEjectionRelationsDevices method, a, c, d, e, f, i, j, kmdf.wdfpdoclearejectionrelationsdevices, l, n, o, r, s, t, v, wdf.wdfpdoclearejectionrelationsdevices, wdfpdo/WdfPdoClearEjectionRelationsDevices"
+ms.keywords: DFDeviceObjectFdoPdoRef_ddbc7fa5-d0c0-4074-901e-bc7a8ea50fa4.xml, WdfPdoClearEjectionRelationsDevices, WdfPdoClearEjectionRelationsDevices method, kmdf.wdfpdoclearejectionrelationsdevices, wdf.wdfpdoclearejectionrelationsdevices, wdfpdo/WdfPdoClearEjectionRelationsDevices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

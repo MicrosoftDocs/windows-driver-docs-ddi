@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 71a48c1f-1eca-4f3e-a085-99ffc207a7e0
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 2, 3, B, D, D3DKMTWaitForVerticalBlankEvent2, D3DKMTWaitForVerticalBlankEvent2 function [Display Devices], E, F, K, M, T, V, W, a, c, d3dkmthk/D3DKMTWaitForVerticalBlankEvent2, display.d3dkmtwaitforverticalblankevent2, e, i, k, l, n, o, r, t, v"
+ms.keywords: D3DKMTWaitForVerticalBlankEvent2, D3DKMTWaitForVerticalBlankEvent2 function [Display Devices], d3dkmthk/D3DKMTWaitForVerticalBlankEvent2, display.d3dkmtwaitforverticalblankevent2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

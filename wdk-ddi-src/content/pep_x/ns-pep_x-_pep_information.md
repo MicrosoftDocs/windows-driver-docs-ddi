@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 60221D44-79C0-4043-A4AF-1200C2F087F6
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PPEP_INFORMATION, ,, A, E, F, I, M, N, O, P, PEP_INFORMATION, PEP_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_INFORMATION, PPEP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], R, T, _, _PEP_INFORMATION, kernel.pep_information, pepfx/PEP_INFORMATION, pepfx/PPEP_INFORMATION"
+ms.keywords: "*PPEP_INFORMATION, PEP_INFORMATION, PEP_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_INFORMATION, PPEP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_INFORMATION, kernel.pep_information, pepfx/PEP_INFORMATION, pepfx/PPEP_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,18 +102,22 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt1
 
 This structure contains pointers to several callback routines that are implemented by the PEP. PoFx calls these routines to send notifications to the PEP.
 
-The <i>PepInformation</i> parameter to the <a href="..\pep_x\nf-pep_x-pofxregisterplugin.md">PoFxRegisterPlugin</a> and <a href="..\pep_x\nf-pep_x-pofxregisterpluginex.md">PoFxRegisterPluginEx</a> routines is a pointer to a <b>PEP_INFORMATION</b> structure.
+The <i>PepInformation</i> parameter to the <a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a> and <a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a> routines is a pointer to a <b>PEP_INFORMATION</b> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\pep_x\nf-pep_x-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186626">AcceptDeviceNotification</a>
 
 
 
-<a href="..\pep_x\nf-pep_x-pofxregisterplugin.md">PoFxRegisterPlugin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186625">AcceptAcpiNotification</a>
+
+
+
+<a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
 
 
 
@@ -121,11 +125,7 @@ The <i>PepInformation</i> parameter to the <a href="..\pep_x\nf-pep_x-pofxregist
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186626">AcceptDeviceNotification</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186625">AcceptAcpiNotification</a>
+<a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
 
 
 

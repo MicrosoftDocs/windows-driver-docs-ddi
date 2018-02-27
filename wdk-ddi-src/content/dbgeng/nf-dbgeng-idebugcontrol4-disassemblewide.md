@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7df1f9e5-dac2-490b-9eed-28f8bc4e677a
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 4, :, C, D, DisassembleWide method [Windows Debugging], DisassembleWide method [Windows Debugging], IDebugControl4 interface, DisassembleWide,IDebugControl4.DisassembleWide, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], DisassembleWide method, IDebugControl4::DisassembleWide, W, a, b, d, dbgeng/IDebugControl4::DisassembleWide, debugger.disassemblewide, e, g, i, l, m, n, o, r, s, t, u"
+ms.keywords: DisassembleWide method [Windows Debugging], DisassembleWide method [Windows Debugging], IDebugControl4 interface, DisassembleWide,IDebugControl4.DisassembleWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], DisassembleWide method, IDebugControl4::DisassembleWide, dbgeng/IDebugControl4::DisassembleWide, debugger.disassemblewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -156,19 +156,19 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
-
-
-
 <a href="https://msdn.microsoft.com/933a308c-61d1-4ca4-89c1-5749ba1b41c1">u (Unassemble)</a>
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
 
 
 

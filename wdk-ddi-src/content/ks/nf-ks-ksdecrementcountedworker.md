@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2b38e4df-e5b6-480b-bd4e-62e059e26411
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, D, K, KsDecrementCountedWorker, KsDecrementCountedWorker function [Streaming Media Devices], W, c, d, e, k, ks/KsDecrementCountedWorker, ksfunc_7ddba520-3deb-4160-87e1-a12d2210b5da.xml, m, n, o, r, s, stream.ksdecrementcountedworker, t, u"
+ms.keywords: KsDecrementCountedWorker, KsDecrementCountedWorker function [Streaming Media Devices], ks/KsDecrementCountedWorker, ksfunc_7ddba520-3deb-4160-87e1-a12d2210b5da.xml, stream.ksdecrementcountedworker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

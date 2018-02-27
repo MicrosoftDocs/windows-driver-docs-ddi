@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: BC2722A8-C09A-4C46-9EC3-45DCF4A6FD64
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PWPP_TRIAGE_INFO, ,, A, E, F, G, I, N, O, P, PWPP_TRIAGE_INFO, PWPP_TRIAGE_INFO structure pointer [Driver Development Tools], R, T, W, WPP_TRIAGE_INFO, WPP_TRIAGE_INFO structure [Driver Development Tools], _, _WPP_TRIAGE_INFO, devtest.wpp_triage_info, wpprecorder/PWPP_TRIAGE_INFO, wpprecorder/WPP_TRIAGE_INFO"
+ms.keywords: "*PWPP_TRIAGE_INFO, PWPP_TRIAGE_INFO, PWPP_TRIAGE_INFO structure pointer [Driver Development Tools], WPP_TRIAGE_INFO, WPP_TRIAGE_INFO structure [Driver Development Tools], _WPP_TRIAGE_INFO, devtest.wpp_triage_info, wpprecorder/PWPP_TRIAGE_INFO, wpprecorder/WPP_TRIAGE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

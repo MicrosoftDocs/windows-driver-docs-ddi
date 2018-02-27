@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: EE298195-5EAA-40E4-84F5-9B169F55DBF1
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, D, F, G, GetFirstSleepState method [Windows Device Testing Framework], GetFirstSleepState method [Windows Device Testing Framework], IWDTFSystemAction2 interface, GetFirstSleepState,IWDTFSystemAction2.GetFirstSleepState, I, IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], GetFirstSleepState method, IWDTFSystemAction2::GetFirstSleepState, Microsoft.WDTF.IWDTFSystemAction2.GetFirstSleepState, Microsoft::WDTF::IWDTFSystemAction2::GetFirstSleepState, S, T, W, a, c, dtf.iwdtfsystemaction2_getfirstsleepstate, e, i, l, m, n, o, p, r, s, t, wdtfsystemaction/IWDTFSystemAction2::GetFirstSleepState, y"
+ms.keywords: GetFirstSleepState method [Windows Device Testing Framework], GetFirstSleepState method [Windows Device Testing Framework], IWDTFSystemAction2 interface, GetFirstSleepState,IWDTFSystemAction2.GetFirstSleepState, IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], GetFirstSleepState method, IWDTFSystemAction2::GetFirstSleepState, Microsoft.WDTF.IWDTFSystemAction2.GetFirstSleepState, Microsoft::WDTF::IWDTFSystemAction2::GetFirstSleepState, dtf.iwdtfsystemaction2_getfirstsleepstate, wdtfsystemaction/IWDTFSystemAction2::GetFirstSleepState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

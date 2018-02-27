@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 7F1C8574-8891-4ACB-BB25-2666148E3D02
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , *, *PGNSS_CWTESTDATA, ,, A, C, D, E, G, GNSS_CWTESTDATA, GNSS_CWTESTDATA structure [Sensor Devices], N, P, PGNSS_CWTESTDATA, PGNSS_CWTESTDATA structure pointer [Sensor Devices], S, T, W, _, gnssdriver/GNSS_CWTESTDATA, gnssdriver/PGNSS_CWTESTDATA, sensors.gnss_cwtestdata"
+ms.keywords: "*PGNSS_CWTESTDATA, GNSS_CWTESTDATA, GNSS_CWTESTDATA structure [Sensor Devices], PGNSS_CWTESTDATA, PGNSS_CWTESTDATA structure pointer [Sensor Devices], gnssdriver/GNSS_CWTESTDATA, gnssdriver/PGNSS_CWTESTDATA, sensors.gnss_cwtestdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

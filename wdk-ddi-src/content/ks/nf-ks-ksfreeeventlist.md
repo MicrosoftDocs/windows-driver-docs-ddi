@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3ccbbf07-7d8d-423a-b50d-d202e1cb7ab2
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , E, F, K, KsFreeEventList, KsFreeEventList function [Streaming Media Devices], L, e, i, ks/KsFreeEventList, ksfunc_b9315995-1d55-4edc-97b4-4fb6ad5631a2.xml, n, r, s, stream.ksfreeeventlist, t, v"
+ms.keywords: KsFreeEventList, KsFreeEventList function [Streaming Media Devices], ks/KsFreeEventList, ksfunc_b9315995-1d55-4edc-97b4-4fb6ad5631a2.xml, stream.ksfreeeventlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

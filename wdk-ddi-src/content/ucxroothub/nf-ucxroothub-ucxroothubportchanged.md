@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7984308D-4C8E-4481-8770-2430552B00E8
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, H, P, R, U, UcxRootHubPortChanged, UcxRootHubPortChanged method [Buses], a, b, buses._ucxroothubportchanged, c, d, e, g, h, n, o, r, t, u, ucxroothub/UcxRootHubPortChanged, x"
+ms.keywords: UcxRootHubPortChanged, UcxRootHubPortChanged method [Buses], buses._ucxroothubportchanged, ucxroothub/UcxRootHubPortChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

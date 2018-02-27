@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: A5E2FA41-0871-4416-B501-051BD67A60AF
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, AsyncGetNewChannel method [Print Devices], AsyncGetNewChannel method [Print Devices], IPrintBidiAsyncNotifyRegistration interface, AsyncGetNewChannel,IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel, B, C, G, I, IPrintBidiAsyncNotifyRegistration, IPrintBidiAsyncNotifyRegistration interface [Print Devices], AsyncGetNewChannel method, IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel, N, P, R, a, c, d, e, f, g, h, i, l, n, o, print.iprintbidiasyncnotifyregistration_asyncgetnewchannel, prnasntp/IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel, r, s, t, w, y"
+ms.keywords: AsyncGetNewChannel method [Print Devices], AsyncGetNewChannel method [Print Devices], IPrintBidiAsyncNotifyRegistration interface, AsyncGetNewChannel,IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel, IPrintBidiAsyncNotifyRegistration, IPrintBidiAsyncNotifyRegistration interface [Print Devices], AsyncGetNewChannel method, IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel, print.iprintbidiasyncnotifyregistration_asyncgetnewchannel, prnasntp/IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 89924d1d-80c2-4778-9647-c3add9e7d013
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , A, L, P, R, RxpAcquirePrefixTableLockShared, RxpAcquirePrefixTableLockShared function [Installable File System Drivers], S, T, a, b, c, d, e, f, h, i, ifsk.rxpacquireprefixtablelockshared, k, l, o, p, prefix/RxpAcquirePrefixTableLockShared, q, r, rxref_340b65e8-2dba-4895-8cdf-e3464d14f5a3.xml, u, x"
+ms.keywords: RxpAcquirePrefixTableLockShared, RxpAcquirePrefixTableLockShared function [Installable File System Drivers], ifsk.rxpacquireprefixtablelockshared, prefix/RxpAcquirePrefixTableLockShared, rxref_340b65e8-2dba-4895-8cdf-e3464d14f5a3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,11 +122,11 @@ Normal kernel APC delivery should be disabled before calling this routine. Norma
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545908">FsRtlExitFileSystem</a>
+
+
+
 <a href="..\prefix\nf-prefix-rxpreleaseprefixtablelock.md">RxpReleasePrefixTableLock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a>
 
 
 
@@ -134,15 +134,15 @@ Normal kernel APC delivery should be disabled before calling this routine. Norma
 
 
 
-<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockexclusive.md">RxpAcquirePrefixTableLockExclusive</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545908">FsRtlExitFileSystem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a>
 
 
 
 <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
+
+
+
+<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockexclusive.md">RxpAcquirePrefixTableLockExclusive</a>
 
 
 

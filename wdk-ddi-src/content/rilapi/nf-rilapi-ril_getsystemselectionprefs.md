@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 957892eb-39c5-4675-a3cd-d8f8dd3e7cdd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , G, I, L, P, R, RIL_GetSystemSelectionPrefs, RIL_GetSystemSelectionPrefs method [Network Drivers Starting with Windows Vista], S, _, c, e, f, i, l, m, n, netvista.ril_getsystemselectionprefs, o, r, rilapi/RIL_GetSystemSelectionPrefs, s, t, y"
+ms.keywords: RIL_GetSystemSelectionPrefs, RIL_GetSystemSelectionPrefs method [Network Drivers Starting with Windows Vista], netvista.ril_getsystemselectionprefs, rilapi/RIL_GetSystemSelectionPrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

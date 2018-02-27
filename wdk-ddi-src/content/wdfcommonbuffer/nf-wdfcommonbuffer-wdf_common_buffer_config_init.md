@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a678516a-159f-42bc-b135-489677452472
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , B, C, D, DFCommonBufferObjectRef_23c5b41e-89ce-448c-86fa-3ae4e688b378.xml, E, F, G, I, M, N, O, R, T, U, W, WDF_COMMON_BUFFER_CONFIG_INIT, WDF_COMMON_BUFFER_CONFIG_INIT function, _, kmdf.wdf_common_buffer_config_init, wdf.wdf_common_buffer_config_init, wdfcommonbuffer/WDF_COMMON_BUFFER_CONFIG_INIT"
+ms.keywords: DFCommonBufferObjectRef_23c5b41e-89ce-448c-86fa-3ae4e688b378.xml, WDF_COMMON_BUFFER_CONFIG_INIT, WDF_COMMON_BUFFER_CONFIG_INIT function, kmdf.wdf_common_buffer_config_init, wdf.wdf_common_buffer_config_init, wdfcommonbuffer/WDF_COMMON_BUFFER_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

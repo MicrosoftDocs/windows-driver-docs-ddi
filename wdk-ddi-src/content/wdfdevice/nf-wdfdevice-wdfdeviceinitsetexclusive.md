@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4bbcf4d3-e1f9-4e13-ac56-92ffddea1f67
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , D, DFDeviceObjectGeneralRef_fb2fbd3a-e78a-4632-b84f-b3e62a6efc94.xml, E, I, S, W, WdfDeviceInitSetExclusive, WdfDeviceInitSetExclusive method, c, d, e, f, i, kmdf.wdfdeviceinitsetexclusive, l, n, s, t, u, v, wdf.wdfdeviceinitsetexclusive, wdfdevice/WdfDeviceInitSetExclusive, x"
+ms.keywords: DFDeviceObjectGeneralRef_fb2fbd3a-e78a-4632-b84f-b3e62a6efc94.xml, WdfDeviceInitSetExclusive, WdfDeviceInitSetExclusive method, kmdf.wdfdeviceinitsetexclusive, wdf.wdfdeviceinitsetexclusive, wdfdevice/WdfDeviceInitSetExclusive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

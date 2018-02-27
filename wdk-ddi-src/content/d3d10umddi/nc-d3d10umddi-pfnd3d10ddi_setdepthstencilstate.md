@@ -87,6 +87,11 @@ VOID APIENTRY SetDepthStencilState(
 
 
 
+#### - StencilRef [in]
+
+ A stencil reference value to compare against.
+
+
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -95,11 +100,6 @@ VOID APIENTRY SetDepthStencilState(
 #### - hState [in]
 
  A handle to the depth-stencil state to set.
-
-
-#### - StencilRef [in]
-
- A stencil reference value to compare against.
 
 
 ## -returns

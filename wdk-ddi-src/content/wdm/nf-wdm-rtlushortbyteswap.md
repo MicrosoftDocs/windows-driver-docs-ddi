@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 83f6a599-0b35-4a02-b20f-80abcc6eae4f
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, R, RtlUshortByteSwap, RtlUshortByteSwap routine [Kernel-Mode Driver Architecture], S, U, a, e, h, k109_36a00506-f4e3-467b-9494-c13b2ea70a1f.xml, kernel.rtlushortbyteswap, l, o, p, r, s, t, w, wdm/RtlUshortByteSwap, y"
+ms.keywords: RtlUshortByteSwap, RtlUshortByteSwap routine [Kernel-Mode Driver Architecture], k109_36a00506-f4e3-467b-9494-c13b2ea70a1f.xml, kernel.rtlushortbyteswap, wdm/RtlUshortByteSwap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

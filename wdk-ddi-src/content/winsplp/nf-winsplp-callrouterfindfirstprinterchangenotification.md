@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7B974255-2FCB-4EFE-B33F-9856E0A09FC4
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, CallRouterFindFirstPrinterChangeNotification, CallRouterFindFirstPrinterChangeNotification function [Print Devices], F, N, P, R, a, c, d, e, f, g, h, i, l, n, o, print.callrouterfindfirstprinterchangenotification, r, s, t, u, winsplp/CallRouterFindFirstPrinterChangeNotification"
+ms.keywords: CallRouterFindFirstPrinterChangeNotification, CallRouterFindFirstPrinterChangeNotification function [Print Devices], print.callrouterfindfirstprinterchangenotification, winsplp/CallRouterFindFirstPrinterChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

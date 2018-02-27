@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 76b0d865-a620-4ced-904c-d1d613dbadd1
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 4, :, C, D, E, F, G, GetEventFilterTextWide method [Windows Debugging], GetEventFilterTextWide method [Windows Debugging], IDebugControl4 interface, GetEventFilterTextWide,IDebugControl4.GetEventFilterTextWide, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetEventFilterTextWide method, IDebugControl4::GetEventFilterTextWide, T, W, b, d, dbgeng/IDebugControl4::GetEventFilterTextWide, debugger.geteventfiltertextwide, e, g, i, l, n, o, r, t, u, v, x"
+ms.keywords: GetEventFilterTextWide method [Windows Debugging], GetEventFilterTextWide method [Windows Debugging], IDebugControl4 interface, GetEventFilterTextWide,IDebugControl4.GetEventFilterTextWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetEventFilterTextWide method, IDebugControl4::GetEventFilterTextWide, dbgeng/IDebugControl4::GetEventFilterTextWide, debugger.geteventfiltertextwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -140,11 +140,11 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
 <a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 

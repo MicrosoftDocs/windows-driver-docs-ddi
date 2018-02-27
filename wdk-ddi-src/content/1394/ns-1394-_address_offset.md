@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: e1ee536f-40e4-48b7-b2d0-6ead22520ec8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , *, *PADDRESS_OFFSET, ,, 1394/ADDRESS_OFFSET, 1394/PADDRESS_OFFSET, 1394stct_7b2efd3c-fcd3-4a01-8ece-8a70975787b1.xml, A, ADDRESS_OFFSET, ADDRESS_OFFSET structure [Buses], D, E, F, IEEE.address_offset, O, P, PADDRESS_OFFSET, PADDRESS_OFFSET structure pointer [Buses], R, S, T, _, _ADDRESS_OFFSET"
+ms.keywords: "*PADDRESS_OFFSET, 1394/ADDRESS_OFFSET, 1394/PADDRESS_OFFSET, 1394stct_7b2efd3c-fcd3-4a01-8ece-8a70975787b1.xml, ADDRESS_OFFSET, ADDRESS_OFFSET structure [Buses], IEEE.address_offset, PADDRESS_OFFSET, PADDRESS_OFFSET structure pointer [Buses], _ADDRESS_OFFSET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,11 +84,11 @@ Specifies the low order offset for a IEEE 1394 address.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537346">IO_ADDRESS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537155">GET_LOCAL_HOST_INFO6</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537346">IO_ADDRESS</a>
 
 
 

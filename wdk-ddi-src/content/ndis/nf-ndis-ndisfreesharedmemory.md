@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5d0a1790-cec0-4c28-85dd-5f4d7d518d63
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , F, M, N, NdisFreeSharedMemory, NdisFreeSharedMemory function [Network Drivers Starting with Windows Vista], S, a, d, e, h, i, m, ndis/NdisFreeSharedMemory, ndis_shared_memory_ref_b020f3ba-6e10-422f-9342-650236ace5f8.xml, netvista.ndisfreesharedmemory, o, r, s, y"
+ms.keywords: NdisFreeSharedMemory, NdisFreeSharedMemory function [Network Drivers Starting with Windows Vista], ndis/NdisFreeSharedMemory, ndis_shared_memory_ref_b020f3ba-6e10-422f-9342-650236ace5f8.xml, netvista.ndisfreesharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 549edba4-8622-4117-b013-bcaf1787e8b4
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 2, A, B, G, H, HBA_GetPersistentBindingV2, HBA_GetPersistentBindingV2 routine [Storage Devices], P, V, _, d, e, fibreHBA_rtns_b3906ad3-bbf6-43b4-b427-9276870645cd.xml, g, hbaapi/HBA_GetPersistentBindingV2, i, n, r, s, storage.hba_getpersistentbindingv2, t"
+ms.keywords: HBA_GetPersistentBindingV2, HBA_GetPersistentBindingV2 routine [Storage Devices], fibreHBA_rtns_b3906ad3-bbf6-43b4-b427-9276870645cd.xml, hbaapi/HBA_GetPersistentBindingV2, storage.hba_getpersistentbindingv2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -180,11 +180,7 @@ This routine is similar to the <a href="..\hbaapi\nf-hbaapi-hba_getfcppersistent
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_getfcppersistentbinding.md">HBA_GetFcpPersistentBinding</a>
-
-
-
-<a href="..\hbaapi\ns-hbaapi-hba_fcpbinding.md">HBA_FCPBinding</a>
+<a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry2.md">HBA_FCPBindingEntry2</a>
 
 
 
@@ -192,7 +188,11 @@ This routine is similar to the <a href="..\hbaapi\nf-hbaapi-hba_getfcppersistent
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry2.md">HBA_FCPBindingEntry2</a>
+<a href="..\hbaapi\nf-hbaapi-hba_getfcppersistentbinding.md">HBA_GetFcpPersistentBinding</a>
+
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_fcpbinding.md">HBA_FCPBinding</a>
 
 
 

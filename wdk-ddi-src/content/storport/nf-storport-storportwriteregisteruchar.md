@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 731ae55e-8cfb-4b76-b811-dbdabd8dd067
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , P, R, S, StorPortWriteRegisterUchar, StorPortWriteRegisterUchar routine [Storage Devices], U, W, a, c, e, g, h, i, o, r, s, storage.storportwriteregisteruchar, storport/StorPortWriteRegisterUchar, storprt_5c7a4209-e917-4a68-94f7-7b3b3fcc634e.xml, t"
+ms.keywords: StorPortWriteRegisterUchar, StorPortWriteRegisterUchar routine [Storage Devices], storage.storportwriteregisteruchar, storport/StorPortWriteRegisterUchar, storprt_5c7a4209-e917-4a68-94f7-7b3b3fcc634e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

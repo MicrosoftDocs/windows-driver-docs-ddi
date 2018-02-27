@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 61F5C316-5214-45A6-B4BA-DEE6A224E811
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PSRBEX_DATA_POWER, ,, A, B, D, E, O, P, PSRBEX_DATA_POWER, PSRBEX_DATA_POWER structure pointer [Storage Devices], R, S, SRBEX_DATA_POWER, SRBEX_DATA_POWER structure [Storage Devices], T, W, X, _, _SRBEX_DATA_POWER, storage.srbex_data_power, storport/PSRBEX_DATA_POWER, storport/SRBEX_DATA_POWER"
+ms.keywords: "*PSRBEX_DATA_POWER, PSRBEX_DATA_POWER, PSRBEX_DATA_POWER structure pointer [Storage Devices], SRBEX_DATA_POWER, SRBEX_DATA_POWER structure [Storage Devices], _SRBEX_DATA_POWER, storage.srbex_data_power, storport/PSRBEX_DATA_POWER, storport/SRBEX_DATA_POWER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,7 +104,7 @@ An enumerator value of type <a href="..\storport\ne-storport-pstor_power_action.
 
 ## -see-also
 
-<a href="..\storport\ne-storport-pstor_power_action.md">STOR_POWER_ACTION</a>
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 
@@ -112,7 +112,7 @@ An enumerator value of type <a href="..\storport\ne-storport-pstor_power_action.
 
 
 
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\storport\ne-storport-pstor_power_action.md">STOR_POWER_ACTION</a>
 
 
 

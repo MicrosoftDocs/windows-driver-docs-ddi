@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d9cb2724-cf14-4814-8a19-1237e0862b1a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , I, N, NdisInvalidateOffload, NdisInvalidateOffload function [Network Drivers Starting with Windows Vista], O, a, d, e, f, i, l, n, ndischimney/NdisInvalidateOffload, netvista.ndisinvalidateoffload, o, s, t, tcp_chim_ndis_func_f9049fdc-87ff-467c-9427-d42876e16aa3.xml, v"
+ms.keywords: NdisInvalidateOffload, NdisInvalidateOffload function [Network Drivers Starting with Windows Vista], ndischimney/NdisInvalidateOffload, netvista.ndisinvalidateoffload, tcp_chim_ndis_func_f9049fdc-87ff-467c-9427-d42876e16aa3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,17 +125,8 @@ From the
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
-   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
-
-
-
 <a href="..\ndischimney\nc-ndischimney-invalidate_offload_complete_handler.md">
    ProtocolInvalidateOffloadComplete</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_invalidate_offload_handler.md">MiniportInvalidateOffload</a>
 
 
 
@@ -144,12 +135,21 @@ From the
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
 <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
+   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_invalidate_offload_handler.md">MiniportInvalidateOffload</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 

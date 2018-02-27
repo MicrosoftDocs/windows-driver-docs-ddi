@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 39042c66-3db1-41bd-b06d-12aefcb007d3
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, B, M, R, RouterAllocBidiMem, RouterAllocBidiMem function [Print Devices], c, d, e, i, l, m, o, print.routerallocbidimem, r, spoolfnc_ed433d21-ccfa-4061-9fbd-3bf333e12b31.xml, t, u, winsplp/RouterAllocBidiMem"
+ms.keywords: RouterAllocBidiMem, RouterAllocBidiMem function [Print Devices], print.routerallocbidimem, spoolfnc_ed433d21-ccfa-4061-9fbd-3bf333e12b31.xml, winsplp/RouterAllocBidiMem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

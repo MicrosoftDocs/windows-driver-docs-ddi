@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6ec8d282-eedb-419e-84cb-8f4776ea7650
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, F, G, GetPagePart method [Print Devices], GetPagePart method [Print Devices], IFixedPage interface, GetPagePart,IFixedPage.GetPagePart, I, IFixedPage, IFixedPage interface [Print Devices], GetPagePart method, IFixedPage::GetPagePart, P, a, d, e, filterpipeline/IFixedPage::GetPagePart, filterpipeline_925ca634-7cac-41f6-b80f-cc5c90154ae0.xml, g, i, print.ifixedpage_getpagepart, r, t, x"
+ms.keywords: GetPagePart method [Print Devices], GetPagePart method [Print Devices], IFixedPage interface, GetPagePart,IFixedPage.GetPagePart, IFixedPage, IFixedPage interface [Print Devices], GetPagePart method, IFixedPage::GetPagePart, filterpipeline/IFixedPage::GetPagePart, filterpipeline_925ca634-7cac-41f6-b80f-cc5c90154ae0.xml, print.ifixedpage_getpagepart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

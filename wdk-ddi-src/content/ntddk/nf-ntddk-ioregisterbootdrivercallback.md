@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 28BA4B54-F493-4D79-89DF-D890EBCF1E9C
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, C, D, I, IoRegisterBootDriverCallback, IoRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], R, a, b, c, e, g, i, k, kernel.ioregisterbootdrivercallback, l, ntddk/IoRegisterBootDriverCallback, o, r, s, t, v"
+ms.keywords: IoRegisterBootDriverCallback, IoRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], kernel.ioregisterbootdrivercallback, ntddk/IoRegisterBootDriverCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

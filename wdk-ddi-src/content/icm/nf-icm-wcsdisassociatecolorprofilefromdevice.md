@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d2ab6fe4-131a-4952-864c-7135026cb25c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, D, F, P, W, WcsDisassociateColorProfileFromDevice, WcsDisassociateColorProfileFromDevice function [Print Devices], a, c, colorfnc_d8888a37-8a72-41a4-8ca6-29326634d9b2.xml, e, f, i, icm/WcsDisassociateColorProfileFromDevice, l, m, o, print.wcsdisassociatecolorprofilefromdevice, r, s, t, v"
+ms.keywords: WcsDisassociateColorProfileFromDevice, WcsDisassociateColorProfileFromDevice function [Print Devices], colorfnc_d8888a37-8a72-41a4-8ca6-29326634d9b2.xml, icm/WcsDisassociateColorProfileFromDevice, print.wcsdisassociatecolorprofilefromdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

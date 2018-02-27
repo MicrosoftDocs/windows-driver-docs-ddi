@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: E2EF929A-61EB-412B-B8E8-D51FD6944B1D
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , E, EtwWriteEx, EtwWriteEx function [Driver Development Tools], W, devtest.etwwriteex, e, i, r, t, w, wdm/EtwWriteEx, x"
+ms.keywords: EtwWriteEx, EtwWriteEx function [Driver Development Tools], devtest.etwwriteex, wdm/EtwWriteEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -141,15 +141,15 @@ You can call <b>EtwWriteEx</b> at any IRQL. However, when IRQL is greater than A
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/93070eb7-c167-4419-abff-e861877dad07">EventWrite</a>
+
+
+
 <a href="..\wdm\nf-wdm-etwwrite.md">EtwWrite</a>
 
 
 
 <a href="https://msdn.microsoft.com/00b907cb-45cd-48c7-bea4-4d8a39b4fa24">EventWriteEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/93070eb7-c167-4419-abff-e861877dad07">EventWrite</a>
 
 
 

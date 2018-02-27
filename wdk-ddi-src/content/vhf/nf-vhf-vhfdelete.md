@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 85252A53-E653-4D14-B1FE-72CA9AFA1F10
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , D, V, VhfDelete, VhfDelete method [Human Input Devices], e, f, h, hid.vhfdelete, l, t, vhf/VhfDelete"
+ms.keywords: VhfDelete, VhfDelete method [Human Input Devices], hid.vhfdelete, vhf/VhfDelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

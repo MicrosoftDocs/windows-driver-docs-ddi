@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8e25a1e2-24b1-418c-b1eb-884bdbad63b3
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , *, *PKSDS3D_HRTF_INIT_MSG, ,, 3, D, F, G, H, I, K, KSDS3D_HRTF_INIT_MSG, KSDS3D_HRTF_INIT_MSG structure [Audio Devices], M, N, P, PKSDS3D_HRTF_INIT_MSG, PKSDS3D_HRTF_INIT_MSG structure pointer [Audio Devices], R, S, T, _, aud-prop_f9994a16-7d3c-43af-b423-c6afc64c05b9.xml, audio.ksds3d_hrtf_init_msg, ksmedia/KSDS3D_HRTF_INIT_MSG, ksmedia/PKSDS3D_HRTF_INIT_MSG"
+ms.keywords: "*PKSDS3D_HRTF_INIT_MSG, KSDS3D_HRTF_INIT_MSG, KSDS3D_HRTF_INIT_MSG structure [Audio Devices], PKSDS3D_HRTF_INIT_MSG, PKSDS3D_HRTF_INIT_MSG structure pointer [Audio Devices], aud-prop_f9994a16-7d3c-43af-b423-c6afc64c05b9.xml, audio.ksds3d_hrtf_init_msg, ksmedia/KSDS3D_HRTF_INIT_MSG, ksmedia/PKSDS3D_HRTF_INIT_MSG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -139,15 +139,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksds3d_hrtf_params_msg.md">KSDS3D_HRTF_PARAMS_MSG</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537355">KSPROPERTY_HRTF3D_INITIALIZE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksds3d_hrtf_params_msg.md">KSDS3D_HRTF_PARAMS_MSG</a>
 
 
 

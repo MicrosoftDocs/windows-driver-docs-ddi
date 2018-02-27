@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 27816655-1FE9-44A0-81BB-59808FE6F064
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, D, O, P, U, UdecxUsbDevicePlugOutAndDelete, UdecxUsbDevicePlugOutAndDelete function [Buses], b, buses.udecxusbdeviceplugoutanddelete, c, d, e, g, i, l, n, s, t, u, udecxusbdevice/UdecxUsbDevicePlugOutAndDelete, v, x"
+ms.keywords: UdecxUsbDevicePlugOutAndDelete, UdecxUsbDevicePlugOutAndDelete function [Buses], buses.udecxusbdeviceplugoutanddelete, udecxusbdevice/UdecxUsbDevicePlugOutAndDelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

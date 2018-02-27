@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1bb34062-f092-41a4-8d59-6937be7b5639
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, E, K, KsPinAddEvent, KsPinAddEvent function [Streaming Media Devices], P, avfunc_2291126f-31dd-4e37-a082-97f24e8b5bd9.xml, d, e, i, ks/KsPinAddEvent, n, s, stream.kspinaddevent, t, v"
+ms.keywords: KsPinAddEvent, KsPinAddEvent function [Streaming Media Devices], avfunc_2291126f-31dd-4e37-a082-97f24e8b5bd9.xml, ks/KsPinAddEvent, stream.kspinaddevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,11 +98,15 @@ This function is an inline function call to <a href="..\ks\nf-ks-ksaddevent.md">
 
 ## -see-also
 
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+
+
+
+<a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
+
+
+
 <a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
-
-
-
-<a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
 
 
 
@@ -110,11 +114,7 @@ This function is an inline function call to <a href="..\ks\nf-ks-ksaddevent.md">
 
 
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
-
-
-
-<a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
+<a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
 
 
 

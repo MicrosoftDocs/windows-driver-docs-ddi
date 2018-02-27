@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: AFC51731-2F30-4214-90EE-A05D48F68530
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, B, G, GetString method [Print Devices], GetString method [Print Devices], IPrinterPropertyBag interface, GetString,IPrinterPropertyBag.GetString, I, IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], GetString method, IPrinterPropertyBag::GetString, P, S, a, e, g, i, n, o, p, print.iprinterpropertybag_getstring, printerextension/IPrinterPropertyBag::GetString, r, t, y"
+ms.keywords: GetString method [Print Devices], GetString method [Print Devices], IPrinterPropertyBag interface, GetString,IPrinterPropertyBag.GetString, IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], GetString method, IPrinterPropertyBag::GetString, print.iprinterpropertybag_getstring, printerextension/IPrinterPropertyBag::GetString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

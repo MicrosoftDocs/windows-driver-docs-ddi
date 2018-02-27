@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 258bcd6f-0536-48d3-a06a-10277f8bef87
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , *, *PCMP_MONITOR_INFO, ,, 61883/CMP_MONITOR_INFO, 61883/PCMP_MONITOR_INFO, 61883_structures_0064b5eb-7b9a-4f96-9e56-f3190d2fd7a3.xml, C, CMP_MONITOR_INFO, CMP_MONITOR_INFO structure [Buses], F, I, IEEE.cmp_monitor_info, M, N, O, P, PCMP_MONITOR_INFO, PCMP_MONITOR_INFO structure pointer [Buses], R, T, _, _CMP_MONITOR_INFO"
+ms.keywords: "*PCMP_MONITOR_INFO, 61883/CMP_MONITOR_INFO, 61883/PCMP_MONITOR_INFO, 61883_structures_0064b5eb-7b9a-4f96-9e56-f3190d2fd7a3.xml, CMP_MONITOR_INFO, CMP_MONITOR_INFO structure [Buses], IEEE.cmp_monitor_info, PCMP_MONITOR_INFO, PCMP_MONITOR_INFO structure pointer [Buses], _CMP_MONITOR_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

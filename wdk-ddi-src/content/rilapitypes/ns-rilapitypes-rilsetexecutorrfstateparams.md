@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c1638b6e-7270-4511-a0bb-3766dbd6c6f5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , *, *LPRILSETEXECUTORRFSTATEPARAMS, ,, A, C, E, F, I, L, M, O, P, R, RILSETEXECUTORRFSTATEPARAMS, RILSETEXECUTORRFSTATEPARAMS structure [Network Drivers Starting with Windows Vista], S, T, U, X, netvista.rilsetexecutorrfstateparams_2, rilapitypes/RILSETEXECUTORRFSTATEPARAMS"
+ms.keywords: "*LPRILSETEXECUTORRFSTATEPARAMS, RILSETEXECUTORRFSTATEPARAMS, RILSETEXECUTORRFSTATEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetexecutorrfstateparams_2, rilapitypes/RILSETEXECUTORRFSTATEPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

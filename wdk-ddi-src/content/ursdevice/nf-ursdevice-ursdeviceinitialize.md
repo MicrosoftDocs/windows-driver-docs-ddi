@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 8A9C76C0-70F5-4F65-A460-CCFCD236A242
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , D, I, U, UrsDeviceInitialize, UrsDeviceInitialize function [Buses], a, buses.ursdeviceinitialize, c, e, i, l, n, r, s, t, ursdevice/UrsDeviceInitialize, v, z"
+ms.keywords: UrsDeviceInitialize, UrsDeviceInitialize function [Buses], buses.ursdeviceinitialize, ursdevice/UrsDeviceInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

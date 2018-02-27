@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 05298ffe-75e5-444e-9843-54dd063f59f5
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , C, Q, T, W, WdfCompanionCreateTaskQueue, WdfCompanionCreateTaskQueue method, a, d, e, f, i, k, m, n, o, p, r, s, t, u, wdf.wdfcompanioncreatetaskqueue, wdfcompanion/WdfCompanionCreateTaskQueue"
+ms.keywords: WdfCompanionCreateTaskQueue, WdfCompanionCreateTaskQueue method, wdf.wdfcompanioncreatetaskqueue, wdfcompanion/WdfCompanionCreateTaskQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

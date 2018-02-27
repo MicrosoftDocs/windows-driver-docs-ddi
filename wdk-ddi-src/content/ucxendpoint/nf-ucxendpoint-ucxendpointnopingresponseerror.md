@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 0EDC524E-12BB-49AD-AA12-A7D9CF7D2F9C
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , E, N, P, R, U, UcxEndpointNoPingResponseError, UcxEndpointNoPingResponseError method [Buses], buses._ucxendpointnopingresponseerror, c, d, e, g, i, n, o, p, r, s, t, ucxendpoint/UcxEndpointNoPingResponseError, x"
+ms.keywords: UcxEndpointNoPingResponseError, UcxEndpointNoPingResponseError method [Buses], buses._ucxendpointnopingresponseerror, ucxendpoint/UcxEndpointNoPingResponseError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

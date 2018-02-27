@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b7a9beaf-5eca-4fb0-af63-06c002297085
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , M, R, RtlSecureZeroMemory, RtlSecureZeroMemory routine [Kernel-Mode Driver Architecture], S, Z, c, e, k109_8bcffbc1-2930-416b-a192-b70c477d1910.xml, kernel.rtlsecurezeromemory, l, m, o, r, t, u, wdm/RtlSecureZeroMemory, y"
+ms.keywords: RtlSecureZeroMemory, RtlSecureZeroMemory routine [Kernel-Mode Driver Architecture], k109_8bcffbc1-2930-416b-a192-b70c477d1910.xml, kernel.rtlsecurezeromemory, wdm/RtlSecureZeroMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,7 +92,7 @@ None
 
 
 
-The effect of <b>RtlSecureZeroMemory</b> is identical to that of <a href="..\scsi\nf-scsi-rtlzeromemory.md">RtlZeroMemory</a>, except that it is guaranteed to zero the memory location, even if it is not subsequently written to. (The compiler can optimize away a call to <b>RtlZeroMemory</b>, if it determines that the caller does not access that memory range again.)
+The effect of <b>RtlSecureZeroMemory</b> is identical to that of <a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>, except that it is guaranteed to zero the memory location, even if it is not subsequently written to. (The compiler can optimize away a call to <b>RtlZeroMemory</b>, if it determines that the caller does not access that memory range again.)
 
 Use <b>RtlSecureZeroMemory</b> to guarantee that sensitive information has been zeroed out. For example, suppose that a function uses a local array variable to store password information. Once the function exits, the password information can remain in the same memory location unless zeroed out by <b>RtlSecureZeroMemory</b>.
 
@@ -109,7 +109,7 @@ Callers of <b>RtlSecureZeroMemory</b> can be running at any IRQL if the <i>ptr</
 
 
 
-<a href="..\scsi\nf-scsi-rtlzeromemory.md">RtlZeroMemory</a>
+<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
 
 
 

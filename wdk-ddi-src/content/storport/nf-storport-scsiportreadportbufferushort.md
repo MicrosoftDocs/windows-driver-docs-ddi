@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b218785c-170e-4a30-99c9-0db8705b7f5d
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, P, R, S, ScsiPortReadPortBufferUshort, ScsiPortReadPortBufferUshort routine [Storage Devices], U, a, c, d, e, f, h, i, o, r, s, scsiprt_27acea07-f416-4fa1-894d-6bb38c020f6b.xml, srb/ScsiPortReadPortBufferUshort, storage.scsiportreadportbufferushort, t, u"
+ms.keywords: ScsiPortReadPortBufferUshort, ScsiPortReadPortBufferUshort routine [Storage Devices], scsiprt_27acea07-f416-4fa1-894d-6bb38c020f6b.xml, srb/ScsiPortReadPortBufferUshort, storage.scsiportreadportbufferushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

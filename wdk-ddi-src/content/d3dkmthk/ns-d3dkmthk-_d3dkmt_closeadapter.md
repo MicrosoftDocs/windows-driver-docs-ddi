@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ef85d18a-c4cd-4999-8782-19e4114a0594
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_CLOSEADAPTER, D3DKMT_CLOSEADAPTER structure [Display Devices], E, K, L, M, O, OpenGL_Structs_578046d6-1625-4485-b43c-16ce2b7e812c.xml, P, R, S, T, _, _D3DKMT_CLOSEADAPTER, d3dkmthk/D3DKMT_CLOSEADAPTER, display.d3dkmt_closeadapter"
+ms.keywords: D3DKMT_CLOSEADAPTER, D3DKMT_CLOSEADAPTER structure [Display Devices], OpenGL_Structs_578046d6-1625-4485-b43c-16ce2b7e812c.xml, _D3DKMT_CLOSEADAPTER, d3dkmthk/D3DKMT_CLOSEADAPTER, display.d3dkmt_closeadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

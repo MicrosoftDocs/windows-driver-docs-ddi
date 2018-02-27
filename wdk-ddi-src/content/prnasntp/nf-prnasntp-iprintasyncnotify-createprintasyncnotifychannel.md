@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B86297A4-1234-46B1-A10B-BD9A6E5012F2
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, C, CreatePrintAsyncNotifyChannel method [Print Devices], CreatePrintAsyncNotifyChannel method [Print Devices], IPrintAsyncNotify interface, CreatePrintAsyncNotifyChannel,IPrintAsyncNotify.CreatePrintAsyncNotifyChannel, I, IPrintAsyncNotify, IPrintAsyncNotify interface [Print Devices], CreatePrintAsyncNotifyChannel method, IPrintAsyncNotify::CreatePrintAsyncNotifyChannel, N, P, a, c, e, f, h, i, l, n, o, print.iprintasyncnotify_createprintasyncnotifychannel, prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyChannel, r, s, t, y"
+ms.keywords: CreatePrintAsyncNotifyChannel method [Print Devices], CreatePrintAsyncNotifyChannel method [Print Devices], IPrintAsyncNotify interface, CreatePrintAsyncNotifyChannel,IPrintAsyncNotify.CreatePrintAsyncNotifyChannel, IPrintAsyncNotify, IPrintAsyncNotify interface [Print Devices], CreatePrintAsyncNotifyChannel method, IPrintAsyncNotify::CreatePrintAsyncNotifyChannel, print.iprintasyncnotify_createprintasyncnotifychannel, prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -80,22 +80,22 @@ HRESULT CreatePrintAsyncNotifyChannel(
 
 
 
-#### - uL [in]
-
-
-#### - pType [in]
-
-
 #### - filter [in]
-
-
-#### - style [in]
 
 
 #### - pCallback [in]
 
 
+#### - pType [in]
+
+
 #### - ppChannel [out]
+
+
+#### - style [in]
+
+
+#### - uL [in]
 
 
 ## -returns

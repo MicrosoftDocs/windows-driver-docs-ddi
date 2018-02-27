@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88318bb4-bfca-4557-93cb-703840fa692e
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, A, C, D, DXVA_COPPSetSignalingCmdData, DXVA_COPPSetSignalingCmdData structure [Display Devices], O, P, S, V, X, _, _DXVA_COPPSetSignalingCmdData, a, d, display.dxva_coppsetsignalingcmddata, dxva/DXVA_COPPSetSignalingCmdData, dxvaref_2fd69b63-8cfc-427f-9616-4de12bd1a848.xml, e, g, i, l, m, n, t"
+ms.keywords: DXVA_COPPSetSignalingCmdData, DXVA_COPPSetSignalingCmdData structure [Display Devices], _DXVA_COPPSetSignalingCmdData, display.dxva_coppsetsignalingcmddata, dxva/DXVA_COPPSetSignalingCmdData, dxvaref_2fd69b63-8cfc-427f-9616-4de12bd1a848.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -232,11 +232,11 @@ Reserved. Should be set to zero.
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_coppcommand.md">DXVA_COPPCommand</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_coppcommand.md">DXVA_COPPCommand</a>
 
 
 

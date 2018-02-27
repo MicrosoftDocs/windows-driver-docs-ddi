@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8a2f4429-b805-4a36-afdf-8b9c9a886951
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, D, E, G, L, N, O, P, R, READ_PORT_ULONG, READ_PORT_ULONG routine [Kernel-Mode Driver Architecture], T, U, _, k103_04794cc7-88eb-4456-8613-6fcf9947ebe4.xml, kernel.read_port_ulong, wdm/READ_PORT_ULONG"
+ms.keywords: READ_PORT_ULONG, READ_PORT_ULONG routine [Kernel-Mode Driver Architecture], k103_04794cc7-88eb-4456-8613-6fcf9947ebe4.xml, kernel.read_port_ulong, wdm/READ_PORT_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ ULONG READ_PORT_ULONG(
 
 
 
-#### - Port [in]
+### -param Port [in]
 
 Specifies the port address, which must be a mapped range in I/O space. 
 

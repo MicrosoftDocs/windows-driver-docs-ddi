@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E726B4AC-F003-45B3-B467-F123DBE60D87
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 3, C, D, D3DKMTSubmitCommand, D3DKMTSubmitCommand function [Display Devices], K, M, S, T, a, b, d, d3dkmthk/D3DKMTSubmitCommand, display.d3dkmtsubmitcommand, i, m, n, o, t, u"
+ms.keywords: D3DKMTSubmitCommand, D3DKMTSubmitCommand function [Display Devices], d3dkmthk/D3DKMTSubmitCommand, display.d3dkmtsubmitcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

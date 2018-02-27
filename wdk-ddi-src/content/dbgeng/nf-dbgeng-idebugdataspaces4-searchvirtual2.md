@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f54c35da-d455-4700-b8b9-c4479bc95088
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, 4, :, D, I, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], SearchVirtual2 method, IDebugDataSpaces4::SearchVirtual2, IDebugDataSpaces_62e68b69-35f7-4d69-bcf2-93b74fe0aa72.xml, S, SearchVirtual2 method [Windows Debugging], SearchVirtual2 method [Windows Debugging], IDebugDataSpaces4 interface, SearchVirtual2,IDebugDataSpaces4.SearchVirtual2, V, a, b, c, dbgeng/IDebugDataSpaces4::SearchVirtual2, debugger.searchvirtual2, e, g, h, i, l, p, r, s, t, u"
+ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], SearchVirtual2 method, IDebugDataSpaces4::SearchVirtual2, IDebugDataSpaces_62e68b69-35f7-4d69-bcf2-93b74fe0aa72.xml, SearchVirtual2 method [Windows Debugging], SearchVirtual2 method [Windows Debugging], IDebugDataSpaces4 interface, SearchVirtual2,IDebugDataSpaces4.SearchVirtual2, dbgeng/IDebugDataSpaces4::SearchVirtual2, debugger.searchvirtual2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

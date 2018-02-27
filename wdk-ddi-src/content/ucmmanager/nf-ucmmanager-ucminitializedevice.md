@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9159A6ED-0D85-422D-936A-13D7EC907A7C
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , D, I, U, UcmInitializeDevice, UcmInitializeDevice method [Buses], a, buses.ucminitializedevice, c, e, i, l, m, n, t, ucmmanager/UcmInitializeDevice, v, z"
+ms.keywords: UcmInitializeDevice, UcmInitializeDevice method [Buses], buses.ucminitializedevice, ucmmanager/UcmInitializeDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

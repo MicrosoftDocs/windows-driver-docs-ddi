@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 12862fb2-4cdb-4446-aa20-ec911c9cd65f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, D, F, G, GetOutputMemory method, GetOutputMemory method, IWDFIoRequest interface, GetOutputMemory,IWDFIoRequest.GetOutputMemory, I, IWDFIoRequest, IWDFIoRequest interface, GetOutputMemory method, IWDFIoRequest::GetOutputMemory, M, O, R, UMDFRequestObjectRef_618a405c-a272-4427-809b-46b7f46b75de.xml, W, e, m, o, p, q, r, s, t, u, umdf.iwdfiorequest_getoutputmemory, wdf.iwdfiorequest_getoutputmemory, wudfddi/IWDFIoRequest::GetOutputMemory, y"
+ms.keywords: GetOutputMemory method, GetOutputMemory method, IWDFIoRequest interface, GetOutputMemory,IWDFIoRequest.GetOutputMemory, IWDFIoRequest, IWDFIoRequest interface, GetOutputMemory method, IWDFIoRequest::GetOutputMemory, UMDFRequestObjectRef_618a405c-a272-4427-809b-46b7f46b75de.xml, umdf.iwdfiorequest_getoutputmemory, wdf.iwdfiorequest_getoutputmemory, wudfddi/IWDFIoRequest::GetOutputMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -109,19 +109,19 @@ For a code example of how to use the <b>GetOutputMemory</b> method, see <a href=
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560152">IWDFMemory::GetDataBuffer</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 

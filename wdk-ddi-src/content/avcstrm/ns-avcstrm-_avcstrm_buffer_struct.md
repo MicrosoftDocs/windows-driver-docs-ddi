@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed9a5391-135d-4ac2-8b72-6a92d3ff9998
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PAVCSTRM_BUFFER_STRUCT, ,, A, AVCSTRM_BUFFER_STRUCT, AVCSTRM_BUFFER_STRUCT structure [Streaming Media Devices], B, C, E, F, M, P, PAVCSTRM_BUFFER_STRUCT, PAVCSTRM_BUFFER_STRUCT structure pointer [Streaming Media Devices], R, S, T, U, V, _, _AVCSTRM_BUFFER_STRUCT, avcsref_9cec2cfb-d187-4349-b443-894f881f5108.xml, avcstrm/AVCSTRM_BUFFER_STRUCT, avcstrm/PAVCSTRM_BUFFER_STRUCT, stream.avcstrm_buffer_struct"
+ms.keywords: "*PAVCSTRM_BUFFER_STRUCT, AVCSTRM_BUFFER_STRUCT, AVCSTRM_BUFFER_STRUCT structure [Streaming Media Devices], PAVCSTRM_BUFFER_STRUCT, PAVCSTRM_BUFFER_STRUCT structure pointer [Streaming Media Devices], _AVCSTRM_BUFFER_STRUCT, avcsref_9cec2cfb-d187-4349-b443-894f881f5108.xml, avcstrm/AVCSTRM_BUFFER_STRUCT, avcstrm/PAVCSTRM_BUFFER_STRUCT, stream.avcstrm_buffer_struct"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7fb70431-db09-470b-b795-826aba3a8b77
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, G, GetResolution method [Streaming Media Devices], GetResolution method [Streaming Media Devices], IKsReferenceClock interface, GetResolution,IKsReferenceClock.GetResolution, I, IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], GetResolution method, IKsReferenceClock::GetResolution, K, R, avintfc_941baf81-e369-45bc-a798-15270a6d8a29.xml, c, e, f, i, k, ks/IKsReferenceClock::GetResolution, l, n, o, r, s, stream.iksreferenceclock_getresolution, t, u"
+ms.keywords: GetResolution method [Streaming Media Devices], GetResolution method [Streaming Media Devices], IKsReferenceClock interface, GetResolution,IKsReferenceClock.GetResolution, IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], GetResolution method, IKsReferenceClock::GetResolution, avintfc_941baf81-e369-45bc-a798-15270a6d8a29.xml, ks/IKsReferenceClock::GetResolution, stream.iksreferenceclock_getresolution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

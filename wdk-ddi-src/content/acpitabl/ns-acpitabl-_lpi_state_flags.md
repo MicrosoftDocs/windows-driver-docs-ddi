@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 3A9DECE8-E85A-49D5-8AF1-6C7BA8B1AB7D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , *, *PLPI_STATE_FLAGS, ,, A, E, F, G, I, L, LPI_STATE_FLAGS, LPI_STATE_FLAGS union [ACPI Devices], P, S, T, _, _LPI_STATE_FLAGS, acpi.lpi_state_flags, acpitabl/LPI_STATE_FLAGS"
+ms.keywords: "*PLPI_STATE_FLAGS, LPI_STATE_FLAGS, LPI_STATE_FLAGS union [ACPI Devices], _LPI_STATE_FLAGS, acpi.lpi_state_flags, acpitabl/LPI_STATE_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

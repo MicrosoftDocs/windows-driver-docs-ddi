@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 65C3DF3D-812D-44ED-B471-2D29ADBC2BBA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , A, B, E, I, M, N, P, Q, R, S, SPB.spb_request_parameters_init, SPB_REQUEST_PARAMETERS_INIT, SPB_REQUEST_PARAMETERS_INIT function [Buses], T, U, _, spbcx/SPB_REQUEST_PARAMETERS_INIT"
+ms.keywords: SPB.spb_request_parameters_init, SPB_REQUEST_PARAMETERS_INIT, SPB_REQUEST_PARAMETERS_INIT function [Buses], spbcx/SPB_REQUEST_PARAMETERS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

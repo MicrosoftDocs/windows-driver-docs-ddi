@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dbabd045-4f18-4103-b3c0-5405173628d6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , A, C, DFGenObjectRef_9b172283-f4b6-4ade-9cd2-38f10c0ff9bd.xml, O, W, WdfObjectAllocateContext, WdfObjectAllocateContext method, a, b, c, d, e, f, j, kmdf.wdfobjectallocatecontext, l, n, o, t, wdf.wdfobjectallocatecontext, wdfobject/WdfObjectAllocateContext, x"
+ms.keywords: DFGenObjectRef_9b172283-f4b6-4ade-9cd2-38f10c0ff9bd.xml, WdfObjectAllocateContext, WdfObjectAllocateContext method, kmdf.wdfobjectallocatecontext, wdf.wdfobjectallocatecontext, wdfobject/WdfObjectAllocateContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -218,15 +218,15 @@ status = WdfObjectAllocateContext(
 
 ## -see-also
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552404">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>
 
 
 
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 
 

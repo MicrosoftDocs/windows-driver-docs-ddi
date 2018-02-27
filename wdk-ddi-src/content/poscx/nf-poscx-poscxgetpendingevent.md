@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: D68C24E4-DCFB-44F6-92EE-9FF4A1A52841
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, E, G, P, PosCxGetPendingEvent, PosCxGetPendingEvent function, d, e, g, i, n, o, pos.poscxgetpendingevent, poscx/PosCxGetPendingEvent, s, t, v, x"
+ms.keywords: PosCxGetPendingEvent, PosCxGetPendingEvent function, pos.poscxgetpendingevent, poscx/PosCxGetPendingEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

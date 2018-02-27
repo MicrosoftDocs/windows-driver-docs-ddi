@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6c28e50c-a76a-4a7c-af29-6e58bcfe3f3b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , *, *LPRILDISPLAYINFO, ,, A, D, F, I, L, N, O, P, R, RILDISPLAYINFO, RILDISPLAYINFO structure [Network Drivers Starting with Windows Vista], S, Y, netvista.rildisplayinfo, ntddrilapitypes/RILDISPLAYINFO"
+ms.keywords: "*LPRILDISPLAYINFO, RILDISPLAYINFO, RILDISPLAYINFO structure [Network Drivers Starting with Windows Vista], netvista.rildisplayinfo, ntddrilapitypes/RILDISPLAYINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

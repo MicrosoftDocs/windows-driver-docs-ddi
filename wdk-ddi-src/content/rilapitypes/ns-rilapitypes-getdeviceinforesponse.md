@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 318927ab-6134-4a01-bf9c-a85619d2bbdf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , *, *LPGETDEVICEINFORESPONSE, ,, C, D, E, F, G, GETDEVICEINFORESPONSE, GETDEVICEINFORESPONSE structure [Network Drivers Starting with Windows Vista], I, L, N, O, P, R, S, T, V, netvista.getdeviceinforesponse_2, rilapitypes/GETDEVICEINFORESPONSE"
+ms.keywords: "*LPGETDEVICEINFORESPONSE, GETDEVICEINFORESPONSE, GETDEVICEINFORESPONSE structure [Network Drivers Starting with Windows Vista], netvista.getdeviceinforesponse_2, rilapitypes/GETDEVICEINFORESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

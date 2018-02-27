@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 462165e5-2823-4559-bd3e-18850d442cdb
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , E, I, IoWMIExecuteMethod, IoWMIExecuteMethod routine [Kernel-Mode Driver Architecture], M, W, c, d, e, h, k104_9625e06a-3c5a-4950-80be-cc3fb536453c.xml, kernel.iowmiexecutemethod, o, t, u, wdm/IoWMIExecuteMethod, x"
+ms.keywords: IoWMIExecuteMethod, IoWMIExecuteMethod routine [Kernel-Mode Driver Architecture], k104_9625e06a-3c5a-4950-80be-cc3fb536453c.xml, kernel.iowmiexecutemethod, wdm/IoWMIExecuteMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -197,11 +197,11 @@ The WMI GUID is no longer available or was never available.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550868">IRP_MN_EXECUTE_METHOD</a>
-
-
-
 <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550868">IRP_MN_EXECUTE_METHOD</a>
 
 
 

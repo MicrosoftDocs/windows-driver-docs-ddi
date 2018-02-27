@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b1c97d4f-b305-4c9f-b3fd-06d0ebcb0ed0
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, H, I, IKsDataTypeHandler, IKsDataTypeHandler interface [Streaming Media Devices], KsSetMediaType method, IKsDataTypeHandler::KsSetMediaType, K, KsSetMediaType method [Streaming Media Devices], KsSetMediaType method [Streaming Media Devices], IKsDataTypeHandler interface, KsSetMediaType,IKsDataTypeHandler.KsSetMediaType, M, S, T, a, d, e, i, ksproxy/IKsDataTypeHandler::KsSetMediaType, ksproxy_5992cc35-8912-4e1e-8712-ebb6f36f5193.xml, l, n, p, r, s, stream.iksdatatypehandler_kssetmediatype, t, y"
+ms.keywords: IKsDataTypeHandler, IKsDataTypeHandler interface [Streaming Media Devices], KsSetMediaType method, IKsDataTypeHandler::KsSetMediaType, KsSetMediaType method [Streaming Media Devices], KsSetMediaType method [Streaming Media Devices], IKsDataTypeHandler interface, KsSetMediaType,IKsDataTypeHandler.KsSetMediaType, ksproxy/IKsDataTypeHandler::KsSetMediaType, ksproxy_5992cc35-8912-4e1e-8712-ebb6f36f5193.xml, stream.iksdatatypehandler_kssetmediatype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

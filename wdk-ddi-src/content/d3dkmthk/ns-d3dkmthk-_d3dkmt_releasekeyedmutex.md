@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0ba40b4e-2e1d-45fa-9222-e162a39eea33
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 3, A, D, D3DKMT_RELEASEKEYEDMUTEX, D3DKMT_RELEASEKEYEDMUTEX structure [Display Devices], E, K, L, M, OpenGL_Structs_6f167c25-afb8-4ddc-9441-be713bba78f4.xml, R, S, T, U, X, Y, _, _D3DKMT_RELEASEKEYEDMUTEX, d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX, display.d3dkmt_releasekeyedmutex"
+ms.keywords: D3DKMT_RELEASEKEYEDMUTEX, D3DKMT_RELEASEKEYEDMUTEX structure [Display Devices], OpenGL_Structs_6f167c25-afb8-4ddc-9441-be713bba78f4.xml, _D3DKMT_RELEASEKEYEDMUTEX, d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX, display.d3dkmt_releasekeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

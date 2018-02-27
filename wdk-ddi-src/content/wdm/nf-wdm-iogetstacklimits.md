@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: aaa10cb2-16cb-40a8-ad72-9715da311957
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , G, I, IoGetStackLimits, IoGetStackLimits routine [Kernel-Mode Driver Architecture], L, S, a, c, e, i, k, k104_2688546a-d427-4d20-bc67-278b0fc20f45.xml, kernel.iogetstacklimits, m, o, s, t, wdm/IoGetStackLimits"
+ms.keywords: IoGetStackLimits, IoGetStackLimits routine [Kernel-Mode Driver Architecture], k104_2688546a-d427-4d20-bc67-278b0fc20f45.xml, kernel.iogetstacklimits, wdm/IoGetStackLimits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

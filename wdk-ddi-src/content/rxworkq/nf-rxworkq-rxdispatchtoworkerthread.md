@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 426d28fa-abfe-44d9-9b15-119f92367b40
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , D, R, RxDispatchToWorkerThread, RxDispatchToWorkerThread routine [Installable File System Drivers], T, W, a, c, d, e, h, i, ifsk.rxdispatchtoworkerthread, k, o, p, r, rxref_4ac4f78d-fd07-4d80-a4db-8215322d6c89.xml, rxworkq/RxDispatchToWorkerThread, s, t, x"
+ms.keywords: RxDispatchToWorkerThread, RxDispatchToWorkerThread routine [Installable File System Drivers], ifsk.rxdispatchtoworkerthread, rxref_4ac4f78d-fd07-4d80-a4db-8215322d6c89.xml, rxworkq/RxDispatchToWorkerThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

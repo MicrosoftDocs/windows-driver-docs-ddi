@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 1c661a35-8209-49c5-9987-b4b6e9e710b4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , *, *PUNIT_ISOCH_PARAMS, ,, 61883/PUNIT_ISOCH_PARAMS, 61883/UNIT_ISOCH_PARAMS, 61883_structures_eece3eb1-516b-40a8-9529-e4a3d8832f02.xml, A, C, H, I, IEEE.unit_isoch_params, M, N, O, P, PUNIT_ISOCH_PARAMS, PUNIT_ISOCH_PARAMS structure pointer [Buses], R, S, T, U, UNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS structure [Buses], _, _UNIT_ISOCH_PARAMS"
+ms.keywords: "*PUNIT_ISOCH_PARAMS, 61883/PUNIT_ISOCH_PARAMS, 61883/UNIT_ISOCH_PARAMS, 61883_structures_eece3eb1-516b-40a8-9529-e4a3d8832f02.xml, IEEE.unit_isoch_params, PUNIT_ISOCH_PARAMS, PUNIT_ISOCH_PARAMS structure pointer [Buses], UNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS structure [Buses], _UNIT_ISOCH_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

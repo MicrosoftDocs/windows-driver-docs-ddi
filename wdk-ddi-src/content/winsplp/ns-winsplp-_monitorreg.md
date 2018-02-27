@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 57c146bc-574f-4137-89bb-e891e005de05
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PMONITORREG, ,, E, G, I, M, MONITORREG, MONITORREG structure [Print Devices], N, O, P, PMONITORREG, PMONITORREG structure pointer [Print Devices], R, T, _, _MONITORREG, print.monitorreg, spoolfnc_2d0db8db-eea5-461a-a257-1fb986001dac.xml, winsplp/MONITORREG, winsplp/PMONITORREG"
+ms.keywords: "*PMONITORREG, MONITORREG, MONITORREG structure [Print Devices], PMONITORREG, PMONITORREG structure pointer [Print Devices], _MONITORREG, print.monitorreg, spoolfnc_2d0db8db-eea5-461a-a257-1fb986001dac.xml, winsplp/MONITORREG, winsplp/PMONITORREG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

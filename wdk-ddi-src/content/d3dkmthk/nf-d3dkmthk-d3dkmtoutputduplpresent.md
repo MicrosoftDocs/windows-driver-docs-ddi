@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d5846165-f58d-44a8-9242-02a2f85d3a8d
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 3, D, D3DKMTOutputDuplPresent, D3DKMTOutputDuplPresent callback function [Display Devices], K, M, O, P, PFND3DKMT_OUTPUTDUPLPRESENT, T, d3dkmthk/D3DKMTOutputDuplPresent, display.d3dkmtoutputduplpresent, e, l, n, p, r, s, t, u"
+ms.keywords: D3DKMTOutputDuplPresent, D3DKMTOutputDuplPresent callback function [Display Devices], PFND3DKMT_OUTPUTDUPLPRESENT, d3dkmthk/D3DKMTOutputDuplPresent, display.d3dkmtoutputduplpresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -170,11 +170,11 @@ For example, the DirectX graphics kernel subsystem puts a device into an error s
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetdevicestate.md">D3DKMTGetDeviceState</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_outputduplpresent.md">D3DKMT_OUTPUTDUPLPRESENT</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetdevicestate.md">D3DKMTGetDeviceState</a>
 
 
 

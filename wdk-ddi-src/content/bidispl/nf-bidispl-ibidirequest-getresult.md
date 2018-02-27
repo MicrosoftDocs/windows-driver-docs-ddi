@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d3d37fd2-b3fa-4664-ba4b-c355197d9b40
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, B, G, GetResult method [Print Devices], GetResult method [Print Devices], IBidiRequest interface, GetResult,IBidiRequest.GetResult, I, IBidiRequest, IBidiRequest interface [Print Devices], GetResult method, IBidiRequest::GetResult, R, _win32_IBidiRequest_GetResult, bidispl/IBidiRequest::GetResult, d, e, gdi.ibidirequest_ibidirequest__getresult, i, l, print.ibidirequest_ibidirequest__getresult, q, s, t, u"
+ms.keywords: GetResult method [Print Devices], GetResult method [Print Devices], IBidiRequest interface, GetResult,IBidiRequest.GetResult, IBidiRequest, IBidiRequest interface [Print Devices], GetResult method, IBidiRequest::GetResult, _win32_IBidiRequest_GetResult, bidispl/IBidiRequest::GetResult, gdi.ibidirequest_ibidirequest__getresult, print.ibidirequest_ibidirequest__getresult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -137,15 +137,15 @@ Note that the return value indicates whether the method was successful. It does 
 
 ## -see-also
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
 
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
+
+
+<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
 
 

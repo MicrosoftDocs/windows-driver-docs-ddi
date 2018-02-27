@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: fdfc0157-699e-4927-8186-b76b2e2bbda1
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PPCI_EXPRESS_SEC_AER_CAPABILITIES, ,, A, B, C, E, I, L, P, PCI.pci_express_sec_aer_capabilities, PCI_EXPRESS_SEC_AER_CAPABILITIES, PCI_EXPRESS_SEC_AER_CAPABILITIES union [Buses], PPCI_EXPRESS_SEC_AER_CAPABILITIES, PPCI_EXPRESS_SEC_AER_CAPABILITIES union pointer [Buses], R, S, T, X, _, _PCI_EXPRESS_SEC_AER_CAPABILITIES, pci_struct_22bcb7f0-e690-414b-ba51-37c8783a6fad.xml, wdm/PCI_EXPRESS_SEC_AER_CAPABILITIES, wdm/PPCI_EXPRESS_SEC_AER_CAPABILITIES"
+ms.keywords: "*PPCI_EXPRESS_SEC_AER_CAPABILITIES, PCI.pci_express_sec_aer_capabilities, PCI_EXPRESS_SEC_AER_CAPABILITIES, PCI_EXPRESS_SEC_AER_CAPABILITIES union [Buses], PPCI_EXPRESS_SEC_AER_CAPABILITIES, PPCI_EXPRESS_SEC_AER_CAPABILITIES union pointer [Buses], _PCI_EXPRESS_SEC_AER_CAPABILITIES, pci_struct_22bcb7f0-e690-414b-ba51-37c8783a6fad.xml, wdm/PCI_EXPRESS_SEC_AER_CAPABILITIES, wdm/PPCI_EXPRESS_SEC_AER_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,14 +82,14 @@ typedef union _PCI_EXPRESS_SEC_AER_CAPABILITIES {
 A ULONG representation of the contents of the PCI_EXPRESS_SEC_AER_CAPABILITIES structure.
 
 
-#### - SecondaryUncorrectableFirstErrorPtr
-
-The bit position of the first error that was reported in the PCIe secondary uncorrectable error status register.
-
-
 #### - Reserved
 
 Reserved for system use.
+
+
+#### - SecondaryUncorrectableFirstErrorPtr
+
+The bit position of the first error that was reported in the PCIe secondary uncorrectable error status register.
 
 
 ## -remarks

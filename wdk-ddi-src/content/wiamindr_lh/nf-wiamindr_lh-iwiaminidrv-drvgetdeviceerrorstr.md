@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c34a6834-8875-400c-9634-6c2b9b68164f
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, E, G, I, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvGetDeviceErrorStr method, IWiaMiniDrv::drvGetDeviceErrorStr, M, MiniDrv_d5a72b62-8987-4d0a-921e-8a7f4d915d12.xml, S, W, a, c, d, drvGetDeviceErrorStr method [Imaging Devices], drvGetDeviceErrorStr method [Imaging Devices], IWiaMiniDrv interface, drvGetDeviceErrorStr,IWiaMiniDrv.drvGetDeviceErrorStr, e, i, image.iwiaminidrv_drvgetdeviceerrorstr, n, o, r, t, v, wiamindr_lh/IWiaMiniDrv::drvGetDeviceErrorStr"
+ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvGetDeviceErrorStr method, IWiaMiniDrv::drvGetDeviceErrorStr, MiniDrv_d5a72b62-8987-4d0a-921e-8a7f4d915d12.xml, drvGetDeviceErrorStr method [Imaging Devices], drvGetDeviceErrorStr method [Imaging Devices], IWiaMiniDrv interface, drvGetDeviceErrorStr,IWiaMiniDrv.drvGetDeviceErrorStr, image.iwiaminidrv_drvgetdeviceerrorstr, wiamindr_lh/IWiaMiniDrv::drvGetDeviceErrorStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -93,24 +93,24 @@ HRESULT drvGetDeviceErrorStr(
 
 
 
-#### - lFlags [in]
-
-Is currently unused. 
-
-
 #### - lDevErrVal [in]
 
 Specifies the device error value to be mapped to a string. A value of zero indicates that no error occurred.
 
 
-#### - ppszDevErrStr [out, optional]
+#### - lFlags [in]
 
-Points to a memory location that will receive the address of a string describing the error. 
+Is currently unused. 
 
 
 #### - plDevErr [out]
 
 Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
+
+
+#### - ppszDevErrStr [out, optional]
+
+Points to a memory location that will receive the address of a string describing the error. 
 
 
 ## -returns

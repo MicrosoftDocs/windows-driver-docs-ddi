@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2DE78869-9AFC-423A-BCB0-B7BBAB0C06BC
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, P, S, U, UcmConnectorPdConnectionStateChanged, UcmConnectorPdConnectionStateChanged method [Buses], a, buses.ucmconnectorpdconnectionstatechanged, c, d, e, g, h, i, m, n, o, r, t, ucmmanager/UcmConnectorPdConnectionStateChanged"
+ms.keywords: UcmConnectorPdConnectionStateChanged, UcmConnectorPdConnectionStateChanged method [Buses], buses.ucmconnectorpdconnectionstatechanged, ucmmanager/UcmConnectorPdConnectionStateChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

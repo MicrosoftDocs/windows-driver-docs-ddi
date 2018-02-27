@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 7cb25991-4e82-4da2-9d1f-fadc035b25a3
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PPCI_EXPRESS_AER_CAPABILITIES, ,, A, B, C, E, I, L, P, PCI.pci_express_aer_capabilities, PCI_EXPRESS_AER_CAPABILITIES, PCI_EXPRESS_AER_CAPABILITIES union [Buses], PPCI_EXPRESS_AER_CAPABILITIES, PPCI_EXPRESS_AER_CAPABILITIES union pointer [Buses], R, S, T, X, _, _PCI_EXPRESS_AER_CAPABILITIES, pci_struct_e316ea91-d32a-4726-ba80-8fc6bd8e3163.xml, wdm/PCI_EXPRESS_AER_CAPABILITIES, wdm/PPCI_EXPRESS_AER_CAPABILITIES"
+ms.keywords: "*PPCI_EXPRESS_AER_CAPABILITIES, PCI.pci_express_aer_capabilities, PCI_EXPRESS_AER_CAPABILITIES, PCI_EXPRESS_AER_CAPABILITIES union [Buses], PPCI_EXPRESS_AER_CAPABILITIES, PPCI_EXPRESS_AER_CAPABILITIES union pointer [Buses], _PCI_EXPRESS_AER_CAPABILITIES, pci_struct_e316ea91-d32a-4726-ba80-8fc6bd8e3163.xml, wdm/PCI_EXPRESS_AER_CAPABILITIES, wdm/PPCI_EXPRESS_AER_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,9 +85,14 @@ typedef union _PCI_EXPRESS_AER_CAPABILITIES {
 A ULONG representation of the contents of the PCI_EXPRESS_AER_CAPABILITIES structure.
 
 
-#### - FirstErrorPointer
+#### - ECRCCheckCapable
 
-The bit position of the first error that was reported in the PCIe uncorrectable error status register.
+A single bit that indicates that the device is capable of checking ECRC.
+
+
+#### - ECRCCheckEnable
+
+A single bit that indicates that ECRC checking is enabled.
 
 
 #### - ECRCGenerationCapable
@@ -100,14 +105,9 @@ A single bit that indicates that the device is capable of generating end-to-end 
 A single bit that indicates that ECRC generation is enabled.
 
 
-#### - ECRCCheckCapable
+#### - FirstErrorPointer
 
-A single bit that indicates that the device is capable of checking ECRC.
-
-
-#### - ECRCCheckEnable
-
-A single bit that indicates that ECRC checking is enabled.
+The bit position of the first error that was reported in the PCIe uncorrectable error status register.
 
 
 #### - Reserved
@@ -128,15 +128,15 @@ A PCI_EXPRESS_AER_CAPABILITIES structure is contained in the <a href="https://ms
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
 
 

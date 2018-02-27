@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8e450e58-41e0-4df2-83d9-8975d437cdcb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, G, I, L, R, RIL_GetRadioConfiguration, RIL_GetRadioConfiguration method [Network Drivers Starting with Windows Vista], _, a, d, e, f, g, i, n, netvista.ril_getradioconfiguration, o, r, rilapi/RIL_GetRadioConfiguration, t, u"
+ms.keywords: RIL_GetRadioConfiguration, RIL_GetRadioConfiguration method [Network Drivers Starting with Windows Vista], netvista.ril_getradioconfiguration, rilapi/RIL_GetRadioConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

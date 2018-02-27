@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a1ad3b45-c89c-4990-a47b-20e47c05892a
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, D, G, GetPseudoValues method [Windows Debugging], GetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, GetPseudoValues,IDebugRegisters2.GetPseudoValues, I, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetPseudoValues method, IDebugRegisters2::GetPseudoValues, IDebugRegisters_56a9ae8d-1ef7-4b28-bcad-e9f7025aba4f.xml, P, R, V, a, b, d, dbgeng/IDebugRegisters2::GetPseudoValues, debugger.getpseudovalues, e, g, i, l, o, r, s, t, u"
+ms.keywords: GetPseudoValues method [Windows Debugging], GetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, GetPseudoValues,IDebugRegisters2.GetPseudoValues, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetPseudoValues method, IDebugRegisters2::GetPseudoValues, IDebugRegisters_56a9ae8d-1ef7-4b28-bcad-e9f7025aba4f.xml, dbgeng/IDebugRegisters2::GetPseudoValues, debugger.getpseudovalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -177,7 +177,7 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556767">SetPseudoValues</a>
 
 
 
@@ -185,7 +185,7 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556767">SetPseudoValues</a>
+<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
 
 

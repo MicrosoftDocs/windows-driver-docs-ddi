@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 63081b07-add8-49fc-b12d-6aa5c43356ce
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, G, K, KsPinAttachAndGate, KsPinAttachAndGate function [Streaming Media Devices], P, a, avfunc_395e0cf9-ba21-4b20-a37b-7758d1bfeca0.xml, c, d, e, h, i, ks/KsPinAttachAndGate, n, s, stream.kspinattachandgate, t"
+ms.keywords: KsPinAttachAndGate, KsPinAttachAndGate function [Streaming Media Devices], avfunc_395e0cf9-ba21-4b20-a37b-7758d1bfeca0.xml, ks/KsPinAttachAndGate, stream.kspinattachandgate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,15 +101,15 @@ To insert the gate, first call <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGa
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-
-
-
 <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
 
 
 
 <a href="..\ks\nf-ks-kspinattachorgate.md">KsPinAttachOrGate</a>
+
+
+
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 
 

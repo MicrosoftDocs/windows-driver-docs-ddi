@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c24082c4-0c79-4956-8035-79198cb2b7ee
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, C, Close method, Close method, IWDFRemoteTarget interface, Close,IWDFRemoteTarget.Close, D, F, I, IWDFRemoteTarget, IWDFRemoteTarget interface, Close method, IWDFRemoteTarget::Close, R, T, UMDFIoTargetObjectRef_1e5aba5f-fd82-4d59-abb6-915e8a49ad22.xml, W, a, e, g, l, m, o, r, s, t, umdf.iwdfremotetarget_close, wdf.iwdfremotetarget_close, wudfddi/IWDFRemoteTarget::Close"
+ms.keywords: Close method, Close method, IWDFRemoteTarget interface, Close,IWDFRemoteTarget.Close, IWDFRemoteTarget, IWDFRemoteTarget interface, Close method, IWDFRemoteTarget::Close, UMDFIoTargetObjectRef_1e5aba5f-fd82-4d59-abb6-915e8a49ad22.xml, umdf.iwdfremotetarget_close, wdf.iwdfremotetarget_close, wudfddi/IWDFRemoteTarget::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

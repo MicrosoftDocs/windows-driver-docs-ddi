@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: af388fd1-c95b-42ae-9d18-5fb416c28bc1
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, D, F, G, K, KsDeviceGetFirstChildFilterFactory, KsDeviceGetFirstChildFilterFactory function [Streaming Media Devices], a, avfunc_99fdc67f-eca0-460d-b1fb-d9881bd6e4c9.xml, c, d, e, h, i, ks/KsDeviceGetFirstChildFilterFactory, l, o, r, s, stream.ksdevicegetfirstchildfilterfactory, t, v, y"
+ms.keywords: KsDeviceGetFirstChildFilterFactory, KsDeviceGetFirstChildFilterFactory function [Streaming Media Devices], avfunc_99fdc67f-eca0-460d-b1fb-d9881bd6e4c9.xml, ks/KsDeviceGetFirstChildFilterFactory, stream.ksdevicegetfirstchildfilterfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,15 +94,15 @@ For a graphical representation of AVStream parent/child relationships, see the d
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
-
-
-
 <a href="..\ks\nf-ks-ksgetfirstchild.md">KsGetFirstChild</a>
 
 
 
 <a href="..\ks\nf-ks-ksfilterfactorygetnextsiblingfilterfactory.md">KsFilterFactoryGetNextSiblingFilterFactory</a>
+
+
+
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9e998e54-b4c9-41ed-bba8-6f11c013f681
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, D, F, G, GetDefaultIoQueue method, GetDefaultIoQueue method, IWDFDevice interface, GetDefaultIoQueue,IWDFDevice.GetDefaultIoQueue, I, IWDFDevice, IWDFDevice interface, GetDefaultIoQueue method, IWDFDevice::GetDefaultIoQueue, Q, UMDFDeviceObjectRef_b4c10b3b-eba4-4e6c-8f9e-80c32705f43d.xml, W, a, c, e, f, i, l, o, t, u, umdf.iwdfdevice_getdefaultioqueue, v, wdf.iwdfdevice_getdefaultioqueue, wudfddi/IWDFDevice::GetDefaultIoQueue"
+ms.keywords: GetDefaultIoQueue method, GetDefaultIoQueue method, IWDFDevice interface, GetDefaultIoQueue,IWDFDevice.GetDefaultIoQueue, IWDFDevice, IWDFDevice interface, GetDefaultIoQueue method, IWDFDevice::GetDefaultIoQueue, UMDFDeviceObjectRef_b4c10b3b-eba4-4e6c-8f9e-80c32705f43d.xml, umdf.iwdfdevice_getdefaultioqueue, wdf.iwdfdevice_getdefaultioqueue, wudfddi/IWDFDevice::GetDefaultIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

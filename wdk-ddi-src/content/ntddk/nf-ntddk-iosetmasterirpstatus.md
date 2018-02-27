@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 68C7C46B-AFDB-449D-99B5-1F9A5A9AFFA4
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , I, IoSetMasterIrpStatus, IoSetMasterIrpStatus routine [Kernel-Mode Driver Architecture], M, S, a, e, kernel.iosetmasterirpstatus, ntddk/IoSetMasterIrpStatus, o, p, r, s, t, u"
+ms.keywords: IoSetMasterIrpStatus, IoSetMasterIrpStatus routine [Kernel-Mode Driver Architecture], kernel.iosetmasterirpstatus, ntddk/IoSetMasterIrpStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

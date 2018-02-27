@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: FBC776FE-1056-4D3B-BECB-124FC41DD68F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , 2, 2/SerCx2CustomReceiveTransactionReportProgress, C, P, R, S, SerCx2CustomReceiveTransactionReportProgress, SerCx2CustomReceiveTransactionReportProgress method [Serial Ports], T, a, c, e, g, i, m, n, o, p, r, s, serports.sercx2customreceivetransactionreportprogress, t, u, v, x"
+ms.keywords: 2/SerCx2CustomReceiveTransactionReportProgress, SerCx2CustomReceiveTransactionReportProgress, SerCx2CustomReceiveTransactionReportProgress method [Serial Ports], serports.sercx2customreceivetransactionreportprogress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,6 +116,10 @@ For more information, see <a href="https://msdn.microsoft.com/29849A8C-6656-444C
 
 ## -see-also
 
+<a href="..\sercx\ne-sercx-_sercx2_custom_receive_transaction_progress.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
 
 
@@ -125,10 +129,6 @@ For more information, see <a href="https://msdn.microsoft.com/29849A8C-6656-444C
 
 
 <a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a>
-
-
-
-<a href="..\sercx\ne-sercx-_sercx2_custom_receive_transaction_progress.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>
 
 
 

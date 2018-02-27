@@ -93,9 +93,9 @@ BOOL APIENTRY UNIFONTOBJ_GetInfo(
 
 
 
-#### - pUFObj
+#### - dwDataSize
 
-Pointer to the <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure received by the function that is making the callback to <b>UNIFONTOBJ_GetInfo</b>. Supplied by the caller.
+Specifies the size, in bytes, of the buffer pointed to by <i>pData</i>. Supplied by the caller.
 
 
 #### - dwInfoID
@@ -190,9 +190,9 @@ UFO_GETINFO_STDVARIABLE
 For a summary of structure contents, see the following <b>Remarks</b> section.
 
 
-#### - dwDataSize
+#### - pUFObj
 
-Specifies the size, in bytes, of the buffer pointed to by <i>pData</i>. Supplied by the caller.
+Pointer to the <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure received by the function that is making the callback to <b>UNIFONTOBJ_GetInfo</b>. Supplied by the caller.
 
 
 #### - pcbNeeded

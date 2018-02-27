@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5a8a764d-48bf-48f9-831a-ac22767aeca6
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , D, DrvUpgradePrinter, DrvUpgradePrinter function [Print Devices], P, U, a, d, e, g, i, n, p, print.drvupgradeprinter, print_interface-graphics_ab060948-18bc-4b0f-a504-320083fcb173.xml, r, t, v, winddiui/DrvUpgradePrinter"
+ms.keywords: DrvUpgradePrinter, DrvUpgradePrinter function [Print Devices], print.drvupgradeprinter, print_interface-graphics_ab060948-18bc-4b0f-a504-320083fcb173.xml, winddiui/DrvUpgradePrinter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

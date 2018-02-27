@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a0e3700a-768f-4025-b5f2-715e25e1d10d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, CcGetFlushedValidData, CcGetFlushedValidData routine [Installable File System Drivers], D, F, G, V, a, c, ccref_021f04d4-537c-49a3-bfac-8eeea908c100.xml, d, e, h, i, ifsk.ccgetflushedvaliddata, l, ntifs/CcGetFlushedValidData, s, t, u"
+ms.keywords: CcGetFlushedValidData, CcGetFlushedValidData routine [Installable File System Drivers], ccref_021f04d4-537c-49a3-bfac-8eeea908c100.xml, ifsk.ccgetflushedvaliddata, ntifs/CcGetFlushedValidData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

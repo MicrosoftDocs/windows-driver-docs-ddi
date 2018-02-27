@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E697F53C-2642-4E3F-AA8C-D0802B39D187
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , D, G, I, S, T, W, WdfDeviceGetDeviceStackIoType, WdfDeviceGetDeviceStackIoType method, a, c, d, e, f, i, k, o, p, t, v, wdf.wdfdevicegetdevicestackiotype, wdfdevice/WdfDeviceGetDeviceStackIoType, y"
+ms.keywords: WdfDeviceGetDeviceStackIoType, WdfDeviceGetDeviceStackIoType method, wdf.wdfdevicegetdevicestackiotype, wdfdevice/WdfDeviceGetDeviceStackIoType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

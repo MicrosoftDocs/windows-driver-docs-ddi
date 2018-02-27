@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4F5FB073-0803-4112-964E-431930D14A88
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, E, I, S, U, UcxEndpointInitSetEventCallbacks, UcxEndpointInitSetEventCallbacks method [Buses], a, b, buses._ucxendpointinitseteventcallbacks, c, d, e, i, k, l, n, o, p, s, t, v, x"
+ms.keywords: UcxEndpointInitSetEventCallbacks, UcxEndpointInitSetEventCallbacks method [Buses], buses._ucxendpointinitseteventcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

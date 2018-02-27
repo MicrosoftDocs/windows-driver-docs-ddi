@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a58dd106-dec8-4444-9783-eb16e969ea42
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , *, *PWDF_TASK_QUEUE_CONFIG, ,, A, C, D, E, F, G, I, K, N, O, P, PWDF_TASK_QUEUE_CONFIG, PWDF_TASK_QUEUE_CONFIG structure pointer, Q, S, T, U, W, WDF_TASK_QUEUE_CONFIG, WDF_TASK_QUEUE_CONFIG structure, _, _WDF_TASK_QUEUE_CONFIG, wdf.wdf_task_queue_config, wdfcompanion/PWDF_TASK_QUEUE_CONFIG, wdfcompanion/WDF_TASK_QUEUE_CONFIG"
+ms.keywords: "*PWDF_TASK_QUEUE_CONFIG, PWDF_TASK_QUEUE_CONFIG, PWDF_TASK_QUEUE_CONFIG structure pointer, WDF_TASK_QUEUE_CONFIG, WDF_TASK_QUEUE_CONFIG structure, _WDF_TASK_QUEUE_CONFIG, wdf.wdf_task_queue_config, wdfcompanion/PWDF_TASK_QUEUE_CONFIG, wdfcompanion/WDF_TASK_QUEUE_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

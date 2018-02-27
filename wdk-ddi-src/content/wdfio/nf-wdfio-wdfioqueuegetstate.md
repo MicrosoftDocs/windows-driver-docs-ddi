@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 83bfddd5-fc4d-4f5c-9904-7564810f5b4c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , DFQueueObjectRef_756666e1-e5eb-4bcc-907e-65b10e580396.xml, G, I, Q, S, W, WdfIoQueueGetState, WdfIoQueueGetState method, a, d, e, f, kmdf.wdfioqueuegetstate, o, t, u, wdf.wdfioqueuegetstate, wdfio/WdfIoQueueGetState"
+ms.keywords: DFQueueObjectRef_756666e1-e5eb-4bcc-907e-65b10e580396.xml, WdfIoQueueGetState, WdfIoQueueGetState method, kmdf.wdfioqueuegetstate, wdf.wdfioqueuegetstate, wdfio/WdfIoQueueGetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -172,11 +172,11 @@ IsQueueIdle(
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>
-
-
-
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>
 
 
 

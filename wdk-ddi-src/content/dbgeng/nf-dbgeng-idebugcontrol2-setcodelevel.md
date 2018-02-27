@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b2f318d2-9ee2-4b4b-86ff-4561f1bbe084
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, C, D, I, IDebugControl, IDebugControl interface [Windows Debugging], SetCodeLevel method, IDebugControl2, IDebugControl2 interface [Windows Debugging], SetCodeLevel method, IDebugControl2::SetCodeLevel, IDebugControl3 interface [Windows Debugging], SetCodeLevel method, IDebugControl3::SetCodeLevel, IDebugControl::SetCodeLevel, IDebugControl_40aa5eed-ef3f-4ec4-84eb-0cfec638bc4a.xml, L, S, SetCodeLevel method [Windows Debugging], SetCodeLevel method [Windows Debugging], IDebugControl interface, SetCodeLevel method [Windows Debugging], IDebugControl2 interface, SetCodeLevel method [Windows Debugging], IDebugControl3 interface, SetCodeLevel,IDebugControl.SetCodeLevel, SetCodeLevel,IDebugControl2.SetCodeLevel, b, d, dbgeng/IDebugControl2::SetCodeLevel, dbgeng/IDebugControl3::SetCodeLevel, dbgeng/IDebugControl::SetCodeLevel, debugger.setcodelevel, e, g, l, n, o, r, t, u, v"
+ms.keywords: IDebugControl interface [Windows Debugging], SetCodeLevel method, IDebugControl2, IDebugControl2 interface [Windows Debugging], SetCodeLevel method, IDebugControl2::SetCodeLevel, IDebugControl3 interface [Windows Debugging], SetCodeLevel method, IDebugControl3::SetCodeLevel, IDebugControl::SetCodeLevel, IDebugControl_40aa5eed-ef3f-4ec4-84eb-0cfec638bc4a.xml, SetCodeLevel method [Windows Debugging], SetCodeLevel method [Windows Debugging], IDebugControl interface, SetCodeLevel method [Windows Debugging], IDebugControl2 interface, SetCodeLevel method [Windows Debugging], IDebugControl3 interface, SetCodeLevel,IDebugControl2.SetCodeLevel, dbgeng/IDebugControl2::SetCodeLevel, dbgeng/IDebugControl3::SetCodeLevel, dbgeng/IDebugControl::SetCodeLevel, debugger.setcodelevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -145,11 +145,11 @@ For more information about the code level, see <a href="https://msdn.microsoft.c
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 

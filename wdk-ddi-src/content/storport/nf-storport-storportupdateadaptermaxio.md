@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: BB18925D-ACFA-426D-ADD3-33C1D8A99396
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, I, M, O, P, S, StorPortUpdateAdapterMaxIO, StorPortUpdateAdapterMaxIO function [Storage Devices], U, a, d, e, o, p, r, storage.storportupdateadaptermaxio, storport/StorPortUpdateAdapterMaxIO, t, x"
+ms.keywords: StorPortUpdateAdapterMaxIO, StorPortUpdateAdapterMaxIO function [Storage Devices], storage.storportupdateadaptermaxio, storport/StorPortUpdateAdapterMaxIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,7 +116,7 @@ This function returns of the following values.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HwInitialize</a>
+<a href="..\strmini\ns-strmini-_hw_initialization_data.md">HwInitialize</a>
 
 
 

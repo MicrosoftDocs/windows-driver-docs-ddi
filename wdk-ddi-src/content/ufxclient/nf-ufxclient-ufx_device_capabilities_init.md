@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7C55EB8D-1B68-484A-B95A-E0150FBA9AB8
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, B, C, D, E, F, I, L, N, P, S, T, U, UFX_DEVICE_CAPABILITIES_INIT, UFX_DEVICE_CAPABILITIES_INIT function [Buses], V, X, _, buses.ufx_device_capabilities_init, ufxclient/UFX_DEVICE_CAPABILITIES_INIT"
+ms.keywords: UFX_DEVICE_CAPABILITIES_INIT, UFX_DEVICE_CAPABILITIES_INIT function [Buses], buses.ufx_device_capabilities_init, ufxclient/UFX_DEVICE_CAPABILITIES_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

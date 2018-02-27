@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 89E8FCC6-B618-4D7E-B1E6-59E85261BE3C
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 3, A, D, D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices], E, G, I, L, P, R, S, T, U, V, _, d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS, display.d3dddi_reservegpuvirtualaddress"
+ms.keywords: D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices], d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS, display.d3dddi_reservegpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -126,14 +126,14 @@ Specify the size of the range to reserve in bytes. Must be a multiple of 64KB.
 [out] The reserved virtual address.
 
 
-#### - hPagingQueue
+#### - DriverProtection
 
-Paging queue to synchronize the operation on.
+Specifies the driver-specific protection
 
 
-#### - hAdapter
+#### - PagingFenceValue
 
-DirectX graphics adapter handle. 
+Paging fence identifier for synchronization
 
 
 #### - ReservationType
@@ -146,24 +146,24 @@ Specifies the virtual address reservation type.
 This member is reserved and should be set to zero.
 
 
-#### - DriverProtection
-
-Specifies the driver-specific protection
-
-
 #### - Reserved1
 
 This member is reserved and should be set to zero.
 
 
-#### - PagingFenceValue
-
-Paging fence identifier for synchronization
-
-
 #### - Reserved2
 
 This member is reserved and should be set to zero.
+
+
+#### - hAdapter
+
+DirectX graphics adapter handle. 
+
+
+#### - hPagingQueue
+
+Paging queue to synchronize the operation on.
 
 
 ## -see-also

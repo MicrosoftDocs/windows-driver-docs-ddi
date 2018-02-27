@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: af8126cd-e931-4106-b543-9c84ee110901
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, P, R, S, StorPortWriteRegisterBufferUchar, StorPortWriteRegisterBufferUchar routine [Storage Devices], U, W, a, c, e, f, g, h, i, o, r, s, storage.storportwriteregisterbufferuchar, storport/StorPortWriteRegisterBufferUchar, storprt_21fa4636-6492-4cb1-9281-6f116f1a7591.xml, t, u"
+ms.keywords: StorPortWriteRegisterBufferUchar, StorPortWriteRegisterBufferUchar routine [Storage Devices], storage.storportwriteregisterbufferuchar, storport/StorPortWriteRegisterBufferUchar, storprt_21fa4636-6492-4cb1-9281-6f116f1a7591.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -95,6 +95,11 @@ TBD
 
 
 
+#### - Count
+
+Specifies the number of bytes to be transferred to the HBA. 
+
+
 #### - HwDeviceExtension
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
@@ -103,11 +108,6 @@ A pointer to the hardware device extension. This is a per HBA storage area that 
 #### - Register
 
 Pointer to a buffer containing the data to be written. 
-
-
-#### - Count
-
-Specifies the number of bytes to be transferred to the HBA. 
 
 
 ## -see-also

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: af94f36f-6e1a-4ac5-be6d-64a9a8dade9e
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , H, K, KsPropertyHandler, KsPropertyHandler function [Streaming Media Devices], P, a, d, e, ks/KsPropertyHandler, ksfunc_9595b49a-6957-4ebc-8d45-3a92f9190734.xml, l, n, o, p, r, s, stream.kspropertyhandler, t, y"
+ms.keywords: KsPropertyHandler, KsPropertyHandler function [Streaming Media Devices], ks/KsPropertyHandler, ksfunc_9595b49a-6957-4ebc-8d45-3a92f9190734.xml, stream.kspropertyhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,7 +89,7 @@ Points to an array of <a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
 
 
 
-The <b>KsPropertyHandler </b>function returns STATUS_SUCCESS if successful, or an error specific to the property being handled if unsuccessful. The function sets the <a href="..\wdm\ns-wdm-_irp.md">IRP</a>-&gt;<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>.Information member, either through setting it to zero because of an internal error, or through a property handler setting it. The function does not set the lrp-&gt;IoStatus.Status member nor does it complete the IRP.
+The <b>KsPropertyHandler </b>function returns STATUS_SUCCESS if successful, or an error specific to the property being handled if unsuccessful. The function sets the <a href="..\wdm\ns-wdm-_irp.md">IRP</a>-&gt;<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>.Information member, either through setting it to zero because of an internal error, or through a property handler setting it. The function does not set the lrp-&gt;IoStatus.Status member nor does it complete the IRP.
 
 
 
@@ -113,11 +113,11 @@ The owner of the property sets can perform prefiltering or postfiltering of prop
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfastpropertyhandler.md">KsFastPropertyHandler</a>
-
-
-
 <a href="..\ks\nf-ks-kspropertyhandlerwithallocator.md">KsPropertyHandlerWithAllocator</a>
+
+
+
+<a href="..\ks\nf-ks-ksfastpropertyhandler.md">KsFastPropertyHandler</a>
 
 
 

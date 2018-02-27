@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3cc84381-fa1e-4c6c-bb5b-459a93676cfd
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 3, A, D, D3DKMTOfferAllocations, D3DKMTOfferAllocations callback function [Display Devices], K, M, O, PFND3DKMT_OFFERALLOCATIONS, T, a, c, d3dkmthk/D3DKMTOfferAllocations, display.d3dkmtofferallocations, e, f, i, l, n, o, r, s, t"
+ms.keywords: D3DKMTOfferAllocations, D3DKMTOfferAllocations callback function [Display Devices], PFND3DKMT_OFFERALLOCATIONS, d3dkmthk/D3DKMTOfferAllocations, display.d3dkmtofferallocations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

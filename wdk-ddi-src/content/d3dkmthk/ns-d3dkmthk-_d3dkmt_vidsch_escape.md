@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8e19e8a1-0cb6-4d57-862c-2e3a785b949b
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_VIDSCH_ESCAPE, D3DKMT_VIDSCH_ESCAPE structure [Display Devices], E, H, I, K, M, OpenGL_Structs_d668addb-7c4a-4f07-bf9b-71ccd4a216fa.xml, P, S, T, V, _, _D3DKMT_VIDSCH_ESCAPE, d3dkmthk/D3DKMT_VIDSCH_ESCAPE, display.d3dkmt_vidsch_escape"
+ms.keywords: D3DKMT_VIDSCH_ESCAPE, D3DKMT_VIDSCH_ESCAPE structure [Display Devices], OpenGL_Structs_d668addb-7c4a-4f07-bf9b-71ccd4a216fa.xml, _D3DKMT_VIDSCH_ESCAPE, d3dkmthk/D3DKMT_VIDSCH_ESCAPE, display.d3dkmt_vidsch_escape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,14 +120,14 @@ Control TDR.
 
 
 
-#### - PreemptionControl
-
-Enable or disable preemption.
-
-
 #### - EnableContextDelay
 
 Enable or disable context delay.
+
+
+#### - PreemptionControl
+
+Enable or disable preemption.
 
 
 #### - SuspendScheduler
@@ -135,14 +135,14 @@ Enable or disable context delay.
 Suspend or resume scheduler (obsolete).
 
 
-#### - TdrControl
-
-Control TDR.
-
-
 #### - SuspendTime
 
 Time period to suspend.
+
+
+#### - TdrControl
+
+Control TDR.
 
 
 ## -see-also

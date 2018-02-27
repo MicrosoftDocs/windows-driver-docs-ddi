@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e5b7b014-3e06-49f2-8ccd-45d74592e349
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , D, F, G, K, KsFilterFactoryGetDevice, KsFilterFactoryGetDevice function [Streaming Media Devices], a, avfunc_1e2ec536-69a1-4606-9d99-ebdebd25c89a.xml, c, e, i, ks/KsFilterFactoryGetDevice, l, o, r, s, stream.ksfilterfactorygetdevice, t, v, y"
+ms.keywords: KsFilterFactoryGetDevice, KsFilterFactoryGetDevice function [Streaming Media Devices], avfunc_1e2ec536-69a1-4606-9d99-ebdebd25c89a.xml, ks/KsFilterFactoryGetDevice, stream.ksfilterfactorygetdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,11 @@ For more information about the AVStream object hierarchy, see  <a href="https://
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
-
-
-
 <a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>
+
+
+
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 

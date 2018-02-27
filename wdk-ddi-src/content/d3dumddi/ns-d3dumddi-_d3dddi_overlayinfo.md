@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e2732ea9-4fd6-416d-8fb0-1ccf1d1ad0df
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 3, A, D, D3DDDI_OVERLAYINFO, D3DDDI_OVERLAYINFO structure [Display Devices], D3D_other_Structs_b9046736-50b8-46b1-92c9-5d879ee7c64d.xml, E, F, I, L, N, O, R, V, Y, _, _D3DDDI_OVERLAYINFO, d3dumddi/D3DDDI_OVERLAYINFO, display.d3dddi_overlayinfo"
+ms.keywords: D3DDDI_OVERLAYINFO, D3DDDI_OVERLAYINFO structure [Display Devices], D3D_other_Structs_b9046736-50b8-46b1-92c9-5d879ee7c64d.xml, _D3DDDI_OVERLAYINFO, d3dumddi/D3DDDI_OVERLAYINFO, display.d3dddi_overlayinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -131,7 +131,7 @@ The <b>SrcColorKey</b>, <b>SrcColorKeyRange</b>, <b>DstColorKey</b>, and <b>DstC
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlay.md">UpdateOverlay</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfoflags.md">D3DDDI_OVERLAYINFOFLAGS</a>
 
 
 
@@ -147,11 +147,11 @@ The <b>SrcColorKey</b>, <b>SrcColorKeyRange</b>, <b>DstColorKey</b>, and <b>DstC
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfoflags.md">D3DDDI_OVERLAYINFOFLAGS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlay.md">UpdateOverlay</a>
 
 
 

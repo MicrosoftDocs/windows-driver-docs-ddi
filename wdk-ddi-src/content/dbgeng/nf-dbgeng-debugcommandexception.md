@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6DC67840-B985-45D0-8E81-671C3DC1EBC2
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, D, DebugCommandException, DebugCommandException function [Windows Debugging], E, a, b, c, d, dbgeng/DebugCommandException, debugger.debugcommandexception, e, g, i, m, n, o, p, t, u, x"
+ms.keywords: DebugCommandException, DebugCommandException function [Windows Debugging], dbgeng/DebugCommandException, debugger.debugcommandexception
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

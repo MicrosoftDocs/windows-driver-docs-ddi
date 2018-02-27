@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B920E5D1-D565-4626-A15E-8500DFFBC9FF
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, C, G, GetAt method [Print Devices], GetAt method [Print Devices], IPrintJobCollection interface, GetAt,IPrintJobCollection.GetAt, I, IPrintJobCollection, IPrintJobCollection interface [Print Devices], GetAt method, IPrintJobCollection::GetAt, J, P, b, c, e, i, l, n, o, print.iprintjobcollection_getat, printerextension/IPrintJobCollection::GetAt, r, t"
+ms.keywords: GetAt method [Print Devices], GetAt method [Print Devices], IPrintJobCollection interface, GetAt,IPrintJobCollection.GetAt, IPrintJobCollection, IPrintJobCollection interface [Print Devices], GetAt method, IPrintJobCollection::GetAt, print.iprintjobcollection_getat, printerextension/IPrintJobCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -90,11 +90,11 @@ Returns an <b>HRESULT</b> value. If the method call was not successful, it retur
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintjobcollection.md">IPrintJobCollection</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a>
 
 
 

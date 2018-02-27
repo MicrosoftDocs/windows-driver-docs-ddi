@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 93b155eb-0254-441f-b01f-3da8eb7376a5
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, I, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvInitializeWia method, IWiaMiniDrv::drvInitializeWia, M, MiniDrv_04485b20-ff45-4cf7-a861-841bf03befcf.xml, W, a, d, drvInitializeWia method [Imaging Devices], drvInitializeWia method [Imaging Devices], IWiaMiniDrv interface, drvInitializeWia,IWiaMiniDrv.drvInitializeWia, e, i, image.iwiaminidrv_drvinitializewia, l, n, r, t, v, wiamindr_lh/IWiaMiniDrv::drvInitializeWia, z"
+ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvInitializeWia method, IWiaMiniDrv::drvInitializeWia, MiniDrv_04485b20-ff45-4cf7-a861-841bf03befcf.xml, drvInitializeWia method [Imaging Devices], drvInitializeWia method [Imaging Devices], IWiaMiniDrv interface, drvInitializeWia,IWiaMiniDrv.drvInitializeWia, image.iwiaminidrv_drvinitializewia, wiamindr_lh/IWiaMiniDrv::drvInitializeWia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -123,16 +123,6 @@ HRESULT drvInitializeWia(
 
 
 
-#### - pWiasContext [in]
-
-Pointer to a WIA item context.
-
-
-#### - lFlags [in]
-
-Is reserved. Set to zero.
-
-
 #### - bstrDeviceID [in]
 
 Specifies a string containing the device's unique identifier.
@@ -143,14 +133,29 @@ Specifies a string containing the device's unique identifier.
 Specifies a string containing the full name of the root item.
 
 
-#### - pStiDevice [in, optional]
+#### - lFlags [in]
 
-Points to an <a href="https://msdn.microsoft.com/b026fb74-9ce6-4d4e-8a5b-402731904064">IStiDevice COM Interface</a>.
+Is reserved. Set to zero.
 
 
 #### - pIUnknownOuter [in, optional]
 
 (Optional) Points to a memory location that can receive the address of an <b>IUnknown</b> interface. 
+
+
+#### - pStiDevice [in, optional]
+
+Points to an <a href="https://msdn.microsoft.com/b026fb74-9ce6-4d4e-8a5b-402731904064">IStiDevice COM Interface</a>.
+
+
+#### - pWiasContext [in]
+
+Pointer to a WIA item context.
+
+
+#### - plDevErrVal [out]
+
+Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 
 #### - ppIDrvItemRoot [out, optional]
@@ -161,11 +166,6 @@ Points to a memory location that will receive the address of a <a href="..\wiami
 #### - ppIUnknownInner [out, optional]
 
 (Optional) Points to a memory location that can receive the address of an <b>IUnknown</b> interface. If the minidriver has functionality that is not accessible through the <b>IWiaMiniDrv</b> interface, the vendor can create a separate interface on the minidriver. This parameter provides access to that functionality.
-
-
-#### - plDevErrVal [out]
-
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 
 ## -returns
@@ -194,11 +194,7 @@ For example, if the user right-clicks a WIA scanner icon in <b>My Computer</b>, 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543856">IWiaDrvItem::AddItemToFolder</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545010">IWiaMiniDrv::drvUnInitializeWia</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
 
 
@@ -206,7 +202,11 @@ For example, if the user right-clicks a WIA scanner icon in <b>My Computer</b>, 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543856">IWiaDrvItem::AddItemToFolder</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545010">IWiaMiniDrv::drvUnInitializeWia</a>
 
 
 

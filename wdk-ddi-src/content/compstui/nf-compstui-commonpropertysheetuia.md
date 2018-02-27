@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 63d88589-455a-4923-bb3a-61d977732603
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, C, CommonPropertySheetUI, CommonPropertySheetUI function [Print Devices], CommonPropertySheetUIA, CommonPropertySheetUIW, I, P, S, U, compstui/CommonPropertySheetUI, cpsuifnc_547a4235-9e08-43fc-acae-b30091032ab3.xml, e, h, m, n, o, p, print.commonpropertysheetui, r, t, y"
+ms.keywords: CommonPropertySheetUI, CommonPropertySheetUI function [Print Devices], CommonPropertySheetUIA, CommonPropertySheetUIW, compstui/CommonPropertySheetUI, cpsuifnc_547a4235-9e08-43fc-acae-b30091032ab3.xml, print.commonpropertysheetui
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

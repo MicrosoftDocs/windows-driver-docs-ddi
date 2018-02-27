@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: C31681A0-17C6-4255-9068-7486A2101AB7
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, C, CreateRasterizer method [Print Devices], CreateRasterizer method [Print Devices], IXpsRasterizationFactory2 interface, CreateRasterizer,IXpsRasterizationFactory2.CreateRasterizer, F, I, IXpsRasterizationFactory2, IXpsRasterizationFactory2 interface [Print Devices], CreateRasterizer method, IXpsRasterizationFactory2::CreateRasterizer, R, X, a, c, e, i, n, o, p, print.ixpsrasterizationfactory2_createrasterizer, r, s, t, xpsrassvc/IXpsRasterizationFactory2::CreateRasterizer, y, z"
+ms.keywords: CreateRasterizer method [Print Devices], CreateRasterizer method [Print Devices], IXpsRasterizationFactory2 interface, CreateRasterizer,IXpsRasterizationFactory2.CreateRasterizer, IXpsRasterizationFactory2, IXpsRasterizationFactory2 interface [Print Devices], CreateRasterizer method, IXpsRasterizationFactory2::CreateRasterizer, print.ixpsrasterizationfactory2_createrasterizer, xpsrassvc/IXpsRasterizationFactory2::CreateRasterizer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -164,6 +164,12 @@ The default background color is XPSRAS_BACKGROUND_COLOR_TRANSPARENT.
 
 
 
+#### - **ppIXpsRasterizer [out, optional]
+
+This parameter points to a location into which the method writes a pointer to the <a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizer.md">IXpsRasterizer</a> interface of the newly created XPS rasterizer object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
+
+
+
 #### - *xpsPage [in, optional]
 
 Pointer to an <b>IXpsOMPage</b> object that represents the XPS fixed page to render. This object encapsulates a FixedPage section from an XPS document. 
@@ -177,12 +183,6 @@ Dots per inch which is applied to x dimension of the rasterized output bitmap. T
 #### - dpiY [in]
 
 Dots per inch which is applied to y dimension of the rasterized output bitmap.
-
-
-#### - **ppIXpsRasterizer [out, optional]
-
-This parameter points to a location into which the method writes a pointer to the <a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizer.md">IXpsRasterizer</a> interface of the newly created XPS rasterizer object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
-
 
 
 ## -returns

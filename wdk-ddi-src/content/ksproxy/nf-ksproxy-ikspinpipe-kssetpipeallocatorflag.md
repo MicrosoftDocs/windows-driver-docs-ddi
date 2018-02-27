@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0587E952-8B51-44C3-8E23-2981C00ADB43
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, F, I, IKsPinPipe, IKsPinPipe interface [Streaming Media Devices], KsSetPipeAllocatorFlag method, IKsPinPipe::KsSetPipeAllocatorFlag, K, KsSetPipeAllocatorFlag method [Streaming Media Devices], KsSetPipeAllocatorFlag method [Streaming Media Devices], IKsPinPipe interface, KsSetPipeAllocatorFlag,IKsPinPipe.KsSetPipeAllocatorFlag, P, S, a, c, e, g, i, ksproxy/IKsPinPipe::KsSetPipeAllocatorFlag, l, n, o, p, r, s, stream.ikspinpipe_kssetpipeallocatorflag, t"
+ms.keywords: IKsPinPipe, IKsPinPipe interface [Streaming Media Devices], KsSetPipeAllocatorFlag method, IKsPinPipe::KsSetPipeAllocatorFlag, KsSetPipeAllocatorFlag method [Streaming Media Devices], KsSetPipeAllocatorFlag method [Streaming Media Devices], IKsPinPipe interface, KsSetPipeAllocatorFlag,IKsPinPipe.KsSetPipeAllocatorFlag, ksproxy/IKsPinPipe::KsSetPipeAllocatorFlag, stream.ikspinpipe_kssetpipeallocatorflag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

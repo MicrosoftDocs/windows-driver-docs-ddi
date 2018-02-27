@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c56d767f-598c-46b8-bab1-ce4de0780076
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , D, I, IoReadDiskSignature, IoReadDiskSignature routine [Storage Devices], R, S, a, d, e, g, i, k, n, ntddk/IoReadDiskSignature, o, r, rtns-disk_4bd8bcea-c43a-45ea-a074-013b8eb30e01.xml, s, storage.ioreaddisksignature, t, u"
+ms.keywords: IoReadDiskSignature, IoReadDiskSignature routine [Storage Devices], ntddk/IoReadDiskSignature, rtns-disk_4bd8bcea-c43a-45ea-a074-013b8eb30e01.xml, storage.ioreaddisksignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

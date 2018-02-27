@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: C50F45EC-433C-421D-BD02-4C86CB44D5A4
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PST_PARAMETER_DATA, ,, A, D, E, M, P, PST_PARAMETER_DATA, PST_PARAMETER_DATA structure pointer [Storage Devices], R, S, ST_PARAMETER_DATA, ST_PARAMETER_DATA structure [Storage Devices], T, _, scsi/PST_PARAMETER_DATA, scsi/ST_PARAMETER_DATA, storage.st_parameter_data"
+ms.keywords: "*PST_PARAMETER_DATA, PST_PARAMETER_DATA, PST_PARAMETER_DATA structure pointer [Storage Devices], ST_PARAMETER_DATA, ST_PARAMETER_DATA structure [Storage Devices], scsi/PST_PARAMETER_DATA, scsi/ST_PARAMETER_DATA, storage.st_parameter_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

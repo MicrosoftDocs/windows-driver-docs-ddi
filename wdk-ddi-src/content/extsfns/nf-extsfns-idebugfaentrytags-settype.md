@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: F507864B-B20C-4F71-B068-802780243106
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, D, E, F, I, IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], SetType method, IDebugFAEntryTags::SetType, S, SetType method [Windows Debugging], SetType method [Windows Debugging], IDebugFAEntryTags interface, SetType,IDebugFAEntryTags.SetType, T, a, b, debugger.idebugfaentrytags_settype, e, extsfns/IDebugFAEntryTags::SetType, g, n, p, r, s, t, u, y"
+ms.keywords: IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], SetType method, IDebugFAEntryTags::SetType, SetType method [Windows Debugging], SetType method [Windows Debugging], IDebugFAEntryTags interface, SetType,IDebugFAEntryTags.SetType, debugger.idebugfaentrytags_settype, extsfns/IDebugFAEntryTags::SetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -104,19 +104,19 @@ The data types <b>DEBUG_FA_ENTRY_ANSI_STRING</b> and <b>DEBUG_FA_ENTRY_EXTENSION
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
-
-
-
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 
 
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
 
 
 
 <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
+
+
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 

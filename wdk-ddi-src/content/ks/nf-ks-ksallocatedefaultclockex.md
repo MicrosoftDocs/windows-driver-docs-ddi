@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cad04f59-5312-4241-9524-aeabc27df92d
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, C, D, E, K, KsAllocateDefaultClockEx, KsAllocateDefaultClockEx function [Streaming Media Devices], a, c, e, f, k, ks/KsAllocateDefaultClockEx, ksfunc_bace76db-468b-4d8e-bbc4-5a64f238308f.xml, l, o, s, stream.ksallocatedefaultclockex, t, u, x"
+ms.keywords: KsAllocateDefaultClockEx, KsAllocateDefaultClockEx function [Streaming Media Devices], ks/KsAllocateDefaultClockEx, ksfunc_bace76db-468b-4d8e-bbc4-5a64f238308f.xml, stream.ksallocatedefaultclockex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,11 +129,15 @@ The internal DefaultClock.ReferenceCount element is initialized to one by the <a
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a>
+<a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a>
 
 
 
@@ -141,11 +145,7 @@ The internal DefaultClock.ReferenceCount element is initialized to one by the <a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a>
-
-
-
-<a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a>
 
 
 

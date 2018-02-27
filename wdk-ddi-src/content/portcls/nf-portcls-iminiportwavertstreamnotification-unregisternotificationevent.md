@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 5b264784-7680-4c3b-9fc7-0609c53b53a2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, E, I, IMiniportWaveRTStreamNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], UnregisterNotificationEvent method, IMiniportWaveRTStreamNotification::UnregisterNotificationEvent, M, N, R, S, T, U, UnregisterNotificationEvent method [Audio Devices], UnregisterNotificationEvent method [Audio Devices], IMiniportWaveRTStreamNotification interface, UnregisterNotificationEvent,IMiniportWaveRTStreamNotification.UnregisterNotificationEvent, W, a, audio.iminiportwavertstreamnotification_unregisternotificationevent, audmp-routines_db635e04-50ae-4aed-b5a5-dfb33f14d153.xml, c, e, f, g, i, m, n, o, p, portcls/IMiniportWaveRTStreamNotification::UnregisterNotificationEvent, r, s, t, v"
+ms.keywords: IMiniportWaveRTStreamNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], UnregisterNotificationEvent method, IMiniportWaveRTStreamNotification::UnregisterNotificationEvent, UnregisterNotificationEvent method [Audio Devices], UnregisterNotificationEvent method [Audio Devices], IMiniportWaveRTStreamNotification interface, UnregisterNotificationEvent,IMiniportWaveRTStreamNotification.UnregisterNotificationEvent, audio.iminiportwavertstreamnotification_unregisternotificationevent, audmp-routines_db635e04-50ae-4aed-b5a5-dfb33f14d153.xml, portcls/IMiniportWaveRTStreamNotification::UnregisterNotificationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,11 +92,11 @@ The port driver calls this method in response to a <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537387">KSPROPERTY_RTAUDIO_UNREGISTER_NOTIFICATION_EVENT</a>
+
+
+
+<a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
 
 
 

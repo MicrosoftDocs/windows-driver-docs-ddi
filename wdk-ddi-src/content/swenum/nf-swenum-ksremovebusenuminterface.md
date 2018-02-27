@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4b1da622-9a48-4c18-9eee-a99830bd26af
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , B, E, I, K, KsRemoveBusEnumInterface, KsRemoveBusEnumInterface function [Streaming Media Devices], R, a, c, e, f, ksfunc_cf6401bc-80bf-4678-80f9-89c23b333bdc.xml, m, n, o, r, s, stream.ksremovebusenuminterface, swenum/KsRemoveBusEnumInterface, t, u, v"
+ms.keywords: KsRemoveBusEnumInterface, KsRemoveBusEnumInterface function [Streaming Media Devices], ksfunc_cf6401bc-80bf-4678-80f9-89c23b333bdc.xml, stream.ksremovebusenuminterface, swenum/KsRemoveBusEnumInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

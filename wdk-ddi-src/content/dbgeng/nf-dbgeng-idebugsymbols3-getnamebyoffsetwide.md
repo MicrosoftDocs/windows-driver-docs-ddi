@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 45a041c9-029a-4fa1-91c6-562e56a30b3e
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 3, :, B, D, G, GetNameByOffsetWide method [Windows Debugging], GetNameByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, GetNameByOffsetWide,IDebugSymbols3.GetNameByOffsetWide, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetNameByOffsetWide method, IDebugSymbols3::GetNameByOffsetWide, N, O, S, W, a, b, d, dbgeng/IDebugSymbols3::GetNameByOffsetWide, debugger.getnamebyoffsetwide, e, f, g, i, l, m, o, s, t, u, y"
+ms.keywords: GetNameByOffsetWide method [Windows Debugging], GetNameByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, GetNameByOffsetWide,IDebugSymbols3.GetNameByOffsetWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetNameByOffsetWide method, IDebugSymbols3::GetNameByOffsetWide, dbgeng/IDebugSymbols3::GetNameByOffsetWide, debugger.getnamebyoffsetwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -157,11 +157,11 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547204">GetNearNameByOffset</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548035">GetOffsetByName</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547204">GetNearNameByOffset</a>
 
 
 

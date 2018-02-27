@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 26f5e98d-0709-403a-abcf-776c117d4f38
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PMOUNTDEV_NAME, ,, A, D, E, M, MOUNTDEV_NAME, MOUNTDEV_NAME structure [Storage Devices], N, O, P, PMOUNTDEV_NAME, PMOUNTDEV_NAME structure pointer [Storage Devices], T, U, V, _, _MOUNTDEV_NAME, mountmgr/MOUNTDEV_NAME, mountmgr/PMOUNTDEV_NAME, storage.mountdev_name, structs-mntmgr_b7eec4f5-e4fc-4931-82e5-c6ac5cd4b48f.xml"
+ms.keywords: "*PMOUNTDEV_NAME, MOUNTDEV_NAME, MOUNTDEV_NAME structure [Storage Devices], PMOUNTDEV_NAME, PMOUNTDEV_NAME structure pointer [Storage Devices], _MOUNTDEV_NAME, mountmgr/MOUNTDEV_NAME, mountmgr/PMOUNTDEV_NAME, storage.mountdev_name, structs-mntmgr_b7eec4f5-e4fc-4931-82e5-c6ac5cd4b48f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 60FE4E6C-38D4-438F-983B-7336926F6FE2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , D, M, N, NdisMRegisterWdiMiniportDriver, NdisMRegisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], R, W, d, dot11wdi/NdisMRegisterWdiMiniportDriver, e, g, i, n, netvista.ndismregisterwdiminiportdriver, o, p, r, s, t, v"
+ms.keywords: NdisMRegisterWdiMiniportDriver, NdisMRegisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], dot11wdi/NdisMRegisterWdiMiniportDriver, netvista.ndismregisterwdiminiportdriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

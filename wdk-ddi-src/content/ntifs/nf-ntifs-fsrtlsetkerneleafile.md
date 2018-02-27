@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E5EA2E40-2CC3-4C7B-8BCC-4793F76ECBAD
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , E, F, FsRtlSetKernelEaFile, FsRtlSetKernelEaFile routine [Installable File System Drivers], K, R, S, a, e, i, ifsk.fsrtlsetkerneleafile, l, n, ntifs/FsRtlSetKernelEaFile, r, s, t"
+ms.keywords: FsRtlSetKernelEaFile, FsRtlSetKernelEaFile routine [Installable File System Drivers], ifsk.fsrtlsetkerneleafile, ntifs/FsRtlSetKernelEaFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

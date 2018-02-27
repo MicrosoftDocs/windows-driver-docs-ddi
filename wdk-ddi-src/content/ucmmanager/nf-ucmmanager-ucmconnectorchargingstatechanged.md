@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A645BFE0-4B7F-416F-9096-596ADAA37951
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, S, U, UcmConnectorChargingStateChanged, UcmConnectorChargingStateChanged method [Buses], a, buses.ucmconnectorchargingstatechanged, c, d, e, g, h, i, m, n, o, r, t, ucmmanager/UcmConnectorChargingStateChanged"
+ms.keywords: UcmConnectorChargingStateChanged, UcmConnectorChargingStateChanged method [Buses], buses.ucmconnectorchargingstatechanged, ucmmanager/UcmConnectorChargingStateChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

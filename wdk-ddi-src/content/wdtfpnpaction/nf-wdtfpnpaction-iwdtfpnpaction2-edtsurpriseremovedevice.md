@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 96bc080b-1ee2-4a32-be98-c58f6649e120
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, D, E, EDTSurpriseRemoveDevice method [Windows Device Testing Framework], EDTSurpriseRemoveDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, EDTSurpriseRemoveDevice,IWDTFPNPAction2.EDTSurpriseRemoveDevice, F, I, IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], EDTSurpriseRemoveDevice method, IWDTFPNPAction2::EDTSurpriseRemoveDevice, Microsoft.WDTF.IWDTFPNPAction2.EDTSurpriseRemoveDevice, Microsoft::WDTF::IWDTFPNPAction2::EDTSurpriseRemoveDevice, N, P, R, S, T, W, c, dtf.iwdtfpnpaction2_edtsurpriseremovedevice, e, i, m, n, o, p, r, s, t, u, v, wdtfpnpaction/IWDTFPNPAction2::EDTSurpriseRemoveDevice"
+ms.keywords: EDTSurpriseRemoveDevice method [Windows Device Testing Framework], EDTSurpriseRemoveDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, EDTSurpriseRemoveDevice,IWDTFPNPAction2.EDTSurpriseRemoveDevice, IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], EDTSurpriseRemoveDevice method, IWDTFPNPAction2::EDTSurpriseRemoveDevice, Microsoft.WDTF.IWDTFPNPAction2.EDTSurpriseRemoveDevice, Microsoft::WDTF::IWDTFPNPAction2::EDTSurpriseRemoveDevice, dtf.iwdtfpnpaction2_edtsurpriseremovedevice, wdtfpnpaction/IWDTFPNPAction2::EDTSurpriseRemoveDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

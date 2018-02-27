@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A6FFC14B-0736-425F-A923-DFF54494887C
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, A, D, E, F, I, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], SetDeviceFormat method, IMiniportAudioEngineNode::SetDeviceFormat, M, N, S, SetDeviceFormat method [Audio Devices], SetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface, SetDeviceFormat,IMiniportAudioEngineNode.SetDeviceFormat, a, audio.iminiportaudioenginenode_setdeviceformat, c, d, e, g, i, m, n, o, p, portcls/IMiniportAudioEngineNode::SetDeviceFormat, r, t, u, v"
+ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], SetDeviceFormat method, IMiniportAudioEngineNode::SetDeviceFormat, SetDeviceFormat method [Audio Devices], SetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface, SetDeviceFormat,IMiniportAudioEngineNode.SetDeviceFormat, audio.iminiportaudioenginenode_setdeviceformat, portcls/IMiniportAudioEngineNode::SetDeviceFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -97,11 +97,11 @@ returns an appropriate error code.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a>
 
 
 

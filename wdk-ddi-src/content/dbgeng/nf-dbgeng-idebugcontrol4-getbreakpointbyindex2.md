@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3487addb-e196-4295-95fc-0590802e766a
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, 4, :, B, C, D, G, GetBreakpointByIndex2 method [Windows Debugging], GetBreakpointByIndex2 method [Windows Debugging], IDebugControl4 interface, GetBreakpointByIndex2,IDebugControl4.GetBreakpointByIndex2, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetBreakpointByIndex2 method, IDebugControl4::GetBreakpointByIndex2, a, b, d, dbgeng/IDebugControl4::GetBreakpointByIndex2, debugger.getbreakpointbyindex2, e, g, i, k, l, n, o, p, r, t, u, x, y"
+ms.keywords: GetBreakpointByIndex2 method [Windows Debugging], GetBreakpointByIndex2 method [Windows Debugging], IDebugControl4 interface, GetBreakpointByIndex2,IDebugControl4.GetBreakpointByIndex2, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetBreakpointByIndex2 method, IDebugControl4::GetBreakpointByIndex2, dbgeng/IDebugControl4::GetBreakpointByIndex2, debugger.getbreakpointbyindex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: d508c9de-5fae-47c1-88fa-df9048662419
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , B, D, DbgBreakPointWithStatus, DbgBreakPointWithStatus routine [Driver Development Tools], DebugFns_d958e007-b135-46b0-a407-1843da2e61c0.xml, P, S, W, a, b, devtest.dbgbreakpointwithstatus, e, g, h, i, k, n, ntddk/DbgBreakPointWithStatus, o, r, s, t, u"
+ms.keywords: DbgBreakPointWithStatus, DbgBreakPointWithStatus routine [Driver Development Tools], DebugFns_d958e007-b135-46b0-a407-1843da2e61c0.xml, devtest.dbgbreakpointwithstatus, ntddk/DbgBreakPointWithStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

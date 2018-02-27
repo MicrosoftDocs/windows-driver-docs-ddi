@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c9e204db-f8fc-42e7-9a1b-f08099147ce7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , DFUsbRef_fff1d755-32af-48d1-b9d6-faa8b118fa8d.xml, E, G, I, U, W, WdfUsbInterfaceGetEndpointInformation, WdfUsbInterfaceGetEndpointInformation method, a, b, c, d, e, f, i, kmdf.wdfusbinterfacegetendpointinformation, m, n, o, p, r, s, t, wdf.wdfusbinterfacegetendpointinformation, wdfusb/WdfUsbInterfaceGetEndpointInformation"
+ms.keywords: DFUsbRef_fff1d755-32af-48d1-b9d6-faa8b118fa8d.xml, WdfUsbInterfaceGetEndpointInformation, WdfUsbInterfaceGetEndpointInformation method, kmdf.wdfusbinterfacegetendpointinformation, wdf.wdfusbinterfacegetendpointinformation, wdfusb/WdfUsbInterfaceGetEndpointInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -157,7 +157,7 @@ for (i = 0; i &lt; numEndpoints; i++){
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumendpoints.md">WdfUsbInterfaceGetNumEndpoints</a>
 
 
 
@@ -165,7 +165,7 @@ for (i = 0; i &lt; numEndpoints; i++){
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumendpoints.md">WdfUsbInterfaceGetNumEndpoints</a>
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a>
 
 
 

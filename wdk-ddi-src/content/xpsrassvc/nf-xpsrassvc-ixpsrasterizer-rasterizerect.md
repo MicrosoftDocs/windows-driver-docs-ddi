@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: abf8dfc7-7921-4e9c-a338-ec783a01fca7
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, I, IXpsRasterizer, IXpsRasterizer interface [Print Devices], RasterizeRect method, IXpsRasterizer::RasterizeRect, R, RasterizeRect method [Print Devices], RasterizeRect method [Print Devices], IXpsRasterizer interface, RasterizeRect,IXpsRasterizer.RasterizeRect, X, a, c, e, i, p, print.ixpsrasterizer_rasterizerect, print_xpsrast_de9e1518-8388-4cc4-9787-8774996221bf.xml, r, s, t, xpsrassvc/IXpsRasterizer::RasterizeRect, z"
+ms.keywords: IXpsRasterizer, IXpsRasterizer interface [Print Devices], RasterizeRect method, IXpsRasterizer::RasterizeRect, RasterizeRect method [Print Devices], RasterizeRect method [Print Devices], IXpsRasterizer interface, RasterizeRect,IXpsRasterizer.RasterizeRect, print.ixpsrasterizer_rasterizerect, print_xpsrast_de9e1518-8388-4cc4-9787-8774996221bf.xml, xpsrassvc/IXpsRasterizer::RasterizeRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -181,11 +181,11 @@ For a code example that calls the <code>RasterizeRect</code> method, see the XPS
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556366">IXpsRasterizer::SetMinimalLineWidth</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
 
 
 

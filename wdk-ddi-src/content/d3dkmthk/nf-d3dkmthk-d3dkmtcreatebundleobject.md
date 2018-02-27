@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c4d62ccf-606b-457e-a239-1b5189e42657
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 3, B, C, D, D3DKMTCreateBundleObject, D3DKMTCreateBundleObject method [Display Devices], K, M, O, T, a, b, c, d, d3dkmthk/D3DKMTCreateBundleObject, display.d3dkmtcreatebundleobject, e, j, l, n, r, t, u"
+ms.keywords: D3DKMTCreateBundleObject, D3DKMTCreateBundleObject method [Display Devices], d3dkmthk/D3DKMTCreateBundleObject, display.d3dkmtcreatebundleobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f412b665-3489-4200-8fb8-7b6eb564ba98
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 0, 1, 3, A, C, D, D3D10_DDI_RESOURCE_USAGE, D3D10_DDI_RESOURCE_USAGE enumeration [Display Devices], D3D10_DDI_USAGE_DEFAULT, D3D10_DDI_USAGE_DYNAMIC, D3D10_DDI_USAGE_IMMUTABLE, D3D10_DDI_USAGE_STAGING, E, G, I, O, R, S, U, UMDisplayDriver_Dx10param_Structs_1d4cddbd-58a0-45b3-b7a9-8b55654c37a7.xml, _, d3d10umddi/D3D10_DDI_RESOURCE_USAGE, d3d10umddi/D3D10_DDI_USAGE_DEFAULT, d3d10umddi/D3D10_DDI_USAGE_DYNAMIC, d3d10umddi/D3D10_DDI_USAGE_IMMUTABLE, d3d10umddi/D3D10_DDI_USAGE_STAGING, display.d3d10_ddi_resource_usage"
+ms.keywords: D3D10_DDI_RESOURCE_USAGE, D3D10_DDI_RESOURCE_USAGE enumeration [Display Devices], D3D10_DDI_USAGE_DEFAULT, D3D10_DDI_USAGE_DYNAMIC, D3D10_DDI_USAGE_IMMUTABLE, D3D10_DDI_USAGE_STAGING, UMDisplayDriver_Dx10param_Structs_1d4cddbd-58a0-45b3-b7a9-8b55654c37a7.xml, d3d10umddi/D3D10_DDI_RESOURCE_USAGE, d3d10umddi/D3D10_DDI_USAGE_DEFAULT, d3d10umddi/D3D10_DDI_USAGE_DYNAMIC, d3d10umddi/D3D10_DDI_USAGE_IMMUTABLE, d3d10umddi/D3D10_DDI_USAGE_STAGING, display.d3d10_ddi_resource_usage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -92,15 +92,15 @@ The resource is a staging resource, which the user-mode display driver should al
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a>
 
 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourceupdatesubresourceup.md">ResourceUpdateSubresourceUP</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 25e3e430-abce-4d14-a336-4cb32a4fe5df
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PKSPROPERTY_BOUNDS_LONGLONG, ,, B, D, E, G, K, KSPROPERTY_BOUNDS_LONGLONG, KSPROPERTY_BOUNDS_LONGLONG union [Streaming Media Devices], L, N, O, P, PKSPROPERTY_BOUNDS_LONGLONG, PKSPROPERTY_BOUNDS_LONGLONG union pointer [Streaming Media Devices], R, S, T, U, Y, _, ks-struct_553b35b1-55c4-404d-af6b-a9fb2bbfb6b9.xml, ks/KSPROPERTY_BOUNDS_LONGLONG, ks/PKSPROPERTY_BOUNDS_LONGLONG, stream.ksproperty_bounds_longlong"
+ms.keywords: "*PKSPROPERTY_BOUNDS_LONGLONG, KSPROPERTY_BOUNDS_LONGLONG, KSPROPERTY_BOUNDS_LONGLONG union [Streaming Media Devices], PKSPROPERTY_BOUNDS_LONGLONG, PKSPROPERTY_BOUNDS_LONGLONG union pointer [Streaming Media Devices], ks-struct_553b35b1-55c4-404d-af6b-a9fb2bbfb6b9.xml, ks/KSPROPERTY_BOUNDS_LONGLONG, ks/PKSPROPERTY_BOUNDS_LONGLONG, stream.ksproperty_bounds_longlong"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,24 +86,24 @@ typedef union {
 
 
 
-#### - SignedMinimum
-
-Specifies a minimum bound as a signed 64-bit value.
-
-
 #### - SignedMaximum
 
 Specifies a maximum bound as a signed 64-bit value.
 
 
-#### - UnsignedMinimum
+#### - SignedMinimum
 
-Specifies a minimum bound as an unsigned 64-bit value.
+Specifies a minimum bound as a signed 64-bit value.
 
 
 #### - UnsignedMaximum
 
 Specifies a maximum bound as an unsigned 64-bit value.
+
+
+#### - UnsignedMinimum
+
+Specifies a minimum bound as an unsigned 64-bit value.
 
 
 ## -remarks

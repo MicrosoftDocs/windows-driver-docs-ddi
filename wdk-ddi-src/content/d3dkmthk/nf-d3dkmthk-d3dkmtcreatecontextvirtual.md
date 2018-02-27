@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1E95228E-7513-46D2-8402-28CA6D26F3EB
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 3, C, D, D3DKMTCreateContextVirtual, D3DKMTCreateContextVirtual function [Display Devices], K, M, T, V, a, d3dkmthk/D3DKMTCreateContextVirtual, display.d3dkmtcreatecontextvirtual, e, i, l, n, o, r, t, u, x"
+ms.keywords: D3DKMTCreateContextVirtual, D3DKMTCreateContextVirtual function [Display Devices], d3dkmthk/D3DKMTCreateContextVirtual, display.d3dkmtcreatecontextvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

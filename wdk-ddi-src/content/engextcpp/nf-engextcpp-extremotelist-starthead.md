@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d7d9163b-54bb-4753-96a3-f92eddbe25f5
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, E, EngExtCpp_Ref_cb3b3efb-2dd6-4319-85e1-2048cfae9b7c.xml, ExtRemoteList, ExtRemoteList class [Windows Debugging], StartHead method, ExtRemoteList::StartHead, H, L, R, S, StartHead method [Windows Debugging], StartHead method [Windows Debugging], ExtRemoteList class, StartHead,ExtRemoteList.StartHead, a, d, debugger.extremotelist_starthead, e, i, m, o, r, s, t, x"
+ms.keywords: EngExtCpp_Ref_cb3b3efb-2dd6-4319-85e1-2048cfae9b7c.xml, ExtRemoteList, ExtRemoteList class [Windows Debugging], StartHead method, ExtRemoteList::StartHead, StartHead method [Windows Debugging], StartHead method [Windows Debugging], ExtRemoteList class, StartHead,ExtRemoteList.StartHead, debugger.extremotelist_starthead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

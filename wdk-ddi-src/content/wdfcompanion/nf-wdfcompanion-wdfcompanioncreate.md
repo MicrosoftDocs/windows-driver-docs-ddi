@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 78b9eccf-34ef-40ae-b7fc-6fa8400f8c2a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , C, W, WdfCompanionCreate, WdfCompanionCreate method, a, d, e, f, i, m, n, o, p, r, t, wdf.wdfcompanioncreate, wdfcompanion/WdfCompanionCreate"
+ms.keywords: WdfCompanionCreate, WdfCompanionCreate method, wdf.wdfcompanioncreate, wdfcompanion/WdfCompanionCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

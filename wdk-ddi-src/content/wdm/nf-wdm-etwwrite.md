@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: b9d4f6da-694d-4737-9cbe-3666e693c0a2
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , E, EtwWrite, EtwWrite function [Driver Development Tools], W, devtest.etwwrite, e, etw_km_af581b5c-6124-4bb0-8756-c4a0009e7a00.xml, i, r, t, w, wdm/EtwWrite"
+ms.keywords: EtwWrite, EtwWrite function [Driver Development Tools], devtest.etwwrite, etw_km_af581b5c-6124-4bb0-8756-c4a0009e7a00.xml, wdm/EtwWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -189,7 +189,23 @@ You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-etwregister.md">EtwRegister</a>
+
+
+
+<a href="..\wdm\nf-wdm-etwwriteex.md">EtwWriteEx</a>
+
+
+
 <a href="..\wdm\nf-wdm-etwwritetransfer.md">EtwWriteTransfer</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=70404">EventDataDescCreate</a>
+
+
+
+<a href="..\wdm\nf-wdm-etwwritestring.md">EtwWriteString</a>
 
 
 
@@ -201,23 +217,7 @@ You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC
 
 
 
-<a href="..\wdm\nf-wdm-etwwritestring.md">EtwWriteString</a>
-
-
-
-<a href="..\wdm\nf-wdm-etwregister.md">EtwRegister</a>
-
-
-
-<a href="..\wdm\nf-wdm-etwwriteex.md">EtwWriteEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-etweventenabled.md">EtwEventEnabled</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=70404">EventDataDescCreate</a>
 
 
 

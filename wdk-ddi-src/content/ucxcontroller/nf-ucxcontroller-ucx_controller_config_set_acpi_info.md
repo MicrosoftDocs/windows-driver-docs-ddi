@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D060CE9D-B23A-4E6C-9CC3-1DDAB0583FF8
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, C, E, F, G, I, L, N, O, P, R, S, T, U, UCX_CONTROLLER_CONFIG_SET_ACPI_INFO, UCX_CONTROLLER_CONFIG_SET_ACPI_INFO function [Buses], X, _, buses._ucx_controller_config_set_acpi_info, ucxcontroller/UCX_CONTROLLER_CONFIG_SET_ACPI_INFO"
+ms.keywords: UCX_CONTROLLER_CONFIG_SET_ACPI_INFO, UCX_CONTROLLER_CONFIG_SET_ACPI_INFO function [Buses], buses._ucx_controller_config_set_acpi_info, ucxcontroller/UCX_CONTROLLER_CONFIG_SET_ACPI_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

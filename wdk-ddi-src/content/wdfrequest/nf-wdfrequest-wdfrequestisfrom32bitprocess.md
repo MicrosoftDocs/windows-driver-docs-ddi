@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0d55c1e0-0458-414c-afd6-2fa2576ffa4a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , 2, 3, B, DFRequestObjectRef_d700883f-10dc-428b-abbf-7d257d2bd62d.xml, F, I, P, R, W, WdfRequestIsFrom32BitProcess, WdfRequestIsFrom32BitProcess method, c, d, e, f, i, kmdf.wdfrequestisfrom32bitprocess, m, o, q, r, s, t, u, wdf.wdfrequestisfrom32bitprocess, wdfrequest/WdfRequestIsFrom32BitProcess"
+ms.keywords: DFRequestObjectRef_d700883f-10dc-428b-abbf-7d257d2bd62d.xml, WdfRequestIsFrom32BitProcess, WdfRequestIsFrom32BitProcess method, kmdf.wdfrequestisfrom32bitprocess, wdf.wdfrequestisfrom32bitprocess, wdfrequest/WdfRequestIsFrom32BitProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

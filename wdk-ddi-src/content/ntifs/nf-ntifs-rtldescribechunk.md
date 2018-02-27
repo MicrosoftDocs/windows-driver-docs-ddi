@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a59899e7-baa0-476b-b65e-1d464a14b811
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, D, R, RtlDescribeChunk, RtlDescribeChunk function [Installable File System Drivers], b, c, e, h, i, ifsk.rtldescribechunk, k, l, n, ntifs/RtlDescribeChunk, r, rtlref_03ffe48d-5d72-4f8b-ac88-e79909151d2f.xml, s, t, u"
+ms.keywords: RtlDescribeChunk, RtlDescribeChunk function [Installable File System Drivers], ifsk.rtldescribechunk, ntifs/RtlDescribeChunk, rtlref_03ffe48d-5d72-4f8b-ac88-e79909151d2f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

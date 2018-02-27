@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1d35ed3e-d14f-43ad-9c11-38aa37e76492
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, D, I, IoInitializeDriverCreateContext, IoInitializeDriverCreateContext routine [Installable File System Drivers], a, e, i, ifsk.ioinitializedrivercreatecontext, ioref_d9c833b9-0246-49b7-83c5-ef02ef562e17.xml, l, n, ntddk/IoInitializeDriverCreateContext, o, r, t, v, x, z"
+ms.keywords: IoInitializeDriverCreateContext, IoInitializeDriverCreateContext routine [Installable File System Drivers], ifsk.ioinitializedrivercreatecontext, ioref_d9c833b9-0246-49b7-83c5-ef02ef562e17.xml, ntddk/IoInitializeDriverCreateContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

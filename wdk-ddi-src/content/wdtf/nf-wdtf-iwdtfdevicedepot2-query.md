@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: f8b0cb77-828a-43c7-b0f3-34eca0da49bf
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, D, F, I, IWDTFDeviceDepot2, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], Query method, IWDTFDeviceDepot2::Query, Microsoft.WDTF.IWDTFDeviceDepot2.Query, Microsoft::WDTF::IWDTFDeviceDepot2::Query, Q, Query method [Windows Device Testing Framework], Query method [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, Query,IWDTFDeviceDepot2.Query, T, W, c, dtf.iwdtfdevicedepot2_query, e, i, o, p, r, t, u, v, wdtf/IWDTFDeviceDepot2::Query, y"
+ms.keywords: IWDTFDeviceDepot2, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], Query method, IWDTFDeviceDepot2::Query, Microsoft.WDTF.IWDTFDeviceDepot2.Query, Microsoft::WDTF::IWDTFDeviceDepot2::Query, Query method [Windows Device Testing Framework], Query method [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, Query,IWDTFDeviceDepot2.Query, dtf.iwdtfdevicedepot2_query, wdtf/IWDTFDeviceDepot2::Query
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

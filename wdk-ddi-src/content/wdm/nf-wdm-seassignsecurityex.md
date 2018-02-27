@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 94f6d3a3-7f0d-4f57-8240-3c4a10cf4488
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, E, S, SeAssignSecurityEx, SeAssignSecurityEx routine [Kernel-Mode Driver Architecture], c, e, g, i, k110_e014ad32-3cbd-47e6-908b-65357203ee59.xml, kernel.seassignsecurityex, n, r, s, t, u, wdm/SeAssignSecurityEx, x, y"
+ms.keywords: SeAssignSecurityEx, SeAssignSecurityEx routine [Kernel-Mode Driver Architecture], k110_e014ad32-3cbd-47e6-908b-65357203ee59.xml, kernel.seassignsecurityex, wdm/SeAssignSecurityEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -361,11 +361,11 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
-
-
-
 <a href="..\wdm\nf-wdm-sedeassignsecurity.md">SeDeassignSecurity</a>
+
+
+
+<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
 
 
 

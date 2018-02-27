@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e15561e3-ba3d-4c65-bb6e-d90f3fab22af
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, D, F, I, IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, RetrievePowerPolicy method, IWDFUsbTargetDevice::RetrievePowerPolicy, P, R, RetrievePowerPolicy method, RetrievePowerPolicy method, IWDFUsbTargetDevice interface, RetrievePowerPolicy,IWDFUsbTargetDevice.RetrievePowerPolicy, T, U, UMDFUSBref_50da7595-0735-475b-863e-33a689f4fc2b.xml, W, a, b, c, e, g, i, l, o, r, s, t, umdf.iwdfusbtargetdevice_retrievepowerpolicy, v, w, wdf.iwdfusbtargetdevice_retrievepowerpolicy, wudfusb/IWDFUsbTargetDevice::RetrievePowerPolicy, y"
+ms.keywords: IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, RetrievePowerPolicy method, IWDFUsbTargetDevice::RetrievePowerPolicy, RetrievePowerPolicy method, RetrievePowerPolicy method, IWDFUsbTargetDevice interface, RetrievePowerPolicy,IWDFUsbTargetDevice.RetrievePowerPolicy, UMDFUSBref_50da7595-0735-475b-863e-33a689f4fc2b.xml, umdf.iwdfusbtargetdevice_retrievepowerpolicy, wdf.iwdfusbtargetdevice_retrievepowerpolicy, wudfusb/IWDFUsbTargetDevice::RetrievePowerPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

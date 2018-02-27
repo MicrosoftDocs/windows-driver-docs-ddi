@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: fbe37d6c-9b91-46d8-9d29-1de3ef542c19
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, I, P, W, WcsCreateIccProfile, WcsCreateIccProfile function [Print Devices], a, c, colorfnc_cb099d17-1109-4cb5-bbdc-76f1df13c60b.xml, e, f, i, icm/WcsCreateIccProfile, l, o, print.wcscreateiccprofile, r, s, t"
+ms.keywords: WcsCreateIccProfile, WcsCreateIccProfile function [Print Devices], colorfnc_cb099d17-1109-4cb5-bbdc-76f1df13c60b.xml, icm/WcsCreateIccProfile, print.wcscreateiccprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

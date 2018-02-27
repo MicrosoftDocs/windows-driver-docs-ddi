@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 54fcbb64-09ce-4f18-963b-fee2627d4231
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PRemoveTarget_IN, ,, I, N, P, PRemoveTarget_IN, PRemoveTarget_IN structure pointer [Storage Devices], R, RemoveTarget_IN, RemoveTarget_IN structure [Storage Devices], T, _, _RemoveTarget_IN, a, e, g, hbapiwmi/PRemoveTarget_IN, hbapiwmi/RemoveTarget_IN, m, o, r, storage.removetarget_in, structs-Fibre_e284d48f-3a57-449f-8227-2e8637118dcd.xml, t, v"
+ms.keywords: "*PRemoveTarget_IN, PRemoveTarget_IN, PRemoveTarget_IN structure pointer [Storage Devices], RemoveTarget_IN, RemoveTarget_IN structure [Storage Devices], _RemoveTarget_IN, hbapiwmi/PRemoveTarget_IN, hbapiwmi/RemoveTarget_IN, storage.removetarget_in, structs-Fibre_e284d48f-3a57-449f-8227-2e8637118dcd.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

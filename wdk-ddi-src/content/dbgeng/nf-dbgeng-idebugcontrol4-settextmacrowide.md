@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 98e93636-33e3-4642-a4fb-8590a7a0e784
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 4, :, C, D, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], SetTextMacroWide method, IDebugControl4::SetTextMacroWide, M, S, SetTextMacroWide method [Windows Debugging], SetTextMacroWide method [Windows Debugging], IDebugControl4 interface, SetTextMacroWide,IDebugControl4.SetTextMacroWide, T, W, a, b, c, d, dbgeng/IDebugControl4::SetTextMacroWide, debugger.settextmacrowide, e, g, i, l, n, o, r, t, u, x"
+ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], SetTextMacroWide method, IDebugControl4::SetTextMacroWide, SetTextMacroWide method [Windows Debugging], SetTextMacroWide method [Windows Debugging], IDebugControl4 interface, SetTextMacroWide,IDebugControl4.SetTextMacroWide, dbgeng/IDebugControl4::SetTextMacroWide, debugger.settextmacrowide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -127,15 +127,15 @@ For an overview of aliases used by the debugger engine, see <a href="https://msd
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 

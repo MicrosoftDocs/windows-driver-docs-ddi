@@ -91,6 +91,11 @@ VOID APIENTRY* CheckVideoProcessorFormat(
 
 
 
+#### - Format [in]
+
+The video format to query.
+
+
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -101,11 +106,6 @@ A handle to the display device (graphics context).
 #### - hVideoProcessorEnum [in]
 
 A handle to a video processor enumeration object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a> function. 
-
-
-#### - Format [in]
-
-The video format to query.
 
 
 #### - pSupported [out]

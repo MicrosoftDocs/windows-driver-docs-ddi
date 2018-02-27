@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 16ecddf7-6c79-4e95-957d-19f27c3e3cf5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , ,, A, C, F, I, L, N, O, R, RILCALLINFOSTATUS, RILCALLINFOSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_CPISTAT_CONNECTED, RIL_CPISTAT_DISCONNECTED, RIL_CPISTAT_HANDOVER, RIL_CPISTAT_MAX, RIL_CPISTAT_MEDIA, RIL_CPISTAT_NEW_INCOMING, RIL_CPISTAT_NEW_OUTGOING, RIL_CPISTAT_ONHOLD, S, T, U, netvista.rilcallinfostatus_2, rilapitypes/RILCALLINFOSTATUS, rilapitypes/RIL_CPISTAT_CONNECTED, rilapitypes/RIL_CPISTAT_DISCONNECTED, rilapitypes/RIL_CPISTAT_HANDOVER, rilapitypes/RIL_CPISTAT_MAX, rilapitypes/RIL_CPISTAT_MEDIA, rilapitypes/RIL_CPISTAT_NEW_INCOMING, rilapitypes/RIL_CPISTAT_NEW_OUTGOING, rilapitypes/RIL_CPISTAT_ONHOLD"
+ms.keywords: RILCALLINFOSTATUS, RILCALLINFOSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_CPISTAT_CONNECTED, RIL_CPISTAT_DISCONNECTED, RIL_CPISTAT_HANDOVER, RIL_CPISTAT_MAX, RIL_CPISTAT_MEDIA, RIL_CPISTAT_NEW_INCOMING, RIL_CPISTAT_NEW_OUTGOING, RIL_CPISTAT_ONHOLD, netvista.rilcallinfostatus_2, rilapitypes/RILCALLINFOSTATUS, rilapitypes/RIL_CPISTAT_CONNECTED, rilapitypes/RIL_CPISTAT_DISCONNECTED, rilapitypes/RIL_CPISTAT_HANDOVER, rilapitypes/RIL_CPISTAT_MAX, rilapitypes/RIL_CPISTAT_MEDIA, rilapitypes/RIL_CPISTAT_NEW_INCOMING, rilapitypes/RIL_CPISTAT_NEW_OUTGOING, rilapitypes/RIL_CPISTAT_ONHOLD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

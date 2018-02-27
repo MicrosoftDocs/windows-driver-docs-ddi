@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2DFC2C13-19C4-4DFD-B18B-459B38521962
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, E, G, I, IoGetOplockKeyContextEx, IoGetOplockKeyContextEx routine [Installable File System Drivers], K, O, c, e, ifsk.iogetoplockkeycontextex, k, l, n, ntddk/IoGetOplockKeyContextEx, o, p, t, x, y"
+ms.keywords: IoGetOplockKeyContextEx, IoGetOplockKeyContextEx routine [Installable File System Drivers], ifsk.iogetoplockkeycontextex, ntddk/IoGetOplockKeyContextEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,15 +84,15 @@ An pointer to an <a href="..\ntddk\ns-ntddk-_oplock_key_context.md">OPLOCK_KEY_C
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406392">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551003">OPLOCK_KEY_ECP_CONTEXT</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_oplock_key_context.md">OPLOCK_KEY_CONTEXT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406392">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
 
 
 

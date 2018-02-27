@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9274c3eb-a5c0-43a9-a9d4-541482ddace1
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 3, :, A, AddAssemblyOptions method [Windows Debugging], AddAssemblyOptions method [Windows Debugging], IDebugControl3 interface, AddAssemblyOptions,IDebugControl3.AddAssemblyOptions, C, D, I, IDebugControl3, IDebugControl3 interface [Windows Debugging], AddAssemblyOptions method, IDebugControl3::AddAssemblyOptions, IDebugControl_9cacf343-5c88-4a06-8f68-7c94b15419b8.xml, O, b, d, dbgeng/IDebugControl3::AddAssemblyOptions, debugger.addassemblyoptions, e, g, i, l, m, n, o, p, r, s, t, u, y"
+ms.keywords: AddAssemblyOptions method [Windows Debugging], AddAssemblyOptions method [Windows Debugging], IDebugControl3 interface, AddAssemblyOptions,IDebugControl3.AddAssemblyOptions, IDebugControl3, IDebugControl3 interface [Windows Debugging], AddAssemblyOptions method, IDebugControl3::AddAssemblyOptions, IDebugControl_9cacf343-5c88-4a06-8f68-7c94b15419b8.xml, dbgeng/IDebugControl3::AddAssemblyOptions, debugger.addassemblyoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -111,7 +111,7 @@ For more information about using assembly with the <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556626">SetAssemblyOptions</a>
 
 
 
@@ -119,15 +119,7 @@ For more information about using assembly with the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556626">SetAssemblyOptions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554483">RemoveAssemblyOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562128">.asm (Change Disassembly Options)</a>
 
 
 
@@ -135,7 +127,15 @@ For more information about using assembly with the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562128">.asm (Change Disassembly Options)</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554483">RemoveAssemblyOptions</a>
 
 
 

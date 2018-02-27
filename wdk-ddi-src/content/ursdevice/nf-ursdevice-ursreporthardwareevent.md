@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2BC80D99-5265-4D0C-A447-5CC2112F53F8
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , E, H, R, U, UrsReportHardwareEvent, UrsReportHardwareEvent function [Buses], a, buses.ursreporthardwareevent, d, e, n, o, p, r, s, t, ursdevice/UrsReportHardwareEvent, v, w"
+ms.keywords: UrsReportHardwareEvent, UrsReportHardwareEvent function [Buses], buses.ursreporthardwareevent, ursdevice/UrsReportHardwareEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

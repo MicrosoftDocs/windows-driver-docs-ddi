@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ee2f06f6-3295-4a92-b232-daf66ec6195a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , A, E, F, FsRtlIsEcpAcknowledged, FsRtlIsEcpAcknowledged routine [Installable File System Drivers], I, R, c, d, e, fsrtlref_5e05018f-5f4a-41e1-a05a-93ab636012e1.xml, g, ifsk.fsrtlisecpacknowledged, k, l, n, ntifs/FsRtlIsEcpAcknowledged, o, p, s, t, w"
+ms.keywords: FsRtlIsEcpAcknowledged, FsRtlIsEcpAcknowledged routine [Installable File System Drivers], fsrtlref_5e05018f-5f4a-41e1-a05a-93ab636012e1.xml, ifsk.fsrtlisecpacknowledged, ntifs/FsRtlIsEcpAcknowledged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,6 +92,10 @@ To mark an ECP context structure as acknowledged, use the <a href="..\fltkernel\
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltisecpfromusermode.md">FltIsEcpFromUserMode</a>
 
 
@@ -100,7 +104,7 @@ To mark an ECP context structure as acknowledged, use the <a href="..\fltkernel\
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
 
 
 
@@ -108,11 +112,7 @@ To mark an ECP context structure as acknowledged, use the <a href="..\fltkernel\
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 
 

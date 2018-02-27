@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 982B52A2-5BC1-4390-AE44-C3D31E2FC3DB
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, C, D, Q, S, U, USBD_QueryUsbCapability, USBD_QueryUsbCapability routine [Buses], _, a, b, buses.usbd_getcapability, e, i, l, p, r, s, t, u, usbdlib/USBD_QueryUsbCapability, y"
+ms.keywords: USBD_QueryUsbCapability, USBD_QueryUsbCapability routine [Buses], buses.usbd_getcapability, usbdlib/USBD_QueryUsbCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

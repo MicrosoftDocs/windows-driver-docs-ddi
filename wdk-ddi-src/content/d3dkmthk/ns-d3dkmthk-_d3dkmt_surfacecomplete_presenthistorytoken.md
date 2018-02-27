@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: AF58684E-3516-48F9-B771-63701C00645F
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 3, A, C, D, D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN, D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN structure [Display Devices], E, F, H, I, K, L, M, N, O, P, R, S, T, U, Y, _, _D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN, display.d3dkmt_surfacecomplete_presenthistorytoken"
+ms.keywords: D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN, D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN structure [Display Devices], _D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN, display.d3dkmt_surfacecomplete_presenthistorytoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4032ec5c-c98a-44f9-9c74-dc5ada308d33
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PDEVCAPS, ,, A, C, D, DEVCAPS, DEVCAPS structure [Streaming Media Devices], E, P, PDEVCAPS, PDEVCAPS structure pointer [Streaming Media Devices], S, V, a, g, ksmedia/DEVCAPS, ksmedia/PDEVCAPS, stream.devcaps, t, tagDEVCAPS, vidcapstruct_61cce92e-4f74-48ff-ae84-72579136a64f.xml"
+ms.keywords: "*PDEVCAPS, DEVCAPS, DEVCAPS structure [Streaming Media Devices], PDEVCAPS, PDEVCAPS structure pointer [Streaming Media Devices], ksmedia/DEVCAPS, ksmedia/PDEVCAPS, stream.devcaps, tagDEVCAPS, vidcapstruct_61cce92e-4f74-48ff-ae84-72579136a64f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

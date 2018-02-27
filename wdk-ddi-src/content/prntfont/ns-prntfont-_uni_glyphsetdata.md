@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a2c98783-c463-435e-9d78-c10686f1c75c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PUNI_GLYPHSETDATA, ,, A, D, E, G, H, I, L, N, P, PUNI_GLYPHSETDATA, PUNI_GLYPHSETDATA structure pointer [Print Devices], S, T, U, UNI_GLYPHSETDATA, UNI_GLYPHSETDATA structure [Print Devices], Y, _, _UNI_GLYPHSETDATA, print.uni_glyphsetdata, print_unidrv-pscript_fonts_51c5f97c-3b3c-4990-8dcb-9c7bf387b03f.xml, prntfont/PUNI_GLYPHSETDATA, prntfont/UNI_GLYPHSETDATA"
+ms.keywords: "*PUNI_GLYPHSETDATA, PUNI_GLYPHSETDATA, PUNI_GLYPHSETDATA structure pointer [Print Devices], UNI_GLYPHSETDATA, UNI_GLYPHSETDATA structure [Print Devices], _UNI_GLYPHSETDATA, print.uni_glyphsetdata, print_unidrv-pscript_fonts_51c5f97c-3b3c-4990-8dcb-9c7bf387b03f.xml, prntfont/PUNI_GLYPHSETDATA, prntfont/UNI_GLYPHSETDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -144,15 +144,15 @@ A UNI_GLYPHSETDATA structure must be the first structure contained in a .gtt fil
 
 ## -see-also
 
+<a href="..\prntfont\ns-prntfont-_glyphrun.md">GLYPHRUN</a>
+
+
+
 <a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
 
 
 
 <a href="..\prntfont\ns-prntfont-_maptable.md">MAPTABLE</a>
-
-
-
-<a href="..\prntfont\ns-prntfont-_glyphrun.md">GLYPHRUN</a>
 
 
 

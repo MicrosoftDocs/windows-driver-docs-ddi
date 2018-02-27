@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e4f637b7-52ce-4ec8-8348-0b65a7f788ad
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PKS_DVDCOPY_SET_COPY_STATE, ,, A, C, D, E, K, KS_DVDCOPY_SET_COPY_STATE, KS_DVDCOPY_SET_COPY_STATE structure [Streaming Media Devices], O, P, PKS_DVDCOPY_SET_COPY_STATE, PKS_DVDCOPY_SET_COPY_STATE structure pointer [Streaming Media Devices], S, T, V, Y, _, _KS_DVDCOPY_SET_COPY_STATE, dvdref_215efe26-9ca5-4f3b-836f-86a682cd88f8.xml, ksmedia/KS_DVDCOPY_SET_COPY_STATE, ksmedia/PKS_DVDCOPY_SET_COPY_STATE, stream.ks_dvdcopy_set_copy_state"
+ms.keywords: "*PKS_DVDCOPY_SET_COPY_STATE, KS_DVDCOPY_SET_COPY_STATE, KS_DVDCOPY_SET_COPY_STATE structure [Streaming Media Devices], PKS_DVDCOPY_SET_COPY_STATE, PKS_DVDCOPY_SET_COPY_STATE structure pointer [Streaming Media Devices], _KS_DVDCOPY_SET_COPY_STATE, dvdref_215efe26-9ca5-4f3b-836f-86a682cd88f8.xml, ksmedia/KS_DVDCOPY_SET_COPY_STATE, ksmedia/PKS_DVDCOPY_SET_COPY_STATE, stream.ks_dvdcopy_set_copy_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

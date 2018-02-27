@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 6f93b62b-6dc2-417b-9e1c-44be628c489c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, DebugFns_7d909b99-2ffb-4c60-9738-cb35c9a0c4fa.xml, K, KdChangeOption, KdChangeOption routine [Driver Development Tools], O, a, d, devtest.kdchangeoption, e, g, h, i, n, o, p, t, wdm/KdChangeOption"
+ms.keywords: DebugFns_7d909b99-2ffb-4c60-9738-cb35c9a0c4fa.xml, KdChangeOption, KdChangeOption routine [Driver Development Tools], devtest.kdchangeoption, wdm/KdChangeOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

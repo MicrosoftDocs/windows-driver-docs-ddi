@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9ad8e8c1-6aee-4eac-93e6-5997212c63d0
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 4, :, D, H, I, IDebugDataSpaces2, IDebugDataSpaces2 interface [Windows Debugging], ReadHandleData method, IDebugDataSpaces2::ReadHandleData, IDebugDataSpaces3, IDebugDataSpaces3 interface [Windows Debugging], ReadHandleData method, IDebugDataSpaces3::ReadHandleData, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadHandleData method, IDebugDataSpaces4::ReadHandleData, IDebugDataSpaces_cbad043a-7b6e-4c5c-8a14-9a7b20a0b125.xml, R, ReadHandleData method [Windows Debugging], ReadHandleData method [Windows Debugging], IDebugDataSpaces2 interface, ReadHandleData method [Windows Debugging], IDebugDataSpaces3 interface, ReadHandleData method [Windows Debugging], IDebugDataSpaces4 interface, ReadHandleData,IDebugDataSpaces2.ReadHandleData, ReadHandleData,IDebugDataSpaces3.ReadHandleData, ReadHandleData,IDebugDataSpaces4.ReadHandleData, S, a, b, c, d, dbgeng/IDebugDataSpaces2::ReadHandleData, dbgeng/IDebugDataSpaces3::ReadHandleData, dbgeng/IDebugDataSpaces4::ReadHandleData, debugger.readhandledata, e, g, l, n, p, s, t, u"
+ms.keywords: IDebugDataSpaces2 interface [Windows Debugging], ReadHandleData method, IDebugDataSpaces2::ReadHandleData, IDebugDataSpaces3 interface [Windows Debugging], ReadHandleData method, IDebugDataSpaces3::ReadHandleData, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadHandleData method, IDebugDataSpaces4::ReadHandleData, IDebugDataSpaces_cbad043a-7b6e-4c5c-8a14-9a7b20a0b125.xml, ReadHandleData method [Windows Debugging], ReadHandleData method [Windows Debugging], IDebugDataSpaces2 interface, ReadHandleData method [Windows Debugging], IDebugDataSpaces3 interface, ReadHandleData method [Windows Debugging], IDebugDataSpaces4 interface, ReadHandleData,IDebugDataSpaces4.ReadHandleData, dbgeng/IDebugDataSpaces2::ReadHandleData, dbgeng/IDebugDataSpaces3::ReadHandleData, dbgeng/IDebugDataSpaces4::ReadHandleData, debugger.readhandledata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -219,7 +219,7 @@ This method is only available in user-mode debugging.
 
 ## -see-also
 
-Handles
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
 
 
 
@@ -227,11 +227,11 @@ Handles
 
 
 
+Handles
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
 
 
 

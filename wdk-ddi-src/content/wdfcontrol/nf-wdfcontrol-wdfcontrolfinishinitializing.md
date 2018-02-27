@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 13375ae1-6908-44d8-b775-4375f4fdde4d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , C, DFDeviceObjectControllerDevObjRef_af1b91cc-0f6c-4b03-b168-5ac1357f2dc3.xml, F, I, W, WdfControlFinishInitializing, WdfControlFinishInitializing method, a, d, f, g, h, i, kmdf.wdfcontrolfinishinitializing, l, n, o, r, s, t, wdf.wdfcontrolfinishinitializing, wdfcontrol/WdfControlFinishInitializing, z"
+ms.keywords: DFDeviceObjectControllerDevObjRef_af1b91cc-0f6c-4b03-b168-5ac1357f2dc3.xml, WdfControlFinishInitializing, WdfControlFinishInitializing method, kmdf.wdfcontrolfinishinitializing, wdf.wdfcontrolfinishinitializing, wdfcontrol/WdfControlFinishInitializing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

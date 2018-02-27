@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 85257190-2b39-487d-ada6-4c8cd0b1450f
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 4, :, B, C, D, E, G, GetExtensionByPathWide method [Windows Debugging], GetExtensionByPathWide method [Windows Debugging], IDebugControl4 interface, GetExtensionByPathWide,IDebugControl4.GetExtensionByPathWide, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetExtensionByPathWide method, IDebugControl4::GetExtensionByPathWide, P, W, a, b, d, dbgeng/IDebugControl4::GetExtensionByPathWide, debugger.getextensionbypathwide, e, g, h, i, l, n, o, r, s, t, u, x, y"
+ms.keywords: GetExtensionByPathWide method [Windows Debugging], GetExtensionByPathWide method [Windows Debugging], IDebugControl4 interface, GetExtensionByPathWide,IDebugControl4.GetExtensionByPathWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetExtensionByPathWide method, IDebugControl4::GetExtensionByPathWide, dbgeng/IDebugControl4::GetExtensionByPathWide, debugger.getextensionbypathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

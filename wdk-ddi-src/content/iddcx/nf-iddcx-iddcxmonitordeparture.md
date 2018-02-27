@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d23f70ee-a58d-4db1-8f21-b27887d661b9
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, D, I, IddCxMonitorDeparture, IddCxMonitorDeparture method [Display Devices], M, a, d, display.iddcxmonitordeparture, e, i, iddcx/IddCxMonitorDeparture, n, o, p, r, t, u, x"
+ms.keywords: IddCxMonitorDeparture, IddCxMonitorDeparture method [Display Devices], display.iddcxmonitordeparture, iddcx/IddCxMonitorDeparture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

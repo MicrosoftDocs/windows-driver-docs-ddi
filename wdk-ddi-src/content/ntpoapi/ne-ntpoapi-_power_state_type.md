@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d0e97474-4119-4359-a9f9-644c82df7fab
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PPOWER_STATE_TYPE, ,, A, DevicePowerState, E, O, P, POWER_STATE_TYPE, POWER_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PPOWER_STATE_TYPE, PPOWER_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], R, S, SystemPowerState, T, W, Y, _, _POWER_STATE_TYPE, kernel.power_state_type, sysenum_bdfdaea1-ec64-4b74-96d0-95641797ebb4.xml, wdm/DevicePowerState, wdm/POWER_STATE_TYPE, wdm/PPOWER_STATE_TYPE, wdm/SystemPowerState"
+ms.keywords: "*PPOWER_STATE_TYPE, DevicePowerState, POWER_STATE_TYPE, POWER_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PPOWER_STATE_TYPE, PPOWER_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], SystemPowerState, _POWER_STATE_TYPE, kernel.power_state_type, sysenum_bdfdaea1-ec64-4b74-96d0-95641797ebb4.xml, wdm/DevicePowerState, wdm/POWER_STATE_TYPE, wdm/PPOWER_STATE_TYPE, wdm/SystemPowerState"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -89,6 +89,10 @@ The <b>POWER_STATE_TYPE</b> enumeration type is used in conjunction with a value
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_power_state.md">POWER_STATE</a>
+
+
+
 <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
 
 
@@ -98,10 +102,6 @@ The <b>POWER_STATE_TYPE</b> enumeration type is used in conjunction with a value
 
 
 <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
-
-
-
-<a href="..\wdm\ns-wdm-_power_state.md">POWER_STATE</a>
 
 
 

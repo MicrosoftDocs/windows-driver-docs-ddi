@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c4cc9119-6e95-4c76-a320-536cc2609e3e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , 1, F, I, L, R, RIL_SetRFState_V1, RIL_SetRFState_V1 method [Network Drivers Starting with Windows Vista], S, V, _, a, e, netvista.ril_setrfstate_v1, rilapi/RIL_SetRFState_V1, t"
+ms.keywords: RIL_SetRFState_V1, RIL_SetRFState_V1 method [Network Drivers Starting with Windows Vista], netvista.ril_setrfstate_v1, rilapi/RIL_SetRFState_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1a40e8a7-ba7b-4aaf-975f-4095f9ef7ba7
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 4, :, C, D, E, EvaluateWide method [Windows Debugging], EvaluateWide method [Windows Debugging], IDebugControl4 interface, EvaluateWide,IDebugControl4.EvaluateWide, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], EvaluateWide method, IDebugControl4::EvaluateWide, W, a, b, d, dbgeng/IDebugControl4::EvaluateWide, debugger.evaluatewide, e, g, i, l, n, o, r, t, u, v"
+ms.keywords: EvaluateWide method [Windows Debugging], EvaluateWide method [Windows Debugging], IDebugControl4 interface, EvaluateWide,IDebugControl4.EvaluateWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], EvaluateWide method, IDebugControl4::EvaluateWide, dbgeng/IDebugControl4::EvaluateWide, debugger.evaluatewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -144,19 +144,19 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
 
 

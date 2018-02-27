@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9f2ae88c-34a4-46b3-9571-5f2f023b7d6b
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PGETINFO_STDVAR, ,, A, D, E, F, G, GETINFO_STDVAR, GETINFO_STDVAR structure [Print Devices], I, N, O, P, PGETINFO_STDVAR, PGETINFO_STDVAR structure pointer [Print Devices], R, S, T, V, _, _GETINFO_STDVAR, print.getinfo_stdvar, print_unidrv-pscript_rendering_3a08d48b-215f-4acc-89ef-849a2b826ce7.xml, printoem/GETINFO_STDVAR, printoem/PGETINFO_STDVAR"
+ms.keywords: "*PGETINFO_STDVAR, GETINFO_STDVAR, GETINFO_STDVAR structure [Print Devices], PGETINFO_STDVAR, PGETINFO_STDVAR structure pointer [Print Devices], _GETINFO_STDVAR, print.getinfo_stdvar, print_unidrv-pscript_rendering_3a08d48b-215f-4acc-89ef-849a2b826ce7.xml, printoem/GETINFO_STDVAR, printoem/PGETINFO_STDVAR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

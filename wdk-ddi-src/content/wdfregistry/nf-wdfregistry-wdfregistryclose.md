@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c97fe47d-bd6b-45d7-936b-3b46554e5093
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , C, DFRegKeyObjectRef_31a198b2-e149-4fd4-951a-5fd03cf06555.xml, R, W, WdfRegistryClose, WdfRegistryClose method, d, e, f, g, i, kmdf.wdfregistryclose, l, o, r, s, t, wdf.wdfregistryclose, wdfregistry/WdfRegistryClose, y"
+ms.keywords: DFRegKeyObjectRef_31a198b2-e149-4fd4-951a-5fd03cf06555.xml, WdfRegistryClose, WdfRegistryClose method, kmdf.wdfregistryclose, wdf.wdfregistryclose, wdfregistry/WdfRegistryClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

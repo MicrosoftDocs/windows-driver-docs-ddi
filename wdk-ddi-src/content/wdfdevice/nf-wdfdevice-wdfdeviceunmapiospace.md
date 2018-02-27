@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C8963667-D2FB-4360-A523-33429D6FBF1B
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , D, I, S, U, W, WdfDeviceUnmapIoSpace, WdfDeviceUnmapIoSpace function, a, c, d, e, f, i, m, n, o, p, v, wdf.wdfdeviceunmapiospace, wdfdevice/WdfDeviceUnmapIoSpace"
+ms.keywords: WdfDeviceUnmapIoSpace, WdfDeviceUnmapIoSpace function, wdf.wdfdeviceunmapiospace, wdfdevice/WdfDeviceUnmapIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e1c77758-0249-4ec6-9244-329c0b823e44
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, 4, :, B, C, D, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], RemoveBreakpoint2 method, IDebugControl4::RemoveBreakpoint2, R, RemoveBreakpoint2 method [Windows Debugging], RemoveBreakpoint2 method [Windows Debugging], IDebugControl4 interface, RemoveBreakpoint2,IDebugControl4.RemoveBreakpoint2, a, b, dbgeng/IDebugControl4::RemoveBreakpoint2, debugger.removebreakpoint2, e, g, i, k, l, m, n, o, p, r, t, u, v"
+ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], RemoveBreakpoint2 method, IDebugControl4::RemoveBreakpoint2, RemoveBreakpoint2 method [Windows Debugging], RemoveBreakpoint2 method [Windows Debugging], IDebugControl4 interface, RemoveBreakpoint2,IDebugControl4.RemoveBreakpoint2, dbgeng/IDebugControl4::RemoveBreakpoint2, debugger.removebreakpoint2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,11 +115,11 @@ For more details, see <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537856">AddBreakpoint</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 

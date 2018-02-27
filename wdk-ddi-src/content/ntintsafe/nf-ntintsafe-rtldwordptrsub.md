@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B3268640-F256-4B64-AE95-8D30A6A7BF6C
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , D, P, R, RtlDWordPtrSub, RtlDWordPtrSub function [Kernel-Mode Driver Architecture], S, W, b, d, kernel.rtldwordptrsub, l, ntintsafe/RtlDWordPtrSub, o, r, t, u"
+ms.keywords: RtlDWordPtrSub, RtlDWordPtrSub function [Kernel-Mode Driver Architecture], kernel.rtldwordptrsub, ntintsafe/RtlDWordPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

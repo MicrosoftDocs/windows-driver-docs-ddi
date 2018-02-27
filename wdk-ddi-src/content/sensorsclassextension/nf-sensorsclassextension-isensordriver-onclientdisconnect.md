@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 9484610b-4cbd-4c4e-9e60-ef052702325c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, C, D, I, ISensorDriver, ISensorDriver interface [Sensor Devices], OnClientDisconnect method, ISensorDriver::OnClientDisconnect, O, OnClientDisconnect method [Sensor Devices], OnClientDisconnect method [Sensor Devices], ISensorDriver interface, OnClientDisconnect,ISensorDriver.OnClientDisconnect, S, Sensor_IFaces_f5f91a04-84b3-4302-9c26-845281651ed9.xml, c, e, i, l, n, o, r, s, sensors.isensordriver_onclientdisconnect, sensorsclassextension/ISensorDriver::OnClientDisconnect, t, v"
+ms.keywords: ISensorDriver, ISensorDriver interface [Sensor Devices], OnClientDisconnect method, ISensorDriver::OnClientDisconnect, OnClientDisconnect method [Sensor Devices], OnClientDisconnect method [Sensor Devices], ISensorDriver interface, OnClientDisconnect,ISensorDriver.OnClientDisconnect, Sensor_IFaces_f5f91a04-84b3-4302-9c26-845281651ed9.xml, sensors.isensordriver_onclientdisconnect, sensorsclassextension/ISensorDriver::OnClientDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

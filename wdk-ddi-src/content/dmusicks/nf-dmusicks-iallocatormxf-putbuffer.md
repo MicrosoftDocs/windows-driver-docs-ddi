@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 20daf292-9476-4435-915d-f97fba3a6ec2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, A, B, F, I, IAllocatorMXF, IAllocatorMXF interface [Audio Devices], PutBuffer method, IAllocatorMXF::PutBuffer, M, P, PutBuffer method [Audio Devices], PutBuffer method [Audio Devices], IAllocatorMXF interface, PutBuffer,IAllocatorMXF.PutBuffer, X, a, audio.iallocatormxf_putbuffer, audmp-routines_8afbc000-69b1-45a5-8fe3-3f6ff8d5518d.xml, c, dmusicks/IAllocatorMXF::PutBuffer, e, f, l, o, r, t, u"
+ms.keywords: IAllocatorMXF, IAllocatorMXF interface [Audio Devices], PutBuffer method, IAllocatorMXF::PutBuffer, PutBuffer method [Audio Devices], PutBuffer method [Audio Devices], IAllocatorMXF interface, PutBuffer,IAllocatorMXF.PutBuffer, audio.iallocatormxf_putbuffer, audmp-routines_8afbc000-69b1-45a5-8fe3-3f6ff8d5518d.xml, dmusicks/IAllocatorMXF::PutBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,7 +100,7 @@ The miniport driver does not need to use this method because when the miniport d
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
+<a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
 
 
 
@@ -108,7 +108,7 @@ The miniport driver does not need to use this method because when the miniport d
 
 
 
-<a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d5a8a040-0b96-4eb9-b90f-f506de89559f
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 1, 2, 3, 5, 6, A, B, D, D3DDDI_GAMMA_RAMP_RGB256x3x16, D3DDDI_GAMMA_RAMP_RGB256x3x16 structure [Display Devices], DmStructs_803b0bbe-a2a2-4e61-82da-11db95413949.xml, G, I, M, P, R, _, _D3DDDI_GAMMA_RAMP_RGB256x3x16, d3dukmdt/D3DDDI_GAMMA_RAMP_RGB256x3x16, display.d3dddi_gamma_ramp_rgb256x3x16, x"
+ms.keywords: D3DDDI_GAMMA_RAMP_RGB256x3x16, D3DDDI_GAMMA_RAMP_RGB256x3x16 structure [Display Devices], DmStructs_803b0bbe-a2a2-4e61-82da-11db95413949.xml, _D3DDDI_GAMMA_RAMP_RGB256x3x16, d3dukmdt/D3DDDI_GAMMA_RAMP_RGB256x3x16, display.d3dddi_gamma_ramp_rgb256x3x16
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

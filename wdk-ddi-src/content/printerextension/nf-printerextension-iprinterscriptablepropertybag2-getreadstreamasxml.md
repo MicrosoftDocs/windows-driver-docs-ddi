@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1C6477C4-3038-4F8A-871F-7F336E631C8F
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, B, G, GetReadStreamAsXML method [Print Devices], GetReadStreamAsXML method [Print Devices], IPrinterScriptablePropertyBag2 interface, GetReadStreamAsXML,IPrinterScriptablePropertyBag2.GetReadStreamAsXML, I, IPrinterScriptablePropertyBag2, IPrinterScriptablePropertyBag2 interface [Print Devices], GetReadStreamAsXML method, IPrinterScriptablePropertyBag2::GetReadStreamAsXML, L, M, P, R, S, X, a, b, c, d, e, g, i, l, m, n, o, p, print.iprinterscriptablepropertybag2_getreadstreamasxml, printerextension/IPrinterScriptablePropertyBag2::GetReadStreamAsXML, r, s, t, y"
+ms.keywords: GetReadStreamAsXML method [Print Devices], GetReadStreamAsXML method [Print Devices], IPrinterScriptablePropertyBag2 interface, GetReadStreamAsXML,IPrinterScriptablePropertyBag2.GetReadStreamAsXML, IPrinterScriptablePropertyBag2, IPrinterScriptablePropertyBag2 interface [Print Devices], GetReadStreamAsXML method, IPrinterScriptablePropertyBag2::GetReadStreamAsXML, print.iprinterscriptablepropertybag2_getreadstreamasxml, printerextension/IPrinterScriptablePropertyBag2::GetReadStreamAsXML
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

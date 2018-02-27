@@ -119,15 +119,15 @@ For guidelines on how to implement the <i>MiniportCancelIdleNotification</i> han
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismidlenotificationcomplete.md">NdisMIdleNotificationComplete</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocancelirp.md">IoCancelIrp</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_idle_notification.md">MiniportIdleNotification</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismidlenotificationcomplete.md">NdisMIdleNotificationComplete</a>
 
 
 

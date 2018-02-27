@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 854A2B6F-A841-4AE4-9E54-68EF048C9504
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , P, PwmParsePinPath, PwmParsePinPath function [Kernel-Mode Driver Architecture], a, e, h, i, kernel.pwmparsepinpath, m, n, pwmutil/PwmParsePinPath, r, s, t, w"
+ms.keywords: PwmParsePinPath, PwmParsePinPath function [Kernel-Mode Driver Architecture], kernel.pwmparsepinpath, pwmutil/PwmParsePinPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

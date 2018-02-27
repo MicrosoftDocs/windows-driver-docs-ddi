@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0096fef7-2a5a-45cd-8e54-dc1ec0e84237
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , F, M, N, NdisFreeMemory, NdisFreeMemory function [Network Drivers Starting with Windows Vista], d, e, i, m, ndis/NdisFreeMemory, ndis_memory_ref_a178b0d7-8966-4356-8f63-3293605a6655.xml, netvista.ndisfreememory, o, r, s, y"
+ms.keywords: NdisFreeMemory, NdisFreeMemory function [Network Drivers Starting with Windows Vista], ndis/NdisFreeMemory, ndis_memory_ref_a178b0d7-8966-4356-8f63-3293605a6655.xml, netvista.ndisfreememory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,12 +131,12 @@ When releasing memory that is neither contiguous nor noncached, a caller of
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
    NdisAllocateMemoryWithTagPriority</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 
 

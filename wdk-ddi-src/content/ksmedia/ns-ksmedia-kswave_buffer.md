@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1bd19fcd-90da-4e1a-ac9a-692c6fddc7ab
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PKSWAVE_BUFFER, ,, A, B, E, F, K, KSWAVE_BUFFER, KSWAVE_BUFFER structure [Streaming Media Devices], P, PKSWAVE_BUFFER, PKSWAVE_BUFFER structure pointer [Streaming Media Devices], R, S, U, V, W, _, dvdref_8b774201-3725-497e-8545-10c5cad2ef1f.xml, ksmedia/KSWAVE_BUFFER, ksmedia/PKSWAVE_BUFFER, stream.kswave_buffer"
+ms.keywords: "*PKSWAVE_BUFFER, KSWAVE_BUFFER, KSWAVE_BUFFER structure [Streaming Media Devices], PKSWAVE_BUFFER, PKSWAVE_BUFFER structure pointer [Streaming Media Devices], dvdref_8b774201-3725-497e-8545-10c5cad2ef1f.xml, ksmedia/KSWAVE_BUFFER, ksmedia/PKSWAVE_BUFFER, stream.kswave_buffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

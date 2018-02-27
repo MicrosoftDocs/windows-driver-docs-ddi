@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4072f369-992e-4144-b3b9-1e05bb2127f2
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, AtaPortRegistryChannelSubkeyWrite, AtaPortRegistryChannelSubkeyWrite routine [Storage Devices], C, P, R, S, W, a, atartns_0281129c-7789-44f3-b26d-d3725e7ff165.xml, b, e, g, h, i, irb/AtaPortRegistryChannelSubkeyWrite, k, l, n, o, r, s, storage.ataportregistrychannelsubkeywrite, t, u, y"
+ms.keywords: AtaPortRegistryChannelSubkeyWrite, AtaPortRegistryChannelSubkeyWrite routine [Storage Devices], atartns_0281129c-7789-44f3-b26d-d3725e7ff165.xml, irb/AtaPortRegistryChannelSubkeyWrite, storage.ataportregistrychannelsubkeywrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -171,11 +171,11 @@ The miniport driver must call <b>AtaPortRegistryChannelSubKeyWrite</b> either du
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportregistrychannelsubkeyread.md">AtaPortRegistryChannelSubKeyRead</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
+
+
+
+<a href="..\irb\nf-irb-ataportregistrychannelsubkeywritedeferred.md">AtaPortRegistryChannelSubKeyWriteDeferred</a>
 
 
 
@@ -183,7 +183,7 @@ The miniport driver must call <b>AtaPortRegistryChannelSubKeyWrite</b> either du
 
 
 
-<a href="..\irb\nf-irb-ataportregistrychannelsubkeywritedeferred.md">AtaPortRegistryChannelSubKeyWriteDeferred</a>
+<a href="..\irb\nf-irb-ataportregistrychannelsubkeyread.md">AtaPortRegistryChannelSubKeyRead</a>
 
 
 

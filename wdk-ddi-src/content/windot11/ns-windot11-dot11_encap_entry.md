@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d17547c5-47a3-4d10-b27f-6a3bbf7aad03
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , *, *PDOT11_ENCAP_ENTRY, ,, 1, A, C, D, DOT11_ENCAP_ENTRY, DOT11_ENCAP_ENTRY structure [Network Drivers Starting with Windows Vista], E, N, Native_802.11_data_types_3304c37a-c08f-488e-a75d-d31d59a4a491.xml, O, P, PDOT11_ENCAP_ENTRY, PDOT11_ENCAP_ENTRY structure pointer [Network Drivers Starting with Windows Vista], R, T, Y, _, netvista.dot11_encap_entry, windot11/DOT11_ENCAP_ENTRY, windot11/PDOT11_ENCAP_ENTRY"
+ms.keywords: "*PDOT11_ENCAP_ENTRY, DOT11_ENCAP_ENTRY, DOT11_ENCAP_ENTRY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_3304c37a-c08f-488e-a75d-d31d59a4a491.xml, PDOT11_ENCAP_ENTRY, PDOT11_ENCAP_ENTRY structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_encap_entry, windot11/DOT11_ENCAP_ENTRY, windot11/PDOT11_ENCAP_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

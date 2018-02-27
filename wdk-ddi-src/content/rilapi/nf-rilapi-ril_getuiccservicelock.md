@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cebef749-f7f1-4a33-81fd-1d42da7afafe
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , G, I, L, R, RIL_GetUiccServiceLock, RIL_GetUiccServiceLock method [Network Drivers Starting with Windows Vista], S, U, _, c, e, i, k, netvista.ril_getuiccservicelock, o, r, rilapi/RIL_GetUiccServiceLock, t, v"
+ms.keywords: RIL_GetUiccServiceLock, RIL_GetUiccServiceLock method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccservicelock, rilapi/RIL_GetUiccServiceLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 75aace9d-3f1e-4002-82e6-d581903da4f9
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 3, :, C, D, E, G, GetEventIndexDescription method [Windows Debugging], GetEventIndexDescription method [Windows Debugging], IDebugControl3 interface, GetEventIndexDescription,IDebugControl3.GetEventIndexDescription, I, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetEventIndexDescription method, IDebugControl3::GetEventIndexDescription, IDebugControl_53afcbab-2b43-4b99-9b87-050fce6d495b.xml, b, c, d, dbgeng/IDebugControl3::GetEventIndexDescription, debugger.geteventindexdescription, e, g, i, l, n, o, p, r, s, t, u, v, x"
+ms.keywords: GetEventIndexDescription method [Windows Debugging], GetEventIndexDescription method [Windows Debugging], IDebugControl3 interface, GetEventIndexDescription,IDebugControl3.GetEventIndexDescription, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetEventIndexDescription method, IDebugControl3::GetEventIndexDescription, IDebugControl_53afcbab-2b43-4b99-9b87-050fce6d495b.xml, dbgeng/IDebugControl3::GetEventIndexDescription, debugger.geteventindexdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -139,11 +139,11 @@ The amount of descriptive information available for a particular target varies d
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
 
 
 

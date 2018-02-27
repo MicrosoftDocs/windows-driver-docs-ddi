@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e7c74c78-80e8-485b-bee6-18175e73ab9a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , ,, A, C, D, E, I, K, L, M, N, O, P, R, RILPERSODEACTIVATIONSTATEPARAMMASK, RILPERSODEACTIVATIONSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_PDS_ALL, RIL_PARAM_PDS_CK_ATTEMPTS, RIL_PARAM_PDS_PUK_ATTEMPTS, S, T, V, netvista.rilpersodeactivationstateparammask_2, rilapitypes/RILPERSODEACTIVATIONSTATEPARAMMASK, rilapitypes/RIL_PARAM_PDS_ALL, rilapitypes/RIL_PARAM_PDS_CK_ATTEMPTS, rilapitypes/RIL_PARAM_PDS_PUK_ATTEMPTS"
+ms.keywords: RILPERSODEACTIVATIONSTATEPARAMMASK, RILPERSODEACTIVATIONSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_PDS_ALL, RIL_PARAM_PDS_CK_ATTEMPTS, RIL_PARAM_PDS_PUK_ATTEMPTS, netvista.rilpersodeactivationstateparammask_2, rilapitypes/RILPERSODEACTIVATIONSTATEPARAMMASK, rilapitypes/RIL_PARAM_PDS_ALL, rilapitypes/RIL_PARAM_PDS_CK_ATTEMPTS, rilapitypes/RIL_PARAM_PDS_PUK_ATTEMPTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

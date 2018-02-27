@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4543671c-222f-4913-9f88-682af3e54273
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , E, F, I, L, R, RIL_SetExecutorRFState, RIL_SetExecutorRFState method [Network Drivers Starting with Windows Vista], S, _, a, c, e, netvista.ril_setexecutorrfstate, o, r, rilapi/RIL_SetExecutorRFState, t, u, x"
+ms.keywords: RIL_SetExecutorRFState, RIL_SetExecutorRFState method [Network Drivers Starting with Windows Vista], netvista.ril_setexecutorrfstate, rilapi/RIL_SetExecutorRFState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

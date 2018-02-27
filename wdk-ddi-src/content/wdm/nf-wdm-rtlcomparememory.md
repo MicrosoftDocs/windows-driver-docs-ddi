@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1801fc27-53bf-4ac5-be41-072dfd8b0696
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, M, R, RtlCompareMemory, RtlCompareMemory routine [Kernel-Mode Driver Architecture], a, e, k109_3deee1b7-0b3a-4d24-8c0f-5e428d051a02.xml, kernel.rtlcomparememory, l, m, o, p, r, t, wdm/RtlCompareMemory, y"
+ms.keywords: RtlCompareMemory, RtlCompareMemory routine [Kernel-Mode Driver Architecture], k109_3deee1b7-0b3a-4d24-8c0f-5e428d051a02.xml, kernel.rtlcomparememory, wdm/RtlCompareMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

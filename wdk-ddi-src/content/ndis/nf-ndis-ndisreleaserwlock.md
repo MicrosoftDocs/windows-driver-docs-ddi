@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e0859f3f-0acc-45b7-99b2-ef420cd06565
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , L, N, NdisReleaseRWLock, NdisReleaseRWLock function [Network Drivers Starting with Windows Vista], R, W, a, c, d, e, i, k, l, ndis/NdisReleaseRWLock, ndis_processor_group_ref_bbc47204-3cf6-4154-bafc-23c14cff452b.xml, netvista.ndisreleaserwlock, o, s"
+ms.keywords: NdisReleaseRWLock, NdisReleaseRWLock function [Network Drivers Starting with Windows Vista], ndis/NdisReleaseRWLock, ndis_processor_group_ref_bbc47204-3cf6-4154-bafc-23c14cff452b.xml, netvista.ndisreleaserwlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -130,11 +130,11 @@ The acquisition of an <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
-<a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">NdisAcquireRWLockWrite</a>
-
-
-
 <a href="..\ndis\ns-ndis-_lock_state_ex.md">LOCK_STATE_EX</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">NdisAcquireRWLockWrite</a>
 
 
 

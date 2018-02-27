@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: c57ef3e0-5d4d-4545-9c70-b2e11e5823ec
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PPCI_EXPRESS_LINK_QUIESCENT_INTERFACE, ,, A, C, E, F, I, K, L, N, P, PCI.pci_express_link_quiescent_interface_, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE structure [Buses], Q, R, S, T, U, X, _, _PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, wdm/"
+ms.keywords: "*PPCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI.pci_express_link_quiescent_interface_, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE structure [Buses], _PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, wdm/"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

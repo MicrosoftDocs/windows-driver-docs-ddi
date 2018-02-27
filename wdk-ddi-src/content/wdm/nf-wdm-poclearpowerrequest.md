@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d3754cca-81a4-42d2-a728-9f7e3270a4ee
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, P, PoClearPowerRequest, PoClearPowerRequest routine [Kernel-Mode Driver Architecture], R, a, e, kernel.poclearpowerrequest, l, o, portn_683a4a08-b6e3-4d6c-adfa-00d075db06f9.xml, q, r, s, t, u, w, wdm/PoClearPowerRequest"
+ms.keywords: PoClearPowerRequest, PoClearPowerRequest routine [Kernel-Mode Driver Architecture], kernel.poclearpowerrequest, portn_683a4a08-b6e3-4d6c-adfa-00d075db06f9.xml, wdm/PoClearPowerRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,11 +127,11 @@ The power manager maintains a count of the active requests for each power reques
 
 
 
-<a href="..\wdm\nf-wdm-pocreatepowerrequest.md">PoCreatePowerRequest</a>
-
-
-
 <a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a>
+
+
+
+<a href="..\wdm\nf-wdm-pocreatepowerrequest.md">PoCreatePowerRequest</a>
 
 
 

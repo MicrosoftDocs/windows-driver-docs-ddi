@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ea05cb82-8a50-48d8-a15c-b7ab58c01b30
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, D, F, I, IWDFIoQueue, IWDFIoQueue interface, StopSynchronously method, IWDFIoQueue::StopSynchronously, Q, S, StopSynchronously method, StopSynchronously method, IWDFIoQueue interface, StopSynchronously,IWDFIoQueue.StopSynchronously, UMDFQueueObjectRef_18e42c5a-ade3-4d81-8af1-bd19655650e7.xml, W, c, e, h, l, n, o, p, r, s, t, u, umdf.iwdfioqueue_stopsynchronously, wdf.iwdfioqueue_stopsynchronously, wudfddi/IWDFIoQueue::StopSynchronously, y"
+ms.keywords: IWDFIoQueue, IWDFIoQueue interface, StopSynchronously method, IWDFIoQueue::StopSynchronously, StopSynchronously method, StopSynchronously method, IWDFIoQueue interface, StopSynchronously,IWDFIoQueue.StopSynchronously, UMDFQueueObjectRef_18e42c5a-ade3-4d81-8af1-bd19655650e7.xml, umdf.iwdfioqueue_stopsynchronously, wdf.iwdfioqueue_stopsynchronously, wudfddi/IWDFIoQueue::StopSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

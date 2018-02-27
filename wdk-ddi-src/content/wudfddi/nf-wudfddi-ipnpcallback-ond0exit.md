@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 39eedeca-269d-4966-be1f-7cc5c9228a5c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., 0, :, C, D, E, I, IPnpCallback, IPnpCallback interface, OnD0Exit method, IPnpCallback::OnD0Exit, O, OnD0Exit method, OnD0Exit method, IPnpCallback interface, OnD0Exit,IPnpCallback.OnD0Exit, P, UMDFDeviceObjectRef_4c9ce2f7-92c8-4e0b-80fe-cfb06d1be83a.xml, a, b, c, i, k, l, n, p, t, umdf.ipnpcallback_ond0exit, wdf.ipnpcallback_ond0exit, wudfddi/IPnpCallback::OnD0Exit, x"
+ms.keywords: IPnpCallback, IPnpCallback interface, OnD0Exit method, IPnpCallback::OnD0Exit, OnD0Exit method, OnD0Exit method, IPnpCallback interface, OnD0Exit,IPnpCallback.OnD0Exit, UMDFDeviceObjectRef_4c9ce2f7-92c8-4e0b-80fe-cfb06d1be83a.xml, umdf.ipnpcallback_ond0exit, wdf.ipnpcallback_ond0exit, wudfddi/IPnpCallback::OnD0Exit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -106,11 +106,11 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallb
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a>
 
 
 

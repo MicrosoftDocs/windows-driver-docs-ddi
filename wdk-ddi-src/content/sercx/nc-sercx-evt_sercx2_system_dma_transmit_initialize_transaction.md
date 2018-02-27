@@ -144,11 +144,11 @@ The <b>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION</b> function type i
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2systemdmatransmitinitializetransactioncomplete.md">SerCx2SystemDmaTransmitInitializeTransactionComplete</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
 
 
 

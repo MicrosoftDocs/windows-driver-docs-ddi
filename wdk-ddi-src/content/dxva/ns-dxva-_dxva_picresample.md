@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 29b26400-9b27-4bff-9c7e-d612d250da30
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *LPDXVA_PicResample, ,, A, D, DXVA_PicResample, DXVA_PicResample structure [Display Devices], L, LPDXVA_PicResample, LPDXVA_PicResample structure pointer [Display Devices], P, R, V, X, _, _DXVA_PicResample, a, c, display.dxva_picresample, dxva/DXVA_PicResample, dxva/LPDXVA_PicResample, dxvaref_523256d7-10ef-4750-a065-bd4bb02c1fbe.xml, e, i, l, m, p, s"
+ms.keywords: "*LPDXVA_PicResample, DXVA_PicResample, DXVA_PicResample structure [Display Devices], LPDXVA_PicResample, LPDXVA_PicResample structure pointer [Display Devices], _DXVA_PicResample, display.dxva_picresample, dxva/DXVA_PicResample, dxva/LPDXVA_PicResample, dxvaref_523256d7-10ef-4750-a065-bd4bb02c1fbe.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

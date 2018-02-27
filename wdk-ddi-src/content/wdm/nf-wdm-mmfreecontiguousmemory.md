@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 485c9b03-eb45-4c86-9292-ccd51ba7b080
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, F, M, MmFreeContiguousMemory, MmFreeContiguousMemory routine [Kernel-Mode Driver Architecture], e, g, i, k106_1b930a75-7382-4a6c-a638-3e7675f43f83.xml, kernel.mmfreecontiguousmemory, m, n, o, r, s, t, u, wdm/MmFreeContiguousMemory, y"
+ms.keywords: MmFreeContiguousMemory, MmFreeContiguousMemory routine [Kernel-Mode Driver Architecture], k106_1b930a75-7382-4a6c-a638-3e7675f43f83.xml, kernel.mmfreecontiguousmemory, wdm/MmFreeContiguousMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

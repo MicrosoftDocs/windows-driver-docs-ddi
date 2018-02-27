@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 858fb84a-8df8-4748-ab09-3f7c4aca905c
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, ClfsLsnNull, ClfsLsnNull routine [Kernel-Mode Driver Architecture], Clfs_26a9c0db-2336-4151-9de0-81a58ed9e2f0.xml, L, N, f, kernel.clfslsnnull, l, n, s, u, wdm/ClfsLsnNull"
+ms.keywords: ClfsLsnNull, ClfsLsnNull routine [Kernel-Mode Driver Architecture], Clfs_26a9c0db-2336-4151-9de0-81a58ed9e2f0.xml, kernel.clfslsnnull, wdm/ClfsLsnNull
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,7 +94,7 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfslsnequal.md">ClfsLsnEqual</a>
+<a href="..\wdm\nf-wdm-clfslsnless.md">ClfsLsnLess</a>
 
 
 
@@ -102,7 +102,7 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
-<a href="..\wdm\nf-wdm-clfslsnless.md">ClfsLsnLess</a>
+<a href="..\wdm\nf-wdm-clfslsnequal.md">ClfsLsnEqual</a>
 
 
 

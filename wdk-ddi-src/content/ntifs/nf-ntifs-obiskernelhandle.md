@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8ebc3b7f-5b4b-4e92-95fe-1918b51d27ad
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , H, I, K, O, ObIsKernelHandle, ObIsKernelHandle routine [Installable File System Drivers], a, b, d, e, ifsk.obiskernelhandle, l, n, ntifs/ObIsKernelHandle, obref_e80e117f-6001-4c6d-980c-413e538f3bb2.xml, r, s"
+ms.keywords: ObIsKernelHandle, ObIsKernelHandle routine [Installable File System Drivers], ifsk.obiskernelhandle, ntifs/ObIsKernelHandle, obref_e80e117f-6001-4c6d-980c-413e538f3bb2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

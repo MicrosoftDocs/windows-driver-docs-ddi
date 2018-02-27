@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 75c0f546-1a58-45e8-a3eb-3075f07c426b
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PHID_MINIDRIVER_REGISTRATION, ,, A, D, E, G, H, HID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION structure [Human Input Devices], I, M, N, O, P, PHID_MINIDRIVER_REGISTRATION, PHID_MINIDRIVER_REGISTRATION structure pointer [Human Input Devices], R, S, T, V, _, _HID_MINIDRIVER_REGISTRATION, hid.hid_minidriver_registration, hidport/HID_MINIDRIVER_REGISTRATION, hidport/PHID_MINIDRIVER_REGISTRATION, hidstrct_d0f637a8-58c0-4d83-9a2f-2e14761b6183.xml"
+ms.keywords: "*PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION structure [Human Input Devices], PHID_MINIDRIVER_REGISTRATION, PHID_MINIDRIVER_REGISTRATION structure pointer [Human Input Devices], _HID_MINIDRIVER_REGISTRATION, hid.hid_minidriver_registration, hidport/HID_MINIDRIVER_REGISTRATION, hidport/PHID_MINIDRIVER_REGISTRATION, hidstrct_d0f637a8-58c0-4d83-9a2f-2e14761b6183.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,11 +113,11 @@ When a HID minidriver calls <a href="..\hidport\nf-hidport-hidregisterminidriver
 
 ## -see-also
 
-<a href="..\hidport\nf-hidport-hidregisterminidriver.md">HidRegisterMinidriver</a>
-
-
-
 <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+
+
+
+<a href="..\hidport\nf-hidport-hidregisterminidriver.md">HidRegisterMinidriver</a>
 
 
 

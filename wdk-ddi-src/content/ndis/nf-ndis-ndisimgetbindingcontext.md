@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fc0668b3-9242-4d30-9dc9-820f6d596d6c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , B, C, G, I, M, N, NdisIMGetBindingContext, NdisIMGetBindingContext function [Network Drivers Starting with Windows Vista], d, e, g, i, intermediate_ref_ef5b6cf4-209a-4e51-be20-2e0e7bcc1ac8.xml, n, ndis/NdisIMGetBindingContext, netvista.ndisimgetbindingcontext, o, s, t, x"
+ms.keywords: NdisIMGetBindingContext, NdisIMGetBindingContext function [Network Drivers Starting with Windows Vista], intermediate_ref_ef5b6cf4-209a-4e51-be20-2e0e7bcc1ac8.xml, ndis/NdisIMGetBindingContext, netvista.ndisimgetbindingcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,16 +116,16 @@ All protocol drivers that call
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
-   NdisIMInitializeDeviceInstanceEx</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+   NdisIMInitializeDeviceInstanceEx</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ab8c19c8-73c0-4c70-9a5d-9cf9d182157d
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, ComOther_6805cc12-0d46-4114-a40d-54c7e32b3c7c.xml, D, G, I, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], OutputAsType method, IDebugSymbolGroup2 interface [Windows Debugging], OutputAsType method, IDebugSymbolGroup2::OutputAsType, IDebugSymbolGroup::OutputAsType, O, OutputAsType method [Windows Debugging], OutputAsType method [Windows Debugging], IDebugSymbolGroup interface, OutputAsType method [Windows Debugging], IDebugSymbolGroup2 interface, OutputAsType,IDebugSymbolGroup.OutputAsType, S, T, b, dbgeng/IDebugSymbolGroup2::OutputAsType, dbgeng/IDebugSymbolGroup::OutputAsType, debugger.outputastype, e, g, l, m, o, p, r, s, t, u, y"
+ms.keywords: ComOther_6805cc12-0d46-4114-a40d-54c7e32b3c7c.xml, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], OutputAsType method, IDebugSymbolGroup2 interface [Windows Debugging], OutputAsType method, IDebugSymbolGroup2::OutputAsType, IDebugSymbolGroup::OutputAsType, OutputAsType method [Windows Debugging], OutputAsType method [Windows Debugging], IDebugSymbolGroup interface, OutputAsType method [Windows Debugging], IDebugSymbolGroup2 interface, OutputAsType,IDebugSymbolGroup.OutputAsType, dbgeng/IDebugSymbolGroup2::OutputAsType, dbgeng/IDebugSymbolGroup::OutputAsType, debugger.outputastype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -122,7 +122,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543271">ExpandSymbol</a>
 
 
 
@@ -134,7 +134,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543271">ExpandSymbol</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 

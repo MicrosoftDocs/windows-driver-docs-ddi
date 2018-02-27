@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eb96dd47-300a-49b7-b3c3-ee3bcb6662ba
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 3, :, C, D, E, G, GetNumberExpressionSyntaxes method [Windows Debugging], GetNumberExpressionSyntaxes method [Windows Debugging], IDebugControl3 interface, GetNumberExpressionSyntaxes,IDebugControl3.GetNumberExpressionSyntaxes, I, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetNumberExpressionSyntaxes method, IDebugControl3::GetNumberExpressionSyntaxes, IDebugControl_af12dddf-1d15-4abf-8500-8beab99b69ea.xml, N, S, a, b, dbgeng/IDebugControl3::GetNumberExpressionSyntaxes, debugger.getnumberexpressionsyntaxes, e, g, i, l, m, n, o, p, r, s, t, u, x, y"
+ms.keywords: GetNumberExpressionSyntaxes method [Windows Debugging], GetNumberExpressionSyntaxes method [Windows Debugging], IDebugControl3 interface, GetNumberExpressionSyntaxes,IDebugControl3.GetNumberExpressionSyntaxes, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetNumberExpressionSyntaxes method, IDebugControl3::GetNumberExpressionSyntaxes, IDebugControl_af12dddf-1d15-4abf-8500-8beab99b69ea.xml, dbgeng/IDebugControl3::GetNumberExpressionSyntaxes, debugger.getnumberexpressionsyntaxes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -106,15 +106,15 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546708">GetExpressionSyntaxNames</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
 
 

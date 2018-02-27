@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B4124FF4-50CC-474A-B42F-17BCF698AB59
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , M, R, T, TmRenameTransactionManager, TmRenameTransactionManager routine [Kernel-Mode Driver Architecture], a, c, e, g, i, kernel.tmrenametransactionmanager_, m, n, o, r, s, t, wdm/TmRenameTransactionManager"
+ms.keywords: TmRenameTransactionManager, TmRenameTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tmrenametransactionmanager_, wdm/TmRenameTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

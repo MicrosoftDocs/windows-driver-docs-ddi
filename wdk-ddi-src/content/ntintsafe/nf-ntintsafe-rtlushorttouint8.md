@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 79D98E31-96A2-477B-83AE-C5EB419D482B
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 8, I, R, RtlUShortToUInt8, RtlUShortToUInt8 function [Kernel-Mode Driver Architecture], S, T, U, h, kernel.rtlushorttouint8, l, n, ntintsafe/RtlUShortToUInt8, o, r, t"
+ms.keywords: RtlUShortToUInt8, RtlUShortToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlushorttouint8, ntintsafe/RtlUShortToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

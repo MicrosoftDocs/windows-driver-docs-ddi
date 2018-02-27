@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a9c1d1d7-4222-4c8c-92eb-497d13952bed
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, C, Close method, Close method, IWDFDriverCreatedFile interface, Close,IWDFDriverCreatedFile.Close, D, F, I, IWDFDriverCreatedFile, IWDFDriverCreatedFile interface, Close method, IWDFDriverCreatedFile::Close, UMDFDriverCreatedFileObjectRef_52a9f370-6f1d-4d62-84de-0b56a61b95fc.xml, W, a, d, e, i, l, o, r, s, t, umdf.iwdfdrivercreatedfile_close, v, wdf.iwdfdrivercreatedfile_close, wudfddi/IWDFDriverCreatedFile::Close"
+ms.keywords: Close method, Close method, IWDFDriverCreatedFile interface, Close,IWDFDriverCreatedFile.Close, IWDFDriverCreatedFile, IWDFDriverCreatedFile interface, Close method, IWDFDriverCreatedFile::Close, UMDFDriverCreatedFileObjectRef_52a9f370-6f1d-4d62-84de-0b56a61b95fc.xml, umdf.iwdfdrivercreatedfile_close, wdf.iwdfdrivercreatedfile_close, wudfddi/IWDFDriverCreatedFile::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -90,11 +90,11 @@ For more information, see <a href="https://msdn.microsoft.com/84b677b4-fddf-4f06
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558828">IWDFDevice::CreateWdfFile</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdrivercreatedfile.md">IWDFDriverCreatedFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558828">IWDFDevice::CreateWdfFile</a>
 
 
 

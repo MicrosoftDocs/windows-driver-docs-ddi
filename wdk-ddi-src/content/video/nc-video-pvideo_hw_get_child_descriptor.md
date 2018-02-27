@@ -245,7 +245,7 @@ Write a 32-bit value in <i>UId</i> that uniquely identifies the child device bei
 
 
 
-<a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
+<a href="..\video\nf-video-videoportenumeratechildren.md">VideoPortEnumerateChildren</a>
 
 
 
@@ -253,11 +253,11 @@ Write a 32-bit value in <i>UId</i> that uniquely identifies the child device bei
 
 
 
+<a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
+
+
+
 <a href="..\video\nc-video-pvideo_hw_power_get.md">HwVidGetPowerState</a>
-
-
-
-<a href="..\video\nf-video-videoportenumeratechildren.md">VideoPortEnumerateChildren</a>
 
 
 

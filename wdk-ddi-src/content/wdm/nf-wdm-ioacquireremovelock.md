@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 46398050-7f06-4d64-8b27-12e529884cb2
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, I, IoAcquireRemoveLock, IoAcquireRemoveLock routine [Kernel-Mode Driver Architecture], L, R, c, e, i, k, k104_3df0773a-09a7-40cd-8e32-58d89cf551b1.xml, kernel.ioacquireremovelock, m, o, q, r, u, v, wdm/IoAcquireRemoveLock"
+ms.keywords: IoAcquireRemoveLock, IoAcquireRemoveLock routine [Kernel-Mode Driver Architecture], k104_3df0773a-09a7-40cd-8e32-58d89cf551b1.xml, kernel.ioacquireremovelock, wdm/IoAcquireRemoveLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

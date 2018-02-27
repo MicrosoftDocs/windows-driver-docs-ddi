@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0af0685c-d3a3-4c76-8fca-fb38f60411bf
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PISECURITY_DESCRIPTOR, ,, C, D, E, I, O, P, R, S, SECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR structure [Kernel-Mode Driver Architecture], T, U, Y, _, _SECURITY_DESCRIPTOR, kernel.security_descriptor, kstruct_d_0b8cd06a-644b-40a4-b2bb-6c8c74d63db8.xml, wdm/SECURITY_DESCRIPTOR"
+ms.keywords: "*PISECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR structure [Kernel-Mode Driver Architecture], _SECURITY_DESCRIPTOR, kernel.security_descriptor, kstruct_d_0b8cd06a-644b-40a4-b2bb-6c8c74d63db8.xml, wdm/SECURITY_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -61,11 +61,15 @@ The <b>SECURITY_DESCRIPTOR</b> structure specifies the security information that
 
 
 
+<a href="..\wdm\nf-wdm-obgetobjectsecurity.md">ObGetObjectSecurity</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreleaseobjectsecurity.md">ObReleaseObjectSecurity</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
 
 
 
@@ -77,15 +81,11 @@ The <b>SECURITY_DESCRIPTOR</b> structure specifies the security information that
 
 
 
-<a href="..\wdm\nf-wdm-obgetobjectsecurity.md">ObGetObjectSecurity</a>
-
-
-
 <a href="..\wdm\nf-wdm-sedeassignsecurity.md">SeDeassignSecurity</a>
 
 
 
-<a href="..\wdm\nf-wdm-obreleaseobjectsecurity.md">ObReleaseObjectSecurity</a>
+<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5c501305-fa5f-4466-9a9a-83f072d904b3
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, E, F, I, IPrintOemUI, IPrintOemUI interface [Print Devices], UpdateExternalFonts method, IPrintOemUI::UpdateExternalFonts, O, P, U, UpdateExternalFonts method [Print Devices], UpdateExternalFonts method [Print Devices], IPrintOemUI interface, UpdateExternalFonts,IPrintOemUI.UpdateExternalFonts, a, d, e, i, l, m, n, o, p, prcomoem/IPrintOemUI::UpdateExternalFonts, print.iprintoemui_updateexternalfonts, print_unidrv-pscript_ui_e9f50923-c566-4e7f-997e-5788602d1083.xml, r, s, t, x"
+ms.keywords: IPrintOemUI, IPrintOemUI interface [Print Devices], UpdateExternalFonts method, IPrintOemUI::UpdateExternalFonts, UpdateExternalFonts method [Print Devices], UpdateExternalFonts method [Print Devices], IPrintOemUI interface, UpdateExternalFonts,IPrintOemUI.UpdateExternalFonts, prcomoem/IPrintOemUI::UpdateExternalFonts, print.iprintoemui_updateexternalfonts, print_unidrv-pscript_ui_e9f50923-c566-4e7f-997e-5788602d1083.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

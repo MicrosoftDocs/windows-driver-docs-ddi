@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 616a0edd-d769-411d-bc94-57ba18a00c4d
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, I, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvDeleteItem method, IWiaMiniDrv::drvDeleteItem, M, MiniDrv_7e3949ae-f170-4ccc-a139-fecaf2e97e41.xml, W, a, d, drvDeleteItem method [Imaging Devices], drvDeleteItem method [Imaging Devices], IWiaMiniDrv interface, drvDeleteItem,IWiaMiniDrv.drvDeleteItem, e, i, image.iwiaminidrv_drvdeleteitem, l, m, n, r, t, v, wiamindr_lh/IWiaMiniDrv::drvDeleteItem"
+ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvDeleteItem method, IWiaMiniDrv::drvDeleteItem, MiniDrv_7e3949ae-f170-4ccc-a139-fecaf2e97e41.xml, drvDeleteItem method [Imaging Devices], drvDeleteItem method [Imaging Devices], IWiaMiniDrv interface, drvDeleteItem,IWiaMiniDrv.drvDeleteItem, image.iwiaminidrv_drvdeleteitem, wiamindr_lh/IWiaMiniDrv::drvDeleteItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,14 +87,14 @@ HRESULT drvDeleteItem(
 
 
 
-#### - pWiasContext [in]
-
-Pointer to a WIA item context.
-
-
 #### - lFlags [in]
 
 Is currently unused. 
+
+
+#### - pWiasContext [in]
+
+Pointer to a WIA item context.
 
 
 #### - plDevErrVal [out]

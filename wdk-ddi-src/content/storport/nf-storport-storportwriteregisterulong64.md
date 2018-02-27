@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FFBC7A27-B980-49AF-9207-237E0F0292FA
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 4, 6, P, R, S, StorPortWriteRegisterUlong64, StorPortWriteRegisterUlong64 routine [Storage Devices], U, W, e, g, i, l, n, o, r, s, storage.storportwriteregisterulong64, storport/StorPortWriteRegisterUlong64, t"
+ms.keywords: StorPortWriteRegisterUlong64, StorPortWriteRegisterUlong64 routine [Storage Devices], storage.storportwriteregisterulong64, storport/StorPortWriteRegisterUlong64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

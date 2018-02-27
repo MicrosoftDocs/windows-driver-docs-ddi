@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5D0DD219-8D81-4F72-B327-119A45CC35B4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , *, *PWWAN_TDSCDMA_SERVING_CELL_INFO, ,, A, C, D, E, F, G, I, L, M, N, O, P, PWWAN_TDSCDMA_SERVING_CELL_INFO, PWWAN_TDSCDMA_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], R, S, T, V, W, WWAN_TDSCDMA_SERVING_CELL_INFO, WWAN_TDSCDMA_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], _, _WWAN_TDSCDMA_SERVING_CELL_INFO, netvista.wwan_tdscdma_serving_cell_info, wwan/PWWAN_TDSCDMA_SERVING_CELL_INFO, wwan/WWAN_TDSCDMA_SERVING_CELL_INFO"
+ms.keywords: "*PWWAN_TDSCDMA_SERVING_CELL_INFO, PWWAN_TDSCDMA_SERVING_CELL_INFO, PWWAN_TDSCDMA_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_TDSCDMA_SERVING_CELL_INFO, WWAN_TDSCDMA_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_TDSCDMA_SERVING_CELL_INFO, netvista.wwan_tdscdma_serving_cell_info, wwan/PWWAN_TDSCDMA_SERVING_CELL_INFO, wwan/WWAN_TDSCDMA_SERVING_CELL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -141,6 +141,10 @@ The data buffer containing <i>ProviderId</i>.
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl.md">WWAN_TDSCDMA_MRL</a>
+
+
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
 
@@ -150,10 +154,6 @@ The data buffer containing <i>ProviderId</i>.
 
 
 <a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl_info.md">WWAN_TDSCDMA_MRL_INFO</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl.md">WWAN_TDSCDMA_MRL</a>
 
 
 

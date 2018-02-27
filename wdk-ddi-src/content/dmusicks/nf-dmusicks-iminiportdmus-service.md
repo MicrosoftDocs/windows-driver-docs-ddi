@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a3f8d3f2-180c-454b-8e15-57c479c00db9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, D, I, IMiniportDMus, IMiniportDMus interface [Audio Devices], Service method, IMiniportDMus::Service, M, S, Service method [Audio Devices], Service method [Audio Devices], IMiniportDMus interface, Service,IMiniportDMus.Service, audio.iminiportdmus_service, audmp-routines_0c872bc5-12b7-4e9d-b6ea-0da47cd41483.xml, c, dmusicks/IMiniportDMus::Service, e, i, n, o, p, r, s, t, u, v"
+ms.keywords: IMiniportDMus, IMiniportDMus interface [Audio Devices], Service method, IMiniportDMus::Service, Service method [Audio Devices], Service method [Audio Devices], IMiniportDMus interface, Service,IMiniportDMus.Service, audio.iminiportdmus_service, audmp-routines_0c872bc5-12b7-4e9d-b6ea-0da47cd41483.xml, dmusicks/IMiniportDMus::Service
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -97,11 +97,11 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
-
-
-
 <a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
 
 
 

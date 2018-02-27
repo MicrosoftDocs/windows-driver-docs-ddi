@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 291b1fa9-5f42-49b6-b6de-20054a832bb2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , A, R, RtlAddAce, RtlAddAce routine [Installable File System Drivers], c, d, e, ifsk.rtladdace, l, ntifs/RtlAddAce, rtlref_798d31d8-c233-4154-981d-a84cfdd95045.xml, t"
+ms.keywords: RtlAddAce, RtlAddAce routine [Installable File System Drivers], ifsk.rtladdace, ntifs/RtlAddAce, rtlref_798d31d8-c233-4154-981d-a84cfdd95045.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -203,14 +203,6 @@ For more information about security and access control, see the Microsoft Window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtldeleteace.md">RtlDeleteAce</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
 
 
@@ -220,6 +212,14 @@ For more information about security and access control, see the Microsoft Window
 
 
 <a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtldeleteace.md">RtlDeleteAce</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 
 

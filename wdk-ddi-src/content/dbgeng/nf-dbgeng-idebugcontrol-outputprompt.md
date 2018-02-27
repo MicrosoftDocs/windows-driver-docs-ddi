@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 463d6fbd-cbe4-4de1-a01a-52a5002f24b8
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, D, I, IDebugControl, IDebugControl interface [Windows Debugging], OutputPrompt method, IDebugControl2 interface [Windows Debugging], OutputPrompt method, IDebugControl2::OutputPrompt, IDebugControl3 interface [Windows Debugging], OutputPrompt method, IDebugControl3::OutputPrompt, IDebugControl::OutputPrompt, IDebugControl_bb972181-80f5-4c7a-8705-919273529eee.xml, O, OutputPrompt method [Windows Debugging], OutputPrompt method [Windows Debugging], IDebugControl interface, OutputPrompt method [Windows Debugging], IDebugControl2 interface, OutputPrompt method [Windows Debugging], IDebugControl3 interface, OutputPrompt,IDebugControl.OutputPrompt, P, b, dbgeng/IDebugControl2::OutputPrompt, dbgeng/IDebugControl3::OutputPrompt, dbgeng/IDebugControl::OutputPrompt, debugger.outputprompt, e, g, l, m, n, o, p, r, t, u"
+ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], OutputPrompt method, IDebugControl2 interface [Windows Debugging], OutputPrompt method, IDebugControl2::OutputPrompt, IDebugControl3 interface [Windows Debugging], OutputPrompt method, IDebugControl3::OutputPrompt, IDebugControl::OutputPrompt, IDebugControl_bb972181-80f5-4c7a-8705-919273529eee.xml, OutputPrompt method [Windows Debugging], OutputPrompt method [Windows Debugging], IDebugControl interface, OutputPrompt method [Windows Debugging], IDebugControl2 interface, OutputPrompt method [Windows Debugging], IDebugControl3 interface, OutputPrompt,IDebugControl.OutputPrompt, dbgeng/IDebugControl2::OutputPrompt, dbgeng/IDebugControl3::OutputPrompt, dbgeng/IDebugControl::OutputPrompt, debugger.outputprompt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -314,15 +314,7 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
 
 
 
@@ -330,11 +322,19 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
 
 
 

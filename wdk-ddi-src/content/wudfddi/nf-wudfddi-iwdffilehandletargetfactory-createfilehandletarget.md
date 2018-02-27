@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 579a2cef-1e37-426c-9f69-8766dc9011ba
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, C, CreateFileHandleTarget method, CreateFileHandleTarget method, IWDFFileHandleTargetFactory interface, CreateFileHandleTarget,IWDFFileHandleTargetFactory.CreateFileHandleTarget, D, F, H, I, IWDFFileHandleTargetFactory, IWDFFileHandleTargetFactory interface, CreateFileHandleTarget method, IWDFFileHandleTargetFactory::CreateFileHandleTarget, T, UMDFDeviceObjectRef_4a3fcfeb-e1a1-4375-8bd5-bdd75c36c454.xml, W, a, c, d, e, g, i, l, n, o, r, t, umdf.iwdffilehandletargetfactory_createfilehandletarget, wdf.iwdffilehandletargetfactory_createfilehandletarget, wudfddi/IWDFFileHandleTargetFactory::CreateFileHandleTarget, y"
+ms.keywords: CreateFileHandleTarget method, CreateFileHandleTarget method, IWDFFileHandleTargetFactory interface, CreateFileHandleTarget,IWDFFileHandleTargetFactory.CreateFileHandleTarget, IWDFFileHandleTargetFactory, IWDFFileHandleTargetFactory interface, CreateFileHandleTarget method, IWDFFileHandleTargetFactory::CreateFileHandleTarget, UMDFDeviceObjectRef_4a3fcfeb-e1a1-4375-8bd5-bdd75c36c454.xml, umdf.iwdffilehandletargetfactory_createfilehandletarget, wdf.iwdffilehandletargetfactory_createfilehandletarget, wudfddi/IWDFFileHandleTargetFactory::CreateFileHandleTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -196,11 +196,11 @@ if (SUCCEEDED(hr)) {
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
 
 
 

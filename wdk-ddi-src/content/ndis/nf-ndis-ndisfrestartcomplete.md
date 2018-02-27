@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 84685763-e7d8-4184-afa3-83efb4a0d3d7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, F, N, NdisFRestartComplete, NdisFRestartComplete function [Network Drivers Starting with Windows Vista], R, a, d, e, filter_ndis_functions_ref_592af2b7-2172-4a8d-aa7b-315f7c321705.xml, i, l, m, ndis/NdisFRestartComplete, netvista.ndisfrestartcomplete, o, p, r, s, t"
+ms.keywords: NdisFRestartComplete, NdisFRestartComplete function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_592af2b7-2172-4a8d-aa7b-315f7c321705.xml, ndis/NdisFRestartComplete, netvista.ndisfrestartcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,15 +140,15 @@ A filter driver can resume indicating received network data immediately after ND
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-
-
 <a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 

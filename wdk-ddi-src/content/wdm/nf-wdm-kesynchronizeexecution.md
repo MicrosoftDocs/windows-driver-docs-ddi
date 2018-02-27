@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f378a30f-7e6b-4c81-b98b-a5b40e9a1a17
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , E, K, KeSynchronizeExecution, KeSynchronizeExecution routine [Kernel-Mode Driver Architecture], S, c, e, h, i, k105_2abf2438-6849-4069-8571-7d24d348056f.xml, kernel.kesynchronizeexecution, n, o, r, t, u, wdm/KeSynchronizeExecution, x, y, z"
+ms.keywords: KeSynchronizeExecution, KeSynchronizeExecution routine [Kernel-Mode Driver Architecture], k105_2abf2438-6849-4069-8571-7d24d348056f.xml, kernel.kesynchronizeexecution, wdm/KeSynchronizeExecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,11 +125,11 @@ Starting with Windows 8, a driver can call <b>KeSynchronizeExecution</b> to syn
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 014ca1bd-6e18-4110-aefb-ec36e816f013
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , H, K, KsHandleSizedListQuery, KsHandleSizedListQuery function [Streaming Media Devices], L, Q, S, a, d, e, i, ks/KsHandleSizedListQuery, ksfunc_31d10c58-ce60-43ca-aae7-27a0bd83d2e2.xml, l, n, r, s, stream.kshandlesizedlistquery, t, u, y, z"
+ms.keywords: KsHandleSizedListQuery, KsHandleSizedListQuery function [Streaming Media Devices], ks/KsHandleSizedListQuery, ksfunc_31d10c58-ce60-43ca-aae7-27a0bd83d2e2.xml, stream.kshandlesizedlistquery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

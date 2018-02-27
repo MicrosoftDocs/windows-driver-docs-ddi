@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 959a78e2-b5c8-47b0-97b1-52d9565a6dab
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, I, IKsPropertySet, IKsPropertySet interface [Streaming Media Devices], Set method, IKsPropertySet::Set, K, P, S, Set method [Streaming Media Devices], Set method [Streaming Media Devices], IKsPropertySet interface, Set,IKsPropertySet.Set, e, ksproxy/IKsPropertySet::Set, ksproxy_957cf2a5-1dc6-4e89-86c5-b2f01d913b66.xml, o, p, r, s, stream.ikspropertyset_set, t, y"
+ms.keywords: IKsPropertySet, IKsPropertySet interface [Streaming Media Devices], Set method, IKsPropertySet::Set, Set method [Streaming Media Devices], Set method [Streaming Media Devices], IKsPropertySet interface, Set,IKsPropertySet.Set, ksproxy/IKsPropertySet::Set, ksproxy_957cf2a5-1dc6-4e89-86c5-b2f01d913b66.xml, stream.ikspropertyset_set
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -104,9 +104,9 @@ HRESULT Set(
 
 
 
-#### - PropSet [in]
+#### - DataLength [in]
 
-GUID that identifies the property set.
+Size, in bytes, of the buffer at <i>PropertyData</i>. 
 
 
 #### - Id [in]
@@ -124,14 +124,14 @@ Pointer to instance data for the property.
 Size, in bytes, of the buffer at <i>InstanceData</i>. 
 
 
+#### - PropSet [in]
+
+GUID that identifies the property set.
+
+
 #### - PropertyData [in]
 
 Pointer to a buffer that contains the value of the property to set. 
-
-
-#### - DataLength [in]
-
-Size, in bytes, of the buffer at <i>PropertyData</i>. 
 
 
 ## -returns

@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 0fe82f72-e3dd-49de-a12a-1997e9651bac
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , D, DbgPrintEx, DbgPrintEx routine [Driver Development Tools], DebugFns_0c93bbeb-9eb9-4c73-944f-565401dbb073.xml, E, P, b, devtest.dbgprintex, g, i, n, r, t, wdm/DbgPrintEx, x"
+ms.keywords: DbgPrintEx, DbgPrintEx routine [Driver Development Tools], DebugFns_0c93bbeb-9eb9-4c73-944f-565401dbb073.xml, devtest.dbgprintex, wdm/DbgPrintEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -153,11 +153,7 @@ There is no upper limit to the size of the <i>Format</i> string or the number of
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kdprintex.md">KdPrintEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
+<a href="..\wdm\nf-wdm-vdbgprintex.md">vDbgPrintEx</a>
 
 
 
@@ -165,7 +161,11 @@ There is no upper limit to the size of the <i>Format</i> string or the number of
 
 
 
-<a href="..\wdm\nf-wdm-vdbgprintex.md">vDbgPrintEx</a>
+<a href="..\wdm\nf-wdm-kdprintex.md">KdPrintEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
 
 
 

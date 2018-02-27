@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 525c0861-3537-4175-8415-7db13686dd7a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , *, *LPRILDEACTIVATEPERSOPARAMS, ,, A, C, D, E, I, L, M, O, P, R, RILDEACTIVATEPERSOPARAMS, RILDEACTIVATEPERSOPARAMS structure [Network Drivers Starting with Windows Vista], S, T, V, netvista.rildeactivatepersoparams_2, rilapitypes/RILDEACTIVATEPERSOPARAMS"
+ms.keywords: "*LPRILDEACTIVATEPERSOPARAMS, RILDEACTIVATEPERSOPARAMS, RILDEACTIVATEPERSOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeactivatepersoparams_2, rilapitypes/RILDEACTIVATEPERSOPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

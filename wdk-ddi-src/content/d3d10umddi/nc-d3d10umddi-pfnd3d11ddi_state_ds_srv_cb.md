@@ -84,11 +84,6 @@ void APIENTRY pfnStateDsSrvCb(
 
 
 
-#### - hRuntimeDevice [in]
-
- A handle to a context for the core Direct3D runtime. This handle is supplied to the driver in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function. 
-
-
 #### - Base [in]
 
  The beginning resource view for which the runtime should refresh state. 
@@ -97,6 +92,11 @@ void APIENTRY pfnStateDsSrvCb(
 #### - Count [in]
 
  The total number of resource views. The number can be -1, which specifies that the Direct3D runtime uses its high watermarks to substitute an optimal value (which is typically less than the maximum valid value for <i>Count</i>). However, no non-NULL binding exists in a slot larger than the optimal <i>Count</i> value.
+
+
+#### - hRuntimeDevice [in]
+
+ A handle to a context for the core Direct3D runtime. This handle is supplied to the driver in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function. 
 
 
 ## -returns

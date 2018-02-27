@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7d61402e-e248-4770-a828-9c266e528115
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, B, I, IBidiSpl2, IBidiSpl2 interface [Print Devices], SendRecvXMLString method, IBidiSpl2::SendRecvXMLString, L, M, R, S, SendRecvXMLString method [Print Devices], SendRecvXMLString method [Print Devices], IBidiSpl2 interface, SendRecvXMLString,IBidiSpl2.SendRecvXMLString, X, _win32_IBidiSpl2_SendRecvXMLString, bidispl/IBidiSpl2::SendRecvXMLString, c, d, e, g, gdi.ibidispl2_ibidispl2__sendrecvxmlstring, i, l, n, p, print.ibidispl2_ibidispl2__sendrecvxmlstring, r, t, v"
+ms.keywords: IBidiSpl2, IBidiSpl2 interface [Print Devices], SendRecvXMLString method, IBidiSpl2::SendRecvXMLString, SendRecvXMLString method [Print Devices], SendRecvXMLString method [Print Devices], IBidiSpl2 interface, SendRecvXMLString,IBidiSpl2.SendRecvXMLString, _win32_IBidiSpl2_SendRecvXMLString, bidispl/IBidiSpl2::SendRecvXMLString, gdi.ibidispl2_ibidispl2__sendrecvxmlstring, print.ibidispl2_ibidispl2__sendrecvxmlstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -132,11 +132,11 @@ Note that the <b>HRESULT</b> may contain a system error code that is defined in 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
+
+<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
 
 
 

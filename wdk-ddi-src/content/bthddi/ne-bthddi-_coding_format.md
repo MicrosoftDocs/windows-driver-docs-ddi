@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 3A97BBAF-47B0-4987-B5EC-2B3A40F2B42D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , *, *PCODING_FORMAT, ,, A, C, CODING_FORMAT, CODING_FORMAT enumeration [Bluetooth Devices], D, F, G, I, M, N, O, P, PCODING_FORMAT, PCODING_FORMAT enumeration pointer [Bluetooth Devices], R, T, _, _CODING_FORMAT, bltooth.coding_format, bthddi/, bthddi/CODING_FORMAT, bthddi/PCODING_FORMAT"
+ms.keywords: "*PCODING_FORMAT, CODING_FORMAT, CODING_FORMAT enumeration [Bluetooth Devices], PCODING_FORMAT, PCODING_FORMAT enumeration pointer [Bluetooth Devices], _CODING_FORMAT, bltooth.coding_format, bthddi/, bthddi/CODING_FORMAT, bthddi/PCODING_FORMAT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

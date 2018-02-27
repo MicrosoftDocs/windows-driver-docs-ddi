@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7c669708-9b5d-424f-ab6f-6e3498331c74
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PBDA_PID_UNMAP, ,, A, B, BDA_PID_UNMAP, BDA_PID_UNMAP structure [Streaming Media Devices], D, I, M, N, P, PBDA_PID_UNMAP, PBDA_PID_UNMAP structure pointer [Streaming Media Devices], U, _, _BDA_PID_UNMAP, bdaref_2ce4a3ed-4ca0-421f-9de6-6a07dffe0cbe.xml, bdatypes/BDA_PID_UNMAP, bdatypes/PBDA_PID_UNMAP, stream.bda_pid_unmap"
+ms.keywords: "*PBDA_PID_UNMAP, BDA_PID_UNMAP, BDA_PID_UNMAP structure [Streaming Media Devices], PBDA_PID_UNMAP, PBDA_PID_UNMAP structure pointer [Streaming Media Devices], _BDA_PID_UNMAP, bdaref_2ce4a3ed-4ca0-421f-9de6-6a07dffe0cbe.xml, bdatypes/BDA_PID_UNMAP, bdatypes/PBDA_PID_UNMAP, stream.bda_pid_unmap"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,15 +80,15 @@ Array of PIDs that identify packets to unmap from the output of a PID filter.
 
 ## -see-also
 
+<a href="..\bdatypes\ns-bdatypes-pid_map.md">PID_MAP</a>
+
+
+
 <a href="..\bdatypes\ns-bdatypes-_bda_pid_map.md">BDA_PID_MAP</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a>
-
-
-
-<a href="..\bdatypes\ns-bdatypes-pid_map.md">PID_MAP</a>
 
 
 

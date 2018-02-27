@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fa02a787-502c-48a3-a5e1-710d7513c42e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , B, DFRequestObjectRef_7b0c1902-f3a3-4b89-8a9d-3e05e1639fd3.xml, I, R, W, WdfRequestRetrieveInputBuffer, WdfRequestRetrieveInputBuffer method, d, e, f, i, kmdf.wdfrequestretrieveinputbuffer, n, p, q, r, s, t, u, v, wdf.wdfrequestretrieveinputbuffer, wdfrequest/WdfRequestRetrieveInputBuffer"
+ms.keywords: DFRequestObjectRef_7b0c1902-f3a3-4b89-8a9d-3e05e1639fd3.xml, WdfRequestRetrieveInputBuffer, WdfRequestRetrieveInputBuffer method, kmdf.wdfrequestretrieveinputbuffer, wdf.wdfrequestretrieveinputbuffer, wdfrequest/WdfRequestRetrieveInputBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

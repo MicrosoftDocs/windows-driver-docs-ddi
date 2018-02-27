@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ab16cfa1-24f6-434a-a687-07e19172f185
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , *, *PTCP_OFFLOAD_STATE_DELEGATED, ,, A, C, D, E, F, G, L, O, P, PTCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], S, T, TCP_OFFLOAD_STATE_DELEGATED, TCP_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], _, _TCP_OFFLOAD_STATE_DELEGATED, ndischimney/PTCP_OFFLOAD_STATE_DELEGATED, ndischimney/TCP_OFFLOAD_STATE_DELEGATED, netvista.tcp_offload_state_delegated, tcp_chim_struct_e835c163-e154-4b9c-b1bb-b658376fd89d.xml"
+ms.keywords: "*PTCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_DELEGATED, TCP_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATE_DELEGATED, ndischimney/PTCP_OFFLOAD_STATE_DELEGATED, ndischimney/TCP_OFFLOAD_STATE_DELEGATED, netvista.tcp_offload_state_delegated, tcp_chim_struct_e835c163-e154-4b9c-b1bb-b658376fd89d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -405,29 +405,6 @@ This variable is used only in an initiate offload or terminate offload operation
 
 
 
-#### - SendBacklogSize
-
-The offload target specifies this value to indicate the number of data bytes that the host stack
-       should have outstanding at the offload target for optimum performance. (This is the number of send
-       bytes that have been passed to the offload target but that have not yet been completed by the offload
-       target.) The specific variables and algorithm that the offload target uses to calculate the send
-       backlog size are implementation-specific. The send backlog size can be a function of the roundtrip
-       time (RTT) for the connection, the interface bandwidth, and other parameters. An offload target could,
-       for example, use the minimum of the bandwidth/delay product and the advertised received window. Note
-       however, that the send backlog size does not vary according to the number of data bytes that are
-       currently posted for transmission on the connection.
-
-The host stack can query the TCP delegated state for the connection to obtain the send backlog
-       size. In addition, the offload target can indicate a change in the send backlog size by calling the 
-       <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">
-       NdisTcpOffloadEventHandler</a> function.
-
-If the offload target does not support the send-backlog-size feature, it must write a value of
-       0xFFFFFFFF to 
-       <b>SendBacklogSize</b> when the TCP-delegated state for the connection is queried. The 
-       <b>SendBacklogSize</b> variable is not used in the terminate offload operation.
-
-
 #### - BufferedData
 
 A pointer to buffered receive data. The host stack can pass such data to the offload target when
@@ -449,6 +426,29 @@ The offload target specifies this value to indicate the number of receive data b
 If the offload target does not support the receive backlog size feature, it should write a value of
       0xFFFFFFFF to 
       <b>ReceiveBacklogSize</b> .
+
+
+#### - SendBacklogSize
+
+The offload target specifies this value to indicate the number of data bytes that the host stack
+       should have outstanding at the offload target for optimum performance. (This is the number of send
+       bytes that have been passed to the offload target but that have not yet been completed by the offload
+       target.) The specific variables and algorithm that the offload target uses to calculate the send
+       backlog size are implementation-specific. The send backlog size can be a function of the roundtrip
+       time (RTT) for the connection, the interface bandwidth, and other parameters. An offload target could,
+       for example, use the minimum of the bandwidth/delay product and the advertised received window. Note
+       however, that the send backlog size does not vary according to the number of data bytes that are
+       currently posted for transmission on the connection.
+
+The host stack can query the TCP delegated state for the connection to obtain the send backlog
+       size. In addition, the offload target can indicate a change in the send backlog size by calling the 
+       <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">
+       NdisTcpOffloadEventHandler</a> function.
+
+If the offload target does not support the send-backlog-size feature, it must write a value of
+       0xFFFFFFFF to 
+       <b>SendBacklogSize</b> when the TCP-delegated state for the connection is queried. The 
+       <b>SendBacklogSize</b> variable is not used in the terminate offload operation.
 
 
 ## -remarks
@@ -480,7 +480,7 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_DELEGATED structure is ass
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
+<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
 
 
 
@@ -488,11 +488,11 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_DELEGATED structure is ass
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
-
-
-
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
 
 
 
@@ -500,7 +500,7 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_DELEGATED structure is ass
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
+<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
 
 

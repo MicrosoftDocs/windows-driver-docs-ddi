@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 96992c25-4388-4069-9405-ebf3667c3103
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, C, D, E, EDTCancelRemoveDevice method [Windows Device Testing Framework], EDTCancelRemoveDevice method [Windows Device Testing Framework], IWDTFPNPActions2 interface, EDTCancelRemoveDevice,IWDTFPNPActions2.EDTCancelRemoveDevice, F, I, IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], EDTCancelRemoveDevice method, IWDTFPNPActions2::EDTCancelRemoveDevice, N, P, R, T, W, a, c, dtf.iwdtfpnpactions2_edtcancelremovedevice, e, i, l, m, n, o, s, t, v, wdtfpnpaction/IWDTFPNPActions2::EDTCancelRemoveDevice"
+ms.keywords: EDTCancelRemoveDevice method [Windows Device Testing Framework], EDTCancelRemoveDevice method [Windows Device Testing Framework], IWDTFPNPActions2 interface, EDTCancelRemoveDevice,IWDTFPNPActions2.EDTCancelRemoveDevice, IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], EDTCancelRemoveDevice method, IWDTFPNPActions2::EDTCancelRemoveDevice, dtf.iwdtfpnpactions2_edtcancelremovedevice, wdtfpnpaction/IWDTFPNPActions2::EDTCancelRemoveDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

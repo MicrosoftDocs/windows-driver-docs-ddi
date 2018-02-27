@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 925a5481-d626-4824-8cbe-4fc2a0a6ad92
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, E, I, InterlockedCompareExchange, InterlockedCompareExchange routine [Kernel-Mode Driver Architecture], a, c, d, e, g, h, k, k102_d40d8288-4c0d-43ed-af9f-3f9afabe1455.xml, kernel.interlockedcompareexchange, l, m, n, o, p, r, t, wdm/InterlockedCompareExchange, x"
+ms.keywords: InterlockedCompareExchange, InterlockedCompareExchange routine [Kernel-Mode Driver Architecture], k102_d40d8288-4c0d-43ed-af9f-3f9afabe1455.xml, kernel.interlockedcompareexchange, wdm/InterlockedCompareExchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,14 +91,14 @@ TBD
 
 
 
-#### - Exchange [in]
-
-Specifies the output value pointed to by <i>Destination</i> if the input value pointed to by <i>Destination</i> equals the value of <i>Comparand</i>. 
-
-
 #### - Comparand [in]
 
 Specifies the value that is compared with the input value pointed to by <i>Destination</i>.
+
+
+#### - Exchange [in]
+
+Specifies the output value pointed to by <i>Destination</i> if the input value pointed to by <i>Destination</i> equals the value of <i>Comparand</i>. 
 
 
 ## -returns
@@ -127,11 +127,7 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\miniport\nf-miniport-interlockedcompareexchangepointer.md">InterlockedCompareExchangePointer</a>
-
-
-
-<a href="..\miniport\nf-miniport-interlockedexchangepointer.md">InterlockedExchangePointer</a>
+<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
 
 
 
@@ -139,15 +135,19 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 
-<a href="..\miniport\nf-miniport-interlockedincrement.md">InterlockedIncrement</a>
+<a href="..\wdm\nf-wdm-interlockedcompareexchangepointer.md">InterlockedCompareExchangePointer</a>
 
 
 
-<a href="..\miniport\nf-miniport-interlockeddecrement.md">InterlockedDecrement</a>
+<a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
 
 
-<a href="..\miniport\nf-miniport-interlockedexchange.md">InterlockedExchange</a>
+<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedexchangepointer.md">InterlockedExchangePointer</a>
 
 
 

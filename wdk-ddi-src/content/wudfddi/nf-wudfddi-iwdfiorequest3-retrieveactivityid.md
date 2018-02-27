@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A90FCF3C-B648-4E97-887E-FCE58D7FA13A
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., 3, :, A, D, F, I, IWDFIoRequest3, IWDFIoRequest3 interface, RetrieveActivityId method, IWDFIoRequest3::RetrieveActivityId, R, RetrieveActivityId method, RetrieveActivityId method, IWDFIoRequest3 interface, RetrieveActivityId,IWDFIoRequest3.RetrieveActivityId, W, c, d, e, i, o, q, r, s, t, u, umdf.iwdfiorequest3_retrieveactivityid, v, wdf.iwdfiorequest3_retrieveactivityid, wudfddi/IWDFIoRequest3::RetrieveActivityId, y"
+ms.keywords: IWDFIoRequest3, IWDFIoRequest3 interface, RetrieveActivityId method, IWDFIoRequest3::RetrieveActivityId, RetrieveActivityId method, RetrieveActivityId method, IWDFIoRequest3 interface, RetrieveActivityId,IWDFIoRequest3.RetrieveActivityId, umdf.iwdfiorequest3_retrieveactivityid, wdf.iwdfiorequest3_retrieveactivityid, wudfddi/IWDFIoRequest3::RetrieveActivityId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -155,11 +155,11 @@ pNewRequest3-&gt;Release();
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
-
-
-
 <a href="https://msdn.microsoft.com/57CB3CED-FE46-4A74-9E23-82640B7EF1DC">IWDFIoRequest3::SetActivityId</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
 
 
 

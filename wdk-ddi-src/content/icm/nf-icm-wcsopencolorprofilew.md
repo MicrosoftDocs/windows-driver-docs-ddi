@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ecc573e6-c83c-4cf2-9dad-c3c75d9578eb
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, O, P, W, WcsOpenColorProfile, WcsOpenColorProfile function [Print Devices], WcsOpenColorProfileA, WcsOpenColorProfileW, c, colorfnc_d9a9eca5-5559-4579-a892-c75499627912.xml, e, f, i, icm/WcsOpenColorProfile, l, n, o, p, print.wcsopencolorprofile, r, s"
+ms.keywords: WcsOpenColorProfile, WcsOpenColorProfile function [Print Devices], WcsOpenColorProfileW, colorfnc_d9a9eca5-5559-4579-a892-c75499627912.xml, icm/WcsOpenColorProfile, print.wcsopencolorprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -167,9 +167,29 @@ A flag value that specifies whether to use the embedded WCS profile. This parame
  
 
 
-#### - pDMPProfile [in]
+##### - dwCreationMode.CREATE_ALWAYS
 
-A pointer to a profile structure that specifies a WCS device model profile (DMP). The <i>pDMPProfile</i> pointer can be freed as soon as the handle is created.
+Specifies that a new profile is to be created. If a profile already exists, it is overwritten.
+
+
+##### - dwCreationMode.CREATE_NEW
+
+Specifies that a new profile is to be created. The function fails if the profile already exists.
+
+
+##### - dwCreationMode.OPEN_ALWAYS
+
+Specifies that the profile is to be opened if an International Color Consortium (ICC) file exists. If an ICC profile does not exist, WCS creates a new ICC profile. The function will fail for WCS profiles if this flag is set and a WCS profile does not exist.
+
+
+##### - dwCreationMode.OPEN_EXISTING
+
+Specifies that the profile is to be opened. The function fails if the profile does not exist.
+
+
+##### - dwCreationMode.TRUNCATE_EXISTING
+
+Specifies that the profile is to be opened and truncated to zero bytes. The function fails if the profile does not exist.
 
 
 #### - dwDesiredAccess [in]
@@ -211,29 +231,9 @@ Specifies that other open operations can be performed on the profile for read ac
 Specifies that other open operations can be performed on the profile for write access. This flag value is ignored when a WCS profile is opened.
 
 
-##### - dwCreationMode.CREATE_NEW
+#### - pDMPProfile [in]
 
-Specifies that a new profile is to be created. The function fails if the profile already exists.
-
-
-##### - dwCreationMode.CREATE_ALWAYS
-
-Specifies that a new profile is to be created. If a profile already exists, it is overwritten.
-
-
-##### - dwCreationMode.OPEN_EXISTING
-
-Specifies that the profile is to be opened. The function fails if the profile does not exist.
-
-
-##### - dwCreationMode.OPEN_ALWAYS
-
-Specifies that the profile is to be opened if an International Color Consortium (ICC) file exists. If an ICC profile does not exist, WCS creates a new ICC profile. The function will fail for WCS profiles if this flag is set and a WCS profile does not exist.
-
-
-##### - dwCreationMode.TRUNCATE_EXISTING
-
-Specifies that the profile is to be opened and truncated to zero bytes. The function fails if the profile does not exist.
+A pointer to a profile structure that specifies a WCS device model profile (DMP). The <i>pDMPProfile</i> pointer can be freed as soon as the handle is created.
 
 
 ## -remarks

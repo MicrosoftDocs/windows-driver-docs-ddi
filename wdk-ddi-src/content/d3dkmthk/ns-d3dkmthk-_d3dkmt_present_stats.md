@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fd292f3c-2cf7-4f17-999b-a82b2a3a8e0e
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 3, A, D, D3DKMT_PRESENT_STATS, D3DKMT_PRESENT_STATS structure [Display Devices], E, K, M, N, OpenGL_Structs_181828f7-c22f-4f23-914d-83a8961cdefe.xml, P, R, S, T, _, _D3DKMT_PRESENT_STATS, d3dkmthk/D3DKMT_PRESENT_STATS, display.d3dkmt_present_stats"
+ms.keywords: D3DKMT_PRESENT_STATS, D3DKMT_PRESENT_STATS structure [Display Devices], OpenGL_Structs_181828f7-c22f-4f23-914d-83a8961cdefe.xml, _D3DKMT_PRESENT_STATS, d3dkmthk/D3DKMT_PRESENT_STATS, display.d3dkmt_present_stats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,11 +113,11 @@ Present statistics cannot work for windowed-mode devices. For windowed mode, eac
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtpresent.md">D3DKMTPresent</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_devicepresent_state.md">D3DKMT_DEVICEPRESENT_STATE</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtpresent.md">D3DKMTPresent</a>
 
 
 

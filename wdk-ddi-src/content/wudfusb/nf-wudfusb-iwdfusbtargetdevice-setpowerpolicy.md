@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e1b31df0-d383-43a3-bf9f-8874689cbf58
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, D, F, I, IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, SetPowerPolicy method, IWDFUsbTargetDevice::SetPowerPolicy, P, S, SetPowerPolicy method, SetPowerPolicy method, IWDFUsbTargetDevice interface, SetPowerPolicy,IWDFUsbTargetDevice.SetPowerPolicy, T, U, UMDFUSBref_fb6e31cc-0db6-4733-baea-d73514fb5160.xml, W, a, b, c, e, g, i, l, o, r, s, t, umdf.iwdfusbtargetdevice_setpowerpolicy, v, w, wdf.iwdfusbtargetdevice_setpowerpolicy, wudfusb/IWDFUsbTargetDevice::SetPowerPolicy, y"
+ms.keywords: IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, SetPowerPolicy method, IWDFUsbTargetDevice::SetPowerPolicy, SetPowerPolicy method, SetPowerPolicy method, IWDFUsbTargetDevice interface, SetPowerPolicy,IWDFUsbTargetDevice.SetPowerPolicy, UMDFUSBref_fb6e31cc-0db6-4733-baea-d73514fb5160.xml, umdf.iwdfusbtargetdevice_setpowerpolicy, wdf.iwdfusbtargetdevice_setpowerpolicy, wudfusb/IWDFUsbTargetDevice::SetPowerPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -156,7 +156,7 @@ The <b>SetPowerPolicy</b> method generates a UMDF request and synchronously send
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540309">WinUsb_SetPowerPolicy</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560379">IWDFUsbTargetDevice::RetrievePowerPolicy</a>
 
 
 
@@ -164,7 +164,7 @@ The <b>SetPowerPolicy</b> method generates a UMDF request and synchronously send
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560379">IWDFUsbTargetDevice::RetrievePowerPolicy</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540309">WinUsb_SetPowerPolicy</a>
 
 
 

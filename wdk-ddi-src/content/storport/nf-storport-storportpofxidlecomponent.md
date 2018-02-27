@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DF329B68-3995-4B38-8208-4C779B0626A6
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, F, I, P, S, StorPortPoFxIdleComponent, StorPortPoFxIdleComponent routine [Storage Devices], d, e, l, m, n, o, p, r, storage.storportpofxidlecomponent, storport/StorPortPoFxIdleComponent, t, x"
+ms.keywords: StorPortPoFxIdleComponent, StorPortPoFxIdleComponent routine [Storage Devices], storage.storportpofxidlecomponent, storport/StorPortPoFxIdleComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -206,11 +206,11 @@ Each call to <b>StorPortPoFxIdleComponent</b> must be matched with a previous ca
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
-
-
-
 <a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
+
+
+
+<a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
 
 
 

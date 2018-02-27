@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f43b702d-37a7-484d-8a18-fa190e9189b2
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, D, G, I, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], OutputAsTypeWide method, IDebugSymbolGroup2::OutputAsTypeWide, O, OutputAsTypeWide method [Windows Debugging], OutputAsTypeWide method [Windows Debugging], IDebugSymbolGroup2 interface, OutputAsTypeWide,IDebugSymbolGroup2.OutputAsTypeWide, S, T, W, b, d, dbgeng/IDebugSymbolGroup2::OutputAsTypeWide, debugger.outputastypewide, e, g, i, l, m, o, p, r, s, t, u, y"
+ms.keywords: IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], OutputAsTypeWide method, IDebugSymbolGroup2::OutputAsTypeWide, OutputAsTypeWide method [Windows Debugging], OutputAsTypeWide method [Windows Debugging], IDebugSymbolGroup2 interface, OutputAsTypeWide,IDebugSymbolGroup2.OutputAsTypeWide, dbgeng/IDebugSymbolGroup2::OutputAsTypeWide, debugger.outputastypewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -121,7 +121,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543271">ExpandSymbol</a>
 
 
 
@@ -129,7 +129,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543271">ExpandSymbol</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 

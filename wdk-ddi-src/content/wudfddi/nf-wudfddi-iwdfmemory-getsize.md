@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1ed699a3-20e5-4a1c-bce0-5a681bac9c39
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, D, F, G, GetSize method, GetSize method, IWDFMemory interface, GetSize,IWDFMemory.GetSize, I, IWDFMemory, IWDFMemory interface, GetSize method, IWDFMemory::GetSize, M, S, UMDFMemoryObjectRef_24a9b921-5760-41fd-8b01-6a21e6be71ed.xml, W, e, i, m, o, r, t, umdf.iwdfmemory_getsize, wdf.iwdfmemory_getsize, wudfddi/IWDFMemory::GetSize, y, z"
+ms.keywords: GetSize method, GetSize method, IWDFMemory interface, GetSize,IWDFMemory.GetSize, IWDFMemory, IWDFMemory interface, GetSize method, IWDFMemory::GetSize, UMDFMemoryObjectRef_24a9b921-5760-41fd-8b01-6a21e6be71ed.xml, umdf.iwdfmemory_getsize, wdf.iwdfmemory_getsize, wudfddi/IWDFMemory::GetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

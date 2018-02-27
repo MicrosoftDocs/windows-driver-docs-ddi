@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 37F09500-1EDB-459D-8845-789734081B0C
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, I, IPrintJob, IPrintJob interface [Print Devices], PrintedPages property, IPrintJob.PrintedPages, IPrintJob::get_PrintedPages, J, P, PrintedPages property [Print Devices], PrintedPages property [Print Devices], IPrintJob interface, _, a, b, d, e, g, get_PrintedPages, get_PrintedPages,IPrintJob.get_PrintedPages, i, n, o, print.iprintjob_printedpages, printerextension/IPrintJob::PrintedPages, printerextension/IPrintJob::get_PrintedPages, r, s, t"
+ms.keywords: IPrintJob, IPrintJob interface [Print Devices], PrintedPages property, IPrintJob.PrintedPages, IPrintJob::get_PrintedPages, PrintedPages property [Print Devices], PrintedPages property [Print Devices], IPrintJob interface, get_PrintedPages, get_PrintedPages,IPrintJob.get_PrintedPages, print.iprintjob_printedpages, printerextension/IPrintJob::PrintedPages, printerextension/IPrintJob::get_PrintedPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -80,11 +80,11 @@ If the <b>PrintedPages</b> and <a href="https://msdn.microsoft.com/1035337F-2EDD
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265411">TotalPages</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob::IPrintJob</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265411">TotalPages</a>
 
 
 

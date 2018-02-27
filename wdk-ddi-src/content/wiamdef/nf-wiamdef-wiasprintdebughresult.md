@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f9dc5379-0efa-4743-9460-bfb16945768b
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , D, H, P, R, a, b, e, g, i, image.wiasprintdebughresult, l, n, r, s, t, u, w, wiamdef/wiasPrintDebugHResult, wiasFncs_932e688a-da37-4a53-91ff-f0c0abca4f98.xml, wiasPrintDebugHResult, wiasPrintDebugHResult function [Imaging Devices]"
+ms.keywords: image.wiasprintdebughresult, wiamdef/wiasPrintDebugHResult, wiasFncs_932e688a-da37-4a53-91ff-f0c0abca4f98.xml, wiasPrintDebugHResult, wiasPrintDebugHResult function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>wiasPrintDebugHResult</b> function is <b>obsolete</b> for Windows XP and later, and is no longer supported. Use the <a href="..\wiamdef\nf-wiamdef-wias_lhresult.md">WIAS_LHRESULT</a> macro instead.
+The <b>wiasPrintDebugHResult</b> function is <b>obsolete</b> for Windows XP and later, and is no longer supported. Use the <a href="..\wiautil\nf-wiautil-wias_lhresult.md">WIAS_LHRESULT</a> macro instead.
 
 This function prints an HRESULT string on the Device Manager debug console.
 
@@ -92,7 +92,7 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wias_lhresult.md">WIAS_LHRESULT</a>
+<a href="..\wiautil\nf-wiautil-wias_lhresult.md">WIAS_LHRESULT</a>
 
 
 

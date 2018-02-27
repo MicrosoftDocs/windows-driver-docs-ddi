@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 224c8483-56b8-4341-8347-fa119ec04024
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , M, P, U, V, VideoPortUnmapMemory, VideoPortUnmapMemory function [Display Devices], VideoPort_Functions_394a66fa-47cd-4e0e-8467-3c3562d27822.xml, a, d, display.videoportunmapmemory, e, i, m, n, o, p, r, t, video/VideoPortUnmapMemory, y"
+ms.keywords: VideoPortUnmapMemory, VideoPortUnmapMemory function [Display Devices], VideoPort_Functions_394a66fa-47cd-4e0e-8467-3c3562d27822.xml, display.videoportunmapmemory, video/VideoPortUnmapMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

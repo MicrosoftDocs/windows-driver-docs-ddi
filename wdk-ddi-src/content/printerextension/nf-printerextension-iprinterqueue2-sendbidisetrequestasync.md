@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 05FF8A47-A586-4DA7-94AD-A7186265ADB4
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, B, I, IPrinterQueue2, IPrinterQueue2 interface [Print Devices], SendBidiSetRequestAsync method, IPrinterQueue2::SendBidiSetRequestAsync, P, Q, R, S, SendBidiSetRequestAsync method [Print Devices], SendBidiSetRequestAsync method [Print Devices], IPrinterQueue2 interface, SendBidiSetRequestAsync,IPrinterQueue2.SendBidiSetRequestAsync, c, d, e, i, n, print.iprinterqueue2_sendbidisetrequestasync, printerextension/IPrinterQueue2::SendBidiSetRequestAsync, q, r, s, t, u, y"
+ms.keywords: IPrinterQueue2, IPrinterQueue2 interface [Print Devices], SendBidiSetRequestAsync method, IPrinterQueue2::SendBidiSetRequestAsync, SendBidiSetRequestAsync method [Print Devices], SendBidiSetRequestAsync method [Print Devices], IPrinterQueue2 interface, SendBidiSetRequestAsync,IPrinterQueue2.SendBidiSetRequestAsync, print.iprinterqueue2_sendbidisetrequestasync, printerextension/IPrinterQueue2::SendBidiSetRequestAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -98,15 +98,15 @@ This method returns the appropriate <b>HRESULT</b> value.
 
 ## -see-also
 
+<a href="..\printerextension\nn-printerextension-iprinterextensionasyncoperation.md">IPrinterExtensionAsyncOperation</a>
+
+
+
 <a href="..\printerextension\nn-printerextension-iprinterqueue2.md">IPrinterQueue2</a>
 
 
 
 <a href="..\printerextension\nn-printerextension-iprinterbidisetrequestcallback.md">IPrinterBidiSetRequestCallback</a>
-
-
-
-<a href="..\printerextension\nn-printerextension-iprinterextensionasyncoperation.md">IPrinterExtensionAsyncOperation</a>
 
 
 

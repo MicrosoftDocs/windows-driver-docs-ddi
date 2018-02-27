@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E1EAA11F-B32F-4551-9788-49BC8A13BB19
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, N, S, U, UdecxUrbCompleteWithNtStatus, UdecxUrbCompleteWithNtStatus function [Buses], W, a, b, buses.udecxurbcompletewithntstatus, c, d, e, h, i, l, m, o, p, r, s, t, u, udecxurb/UdecxUrbCompleteWithNtStatus, x"
+ms.keywords: UdecxUrbCompleteWithNtStatus, UdecxUrbCompleteWithNtStatus function [Buses], buses.udecxurbcompletewithntstatus, udecxurb/UdecxUrbCompleteWithNtStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

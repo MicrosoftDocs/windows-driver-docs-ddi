@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5f00ff32-5ecf-40ca-91bb-aacc542bb7f4
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 0, 1, 3, D, D3D10DDI_MIPINFO, D3D10DDI_MIPINFO structure [Display Devices], F, I, M, N, O, P, UMDisplayDriver_Dx10param_Structs_67768e5f-a18d-4bd9-a1be-96587f267c36.xml, _, d3d10umddi/D3D10DDI_MIPINFO, display.d3d10ddi_mipinfo"
+ms.keywords: D3D10DDI_MIPINFO, D3D10DDI_MIPINFO structure [Display Devices], UMDisplayDriver_Dx10param_Structs_67768e5f-a18d-4bd9-a1be-96587f267c36.xml, d3d10umddi/D3D10DDI_MIPINFO, display.d3d10ddi_mipinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

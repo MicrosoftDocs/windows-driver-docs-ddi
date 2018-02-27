@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 03fc6240-ccc8-48de-87e0-b1ee5db3bac8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , E, I, L, P, R, RIL_WritePhonebookEntry, RIL_WritePhonebookEntry method [Network Drivers Starting with Windows Vista], W, _, b, e, h, i, k, n, netvista.ril_writephonebookentry, o, r, rilapi/RIL_WritePhonebookEntry, t, y"
+ms.keywords: RIL_WritePhonebookEntry, RIL_WritePhonebookEntry method [Network Drivers Starting with Windows Vista], netvista.ril_writephonebookentry, rilapi/RIL_WritePhonebookEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F550A8B8-0C96-46E8-8E2A-32679E1D1E01
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, DisablePDEV method [Print Devices], DisablePDEV method [Print Devices], IPrintOemEngine interface, DisablePDEV,IPrintOemEngine.DisablePDEV, E, I, IPrintOemEngine, IPrintOemEngine interface [Print Devices], DisablePDEV method, IPrintOemEngine::DisablePDEV, O, P, V, a, b, e, g, i, l, m, n, prcomoem/IPrintOemEngine::DisablePDEV, print.iprintoemengine_disablepdev, r, s, t"
+ms.keywords: DisablePDEV method [Print Devices], DisablePDEV method [Print Devices], IPrintOemEngine interface, DisablePDEV,IPrintOemEngine.DisablePDEV, IPrintOemEngine, IPrintOemEngine interface [Print Devices], DisablePDEV method, IPrintOemEngine::DisablePDEV, prcomoem/IPrintOemEngine::DisablePDEV, print.iprintoemengine_disablepdev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

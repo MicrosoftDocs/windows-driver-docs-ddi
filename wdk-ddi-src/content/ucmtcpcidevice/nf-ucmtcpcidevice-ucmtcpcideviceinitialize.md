@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: f89dd322-520b-41b0-bbe2-6eab0f8a6b70
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , D, I, T, U, UcmTcpciDeviceInitialize, UcmTcpciDeviceInitialize method [Buses], a, buses.ucmtcpcideviceinitialize, c, e, i, l, m, n, p, t, ucmtcpcidevice/UcmTcpciDeviceInitialize, v, z"
+ms.keywords: UcmTcpciDeviceInitialize, UcmTcpciDeviceInitialize method [Buses], buses.ucmtcpcideviceinitialize, ucmtcpcidevice/UcmTcpciDeviceInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

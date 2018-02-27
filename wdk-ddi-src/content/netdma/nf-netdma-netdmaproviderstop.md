@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 992fcdbd-200f-465d-b4be-922132d51d97
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , D, N, NetDmaProviderStop, NetDmaProviderStop function [Network Drivers Starting with Windows Vista], P, S, a, d, e, i, m, netdma/NetDmaProviderStop, netdma_ref_3d99732a-b6db-4d07-a5f0-0e79f82dac32.xml, netvista.netdmaproviderstop, o, p, r, t, v"
+ms.keywords: NetDmaProviderStop, NetDmaProviderStop function [Network Drivers Starting with Windows Vista], netdma/NetDmaProviderStop, netdma_ref_3d99732a-b6db-4d07-a5f0-0e79f82dac32.xml, netvista.netdmaproviderstop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -132,15 +132,7 @@ The NetDMA interface waits for outstanding DMA operations to complete and frees 
 
 
 
-<a href="..\netdma\nf-netdma-netdmaproviderstart.md">NetDmaProviderStart</a>
-
-
-
 <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551755">IRP_MN_STOP_DEVICE</a>
 
 
 
@@ -148,7 +140,15 @@ The NetDMA interface waits for outstanding DMA operations to complete and frees 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551755">IRP_MN_STOP_DEVICE</a>
+
+
+
 <a href="..\netdma\nf-netdma-netdmaderegisterprovider.md">NetDmaDeregisterProvider</a>
+
+
+
+<a href="..\netdma\nf-netdma-netdmaproviderstart.md">NetDmaProviderStart</a>
 
 
 

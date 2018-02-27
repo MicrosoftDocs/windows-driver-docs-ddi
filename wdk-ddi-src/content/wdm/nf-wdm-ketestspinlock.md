@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5386349c-b4b8-43db-8f66-70dc7e71345e
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , K, KeTestSpinLock, KeTestSpinLock routine [Kernel-Mode Driver Architecture], L, S, T, c, e, i, k, k105_99f18fd9-0242-4939-86ab-016236f9adcb.xml, kernel.ketestspinlock, n, o, p, s, t, wdm/KeTestSpinLock"
+ms.keywords: KeTestSpinLock, KeTestSpinLock routine [Kernel-Mode Driver Architecture], k105_99f18fd9-0242-4939-86ab-016236f9adcb.xml, kernel.ketestspinlock, wdm/KeTestSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

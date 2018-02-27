@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 491b99c6-5531-4d24-83a4-c404b58d111c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , C, DFStringObjectRef_1c460976-7e49-45c8-9fdb-c6651048d387.xml, S, W, WdfStringCreate, WdfStringCreate method, a, d, e, f, g, i, kmdf.wdfstringcreate, n, r, t, wdf.wdfstringcreate, wdfstring/WdfStringCreate"
+ms.keywords: DFStringObjectRef_1c460976-7e49-45c8-9fdb-c6651048d387.xml, WdfStringCreate, WdfStringCreate method, kmdf.wdfstringcreate, wdf.wdfstringcreate, wdfstring/WdfStringCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -190,11 +190,11 @@ if (!NT_SUCCESS(status)){
 
 ## -see-also
 
-<a href="..\wdfstring\nf-wdfstring-wdfstringgetunicodestring.md">WdfStringGetUnicodeString</a>
-
-
-
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\wdfstring\nf-wdfstring-wdfstringgetunicodestring.md">WdfStringGetUnicodeString</a>
 
 
 

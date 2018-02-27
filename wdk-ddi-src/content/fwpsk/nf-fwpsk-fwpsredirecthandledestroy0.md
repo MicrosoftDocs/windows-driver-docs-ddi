@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0859c9bb-04f2-4bef-9da7-da72375d05f7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , 0, D, F, FwpsRedirectHandleDestroy0, FwpsRedirectHandleDestroy0 function [Network Drivers Starting with Windows Vista], H, R, a, c, d, e, fwpsk/FwpsRedirectHandleDestroy0, i, l, n, netvista.fwpsredirecthandledestroy0, o, p, r, s, t, w, y"
+ms.keywords: FwpsRedirectHandleDestroy0, FwpsRedirectHandleDestroy0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsRedirectHandleDestroy0, netvista.fwpsredirecthandledestroy0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

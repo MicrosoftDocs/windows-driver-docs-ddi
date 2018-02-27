@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 067eca3b-f487-405a-9799-bd62376f9e24
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, CompletePrintCapabilities, CompletePrintCapabilities method [Print Devices], CompletePrintCapabilities method [Print Devices], IPrintOemPrintTicketProvider interface, CompletePrintCapabilities,IPrintOemPrintTicketProvider.CompletePrintCapabilities, I, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], CompletePrintCapabilities method, IPrintOemPrintTicketProvider::CompletePrintCapabilities, O, P, T, a, b, c, d, e, i, k, l, m, n, o, p, prcomoem/IPrintOemPrintTicketProvider::CompletePrintCapabilities, print.iprintoemprintticketprovider_completeprintcapabilities, print_ticket-package_75d63289-6e10-4731-a2b1-16f396f21d62.xml, r, s, t, v"
+ms.keywords: CompletePrintCapabilities, CompletePrintCapabilities method [Print Devices], CompletePrintCapabilities method [Print Devices], IPrintOemPrintTicketProvider interface, CompletePrintCapabilities,IPrintOemPrintTicketProvider.CompletePrintCapabilities, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], CompletePrintCapabilities method, IPrintOemPrintTicketProvider::CompletePrintCapabilities, prcomoem/IPrintOemPrintTicketProvider::CompletePrintCapabilities, print.iprintoemprintticketprovider_completeprintcapabilities, print_ticket-package_75d63289-6e10-4731-a2b1-16f396f21d62.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0441558c-db3d-46d1-a251-a32e98098e9e
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, H, I, IPrintCoreHelper, IPrintCoreHelper interface [Print Devices], SetOptions method, IPrintCoreHelper::SetOptions, O, P, S, SetOptions method [Print Devices], SetOptions method [Print Devices], IPrintCoreHelper interface, SetOptions,IPrintCoreHelper.SetOptions, e, i, l, n, o, p, prcomoem/IPrintCoreHelper::SetOptions, print.iprintcorehelper_setoptions, print_unidrv-pscript_allplugins_ad900ead-2d1f-41ab-9ee5-fc5e9f8130d7.xml, r, s, t"
+ms.keywords: IPrintCoreHelper, IPrintCoreHelper interface [Print Devices], SetOptions method, IPrintCoreHelper::SetOptions, SetOptions method [Print Devices], SetOptions method [Print Devices], IPrintCoreHelper interface, SetOptions,IPrintCoreHelper.SetOptions, prcomoem/IPrintCoreHelper::SetOptions, print.iprintcorehelper_setoptions, print_unidrv-pscript_allplugins_ad900ead-2d1f-41ab-9ee5-fc5e9f8130d7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -217,11 +217,11 @@ For most scenarios, the <i>bResolveConflicts</i> parameter should be set to <b>T
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552959">IPrintCoreHelper::GetOption</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintcorehelper.md">IPrintCoreHelper</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552959">IPrintCoreHelper::GetOption</a>
 
 
 

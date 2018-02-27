@@ -72,7 +72,7 @@ VOID InterfaceReference(
 
 ### -param Context [in]
 
-A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure for the interface.
 
 
 ## -returns
@@ -105,7 +105,7 @@ The driver that exports the interface is responsible for calling <i>InterfaceRef
 
 
 
-<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 

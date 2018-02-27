@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5a82dfe6-8844-4b18-8f54-7bf143fcd2ff
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , E, M, N, NdisMEnableVirtualization, NdisMEnableVirtualization function [Network Drivers Starting with Windows Vista], V, a, b, d, e, i, l, n, ndis/NdisMEnableVirtualization, netvista.ndismenablevirtualization, o, r, s, t, u, z"
+ms.keywords: NdisMEnableVirtualization, NdisMEnableVirtualization function [Network Drivers Starting with Windows Vista], ndis/NdisMEnableVirtualization, netvista.ndismenablevirtualization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -252,11 +252,11 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451005">EnableVirtualization</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451005">EnableVirtualization</a>
 
 
 

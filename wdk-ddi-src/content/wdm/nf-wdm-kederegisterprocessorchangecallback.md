@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69b0f360-dfe5-4e1f-bdcb-0f908ed129a7
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, D, K, KeDeregisterProcessorChangeCallback, KeDeregisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture], P, a, b, c, e, g, h, i, k, k105_d3e135a0-4eca-4879-97cc-946ad22693db.xml, kernel.kederegisterprocessorchangecallback, l, n, o, r, s, t, wdm/KeDeregisterProcessorChangeCallback"
+ms.keywords: KeDeregisterProcessorChangeCallback, KeDeregisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture], k105_d3e135a0-4eca-4879-97cc-946ad22693db.xml, kernel.kederegisterprocessorchangecallback, wdm/KeDeregisterProcessorChangeCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

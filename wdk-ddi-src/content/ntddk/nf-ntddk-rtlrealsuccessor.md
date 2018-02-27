@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 19180ab8-7ac6-45cb-8f17-b16368bbb32b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , R, RtlRealSuccessor, RtlRealSuccessor routine [Installable File System Drivers], S, a, c, e, ifsk.rtlrealsuccessor, l, ntddk/RtlRealSuccessor, o, r, rtlref_5bf190a8-a1c9-45d8-8be3-73178d2f7add.xml, s, t, u"
+ms.keywords: RtlRealSuccessor, RtlRealSuccessor routine [Installable File System Drivers], ifsk.rtlrealsuccessor, ntddk/RtlRealSuccessor, rtlref_5bf190a8-a1c9-45d8-8be3-73178d2f7add.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

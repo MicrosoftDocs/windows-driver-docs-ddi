@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 727df033-ddaf-45a7-bdca-51a9ee0404fb
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, C, D, E, G, GetSystemErrorControl method [Windows Debugging], GetSystemErrorControl method [Windows Debugging], IDebugControl interface, GetSystemErrorControl method [Windows Debugging], IDebugControl2 interface, GetSystemErrorControl method [Windows Debugging], IDebugControl3 interface, GetSystemErrorControl,IDebugControl.GetSystemErrorControl, GetSystemErrorControl,IDebugControl2.GetSystemErrorControl, I, IDebugControl, IDebugControl interface [Windows Debugging], GetSystemErrorControl method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetSystemErrorControl method, IDebugControl2::GetSystemErrorControl, IDebugControl3 interface [Windows Debugging], GetSystemErrorControl method, IDebugControl3::GetSystemErrorControl, IDebugControl::GetSystemErrorControl, IDebugControl_94595f9e-7e73-4291-a904-49f1a8fbbaa8.xml, S, b, dbgeng/IDebugControl2::GetSystemErrorControl, dbgeng/IDebugControl3::GetSystemErrorControl, dbgeng/IDebugControl::GetSystemErrorControl, debugger.getsystemerrorcontrol, e, g, l, m, n, o, r, s, t, u, y"
+ms.keywords: GetSystemErrorControl method [Windows Debugging], GetSystemErrorControl method [Windows Debugging], IDebugControl interface, GetSystemErrorControl method [Windows Debugging], IDebugControl2 interface, GetSystemErrorControl method [Windows Debugging], IDebugControl3 interface, GetSystemErrorControl,IDebugControl2.GetSystemErrorControl, IDebugControl interface [Windows Debugging], GetSystemErrorControl method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetSystemErrorControl method, IDebugControl2::GetSystemErrorControl, IDebugControl3 interface [Windows Debugging], GetSystemErrorControl method, IDebugControl3::GetSystemErrorControl, IDebugControl::GetSystemErrorControl, IDebugControl_94595f9e-7e73-4291-a904-49f1a8fbbaa8.xml, dbgeng/IDebugControl2::GetSystemErrorControl, dbgeng/IDebugControl3::GetSystemErrorControl, dbgeng/IDebugControl::GetSystemErrorControl, debugger.getsystemerrorcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -121,11 +121,11 @@ When a system error occurs, the engine calls the <a href="https://msdn.microsoft
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550768">IDebugEventCallbacks::SystemError</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -133,11 +133,11 @@ When a system error occurs, the engine calls the <a href="https://msdn.microsoft
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556806">SetSystemErrorControl</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550768">IDebugEventCallbacks::SystemError</a>
 
 
 

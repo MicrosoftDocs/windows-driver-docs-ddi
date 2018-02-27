@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 74398dad-efb6-4c21-9b0e-38ff0449ec99
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , D, G, I, L, P, R, RIL_GetUiccPRLID, RIL_GetUiccPRLID method [Network Drivers Starting with Windows Vista], U, _, c, e, i, netvista.ril_getuiccprlid, rilapi/RIL_GetUiccPRLID, t"
+ms.keywords: RIL_GetUiccPRLID, RIL_GetUiccPRLID method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccprlid, rilapi/RIL_GetUiccPRLID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

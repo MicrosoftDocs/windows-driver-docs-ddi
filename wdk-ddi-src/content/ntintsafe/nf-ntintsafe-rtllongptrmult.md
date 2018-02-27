@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AF602DBE-E106-4105-B56B-DE9EE7691A05
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , L, M, P, R, RtlLongPtrMult, RtlLongPtrMult function [Kernel-Mode Driver Architecture], g, kernel.rtllongptrmult, l, n, ntintsafe/RtlLongPtrMult, o, r, t, u"
+ms.keywords: RtlLongPtrMult, RtlLongPtrMult function [Kernel-Mode Driver Architecture], kernel.rtllongptrmult, ntintsafe/RtlLongPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

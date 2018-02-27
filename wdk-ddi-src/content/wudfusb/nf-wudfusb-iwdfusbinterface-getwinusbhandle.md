@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 31c23596-21b2-4fb2-96bd-5372fe2432ab
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, D, F, G, GetWinUsbHandle method, GetWinUsbHandle method, IWDFUsbInterface interface, GetWinUsbHandle,IWDFUsbInterface.GetWinUsbHandle, H, I, IWDFUsbInterface, IWDFUsbInterface interface, GetWinUsbHandle method, IWDFUsbInterface::GetWinUsbHandle, U, UMDFUSBref_6c94f0cc-8995-45c9-8101-bc123b0e48bf.xml, W, a, b, c, d, e, f, i, l, n, r, s, t, umdf.iwdfusbinterface_getwinusbhandle, wdf.iwdfusbinterface_getwinusbhandle, wudfusb/IWDFUsbInterface::GetWinUsbHandle"
+ms.keywords: GetWinUsbHandle method, GetWinUsbHandle method, IWDFUsbInterface interface, GetWinUsbHandle,IWDFUsbInterface.GetWinUsbHandle, IWDFUsbInterface, IWDFUsbInterface interface, GetWinUsbHandle method, IWDFUsbInterface::GetWinUsbHandle, UMDFUSBref_6c94f0cc-8995-45c9-8101-bc123b0e48bf.xml, umdf.iwdfusbinterface_getwinusbhandle, wdf.iwdfusbinterface_getwinusbhandle, wudfusb/IWDFUsbInterface::GetWinUsbHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9e88a94d-ce25-43ee-8187-30b406e8d9e4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, C, G, GetTime method [Audio Devices], GetTime method [Audio Devices], IMasterClock interface, GetTime,IMasterClock.GetTime, I, IMasterClock, IMasterClock interface [Audio Devices], GetTime method, IMasterClock::GetTime, M, T, a, audio.imasterclock_gettime, audmp-routines_08af6e05-c432-4560-91fb-f17687291fc0.xml, c, dmusicks/IMasterClock::GetTime, e, i, k, l, m, o, r, s, t"
+ms.keywords: GetTime method [Audio Devices], GetTime method [Audio Devices], IMasterClock interface, GetTime,IMasterClock.GetTime, IMasterClock, IMasterClock interface [Audio Devices], GetTime method, IMasterClock::GetTime, audio.imasterclock_gettime, audmp-routines_08af6e05-c432-4560-91fb-f17687291fc0.xml, dmusicks/IMasterClock::GetTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

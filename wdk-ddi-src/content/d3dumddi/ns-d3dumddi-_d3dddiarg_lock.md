@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 00f8b16c-3ec1-48ac-930b-17aca16cc04f
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 3, A, C, D, D3DDDIARG_LOCK, D3DDDIARG_LOCK structure [Display Devices], G, I, K, L, O, R, UMDisplayDriver_param_Structs_484ea489-6a0a-466a-b4d2-39d6f0eb5642.xml, _, _D3DDDIARG_LOCK, d3dumddi/D3DDDIARG_LOCK, display.d3dddiarg_lock"
+ms.keywords: D3DDDIARG_LOCK, D3DDDIARG_LOCK structure [Display Devices], UMDisplayDriver_param_Structs_484ea489-6a0a-466a-b4d2-39d6f0eb5642.xml, _D3DDDIARG_LOCK, d3dumddi/D3DDDIARG_LOCK, display.d3dddiarg_lock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,11 +107,6 @@ typedef struct _D3DDDIARG_LOCK {
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_lockflags.md">D3DDDI_LOCKFLAGS</a> structure that indicates, in bit-field flags, how to lock the resource. Note that some flags are mutually exclusive with other flags. For more information, see the following Remarks section.
 
 
-#### - Range
-
-[in] A D3DDDIRANGE structure that describes the subrange of the linear resource to lock.
-
-
 #### - Area
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the subrectangle of the surface to lock.
@@ -120,6 +115,11 @@ typedef struct _D3DDDIARG_LOCK {
 #### - Box
 
 [in] A D3DDDIBOX structure that describes the subvolume of the volume to lock.
+
+
+#### - Range
+
+[in] A D3DDDIRANGE structure that describes the subrange of the linear resource to lock.
 
 
 ## -remarks

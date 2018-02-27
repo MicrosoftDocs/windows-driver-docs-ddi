@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a512c846-6896-48ca-a234-b9a30a3bff06
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, C, D, Disassemble method [Windows Debugging], Disassemble method [Windows Debugging], IDebugControl interface, Disassemble method [Windows Debugging], IDebugControl2 interface, Disassemble method [Windows Debugging], IDebugControl3 interface, Disassemble,IDebugControl.Disassemble, Disassemble,IDebugControl2.Disassemble, I, IDebugControl, IDebugControl interface [Windows Debugging], Disassemble method, IDebugControl2, IDebugControl2 interface [Windows Debugging], Disassemble method, IDebugControl2::Disassemble, IDebugControl3 interface [Windows Debugging], Disassemble method, IDebugControl3::Disassemble, IDebugControl::Disassemble, IDebugControl_7eb9fdc3-f2a0-4239-a035-9abb8e85cd28.xml, a, b, dbgeng/IDebugControl2::Disassemble, dbgeng/IDebugControl3::Disassemble, dbgeng/IDebugControl::Disassemble, debugger.disassemble, e, g, i, l, m, n, o, r, s, t, u"
+ms.keywords: Disassemble method [Windows Debugging], Disassemble method [Windows Debugging], IDebugControl interface, Disassemble method [Windows Debugging], IDebugControl2 interface, Disassemble method [Windows Debugging], IDebugControl3 interface, Disassemble,IDebugControl2.Disassemble, IDebugControl interface [Windows Debugging], Disassemble method, IDebugControl2, IDebugControl2 interface [Windows Debugging], Disassemble method, IDebugControl2::Disassemble, IDebugControl3 interface [Windows Debugging], Disassemble method, IDebugControl3::Disassemble, IDebugControl::Disassemble, IDebugControl_7eb9fdc3-f2a0-4239-a035-9abb8e85cd28.xml, dbgeng/IDebugControl2::Disassemble, dbgeng/IDebugControl3::Disassemble, dbgeng/IDebugControl::Disassemble, debugger.disassemble
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -158,11 +158,15 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/933a308c-61d1-4ca4-89c1-5749ba1b41c1">u (Unassemble)</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
 
 
 
@@ -170,11 +174,7 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/933a308c-61d1-4ca4-89c1-5749ba1b41c1">u (Unassemble)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 

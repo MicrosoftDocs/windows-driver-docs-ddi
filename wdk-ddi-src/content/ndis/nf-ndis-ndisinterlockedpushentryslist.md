@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 155604e9-45f6-4dd2-9373-90f689713c1a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , E, I, L, N, NdisInterlockedPushEntrySList, NdisInterlockedPushEntrySList macro [Network Drivers Starting with Windows Vista], P, S, c, d, e, h, i, k, l, n, ndis/NdisInterlockedPushEntrySList, ndis_interlocked_ref_ee1513c8-bb1a-4f3e-981b-7c448b3d1e41.xml, netvista.ndisinterlockedpushentryslist, o, r, s, t, u, y"
+ms.keywords: NdisInterlockedPushEntrySList, NdisInterlockedPushEntrySList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedPushEntrySList, ndis_interlocked_ref_ee1513c8-bb1a-4f3e-981b-7c448b3d1e41.xml, netvista.ndisinterlockedpushentryslist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -86,15 +86,15 @@ TBD
 A pointer to a caller-supplied spin lock, not currently held by the caller.
 
 
+#### - ListEntry [in]
+
+A pointer to the entry to be inserted.
+
+
 #### - ListHead [in]
 
 A pointer to the head of the already initialized sequenced, singly linked list into which the
      specified entry is to be inserted.
-
-
-#### - ListEntry [in]
-
-A pointer to the entry to be inserted.
 
 
 ## -remarks
@@ -135,15 +135,15 @@ If
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinitializeslisthead.md">NdisInitializeSListHead</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
+<a href="..\ndis\nf-ndis-ndisquerydepthslist.md">NdisQueryDepthSList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinitializeslisthead.md">NdisInitializeSListHead</a>
 
 
 
@@ -151,7 +151,7 @@ If
 
 
 
-<a href="..\ndis\nf-ndis-ndisquerydepthslist.md">NdisQueryDepthSList</a>
+<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
 
 
 

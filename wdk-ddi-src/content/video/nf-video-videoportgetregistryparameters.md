@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: beca2e83-df56-4ed0-8ea8-b0090e574cd3
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , G, P, R, V, VideoPortGetRegistryParameters, VideoPortGetRegistryParameters function [Display Devices], VideoPort_Functions_f4e1230a-ae49-4751-8c60-e05043dbb049.xml, a, d, display.videoportgetregistryparameters, e, g, i, m, o, r, s, t, video/VideoPortGetRegistryParameters, y"
+ms.keywords: VideoPortGetRegistryParameters, VideoPortGetRegistryParameters function [Display Devices], VideoPort_Functions_f4e1230a-ae49-4751-8c60-e05043dbb049.xml, display.videoportgetregistryparameters, video/VideoPortGetRegistryParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,6 +128,14 @@ Miniport drivers should not query configuration information stored in the <b>Def
 
 ## -see-also
 
+<a href="..\video\nf-video-videoportsetregistryparameters.md">VideoPortSetRegistryParameters</a>
+
+
+
+<a href="..\video\nf-video-videoportflushregistry.md">VideoPortFlushRegistry</a>
+
+
+
 <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
 
 
@@ -136,15 +144,7 @@ Miniport drivers should not query configuration information stored in the <b>Def
 
 
 
-<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
-
-
-
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-
-
-
-<a href="..\video\nf-video-videoportflushregistry.md">VideoPortFlushRegistry</a>
 
 
 
@@ -152,11 +152,11 @@ Miniport drivers should not query configuration information stored in the <b>Def
 
 
 
+<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
+
+
+
 <a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
-
-
-
-<a href="..\video\nf-video-videoportsetregistryparameters.md">VideoPortSetRegistryParameters</a>
 
 
 

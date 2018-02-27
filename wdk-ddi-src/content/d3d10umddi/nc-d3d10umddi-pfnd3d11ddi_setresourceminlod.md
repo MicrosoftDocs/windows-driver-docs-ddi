@@ -87,6 +87,11 @@ VOID APIENTRY SetResourceMinLOD(
 
 
 
+#### - MinLOD [in]
+
+ A single-precision float vector to set for the minimum level of detail (LOD) for the resource. 
+
+
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -95,11 +100,6 @@ VOID APIENTRY SetResourceMinLOD(
 #### - hResource [in]
 
  A handle to the driver's private data for the resource. 
-
-
-#### - MinLOD [in]
-
- A single-precision float vector to set for the minimum level of detail (LOD) for the resource. 
 
 
 ## -returns

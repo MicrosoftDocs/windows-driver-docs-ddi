@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b3acd3d-b5da-4dd3-89f1-0b8a7d68e54c
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PSCSI_ADDRESS, ,, A, C, D, E, I, P, PSCSI_ADDRESS, PSCSI_ADDRESS structure pointer [Storage Devices], R, S, SCSI_ADDRESS, SCSI_ADDRESS structure [Storage Devices], _, _SCSI_ADDRESS, ntddscsi/PSCSI_ADDRESS, ntddscsi/SCSI_ADDRESS, storage.scsi_address, structs-scsibus_6b7a15bf-09f3-4fe2-bbef-77e1fd6e1744.xml"
+ms.keywords: "*PSCSI_ADDRESS, PSCSI_ADDRESS, PSCSI_ADDRESS structure pointer [Storage Devices], SCSI_ADDRESS, SCSI_ADDRESS structure [Storage Devices], _SCSI_ADDRESS, ntddscsi/PSCSI_ADDRESS, ntddscsi/SCSI_ADDRESS, storage.scsi_address, structs-scsibus_6b7a15bf-09f3-4fe2-bbef-77e1fd6e1744.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fb2def4b-c027-465d-b734-20b4b83a6308
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., 2, :, C, CreateRemoteInterface method, CreateRemoteInterface method, IWDFDevice2 interface, CreateRemoteInterface,IWDFDevice2.CreateRemoteInterface, D, F, I, IWDFDevice2, IWDFDevice2 interface, CreateRemoteInterface method, IWDFDevice2::CreateRemoteInterface, R, UMDFDeviceObjectRef_772989d9-ec18-4672-abea-ee4abd00b6ee.xml, W, a, c, e, f, i, m, n, o, r, t, umdf.iwdfdevice2_createremoteinterface, v, wdf.iwdfdevice2_createremoteinterface, wudfddi/IWDFDevice2::CreateRemoteInterface"
+ms.keywords: CreateRemoteInterface method, CreateRemoteInterface method, IWDFDevice2 interface, CreateRemoteInterface,IWDFDevice2.CreateRemoteInterface, IWDFDevice2, IWDFDevice2 interface, CreateRemoteInterface method, IWDFDevice2::CreateRemoteInterface, UMDFDeviceObjectRef_772989d9-ec18-4672-abea-ee4abd00b6ee.xml, umdf.iwdfdevice2_createremoteinterface, wdf.iwdfdevice2_createremoteinterface, wudfddi/IWDFDevice2::CreateRemoteInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -186,11 +186,11 @@ CMyDevice::OnRemoteInterfaceArrival(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
 
 
 

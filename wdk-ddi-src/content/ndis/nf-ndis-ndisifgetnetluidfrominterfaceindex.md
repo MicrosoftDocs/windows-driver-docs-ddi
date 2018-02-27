@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3cfb7f31-93ae-47a2-8da8-becfbe045f5e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , F, G, I, L, N, NdisIfGetNetLuidFromInterfaceIndex, NdisIfGetNetLuidFromInterfaceIndex function [Network Drivers Starting with Windows Vista], a, c, d, e, f, i, m, n, ndis/NdisIfGetNetLuidFromInterfaceIndex, net_if_functions_ref_eb50b72f-9bb0-4c02-88d3-dbb0fb1d82d1.xml, netvista.ndisifgetnetluidfrominterfaceindex, o, r, s, t, u, x"
+ms.keywords: NdisIfGetNetLuidFromInterfaceIndex, NdisIfGetNetLuidFromInterfaceIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfGetNetLuidFromInterfaceIndex, net_if_functions_ref_eb50b72f-9bb0-4c02-88d3-dbb0fb1d82d1.xml, netvista.ndisifgetnetluidfrominterfaceindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -188,12 +188,7 @@ NDIS provides the
 
 
 
-<a href="..\ndis\nf-ndis-ndisifgetinterfaceindexfromnetluid.md">
-   NdisIfGetInterfaceIndexFromNetLuid</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
+<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 
 
@@ -205,11 +200,16 @@ NDIS provides the
 
 
 
+<a href="..\ndis\nf-ndis-ndisifgetinterfaceindexfromnetluid.md">
+   NdisIfGetInterfaceIndexFromNetLuid</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
 
 

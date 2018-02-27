@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5e8b6bd7-71e7-45ad-985c-fe197693ce05
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , F, H, R, RtlFreeHeap, RtlFreeHeap routine [Installable File System Drivers], a, e, ifsk.rtlfreeheap, l, ntifs/RtlFreeHeap, p, r, rtlref_02e7cb93-ec45-41c9-8e58-72c221cece37.xml, t"
+ms.keywords: RtlFreeHeap, RtlFreeHeap routine [Installable File System Drivers], ifsk.rtlfreeheap, ntifs/RtlFreeHeap, rtlref_02e7cb93-ec45-41c9-8e58-72c221cece37.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

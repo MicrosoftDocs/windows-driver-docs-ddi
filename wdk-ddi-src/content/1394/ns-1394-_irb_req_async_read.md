@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: C88A1F30-FC6B-4EC4-8F10-F507E17CF01D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , ,, 1394/IRB_REQ_ASYNC_READ, A, B, C, D, E, I, IEEE.irb_req_async_read, IRB_REQ_ASYNC_READ, IRB_REQ_ASYNC_READ structure [Buses], N, Q, R, S, Y, _, _IRB_REQ_ASYNC_READ"
+ms.keywords: 1394/IRB_REQ_ASYNC_READ, IEEE.irb_req_async_read, IRB_REQ_ASYNC_READ, IRB_REQ_ASYNC_READ structure [Buses], _IRB_REQ_ASYNC_READ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

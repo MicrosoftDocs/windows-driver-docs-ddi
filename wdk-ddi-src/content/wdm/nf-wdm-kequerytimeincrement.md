@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f8291e2b-a7a1-4a19-9137-fcd93e62bbaf
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , I, K, KeQueryTimeIncrement, KeQueryTimeIncrement routine [Kernel-Mode Driver Architecture], Q, T, c, e, i, k105_dc7a4658-7d4b-4b60-a8c8-693c36d68b27.xml, kernel.kequerytimeincrement, m, n, r, t, u, wdm/KeQueryTimeIncrement, y"
+ms.keywords: KeQueryTimeIncrement, KeQueryTimeIncrement routine [Kernel-Mode Driver Architecture], k105_dc7a4658-7d4b-4b60-a8c8-693c36d68b27.xml, kernel.kequerytimeincrement, wdm/KeQueryTimeIncrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,15 +88,15 @@ At startup time, the operating system determines the time increment to use for t
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
+
+
+
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
 
 
 <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
-
-
-
-<a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
 
 
 

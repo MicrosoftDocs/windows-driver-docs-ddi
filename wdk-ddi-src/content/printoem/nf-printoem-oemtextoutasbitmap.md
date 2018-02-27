@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 37bf1cbe-9200-4d3e-b5e6-746f18293c1a
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, B, E, M, O, OEMTextOutAsBitmap, OEMTextOutAsBitmap function [Print Devices], T, a, e, i, m, p, print.oemtextoutasbitmap, print_obsoletefunctions_17993b3a-2343-4c6f-86ea-8273abaa8c80.xml, printoem/OEMTextOutAsBitmap, s, t, u, x"
+ms.keywords: OEMTextOutAsBitmap, OEMTextOutAsBitmap function [Print Devices], print.oemtextoutasbitmap, print_obsoletefunctions_17993b3a-2343-4c6f-86ea-8273abaa8c80.xml, printoem/OEMTextOutAsBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

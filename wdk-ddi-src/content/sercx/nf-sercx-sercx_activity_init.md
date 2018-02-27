@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 211A3DBB-96B8-4DB5-BB50-FAB7500D999F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , 1/SERCX_ACTIVITY_INIT, A, C, E, I, N, R, S, SERCX_ACTIVITY_INIT, SERCX_ACTIVITY_INIT function [Serial Ports], T, V, X, Y, _, serports.sercx_activity_init"
+ms.keywords: 1/SERCX_ACTIVITY_INIT, SERCX_ACTIVITY_INIT, SERCX_ACTIVITY_INIT function [Serial Ports], serports.sercx_activity_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

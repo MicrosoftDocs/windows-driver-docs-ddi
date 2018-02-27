@@ -139,6 +139,10 @@ In response, NDIS calls the overlying driver's or host stack's
 
 ## -see-also
 
+<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpdisconnect.md">NdisOffloadTcpForward</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
    NdisTcpOffloadForwardComplete</a>
 
@@ -148,15 +152,11 @@ In response, NDIS calls the overlying driver's or host stack's
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpdisconnect.md">NdisOffloadTcpForward</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

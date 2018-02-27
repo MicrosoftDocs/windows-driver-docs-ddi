@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8354E38C-0A3D-48CB-9CA5-0DC0C01FDF17
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, I, IPrintJob, IPrintJob interface [Print Devices], Id property, IPrintJob.Id, IPrintJob::get_Id, Id property [Print Devices], Id property [Print Devices], IPrintJob interface, J, P, _, b, d, e, g, get_Id, get_Id,IPrintJob.get_Id, i, n, o, print.iprintjob_id, printerextension/IPrintJob::Id, printerextension/IPrintJob::get_Id, r, t"
+ms.keywords: IPrintJob, IPrintJob interface [Print Devices], Id property, IPrintJob.Id, IPrintJob::get_Id, Id property [Print Devices], Id property [Print Devices], IPrintJob interface, get_Id, get_Id,IPrintJob.get_Id, print.iprintjob_id, printerextension/IPrintJob::Id, printerextension/IPrintJob::get_Id
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

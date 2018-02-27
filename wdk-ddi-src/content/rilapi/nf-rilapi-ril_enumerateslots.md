@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 58df87d5-1e7b-4ec8-8e88-631bbd78757a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , E, I, L, R, RIL_EnumerateSlots, RIL_EnumerateSlots method [Network Drivers Starting with Windows Vista], S, _, a, e, l, m, n, netvista.ril_enumerateslots, o, r, rilapi/RIL_EnumerateSlots, s, t, u"
+ms.keywords: RIL_EnumerateSlots, RIL_EnumerateSlots method [Network Drivers Starting with Windows Vista], netvista.ril_enumerateslots, rilapi/RIL_EnumerateSlots
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

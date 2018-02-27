@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 71e2f946-706d-41bc-9d9c-d63230877e48
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , D, F, H, HidD_FreePreparsedData, HidD_FreePreparsedData routine [Human Input Devices], P, _, a, d, e, hid.hidd_freepreparseddata, hidfunc_2ca8b6ee-b391-40ac-bd0e-491089d7ed06.xml, hidsdi/HidD_FreePreparsedData, i, p, r, s, t"
+ms.keywords: HidD_FreePreparsedData, HidD_FreePreparsedData routine [Human Input Devices], hid.hidd_freepreparseddata, hidfunc_2ca8b6ee-b391-40ac-bd0e-491089d7ed06.xml, hidsdi/HidD_FreePreparsedData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

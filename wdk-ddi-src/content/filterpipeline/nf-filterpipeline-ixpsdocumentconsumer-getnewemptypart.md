@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cc0911da-46ca-4cf7-a59e-da0d53e1d10c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, D, E, G, GetNewEmptyPart method [Print Devices], GetNewEmptyPart method [Print Devices], IXpsDocumentConsumer interface, GetNewEmptyPart,IXpsDocumentConsumer.GetNewEmptyPart, I, IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], GetNewEmptyPart method, IXpsDocumentConsumer::GetNewEmptyPart, N, P, X, a, c, e, filterpipeline/IXpsDocumentConsumer::GetNewEmptyPart, filterpipeline_c4770528-f57a-4197-b60b-5b780d5e7752.xml, m, n, o, p, print.ixpsdocumentconsumer_getnewemptypart, r, s, t, u, w, y"
+ms.keywords: GetNewEmptyPart method [Print Devices], GetNewEmptyPart method [Print Devices], IXpsDocumentConsumer interface, GetNewEmptyPart,IXpsDocumentConsumer.GetNewEmptyPart, IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], GetNewEmptyPart method, IXpsDocumentConsumer::GetNewEmptyPart, filterpipeline/IXpsDocumentConsumer::GetNewEmptyPart, filterpipeline_c4770528-f57a-4197-b60b-5b780d5e7752.xml, print.ixpsdocumentconsumer_getnewemptypart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -154,11 +154,15 @@ A filter can create new XPS parts by using the <code>GetNewEmptyPart</code> meth
 
 ## -see-also
 
+<a href="..\filterpipeline\nn-filterpipeline-ipartprintticket.md">IPartPrintTicket</a>
+
+
+
 <a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-ifixedpage.md">IFixedPage</a>
+<a href="..\filterpipeline\nn-filterpipeline-ipartfont.md">IPartFont</a>
 
 
 
@@ -166,11 +170,11 @@ A filter can create new XPS parts by using the <code>GetNewEmptyPart</code> meth
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartprintticket.md">IPartPrintTicket</a>
+<a href="..\filterpipeline\nn-filterpipeline-ipartcolorprofile.md">IPartColorProfile</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartfont.md">IPartFont</a>
+<a href="..\filterpipeline\nn-filterpipeline-ifixedpage.md">IFixedPage</a>
 
 
 
@@ -179,10 +183,6 @@ A filter can create new XPS parts by using the <code>GetNewEmptyPart</code> meth
 
 
 <a href="..\filterpipeline\nn-filterpipeline-ipartimage.md">IPartImage</a>
-
-
-
-<a href="..\filterpipeline\nn-filterpipeline-ipartcolorprofile.md">IPartColorProfile</a>
 
 
 

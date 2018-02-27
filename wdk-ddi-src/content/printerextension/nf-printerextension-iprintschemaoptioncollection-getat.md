@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B77297BF-09F7-46BD-A75F-D36E5E233E05
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, C, G, GetAt method [Print Devices], GetAt method [Print Devices], IPrintSchemaOptionCollection interface, GetAt,IPrintSchemaOptionCollection.GetAt, I, IPrintSchemaOptionCollection, IPrintSchemaOptionCollection interface [Print Devices], GetAt method, IPrintSchemaOptionCollection::GetAt, O, P, S, a, c, e, h, i, l, m, n, o, p, print.iprintschemaoptioncollection_getat, printerextension/IPrintSchemaOptionCollection::GetAt, r, t"
+ms.keywords: GetAt method [Print Devices], GetAt method [Print Devices], IPrintSchemaOptionCollection interface, GetAt,IPrintSchemaOptionCollection.GetAt, IPrintSchemaOptionCollection, IPrintSchemaOptionCollection interface [Print Devices], GetAt method, IPrintSchemaOptionCollection::GetAt, print.iprintschemaoptioncollection_getat, printerextension/IPrintSchemaOptionCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

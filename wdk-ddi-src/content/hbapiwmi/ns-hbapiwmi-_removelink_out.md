@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 724e3143-4994-4785-9bbf-afb928e8b166
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PRemoveLink_OUT, ,, L, O, P, PRemoveLink_OUT, PRemoveLink_OUT structure pointer [Storage Devices], R, RemoveLink_OUT, RemoveLink_OUT structure [Storage Devices], T, U, _, _RemoveLink_OUT, e, hbapiwmi/PRemoveLink_OUT, hbapiwmi/RemoveLink_OUT, i, k, m, n, o, storage.removelink_out, structs-Fibre_0210455d-c6c4-4548-ae14-63aa2e7b9a5d.xml, v"
+ms.keywords: "*PRemoveLink_OUT, PRemoveLink_OUT, PRemoveLink_OUT structure pointer [Storage Devices], RemoveLink_OUT, RemoveLink_OUT structure [Storage Devices], _RemoveLink_OUT, hbapiwmi/PRemoveLink_OUT, hbapiwmi/RemoveLink_OUT, storage.removelink_out, structs-Fibre_0210455d-c6c4-4548-ae14-63aa2e7b9a5d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

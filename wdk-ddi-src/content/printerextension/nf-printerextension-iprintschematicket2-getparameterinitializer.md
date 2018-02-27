@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: E5403359-A757-4530-B17B-C80E8A45AA92
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, G, GetParameterInitializer method [Print Devices], GetParameterInitializer method [Print Devices], IPrintSchematicket2 interface, GetParameterInitializer,IPrintSchemaTicket2.GetParameterInitializer, I, IPrintSchemaTicket2, IPrintSchemaTicket2::GetParameterInitializer, IPrintSchematicket2 interface [Print Devices], GetParameterInitializer method, IPrintSchematicket2::GetParameterInitializer, P, S, T, a, c, e, h, i, k, l, m, n, print.iprintschematicket2_getparameterinitializer, printerextension/IPrintSchematicket2::GetParameterInitializer, r, t, z"
+ms.keywords: GetParameterInitializer method [Print Devices], GetParameterInitializer method [Print Devices], IPrintSchematicket2 interface, GetParameterInitializer,IPrintSchemaTicket2.GetParameterInitializer, IPrintSchemaTicket2, IPrintSchemaTicket2::GetParameterInitializer, IPrintSchematicket2 interface [Print Devices], GetParameterInitializer method, IPrintSchematicket2::GetParameterInitializer, print.iprintschematicket2_getparameterinitializer, printerextension/IPrintSchematicket2::GetParameterInitializer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

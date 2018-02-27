@@ -153,19 +153,19 @@ The handler declaration used for <i>KStrMethodHandler</i> and <i>KStrSupportHand
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
-
-
-
 <a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
-
-
-
 <a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
+
+
+
+<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
 
 
 

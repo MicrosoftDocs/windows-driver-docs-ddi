@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 005e738e-dc38-404a-bd74-8aa342f8186b
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, S, V, VslCreateSecureSection, VslCreateSecureSection function [Kernel-Mode Driver Architecture], a, c, e, i, kernel.vslcreatesecuresection, l, n, o, r, s, t, u, wdm/VslCreateSecureSection"
+ms.keywords: VslCreateSecureSection, VslCreateSecureSection function [Kernel-Mode Driver Architecture], kernel.vslcreatesecuresection, wdm/VslCreateSecureSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

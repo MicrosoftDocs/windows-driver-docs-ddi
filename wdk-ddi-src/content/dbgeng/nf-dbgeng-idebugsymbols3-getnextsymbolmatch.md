@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0de394a0-9ae8-4ac9-970b-8575bb7dcc99
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 3, :, D, G, GetNextSymbolMatch method [Windows Debugging], GetNextSymbolMatch method [Windows Debugging], IDebugSymbols interface, GetNextSymbolMatch method [Windows Debugging], IDebugSymbols2 interface, GetNextSymbolMatch method [Windows Debugging], IDebugSymbols3 interface, GetNextSymbolMatch,IDebugSymbols.GetNextSymbolMatch, GetNextSymbolMatch,IDebugSymbols2.GetNextSymbolMatch, GetNextSymbolMatch,IDebugSymbols3.GetNextSymbolMatch, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetNextSymbolMatch method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetNextSymbolMatch method, IDebugSymbols2::GetNextSymbolMatch, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetNextSymbolMatch method, IDebugSymbols3::GetNextSymbolMatch, IDebugSymbols::GetNextSymbolMatch, IDebugSymbols_9918b348-5b29-4b38-849e-3a36414b773d.xml, M, N, S, a, b, c, dbgeng/IDebugSymbols2::GetNextSymbolMatch, dbgeng/IDebugSymbols3::GetNextSymbolMatch, dbgeng/IDebugSymbols::GetNextSymbolMatch, debugger.getnextsymbolmatch, e, g, h, l, m, o, s, t, u, x, y"
+ms.keywords: GetNextSymbolMatch method [Windows Debugging], GetNextSymbolMatch method [Windows Debugging], IDebugSymbols interface, GetNextSymbolMatch method [Windows Debugging], IDebugSymbols2 interface, GetNextSymbolMatch method [Windows Debugging], IDebugSymbols3 interface, GetNextSymbolMatch,IDebugSymbols3.GetNextSymbolMatch, IDebugSymbols interface [Windows Debugging], GetNextSymbolMatch method, IDebugSymbols2 interface [Windows Debugging], GetNextSymbolMatch method, IDebugSymbols2::GetNextSymbolMatch, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetNextSymbolMatch method, IDebugSymbols3::GetNextSymbolMatch, IDebugSymbols::GetNextSymbolMatch, IDebugSymbols_9918b348-5b29-4b38-849e-3a36414b773d.xml, dbgeng/IDebugSymbols2::GetNextSymbolMatch, dbgeng/IDebugSymbols3::GetNextSymbolMatch, dbgeng/IDebugSymbols::GetNextSymbolMatch, debugger.getnextsymbolmatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -165,15 +165,15 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558815">StartSymbolMatch</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

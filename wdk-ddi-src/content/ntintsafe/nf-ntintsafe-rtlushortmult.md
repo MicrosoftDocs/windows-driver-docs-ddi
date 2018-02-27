@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1727AD96-FC0B-4B52-92C5-5E7502433021
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , M, R, RtlUShortMult, RtlUShortMult function [Kernel-Mode Driver Architecture], S, U, h, kernel.rtlushortmult, l, ntintsafe/RtlUShortMult, o, r, t, u"
+ms.keywords: RtlUShortMult, RtlUShortMult function [Kernel-Mode Driver Architecture], kernel.rtlushortmult, ntintsafe/RtlUShortMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

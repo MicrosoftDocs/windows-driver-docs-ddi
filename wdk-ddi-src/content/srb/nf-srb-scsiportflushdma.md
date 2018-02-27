@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9cf4286b-1ff7-4113-a2dc-d8813c633dd6
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , D, F, P, S, ScsiPortFlushDma, ScsiPortFlushDma routine [Storage Devices], a, c, h, i, l, m, o, r, s, scsiprt_3c2fc1a8-0f37-4735-a9b8-dcec220ee5bf.xml, srb/ScsiPortFlushDma, storage.scsiportflushdma, t, u"
+ms.keywords: ScsiPortFlushDma, ScsiPortFlushDma routine [Storage Devices], scsiprt_3c2fc1a8-0f37-4735-a9b8-dcec220ee5bf.xml, srb/ScsiPortFlushDma, storage.scsiportflushdma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

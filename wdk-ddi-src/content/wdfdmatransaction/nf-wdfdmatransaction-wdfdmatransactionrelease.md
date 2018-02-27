@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b271e095-1ac5-4795-82b0-954a17df334a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , D, DFDmaObjectRef_24ae3a95-d8b5-4a41-874a-ef537ed4c4cd.xml, R, T, W, WdfDmaTransactionRelease, WdfDmaTransactionRelease method, a, c, d, e, f, i, kmdf.wdfdmatransactionrelease, l, m, n, o, r, s, t, wdf.wdfdmatransactionrelease, wdfdmatransaction/WdfDmaTransactionRelease"
+ms.keywords: DFDmaObjectRef_24ae3a95-d8b5-4a41-874a-ef537ed4c4cd.xml, WdfDmaTransactionRelease, WdfDmaTransactionRelease method, kmdf.wdfdmatransactionrelease, wdf.wdfdmatransactionrelease, wdfdmatransaction/WdfDmaTransactionRelease
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

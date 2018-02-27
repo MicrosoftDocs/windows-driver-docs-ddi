@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3a1daad4-d4b7-4950-be58-73612949fba9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , A, C, E, N, NdisCompleteUnbindAdapterEx, NdisCompleteUnbindAdapterEx function [Network Drivers Starting with Windows Vista], U, a, b, d, e, i, l, m, n, ndis/NdisCompleteUnbindAdapterEx, netvista.ndiscompleteunbindadapterex, o, p, protocol_ndis_functions_ref_3d1252b7-d653-4bd6-a105-b998ffed694c.xml, r, s, t, x"
+ms.keywords: NdisCompleteUnbindAdapterEx, NdisCompleteUnbindAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteUnbindAdapterEx, netvista.ndiscompleteunbindadapterex, protocol_ndis_functions_ref_3d1252b7-d653-4bd6-a105-b998ffed694c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

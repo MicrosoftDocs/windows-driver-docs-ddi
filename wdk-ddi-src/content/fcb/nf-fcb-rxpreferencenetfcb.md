@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bc8999e2-d305-407f-8302-6834efa698c5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , F, N, R, RxpReferenceNetFcb, RxpReferenceNetFcb function [Installable File System Drivers], b, c, e, f, fcb/RxpReferenceNetFcb, ifsk.rxpreferencenetfcb, n, p, r, rxref_48d7801e-1459-405e-a681-2aa13e9e31cd.xml, t, x"
+ms.keywords: RxpReferenceNetFcb, RxpReferenceNetFcb function [Installable File System Drivers], fcb/RxpReferenceNetFcb, ifsk.rxpreferencenetfcb, rxref_48d7801e-1459-405e-a681-2aa13e9e31cd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,15 +94,15 @@ On checked builds, <b>RxpReferenceNetFcb</b> causes the system to ASSERT if the 
 
 ## -see-also
 
+<a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
+
+
+
 <a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
 
 
 
 <a href="..\fcb\nf-fcb-rxpdereferencenetfcb.md">RxpDereferenceNetFcb</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 762A7E36-E0F8-475C-B201-217D8FD8EBD6
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, 0, 3, A, C, D, E, I, K, KEYWORDSELECTOR, KEYWORDSELECTOR structure [Audio Devices], L, M, O, R, S, T, W, Y, _, __MIDL_IKeywordDetectorOemAdapter_0003, a, audio.keywordselector, c, d, e, keyworddetectoroemadapter/KEYWORDSELECTOR, m, o, p, r, t, w, y"
+ms.keywords: KEYWORDSELECTOR, KEYWORDSELECTOR structure [Audio Devices], __MIDL_IKeywordDetectorOemAdapter_0003, audio.keywordselector, keyworddetectoroemadapter/KEYWORDSELECTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

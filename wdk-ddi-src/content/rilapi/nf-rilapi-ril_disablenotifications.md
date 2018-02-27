@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 70635820-9912-4d27-87e2-e713ea33e819
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , D, I, L, N, R, RIL_DisableNotifications, RIL_DisableNotifications method [Network Drivers Starting with Windows Vista], _, a, b, c, e, f, i, l, n, netvista.ril_disablenotifications, o, rilapi/RIL_DisableNotifications, s, t"
+ms.keywords: RIL_DisableNotifications, RIL_DisableNotifications method [Network Drivers Starting with Windows Vista], netvista.ril_disablenotifications, rilapi/RIL_DisableNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 182e55ec-1a99-4bd6-bcf6-d5e8302b9eae
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, D, G, GetValues2 method [Windows Debugging], GetValues2 method [Windows Debugging], IDebugRegisters2 interface, GetValues2,IDebugRegisters2.GetValues2, I, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetValues2 method, IDebugRegisters2::GetValues2, IDebugRegisters_de7a1e67-5ffe-48f8-a19d-63858c500389.xml, R, V, a, b, dbgeng/IDebugRegisters2::GetValues2, debugger.getvalues2, e, g, i, l, r, s, t, u"
+ms.keywords: GetValues2 method [Windows Debugging], GetValues2 method [Windows Debugging], IDebugRegisters2 interface, GetValues2,IDebugRegisters2.GetValues2, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetValues2 method, IDebugRegisters2::GetValues2, IDebugRegisters_de7a1e67-5ffe-48f8-a19d-63858c500389.xml, dbgeng/IDebugRegisters2::GetValues2, debugger.getvalues2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -192,15 +192,15 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549480">GetValues</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
 
 

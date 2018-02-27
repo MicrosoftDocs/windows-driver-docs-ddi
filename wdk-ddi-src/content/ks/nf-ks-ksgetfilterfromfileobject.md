@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: eb4ca943-43cb-4eac-8a73-484a7b8acafe
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , F, G, K, KsGetFilterFromFileObject, KsGetFilterFromFileObject function [Streaming Media Devices], O, avfunc_4c336bce-3064-471e-bd79-daa1888e14b8.xml, b, c, e, i, j, ks/KsGetFilterFromFileObject, l, m, o, r, s, stream.ksgetfilterfromfileobject, t"
+ms.keywords: KsGetFilterFromFileObject, KsGetFilterFromFileObject function [Streaming Media Devices], avfunc_4c336bce-3064-471e-bd79-daa1888e14b8.xml, ks/KsGetFilterFromFileObject, stream.ksgetfilterfromfileobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,11 @@ It is the responsibility of the minidriver to verify that <i>FileObject</i> is a
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgetdevicefordeviceobject.md">KsGetDeviceForDeviceObject</a>
-
-
-
 <a href="..\ks\nf-ks-ksgetobjecttypefromfileobject.md">KsGetObjectTypeFromFileObject</a>
+
+
+
+<a href="..\ks\nf-ks-ksgetdevicefordeviceobject.md">KsGetDeviceForDeviceObject</a>
 
 
 

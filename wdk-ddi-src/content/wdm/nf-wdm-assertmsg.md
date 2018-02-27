@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 88c0cd30-607b-48f4-b2b6-3c21be1ce31a
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, ASSERTMSG, ASSERTMSG function [Driver Development Tools], DebugFns_998b520e-90e6-440f-94d4-55ff0b6e102f.xml, E, G, M, R, S, T, devtest.assertmsg, ntddk/ASSERTMSG"
+ms.keywords: ASSERTMSG, ASSERTMSG function [Driver Development Tools], DebugFns_998b520e-90e6-440f-94d4-55ff0b6e102f.xml, devtest.assertmsg, ntddk/ASSERTMSG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -83,14 +83,14 @@ TBD
 
 
 
-#### - Message
-
-Specifies the null-delimited string to be displayed by the debugger.
-
-
 #### - Expression
 
 Specifies any logical expression.
+
+
+#### - Message
+
+Specifies the null-delimited string to be displayed by the debugger.
 
 
 ## -remarks

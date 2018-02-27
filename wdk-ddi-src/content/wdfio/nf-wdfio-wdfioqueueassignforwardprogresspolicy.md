@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9512ecf2-ca59-4df8-bb60-c644444bc6fa
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , A, DFQueueObjectRef_cd40c10b-367c-403a-8002-39662120f697.xml, F, I, P, Q, W, WdfIoQueueAssignForwardProgressPolicy, WdfIoQueueAssignForwardProgressPolicy method, a, c, d, e, f, g, i, kmdf.wdfioqueueassignforwardprogresspolicy, l, n, o, r, s, u, w, wdf.wdfioqueueassignforwardprogresspolicy, wdfio/WdfIoQueueAssignForwardProgressPolicy, y"
+ms.keywords: DFQueueObjectRef_cd40c10b-367c-403a-8002-39662120f697.xml, WdfIoQueueAssignForwardProgressPolicy, WdfIoQueueAssignForwardProgressPolicy method, kmdf.wdfioqueueassignforwardprogresspolicy, wdf.wdfioqueueassignforwardprogresspolicy, wdfio/WdfIoQueueAssignForwardProgressPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

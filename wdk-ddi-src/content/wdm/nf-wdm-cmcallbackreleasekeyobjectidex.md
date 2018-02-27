@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3361DAEF-AC2A-401B-80E8-0220F191587C
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, CmCallbackReleaseKeyObjectIDEx, CmCallbackReleaseKeyObjectIDEx routine [Kernel-Mode Driver Architecture], D, E, I, K, O, R, a, b, c, e, j, k, kernel.cmcallbackreleasekeyobjectidex, l, m, s, t, wdm/CmCallbackReleaseKeyObjectIDEx, x, y"
+ms.keywords: CmCallbackReleaseKeyObjectIDEx, CmCallbackReleaseKeyObjectIDEx routine [Kernel-Mode Driver Architecture], kernel.cmcallbackreleasekeyobjectidex, wdm/CmCallbackReleaseKeyObjectIDEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

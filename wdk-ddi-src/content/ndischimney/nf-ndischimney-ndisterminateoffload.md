@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 13eb4c17-2cb5-4773-b2e3-e8e624473c97
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , N, NdisTerminateOffload, NdisTerminateOffload function [Network Drivers Starting with Windows Vista], O, T, a, d, e, f, i, l, m, n, ndischimney/NdisTerminateOffload, netvista.ndisterminateoffload, o, r, s, t, tcp_chim_ndis_func_44201f08-cbfc-4796-b2a9-78bbc5c348c4.xml"
+ms.keywords: NdisTerminateOffload, NdisTerminateOffload function [Network Drivers Starting with Windows Vista], ndischimney/NdisTerminateOffload, netvista.ndisterminateoffload, tcp_chim_ndis_func_44201f08-cbfc-4796-b2a9-78bbc5c348c4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,8 +128,8 @@ From the
 
 
 
-<a href="..\ndischimney\nc-ndischimney-terminate_offload_complete_handler.md">
-   ProtocolTerminateOffloadComplete</a>
+<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 
@@ -143,12 +143,12 @@ From the
 
 
 
+<a href="..\ndischimney\nc-ndischimney-terminate_offload_complete_handler.md">
+   ProtocolTerminateOffloadComplete</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 

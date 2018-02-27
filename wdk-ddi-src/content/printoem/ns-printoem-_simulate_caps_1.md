@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 17f5d8bf-a3e7-4ff5-9019-24c66875b786
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PSIMULATE_CAPS_1, ,, 1, A, C, E, I, L, M, P, PSIMULATE_CAPS_1, PSIMULATE_CAPS_1 structure pointer [Print Devices], S, SIMULATE_CAPS_1, SIMULATE_CAPS_1 structure [Print Devices], T, U, _, _SIMULATE_CAPS_1, print.simulate_caps_1, print_interface-graphics_cb1ba0de-be04-4b11-a746-97fd3f2bc213.xml, printoem/PSIMULATE_CAPS_1, printoem/SIMULATE_CAPS_1"
+ms.keywords: "*PSIMULATE_CAPS_1, PSIMULATE_CAPS_1, PSIMULATE_CAPS_1 structure pointer [Print Devices], SIMULATE_CAPS_1, SIMULATE_CAPS_1 structure [Print Devices], _SIMULATE_CAPS_1, print.simulate_caps_1, print_interface-graphics_cb1ba0de-be04-4b11-a746-97fd3f2bc213.xml, printoem/PSIMULATE_CAPS_1, printoem/SIMULATE_CAPS_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

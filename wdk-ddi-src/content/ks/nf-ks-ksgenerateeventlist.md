@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 336dbbc1-0f3c-4a3f-b3b4-017f4d158bda
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , E, G, K, KsGenerateEventList, KsGenerateEventList function [Streaming Media Devices], L, a, e, i, ks/KsGenerateEventList, ksfunc_d4a351ab-f750-4486-99ae-72c42794bee0.xml, n, r, s, stream.ksgenerateeventlist, t, v"
+ms.keywords: KsGenerateEventList, KsGenerateEventList function [Streaming Media Devices], ks/KsGenerateEventList, ksfunc_d4a351ab-f750-4486-99ae-72c42794bee0.xml, stream.ksgenerateeventlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,19 +117,19 @@ This function can be called at any IRQL level if the locking mechanism permits i
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
-
-
-
 <a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
+<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
 
 
 
 <a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a8532a6d-2b7f-4ed6-a2e4-6157d5e842ff
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, E, ExCreateCallback, ExCreateCallback routine [Kernel-Mode Driver Architecture], a, b, c, e, k, k102_7c7f1024-8ae7-4925-91f3-add4fcb452b7.xml, kernel.excreatecallback, l, r, t, wdm/ExCreateCallback, x"
+ms.keywords: ExCreateCallback, ExCreateCallback routine [Kernel-Mode Driver Architecture], k102_7c7f1024-8ae7-4925-91f3-add4fcb452b7.xml, kernel.excreatecallback, wdm/ExCreateCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -147,19 +147,19 @@ For more information about callback objects, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a>
-
-
-
 <a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a>
 
 
 
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 73C7C38A-F6E1-4276-A66A-0C16BC6E8F1C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , 1/SERCX_BUFFER_DESCRIPTOR_INIT, B, C, D, E, F, I, N, O, P, R, S, SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT function [Serial Ports], T, U, X, _, serports.sercx_buffer_descriptor_init"
+ms.keywords: 1/SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT function [Serial Ports], serports.sercx_buffer_descriptor_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

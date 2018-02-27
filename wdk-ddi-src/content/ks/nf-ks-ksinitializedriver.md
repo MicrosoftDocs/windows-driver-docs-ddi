@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5a77e59f-ce64-4ff2-ac95-c9062cef20d2
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , D, I, K, KsInitializeDriver, KsInitializeDriver function [Streaming Media Devices], a, avfunc_2a16bc8c-a92a-4792-8007-29735a19f806.xml, e, i, ks/KsInitializeDriver, l, n, r, s, stream.ksinitializedriver, t, v, z"
+ms.keywords: KsInitializeDriver, KsInitializeDriver function [Streaming Media Devices], avfunc_2a16bc8c-a92a-4792-8007-29735a19f806.xml, ks/KsInitializeDriver, stream.ksinitializedriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,27 +110,7 @@ This function is typically called from <b>DriverEntry</b>. If the minidriver pas
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558721">DriverEntry of AVStream</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
-
-
-<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
-
-
-
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -138,7 +118,27 @@ This function is typically called from <b>DriverEntry</b>. If the minidriver pas
 
 
 
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
+
+
+
+<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+
+
 <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+
+
+
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 

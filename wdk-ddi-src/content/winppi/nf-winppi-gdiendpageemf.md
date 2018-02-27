@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e15344a5-32ed-43a8-93c2-d5201617d595
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , E, F, G, GdiEndPageEMF, GdiEndPageEMF function [Print Devices], M, P, a, d, e, g, gdifnc_867f18b8-1764-41a4-a7c1-e43fa72a3d27.xml, i, n, print.gdiendpageemf, winppi/GdiEndPageEMF"
+ms.keywords: GdiEndPageEMF, GdiEndPageEMF function [Print Devices], gdifnc_867f18b8-1764-41a4-a7c1-e43fa72a3d27.xml, print.gdiendpageemf, winppi/GdiEndPageEMF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,11 +129,11 @@ For additional information, see <a href="https://msdn.microsoft.com/2ad62308-ab4
 
 ## -see-also
 
-<a href="..\winppi\nf-winppi-gdistartpageemf.md">GdiStartPageEMF</a>
-
-
-
 <a href="..\winppi\nf-winppi-gdiplaypageemf.md">GdiPlayPageEMF</a>
+
+
+
+<a href="..\winppi\nf-winppi-gdistartpageemf.md">GdiStartPageEMF</a>
 
 
 

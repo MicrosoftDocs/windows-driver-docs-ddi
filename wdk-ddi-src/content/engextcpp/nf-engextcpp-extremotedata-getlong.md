@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 064f50e7-bae8-4c29-9802-47efdb749652
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, E, EngExtCpp_Ref_10a1810d-2e15-490a-baeb-8881106f41a6.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetLong method, ExtRemoteData::GetLong, G, GetLong method [Windows Debugging], GetLong method [Windows Debugging], ExtRemoteData class, GetLong,ExtRemoteData.GetLong, L, R, a, debugger.extremotedata_getlong, e, g, m, n, o, t, x"
+ms.keywords: EngExtCpp_Ref_10a1810d-2e15-490a-baeb-8881106f41a6.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetLong method, ExtRemoteData::GetLong, GetLong method [Windows Debugging], GetLong method [Windows Debugging], ExtRemoteData class, GetLong,ExtRemoteData.GetLong, debugger.extremotedata_getlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

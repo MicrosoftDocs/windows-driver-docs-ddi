@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 38601573-750f-46fc-ae04-cef0d90d9ea9
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , E, ExFlushLookasideListEx, ExFlushLookasideListEx routine [Kernel-Mode Driver Architecture], F, L, a, d, e, h, i, k, k102_bb02a725-bc22-4c22-91f2-0232c1cb0f1f.xml, kernel.exflushlookasidelistex, l, o, s, t, u, wdm/ExFlushLookasideListEx, x"
+ms.keywords: ExFlushLookasideListEx, ExFlushLookasideListEx routine [Kernel-Mode Driver Architecture], k102_bb02a725-bc22-4c22-91f2-0232c1cb0f1f.xml, kernel.exflushlookasidelistex, wdm/ExFlushLookasideListEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

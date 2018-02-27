@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ba994342-c203-443e-a9fd-60fd29721dae
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, AddProperty method [Print Devices], AddProperty method [Print Devices], IPrintPipelinePropertyBag interface, AddProperty,IPrintPipelinePropertyBag.AddProperty, B, I, IPrintPipelinePropertyBag, IPrintPipelinePropertyBag interface [Print Devices], AddProperty method, IPrintPipelinePropertyBag::AddProperty, P, a, d, e, filterpipeline/IPrintPipelinePropertyBag::AddProperty, filterpipeline_03ee8efb-3b2b-460a-9b95-e806dad5bb96.xml, g, i, l, n, o, p, print.iprintpipelinepropertybag_addproperty, r, t, y"
+ms.keywords: AddProperty method [Print Devices], AddProperty method [Print Devices], IPrintPipelinePropertyBag interface, AddProperty,IPrintPipelinePropertyBag.AddProperty, IPrintPipelinePropertyBag, IPrintPipelinePropertyBag interface [Print Devices], AddProperty method, IPrintPipelinePropertyBag::AddProperty, filterpipeline/IPrintPipelinePropertyBag::AddProperty, filterpipeline_03ee8efb-3b2b-460a-9b95-e806dad5bb96.xml, print.iprintpipelinepropertybag_addproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

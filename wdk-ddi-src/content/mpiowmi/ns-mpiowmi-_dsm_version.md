@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1aa264fa-b552-41a0-bd43-a62f8f2b533b
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PDSM_VERSION, ,, D, DSM_VERSION, DSM_VERSION structure [Storage Devices], E, I, M, N, O, P, PDSM_VERSION, PDSM_VERSION structure pointer [Storage Devices], R, S, V, _, _DSM_VERSION, mpiowmi/DSM_VERSION, mpiowmi/PDSM_VERSION, storage.dsm_version, structs-scsibus_3e00c2b2-0497-4aab-b2e0-a6a5d998e560.xml"
+ms.keywords: "*PDSM_VERSION, DSM_VERSION, DSM_VERSION structure [Storage Devices], PDSM_VERSION, PDSM_VERSION structure pointer [Storage Devices], _DSM_VERSION, mpiowmi/DSM_VERSION, mpiowmi/PDSM_VERSION, storage.dsm_version, structs-scsibus_3e00c2b2-0497-4aab-b2e0-a6a5d998e560.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

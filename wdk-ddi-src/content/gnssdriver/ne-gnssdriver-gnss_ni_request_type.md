@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 79AFC7D8-5A51-49CC-8ADA-7D21C6859254
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, E, G, GNSS_NI_REQUEST_TYPE, GNSS_NI_REQUEST_TYPE enumeration [Sensor Devices], GNSS_NI_Request_AreaTrigger, GNSS_NI_Request_SingleShot, I, N, P, Q, R, S, T, U, Y, _, gnssdriver/GNSS_NI_REQUEST_TYPE, gnssdriver/GNSS_NI_Request_AreaTrigger, gnssdriver/GNSS_NI_Request_SingleShot, sensors.gnss_ni_request_type"
+ms.keywords: GNSS_NI_REQUEST_TYPE, GNSS_NI_REQUEST_TYPE enumeration [Sensor Devices], GNSS_NI_Request_AreaTrigger, GNSS_NI_Request_SingleShot, gnssdriver/GNSS_NI_REQUEST_TYPE, gnssdriver/GNSS_NI_Request_AreaTrigger, gnssdriver/GNSS_NI_Request_SingleShot, sensors.gnss_ni_request_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

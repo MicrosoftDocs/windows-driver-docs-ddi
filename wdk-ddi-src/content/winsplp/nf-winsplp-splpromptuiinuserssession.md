@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5e458e3b-cfe2-4d48-b386-34d2a6c1d15e
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , I, P, S, SplPromptUIInUsersSession, SplPromptUIInUsersSession function [Print Devices], U, e, i, l, m, n, o, p, print.splpromptuiinuserssession, r, s, spoolfnc_5b2379b2-c34b-4a98-b148-25a09f55be2b.xml, t, winsplp/SplPromptUIInUsersSession"
+ms.keywords: SplPromptUIInUsersSession, SplPromptUIInUsersSession function [Print Devices], print.splpromptuiinuserssession, spoolfnc_5b2379b2-c34b-4a98-b148-25a09f55be2b.xml, winsplp/SplPromptUIInUsersSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,11 +113,11 @@ If you plan to use this function in a driver intended to run under Windows 2000,
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-splissessionzero.md">SplIsSessionZero</a>
-
-
-
 <a href="..\winsplp\ns-winsplp-showuiparams.md">SHOWUIPARAMS</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-splissessionzero.md">SplIsSessionZero</a>
 
 
 

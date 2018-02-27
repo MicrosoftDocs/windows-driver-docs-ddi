@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c1525604-3aee-464d-a7f5-a6a4739a2aa4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, CcMdlReadComplete, CcMdlReadComplete routine [Installable File System Drivers], M, R, a, c, ccref_9739ef62-748c-43c6-ae79-ae54f2358368.xml, d, e, ifsk.ccmdlreadcomplete, l, m, ntifs/CcMdlReadComplete, o, p, t"
+ms.keywords: CcMdlReadComplete, CcMdlReadComplete routine [Installable File System Drivers], ccref_9739ef62-748c-43c6-ae79-ae54f2358368.xml, ifsk.ccmdlreadcomplete, ntifs/CcMdlReadComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 81DE84F8-7D2D-464F-BA5D-4D92D0EE9149
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , 2, 2/SerCx2PioReceiveReady, C, P, R, S, SerCx2PioReceiveReady, SerCx2PioReceiveReady method [Serial Ports], a, c, d, e, i, o, r, serports.sercx2pioreceiveready, v, x, y"
+ms.keywords: 2/SerCx2PioReceiveReady, SerCx2PioReceiveReady, SerCx2PioReceiveReady method [Serial Ports], serports.sercx2pioreceiveready
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,19 +99,19 @@ Additionally, SerCx2 uses these ready notifications to detect interval time-outs
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_read_buffer.md">EvtSerCx2PioReceiveReadBuffer</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
 
 
 
 <a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_read_buffer.md">EvtSerCx2PioReceiveReadBuffer</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ea84934-63a7-40bf-8523-ccd2b9e5aceb
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 3, D, D3DKMTGetDeviceState, D3DKMTGetDeviceState function [Display Devices], G, K, M, OpenGL_Functions_396da637-bbc6-478c-8ec9-534d82691c45.xml, S, T, a, c, d3dkmthk/D3DKMTGetDeviceState, display.d3dkmtgetdevicestate, e, i, t, v"
+ms.keywords: D3DKMTGetDeviceState, D3DKMTGetDeviceState function [Display Devices], OpenGL_Functions_396da637-bbc6-478c-8ec9-534d82691c45.xml, d3dkmthk/D3DKMTGetDeviceState, display.d3dkmtgetdevicestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

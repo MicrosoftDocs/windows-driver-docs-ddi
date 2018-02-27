@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eb9a89b8-02de-4617-a2f8-f67509ab8987
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 4, :, C, ControlledOutputWide method [Windows Debugging], ControlledOutputWide method [Windows Debugging], IDebugControl4 interface, ControlledOutputWide,IDebugControl4.ControlledOutputWide, D, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], ControlledOutputWide method, IDebugControl4::ControlledOutputWide, O, W, b, d, dbgeng/IDebugControl4::ControlledOutputWide, debugger.controlledoutputwide, e, g, i, l, n, o, p, r, t, u"
+ms.keywords: ControlledOutputWide method [Windows Debugging], ControlledOutputWide method [Windows Debugging], IDebugControl4 interface, ControlledOutputWide,IDebugControl4.ControlledOutputWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], ControlledOutputWide method, IDebugControl4::ControlledOutputWide, dbgeng/IDebugControl4::ControlledOutputWide, debugger.controlledoutputwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -488,7 +488,7 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
 
 
 
@@ -496,7 +496,7 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 

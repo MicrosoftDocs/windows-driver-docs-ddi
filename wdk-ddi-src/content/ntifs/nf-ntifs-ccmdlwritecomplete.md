@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dcd13afa-1467-407c-b843-ff88bd6526c3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, CcMdlWriteComplete, CcMdlWriteComplete routine [Installable File System Drivers], M, W, c, ccref_fe5a4900-c0bc-4100-b3e9-e2b7d780a9d2.xml, d, e, i, ifsk.ccmdlwritecomplete, l, m, ntifs/CcMdlWriteComplete, o, p, r, t"
+ms.keywords: CcMdlWriteComplete, CcMdlWriteComplete routine [Installable File System Drivers], ccref_fe5a4900-c0bc-4100-b3e9-e2b7d780a9d2.xml, ifsk.ccmdlwritecomplete, ntifs/CcMdlWriteComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

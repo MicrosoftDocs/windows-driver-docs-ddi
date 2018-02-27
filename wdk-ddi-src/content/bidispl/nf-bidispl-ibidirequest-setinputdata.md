@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8db7b5cd-b03f-4973-8711-8ac022bfb2b5
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, B, BIDI_BLOB, BIDI_BOOL, BIDI_ENUM, BIDI_FLOAT, BIDI_INT, BIDI_NULL, BIDI_STRING, BIDI_TEXT, D, I, IBidiRequest, IBidiRequest interface [Print Devices], SetInputData method, IBidiRequest::SetInputData, R, S, SetInputData method [Print Devices], SetInputData method [Print Devices], IBidiRequest interface, SetInputData,IBidiRequest.SetInputData, _win32_IBidiRequest_SetInputData, a, bidispl/IBidiRequest::SetInputData, d, e, gdi.ibidirequest_ibidirequest__setinputdata, i, n, p, print.ibidirequest_ibidirequest__setinputdata, q, s, t, u"
+ms.keywords: BIDI_BLOB, BIDI_BOOL, BIDI_ENUM, BIDI_FLOAT, BIDI_INT, BIDI_NULL, BIDI_STRING, BIDI_TEXT, IBidiRequest, IBidiRequest interface [Print Devices], SetInputData method, IBidiRequest::SetInputData, SetInputData method [Print Devices], SetInputData method [Print Devices], IBidiRequest interface, SetInputData,IBidiRequest.SetInputData, _win32_IBidiRequest_SetInputData, bidispl/IBidiRequest::SetInputData, gdi.ibidirequest_ibidirequest__setinputdata, print.ibidirequest_ibidirequest__setinputdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -255,15 +255,15 @@ If an application calls <b>SetInputData</b> more than once, only the value of th
 
 ## -see-also
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
 
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
+
+
+<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
 
 

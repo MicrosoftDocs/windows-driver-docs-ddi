@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B39DC40A-2B7D-402F-B88C-E6684BF9AA0F
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, D, DetailedReasonId property [Print Devices], DetailedReasonId property [Print Devices], IPrinterExtensionEventArgs interface, E, I, IPrinterExtensionEventArgs, IPrinterExtensionEventArgs interface [Print Devices], DetailedReasonId property, IPrinterExtensionEventArgs.DetailedReasonId, IPrinterExtensionEventArgs::get_DetailedReasonId, P, R, _, a, d, e, g, get_DetailedReasonId, get_DetailedReasonId,IPrinterExtensionEventArgs.get_DetailedReasonId, i, l, n, o, print.iprinterextensioneventargs_detailedreasonid, printerextension/IPrinterExtensionEventArgs::DetailedReasonId, printerextension/IPrinterExtensionEventArgs::get_DetailedReasonId, r, s, t, v, x"
+ms.keywords: DetailedReasonId property [Print Devices], DetailedReasonId property [Print Devices], IPrinterExtensionEventArgs interface, IPrinterExtensionEventArgs, IPrinterExtensionEventArgs interface [Print Devices], DetailedReasonId property, IPrinterExtensionEventArgs.DetailedReasonId, IPrinterExtensionEventArgs::get_DetailedReasonId, get_DetailedReasonId, get_DetailedReasonId,IPrinterExtensionEventArgs.get_DetailedReasonId, print.iprinterextensioneventargs_detailedreasonid, printerextension/IPrinterExtensionEventArgs::DetailedReasonId, printerextension/IPrinterExtensionEventArgs::get_DetailedReasonId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -80,11 +80,11 @@ The value of <b>DetailedReasonId</b> is always {5D5A1704-DFD1-4181-8EEE-815C86ED
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioneventargs.md">IPrinterExtensionEventArgs</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh973210">ReasonId</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterextensioneventargs.md">IPrinterExtensionEventArgs</a>
 
 
 

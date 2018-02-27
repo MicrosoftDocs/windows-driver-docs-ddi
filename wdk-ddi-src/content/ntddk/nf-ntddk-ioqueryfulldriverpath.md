@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2F73ECD7-EC58-43A9-89F8-E0268510A498
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , D, F, I, IoQueryFullDriverPath, IoQueryFullDriverPath routine [Kernel-Mode Driver Architecture], P, Q, a, e, h, i, kernel.ioqueryfulldriverpath, l, o, r, t, u, v, wdm/IoQueryFullDriverPath, y"
+ms.keywords: IoQueryFullDriverPath, IoQueryFullDriverPath routine [Kernel-Mode Driver Architecture], kernel.ioqueryfulldriverpath, wdm/IoQueryFullDriverPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

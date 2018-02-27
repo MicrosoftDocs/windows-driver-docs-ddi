@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7ce333a3-86a2-47e5-b755-fd84469c8785
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, G, GetImageProperties method [Print Devices], GetImageProperties method [Print Devices], IPartImage interface, GetImageProperties,IPartImage.GetImageProperties, I, IPartImage, IPartImage interface [Print Devices], GetImageProperties method, IPartImage::GetImageProperties, P, a, e, filterpipeline/IPartImage::GetImageProperties, filterpipeline_06d3e014-e30a-44d2-a6e0-769cb62c387d.xml, g, i, m, o, p, print.ipartimage_getimageproperties, r, s, t"
+ms.keywords: GetImageProperties method [Print Devices], GetImageProperties method [Print Devices], IPartImage interface, GetImageProperties,IPartImage.GetImageProperties, IPartImage, IPartImage interface [Print Devices], GetImageProperties method, IPartImage::GetImageProperties, filterpipeline/IPartImage::GetImageProperties, filterpipeline_06d3e014-e30a-44d2-a6e0-769cb62c387d.xml, print.ipartimage_getimageproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

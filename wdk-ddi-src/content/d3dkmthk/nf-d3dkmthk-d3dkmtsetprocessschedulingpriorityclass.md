@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1c0177da-5e5f-4e3e-aef2-05d8079bfb95
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 3, C, D, D3DKMTSetProcessSchedulingPriorityClass, D3DKMTSetProcessSchedulingPriorityClass function [Display Devices], K, M, OpenGL_Functions_757bbe38-6623-4438-8af3-a2282bec6c78.xml, P, S, T, a, c, d, d3dkmthk/D3DKMTSetProcessSchedulingPriorityClass, display.d3dkmtsetprocessschedulingpriorityclass, e, g, h, i, l, n, o, r, s, t, u, y"
+ms.keywords: D3DKMTSetProcessSchedulingPriorityClass, D3DKMTSetProcessSchedulingPriorityClass function [Display Devices], OpenGL_Functions_757bbe38-6623-4438-8af3-a2282bec6c78.xml, d3dkmthk/D3DKMTSetProcessSchedulingPriorityClass, display.d3dkmtsetprocessschedulingpriorityclass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,14 +78,14 @@ TBD
 
 
 
-#### - hProcess [in]
-
-A handle to the process that scheduling priority is set for.
-
-
 #### - Priority [in]
 
 A <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_schedulingpriorityclass.md">D3DKMT_SCHEDULINGPRIORITYCLASS</a>-typed value that indicates the priority level to set for the process.
+
+
+#### - hProcess [in]
+
+A handle to the process that scheduling priority is set for.
 
 
 ## -returns

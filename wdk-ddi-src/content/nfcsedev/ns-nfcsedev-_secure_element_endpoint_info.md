@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: C1D812BD-55F0-44F7-BCC8-81CC758EDEF3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , *, *PSECURE_ELEMENT_ENDPOINT_INFO, ,, C, D, E, F, I, L, M, N, O, P, P_SECURE_ELEMENT_ENDPOINT_INFO, P_SECURE_ELEMENT_ENDPOINT_INFO structure pointer [Near-Field Proximity Drivers], R, S, SECURE_ELEMENT_ENDPOINT_INFO, SECURE_ELEMENT_ENDPOINT_INFO structure [Near-Field Proximity Drivers], T, U, _, _SECURE_ELEMENT_ENDPOINT_INFO, nfcsedev/P_SECURE_ELEMENT_ENDPOINT_INFO, nfcsedev/_SECURE_ELEMENT_ENDPOINT_INFO, nfpdrivers._secure_element_endpoint_info"
+ms.keywords: "*PSECURE_ELEMENT_ENDPOINT_INFO, P_SECURE_ELEMENT_ENDPOINT_INFO, P_SECURE_ELEMENT_ENDPOINT_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_ENDPOINT_INFO, SECURE_ELEMENT_ENDPOINT_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_ENDPOINT_INFO, nfcsedev/P_SECURE_ELEMENT_ENDPOINT_INFO, nfcsedev/_SECURE_ELEMENT_ENDPOINT_INFO, nfpdrivers._secure_element_endpoint_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

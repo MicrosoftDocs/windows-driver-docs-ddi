@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: f5305351-10b4-47e6-a8b6-e1a91c605ca9
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PPCW_REGISTRATION_INFORMATION, ,, A, C, E, F, G, I, M, N, O, P, PCW_REGISTRATION_INFORMATION, PCW_REGISTRATION_INFORMATION structure [Driver Development Tools], PPCW_REGISTRATION_INFORMATION, PPCW_REGISTRATION_INFORMATION structure pointer [Driver Development Tools], R, S, T, W, _, _PCW_REGISTRATION_INFORMATION, devtest.pcw_registration_information, km_pcw_a740182f-4844-4a98-9493-522087a3d27c.xml, wdm/PCW_REGISTRATION_INFORMATION, wdm/PPCW_REGISTRATION_INFORMATION"
+ms.keywords: "*PPCW_REGISTRATION_INFORMATION, PCW_REGISTRATION_INFORMATION, PCW_REGISTRATION_INFORMATION structure [Driver Development Tools], PPCW_REGISTRATION_INFORMATION, PPCW_REGISTRATION_INFORMATION structure pointer [Driver Development Tools], _PCW_REGISTRATION_INFORMATION, devtest.pcw_registration_information, km_pcw_a740182f-4844-4a98-9493-522087a3d27c.xml, wdm/PCW_REGISTRATION_INFORMATION, wdm/PPCW_REGISTRATION_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,11 +118,11 @@ The <a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a> function takes, as a 
 
 
 
-<a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a>
-
-
-
 <a href="..\wdm\nc-wdm-pcw_callback.md">PcwCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a>
 
 
 

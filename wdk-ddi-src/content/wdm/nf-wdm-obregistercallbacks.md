@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 93593979-fe5f-48de-9c98-92acd43ec750
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, O, ObRegisterCallbacks, ObRegisterCallbacks routine [Kernel-Mode Driver Architecture], R, a, b, c, e, g, i, k, k107_e5976812-0590-42f5-836c-85f9d262f19f.xml, kernel.obregistercallbacks, l, r, s, t, wdm/ObRegisterCallbacks"
+ms.keywords: ObRegisterCallbacks, ObRegisterCallbacks routine [Kernel-Mode Driver Architecture], k107_e5976812-0590-42f5-836c-85f9d262f19f.xml, kernel.obregistercallbacks, wdm/ObRegisterCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -167,11 +167,11 @@ A driver must unregister all callback routines before it unloads. You can unregi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obunregistercallbacks.md">ObUnRegisterCallbacks</a>
-
-
-
 <a href="..\wdm\ns-wdm-_ob_callback_registration.md">OB_CALLBACK_REGISTRATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-obunregistercallbacks.md">ObUnRegisterCallbacks</a>
 
 
 

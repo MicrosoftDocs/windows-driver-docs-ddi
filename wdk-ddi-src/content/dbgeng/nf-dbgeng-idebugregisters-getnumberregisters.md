@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 51c521fc-e89c-49c9-8110-de31af3bed83
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, G, GetNumberRegisters method [Windows Debugging], GetNumberRegisters method [Windows Debugging], IDebugRegisters interface, GetNumberRegisters method [Windows Debugging], IDebugRegisters2 interface, GetNumberRegisters,IDebugRegisters.GetNumberRegisters, I, IDebugRegisters, IDebugRegisters interface [Windows Debugging], GetNumberRegisters method, IDebugRegisters2 interface [Windows Debugging], GetNumberRegisters method, IDebugRegisters2::GetNumberRegisters, IDebugRegisters::GetNumberRegisters, IDebugRegisters_b2fa1d95-0331-4c27-a3af-3cc8e895e88f.xml, N, R, b, dbgeng/IDebugRegisters2::GetNumberRegisters, dbgeng/IDebugRegisters::GetNumberRegisters, debugger.getnumberregisters, e, g, i, m, r, s, t, u"
+ms.keywords: GetNumberRegisters method [Windows Debugging], GetNumberRegisters method [Windows Debugging], IDebugRegisters interface, GetNumberRegisters method [Windows Debugging], IDebugRegisters2 interface, GetNumberRegisters,IDebugRegisters.GetNumberRegisters, IDebugRegisters, IDebugRegisters interface [Windows Debugging], GetNumberRegisters method, IDebugRegisters2 interface [Windows Debugging], GetNumberRegisters method, IDebugRegisters2::GetNumberRegisters, IDebugRegisters::GetNumberRegisters, IDebugRegisters_b2fa1d95-0331-4c27-a3af-3cc8e895e88f.xml, dbgeng/IDebugRegisters2::GetNumberRegisters, dbgeng/IDebugRegisters::GetNumberRegisters, debugger.getnumberregisters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 90C0AAE1-EE79-4347-B6F1-276DBF84F7BC
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, D, F, I, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], SetUlong method, IDebugFailureAnalysis2::SetUlong, S, SetUlong method [Windows Debugging], SetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, SetUlong,IDebugFailureAnalysis2.SetUlong, U, a, b, debugger.idebugfailureanalysis2_setextensionulong, debugger.idebugfailureanalysis2_setulong, e, extsfns/IDebugFailureAnalysis2::SetUlong, g, i, l, n, o, r, s, t, u, y"
+ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], SetUlong method, IDebugFailureAnalysis2::SetUlong, SetUlong method [Windows Debugging], SetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, SetUlong,IDebugFailureAnalysis2.SetUlong, debugger.idebugfailureanalysis2_setextensionulong, debugger.idebugfailureanalysis2_setulong, extsfns/IDebugFailureAnalysis2::SetUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,11 +100,11 @@ If this method does not find an <a href="https://msdn.microsoft.com/759DE159-F2A
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983420">GetUlong</a>
+
+
+
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
-
-
-
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
@@ -112,11 +112,11 @@ If this method does not find an <a href="https://msdn.microsoft.com/759DE159-F2A
 
 
 
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983409">AddUlong</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983420">GetUlong</a>
 
 
 

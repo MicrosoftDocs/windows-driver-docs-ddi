@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ec86ac71-212c-4edd-94c6-bab1cb5fa660
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 3, :, A, C, D, I, IDebugControl3, IDebugControl3 interface [Windows Debugging], SetAssemblyOptions method, IDebugControl3::SetAssemblyOptions, IDebugControl_b39768e8-fb98-4056-b548-c568316279e1.xml, O, S, SetAssemblyOptions method [Windows Debugging], SetAssemblyOptions method [Windows Debugging], IDebugControl3 interface, SetAssemblyOptions,IDebugControl3.SetAssemblyOptions, b, dbgeng/IDebugControl3::SetAssemblyOptions, debugger.setassemblyoptions, e, g, i, l, m, n, o, p, r, s, t, u, y"
+ms.keywords: IDebugControl3, IDebugControl3 interface [Windows Debugging], SetAssemblyOptions method, IDebugControl3::SetAssemblyOptions, IDebugControl_b39768e8-fb98-4056-b548-c568316279e1.xml, SetAssemblyOptions method [Windows Debugging], SetAssemblyOptions method [Windows Debugging], IDebugControl3 interface, SetAssemblyOptions,IDebugControl3.SetAssemblyOptions, dbgeng/IDebugControl3::SetAssemblyOptions, debugger.setassemblyoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -173,7 +173,11 @@ Additionally, the value DEBUG_ASMOPT_DEFAULT represents the default set of assem
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537852">AddAssemblyOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562128">.asm (Change Disassembly Options)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
 
 
 
@@ -185,15 +189,11 @@ Additionally, the value DEBUG_ASMOPT_DEFAULT represents the default set of assem
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537852">AddAssemblyOptions</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554483">RemoveAssemblyOptions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562128">.asm (Change Disassembly Options)</a>
 
 
 

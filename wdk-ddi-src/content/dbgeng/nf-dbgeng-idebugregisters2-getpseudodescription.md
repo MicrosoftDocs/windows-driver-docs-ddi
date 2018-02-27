@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dc1c7b8a-1233-4f22-8c5f-273f370a1e06
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, D, G, GetPseudoDescription method [Windows Debugging], GetPseudoDescription method [Windows Debugging], IDebugRegisters2 interface, GetPseudoDescription,IDebugRegisters2.GetPseudoDescription, I, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetPseudoDescription method, IDebugRegisters2::GetPseudoDescription, IDebugRegisters_7b1f8069-32d0-4fb4-9cee-7fd045bae8d3.xml, P, R, b, c, d, dbgeng/IDebugRegisters2::GetPseudoDescription, debugger.getpseudodescription, e, g, i, n, o, p, r, s, t, u"
+ms.keywords: GetPseudoDescription method [Windows Debugging], GetPseudoDescription method [Windows Debugging], IDebugRegisters2 interface, GetPseudoDescription,IDebugRegisters2.GetPseudoDescription, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetPseudoDescription method, IDebugRegisters2::GetPseudoDescription, IDebugRegisters_7b1f8069-32d0-4fb4-9cee-7fd045bae8d3.xml, dbgeng/IDebugRegisters2::GetPseudoDescription, debugger.getpseudodescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -154,15 +154,15 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548206">GetPseudoIndexByName</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547957">GetNumberPseudoRegisters</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548206">GetPseudoIndexByName</a>
 
 
 

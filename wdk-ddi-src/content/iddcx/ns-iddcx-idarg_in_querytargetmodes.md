@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4eeadee1-ac2a-46f5-88e0-fe8d3db3dcf1
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, D, E, G, I, IDARG_IN_QUERYTARGETMODES, IDARG_IN_QUERYTARGETMODES structure [Display Devices], M, N, O, Q, R, S, T, U, Y, _, display.idarg_in_querytargetmodes, iddcx/IDARG_IN_QUERYTARGETMODES"
+ms.keywords: IDARG_IN_QUERYTARGETMODES, IDARG_IN_QUERYTARGETMODES structure [Display Devices], display.idarg_in_querytargetmodes, iddcx/IDARG_IN_QUERYTARGETMODES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

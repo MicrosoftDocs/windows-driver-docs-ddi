@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 53e5e234-c256-4581-b109-307f2f17522f
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, AtaPortReleaseRequestSenseIrb, AtaPortReleaseRequestSenseIrb routine [Storage Devices], I, P, R, S, a, atartns_b46ae59d-b5b8-49fb-9458-742eefacd197.xml, b, e, irb/AtaPortReleaseRequestSenseIrb, l, n, o, q, r, s, storage.ataportreleaserequestsenseirb, t, u"
+ms.keywords: AtaPortReleaseRequestSenseIrb, AtaPortReleaseRequestSenseIrb routine [Storage Devices], atartns_b46ae59d-b5b8-49fb-9458-742eefacd197.xml, irb/AtaPortReleaseRequestSenseIrb, storage.ataportreleaserequestsenseirb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,11 +103,11 @@ The miniport driver must call <b>AtaPortReleaseRequestSenseIrb</b> for every all
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportcompleterequest.md">AtaPortCompleteRequest</a>
-
-
-
 <a href="..\irb\nf-irb-ataportbuildrequestsenseirb.md">AtaPortBuildRequestSenseIrb</a>
+
+
+
+<a href="..\irb\nf-irb-ataportcompleterequest.md">AtaPortCompleteRequest</a>
 
 
 

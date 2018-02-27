@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bfff10ab-7e15-4db3-b808-947d61844bc0
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, AtaPortGetBusData, AtaPortGetBusData routine [Storage Devices], B, D, G, P, a, atartns_a137d697-85fa-4d99-964f-94e9bcbb6b7b.xml, e, irb/AtaPortGetBusData, o, r, s, storage.ataportgetbusdata, t, u"
+ms.keywords: AtaPortGetBusData, AtaPortGetBusData routine [Storage Devices], atartns_a137d697-85fa-4d99-964f-94e9bcbb6b7b.xml, irb/AtaPortGetBusData, storage.ataportgetbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

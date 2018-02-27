@@ -109,11 +109,11 @@ This function must be implemented by the driver and is called by the class exten
 
 ## -see-also
 
-<a href="..\sensorsdef\ns-sensorsdef-sensor_property_list.md">SENSOR_PROPERTY_LIST</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946691">Sensor data fields</a>
+
+
+
+<a href="..\sensorsdef\ns-sensorsdef-sensor_property_list.md">SENSOR_PROPERTY_LIST</a>
 
 
 

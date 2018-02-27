@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 001a64dd-1470-42e0-98ba-22ba33f3fa69
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, 4, :, A, AddBreakpoint2 method [Windows Debugging], AddBreakpoint2 method [Windows Debugging], IDebugControl4 interface, AddBreakpoint2,IDebugControl4.AddBreakpoint2, B, C, D, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], AddBreakpoint2 method, IDebugControl4::AddBreakpoint2, a, b, d, dbgeng/IDebugControl4::AddBreakpoint2, debugger.addbreakpoint2, e, g, i, k, l, n, o, p, r, t, u"
+ms.keywords: AddBreakpoint2 method [Windows Debugging], AddBreakpoint2 method [Windows Debugging], IDebugControl4 interface, AddBreakpoint2,IDebugControl4.AddBreakpoint2, IDebugControl4, IDebugControl4 interface [Windows Debugging], AddBreakpoint2 method, IDebugControl4::AddBreakpoint2, dbgeng/IDebugControl4::AddBreakpoint2, debugger.addbreakpoint2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -168,6 +168,10 @@ The client is saved as the adder of the new breakpoint. See <a href="https://msd
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
 
 
@@ -181,10 +185,6 @@ The client is saved as the adder of the new breakpoint. See <a href="https://msd
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>
 
 
 

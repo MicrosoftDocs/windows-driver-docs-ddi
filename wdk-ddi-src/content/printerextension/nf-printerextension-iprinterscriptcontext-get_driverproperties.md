@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 52EC01D5-43C7-4CE0-ABEC-1604A4198316
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, D, DriverProperties property [Print Devices], DriverProperties property [Print Devices], IPrinterExtensionContext interface, I, IPrinterExtensionContext, IPrinterExtensionContext interface [Print Devices], DriverProperties property, IPrinterExtensionContext.DriverProperties, IPrinterExtensionContext::get_DriverProperties, IPrinterScriptContext, IPrinterScriptContext::get_DriverProperties, P, S, _, c, e, g, get_DriverProperties, get_DriverProperties,IPrinterExtensionContext.get_DriverProperties, get_DriverProperties,IPrinterScriptContext.get_DriverProperties, i, n, o, p, print.iprinterextensioncontext_driverproperties, printerextension/IPrinterExtensionContext::DriverProperties, printerextension/IPrinterExtensionContext::get_DriverProperties, r, s, t, v, x"
+ms.keywords: DriverProperties property [Print Devices], DriverProperties property [Print Devices], IPrinterExtensionContext interface, IPrinterExtensionContext interface [Print Devices], DriverProperties property, IPrinterExtensionContext.DriverProperties, IPrinterExtensionContext::get_DriverProperties, IPrinterScriptContext, IPrinterScriptContext::get_DriverProperties, get_DriverProperties, get_DriverProperties,IPrinterScriptContext.get_DriverProperties, print.iprinterextensioncontext_driverproperties, printerextension/IPrinterExtensionContext::DriverProperties, printerextension/IPrinterExtensionContext::get_DriverProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

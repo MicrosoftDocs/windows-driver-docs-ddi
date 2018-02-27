@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bad75e2f-35af-4e90-8638-28b0c362dad1
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, E, N, R, RtlUnicodeStringCchCatStringNEx, RtlUnicodeStringCchCatStringNEx function [Kernel-Mode Driver Architecture], S, U, a, c, d, e, g, h, i, kernel.rtlunicodestringcchcatstringnex, l, n, ntstrsafe/RtlUnicodeStringCchCatStringNEx, o, r, safestrings_00095596-3520-437a-b089-f1cd7f39c6cb.xml, t, x"
+ms.keywords: RtlUnicodeStringCchCatStringNEx, RtlUnicodeStringCchCatStringNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcchcatstringnex, ntstrsafe/RtlUnicodeStringCchCatStringNEx, safestrings_00095596-3520-437a-b089-f1cd7f39c6cb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

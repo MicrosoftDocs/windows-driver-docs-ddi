@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f739d5b8-80be-40e3-9139-93342c4fe458
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], Reload method, IDebugSymbols2 interface [Windows Debugging], Reload method, IDebugSymbols2::Reload, IDebugSymbols3 interface [Windows Debugging], Reload method, IDebugSymbols3::Reload, IDebugSymbols::Reload, IDebugSymbols_ec5df701-b081-45c4-b2e4-10c101ce69a4.xml, R, Reload method [Windows Debugging], Reload method [Windows Debugging], IDebugSymbols interface, Reload method [Windows Debugging], IDebugSymbols2 interface, Reload method [Windows Debugging], IDebugSymbols3 interface, Reload,IDebugSymbols.Reload, S, a, b, d, dbgeng/IDebugSymbols2::Reload, dbgeng/IDebugSymbols3::Reload, dbgeng/IDebugSymbols::Reload, debugger.reload, e, g, l, m, o, s, u, y"
+ms.keywords: IDebugSymbols, IDebugSymbols interface [Windows Debugging], Reload method, IDebugSymbols2 interface [Windows Debugging], Reload method, IDebugSymbols2::Reload, IDebugSymbols3 interface [Windows Debugging], Reload method, IDebugSymbols3::Reload, IDebugSymbols::Reload, IDebugSymbols_ec5df701-b081-45c4-b2e4-10c101ce69a4.xml, Reload method [Windows Debugging], Reload method [Windows Debugging], IDebugSymbols interface, Reload method [Windows Debugging], IDebugSymbols2 interface, Reload method [Windows Debugging], IDebugSymbols3 interface, Reload,IDebugSymbols.Reload, dbgeng/IDebugSymbols2::Reload, dbgeng/IDebugSymbols3::Reload, dbgeng/IDebugSymbols::Reload, debugger.reload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -119,15 +119,15 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564805">.reload (Reload Module)</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564805">.reload (Reload Module)</a>
 
 
 

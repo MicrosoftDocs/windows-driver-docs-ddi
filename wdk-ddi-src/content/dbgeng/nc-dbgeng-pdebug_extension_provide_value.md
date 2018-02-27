@@ -188,11 +188,11 @@ The name that the <i>Name</i> parameter specifies must start with <b>$$</b> and 
 
 
 
-<i>DebugExtensionUninitialize</i>
-
-
-
 <i>KnownStructOutput</i>
+
+
+
+<i>DebugExtensionUninitialize</i>
 
 
 

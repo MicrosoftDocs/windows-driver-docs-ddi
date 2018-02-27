@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 77358032-1777-46F4-BF16-5DFFAC15E672
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 3, :, A, ActivateAndDebugPlmBgTaskWide method [Windows Debugging], ActivateAndDebugPlmBgTaskWide method [Windows Debugging], IDebugPlmClient3 interface, ActivateAndDebugPlmBgTaskWide,IDebugPlmClient3.ActivateAndDebugPlmBgTaskWide, B, C, D, I, IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], ActivateAndDebugPlmBgTaskWide method, IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, P, T, W, a, b, c, d, dbgeng/IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, debugger.idebugplmclient3_activateanddebugplmbgtaskwide, e, g, i, k, l, m, n, s, t, u, v"
+ms.keywords: ActivateAndDebugPlmBgTaskWide method [Windows Debugging], ActivateAndDebugPlmBgTaskWide method [Windows Debugging], IDebugPlmClient3 interface, ActivateAndDebugPlmBgTaskWide,IDebugPlmClient3.ActivateAndDebugPlmBgTaskWide, IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], ActivateAndDebugPlmBgTaskWide method, IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, dbgeng/IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, debugger.idebugplmclient3_activateanddebugplmbgtaskwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

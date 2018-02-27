@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6936F732-ECAA-4CA7-B2AF-CA22A5C93FC9
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PKSE_PIN, ,, E, I, K, KSE_PIN, KSE_PIN structure [Streaming Media Devices], N, P, PKSE_PIN, PKSE_PIN structure pointer [Streaming Media Devices], S, _, ks/KSE_PIN, ks/PKSE_PIN, stream.kse_pin"
+ms.keywords: "*PKSE_PIN, KSE_PIN, KSE_PIN structure [Streaming Media Devices], PKSE_PIN, PKSE_PIN structure pointer [Streaming Media Devices], ks/KSE_PIN, ks/PKSE_PIN, stream.kse_pin"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

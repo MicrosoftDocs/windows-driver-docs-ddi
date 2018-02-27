@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 77d2c668-21e4-4c6d-9f3d-7e34c660d1da
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PIDD_DRIVER_GLOBALS, ,, A, B, D, E, G, I, IDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS structure [Display Devices], L, O, P, R, S, V, _, display.idd_driver_globals, iddcx/IDD_DRIVER_GLOBALS"
+ms.keywords: "*PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS structure [Display Devices], display.idd_driver_globals, iddcx/IDD_DRIVER_GLOBALS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

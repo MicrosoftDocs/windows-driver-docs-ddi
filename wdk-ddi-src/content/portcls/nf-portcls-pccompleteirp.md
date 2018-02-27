@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: fa0b36bf-0628-4136-9ca7-1d20823969ff
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , C, I, P, PcCompleteIrp, PcCompleteIrp function [Audio Devices], audio.pccompleteirp, audpc-routines_f61145f8-9e55-4b2a-a3aa-37f7be4f4df3.xml, c, e, l, m, o, p, portcls/PcCompleteIrp, r, t"
+ms.keywords: PcCompleteIrp, PcCompleteIrp function [Audio Devices], audio.pccompleteirp, audpc-routines_f61145f8-9e55-4b2a-a3aa-37f7be4f4df3.xml, portcls/PcCompleteIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,6 +107,10 @@ The IRP handler should not call this function. An adapter driver's IRP handler i
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 
 
@@ -116,10 +120,6 @@ The IRP handler should not call this function. An adapter driver's IRP handler i
 
 
 <a href="..\portcls\nf-portcls-pcdispatchirp.md">PcDispatchIrp</a>
-
-
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 

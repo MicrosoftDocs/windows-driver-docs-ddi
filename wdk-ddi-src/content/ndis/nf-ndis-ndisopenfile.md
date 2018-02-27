@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 48d54092-d055-449c-a409-829213db2989
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , F, N, NdisOpenFile, NdisOpenFile function [Network Drivers Starting with Windows Vista], O, d, e, i, l, n, ndis/NdisOpenFile, ndis_file_ref_0931368e-111b-4b25-a42d-12d0cc5d9d44.xml, netvista.ndisopenfile, p, s"
+ms.keywords: NdisOpenFile, NdisOpenFile function [Network Drivers Starting with Windows Vista], ndis/NdisOpenFile, ndis_file_ref_0931368e-111b-4b25-a42d-12d0cc5d9d44.xml, netvista.ndisopenfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -178,11 +178,11 @@ When
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

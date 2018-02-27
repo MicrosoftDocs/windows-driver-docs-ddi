@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 12c4462a-886b-4446-ace4-128af0af5dc0
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PClearPathHealthCounters_IN, ,, C, ClearPathHealthCounters_IN, ClearPathHealthCounters_IN structure [Storage Devices], H, I, N, P, PClearPathHealthCounters_IN, PClearPathHealthCounters_IN structure pointer [Storage Devices], _, _ClearPathHealthCounters_IN, a, e, h, l, mpiowmi/ClearPathHealthCounters_IN, mpiowmi/PClearPathHealthCounters_IN, n, o, r, s, storage.clearpathhealthcounters_in, structs-scsibus_c1039fbb-d682-4fe8-a1ee-8fe7f7a0d1fc.xml, t, u"
+ms.keywords: "*PClearPathHealthCounters_IN, ClearPathHealthCounters_IN, ClearPathHealthCounters_IN structure [Storage Devices], PClearPathHealthCounters_IN, PClearPathHealthCounters_IN structure pointer [Storage Devices], _ClearPathHealthCounters_IN, mpiowmi/ClearPathHealthCounters_IN, mpiowmi/PClearPathHealthCounters_IN, storage.clearpathhealthcounters_in, structs-scsibus_c1039fbb-d682-4fe8-a1ee-8fe7f7a0d1fc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

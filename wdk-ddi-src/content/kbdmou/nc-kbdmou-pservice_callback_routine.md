@@ -177,11 +177,11 @@ VOID MouseClassServiceCallback(
 
 ## -see-also
 
-<a href="..\kbdmou\ns-kbdmou-_connect_data.md">CONNECT_DATA</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542403">MOUSE_INPUT_DATA</a>
+
+
+
+<a href="..\kbdmou\ns-kbdmou-_connect_data.md">CONNECT_DATA</a>
 
 
 

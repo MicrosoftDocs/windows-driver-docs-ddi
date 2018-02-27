@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ce1bae9b-1cc3-45ea-bf46-8aa7ed0362f6
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, A, C, D, DXVA_ProcAmpControlProp, DXVA_ProcAmpControlProp enumeration [Display Devices], DXVA_ProcAmp_Brightness, DXVA_ProcAmp_Contrast, DXVA_ProcAmp_Hue, DXVA_ProcAmp_None, DXVA_ProcAmp_Saturation, P, V, X, _, _DXVA_ProcAmpControlProp, c, display.dxva_procampcontrolprop, dxva/DXVA_ProcAmpControlProp, dxva/DXVA_ProcAmp_Brightness, dxva/DXVA_ProcAmp_Contrast, dxva/DXVA_ProcAmp_Hue, dxva/DXVA_ProcAmp_None, dxva/DXVA_ProcAmp_Saturation, dxvaref_0bce43bc-3bb3-4c7a-8d83-16db2a513905.xml, l, m, n, o, p, r, t"
+ms.keywords: DXVA_ProcAmpControlProp, DXVA_ProcAmpControlProp enumeration [Display Devices], DXVA_ProcAmp_Brightness, DXVA_ProcAmp_Contrast, DXVA_ProcAmp_Hue, DXVA_ProcAmp_None, DXVA_ProcAmp_Saturation, _DXVA_ProcAmpControlProp, display.dxva_procampcontrolprop, dxva/DXVA_ProcAmpControlProp, dxva/DXVA_ProcAmp_Brightness, dxva/DXVA_ProcAmp_Contrast, dxva/DXVA_ProcAmp_Hue, dxva/DXVA_ProcAmp_None, dxva/DXVA_ProcAmp_Saturation, dxvaref_0bce43bc-3bb3-4c7a-8d83-16db2a513905.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -98,11 +98,11 @@ Specifies that the ProcAmp saturation property is used.
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_procampcontrolcaps.md">DXVA_ProcAmpControlCaps</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_procampcontrolqueryrange.md">DXVA_ProcAmpControlQueryRange</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_procampcontrolcaps.md">DXVA_ProcAmpControlCaps</a>
 
 
 

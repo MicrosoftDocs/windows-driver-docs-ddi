@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8abf967f-776e-4438-b20a-d7c278793633
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , 0, C, F, FwpsPendClassify0, FwpsPendClassify0 function [Network Drivers Starting with Windows Vista], P, a, d, e, f, fwpsk/FwpsPendClassify0, i, l, n, netvista.fwpspendclassify0, p, s, w, wfp_ref_2_funct_3_fwps_J-Q_b0a2ba71-91f1-460c-9b67-d8ddbe25cb44.xml, y"
+ms.keywords: FwpsPendClassify0, FwpsPendClassify0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsPendClassify0, netvista.fwpspendclassify0, wfp_ref_2_funct_3_fwps_J-Q_b0a2ba71-91f1-460c-9b67-d8ddbe25cb44.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -200,15 +200,15 @@ FwpsPendClassify0 increments the reference count for the classification handle p
 
 
 
+<a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">FwpsReleaseClassifyHandle0</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
 
 
 
 <a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">FwpsReleaseClassifyHandle0</a>
 
 
 

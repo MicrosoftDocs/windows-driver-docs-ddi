@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6B282CA4-2EE8-48BB-99E2-1A16A92E57A5
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, E, EPcMiniportEngineEvent, EPcMiniportEngineEvent enumeration [Audio Devices], M, P, audio.epcminiportengineevent, c, e, eMINIPORT_BUFFER_COMPLETE, eMINIPORT_FX_CLSID, eMINIPORT_GET_PRESENTATION_POSITION, eMINIPORT_GET_STREAM_POSITION, eMINIPORT_GLITCH_REPORT, eMINIPORT_IHV_DEFINED, eMINIPORT_LAST_BUFFER_RENDERED, eMINIPORT_MaxValue, eMINIPORT_PIN_STATE, eMINIPORT_PROCESSING_MODE, eMINIPORT_PROGRAM_DMA, eMINIPORT_SET_WAVERT_BUFFER_WRITE_POSITION, g, i, n, o, p, portcls/EPcMiniportEngineEvent, portcls/eMINIPORT_BUFFER_COMPLETE, portcls/eMINIPORT_FX_CLSID, portcls/eMINIPORT_GET_PRESENTATION_POSITION, portcls/eMINIPORT_GET_STREAM_POSITION, portcls/eMINIPORT_GLITCH_REPORT, portcls/eMINIPORT_IHV_DEFINED, portcls/eMINIPORT_LAST_BUFFER_RENDERED, portcls/eMINIPORT_MaxValue, portcls/eMINIPORT_PIN_STATE, portcls/eMINIPORT_PROCESSING_MODE, portcls/eMINIPORT_PROGRAM_DMA, portcls/eMINIPORT_SET_WAVERT_BUFFER_WRITE_POSITION, r, t, v"
+ms.keywords: EPcMiniportEngineEvent, EPcMiniportEngineEvent enumeration [Audio Devices], audio.epcminiportengineevent, eMINIPORT_BUFFER_COMPLETE, eMINIPORT_FX_CLSID, eMINIPORT_GET_PRESENTATION_POSITION, eMINIPORT_GET_STREAM_POSITION, eMINIPORT_GLITCH_REPORT, eMINIPORT_IHV_DEFINED, eMINIPORT_LAST_BUFFER_RENDERED, eMINIPORT_MaxValue, eMINIPORT_PIN_STATE, eMINIPORT_PROCESSING_MODE, eMINIPORT_PROGRAM_DMA, eMINIPORT_SET_WAVERT_BUFFER_WRITE_POSITION, portcls/EPcMiniportEngineEvent, portcls/eMINIPORT_BUFFER_COMPLETE, portcls/eMINIPORT_FX_CLSID, portcls/eMINIPORT_GET_PRESENTATION_POSITION, portcls/eMINIPORT_GET_STREAM_POSITION, portcls/eMINIPORT_GLITCH_REPORT, portcls/eMINIPORT_IHV_DEFINED, portcls/eMINIPORT_LAST_BUFFER_RENDERED, portcls/eMINIPORT_MaxValue, portcls/eMINIPORT_PIN_STATE, portcls/eMINIPORT_PROCESSING_MODE, portcls/eMINIPORT_PROGRAM_DMA, portcls/eMINIPORT_SET_WAVERT_BUFFER_WRITE_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -278,11 +278,11 @@ The following table shows the members of the  EPcMiniportEngineEvent enum that w
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265124">MiniportWriteEtwEvent</a>
-
-
-
 <a href="https://msdn.microsoft.com/9FF2A5D6-9382-4EE6-AA21-DCF47210F73B">Glitch Reporting for Offloaded Audio</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265124">MiniportWriteEtwEvent</a>
 
 
 

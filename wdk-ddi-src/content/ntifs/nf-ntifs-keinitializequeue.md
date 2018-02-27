@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8dd47333-679a-482b-bd45-1e73505b3fea
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , I, K, KeInitializeQueue, KeInitializeQueue routine [Installable File System Drivers], Q, a, e, i, ifsk.keinitializequeue, keref_85ea0829-c42c-4411-8ad9-a32d8eb0a40f.xml, l, n, ntifs/KeInitializeQueue, t, u, z"
+ms.keywords: KeInitializeQueue, KeInitializeQueue routine [Installable File System Drivers], ifsk.keinitializequeue, keref_85ea0829-c42c-4411-8ad9-a32d8eb0a40f.xml, ntifs/KeInitializeQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -176,19 +176,7 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-keinsertqueue.md">KeInsertQueue</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-keremovequeue.md">KeRemoveQueue</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+<a href="..\ntifs\nf-ntifs-kerundownqueue.md">KeRundownQueue</a>
 
 
 
@@ -196,11 +184,23 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 
 
-<a href="..\ntifs\nf-ntifs-kerundownqueue.md">KeRundownQueue</a>
+<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-keremovequeue.md">KeRemoveQueue</a>
 
 
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-keinsertqueue.md">KeInsertQueue</a>
 
 
 

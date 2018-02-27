@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: f51f1091-232f-4e41-9cc2-9938870aeef8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, C, D, E, F, I, ISensorDriver, ISensorDriver::OnClientUnsubscribeFromEvents, O, OnClientUnsubscribeFromEvents method [Sensor Devices], OnClientUnsubscribeFromEvents,ISensorDriver.OnClientUnsubscribeFromEvents, S, U, b, c, e, i, l, m, n, o, r, s, sensors.isensordriver_onclientunsubscribefromevents, t, u, v"
+ms.keywords: ISensorDriver, ISensorDriver::OnClientUnsubscribeFromEvents, OnClientUnsubscribeFromEvents method [Sensor Devices], OnClientUnsubscribeFromEvents,ISensorDriver.OnClientUnsubscribeFromEvents, sensors.isensordriver_onclientunsubscribefromevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

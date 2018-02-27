@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: f5b72de2-c2e9-44ac-a2a7-04271e9253d3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , A, S, SdpAddAttributeToTree, SdpAddAttributeToTree function [Bluetooth Devices], T, b, bltooth.sdpaddattributetotree, bth_funcs_5a46529e-8b1b-474a-a005-16f7a5562d91.xml, d, e, i, o, p, r, sdplib/SdpAddAttributeToTree, t, u"
+ms.keywords: SdpAddAttributeToTree, SdpAddAttributeToTree function [Bluetooth Devices], bltooth.sdpaddattributetotree, bth_funcs_5a46529e-8b1b-474a-a005-16f7a5562d91.xml, sdplib/SdpAddAttributeToTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,15 +96,15 @@ Specifies a 4-byte
      <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>.
 
 
+#### - AttribValueNode [in]
+
+Pointer to the SDP node to be added as an attribute.
+
+
 #### - Root [in]
 
 The top level of the SDP record to which the 
      <b>SdpAddAttributeToTree</b> function attaches the SDP attribute node.
-
-
-#### - AttribValueNode [in]
-
-Pointer to the SDP node to be added as an attribute.
 
 
 ## -returns

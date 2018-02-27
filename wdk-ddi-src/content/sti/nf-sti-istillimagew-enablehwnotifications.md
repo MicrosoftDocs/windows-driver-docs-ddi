@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 54b4468a-7823-4afe-8845-696c4a534367
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, E, EnableHwNotifications method [Imaging Devices], EnableHwNotifications method [Imaging Devices], IStillImageW interface, EnableHwNotifications,IStillImageW.EnableHwNotifications, H, I, IStillImageW, IStillImageW interface [Imaging Devices], EnableHwNotifications method, IStillImageW::EnableHwNotifications, N, S, W, a, b, c, e, f, g, i, image.istillimage_enablehwnotifications, l, m, n, o, s, sti/IStillImageW::EnableHwNotifications, stifnc_50df840a-7fa2-4235-864f-dee8ce5ce849.xml, t, w"
+ms.keywords: EnableHwNotifications method [Imaging Devices], EnableHwNotifications method [Imaging Devices], IStillImageW interface, EnableHwNotifications,IStillImageW.EnableHwNotifications, IStillImageW, IStillImageW interface [Imaging Devices], EnableHwNotifications method, IStillImageW::EnableHwNotifications, image.istillimage_enablehwnotifications, sti/IStillImageW::EnableHwNotifications, stifnc_50df840a-7fa2-4235-864f-dee8ce5ce849.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

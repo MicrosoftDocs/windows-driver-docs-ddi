@@ -1,6 +1,6 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE
-title: PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE
+title: USB_BUSIFFN_QUERY_CONTROLLER_TYPE
 author: windows-driver-content
 description: The QueryControllerType routine gets information about the USB host controller to which the USB device is attached.
 old-location: buses\querycontrollertype.htm
@@ -96,9 +96,9 @@ Handle returned in the <b>BusContext</b> member of the <a href="..\usbbusif\ns-u
 Reserved. Do not use.
 
 
-#### - PciVendorId [out]
+#### - PciClass [out]
 
-Pointer to a USHORT variable that  receives the PCI vendor ID for the USB host controller.
+Pointer to a UCHAR variable that receives the PCI class for the USB host controller.
 
 
 #### - PciDeviceId [out]
@@ -106,14 +106,9 @@ Pointer to a USHORT variable that  receives the PCI vendor ID for the USB host c
 Pointer to a USHORT variable that  receives the PCI device ID for the USB host controller.
 
 
-#### - PciClass [out]
+#### - PciProgIf [out]
 
-Pointer to a UCHAR variable that receives the PCI class for the USB host controller.
-
-
-#### - PciSubClass [out]
-
-Pointer to a UCHAR variable that receives the PCI subclass  for the USB host controller.
+Pointer to a UCHAR variable that receives the PCI programming interface  for the USB host controller.
 
 
 #### - PciRevisionId [out]
@@ -121,9 +116,14 @@ Pointer to a UCHAR variable that receives the PCI subclass  for the USB host con
 Pointer to a UCHAR variable that receives the PCI revision number for the USB host controller.
 
 
-#### - PciProgIf [out]
+#### - PciSubClass [out]
 
-Pointer to a UCHAR variable that receives the PCI programming interface  for the USB host controller.
+Pointer to a UCHAR variable that receives the PCI subclass  for the USB host controller.
+
+
+#### - PciVendorId [out]
+
+Pointer to a USHORT variable that  receives the PCI vendor ID for the USB host controller.
 
 
 ## -returns

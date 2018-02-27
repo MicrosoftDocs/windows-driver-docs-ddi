@@ -193,7 +193,7 @@ IG_READ_PHYSICAL
 </td>
 <td>
 
-<a href="..\dbgeng\nf-dbgeng-idebugdataspaces-readphysical.md">ReadPhysical</a>
+<a href="..\wdbgexts\nf-wdbgexts-readphysical.md">ReadPhysical</a>
 
 
 </td>
@@ -206,7 +206,7 @@ IG_WRITE_PHYSICAL
 </td>
 <td>
 
-<a href="..\dbgeng\nf-dbgeng-idebugdataspaces-writephysical.md">WritePhysical</a>
+<a href="..\wdbgexts\nf-wdbgexts-writephysical.md">WritePhysical</a>
 
 
 </td>
@@ -264,7 +264,7 @@ IG_READ_MSR
 </td>
 <td>
 
-<a href="..\dbgeng\nf-dbgeng-idebugdataspaces-readmsr.md">ReadMsr</a>
+<a href="..\wdbgexts\nf-wdbgexts-readmsr.md">ReadMsr</a>
 
 
 </td>
@@ -277,7 +277,7 @@ IG_WRITE_MSR
 </td>
 <td>
 
-<a href="..\dbgeng\nf-dbgeng-idebugdataspaces-writemsr.md">WriteMsr</a>
+<a href="..\wdbgexts\nf-wdbgexts-writemsr.md">WriteMsr</a>
 
 
 </td>

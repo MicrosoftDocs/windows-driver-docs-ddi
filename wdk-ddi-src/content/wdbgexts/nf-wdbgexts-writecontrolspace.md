@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 12ea119e-9d56-4a1d-a8c6-3999147dfaac
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, S, W, WdbgExts_Ref_ee59dfdc-d138-4f1b-8f5c-fb9e1d47bef2.xml, WriteControlSpace, WriteControlSpace function [Windows Debugging], a, c, debugger.writecontrolspace, e, i, l, n, o, p, r, t, wdbgexts/WriteControlSpace"
+ms.keywords: WdbgExts_Ref_ee59dfdc-d138-4f1b-8f5c-fb9e1d47bef2.xml, WriteControlSpace, WriteControlSpace function [Windows Debugging], debugger.writecontrolspace, wdbgexts/WriteControlSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 952b4a7b-2713-4d7a-b70e-4fd1867bc096
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, AddSymbolOptions method [Windows Debugging], AddSymbolOptions method [Windows Debugging], IDebugSymbols interface, AddSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, AddSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, AddSymbolOptions,IDebugSymbols.AddSymbolOptions, AddSymbolOptions,IDebugSymbols2.AddSymbolOptions, D, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], AddSymbolOptions method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], AddSymbolOptions method, IDebugSymbols2::AddSymbolOptions, IDebugSymbols3 interface [Windows Debugging], AddSymbolOptions method, IDebugSymbols3::AddSymbolOptions, IDebugSymbols::AddSymbolOptions, IDebugSymbols_a7ffc5ae-fc9e-4298-a351-95871b8fd12e.xml, O, S, b, d, dbgeng/IDebugSymbols2::AddSymbolOptions, dbgeng/IDebugSymbols3::AddSymbolOptions, dbgeng/IDebugSymbols::AddSymbolOptions, debugger.addsymboloptions, e, g, i, l, m, n, o, p, s, t, u, y"
+ms.keywords: AddSymbolOptions method [Windows Debugging], AddSymbolOptions method [Windows Debugging], IDebugSymbols interface, AddSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, AddSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, AddSymbolOptions,IDebugSymbols2.AddSymbolOptions, IDebugSymbols interface [Windows Debugging], AddSymbolOptions method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], AddSymbolOptions method, IDebugSymbols2::AddSymbolOptions, IDebugSymbols3 interface [Windows Debugging], AddSymbolOptions method, IDebugSymbols3::AddSymbolOptions, IDebugSymbols::AddSymbolOptions, IDebugSymbols_a7ffc5ae-fc9e-4298-a351-95871b8fd12e.xml, dbgeng/IDebugSymbols2::AddSymbolOptions, dbgeng/IDebugSymbols3::AddSymbolOptions, dbgeng/IDebugSymbols::AddSymbolOptions, debugger.addsymboloptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -119,7 +119,7 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -127,15 +127,15 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549139">GetSymbolOptions</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556798">SetSymbolOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549139">GetSymbolOptions</a>
 
 
 

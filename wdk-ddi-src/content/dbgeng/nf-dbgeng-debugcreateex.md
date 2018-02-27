@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 851A9461-E085-4BDA-BB69-603F6932BFA6
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, D, DebugCreateEx, DebugCreateEx function [Windows Debugging], E, a, b, dbgeng/DebugCreateEx, debugger.debugcreateex, e, g, r, t, u, x"
+ms.keywords: DebugCreateEx, DebugCreateEx function [Windows Debugging], dbgeng/DebugCreateEx, debugger.debugcreateex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

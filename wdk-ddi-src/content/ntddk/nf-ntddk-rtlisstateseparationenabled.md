@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7c28a82c-e039-4045-94cd-b47a45d15e28
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , E, I, R, RtlIsStateSeparationEnabled, RtlIsStateSeparationEnabled function [Kernel-Mode Driver Architecture], S, a, b, d, e, i, kernel.rtlisstateseparationenabled, l, n, ntddk/RtlIsStateSeparationEnabled, o, p, r, s, t"
+ms.keywords: RtlIsStateSeparationEnabled, RtlIsStateSeparationEnabled function [Kernel-Mode Driver Architecture], kernel.rtlisstateseparationenabled, ntddk/RtlIsStateSeparationEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 965bb4c7-826d-425b-b10d-2d5a29ca0f91
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , D, I, NdisMapFile, NdisMapFile function [Network Drivers Starting with Windows Vista], O, V, VOID, ndis/NdisMapFile, ndis_file_ref_5bc73f64-8379-45bb-a37b-fe9a946af119.xml, netvista.ndismapfile"
+ms.keywords: NdisMapFile, NdisMapFile function [Network Drivers Starting with Windows Vista], VOID, ndis/NdisMapFile, ndis_file_ref_5bc73f64-8379-45bb-a37b-fe9a946af119.xml, netvista.ndismapfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,6 +80,18 @@ TBD
 
 
 
+#### - FileHandle [in]
+
+The handle that was returned by a preceding call to the 
+     <a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a> function.
+
+
+#### - MappedBuffer [out]
+
+A pointer to a caller-supplied variable in which this function returns the base virtual address of
+     the mapped file contents or <b>NULL</b>.
+
+
 #### - Status [out]
 
 A pointer to a caller-supplied variable in which this function returns the status of the mapping
@@ -100,29 +112,6 @@ The caller has exclusive access to the file contents until the
 #### NDIS_STATUS_ALREADY_MAPPED
 
 The caller cannot access the file contents at this time.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
-
-The caller has exclusive access to the file contents until the 
-       <a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a> function is called.
-
-
-##### - Status.NDIS_STATUS_ALREADY_MAPPED
-
-The caller cannot access the file contents at this time.
-
-
-#### - MappedBuffer [out]
-
-A pointer to a caller-supplied variable in which this function returns the base virtual address of
-     the mapped file contents or <b>NULL</b>.
-
-
-#### - FileHandle [in]
-
-The handle that was returned by a preceding call to the 
-     <a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a> function.
 
 
 ## -returns
@@ -159,11 +148,11 @@ A miniport driver can call
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
 
 
 
@@ -171,7 +160,7 @@ A miniport driver can call
 
 
 
-<a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
+<a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 49E0D15E-4214-421F-9C3F-E7C7A481CA10
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, A, DEBUG_FA_ENTRY_ANSI_STRING, DEBUG_FA_ENTRY_ARRAY, DEBUG_FA_ENTRY_EXTENSION_CMD, DEBUG_FA_ENTRY_INSTRUCTION_OFFSET, DEBUG_FA_ENTRY_NO_TYPE, DEBUG_FA_ENTRY_POINTER, DEBUG_FA_ENTRY_STRUCTURED_DATA, DEBUG_FA_ENTRY_ULONG, DEBUG_FA_ENTRY_ULONG64, DEBUG_FA_ENTRY_UNICODE_STRING, E, F, FA_ENTRY_TYPE, FA_ENTRY_TYPE enumeration [Windows Debugging], N, P, R, T, Y, _, _FA_ENTRY_TYPE, debugger.fa_entry_type, extsfns/DEBUG_FA_ENTRY_ANSI_STRING, extsfns/DEBUG_FA_ENTRY_ARRAY, extsfns/DEBUG_FA_ENTRY_EXTENSION_CMD, extsfns/DEBUG_FA_ENTRY_INSTRUCTION_OFFSET, extsfns/DEBUG_FA_ENTRY_NO_TYPE, extsfns/DEBUG_FA_ENTRY_POINTER, extsfns/DEBUG_FA_ENTRY_STRUCTURED_DATA, extsfns/DEBUG_FA_ENTRY_ULONG, extsfns/DEBUG_FA_ENTRY_ULONG64, extsfns/DEBUG_FA_ENTRY_UNICODE_STRING, extsfns/FA_ENTRY_TYPE"
+ms.keywords: DEBUG_FA_ENTRY_ANSI_STRING, DEBUG_FA_ENTRY_ARRAY, DEBUG_FA_ENTRY_EXTENSION_CMD, DEBUG_FA_ENTRY_INSTRUCTION_OFFSET, DEBUG_FA_ENTRY_NO_TYPE, DEBUG_FA_ENTRY_POINTER, DEBUG_FA_ENTRY_STRUCTURED_DATA, DEBUG_FA_ENTRY_ULONG, DEBUG_FA_ENTRY_ULONG64, DEBUG_FA_ENTRY_UNICODE_STRING, FA_ENTRY_TYPE, FA_ENTRY_TYPE enumeration [Windows Debugging], _FA_ENTRY_TYPE, debugger.fa_entry_type, extsfns/DEBUG_FA_ENTRY_ANSI_STRING, extsfns/DEBUG_FA_ENTRY_ARRAY, extsfns/DEBUG_FA_ENTRY_EXTENSION_CMD, extsfns/DEBUG_FA_ENTRY_INSTRUCTION_OFFSET, extsfns/DEBUG_FA_ENTRY_NO_TYPE, extsfns/DEBUG_FA_ENTRY_POINTER, extsfns/DEBUG_FA_ENTRY_STRUCTURED_DATA, extsfns/DEBUG_FA_ENTRY_ULONG, extsfns/DEBUG_FA_ENTRY_ULONG64, extsfns/DEBUG_FA_ENTRY_UNICODE_STRING, extsfns/FA_ENTRY_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -133,11 +133,7 @@ A bitwise OR of this value and one of the basic types indicates an array. For ex
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTag</a>
-
-
-
-<a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 
@@ -145,11 +141,15 @@ A bitwise OR of this value and one of the basic types indicates an array. For ex
 
 
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj991807">Failure Analysis Entries</a>
+
+
+
+<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTag</a>
+
+
+
+<a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a>
 
 
 

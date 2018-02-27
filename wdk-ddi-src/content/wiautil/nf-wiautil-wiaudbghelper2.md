@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 577ce93a-5a90-4e85-afc6-3791f402c238
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , 2, D, H, a, b, e, g, i, image.wiaudbghelper2, l, p, r, u, w, wiauDbgHelper2, wiauDbgHelper2 function [Imaging Devices], wiauFncs_6ccf146a-ec2e-4ca4-827a-dec2f8ea629d.xml, wiautil/wiauDbgHelper2"
+ms.keywords: image.wiaudbghelper2, wiauDbgHelper2, wiauDbgHelper2 function [Imaging Devices], wiauFncs_6ccf146a-ec2e-4ca4-827a-dec2f8ea629d.xml, wiautil/wiauDbgHelper2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,11 +127,7 @@ The <b>wiauDbgHelper2</b> function enables those using it to write <b>printf</b>
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
-
-
-
-<a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
+<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
 
 
 
@@ -139,15 +135,19 @@ The <b>wiauDbgHelper2</b> function enables those using it to write <b>printf</b>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
-
-
-
-<a href="..\wiautil\nf-wiautil-wiaudbghelper.md">wiauDbgHelper</a>
+<a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
 
 
 
 <a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wiaudbghelper.md">wiauDbgHelper</a>
 
 
 

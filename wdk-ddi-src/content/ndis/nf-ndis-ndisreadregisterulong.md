@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 18812c18-ec5e-4e8e-9ecf-c3c2a58ca8a2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , N, NdisReadRegisterUlong, NdisReadRegisterUlong macro [Network Drivers Starting with Windows Vista], R, U, a, d, e, g, i, l, miniport_register_ref_44b40f81-b21f-4b5c-b875-deb9b4bd62ab.xml, n, ndis/NdisReadRegisterUlong, netvista.ndisreadregisterulong, o, r, s, t"
+ms.keywords: NdisReadRegisterUlong, NdisReadRegisterUlong macro [Network Drivers Starting with Windows Vista], miniport_register_ref_44b40f81-b21f-4b5c-b875-deb9b4bd62ab.xml, ndis/NdisReadRegisterUlong, netvista.ndisreadregisterulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -94,7 +94,7 @@ If a driver calls this function, a NIC's device registers must be mapped to nonc
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
 
 
 
@@ -106,7 +106,7 @@ If a driver calls this function, a NIC's device registers must be mapped to nonc
 
 
 
-<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

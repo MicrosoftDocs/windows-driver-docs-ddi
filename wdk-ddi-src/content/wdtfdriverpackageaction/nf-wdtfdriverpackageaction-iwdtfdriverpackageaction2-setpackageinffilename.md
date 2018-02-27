@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 68c2005e-c54b-413e-955a-864a05b23f4e
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, D, F, I, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], SetPackageInfFileName method, IWDTFDriverPackageAction2::SetPackageInfFileName, Microsoft.WDTF.IWDTFDriverPackageAction2.SetPackageInfFileName, Microsoft::WDTF::IWDTFDriverPackageAction2::SetPackageInfFileName, N, P, S, SetPackageInfFileName method [Windows Device Testing Framework], SetPackageInfFileName method [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, SetPackageInfFileName,IWDTFDriverPackageAction2.SetPackageInfFileName, T, W, a, c, dtf.iwdtfdriverpackageaction2_setpackageinffilename, e, f, g, i, k, l, m, n, o, r, t, v, wdtfdriverpackageaction/IWDTFDriverPackageAction2::SetPackageInfFileName"
+ms.keywords: IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], SetPackageInfFileName method, IWDTFDriverPackageAction2::SetPackageInfFileName, Microsoft.WDTF.IWDTFDriverPackageAction2.SetPackageInfFileName, Microsoft::WDTF::IWDTFDriverPackageAction2::SetPackageInfFileName, SetPackageInfFileName method [Windows Device Testing Framework], SetPackageInfFileName method [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, SetPackageInfFileName,IWDTFDriverPackageAction2.SetPackageInfFileName, dtf.iwdtfdriverpackageaction2_setpackageinffilename, wdtfdriverpackageaction/IWDTFDriverPackageAction2::SetPackageInfFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

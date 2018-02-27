@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7C1DD018-2EDF-48BB-8DFC-ADAF72A1909D
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, D, I, U, UcxIoDeviceControl, UcxIoDeviceControl method [Buses], buses._ucxiodevicecontrol, c, e, i, l, n, o, r, t, ucxcontroller/UcxIoDeviceControl, v, x"
+ms.keywords: UcxIoDeviceControl, UcxIoDeviceControl method [Buses], buses._ucxiodevicecontrol, ucxcontroller/UcxIoDeviceControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d948b69c-c5cd-4614-a646-76acb493e8de
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , N, P, PcNewPort, PcNewPort function [Audio Devices], audio.pcnewport, audpc-routines_799c0416-dde0-4818-8da7-a38e4e6d4541.xml, c, e, o, portcls/PcNewPort, r, t, w"
+ms.keywords: PcNewPort, PcNewPort function [Audio Devices], audio.pcnewport, audpc-routines_799c0416-dde0-4818-8da7-a38e4e6d4541.xml, portcls/PcNewPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -187,15 +187,15 @@ The <i>OutPort</i> parameter follows the <a href="https://msdn.microsoft.com/e6b
 
 ## -see-also
 
+<a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
+
+
+
 <a href="..\portcls\nn-portcls-iport.md">IPort</a>
 
 
 
 <a href="..\portcls\nn-portcls-iporttopology.md">IPortTopology</a>
-
-
-
-<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
 
 
 
@@ -207,11 +207,11 @@ The <i>OutPort</i> parameter follows the <a href="https://msdn.microsoft.com/e6b
 
 
 
-<a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
-
-
-
 <a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
 
 
 

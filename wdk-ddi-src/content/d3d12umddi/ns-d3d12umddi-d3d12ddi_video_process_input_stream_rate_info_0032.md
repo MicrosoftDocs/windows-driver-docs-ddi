@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4ca68dac-ead1-431e-a97e-af99ef966417
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032, D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032 structure [Display Devices], E, F, I, M, N, O, P, R, S, T, U, V, _, d3d12umddi/D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032, display.d3d12ddi-video-process-input-stream-rate-info-0032"
+ms.keywords: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032, D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032, display.d3d12ddi-video-process-input-stream-rate-info-0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

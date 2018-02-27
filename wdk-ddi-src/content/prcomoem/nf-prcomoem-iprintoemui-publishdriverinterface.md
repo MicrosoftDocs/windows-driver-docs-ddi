@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4c2053ec-c6b3-4584-b689-dc887610c57e
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, I, IPrintOemUI, IPrintOemUI interface [Print Devices], PublishDriverInterface method, IPrintOemUI::PublishDriverInterface, O, P, PublishDriverInterface method [Print Devices], PublishDriverInterface method [Print Devices], IPrintOemUI interface, PublishDriverInterface,IPrintOemUI.PublishDriverInterface, U, a, b, c, e, f, h, i, l, m, n, prcomoem/IPrintOemUI::PublishDriverInterface, print.iprintoemui_publishdriverinterface, print_unidrv-pscript_ui_d5f2a80f-fa9d-4433-9dc1-b1771f124a32.xml, r, s, t, u, v"
+ms.keywords: IPrintOemUI, IPrintOemUI interface [Print Devices], PublishDriverInterface method, IPrintOemUI::PublishDriverInterface, PublishDriverInterface method [Print Devices], PublishDriverInterface method [Print Devices], IPrintOemUI interface, PublishDriverInterface,IPrintOemUI.PublishDriverInterface, prcomoem/IPrintOemUI::PublishDriverInterface, print.iprintoemui_publishdriverinterface, print_unidrv-pscript_ui_d5f2a80f-fa9d-4433-9dc1-b1771f124a32.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

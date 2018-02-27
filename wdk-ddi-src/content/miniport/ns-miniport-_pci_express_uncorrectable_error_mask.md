@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 0dfc6e49-5556-4163-abef-b00a26a7a2ad
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, ,, A, B, C, E, I, K, L, M, N, O, P, PCI.pci_express_uncorrectable_error_mask, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union [Buses], PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union pointer [Buses], R, S, T, U, X, _, _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, pci_struct_309db853-f6d7-4f88-9a73-861d63a1e927.xml, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK"
+ms.keywords: "*PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI.pci_express_uncorrectable_error_mask, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union [Buses], PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union pointer [Buses], _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, pci_struct_309db853-f6d7-4f88-9a73-861d63a1e927.xml, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,39 +94,9 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK {
 A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure.
 
 
-#### - Undefined
+#### - CompleterAbort
 
-A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that the reporting of link training errors is masked.
-
-
-#### - Reserved1
-
-Reserved.
-
-
-#### - DataLinkProtocolError
-
-A single bit that indicates that the reporting of data link protocol errors is masked.
-
-
-#### - SurpriseDownError
-
-A single bit that indicates that the reporting of surprise down errors is masked.
-
-
-#### - Reserved2
-
-Reserved.
-
-
-#### - PoisonedTLP
-
-A single bit that indicates that the reporting of poisoned transaction layer packets (TLPs) is masked.
-
-
-#### - FlowControlProtocolError
-
-A single bit that indicates that the reporting of flow control protocol errors is masked.
+A single bit that indicates that the reporting of completer aborts is masked.
 
 
 #### - CompletionTimeout
@@ -134,24 +104,9 @@ A single bit that indicates that the reporting of flow control protocol errors i
 A single bit that indicates that the reporting of completion timeouts is masked.
 
 
-#### - CompleterAbort
+#### - DataLinkProtocolError
 
-A single bit that indicates that the reporting of completer aborts is masked.
-
-
-#### - UnexpectedCompletion
-
-A single bit that indicates that the reporting of unexpected completions is masked.
-
-
-#### - ReceiverOverflow
-
-A single bit that indicates that the reporting of receiver overflows is masked.
-
-
-#### - MalformedTLP
-
-A single bit that indicates that the reporting of malformed transaction layer packets (TLPs) is masked.
+A single bit that indicates that the reporting of data link protocol errors is masked.
 
 
 #### - ECRCError
@@ -159,14 +114,59 @@ A single bit that indicates that the reporting of malformed transaction layer pa
 A single bit that indicates that the reporting of end-to-end cyclic redundancy check (ECRC) errors is masked.
 
 
-#### - UnsupportedRequestError
+#### - FlowControlProtocolError
 
-A single bit that indicates that the reporting of unsupported request errors is masked.
+A single bit that indicates that the reporting of flow control protocol errors is masked.
+
+
+#### - MalformedTLP
+
+A single bit that indicates that the reporting of malformed transaction layer packets (TLPs) is masked.
+
+
+#### - PoisonedTLP
+
+A single bit that indicates that the reporting of poisoned transaction layer packets (TLPs) is masked.
+
+
+#### - ReceiverOverflow
+
+A single bit that indicates that the reporting of receiver overflows is masked.
+
+
+#### - Reserved1
+
+Reserved.
+
+
+#### - Reserved2
+
+Reserved.
 
 
 #### - Reserved3
 
 Reserved.
+
+
+#### - SurpriseDownError
+
+A single bit that indicates that the reporting of surprise down errors is masked.
+
+
+#### - Undefined
+
+A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that the reporting of link training errors is masked.
+
+
+#### - UnexpectedCompletion
+
+A single bit that indicates that the reporting of unexpected completions is masked.
+
+
+#### - UnsupportedRequestError
+
+A single bit that indicates that the reporting of unsupported request errors is masked.
 
 
 ## -remarks
@@ -182,15 +182,15 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure is contained in the <a href="ht
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
 
 

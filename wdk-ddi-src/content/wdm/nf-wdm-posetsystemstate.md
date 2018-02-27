@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b62db582-381a-457f-9755-d8667c7561af
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , P, PoSetSystemState, PoSetSystemState routine [Kernel-Mode Driver Architecture], S, a, e, kernel.posetsystemstate, m, o, portn_f20a5d5b-d863-4ff7-8837-6a7e625271d7.xml, s, t, wdm/PoSetSystemState, y"
+ms.keywords: PoSetSystemState, PoSetSystemState routine [Kernel-Mode Driver Architecture], kernel.posetsystemstate, portn_f20a5d5b-d863-4ff7-8837-6a7e625271d7.xml, wdm/PoSetSystemState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,11 +117,11 @@ Drivers can set the system busy state to request that the system avoid leaving o
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
-
-
-
 <a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a>
+
+
+
+<a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
 
 
 

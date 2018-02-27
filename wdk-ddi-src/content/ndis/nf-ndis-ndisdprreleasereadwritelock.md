@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BD9B13A7-5F5F-437a-BEB7-56DE6D03A29B
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , D, L, N, NdisDprReleaseReadWriteLock, NdisDprReleaseReadWriteLock function [Network Drivers Starting with Windows Vista], R, W, a, c, d, e, i, k, l, ndis/NdisDprReleaseReadWriteLock, netvista.ndisdprreleasereadwritelock, o, p, r, s, t"
+ms.keywords: NdisDprReleaseReadWriteLock, NdisDprReleaseReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisDprReleaseReadWriteLock, netvista.ndisdprreleasereadwritelock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

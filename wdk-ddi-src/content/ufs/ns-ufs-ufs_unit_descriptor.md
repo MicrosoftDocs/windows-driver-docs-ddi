@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5D76C266-875A-40AC-9B26-F17978971783
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PUFS_UNIT_DESCRIPTOR, ,, C, D, E, F, I, N, O, P, PUFS_UNIT_DESCRIPTOR, PUFS_UNIT_DESCRIPTOR structure pointer [Storage Devices], R, S, T, U, UFS_UNIT_DESCRIPTOR, UFS_UNIT_DESCRIPTOR structure [Storage Devices], _, storage.ufs_unit_descriptor, ufs/PUFS_UNIT_DESCRIPTOR, ufs/UFS_UNIT_DESCRIPTOR"
+ms.keywords: "*PUFS_UNIT_DESCRIPTOR, PUFS_UNIT_DESCRIPTOR, PUFS_UNIT_DESCRIPTOR structure pointer [Storage Devices], UFS_UNIT_DESCRIPTOR, UFS_UNIT_DESCRIPTOR structure [Storage Devices], storage.ufs_unit_descriptor, ufs/PUFS_UNIT_DESCRIPTOR, ufs/UFS_UNIT_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

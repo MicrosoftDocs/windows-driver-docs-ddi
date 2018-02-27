@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: b566eedc-2a04-497b-9491-7bd5768f0dce
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, D, F, I, IWDTFLongNumbers2, IWDTFLongNumbers2 interface [Windows Device Testing Framework], Remove method, IWDTFLongNumbers2::Remove, L, Microsoft.WDTF.IWDTFLongNumbers2.Remove, Microsoft::WDTF::IWDTFLongNumbers2::Remove, N, R, Remove method [Windows Device Testing Framework], Remove method [Windows Device Testing Framework], IWDTFLongNumbers2 interface, Remove,IWDTFLongNumbers2.Remove, T, W, b, dtf.iwdtflongnumbers2_remove, e, g, m, n, o, r, s, u, v, wdtf/IWDTFLongNumbers2::Remove"
+ms.keywords: IWDTFLongNumbers2, IWDTFLongNumbers2 interface [Windows Device Testing Framework], Remove method, IWDTFLongNumbers2::Remove, Microsoft.WDTF.IWDTFLongNumbers2.Remove, Microsoft::WDTF::IWDTFLongNumbers2::Remove, Remove method [Windows Device Testing Framework], Remove method [Windows Device Testing Framework], IWDTFLongNumbers2 interface, Remove,IWDTFLongNumbers2.Remove, dtf.iwdtflongnumbers2_remove, wdtf/IWDTFLongNumbers2::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

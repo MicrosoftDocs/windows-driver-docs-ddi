@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f9dd7b32-7a87-427e-9efe-861301249add
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, H, I, IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], SetOptions method, IPrintCoreHelperUni::SetOptions, O, P, S, SetOptions method [Print Devices], SetOptions method [Print Devices], IPrintCoreHelperUni interface, SetOptions,IPrintCoreHelperUni.SetOptions, U, e, i, l, n, o, p, prcomoem/IPrintCoreHelperUni::SetOptions, print.iprintcorehelperuni_setoptions, print_unidrv-pscript_allplugins_3178bdef-a7fd-48ba-9b2e-cafda9fb0802.xml, r, s, t"
+ms.keywords: IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], SetOptions method, IPrintCoreHelperUni::SetOptions, SetOptions method [Print Devices], SetOptions method [Print Devices], IPrintCoreHelperUni interface, SetOptions,IPrintCoreHelperUni.SetOptions, prcomoem/IPrintCoreHelperUni::SetOptions, print.iprintcorehelperuni_setoptions, print_unidrv-pscript_allplugins_3178bdef-a7fd-48ba-9b2e-cafda9fb0802.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 0F6EBBDA-FA0B-4044-905B-535D4FFEC5D2
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, E, I, S, U, UdecxUsbEndpointInitSetCallbacks, UdecxUsbEndpointInitSetCallbacks function [Buses], a, b, buses.udecxusbendpointinitsetcallbacks, c, d, e, i, k, l, n, o, p, s, t, udecxusbendpoint/UdecxUsbEndpointInitSetCallbacks, x"
+ms.keywords: UdecxUsbEndpointInitSetCallbacks, UdecxUsbEndpointInitSetCallbacks function [Buses], buses.udecxusbendpointinitsetcallbacks, udecxusbendpoint/UdecxUsbEndpointInitSetCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

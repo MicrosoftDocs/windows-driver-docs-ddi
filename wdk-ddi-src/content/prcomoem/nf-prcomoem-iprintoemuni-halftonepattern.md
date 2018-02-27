@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1b899492-f4a7-4c13-9e19-0f086b2b6b47
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, H, HalftonePattern method [Print Devices], HalftonePattern method [Print Devices], IPrintOemUni interface, HalftonePattern,IPrintOemUni.HalftonePattern, I, IPrintOemUni, IPrintOemUni interface [Print Devices], HalftonePattern method, IPrintOemUni::HalftonePattern, O, P, U, a, e, f, i, l, m, n, o, prcomoem/IPrintOemUni::HalftonePattern, print.iprintoemuni_halftonepattern, print_unidrv-pscript_rendering_672da2b9-981c-4c4c-a303-88377fe01741.xml, r, t"
+ms.keywords: HalftonePattern method [Print Devices], HalftonePattern method [Print Devices], IPrintOemUni interface, HalftonePattern,IPrintOemUni.HalftonePattern, IPrintOemUni, IPrintOemUni interface [Print Devices], HalftonePattern method, IPrintOemUni::HalftonePattern, prcomoem/IPrintOemUni::HalftonePattern, print.iprintoemuni_halftonepattern, print_unidrv-pscript_rendering_672da2b9-981c-4c4c-a303-88377fe01741.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -290,11 +290,11 @@ For more information about halftoning, see <a href="https://msdn.microsoft.com/c
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
 
 
 

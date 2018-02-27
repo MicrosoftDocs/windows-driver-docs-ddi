@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f916b414-9cd9-4745-a021-07c810d0d68b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, D, F, I, IWDFIoRequest, IWDFIoRequest interface, Send method, IWDFIoRequest::Send, R, S, Send method, Send method, IWDFIoRequest interface, Send,IWDFIoRequest.Send, UMDFRequestObjectRef_f3a8e812-392d-478c-8234-8125bec14f1d.xml, W, d, e, n, o, q, s, t, u, umdf.iwdfiorequest_send, wdf.iwdfiorequest_send, wudfddi/IWDFIoRequest::Send"
+ms.keywords: IWDFIoRequest, IWDFIoRequest interface, Send method, IWDFIoRequest::Send, Send method, Send method, IWDFIoRequest interface, Send,IWDFIoRequest.Send, UMDFRequestObjectRef_f3a8e812-392d-478c-8234-8125bec14f1d.xml, umdf.iwdfiorequest_send, wdf.iwdfiorequest_send, wudfddi/IWDFIoRequest::Send
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -189,10 +189,6 @@ The following code example forwards a request to a device's I/O target.
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
 
@@ -202,6 +198,10 @@ The following code example forwards a request to a device's I/O target.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 

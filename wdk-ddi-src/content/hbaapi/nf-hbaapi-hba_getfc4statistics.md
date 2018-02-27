@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9c86c753-dddf-488d-b332-4b79602c454a
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 4, A, B, C, F, G, H, HBA_GetFC4Statistics, HBA_GetFC4Statistics routine [Storage Devices], S, _, a, c, e, fibreHBA_rtns_483a1f57-5e5b-4919-a61b-5853ffb5be6f.xml, hbaapi/HBA_GetFC4Statistics, i, s, storage.hba_getfc4statistics, t"
+ms.keywords: HBA_GetFC4Statistics, HBA_GetFC4Statistics routine [Storage Devices], fibreHBA_rtns_483a1f57-5e5b-4919-a61b-5853ffb5be6f.xml, hbaapi/HBA_GetFC4Statistics, storage.hba_getfc4statistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -168,15 +168,15 @@ Statistics counters in <a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC
 
 ## -see-also
 
+<a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC4Statistics</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
-<a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC4Statistics</a>
 
 
 

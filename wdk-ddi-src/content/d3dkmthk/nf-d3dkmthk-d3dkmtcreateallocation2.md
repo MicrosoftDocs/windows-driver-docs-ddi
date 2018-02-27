@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 416DE730-44A6-4BA3-BFC2-C11A179AD422
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 2, 3, A, C, D, D3DKMTCreateAllocation2, D3DKMTCreateAllocation2 callback function [Display Devices], K, M, PFND3DKMT_CREATEALLOCATION2, T, a, c, d3dkmthk/D3DKMTCreateAllocation2, display.d3dkmtcreateallocation2, e, i, l, n, o, r, t"
+ms.keywords: D3DKMTCreateAllocation2, D3DKMTCreateAllocation2 callback function [Display Devices], PFND3DKMT_CREATEALLOCATION2, d3dkmthk/D3DKMTCreateAllocation2, display.d3dkmtcreateallocation2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c91b9ea0-8c42-4199-b161-2b43ba4a1833
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , *, *PWDF_IO_QUEUE_STATE, ,, A, D, E, F, I, O, P, Q, S, T, U, W, WDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE enumeration, WdfIoQueueAcceptRequests, WdfIoQueueDispatchRequests, WdfIoQueueDriverNoRequests, WdfIoQueueNoRequests, WdfIoQueuePnpHeld, _, _WDF_IO_QUEUE_STATE, umdf.wdf_io_queue_state, umdfstructs_b0fa52c7-c536-43d3-b9a7-f63977ccb619.xml, wdf.wdf_io_queue_state_umdf, wudfddi/WDF_IO_QUEUE_STATE, wudfddi/WdfIoQueueAcceptRequests, wudfddi/WdfIoQueueDispatchRequests, wudfddi/WdfIoQueueDriverNoRequests, wudfddi/WdfIoQueueNoRequests, wudfddi/WdfIoQueuePnpHeld"
+ms.keywords: "*PWDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE enumeration, WdfIoQueueAcceptRequests, WdfIoQueueDispatchRequests, WdfIoQueueDriverNoRequests, WdfIoQueueNoRequests, WdfIoQueuePnpHeld, _WDF_IO_QUEUE_STATE, umdf.wdf_io_queue_state, umdfstructs_b0fa52c7-c536-43d3-b9a7-f63977ccb619.xml, wdf.wdf_io_queue_state_umdf, wudfddi/WDF_IO_QUEUE_STATE, wudfddi/WdfIoQueueAcceptRequests, wudfddi/WdfIoQueueDispatchRequests, wudfddi/WdfIoQueueDriverNoRequests, wudfddi/WdfIoQueueNoRequests, wudfddi/WdfIoQueuePnpHeld"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -106,11 +106,7 @@ If this value is set to 1, an event from the Plug and Play (PnP) subsystem suspe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558946">IWDFIoQueue::ConfigureRequestDispatching</a>
-
-
-
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559081">IWDFIoRequest::ForwardToIoQueue</a>
 
 
 
@@ -118,7 +114,11 @@ If this value is set to 1, an event from the Plug and Play (PnP) subsystem suspe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559081">IWDFIoRequest::ForwardToIoQueue</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558946">IWDFIoQueue::ConfigureRequestDispatching</a>
 
 
 

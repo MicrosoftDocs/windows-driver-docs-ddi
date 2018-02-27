@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2d0cdc50-a194-4eda-8bba-f6e5c06ff32c
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *LPD3DHAL_DP2BLT, ,, 2, 3, A, B, D, D3DHAL_DP2BLT, D3DHAL_DP2BLT structure [Display Devices], H, L, LPD3DHAL_DP2BLT, LPD3DHAL_DP2BLT structure pointer [Display Devices], P, T, _, _D3DHAL_DP2BLT, d3dhal/D3DHAL_DP2BLT, d3dhal/LPD3DHAL_DP2BLT, d3dstrct_cab5e8b8-ec72-4d7d-8aaa-4a1f6da44a9b.xml, display.d3dhal_dp2blt"
+ms.keywords: "*LPD3DHAL_DP2BLT, D3DHAL_DP2BLT, D3DHAL_DP2BLT structure [Display Devices], LPD3DHAL_DP2BLT, LPD3DHAL_DP2BLT structure pointer [Display Devices], _D3DHAL_DP2BLT, d3dhal/D3DHAL_DP2BLT, d3dhal/LPD3DHAL_DP2BLT, d3dstrct_cab5e8b8-ec72-4d7d-8aaa-4a1f6da44a9b.xml, display.d3dhal_dp2blt"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -151,15 +151,15 @@ The <b>dwSource</b> or <b>dwDest</b> member specifies the kernel handle to the t
 
 ## -see-also
 
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+
 D3DDP2OP_BLT
 
 
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
-
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 

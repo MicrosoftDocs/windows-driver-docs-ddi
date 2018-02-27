@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b62834ec-6100-429a-b62f-7e30c58b13e5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , R, RtlSplay, RtlSplay routine [Installable File System Drivers], S, a, ifsk.rtlsplay, l, ntddk/RtlSplay, p, rtlref_e44a955e-57eb-46f9-be07-9f658b8fd6db.xml, t, y"
+ms.keywords: RtlSplay, RtlSplay routine [Installable File System Drivers], ifsk.rtlsplay, ntddk/RtlSplay, rtlref_e44a955e-57eb-46f9-be07-9f658b8fd6db.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,7 +97,7 @@ Callers of <b>RtlSplay</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the t
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+<a href="..\ntddk\nf-ntddk-rtldelete.md">RtlDelete</a>
 
 
 
@@ -105,7 +105,7 @@ Callers of <b>RtlSplay</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the t
 
 
 
-<a href="..\ntddk\nf-ntddk-rtldelete.md">RtlDelete</a>
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
 
 

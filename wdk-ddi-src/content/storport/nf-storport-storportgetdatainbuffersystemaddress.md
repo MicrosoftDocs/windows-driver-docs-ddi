@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3FA48004-E96A-4ED7-935F-B7F58A74FB1F
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, B, D, G, I, P, S, StorPortGetDataInBufferSystemAddress, StorPortGetDataInBufferSystemAddress routine [Storage Devices], a, d, e, f, m, n, o, r, s, storage.storportgetdatainbuffersystemaddress, storport/StorPortGetDataInBufferSystemAddress, t, u, y"
+ms.keywords: StorPortGetDataInBufferSystemAddress, StorPortGetDataInBufferSystemAddress routine [Storage Devices], storage.storportgetdatainbuffersystemaddress, storport/StorPortGetDataInBufferSystemAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 0bcd48c6-be8a-47af-9e34-a06ce572925c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, I, IStiDevice, IStiDevice interface [Imaging Devices], UnLockDevice method, IStiDevice::UnLockDevice, L, S, U, UnLockDevice method [Imaging Devices], UnLockDevice method [Imaging Devices], IStiDevice interface, UnLockDevice,IStiDevice.UnLockDevice, c, e, i, image.istidevice_unlockdevice, k, n, o, sti/IStiDevice::UnLockDevice, stifnc_7f72c1a7-41cd-4191-8c8f-390dfc991246.xml, t, v"
+ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], UnLockDevice method, IStiDevice::UnLockDevice, UnLockDevice method [Imaging Devices], UnLockDevice method [Imaging Devices], IStiDevice interface, UnLockDevice,IStiDevice.UnLockDevice, image.istidevice_unlockdevice, sti/IStiDevice::UnLockDevice, stifnc_7f72c1a7-41cd-4191-8c8f-390dfc991246.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

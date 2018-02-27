@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a594e436-3b37-4bba-ba9d-65159fdfb7ac
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, ComOther_e12d7aee-985e-4770-8567-7c3748a79905.xml, D, G, GetSymbolName method [Windows Debugging], GetSymbolName method [Windows Debugging], IDebugSymbolGroup interface, GetSymbolName method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolName,IDebugSymbolGroup.GetSymbolName, GetSymbolName,IDebugSymbolGroup2.GetSymbolName, I, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], GetSymbolName method, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolName method, IDebugSymbolGroup2::GetSymbolName, IDebugSymbolGroup::GetSymbolName, N, S, a, b, dbgeng/IDebugSymbolGroup2::GetSymbolName, dbgeng/IDebugSymbolGroup::GetSymbolName, debugger.getsymbolname, e, g, l, m, o, p, r, t, u, y"
+ms.keywords: ComOther_e12d7aee-985e-4770-8567-7c3748a79905.xml, GetSymbolName method [Windows Debugging], GetSymbolName method [Windows Debugging], IDebugSymbolGroup interface, GetSymbolName method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolName,IDebugSymbolGroup2.GetSymbolName, IDebugSymbolGroup interface [Windows Debugging], GetSymbolName method, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolName method, IDebugSymbolGroup2::GetSymbolName, IDebugSymbolGroup::GetSymbolName, dbgeng/IDebugSymbolGroup2::GetSymbolName, dbgeng/IDebugSymbolGroup::GetSymbolName, debugger.getsymbolname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -141,15 +141,15 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 

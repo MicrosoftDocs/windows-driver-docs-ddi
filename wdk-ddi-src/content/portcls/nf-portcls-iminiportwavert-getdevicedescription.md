@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c6c0da06-c304-4d2d-907c-ccbb141c385b
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, D, G, GetDeviceDescription method [Audio Devices], GetDeviceDescription method [Audio Devices], IMiniportWaveRT interface, GetDeviceDescription,IMiniportWaveRT.GetDeviceDescription, I, IMiniportWaveRT, IMiniportWaveRT interface [Audio Devices], GetDeviceDescription method, IMiniportWaveRT::GetDeviceDescription, M, R, T, W, a, audio.iminiportwavert_getdevicedescription, audmp-routines_3a5441ed-a935-42ea-84be-29f1f6b6db07.xml, c, e, i, n, o, p, portcls/IMiniportWaveRT::GetDeviceDescription, r, s, t, v"
+ms.keywords: GetDeviceDescription method [Audio Devices], GetDeviceDescription method [Audio Devices], IMiniportWaveRT interface, GetDeviceDescription,IMiniportWaveRT.GetDeviceDescription, IMiniportWaveRT, IMiniportWaveRT interface [Audio Devices], GetDeviceDescription method, IMiniportWaveRT::GetDeviceDescription, audio.iminiportwavert_getdevicedescription, audmp-routines_3a5441ed-a935-42ea-84be-29f1f6b6db07.xml, portcls/IMiniportWaveRT::GetDeviceDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

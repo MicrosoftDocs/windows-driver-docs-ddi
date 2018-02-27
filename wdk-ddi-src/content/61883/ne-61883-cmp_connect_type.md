@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 8C206071-2616-4BFB-B7CA-E872CC8D5405
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , ,, 61883/CMP_Broadcast, 61883/CMP_CONNECT_TYPE, 61883/CMP_PointToPoint, C, CMP_Broadcast, CMP_CONNECT_TYPE, CMP_CONNECT_TYPE enumeration [Buses], CMP_PointToPoint, E, IEEE.cmp_connect_type, M, N, O, P, T, Y, _"
+ms.keywords: 61883/CMP_Broadcast, 61883/CMP_CONNECT_TYPE, 61883/CMP_PointToPoint, CMP_Broadcast, CMP_CONNECT_TYPE, CMP_CONNECT_TYPE enumeration [Buses], CMP_PointToPoint, IEEE.cmp_connect_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

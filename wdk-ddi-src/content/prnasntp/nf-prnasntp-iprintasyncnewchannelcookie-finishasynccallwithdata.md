@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6103FBCB-C89F-4FE9-BD04-6129AEAA97EE
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, C, D, F, FinishAsyncCallWithData method [Print Devices], FinishAsyncCallWithData method [Print Devices], IPrintAsyncNewChannelCookie interface, FinishAsyncCallWithData,IPrintAsyncNewChannelCookie.FinishAsyncCallWithData, I, IPrintAsyncNewChannelCookie, IPrintAsyncNewChannelCookie interface [Print Devices], FinishAsyncCallWithData method, IPrintAsyncNewChannelCookie::FinishAsyncCallWithData, N, P, W, a, c, e, h, i, k, l, n, o, print.iprintasyncnewchannelcookie_finishasynccallwithdata, prnasntp/IPrintAsyncNewChannelCookie::FinishAsyncCallWithData, r, s, t, w, y"
+ms.keywords: FinishAsyncCallWithData method [Print Devices], FinishAsyncCallWithData method [Print Devices], IPrintAsyncNewChannelCookie interface, FinishAsyncCallWithData,IPrintAsyncNewChannelCookie.FinishAsyncCallWithData, IPrintAsyncNewChannelCookie, IPrintAsyncNewChannelCookie interface [Print Devices], FinishAsyncCallWithData method, IPrintAsyncNewChannelCookie::FinishAsyncCallWithData, print.iprintasyncnewchannelcookie_finishasynccallwithdata, prnasntp/IPrintAsyncNewChannelCookie::FinishAsyncCallWithData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

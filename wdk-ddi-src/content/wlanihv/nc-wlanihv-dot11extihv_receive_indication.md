@@ -133,12 +133,12 @@ When the Native 802.11 miniport driver, which manages the WLAN adapter, makes an
 
 
 
+<a href="..\wlanihv\ne-wlanihv-_dot11ext_ihv_indication_type.md">DOT11EXT_IHV_INDICATION_TYPE</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567399">
    NDIS_STATUS_MEDIA_SPECIFIC_INDICATION</a>
-
-
-
-<a href="..\wlanihv\ne-wlanihv-_dot11ext_ihv_indication_type.md">DOT11EXT_IHV_INDICATION_TYPE</a>
 
 
 

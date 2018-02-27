@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2aece5f0-5cfd-47fe-b8c1-e191f0a4296d
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 4, :, C, D, E, ExecuteWide method [Windows Debugging], ExecuteWide method [Windows Debugging], IDebugControl4 interface, ExecuteWide,IDebugControl4.ExecuteWide, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], ExecuteWide method, IDebugControl4::ExecuteWide, W, b, c, d, dbgeng/IDebugControl4::ExecuteWide, debugger.executewide, e, g, i, l, n, o, r, t, u, x"
+ms.keywords: ExecuteWide method [Windows Debugging], ExecuteWide method [Windows Debugging], IDebugControl4 interface, ExecuteWide,IDebugControl4.ExecuteWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], ExecuteWide method, IDebugControl4::ExecuteWide, dbgeng/IDebugControl4::ExecuteWide, debugger.executewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

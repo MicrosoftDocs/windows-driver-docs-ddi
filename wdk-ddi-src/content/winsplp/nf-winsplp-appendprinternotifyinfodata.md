@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 558b81c5-5f6b-41a5-8d89-6ee39b9c1cd1
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, AppendPrinterNotifyInfoData, AppendPrinterNotifyInfoData function [Print Devices], D, I, N, P, a, d, e, f, i, n, o, p, print.appendprinternotifyinfodata, r, spoolfnc_cc8f6371-6dea-497e-92db-6cd9e26e7867.xml, t, winsplp/AppendPrinterNotifyInfoData, y"
+ms.keywords: AppendPrinterNotifyInfoData, AppendPrinterNotifyInfoData function [Print Devices], print.appendprinternotifyinfodata, spoolfnc_cc8f6371-6dea-497e-92db-6cd9e26e7867.xml, winsplp/AppendPrinterNotifyInfoData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

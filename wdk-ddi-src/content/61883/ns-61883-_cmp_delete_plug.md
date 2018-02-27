@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 93F81B97-5C37-47BF-8867-0FBEFA8F6D3B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , *, *PCMP_DELETE_PLUG, ,, 61883/CMP_DELETE_PLUG, 61883/PCMP_DELETE_PLUG, C, CMP_DELETE_PLUG, CMP_DELETE_PLUG structure [Buses], D, E, G, IEEE.cmp_delete_plug, L, M, P, PCMP_DELETE_PLUG, PCMP_DELETE_PLUG structure pointer [Buses], T, U, _, _CMP_DELETE_PLUG"
+ms.keywords: "*PCMP_DELETE_PLUG, 61883/CMP_DELETE_PLUG, 61883/PCMP_DELETE_PLUG, CMP_DELETE_PLUG, CMP_DELETE_PLUG structure [Buses], IEEE.cmp_delete_plug, PCMP_DELETE_PLUG, PCMP_DELETE_PLUG structure pointer [Buses], _CMP_DELETE_PLUG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

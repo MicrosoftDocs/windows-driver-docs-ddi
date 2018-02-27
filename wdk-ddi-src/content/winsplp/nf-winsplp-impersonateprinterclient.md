@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8e110b2a-9d13-4e2e-8f27-5a48d838fb3c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, I, ImpersonatePrinterClient, ImpersonatePrinterClient function [Print Devices], P, a, e, i, l, m, n, o, p, print.impersonateprinterclient, r, s, spoolfnc_2eb48193-850d-43dc-8e9b-025c8187c49e.xml, t, winsplp/ImpersonatePrinterClient"
+ms.keywords: ImpersonatePrinterClient, ImpersonatePrinterClient function [Print Devices], print.impersonateprinterclient, spoolfnc_2eb48193-850d-43dc-8e9b-025c8187c49e.xml, winsplp/ImpersonatePrinterClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

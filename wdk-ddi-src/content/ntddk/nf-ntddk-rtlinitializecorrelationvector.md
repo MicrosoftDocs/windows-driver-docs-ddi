@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ebf5ccbe-3325-4d3d-86c9-230776f2c9ef
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, I, R, RtlInitializeCorrelationVector, RtlInitializeCorrelationVector function [Kernel-Mode Driver Architecture], V, a, c, e, i, kernel.rtlinitializecorrelationvector, l, n, ntddk/RtlInitializeCorrelationVector, o, r, t, z"
+ms.keywords: RtlInitializeCorrelationVector, RtlInitializeCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlinitializecorrelationvector, ntddk/RtlInitializeCorrelationVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

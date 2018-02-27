@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6960f235-984e-4f98-97ef-5e1dd295eab7
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, B, C, D, E, G, I, IDDCX_OPM_GET_RANDOM_NUMBER, IDDCX_OPM_GET_RANDOM_NUMBER structure [Display Devices], M, N, O, P, R, T, U, X, _, display.iddcx_opm_get_random_number, iddcx/IDDCX_OPM_GET_RANDOM_NUMBER"
+ms.keywords: IDDCX_OPM_GET_RANDOM_NUMBER, IDDCX_OPM_GET_RANDOM_NUMBER structure [Display Devices], display.iddcx_opm_get_random_number, iddcx/IDDCX_OPM_GET_RANDOM_NUMBER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F5228B4C-B5CC-4F7F-91E6-B5BCED76BF7A
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, C, CancelAsyncCall method [Print Devices], CancelAsyncCall method [Print Devices], IPrintAsyncCookie interface, CancelAsyncCall,IPrintAsyncCookie.CancelAsyncCall, I, IPrintAsyncCookie, IPrintAsyncCookie interface [Print Devices], CancelAsyncCall method, IPrintAsyncCookie::CancelAsyncCall, P, a, c, e, i, k, l, n, o, print.iprintasyncnotify_cancelasynccall, prnasntp/IPrintAsyncCookie::CancelAsyncCall, r, s, t, y"
+ms.keywords: CancelAsyncCall method [Print Devices], CancelAsyncCall method [Print Devices], IPrintAsyncCookie interface, CancelAsyncCall,IPrintAsyncCookie.CancelAsyncCall, IPrintAsyncCookie, IPrintAsyncCookie interface [Print Devices], CancelAsyncCall method, IPrintAsyncCookie::CancelAsyncCall, print.iprintasyncnotify_cancelasynccall, prnasntp/IPrintAsyncCookie::CancelAsyncCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fc747ff1-cc84-4863-a66a-ae172f45f2bd
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PGetFC4Statistics_OUT, ,, 4, C, F, G, GetFC4Statistics_OUT, GetFC4Statistics_OUT structure [Storage Devices], O, P, PGetFC4Statistics_OUT, PGetFC4Statistics_OUT structure pointer [Storage Devices], S, T, U, _, _GetFC4Statistics_OUT, a, c, e, hbapiwmi/GetFC4Statistics_OUT, hbapiwmi/PGetFC4Statistics_OUT, i, s, storage.getfc4statistics_out, structs-Fibre_2a49fe85-534d-42df-8d8f-d07d0c4a7193.xml, t"
+ms.keywords: "*PGetFC4Statistics_OUT, GetFC4Statistics_OUT, GetFC4Statistics_OUT structure [Storage Devices], PGetFC4Statistics_OUT, PGetFC4Statistics_OUT structure pointer [Storage Devices], _GetFC4Statistics_OUT, hbapiwmi/GetFC4Statistics_OUT, hbapiwmi/PGetFC4Statistics_OUT, storage.getfc4statistics_out, structs-Fibre_2a49fe85-534d-42df-8d8f-d07d0c4a7193.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

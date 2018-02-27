@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0be3f5da-3fe6-45a2-b44a-b1634d74ede3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , B, E, ExQueryPoolBlockSize, ExQueryPoolBlockSize function [Installable File System Drivers], P, Q, S, c, e, exref_c8686b81-2d69-4bbf-a1fb-143574579cff.xml, i, ifsk.exquerypoolblocksize, k, l, ntifs/ExQueryPoolBlockSize, o, r, u, x, y, z"
+ms.keywords: ExQueryPoolBlockSize, ExQueryPoolBlockSize function [Installable File System Drivers], exref_c8686b81-2d69-4bbf-a1fb-143574579cff.xml, ifsk.exquerypoolblocksize, ntifs/ExQueryPoolBlockSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

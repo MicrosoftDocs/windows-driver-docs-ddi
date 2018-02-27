@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 677619d2-86a1-492e-9964-d50624376ef4
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PDXGK_SPB_INTERFACE, ,, A, B, C, D, DXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE structure [Display Devices], E, F, G, I, K, N, P, PDXGK_SPB_INTERFACE, PDXGK_SPB_INTERFACE structure pointer [Display Devices], R, S, T, X, _, _DXGK_SPB_INTERFACE, display.dxgk_spb_interface, dispmprt/DXGK_SPB_INTERFACE, dispmprt/PDXGK_SPB_INTERFACE"
+ms.keywords: "*PDXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE structure [Display Devices], PDXGK_SPB_INTERFACE, PDXGK_SPB_INTERFACE structure pointer [Display Devices], _DXGK_SPB_INTERFACE, display.dxgk_spb_interface, dispmprt/DXGK_SPB_INTERFACE, dispmprt/PDXGK_SPB_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -266,7 +266,7 @@ This parameter can be <b>NULL</b>.
 
 #### IoStatusBlock
 
-A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested read operation. The  <b>Information</b> member of the <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually read from the SPB resource.
+A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested read operation. The  <b>Information</b> member of the <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually read from the SPB resource.
 
 
 
@@ -336,7 +336,7 @@ This parameter can be <b>NULL</b>.
 
 #### IoStatusBlock
 
-A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested write operation. The <b>Information</b> member of the  <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually written to the SPB resource.
+A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested write operation. The <b>Information</b> member of the  <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually written to the SPB resource.
 
 
 ### -field SpbResourceIoControl
@@ -403,16 +403,12 @@ This parameter can be <b>NULL</b>.
 
 #### IoStatusBlock
 
-A pointer to a variable that receives the final completion status and information about the requested I/O control operation. For successful calls that return data, the number of bytes written to the buffer pointed to by the <i>OutputBuffer</i> parameter is returned in the <b>Information</b> member of the <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure.
+A pointer to a variable that receives the final completion status and information about the requested I/O control operation. For successful calls that return data, the number of bytes written to the buffer pointed to by the <i>OutputBuffer</i> parameter is returned in the <b>Information</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451581">OpenSpbResource</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439925">WriteSpbResource</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406257">CloseSpbResource</a>
 
 
 
@@ -420,11 +416,15 @@ A pointer to a variable that receives the final completion status and informatio
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451581">OpenSpbResource</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439824">ReadSpbResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406257">CloseSpbResource</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439925">WriteSpbResource</a>
 
 
 

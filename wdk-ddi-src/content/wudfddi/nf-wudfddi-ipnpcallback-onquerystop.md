@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e0cb14fa-82d0-4ce3-8672-801e7f04d522
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, C, I, IPnpCallback, IPnpCallback interface, OnQueryStop method, IPnpCallback::OnQueryStop, O, OnQueryStop method, OnQueryStop method, IPnpCallback interface, OnQueryStop,IPnpCallback.OnQueryStop, P, Q, S, UMDFDeviceObjectRef_9215c39e-2cb9-4de6-9fb3-f228dad51f6d.xml, a, b, c, e, k, l, n, o, p, r, t, u, umdf.ipnpcallback_onquerystop, wdf.ipnpcallback_onquerystop, wudfddi/IPnpCallback::OnQueryStop, y"
+ms.keywords: IPnpCallback, IPnpCallback interface, OnQueryStop method, IPnpCallback::OnQueryStop, OnQueryStop method, OnQueryStop method, IPnpCallback interface, OnQueryStop,IPnpCallback.OnQueryStop, UMDFDeviceObjectRef_9215c39e-2cb9-4de6-9fb3-f228dad51f6d.xml, umdf.ipnpcallback_onquerystop, wdf.ipnpcallback_onquerystop, wudfddi/IPnpCallback::OnQueryStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

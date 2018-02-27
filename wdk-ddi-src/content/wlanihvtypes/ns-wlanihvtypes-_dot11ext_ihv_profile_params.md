@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9bf4b27c-3cf0-45a0-9e56-b01ad1ba6b19
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , *, *PDOT11EXT_IHV_PROFILE_PARAMS, ,, 1, A, D, DOT11EXT_IHV_PROFILE_PARAMS, DOT11EXT_IHV_PROFILE_PARAMS structure [Network Drivers Starting with Windows Vista], E, F, H, I, L, M, Native_802.11_data_types_3fe01c80-477b-4851-8b7e-4d4540cc22b6.xml, O, P, PDOT11EXT_IHV_PROFILE_PARAMS, PDOT11EXT_IHV_PROFILE_PARAMS structure pointer [Network Drivers Starting with Windows Vista], R, S, T, V, X, _, _DOT11EXT_IHV_PROFILE_PARAMS, netvista.dot11ext_ihv_profile_params, wlanihvtypes/DOT11EXT_IHV_PROFILE_PARAMS, wlanihvtypes/PDOT11EXT_IHV_PROFILE_PARAMS"
+ms.keywords: "*PDOT11EXT_IHV_PROFILE_PARAMS, DOT11EXT_IHV_PROFILE_PARAMS, DOT11EXT_IHV_PROFILE_PARAMS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_3fe01c80-477b-4851-8b7e-4d4540cc22b6.xml, PDOT11EXT_IHV_PROFILE_PARAMS, PDOT11EXT_IHV_PROFILE_PARAMS structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_PROFILE_PARAMS, netvista.dot11ext_ihv_profile_params, wlanihvtypes/DOT11EXT_IHV_PROFILE_PARAMS, wlanihvtypes/PDOT11EXT_IHV_PROFILE_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,12 +113,17 @@ Although the IHV handler function cannot access the entire network profile, the 
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_validate_profile.md">Dot11ExtIhvValidateProfile</a>
+<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_ssid_list.md">DOT11EXT_IHV_SSID_LIST</a>
 
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_capability_match.md">
    Dot11ExtIhvPerformCapabilityMatch</a>
+
+
+
+<a href="https://msdn.microsoft.com/fe136eef-4cc7-4a78-a5df-5f6c63a5007b">
+   IDot11ExtUIProperty::Dot11ExtUIPropertySetDisplayInfo</a>
 
 
 
@@ -132,23 +137,6 @@ Although the IHV handler function cannot access the entire network profile, the 
 
 
 
-<a href="https://msdn.microsoft.com/fe136eef-4cc7-4a78-a5df-5f6c63a5007b">
-   IDot11ExtUIProperty::Dot11ExtUIPropertySetDisplayInfo</a>
-
-
-
-<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
-
-
-
-<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11_mssecurity_settings.md">DOT11_MSSECURITY_SETTINGS</a>
-
-
-
-<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_ssid_list.md">DOT11EXT_IHV_SSID_LIST</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_create_discovery_profiles.md">
    Dot11ExtIhvCreateDiscoveryProfiles</a>
 
@@ -156,6 +144,18 @@ Although the IHV handler function cannot access the entire network profile, the 
 
 <a href="https://msdn.microsoft.com/de353aec-4339-496d-9aff-033b73f5d78e">
    IDot11ExtUIProperty::Dot11ExtUIPropertyGetDisplayInfo</a>
+
+
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_validate_profile.md">Dot11ExtIhvValidateProfile</a>
+
+
+
+<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11_mssecurity_settings.md">DOT11_MSSECURITY_SETTINGS</a>
 
 
 

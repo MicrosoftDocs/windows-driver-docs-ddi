@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4b6d6791-6c13-49ee-a588-a0ed514279b2
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, N, NtRollbackComplete, R, ZwRollbackComplete, ZwRollbackComplete routine [Kernel-Mode Driver Architecture], a, b, c, e, k, kernel.zwrollbackcomplete, ktm_ref_0e759f02-d2c1-4759-a5bc-3c3ceca8186c.xml, l, m, o, p, t, wdm/NtRollbackComplete, wdm/ZwRollbackComplete"
+ms.keywords: NtRollbackComplete, ZwRollbackComplete, ZwRollbackComplete routine [Kernel-Mode Driver Architecture], kernel.zwrollbackcomplete, ktm_ref_0e759f02-d2c1-4759-a5bc-3c3ceca8186c.xml, wdm/NtRollbackComplete, wdm/ZwRollbackComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 46e29607-ee09-4db4-a501-68a3bc678e16
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , I, IoVerifyVolume, IoVerifyVolume routine [Installable File System Drivers], V, e, f, i, ifsk.ioverifyvolume, ioref_b55e7a87-a18d-4ccd-ab32-061676c9dde4.xml, l, m, ntifs/IoVerifyVolume, o, r, u, y"
+ms.keywords: IoVerifyVolume, IoVerifyVolume routine [Installable File System Drivers], ifsk.ioverifyvolume, ioref_b55e7a87-a18d-4ccd-ab32-061676c9dde4.xml, ntifs/IoVerifyVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,11 +144,11 @@ For more information about removable-media devices, see <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iosetdevicetoverify.md">IoSetDeviceToVerify</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-iogetdevicetoverify.md">IoGetDeviceToVerify</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iosetdevicetoverify.md">IoSetDeviceToVerify</a>
 
 
 

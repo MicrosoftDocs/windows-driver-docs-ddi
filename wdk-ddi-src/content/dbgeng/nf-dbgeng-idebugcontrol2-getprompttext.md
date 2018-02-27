@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8d828cf1-991b-4c2d-882b-de56512a6737
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, C, D, G, GetPromptText method [Windows Debugging], GetPromptText method [Windows Debugging], IDebugControl interface, GetPromptText method [Windows Debugging], IDebugControl2 interface, GetPromptText method [Windows Debugging], IDebugControl3 interface, GetPromptText,IDebugControl.GetPromptText, GetPromptText,IDebugControl2.GetPromptText, I, IDebugControl, IDebugControl interface [Windows Debugging], GetPromptText method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetPromptText method, IDebugControl2::GetPromptText, IDebugControl3 interface [Windows Debugging], GetPromptText method, IDebugControl3::GetPromptText, IDebugControl::GetPromptText, IDebugControl_1f566e74-8920-43ce-8e5f-3c467ddb8d8a.xml, P, T, b, dbgeng/IDebugControl2::GetPromptText, dbgeng/IDebugControl3::GetPromptText, dbgeng/IDebugControl::GetPromptText, debugger.getprompttext, e, g, l, m, n, o, p, r, t, u, x"
+ms.keywords: GetPromptText method [Windows Debugging], GetPromptText method [Windows Debugging], IDebugControl interface, GetPromptText method [Windows Debugging], IDebugControl2 interface, GetPromptText method [Windows Debugging], IDebugControl3 interface, GetPromptText,IDebugControl2.GetPromptText, IDebugControl interface [Windows Debugging], GetPromptText method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetPromptText method, IDebugControl2::GetPromptText, IDebugControl3 interface [Windows Debugging], GetPromptText method, IDebugControl3::GetPromptText, IDebugControl::GetPromptText, IDebugControl_1f566e74-8920-43ce-8e5f-3c467ddb8d8a.xml, dbgeng/IDebugControl2::GetPromptText, dbgeng/IDebugControl3::GetPromptText, dbgeng/IDebugControl::GetPromptText, debugger.getprompttext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -136,11 +136,11 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -148,11 +148,11 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
 
 
 

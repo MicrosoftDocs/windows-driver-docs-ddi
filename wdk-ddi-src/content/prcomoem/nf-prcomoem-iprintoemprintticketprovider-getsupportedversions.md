@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bd1ca076-5007-4e38-8e90-4017d7dc8b3f
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, G, GetSupportedVersions, GetSupportedVersions method [Print Devices], GetSupportedVersions method [Print Devices], IPrintOemPrintTicketProvider interface, GetSupportedVersions,IPrintOemPrintTicketProvider.GetSupportedVersions, I, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], GetSupportedVersions method, IPrintOemPrintTicketProvider::GetSupportedVersions, O, P, S, T, V, c, d, e, i, k, m, n, o, p, prcomoem/IPrintOemPrintTicketProvider::GetSupportedVersions, print.iprintoemprintticketprovider_getsupportedversions, print_ticket-package_f20858fb-a11d-45b4-a8db-6a492b761cfc.xml, r, s, t, u, v"
+ms.keywords: GetSupportedVersions, GetSupportedVersions method [Print Devices], GetSupportedVersions method [Print Devices], IPrintOemPrintTicketProvider interface, GetSupportedVersions,IPrintOemPrintTicketProvider.GetSupportedVersions, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], GetSupportedVersions method, IPrintOemPrintTicketProvider::GetSupportedVersions, prcomoem/IPrintOemPrintTicketProvider::GetSupportedVersions, print.iprintoemprintticketprovider_getsupportedversions, print_ticket-package_f20858fb-a11d-45b4-a8db-6a492b761cfc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -109,11 +109,11 @@ The plug-in is responsible for allocating the array memory that is pointed to by
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemprintticketprovider.md">IPrintOemPrintTicketProvider</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553151">IPrintOemPrintTicketProvider::BindPrinter</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemprintticketprovider.md">IPrintOemPrintTicketProvider</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1C29A0B4-E50D-4EA2-95A4-4845BD14C88A
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, I, IPositionNotify, IPositionNotify interface [Audio Devices], PositionNotify method, IPositionNotify::PositionNotify, N, P, PositionNotify method [Audio Devices], PositionNotify method [Audio Devices], IPositionNotify interface, PositionNotify,IPositionNotify.PositionNotify, audio.ipositionnotify_positionnotify, dmusicks/IPositionNotify::PositionNotify, f, i, n, o, s, t, y"
+ms.keywords: IPositionNotify, IPositionNotify interface [Audio Devices], PositionNotify method, IPositionNotify::PositionNotify, PositionNotify method [Audio Devices], PositionNotify method [Audio Devices], IPositionNotify interface, PositionNotify,IPositionNotify.PositionNotify, audio.ipositionnotify_positionnotify, dmusicks/IPositionNotify::PositionNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 82A01880-AC8D-4285-A780-EE195F186B71
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , *, *PBUS_RESET_DATA, ,, 1394/BUS_RESET_DATA, 1394/PBUS_RESET_DATA, A, B, BUS_RESET_DATA, BUS_RESET_DATA structure [Buses], D, E, IEEE.bus_reset_data, P, PBUS_RESET_DATA, PBUS_RESET_DATA structure pointer [Buses], R, S, T, U, _, _BUS_RESET_DATA"
+ms.keywords: "*PBUS_RESET_DATA, 1394/BUS_RESET_DATA, 1394/PBUS_RESET_DATA, BUS_RESET_DATA, BUS_RESET_DATA structure [Buses], IEEE.bus_reset_data, PBUS_RESET_DATA, PBUS_RESET_DATA structure pointer [Buses], _BUS_RESET_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

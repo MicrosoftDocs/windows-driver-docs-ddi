@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4f3f01f2-d5ef-4b41-8733-ac44952dc9a9
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PUSB_HUB_CAP_FLAGS, ,, A, B, C, F, G, H, L, P, PUSB_HUB_CAP_FLAGS, PUSB_HUB_CAP_FLAGS union pointer [Buses], S, U, USB_HUB_CAP_FLAGS, USB_HUB_CAP_FLAGS union [Buses], _, _USB_HUB_CAP_FLAGS, buses.usb_hub_cap_flags, usbioctl/PUSB_HUB_CAP_FLAGS, usbioctl/USB_HUB_CAP_FLAGS, usbstrct_0c0ca119-db83-4486-9b65-f16c70716c14.xml"
+ms.keywords: "*PUSB_HUB_CAP_FLAGS, PUSB_HUB_CAP_FLAGS, PUSB_HUB_CAP_FLAGS union pointer [Buses], USB_HUB_CAP_FLAGS, USB_HUB_CAP_FLAGS union [Buses], _USB_HUB_CAP_FLAGS, buses.usb_hub_cap_flags, usbioctl/PUSB_HUB_CAP_FLAGS, usbioctl/USB_HUB_CAP_FLAGS, usbstrct_0c0ca119-db83-4486-9b65-f16c70716c14.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,31 +83,6 @@ typedef union _USB_HUB_CAP_FLAGS {
 A bitmask that represents the hub capabilities.
 
 
-#### - HubIsHighSpeedCapable
-
-If <b>TRUE</b>, the hub is high speed-capable. This capability does not necessarily mean that the hub is operating at high speed
-
-
-#### - HubIsHighSpeed
-
-If <b>TRUE</b>, the hub is high speed.
-
-
-#### - HubIsMultiTtCapable
-
-If <b>TRUE</b>, the hub is capable of doing multiple transaction translations simultaneously.
-
-
-#### - HubIsMultiTt
-
-If <b>TRUE</b>, the hub is configured to perform multiple transaction translations simultaneously.
-
-
-#### - HubIsRoot
-
-If <b>TRUE</b>, the hub is the root hub.
-
-
 #### - HubIsArmedWakeOnConnect
 
 If <b>TRUE</b>, the hub is armed to wake when a device is connected to the hub.
@@ -116,6 +91,31 @@ If <b>TRUE</b>, the hub is armed to wake when a device is connected to the hub.
 #### - HubIsBusPowered
 
 A boolean value that indicates whether the hub is bus-powered. <b>TRUE</b>, the hub is bus-powered; <b>FALSE</b>, the hub is self-powered.
+
+
+#### - HubIsHighSpeed
+
+If <b>TRUE</b>, the hub is high speed.
+
+
+#### - HubIsHighSpeedCapable
+
+If <b>TRUE</b>, the hub is high speed-capable. This capability does not necessarily mean that the hub is operating at high speed
+
+
+#### - HubIsMultiTt
+
+If <b>TRUE</b>, the hub is configured to perform multiple transaction translations simultaneously.
+
+
+#### - HubIsMultiTtCapable
+
+If <b>TRUE</b>, the hub is capable of doing multiple transaction translations simultaneously.
+
+
+#### - HubIsRoot
+
+If <b>TRUE</b>, the hub is the root hub.
 
 
 #### - ReservedMBZ

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 666f4aea-2fcb-46cf-8d25-d1322c0517c9
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PHBA_FCPTARGETMAPPING, ,, A, B, C, E, F, G, H, HBA_FCPTARGETMAPPING, HBA_FCPTARGETMAPPING structure [Storage Devices], HBA_FCPTargetMapping, HBA_FCPTargetMapping structure [Storage Devices], I, M, N, P, PHBA_FCPTARGETMAPPING, PHBA_FCPTARGETMAPPING structure pointer [Storage Devices], R, T, _, a, e, g, hbaapi/HBA_FCPTargetMapping, hbaapi/PHBA_FCPTARGETMAPPING, i, n, p, r, storage.hba_fcptargetmapping, structs-Fibre_ac1d3ea4-8e4f-4164-833f-dde1c0eaa30a.xml, t"
+ms.keywords: "*PHBA_FCPTARGETMAPPING, HBA_FCPTARGETMAPPING, HBA_FCPTARGETMAPPING structure [Storage Devices], HBA_FCPTargetMapping, HBA_FCPTargetMapping structure [Storage Devices], PHBA_FCPTARGETMAPPING, PHBA_FCPTARGETMAPPING structure pointer [Storage Devices], hbaapi/HBA_FCPTargetMapping, hbaapi/PHBA_FCPTARGETMAPPING, storage.hba_fcptargetmapping, structs-Fibre_ac1d3ea4-8e4f-4164-833f-dde1c0eaa30a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

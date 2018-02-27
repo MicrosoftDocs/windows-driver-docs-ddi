@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d23c7824-b2ab-4316-8d4c-474619a22223
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , *, *PLOCK_STATE, ,, A, C, E, K, L, LOCK_STATE, LOCK_STATE structure [Network Drivers Starting with Windows Vista], O, P, PLOCK_STATE, PLOCK_STATE structure pointer [Network Drivers Starting with Windows Vista], S, T, _, _LOCK_STATE, ndis/LOCK_STATE, ndis/PLOCK_STATE, ndis_processor_group_ref_d04d3375-211e-4ef8-a30b-d2c6b98f9cc1.xml, netvista.lock_state"
+ms.keywords: "*PLOCK_STATE, LOCK_STATE, LOCK_STATE structure [Network Drivers Starting with Windows Vista], PLOCK_STATE, PLOCK_STATE structure pointer [Network Drivers Starting with Windows Vista], _LOCK_STATE, ndis/LOCK_STATE, ndis/PLOCK_STATE, ndis_processor_group_ref_d04d3375-211e-4ef8-a30b-d2c6b98f9cc1.xml, netvista.lock_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

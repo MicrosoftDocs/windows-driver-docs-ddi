@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: af4ae2c0-b1e1-45af-bd0e-3b9a91566caa
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., 2, :, A, D, F, I, IWDFIoRequest2, IWDFIoRequest2 interface, StopAcknowledge method, IWDFIoRequest2::StopAcknowledge, R, S, StopAcknowledge method, StopAcknowledge method, IWDFIoRequest2 interface, StopAcknowledge,IWDFIoRequest2.StopAcknowledge, UMDFRequestObjectRef_9a125e95-f59a-4338-a7af-cb7f99289eb7.xml, W, c, d, e, g, k, l, n, o, p, q, s, t, u, umdf.iwdfiorequest2_stopacknowledge, w, wdf.iwdfiorequest2_stopacknowledge, wudfddi/IWDFIoRequest2::StopAcknowledge"
+ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, StopAcknowledge method, IWDFIoRequest2::StopAcknowledge, StopAcknowledge method, StopAcknowledge method, IWDFIoRequest2 interface, StopAcknowledge,IWDFIoRequest2.StopAcknowledge, UMDFRequestObjectRef_9a125e95-f59a-4338-a7af-cb7f99289eb7.xml, umdf.iwdfiorequest2_stopacknowledge, wdf.iwdfiorequest2_stopacknowledge, wudfddi/IWDFIoRequest2::StopAcknowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -169,15 +169,15 @@ CMyReadWriteQueue::OnIoStop(
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556871">IQueueCallbackIoStop::OnIoStop</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556865">IQueueCallbackIoResume::OnIoResume</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
 
 

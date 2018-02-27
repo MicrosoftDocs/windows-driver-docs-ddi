@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2a5c70da-69dc-431c-9ce9-908633045372
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , E, R, RtlRandomEx, RtlRandomEx routine [Installable File System Drivers], a, d, ifsk.rtlrandomex, l, m, n, ntifs/RtlRandomEx, o, rtlref_29425246-066b-4f0f-ba4b-419db1de119d.xml, t, x"
+ms.keywords: RtlRandomEx, RtlRandomEx routine [Installable File System Drivers], ifsk.rtlrandomex, ntifs/RtlRandomEx, rtlref_29425246-066b-4f0f-ba4b-419db1de119d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

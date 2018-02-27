@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3273a4b6-9c5e-4671-be9e-45cdd010558a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , C, D, DFGenObjectRef_861429b7-5829-4a9e-81e2-b88947b36d62.xml, E, F, G, I, N, O, P, T, W, WDF_GET_CONTEXT_TYPE_INFO, WDF_GET_CONTEXT_TYPE_INFO macro, X, Y, _, kmdf.wdf_get_context_type_info, wdf.wdf_get_context_type_info, wdfobject/WDF_GET_CONTEXT_TYPE_INFO"
+ms.keywords: DFGenObjectRef_861429b7-5829-4a9e-81e2-b88947b36d62.xml, WDF_GET_CONTEXT_TYPE_INFO, WDF_GET_CONTEXT_TYPE_INFO macro, kmdf.wdf_get_context_type_info, wdf.wdf_get_context_type_info, wdfobject/WDF_GET_CONTEXT_TYPE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

@@ -137,7 +137,7 @@ If you run a <i>DxgkDdiSetPointerShape</i> thread simultaneously with another di
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setpointershape.md">DXGKARG_SETPOINTERSHAPE</a>
 
 
 
@@ -145,7 +145,7 @@ If you run a <i>DxgkDdiSetPointerShape</i> thread simultaneously with another di
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setpointershape.md">DXGKARG_SETPOINTERSHAPE</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

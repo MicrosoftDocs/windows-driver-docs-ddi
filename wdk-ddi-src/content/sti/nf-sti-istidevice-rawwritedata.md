@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: bc64b3d6-8c86-4f99-b3b9-de31f576988c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, I, IStiDevice, IStiDevice interface [Imaging Devices], RawWriteData method, IStiDevice::RawWriteData, R, RawWriteData method [Imaging Devices], RawWriteData method [Imaging Devices], IStiDevice interface, RawWriteData,IStiDevice.RawWriteData, S, W, a, c, e, i, image.istidevice_rawwritedata, r, sti/IStiDevice::RawWriteData, stifnc_2b8739f4-3ab7-4b25-bae2-7e025cffe72d.xml, t, v, w"
+ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], RawWriteData method, IStiDevice::RawWriteData, RawWriteData method [Imaging Devices], RawWriteData method [Imaging Devices], IStiDevice interface, RawWriteData,IStiDevice.RawWriteData, image.istidevice_rawwritedata, sti/IStiDevice::RawWriteData, stifnc_2b8739f4-3ab7-4b25-bae2-7e025cffe72d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -109,11 +109,11 @@ A call to <b>IStiDevice::RawWriteData</b> must be preceded by a call to <a href=
 
 ## -see-also
 
-<a href="..\sti\nn-sti-istidevice.md">IStiDevice</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543762">IStiDevice::RawWriteCommand</a>
+
+
+
+<a href="..\sti\nn-sti-istidevice.md">IStiDevice</a>
 
 
 

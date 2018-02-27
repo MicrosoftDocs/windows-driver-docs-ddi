@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 58DD0DA5-CE6A-4C2F-AF7D-B35BCBFB6AFB
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, G, GetServerReferral method [Print Devices], GetServerReferral method [Print Devices], IPrintAsyncNotifyServerReferral interface, GetServerReferral,IPrintAsyncNotifyServerReferral.GetServerReferral, I, IPrintAsyncNotifyServerReferral, IPrintAsyncNotifyServerReferral interface [Print Devices], GetServerReferral method, IPrintAsyncNotifyServerReferral::GetServerReferral, N, P, R, S, a, c, e, f, i, l, n, o, print.iprintasyncnotifyserverreferral_getserverreferral, prnasntp/IPrintAsyncNotifyServerReferral::GetServerReferral, r, s, t, v, y"
+ms.keywords: GetServerReferral method [Print Devices], GetServerReferral method [Print Devices], IPrintAsyncNotifyServerReferral interface, GetServerReferral,IPrintAsyncNotifyServerReferral.GetServerReferral, IPrintAsyncNotifyServerReferral, IPrintAsyncNotifyServerReferral interface [Print Devices], GetServerReferral method, IPrintAsyncNotifyServerReferral::GetServerReferral, print.iprintasyncnotifyserverreferral_getserverreferral, prnasntp/IPrintAsyncNotifyServerReferral::GetServerReferral
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

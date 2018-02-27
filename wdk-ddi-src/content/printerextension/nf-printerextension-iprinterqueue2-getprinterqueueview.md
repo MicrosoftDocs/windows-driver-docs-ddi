@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: C565288C-B014-4A92-9F50-1641EAA30D22
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, G, GetPrinterQueueView method [Print Devices], GetPrinterQueueView method [Print Devices], IPrinterQueue2 interface, GetPrinterQueueView,IPrinterQueue2.GetPrinterQueueView, I, IPrinterQueue2, IPrinterQueue2 interface [Print Devices], GetPrinterQueueView method, IPrinterQueue2::GetPrinterQueueView, P, Q, V, e, i, n, print.iprinterqueue2_getprinterqueueview, printerextension/IPrinterQueue2::GetPrinterQueueView, r, t, u, w"
+ms.keywords: GetPrinterQueueView method [Print Devices], GetPrinterQueueView method [Print Devices], IPrinterQueue2 interface, GetPrinterQueueView,IPrinterQueue2.GetPrinterQueueView, IPrinterQueue2, IPrinterQueue2 interface [Print Devices], GetPrinterQueueView method, IPrinterQueue2::GetPrinterQueueView, print.iprinterqueue2_getprinterqueueview, printerextension/IPrinterQueue2::GetPrinterQueueView
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

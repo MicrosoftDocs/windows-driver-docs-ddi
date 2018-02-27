@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 30ACE58C-E10C-46D7-8ED5-5C693D6246CB
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 1, 2, 3, A, C, D, D3D12DDI_SHADERCACHE_HASH, D3D12DDI_SHADERCACHE_HASH structure [Display Devices], E, H, I, R, S, _, d3d12umddi/D3D12DDI_SHADERCACHE_HASH, display.d3d12ddi_shadercache_hash"
+ms.keywords: D3D12DDI_SHADERCACHE_HASH, D3D12DDI_SHADERCACHE_HASH structure [Display Devices], d3d12umddi/D3D12DDI_SHADERCACHE_HASH, display.d3d12ddi_shadercache_hash
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

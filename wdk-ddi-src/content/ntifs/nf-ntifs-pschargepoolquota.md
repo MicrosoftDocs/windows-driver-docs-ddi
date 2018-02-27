@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c405771c-726f-4003-b3c6-f063dd74187e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, P, PsChargePoolQuota, PsChargePoolQuota routine [Installable File System Drivers], Q, a, e, g, h, ifsk.pschargepoolquota, l, ntifs/PsChargePoolQuota, o, psref_690f1550-4753-4f39-bcf2-bdcf7b80112d.xml, r, s, t, u"
+ms.keywords: PsChargePoolQuota, PsChargePoolQuota routine [Installable File System Drivers], ifsk.pschargepoolquota, ntifs/PsChargePoolQuota, psref_690f1550-4753-4f39-bcf2-bdcf7b80112d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

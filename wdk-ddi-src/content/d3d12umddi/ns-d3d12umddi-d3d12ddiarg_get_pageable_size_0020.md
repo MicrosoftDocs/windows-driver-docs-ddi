@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 82A5ACBD-EE18-46DF-822B-87ABF331BF44
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 0, 1, 2, 3, A, B, D, D3D12DDIARG_GET_PAGEABLE_SIZE_0020, D3D12DDIARG_GET_PAGEABLE_SIZE_0020 structure [Display Devices], E, G, I, L, P, R, S, T, Z, _, d3d12umddi/D3D12DDIARG_GET_PAGEABLE_SIZE_0020, display.d3d12ddiarg_get_pageable_size"
+ms.keywords: D3D12DDIARG_GET_PAGEABLE_SIZE_0020, D3D12DDIARG_GET_PAGEABLE_SIZE_0020 structure [Display Devices], d3d12umddi/D3D12DDIARG_GET_PAGEABLE_SIZE_0020, display.d3d12ddiarg_get_pageable_size
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

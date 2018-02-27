@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b721b79b-93f3-4dc8-853d-543222464341
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , H, K, KsPinPropertyHandler, KsPinPropertyHandler function [Streaming Media Devices], P, a, d, e, i, ks/KsPinPropertyHandler, ksfunc_4ebda111-4b9a-4e8e-b050-af336121bcf0.xml, l, n, o, p, r, s, stream.kspinpropertyhandler, t, y"
+ms.keywords: KsPinPropertyHandler, KsPinPropertyHandler function [Streaming Media Devices], ks/KsPinPropertyHandler, ksfunc_4ebda111-4b9a-4e8e-b050-af336121bcf0.xml, stream.kspinpropertyhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

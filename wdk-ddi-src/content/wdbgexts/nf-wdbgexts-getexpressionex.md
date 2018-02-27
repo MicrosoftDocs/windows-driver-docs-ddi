@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 07525217-afa5-4fbf-8c84-847ded9556d8
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , E, G, GetExpressionEx, GetExpressionEx function [Windows Debugging], WdbgExts_Ref_74af8a17-694a-46ec-827c-fdd2aecbf15c.xml, debugger.getexpressionex, e, i, n, o, p, r, s, t, wdbgexts/GetExpressionEx, x"
+ms.keywords: GetExpressionEx, GetExpressionEx function [Windows Debugging], WdbgExts_Ref_74af8a17-694a-46ec-827c-fdd2aecbf15c.xml, debugger.getexpressionex, wdbgexts/GetExpressionEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

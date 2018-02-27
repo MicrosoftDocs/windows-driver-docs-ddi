@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 242b7573-409a-4fdc-8ebf-596b8e6d41c7
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, C, D, E, G, I, IDARG_IN_COMMITMODES, IDARG_IN_COMMITMODES structure [Display Devices], M, N, O, R, S, T, _, display.idarg_in_commitmodes, iddcx/IDARG_IN_COMMITMODES"
+ms.keywords: IDARG_IN_COMMITMODES, IDARG_IN_COMMITMODES structure [Display Devices], display.idarg_in_commitmodes, iddcx/IDARG_IN_COMMITMODES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

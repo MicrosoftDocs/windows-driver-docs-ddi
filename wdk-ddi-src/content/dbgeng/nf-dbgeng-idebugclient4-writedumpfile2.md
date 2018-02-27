@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a6cdefc2-8670-485d-979a-8a270dad1c0b
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, 4, :, C, D, F, I, IDebugClient2, IDebugClient2 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient2::WriteDumpFile2, IDebugClient3, IDebugClient3 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient3::WriteDumpFile2, IDebugClient4, IDebugClient4 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient4::WriteDumpFile2, IDebugClient5 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient5::WriteDumpFile2, IDebugClient_6ce4aeba-f7a6-4872-9ff2-baf3b3165471.xml, W, WriteDumpFile2 method [Windows Debugging], WriteDumpFile2 method [Windows Debugging], IDebugClient2 interface, WriteDumpFile2 method [Windows Debugging], IDebugClient3 interface, WriteDumpFile2 method [Windows Debugging], IDebugClient4 interface, WriteDumpFile2 method [Windows Debugging], IDebugClient5 interface, WriteDumpFile2,IDebugClient2.WriteDumpFile2, WriteDumpFile2,IDebugClient3.WriteDumpFile2, WriteDumpFile2,IDebugClient4.WriteDumpFile2, b, dbgeng/IDebugClient2::WriteDumpFile2, dbgeng/IDebugClient3::WriteDumpFile2, dbgeng/IDebugClient4::WriteDumpFile2, dbgeng/IDebugClient5::WriteDumpFile2, debugger.writedumpfile2, e, g, i, l, m, n, p, r, t, u"
+ms.keywords: IDebugClient2 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient2::WriteDumpFile2, IDebugClient3 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient3::WriteDumpFile2, IDebugClient4, IDebugClient4 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient4::WriteDumpFile2, IDebugClient5 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient5::WriteDumpFile2, IDebugClient_6ce4aeba-f7a6-4872-9ff2-baf3b3165471.xml, WriteDumpFile2 method [Windows Debugging], WriteDumpFile2 method [Windows Debugging], IDebugClient2 interface, WriteDumpFile2 method [Windows Debugging], IDebugClient3 interface, WriteDumpFile2 method [Windows Debugging], IDebugClient4 interface, WriteDumpFile2 method [Windows Debugging], IDebugClient5 interface, WriteDumpFile2,IDebugClient4.WriteDumpFile2, dbgeng/IDebugClient2::WriteDumpFile2, dbgeng/IDebugClient3::WriteDumpFile2, dbgeng/IDebugClient4::WriteDumpFile2, dbgeng/IDebugClient5::WriteDumpFile2, debugger.writedumpfile2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -327,11 +327,15 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 
@@ -339,15 +343,11 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562428">.dump (Create Dump File)</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
 
 
 

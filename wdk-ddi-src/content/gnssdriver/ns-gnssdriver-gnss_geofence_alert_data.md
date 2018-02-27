@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 4F7CBB1C-6D23-4015-8403-ABD06B9DC337
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , *, *PGNSS_GEOFENCE_ALERT_DATA, ,, A, C, D, E, F, G, GNSS_GEOFENCE_ALERT_DATA, GNSS_GEOFENCE_ALERT_DATA structure [Sensor Devices], L, N, O, P, PGNSS_GEOFENCE_ALERT_DATA, PGNSS_GEOFENCE_ALERT_DATA structure pointer [Sensor Devices], R, S, T, _, gnssdriver/GNSS_GEOFENCE_ALERT_DATA, gnssdriver/PGNSS_GEOFENCE_ALERT_DATA, sensors.gnss_geofence_alert_data"
+ms.keywords: "*PGNSS_GEOFENCE_ALERT_DATA, GNSS_GEOFENCE_ALERT_DATA, GNSS_GEOFENCE_ALERT_DATA structure [Sensor Devices], PGNSS_GEOFENCE_ALERT_DATA, PGNSS_GEOFENCE_ALERT_DATA structure pointer [Sensor Devices], gnssdriver/GNSS_GEOFENCE_ALERT_DATA, gnssdriver/PGNSS_GEOFENCE_ALERT_DATA, sensors.gnss_geofence_alert_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

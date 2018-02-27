@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: DA1F45F5-5B15-4DAD-A746-E467FE1BAE42
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, 7, :, C, D, G, GetDebuggeeType2 method [Windows Debugging], GetDebuggeeType2 method [Windows Debugging], IDebugControl7 interface, GetDebuggeeType2,IDebugControl7.GetDebuggeeType2, I, IDebugControl7, IDebugControl7 interface [Windows Debugging], GetDebuggeeType2 method, IDebugControl7::GetDebuggeeType2, T, b, dbgeng/IDebugControl7::GetDebuggeeType2, debugger.idebugcontrol7_getdebuggeetype2, e, g, l, n, o, p, r, t, u, y"
+ms.keywords: GetDebuggeeType2 method [Windows Debugging], GetDebuggeeType2 method [Windows Debugging], IDebugControl7 interface, GetDebuggeeType2,IDebugControl7.GetDebuggeeType2, IDebugControl7, IDebugControl7 interface [Windows Debugging], GetDebuggeeType2 method, IDebugControl7::GetDebuggeeType2, dbgeng/IDebugControl7::GetDebuggeeType2, debugger.idebugcontrol7_getdebuggeetype2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

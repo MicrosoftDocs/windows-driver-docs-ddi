@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 00a79e57-5915-49a3-b11f-223cc93c2e99
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , C, DFResourceObjectRef_927d5729-0c1e-4363-9f2d-b5fefba8e2f6.xml, G, I, L, R, W, WdfIoResourceRequirementsListGetCount, WdfIoResourceRequirementsListGetCount method, c, d, e, f, i, kmdf.wdfioresourcerequirementslistgetcount, m, n, o, q, r, s, t, u, wdf.wdfioresourcerequirementslistgetcount, wdfresource/WdfIoResourceRequirementsListGetCount"
+ms.keywords: DFResourceObjectRef_927d5729-0c1e-4363-9f2d-b5fefba8e2f6.xml, WdfIoResourceRequirementsListGetCount, WdfIoResourceRequirementsListGetCount method, kmdf.wdfioresourcerequirementslistgetcount, wdf.wdfioresourcerequirementslistgetcount, wdfresource/WdfIoResourceRequirementsListGetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

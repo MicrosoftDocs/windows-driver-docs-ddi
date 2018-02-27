@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 62ef9d02-3a59-4d4e-a48f-21a8bb4f6e58
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, B, C, F, G, H, HBA_GetFCPStatistics, HBA_GetFCPStatistics routine [Storage Devices], P, S, _, a, c, e, fibreHBA_rtns_59fb5caf-3df0-4c87-902c-6832645895d1.xml, hbaapi/HBA_GetFCPStatistics, i, s, storage.hba_getfcpstatistics, t"
+ms.keywords: HBA_GetFCPStatistics, HBA_GetFCPStatistics routine [Storage Devices], fibreHBA_rtns_59fb5caf-3df0-4c87-902c-6832645895d1.xml, hbaapi/HBA_GetFCPStatistics, storage.hba_getfcpstatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -173,7 +173,7 @@ Statistics counters in HBA_FC4Statistics are 64-bit signed integers that wrap to
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
 
 
@@ -185,7 +185,7 @@ Statistics counters in HBA_FC4Statistics are 64-bit signed integers that wrap to
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 

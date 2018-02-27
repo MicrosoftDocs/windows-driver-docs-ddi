@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8f3817e7-8409-4b75-be28-ac7fe32145cb
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, I, IDebugRegisters, IDebugRegisters interface [Windows Debugging], SetValues method, IDebugRegisters2 interface [Windows Debugging], SetValues method, IDebugRegisters2::SetValues, IDebugRegisters::SetValues, IDebugRegisters_0c188698-35b8-4c8f-ad8c-1218695845a8.xml, R, S, SetValues method [Windows Debugging], SetValues method [Windows Debugging], IDebugRegisters interface, SetValues method [Windows Debugging], IDebugRegisters2 interface, SetValues,IDebugRegisters.SetValues, V, a, b, dbgeng/IDebugRegisters2::SetValues, dbgeng/IDebugRegisters::SetValues, debugger.setvalues, e, g, i, l, r, s, t, u"
+ms.keywords: IDebugRegisters, IDebugRegisters interface [Windows Debugging], SetValues method, IDebugRegisters2 interface [Windows Debugging], SetValues method, IDebugRegisters2::SetValues, IDebugRegisters::SetValues, IDebugRegisters_0c188698-35b8-4c8f-ad8c-1218695845a8.xml, SetValues method [Windows Debugging], SetValues method [Windows Debugging], IDebugRegisters interface, SetValues method [Windows Debugging], IDebugRegisters2 interface, SetValues,IDebugRegisters.SetValues, dbgeng/IDebugRegisters2::SetValues, dbgeng/IDebugRegisters::SetValues, debugger.setvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

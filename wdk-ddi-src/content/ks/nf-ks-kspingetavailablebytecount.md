@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e3669f11-7284-4f65-b814-624337e7fa7f
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, B, C, G, K, KsPinGetAvailableByteCount, KsPinGetAvailableByteCount routine [Streaming Media Devices], P, a, avfunc_2ba6a7f8-59b4-45bf-989a-97f8a494b4bc.xml, b, e, i, ks/KsPinGetAvailableByteCount, l, n, o, s, stream.kspingetavailablebytecount, t, u, v, y"
+ms.keywords: KsPinGetAvailableByteCount, KsPinGetAvailableByteCount routine [Streaming Media Devices], avfunc_2ba6a7f8-59b4-45bf-989a-97f8a494b4bc.xml, ks/KsPinGetAvailableByteCount, stream.kspingetavailablebytecount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,11 +113,11 @@ For additional information, see <a href="https://msdn.microsoft.com/73ab974f-803
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetleadingedgestreampointer.md">KsPinGetLeadingEdgeStreamPointer</a>
+<a href="..\ks\nf-ks-kspinacquireprocessingmutex.md">KsPinAcquireProcessingMutex</a>
 
 
 
-<a href="..\ks\nf-ks-kspinreleaseprocessingmutex.md">KsPinReleaseProcessingMutex</a>
+<a href="..\ks\nf-ks-kspingettrailingedgestreampointer.md">KsPinGetTrailingEdgeStreamPointer</a>
 
 
 
@@ -125,11 +125,7 @@ For additional information, see <a href="https://msdn.microsoft.com/73ab974f-803
 
 
 
-<a href="..\ks\nc-ks-pfnkspin.md">AVStrMiniPinProcess</a>
-
-
-
-<a href="..\ks\nf-ks-kspingettrailingedgestreampointer.md">KsPinGetTrailingEdgeStreamPointer</a>
+<a href="..\ks\nf-ks-kspingetleadingedgestreampointer.md">KsPinGetLeadingEdgeStreamPointer</a>
 
 
 
@@ -141,15 +137,19 @@ For additional information, see <a href="https://msdn.microsoft.com/73ab974f-803
 
 
 
+<a href="..\ks\nf-ks-kspinreleaseprocessingmutex.md">KsPinReleaseProcessingMutex</a>
+
+
+
+<a href="..\ks\nc-ks-pfnkspin.md">AVStrMiniPinProcess</a>
+
+
+
 <a href="..\ks\nf-ks-ksfilteracquireprocessingmutex.md">KsFilterAcquireProcessingMutex</a>
 
 
 
 <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
-
-
-
-<a href="..\ks\nf-ks-kspinacquireprocessingmutex.md">KsPinAcquireProcessingMutex</a>
 
 
 

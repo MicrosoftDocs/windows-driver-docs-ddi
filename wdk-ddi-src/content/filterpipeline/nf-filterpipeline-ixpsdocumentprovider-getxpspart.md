@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7e36cf90-a84a-447c-bec3-2b5175fffd7c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, G, GetXpsPart method [Print Devices], GetXpsPart method [Print Devices], IXpsDocumentProvider interface, GetXpsPart,IXpsDocumentProvider.GetXpsPart, I, IXpsDocumentProvider, IXpsDocumentProvider interface [Print Devices], GetXpsPart method, IXpsDocumentProvider::GetXpsPart, P, X, a, c, d, e, filterpipeline/IXpsDocumentProvider::GetXpsPart, filterpipeline_e99337a9-3674-4d34-886c-684a85a8dd0d.xml, i, m, n, o, p, print.ixpsdocumentprovider_getxpspart, r, s, t, u, v"
+ms.keywords: GetXpsPart method [Print Devices], GetXpsPart method [Print Devices], IXpsDocumentProvider interface, GetXpsPart,IXpsDocumentProvider.GetXpsPart, IXpsDocumentProvider, IXpsDocumentProvider interface [Print Devices], GetXpsPart method, IXpsDocumentProvider::GetXpsPart, filterpipeline/IXpsDocumentProvider::GetXpsPart, filterpipeline_e99337a9-3674-4d34-886c-684a85a8dd0d.xml, print.ixpsdocumentprovider_getxpspart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: d6d90a4a-a67d-4ef3-82b8-7146970e30f3
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, D, P, S, U, USBD_ParseDescriptors, USBD_ParseDescriptors routine [Buses], _, a, buses.usbd_parsedescriptors, c, e, i, o, p, r, s, t, usbdlib/USBD_ParseDescriptors, usbfunc_a66c16e5-451c-4d5b-a621-4c4969200acd.xml"
+ms.keywords: USBD_ParseDescriptors, USBD_ParseDescriptors routine [Buses], buses.usbd_parsedescriptors, usbdlib/USBD_ParseDescriptors, usbfunc_a66c16e5-451c-4d5b-a621-4c4969200acd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

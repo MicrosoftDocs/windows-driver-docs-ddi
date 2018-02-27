@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9b7469cb-d489-4428-8167-91b26e1fa348
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 3, D, D3DKMTSetDeviceLostSupport, D3DKMTSetDeviceLostSupport method [Display Devices], K, L, M, S, T, c, d3dkmthk/D3DKMTSetDeviceLostSupport, display.d3dkmtsetdevicelostsupport, e, i, o, p, r, s, t, u, v"
+ms.keywords: D3DKMTSetDeviceLostSupport, D3DKMTSetDeviceLostSupport method [Display Devices], d3dkmthk/D3DKMTSetDeviceLostSupport, display.d3dkmtsetdevicelostsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0f05931a-2327-454a-9ba7-da02cb2f13d9
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, I, IddCxMonitorUpdateModes, IddCxMonitorUpdateModes method [Display Devices], M, U, a, d, display.iddcxmonitorupdatemodes, e, i, iddcx/IddCxMonitorUpdateModes, n, o, p, r, s, t, x"
+ms.keywords: IddCxMonitorUpdateModes, IddCxMonitorUpdateModes method [Display Devices], display.iddcxmonitorupdatemodes, iddcx/IddCxMonitorUpdateModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

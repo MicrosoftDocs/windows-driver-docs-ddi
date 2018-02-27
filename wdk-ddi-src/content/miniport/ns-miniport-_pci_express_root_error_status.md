@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 1af0c877-e634-474e-9b4d-a28991fb3f66
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PPCI_EXPRESS_ROOT_ERROR_STATUS, ,, A, C, E, I, O, P, PCI.pci_express_root_error_status, PCI_EXPRESS_ROOT_ERROR_STATUS, PCI_EXPRESS_ROOT_ERROR_STATUS union [Buses], PPCI_EXPRESS_ROOT_ERROR_STATUS, PPCI_EXPRESS_ROOT_ERROR_STATUS union pointer [Buses], R, S, T, U, X, _, _PCI_EXPRESS_ROOT_ERROR_STATUS, pci_struct_8b730780-dc4a-4873-8efd-fb6df47f7c8f.xml, wdm/PCI_EXPRESS_ROOT_ERROR_STATUS, wdm/PPCI_EXPRESS_ROOT_ERROR_STATUS"
+ms.keywords: "*PPCI_EXPRESS_ROOT_ERROR_STATUS, PCI.pci_express_root_error_status, PCI_EXPRESS_ROOT_ERROR_STATUS, PCI_EXPRESS_ROOT_ERROR_STATUS union [Buses], PPCI_EXPRESS_ROOT_ERROR_STATUS, PPCI_EXPRESS_ROOT_ERROR_STATUS union pointer [Buses], _PCI_EXPRESS_ROOT_ERROR_STATUS, pci_struct_8b730780-dc4a-4873-8efd-fb6df47f7c8f.xml, wdm/PCI_EXPRESS_ROOT_ERROR_STATUS, wdm/PPCI_EXPRESS_ROOT_ERROR_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,24 +88,19 @@ typedef union _PCI_EXPRESS_ROOT_ERROR_STATUS {
 A ULONG representation of the contents of the PCI_EXPRESS_ROOT_ERROR_STATUS structure.
 
 
+#### - AdvancedErrorInterruptMessageNumber
+
+The MSI/MSI-X vector that is used for the interrupt messages that are generated in association with any of the status bits of the advanced error reporting capability.
+
+
 #### - CorrectableErrorReceived
 
 A single bit that indicates that a correctable error message has been received.
 
 
-#### - MultipleCorrectableErrorsReceived
+#### - FatalErrorMessagesReceived
 
-A single bit that indicates that multiple correctable error messages have been received.
-
-
-#### - UncorrectableErrorReceived
-
-A single bit that indicates that an uncorrectable error message has been received.
-
-
-#### - MultipleUncorrectableErrorsReceived
-
-A single bit that indicates that multiple uncorrectable error messages have been received.
+A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
 
 
 #### - FirstUncorrectableFatal
@@ -113,12 +108,17 @@ A single bit that indicates that multiple uncorrectable error messages have been
 A single bit that indicates that the first uncorrectable error message that was received was for a fatal error.
 
 
+#### - MultipleCorrectableErrorsReceived
+
+A single bit that indicates that multiple correctable error messages have been received.
+
+
+#### - MultipleUncorrectableErrorsReceived
+
+A single bit that indicates that multiple uncorrectable error messages have been received.
+
+
 #### - NonFatalErrorMessagesReceived
-
-A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
-
-
-#### - FatalErrorMessagesReceived
 
 A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
 
@@ -128,9 +128,9 @@ A single bit that indicates that one or more non-fatal uncorrectable error messa
 Reserved.
 
 
-#### - AdvancedErrorInterruptMessageNumber
+#### - UncorrectableErrorReceived
 
-The MSI/MSI-X vector that is used for the interrupt messages that are generated in association with any of the status bits of the advanced error reporting capability.
+A single bit that indicates that an uncorrectable error message has been received.
 
 
 ## -remarks

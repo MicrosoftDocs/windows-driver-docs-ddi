@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ca9fc65f-299d-4d23-b98e-471daf07f413
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, D, G, I, IServiceGroup, IServiceGroup interface [Audio Devices], SupportDelayedService method, IServiceGroup::SupportDelayedService, S, SupportDelayedService method [Audio Devices], SupportDelayedService method [Audio Devices], IServiceGroup interface, SupportDelayedService,IServiceGroup.SupportDelayedService, a, audio.iservicegroup_supportdelayedservice, audmp-routines_6eb53e77-9437-43b5-8a5c-e33e15cb9cf3.xml, c, d, e, i, l, o, p, portcls/IServiceGroup::SupportDelayedService, r, t, u, v, y"
+ms.keywords: IServiceGroup, IServiceGroup interface [Audio Devices], SupportDelayedService method, IServiceGroup::SupportDelayedService, SupportDelayedService method [Audio Devices], SupportDelayedService method [Audio Devices], IServiceGroup interface, SupportDelayedService,IServiceGroup.SupportDelayedService, audio.iservicegroup_supportdelayedservice, audmp-routines_6eb53e77-9437-43b5-8a5c-e33e15cb9cf3.xml, portcls/IServiceGroup::SupportDelayedService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,11 +92,11 @@ The <code>SupportDelayedService</code> method initializes the notification timer
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537003">IServiceGroup::RequestDelayedService</a>
-
-
-
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537003">IServiceGroup::RequestDelayedService</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6a25528c-063b-4cd5-963d-82245009bb48
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 3, A, D, D3DKMT_RENDERFLAGS, D3DKMT_RENDERFLAGS structure [Display Devices], E, F, G, K, L, M, N, OpenGL_Structs_8a885a03-0eba-4119-973a-a1c1dafe3c10.xml, R, S, T, _, _D3DKMT_RENDERFLAGS, d3dkmthk/D3DKMT_RENDERFLAGS, display.d3dkmt_renderflags"
+ms.keywords: D3DKMT_RENDERFLAGS, D3DKMT_RENDERFLAGS structure [Display Devices], OpenGL_Structs_8a885a03-0eba-4119-973a-a1c1dafe3c10.xml, _D3DKMT_RENDERFLAGS, d3dkmthk/D3DKMT_RENDERFLAGS, display.d3dkmt_renderflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

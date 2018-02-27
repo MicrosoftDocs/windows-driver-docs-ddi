@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 70a6555d-1da9-4013-911a-4a9d011b0205
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , *, *PWHEA_TIMESTAMP, ,, A, E, H, I, M, P, PWHEA_TIMESTAMP, PWHEA_TIMESTAMP union pointer [WHEA Drivers and Applications], S, T, W, WHEA_TIMESTAMP, WHEA_TIMESTAMP union [WHEA Drivers and Applications], _, _WHEA_TIMESTAMP, ntddk/PWHEA_TIMESTAMP, ntddk/WHEA_TIMESTAMP, whea.whea_timestamp, whearef_d0fafe3b-0cea-4adf-a68a-b565e04ae258.xml"
+ms.keywords: "*PWHEA_TIMESTAMP, PWHEA_TIMESTAMP, PWHEA_TIMESTAMP union pointer [WHEA Drivers and Applications], WHEA_TIMESTAMP, WHEA_TIMESTAMP union [WHEA Drivers and Applications], _WHEA_TIMESTAMP, ntddk/PWHEA_TIMESTAMP, ntddk/WHEA_TIMESTAMP, whea.whea_timestamp, whearef_d0fafe3b-0cea-4adf-a68a-b565e04ae258.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,9 +88,19 @@ typedef union _WHEA_TIMESTAMP {
 A LARGE_INTEGER representation of the contents of the WHEA_TIMESTAMP union.
 
 
-#### - Seconds
+#### - Century
 
-The number of seconds past the minute.
+The century.
+
+
+#### - Day
+
+The day of the month.
+
+
+#### - Hours
+
+The hour in the day.
 
 
 #### - Minutes
@@ -98,9 +108,9 @@ The number of seconds past the minute.
 The number of minutes past the hour.
 
 
-#### - Hours
+#### - Month
 
-The hour in the day.
+The month of the year.
 
 
 #### - Precise
@@ -115,24 +125,14 @@ If this member is set to 1, the timestamp correlates precisely to the time of th
 Reserved for system use.
 
 
-#### - Day
+#### - Seconds
 
-The day of the month.
-
-
-#### - Month
-
-The month of the year.
+The number of seconds past the minute.
 
 
 #### - Year
 
 The year within the century.
-
-
-#### - Century
-
-The century.
 
 
 ## -remarks

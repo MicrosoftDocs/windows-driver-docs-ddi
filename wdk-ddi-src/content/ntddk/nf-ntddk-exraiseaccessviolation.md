@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c35e07c0-ffbd-4110-bb32-b47a512129dd
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, E, ExRaiseAccessViolation, ExRaiseAccessViolation routine [Kernel-Mode Driver Architecture], R, V, a, c, e, i, k102_71b4c053-599c-4a6d-8a59-08aae6bdc534.xml, kernel.exraiseaccessviolation, l, n, ntddk/ExRaiseAccessViolation, o, s, t, x"
+ms.keywords: ExRaiseAccessViolation, ExRaiseAccessViolation routine [Kernel-Mode Driver Architecture], k102_71b4c053-599c-4a6d-8a59-08aae6bdc534.xml, kernel.exraiseaccessviolation, ntddk/ExRaiseAccessViolation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,19 +89,19 @@ Because <b>ExRaiseAccessViolation</b> can only be used at IRQL = PASSIVE_LEVEL,
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-exraisedatatypemisalignment.md">ExRaiseDatatypeMisalignment</a>
-
-
-
-<a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
 
 
 
 <a href="..\wdm\nf-wdm-exraisestatus.md">ExRaiseStatus</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-exraisedatatypemisalignment.md">ExRaiseDatatypeMisalignment</a>
+
+
+
+<a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
 
 
 

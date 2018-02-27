@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dd2764d0-5775-4a89-8cdd-ba6806fb867d
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, L, M, MmLockPagableCodeSection, MmLockPagableCodeSection routine [Kernel-Mode Driver Architecture], P, S, a, b, c, d, e, g, i, k, k106_734069f7-1412-48d9-bae4-106391273a38.xml, kernel.mmlockpagablecodesection, l, m, n, o, t, wdm/MmLockPagableCodeSection"
+ms.keywords: MmLockPagableCodeSection, MmLockPagableCodeSection routine [Kernel-Mode Driver Architecture], k106_734069f7-1412-48d9-bae4-106391273a38.xml, kernel.mmlockpagablecodesection, wdm/MmLockPagableCodeSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -165,11 +165,11 @@ For more information about creating pageable code sections, see <a href="https:/
 
 
 
+<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
+
+
+
 <a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmlockpagabledatasection.md">MmLockPagableDataSection</a>
 
 
 
@@ -177,7 +177,7 @@ For more information about creating pageable code sections, see <a href="https:/
 
 
 
-<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
+<a href="..\wdm\nf-wdm-mmlockpagabledatasection.md">MmLockPagableDataSection</a>
 
 
 

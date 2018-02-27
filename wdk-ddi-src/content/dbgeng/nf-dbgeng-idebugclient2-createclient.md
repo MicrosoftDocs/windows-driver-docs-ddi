@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 61733b3e-87e9-4bb1-bed0-44efeffd7e4f
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, C, CreateClient method [Windows Debugging], CreateClient method [Windows Debugging], IDebugClient interface, CreateClient method [Windows Debugging], IDebugClient2 interface, CreateClient method [Windows Debugging], IDebugClient3 interface, CreateClient method [Windows Debugging], IDebugClient4 interface, CreateClient method [Windows Debugging], IDebugClient5 interface, CreateClient,IDebugClient.CreateClient, CreateClient,IDebugClient2.CreateClient, D, I, IDebugClient, IDebugClient interface [Windows Debugging], CreateClient method, IDebugClient2, IDebugClient2 interface [Windows Debugging], CreateClient method, IDebugClient2::CreateClient, IDebugClient3 interface [Windows Debugging], CreateClient method, IDebugClient3::CreateClient, IDebugClient4 interface [Windows Debugging], CreateClient method, IDebugClient4::CreateClient, IDebugClient5 interface [Windows Debugging], CreateClient method, IDebugClient5::CreateClient, IDebugClient::CreateClient, IDebugClient_baa33ba0-bc95-4bfb-b8bf-b91598833599.xml, a, b, dbgeng/IDebugClient2::CreateClient, dbgeng/IDebugClient3::CreateClient, dbgeng/IDebugClient4::CreateClient, dbgeng/IDebugClient5::CreateClient, dbgeng/IDebugClient::CreateClient, debugger.createclient, e, g, i, l, n, r, t, u"
+ms.keywords: CreateClient method [Windows Debugging], CreateClient method [Windows Debugging], IDebugClient interface, CreateClient method [Windows Debugging], IDebugClient2 interface, CreateClient method [Windows Debugging], IDebugClient3 interface, CreateClient method [Windows Debugging], IDebugClient4 interface, CreateClient method [Windows Debugging], IDebugClient5 interface, CreateClient,IDebugClient2.CreateClient, IDebugClient interface [Windows Debugging], CreateClient method, IDebugClient2, IDebugClient2 interface [Windows Debugging], CreateClient method, IDebugClient2::CreateClient, IDebugClient3 interface [Windows Debugging], CreateClient method, IDebugClient3::CreateClient, IDebugClient4 interface [Windows Debugging], CreateClient method, IDebugClient4::CreateClient, IDebugClient5 interface [Windows Debugging], CreateClient method, IDebugClient5::CreateClient, IDebugClient::CreateClient, IDebugClient_baa33ba0-bc95-4bfb-b8bf-b91598833599.xml, dbgeng/IDebugClient2::CreateClient, dbgeng/IDebugClient3::CreateClient, dbgeng/IDebugClient4::CreateClient, dbgeng/IDebugClient5::CreateClient, dbgeng/IDebugClient::CreateClient, debugger.createclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -121,19 +121,15 @@ For more information about client objects and how they are used in the debugger 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
 <a href="..\dbgeng\nf-dbgeng-debugcreate.md">DebugCreate</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 
@@ -142,6 +138,10 @@ For more information about client objects and how they are used in the debugger 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 

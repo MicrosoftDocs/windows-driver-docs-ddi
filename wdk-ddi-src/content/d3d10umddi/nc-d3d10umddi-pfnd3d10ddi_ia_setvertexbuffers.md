@@ -95,19 +95,19 @@ VOID APIENTRY IaSetVertexBuffers(
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
 #### - StartBuffer [in]
 
  The starting vertex buffer to set. 
 
 
-#### - phBuffers [in]
+#### - hDevice [in]
 
- An array of handles to the vertex buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
+ A handle to the display device (graphics context).
+
+
+#### - pOffsets [in]
+
+ An array of values that indicate the offsets, in bytes, into each vertex buffer. 
 
 
 #### - pStrides [in]
@@ -115,9 +115,9 @@ VOID APIENTRY IaSetVertexBuffers(
  An array of values that indicate the sizes, in bytes, from one vertex to the next vertex for each buffer 
 
 
-#### - pOffsets [in]
+#### - phBuffers [in]
 
- An array of values that indicate the offsets, in bytes, into each vertex buffer. 
+ An array of handles to the vertex buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
 
 
 ## -returns

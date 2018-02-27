@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cd7e993e-1381-4b0c-b046-716e839dbb62
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , C, DFQueueObjectRef_97b06453-cf79-4944-85d7-530b83211353.xml, I, Q, W, WdfIoQueueCreate, WdfIoQueueCreate method, a, d, e, f, kmdf.wdfioqueuecreate, o, r, t, u, wdf.wdfioqueuecreate, wdfio/WdfIoQueueCreate"
+ms.keywords: DFQueueObjectRef_97b06453-cf79-4944-85d7-530b83211353.xml, WdfIoQueueCreate, WdfIoQueueCreate method, kmdf.wdfioqueuecreate, wdf.wdfioqueuecreate, wdfio/WdfIoQueueCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -245,10 +245,6 @@ MyEvtDriverDeviceAdd(
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoioqueue.md">WdfRequestForwardToIoQueue</a>
-
-
-
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init_default_queue.md">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>
 
 
@@ -262,6 +258,10 @@ MyEvtDriverDeviceAdd(
 
 
 <a href="..\wdfio\ns-wdfio-_wdf_io_queue_config.md">WDF_IO_QUEUE_CONFIG</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoioqueue.md">WdfRequestForwardToIoQueue</a>
 
 
 

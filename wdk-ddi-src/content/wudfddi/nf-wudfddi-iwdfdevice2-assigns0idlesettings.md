@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ffe91b9a-3b74-4dd9-b23d-096f1992485e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., 0, 2, :, A, AssignS0IdleSettings method, AssignS0IdleSettings method, IWDFDevice2 interface, AssignS0IdleSettings,IWDFDevice2.AssignS0IdleSettings, D, F, I, IWDFDevice2, IWDFDevice2 interface, AssignS0IdleSettings method, IWDFDevice2::AssignS0IdleSettings, S, UMDFDeviceObjectRef_337ed405-40bd-4162-ad50-3ee59e4e6c73.xml, W, c, d, e, g, i, l, n, s, t, umdf.iwdfdevice2_assigns0idlesettings, v, wdf.iwdfdevice2_assigns0idlesettings, wudfddi/IWDFDevice2::AssignS0IdleSettings"
+ms.keywords: AssignS0IdleSettings method, AssignS0IdleSettings method, IWDFDevice2 interface, AssignS0IdleSettings,IWDFDevice2.AssignS0IdleSettings, IWDFDevice2, IWDFDevice2 interface, AssignS0IdleSettings method, IWDFDevice2::AssignS0IdleSettings, UMDFDeviceObjectRef_337ed405-40bd-4162-ad50-3ee59e4e6c73.xml, umdf.iwdfdevice2_assigns0idlesettings, wdf.iwdfdevice2_assigns0idlesettings, wudfddi/IWDFDevice2::AssignS0IdleSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -258,7 +258,7 @@ The following code example is based on the UMDF version of the toaster sample. T
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556923">IWDFDevice2::AssignSxWakeSettings</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
 
 
 
@@ -266,7 +266,7 @@ The following code example is based on the UMDF version of the toaster sample. T
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556923">IWDFDevice2::AssignSxWakeSettings</a>
 
 
 

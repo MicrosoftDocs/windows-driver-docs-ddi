@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e5e2061f-5133-4645-8e07-659f08473a51
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, E, EngExtCpp_Ref_5429785d-2f76-434d-96c6-4fa7298aa32e.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetUshort method, ExtRemoteData::GetUshort, G, GetUshort method [Windows Debugging], GetUshort method [Windows Debugging], ExtRemoteData class, GetUshort,ExtRemoteData.GetUshort, R, U, a, debugger.extremotedata_getushort, e, h, m, o, r, s, t, x"
+ms.keywords: EngExtCpp_Ref_5429785d-2f76-434d-96c6-4fa7298aa32e.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetUshort method, ExtRemoteData::GetUshort, GetUshort method [Windows Debugging], GetUshort method [Windows Debugging], ExtRemoteData class, GetUshort,ExtRemoteData.GetUshort, debugger.extremotedata_getushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -91,11 +91,11 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
+
+
+
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
 
 

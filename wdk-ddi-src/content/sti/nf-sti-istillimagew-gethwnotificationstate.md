@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 8c97c4f0-3cb8-4457-8389-02d9fba51400
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, G, GetHwNotificationState method [Imaging Devices], GetHwNotificationState method [Imaging Devices], IStillImageW interface, GetHwNotificationState,IStillImageW.GetHwNotificationState, H, I, IStillImageW, IStillImageW interface [Imaging Devices], GetHwNotificationState method, IStillImageW::GetHwNotificationState, N, S, W, a, c, e, f, g, i, image.istillimage_gethwnotificationstate, l, m, n, o, sti/IStillImageW::GetHwNotificationState, stifnc_9dab6727-1954-4054-b918-be9666c05301.xml, t, w"
+ms.keywords: GetHwNotificationState method [Imaging Devices], GetHwNotificationState method [Imaging Devices], IStillImageW interface, GetHwNotificationState,IStillImageW.GetHwNotificationState, IStillImageW, IStillImageW interface [Imaging Devices], GetHwNotificationState method, IStillImageW::GetHwNotificationState, image.istillimage_gethwnotificationstate, sti/IStillImageW::GetHwNotificationState, stifnc_9dab6727-1954-4054-b918-be9666c05301.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,11 +99,11 @@ Before calling <b>IStillImage::GetHwNotificationState</b>, clients of the <b>ISt
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543780">IStillImage::EnableHwNotifications</a>
-
-
-
 <a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543780">IStillImage::EnableHwNotifications</a>
 
 
 

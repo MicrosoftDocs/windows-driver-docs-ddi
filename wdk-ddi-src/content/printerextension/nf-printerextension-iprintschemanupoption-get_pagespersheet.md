@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 036F59B3-962D-446C-A736-CDA1D5199CF5
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, I, IPrintSchemaNUpOption, IPrintSchemaNUpOption interface [Print Devices], PagesPerSheet property, IPrintSchemaNUpOption.PagesPerSheet, IPrintSchemaNUpOption::get_PagesPerSheet, N, O, P, PagesPerSheet property [Print Devices], PagesPerSheet property [Print Devices], IPrintSchemaNUpOption interface, S, U, _, a, c, e, g, get_PagesPerSheet, get_PagesPerSheet,IPrintSchemaNUpOption.get_PagesPerSheet, h, i, m, n, o, p, print.iprintschemanupoption_pagespersheet, printerextension/IPrintSchemaNUpOption::PagesPerSheet, printerextension/IPrintSchemaNUpOption::get_PagesPerSheet, r, s, t"
+ms.keywords: IPrintSchemaNUpOption, IPrintSchemaNUpOption interface [Print Devices], PagesPerSheet property, IPrintSchemaNUpOption.PagesPerSheet, IPrintSchemaNUpOption::get_PagesPerSheet, PagesPerSheet property [Print Devices], PagesPerSheet property [Print Devices], IPrintSchemaNUpOption interface, get_PagesPerSheet, get_PagesPerSheet,IPrintSchemaNUpOption.get_PagesPerSheet, print.iprintschemanupoption_pagespersheet, printerextension/IPrintSchemaNUpOption::PagesPerSheet, printerextension/IPrintSchemaNUpOption::get_PagesPerSheet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

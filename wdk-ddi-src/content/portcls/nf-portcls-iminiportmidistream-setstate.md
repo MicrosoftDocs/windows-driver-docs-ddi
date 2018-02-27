@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ee78013c-7660-4017-97ec-eff9068b707a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, I, IMiniportMidiStream, IMiniportMidiStream interface [Audio Devices], SetState method, IMiniportMidiStream::SetState, M, S, SetState method [Audio Devices], SetState method [Audio Devices], IMiniportMidiStream interface, SetState,IMiniportMidiStream.SetState, a, audio.iminiportmidistream_setstate, audmp-routines_23f064df-faef-4c45-a58e-c5e3e1d7d7a5.xml, d, e, i, m, n, o, p, portcls/IMiniportMidiStream::SetState, r, t"
+ms.keywords: IMiniportMidiStream, IMiniportMidiStream interface [Audio Devices], SetState method, IMiniportMidiStream::SetState, SetState method [Audio Devices], SetState method [Audio Devices], IMiniportMidiStream interface, SetState,IMiniportMidiStream.SetState, audio.iminiportmidistream_setstate, audmp-routines_23f064df-faef-4c45-a58e-c5e3e1d7d7a5.xml, portcls/IMiniportMidiStream::SetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -132,19 +132,19 @@ RUN -&gt; PAUSE -&gt; ACQUIRE -&gt; STOP
 
 ## -see-also
 
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565110">KSPROPERTY_CONNECTION_STATE</a>
+
+
+
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a>
 
 
 

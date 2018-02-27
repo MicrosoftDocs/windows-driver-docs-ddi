@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 90151c0d-24c9-4304-bdcf-30dc89397905
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , D, DebugFns_080ae06e-7e0c-45e1-a470-22e99922eb72.xml, E, K, KdEnableDebugger, KdEnableDebugger routine [Driver Development Tools], a, b, d, devtest.kdenabledebugger, e, g, l, n, r, u, wdm/KdEnableDebugger"
+ms.keywords: DebugFns_080ae06e-7e0c-45e1-a470-22e99922eb72.xml, KdEnableDebugger, KdEnableDebugger routine [Driver Development Tools], devtest.kdenabledebugger, wdm/KdEnableDebugger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

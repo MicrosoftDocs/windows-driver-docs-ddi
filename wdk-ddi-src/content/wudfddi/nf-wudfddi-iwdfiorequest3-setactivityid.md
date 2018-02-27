@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 57CB3CED-FE46-4A74-9E23-82640B7EF1DC
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., 3, :, A, D, F, I, IWDFIoRequest3, IWDFIoRequest3 interface, SetActivityId method, IWDFIoRequest3::SetActivityId, R, S, SetActivityId method, SetActivityId method, IWDFIoRequest3 interface, SetActivityId,IWDFIoRequest3.SetActivityId, W, c, d, e, i, o, q, s, t, u, umdf.iwdfiorequest3_setactivityid, v, wdf.iwdfiorequest3_setactivityid, wudfddi/IWDFIoRequest3::SetActivityId, y"
+ms.keywords: IWDFIoRequest3, IWDFIoRequest3 interface, SetActivityId method, IWDFIoRequest3::SetActivityId, SetActivityId method, SetActivityId method, IWDFIoRequest3 interface, SetActivityId,IWDFIoRequest3.SetActivityId, umdf.iwdfiorequest3_setactivityid, wdf.iwdfiorequest3_setactivityid, wudfddi/IWDFIoRequest3::SetActivityId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -111,7 +111,7 @@ For a code example that uses <b>SetActivityId</b>, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/A90FCF3C-B648-4E97-887E-FCE58D7FA13A">IWDFIoRequest3::RetrieveActivityId</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetactivityid.md">WdfRequestSetActivityId</a>
 
 
 
@@ -119,7 +119,7 @@ For a code example that uses <b>SetActivityId</b>, see <a href="https://msdn.mic
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetactivityid.md">WdfRequestSetActivityId</a>
+<a href="https://msdn.microsoft.com/A90FCF3C-B648-4E97-887E-FCE58D7FA13A">IWDFIoRequest3::RetrieveActivityId</a>
 
 
 

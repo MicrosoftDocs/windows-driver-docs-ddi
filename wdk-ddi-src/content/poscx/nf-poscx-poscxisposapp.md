@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 890A0ACB-9717-4BF8-87B5-A6C1FAD661C2
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, C, I, P, PosCxIsPosApp, PosCxIsPosApp function, o, p, pos.poscxisposapp, poscx/PosCxIsPosApp, s, x"
+ms.keywords: PosCxIsPosApp, PosCxIsPosApp function, pos.poscxisposapp, poscx/PosCxIsPosApp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

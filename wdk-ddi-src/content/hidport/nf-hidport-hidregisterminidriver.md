@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 521928f8-6434-443a-83f0-7e8e00c756b5
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , H, HidRegisterMinidriver, HidRegisterMinidriver routine [Human Input Devices], M, R, d, e, g, hid.hidregisterminidriver, hidfunc_83ef5fb3-46fc-427e-a9de-8aa554ef26b6.xml, hidport/HidRegisterMinidriver, i, n, r, s, t, v"
+ms.keywords: HidRegisterMinidriver, HidRegisterMinidriver routine [Human Input Devices], hid.hidregisterminidriver, hidfunc_83ef5fb3-46fc-427e-a9de-8aa554ef26b6.xml, hidport/HidRegisterMinidriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

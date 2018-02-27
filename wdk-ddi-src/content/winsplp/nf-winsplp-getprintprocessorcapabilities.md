@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 81aacb41-cba7-4bd0-aded-919a4df0b934
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, G, GetPrintProcessorCapabilities, GetPrintProcessorCapabilities function [Print Devices], P, a, b, c, e, i, l, n, o, p, print.getprintprocessorcapabilities, r, s, spoolfnc_4ca0ae34-060f-4144-91de-a2556d1b5261.xml, t, winsplp/GetPrintProcessorCapabilities"
+ms.keywords: GetPrintProcessorCapabilities, GetPrintProcessorCapabilities function [Print Devices], print.getprintprocessorcapabilities, spoolfnc_4ca0ae34-060f-4144-91de-a2556d1b5261.xml, winsplp/GetPrintProcessorCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

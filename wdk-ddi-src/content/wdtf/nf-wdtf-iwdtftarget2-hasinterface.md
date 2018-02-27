@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 91641007-57c0-4e55-8ac1-9a5cc62b80b0
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, D, F, H, HasInterface method [Windows Device Testing Framework], HasInterface method [Windows Device Testing Framework], IWDTFTarget2 interface, HasInterface,IWDTFTarget2.HasInterface, I, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], HasInterface method, IWDTFTarget2::HasInterface, Microsoft.WDTF.IWDTFTarget2.HasInterface, Microsoft::WDTF::IWDTFTarget2::HasInterface, T, W, a, c, dtf.iwdtftarget2_hasinterface, e, f, g, n, r, s, t, wdtf/IWDTFTarget2::HasInterface"
+ms.keywords: HasInterface method [Windows Device Testing Framework], HasInterface method [Windows Device Testing Framework], IWDTFTarget2 interface, HasInterface,IWDTFTarget2.HasInterface, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], HasInterface method, IWDTFTarget2::HasInterface, Microsoft.WDTF.IWDTFTarget2.HasInterface, Microsoft::WDTF::IWDTFTarget2::HasInterface, dtf.iwdtftarget2_hasinterface, wdtf/IWDTFTarget2::HasInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -96,11 +96,6 @@ contains <b>VT_EMPTY</b>.
 True if the target supports the interface; otherwise false.
 
 
-#### - ProgID [in]
-
-The WDTF ProgID of the requested interface.
-
-
 #### - MoreTargets [in, optional]
 
 Optional extra arguments that you can use to 
@@ -109,6 +104,11 @@ define additional targets to attach to the returned interface.
 This parameter is not 
 currently implemented. Set <i>MoreTargets</i>o a <b>VARIANT</b> 
 that contains <b>VT_EMPTY</b>.
+
+
+#### - ProgID [in]
+
+The WDTF ProgID of the requested interface.
 
 
 ## -returns

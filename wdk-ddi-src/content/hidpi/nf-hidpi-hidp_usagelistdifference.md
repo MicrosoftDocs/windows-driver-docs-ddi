@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 332ef453-6f9d-4cdd-a8c7-766158e540d8
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , D, H, HidP_UsageListDifference, HidP_UsageListDifference routine [Human Input Devices], L, P, U, _, a, c, d, e, f, g, hid.hidp_usagelistdifference, hidfunc_91cbddd2-90f6-4784-9f1d-6d9bf8be35d3.xml, hidpi/HidP_UsageListDifference, i, n, r, s, t"
+ms.keywords: HidP_UsageListDifference, HidP_UsageListDifference routine [Human Input Devices], hid.hidp_usagelistdifference, hidfunc_91cbddd2-90f6-4784-9f1d-6d9bf8be35d3.xml, hidpi/HidP_UsageListDifference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

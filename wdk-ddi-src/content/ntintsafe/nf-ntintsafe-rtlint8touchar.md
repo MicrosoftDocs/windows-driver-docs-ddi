@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3E8BF45A-D968-4C9F-8C38-65B39665496B
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 8, C, I, R, RtlInt8ToUChar, RtlInt8ToUChar function [Kernel-Mode Driver Architecture], T, U, a, h, kernel.rtlint8touchar, l, n, ntintsafe/RtlInt8ToUChar, o, r, t"
+ms.keywords: RtlInt8ToUChar, RtlInt8ToUChar function [Kernel-Mode Driver Architecture], kernel.rtlint8touchar, ntintsafe/RtlInt8ToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

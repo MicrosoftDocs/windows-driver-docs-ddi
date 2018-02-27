@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9e1f6a57-bc48-41c6-815c-6a44e8d01699
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , G, I, P, PsGetProcessId, PsGetProcessId routine [Kernel-Mode Driver Architecture], c, d, e, k108_b0733011-4102-4e10-83e3-e7e9d7172d08.xml, kernel.psgetprocessid, ntddk/PsGetProcessId, o, r, s, t"
+ms.keywords: PsGetProcessId, PsGetProcessId routine [Kernel-Mode Driver Architecture], k108_b0733011-4102-4e10-83e3-e7e9d7172d08.xml, kernel.psgetprocessid, ntddk/PsGetProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

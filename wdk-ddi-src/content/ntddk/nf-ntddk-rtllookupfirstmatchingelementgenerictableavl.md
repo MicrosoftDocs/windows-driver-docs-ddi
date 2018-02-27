@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ff9cea5d-a93f-4d3c-b034-d2bf85484df3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , A, E, F, G, L, M, R, RtlLookupFirstMatchingElementGenericTableAvl, RtlLookupFirstMatchingElementGenericTableAvl routine [Installable File System Drivers], T, a, b, c, e, g, h, i, ifsk.rtllookupfirstmatchingelementgenerictableavl, k, l, m, n, ntddk/RtlLookupFirstMatchingElementGenericTableAvl, o, p, r, rtlref_60dc0941-12da-4d46-8f6d-ffbd2e394ddf.xml, s, t, u, v"
+ms.keywords: RtlLookupFirstMatchingElementGenericTableAvl, RtlLookupFirstMatchingElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtllookupfirstmatchingelementgenerictableavl, ntddk/RtlLookupFirstMatchingElementGenericTableAvl, rtlref_60dc0941-12da-4d46-8f6d-ffbd2e394ddf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

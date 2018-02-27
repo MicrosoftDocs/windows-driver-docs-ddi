@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 39e9b596-7726-439c-8ad9-a987fdfd3860
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, E, F, S, SpoolerCopyFileEvent, SpoolerCopyFileEvent function [Print Devices], e, i, l, n, o, p, poprfnc_e85f9707-18cf-4cd5-aece-ebcd5fd09270.xml, print.spoolercopyfileevent, r, t, v, winsplp/SpoolerCopyFileEvent, y"
+ms.keywords: SpoolerCopyFileEvent, SpoolerCopyFileEvent function [Print Devices], poprfnc_e85f9707-18cf-4cd5-aece-ebcd5fd09270.xml, print.spoolercopyfileevent, winsplp/SpoolerCopyFileEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

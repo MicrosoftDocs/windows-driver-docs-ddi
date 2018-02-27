@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 21a2fa9c-24c1-4964-aaa7-96ac86b8c078
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , C, DFIOTargetRef_3de8d750-e0e1-4a74-8e2b-977a27db024f.xml, I, T, W, WdfIoTargetCreate, WdfIoTargetCreate method, a, d, e, f, g, kmdf.wdfiotargetcreate, o, r, t, wdf.wdfiotargetcreate, wdfiotarget/WdfIoTargetCreate"
+ms.keywords: DFIOTargetRef_3de8d750-e0e1-4a74-8e2b-977a27db024f.xml, WdfIoTargetCreate, WdfIoTargetCreate method, kmdf.wdfiotargetcreate, wdf.wdfiotargetcreate, wdfiotarget/WdfIoTargetCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

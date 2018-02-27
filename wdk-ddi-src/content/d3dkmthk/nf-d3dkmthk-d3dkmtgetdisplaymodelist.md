@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f813171d-1c7d-4f75-850f-225ea166ff5c
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 3, D, D3DKMTGetDisplayModeList, D3DKMTGetDisplayModeList function [Display Devices], G, K, L, M, OpenGL_Functions_a132bdb6-955b-4af3-a928-f834f5fdf440.xml, T, a, d, d3dkmthk/D3DKMTGetDisplayModeList, display.d3dkmtgetdisplaymodelist, e, i, l, o, p, s, t, y"
+ms.keywords: D3DKMTGetDisplayModeList, D3DKMTGetDisplayModeList function [Display Devices], OpenGL_Functions_a132bdb6-955b-4af3-a928-f834f5fdf440.xml, d3dkmthk/D3DKMTGetDisplayModeList, display.d3dkmtgetdisplaymodelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

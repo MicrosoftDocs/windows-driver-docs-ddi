@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b3a35769-a98a-40f5-bdc1-db964d2a967c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, A, B, F, G, GetBufferSize method [Audio Devices], GetBufferSize method [Audio Devices], IAllocatorMXF interface, GetBufferSize,IAllocatorMXF.GetBufferSize, I, IAllocatorMXF, IAllocatorMXF interface [Audio Devices], GetBufferSize method, IAllocatorMXF::GetBufferSize, M, S, X, a, audio.iallocatormxf_getbuffersize, audmp-routines_5eb7fc90-4f40-4796-9c7c-2086689f1593.xml, c, dmusicks/IAllocatorMXF::GetBufferSize, e, f, i, l, o, r, t, u, z"
+ms.keywords: GetBufferSize method [Audio Devices], GetBufferSize method [Audio Devices], IAllocatorMXF interface, GetBufferSize,IAllocatorMXF.GetBufferSize, IAllocatorMXF, IAllocatorMXF interface [Audio Devices], GetBufferSize method, IAllocatorMXF::GetBufferSize, audio.iallocatormxf_getbuffersize, audmp-routines_5eb7fc90-4f40-4796-9c7c-2086689f1593.xml, dmusicks/IAllocatorMXF::GetBufferSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

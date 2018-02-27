@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: cc20c2d6-c76b-4f72-9762-23b9aa5fe946
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , *, *PWHEA_PROCESSOR_FAMILY_INFO, ,, A, C, E, F, H, I, L, M, N, O, P, PWHEA_PROCESSOR_FAMILY_INFO, PWHEA_PROCESSOR_FAMILY_INFO union pointer [WHEA Drivers and Applications], R, S, W, WHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO union [WHEA Drivers and Applications], Y, _, _WHEA_PROCESSOR_FAMILY_INFO, ntddk/PWHEA_PROCESSOR_FAMILY_INFO, ntddk/WHEA_PROCESSOR_FAMILY_INFO, whea.whea_processor_family_info, whearef_f15c7bb5-aee5-4a59-9869-285828d92b5e.xml"
+ms.keywords: "*PWHEA_PROCESSOR_FAMILY_INFO, PWHEA_PROCESSOR_FAMILY_INFO, PWHEA_PROCESSOR_FAMILY_INFO union pointer [WHEA Drivers and Applications], WHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO union [WHEA Drivers and Applications], _WHEA_PROCESSOR_FAMILY_INFO, ntddk/PWHEA_PROCESSOR_FAMILY_INFO, ntddk/WHEA_PROCESSOR_FAMILY_INFO, whea.whea_processor_family_info, whearef_f15c7bb5-aee5-4a59-9869-285828d92b5e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,19 +88,24 @@ typedef union _WHEA_PROCESSOR_FAMILY_INFO {
 A ULONGLONG representation of the contents of the WHEA_PROCESSOR_FAMILY_INFO union.
 
 
-#### - Stepping
+#### - ExtendedFamily
 
-The stepping of the processor.
+The extended processor family identifier.
 
 
-#### - Model
+#### - ExtendedModel
 
-The processor model identifier.
+The extended processor model identifier.
 
 
 #### - Family
 
 The processor family identifier.
+
+
+#### - Model
+
+The processor model identifier.
 
 
 #### - ProcessorType
@@ -113,16 +118,6 @@ The processor type identifier.
 Reserved for system use.
 
 
-#### - ExtendedModel
-
-The extended processor model identifier.
-
-
-#### - ExtendedFamily
-
-The extended processor family identifier.
-
-
 #### - Reserved2
 
 Reserved for system use.
@@ -131,6 +126,11 @@ Reserved for system use.
 #### - Reserved3
 
 Reserved for system use.
+
+
+#### - Stepping
+
+The stepping of the processor.
 
 
 ## -remarks

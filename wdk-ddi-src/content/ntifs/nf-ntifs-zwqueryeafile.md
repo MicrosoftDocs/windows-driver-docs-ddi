@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c4261a83-3c91-4bc1-93bf-d2d04c324e94
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , E, F, Q, Z, ZwQueryEaFile, ZwQueryEaFile routine [Kernel-Mode Driver Architecture], a, e, i, kernel.zwqueryeafile, l, ntifs/ZwQueryEaFile, r, u, w, y"
+ms.keywords: ZwQueryEaFile, ZwQueryEaFile routine [Kernel-Mode Driver Architecture], kernel.zwqueryeafile, ntifs/ZwQueryEaFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,7 +83,7 @@ The handle for the file on which the operation is to be performed.
 
 ### -param IoStatusBlock [out]
 
-A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that 
+A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that 
       receives the final completion status and other information about the requested operation.
 
 
@@ -190,11 +190,11 @@ The <i>EaList</i> parameter is not formatted correctly. This is an error code.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-zwseteafile.md">ZwSetEaFile</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
 
 
 

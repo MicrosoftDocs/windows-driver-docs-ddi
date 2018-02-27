@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2a4dd5a8-e9cc-4404-8031-5091ff2aa50d
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , B, I, K, KsQuerySoftwareBusInterface, KsQuerySoftwareBusInterface function [Streaming Media Devices], Q, S, a, c, e, f, ksfunc_58ad39a9-6e7b-416b-9ca6-a5a92bb0a7fc.xml, n, o, r, s, stream.ksquerysoftwarebusinterface, swenum/KsQuerySoftwareBusInterface, t, u, w, y"
+ms.keywords: KsQuerySoftwareBusInterface, KsQuerySoftwareBusInterface function [Streaming Media Devices], ksfunc_58ad39a9-6e7b-416b-9ca6-a5a92bb0a7fc.xml, stream.ksquerysoftwarebusinterface, swenum/KsQuerySoftwareBusInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,11 @@ A minidriver can access this function through the <b>QueryReferenceString</b> me
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-ksdereferencesoftwarebusobject.md">KsDereferenceSoftwareBusObject</a>
-
-
-
 <a href="..\swenum\nf-swenum-ksreferencesoftwarebusobject.md">KsReferenceSoftwareBusObject</a>
+
+
+
+<a href="..\swenum\nf-swenum-ksdereferencesoftwarebusobject.md">KsDereferenceSoftwareBusObject</a>
 
 
 

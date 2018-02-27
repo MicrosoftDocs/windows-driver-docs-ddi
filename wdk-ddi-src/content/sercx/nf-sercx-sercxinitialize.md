@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 2837C3BE-71EB-4949-AB46-5333CF4575A8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , 1/SerCxInitialize, C, I, S, SerCxInitialize, SerCxInitialize method [Serial Ports], a, e, i, l, n, r, serports.sercxinitialize, t, x, z"
+ms.keywords: 1/SerCxInitialize, SerCxInitialize, SerCxInitialize method [Serial Ports], serports.sercxinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

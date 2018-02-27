@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4b1fd540-85cf-45b3-9f39-984bb3b9e200
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , ,, A, D, E, I, L, M, R, RILSMSREADYSTATE, RILSMSREADYSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_SMSREADYSTATE_ALL, RIL_SMSREADY_SERVICEREADY_3GPP2, RIL_SMSREADY_UICCREADY, S, T, Y, netvista.rilsmsreadystate_2, rilapitypes/RILSMSREADYSTATE, rilapitypes/RIL_SMSREADYSTATE_ALL, rilapitypes/RIL_SMSREADY_SERVICEREADY_3GPP2, rilapitypes/RIL_SMSREADY_UICCREADY"
+ms.keywords: RILSMSREADYSTATE, RILSMSREADYSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_SMSREADYSTATE_ALL, RIL_SMSREADY_SERVICEREADY_3GPP2, RIL_SMSREADY_UICCREADY, netvista.rilsmsreadystate_2, rilapitypes/RILSMSREADYSTATE, rilapitypes/RIL_SMSREADYSTATE_ALL, rilapitypes/RIL_SMSREADY_SERVICEREADY_3GPP2, rilapitypes/RIL_SMSREADY_UICCREADY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4840F881-E3CB-4C89-AE2D-88610790C221
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, C, D, F, G, GetFailureClass method [Windows Debugging], GetFailureClass method [Windows Debugging], IDebugFailureAnalysis2 interface, GetFailureClass,IDebugFailureAnalysis2.GetFailureClass, I, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], GetFailureClass method, IDebugFailureAnalysis2::GetFailureClass, a, b, debugger.idebugfailureanalysis2_getfailureclass, e, extsfns/IDebugFailureAnalysis2::GetFailureClass, g, i, l, n, r, s, t, u, y"
+ms.keywords: GetFailureClass method [Windows Debugging], GetFailureClass method [Windows Debugging], IDebugFailureAnalysis2 interface, GetFailureClass,IDebugFailureAnalysis2.GetFailureClass, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], GetFailureClass method, IDebugFailureAnalysis2::GetFailureClass, debugger.idebugfailureanalysis2_getfailureclass, extsfns/IDebugFailureAnalysis2::GetFailureClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -122,11 +122,11 @@ These return values are defined in dbgeng.h.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983416">GetFailureCode</a>
+
+
+
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
-
-
-
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
@@ -134,7 +134,7 @@ These return values are defined in dbgeng.h.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983416">GetFailureCode</a>
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 

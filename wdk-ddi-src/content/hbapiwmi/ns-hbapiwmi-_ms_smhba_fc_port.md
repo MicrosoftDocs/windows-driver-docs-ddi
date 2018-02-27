@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e5d0d58c-f2dd-4c8a-9b15-967d0be89788
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PMS_SMHBA_FC_Port, ,, A, B, C, F, H, M, MS_SMHBA_FC_Port, MS_SMHBA_FC_Port structure [Storage Devices], P, PMS_SMHBA_FC_Port, PMS_SMHBA_FC_Port structure pointer [Storage Devices], S, _, _MS_SMHBA_FC_Port, hbapiwmi/MS_SMHBA_FC_Port, hbapiwmi/PMS_SMHBA_FC_Port, o, r, storage.ms_smhba_fc_port, structs-Fibre_74bec0b8-c7eb-4866-8fef-ab9a7c3d5950.xml, t"
+ms.keywords: "*PMS_SMHBA_FC_Port, MS_SMHBA_FC_Port, MS_SMHBA_FC_Port structure [Storage Devices], PMS_SMHBA_FC_Port, PMS_SMHBA_FC_Port structure pointer [Storage Devices], _MS_SMHBA_FC_Port, hbapiwmi/MS_SMHBA_FC_Port, hbapiwmi/PMS_SMHBA_FC_Port, storage.ms_smhba_fc_port, structs-Fibre_74bec0b8-c7eb-4866-8fef-ab9a7c3d5950.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

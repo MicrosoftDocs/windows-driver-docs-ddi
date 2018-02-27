@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e78fa9ba-7573-47db-b4d8-9b7584d5b432
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *LPDXVA_VideoPropertyRange, ,, A, D, DXVA_VideoPropertyRange, DXVA_VideoPropertyRange structure [Display Devices], L, LPDXVA_VideoPropertyRange, LPDXVA_VideoPropertyRange structure pointer [Display Devices], P, R, V, X, _, _DXVA_VideoPropertyRange, a, d, display.dxva_videopropertyrange, dxva/DXVA_VideoPropertyRange, dxva/LPDXVA_VideoPropertyRange, dxvaref_0e7bc2aa-0404-4025-908a-5d4c528e020b.xml, e, g, i, n, o, p, r, t, y"
+ms.keywords: "*LPDXVA_VideoPropertyRange, DXVA_VideoPropertyRange, DXVA_VideoPropertyRange structure [Display Devices], LPDXVA_VideoPropertyRange, LPDXVA_VideoPropertyRange structure pointer [Display Devices], _DXVA_VideoPropertyRange, display.dxva_videopropertyrange, dxva/DXVA_VideoPropertyRange, dxva/LPDXVA_VideoPropertyRange, dxvaref_0e7bc2aa-0404-4025-908a-5d4c528e020b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 421ed5b2-389d-4099-b241-d952fb7e842d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , *, *PUNIT_DDI_VERSION, ,, 61883/PUNIT_DDI_VERSION, 61883/UNIT_DDI_VERSION, 61883_structures_dacbe4af-54fd-4b96-89e2-6954a623e75d.xml, D, E, I, IEEE.unit_ddi_version, N, O, P, PUNIT_DDI_VERSION, PUNIT_DDI_VERSION structure pointer [Buses], R, S, T, U, UNIT_DDI_VERSION, UNIT_DDI_VERSION structure [Buses], V, _, _UNIT_DDI_VERSION"
+ms.keywords: "*PUNIT_DDI_VERSION, 61883/PUNIT_DDI_VERSION, 61883/UNIT_DDI_VERSION, 61883_structures_dacbe4af-54fd-4b96-89e2-6954a623e75d.xml, IEEE.unit_ddi_version, PUNIT_DDI_VERSION, PUNIT_DDI_VERSION structure pointer [Buses], UNIT_DDI_VERSION, UNIT_DDI_VERSION structure [Buses], _UNIT_DDI_VERSION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

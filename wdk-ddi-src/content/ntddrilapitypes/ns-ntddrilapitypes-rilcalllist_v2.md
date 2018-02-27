@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4cf94a04-dbb4-4e24-954b-3a5a720ef963
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , *, *LPRILCALLLIST_V2, ,, 2, A, C, I, L, P, R, RILCALLLIST_V2, RILCALLLIST_V2 structure [Network Drivers Starting with Windows Vista], S, T, V, _, netvista.rilcalllist_v2, ntddrilapitypes/RILCALLLIST_V2"
+ms.keywords: "*LPRILCALLLIST_V2, RILCALLLIST_V2, RILCALLLIST_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilcalllist_v2, ntddrilapitypes/RILCALLLIST_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

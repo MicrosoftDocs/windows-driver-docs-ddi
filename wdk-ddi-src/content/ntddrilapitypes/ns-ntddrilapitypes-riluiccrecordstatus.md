@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 073fe700-ea6d-4d29-8751-66b27714f72d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , *, *LPRILUICCRECORDSTATUS, ,, A, C, D, E, I, L, O, P, R, RILUICCRECORDSTATUS, RILUICCRECORDSTATUS structure [Network Drivers Starting with Windows Vista], S, T, U, netvista.riluiccrecordstatus, rilapitypes/RILUICCRECORDSTATUS"
+ms.keywords: "*LPRILUICCRECORDSTATUS, RILUICCRECORDSTATUS, RILUICCRECORDSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccrecordstatus, rilapitypes/RILUICCRECORDSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,12 +79,12 @@ The size of the structure in bytes.
 
 ### -field dwParams
 
-A bitwise combination of <a href="..\ntddrilapitypes\ne-ntddrilapitypes-riluiccrecordstatusparammask.md">RILUICCRECORDSTATUSPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
+A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-riluiccrecordstatusparammask.md">RILUICCRECORDSTATUSPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
 ### -field dwRecordType
 
-Specifies the UICC file type, one of <a href="..\ntddrilapitypes\ne-ntddrilapitypes-riluiccrecordtype.md">RILUICCRECORDTYPE</a>.
+Specifies the UICC file type, one of <a href="..\rilapitypes\ne-rilapitypes-riluiccrecordtype.md">RILUICCRECORDTYPE</a>.
 
 
 ### -field dwItemCount
@@ -99,7 +99,7 @@ Specifies the size of each item in bytes.
 
 ### -field fileLockStatus
 
-An array of type <a href="..\ntddrilapitypes\ns-ntddrilapitypes-riluiccfilelockstatus.md">RILUICCFILELOCKSTATUS</a> that describes the access condition and a list of key references for each operation (READ, UPDATE, ACTIVATE, and DEACTIVATE in that order) on that file. 
+An array of type <a href="..\rilapitypes\ns-rilapitypes-riluiccfilelockstatus.md">RILUICCFILELOCKSTATUS</a> that describes the access condition and a list of key references for each operation (READ, UPDATE, ACTIVATE, and DEACTIVATE in that order) on that file. 
 
 
 ## -see-also

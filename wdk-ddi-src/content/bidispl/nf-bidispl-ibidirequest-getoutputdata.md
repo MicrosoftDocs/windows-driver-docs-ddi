@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0757dbc2-850b-4267-9339-b87591f85767
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, B, BIDI_BLOB, BIDI_BOOL, BIDI_ENUM, BIDI_FLOAT, BIDI_INT, BIDI_NULL, BIDI_STRING, BIDI_TEXT, D, G, GetOutputData method [Print Devices], GetOutputData method [Print Devices], IBidiRequest interface, GetOutputData,IBidiRequest.GetOutputData, I, IBidiRequest, IBidiRequest interface [Print Devices], GetOutputData method, IBidiRequest::GetOutputData, O, R, _win32_IBidiRequest_GetOutputData, a, bidispl/IBidiRequest::GetOutputData, d, e, gdi.ibidirequest_ibidirequest__getoutputdata, i, p, print.ibidirequest_ibidirequest__getoutputdata, q, s, t, u"
+ms.keywords: BIDI_BLOB, BIDI_BOOL, BIDI_ENUM, BIDI_FLOAT, BIDI_INT, BIDI_NULL, BIDI_STRING, BIDI_TEXT, GetOutputData method [Print Devices], GetOutputData method [Print Devices], IBidiRequest interface, GetOutputData,IBidiRequest.GetOutputData, IBidiRequest, IBidiRequest interface [Print Devices], GetOutputData method, IBidiRequest::GetOutputData, _win32_IBidiRequest_GetOutputData, bidispl/IBidiRequest::GetOutputData, gdi.ibidirequest_ibidirequest__getoutputdata, print.ibidirequest_ibidirequest__getoutputdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -258,15 +258,15 @@ If an application calls <b>GetOutputData</b> with the same index twice, the inte
 
 ## -see-also
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
 
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
+
+
+<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
 
 

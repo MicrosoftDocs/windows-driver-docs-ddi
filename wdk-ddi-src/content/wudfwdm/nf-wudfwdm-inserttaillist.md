@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9eb470c8-ee37-497e-982e-d32b4b9b7348
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , I, InsertTailList, InsertTailList routine [Kernel-Mode Driver Architecture], L, T, a, e, i, k109_8f31d6a6-89a0-440c-9397-2bef61a5878f.xml, kernel.inserttaillist, l, n, r, s, t, wdm/InsertTailList"
+ms.keywords: InsertTailList, InsertTailList routine [Kernel-Mode Driver Architecture], k109_8f31d6a6-89a0-440c-9397-2bef61a5878f.xml, kernel.inserttaillist, wdm/InsertTailList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,27 +103,27 @@ Callers of <b>InsertTailList</b> can be running at any IRQL. If <b>InsertTailLis
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
-
-
-
-<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
-
-
-
-<a href="..\wdm\nf-wdm-insertheadlist.md">InsertHeadList</a>
-
-
-
-<a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
-
-
-
-<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+<a href="..\wudfwdm\nf-wudfwdm-insertheadlist.md">InsertHeadList</a>
 
 
 
 <a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
 
 
 

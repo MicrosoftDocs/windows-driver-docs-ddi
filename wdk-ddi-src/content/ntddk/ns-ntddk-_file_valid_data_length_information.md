@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 78badbac-9f77-4911-a42b-c0421be47f20
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PFILE_VALID_DATA_LENGTH_INFORMATION, ,, A, D, E, F, FILE_VALID_DATA_LENGTH_INFORMATION, FILE_VALID_DATA_LENGTH_INFORMATION structure [Kernel-Mode Driver Architecture], G, H, I, L, M, N, O, P, PFILE_VALID_DATA_LENGTH_INFORMATION, PFILE_VALID_DATA_LENGTH_INFORMATION structure pointer [Kernel-Mode Driver Architecture], R, T, V, _, _FILE_VALID_DATA_LENGTH_INFORMATION, kernel.file_valid_data_length_information, kstruct_b_4db45831-d238-4274-b0f3-f1945e187eb5.xml, ntddk/FILE_VALID_DATA_LENGTH_INFORMATION, ntddk/PFILE_VALID_DATA_LENGTH_INFORMATION"
+ms.keywords: "*PFILE_VALID_DATA_LENGTH_INFORMATION, FILE_VALID_DATA_LENGTH_INFORMATION, FILE_VALID_DATA_LENGTH_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_VALID_DATA_LENGTH_INFORMATION, PFILE_VALID_DATA_LENGTH_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_VALID_DATA_LENGTH_INFORMATION, kernel.file_valid_data_length_information, kstruct_b_4db45831-d238-4274-b0f3-f1945e187eb5.xml, ntddk/FILE_VALID_DATA_LENGTH_INFORMATION, ntddk/PFILE_VALID_DATA_LENGTH_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6ba291d7-c3e7-4f76-afc3-bf200bae2a8f
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 4, :, A, AssembleWide method [Windows Debugging], AssembleWide method [Windows Debugging], IDebugControl4 interface, AssembleWide,IDebugControl4.AssembleWide, C, D, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], AssembleWide method, IDebugControl4::AssembleWide, W, b, d, dbgeng/IDebugControl4::AssembleWide, debugger.assemblewide, e, g, i, l, m, n, o, r, s, t, u"
+ms.keywords: AssembleWide method [Windows Debugging], AssembleWide method [Windows Debugging], IDebugControl4 interface, AssembleWide,IDebugControl4.AssembleWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], AssembleWide method, IDebugControl4::AssembleWide, dbgeng/IDebugControl4::AssembleWide, debugger.assemblewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

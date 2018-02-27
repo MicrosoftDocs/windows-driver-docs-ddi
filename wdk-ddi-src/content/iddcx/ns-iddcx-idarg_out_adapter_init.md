@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 55e4c835-88c8-403f-883c-182915aa614d
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, D, E, G, I, IDARG_OUT_ADAPTER_INIT, IDARG_OUT_ADAPTER_INIT structure [Display Devices], N, O, P, R, T, U, _, display.idarg_out_adapter_init, iddcx/IDARG_OUT_ADAPTER_INIT"
+ms.keywords: IDARG_OUT_ADAPTER_INIT, IDARG_OUT_ADAPTER_INIT structure [Display Devices], display.idarg_out_adapter_init, iddcx/IDARG_OUT_ADAPTER_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

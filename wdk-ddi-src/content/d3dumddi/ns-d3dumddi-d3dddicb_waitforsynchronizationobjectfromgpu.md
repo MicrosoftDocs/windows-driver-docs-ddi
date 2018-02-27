@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2A441CEE-C138-4FF0-8865-04ABFB0F029C
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 3, A, B, C, D, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], E, F, G, H, I, J, M, N, O, P, R, S, T, U, W, Y, Z, _, d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, display.d3dddicb_waitforsynchronizationobjectfromgpu"
+ms.keywords: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, display.d3dddicb_waitforsynchronizationobjectfromgpu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,14 +89,14 @@ typedef struct D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU {
 [in] An array of kernel-mode handles to the synchronization events that the context that is specified by the <b>hContext</b> member waits for.
 
 
-#### - MonitoredFenceValueArray
-
-[in] An array of 64-bit monitored fence values to wait for, each value corresponding to a synchronization object in <b>ObjectHandleArray</b>.
-
-
 #### - FenceValue
 
 [in] Fence value to wait for when the input object is of type <b>D3DDDI_FENCE</b>.
+
+
+#### - MonitoredFenceValueArray
+
+[in] An array of 64-bit monitored fence values to wait for, each value corresponding to a synchronization object in <b>ObjectHandleArray</b>.
 
 
 #### - Reserved

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8f38616e-498b-485e-84c8-de62477b5871
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, C, D, F, G, GetReadParameters method, GetReadParameters method, IWDFIoRequestCompletionParams interface, GetReadParameters,IWDFIoRequestCompletionParams.GetReadParameters, I, IWDFIoRequestCompletionParams, IWDFIoRequestCompletionParams interface, GetReadParameters method, IWDFIoRequestCompletionParams::GetReadParameters, P, R, UMDFRequestObjectRef_008ca4d6-ddbe-4288-9b5d-d6ccb35518db.xml, W, a, d, e, i, l, m, n, o, p, q, r, s, t, u, umdf.iwdfiorequestcompletionparams_getreadparameters, wdf.iwdfiorequestcompletionparams_getreadparameters, wudfddi/IWDFIoRequestCompletionParams::GetReadParameters"
+ms.keywords: GetReadParameters method, GetReadParameters method, IWDFIoRequestCompletionParams interface, GetReadParameters,IWDFIoRequestCompletionParams.GetReadParameters, IWDFIoRequestCompletionParams, IWDFIoRequestCompletionParams interface, GetReadParameters method, IWDFIoRequestCompletionParams::GetReadParameters, UMDFRequestObjectRef_008ca4d6-ddbe-4288-9b5d-d6ccb35518db.xml, umdf.iwdfiorequestcompletionparams_getreadparameters, wdf.iwdfiorequestcompletionparams_getreadparameters, wudfddi/IWDFIoRequestCompletionParams::GetReadParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

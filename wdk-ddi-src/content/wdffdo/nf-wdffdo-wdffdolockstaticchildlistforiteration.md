@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 79ff278c-a30e-49f6-9146-badf24970de2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , C, DFDeviceObjectFdoPdoRef_d20e71b2-fc76-4eb5-9911-bb7014467b4e.xml, F, I, L, S, W, WdfFdoLockStaticChildListForIteration, WdfFdoLockStaticChildListForIteration method, a, c, d, e, f, h, i, k, kmdf.wdffdolockstaticchildlistforiteration, l, n, o, r, s, t, wdf.wdffdolockstaticchildlistforiteration, wdffdo/WdfFdoLockStaticChildListForIteration"
+ms.keywords: DFDeviceObjectFdoPdoRef_d20e71b2-fc76-4eb5-9911-bb7014467b4e.xml, WdfFdoLockStaticChildListForIteration, WdfFdoLockStaticChildListForIteration method, kmdf.wdffdolockstaticchildlistforiteration, wdf.wdffdolockstaticchildlistforiteration, wdffdo/WdfFdoLockStaticChildListForIteration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

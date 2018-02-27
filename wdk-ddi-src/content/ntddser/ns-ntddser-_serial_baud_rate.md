@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 1534B7AC-8968-4AE2-A871-D8F4D4E45CA1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , *, *PSERIAL_BAUD_RATE, ,, A, B, D, E, I, L, P, PSERIAL_BAUD_RATE, PSERIAL_BAUD_RATE structure pointer [Serial Ports], R, S, SERIAL_BAUD_RATE, SERIAL_BAUD_RATE structure [Serial Ports], T, U, _, _SERIAL_BAUD_RATE, ntddser/PSERIAL_BAUD_RATE, ntddser/SERIAL_BAUD_RATE, serports.serial_baud_rate"
+ms.keywords: "*PSERIAL_BAUD_RATE, PSERIAL_BAUD_RATE, PSERIAL_BAUD_RATE structure pointer [Serial Ports], SERIAL_BAUD_RATE, SERIAL_BAUD_RATE structure [Serial Ports], _SERIAL_BAUD_RATE, ntddser/PSERIAL_BAUD_RATE, ntddser/SERIAL_BAUD_RATE, serports.serial_baud_rate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,11 +89,11 @@ For more information about some of the possible baud rates that a serial control
 
 
 
-<a href="..\ntddser\ns-ntddser-_serial_commprop.md">SERIAL_COMMPROP</a>
-
-
-
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_baud_rate.md">IOCTL_SERIAL_GET_BAUD_RATE</a>
+
+
+
+<a href="..\ntddser\ns-ntddser-_serial_commprop.md">SERIAL_COMMPROP</a>
 
 
 

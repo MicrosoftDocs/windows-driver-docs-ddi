@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9129e776-b5d0-4f53-b2be-67e593369c6c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, E, Escape method [Imaging Devices], Escape method [Imaging Devices], IStiUSD interface, Escape,IStiUSD.Escape, I, IStiUSD, IStiUSD interface [Imaging Devices], Escape method, IStiUSD::Escape, S, U, a, c, e, i, image.istiusd_escape, p, s, stifnc_74a53282-ebd8-4c87-97b1-58195b40a1af.xml, stiusd/IStiUSD::Escape, t"
+ms.keywords: Escape method [Imaging Devices], Escape method [Imaging Devices], IStiUSD interface, Escape,IStiUSD.Escape, IStiUSD, IStiUSD interface [Imaging Devices], Escape method, IStiUSD::Escape, image.istiusd_escape, stifnc_74a53282-ebd8-4c87-97b1-58195b40a1af.xml, stiusd/IStiUSD::Escape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -128,11 +128,11 @@ A still image minidriver only needs to implement <b>IStiUSD::Escape</b> if I/O o
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543740">IStiDevice::Escape</a>
-
-
-
 <a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543740">IStiDevice::Escape</a>
 
 
 

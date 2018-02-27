@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: DF9CA4A8-4B2A-4DED-9514-422AC5E0940D
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, E, M, P, PosCxPutPendingEventMemory, PosCxPutPendingEventMemory function, d, e, g, i, m, n, o, pos.poscxputpendingeventmemory, poscx/PosCxPutPendingEventMemory, r, s, t, u, v, x, y"
+ms.keywords: PosCxPutPendingEventMemory, PosCxPutPendingEventMemory function, pos.poscxputpendingeventmemory, poscx/PosCxPutPendingEventMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

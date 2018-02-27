@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: a9233a0f-ac80-46be-9abe-7b87d25736f9
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, D, F, G, I, ISensorDriver, ISensorDriver::OnGetDataFields, O, OnGetDataFields method [Sensor Devices], OnGetDataFields,ISensorDriver.OnGetDataFields, S, a, d, e, i, l, n, o, r, s, sensors.isensordriver_ongetdatafields, t, v"
+ms.keywords: ISensorDriver, ISensorDriver::OnGetDataFields, OnGetDataFields method [Sensor Devices], OnGetDataFields,ISensorDriver.OnGetDataFields, sensors.isensordriver_ongetdatafields
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

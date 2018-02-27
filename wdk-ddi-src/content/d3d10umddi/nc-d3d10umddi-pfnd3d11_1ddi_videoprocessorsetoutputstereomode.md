@@ -89,6 +89,13 @@ VOID APIENTRY* pfnVideoProcessorSetOutputStereoMode(
 
 
 
+#### - Enable [in]
+
+If <b>TRUE</b>, stereo output is enabled. Otherwise, the video processor produces mono video frames.
+
+
+
+
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -99,13 +106,6 @@ A handle to the display device (graphics context).
 #### - hVideoProcessor [in]
 
 A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
-
-
-
-
-#### - Enable [in]
-
-If <b>TRUE</b>, stereo output is enabled. Otherwise, the video processor produces mono video frames.
 
 
 
@@ -136,7 +136,7 @@ The driver reports its ability to support stereo video modes through the <a href
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
 
 
 
@@ -144,7 +144,7 @@ The driver reports its ability to support stereo video modes through the <a href
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
 
 
 

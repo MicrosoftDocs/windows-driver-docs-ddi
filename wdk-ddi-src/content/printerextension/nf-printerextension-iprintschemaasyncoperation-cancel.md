@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 08DC764B-4410-4D7C-B199-29E38BA09CA6
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, C, Cancel method [Print Devices], Cancel method [Print Devices], IPrintSchemaAsyncOperation interface, Cancel,IPrintSchemaAsyncOperation.Cancel, I, IPrintSchemaAsyncOperation, IPrintSchemaAsyncOperation interface [Print Devices], Cancel method, IPrintSchemaAsyncOperation::Cancel, O, P, S, a, c, e, h, i, l, m, n, o, p, print.iprintschemaasyncoperation_cancel, printerextension/IPrintSchemaAsyncOperation::Cancel, r, s, t, y"
+ms.keywords: Cancel method [Print Devices], Cancel method [Print Devices], IPrintSchemaAsyncOperation interface, Cancel,IPrintSchemaAsyncOperation.Cancel, IPrintSchemaAsyncOperation, IPrintSchemaAsyncOperation interface [Print Devices], Cancel method, IPrintSchemaAsyncOperation::Cancel, print.iprintschemaasyncoperation_cancel, printerextension/IPrintSchemaAsyncOperation::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

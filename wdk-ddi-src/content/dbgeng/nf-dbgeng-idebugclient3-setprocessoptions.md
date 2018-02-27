@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c077e2cc-b234-4393-ab8c-d0b8199515e3
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 3, :, C, D, I, IDebugClient, IDebugClient interface [Windows Debugging], SetProcessOptions method, IDebugClient2, IDebugClient2 interface [Windows Debugging], SetProcessOptions method, IDebugClient2::SetProcessOptions, IDebugClient3, IDebugClient3 interface [Windows Debugging], SetProcessOptions method, IDebugClient3::SetProcessOptions, IDebugClient4 interface [Windows Debugging], SetProcessOptions method, IDebugClient4::SetProcessOptions, IDebugClient5 interface [Windows Debugging], SetProcessOptions method, IDebugClient5::SetProcessOptions, IDebugClient::SetProcessOptions, IDebugClient_d9936a28-08c3-4c4c-ba2b-accc9443b825.xml, O, P, S, SetProcessOptions method [Windows Debugging], SetProcessOptions method [Windows Debugging], IDebugClient interface, SetProcessOptions method [Windows Debugging], IDebugClient2 interface, SetProcessOptions method [Windows Debugging], IDebugClient3 interface, SetProcessOptions method [Windows Debugging], IDebugClient4 interface, SetProcessOptions method [Windows Debugging], IDebugClient5 interface, SetProcessOptions,IDebugClient.SetProcessOptions, SetProcessOptions,IDebugClient2.SetProcessOptions, SetProcessOptions,IDebugClient3.SetProcessOptions, b, c, dbgeng/IDebugClient2::SetProcessOptions, dbgeng/IDebugClient3::SetProcessOptions, dbgeng/IDebugClient4::SetProcessOptions, dbgeng/IDebugClient5::SetProcessOptions, dbgeng/IDebugClient::SetProcessOptions, debugger.setprocessoptions, e, g, i, l, n, o, p, r, s, t, u"
+ms.keywords: IDebugClient interface [Windows Debugging], SetProcessOptions method, IDebugClient2 interface [Windows Debugging], SetProcessOptions method, IDebugClient2::SetProcessOptions, IDebugClient3, IDebugClient3 interface [Windows Debugging], SetProcessOptions method, IDebugClient3::SetProcessOptions, IDebugClient4 interface [Windows Debugging], SetProcessOptions method, IDebugClient4::SetProcessOptions, IDebugClient5 interface [Windows Debugging], SetProcessOptions method, IDebugClient5::SetProcessOptions, IDebugClient::SetProcessOptions, IDebugClient_d9936a28-08c3-4c4c-ba2b-accc9443b825.xml, SetProcessOptions method [Windows Debugging], SetProcessOptions method [Windows Debugging], IDebugClient interface, SetProcessOptions method [Windows Debugging], IDebugClient2 interface, SetProcessOptions method [Windows Debugging], IDebugClient3 interface, SetProcessOptions method [Windows Debugging], IDebugClient4 interface, SetProcessOptions method [Windows Debugging], IDebugClient5 interface, SetProcessOptions,IDebugClient3.SetProcessOptions, dbgeng/IDebugClient2::SetProcessOptions, dbgeng/IDebugClient3::SetProcessOptions, dbgeng/IDebugClient4::SetProcessOptions, dbgeng/IDebugClient5::SetProcessOptions, dbgeng/IDebugClient::SetProcessOptions, debugger.setprocessoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -121,11 +121,15 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548163">GetProcessOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554505">RemoveProcessOptions</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
@@ -133,7 +137,11 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
@@ -145,15 +153,7 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548163">GetProcessOptions</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554505">RemoveProcessOptions</a>
 
 
 

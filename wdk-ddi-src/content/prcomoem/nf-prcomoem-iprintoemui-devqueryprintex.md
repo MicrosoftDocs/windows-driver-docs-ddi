@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a1bc9be3-53ec-4506-a409-94a65d7136e1
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, DevQueryPrintEx method [Print Devices], DevQueryPrintEx method [Print Devices], IPrintOemUI interface, DevQueryPrintEx,IPrintOemUI.DevQueryPrintEx, E, I, IPrintOemUI, IPrintOemUI interface [Print Devices], DevQueryPrintEx method, IPrintOemUI::DevQueryPrintEx, O, P, Q, U, e, i, m, n, prcomoem/IPrintOemUI::DevQueryPrintEx, print.iprintoemui_devqueryprintex, print_unidrv-pscript_ui_64a7a4c1-9478-4710-8d2e-84696b8941b0.xml, r, t, u, v, x, y"
+ms.keywords: DevQueryPrintEx method [Print Devices], DevQueryPrintEx method [Print Devices], IPrintOemUI interface, DevQueryPrintEx,IPrintOemUI.DevQueryPrintEx, IPrintOemUI, IPrintOemUI interface [Print Devices], DevQueryPrintEx method, IPrintOemUI::DevQueryPrintEx, prcomoem/IPrintOemUI::DevQueryPrintEx, print.iprintoemui_devqueryprintex, print_unidrv-pscript_ui_64a7a4c1-9478-4710-8d2e-84696b8941b0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

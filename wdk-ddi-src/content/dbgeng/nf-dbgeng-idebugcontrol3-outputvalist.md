@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6b2c0c43-26a3-4e66-aa9f-45b431ce6516
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 3, :, C, D, I, IDebugControl, IDebugControl interface [Windows Debugging], OutputVaList method, IDebugControl2, IDebugControl2 interface [Windows Debugging], OutputVaList method, IDebugControl2::OutputVaList, IDebugControl3, IDebugControl3 interface [Windows Debugging], OutputVaList method, IDebugControl3::OutputVaList, IDebugControl::OutputVaList, IDebugControl_4c0f8057-9e61-4a89-a2e8-be15bd49e5fc.xml, L, O, OutputVaList method [Windows Debugging], OutputVaList method [Windows Debugging], IDebugControl interface, OutputVaList method [Windows Debugging], IDebugControl2 interface, OutputVaList method [Windows Debugging], IDebugControl3 interface, OutputVaList,IDebugControl.OutputVaList, OutputVaList,IDebugControl2.OutputVaList, OutputVaList,IDebugControl3.OutputVaList, V, a, b, dbgeng/IDebugControl2::OutputVaList, dbgeng/IDebugControl3::OutputVaList, dbgeng/IDebugControl::OutputVaList, debugger.outputvalist, e, g, i, l, n, o, p, r, s, t, u"
+ms.keywords: IDebugControl interface [Windows Debugging], OutputVaList method, IDebugControl2 interface [Windows Debugging], OutputVaList method, IDebugControl2::OutputVaList, IDebugControl3, IDebugControl3 interface [Windows Debugging], OutputVaList method, IDebugControl3::OutputVaList, IDebugControl::OutputVaList, IDebugControl_4c0f8057-9e61-4a89-a2e8-be15bd49e5fc.xml, OutputVaList method [Windows Debugging], OutputVaList method [Windows Debugging], IDebugControl interface, OutputVaList method [Windows Debugging], IDebugControl2 interface, OutputVaList method [Windows Debugging], IDebugControl3 interface, OutputVaList,IDebugControl3.OutputVaList, dbgeng/IDebugControl2::OutputVaList, dbgeng/IDebugControl3::OutputVaList, dbgeng/IDebugControl::OutputVaList, debugger.outputvalist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -303,11 +303,15 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
+<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -315,11 +319,7 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 

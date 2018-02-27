@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 84b0f28d-2157-492e-bafa-ea97956d66f2
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 0, 1, 2, 3, A, B, D, D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032, D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032 structure [Display Devices], E, F, I, M, P, R, T, U, W, _, d3d12umddi/D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032, display.d3d12ddi-writebufferimmediate-parameter-0032"
+ms.keywords: D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032, D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032 structure [Display Devices], d3d12umddi/D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032, display.d3d12ddi-writebufferimmediate-parameter-0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

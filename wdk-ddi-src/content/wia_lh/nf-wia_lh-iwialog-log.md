@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: bca012b4-76ae-4ba5-99b4-92a367774de7
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, I, IWiaLog, IWiaLog interface [Imaging Devices], Log method, IWiaLog::Log, IWiaLog_e3605b5e-0494-46a7-85c1-3a0707a74764.xml, L, Log method [Imaging Devices], Log method [Imaging Devices], IWiaLog interface, Log,IWiaLog.Log, W, a, g, i, image.iwialog_log, o, wia_lh/IWiaLog::Log"
+ms.keywords: IWiaLog, IWiaLog interface [Imaging Devices], Log method, IWiaLog::Log, IWiaLog_e3605b5e-0494-46a7-85c1-3a0707a74764.xml, Log method [Imaging Devices], Log method [Imaging Devices], IWiaLog interface, Log,IWiaLog.Log, image.iwialog_log, wia_lh/IWiaLog::Log
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

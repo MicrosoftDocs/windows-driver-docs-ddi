@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2b38b1b7-0d65-4457-bc7d-c52ff11aba48
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, F, I, IInterFilterCommunicator, IInterFilterCommunicator interface [Print Devices], RequestReader method, IInterFilterCommunicator::RequestReader, R, RequestReader method [Print Devices], RequestReader method [Print Devices], IInterFilterCommunicator interface, RequestReader,IInterFilterCommunicator.RequestReader, a, c, d, e, filterpipeline/IInterFilterCommunicator::RequestReader, filterpipeline_dba6ebe4-7acb-471e-80e4-cedc8c2523b0.xml, i, l, m, n, o, print.iinterfiltercommunicator_requestreader, q, r, s, t, u"
+ms.keywords: IInterFilterCommunicator, IInterFilterCommunicator interface [Print Devices], RequestReader method, IInterFilterCommunicator::RequestReader, RequestReader method [Print Devices], RequestReader method [Print Devices], IInterFilterCommunicator interface, RequestReader,IInterFilterCommunicator.RequestReader, filterpipeline/IInterFilterCommunicator::RequestReader, filterpipeline_dba6ebe4-7acb-471e-80e4-cedc8c2523b0.xml, print.iinterfiltercommunicator_requestreader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

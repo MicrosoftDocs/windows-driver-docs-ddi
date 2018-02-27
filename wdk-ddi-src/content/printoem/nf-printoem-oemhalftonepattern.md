@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c574d997-736e-4883-a2c3-447985fcee55
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , E, H, M, O, OEMHalftonePattern, OEMHalftonePattern function [Print Devices], P, a, e, f, l, n, o, print.oemhalftonepattern, print_obsoletefunctions_5b15743c-f7ce-4107-a263-5cf28ead726d.xml, printoem/OEMHalftonePattern, r, t"
+ms.keywords: OEMHalftonePattern, OEMHalftonePattern function [Print Devices], print.oemhalftonepattern, print_obsoletefunctions_5b15743c-f7ce-4107-a263-5cf28ead726d.xml, printoem/OEMHalftonePattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

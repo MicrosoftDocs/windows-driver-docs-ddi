@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: baa0292a-b327-4fc0-9235-b1b977f93bf9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , *, *PACPI_ENUM_CHILD, ,, A, ACPI_ENUM_CHILD, ACPI_ENUM_CHILD structure [ACPI Devices], C, D, E, H, I, L, M, N, P, U, _, _ACPI_ENUM_CHILD, acpi-meth-eval-ref_7ffcb8d5-da55-4ed9-88db-8f954d01852b.xml, acpi.acpi_enum_child, acpiioct/ACPI_ENUM_CHILD"
+ms.keywords: "*PACPI_ENUM_CHILD, ACPI_ENUM_CHILD, ACPI_ENUM_CHILD structure [ACPI Devices], _ACPI_ENUM_CHILD, acpi-meth-eval-ref_7ffcb8d5-da55-4ed9-88db-8f954d01852b.xml, acpi.acpi_enum_child, acpiioct/ACPI_ENUM_CHILD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

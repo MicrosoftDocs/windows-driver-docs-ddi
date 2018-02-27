@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cab7609e-cf87-46f6-af23-891e19ef1b80
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , E, F, M, N, NdisEnumerateFilterModules, NdisEnumerateFilterModules function [Network Drivers Starting with Windows Vista], a, d, e, filter_ndis_functions_ref_3caad0fd-b579-4787-bebb-b1a93726cbf0.xml, i, l, m, n, ndis/NdisEnumerateFilterModules, netvista.ndisenumeratefiltermodules, o, r, s, t, u"
+ms.keywords: NdisEnumerateFilterModules, NdisEnumerateFilterModules function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_3caad0fd-b579-4787-bebb-b1a93726cbf0.xml, ndis/NdisEnumerateFilterModules, netvista.ndisenumeratefiltermodules
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -199,11 +199,11 @@ An NDIS miniport driver, protocol driver, or filter driver can call the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_filter_interface.md">NDIS_FILTER_INTERFACE</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_enum_filters.md">NDIS_ENUM_FILTERS</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_filter_interface.md">NDIS_FILTER_INTERFACE</a>
 
 
 

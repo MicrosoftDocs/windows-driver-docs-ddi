@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f984bb4f-ecc8-4e6c-bb2c-a721395f1958
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, I, L, P, R, RIL_RadioStatePasswordCompare, RIL_RadioStatePasswordCompare method [Network Drivers Starting with Windows Vista], S, _, a, d, e, i, m, netvista.ril_radiostatepasswordcompare, o, p, r, rilapi/RIL_RadioStatePasswordCompare, s, t, w"
+ms.keywords: RIL_RadioStatePasswordCompare, RIL_RadioStatePasswordCompare method [Network Drivers Starting with Windows Vista], netvista.ril_radiostatepasswordcompare, rilapi/RIL_RadioStatePasswordCompare
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

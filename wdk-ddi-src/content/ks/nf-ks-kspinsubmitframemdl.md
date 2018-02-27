@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8033c0a9-86dd-4d54-b93e-66c926cae952
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , F, K, KsPinSubmitFrameMdl, KsPinSubmitFrameMdl function [Streaming Media Devices], M, P, S, a, avfunc_456aa5db-b749-4b95-8448-f024dbc2030b.xml, b, d, e, i, ks/KsPinSubmitFrameMdl, l, m, n, r, s, stream.kspinsubmitframemdl, t, u"
+ms.keywords: KsPinSubmitFrameMdl, KsPinSubmitFrameMdl function [Streaming Media Devices], avfunc_456aa5db-b749-4b95-8448-f024dbc2030b.xml, ks/KsPinSubmitFrameMdl, stream.kspinsubmitframemdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,11 +111,11 @@ The difference between this function and <a href="..\ks\nf-ks-kspinsubmitframe.m
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
-
-
-
 <a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>
+
+
+
+<a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
 
 
 

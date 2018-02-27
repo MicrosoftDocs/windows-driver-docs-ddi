@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 51c43e1a-ec8e-4dd2-ab08-b90cd89d9b5d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, I, IPortWMIRegistration, IPortWMIRegistration interface [Audio Devices], UnregisterWMIProvider method, IPortWMIRegistration::UnregisterWMIProvider, M, P, R, U, UnregisterWMIProvider method [Audio Devices], UnregisterWMIProvider method [Audio Devices], IPortWMIRegistration interface, UnregisterWMIProvider,IPortWMIRegistration.UnregisterWMIProvider, W, a, audio.iportwmiregistration_unregisterwmiprovider, audmp-routines_3c640b1e-b98a-491d-a586-c6acaf8b07d4.xml, d, e, g, i, n, o, portcls/IPortWMIRegistration::UnregisterWMIProvider, r, s, t, v"
+ms.keywords: IPortWMIRegistration, IPortWMIRegistration interface [Audio Devices], UnregisterWMIProvider method, IPortWMIRegistration::UnregisterWMIProvider, UnregisterWMIProvider method [Audio Devices], UnregisterWMIProvider method [Audio Devices], IPortWMIRegistration interface, UnregisterWMIProvider,IPortWMIRegistration.UnregisterWMIProvider, audio.iportwmiregistration_unregisterwmiprovider, audmp-routines_3c640b1e-b98a-491d-a586-c6acaf8b07d4.xml, portcls/IPortWMIRegistration::UnregisterWMIProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -85,15 +85,15 @@ The <code>UnregisterWMIProvider</code> method returns STATUS_SUCCESS if the call
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iportwmiregistration.md">IPortWMIRegistration</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938554">Event Tracing for Windows</a>
 
 
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\portcls\nn-portcls-iportwmiregistration.md">IPortWMIRegistration</a>
 
 
 

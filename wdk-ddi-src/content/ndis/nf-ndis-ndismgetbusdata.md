@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 495191f4-a5c6-4223-8c5d-e4c0ecb0cc5d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , B, D, G, M, N, NdisMGetBusData, NdisMGetBusData function [Network Drivers Starting with Windows Vista], a, d, e, hardware_configuration_ref_e2ffab8c-2dba-4b49-a7dc-246a4792ca43.xml, i, ndis/NdisMGetBusData, netvista.ndismgetbusdata, s, t, u"
+ms.keywords: NdisMGetBusData, NdisMGetBusData function [Network Drivers Starting with Windows Vista], hardware_configuration_ref_e2ffab8c-2dba-4b49-a7dc-246a4792ca43.xml, ndis/NdisMGetBusData, netvista.ndismgetbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,11 +135,11 @@ This function replaces the NDIS 5.1
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
 
 
 

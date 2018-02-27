@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 91257BC3-C469-44D5-96E2-D1FA599963F1
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, E, P, U, UdecxUsbEndpointPurgeComplete, UdecxUsbEndpointPurgeComplete function [Buses], b, buses.udecxusbendpointpurgecomplete, c, d, e, g, i, l, m, n, o, p, r, s, t, u, udecxusbendpoint/UdecxUsbEndpointPurgeComplete, x"
+ms.keywords: UdecxUsbEndpointPurgeComplete, UdecxUsbEndpointPurgeComplete function [Buses], buses.udecxusbendpointpurgecomplete, udecxusbendpoint/UdecxUsbEndpointPurgeComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

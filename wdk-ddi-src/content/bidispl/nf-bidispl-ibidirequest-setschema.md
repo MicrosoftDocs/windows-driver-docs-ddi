@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ca4f7ea4-fcad-42b0-a63a-eee3706e5cbf
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, B, I, IBidiRequest, IBidiRequest interface [Print Devices], SetSchema method, IBidiRequest::SetSchema, R, S, SetSchema method [Print Devices], SetSchema method [Print Devices], IBidiRequest interface, SetSchema,IBidiRequest.SetSchema, _win32_IBidiRequest_SetSchema, a, bidispl/IBidiRequest::SetSchema, c, d, e, gdi.ibidirequest_ibidirequest__setschema, h, i, m, print.ibidirequest_ibidirequest__setschema, q, s, t, u"
+ms.keywords: IBidiRequest, IBidiRequest interface [Print Devices], SetSchema method, IBidiRequest::SetSchema, SetSchema method [Print Devices], SetSchema method [Print Devices], IBidiRequest interface, SetSchema,IBidiRequest.SetSchema, _win32_IBidiRequest_SetSchema, bidispl/IBidiRequest::SetSchema, gdi.ibidirequest_ibidirequest__setschema, print.ibidirequest_ibidirequest__setschema
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -124,15 +124,15 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 ## -see-also
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
 
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
+
+
+<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
 
 

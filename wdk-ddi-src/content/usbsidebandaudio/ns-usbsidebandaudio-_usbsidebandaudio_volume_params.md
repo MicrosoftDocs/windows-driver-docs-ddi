@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 253CD4CB-AC8D-4CA0-B620-EB1CC4DFD925
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , *, *PUSBSIDEBANDAUDIO_VOLUME_PARAMS, ,, A, B, D, E, I, L, M, N, O, P, PUSBSIDEBANDAUDIO_VOLUME_PARAMS, PUSBSIDEBANDAUDIO_VOLUME_PARAMS structure pointer [Audio Devices], R, S, U, USBSIDEBANDAUDIO_VOLUME_PARAMS, USBSIDEBANDAUDIO_VOLUME_PARAMS structure [Audio Devices], V, _, _USBSIDEBANDAUDIO_VOLUME_PARAMS, audio.usbsidebandaudio_volume_params, usbsidebandaudio/PUSBSIDEBANDAUDIO_VOLUME_PARAMS, usbsidebandaudio/USBSIDEBANDAUDIO_VOLUME_PARAMS"
+ms.keywords: "*PUSBSIDEBANDAUDIO_VOLUME_PARAMS, PUSBSIDEBANDAUDIO_VOLUME_PARAMS, PUSBSIDEBANDAUDIO_VOLUME_PARAMS structure pointer [Audio Devices], USBSIDEBANDAUDIO_VOLUME_PARAMS, USBSIDEBANDAUDIO_VOLUME_PARAMS structure [Audio Devices], _USBSIDEBANDAUDIO_VOLUME_PARAMS, audio.usbsidebandaudio_volume_params, usbsidebandaudio/PUSBSIDEBANDAUDIO_VOLUME_PARAMS, usbsidebandaudio/USBSIDEBANDAUDIO_VOLUME_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

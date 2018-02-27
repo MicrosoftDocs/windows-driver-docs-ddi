@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 10999175-4793-4045-8a74-a9a491724ec9
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, K, KeAcquireSpinLock, KeAcquireSpinLock routine [Kernel-Mode Driver Architecture], L, S, c, e, i, k, k105_387b61b6-b20f-4f17-be47-74c9ed3ac8a1.xml, kernel.keacquirespinlock, n, o, p, q, r, u, wdm/KeAcquireSpinLock"
+ms.keywords: KeAcquireSpinLock, KeAcquireSpinLock routine [Kernel-Mode Driver Architecture], k105_387b61b6-b20f-4f17-be47-74c9ed3ac8a1.xml, kernel.keacquirespinlock, wdm/KeAcquireSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -84,14 +84,14 @@ TBD
 
 
 
-#### - SpinLock [in]
-
-Pointer to an initialized spin lock for which the caller provides the storage.
-
-
 #### - OldIrql [out]
 
 Pointer to a variable that is set to the current IRQL when this call occurs.
+
+
+#### - SpinLock [in]
+
+Pointer to an initialized spin lock for which the caller provides the storage.
 
 
 ## -remarks
@@ -127,7 +127,7 @@ Attempting to acquire a spin lock recursively is guaranteed to cause a deadlock.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 
 
@@ -139,7 +139,7 @@ Attempting to acquire a spin lock recursively is guaranteed to cause a deadlock.
 
 
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
 
 

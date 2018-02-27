@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c61e343a-5276-4cb8-87ff-9852ad167ff5
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , DFRequestObjectRef_fdcaef98-5478-42af-a61e-669eec37907e.xml, M, O, R, W, WdfRequestRetrieveOutputMemory, WdfRequestRetrieveOutputMemory method, d, e, f, i, kmdf.wdfrequestretrieveoutputmemory, m, o, p, q, r, s, t, u, v, wdf.wdfrequestretrieveoutputmemory, wdfrequest/WdfRequestRetrieveOutputMemory, y"
+ms.keywords: DFRequestObjectRef_fdcaef98-5478-42af-a61e-669eec37907e.xml, WdfRequestRetrieveOutputMemory, WdfRequestRetrieveOutputMemory method, kmdf.wdfrequestretrieveoutputmemory, wdf.wdfrequestretrieveoutputmemory, wdfrequest/WdfRequestRetrieveOutputMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

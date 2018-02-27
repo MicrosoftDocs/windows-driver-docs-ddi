@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53270599-7e8e-491a-8d7b-05f550f100d3
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , P, R, U, V, VideoPortReadRegisterUchar, VideoPortReadRegisterUchar function [Display Devices], VideoPort_Functions_c8fea131-5f84-4f77-ab18-2ca8de12e598.xml, a, c, d, display.videoportreadregisteruchar, e, g, h, i, o, r, s, t, video/VideoPortReadRegisterUchar"
+ms.keywords: VideoPortReadRegisterUchar, VideoPortReadRegisterUchar function [Display Devices], VideoPort_Functions_c8fea131-5f84-4f77-ab18-2ca8de12e598.xml, display.videoportreadregisteruchar, video/VideoPortReadRegisterUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

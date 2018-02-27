@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1adb1dbf-3ec4-4e32-bfe8-cfcf992f67ca
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PISCSI_TargetPortal, ,, C, I, ISCSI_TargetPortal, ISCSI_TargetPortal structure [Storage Devices], P, PISCSI_TargetPortal, PISCSI_TargetPortal structure pointer [Storage Devices], S, T, _, _ISCSI_TargetPortal, a, e, g, iscsidef/ISCSI_TargetPortal, iscsidef/PISCSI_TargetPortal, l, o, r, storage.iscsi_targetportal, structs-iSCSI_fcbc99fd-e52d-45f4-b525-03c2d925f382.xml, t"
+ms.keywords: "*PISCSI_TargetPortal, ISCSI_TargetPortal, ISCSI_TargetPortal structure [Storage Devices], PISCSI_TargetPortal, PISCSI_TargetPortal structure pointer [Storage Devices], _ISCSI_TargetPortal, iscsidef/ISCSI_TargetPortal, iscsidef/PISCSI_TargetPortal, storage.iscsi_targetportal, structs-iSCSI_fcbc99fd-e52d-45f4-b525-03c2d925f382.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

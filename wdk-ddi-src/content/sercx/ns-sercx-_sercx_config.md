@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 2CBCBA07-C489-4475-A856-8748FBFDC141
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , *, *PSERCX_CONFIG, ,, 1/PSERCX_CONFIG, 1/SERCX_CONFIG, C, E, F, G, I, N, O, P, PSERCX_CONFIG, PSERCX_CONFIG structure pointer [Serial Ports], R, S, SERCX_CONFIG, SERCX_CONFIG structure [Serial Ports], X, _, _SERCX_CONFIG, serports.sercx_config"
+ms.keywords: "*PSERCX_CONFIG, 1/PSERCX_CONFIG, 1/SERCX_CONFIG, PSERCX_CONFIG, PSERCX_CONFIG structure pointer [Serial Ports], SERCX_CONFIG, SERCX_CONFIG structure [Serial Ports], _SERCX_CONFIG, serports.sercx_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -156,7 +156,23 @@ Before this structure is passed to the <a href="..\sercx\nf-sercx-sercxinitializ
 
 ## -see-also
 
+<a href="..\sercx\nf-sercx-sercx_config_init.md">SERCX_CONFIG_INIT</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx_control.md">EvtSerCxControl</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx_receive.md">EvtSerCxReceive</a>
+
+
+
 <a href="..\wdffdo\nf-wdffdo-wdffdoinitsetfilter.md">WdfFdoInitSetFilter</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx_fileopen.md">EvtSerCxFileOpen</a>
 
 
 
@@ -164,19 +180,11 @@ Before this structure is passed to the <a href="..\sercx\nf-sercx-sercxinitializ
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx_transmit.md">EvtSerCxTransmit</a>
+<a href="..\wdfio\ns-wdfio-_wdf_io_queue_config.md">WDF_IO_QUEUE_CONFIG</a>
 
 
 
 <a href="..\sercx\nc-sercx-evt_sercx_transmit_cancel.md">EvtSerCxTransmitCancel</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx_config_init.md">SERCX_CONFIG_INIT</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx_purge.md">EvtSerCxPurge</a>
 
 
 
@@ -188,11 +196,7 @@ Before this structure is passed to the <a href="..\sercx\nf-sercx-sercxinitializ
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx_control.md">EvtSerCxControl</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx_fileopen.md">EvtSerCxFileOpen</a>
+<a href="..\sercx\nc-sercx-evt_sercx_transmit.md">EvtSerCxTransmit</a>
 
 
 
@@ -200,19 +204,15 @@ Before this structure is passed to the <a href="..\sercx\nf-sercx-sercxinitializ
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx_apply_config.md">EvtSerCxApplyConfig</a>
-
-
-
 <a href="..\sercx\nc-sercx-evt_sercx_filecleanup.md">EvtSerCxFileCleanup</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx_receive.md">EvtSerCxReceive</a>
+<a href="..\sercx\nc-sercx-evt_sercx_apply_config.md">EvtSerCxApplyConfig</a>
 
 
 
-<a href="..\wdfio\ns-wdfio-_wdf_io_queue_config.md">WDF_IO_QUEUE_CONFIG</a>
+<a href="..\sercx\nc-sercx-evt_sercx_purge.md">EvtSerCxPurge</a>
 
 
 

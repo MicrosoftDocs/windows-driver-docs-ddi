@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6007723b-c7db-42da-bc50-328e19f80448
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , D, E, F, I, M, O, OEMFontInstallerDlgProc, OEMFontInstallerDlgProc function [Print Devices], P, a, c, e, g, l, n, o, print.oemfontinstallerdlgproc, print_obsoletefunctions_63eb736f-a9cd-4caf-823e-87b927d09c7a.xml, printoem/OEMFontInstallerDlgProc, r, s, t"
+ms.keywords: OEMFontInstallerDlgProc, OEMFontInstallerDlgProc function [Print Devices], print.oemfontinstallerdlgproc, print_obsoletefunctions_63eb736f-a9cd-4caf-823e-87b927d09c7a.xml, printoem/OEMFontInstallerDlgProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

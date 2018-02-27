@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4789e848-bb95-43e1-9768-8f94a475f9c8
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, D, I, IddCxDeviceInitConfig, IddCxDeviceInitConfig method [Display Devices], c, d, display.iddcxdeviceinitconfig, e, f, g, i, iddcx/IddCxDeviceInitConfig, n, o, t, v, x"
+ms.keywords: IddCxDeviceInitConfig, IddCxDeviceInitConfig method [Display Devices], display.iddcxdeviceinitconfig, iddcx/IddCxDeviceInitConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

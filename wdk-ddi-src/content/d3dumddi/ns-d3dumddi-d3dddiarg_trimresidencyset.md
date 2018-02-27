@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DEF219B9-115A-4B61-8014-266730CEBD30
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 3, A, C, D, D3DDDIARG_TRIMRESIDENCYSET, D3DDDIARG_TRIMRESIDENCYSET structure [Display Devices], E, G, I, M, N, R, S, T, Y, _, d3dumddi/D3DDDIARG_TRIMRESIDENCYSET, display.d3dddiarg_trimresidencyset"
+ms.keywords: D3DDDIARG_TRIMRESIDENCYSET, D3DDDIARG_TRIMRESIDENCYSET structure [Display Devices], d3dumddi/D3DDDIARG_TRIMRESIDENCYSET, display.d3dddiarg_trimresidencyset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

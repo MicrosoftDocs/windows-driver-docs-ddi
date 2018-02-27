@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8d54bf46-dc70-47a1-a391-6e32a7800a9e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , E, F, FsRtlIsNameInExpression, FsRtlIsNameInExpression routine [Installable File System Drivers], I, N, R, a, e, fsrtlref_719072fe-274b-482a-ba9c-4a21d4d2be21.xml, i, ifsk.fsrtlisnameinexpression, l, m, n, ntifs/FsRtlIsNameInExpression, o, p, r, s, t, x"
+ms.keywords: FsRtlIsNameInExpression, FsRtlIsNameInExpression routine [Installable File System Drivers], fsrtlref_719072fe-274b-482a-ba9c-4a21d4d2be21.xml, ifsk.fsrtlisnameinexpression, ntifs/FsRtlIsNameInExpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -175,11 +175,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisdbcsinexpression~r1.md">FsRtlIsDbcsInExpression</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

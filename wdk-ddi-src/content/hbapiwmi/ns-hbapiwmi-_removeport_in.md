@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2f32e44a-e4a6-4745-9749-fc611119cc0e
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PRemovePort_IN, ,, I, N, P, PRemovePort_IN, PRemovePort_IN structure pointer [Storage Devices], R, RemovePort_IN, RemovePort_IN structure [Storage Devices], _, _RemovePort_IN, e, hbapiwmi/PRemovePort_IN, hbapiwmi/RemovePort_IN, m, o, r, storage.removeport_in, structs-Fibre_f60e236f-5ed1-4cc2-b685-6ee40895736e.xml, t, v"
+ms.keywords: "*PRemovePort_IN, PRemovePort_IN, PRemovePort_IN structure pointer [Storage Devices], RemovePort_IN, RemovePort_IN structure [Storage Devices], _RemovePort_IN, hbapiwmi/PRemovePort_IN, hbapiwmi/RemovePort_IN, storage.removeport_in, structs-Fibre_f60e236f-5ed1-4cc2-b685-6ee40895736e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

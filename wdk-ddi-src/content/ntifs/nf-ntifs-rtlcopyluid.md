@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ebda25f4-77d6-4178-9ff8-b1f0e95df9f0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, L, R, RtlCopyLuid, RtlCopyLuid routine [Installable File System Drivers], d, i, ifsk.rtlcopyluid, l, ntifs/RtlCopyLuid, o, p, rtlref_467829b7-3661-490d-b5ed-1a0d543db2d7.xml, t, u, y"
+ms.keywords: RtlCopyLuid, RtlCopyLuid routine [Installable File System Drivers], ifsk.rtlcopyluid, ntifs/RtlCopyLuid, rtlref_467829b7-3661-490d-b5ed-1a0d543db2d7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,15 +100,15 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
-
-
-
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-sequeryauthenticationidtoken.md">SeQueryAuthenticationIdToken</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
 
 
 

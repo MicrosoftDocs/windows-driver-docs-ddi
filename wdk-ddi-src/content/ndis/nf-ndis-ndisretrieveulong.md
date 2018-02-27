@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 41788885-d8a1-4459-82a0-261b39862530
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , N, NdisRetrieveUlong, NdisRetrieveUlong macro [Network Drivers Starting with Windows Vista], R, U, d, e, g, i, l, n, ndis/NdisRetrieveUlong, ndis_memory_ref_929d856f-6798-499a-aa9a-0f5e7181b972.xml, netvista.ndisretrieveulong, o, r, s, t, v"
+ms.keywords: NdisRetrieveUlong, NdisRetrieveUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisRetrieveUlong, ndis_memory_ref_929d856f-6798-499a-aa9a-0f5e7181b972.xml, netvista.ndisretrieveulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7dfa36be-ab05-478d-b47a-783e599545bf
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PSM_GetBindingCapability_OUT, ,, B, C, G, M, O, P, PSM_GetBindingCapability_OUT, PSM_GetBindingCapability_OUT structure pointer [Storage Devices], S, SM_GetBindingCapability_OUT, SM_GetBindingCapability_OUT structure [Storage Devices], T, U, _, _SM_GetBindingCapability_OUT, a, b, d, e, g, hbapiwmi/PSM_GetBindingCapability_OUT, hbapiwmi/SM_GetBindingCapability_OUT, i, l, n, p, storage.sm_getbindingcapability_out, structs-Fibre_00260060-51c3-4d04-94a2-bad7903f0e6e.xml, t, y"
+ms.keywords: "*PSM_GetBindingCapability_OUT, PSM_GetBindingCapability_OUT, PSM_GetBindingCapability_OUT structure pointer [Storage Devices], SM_GetBindingCapability_OUT, SM_GetBindingCapability_OUT structure [Storage Devices], _SM_GetBindingCapability_OUT, hbapiwmi/PSM_GetBindingCapability_OUT, hbapiwmi/SM_GetBindingCapability_OUT, storage.sm_getbindingcapability_out, structs-Fibre_00260060-51c3-4d04-94a2-bad7903f0e6e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

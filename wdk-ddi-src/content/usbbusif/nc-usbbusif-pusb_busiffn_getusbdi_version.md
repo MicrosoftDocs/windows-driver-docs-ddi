@@ -1,6 +1,6 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_GETUSBDI_VERSION
-title: PUSB_BUSIFFN_GETUSBDI_VERSION
+title: USB_BUSIFFN_GETUSBDI_VERSION
 author: windows-driver-content
 description: The GetUSBDIVersion routine returns the USB interface version number and the version number of the USB specification that defines the interface, along with information about host controller capabilities.
 old-location: buses\getusbdiversion.htm
@@ -86,14 +86,14 @@ VOID GetUSBDIVersion(
 Handle returned in the <b>BusContext</b> member of the <a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v0.md">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
 
 
-#### - VersionInformation [out, optional]
-
-Returns a pointer to a <a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a> structure that contains the USB interface version number and the USB specification version number. 
-
-
 #### - HcdCapabilities [out, optional]
 
 Returns the host capability flags. Currently, no host capability flags are reported.
+
+
+#### - VersionInformation [out, optional]
+
+Returns a pointer to a <a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a> structure that contains the USB interface version number and the USB specification version number. 
 
 
 ## -returns
@@ -128,11 +128,11 @@ The function definition that is provided on this reference page is an example fu
 
 
 
-<a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a>
-
-
-
 <a href="..\usbdlib\nf-usbdlib-usbd_getusbdiversion.md">USBD_GetUSBDIVersion</a>
+
+
+
+<a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a>
 
 
 

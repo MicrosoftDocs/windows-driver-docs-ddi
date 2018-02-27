@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93db9d51-3f80-47ff-a2c2-3c937b5dcf7b
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , E, P, S, V, VideoPortSetEvent, VideoPortSetEvent function [Display Devices], VideoPort_Functions_8efce2e2-f5e7-402a-a5bf-03c23ac85992.xml, d, display.videoportsetevent, e, i, n, o, r, t, v, video/VideoPortSetEvent"
+ms.keywords: VideoPortSetEvent, VideoPortSetEvent function [Display Devices], VideoPort_Functions_8efce2e2-f5e7-402a-a5bf-03c23ac85992.xml, display.videoportsetevent, video/VideoPortSetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

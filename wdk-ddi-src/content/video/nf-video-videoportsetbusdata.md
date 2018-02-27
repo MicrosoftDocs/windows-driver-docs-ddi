@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2a9ce391-718e-4be0-9699-7612b63d31f0
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, D, P, S, V, VideoPortSetBusData, VideoPortSetBusData function [Display Devices], VideoPort_Functions_e7db4c76-eae1-4e06-9969-1e2b8fc71faf.xml, a, d, display.videoportsetbusdata, e, i, o, r, s, t, u, video/VideoPortSetBusData"
+ms.keywords: VideoPortSetBusData, VideoPortSetBusData function [Display Devices], VideoPort_Functions_e7db4c76-eae1-4e06-9969-1e2b8fc71faf.xml, display.videoportsetbusdata, video/VideoPortSetBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,7 +94,7 @@ For a <i>BusDataType</i> value of <b>Cmos</b>, specifies the location of the dev
 
 Pointer to a caller-supplied storage area with configuration information specific to <i>BusDataType</i>.
 
-When <b>PCIConfiguration</b> is specified, the buffer contains some or all of the <a href="..\miniport\ns-miniport-_pci_common_config.md">PCI_COMMON_CONFIG</a> information for the given <i>SlotNumber</i>. The specified <i>Offset</i> and <i>Length</i> determine how much information is supplied.
+When <b>PCIConfiguration</b> is specified, the buffer contains some or all of the <a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a> information for the given <i>SlotNumber</i>. The specified <i>Offset</i> and <i>Length</i> determine how much information is supplied.
 
 
 ### -param Offset
@@ -131,19 +131,11 @@ For example, a miniport driver might call <b>VideoPortSetBusData</b> to clear a 
 
 ## -see-also
 
-<a href="..\miniport\ns-miniport-_pci_common_config.md">PCI_COMMON_CONFIG</a>
-
-
-
 <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
 
 
 
-<a href="..\miniport\ns-miniport-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
-
-
-
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
 
 
 
@@ -152,6 +144,14 @@ For example, a miniport driver might call <b>VideoPortSetBusData</b> to clear a 
 
 
 <a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
+
+
+
+<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 
 

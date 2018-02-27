@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: EA1C2DF3-591C-407A-ABBF-DE615466A498
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , D, F, N, R, RtlDrainNonVolatileFlush, RtlDrainNonVolatileFlush routine [Installable File System Drivers], V, a, e, h, i, ifsk.rtldrainnonvolatileflush, l, n, ntddk/RtlDrainNonVolatileFlush, o, r, s, t, u"
+ms.keywords: RtlDrainNonVolatileFlush, RtlDrainNonVolatileFlush routine [Installable File System Drivers], ifsk.rtldrainnonvolatileflush, ntddk/RtlDrainNonVolatileFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,15 +124,12 @@ The request was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/A9E866D4-C47F-4926-A838-EDB739CF1185">RtlGetNonVolatileToken</a>
-
-
-
-<a href="https://msdn.microsoft.com/169C5F41-B372-4056-AAC5-53DD0582A563">RtlFlushNonVolatileMemoryRanges</a>
-
-
-
 <a href="https://msdn.microsoft.com/49DDDEF8-F949-4674-A18B-9BB091D163C2">RtlWriteNonVolatileMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/759CDFAA-D939-44E7-AE03-E3ED90F8E09D">
+RtlFlushNonVolatileMemory</a>
 
 
 
@@ -140,8 +137,11 @@ The request was successful.
 
 
 
-<a href="https://msdn.microsoft.com/759CDFAA-D939-44E7-AE03-E3ED90F8E09D">
-RtlFlushNonVolatileMemory</a>
+<a href="https://msdn.microsoft.com/169C5F41-B372-4056-AAC5-53DD0582A563">RtlFlushNonVolatileMemoryRanges</a>
+
+
+
+<a href="https://msdn.microsoft.com/A9E866D4-C47F-4926-A838-EDB739CF1185">RtlGetNonVolatileToken</a>
 
 
 

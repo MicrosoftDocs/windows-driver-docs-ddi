@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1b66f203-1c74-4b5e-82ae-7dfdc88da2b4
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS, D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS structure [Display Devices], E, I, N, O, P, R, S, T, V, _, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS, display.d3d11_1ddi_video_processor_rate_conversion_caps"
+ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS, D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS, display.d3d11_1ddi_video_processor_rate_conversion_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

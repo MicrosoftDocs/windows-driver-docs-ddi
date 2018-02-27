@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: D2F7C90E-BAF4-419D-94CF-5FC39E7B6A58
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , *, *PGNSS_NI_RESPONSE, ,, E, G, GNSS_NI_RESPONSE, GNSS_NI_RESPONSE structure [Sensor Devices], I, N, O, P, PGNSS_NI_RESPONSE, PGNSS_NI_RESPONSE structure pointer [Sensor Devices], R, S, _, gnssdriver/GNSS_NI_RESPONSE, gnssdriver/PGNSS_NI_RESPONSE, sensors.gnss_ni_response"
+ms.keywords: "*PGNSS_NI_RESPONSE, GNSS_NI_RESPONSE, GNSS_NI_RESPONSE structure [Sensor Devices], PGNSS_NI_RESPONSE, PGNSS_NI_RESPONSE structure pointer [Sensor Devices], gnssdriver/GNSS_NI_RESPONSE, gnssdriver/PGNSS_NI_RESPONSE, sensors.gnss_ni_response"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

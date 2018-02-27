@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 95f97b95-fdb1-43f2-b733-4054adda4c41
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , DFWMIRef_56a3eb85-855f-4ad9-ad81-c630fecf98b3.xml, I, R, W, WdfWmiInstanceRegister, WdfWmiInstanceRegister method, a, c, d, e, f, g, i, kmdf.wdfwmiinstanceregister, m, n, r, s, t, wdf.wdfwmiinstanceregister, wdfwmi/WdfWmiInstanceRegister"
+ms.keywords: DFWMIRef_56a3eb85-855f-4ad9-ad81-c630fecf98b3.xml, WdfWmiInstanceRegister, WdfWmiInstanceRegister method, kmdf.wdfwmiinstanceregister, wdf.wdfwmiinstanceregister, wdfwmi/WdfWmiInstanceRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,7 +142,7 @@ status = WdfWmiInstanceRegister(wmiInstance);</pre>
 
 ## -see-also
 
-<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
 
 
@@ -150,7 +150,7 @@ status = WdfWmiInstanceRegister(wmiInstance);</pre>
 
 
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a>
 
 
 

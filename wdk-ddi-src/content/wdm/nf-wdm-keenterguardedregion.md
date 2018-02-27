@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9a21495e-8a4d-4177-a2c5-b6a928d86fd9
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , E, G, K, KeEnterGuardedRegion, KeEnterGuardedRegion routine [Kernel-Mode Driver Architecture], R, a, d, e, g, i, k105_0f632d64-85dc-4c0f-8a26-8b4710673ab5.xml, kernel.keenterguardedregion, n, o, r, t, u, wdm/KeEnterGuardedRegion"
+ms.keywords: KeEnterGuardedRegion, KeEnterGuardedRegion routine [Kernel-Mode Driver Architecture], k105_0f632d64-85dc-4c0f-8a26-8b4710673ab5.xml, kernel.keenterguardedregion, wdm/KeEnterGuardedRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

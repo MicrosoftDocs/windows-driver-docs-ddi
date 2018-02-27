@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9d58acda-07b6-4dc2-8f6a-83c6e8bd8e44
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PKSPROPERTY_TUNER_CAPS_S, ,, A, C, E, K, KSPROPERTY_TUNER_CAPS_S, KSPROPERTY_TUNER_CAPS_S structure [Streaming Media Devices], N, O, P, PKSPROPERTY_TUNER_CAPS_S, PKSPROPERTY_TUNER_CAPS_S structure pointer [Streaming Media Devices], R, S, T, U, Y, _, ksmedia/KSPROPERTY_TUNER_CAPS_S, ksmedia/PKSPROPERTY_TUNER_CAPS_S, stream.ksproperty_tuner_caps_s, vidcapstruct_28e3b0b2-5b4e-404a-8ade-d5d9c1870ae5.xml"
+ms.keywords: "*PKSPROPERTY_TUNER_CAPS_S, KSPROPERTY_TUNER_CAPS_S, KSPROPERTY_TUNER_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_CAPS_S, PKSPROPERTY_TUNER_CAPS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_CAPS_S, ksmedia/PKSPROPERTY_TUNER_CAPS_S, stream.ksproperty_tuner_caps_s, vidcapstruct_28e3b0b2-5b4e-404a-8ade-d5d9c1870ae5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -156,7 +156,7 @@ Specifies a unique GUID representing the hardware connection of the analog radio
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565842">KSPROPERTY_TUNER_IF_MEDIUM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
 
 
 
@@ -164,11 +164,11 @@ Specifies a unique GUID representing the hardware connection of the analog radio
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565842">KSPROPERTY_TUNER_IF_MEDIUM</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565825">KSPROPERTY_TUNER_CAPS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
 
 
 

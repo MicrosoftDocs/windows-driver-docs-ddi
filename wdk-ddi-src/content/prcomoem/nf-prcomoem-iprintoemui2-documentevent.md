@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c98d1510-7db8-4fd6-a95f-1906f553d1c5
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, D, DocumentEvent method [Print Devices], DocumentEvent method [Print Devices], IPrintOemUI2 interface, DocumentEvent,IPrintOemUI2.DocumentEvent, E, I, IPrintOemUI2, IPrintOemUI2 interface [Print Devices], DocumentEvent method, IPrintOemUI2::DocumentEvent, O, P, U, c, e, i, m, n, o, prcomoem/IPrintOemUI2::DocumentEvent, print.iprintoemui2_documentevent, print_unidrv-pscript_ui_03e403e4-7b60-413c-a8d2-025b3124f427.xml, r, t, u, v"
+ms.keywords: DocumentEvent method [Print Devices], DocumentEvent method [Print Devices], IPrintOemUI2 interface, DocumentEvent,IPrintOemUI2.DocumentEvent, IPrintOemUI2, IPrintOemUI2 interface [Print Devices], DocumentEvent method, IPrintOemUI2::DocumentEvent, prcomoem/IPrintOemUI2::DocumentEvent, print.iprintoemui2_documentevent, print_unidrv-pscript_ui_03e403e4-7b60-413c-a8d2-025b3124f427.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -603,11 +603,7 @@ For a plug-in writer who is implementing the <b>IPrintOemUI2</b> interface, but 
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintoemui2.md">IPrintOemUI2</a>
+<a href="..\winddiui\ns-winddiui-_docevent_filter.md">DOCEVENT_FILTER</a>
 
 
 
@@ -619,7 +615,11 @@ For a plug-in writer who is implementing the <b>IPrintOemUI2</b> interface, but 
 
 
 
-<a href="..\winddiui\ns-winddiui-_docevent_filter.md">DOCEVENT_FILTER</a>
+<a href="..\prcomoem\nn-prcomoem-iprintoemui2.md">IPrintOemUI2</a>
+
+
+
+<a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
 
 
 

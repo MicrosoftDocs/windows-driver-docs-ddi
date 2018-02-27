@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 329e0036-2d67-465f-a049-a36648622003
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *LPD3DHAL_DP2ZRANGE, ,, 2, 3, A, D, D3DHAL_DP2ZRANGE, D3DHAL_DP2ZRANGE structure [Display Devices], E, G, H, L, LPD3DHAL_DP2ZRANGE, LPD3DHAL_DP2ZRANGE structure pointer [Display Devices], N, P, R, Z, _, _D3DHAL_DP2ZRANGE, d3dhal/D3DHAL_DP2ZRANGE, d3dhal/LPD3DHAL_DP2ZRANGE, d3dstrct_327e85bf-81c0-420e-b229-e389115fcab3.xml, display.d3dhal_dp2zrange"
+ms.keywords: "*LPD3DHAL_DP2ZRANGE, D3DHAL_DP2ZRANGE, D3DHAL_DP2ZRANGE structure [Display Devices], LPD3DHAL_DP2ZRANGE, LPD3DHAL_DP2ZRANGE structure pointer [Display Devices], _D3DHAL_DP2ZRANGE, d3dhal/D3DHAL_DP2ZRANGE, d3dhal/LPD3DHAL_DP2ZRANGE, d3dstrct_327e85bf-81c0-420e-b229-e389115fcab3.xml, display.d3dhal_dp2zrange"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

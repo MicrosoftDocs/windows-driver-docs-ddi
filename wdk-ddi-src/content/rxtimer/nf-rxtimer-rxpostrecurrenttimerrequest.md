@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a44fb478-4f78-415e-b557-bf383199578c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , P, R, RxPostRecurrentTimerRequest, RxPostRecurrentTimerRequest routine [Installable File System Drivers], T, c, e, i, ifsk.rxpostrecurrenttimerrequest, m, n, o, q, r, rxref_64318843-28af-4351-9273-06061b94578f.xml, rxtimer/RxPostRecurrentTimerRequest, s, t, u, x"
+ms.keywords: RxPostRecurrentTimerRequest, RxPostRecurrentTimerRequest routine [Installable File System Drivers], ifsk.rxpostrecurrenttimerrequest, rxref_64318843-28af-4351-9273-06061b94578f.xml, rxtimer/RxPostRecurrentTimerRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

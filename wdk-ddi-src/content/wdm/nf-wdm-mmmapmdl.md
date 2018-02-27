@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4272f7a2-9379-40dd-a0a1-784dd25bc8bc
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , M, MmMapMdl, MmMapMdl function [Kernel-Mode Driver Architecture], a, d, kernel.mmmapmdl, l, m, p, wdm/MmMapMdl"
+ms.keywords: MmMapMdl, MmMapMdl function [Kernel-Mode Driver Architecture], kernel.mmmapmdl, wdm/MmMapMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

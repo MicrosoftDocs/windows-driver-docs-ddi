@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: CADB17C6-07EA-4497-AA73-4AECCC1D0A45
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , A, P, PcAddStreamResource, PcAddStreamResource function [Audio Devices], R, S, a, audio.pcaddstreamresource, c, d, e, m, o, portcls/PcAddStreamResource, r, s, t, u"
+ms.keywords: PcAddStreamResource, PcAddStreamResource function [Audio Devices], audio.pcaddstreamresource, portcls/PcAddStreamResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

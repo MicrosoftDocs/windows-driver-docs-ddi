@@ -85,11 +85,7 @@ The GetDebuggeeType2 method describes the nature of the current target.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol6.md">IDebugControl6</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
 
 
 
@@ -97,7 +93,11 @@ The GetDebuggeeType2 method describes the nature of the current target.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol6.md">IDebugControl6</a>
 
 
 

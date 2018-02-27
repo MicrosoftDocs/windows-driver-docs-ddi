@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: b021211a-3f72-47ff-9e69-bbf3807f4ec4
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, B, C, E, F, H, I, N, O, R, S, T, U, USBD_SHORT_TRANSFER_OK, USBD_START_ISO_TRANSFER_ASAP, USBD_TRANSFER_DIRECTION_IN, _, _URB_ISOCH_TRANSFER, _URB_ISOCH_TRANSFER structure [Buses], buses._urb_isoch_transfer, usb/_URB_ISOCH_TRANSFER, usbstrct_5a064ef7-b08f-405f-8d73-22fea138ac29.xml"
+ms.keywords: USBD_SHORT_TRANSFER_OK, USBD_START_ISO_TRANSFER_ASAP, USBD_TRANSFER_DIRECTION_IN, _URB_ISOCH_TRANSFER, _URB_ISOCH_TRANSFER structure [Buses], buses._urb_isoch_transfer, usb/_URB_ISOCH_TRANSFER, usbstrct_5a064ef7-b08f-405f-8d73-22fea138ac29.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -297,19 +297,7 @@ Treat other members that are part of this structure but not described here as op
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406225">How to Transfer Data to USB Isochronous Endpoints</a>
-
-
-
 <a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 
 
@@ -317,7 +305,19 @@ Treat other members that are part of this structure but not described here as op
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406225">How to Transfer Data to USB Isochronous Endpoints</a>
+
+
+
 <a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 
 

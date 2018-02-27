@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 69E2090F-02A6-43FB-85CB-E482B9142645
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PBDA_STRING, ,, A, B, BDA_STRING, BDA_STRING structure [Streaming Media Devices], D, G, I, N, P, PBDA_STRING, PBDA_STRING structure pointer [Streaming Media Devices], R, S, T, _, _BDA_STRING, bdatypes/BDA_STRING, bdatypes/PBDA_STRING, stream.bda_string"
+ms.keywords: "*PBDA_STRING, BDA_STRING, BDA_STRING structure [Streaming Media Devices], PBDA_STRING, PBDA_STRING structure pointer [Streaming Media Devices], _BDA_STRING, bdatypes/BDA_STRING, bdatypes/PBDA_STRING, stream.bda_string"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

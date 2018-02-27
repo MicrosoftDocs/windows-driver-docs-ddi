@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: da244ee1-abb5-4b3f-8b2c-6726fbf32e76
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , ,, A, C, D, E, G, H, I, K, L, M, N, O, P, R, RILCAPSLOCKINGPWDLENGTHPARAMMASK, RILCAPSLOCKINGPWDLENGTHPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CLPL_ALL, RIL_PARAM_CLPL_PASSWORDLENGTH, S, T, W, netvista.rilcapslockingpwdlengthparammask_2, rilapitypes/RILCAPSLOCKINGPWDLENGTHPARAMMASK, rilapitypes/RIL_PARAM_CLPL_ALL, rilapitypes/RIL_PARAM_CLPL_PASSWORDLENGTH"
+ms.keywords: RILCAPSLOCKINGPWDLENGTHPARAMMASK, RILCAPSLOCKINGPWDLENGTHPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CLPL_ALL, RIL_PARAM_CLPL_PASSWORDLENGTH, netvista.rilcapslockingpwdlengthparammask_2, rilapitypes/RILCAPSLOCKINGPWDLENGTHPARAMMASK, rilapitypes/RIL_PARAM_CLPL_ALL, rilapitypes/RIL_PARAM_CLPL_PASSWORDLENGTH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

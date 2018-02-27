@@ -163,15 +163,7 @@ A <i>HwVidInterrupt</i> function cannot be pageable, nor can any function that i
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566461">Functions Exported by the Video Port Driver</a>
-
-
-
-<a href="..\video\nf-video-videoportstallexecution.md">VideoPortStallExecution</a>
+<a href="..\video\nf-video-videoportdisableinterrupt.md">VideoPortDisableInterrupt</a>
 
 
 
@@ -179,15 +171,11 @@ A <i>HwVidInterrupt</i> function cannot be pageable, nor can any function that i
 
 
 
-<a href="..\video\nf-video-videoportdisableinterrupt.md">VideoPortDisableInterrupt</a>
-
-
-
-<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
-
-
-
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
+
+<a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
 
 
 
@@ -196,6 +184,18 @@ A <i>HwVidInterrupt</i> function cannot be pageable, nor can any function that i
 
 
 <a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+
+
+
+<a href="..\video\nf-video-videoportstallexecution.md">VideoPortStallExecution</a>
+
+
+
+<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566461">Functions Exported by the Video Port Driver</a>
 
 
 

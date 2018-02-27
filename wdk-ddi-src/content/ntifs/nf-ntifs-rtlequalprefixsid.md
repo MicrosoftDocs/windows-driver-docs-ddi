@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6db96d3b-721f-40d5-8f8d-54cdd33f85c8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , E, P, R, RtlEqualPrefixSid, RtlEqualPrefixSid routine [Installable File System Drivers], S, a, d, e, f, i, ifsk.rtlequalprefixsid, l, ntifs/RtlEqualPrefixSid, q, r, rtlref_67b0c7e1-647f-426a-8d9d-dde2d98b0cc3.xml, t, u, x"
+ms.keywords: RtlEqualPrefixSid, RtlEqualPrefixSid routine [Installable File System Drivers], ifsk.rtlequalprefixsid, ntifs/RtlEqualPrefixSid, rtlref_67b0c7e1-647f-426a-8d9d-dde2d98b0cc3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,11 +104,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
 
 
 
@@ -116,7 +116,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
+<a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 32c40be2-dee0-4ac7-9f78-a64b9f985f51
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , DFTimerObjectRef_42b50b58-85f6-4f1b-9824-f1c9ed675371.xml, S, T, W, WdfTimerStart, WdfTimerStart method, a, d, e, f, i, kmdf.wdftimerstart, m, r, t, wdf.wdftimerstart, wdftimer/WdfTimerStart"
+ms.keywords: DFTimerObjectRef_42b50b58-85f6-4f1b-9824-f1c9ed675371.xml, WdfTimerStart, WdfTimerStart method, kmdf.wdftimerstart, wdf.wdftimerstart, wdftimer/WdfTimerStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -156,6 +156,10 @@ inTimerQueue = WdfTimerStart(
 
 ## -see-also
 
+<a href="..\wdftimer\nf-wdftimer-wdftimerstop.md">WdfTimerStop</a>
+
+
+
 <a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>
 
 
@@ -165,10 +169,6 @@ inTimerQueue = WdfTimerStart(
 
 
 <a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
-
-
-
-<a href="..\wdftimer\nf-wdftimer-wdftimerstop.md">WdfTimerStop</a>
 
 
 

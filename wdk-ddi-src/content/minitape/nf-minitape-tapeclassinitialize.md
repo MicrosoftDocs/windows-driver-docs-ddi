@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f1c70ca5-2caf-4758-99bb-221af0a79211
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, I, T, TapeClassInitialize, TapeClassInitialize routine [Storage Devices], a, e, i, l, minitape/TapeClassInitialize, n, p, s, storage.tapeclassinitialize, t, tapeclas_92bf66d9-2a7b-4853-ad25-b6f854533a4e.xml, z"
+ms.keywords: TapeClassInitialize, TapeClassInitialize routine [Storage Devices], minitape/TapeClassInitialize, storage.tapeclassinitialize, tapeclas_92bf66d9-2a7b-4853-ad25-b6f854533a4e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

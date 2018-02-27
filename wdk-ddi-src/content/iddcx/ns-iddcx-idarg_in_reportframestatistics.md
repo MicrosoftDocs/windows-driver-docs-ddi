@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3d3e0dca-bb05-4e5c-aa4a-76bb178f60bf
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, C, D, E, F, G, I, IDARG_IN_REPORTFRAMESTATISTICS, IDARG_IN_REPORTFRAMESTATISTICS structure [Display Devices], M, N, O, P, R, S, T, _, display.idarg_in_reportframestatistics, iddcx/IDARG_IN_REPORTFRAMESTATISTICS"
+ms.keywords: IDARG_IN_REPORTFRAMESTATISTICS, IDARG_IN_REPORTFRAMESTATISTICS structure [Display Devices], display.idarg_in_reportframestatistics, iddcx/IDARG_IN_REPORTFRAMESTATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

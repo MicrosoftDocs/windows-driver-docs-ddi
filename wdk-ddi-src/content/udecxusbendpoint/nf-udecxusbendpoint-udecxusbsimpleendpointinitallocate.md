@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1BF79756-F55D-4F13-A03C-35F7880C5B21
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, E, I, S, U, UdecxUsbSimpleEndpointInitAllocate, UdecxUsbSimpleEndpointInitAllocate function [Buses], a, b, buses.udecxusbsimpleendpointinitallocate, c, d, e, i, l, m, n, o, p, s, t, udecxusbendpoint/UdecxUsbSimpleEndpointInitAllocate, x"
+ms.keywords: UdecxUsbSimpleEndpointInitAllocate, UdecxUsbSimpleEndpointInitAllocate function [Buses], buses.udecxusbsimpleendpointinitallocate, udecxusbendpoint/UdecxUsbSimpleEndpointInitAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

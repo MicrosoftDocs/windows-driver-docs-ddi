@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 74c6789e-22a6-42e9-bc14-8b9f93da668b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , B, D, F, M, N, NdisMSetVirtualFunctionBusData, NdisMSetVirtualFunctionBusData function [Network Drivers Starting with Windows Vista], S, V, a, c, d, e, i, l, n, ndis/NdisMSetVirtualFunctionBusData, netvista.ndismsetvirtualfunctionbusdata, o, r, s, t, u"
+ms.keywords: NdisMSetVirtualFunctionBusData, NdisMSetVirtualFunctionBusData function [Network Drivers Starting with Windows Vista], ndis/NdisMSetVirtualFunctionBusData, netvista.ndismsetvirtualfunctionbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

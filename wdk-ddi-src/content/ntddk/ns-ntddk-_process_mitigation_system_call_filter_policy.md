@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6a64ae8d-43e3-4ebd-b10b-2ae8e607071f
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PPROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY, ,, A, C, E, F, G, I, L, M, N, O, P, PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY, PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY structure [Kernel-Mode Driver Architecture], R, S, T, Y, _, _PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY, kernel.process_mitigation_system_call_filter_policy, ntddk/PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY"
+ms.keywords: "*PPROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY, PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY, PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY structure [Kernel-Mode Driver Architecture], _PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY, kernel.process_mitigation_system_call_filter_policy, ntddk/PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

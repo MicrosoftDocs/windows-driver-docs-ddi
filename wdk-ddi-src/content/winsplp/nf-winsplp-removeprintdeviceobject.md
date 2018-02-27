@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: D94A669E-4293-4235-8BC4-C7883BB0C83C
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , D, O, P, R, RemovePrintDeviceObject, RemovePrintDeviceObject function [Print Devices], b, c, e, i, j, m, n, o, print.removeprintdeviceobject, r, t, v, winsplp/RemovePrintDeviceObject"
+ms.keywords: RemovePrintDeviceObject, RemovePrintDeviceObject function [Print Devices], print.removeprintdeviceobject, winsplp/RemovePrintDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 650ad98a-81e5-4ec8-b276-a5dc79366652
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, C, CommitPnpState method, CommitPnpState method, IWDFDevice interface, CommitPnpState,IWDFDevice.CommitPnpState, D, F, I, IWDFDevice, IWDFDevice interface, CommitPnpState method, IWDFDevice::CommitPnpState, P, S, UMDFDeviceObjectRef_51342f9e-fc5f-4100-8c5c-bc58d7569529.xml, W, a, c, e, i, m, n, o, p, t, umdf.iwdfdevice_commitpnpstate, v, wdf.iwdfdevice_commitpnpstate, wudfddi/IWDFDevice::CommitPnpState"
+ms.keywords: CommitPnpState method, CommitPnpState method, IWDFDevice interface, CommitPnpState,IWDFDevice.CommitPnpState, IWDFDevice, IWDFDevice interface, CommitPnpState method, IWDFDevice::CommitPnpState, UMDFDeviceObjectRef_51342f9e-fc5f-4100-8c5c-bc58d7569529.xml, umdf.iwdfdevice_commitpnpstate, wdf.iwdfdevice_commitpnpstate, wudfddi/IWDFDevice::CommitPnpState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

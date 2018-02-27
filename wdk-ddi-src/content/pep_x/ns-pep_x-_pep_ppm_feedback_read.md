@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9D5787B8-CEF4-49AA-B7C6-C200AC95A280
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PPEP_PPM_FEEDBACK_READ, ,, A, B, C, D, E, F, K, M, P, PEP_PPM_FEEDBACK_READ, PEP_PPM_FEEDBACK_READ structure [Kernel-Mode Driver Architecture], PPEP_PPM_FEEDBACK_READ, PPEP_PPM_FEEDBACK_READ structure pointer [Kernel-Mode Driver Architecture], R, _, _PEP_PPM_FEEDBACK_READ, kernel.pep_ppm_feedback_read, pepfx/PEP_PPM_FEEDBACK_READ, pepfx/PPEP_PPM_FEEDBACK_READ"
+ms.keywords: "*PPEP_PPM_FEEDBACK_READ, PEP_PPM_FEEDBACK_READ, PEP_PPM_FEEDBACK_READ structure [Kernel-Mode Driver Architecture], PPEP_PPM_FEEDBACK_READ, PPEP_PPM_FEEDBACK_READ structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_FEEDBACK_READ, kernel.pep_ppm_feedback_read, pepfx/PEP_PPM_FEEDBACK_READ, pepfx/PPEP_PPM_FEEDBACK_READ"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,28 +120,6 @@ The nominal accumulated count and actual count, if the counter hardware generate
 [out] The actual value read from the counter.
 
 
-##### - ( unnamed union ).InstantaneousValue
-
-[out] The current instantaneous value read from the counter, if the counter generates an instantaneous value.
-
-
-##### - ( unnamed union ).( unnamed struct )
-
-The nominal accumulated count and actual count, if the counter hardware generates a relative value.
-
-
-
-##### ( unnamed struct ).NominalCount
-
-[out] The nominal accumulated value of the counter. The accumulated value is the sum of all actual values that have so far been read from the counter hardware.
-
-
-
-##### ( unnamed struct ).ActualCount
-
-[out] The actual value read from the counter.
-
-
 ## -remarks
 
 
@@ -159,11 +137,11 @@ Both an instantaneous counter and a relative counter are reset to zero when powe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186802">PEP_NOTIFY_PPM_FEEDBACK_READ</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186802">PEP_NOTIFY_PPM_FEEDBACK_READ</a>
 
 
 

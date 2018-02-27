@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bed68aa8-499d-41fd-997b-a46316913cc8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , D, M, N, NdisMRegisterMiniportDriver, NdisMRegisterMiniportDriver function [Network Drivers Starting with Windows Vista], R, d, e, g, i, miniport_ndis_functions_ref_d6406d6d-f738-4f65-90af-38038b188cc7.xml, n, ndis/NdisMRegisterMiniportDriver, netvista.ndismregisterminiportdriver, o, p, r, s, t, v"
+ms.keywords: NdisMRegisterMiniportDriver, NdisMRegisterMiniportDriver function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_d6406d6d-f738-4f65-90af-38038b188cc7.xml, ndis/NdisMRegisterMiniportDriver, netvista.ndismregisterminiportdriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -244,12 +244,12 @@ If an error occurs in
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
-   NdisMDeregisterMiniportDriver</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">
+   NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
 
 
 
@@ -261,12 +261,12 @@ If an error occurs in
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">
-   NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
+<a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
+   NdisMDeregisterMiniportDriver</a>
 
 
 

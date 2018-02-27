@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dfff350c-ff76-49d3-b4ba-a5a51fabd419
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, M, T, TapeClassCompareMemory, TapeClassCompareMemory routine [Storage Devices], a, e, l, m, minitape/TapeClassCompareMemory, o, p, r, s, storage.tapeclasscomparememory, tapeclas_77631fdd-b72a-4569-8066-54f260cb4d9a.xml, y"
+ms.keywords: TapeClassCompareMemory, TapeClassCompareMemory routine [Storage Devices], minitape/TapeClassCompareMemory, storage.tapeclasscomparememory, tapeclas_77631fdd-b72a-4569-8066-54f260cb4d9a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

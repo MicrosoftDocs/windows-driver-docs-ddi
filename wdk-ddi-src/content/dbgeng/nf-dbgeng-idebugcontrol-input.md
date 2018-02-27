@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8a37bce1-762b-4a08-a677-ed2e484c1bba
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, D, I, IDebugControl, IDebugControl interface [Windows Debugging], Input method, IDebugControl::Input, IDebugControl_10615761-d032-439f-955b-220def3835a9.xml, Input method [Windows Debugging], Input method [Windows Debugging], IDebugControl interface, Input,IDebugControl.Input, b, dbgeng/IDebugControl::Input, debugger.input, e, g, l, n, o, p, r, t, u"
+ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], Input method, IDebugControl::Input, IDebugControl_10615761-d032-439f-955b-220def3835a9.xml, Input method [Windows Debugging], Input method [Windows Debugging], IDebugControl interface, Input,IDebugControl.Input, dbgeng/IDebugControl::Input, debugger.input
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

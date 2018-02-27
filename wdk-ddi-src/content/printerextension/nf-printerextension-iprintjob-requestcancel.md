@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 13F8A151-F28A-4A0F-B143-F3DB2197A36B
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, I, IPrintJob, IPrintJob interface [Print Devices], RequestCancel method, IPrintJob::RequestCancel, J, P, R, RequestCancel method [Print Devices], RequestCancel method [Print Devices], IPrintJob interface, RequestCancel,IPrintJob.RequestCancel, a, b, c, e, i, l, n, o, print.iprintjob_requestcancel, printerextension/IPrintJob::RequestCancel, q, r, s, t, u"
+ms.keywords: IPrintJob, IPrintJob interface [Print Devices], RequestCancel method, IPrintJob::RequestCancel, RequestCancel method [Print Devices], RequestCancel method [Print Devices], IPrintJob interface, RequestCancel,IPrintJob.RequestCancel, print.iprintjob_requestcancel, printerextension/IPrintJob::RequestCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b7038bcf-2469-4d5f-ac73-0c7835da23c3
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 3, :, C, D, E, F, I, IDebugControl, IDebugControl interface [Windows Debugging], WaitForEvent method, IDebugControl2, IDebugControl2 interface [Windows Debugging], WaitForEvent method, IDebugControl2::WaitForEvent, IDebugControl3, IDebugControl3 interface [Windows Debugging], WaitForEvent method, IDebugControl3::WaitForEvent, IDebugControl::WaitForEvent, IDebugControl_19a7d8b3-1f16-400e-bf8f-c782d48b2cf5.xml, W, WaitForEvent method [Windows Debugging], WaitForEvent method [Windows Debugging], IDebugControl interface, WaitForEvent method [Windows Debugging], IDebugControl2 interface, WaitForEvent method [Windows Debugging], IDebugControl3 interface, WaitForEvent,IDebugControl.WaitForEvent, WaitForEvent,IDebugControl2.WaitForEvent, WaitForEvent,IDebugControl3.WaitForEvent, a, b, dbgeng/IDebugControl2::WaitForEvent, dbgeng/IDebugControl3::WaitForEvent, dbgeng/IDebugControl::WaitForEvent, debugger.waitforevent, e, g, i, l, n, o, r, t, u, v"
+ms.keywords: IDebugControl interface [Windows Debugging], WaitForEvent method, IDebugControl2 interface [Windows Debugging], WaitForEvent method, IDebugControl2::WaitForEvent, IDebugControl3, IDebugControl3 interface [Windows Debugging], WaitForEvent method, IDebugControl3::WaitForEvent, IDebugControl::WaitForEvent, IDebugControl_19a7d8b3-1f16-400e-bf8f-c782d48b2cf5.xml, WaitForEvent method [Windows Debugging], WaitForEvent method [Windows Debugging], IDebugControl interface, WaitForEvent method [Windows Debugging], IDebugControl2 interface, WaitForEvent method [Windows Debugging], IDebugControl3 interface, WaitForEvent,IDebugControl3.WaitForEvent, dbgeng/IDebugControl2::WaitForEvent, dbgeng/IDebugControl3::WaitForEvent, dbgeng/IDebugControl::WaitForEvent, debugger.waitforevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -177,11 +177,11 @@ For more information about using <b>WaitForEvent</b> to control the execution fl
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 

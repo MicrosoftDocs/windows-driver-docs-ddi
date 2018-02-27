@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 32cc50bc-a93b-43ec-98c7-bfaaebbe6c28
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , B, D, DFDmaObjectRef_a8d61436-75d3-4c14-a81b-6ba7adb3c442.xml, G, T, W, WdfDmaTransactionGetBytesTransferred, WdfDmaTransactionGetBytesTransferred method, a, c, d, e, f, i, kmdf.wdfdmatransactiongetbytestransferred, m, n, o, r, s, t, wdf.wdfdmatransactiongetbytestransferred, wdfdmatransaction/WdfDmaTransactionGetBytesTransferred, y"
+ms.keywords: DFDmaObjectRef_a8d61436-75d3-4c14-a81b-6ba7adb3c442.xml, WdfDmaTransactionGetBytesTransferred, WdfDmaTransactionGetBytesTransferred method, kmdf.wdfdmatransactiongetbytestransferred, wdf.wdfdmatransactiongetbytestransferred, wdfdmatransaction/WdfDmaTransactionGetBytesTransferred
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,10 +106,6 @@ For a code example that uses <b>WdfDmaTransactionGetBytesTransferred</b>, see <a
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
-
-
-
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
 
 
@@ -119,6 +115,10 @@ For a code example that uses <b>WdfDmaTransactionGetBytesTransferred</b>, see <a
 
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
 
 
 

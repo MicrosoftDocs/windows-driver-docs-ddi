@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B217DE53-23B9-46BA-8B35-DA869EB9DBDA
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, E, I, IPrinterExtensionContext, IPrinterExtensionContext interface [Print Devices], PrintSchemaTicket property, IPrinterExtensionContext.PrintSchemaTicket, IPrinterExtensionContext::get_PrintSchemaTicket, P, PrintSchemaTicket property [Print Devices], PrintSchemaTicket property [Print Devices], IPrinterExtensionContext interface, S, T, _, a, c, e, g, get_PrintSchemaTicket, get_PrintSchemaTicket,IPrinterExtensionContext.get_PrintSchemaTicket, h, i, k, m, n, o, print.iprinterextensioncontext_printschematicket, printerextension/IPrinterExtensionContext::PrintSchemaTicket, printerextension/IPrinterExtensionContext::get_PrintSchemaTicket, r, s, t, x"
+ms.keywords: IPrinterExtensionContext, IPrinterExtensionContext interface [Print Devices], PrintSchemaTicket property, IPrinterExtensionContext.PrintSchemaTicket, IPrinterExtensionContext::get_PrintSchemaTicket, PrintSchemaTicket property [Print Devices], PrintSchemaTicket property [Print Devices], IPrinterExtensionContext interface, get_PrintSchemaTicket, get_PrintSchemaTicket,IPrinterExtensionContext.get_PrintSchemaTicket, print.iprinterextensioncontext_printschematicket, printerextension/IPrinterExtensionContext::PrintSchemaTicket, printerextension/IPrinterExtensionContext::get_PrintSchemaTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

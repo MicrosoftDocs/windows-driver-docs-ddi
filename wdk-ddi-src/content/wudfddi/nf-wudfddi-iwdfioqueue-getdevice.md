@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e1c1a67e-a18d-4eef-88ce-cd7edd371f54
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, D, F, G, GetDevice method, GetDevice method, IWDFIoQueue interface, GetDevice,IWDFIoQueue.GetDevice, I, IWDFIoQueue, IWDFIoQueue interface, GetDevice method, IWDFIoQueue::GetDevice, Q, UMDFQueueObjectRef_ecef922c-aff2-49ac-84bd-17e7e2e784a1.xml, W, c, e, i, o, t, u, umdf.iwdfioqueue_getdevice, v, wdf.iwdfioqueue_getdevice, wudfddi/IWDFIoQueue::GetDevice"
+ms.keywords: GetDevice method, GetDevice method, IWDFIoQueue interface, GetDevice,IWDFIoQueue.GetDevice, IWDFIoQueue, IWDFIoQueue interface, GetDevice method, IWDFIoQueue::GetDevice, UMDFQueueObjectRef_ecef922c-aff2-49ac-84bd-17e7e2e784a1.xml, umdf.iwdfioqueue_getdevice, wdf.iwdfioqueue_getdevice, wudfddi/IWDFIoQueue::GetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

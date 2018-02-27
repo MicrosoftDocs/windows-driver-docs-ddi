@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: baa80f8c-68ed-43a3-8c82-79a4388f9ab6
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , I, InitializePrintMonitorUI, InitializePrintMonitorUI function [Print Devices], M, P, U, a, e, i, l, n, o, print.initializeprintmonitorui, r, spoolfnc_927446a6-117a-4585-8ce0-9a4b543c4037.xml, t, winsplp/InitializePrintMonitorUI, z"
+ms.keywords: InitializePrintMonitorUI, InitializePrintMonitorUI function [Print Devices], print.initializeprintmonitorui, spoolfnc_927446a6-117a-4585-8ce0-9a4b543c4037.xml, winsplp/InitializePrintMonitorUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

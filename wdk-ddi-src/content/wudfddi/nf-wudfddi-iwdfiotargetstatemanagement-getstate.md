@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f915294f-457f-4913-b4b0-e94e1806a06d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, D, F, G, GetState method, GetState method, IWDFIoTargetStateManagement interface, GetState,IWDFIoTargetStateManagement.GetState, I, IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, GetState method, IWDFIoTargetStateManagement::GetState, M, S, T, UMDFIoTargetObjectRef_0a52ff77-9947-49a1-958a-ffe6e61ec169.xml, W, a, e, g, m, n, o, r, t, umdf.iwdfiotargetstatemanagement_getstate, wdf.iwdfiotargetstatemanagement_getstate, wudfddi/IWDFIoTargetStateManagement::GetState"
+ms.keywords: GetState method, GetState method, IWDFIoTargetStateManagement interface, GetState,IWDFIoTargetStateManagement.GetState, IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, GetState method, IWDFIoTargetStateManagement::GetState, UMDFIoTargetObjectRef_0a52ff77-9947-49a1-958a-ffe6e61ec169.xml, umdf.iwdfiotargetstatemanagement_getstate, wdf.iwdfiotargetstatemanagement_getstate, wudfddi/IWDFIoTargetStateManagement::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 56c2ddc0-9f25-4d4f-9f6e-d8c96c9acc91
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, D, I, IStiDeviceControl, IStiDeviceControl interface [Imaging Devices], Release method, IStiDeviceControl::Release, R, Release method [Imaging Devices], Release method [Imaging Devices], IStiDeviceControl interface, Release,IStiDeviceControl.Release, S, a, c, e, i, image.istidevicecontrol_release, l, n, o, r, s, stifnc_c0e50ea5-46e3-4b30-92b4-be6906647671.xml, stiusd/IStiDeviceControl::Release, t, v"
+ms.keywords: IStiDeviceControl, IStiDeviceControl interface [Imaging Devices], Release method, IStiDeviceControl::Release, Release method [Imaging Devices], Release method [Imaging Devices], IStiDeviceControl interface, Release,IStiDeviceControl.Release, image.istidevicecontrol_release, stifnc_c0e50ea5-46e3-4b30-92b4-be6906647671.xml, stiusd/IStiDeviceControl::Release
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

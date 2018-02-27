@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 18b2a3c2-26da-434e-bcea-89bd6ef22077
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, B, C, G, GetPartCompression method [Print Devices], GetPartCompression method [Print Devices], IPartBase interface, GetPartCompression,IPartBase.GetPartCompression, I, IPartBase, IPartBase interface [Print Devices], GetPartCompression method, IPartBase::GetPartCompression, P, a, e, filterpipeline/IPartBase::GetPartCompression, filterpipeline_384bc679-c974-4c0d-86cd-32cdd0ebf7be.xml, i, m, n, o, p, print.ipartbase_getpartcompression, r, s, t"
+ms.keywords: GetPartCompression method [Print Devices], GetPartCompression method [Print Devices], IPartBase interface, GetPartCompression,IPartBase.GetPartCompression, IPartBase, IPartBase interface [Print Devices], GetPartCompression method, IPartBase::GetPartCompression, filterpipeline/IPartBase::GetPartCompression, filterpipeline_384bc679-c974-4c0d-86cd-32cdd0ebf7be.xml, print.ipartbase_getpartcompression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

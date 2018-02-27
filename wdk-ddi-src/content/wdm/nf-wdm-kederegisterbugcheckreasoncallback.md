@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3a2a8940-afe2-48f5-bcf0-abd6413eeb85
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, C, D, K, KeDeregisterBugCheckReasonCallback, KeDeregisterBugCheckReasonCallback routine [Kernel-Mode Driver Architecture], R, a, b, c, e, g, h, i, k, k105_f767309b-2c8a-4460-a43f-06aec0f7d401.xml, kernel.kederegisterbugcheckreasoncallback, l, n, o, r, s, t, u, wdm/KeDeregisterBugCheckReasonCallback"
+ms.keywords: KeDeregisterBugCheckReasonCallback, KeDeregisterBugCheckReasonCallback routine [Kernel-Mode Driver Architecture], k105_f767309b-2c8a-4460-a43f-06aec0f7d401.xml, kernel.kederegisterbugcheckreasoncallback, wdm/KeDeregisterBugCheckReasonCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

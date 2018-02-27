@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 400176a1-9192-424b-be37-9386cc3ffbb2
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , K, KeSetPriorityThread, KeSetPriorityThread routine [Kernel-Mode Driver Architecture], P, S, T, a, d, e, h, i, k105_b767dc2c-39ec-41de-8888-177d83de67c4.xml, kernel.kesetprioritythread, o, r, t, wdm/KeSetPriorityThread, y"
+ms.keywords: KeSetPriorityThread, KeSetPriorityThread routine [Kernel-Mode Driver Architecture], k105_b767dc2c-39ec-41de-8888-177d83de67c4.xml, kernel.kesetprioritythread, wdm/KeSetPriorityThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,11 +99,11 @@ If a call to <b>KeSetPriorityThread</b> resets the thread's priority to a lower 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
-
-
-
 <a href="..\wdm\nf-wdm-kequeryprioritythread.md">KeQueryPriorityThread</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
 
 
 

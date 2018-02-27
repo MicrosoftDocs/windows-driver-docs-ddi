@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cbea7a3c-faae-4779-9a27-6c2b60f2b35c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , D, DFDriverObjectRef_42298067-6221-4d0c-af6b-8579f95d2047.xml, R, S, V, W, WdfDriverRetrieveVersionString, WdfDriverRetrieveVersionString method, d, e, f, g, i, kmdf.wdfdriverretrieveversionstring, n, o, r, s, t, v, wdf.wdfdriverretrieveversionstring, wdfdriver/WdfDriverRetrieveVersionString"
+ms.keywords: DFDriverObjectRef_42298067-6221-4d0c-af6b-8579f95d2047.xml, WdfDriverRetrieveVersionString, WdfDriverRetrieveVersionString method, kmdf.wdfdriverretrieveversionstring, wdf.wdfdriverretrieveversionstring, wdfdriver/WdfDriverRetrieveVersionString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -168,7 +168,7 @@ if (NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
+<a href="..\wdfdriver\nf-wdfdriver-wdfdriverisversionavailable.md">WdfDriverIsVersionAvailable</a>
 
 
 
@@ -188,7 +188,7 @@ if (NT_SUCCESS(status)) {
 
 
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdriverisversionavailable.md">WdfDriverIsVersionAvailable</a>
+<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
 
 
 

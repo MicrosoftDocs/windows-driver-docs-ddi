@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 53efddbc-0e65-487c-b406-c7d093ca5667
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PPCI_EXPRESS_ERROR_SOURCE_ID, ,, C, D, E, I, O, P, PCI.pci_express_error_source_id, PCI_EXPRESS_ERROR_SOURCE_ID, PCI_EXPRESS_ERROR_SOURCE_ID union [Buses], PPCI_EXPRESS_ERROR_SOURCE_ID, PPCI_EXPRESS_ERROR_SOURCE_ID union pointer [Buses], R, S, U, X, _, _PCI_EXPRESS_ERROR_SOURCE_ID, pci_struct_f111f61b-46a0-450d-bbce-172f125a6903.xml, wdm/PCI_EXPRESS_ERROR_SOURCE_ID, wdm/PPCI_EXPRESS_ERROR_SOURCE_ID"
+ms.keywords: "*PPCI_EXPRESS_ERROR_SOURCE_ID, PCI.pci_express_error_source_id, PCI_EXPRESS_ERROR_SOURCE_ID, PCI_EXPRESS_ERROR_SOURCE_ID union [Buses], PPCI_EXPRESS_ERROR_SOURCE_ID, PPCI_EXPRESS_ERROR_SOURCE_ID union pointer [Buses], _PCI_EXPRESS_ERROR_SOURCE_ID, pci_struct_f111f61b-46a0-450d-bbce-172f125a6903.xml, wdm/PCI_EXPRESS_ERROR_SOURCE_ID, wdm/PPCI_EXPRESS_ERROR_SOURCE_ID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,9 +86,9 @@ typedef union _PCI_EXPRESS_ERROR_SOURCE_ID {
 A ULONG representation of the contents of the PCI_EXPRESS_ERROR_SOURCE_ID structure.
 
 
-#### - CorrectableSourceIdFun
+#### - CorrectableSourceIdBus
 
-The function number of the requester that reported the first correctable error.
+The bus number of the requester that reported the first correctable error.
 
 
 #### - CorrectableSourceIdDev
@@ -96,14 +96,14 @@ The function number of the requester that reported the first correctable error.
 The device number of the requester that reported the first correctable error.
 
 
-#### - CorrectableSourceIdBus
+#### - CorrectableSourceIdFun
 
-The bus number of the requester that reported the first correctable error.
+The function number of the requester that reported the first correctable error.
 
 
-#### - UncorrectableSourceIdFun
+#### - UncorrectableSourceIdBus
 
-The function number of the requester that reported the first uncorrectable error.
+The bus number of the requester that reported the first uncorrectable error.
 
 
 #### - UncorrectableSourceIdDev
@@ -111,9 +111,9 @@ The function number of the requester that reported the first uncorrectable error
 The device number of the requester that reported the first uncorrectable error.
 
 
-#### - UncorrectableSourceIdBus
+#### - UncorrectableSourceIdFun
 
-The bus number of the requester that reported the first uncorrectable error.
+The function number of the requester that reported the first uncorrectable error.
 
 
 ## -remarks

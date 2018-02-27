@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 80f1f1bd-57da-46b2-9967-9ba4b08ea057
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, D, P, V, VideoPortPutDmaAdapter, VideoPortPutDmaAdapter function [Display Devices], VideoPort_Functions_3de2fb91-53a9-4a1d-9dcd-91e3c0d645ab.xml, a, d, display.videoportputdmaadapter, e, i, m, o, p, r, t, u, video/VideoPortPutDmaAdapter"
+ms.keywords: VideoPortPutDmaAdapter, VideoPortPutDmaAdapter function [Display Devices], VideoPort_Functions_3de2fb91-53a9-4a1d-9dcd-91e3c0d645ab.xml, display.videoportputdmaadapter, video/VideoPortPutDmaAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

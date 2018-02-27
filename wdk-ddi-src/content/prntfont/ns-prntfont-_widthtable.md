@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6c7b35a2-f9fd-41a9-a353-ec8b78259bf0
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PWIDTHTABLE, ,, A, B, D, E, H, I, L, P, PWIDTHTABLE, PWIDTHTABLE structure pointer [Print Devices], T, W, WIDTHTABLE, WIDTHTABLE structure [Print Devices], _, _WIDTHTABLE, print.widthtable, print_unidrv-pscript_fonts_a09173f6-51f7-4523-8270-a0406999f776.xml, prntfont/PWIDTHTABLE, prntfont/WIDTHTABLE"
+ms.keywords: "*PWIDTHTABLE, PWIDTHTABLE, PWIDTHTABLE structure pointer [Print Devices], WIDTHTABLE, WIDTHTABLE structure [Print Devices], _WIDTHTABLE, print.widthtable, print_unidrv-pscript_fonts_a09173f6-51f7-4523-8270-a0406999f776.xml, prntfont/PWIDTHTABLE, prntfont/WIDTHTABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,11 +96,11 @@ A .ufm file's WIDTHTABLE structure, which describes character widths, is accesse
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_widthrun.md">WIDTHRUN</a>
-
-
-
 <a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a>
+
+
+
+<a href="..\prntfont\ns-prntfont-_widthrun.md">WIDTHRUN</a>
 
 
 

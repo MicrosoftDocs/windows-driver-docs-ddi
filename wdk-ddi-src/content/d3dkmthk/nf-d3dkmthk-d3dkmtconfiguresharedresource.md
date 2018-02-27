@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3664ef23-f7bc-4a94-8085-aa5a3d0ba550
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 3, C, D, D3DKMTConfigureSharedResource, D3DKMTConfigureSharedResource callback function [Display Devices], K, M, OpenGL_Functions_f95f6a64-49a7-4a93-a544-6d4315f12212.xml, PFND3DKMT_CONFIGURESHAREDRESOURCE, R, S, T, a, c, d, d3dkmthk/D3DKMTConfigureSharedResource, display.d3dkmtconfiguresharedresource, e, f, g, h, i, n, o, r, s, u"
+ms.keywords: D3DKMTConfigureSharedResource, D3DKMTConfigureSharedResource callback function [Display Devices], OpenGL_Functions_f95f6a64-49a7-4a93-a544-6d4315f12212.xml, PFND3DKMT_CONFIGURESHAREDRESOURCE, d3dkmthk/D3DKMTConfigureSharedResource, display.d3dkmtconfiguresharedresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

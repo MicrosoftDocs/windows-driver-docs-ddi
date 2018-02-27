@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c5aeb5f4-be62-4418-981c-1dd4acdccf07
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, C, CreateUsbTargetDevice method, CreateUsbTargetDevice method, IWDFUsbTargetFactory interface, CreateUsbTargetDevice,IWDFUsbTargetFactory.CreateUsbTargetDevice, D, F, I, IWDFUsbTargetFactory, IWDFUsbTargetFactory interface, CreateUsbTargetDevice method, IWDFUsbTargetFactory::CreateUsbTargetDevice, T, U, UMDFDeviceObjectRef_fafba7c5-57d5-4b05-bc46-46807b94ec6d.xml, W, a, b, c, e, g, i, o, r, s, t, umdf.iwdfusbtargetfactory_createusbtargetdevice, v, wdf.iwdfusbtargetfactory_createusbtargetdevice, wudfusb/IWDFUsbTargetFactory::CreateUsbTargetDevice, y"
+ms.keywords: CreateUsbTargetDevice method, CreateUsbTargetDevice method, IWDFUsbTargetFactory interface, CreateUsbTargetDevice,IWDFUsbTargetFactory.CreateUsbTargetDevice, IWDFUsbTargetFactory, IWDFUsbTargetFactory interface, CreateUsbTargetDevice method, IWDFUsbTargetFactory::CreateUsbTargetDevice, UMDFDeviceObjectRef_fafba7c5-57d5-4b05-bc46-46807b94ec6d.xml, umdf.iwdfusbtargetfactory_createusbtargetdevice, wdf.iwdfusbtargetfactory_createusbtargetdevice, wudfusb/IWDFUsbTargetFactory::CreateUsbTargetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -240,7 +240,7 @@ CUmdfHidDevice::OnPrepareHardware(
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetfactory.md">IWDFUsbTargetFactory</a>
 
 
 
@@ -248,11 +248,11 @@ CUmdfHidDevice::OnPrepareHardware(
 
 
 
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+
+
+
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
-
-
-
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetfactory.md">IWDFUsbTargetFactory</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: bc4f751f-d92a-47e6-8cbe-0a587292b160
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, D, F, I, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvFreeDrvItemContext method, IWiaMiniDrv::drvFreeDrvItemContext, M, MiniDrv_59a7d220-cd1d-4cc2-870a-3260feaba7e9.xml, W, a, d, drvFreeDrvItemContext method [Imaging Devices], drvFreeDrvItemContext method [Imaging Devices], IWiaMiniDrv interface, drvFreeDrvItemContext,IWiaMiniDrv.drvFreeDrvItemContext, e, i, image.iwiaminidrv_drvfreedrvitemcontext, m, n, o, r, t, v, wiamindr_lh/IWiaMiniDrv::drvFreeDrvItemContext, x"
+ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvFreeDrvItemContext method, IWiaMiniDrv::drvFreeDrvItemContext, MiniDrv_59a7d220-cd1d-4cc2-870a-3260feaba7e9.xml, drvFreeDrvItemContext method [Imaging Devices], drvFreeDrvItemContext method [Imaging Devices], IWiaMiniDrv interface, drvFreeDrvItemContext,IWiaMiniDrv.drvFreeDrvItemContext, image.iwiaminidrv_drvfreedrvitemcontext, wiamindr_lh/IWiaMiniDrv::drvFreeDrvItemContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -130,11 +130,11 @@ When a driver item is deleted, the WIA service frees the driver item context. Th
 
 
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545005">IWiaMiniDrv::drvReadItemProperties</a>
+
+
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
 
 

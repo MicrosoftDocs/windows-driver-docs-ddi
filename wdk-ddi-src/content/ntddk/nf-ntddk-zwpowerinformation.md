@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BA1D5AD2-E3E5-42CB-8E77-627B23078F80
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , I, NtPowerInformation, P, PlatformInformation, Z, ZwPowerInformation, ZwPowerInformation routine [Kernel-Mode Driver Architecture], a, e, f, i, kernel.zwpowerinformation, m, n, o, r, t, w, wdm/NtPowerInformation, wdm/ZwPowerInformation"
+ms.keywords: NtPowerInformation, PlatformInformation, ZwPowerInformation, ZwPowerInformation routine [Kernel-Mode Driver Architecture], kernel.zwpowerinformation, wdm/NtPowerInformation, wdm/ZwPowerInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -196,11 +196,11 @@ NTSTATUS Result = NtPowerInformation(PlatformInformation, NULL, 0, &amp;Platform
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
 <a href="..\wdm\ns-wdm-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2ec9222b-d9e7-4386-ac66-30c5436f549d
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, B, F, FreeBufferWithNotification method [Audio Devices], FreeBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface, FreeBufferWithNotification,IMiniportWaveRTStreamNotification.FreeBufferWithNotification, I, IMiniportWaveRTStreamNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], FreeBufferWithNotification method, IMiniportWaveRTStreamNotification::FreeBufferWithNotification, M, N, R, S, T, W, a, audio.iminiportwavertstreamnotification_freebufferwithnotification, audmp-routines_7b323e6d-c060-4d8a-beb1-88303e45bc0e.xml, c, e, f, h, i, m, n, o, p, portcls/IMiniportWaveRTStreamNotification::FreeBufferWithNotification, r, t, u, v"
+ms.keywords: FreeBufferWithNotification method [Audio Devices], FreeBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface, FreeBufferWithNotification,IMiniportWaveRTStreamNotification.FreeBufferWithNotification, IMiniportWaveRTStreamNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], FreeBufferWithNotification method, IMiniportWaveRTStreamNotification::FreeBufferWithNotification, audio.iminiportwavertstreamnotification_freebufferwithnotification, audmp-routines_7b323e6d-c060-4d8a-beb1-88303e45bc0e.xml, portcls/IMiniportWaveRTStreamNotification::FreeBufferWithNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

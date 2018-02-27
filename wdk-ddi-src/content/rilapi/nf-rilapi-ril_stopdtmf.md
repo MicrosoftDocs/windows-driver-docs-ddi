@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d7f70ecd-0a11-48bf-9a8b-d2e08c280f51
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , D, F, I, L, M, R, RIL_StopDTMF, RIL_StopDTMF method [Network Drivers Starting with Windows Vista], S, T, _, netvista.ril_stopdtmf, o, p, rilapi/RIL_StopDTMF, t"
+ms.keywords: RIL_StopDTMF, RIL_StopDTMF method [Network Drivers Starting with Windows Vista], netvista.ril_stopdtmf, rilapi/RIL_StopDTMF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

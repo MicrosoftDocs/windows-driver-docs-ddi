@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1946245d-d661-41c9-8f5a-37534bf71890
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PAddPort_OUT, ,, A, AddPort_OUT, AddPort_OUT structure [Storage Devices], O, P, PAddPort_OUT, PAddPort_OUT structure pointer [Storage Devices], T, U, _, _AddPort_OUT, d, hbapiwmi/AddPort_OUT, hbapiwmi/PAddPort_OUT, o, r, storage.addport_out, structs-Fibre_2a5eecfb-36b6-4358-98d0-0c119b7697f0.xml, t"
+ms.keywords: "*PAddPort_OUT, AddPort_OUT, AddPort_OUT structure [Storage Devices], PAddPort_OUT, PAddPort_OUT structure pointer [Storage Devices], _AddPort_OUT, hbapiwmi/AddPort_OUT, hbapiwmi/PAddPort_OUT, storage.addport_out, structs-Fibre_2a5eecfb-36b6-4358-98d0-0c119b7697f0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

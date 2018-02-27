@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 57d0969f-bc30-4235-93a5-dda51e15b4fc
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , A, DFUsbRef_faea6716-3bb7-4f1f-93ce-36fe26bc7875.xml, P, S, T, U, W, WdfUsbTargetPipeAbortSynchronously, WdfUsbTargetPipeAbortSynchronously method, a, b, c, d, e, f, g, h, i, kmdf.wdfusbtargetpipeabortsynchronously, l, n, o, p, r, s, t, u, wdf.wdfusbtargetpipeabortsynchronously, wdfusb/WdfUsbTargetPipeAbortSynchronously, y"
+ms.keywords: DFUsbRef_faea6716-3bb7-4f1f-93ce-36fe26bc7875.xml, WdfUsbTargetPipeAbortSynchronously, WdfUsbTargetPipeAbortSynchronously method, kmdf.wdfusbtargetpipeabortsynchronously, wdf.wdfusbtargetpipeabortsynchronously, wdfusb/WdfUsbTargetPipeAbortSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

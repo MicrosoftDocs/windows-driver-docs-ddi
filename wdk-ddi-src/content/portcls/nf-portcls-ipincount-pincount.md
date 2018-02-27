@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8b7a49cc-5061-475b-ac03-cbf43954c413
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, C, I, IPinCount, IPinCount interface [Audio Devices], PinCount method, IPinCount::PinCount, P, PinCount method [Audio Devices], PinCount method [Audio Devices], IPinCount interface, PinCount,IPinCount.PinCount, audio.ipincount_pincount, audmp-routines_bded3ce8-936c-4391-901f-df6b2061c7c3.xml, i, n, o, portcls/IPinCount::PinCount, t, u"
+ms.keywords: IPinCount, IPinCount interface [Audio Devices], PinCount method, IPinCount::PinCount, PinCount method [Audio Devices], PinCount method [Audio Devices], IPinCount interface, PinCount,IPinCount.PinCount, audio.ipincount_pincount, audmp-routines_bded3ce8-936c-4391-901f-df6b2061c7c3.xml, portcls/IPinCount::PinCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -164,15 +164,15 @@ The <code>PinCount</code> method is called at IRQL PASSIVE_LEVEL. The code for t
 
 ## -see-also
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_7.md">PCPIN_DESCRIPTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565200">KSPROPERTY_PIN_GLOBALCINSTANCES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565193">KSPROPERTY_PIN_CINSTANCES</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565204">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565200">KSPROPERTY_PIN_GLOBALCINSTANCES</a>
 
 
 
@@ -188,7 +188,7 @@ The <code>PinCount</code> method is called at IRQL PASSIVE_LEVEL. The code for t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565193">KSPROPERTY_PIN_CINSTANCES</a>
+<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_7.md">PCPIN_DESCRIPTOR</a>
 
 
 

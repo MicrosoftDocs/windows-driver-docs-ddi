@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 6BFFD014-E9DC-495C-9810-0D23BD93C41A
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, C, M, P, PosCxMarkPosApp, PosCxMarkPosApp function, a, k, o, p, pos.poscxmarkposapp, poscx/PosCxMarkPosApp, r, s, x"
+ms.keywords: PosCxMarkPosApp, PosCxMarkPosApp function, pos.poscxmarkposapp, poscx/PosCxMarkPosApp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

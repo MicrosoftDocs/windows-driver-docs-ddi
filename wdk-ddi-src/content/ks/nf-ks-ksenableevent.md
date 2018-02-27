@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2338e583-4491-492e-b7e6-fa4e23485c22
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , E, K, KsEnableEvent, KsEnableEvent function [Streaming Media Devices], a, b, e, ks/KsEnableEvent, ksfunc_f6611298-cc8d-40eb-86e6-1287caff3ec0.xml, l, n, s, stream.ksenableevent, t, v"
+ms.keywords: KsEnableEvent, KsEnableEvent function [Streaming Media Devices], ks/KsEnableEvent, ksfunc_f6611298-cc8d-40eb-86e6-1287caff3ec0.xml, stream.ksenableevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

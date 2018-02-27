@@ -91,16 +91,6 @@ VOID APIENTRY IaSetIndexBuffer(
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hBuffer [in]
-
- A handle to the index buffer to set.
-
-
 #### - Format [in]
 
  A DXGI_FORMAT-typed value that indicates the pixel format of the index buffer. Only the DXGI_FORMAT_R16_UINT and DXGI_FORMAT_R32_UINT formats are valid; all other formats are invalid. 
@@ -109,6 +99,16 @@ VOID APIENTRY IaSetIndexBuffer(
 #### - Offset [in]
 
  The offset, in bytes, into the index buffer. 
+
+
+#### - hBuffer [in]
+
+ A handle to the index buffer to set.
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
 
 
 ## -returns

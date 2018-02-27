@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dbc32410-119f-4172-8d2a-7d41e8b64ae4
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, A, B, D, DXVA_DeinterlaceBltEx, DXVA_DeinterlaceBltEx structure [Display Devices], E, V, X, _, _DXVA_DeinterlaceBltEx, a, c, display.dxva_deinterlacebltex, dxva/DXVA_DeinterlaceBltEx, dxvaref_4340e54b-79b9-44a1-9d29-37f6aae9fe94.xml, e, i, l, n, r, t, x"
+ms.keywords: DXVA_DeinterlaceBltEx, DXVA_DeinterlaceBltEx structure [Display Devices], _DXVA_DeinterlaceBltEx, display.dxva_deinterlacebltex, dxva/DXVA_DeinterlaceBltEx, dxvaref_4340e54b-79b9-44a1-9d29-37f6aae9fe94.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -135,7 +135,7 @@ When a single frame is being created from one field in a sample, as defined in t
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
+<a href="..\dxva\ne-dxva-_dxva_destinationflags.md">DXVA_DestinationFlags</a>
 
 
 
@@ -147,7 +147,7 @@ When a single frame is being created from one field in a sample, as defined in t
 
 
 
-<a href="..\dxva\ne-dxva-_dxva_destinationflags.md">DXVA_DestinationFlags</a>
+<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
 
 
 

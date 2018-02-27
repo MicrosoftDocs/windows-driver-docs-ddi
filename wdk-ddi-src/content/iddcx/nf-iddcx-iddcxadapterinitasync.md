@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c23d0d24-b043-4e39-afd3-abab6bb84769
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, C, I, IddCxAdapterInitAsync, IddCxAdapterInitAsync method [Display Devices], a, c, d, display.iddcxadapterinitasync, e, i, iddcx/IddCxAdapterInitAsync, n, p, r, s, t, x, y"
+ms.keywords: IddCxAdapterInitAsync, IddCxAdapterInitAsync method [Display Devices], display.iddcxadapterinitasync, iddcx/IddCxAdapterInitAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

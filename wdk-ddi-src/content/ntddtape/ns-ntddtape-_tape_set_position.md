@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c9f462b2-4b56-4138-a374-9e9d3e1ae295
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PTAPE_SET_POSITION, ,, A, E, I, N, O, P, PTAPE_SET_POSITION, PTAPE_SET_POSITION structure pointer [Storage Devices], S, T, TAPE_SET_POSITION, TAPE_SET_POSITION structure [Storage Devices], _, _TAPE_SET_POSITION, ntddtape/PTAPE_SET_POSITION, ntddtape/TAPE_SET_POSITION, storage.tape_set_position, structs-tape_412b4b85-a0b5-4372-a32c-fa7ac5a6f33a.xml"
+ms.keywords: "*PTAPE_SET_POSITION, PTAPE_SET_POSITION, PTAPE_SET_POSITION structure pointer [Storage Devices], TAPE_SET_POSITION, TAPE_SET_POSITION structure [Storage Devices], _TAPE_SET_POSITION, ntddtape/PTAPE_SET_POSITION, ntddtape/TAPE_SET_POSITION, storage.tape_set_position, structs-tape_412b4b85-a0b5-4372-a32c-fa7ac5a6f33a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -160,56 +160,6 @@ Specifies an offset whose type depends on the value in <b>Method</b>. If the spe
 ### -field Immediate
 
 When set to <b>TRUE</b>, indicates that the target device should return status immediately. When set to <b>FALSE</b>, indicates that the device should return status after the operation is complete. 
-
-
-##### - Method.TAPE_REWIND
-
-Positions the tape at the beginning of the partition indicated in <b>Partition</b> if the media is partitioned, and to the beginning of the media if the media is not partitioned. If the media is not partitioned, <b>Partition</b> must be set to zero. The <b>Offset</b> member is ignored. 
-
-
-##### - Method.TAPE_ABSOLUTE_BLOCK
-
-Positions the tape at the absolute block address located at the offset from the beginning specified by <b>Offset</b>. The value in the <b>Partition</b> member is ignored. 
-
-
-##### - Method.TAPE_LOGICAL_BLOCK
-
-Positions the tape to the logical block address specified by <b>Offset</b>, relative to the beginning of the partition indicated in <b>Partition</b>. If the media is not partitioned, <b>Partition</b> must be set to zero. 
-
-
-##### - Method.TAPE_PSEUDO_LOGICAL_BLOCK
-
-Positions the tape to the pseudological block address specified by <b>Offset</b>, relative to the beginning of the partition indicated in <b>Partition</b>. If the media is not partitioned, <b>Partition</b> must be to zero.
-
-
-##### - Method.TAPE_SPACE_END_OF_DATA
-
-Positions the tape at the end of the partition indicated in <b>Partition</b>, or if the media is not partitioned, at the end of the tape. The <b>Offset</b> member is ignored. 
-
-
-##### - Method.TAPE_SPACE_RELATIVE_BLOCKS
-
-Starting from the current position, positions the tape immediately after the number of blocks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
-
-
-##### - Method.TAPE_SPACE_FILEMARKS
-
-Starting from the current position, positions the tape immediately after the number of filemarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
-
-
-##### - Method.TAPE_SPACE_SEQUENTIAL_FMKS
-
-Starting from the current position, positions the tape immediately after the next occurrence, if any, of the number of consecutive filemarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
-
-
-##### - Method.TAPE_SPACE_SETMARKS
-
-Starting from the current position, positions the tape immediately after the number of setmarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
-
-
-##### - Method.TAPE_SPACE_SEQUENTIAL_SMKS
-
-Starting from the current position, positions the tape immediately after the next occurrence, if any, of the number of consecutive setmarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
 
 
 ## -remarks

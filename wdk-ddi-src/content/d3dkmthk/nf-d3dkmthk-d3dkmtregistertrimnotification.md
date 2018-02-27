@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4D35ED8F-2D1E-4C0B-8302-CE651D47AF10
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 3, D, D3DKMTRegisterTrimNotification, D3DKMTRegisterTrimNotification function [Display Devices], K, M, N, R, T, a, c, d3dkmthk/D3DKMTRegisterTrimNotification, display.d3dkmtregistertrimnotification, e, f, g, i, m, n, o, r, s, t"
+ms.keywords: D3DKMTRegisterTrimNotification, D3DKMTRegisterTrimNotification function [Display Devices], d3dkmthk/D3DKMTRegisterTrimNotification, display.d3dkmtregistertrimnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

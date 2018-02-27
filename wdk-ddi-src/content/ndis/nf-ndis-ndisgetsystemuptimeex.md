@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a52087b5-81de-4945-9d1e-bea67915ced4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , E, G, N, NdisGetSystemUpTimeEx, NdisGetSystemUpTimeEx function [Network Drivers Starting with Windows Vista], S, T, U, d, e, i, m, ndis/NdisGetSystemUpTimeEx, ndis_timer_ref_d487ece6-5ab0-4386-bd6e-1eaecbabf903.xml, netvista.ndisgetsystemuptimeex, p, s, t, x, y"
+ms.keywords: NdisGetSystemUpTimeEx, NdisGetSystemUpTimeEx function [Network Drivers Starting with Windows Vista], ndis/NdisGetSystemUpTimeEx, ndis_timer_ref_d487ece6-5ab0-4386-bd6e-1eaecbabf903.xml, netvista.ndisgetsystemuptimeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

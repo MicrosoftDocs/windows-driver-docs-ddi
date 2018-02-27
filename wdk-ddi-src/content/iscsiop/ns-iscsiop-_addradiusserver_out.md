@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 512e66f6-d91f-4351-ba55-02ae3e84102e
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PAddRADIUSServer_OUT, ,, A, AddRADIUSServer_OUT, AddRADIUSServer_OUT structure [Storage Devices], D, I, O, P, PAddRADIUSServer_OUT, PAddRADIUSServer_OUT structure pointer [Storage Devices], R, S, T, U, _, _AddRADIUSServer_OUT, d, e, iscsiop/AddRADIUSServer_OUT, iscsiop/PAddRADIUSServer_OUT, r, storage.addradiusserver_out, structs-iSCSI_4dd737cb-21a3-4f49-acbe-d40b5b172f3f.xml, v"
+ms.keywords: "*PAddRADIUSServer_OUT, AddRADIUSServer_OUT, AddRADIUSServer_OUT structure [Storage Devices], PAddRADIUSServer_OUT, PAddRADIUSServer_OUT structure pointer [Storage Devices], _AddRADIUSServer_OUT, iscsiop/AddRADIUSServer_OUT, iscsiop/PAddRADIUSServer_OUT, storage.addradiusserver_out, structs-iSCSI_4dd737cb-21a3-4f49-acbe-d40b5b172f3f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,11 +87,11 @@ It is optional that you implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
 
 

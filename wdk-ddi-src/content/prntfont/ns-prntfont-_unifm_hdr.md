@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9490d090-2156-4653-9e56-a233d23c2fb3
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PUNIFM_HDR, ,, D, F, H, I, M, N, P, PUNIFM_HDR, PUNIFM_HDR structure pointer [Print Devices], R, U, UNIFM_HDR, UNIFM_HDR structure [Print Devices], _, _UNIFM_HDR, print.unifm_hdr, print_unidrv-pscript_fonts_eaf5dd18-df64-41bc-91b5-836b6ed165b6.xml, prntfont/PUNIFM_HDR, prntfont/UNIFM_HDR"
+ms.keywords: "*PUNIFM_HDR, PUNIFM_HDR, PUNIFM_HDR structure pointer [Print Devices], UNIFM_HDR, UNIFM_HDR structure [Print Devices], _UNIFM_HDR, print.unifm_hdr, print_unidrv-pscript_fonts_eaf5dd18-df64-41bc-91b5-836b6ed165b6.xml, prntfont/PUNIFM_HDR, prntfont/UNIFM_HDR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -197,10 +197,6 @@ If <b>lGlyphSetDataRCID</b> is CC_DEFAULT, there are no restrictions on the valu
 
 
 
-<a href="..\prntfont\ns-prntfont-_kerndata.md">KERNDATA</a>
-
-
-
 <a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a>
 
 
@@ -214,6 +210,10 @@ If <b>lGlyphSetDataRCID</b> is CC_DEFAULT, there are no restrictions on the valu
 
 
 <a href="..\prntfont\ns-prntfont-_exttextmetric.md">EXTTEXTMETRIC</a>
+
+
+
+<a href="..\prntfont\ns-prntfont-_kerndata.md">KERNDATA</a>
 
 
 

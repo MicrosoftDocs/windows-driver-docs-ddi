@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: E6510000-E390-4631-9D47-5A57AB845EF6
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, AddBuffer method [Windows Debugging], AddBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface, AddBuffer,IDebugFailureAnalysis2.AddBuffer, B, D, F, I, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], AddBuffer method, IDebugFailureAnalysis2::AddBuffer, a, b, d, debugger.idebugfailureanalysis2_addbuffer, e, extsfns/IDebugFailureAnalysis2::AddBuffer, f, g, i, l, n, r, s, u, y"
+ms.keywords: AddBuffer method [Windows Debugging], AddBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface, AddBuffer,IDebugFailureAnalysis2.AddBuffer, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], AddBuffer method, IDebugFailureAnalysis2::AddBuffer, debugger.idebugfailureanalysis2_addbuffer, extsfns/IDebugFailureAnalysis2::AddBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -114,15 +114,15 @@ This method creates a new <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1
 
 
 
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
 
 
 
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
-
-
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 

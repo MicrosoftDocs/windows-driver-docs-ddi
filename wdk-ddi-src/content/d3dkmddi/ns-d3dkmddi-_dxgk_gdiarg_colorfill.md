@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7dad933-31e6-4de2-9753-67c054f44c4a
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, A, C, D, DXGK_GDIARG_COLORFILL, DXGK_GDIARG_COLORFILL structure [Display Devices], DmStructs_d80a1a76-a7d1-4c7e-b9b1-3c6986124f77.xml, F, G, I, K, L, O, R, X, _, _DXGK_GDIARG_COLORFILL, d3dkmddi/DXGK_GDIARG_COLORFILL, display.dxgk_gdiarg_colorfill"
+ms.keywords: DXGK_GDIARG_COLORFILL, DXGK_GDIARG_COLORFILL structure [Display Devices], DmStructs_d80a1a76-a7d1-4c7e-b9b1-3c6986124f77.xml, _DXGK_GDIARG_COLORFILL, d3dkmddi/DXGK_GDIARG_COLORFILL, display.dxgk_gdiarg_colorfill
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,7 +124,7 @@ The destination rectangle defined by <b>DstRect</b> can exceed the bounds of the
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_gdirop_colorfill.md">DXGK_GDIROP_COLORFILL</a>
 
 
 
@@ -136,7 +136,7 @@ The destination rectangle defined by <b>DstRect</b> can exceed the bounds of the
 
 
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_gdirop_colorfill.md">DXGK_GDIROP_COLORFILL</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
 
 
 

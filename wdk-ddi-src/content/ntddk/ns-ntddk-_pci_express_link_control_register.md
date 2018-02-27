@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: f4f8bd0d-fad7-4712-92ca-44d45969142d
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PPCI_EXPRESS_LINK_CONTROL_REGISTER, ,, C, E, G, I, K, L, N, O, P, PCI.pci_express_link_control_register, PCI_EXPRESS_LINK_CONTROL_REGISTER, PCI_EXPRESS_LINK_CONTROL_REGISTER union [Buses], PPCI_EXPRESS_LINK_CONTROL_REGISTER, PPCI_EXPRESS_LINK_CONTROL_REGISTER union pointer [Buses], R, S, T, X, _, _PCI_EXPRESS_LINK_CONTROL_REGISTER, ntddk/PCI_EXPRESS_LINK_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_LINK_CONTROL_REGISTER, pci_struct_0fc5be0f-aae8-4d59-a569-030eb593e927.xml"
+ms.keywords: "*PPCI_EXPRESS_LINK_CONTROL_REGISTER, PCI.pci_express_link_control_register, PCI_EXPRESS_LINK_CONTROL_REGISTER, PCI_EXPRESS_LINK_CONTROL_REGISTER union [Buses], PPCI_EXPRESS_LINK_CONTROL_REGISTER, PPCI_EXPRESS_LINK_CONTROL_REGISTER union pointer [Buses], _PCI_EXPRESS_LINK_CONTROL_REGISTER, ntddk/PCI_EXPRESS_LINK_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_LINK_CONTROL_REGISTER, pci_struct_0fc5be0f-aae8-4d59-a569-030eb593e927.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -119,49 +119,14 @@ L1 is enabled.
 L0s and L1 are both enabled.
 
 
-##### - ActiveStatePMControl.L0sAndL1EntryDisabled
-
-L0s and L1 are both disabled.
-
-
-##### - ActiveStatePMControl.L0sEntryEnabled
-
-L0s is enabled.
-
-
-##### - ActiveStatePMControl.L1EntryEnabled
-
-L1 is enabled.
-
-
-##### - ActiveStatePMControl.L0sAndL1EntryEnabled
-
-L0s and L1 are both enabled.
-
-
-#### - Rsvd1
-
-Reserved.
-
-
-#### - ReadCompletionBoundary
-
-The read completion boundary (RCB) value for the root port or the root port upstream from the endpoint. If the bit is clear, the RCB is 64 byte. If the bit is set, the RCB is 128 byte. This member is not applicable for switch ports.
-
-
-#### - LinkDisable
-
-A single bit that indicates that the link is disabled. This member is not applicable for endpoint devices, PCIe-to-PCI or PCI-X bridges, and upstream ports of switches.
-
-
-#### - RetrainLink
-
-A single bit that is used to initiate retraining of the link. Reads of this bit always return zero. This member is not applicable for endpoint devices, PCIe-to-PCI or PCI-X bridges, and upstream ports of switches.
-
-
 #### - CommonClockConfig
 
 A single bit that indicates that this component and the component at the opposite end of the link are operating with a distributed common reference clock. If this bit is clear, this component and the component at the opposite end of the link are operating with an asynchronous reference clock.
+
+
+#### - EnableClockPowerManagement
+
+A single bit that indicates that clock power management is enabled.
 
 
 #### - ExtendedSynch
@@ -169,9 +134,24 @@ A single bit that indicates that this component and the component at the opposit
 A single bit that indicates that additional ordered sets are transmitted when exiting the L0s state and when in the recovery state.
 
 
-#### - EnableClockPowerManagement
+#### - LinkDisable
 
-A single bit that indicates that clock power management is enabled.
+A single bit that indicates that the link is disabled. This member is not applicable for endpoint devices, PCIe-to-PCI or PCI-X bridges, and upstream ports of switches.
+
+
+#### - ReadCompletionBoundary
+
+The read completion boundary (RCB) value for the root port or the root port upstream from the endpoint. If the bit is clear, the RCB is 64 byte. If the bit is set, the RCB is 128 byte. This member is not applicable for switch ports.
+
+
+#### - RetrainLink
+
+A single bit that is used to initiate retraining of the link. Reads of this bit always return zero. This member is not applicable for endpoint devices, PCIe-to-PCI or PCI-X bridges, and upstream ports of switches.
+
+
+#### - Rsvd1
+
+Reserved.
 
 
 #### - Rsvd2

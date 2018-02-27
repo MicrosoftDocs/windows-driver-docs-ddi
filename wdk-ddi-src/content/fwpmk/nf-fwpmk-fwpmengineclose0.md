@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 79ac01ff-9976-4321-a6b1-0a1cc6e5810a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , 0, C, E, F, FwpmEngineClose0, FwpmEngineClose0 function [Network Drivers Starting with Windows Vista], e, fwpmk/FwpmEngineClose0, g, i, l, m, n, netvista.fwpmengineclose0, o, p, s, w, wfp_ref_2_funct_2_fwpm_b01feaca-7c4a-44a9-aec4-f867508b0129.xml"
+ms.keywords: FwpmEngineClose0, FwpmEngineClose0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmEngineClose0, netvista.fwpmengineclose0, wfp_ref_2_funct_2_fwpm_b01feaca-7c4a-44a9-aec4-f867508b0129.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b608e331-6b13-4b27-8bb1-00a7c2fef281
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, C, I, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], SetOptions method, IPrintCoreUI2::SetOptions, O, P, S, SetOptions method [Print Devices], SetOptions method [Print Devices], IPrintCoreUI2 interface, SetOptions,IPrintCoreUI2.SetOptions, U, e, i, n, o, p, prcomoem/IPrintCoreUI2::SetOptions, print.iprintcoreui2_setoptions, print_unidrv-pscript_ui_cbe90030-cfa8-4055-967e-86c5870b7353.xml, r, s, t"
+ms.keywords: IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], SetOptions method, IPrintCoreUI2::SetOptions, SetOptions method [Print Devices], SetOptions method [Print Devices], IPrintCoreUI2 interface, SetOptions,IPrintCoreUI2.SetOptions, prcomoem/IPrintCoreUI2::SetOptions, print.iprintcoreui2_setoptions, print_unidrv-pscript_ui_cbe90030-cfa8-4055-967e-86c5870b7353.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -261,11 +261,11 @@ For more information, see <a href="https://msdn.microsoft.com/c8b5c235-0b74-47c8
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
-
-
-
 <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
 
 
 

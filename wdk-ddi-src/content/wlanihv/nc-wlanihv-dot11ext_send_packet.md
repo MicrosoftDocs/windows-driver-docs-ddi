@@ -174,14 +174,6 @@ This packet data is passed to the miniport driver.
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
-<a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header Management</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_send_packet_completion.md">
    Dot11ExtIhvSendPacketCompletion</a>
 
@@ -189,6 +181,14 @@ This packet data is passed to the miniport driver.
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
+<a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header Management</a>
 
 
 

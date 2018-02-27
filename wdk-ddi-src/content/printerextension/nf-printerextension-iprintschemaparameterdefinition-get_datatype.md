@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 82CC79A8-0281-4100-B3FB-1FFFB2454B8D
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, DataType property [Print Devices], DataType property [Print Devices], IPrintSchemaParameterDefinition interface, I, IPrintSchemaParameterDefinition, IPrintSchemaParameterDefinition interface [Print Devices], DataType property, IPrintSchemaParameterDefinition.DataType, IPrintSchemaParameterDefinition::get_DataType, P, S, T, _, a, c, e, f, g, get_DataType, get_DataType,IPrintSchemaParameterDefinition.get_DataType, h, i, m, n, o, p, print._iprintschemaparameterdefinition_datatype, printerextension/IPrintSchemaParameterDefinition::DataType, printerextension/IPrintSchemaParameterDefinition::get_DataType, r, t, y"
+ms.keywords: DataType property [Print Devices], DataType property [Print Devices], IPrintSchemaParameterDefinition interface, IPrintSchemaParameterDefinition, IPrintSchemaParameterDefinition interface [Print Devices], DataType property, IPrintSchemaParameterDefinition.DataType, IPrintSchemaParameterDefinition::get_DataType, get_DataType, get_DataType,IPrintSchemaParameterDefinition.get_DataType, print._iprintschemaparameterdefinition_datatype, printerextension/IPrintSchemaParameterDefinition::DataType, printerextension/IPrintSchemaParameterDefinition::get_DataType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,11 +71,11 @@ HRESULT get_DataType(
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a>
-
-
-
 <a href="..\printerextension\ne-printerextension-tagprintschemaparameterdatatype.md">PrintSchemaParameterDataType</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a>
 
 
 

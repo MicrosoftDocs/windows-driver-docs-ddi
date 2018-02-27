@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e761a8b4-729f-4f03-a4b4-2ed1b62ec012
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , E, M, O, OEMStrokePath, OEMStrokePath function [Print Devices], P, S, a, e, h, k, o, print.oemstrokepath, print_unidrv-pscript_rendering_8bc38d91-34ed-4225-baf1-6ca18026b7d0.xml, printoem/OEMStrokePath, r, t"
+ms.keywords: OEMStrokePath, OEMStrokePath function [Print Devices], print.oemstrokepath, print_unidrv-pscript_rendering_8bc38d91-34ed-4225-baf1-6ca18026b7d0.xml, printoem/OEMStrokePath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

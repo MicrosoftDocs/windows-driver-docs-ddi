@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: D6C0B66A-58ED-4E1D-89E2-4A1AF77281C1
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , C, I, S, SensorsCxSensorInitialize, SensorsCxSensorInitialize function [Sensor Devices], a, e, i, l, n, o, r, s, sensors.sensorscxsensorinitialize, sensorscx/SensorsCxSensorInitialize, t, x, z"
+ms.keywords: SensorsCxSensorInitialize, SensorsCxSensorInitialize function [Sensor Devices], sensors.sensorscxsensorinitialize, sensorscx/SensorsCxSensorInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 77996a5f-aaf0-4c8c-9d29-498612ae9c0d
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 4, :, C, D, G, GetSystemVersionValues method [Windows Debugging], GetSystemVersionValues method [Windows Debugging], IDebugControl4 interface, GetSystemVersionValues,IDebugControl4.GetSystemVersionValues, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetSystemVersionValues method, IDebugControl4::GetSystemVersionValues, IDebugControl_32de1433-8721-41c0-9b14-43ef8f7bcf70.xml, S, V, a, b, dbgeng/IDebugControl4::GetSystemVersionValues, debugger.getsystemversionvalues, e, g, i, l, m, n, o, r, s, t, u, y"
+ms.keywords: GetSystemVersionValues method [Windows Debugging], GetSystemVersionValues method [Windows Debugging], IDebugControl4 interface, GetSystemVersionValues,IDebugControl4.GetSystemVersionValues, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetSystemVersionValues method, IDebugControl4::GetSystemVersionValues, IDebugControl_32de1433-8721-41c0-9b14-43ef8f7bcf70.xml, dbgeng/IDebugControl4::GetSystemVersionValues, debugger.getsystemversionvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -135,7 +135,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549234">GetSystemVersion</a>
 
 
 
@@ -143,7 +143,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549234">GetSystemVersion</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 

@@ -101,11 +101,11 @@ Pointer to a MODE_CAPABILITIES_PAGE structure that contains low-level informatio
 
 ## -see-also
 
-<a href="..\minitape\nf-minitape-tapeclasscomparememory.md">TapeClassCompareMemory</a>
-
-
-
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
+
+
+
+<a href="..\minitape\nf-minitape-tapeclasscomparememory.md">TapeClassCompareMemory</a>
 
 
 

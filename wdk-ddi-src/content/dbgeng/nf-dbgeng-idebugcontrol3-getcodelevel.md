@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 965565ee-ef4c-4a1d-a6f1-77b6d63c6ee8
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 3, :, C, D, G, GetCodeLevel method [Windows Debugging], GetCodeLevel method [Windows Debugging], IDebugControl interface, GetCodeLevel method [Windows Debugging], IDebugControl2 interface, GetCodeLevel method [Windows Debugging], IDebugControl3 interface, GetCodeLevel,IDebugControl.GetCodeLevel, GetCodeLevel,IDebugControl2.GetCodeLevel, GetCodeLevel,IDebugControl3.GetCodeLevel, I, IDebugControl, IDebugControl interface [Windows Debugging], GetCodeLevel method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetCodeLevel method, IDebugControl2::GetCodeLevel, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetCodeLevel method, IDebugControl3::GetCodeLevel, IDebugControl::GetCodeLevel, IDebugControl_8533dd3f-f004-4d89-9f02-b7835fc6169e.xml, L, b, d, dbgeng/IDebugControl2::GetCodeLevel, dbgeng/IDebugControl3::GetCodeLevel, dbgeng/IDebugControl::GetCodeLevel, debugger.getcodelevel, e, g, l, n, o, r, t, u, v"
+ms.keywords: GetCodeLevel method [Windows Debugging], GetCodeLevel method [Windows Debugging], IDebugControl interface, GetCodeLevel method [Windows Debugging], IDebugControl2 interface, GetCodeLevel method [Windows Debugging], IDebugControl3 interface, GetCodeLevel,IDebugControl3.GetCodeLevel, IDebugControl interface [Windows Debugging], GetCodeLevel method, IDebugControl2 interface [Windows Debugging], GetCodeLevel method, IDebugControl2::GetCodeLevel, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetCodeLevel method, IDebugControl3::GetCodeLevel, IDebugControl::GetCodeLevel, IDebugControl_8533dd3f-f004-4d89-9f02-b7835fc6169e.xml, dbgeng/IDebugControl2::GetCodeLevel, dbgeng/IDebugControl3::GetCodeLevel, dbgeng/IDebugControl::GetCodeLevel, debugger.getcodelevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -145,11 +145,11 @@ For more information about the code level, see <a href="https://msdn.microsoft.c
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 

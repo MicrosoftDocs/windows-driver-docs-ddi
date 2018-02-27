@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 558636ed-4bab-42bc-8925-df01e032439a
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, A, I, IPortWaveRTStream, IPortWaveRTStream interface [Audio Devices], UnmapAllocatedPages method, IPortWaveRTStream::UnmapAllocatedPages, P, R, S, T, U, UnmapAllocatedPages method [Audio Devices], UnmapAllocatedPages method [Audio Devices], IPortWaveRTStream interface, UnmapAllocatedPages,IPortWaveRTStream.UnmapAllocatedPages, W, a, audio.iportwavertstream_unmapallocatedpages, audmp-routines_2d402b1b-6951-48db-89bb-81f3cc7e0076.xml, c, d, e, g, l, m, n, o, p, portcls/IPortWaveRTStream::UnmapAllocatedPages, r, s, t, v"
+ms.keywords: IPortWaveRTStream, IPortWaveRTStream interface [Audio Devices], UnmapAllocatedPages method, IPortWaveRTStream::UnmapAllocatedPages, UnmapAllocatedPages method [Audio Devices], UnmapAllocatedPages method [Audio Devices], IPortWaveRTStream interface, UnmapAllocatedPages,IPortWaveRTStream.UnmapAllocatedPages, audio.iportwavertstream_unmapallocatedpages, audmp-routines_2d402b1b-6951-48db-89bb-81f3cc7e0076.xml, portcls/IPortWaveRTStream::UnmapAllocatedPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,7 +100,7 @@ This method is similar in operation to the <a href="..\wdm\nf-wdm-mmunmaplockedp
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536932">IPortWaveRTStream::MapAllocatedPages</a>
+<a href="..\wdm\nf-wdm-mmunmaplockedpages.md">MmUnmapLockedPages</a>
 
 
 
@@ -108,7 +108,7 @@ This method is similar in operation to the <a href="..\wdm\nf-wdm-mmunmaplockedp
 
 
 
-<a href="..\wdm\nf-wdm-mmunmaplockedpages.md">MmUnmapLockedPages</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536932">IPortWaveRTStream::MapAllocatedPages</a>
 
 
 

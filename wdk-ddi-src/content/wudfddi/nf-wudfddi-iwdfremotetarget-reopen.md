@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 904904e7-ca59-4dcb-92db-8c7f6a9cbff7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, D, F, I, IWDFRemoteTarget, IWDFRemoteTarget interface, Reopen method, IWDFRemoteTarget::Reopen, R, Reopen method, Reopen method, IWDFRemoteTarget interface, Reopen,IWDFRemoteTarget.Reopen, T, UMDFIoTargetObjectRef_13b81124-2d7f-4fed-b4f9-1a5cb647a811.xml, W, a, e, g, m, n, o, p, r, t, umdf.iwdfremotetarget_reopen, wdf.iwdfremotetarget_reopen, wudfddi/IWDFRemoteTarget::Reopen"
+ms.keywords: IWDFRemoteTarget, IWDFRemoteTarget interface, Reopen method, IWDFRemoteTarget::Reopen, Reopen method, Reopen method, IWDFRemoteTarget interface, Reopen,IWDFRemoteTarget.Reopen, UMDFIoTargetObjectRef_13b81124-2d7f-4fed-b4f9-1a5cb647a811.xml, umdf.iwdfremotetarget_reopen, wdf.iwdfremotetarget_reopen, wudfddi/IWDFRemoteTarget::Reopen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -151,11 +151,11 @@ CMyRemoteTarget::OnRemoteTargetRemoveCanceled(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560253">IWDFRemoteTarget::Close</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
 
 
 

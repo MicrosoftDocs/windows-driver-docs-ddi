@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 97fa159c-ce71-4ce2-8d40-def7671d014c
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, G, GetPinName method [Audio Devices], GetPinName method [Audio Devices], IPinName interface, GetPinName,IPinName.GetPinName, I, IPinName, IPinName interface [Audio Devices], GetPinName method, IPinName::GetPinName, N, P, a, audio.ipinname_getpinname, audmp-routines_438a3c13-6571-45ab-ad7a-6ef71336c17f.xml, e, i, m, n, portcls/IPinName::GetPinName, t"
+ms.keywords: GetPinName method [Audio Devices], GetPinName method [Audio Devices], IPinName interface, GetPinName,IPinName.GetPinName, IPinName, IPinName interface [Audio Devices], GetPinName method, IPinName::GetPinName, audio.ipinname_getpinname, audmp-routines_438a3c13-6571-45ab-ad7a-6ef71336c17f.xml, portcls/IPinName::GetPinName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -128,11 +128,11 @@ KSNODETYPE_LOW_FREQUENCY_EFFECTS_SPEAKER
 
 
 
-<a href="..\portcls\nn-portcls-ipinname.md">IPinName</a>
-
-
-
 <a href="https://msdn.microsoft.com/fd4a4afd-2c17-4002-87ae-21501b1d75c1">Pin Category Property</a>
+
+
+
+<a href="..\portcls\nn-portcls-ipinname.md">IPinName</a>
 
 
 

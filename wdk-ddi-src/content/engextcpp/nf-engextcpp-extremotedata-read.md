@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3068cbcf-c15b-43e1-bd53-857efea65d83
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, E, EngExtCpp_Ref_69230a7b-f83c-46fc-88c4-134b506540af.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], Read method, ExtRemoteData::Read, R, Read method [Windows Debugging], Read method [Windows Debugging], ExtRemoteData class, Read,ExtRemoteData.Read, a, d, debugger.extremotedata_read, e, m, o, t, x"
+ms.keywords: EngExtCpp_Ref_69230a7b-f83c-46fc-88c4-134b506540af.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], Read method, ExtRemoteData::Read, Read method [Windows Debugging], Read method [Windows Debugging], ExtRemoteData class, Read,ExtRemoteData.Read, debugger.extremotedata_read
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -93,19 +93,19 @@ The data can be retrieved using <a href="https://msdn.microsoft.com/library/wind
 
 
 
-<a href="https://msdn.microsoft.com/50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5">ExtRemoteData::Set(Offset Bytes)</a>
-
-
-
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544006">ExtRemoteData::ExtRemoteData</a>
+
+
+
+<a href="https://msdn.microsoft.com/50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5">ExtRemoteData::Set(Offset Bytes)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
 
 
 

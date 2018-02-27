@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 46655cbe-0483-4897-bd12-ce108af326c6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , F, I, IoIsFileOriginRemote, IoIsFileOriginRemote routine [Installable File System Drivers], O, R, e, g, i, ifsk.ioisfileoriginremote, ioref_04dab537-9cd7-44be-9592-0682c0bfbd7e.xml, l, m, n, ntddk/IoIsFileOriginRemote, o, r, s, t"
+ms.keywords: IoIsFileOriginRemote, IoIsFileOriginRemote routine [Installable File System Drivers], ifsk.ioisfileoriginremote, ioref_04dab537-9cd7-44be-9592-0682c0bfbd7e.xml, ntddk/IoIsFileOriginRemote
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

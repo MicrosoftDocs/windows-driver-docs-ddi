@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 18bf43bd-3499-4494-839b-9bc07de83644
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, A, AVC_CTYPE_CONTROL, AVC_CTYPE_GEN_INQ, AVC_CTYPE_NOTIFY, AVC_CTYPE_SPEC_INQ, AVC_CTYPE_STATUS, AvcCommandType, AvcCommandType enumeration [Streaming Media Devices], C, T, _, _tagAvcCommandType, a, avc/AVC_CTYPE_CONTROL, avc/AVC_CTYPE_GEN_INQ, avc/AVC_CTYPE_NOTIFY, avc/AVC_CTYPE_SPEC_INQ, avc/AVC_CTYPE_STATUS, avc/AvcCommandType, avcref_08c9f0bb-efe0-412d-9a49-ba497bcc6e25.xml, c, d, e, g, m, n, o, p, stream.avccommandtype, t, v, y"
+ms.keywords: AVC_CTYPE_CONTROL, AVC_CTYPE_GEN_INQ, AVC_CTYPE_NOTIFY, AVC_CTYPE_SPEC_INQ, AVC_CTYPE_STATUS, AvcCommandType, AvcCommandType enumeration [Streaming Media Devices], _tagAvcCommandType, avc/AVC_CTYPE_CONTROL, avc/AVC_CTYPE_GEN_INQ, avc/AVC_CTYPE_NOTIFY, avc/AVC_CTYPE_SPEC_INQ, avc/AVC_CTYPE_STATUS, avc/AvcCommandType, avcref_08c9f0bb-efe0-412d-9a49-ba497bcc6e25.xml, stream.avccommandtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: d666cdd3-a673-4105-b982-e7cc942131ee
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PPCI_CORRECTABLE_ERROR_MASK, ,, A, B, C, E, I, K, L, M, O, P, PCI.pci_express_correctable_error_mask, PCI_EXPRESS_CORRECTABLE_ERROR_MASK, PCI_EXPRESS_CORRECTABLE_ERROR_MASK union [Buses], PPCI_CORRECTABLE_ERROR_MASK, PPCI_CORRECTABLE_ERROR_MASK union pointer [Buses], R, S, T, X, _, _PCI_EXPRESS_CORRECTABLE_ERROR_MASK, pci_struct_770185be-12f9-4519-8077-6d90e8344590.xml, wdm/PCI_EXPRESS_CORRECTABLE_ERROR_MASK, wdm/PPCI_CORRECTABLE_ERROR_MASK"
+ms.keywords: "*PPCI_CORRECTABLE_ERROR_MASK, PCI.pci_express_correctable_error_mask, PCI_EXPRESS_CORRECTABLE_ERROR_MASK, PCI_EXPRESS_CORRECTABLE_ERROR_MASK union [Buses], PPCI_CORRECTABLE_ERROR_MASK, PPCI_CORRECTABLE_ERROR_MASK union pointer [Buses], _PCI_EXPRESS_CORRECTABLE_ERROR_MASK, pci_struct_770185be-12f9-4519-8077-6d90e8344590.xml, wdm/PCI_EXPRESS_CORRECTABLE_ERROR_MASK, wdm/PPCI_CORRECTABLE_ERROR_MASK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,19 +89,9 @@ typedef union _PCI_EXPRESS_CORRECTABLE_ERROR_MASK {
 A ULONG representation of the contents of the PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure.
 
 
-#### - ReceiverError
+#### - AdvisoryNonFatalError
 
-A single bit that indicates that the reporting of receiver errors is masked.
-
-
-#### - Reserved1
-
-Reserved.
-
-
-#### - BadTLP
-
-A single bit that indicates that the reporting of bad transaction layer packets (TLPs) is masked.
+A single bit that indicates that the reporting of advisory non-fatal errors is masked.
 
 
 #### - BadDLLP
@@ -109,14 +99,19 @@ A single bit that indicates that the reporting of bad transaction layer packets 
 A single bit that indicates that the reporting of bad data link layer packets (DLLPs) is masked.
 
 
+#### - BadTLP
+
+A single bit that indicates that the reporting of bad transaction layer packets (TLPs) is masked.
+
+
+#### - ReceiverError
+
+A single bit that indicates that the reporting of receiver errors is masked.
+
+
 #### - ReplayNumRollover
 
 A single bit that indicates that the reporting of rollovers of the counter that counts the number of times the retry buffer has been re-transmitted is masked.
-
-
-#### - Reserved2
-
-Reserved.
 
 
 #### - ReplayTimerTimeout
@@ -124,9 +119,14 @@ Reserved.
 A single bit that indicates that the reporting of timeouts of the replay timer is masked.
 
 
-#### - AdvisoryNonFatalError
+#### - Reserved1
 
-A single bit that indicates that the reporting of advisory non-fatal errors is masked.
+Reserved.
+
+
+#### - Reserved2
+
+Reserved.
 
 
 #### - Reserved3
@@ -147,15 +147,15 @@ A PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure is contained in the <a href="http
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: EE300158-D7D8-4353-B205-362232A22568
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, G, U, V, VmbChannelUnmapGpadl, VmbChannelUnmapGpadl function [Network Drivers Starting with Windows Vista], a, b, d, e, h, l, m, n, netvista.vmbchannelunmapgpadl, p, vmbuskernelmodeclientlibapi/VmbChannelUnmapGpadl"
+ms.keywords: VmbChannelUnmapGpadl, VmbChannelUnmapGpadl function [Network Drivers Starting with Windows Vista], netvista.vmbchannelunmapgpadl, vmbuskernelmodeclientlibapi/VmbChannelUnmapGpadl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

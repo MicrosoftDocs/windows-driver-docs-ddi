@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7bef79ab-78d6-47b6-a3f4-d9733ffcb53d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , DFWMIRef_1062330c-9a9b-4bd3-a039-e1373c07ceee.xml, E, F, I, W, WdfWmiInstanceFireEvent, WdfWmiInstanceFireEvent method, a, c, d, e, f, i, kmdf.wdfwmiinstancefireevent, m, n, r, s, t, v, wdf.wdfwmiinstancefireevent, wdfwmi/WdfWmiInstanceFireEvent"
+ms.keywords: DFWMIRef_1062330c-9a9b-4bd3-a039-e1373c07ceee.xml, WdfWmiInstanceFireEvent, WdfWmiInstanceFireEvent method, kmdf.wdfwmiinstancefireevent, wdf.wdfwmiinstancefireevent, wdfwmi/WdfWmiInstanceFireEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -181,7 +181,7 @@ status = WdfWmiInstanceFireEvent(
 
 ## -see-also
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
 
 
@@ -189,7 +189,7 @@ status = WdfWmiInstanceFireEvent(
 
 
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
 
 
 

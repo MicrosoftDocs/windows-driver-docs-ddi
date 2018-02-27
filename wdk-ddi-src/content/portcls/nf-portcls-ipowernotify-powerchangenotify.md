@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: bbc49675-93d1-4ea2-9a3d-b72d76521de7
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, C, I, IPowerNotify, IPowerNotify interface [Audio Devices], PowerChangeNotify method, IPowerNotify::PowerChangeNotify, N, P, PowerChangeNotify method [Audio Devices], PowerChangeNotify method [Audio Devices], IPowerNotify interface, PowerChangeNotify,IPowerNotify.PowerChangeNotify, a, audio.ipowernotify_powerchangenotify, audmp-routines_14b6d53d-cf30-47d1-bace-402fe4e5d7ba.xml, e, f, g, h, i, n, o, portcls/IPowerNotify::PowerChangeNotify, r, t, w, y"
+ms.keywords: IPowerNotify, IPowerNotify interface [Audio Devices], PowerChangeNotify method, IPowerNotify::PowerChangeNotify, PowerChangeNotify method [Audio Devices], PowerChangeNotify method [Audio Devices], IPowerNotify interface, PowerChangeNotify,IPowerNotify.PowerChangeNotify, audio.ipowernotify_powerchangenotify, audmp-routines_14b6d53d-cf30-47d1-bace-402fe4e5d7ba.xml, portcls/IPowerNotify::PowerChangeNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -96,11 +96,11 @@ The code for this method must reside in paged memory.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536488">IAdapterPowerManagement::PowerChangeState</a>
-
-
-
 <a href="..\portcls\nn-portcls-ipowernotify.md">IPowerNotify</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536488">IAdapterPowerManagement::PowerChangeState</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ee340d85-5a66-4773-b325-831257e9bfd8
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , I, K, KeRaiseIrql, KeRaiseIrql routine [Kernel-Mode Driver Architecture], R, a, e, i, k105_66b09c47-8f95-41ee-8432-5784f306ad62.xml, kernel.keraiseirql, l, q, r, s, wdm/KeRaiseIrql"
+ms.keywords: KeRaiseIrql, KeRaiseIrql routine [Kernel-Mode Driver Architecture], k105_66b09c47-8f95-41ee-8432-5784f306ad62.xml, kernel.keraiseirql, wdm/KeRaiseIrql
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

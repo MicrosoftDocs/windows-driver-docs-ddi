@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 184473e4-603f-40a0-a4ea-c15d5b0b0b35
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 3, D, D3DKMTSetQueuedLimit, D3DKMTSetQueuedLimit function [Display Devices], K, L, M, OpenGL_Functions_22227369-eb8b-4ee0-a3d8-97eb0f469d94.xml, Q, S, T, d, d3dkmthk/D3DKMTSetQueuedLimit, display.d3dkmtsetqueuedlimit, e, i, m, t, u"
+ms.keywords: D3DKMTSetQueuedLimit, D3DKMTSetQueuedLimit function [Display Devices], OpenGL_Functions_22227369-eb8b-4ee0-a3d8-97eb0f469d94.xml, d3dkmthk/D3DKMTSetQueuedLimit, display.d3dkmtsetqueuedlimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

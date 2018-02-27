@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: a06de368-71a1-49f1-a948-1b69ca359fb6
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, CWiauPropertyList, CWiauPropertyList interface [Imaging Devices], GetPropId method, CWiauPropertyList::GetPropId, G, GetPropId method [Imaging Devices], GetPropId method [Imaging Devices], CWiauPropertyList interface, GetPropId,CWiauPropertyList.GetPropId, I, L, P, W, a, d, e, i, image.cwiaupropertylist_getpropid, o, p, r, s, t, u, wiauFncs_3463736c-9dd0-4b87-b427-b19a0daf0df9.xml, wiautil/CWiauPropertyList::GetPropId, y"
+ms.keywords: CWiauPropertyList, CWiauPropertyList interface [Imaging Devices], GetPropId method, CWiauPropertyList::GetPropId, GetPropId method [Imaging Devices], GetPropId method [Imaging Devices], CWiauPropertyList interface, GetPropId,CWiauPropertyList.GetPropId, image.cwiaupropertylist_getpropid, wiauFncs_3463736c-9dd0-4b87-b427-b19a0daf0df9.xml, wiautil/CWiauPropertyList::GetPropId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

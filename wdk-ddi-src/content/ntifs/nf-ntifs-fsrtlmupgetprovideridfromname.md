@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a572398c-1755-4fc6-844b-85059d4d02cb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , F, FsRtlMupGetProviderIdFromName, FsRtlMupGetProviderIdFromName routine [Installable File System Drivers], G, I, M, N, P, R, a, d, e, fsrtlref_40c084cd-454c-4e09-afc1-fca3a78bf614.xml, i, ifsk.fsrtlmupgetprovideridfromname, l, m, ntifs/FsRtlMupGetProviderIdFromName, o, p, r, s, t, u, v"
+ms.keywords: FsRtlMupGetProviderIdFromName, FsRtlMupGetProviderIdFromName routine [Installable File System Drivers], fsrtlref_40c084cd-454c-4e09-afc1-fca3a78bf614.xml, ifsk.fsrtlmupgetprovideridfromname, ntifs/FsRtlMupGetProviderIdFromName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

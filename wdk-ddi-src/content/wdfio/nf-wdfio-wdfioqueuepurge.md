@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bd6e9583-774f-4ca2-9c23-4d32b233daff
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , DFQueueObjectRef_611371f2-862e-41c5-9f8f-d0a61c7e731e.xml, I, P, Q, W, WdfIoQueuePurge, WdfIoQueuePurge method, d, e, f, g, kmdf.wdfioqueuepurge, o, r, u, wdf.wdfioqueuepurge, wdfio/WdfIoQueuePurge"
+ms.keywords: DFQueueObjectRef_611371f2-862e-41c5-9f8f-d0a61c7e731e.xml, WdfIoQueuePurge, WdfIoQueuePurge method, kmdf.wdfioqueuepurge, wdf.wdfioqueuepurge, wdfio/WdfIoQueuePurge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,7 +144,7 @@ The following code example purges an I/O queue and does not call a callback func
 
 ## -see-also
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuepurgesynchronously.md">WdfIoQueuePurgeSynchronously</a>
 
 
 
@@ -152,7 +152,7 @@ The following code example purges an I/O queue and does not call a callback func
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuepurgesynchronously.md">WdfIoQueuePurgeSynchronously</a>
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
 
 
 

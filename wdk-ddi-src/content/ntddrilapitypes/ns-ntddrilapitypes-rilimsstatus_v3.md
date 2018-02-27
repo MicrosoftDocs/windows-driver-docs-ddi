@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4c0ee205-2508-4414-afa5-cb6e7a358fc8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , *, *LPRILIMSSTATUS, *LPRILIMSSTATUS_V3, ,, 3, A, I, L, M, P, R, RILIMSSTATUS, RILIMSSTATUS_V3, RILIMSSTATUS_V3 structure [Network Drivers Starting with Windows Vista], S, T, U, V, _, netvista.rilimsstatus_v3, ntddrilapitypes/RILIMSSTATUS_V3"
+ms.keywords: "*LPRILIMSSTATUS, *LPRILIMSSTATUS_V3, RILIMSSTATUS, RILIMSSTATUS_V3, RILIMSSTATUS_V3 structure [Network Drivers Starting with Windows Vista], netvista.rilimsstatus_v3, ntddrilapitypes/RILIMSSTATUS_V3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

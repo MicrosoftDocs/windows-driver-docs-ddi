@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 15e2e1f4-6039-4588-a7ba-bd8aa6b78839
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , B, D, F, G, M, N, NdisMGetVirtualFunctionBusData, NdisMGetVirtualFunctionBusData function [Network Drivers Starting with Windows Vista], V, a, c, d, e, i, l, n, ndis/NdisMGetVirtualFunctionBusData, netvista.ndismgetvirtualfunctionbusdata, o, r, s, t, u"
+ms.keywords: NdisMGetVirtualFunctionBusData, NdisMGetVirtualFunctionBusData function [Network Drivers Starting with Windows Vista], ndis/NdisMGetVirtualFunctionBusData, netvista.ndismgetvirtualfunctionbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -134,11 +134,11 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451137">GetVirtualFunctionData</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
 
 
 
@@ -146,11 +146,11 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismenablevirtualization.md">NdisMEnableVirtualization</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451137">GetVirtualFunctionData</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4d40ac4b-9aca-4be6-8d4f-db94c3daf4e8
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PSILO_COMMAND, ,, A, C, D, I, L, M, N, O, P, PSILO_COMMAND, PSILO_COMMAND structure pointer [Storage Devices], S, SILO_COMMAND, SILO_COMMAND structure [Storage Devices], _, a, ehstorioctl/PSILO_COMMAND, ehstorioctl/SILO_COMMAND, g, storage.silo_command, structs-silo_6058ee8b-c6ff-4e84-8b20-304bb6646a4f.xml, t, tagSILO_COMMAND"
+ms.keywords: "*PSILO_COMMAND, PSILO_COMMAND, PSILO_COMMAND structure pointer [Storage Devices], SILO_COMMAND, SILO_COMMAND structure [Storage Devices], ehstorioctl/PSILO_COMMAND, ehstorioctl/SILO_COMMAND, storage.silo_command, structs-silo_6058ee8b-c6ff-4e84-8b20-304bb6646a4f.xml, tagSILO_COMMAND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

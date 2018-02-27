@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 72068476-5821-4646-88b3-06f3a1917fca
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., 2, :, A, C, I, IAdapterPowerManagement2, IAdapterPowerManagement2 interface [Audio Devices], PowerChangeState2 method, IAdapterPowerManagement2::PowerChangeState2, M, P, PowerChangeState2 method [Audio Devices], PowerChangeState2 method [Audio Devices], IAdapterPowerManagement2 interface, PowerChangeState2,IAdapterPowerManagement2.PowerChangeState2, S, a, audio.iadapterpowermanagement2_powerchangestate2, audmp-routines_d145e24a-5ef1-44a3-b51b-9ee2c8a89772.xml, d, e, g, h, m, n, o, p, portcls/IAdapterPowerManagement2::PowerChangeState2, r, t, w"
+ms.keywords: IAdapterPowerManagement2, IAdapterPowerManagement2 interface [Audio Devices], PowerChangeState2 method, IAdapterPowerManagement2::PowerChangeState2, PowerChangeState2 method [Audio Devices], PowerChangeState2 method [Audio Devices], IAdapterPowerManagement2 interface, PowerChangeState2,IAdapterPowerManagement2.PowerChangeState2, audio.iadapterpowermanagement2_powerchangestate2, audmp-routines_d145e24a-5ef1-44a3-b51b-9ee2c8a89772.xml, portcls/IAdapterPowerManagement2::PowerChangeState2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,7 +100,7 @@ For more information about system power states, see <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546941">Handling System Power State Requests</a>
 
 
 
@@ -108,15 +108,15 @@ For more information about system power states, see <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546941">Handling System Power State Requests</a>
-
-
-
-<a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
+<a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
 
 
 
 <a href="..\portcls\nn-portcls-iadapterpowermanagement2.md">IAdapterPowerManagement2</a>
+
+
+
+<a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
 
 
 

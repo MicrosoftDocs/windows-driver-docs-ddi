@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2d4ac375-ede9-406e-bac0-9caa2273c91a
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, B, H, HBA_SetBindingSupport, HBA_SetBindingSupport routine [Storage Devices], S, _, d, e, fibreHBA_rtns_5adce4be-2d9d-4e53-ab21-3a15810153d7.xml, g, hbaapi/HBA_SetBindingSupport, i, n, o, p, r, storage.hba_setbindingsupport, t, u"
+ms.keywords: HBA_SetBindingSupport, HBA_SetBindingSupport routine [Storage Devices], fibreHBA_rtns_5adce4be-2d9d-4e53-ab21-3a15810153d7.xml, hbaapi/HBA_SetBindingSupport, storage.hba_setbindingsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

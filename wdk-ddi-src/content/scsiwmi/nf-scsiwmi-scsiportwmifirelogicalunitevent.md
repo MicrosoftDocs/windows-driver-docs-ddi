@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f8bfc6cb-78d4-482b-b08b-0d86631ce979
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , E, F, L, P, S, ScsiPortWmiFireLogicalUnitEvent, ScsiPortWmiFireLogicalUnitEvent routine [Storage Devices], U, W, a, c, e, g, i, l, m, n, o, r, s, scsiprt_67f96e3c-cc69-44a7-b324-a247a9a928cc.xml, scsiwmi/ScsiPortWmiFireLogicalUnitEvent, storage.scsiportwmifirelogicalunitevent, t, v"
+ms.keywords: ScsiPortWmiFireLogicalUnitEvent, ScsiPortWmiFireLogicalUnitEvent routine [Storage Devices], scsiprt_67f96e3c-cc69-44a7-b324-a247a9a928cc.xml, scsiwmi/ScsiPortWmiFireLogicalUnitEvent, storage.scsiportwmifirelogicalunitevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

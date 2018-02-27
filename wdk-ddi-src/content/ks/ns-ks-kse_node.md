@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 89446165-cdc3-414d-bcce-f2c978d94547
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PKSE_NODE, ,, D, E, K, KSE_NODE, KSE_NODE structure [Streaming Media Devices], N, O, P, PKSE_NODE, PKSE_NODE structure pointer [Streaming Media Devices], S, _, ks-struct_701a51ab-90d7-47d6-8e40-bd30d0ddd7b9.xml, ks/KSE_NODE, ks/PKSE_NODE, stream.kse_node"
+ms.keywords: "*PKSE_NODE, KSE_NODE, KSE_NODE structure [Streaming Media Devices], PKSE_NODE, PKSE_NODE structure pointer [Streaming Media Devices], ks-struct_701a51ab-90d7-47d6-8e40-bd30d0ddd7b9.xml, ks/KSE_NODE, ks/PKSE_NODE, stream.kse_node"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 010F7CB0-F930-47FF-91DF-D95B21FC76A0
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 3, D, D3DKMTEvict, D3DKMTEvict function [Display Devices], E, K, M, T, c, d3dkmthk/D3DKMTEvict, display.d3dkmtevict, i, t, v"
+ms.keywords: D3DKMTEvict, D3DKMTEvict function [Display Devices], d3dkmthk/D3DKMTEvict, display.d3dkmtevict
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

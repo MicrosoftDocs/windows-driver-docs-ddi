@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: CC609DA8-9778-4AFC-9205-5F68AF15927C
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, I, IDebugOutputStream, IDebugOutputStream interface [Windows Debugging], Write method, IDebugOutputStream::Write, O, S, W, Write method [Windows Debugging], Write method [Windows Debugging], IDebugOutputStream interface, Write,IDebugOutputStream.Write, a, b, dbgeng/IDebugOutputStream::Write, debugger.idebugoutputstream_write, e, g, i, m, p, r, t, u"
+ms.keywords: IDebugOutputStream, IDebugOutputStream interface [Windows Debugging], Write method, IDebugOutputStream::Write, Write method [Windows Debugging], Write method [Windows Debugging], IDebugOutputStream interface, Write,IDebugOutputStream.Write, dbgeng/IDebugOutputStream::Write, debugger.idebugoutputstream_write
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

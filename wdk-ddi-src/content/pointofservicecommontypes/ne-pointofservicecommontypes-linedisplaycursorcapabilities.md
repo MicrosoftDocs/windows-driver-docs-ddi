@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 3F7AE8FE-F975-43AF-9FA0-C494E506D4B1
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, D, L, LineDisplayCursorCapabilities, LineDisplayCursorCapabilities enumeration, a, b, e, i, l, n, o, p, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayCursorCapabilities, pos.linedisplaycursorcapabilities, r, s, t, u, y"
+ms.keywords: LineDisplayCursorCapabilities, LineDisplayCursorCapabilities enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayCursorCapabilities, pos.linedisplaycursorcapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

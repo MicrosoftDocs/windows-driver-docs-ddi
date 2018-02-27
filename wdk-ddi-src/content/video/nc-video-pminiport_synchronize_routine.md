@@ -100,7 +100,7 @@ The miniport driver of an adapter that does not generate interrupts also can hav
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
 
 
 
@@ -108,7 +108,7 @@ The miniport driver of an adapter that does not generate interrupts also can hav
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
+<a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
 
 
 

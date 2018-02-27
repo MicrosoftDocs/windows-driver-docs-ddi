@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: faafc6d0-f311-46c1-87c1-8b0ea20984db
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, AppendImagePath method [Windows Debugging], AppendImagePath method [Windows Debugging], IDebugSymbols interface, AppendImagePath method [Windows Debugging], IDebugSymbols2 interface, AppendImagePath method [Windows Debugging], IDebugSymbols3 interface, AppendImagePath,IDebugSymbols.AppendImagePath, AppendImagePath,IDebugSymbols2.AppendImagePath, D, I, IDebugSymbols, IDebugSymbols interface [Windows Debugging], AppendImagePath method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], AppendImagePath method, IDebugSymbols2::AppendImagePath, IDebugSymbols3 interface [Windows Debugging], AppendImagePath method, IDebugSymbols3::AppendImagePath, IDebugSymbols::AppendImagePath, IDebugSymbols_ea3dc04a-42d9-4457-830d-5544f50c5a97.xml, P, S, a, b, d, dbgeng/IDebugSymbols2::AppendImagePath, dbgeng/IDebugSymbols3::AppendImagePath, dbgeng/IDebugSymbols::AppendImagePath, debugger.appendimagepath, e, g, h, l, m, n, o, p, s, t, u, y"
+ms.keywords: AppendImagePath method [Windows Debugging], AppendImagePath method [Windows Debugging], IDebugSymbols interface, AppendImagePath method [Windows Debugging], IDebugSymbols2 interface, AppendImagePath method [Windows Debugging], IDebugSymbols3 interface, AppendImagePath,IDebugSymbols2.AppendImagePath, IDebugSymbols interface [Windows Debugging], AppendImagePath method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], AppendImagePath method, IDebugSymbols2::AppendImagePath, IDebugSymbols3 interface [Windows Debugging], AppendImagePath method, IDebugSymbols3::AppendImagePath, IDebugSymbols::AppendImagePath, IDebugSymbols_ea3dc04a-42d9-4457-830d-5544f50c5a97.xml, dbgeng/IDebugSymbols2::AppendImagePath, dbgeng/IDebugSymbols3::AppendImagePath, dbgeng/IDebugSymbols::AppendImagePath, debugger.appendimagepath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -119,19 +119,19 @@ The executable image path can consist of several directories separated by semico
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556708">SetImagePath</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546851">GetImagePath</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546851">GetImagePath</a>
 
 
 

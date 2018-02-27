@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3f4d01fe-84cb-424e-9107-e29c4e25d85c
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, D, E, P, PoSetDeviceBusyEx, PoSetDeviceBusyEx routine [Kernel-Mode Driver Architecture], S, c, e, i, kernel.posetdevicebusyex, o, portn_62143669-4381-4b4b-8d23-8b315d882c65.xml, s, t, u, v, wdm/PoSetDeviceBusyEx, x, y"
+ms.keywords: PoSetDeviceBusyEx, PoSetDeviceBusyEx routine [Kernel-Mode Driver Architecture], kernel.posetdevicebusyex, portn_62143669-4381-4b4b-8d23-8b315d882c65.xml, wdm/PoSetDeviceBusyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,7 +101,11 @@ A driver that makes multiple requests for brief I/O operations should call <b>Po
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-poregisterdeviceforidledetection.md">PoRegisterDeviceForIdleDetection</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559755">PoSetDeviceBusy</a>
 
 
 
@@ -109,15 +113,11 @@ A driver that makes multiple requests for brief I/O operations should call <b>Po
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+<a href="..\wdm\nf-wdm-poregisterdeviceforidledetection.md">PoRegisterDeviceForIdleDetection</a>
 
 
 
 <a href="..\wdm\nf-wdm-postartdevicebusy.md">PoStartDeviceBusy</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559755">PoSetDeviceBusy</a>
 
 
 

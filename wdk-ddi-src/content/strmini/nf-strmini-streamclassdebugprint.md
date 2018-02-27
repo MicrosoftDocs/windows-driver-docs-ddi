@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a8b7efd2-7773-44dc-92de-85b03c31ada8
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, D, P, S, StreamClassDebugPrint, StreamClassDebugPrint routine [Streaming Media Devices], a, b, e, g, i, l, m, n, r, s, strclass-routines_858a2dd4-ee74-44de-9293-05bd804c315d.xml, stream.streamclassdebugprint, strmini/StreamClassDebugPrint, t, u"
+ms.keywords: StreamClassDebugPrint, StreamClassDebugPrint routine [Streaming Media Devices], strclass-routines_858a2dd4-ee74-44de-9293-05bd804c315d.xml, stream.streamclassdebugprint, strmini/StreamClassDebugPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

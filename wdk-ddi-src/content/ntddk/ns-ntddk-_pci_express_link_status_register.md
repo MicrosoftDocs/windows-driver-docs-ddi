@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: c3431e89-4a47-44e6-98d8-eae444ea1915
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PPCI_EXPRESS_LINK_STATUS_REGISTER, ,, A, C, E, G, I, K, L, N, P, PCI.pci_express_link_status_register, PCI_EXPRESS_LINK_STATUS_REGISTER, PCI_EXPRESS_LINK_STATUS_REGISTER union [Buses], PPCI_EXPRESS_LINK_STATUS_REGISTER, PPCI_EXPRESS_LINK_STATUS_REGISTER union pointer [Buses], R, S, T, U, X, _, _PCI_EXPRESS_LINK_STATUS_REGISTER, ntddk/PCI_EXPRESS_LINK_STATUS_REGISTER, ntddk/PPCI_EXPRESS_LINK_STATUS_REGISTER, pci_struct_41d11df3-521f-4709-a30e-be70ad36db8f.xml"
+ms.keywords: "*PPCI_EXPRESS_LINK_STATUS_REGISTER, PCI.pci_express_link_status_register, PCI_EXPRESS_LINK_STATUS_REGISTER, PCI_EXPRESS_LINK_STATUS_REGISTER union [Buses], PPCI_EXPRESS_LINK_STATUS_REGISTER, PPCI_EXPRESS_LINK_STATUS_REGISTER union pointer [Buses], _PCI_EXPRESS_LINK_STATUS_REGISTER, ntddk/PCI_EXPRESS_LINK_STATUS_REGISTER, ntddk/PPCI_EXPRESS_LINK_STATUS_REGISTER, pci_struct_41d11df3-521f-4709-a30e-be70ad36db8f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,6 +86,11 @@ typedef union _PCI_EXPRESS_LINK_STATUS_REGISTER {
 A USHORT representation of the contents of the PCI_EXPRESS_LINK_STATUS_REGISTER structure.
 
 
+#### - DataLinkLayerActive
+
+A single bit that indicates that the data link control and management state machine is in the data link active state.
+
+
 #### - LinkSpeed
 
 The negotiated link speed of the PCIe link.  Possible values are:
@@ -109,6 +114,11 @@ The negotiated link speed of the PCIe link.  Possible values are:
 </tr>
 </table>
  
+
+
+#### - LinkTraining
+
+A single bit that indicates that the link is in the configuration or recovery state, or that a 1 was written to the retrain link bit of the PCIe link control register and the training has not yet begun. This member is not applicable to endpoint devices and upstream ports of switches.
 
 
 #### - LinkWidth
@@ -156,14 +166,9 @@ The negotiated link width (number of lanes) of the PCIe link. Possible values ar
  
 
 
-#### - Undefined
+#### - Rsvd
 
-Reserved. Device drivers and other system software should ignore any value read from this bit.
-
-
-#### - LinkTraining
-
-A single bit that indicates that the link is in the configuration or recovery state, or that a 1 was written to the retrain link bit of the PCIe link control register and the training has not yet begun. This member is not applicable to endpoint devices and upstream ports of switches.
+Reserved.
 
 
 #### - SlotClockConfig
@@ -171,14 +176,9 @@ A single bit that indicates that the link is in the configuration or recovery st
 A single bit that indicates that the component uses the same physical reference clock that the hardware platform provides on the PCIe slot connector. If this bit is clear, the component uses an independent clock irrespective of the presence of a reference clock on the PCIe slot connector.
 
 
-#### - DataLinkLayerActive
+#### - Undefined
 
-A single bit that indicates that the data link control and management state machine is in the data link active state.
-
-
-#### - Rsvd
-
-Reserved.
+Reserved. Device drivers and other system software should ignore any value read from this bit.
 
 
 ## -remarks

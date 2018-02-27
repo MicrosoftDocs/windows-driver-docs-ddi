@@ -153,7 +153,7 @@ The threading and synchronization level for this function is set by how the user
 
 ## -see-also
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>
+<a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a>
 
 
 
@@ -161,11 +161,11 @@ The threading and synchronization level for this function is set by how the user
 
 
 
-<a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
+
+
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 32b754ef-2a85-4ba7-9d4f-3c2de2501319
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , M, P, V, VideoPortMoveMemory, VideoPortMoveMemory function [Display Devices], VideoPort_Functions_ab574585-85be-48ea-9713-25867812699a.xml, d, display.videoportmovememory, e, i, m, o, r, t, v, video/VideoPortMoveMemory, y"
+ms.keywords: VideoPortMoveMemory, VideoPortMoveMemory function [Display Devices], VideoPort_Functions_ab574585-85be-48ea-9713-25867812699a.xml, display.videoportmovememory, video/VideoPortMoveMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,11 +109,11 @@ Callers of <b>VideoPortMoveMemory</b> can be running at any IRQL if both memory 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
-
-
-
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
+
+<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 49d4c9c7-217f-41b7-b870-886dd78e04a9
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, K, KeQueryNodeActiveAffinity, KeQueryNodeActiveAffinity routine [Kernel-Mode Driver Architecture], N, Q, c, d, e, f, i, k105_05e2547a-e13e-4ade-9139-29690a72e9ed.xml, kernel.kequerynodeactiveaffinity, n, o, r, t, u, v, wdm/KeQueryNodeActiveAffinity, y"
+ms.keywords: KeQueryNodeActiveAffinity, KeQueryNodeActiveAffinity routine [Kernel-Mode Driver Architecture], k105_05e2547a-e13e-4ade-9139-29690a72e9ed.xml, kernel.kequerynodeactiveaffinity, wdm/KeQueryNodeActiveAffinity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,7 @@ The node number. If a multiprocessor system contains <i>n</i> nodes, the nodes a
 
 ### -param Affinity [out, optional]
 
-A pointer to a caller-allocated buffer into which the routine writes a <a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a> structure. This structure contains the group number of the group that contains the node that is identified by <i>NodeNumber</i>, and an affinity mask that indicates which logical processors in the node are active. You can set this parameter to <b>NULL</b> if you do not need this information. 
+A pointer to a caller-allocated buffer into which the routine writes a <a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a> structure. This structure contains the group number of the group that contains the node that is identified by <i>NodeNumber</i>, and an affinity mask that indicates which logical processors in the node are active. You can set this parameter to <b>NULL</b> if you do not need this information. 
 
 
 ### -param Count [out, optional]
@@ -110,7 +110,7 @@ If, during system initialization, Windows encounters a NUMA hardware node that c
 
 ## -see-also
 
-<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
+<a href="..\wdm\nf-wdm-kequerymaximumprocessorcountex.md">KeQueryMaximumProcessorCountEx</a>
 
 
 
@@ -118,7 +118,7 @@ If, during system initialization, Windows encounters a NUMA hardware node that c
 
 
 
-<a href="..\wdm\nf-wdm-kequerymaximumprocessorcountex.md">KeQueryMaximumProcessorCountEx</a>
+<a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0675dce8-4724-4880-b311-204fbb6fe194
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 3, :, D, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], SetImagePathWide method, IDebugSymbols3::SetImagePathWide, P, S, SetImagePathWide method [Windows Debugging], SetImagePathWide method [Windows Debugging], IDebugSymbols3 interface, SetImagePathWide,IDebugSymbols3.SetImagePathWide, W, a, b, d, dbgeng/IDebugSymbols3::SetImagePathWide, debugger.setimagepathwide, e, g, h, i, l, m, o, s, t, u, y"
+ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], SetImagePathWide method, IDebugSymbols3::SetImagePathWide, SetImagePathWide method [Windows Debugging], SetImagePathWide method [Windows Debugging], IDebugSymbols3 interface, SetImagePathWide,IDebugSymbols3.SetImagePathWide, dbgeng/IDebugSymbols3::SetImagePathWide, debugger.setimagepathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

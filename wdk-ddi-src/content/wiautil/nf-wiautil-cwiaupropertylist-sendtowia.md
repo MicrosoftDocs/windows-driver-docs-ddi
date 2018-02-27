@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2f7d6975-4c90-4351-bf68-89786bafcc8e
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, CWiauPropertyList, CWiauPropertyList interface [Imaging Devices], SendToWia method, CWiauPropertyList::SendToWia, L, P, S, SendToWia method [Imaging Devices], SendToWia method [Imaging Devices], CWiauPropertyList interface, SendToWia,CWiauPropertyList.SendToWia, T, W, a, d, e, i, image.cwiaupropertylist_sendtowia, n, o, p, r, s, t, u, wiauFncs_d77b66a2-1c98-4608-9269-ab1e09a98405.xml, wiautil/CWiauPropertyList::SendToWia, y"
+ms.keywords: CWiauPropertyList, CWiauPropertyList interface [Imaging Devices], SendToWia method, CWiauPropertyList::SendToWia, SendToWia method [Imaging Devices], SendToWia method [Imaging Devices], CWiauPropertyList interface, SendToWia,CWiauPropertyList.SendToWia, image.cwiaupropertylist_sendtowia, wiauFncs_d77b66a2-1c98-4608-9269-ab1e09a98405.xml, wiautil/CWiauPropertyList::SendToWia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -93,11 +93,11 @@ The <b>CWiauPropertyList::SendToWia</b> method should be called only after all p
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544989">IWiaMiniDrv::drvInitItemProperties</a>
-
-
-
 <a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544989">IWiaMiniDrv::drvInitItemProperties</a>
 
 
 

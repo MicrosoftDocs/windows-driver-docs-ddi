@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 96D932C6-B969-4C91-B4B1-6FEC7D4AD250
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , I, P, R, RtlIntPtrToInt, RtlIntPtrToInt function [Kernel-Mode Driver Architecture], T, kernel.rtlintptrtoint, l, n, ntintsafe/RtlIntPtrToInt, o, r, t"
+ms.keywords: RtlIntPtrToInt, RtlIntPtrToInt function [Kernel-Mode Driver Architecture], kernel.rtlintptrtoint, ntintsafe/RtlIntPtrToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 23a4c968-b1d1-48f4-9ea9-b97c4b5b4208
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, D, F, I, IWDFPropertyStoreFactory, IWDFPropertyStoreFactory interface, RetrieveDevicePropertyStore method, IWDFPropertyStoreFactory::RetrieveDevicePropertyStore, P, R, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method, IWDFPropertyStoreFactory interface, RetrieveDevicePropertyStore,IWDFPropertyStoreFactory.RetrieveDevicePropertyStore, S, UMDFDeviceObjectRef_79101c30-a5ab-44cf-8fa0-52394d1cce32.xml, W, a, c, e, i, o, p, r, t, umdf.iwdfpropertystorefactory_retrievedevicepropertystore, v, wdf.iwdfpropertystorefactory_retrievedevicepropertystore, wudfddi/IWDFPropertyStoreFactory::RetrieveDevicePropertyStore, y"
+ms.keywords: IWDFPropertyStoreFactory, IWDFPropertyStoreFactory interface, RetrieveDevicePropertyStore method, IWDFPropertyStoreFactory::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method, IWDFPropertyStoreFactory interface, RetrieveDevicePropertyStore,IWDFPropertyStoreFactory.RetrieveDevicePropertyStore, UMDFDeviceObjectRef_79101c30-a5ab-44cf-8fa0-52394d1cce32.xml, umdf.iwdfpropertystorefactory_retrievedevicepropertystore, wdf.iwdfpropertystorefactory_retrievedevicepropertystore, wudfddi/IWDFPropertyStoreFactory::RetrieveDevicePropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -236,7 +236,7 @@ Exit:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfpropertystorefactory.md">IWDFPropertyStoreFactory</a>
 
 
 
@@ -244,7 +244,7 @@ Exit:
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfpropertystorefactory.md">IWDFPropertyStoreFactory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>
 
 
 

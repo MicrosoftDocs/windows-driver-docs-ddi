@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 84d359db-08d7-4f42-b912-02f3d483aa05
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, F, FsRtlRemovePerFileObjectContext, FsRtlRemovePerFileObjectContext function [Installable File System Drivers], O, P, R, b, c, e, fsrtlref_2ff0b1e9-cbe5-46be-b571-3a328284b14d.xml, i, ifsk.fsrtlremoveperfileobjectcontext, j, l, m, n, ntifs/FsRtlRemovePerFileObjectContext, o, r, s, t, v, x"
+ms.keywords: FsRtlRemovePerFileObjectContext, FsRtlRemovePerFileObjectContext function [Installable File System Drivers], fsrtlref_2ff0b1e9-cbe5-46be-b571-3a328284b14d.xml, ifsk.fsrtlremoveperfileobjectcontext, ntifs/FsRtlRemovePerFileObjectContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

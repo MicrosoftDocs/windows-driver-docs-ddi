@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f37c9431-8b60-4caa-863c-81de45ffd457
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , D, F, I, L, M, R, RIL_StartDTMF, RIL_StartDTMF method [Network Drivers Starting with Windows Vista], S, T, _, a, netvista.ril_startdtmf, r, rilapi/RIL_StartDTMF, t"
+ms.keywords: RIL_StartDTMF, RIL_StartDTMF method [Network Drivers Starting with Windows Vista], netvista.ril_startdtmf, rilapi/RIL_StartDTMF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

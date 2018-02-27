@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ad376a6f-b8e3-40ba-9b00-df1410c1293c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, 4, :, D, I, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadPhysical2 method, IDebugDataSpaces4::ReadPhysical2, IDebugDataSpaces_b7eb9d7f-98a3-4be4-a264-68d9ac1eaea7.xml, P, R, ReadPhysical2 method [Windows Debugging], ReadPhysical2 method [Windows Debugging], IDebugDataSpaces4 interface, ReadPhysical2,IDebugDataSpaces4.ReadPhysical2, S, a, b, c, d, dbgeng/IDebugDataSpaces4::ReadPhysical2, debugger.readphysical2, e, g, h, i, l, p, s, t, u, y"
+ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadPhysical2 method, IDebugDataSpaces4::ReadPhysical2, IDebugDataSpaces_b7eb9d7f-98a3-4be4-a264-68d9ac1eaea7.xml, ReadPhysical2 method [Windows Debugging], ReadPhysical2 method [Windows Debugging], IDebugDataSpaces4 interface, ReadPhysical2,IDebugDataSpaces4.ReadPhysical2, dbgeng/IDebugDataSpaces4::ReadPhysical2, debugger.readphysical2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

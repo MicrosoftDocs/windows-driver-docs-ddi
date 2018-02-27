@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7cf55a17-fbb9-4edc-ae12-23dce450a628
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , D, G, I, L, R, RIL_GetDriverVersion, RIL_GetDriverVersion method [Network Drivers Starting with Windows Vista], V, _, e, i, n, netvista.ril_getdriverversion, o, r, rilapi/RIL_GetDriverVersion, s, t, v"
+ms.keywords: RIL_GetDriverVersion, RIL_GetDriverVersion method [Network Drivers Starting with Windows Vista], netvista.ril_getdriverversion, rilapi/RIL_GetDriverVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

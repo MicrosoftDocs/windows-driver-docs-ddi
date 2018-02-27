@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f0d4f266-6a43-4523-bf1d-3dda1fc9a5b8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, G, GetMapping method [Audio Devices], GetMapping method [Audio Devices], IPortWavePciStream interface, GetMapping,IPortWavePciStream.GetMapping, I, IPortWavePciStream, IPortWavePciStream interface [Audio Devices], GetMapping method, IPortWavePciStream::GetMapping, M, P, S, W, a, audio.iportwavepcistream_getmapping, audmp-routines_e0c71b6a-ec20-47ab-85bc-7a3495e5247e.xml, c, e, g, i, m, n, o, p, portcls/IPortWavePciStream::GetMapping, r, t, v"
+ms.keywords: GetMapping method [Audio Devices], GetMapping method [Audio Devices], IPortWavePciStream interface, GetMapping,IPortWavePciStream.GetMapping, IPortWavePciStream, IPortWavePciStream interface [Audio Devices], GetMapping method, IPortWavePciStream::GetMapping, audio.iportwavepcistream_getmapping, audmp-routines_e0c71b6a-ec20-47ab-85bc-7a3495e5247e.xml, portcls/IPortWavePciStream::GetMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -173,6 +173,10 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536726">IMiniportWavePciStream::GetAllocatorFraming</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536911">IPortWavePciStream::ReleaseMapping</a>
 
 
@@ -185,15 +189,11 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
 
 
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536726">IMiniportWavePciStream::GetAllocatorFraming</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536730">IMiniportWavePciStream::RevokeMappings</a>
+
+
+
+<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
 
 
 

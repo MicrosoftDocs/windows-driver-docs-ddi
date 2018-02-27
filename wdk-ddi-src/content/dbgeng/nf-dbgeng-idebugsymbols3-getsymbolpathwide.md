@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2326130f-7e5f-492f-88a9-9eadeccc4827
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 3, :, D, G, GetSymbolPathWide method [Windows Debugging], GetSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface, GetSymbolPathWide,IDebugSymbols3.GetSymbolPathWide, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolPathWide method, IDebugSymbols3::GetSymbolPathWide, P, S, W, a, b, d, dbgeng/IDebugSymbols3::GetSymbolPathWide, debugger.getsymbolpathwide, e, g, h, i, l, m, o, s, t, u, y"
+ms.keywords: GetSymbolPathWide method [Windows Debugging], GetSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface, GetSymbolPathWide,IDebugSymbols3.GetSymbolPathWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolPathWide method, IDebugSymbols3::GetSymbolPathWide, dbgeng/IDebugSymbols3::GetSymbolPathWide, debugger.getsymbolpathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3ad19dc0-f301-4367-b867-6bc714fd3d5e
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, P, R, U, V, VideoPortReadPortBufferUshort, VideoPortReadPortBufferUshort function [Display Devices], VideoPort_Functions_598e11ff-25be-4b55-a86f-130100ed0972.xml, a, d, display.videoportreadportbufferushort, e, f, h, i, o, r, s, t, u, video/VideoPortReadPortBufferUshort"
+ms.keywords: VideoPortReadPortBufferUshort, VideoPortReadPortBufferUshort function [Display Devices], VideoPort_Functions_598e11ff-25be-4b55-a86f-130100ed0972.xml, display.videoportreadportbufferushort, video/VideoPortReadPortBufferUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

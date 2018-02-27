@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a907f219-9e4a-415f-821c-d419b7fde729
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, ClfsQueryLogFileInformation, ClfsQueryLogFileInformation routine [Kernel-Mode Driver Architecture], Clfs_ff89b511-dc33-4407-b967-170b82cb70c3.xml, F, I, L, Q, a, e, f, g, i, kernel.clfsquerylogfileinformation, l, m, n, o, r, s, t, u, wdm/ClfsQueryLogFileInformation, y"
+ms.keywords: ClfsQueryLogFileInformation, ClfsQueryLogFileInformation routine [Kernel-Mode Driver Architecture], Clfs_ff89b511-dc33-4407-b967-170b82cb70c3.xml, kernel.clfsquerylogfileinformation, wdm/ClfsQueryLogFileInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

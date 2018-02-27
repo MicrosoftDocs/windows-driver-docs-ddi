@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: e7f6a8b9-22f1-4c5b-a0b7-b87ceb2c0b1b
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PPCI_EXPRESS_ROOT_STATUS_REGISTER, ,, A, C, E, G, I, O, P, PCI.pci_express_root_status_register, PCI_EXPRESS_ROOT_STATUS_REGISTER, PCI_EXPRESS_ROOT_STATUS_REGISTER union [Buses], PPCI_EXPRESS_ROOT_STATUS_REGISTER, PPCI_EXPRESS_ROOT_STATUS_REGISTER union pointer [Buses], R, S, T, U, X, _, _PCI_EXPRESS_ROOT_STATUS_REGISTER, ntddk/PCI_EXPRESS_ROOT_STATUS_REGISTER, ntddk/PPCI_EXPRESS_ROOT_STATUS_REGISTER, pci_struct_ff3a211f-421b-41f3-9250-d658636bfe49.xml"
+ms.keywords: "*PPCI_EXPRESS_ROOT_STATUS_REGISTER, PCI.pci_express_root_status_register, PCI_EXPRESS_ROOT_STATUS_REGISTER, PCI_EXPRESS_ROOT_STATUS_REGISTER union [Buses], PPCI_EXPRESS_ROOT_STATUS_REGISTER, PPCI_EXPRESS_ROOT_STATUS_REGISTER union pointer [Buses], _PCI_EXPRESS_ROOT_STATUS_REGISTER, ntddk/PCI_EXPRESS_ROOT_STATUS_REGISTER, ntddk/PPCI_EXPRESS_ROOT_STATUS_REGISTER, pci_struct_ff3a211f-421b-41f3-9250-d658636bfe49.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,6 +83,11 @@ typedef union _PCI_EXPRESS_ROOT_STATUS_REGISTER {
 A ULONG representation of the contents of the PCI_EXPRESS_ROOT_STATUS_REGISTER structure.
 
 
+#### - PMEPending
+
+A single bit that indicates that another power management event (PME) is pending while the <b>PMEStatus</b> bit is set.
+
+
 #### - PMERequestorId
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff537471">PCI_EXPRESS_PME_REQUESTOR_ID</a> structure that describes the power management event (PME) requester identifier of the last PME requester.
@@ -91,11 +96,6 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff537471">PCI_EXP
 #### - PMEStatus
 
 A single bit that indicates that a power management event (PME) was asserted by the requester identified by the <b>PMERequestorId</b> member.
-
-
-#### - PMEPending
-
-A single bit that indicates that another power management event (PME) is pending while the <b>PMEStatus</b> bit is set.
 
 
 #### - Rsvd
@@ -116,11 +116,11 @@ A PCI_EXPRESS_ROOT_STATUS_REGISTER structure is contained in the <a href="https:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537471">PCI_EXPRESS_PME_REQUESTOR_ID</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537471">PCI_EXPRESS_PME_REQUESTOR_ID</a>
 
 
 

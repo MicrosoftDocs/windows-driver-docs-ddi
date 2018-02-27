@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7cd54ac2-e13b-45eb-a0ac-56a2d60d9057
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , G, P, R, S, ScsiPortWmiGetReturnSize, ScsiPortWmiGetReturnSize macro [Storage Devices], W, c, e, i, m, n, o, r, s, scsiprt_a9717bc6-2519-4446-8965-47340976a85f.xml, scsiwmi/ScsiPortWmiGetReturnSize, storage.scsiportwmigetreturnsize, t, u, z"
+ms.keywords: ScsiPortWmiGetReturnSize, ScsiPortWmiGetReturnSize macro [Storage Devices], scsiprt_a9717bc6-2519-4446-8965-47340976a85f.xml, scsiwmi/ScsiPortWmiGetReturnSize, storage.scsiportwmigetreturnsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -84,11 +84,11 @@ A miniport driver must call <b>ScsiPortWmiGetReturnSize</b> to obtain the value 
 
 ## -see-also
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
-
-
-
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+
+
+
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
 
 
 

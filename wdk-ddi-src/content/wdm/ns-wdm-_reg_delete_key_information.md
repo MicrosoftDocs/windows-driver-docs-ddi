@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6137ab93-7128-4e71-ba4f-604c7e025c91
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PREG_DELETE_KEY_INFORMATION, *PREG_FLUSH_KEY_INFORMATION, ,, A, D, E, F, G, H, I, K, L, M, N, O, P, PREG_DELETE_KEY_INFORMATION, PREG_DELETE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], R, REG_DELETE_KEY_INFORMATION, REG_DELETE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_FLUSH_KEY_INFORMATION, S, T, U, Y, _, _REG_DELETE_KEY_INFORMATION, kernel.reg_delete_key_information, kstruct_d_9069d571-f056-490e-b263-7849fd26b041.xml, wdm/PREG_DELETE_KEY_INFORMATION, wdm/REG_DELETE_KEY_INFORMATION"
+ms.keywords: "*PREG_DELETE_KEY_INFORMATION, *PREG_FLUSH_KEY_INFORMATION, PREG_DELETE_KEY_INFORMATION, PREG_DELETE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_DELETE_KEY_INFORMATION, REG_DELETE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_FLUSH_KEY_INFORMATION, _REG_DELETE_KEY_INFORMATION, kernel.reg_delete_key_information, kstruct_d_9069d571-f056-490e-b263-7849fd26b041.xml, wdm/PREG_DELETE_KEY_INFORMATION, wdm/REG_DELETE_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,11 +108,11 @@ For more information about registry filtering operations, see <a href="https://m
 
 
 
-<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
 
 
 

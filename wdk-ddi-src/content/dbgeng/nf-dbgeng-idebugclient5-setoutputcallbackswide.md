@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cd6f68b2-2a62-4607-8c70-11a94fd75ecb
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 5, :, C, D, I, IDebugClient5, IDebugClient5 interface [Windows Debugging], SetOutputCallbacksWide method, IDebugClient5::SetOutputCallbacksWide, O, S, SetOutputCallbacksWide method [Windows Debugging], SetOutputCallbacksWide method [Windows Debugging], IDebugClient5 interface, SetOutputCallbacksWide,IDebugClient5.SetOutputCallbacksWide, W, a, b, c, d, dbgeng/IDebugClient5::SetOutputCallbacksWide, debugger.setoutputcallbackswide, e, g, i, k, l, n, p, s, t, u"
+ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], SetOutputCallbacksWide method, IDebugClient5::SetOutputCallbacksWide, SetOutputCallbacksWide method [Windows Debugging], SetOutputCallbacksWide method [Windows Debugging], IDebugClient5 interface, SetOutputCallbacksWide,IDebugClient5.SetOutputCallbacksWide, dbgeng/IDebugClient5::SetOutputCallbacksWide, debugger.setoutputcallbackswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -119,11 +119,11 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548071">GetOutputCallbacks</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
 
 
 

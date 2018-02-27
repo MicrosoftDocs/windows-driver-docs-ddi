@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9e1dd010-0074-45fb-b3cb-f8ea7ad15e02
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, K, KsStreamPointerCancelTimeout, KsStreamPointerCancelTimeout function [Streaming Media Devices], P, S, T, a, avfunc_9496b7be-f178-418a-87ac-d09dec988672.xml, c, e, i, ks/KsStreamPointerCancelTimeout, l, m, n, o, r, s, stream.ksstreampointercanceltimeout, t, u"
+ms.keywords: KsStreamPointerCancelTimeout, KsStreamPointerCancelTimeout function [Streaming Media Devices], avfunc_9496b7be-f178-418a-87ac-d09dec988672.xml, ks/KsStreamPointerCancelTimeout, stream.ksstreampointercanceltimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,11 @@ The <b>KsStreamPointerCancelTimeout</b> function does not affect stream pointers
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetfirstclonestreampointer.md">KsPinGetFirstCloneStreamPointer</a>
-
-
-
 <a href="..\ks\nf-ks-ksstreampointerscheduletimeout.md">KsStreamPointerScheduleTimeout</a>
+
+
+
+<a href="..\ks\nf-ks-kspingetfirstclonestreampointer.md">KsPinGetFirstCloneStreamPointer</a>
 
 
 

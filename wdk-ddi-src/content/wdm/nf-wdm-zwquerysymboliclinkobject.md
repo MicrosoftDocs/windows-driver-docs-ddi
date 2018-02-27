@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0294c840-2912-4137-886f-832e9f21bbea
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , L, NtQuerySymbolicLinkObject, O, Q, S, Z, ZwQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject routine [Kernel-Mode Driver Architecture], b, c, e, i, j, k, k111_0909b6b6-fa4d-421f-b17f-8201a254990b.xml, kernel.zwquerysymboliclinkobject, l, m, n, o, r, t, u, w, wdm/NtQuerySymbolicLinkObject, wdm/ZwQuerySymbolicLinkObject, y"
+ms.keywords: NtQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject routine [Kernel-Mode Driver Architecture], k111_0909b6b6-fa4d-421f-b17f-8201a254990b.xml, kernel.zwquerysymboliclinkobject, wdm/NtQuerySymbolicLinkObject, wdm/ZwQuerySymbolicLinkObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

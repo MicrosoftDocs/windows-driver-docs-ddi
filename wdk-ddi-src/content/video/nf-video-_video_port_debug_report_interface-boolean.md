@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5dca9258-a3ae-43f4-a5aa-d591165d72ed
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , A, B, BOOLEAN, E, L, N, NdisMSynchronizeWithInterruptEx, NdisMSynchronizeWithInterruptEx function [Network Drivers Starting with Windows Vista], O, ndis/NdisMSynchronizeWithInterruptEx, ndis_interrupts_functions_ref_e2b886ed-7425-4f7e-8cb6-4e3946dec8ff.xml, netvista.ndismsynchronizewithinterruptex"
+ms.keywords: BOOLEAN, NdisMSynchronizeWithInterruptEx, NdisMSynchronizeWithInterruptEx function [Network Drivers Starting with Windows Vista], ndis/NdisMSynchronizeWithInterruptEx, ndis_interrupts_functions_ref_e2b886ed-7425-4f7e-8cb6-4e3946dec8ff.xml, netvista.ndismsynchronizewithinterruptex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,13 +82,6 @@ TBD
 
 
 
-#### - NdisInterruptHandle [in]
-
-An interrupt handle that the miniport driver obtained in a previous call to the 
-     <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">
-     NdisMRegisterInterruptEx</a> function.
-
-
 #### - MessageId [in]
 
 A message-signaled interrupt with which the driver must synchronize. If NDIS did not grant message
@@ -103,11 +96,11 @@ A message-signaled interrupt with which the driver must synchronize. If NDIS did
      <b>NdisMRegisterInterruptEx</b> function.
 
 
-#### - SynchronizeFunction [in]
+#### - NdisInterruptHandle [in]
 
-The entry point of the driver's 
-     <a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
-     MiniportSynchronizeInterrupt</a> function.
+An interrupt handle that the miniport driver obtained in a previous call to the 
+     <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">
+     NdisMRegisterInterruptEx</a> function.
 
 
 #### - SynchronizeContext [in]
@@ -115,6 +108,13 @@ The entry point of the driver's
 A pointer to a miniport-driver-determined context area that is passed to the 
      <i>MiniportSynchronizeInterrupt</i> function at 
      <i>SynchronizeContext</i> .
+
+
+#### - SynchronizeFunction [in]
+
+The entry point of the driver's 
+     <a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+     MiniportSynchronizeInterrupt</a> function.
 
 
 ## -returns
@@ -157,8 +157,7 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
-   MiniportSynchronizeInterrupt</a>
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
 
 
 
@@ -167,15 +166,16 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+   MiniportSynchronizeInterrupt</a>
 
 
 

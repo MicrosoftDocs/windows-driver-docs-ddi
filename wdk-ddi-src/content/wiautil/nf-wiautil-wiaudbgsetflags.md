@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e3b944ef-daa5-412c-ac11-7b08d2b9333b
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , D, F, S, a, b, e, g, i, image.wiaudbgsetflags, l, s, t, u, w, wiauDbgSetFlags, wiauDbgSetFlags function [Imaging Devices], wiauFncs_d0f9a6a3-6958-44cb-9467-7f6413f95ca7.xml, wiautil/wiauDbgSetFlags"
+ms.keywords: image.wiaudbgsetflags, wiauDbgSetFlags, wiauDbgSetFlags function [Imaging Devices], wiauFncs_d0f9a6a3-6958-44cb-9467-7f6413f95ca7.xml, wiautil/wiauDbgSetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

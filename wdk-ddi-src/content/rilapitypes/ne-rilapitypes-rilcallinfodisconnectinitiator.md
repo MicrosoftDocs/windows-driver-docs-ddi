@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4ea730ab-0ba0-46cd-b156-0b2f32b2eafe
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , ,, A, C, D, E, F, I, L, N, O, R, RILCALLINFODISCONNECTINITIATOR, RILCALLINFODISCONNECTINITIATOR enumeration [Network Drivers Starting with Windows Vista], RIL_DISCINIT_LOCAL, RIL_DISCINIT_MAX, RIL_DISCINIT_REMOTE, S, T, netvista.rilcallinfodisconnectinitiator_2, rilapitypes/RILCALLINFODISCONNECTINITIATOR, rilapitypes/RIL_DISCINIT_LOCAL, rilapitypes/RIL_DISCINIT_MAX, rilapitypes/RIL_DISCINIT_REMOTE"
+ms.keywords: RILCALLINFODISCONNECTINITIATOR, RILCALLINFODISCONNECTINITIATOR enumeration [Network Drivers Starting with Windows Vista], RIL_DISCINIT_LOCAL, RIL_DISCINIT_MAX, RIL_DISCINIT_REMOTE, netvista.rilcallinfodisconnectinitiator_2, rilapitypes/RILCALLINFODISCONNECTINITIATOR, rilapitypes/RIL_DISCINIT_LOCAL, rilapitypes/RIL_DISCINIT_MAX, rilapitypes/RIL_DISCINIT_REMOTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -96,24 +96,24 @@ Note that the number that i<i>ClearTargets</i> specifies is only an optimization
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
 #### - SOTargets [in]
 
  The number of elements in the array that <i>phResource</i> specifies. 
 
 
-#### - phResource [in]
+#### - hDevice [in]
 
- An array of handles to the stream output target resources to set. Note that some handle values can be <b>NULL</b>. 
+ A handle to the display device (graphics context).
 
 
 #### - pOffsets [in]
 
  An array of offsets, in bytes, into the stream output target resources in the array that <i>phResource</i> specifies. 
+
+
+#### - phResource [in]
+
+ An array of handles to the stream output target resources to set. Note that some handle values can be <b>NULL</b>. 
 
 
 ## -returns

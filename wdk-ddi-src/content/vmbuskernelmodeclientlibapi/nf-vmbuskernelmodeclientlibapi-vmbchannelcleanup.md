@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E079527D-1687-4A12-B86E-96C89CE458CE
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, V, VmbChannelCleanup, VmbChannelCleanup function [Network Drivers Starting with Windows Vista], a, b, e, h, l, m, n, netvista.vmbchannelcleanup, p, u, vmbuskernelmodeclientlibapi/VmbChannelCleanup"
+ms.keywords: VmbChannelCleanup, VmbChannelCleanup function [Network Drivers Starting with Windows Vista], netvista.vmbchannelcleanup, vmbuskernelmodeclientlibapi/VmbChannelCleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

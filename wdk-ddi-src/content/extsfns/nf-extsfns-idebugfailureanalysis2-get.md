@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5F43909E-56D0-43F8-A24E-04981614C683
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, D, F, G, Get method [Windows Debugging], Get method [Windows Debugging], IDebugFailureAnalysis2 interface, Get,IDebugFailureAnalysis2.Get, I, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], Get method, IDebugFailureAnalysis2::Get, a, b, debugger.idebugfailureanalysis2_get, e, extsfns/IDebugFailureAnalysis2::Get, g, i, l, n, r, s, t, u, y"
+ms.keywords: Get method [Windows Debugging], Get method [Windows Debugging], IDebugFailureAnalysis2 interface, Get,IDebugFailureAnalysis2.Get, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], Get method, IDebugFailureAnalysis2::Get, debugger.idebugfailureanalysis2_get, extsfns/IDebugFailureAnalysis2::Get
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,11 +83,15 @@ If the <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">DebugFailureAna
 
 ## -see-also
 
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983422">NextEntry</a>
 
 
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 
@@ -96,10 +100,6 @@ If the <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">DebugFailureAna
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983418">GetNext</a>
-
-
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 

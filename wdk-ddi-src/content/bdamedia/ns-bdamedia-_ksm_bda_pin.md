@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7e7778ba-cf4f-44e8-91ce-c53458d3db9a
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PKSM_BDA_PIN, ,, A, B, D, I, K, KSM_BDA_PIN, KSM_BDA_PIN structure [Streaming Media Devices], M, N, P, PKSM_BDA_PIN, PKSM_BDA_PIN structure pointer [Streaming Media Devices], S, _, _KSM_BDA_PIN, bdamedia/KSM_BDA_PIN, bdamedia/PKSM_BDA_PIN, bdaref_190ab329-704e-472a-926c-1aa04d4b6df5.xml, stream.ksm_bda_pin"
+ms.keywords: "*PKSM_BDA_PIN, KSM_BDA_PIN, KSM_BDA_PIN structure [Streaming Media Devices], PKSM_BDA_PIN, PKSM_BDA_PIN structure pointer [Streaming Media Devices], _KSM_BDA_PIN, bdamedia/KSM_BDA_PIN, bdamedia/PKSM_BDA_PIN, bdaref_190ab329-704e-472a-926c-1aa04d4b6df5.xml, stream.ksm_bda_pin"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

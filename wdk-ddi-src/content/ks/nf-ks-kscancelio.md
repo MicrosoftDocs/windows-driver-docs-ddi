@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 082a63d5-5ba5-4cd3-aea3-0184317e1e96
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, I, K, KsCancelIo, KsCancelIo function [Streaming Media Devices], a, c, e, ks/KsCancelIo, ksfunc_135412c3-120f-4b19-ac05-da63ab6b1ddd.xml, l, n, o, s, stream.kscancelio"
+ms.keywords: KsCancelIo, KsCancelIo function [Streaming Media Devices], ks/KsCancelIo, ksfunc_135412c3-120f-4b19-ac05-da63ab6b1ddd.xml, stream.kscancelio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

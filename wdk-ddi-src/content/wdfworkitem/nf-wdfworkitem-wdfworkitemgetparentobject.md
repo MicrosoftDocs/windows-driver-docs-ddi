@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6ebb1955-1ffc-4869-84c8-69d672ac782e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , DFWorkItemObjectRef_d01f85c6-ab9e-413a-8352-49db7ae053d0.xml, G, I, O, P, W, WdfWorkItemGetParentObject, WdfWorkItemGetParentObject method, a, b, c, d, e, f, j, k, kmdf.wdfworkitemgetparentobject, m, n, o, r, t, wdf.wdfworkitemgetparentobject, wdfworkitem/WdfWorkItemGetParentObject"
+ms.keywords: DFWorkItemObjectRef_d01f85c6-ab9e-413a-8352-49db7ae053d0.xml, WdfWorkItemGetParentObject, WdfWorkItemGetParentObject method, kmdf.wdfworkitemgetparentobject, wdf.wdfworkitemgetparentobject, wdfworkitem/WdfWorkItemGetParentObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,11 +127,11 @@ t1394_BusResetRoutineWorkItem(
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
 <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
+
+
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 

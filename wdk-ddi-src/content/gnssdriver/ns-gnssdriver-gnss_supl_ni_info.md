@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 78D19A0C-E247-4DDA-A689-494B5A61A673
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , *, *PGNSS_SUPL_NI_INFO, ,, F, G, GNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO structure [Sensor Devices], I, L, N, O, P, PGNSS_SUPL_NI_INFO, PGNSS_SUPL_NI_INFO structure pointer [Sensor Devices], S, U, _, gnssdriver/GNSS_SUPL_NI_INFO, gnssdriver/PGNSS_SUPL_NI_INFO, sensors.gnss_supl_ni_info"
+ms.keywords: "*PGNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO structure [Sensor Devices], PGNSS_SUPL_NI_INFO, PGNSS_SUPL_NI_INFO structure pointer [Sensor Devices], gnssdriver/GNSS_SUPL_NI_INFO, gnssdriver/PGNSS_SUPL_NI_INFO, sensors.gnss_supl_ni_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,16 +98,16 @@ Version number.
 
 
 
-#### - RequestorId[MAX_PATH]
+#### - ClientName[MAX_PATH]
 
-Requestor ID.
+Name of the client that requests the location of the device.
 
 This will be displayed on the notification dialog to the user. The GNSS driver must provide a UNICODE string that is decoded per the encoding scheme required by the mobile operator.
 
 
-#### - ClientName[MAX_PATH]
+#### - RequestorId[MAX_PATH]
 
-Name of the client that requests the location of the device.
+Requestor ID.
 
 This will be displayed on the notification dialog to the user. The GNSS driver must provide a UNICODE string that is decoded per the encoding scheme required by the mobile operator.
 

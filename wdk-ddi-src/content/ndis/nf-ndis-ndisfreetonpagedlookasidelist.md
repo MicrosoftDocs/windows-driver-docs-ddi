@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2405a405-177a-420a-9628-a340e0d0acb3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , F, L, N, NdisFreeToNPagedLookasideList, NdisFreeToNPagedLookasideList macro [Network Drivers Starting with Windows Vista], P, T, a, d, e, g, i, k, ndis/NdisFreeToNPagedLookasideList, ndis_lookaside_ref_8c12e884-8f7b-4bcc-9631-2173003e4ef6.xml, netvista.ndisfreetonpagedlookasidelist, o, r, s, t"
+ms.keywords: NdisFreeToNPagedLookasideList, NdisFreeToNPagedLookasideList macro [Network Drivers Starting with Windows Vista], ndis/NdisFreeToNPagedLookasideList, ndis_lookaside_ref_8c12e884-8f7b-4bcc-9631-2173003e4ef6.xml, netvista.ndisfreetonpagedlookasidelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -83,14 +83,14 @@ TBD
 
 
 
-#### - Lookaside [in]
-
-A pointer to the head of the lookaside list to which the entry will be returned.
-
-
 #### - Entry [in]
 
 A pointer to the entry to be freed.
+
+
+#### - Lookaside [in]
+
+A pointer to the head of the lookaside list to which the entry will be returned.
 
 
 ## -remarks

@@ -1,6 +1,6 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED
-title: PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED
+title: USB_BUSIFFN_IS_DEVICE_HIGH_SPEED
 author: windows-driver-content
 description: The USB_BUSIFFN_IS_DEVICE_HIGH_SPEED routine returns TRUE if the device is operating at high speed.
 old-location: buses\isdevicehighspeed.htm

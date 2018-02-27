@@ -1,6 +1,6 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_QUERY_BUS_TIME
-title: PUSB_BUSIFFN_QUERY_BUS_TIME
+title: USB_BUSIFFN_QUERY_BUS_TIME
 author: windows-driver-content
 description: The QueryBusTime function gets the current 32-bit USB frame number.
 old-location: buses\querybustime.htm

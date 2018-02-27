@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: EEC61313-5796-42BC-84BF-CF29F8BE0C96
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, I, IPrinterScriptContext, IPrinterScriptContext interface [Print Devices], QueueProperties property, IPrinterScriptContext.QueueProperties, IPrinterScriptContext::get_QueueProperties, P, Q, QueueProperties property [Print Devices], QueueProperties property [Print Devices], IPrinterScriptContext interface, S, _, c, e, g, get_QueueProperties, get_QueueProperties,IPrinterScriptContext.get_QueueProperties, i, n, o, p, print.iprinterscriptcontext_queueproperties, printerextension/IPrinterScriptContext::QueueProperties, printerextension/IPrinterScriptContext::get_QueueProperties, r, s, t, u, x"
+ms.keywords: IPrinterScriptContext, IPrinterScriptContext interface [Print Devices], QueueProperties property, IPrinterScriptContext.QueueProperties, IPrinterScriptContext::get_QueueProperties, QueueProperties property [Print Devices], QueueProperties property [Print Devices], IPrinterScriptContext interface, get_QueueProperties, get_QueueProperties,IPrinterScriptContext.get_QueueProperties, print.iprinterscriptcontext_queueproperties, printerextension/IPrinterScriptContext::QueueProperties, printerextension/IPrinterScriptContext::get_QueueProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,11 +71,11 @@ HRESULT get_QueueProperties(
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptcontext.md">IPrinterScriptContext</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterscriptcontext.md">IPrinterScriptContext</a>
 
 
 

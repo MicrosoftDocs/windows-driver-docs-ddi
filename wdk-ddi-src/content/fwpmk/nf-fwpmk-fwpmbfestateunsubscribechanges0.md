@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1a84401a-d7da-43d2-925d-0d6ed370c980
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , 0, B, C, F, FwpmBfeStateUnsubscribeChanges0, FwpmBfeStateUnsubscribeChanges0 function [Network Drivers Starting with Windows Vista], S, U, a, b, c, e, f, fwpmk/FwpmBfeStateUnsubscribeChanges0, g, h, i, m, n, netvista.fwpmbfestateunsubscribechanges0, p, r, s, t, u, w, wfp_ref_2_funct_2_fwpm_2b1f650b-81ab-4dd9-be56-97039f86ac1e.xml"
+ms.keywords: FwpmBfeStateUnsubscribeChanges0, FwpmBfeStateUnsubscribeChanges0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmBfeStateUnsubscribeChanges0, netvista.fwpmbfestateunsubscribechanges0, wfp_ref_2_funct_2_fwpm_2b1f650b-81ab-4dd9-be56-97039f86ac1e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

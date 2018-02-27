@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d17e7435-adc3-4248-a6c9-c7e267504291
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., 2, :, D, F, I, IWDFIoRequest2, IWDFIoRequest2 interface, RetrieveOutputMemory method, IWDFIoRequest2::RetrieveOutputMemory, M, O, R, RetrieveOutputMemory method, RetrieveOutputMemory method, IWDFIoRequest2 interface, RetrieveOutputMemory,IWDFIoRequest2.RetrieveOutputMemory, UMDFRequestObjectRef_9fbbb5ad-480f-4744-805a-1af1dd841274.xml, W, e, i, m, o, p, q, r, s, t, u, umdf.iwdfiorequest2_retrieveoutputmemory, v, wdf.iwdfiorequest2_retrieveoutputmemory, wudfddi/IWDFIoRequest2::RetrieveOutputMemory, y"
+ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, RetrieveOutputMemory method, IWDFIoRequest2::RetrieveOutputMemory, RetrieveOutputMemory method, RetrieveOutputMemory method, IWDFIoRequest2 interface, RetrieveOutputMemory,IWDFIoRequest2.RetrieveOutputMemory, UMDFRequestObjectRef_9fbbb5ad-480f-4744-805a-1af1dd841274.xml, umdf.iwdfiorequest2_retrieveoutputmemory, wdf.iwdfiorequest2_retrieveoutputmemory, wudfddi/IWDFIoRequest2::RetrieveOutputMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -192,7 +192,11 @@ Exit:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559037">IWDFIoRequest2::RetrieveInputMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
 
 
 
@@ -204,15 +208,11 @@ Exit:
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559033">IWDFIoRequest2::RetrieveInputBuffer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559037">IWDFIoRequest2::RetrieveInputMemory</a>
 
 
 

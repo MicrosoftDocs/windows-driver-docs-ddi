@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 74da159d-7edc-44fc-abd9-aa068c4de7f2
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , D, I, IsValidDevmode, IsValidDevmode function [Print Devices], IsValidDevmodeA, IsValidDevmodeW, V, W, a, d, e, i, l, m, o, print.isvaliddevmode, s, spoolfnc_ea9b6cc1-6f0b-42a7-835b-df561588691a.xml, v, winspool/IsValidDevmode"
+ms.keywords: IsValidDevmode, IsValidDevmode function [Print Devices], IsValidDevmodeW, print.isvaliddevmode, spoolfnc_ea9b6cc1-6f0b-42a7-835b-df561588691a.xml, winspool/IsValidDevmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

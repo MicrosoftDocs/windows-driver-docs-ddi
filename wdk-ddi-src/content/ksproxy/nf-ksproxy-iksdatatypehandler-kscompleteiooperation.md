@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 46a58007-16bf-422b-8408-30a7b65dbee6
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, D, H, I, IKsDataTypeHandler, IKsDataTypeHandler interface [Streaming Media Devices], KsCompleteIoOperation method, IKsDataTypeHandler::KsCompleteIoOperation, K, KsCompleteIoOperation method [Streaming Media Devices], KsCompleteIoOperation method [Streaming Media Devices], IKsDataTypeHandler interface, KsCompleteIoOperation,IKsDataTypeHandler.KsCompleteIoOperation, O, T, a, d, e, i, ksproxy/IKsDataTypeHandler::KsCompleteIoOperation, ksproxy_04136093-03d0-4490-bf5c-5e83bddc23c7.xml, l, m, n, o, p, r, s, stream.iksdatatypehandler_kscompleteiooperation, t, y"
+ms.keywords: IKsDataTypeHandler, IKsDataTypeHandler interface [Streaming Media Devices], KsCompleteIoOperation method, IKsDataTypeHandler::KsCompleteIoOperation, KsCompleteIoOperation method [Streaming Media Devices], KsCompleteIoOperation method [Streaming Media Devices], IKsDataTypeHandler interface, KsCompleteIoOperation,IKsDataTypeHandler.KsCompleteIoOperation, ksproxy/IKsDataTypeHandler::KsCompleteIoOperation, ksproxy_04136093-03d0-4490-bf5c-5e83bddc23c7.xml, stream.iksdatatypehandler_kscompleteiooperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

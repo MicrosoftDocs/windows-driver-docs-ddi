@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2b44fb2e-7278-47c0-8654-a9013ed0134a
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, D, E, G, GetLastEventInformation method [Windows Debugging], GetLastEventInformation method [Windows Debugging], IDebugControl interface, GetLastEventInformation method [Windows Debugging], IDebugControl2 interface, GetLastEventInformation method [Windows Debugging], IDebugControl3 interface, GetLastEventInformation,IDebugControl.GetLastEventInformation, I, IDebugControl, IDebugControl interface [Windows Debugging], GetLastEventInformation method, IDebugControl2 interface [Windows Debugging], GetLastEventInformation method, IDebugControl2::GetLastEventInformation, IDebugControl3 interface [Windows Debugging], GetLastEventInformation method, IDebugControl3::GetLastEventInformation, IDebugControl::GetLastEventInformation, IDebugControl_4016bdce-0386-4c6f-9039-9a4046f3805b.xml, L, a, b, dbgeng/IDebugControl2::GetLastEventInformation, dbgeng/IDebugControl3::GetLastEventInformation, dbgeng/IDebugControl::GetLastEventInformation, debugger.getlasteventinformation, e, f, g, i, l, m, n, o, r, s, t, u, v"
+ms.keywords: GetLastEventInformation method [Windows Debugging], GetLastEventInformation method [Windows Debugging], IDebugControl interface, GetLastEventInformation method [Windows Debugging], IDebugControl2 interface, GetLastEventInformation method [Windows Debugging], IDebugControl3 interface, GetLastEventInformation,IDebugControl.GetLastEventInformation, IDebugControl, IDebugControl interface [Windows Debugging], GetLastEventInformation method, IDebugControl2 interface [Windows Debugging], GetLastEventInformation method, IDebugControl2::GetLastEventInformation, IDebugControl3 interface [Windows Debugging], GetLastEventInformation method, IDebugControl3::GetLastEventInformation, IDebugControl::GetLastEventInformation, IDebugControl_4016bdce-0386-4c6f-9039-9a4046f3805b.xml, dbgeng/IDebugControl2::GetLastEventInformation, dbgeng/IDebugControl3::GetLastEventInformation, dbgeng/IDebugControl::GetLastEventInformation, debugger.getlasteventinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -174,11 +174,7 @@ For more information about the last event, see the topic <a href="https://msdn.m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548431">GetStoredEventInformation</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -186,7 +182,11 @@ For more information about the last event, see the topic <a href="https://msdn.m
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548431">GetStoredEventInformation</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 

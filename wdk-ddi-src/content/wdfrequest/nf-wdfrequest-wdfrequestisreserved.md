@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8cbf75c4-d54c-45e0-9abb-bef8e76fb9fe
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , DFRequestObjectRef_286c4c9a-cbec-48f1-9d78-516cbaab2d45.xml, I, R, W, WdfRequestIsReserved, WdfRequestIsReserved method, d, e, f, kmdf.wdfrequestisreserved, q, r, s, t, u, v, wdf.wdfrequestisreserved, wdfrequest/WdfRequestIsReserved"
+ms.keywords: DFRequestObjectRef_286c4c9a-cbec-48f1-9d78-516cbaab2d45.xml, WdfRequestIsReserved, WdfRequestIsReserved method, kmdf.wdfrequestisreserved, wdf.wdfrequestisreserved, wdfrequest/WdfRequestIsReserved
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

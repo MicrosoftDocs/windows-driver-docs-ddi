@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 007E0DDE-0BD1-499D-A6C6-446644BBCE00
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , ,, 1394/IRB_REQ_ASYNC_WRITE, A, B, C, E, I, IEEE.irb_req_async_write, IRB_REQ_ASYNC_WRITE, IRB_REQ_ASYNC_WRITE structure [Buses], N, Q, R, S, T, W, Y, _, _IRB_REQ_ASYNC_WRITE"
+ms.keywords: 1394/IRB_REQ_ASYNC_WRITE, IEEE.irb_req_async_write, IRB_REQ_ASYNC_WRITE, IRB_REQ_ASYNC_WRITE structure [Buses], _IRB_REQ_ASYNC_WRITE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

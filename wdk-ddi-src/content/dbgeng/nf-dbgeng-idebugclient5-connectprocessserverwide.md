@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 42979da6-d044-4d52-858f-98871c3941bc
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 5, :, C, ConnectProcessServerWide method [Windows Debugging], ConnectProcessServerWide method [Windows Debugging], IDebugClient5 interface, ConnectProcessServerWide,IDebugClient5.ConnectProcessServerWide, D, I, IDebugClient5, IDebugClient5 interface [Windows Debugging], ConnectProcessServerWide method, IDebugClient5::ConnectProcessServerWide, P, S, W, b, c, d, dbgeng/IDebugClient5::ConnectProcessServerWide, debugger.connectprocessserverwide, e, g, i, l, n, o, r, s, t, u, v"
+ms.keywords: ConnectProcessServerWide method [Windows Debugging], ConnectProcessServerWide method [Windows Debugging], IDebugClient5 interface, ConnectProcessServerWide,IDebugClient5.ConnectProcessServerWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], ConnectProcessServerWide method, IDebugClient5::ConnectProcessServerWide, dbgeng/IDebugClient5::ConnectProcessServerWide, debugger.connectprocessserverwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,15 +117,23 @@ For more information about process servers and remote debugging, see <a href="ht
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
 
 
 
@@ -137,23 +145,15 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548254">GetRunningProcessSystemIdByExecutableName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
 
 
 

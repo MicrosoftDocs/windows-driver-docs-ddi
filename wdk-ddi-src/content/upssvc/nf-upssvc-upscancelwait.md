@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 8ac611fc-5634-4857-8533-6e170fe884b2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , C, P, S, U, UPSCancelWait, UPSCancelWait function [Battery Devices], UPS_fns_79aba7aa-4204-4532-873a-8566ed6168f8.xml, W, a, battery.upscancelwait, c, e, i, l, n, t, upssvc/UPSCancelWait"
+ms.keywords: UPSCancelWait, UPSCancelWait function [Battery Devices], UPS_fns_79aba7aa-4204-4532-873a-8566ed6168f8.xml, battery.upscancelwait, upssvc/UPSCancelWait
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

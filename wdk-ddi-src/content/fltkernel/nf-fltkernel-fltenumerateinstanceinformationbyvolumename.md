@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: BBABE50B-98FF-440E-B5B0-11C8F901D8FE
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , B, E, F, FltEnumerateInstanceInformationByVolumeName, FltEnumerateInstanceInformationByVolumeName routine [Installable File System Drivers], I, N, V, a, c, e, f, fltkernel/FltEnumerateInstanceInformationByVolumeName, i, ifsk.fltenumerateinstanceinformationbyvolumename, l, m, n, o, r, s, t, u, y"
+ms.keywords: FltEnumerateInstanceInformationByVolumeName, FltEnumerateInstanceInformationByVolumeName routine [Installable File System Drivers], fltkernel/FltEnumerateInstanceInformationByVolumeName, ifsk.fltenumerateinstanceinformationbyvolumename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -277,7 +277,7 @@ This routine will return both legacy filter driver information and minifilter dr
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbydeviceobject.md">FltEnumerateInstanceInformationByDeviceObject</a>
 
 
 
@@ -285,7 +285,7 @@ This routine will return both legacy filter driver information and minifilter dr
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbydeviceobject.md">FltEnumerateInstanceInformationByDeviceObject</a>
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
 
 
 

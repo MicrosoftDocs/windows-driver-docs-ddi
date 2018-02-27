@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57c75a4c-7224-45d5-af96-6e969548248a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , *, *PDOT11_MAC_FRAME_STATISTICS, ,, 1, A, C, D, DOT11_MAC_FRAME_STATISTICS, DOT11_MAC_FRAME_STATISTICS structure [Network Drivers Starting with Windows Vista], E, F, I, M, Native_802.11_data_types_f04e9263-5c70-402b-a2d1-8f4689b4a13e.xml, O, P, PDOT11_MAC_FRAME_STATISTICS, PDOT11_MAC_FRAME_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], R, S, T, _, netvista.dot11_mac_frame_statistics, windot11/DOT11_MAC_FRAME_STATISTICS, windot11/PDOT11_MAC_FRAME_STATISTICS"
+ms.keywords: "*PDOT11_MAC_FRAME_STATISTICS, DOT11_MAC_FRAME_STATISTICS, DOT11_MAC_FRAME_STATISTICS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_f04e9263-5c70-402b-a2d1-8f4689b4a13e.xml, PDOT11_MAC_FRAME_STATISTICS, PDOT11_MAC_FRAME_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_mac_frame_statistics, windot11/DOT11_MAC_FRAME_STATISTICS, windot11/PDOT11_MAC_FRAME_STATISTICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -214,12 +214,11 @@ The members of the DOT11_MAC_STATISTICS structure are used to record MAC-level s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-mac-statistics">Extensible Station MAC
-   Statistics</a>
-
-
-
 <a href="..\windot11\ns-windot11-dot11_statistics.md">DOT11_STATISTICS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569420">OID_DOT11_STATISTICS</a>
 
 
 
@@ -227,7 +226,8 @@ The members of the DOT11_MAC_STATISTICS structure are used to record MAC-level s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569420">OID_DOT11_STATISTICS</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-mac-statistics">Extensible Station MAC
+   Statistics</a>
 
 
 

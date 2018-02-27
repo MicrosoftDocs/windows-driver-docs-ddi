@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 899b7d6e-a17b-4030-9512-591b003ca6b2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , E, IFSMiscRef_41a163d7-81d1-4877-b1c2-ae90b203177a.xml, M, MapSecurityError, MapSecurityError function [Installable File System Drivers], S, a, c, e, i, ifsk.mapsecurityerror, ntifs/MapSecurityError, o, p, r, t, u, y"
+ms.keywords: IFSMiscRef_41a163d7-81d1-4877-b1c2-ae90b203177a.xml, MapSecurityError, MapSecurityError function [Installable File System Drivers], ifsk.mapsecurityerror, ntifs/MapSecurityError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

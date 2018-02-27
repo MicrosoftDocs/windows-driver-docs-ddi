@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4c08a70e-5092-40fb-94fd-c3ef8a5537b5
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, R, RtlUlongByteSwap, RtlUlongByteSwap routine [Kernel-Mode Driver Architecture], S, U, a, e, g, k109_0d4753a3-859a-429f-bd07-66669f1b46e8.xml, kernel.rtlulongbyteswap, l, n, o, p, t, w, wdm/RtlUlongByteSwap, y"
+ms.keywords: RtlUlongByteSwap, RtlUlongByteSwap routine [Kernel-Mode Driver Architecture], k109_0d4753a3-859a-429f-bd07-66669f1b46e8.xml, kernel.rtlulongbyteswap, wdm/RtlUlongByteSwap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

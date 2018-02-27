@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6dc10c3a-b47e-42c3-a209-34977fb219f1
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PSCSI_WMI_REQUEST_BLOCK, ,, B, C, E, I, K, L, M, O, P, PSCSI_WMI_REQUEST_BLOCK, PSCSI_WMI_REQUEST_BLOCK structure pointer [Storage Devices], Q, R, S, SCSI_WMI_REQUEST_BLOCK, SCSI_WMI_REQUEST_BLOCK structure [Storage Devices], T, U, W, _, _SCSI_WMI_REQUEST_BLOCK, srb/PSCSI_WMI_REQUEST_BLOCK, srb/SCSI_WMI_REQUEST_BLOCK, storage.scsi_wmi_request_block, structs-scsibus_6188bca6-990b-4471-b8ea-2cd5b2b27d51.xml"
+ms.keywords: "*PSCSI_WMI_REQUEST_BLOCK, PSCSI_WMI_REQUEST_BLOCK, PSCSI_WMI_REQUEST_BLOCK structure pointer [Storage Devices], SCSI_WMI_REQUEST_BLOCK, SCSI_WMI_REQUEST_BLOCK structure [Storage Devices], _SCSI_WMI_REQUEST_BLOCK, srb/PSCSI_WMI_REQUEST_BLOCK, srb/SCSI_WMI_REQUEST_BLOCK, storage.scsi_wmi_request_block, structs-scsibus_6188bca6-990b-4471-b8ea-2cd5b2b27d51.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -235,31 +235,6 @@ Reserved for system use and not available for use by miniport drivers. This memb
 Reserved for system use and not available for use by miniport drivers.
 
 
-##### - SrbFlags.SRB_FLAGS_DATA_IN
-
-Indicates data will be transferred from the device to the system.
-
-
-##### - SrbFlags.SRB_FLAGS_DATA_OUT
-
-Indicates data will be transferred from the system to the device.
-
-
-##### - SrbFlags.SRB_FLAGS_NO_DATA_TRANSFER
-
-Indicates no data transfer with this request. If this is set, the flags SRB_FLAGS_DATA_OUT, SRB_FLAGS_DATA_IN, and SRB_FLAGS_UNSPECIFIED_DIRECTION are clear.
-
-
-##### - SrbFlags.SRB_FLAGS_DISABLE_SYNCH_TRANSFER
-
-Indicates the HBA, if possible, should perform asynchronous I/O for this transfer request. If synchronous I/O was negotiated previously, the HBA must renegotiate for asynchronous I/O before performing the transfer.
-
-
-##### - SrbFlags.SRB_FLAGS_DISABLE_DISCONNECT
-
-Indicates the HBA should not allow the target to disconnect from the SCSI bus during processing of this request.
-
-
 ## -remarks
 
 
@@ -275,7 +250,7 @@ For information about supporting WMI in miniport drivers, see the <a href="https
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
+<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
 
 
 
@@ -283,15 +258,15 @@ For information about supporting WMI in miniport drivers, see the <a href="https
 
 
 
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
+
+
+
+<a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
 
 
 
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
 
 
 

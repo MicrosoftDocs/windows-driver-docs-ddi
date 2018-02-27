@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4D23A651-7231-40CE-B9C2-4382D4E7F683
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., 3, :, D, F, G, GetInitiatorProcessId method, GetInitiatorProcessId method, IWDFFile3 interface, GetInitiatorProcessId,IWDFFile3.GetInitiatorProcessId, I, IWDFFile3, IWDFFile3 interface, GetInitiatorProcessId method, IWDFFile3::GetInitiatorProcessId, P, W, a, c, d, e, i, l, n, o, r, s, t, umdf.iwdffile3_getinitiatorprocessid, wdf.iwdffile3_getinitiatorprocessid, wudfddi/IWDFFile3::GetInitiatorProcessId"
+ms.keywords: GetInitiatorProcessId method, GetInitiatorProcessId method, IWDFFile3 interface, GetInitiatorProcessId,IWDFFile3.GetInitiatorProcessId, IWDFFile3, IWDFFile3 interface, GetInitiatorProcessId method, IWDFFile3::GetInitiatorProcessId, umdf.iwdffile3_getinitiatorprocessid, wdf.iwdffile3_getinitiatorprocessid, wudfddi/IWDFFile3::GetInitiatorProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

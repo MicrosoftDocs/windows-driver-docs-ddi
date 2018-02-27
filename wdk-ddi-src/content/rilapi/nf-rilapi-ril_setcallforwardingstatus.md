@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c73e3b75-e11d-44b8-9a4a-c98ccfe1c820
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, F, I, L, R, RIL_SetCallForwardingStatus, RIL_SetCallForwardingStatus method [Network Drivers Starting with Windows Vista], S, _, a, d, e, g, i, l, n, netvista.ril_setcallforwardingstatus, o, r, rilapi/RIL_SetCallForwardingStatus, s, t, u, w"
+ms.keywords: RIL_SetCallForwardingStatus, RIL_SetCallForwardingStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setcallforwardingstatus, rilapi/RIL_SetCallForwardingStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

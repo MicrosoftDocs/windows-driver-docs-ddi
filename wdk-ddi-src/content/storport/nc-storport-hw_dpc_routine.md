@@ -182,11 +182,7 @@ The <b>HW_DPC_ROUTINE</b> function type is defined in the Storport.h header file
 
 
 
-<a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
-
-
-
-<a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
+<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
 
 
 
@@ -194,7 +190,11 @@ The <b>HW_DPC_ROUTINE</b> function type is defined in the Storport.h header file
 
 
 
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+<a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
+
+
+
+<a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
 
 
 

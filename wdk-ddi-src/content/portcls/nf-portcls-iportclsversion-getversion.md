@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ce1394e5-1d45-4b59-8738-fcb2cbe7cf51
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, C, G, GetVersion method [Audio Devices], GetVersion method [Audio Devices], IPortClsVersion interface, GetVersion,IPortClsVersion.GetVersion, I, IPortClsVersion, IPortClsVersion interface [Audio Devices], GetVersion method, IPortClsVersion::GetVersion, P, V, audio.iportclsversion_getversion, audmp-routines_82b73b24-296b-4b31-88e4-1d1303863c6c.xml, e, i, l, n, o, portcls/IPortClsVersion::GetVersion, r, s, t"
+ms.keywords: GetVersion method [Audio Devices], GetVersion method [Audio Devices], IPortClsVersion interface, GetVersion,IPortClsVersion.GetVersion, IPortClsVersion, IPortClsVersion interface [Audio Devices], GetVersion method, IPortClsVersion::GetVersion, audio.iportclsversion_getversion, audmp-routines_82b73b24-296b-4b31-88e4-1d1303863c6c.xml, portcls/IPortClsVersion::GetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -316,11 +316,11 @@ The version numbers in the preceding table are listed in roughly chronological o
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportclsversion.md">IPortClsVersion</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioiswdmversionavailable.md">IoIsWdmVersionAvailable</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportclsversion.md">IPortClsVersion</a>
 
 
 

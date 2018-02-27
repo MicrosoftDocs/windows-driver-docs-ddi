@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B71C7E8F-E136-4C13-B771-03B3C3C1BE64
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, D, P, PsDereferenceSiloContext, PsDereferenceSiloContext routine [Kernel-Mode Driver Architecture], S, c, e, f, i, kernel.psdereferencesilocontext, l, n, ntddk/PsDereferenceSiloContext, o, r, s, t, x"
+ms.keywords: PsDereferenceSiloContext, PsDereferenceSiloContext routine [Kernel-Mode Driver Architecture], kernel.psdereferencesilocontext, ntddk/PsDereferenceSiloContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

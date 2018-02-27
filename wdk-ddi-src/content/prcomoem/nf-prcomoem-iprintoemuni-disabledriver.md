@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a92d8c2e-52b5-4941-b49e-42e067e56e91
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, DisableDriver method [Print Devices], DisableDriver method [Print Devices], IPrintOemUni interface, DisableDriver,IPrintOemUni.DisableDriver, I, IPrintOemUni, IPrintOemUni interface [Print Devices], DisableDriver method, IPrintOemUni::DisableDriver, O, P, U, a, b, e, i, l, m, n, prcomoem/IPrintOemUni::DisableDriver, print.iprintoemuni_disabledriver, print_unidrv-pscript_rendering_033d3e0c-4d60-4925-a5b4-1fb47aa42cc9.xml, r, s, t, v"
+ms.keywords: DisableDriver method [Print Devices], DisableDriver method [Print Devices], IPrintOemUni interface, DisableDriver,IPrintOemUni.DisableDriver, IPrintOemUni, IPrintOemUni interface [Print Devices], DisableDriver method, IPrintOemUni::DisableDriver, prcomoem/IPrintOemUni::DisableDriver, print.iprintoemuni_disabledriver, print_unidrv-pscript_rendering_033d3e0c-4d60-4925-a5b4-1fb47aa42cc9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

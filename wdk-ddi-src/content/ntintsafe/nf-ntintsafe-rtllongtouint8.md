@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3C2221F8-DD75-4FB7-A28D-B636D2D2394D
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 8, I, L, R, RtlLongToUInt8, RtlLongToUInt8 function [Kernel-Mode Driver Architecture], T, U, g, kernel.rtllongtouint8, l, n, ntintsafe/RtlLongToUInt8, o, t"
+ms.keywords: RtlLongToUInt8, RtlLongToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtllongtouint8, ntintsafe/RtlLongToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,14 +80,14 @@ TBD
 
 
 
-#### - ulOperand [in]
-
-The value to be converted.
-
-
 #### - pusResult [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
+
+
+#### - ulOperand [in]
+
+The value to be converted.
 
 
 ## -remarks

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2daf99a8-42dc-4739-8e7e-80d3c9a084b7
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, B, I, IBidiSpl2, IBidiSpl2 interface [Print Devices], SendRecvXMLStream method, IBidiSpl2::SendRecvXMLStream, L, M, R, S, SendRecvXMLStream method [Print Devices], SendRecvXMLStream method [Print Devices], IBidiSpl2 interface, SendRecvXMLStream,IBidiSpl2.SendRecvXMLStream, X, _win32_IBidiSpl2_SendRecvXMLStream, a, bidispl/IBidiSpl2::SendRecvXMLStream, c, d, e, gdi.ibidispl2_ibidispl2__sendrecvxmlstream, i, l, m, n, p, print.ibidispl2_ibidispl2__sendrecvxmlstream, r, t, v"
+ms.keywords: IBidiSpl2, IBidiSpl2 interface [Print Devices], SendRecvXMLStream method, IBidiSpl2::SendRecvXMLStream, SendRecvXMLStream method [Print Devices], SendRecvXMLStream method [Print Devices], IBidiSpl2 interface, SendRecvXMLStream,IBidiSpl2.SendRecvXMLStream, _win32_IBidiSpl2_SendRecvXMLStream, bidispl/IBidiSpl2::SendRecvXMLStream, gdi.ibidispl2_ibidispl2__sendrecvxmlstream, print.ibidispl2_ibidispl2__sendrecvxmlstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -141,11 +141,11 @@ The character encoding of <i>ppSResponse</i> is UTF-8. The character encoding of
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
+
+<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 57cfb693-7134-4e3c-a5b4-3d15456b4daa
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, C, CatalogFile property [Windows Device Testing Framework], CatalogFile property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, D, F, I, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], CatalogFile property, IWDTFDriverPackageAction2.CatalogFile, IWDTFDriverPackageAction2::get_CatalogFile, Microsoft.WDTF.IWDTFDriverPackageAction2.CatalogFile, Microsoft::WDTF::IWDTFDriverPackageAction2::CatalogFile, P, T, W, _, a, c, dtf.iwdtfdriverpackageaction2_catalogfile, e, g, get_CatalogFile,IWDTFDriverPackageAction2.get_CatalogFile, i, k, l, n, o, r, t, v, wdtfdriverpackageaction/IWDTFDriverPackageAction2::CatalogFile, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_CatalogFile"
+ms.keywords: CatalogFile property [Windows Device Testing Framework], CatalogFile property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], CatalogFile property, IWDTFDriverPackageAction2.CatalogFile, IWDTFDriverPackageAction2::get_CatalogFile, Microsoft.WDTF.IWDTFDriverPackageAction2.CatalogFile, Microsoft::WDTF::IWDTFDriverPackageAction2::CatalogFile, dtf.iwdtfdriverpackageaction2_catalogfile, get_CatalogFile,IWDTFDriverPackageAction2.get_CatalogFile, wdtfdriverpackageaction/IWDTFDriverPackageAction2::CatalogFile, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_CatalogFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

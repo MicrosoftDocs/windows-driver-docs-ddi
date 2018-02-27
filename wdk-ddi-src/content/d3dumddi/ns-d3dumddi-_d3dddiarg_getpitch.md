@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 59661cfe-4a1f-4805-9421-7f694e82f8d2
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 3, A, C, D, D3DDDIARG_GETPITCH, D3DDDIARG_GETPITCH structure [Display Devices], E, G, H, I, P, R, T, UMDisplayDriver_param_Structs_02e95329-8eba-41a3-ae4e-d8830b47ada6.xml, _, _D3DDDIARG_GETPITCH, d3dumddi/D3DDDIARG_GETPITCH, display.d3dddiarg_getpitch"
+ms.keywords: D3DDDIARG_GETPITCH, D3DDDIARG_GETPITCH structure [Display Devices], UMDisplayDriver_param_Structs_02e95329-8eba-41a3-ae4e-d8830b47ada6.xml, _D3DDDIARG_GETPITCH, d3dumddi/D3DDDIARG_GETPITCH, display.d3dddiarg_getpitch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

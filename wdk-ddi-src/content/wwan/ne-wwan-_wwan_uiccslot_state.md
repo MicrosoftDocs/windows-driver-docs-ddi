@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 63A3C2AA-6EBF-469D-933A-C51F5EC31C47
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , *, *PWWAN_UICCSLOT_STATE, ,, A, C, E, I, L, N, O, P, S, T, U, UICCSlotStateActive, UICCSlotStateEmpty, UICCSlotStateError, UICCSlotStateNotReady, UICCSlotStateOff, UICCSlotStateOffEmpty, UICCSlotStateUnknown, W, WWAN_UICCSLOT_STATE, WWAN_UICCSLOT_STATE enumeration [Network Drivers Starting with Windows Vista], _, _WWAN_UICCSLOT_STATE, netvista.wwan_uiccslot_state, wwan/UICCSlotStateActive, wwan/UICCSlotStateEmpty, wwan/UICCSlotStateError, wwan/UICCSlotStateNotReady, wwan/UICCSlotStateOff, wwan/UICCSlotStateOffEmpty, wwan/UICCSlotStateUnknown, wwan/WWAN_UICCSLOT_STATE"
+ms.keywords: "*PWWAN_UICCSLOT_STATE, UICCSlotStateActive, UICCSlotStateEmpty, UICCSlotStateError, UICCSlotStateNotReady, UICCSlotStateOff, UICCSlotStateOffEmpty, UICCSlotStateUnknown, WWAN_UICCSLOT_STATE, WWAN_UICCSLOT_STATE enumeration [Network Drivers Starting with Windows Vista], _WWAN_UICCSLOT_STATE, netvista.wwan_uiccslot_state, wwan/UICCSlotStateActive, wwan/UICCSlotStateEmpty, wwan/UICCSlotStateError, wwan/UICCSlotStateNotReady, wwan/UICCSlotStateOff, wwan/UICCSlotStateOffEmpty, wwan/UICCSlotStateUnknown, wwan/WWAN_UICCSLOT_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -106,19 +106,9 @@ typedef enum _WWAN_UICCSLOT_STATE {
 
 
 
-#### - UICCSlotStateUnknown
+#### - UICCSlotStateActive
 
-The modem is still in the process of initializing so the SIM slot state is not deterministic.
-
-
-#### - UICCSlotStateOffEmpty
-
-The card slot is powered off and empty. An implementation that is unable to determine the presence of a card in a slot that is powered off reports its state as <i>Off</i>.
-
-
-#### - UICCSlotStateOff
-
-The card slot is powered off and a card is present.
+The card in the slot is available and ready to accept commands. This has no association with the SIM PIN locked state.
 
 
 #### - UICCSlotStateEmpty
@@ -126,19 +116,29 @@ The card slot is powered off and a card is present.
 The card slot is powered on but no card is present.
 
 
+#### - UICCSlotStateError
+
+The card in the slot is in an error state and cannot be used.
+
+
 #### - UICCSlotStateNotReady
 
 The card in the slot is not ready; i.e., it has been reset but has not finished initializing. It cannot be used at this time.
 
 
-#### - UICCSlotStateActive
+#### - UICCSlotStateOff
 
-The card in the slot is available and ready to accept commands. This has no association with the SIM PIN locked state.
+The card slot is powered off and a card is present.
 
 
-#### - UICCSlotStateError
+#### - UICCSlotStateOffEmpty
 
-The card in the slot is in an error state and cannot be used.
+The card slot is powered off and empty. An implementation that is unable to determine the presence of a card in a slot that is powered off reports its state as <i>Off</i>.
+
+
+#### - UICCSlotStateUnknown
+
+The modem is still in the process of initializing so the SIM slot state is not deterministic.
 
 
 ## -remarks

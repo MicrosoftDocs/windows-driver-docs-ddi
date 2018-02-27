@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e8c1dee9-515f-4844-aa3e-8deab660bd33
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, I, IoUnregisterContainerNotification, IoUnregisterContainerNotification routine [Kernel-Mode Driver Architecture], N, U, a, c, e, f, g, i, k104_92c44631-4032-4538-bc1b-6463c3ae3c76.xml, kernel.iounregistercontainernotification, n, o, r, s, t, wdm/IoUnregisterContainerNotification"
+ms.keywords: IoUnregisterContainerNotification, IoUnregisterContainerNotification routine [Kernel-Mode Driver Architecture], k104_92c44631-4032-4538-bc1b-6463c3ae3c76.xml, kernel.iounregistercontainernotification, wdm/IoUnregisterContainerNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

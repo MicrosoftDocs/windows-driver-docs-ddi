@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EE68BED8-5FDC-4590-8E95-B228F1DFD32D
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., 3, :, C, CreateInterrupt method, CreateInterrupt method, IWDFDevice3 interface, CreateInterrupt,IWDFDevice3.CreateInterrupt, D, F, I, IWDFDevice3, IWDFDevice3 interface, CreateInterrupt method, IWDFDevice3::CreateInterrupt, W, a, c, e, i, n, p, r, t, u, umdf.iwdfdevice3_createinterrupt, v, wdf.iwdfdevice3_createinterrupt, wudfddi/IWDFDevice3::CreateInterrupt"
+ms.keywords: CreateInterrupt method, CreateInterrupt method, IWDFDevice3 interface, CreateInterrupt,IWDFDevice3.CreateInterrupt, IWDFDevice3, IWDFDevice3 interface, CreateInterrupt method, IWDFDevice3::CreateInterrupt, umdf.iwdfdevice3_createinterrupt, wdf.iwdfdevice3_createinterrupt, wudfddi/IWDFDevice3::CreateInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -145,11 +145,11 @@ hr = pDevice-&gt;Create(&amp;interruptConfig,
 
 
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wudf_interrupt_config_init.md">WUDF_INTERRUPT_CONFIG_INIT</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
+
+
+
+<a href="..\wudfinterrupt\nf-wudfinterrupt-wudf_interrupt_config_init.md">WUDF_INTERRUPT_CONFIG_INIT</a>
 
 
 

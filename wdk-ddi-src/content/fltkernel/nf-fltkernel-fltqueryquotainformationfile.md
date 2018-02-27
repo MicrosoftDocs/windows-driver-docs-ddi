@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: B460BE83-7050-469A-9AD6-68A47F03EB4B
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , F, FltQueryQuotaInformationFile, FltQueryQuotaInformationFile function [Installable File System Drivers], I, Q, a, e, f, fltkernel/FltQueryQuotaInformationFile, i, ifsk.fltqueryquotainformationfile, l, m, n, o, r, t, u, y"
+ms.keywords: FltQueryQuotaInformationFile, FltQueryQuotaInformationFile function [Installable File System Drivers], fltkernel/FltQueryQuotaInformationFile, ifsk.fltqueryquotainformationfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -166,11 +166,11 @@ The instance or volume is being torn down. This is an error code.
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_get_quota_information.md">FILE_GET_QUOTA_INFORMATION</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltsetquotainformationfile.md">FltSetQuotaInformationFile</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_get_quota_information.md">FILE_GET_QUOTA_INFORMATION</a>
 
 
 

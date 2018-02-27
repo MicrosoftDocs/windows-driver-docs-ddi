@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5b125041-969e-49bb-96d5-b40cc7285315
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 4, :, C, D, G, GetTextMacroWide method [Windows Debugging], GetTextMacroWide method [Windows Debugging], IDebugControl4 interface, GetTextMacroWide,IDebugControl4.GetTextMacroWide, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetTextMacroWide method, IDebugControl4::GetTextMacroWide, M, T, W, a, b, c, d, dbgeng/IDebugControl4::GetTextMacroWide, debugger.gettextmacrowide, e, g, i, l, n, o, r, t, u, x"
+ms.keywords: GetTextMacroWide method [Windows Debugging], GetTextMacroWide method [Windows Debugging], IDebugControl4 interface, GetTextMacroWide,IDebugControl4.GetTextMacroWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetTextMacroWide method, IDebugControl4::GetTextMacroWide, dbgeng/IDebugControl4::GetTextMacroWide, debugger.gettextmacrowide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -131,15 +131,11 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
 
 
 
@@ -148,6 +144,10 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
 
 
 

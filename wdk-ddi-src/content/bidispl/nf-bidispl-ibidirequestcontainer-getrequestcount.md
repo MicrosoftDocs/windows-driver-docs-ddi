@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4215ca86-9ceb-451d-8e67-992a8a3f9bab
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, B, C, G, GetRequestCount method [Print Devices], GetRequestCount method [Print Devices], IBidiRequestContainer interface, GetRequestCount,IBidiRequestContainer.GetRequestCount, I, IBidiRequestContainer, IBidiRequestContainer interface [Print Devices], GetRequestCount method, IBidiRequestContainer::GetRequestCount, R, _win32_IBidiRequestContainer_GetRequestCount, a, bidispl/IBidiRequestContainer::GetRequestCount, d, e, gdi.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, i, n, o, print.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, q, r, s, t, u"
+ms.keywords: GetRequestCount method [Print Devices], GetRequestCount method [Print Devices], IBidiRequestContainer interface, GetRequestCount,IBidiRequestContainer.GetRequestCount, IBidiRequestContainer, IBidiRequestContainer interface [Print Devices], GetRequestCount method, IBidiRequestContainer::GetRequestCount, _win32_IBidiRequestContainer_GetRequestCount, bidispl/IBidiRequestContainer::GetRequestCount, gdi.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, print.ibidirequestcontainer_ibidirequestcontainer__getrequestcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9EE04529-D322-4498-B802-BB6A53FBC716
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , D, G, I, T, W, WdfDmaTransactionGetTransferInfo, WdfDmaTransactionGetTransferInfo method, a, c, d, e, f, i, kmdf.wdfdmatransactiongettransferinfo, m, n, o, r, s, t, wdf.wdfdmatransactiongettransferinfo, wdfdmatransaction/WdfDmaTransactionGetTransferInfo"
+ms.keywords: WdfDmaTransactionGetTransferInfo, WdfDmaTransactionGetTransferInfo method, kmdf.wdfdmatransactiongettransferinfo, wdf.wdfdmatransactiongettransferinfo, wdfdmatransaction/WdfDmaTransactionGetTransferInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

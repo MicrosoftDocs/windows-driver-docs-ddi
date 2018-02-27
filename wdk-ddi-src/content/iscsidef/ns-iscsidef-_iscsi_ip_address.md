@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ec4c2add-33e0-4e3d-8f19-892cca4720a7
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PISCSI_IP_Address, ,, A, C, I, ISCSI_IP_Address, ISCSI_IP_Address structure [Storage Devices], P, PISCSI_IP_Address, PISCSI_IP_Address structure pointer [Storage Devices], S, _, _ISCSI_IP_Address, d, e, iscsidef/ISCSI_IP_Address, iscsidef/PISCSI_IP_Address, r, s, storage.iscsi_ip_address, structs-iSCSI_c8f7a419-6398-4ece-a92d-fc0deffbe39a.xml"
+ms.keywords: "*PISCSI_IP_Address, ISCSI_IP_Address, ISCSI_IP_Address structure [Storage Devices], PISCSI_IP_Address, PISCSI_IP_Address structure pointer [Storage Devices], _ISCSI_IP_Address, iscsidef/ISCSI_IP_Address, iscsidef/PISCSI_IP_Address, storage.iscsi_ip_address, structs-iSCSI_c8f7a419-6398-4ece-a92d-fc0deffbe39a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

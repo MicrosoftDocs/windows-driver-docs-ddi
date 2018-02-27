@@ -107,11 +107,11 @@ After the miniport driver enumerates the devices on a channel, it calls the <b><
 
 ## -see-also
 
-<a href="..\ata\ns-ata-_identify_device_data.md">IDENTIFY_DEVICE_DATA</a>
-
-
-
 <a href="..\irb\ns-irb-_ide_device_parameters.md">IDE_DEVICE_PARAMETERS</a>
+
+
+
+<a href="..\ata\ns-ata-_identify_device_data.md">IDENTIFY_DEVICE_DATA</a>
 
 
 

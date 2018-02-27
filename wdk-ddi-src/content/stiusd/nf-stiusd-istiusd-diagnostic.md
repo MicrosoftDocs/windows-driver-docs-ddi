@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: bf99c34e-5a71-4f2b-8dca-bed87d18b352
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, Diagnostic method [Imaging Devices], Diagnostic method [Imaging Devices], IStiUSD interface, Diagnostic,IStiUSD.Diagnostic, I, IStiUSD, IStiUSD interface [Imaging Devices], Diagnostic method, IStiUSD::Diagnostic, S, U, a, c, g, i, image.istiusd_diagnostic, n, o, s, stifnc_07917e25-965a-4a7e-82af-1cfef09d6748.xml, stiusd/IStiUSD::Diagnostic, t"
+ms.keywords: Diagnostic method [Imaging Devices], Diagnostic method [Imaging Devices], IStiUSD interface, Diagnostic,IStiUSD.Diagnostic, IStiUSD, IStiUSD interface [Imaging Devices], Diagnostic method, IStiUSD::Diagnostic, image.istiusd_diagnostic, stifnc_07917e25-965a-4a7e-82af-1cfef09d6748.xml, stiusd/IStiUSD::Diagnostic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5BA1417B-B78B-4582-9DDC-D542413B4BD8
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, Commit method [Print Devices], Commit method [Print Devices], IPrinterScriptableStream interface, Commit,IPrinterScriptableStream.Commit, I, IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], Commit method, IPrinterScriptableStream::Commit, P, S, a, b, c, e, i, l, m, n, o, p, print.iprinterscriptablestream__commit, printerextension/IPrinterScriptableStream::Commit, r, t"
+ms.keywords: Commit method [Print Devices], Commit method [Print Devices], IPrinterScriptableStream interface, Commit,IPrinterScriptableStream.Commit, IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], Commit method, IPrinterScriptableStream::Commit, print.iprinterscriptablestream__commit, printerextension/IPrinterScriptableStream::Commit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

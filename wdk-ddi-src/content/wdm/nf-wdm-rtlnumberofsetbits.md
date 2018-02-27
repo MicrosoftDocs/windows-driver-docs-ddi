@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6208f750-4871-43b9-b848-011180d39fd8
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, N, O, R, RtlNumberOfSetBits, RtlNumberOfSetBits routine [Kernel-Mode Driver Architecture], S, b, e, f, i, k109_b8b2c3f8-3ec3-4690-90bb-e5b120b5b062.xml, kernel.rtlnumberofsetbits, l, m, r, s, t, u, wdm/RtlNumberOfSetBits"
+ms.keywords: RtlNumberOfSetBits, RtlNumberOfSetBits routine [Kernel-Mode Driver Architecture], k109_b8b2c3f8-3ec3-4690-90bb-e5b120b5b062.xml, kernel.rtlnumberofsetbits, wdm/RtlNumberOfSetBits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,7 +94,7 @@ Callers of <b>RtlNumberOfSetBits</b> must be running at IRQL &lt;= APC_LEVEL if 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
 
 
 
@@ -102,11 +102,11 @@ Callers of <b>RtlNumberOfSetBits</b> must be running at IRQL &lt;= APC_LEVEL if 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
 
 
 

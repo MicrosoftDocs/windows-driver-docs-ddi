@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 934967A0-9CEF-4377-9505-EE4C4E9AF706
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , L, P, R, RtlLongPtrToShort, RtlLongPtrToShort function [Kernel-Mode Driver Architecture], S, T, g, h, kernel.rtllongptrtoshort, l, n, ntintsafe/RtlLongPtrToShort, o, r, t"
+ms.keywords: RtlLongPtrToShort, RtlLongPtrToShort function [Kernel-Mode Driver Architecture], kernel.rtllongptrtoshort, ntintsafe/RtlLongPtrToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

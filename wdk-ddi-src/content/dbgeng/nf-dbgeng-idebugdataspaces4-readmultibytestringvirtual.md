@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b86caa13-bdb3-4bc4-b2c1-3e51cbcf396f
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 4, :, B, D, I, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadMultiByteStringVirtual method, IDebugDataSpaces4::ReadMultiByteStringVirtual, IDebugDataSpaces_43ca08e3-d4f0-43f8-b84e-514d3b52c6c4.xml, M, R, ReadMultiByteStringVirtual method [Windows Debugging], ReadMultiByteStringVirtual method [Windows Debugging], IDebugDataSpaces4 interface, ReadMultiByteStringVirtual,IDebugDataSpaces4.ReadMultiByteStringVirtual, S, V, a, b, c, d, dbgeng/IDebugDataSpaces4::ReadMultiByteStringVirtual, debugger.readmultibytestringvirtual, e, g, i, l, n, p, r, s, t, u, y"
+ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadMultiByteStringVirtual method, IDebugDataSpaces4::ReadMultiByteStringVirtual, IDebugDataSpaces_43ca08e3-d4f0-43f8-b84e-514d3b52c6c4.xml, ReadMultiByteStringVirtual method [Windows Debugging], ReadMultiByteStringVirtual method [Windows Debugging], IDebugDataSpaces4 interface, ReadMultiByteStringVirtual,IDebugDataSpaces4.ReadMultiByteStringVirtual, dbgeng/IDebugDataSpaces4::ReadMultiByteStringVirtual, debugger.readmultibytestringvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -159,11 +159,11 @@ The engine will read up to <i>MaxBytes</i> from the target looking for a null-te
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554351">ReadUnicodeStringVirtual</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554304">ReadMultiByteStringVirtualWide</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554351">ReadUnicodeStringVirtual</a>
 
 
 

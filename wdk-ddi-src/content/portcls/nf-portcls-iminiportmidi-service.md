@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7ec2c54d-3974-43e9-9ef8-63393b2d02cd
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, I, IMiniportMidi, IMiniportMidi interface [Audio Devices], Service method, IMiniportMidi::Service, M, S, Service method [Audio Devices], Service method [Audio Devices], IMiniportMidi interface, Service,IMiniportMidi.Service, audio.iminiportmidi_service, audmp-routines_e37a9a63-eaeb-4827-b534-4d73dead44fb.xml, c, d, e, i, n, o, p, portcls/IMiniportMidi::Service, r, t, v"
+ms.keywords: IMiniportMidi, IMiniportMidi interface [Audio Devices], Service method, IMiniportMidi::Service, Service method [Audio Devices], Service method [Audio Devices], IMiniportMidi interface, Service,IMiniportMidi.Service, audio.iminiportmidi_service, audmp-routines_e37a9a63-eaeb-4827-b534-4d73dead44fb.xml, portcls/IMiniportMidi::Service
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -94,10 +94,6 @@ When the miniport driver's ISR calls the port driver's <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
-
-
-
 <a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
 
 
@@ -106,11 +102,15 @@ When the miniport driver's ISR calls the port driver's <a href="https://msdn.mic
 
 
 
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536893">IPortMidi::Notify</a>
 
 
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+<a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
 
 
 

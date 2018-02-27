@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f800427e-d6b6-4f4c-aee7-4b2b0d0aa0c4
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, DrvItem_240e14a4-36bd-4a72-b143-6f8f5c220682.xml, F, I, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], RemoveItemFromFolder method, IWiaDrvItem::RemoveItemFromFolder, R, RemoveItemFromFolder method [Imaging Devices], RemoveItemFromFolder method [Imaging Devices], IWiaDrvItem interface, RemoveItemFromFolder,IWiaDrvItem.RemoveItemFromFolder, W, a, d, e, i, image.iwiadrvitem_removeitemfromfolder, l, m, o, r, t, v, wiamindr_lh/IWiaDrvItem::RemoveItemFromFolder"
+ms.keywords: DrvItem_240e14a4-36bd-4a72-b143-6f8f5c220682.xml, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], RemoveItemFromFolder method, IWiaDrvItem::RemoveItemFromFolder, RemoveItemFromFolder method [Imaging Devices], RemoveItemFromFolder method [Imaging Devices], IWiaDrvItem interface, RemoveItemFromFolder,IWiaDrvItem.RemoveItemFromFolder, image.iwiadrvitem_removeitemfromfolder, wiamindr_lh/IWiaDrvItem::RemoveItemFromFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

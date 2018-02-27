@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5ba5cfe7-a745-497e-b5ce-8c7b3d4929f5
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, D, E, P, PoEndDeviceBusy, PoEndDeviceBusy routine [Kernel-Mode Driver Architecture], c, d, e, i, kernel.poenddevicebusy, n, o, portn_edd72e85-e155-4a0c-9d6a-836ad448bb61.xml, s, u, v, wdm/PoEndDeviceBusy, y"
+ms.keywords: PoEndDeviceBusy, PoEndDeviceBusy routine [Kernel-Mode Driver Architecture], kernel.poenddevicebusy, portn_edd72e85-e155-4a0c-9d6a-836ad448bb61.xml, wdm/PoEndDeviceBusy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

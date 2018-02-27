@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f1f38292-604f-4618-b6ec-f3822d60a96c
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PMSiSCSI_ConnectionStatistics, ,, C, I, M, MSiSCSI_ConnectionStatistics, MSiSCSI_ConnectionStatistics structure [Storage Devices], P, PMSiSCSI_ConnectionStatistics, PMSiSCSI_ConnectionStatistics structure pointer [Storage Devices], S, _, _MSiSCSI_ConnectionStatistics, a, c, e, i, iscsiprf/MSiSCSI_ConnectionStatistics, iscsiprf/PMSiSCSI_ConnectionStatistics, n, o, s, storage.msiscsi_connectionstatistics, structs-iSCSI_6a149338-4636-45cd-9c15-2444e2ebcd1a.xml, t"
+ms.keywords: "*PMSiSCSI_ConnectionStatistics, MSiSCSI_ConnectionStatistics, MSiSCSI_ConnectionStatistics structure [Storage Devices], PMSiSCSI_ConnectionStatistics, PMSiSCSI_ConnectionStatistics structure pointer [Storage Devices], _MSiSCSI_ConnectionStatistics, iscsiprf/MSiSCSI_ConnectionStatistics, iscsiprf/PMSiSCSI_ConnectionStatistics, storage.msiscsi_connectionstatistics, structs-iSCSI_6a149338-4636-45cd-9c15-2444e2ebcd1a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -139,6 +139,10 @@ The totals tracked by this structure are valid for the lifetime of the connectio
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562989">MSiSCSI_ConnectionStatistics WMI Class</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
@@ -148,10 +152,6 @@ The totals tracked by this structure are valid for the lifetime of the connectio
 
 
 <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562989">MSiSCSI_ConnectionStatistics WMI Class</a>
 
 
 

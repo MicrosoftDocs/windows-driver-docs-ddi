@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 416c4de2-f200-491a-a319-fb0a4fd86f86
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 4, :, A, C, D, F, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], SetSpecificFilterArgumentWide method, IDebugControl4::SetSpecificFilterArgumentWide, S, SetSpecificFilterArgumentWide method [Windows Debugging], SetSpecificFilterArgumentWide method [Windows Debugging], IDebugControl4 interface, SetSpecificFilterArgumentWide,IDebugControl4.SetSpecificFilterArgumentWide, W, b, c, d, dbgeng/IDebugControl4::SetSpecificFilterArgumentWide, debugger.setspecificfilterargumentwide, e, f, g, i, l, m, n, o, p, r, t, u"
+ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], SetSpecificFilterArgumentWide method, IDebugControl4::SetSpecificFilterArgumentWide, SetSpecificFilterArgumentWide method [Windows Debugging], SetSpecificFilterArgumentWide method [Windows Debugging], IDebugControl4 interface, SetSpecificFilterArgumentWide,IDebugControl4.SetSpecificFilterArgumentWide, dbgeng/IDebugControl4::SetSpecificFilterArgumentWide, debugger.setspecificfilterargumentwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

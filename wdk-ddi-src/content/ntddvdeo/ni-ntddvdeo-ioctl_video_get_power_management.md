@@ -120,11 +120,11 @@ If the miniport driver successfully returns the power-consumption information, i
 
 ## -see-also
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
-
-
-
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_power_management.md">VIDEO_POWER_MANAGEMENT</a>
+
+
+
+<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
 
 
 

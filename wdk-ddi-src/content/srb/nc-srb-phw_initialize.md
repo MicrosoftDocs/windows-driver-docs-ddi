@@ -97,11 +97,11 @@ For more information about the miniport driver initialization routine that is us
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
-
-
-
 <a href="..\srb\nc-srb-phw_initialize.md">HwScsiInitialize</a>
+
+
+
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
 
 
 

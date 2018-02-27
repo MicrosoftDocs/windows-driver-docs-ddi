@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 02f5bec1-f2d2-4b72-bd9e-b30315c334da
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, D, E, Exception method [Windows Debugging], Exception method [Windows Debugging], IDebugEventCallbacksWide interface, Exception,IDebugEventCallbacksWide.Exception, I, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], Exception method, IDebugEventCallbacksWide::Exception, W, a, b, c, d, dbgeng/IDebugEventCallbacksWide::Exception, debugger.idebugeventcallbackswide_exception, e, g, i, k, l, n, o, p, s, t, u, v, x"
+ms.keywords: Exception method [Windows Debugging], Exception method [Windows Debugging], IDebugEventCallbacksWide interface, Exception,IDebugEventCallbacksWide.Exception, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], Exception method, IDebugEventCallbacksWide::Exception, dbgeng/IDebugEventCallbacksWide::Exception, debugger.idebugeventcallbackswide_exception
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

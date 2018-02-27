@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a31a8688-6002-4ad7-b135-0a8111e2c849
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PMSiSCSI_Eventlog, ,, C, E, I, M, MSiSCSI_EventLog, MSiSCSI_EventLog structure [Storage Devices], MSiSCSI_Eventlog, P, PMSiSCSI_EventLog, PMSiSCSI_EventLog structure pointer [Storage Devices], S, _, _MSiSCSI_Eventlog, e, g, i, iscsimgt/MSiSCSI_EventLog, iscsimgt/PMSiSCSI_EventLog, l, n, o, storage.msiscsi_eventlog, structs-iSCSI_d2419ba1-4f36-42c6-8a21-164dadb50263.xml, t, v"
+ms.keywords: "*PMSiSCSI_Eventlog, MSiSCSI_EventLog, MSiSCSI_EventLog structure [Storage Devices], MSiSCSI_Eventlog, PMSiSCSI_EventLog, PMSiSCSI_EventLog structure pointer [Storage Devices], _MSiSCSI_Eventlog, iscsimgt/MSiSCSI_EventLog, iscsimgt/PMSiSCSI_EventLog, storage.msiscsi_eventlog, structs-iSCSI_d2419ba1-4f36-42c6-8a21-164dadb50263.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,14 +92,14 @@ This specifies the size of the Additional Data field.
 
 
 
-#### - LogToEventLog
-
-If this value it set to 1, the message will be logged to the system event log.
-
-
 #### - AdditionalData[1]
 
 This provides additional information associated with this event.
+
+
+#### - LogToEventLog
+
+If this value it set to 1, the message will be logged to the system event log.
 
 
 ## -remarks

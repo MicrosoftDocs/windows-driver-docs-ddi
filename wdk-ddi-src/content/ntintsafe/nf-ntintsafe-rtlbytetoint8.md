@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 865E62CA-0D73-4957-88AA-EEF5910AD916
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 8, B, I, R, RtlByteToInt8, RtlByteToInt8 function [Kernel-Mode Driver Architecture], T, e, kernel.rtlbytetoint8, l, n, ntintsafe/RtlByteToInt8, o, t, y"
+ms.keywords: RtlByteToInt8, RtlByteToInt8 function [Kernel-Mode Driver Architecture], kernel.rtlbytetoint8, ntintsafe/RtlByteToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 94cc33bf-cd44-4892-a4e1-991eb6339cc3
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 4, :, C, D, E, G, GetStoredEventInformation method [Windows Debugging], GetStoredEventInformation method [Windows Debugging], IDebugControl4 interface, GetStoredEventInformation,IDebugControl4.GetStoredEventInformation, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetStoredEventInformation method, IDebugControl4::GetStoredEventInformation, IDebugControl_2d615fc9-52f1-4169-9265-430a1ce0f940.xml, S, a, b, d, dbgeng/IDebugControl4::GetStoredEventInformation, debugger.getstoredeventinformation, e, f, g, i, l, m, n, o, r, t, u, v"
+ms.keywords: GetStoredEventInformation method [Windows Debugging], GetStoredEventInformation method [Windows Debugging], IDebugControl4 interface, GetStoredEventInformation,IDebugControl4.GetStoredEventInformation, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetStoredEventInformation method, IDebugControl4::GetStoredEventInformation, IDebugControl_2d615fc9-52f1-4169-9265-430a1ce0f940.xml, dbgeng/IDebugControl4::GetStoredEventInformation, debugger.getstoredeventinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

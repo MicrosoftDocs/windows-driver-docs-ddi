@@ -153,19 +153,19 @@ Value names must start with <b>$$</b> and have a terminating NULL character. The
 
 ## -see-also
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
-
-
-
-<i>DebugExtensionUninitialize</i>
-
-
-
 <i>DebugExtensionProvideValue</i>
 
 
 
+<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
+
+
+
 <i>KnownStructOutput</i>
+
+
+
+<i>DebugExtensionUninitialize</i>
 
 
 

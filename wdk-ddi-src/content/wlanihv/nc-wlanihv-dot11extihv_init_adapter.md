@@ -133,12 +133,12 @@ For more information about WLAN adapter initialization, see
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
-   Dot11ExtIhvPerformPreAssociate</a>
-
-
-
 <a href="..\wlclient\ns-wlclient-_dot11_adapter.md">DOT11_ADAPTER</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
+   Dot11ExtPreAssociateCompletion</a>
 
 
 
@@ -147,8 +147,8 @@ For more information about WLAN adapter initialization, see
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
-   Dot11ExtPreAssociateCompletion</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+   Dot11ExtIhvPerformPreAssociate</a>
 
 
 

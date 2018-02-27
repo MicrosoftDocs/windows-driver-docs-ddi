@@ -100,34 +100,19 @@ HRESULT  APIENTRY* PFND3D12DDI_CREATEHEAPANDRESOURCE_0030(
 
 
 
+#### - d3d12ddi_clear_values [in, optional]
+
+Used to clear the values of the resource.
+
+
 #### - d3d12ddi_hdevice
 
 The device being operated on.
 
 
-#### - d3d12ddiarg_createheap_0001 [in, optional]
-
-Arguments used to create a heap.
-
-
 #### - d3d12ddi_hheap
 
 Used to create a heap.
-
-
-#### - d3d12ddi_hrtresource
-
-Used to create a resource.
-
-
-#### - d3d12ddiarg_createresource_0003 [in, optional]
-
-Arguments used to create a resource.
-
-
-#### - d3d12ddi_clear_values [in, optional]
-
-Used to clear the values of the resource.
 
 
 #### - d3d12ddi_hprotectedresourcesession_0030
@@ -138,6 +123,21 @@ The protected resource session.
 #### - d3d12ddi_hresource
 
 The hardware resource.
+
+
+#### - d3d12ddi_hrtresource
+
+Used to create a resource.
+
+
+#### - d3d12ddiarg_createheap_0001 [in, optional]
+
+Arguments used to create a heap.
+
+
+#### - d3d12ddiarg_createresource_0003 [in, optional]
+
+Arguments used to create a resource.
 
 
 ## -returns

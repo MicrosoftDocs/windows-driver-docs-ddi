@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6683C688-CCDD-498B-AA60-81430DC3BCA4
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, C, D, R, S, U, USBD_BuildRegisterCompositeDevice, USBD_BuildRegisterCompositeDevice routine [Buses], _, buses.usbd_buildregistercompositedriver, c, d, e, g, i, l, m, o, p, r, s, t, u, usbdlib/ USBD_BuildRegisterCompositeDevice, v"
+ms.keywords: USBD_BuildRegisterCompositeDevice, USBD_BuildRegisterCompositeDevice routine [Buses], buses.usbd_buildregistercompositedriver, usbdlib/ USBD_BuildRegisterCompositeDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B5640B86-D931-4A26-85F2-BBE18620668C
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, D, E, F, I, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], NextEntry method, IDebugFailureAnalysis2::NextEntry, N, NextEntry method [Windows Debugging], NextEntry method [Windows Debugging], IDebugFailureAnalysis2 interface, NextEntry,IDebugFailureAnalysis2.NextEntry, a, b, debugger.idebugfailureanalysis2_nextentry, e, extsfns/IDebugFailureAnalysis2::NextEntry, g, i, l, n, r, s, t, u, x, y"
+ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], NextEntry method, IDebugFailureAnalysis2::NextEntry, NextEntry method [Windows Debugging], NextEntry method [Windows Debugging], IDebugFailureAnalysis2 interface, NextEntry,IDebugFailureAnalysis2.NextEntry, debugger.idebugfailureanalysis2_nextentry, extsfns/IDebugFailureAnalysis2::NextEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,15 +83,15 @@ This method returns a pointer to the next (or first) <a href="..\extsfns\ns-exts
 
 ## -see-also
 
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983418">GetNext</a>
-
-
-
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 
@@ -99,7 +99,7 @@ This method returns a pointer to the next (or first) <a href="..\extsfns\ns-exts
 
 
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983418">GetNext</a>
 
 
 

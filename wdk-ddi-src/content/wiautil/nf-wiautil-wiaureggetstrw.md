@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ff06737b-c37d-4f37-adfc-bbd51974c9e4
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , G, R, S, W, a, e, g, i, image.wiaureggetstr, r, t, u, w, wiauFncs_b9145502-734d-40de-8086-c1f193966269.xml, wiauRegGetStr, wiauRegGetStr function [Imaging Devices], wiauRegGetStrA, wiauRegGetStrW, wiautil/wiauRegGetStr"
+ms.keywords: image.wiaureggetstr, wiauFncs_b9145502-734d-40de-8086-c1f193966269.xml, wiauRegGetStr, wiauRegGetStr function [Imaging Devices], wiauRegGetStrA, wiauRegGetStrW, wiautil/wiauRegGetStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,11 +102,11 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550179">wiauRegOpenData</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550176">wiauRegGetDword</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550179">wiauRegOpenData</a>
 
 
 

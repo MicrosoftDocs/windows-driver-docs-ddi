@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A7801EE9-BFDB-4F77-9DA4-A6612F63AD48
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, G, M, V, VMBUS_CHANNEL_GPADL_FLAG_READ_ONLY, VmbChannelMapGpadl, VmbChannelMapGpadl function [Network Drivers Starting with Windows Vista], a, b, d, e, h, l, m, n, netvista.vmbchannelmapgpadl, p, vmbuskernelmodeclientlibapi/VmbChannelMapGpadl"
+ms.keywords: VMBUS_CHANNEL_GPADL_FLAG_READ_ONLY, VmbChannelMapGpadl, VmbChannelMapGpadl function [Network Drivers Starting with Windows Vista], netvista.vmbchannelmapgpadl, vmbuskernelmodeclientlibapi/VmbChannelMapGpadl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

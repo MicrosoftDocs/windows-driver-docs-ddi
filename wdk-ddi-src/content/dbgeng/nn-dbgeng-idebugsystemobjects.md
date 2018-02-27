@@ -86,7 +86,7 @@ Returns the name of executable file loaded in the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="..\dbgeng\nf-dbgeng-idebugsystemobjects-getcurrentprocesshandle.md">GetCurrentProcessHandle</a>
+<a href="..\wdbgexts\nf-wdbgexts-getcurrentprocesshandle.md">GetCurrentProcessHandle</a>
 </td>
 <td align="left" width="63%">
 Returns the system handle for the current process.
@@ -332,7 +332,7 @@ Makes the specified thread the current thread.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects2.md">IDebugSystemObjects2</a>
 
 
 
@@ -340,7 +340,7 @@ Makes the specified thread the current thread.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects2.md">IDebugSystemObjects2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
 
 
 

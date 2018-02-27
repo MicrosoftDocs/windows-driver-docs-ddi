@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a698fcb9-1285-4201-9b49-e79dcda66043
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, AdjustImageableArea method [Print Devices], AdjustImageableArea method [Print Devices], IPrintOemUIMXDC interface, AdjustImageableArea,IPrintOemUIMXDC.AdjustImageableArea, C, D, I, IPrintOemUIMXDC, IPrintOemUIMXDC interface [Print Devices], AdjustImageableArea method, IPrintOemUIMXDC::AdjustImageableArea, M, O, P, U, X, a, b, d, e, g, i, j, l, m, n, prcomoem/IPrintOemUIMXDC::AdjustImageableArea, print.iprintoemuimxdc_adjustimageablearea, print_unidrv-pscript_ui_c6e35081-e9d3-4d55-85be-e0d5b48bc39c.xml, r, s, t, u"
+ms.keywords: AdjustImageableArea method [Print Devices], AdjustImageableArea method [Print Devices], IPrintOemUIMXDC interface, AdjustImageableArea,IPrintOemUIMXDC.AdjustImageableArea, IPrintOemUIMXDC, IPrintOemUIMXDC interface [Print Devices], AdjustImageableArea method, IPrintOemUIMXDC::AdjustImageableArea, prcomoem/IPrintOemUIMXDC::AdjustImageableArea, print.iprintoemuimxdc_adjustimageablearea, print_unidrv-pscript_ui_c6e35081-e9d3-4d55-85be-e0d5b48bc39c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1d1f092c-e867-49f7-8f17-90fbf73733fb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , I, L, M, R, RIL_StopModemLogs, RIL_StopModemLogs method [Network Drivers Starting with Windows Vista], S, _, d, e, g, m, netvista.ril_stopmodemlogs, o, p, rilapi/RIL_StopModemLogs, s, t"
+ms.keywords: RIL_StopModemLogs, RIL_StopModemLogs method [Network Drivers Starting with Windows Vista], netvista.ril_stopmodemlogs, rilapi/RIL_StopModemLogs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

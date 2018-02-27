@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a9299c25-4210-4161-bfd6-8a13113b93e1
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PATTRIBUTE_INFO_3, ,, 3, A, ATTRIBUTE_INFO_3, ATTRIBUTE_INFO_3 structure [Print Devices], B, E, F, I, N, O, P, PATTRIBUTE_INFO_3, PATTRIBUTE_INFO_3 structure pointer [Print Devices], R, T, U, _, _ATTRIBUTE_INFO_3, print.attribute_info_3, print_interface-graphics_473dca69-31fc-410d-a9d6-cfa5241f2c5b.xml, winddiui/ATTRIBUTE_INFO_3, winddiui/PATTRIBUTE_INFO_3"
+ms.keywords: "*PATTRIBUTE_INFO_3, ATTRIBUTE_INFO_3, ATTRIBUTE_INFO_3 structure [Print Devices], PATTRIBUTE_INFO_3, PATTRIBUTE_INFO_3 structure pointer [Print Devices], _ATTRIBUTE_INFO_3, print.attribute_info_3, print_interface-graphics_473dca69-31fc-410d-a9d6-cfa5241f2c5b.xml, winddiui/ATTRIBUTE_INFO_3, winddiui/PATTRIBUTE_INFO_3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -238,6 +238,14 @@ For information about other ATTRIBUTE_INFO_3 structure members, see <a href="..\
 
 ## -see-also
 
+<a href="..\winppi\nf-winppi-gdiendpageemf.md">GdiEndPageEMF</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-getjobattributesex.md">GetJobAttributesEx</a>
+
+
+
 <a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
 
 
@@ -247,14 +255,6 @@ For information about other ATTRIBUTE_INFO_3 structure members, see <a href="..\
 
 
 <a href="..\winsplp\ns-winsplp-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
-
-
-
-<a href="..\winppi\nf-winppi-gdiendpageemf.md">GdiEndPageEMF</a>
-
-
-
-<a href="..\winsplp\nf-winsplp-getjobattributesex.md">GetJobAttributesEx</a>
 
 
 

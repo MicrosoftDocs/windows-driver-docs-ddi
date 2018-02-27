@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 61575632-62f8-47d3-9249-5f5416191dfa
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, G, GetPosition method [Audio Devices], GetPosition method [Audio Devices], IMiniportWavePciStream interface, GetPosition,IMiniportWavePciStream.GetPosition, I, IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], GetPosition method, IMiniportWavePciStream::GetPosition, M, P, S, W, a, audio.iminiportwavepcistream_getposition, audmp-routines_32855554-86ce-4549-af40-700b7b8fcaad.xml, c, e, i, m, n, o, p, portcls/IMiniportWavePciStream::GetPosition, r, s, t, v"
+ms.keywords: GetPosition method [Audio Devices], GetPosition method [Audio Devices], IMiniportWavePciStream interface, GetPosition,IMiniportWavePciStream.GetPosition, IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], GetPosition method, IMiniportWavePciStream::GetPosition, audio.iminiportwavepcistream_getposition, audmp-routines_32855554-86ce-4549-af40-700b7b8fcaad.xml, portcls/IMiniportWavePciStream::GetPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -116,15 +116,15 @@ The WavePci port driver implements a property handler for <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+
+
+
 <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
-
-
-
-<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
 
 
 

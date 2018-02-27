@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 9F01D093-226E-4CB4-8085-812115EBA671
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , C, D, R, S, SensorsCxSensorDataReady, SensorsCxSensorDataReady function [Sensor Devices], a, d, e, n, o, r, s, sensors.sensorscxsensordataready, sensorscx/SensorsCxSensorDataReady, t, x, y"
+ms.keywords: SensorsCxSensorDataReady, SensorsCxSensorDataReady function [Sensor Devices], sensors.sensorscxsensordataready, sensorscx/SensorsCxSensorDataReady
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,7 +118,7 @@ This function is implemented by the class extension and the driver must call it.
 
 ## -see-also
 
-<a href="..\sensorscx\nc-sensorscx-evt_sensor_driver_set_batch_latency.md">EvtSensorSetBatchLatency</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor properties</a>
 
 
 
@@ -126,7 +126,7 @@ This function is implemented by the class extension and the driver must call it.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor properties</a>
+<a href="..\sensorscx\nc-sensorscx-evt_sensor_driver_set_batch_latency.md">EvtSensorSetBatchLatency</a>
 
 
 

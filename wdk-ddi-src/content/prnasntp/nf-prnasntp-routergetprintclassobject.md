@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e2df591d-59bd-4aae-ac1b-8fdf01da3ea7
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, G, O, P, R, RouterGetPrintClassObject, RouterGetPrintClassObject function [Print Devices], a, b, c, e, i, j, l, n, o, print.routergetprintclassobject, prnasntp/RouterGetPrintClassObject, r, s, spoolfnc_ffe877d1-cb3e-49f5-a5b5-5da7c5cb9148.xml, t, u"
+ms.keywords: RouterGetPrintClassObject, RouterGetPrintClassObject function [Print Devices], print.routergetprintclassobject, prnasntp/RouterGetPrintClassObject, spoolfnc_ffe877d1-cb3e-49f5-a5b5-5da7c5cb9148.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: F7E83587-0499-4D56-8D34-5513454FFEE2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, C, I, IPortClsRuntimePower, IPortClsRuntimePower interface [Audio Devices], UnregisterPowerControlCallback method, IPortClsRuntimePower::UnregisterPowerControlCallback, P, R, U, UnregisterPowerControlCallback method [Audio Devices], UnregisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface, UnregisterPowerControlCallback,IPortClsRuntimePower.UnregisterPowerControlCallback, a, audio.iportclsruntimepower_unregisterpowercontrolcallback, b, c, e, g, i, k, l, m, n, o, portcls/IPortClsRuntimePower::UnregisterPowerControlCallback, r, s, t, u, w"
+ms.keywords: IPortClsRuntimePower, IPortClsRuntimePower interface [Audio Devices], UnregisterPowerControlCallback method, IPortClsRuntimePower::UnregisterPowerControlCallback, UnregisterPowerControlCallback method [Audio Devices], UnregisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface, UnregisterPowerControlCallback,IPortClsRuntimePower.UnregisterPowerControlCallback, audio.iportclsruntimepower_unregisterpowercontrolcallback, portcls/IPortClsRuntimePower::UnregisterPowerControlCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

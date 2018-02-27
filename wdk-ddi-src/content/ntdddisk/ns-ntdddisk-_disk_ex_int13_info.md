@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 82e3a1e9-275a-489a-9e6e-d76007a1abb9
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PDISK_EX_INT13_INFO, ,, 1, 3, D, DISK_EX_INT13_INFO, DISK_EX_INT13_INFO structure [Storage Devices], E, F, I, K, N, O, P, PDISK_EX_INT13_INFO, PDISK_EX_INT13_INFO structure pointer [Storage Devices], S, T, X, _, _DISK_EX_INT13_INFO, ntdddisk/DISK_EX_INT13_INFO, ntdddisk/PDISK_EX_INT13_INFO, storage.disk_ex_int13_info, structs-disk_be49445a-5e95-4b7a-b4ef-fa21f110aeca.xml"
+ms.keywords: "*PDISK_EX_INT13_INFO, DISK_EX_INT13_INFO, DISK_EX_INT13_INFO structure [Storage Devices], PDISK_EX_INT13_INFO, PDISK_EX_INT13_INFO structure pointer [Storage Devices], _DISK_EX_INT13_INFO, ntdddisk/DISK_EX_INT13_INFO, ntdddisk/PDISK_EX_INT13_INFO, storage.disk_ex_int13_info, structs-disk_be49445a-5e95-4b7a-b4ef-fa21f110aeca.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

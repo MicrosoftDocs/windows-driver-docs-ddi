@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 14F8C0A2-0D19-446E-8C2B-530A3AEDA879
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , D, DeleteJobNamedProperty, DeleteJobNamedProperty function [Print Devices], J, N, P, a, b, d, e, l, m, o, p, print.deletejobnamedproperty, r, t, winspool/DeleteJobNamedProperty, y"
+ms.keywords: DeleteJobNamedProperty, DeleteJobNamedProperty function [Print Devices], print.deletejobnamedproperty, winspool/DeleteJobNamedProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

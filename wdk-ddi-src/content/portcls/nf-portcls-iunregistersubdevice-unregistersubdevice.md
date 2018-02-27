@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 042378f0-aa0f-49be-b881-86558ad33baf
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, I, IUnregisterSubdevice, IUnregisterSubdevice interface [Audio Devices], UnregisterSubdevice method, IUnregisterSubdevice::UnregisterSubdevice, S, U, UnregisterSubdevice method [Audio Devices], UnregisterSubdevice method [Audio Devices], IUnregisterSubdevice interface, UnregisterSubdevice,IUnregisterSubdevice.UnregisterSubdevice, audio.iunregistersubdevice_unregistersubdevice, audmp-routines_8fb24a5e-af25-42e0-a96e-2f4728f17cde.xml, b, c, d, e, g, i, n, portcls/IUnregisterSubdevice::UnregisterSubdevice, r, s, t, u, v"
+ms.keywords: IUnregisterSubdevice, IUnregisterSubdevice interface [Audio Devices], UnregisterSubdevice method, IUnregisterSubdevice::UnregisterSubdevice, UnregisterSubdevice method [Audio Devices], UnregisterSubdevice method [Audio Devices], IUnregisterSubdevice interface, UnregisterSubdevice,IUnregisterSubdevice.UnregisterSubdevice, audio.iunregistersubdevice_unregistersubdevice, audmp-routines_8fb24a5e-af25-42e0-a96e-2f4728f17cde.xml, portcls/IUnregisterSubdevice::UnregisterSubdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4E2D11E9-9399-48C5-8EA8-B17FBB6625FF
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, C, F, FinishAsyncCall method [Print Devices], FinishAsyncCall method [Print Devices], IPrintAsyncCookie interface, FinishAsyncCall,IPrintAsyncCookie.FinishAsyncCall, I, IPrintAsyncCookie, IPrintAsyncCookie interface [Print Devices], FinishAsyncCall method, IPrintAsyncCookie::FinishAsyncCall, P, a, c, e, h, i, k, l, n, o, print.iprintasyncnotify_finishasynccall, prnasntp/IPrintAsyncCookie::FinishAsyncCall, r, s, t, y"
+ms.keywords: FinishAsyncCall method [Print Devices], FinishAsyncCall method [Print Devices], IPrintAsyncCookie interface, FinishAsyncCall,IPrintAsyncCookie.FinishAsyncCall, IPrintAsyncCookie, IPrintAsyncCookie interface [Print Devices], FinishAsyncCall method, IPrintAsyncCookie::FinishAsyncCall, print.iprintasyncnotify_finishasynccall, prnasntp/IPrintAsyncCookie::FinishAsyncCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

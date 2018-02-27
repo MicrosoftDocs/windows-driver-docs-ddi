@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 73ec4bf1-ba48-4b51-8824-61ce42f9708d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , C, DFRequestObjectRef_2306854d-71f7-475f-bd8c-a74e2e6630ca.xml, I, R, W, WdfRequestIsCanceled, WdfRequestIsCanceled method, a, c, d, e, f, kmdf.wdfrequestiscanceled, l, n, q, s, t, u, wdf.wdfrequestiscanceled, wdfrequest/WdfRequestIsCanceled"
+ms.keywords: DFRequestObjectRef_2306854d-71f7-475f-bd8c-a74e2e6630ca.xml, WdfRequestIsCanceled, WdfRequestIsCanceled method, kmdf.wdfrequestiscanceled, wdf.wdfrequestiscanceled, wdfrequest/WdfRequestIsCanceled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -145,15 +145,15 @@ The following code example calls <a href="..\wdfrequest\nf-wdfrequest-wdfrequest
 
 
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>
+
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a>
 
 
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>
 
 
 

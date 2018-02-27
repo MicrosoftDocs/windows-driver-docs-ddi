@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4b7aac38-ab29-4cac-a7f0-896423b17400
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , G, K, KsGetMediaType, KsGetMediaType function [Streaming Media Devices], M, T, a, d, e, i, ksproxy/KsGetMediaType, ksproxy_6472bffc-0280-4954-80f5-7e2ae2b2f49b.xml, p, s, stream.ksgetmediatype, t, y"
+ms.keywords: KsGetMediaType, KsGetMediaType function [Streaming Media Devices], ksproxy/KsGetMediaType, ksproxy_6472bffc-0280-4954-80f5-7e2ae2b2f49b.xml, stream.ksgetmediatype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

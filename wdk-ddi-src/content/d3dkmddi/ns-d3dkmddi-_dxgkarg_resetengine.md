@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a19eea7f-ceaf-47e0-b2dd-46511fcae66f
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *INOUT_PDXGKARG_RESETENGINE, ,, A, D, DXGKARG_RESETENGINE, DXGKARG_RESETENGINE structure [Display Devices], E, G, I, K, N, O, P, R, S, T, U, X, _, _DXGKARG_RESETENGINE, d3dkmddi/DXGKARG_RESETENGINE, display.dxgkarg_resetengine"
+ms.keywords: "*INOUT_PDXGKARG_RESETENGINE, DXGKARG_RESETENGINE, DXGKARG_RESETENGINE structure [Display Devices], _DXGKARG_RESETENGINE, d3dkmddi/DXGKARG_RESETENGINE, display.dxgkarg_resetengine"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

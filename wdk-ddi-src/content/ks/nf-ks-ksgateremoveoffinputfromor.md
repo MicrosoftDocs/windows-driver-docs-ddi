@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 191874ec-5d08-430e-ad14-520392e1a904
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , F, G, I, K, KsGateRemoveOffInputFromOr, KsGateRemoveOffInputFromOr function [Streaming Media Devices], O, R, a, avfunc_6431bb18-7f16-4a0f-b012-c0137d85fba8.xml, e, f, ks/KsGateRemoveOffInputFromOr, m, n, o, p, r, s, stream.ksgateremoveoffinputfromor, t, u, v"
+ms.keywords: KsGateRemoveOffInputFromOr, KsGateRemoveOffInputFromOr function [Streaming Media Devices], avfunc_6431bb18-7f16-4a0f-b012-c0137d85fba8.xml, ks/KsGateRemoveOffInputFromOr, stream.ksgateremoveoffinputfromor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,10 +96,6 @@ This call is an empty function. It should be used for code readability and clari
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateaddoffinputtoor.md">KsGateAddOffInputToOr</a>
-
-
-
 <a href="..\ks\nf-ks-ksgateaddoninputtoor.md">KsGateAddOnInputToOr</a>
 
 
@@ -113,6 +109,10 @@ This call is an empty function. It should be used for code readability and clari
 
 
 <a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateaddoffinputtoor.md">KsGateAddOffInputToOr</a>
 
 
 

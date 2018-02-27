@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: abff1656-dceb-464f-a89c-30d7a24f742d
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , D, DbgPrint, DbgPrint routine [Driver Development Tools], DebugFns_5e11bbcc-adc2-46c0-b371-0e54c50bb2dc.xml, P, ULONG, b, devtest.dbgprint, g, i, n, r, t, wdm/DbgPrint"
+ms.keywords: DbgPrint, DbgPrint routine [Driver Development Tools], DebugFns_5e11bbcc-adc2-46c0-b371-0e54c50bb2dc.xml, ULONG, devtest.dbgprint, wdm/DbgPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -134,11 +134,11 @@ There is no upper limit to the size of the <i>Format</i> string or the number of
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-kdprintex.md">KdPrintEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
 
 
 

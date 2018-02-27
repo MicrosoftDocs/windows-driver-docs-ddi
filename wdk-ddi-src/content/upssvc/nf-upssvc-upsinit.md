@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: abcb1f9c-3de3-430c-87e0-6648d60ca420
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , I, P, S, U, UPSInit, UPSInit function [Battery Devices], UPS_fns_855934b9-5f74-4308-9bed-5fd85d039247.xml, battery.upsinit, i, n, t, upssvc/UPSInit"
+ms.keywords: UPSInit, UPSInit function [Battery Devices], UPS_fns_855934b9-5f74-4308-9bed-5fd85d039247.xml, battery.upsinit, upssvc/UPSInit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

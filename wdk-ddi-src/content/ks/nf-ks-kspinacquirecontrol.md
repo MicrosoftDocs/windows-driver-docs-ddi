@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 05ff1829-8305-4bc4-be22-233d391a5dc0
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, C, K, KsPinAcquireControl, KsPinAcquireControl function [Streaming Media Devices], P, avfunc_fd5d1466-6403-42cf-aab7-d044014c4abf.xml, c, e, i, ks/KsPinAcquireControl, l, n, o, q, r, s, stream.kspinacquirecontrol, t, u"
+ms.keywords: KsPinAcquireControl, KsPinAcquireControl function [Streaming Media Devices], avfunc_fd5d1466-6403-42cf-aab7-d044014c4abf.xml, ks/KsPinAcquireControl, stream.kspinacquirecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,7 +94,7 @@ The pin control mutex is the same mutex that is used by <i>Pin</i>'s parent. Thi
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
+<a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
 
 
 
@@ -102,11 +102,11 @@ The pin control mutex is the same mutex that is used by <i>Pin</i>'s parent. Thi
 
 
 
+<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
+
+
+
 <a href="..\ks\nf-ks-kspinreleasecontrol.md">KsPinReleaseControl</a>
-
-
-
-<a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 12052128-9ea7-41cd-bb75-be7175e26c12
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, I, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvValidateItemProperties method, IWiaMiniDrv::drvValidateItemProperties, M, MiniDrv_b288e05c-a142-452a-9ac7-ffb2dfcae4cf.xml, P, V, W, a, d, drvValidateItemProperties method [Imaging Devices], drvValidateItemProperties method [Imaging Devices], IWiaMiniDrv interface, drvValidateItemProperties,IWiaMiniDrv.drvValidateItemProperties, e, i, image.iwiaminidrv_drvvalidateitemproperties, l, m, n, o, p, r, s, t, v, wiamindr_lh/IWiaMiniDrv::drvValidateItemProperties"
+ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvValidateItemProperties method, IWiaMiniDrv::drvValidateItemProperties, MiniDrv_b288e05c-a142-452a-9ac7-ffb2dfcae4cf.xml, drvValidateItemProperties method [Imaging Devices], drvValidateItemProperties method [Imaging Devices], IWiaMiniDrv interface, drvValidateItemProperties,IWiaMiniDrv.drvValidateItemProperties, image.iwiaminidrv_drvvalidateitemproperties, wiamindr_lh/IWiaMiniDrv::drvValidateItemProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,11 +99,6 @@ HRESULT drvValidateItemProperties(
 
 
 
-#### - pWiasContext [in]
-
-Pointer to a WIA item context.
-
-
 #### - lFlags [in]
 
 Is reserved. Set to zero. 
@@ -117,6 +112,11 @@ Indicates the number of items n the <i>pPropSpec</i> array.
 #### - pPropSpec [in]
 
 Points to the first element of an array of PROPSPEC structures (defined in the Microsoft Windows SDK documentation). 
+
+
+#### - pWiasContext [in]
+
+Pointer to a WIA item context.
 
 
 #### - plDevErrVal [out]
@@ -137,15 +137,15 @@ The value pointed to by <i>plDevErrVal</i> can be converted to a string by calli
 
 ## -see-also
 
+<a href="..\wiamdef\nf-wiamdef-wiasvalidateitemproperties.md">wiasValidateItemProperties</a>
+
+
+
 <a href="..\wiamdef\nf-wiamdef-wiasgetitemtype.md">wiasGetItemType</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiasvalidateitemproperties.md">wiasValidateItemProperties</a>
 
 
 

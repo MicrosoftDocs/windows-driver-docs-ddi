@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: da3ddebc-109e-43fb-a0e9-fd89d90dbbc7
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, ComOther_11a91301-541c-4bc3-aa1e-614db8170e03.xml, D, G, GetSymbolOffset method [Windows Debugging], GetSymbolOffset method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolOffset,IDebugSymbolGroup2.GetSymbolOffset, I, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolOffset method, IDebugSymbolGroup2::GetSymbolOffset, O, S, b, dbgeng/IDebugSymbolGroup2::GetSymbolOffset, debugger.getsymboloffset, e, f, g, l, m, o, p, r, s, t, u, y"
+ms.keywords: ComOther_11a91301-541c-4bc3-aa1e-614db8170e03.xml, GetSymbolOffset method [Windows Debugging], GetSymbolOffset method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolOffset,IDebugSymbolGroup2.GetSymbolOffset, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolOffset method, IDebugSymbolGroup2::GetSymbolOffset, dbgeng/IDebugSymbolGroup2::GetSymbolOffset, debugger.getsymboloffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -128,11 +128,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 

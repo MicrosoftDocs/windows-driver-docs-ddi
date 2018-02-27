@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4d7d84e7-4fa4-4514-9d52-dbae5fed159b
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, Assemble method [Windows Debugging], Assemble method [Windows Debugging], IDebugControl interface, Assemble method [Windows Debugging], IDebugControl2 interface, Assemble method [Windows Debugging], IDebugControl3 interface, Assemble,IDebugControl.Assemble, C, D, I, IDebugControl, IDebugControl interface [Windows Debugging], Assemble method, IDebugControl2 interface [Windows Debugging], Assemble method, IDebugControl2::Assemble, IDebugControl3 interface [Windows Debugging], Assemble method, IDebugControl3::Assemble, IDebugControl::Assemble, IDebugControl_99336950-ba0b-46e1-871d-582f08ab5519.xml, b, dbgeng/IDebugControl2::Assemble, dbgeng/IDebugControl3::Assemble, dbgeng/IDebugControl::Assemble, debugger.assemble, e, g, l, m, n, o, r, s, t, u"
+ms.keywords: Assemble method [Windows Debugging], Assemble method [Windows Debugging], IDebugControl interface, Assemble method [Windows Debugging], IDebugControl2 interface, Assemble method [Windows Debugging], IDebugControl3 interface, Assemble,IDebugControl.Assemble, IDebugControl, IDebugControl interface [Windows Debugging], Assemble method, IDebugControl2 interface [Windows Debugging], Assemble method, IDebugControl2::Assemble, IDebugControl3 interface [Windows Debugging], Assemble method, IDebugControl3::Assemble, IDebugControl::Assemble, IDebugControl_99336950-ba0b-46e1-871d-582f08ab5519.xml, dbgeng/IDebugControl2::Assemble, dbgeng/IDebugControl3::Assemble, dbgeng/IDebugControl::Assemble, debugger.assemble
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -136,15 +136,15 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 

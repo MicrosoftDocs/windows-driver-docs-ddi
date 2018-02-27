@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 15D6A09F-2AEC-431F-91F4-D1571DB56E81
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, H, O, ObCloseHandle, ObCloseHandle routine [Kernel-Mode Driver Architecture], a, b, d, e, kernel.obclosehandle, l, n, o, s, wdm/ObCloseHandle"
+ms.keywords: ObCloseHandle, ObCloseHandle routine [Kernel-Mode Driver Architecture], kernel.obclosehandle, wdm/ObCloseHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -164,19 +164,19 @@ NTSTATUS
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-exgetpreviousmode.md">ExGetPreviousMode</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-exgetpreviousmode.md">ExGetPreviousMode</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 350fe500-997b-48bb-90e2-04f39a7de3d2
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , E, G, M, O, OEMGetGlyphMode, OEMGetGlyphMode function [Print Devices], d, e, h, l, o, p, print.oemgetglyphmode, print_unidrv-pscript_rendering_b5456727-fde5-4e4a-ae76-a5f571232325.xml, printoem/OEMGetGlyphMode, t, y"
+ms.keywords: OEMGetGlyphMode, OEMGetGlyphMode function [Print Devices], print.oemgetglyphmode, print_unidrv-pscript_rendering_b5456727-fde5-4e4a-ae76-a5f571232325.xml, printoem/OEMGetGlyphMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

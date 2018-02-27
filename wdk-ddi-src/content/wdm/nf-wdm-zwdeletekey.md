@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 16bde6b6-6e05-4a4d-a0c3-79bb811305d1
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , D, K, NtDeleteKey, Z, ZwDeleteKey, ZwDeleteKey routine [Kernel-Mode Driver Architecture], e, k111_b55bc28e-3539-424e-86b5-f7457e90cc61.xml, kernel.zwdeletekey, l, t, w, wdm/NtDeleteKey, wdm/ZwDeleteKey, y"
+ms.keywords: NtDeleteKey, ZwDeleteKey, ZwDeleteKey routine [Kernel-Mode Driver Architecture], k111_b55bc28e-3539-424e-86b5-f7457e90cc61.xml, kernel.zwdeletekey, wdm/NtDeleteKey, wdm/ZwDeleteKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

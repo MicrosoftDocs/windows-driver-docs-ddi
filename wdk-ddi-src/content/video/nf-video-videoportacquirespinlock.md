@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e61ffb7-1720-47b2-b943-54ffa596cb08
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, L, P, S, V, VideoPortAcquireSpinLock, VideoPortAcquireSpinLock function [Display Devices], VideoPort_Functions_c25b68ac-032b-4b1c-bb15-93957f2e345c.xml, c, d, display.videoportacquirespinlock, e, i, k, n, o, p, q, r, t, u, video/VideoPortAcquireSpinLock"
+ms.keywords: VideoPortAcquireSpinLock, VideoPortAcquireSpinLock function [Display Devices], VideoPort_Functions_c25b68ac-032b-4b1c-bb15-93957f2e345c.xml, display.videoportacquirespinlock, video/VideoPortAcquireSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

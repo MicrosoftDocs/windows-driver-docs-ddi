@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4c294d1d-5a37-4ea4-b50f-447260e885b1
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, B, D, I, IBidiSpl, IBidiSpl interface [Print Devices], UnbindDevice method, IBidiSpl::UnbindDevice, S, U, UnbindDevice method [Print Devices], UnbindDevice method [Print Devices], IBidiSpl interface, UnbindDevice,IBidiSpl.UnbindDevice, _win32_IBidiSpl_UnbindDevice, b, bidispl/IBidiSpl::UnbindDevice, c, d, e, gdi.ibidispl_ibidispl__unbinddevice, i, l, n, p, print.ibidispl_ibidispl__unbinddevice, v"
+ms.keywords: IBidiSpl, IBidiSpl interface [Print Devices], UnbindDevice method, IBidiSpl::UnbindDevice, UnbindDevice method [Print Devices], UnbindDevice method [Print Devices], IBidiSpl interface, UnbindDevice,IBidiSpl.UnbindDevice, _win32_IBidiSpl_UnbindDevice, bidispl/IBidiSpl::UnbindDevice, gdi.ibidispl_ibidispl__unbinddevice, print.ibidispl_ibidispl__unbinddevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -119,15 +119,15 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 ## -see-also
 
-<a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
 
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
+
+
+<a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
 
 
 

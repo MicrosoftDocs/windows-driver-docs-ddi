@@ -103,11 +103,11 @@ For more information about the bus reset routine that is used with the StorPort 
 
 ## -see-also
 
-<a href="..\srb\nc-srb-phw_reset_bus.md">HwScsiResetBus</a>
-
-
-
 <a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
+
+
+
+<a href="..\srb\nc-srb-phw_reset_bus.md">HwScsiResetBus</a>
 
 
 

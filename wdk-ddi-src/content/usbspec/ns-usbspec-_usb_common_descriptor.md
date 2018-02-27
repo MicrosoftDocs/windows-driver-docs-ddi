@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1ea51976-c786-4ca3-aaa3-a44fa8697efa
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PUSB_COMMON_DESCRIPTOR, ,, B, C, D, E, I, M, N, O, P, PUSB_COMMON_DESCRIPTOR, PUSB_COMMON_DESCRIPTOR structure pointer [Buses], R, S, T, U, USB_COMMON_DESCRIPTOR, USB_COMMON_DESCRIPTOR structure [Buses], _, _USB_COMMON_DESCRIPTOR, buses.usb_common_descriptor, usbspec/PUSB_COMMON_DESCRIPTOR, usbspec/USB_COMMON_DESCRIPTOR, usbstrct_be74945b-60a4-44cc-9c7b-e1eb5cc25525.xml"
+ms.keywords: "*PUSB_COMMON_DESCRIPTOR, PUSB_COMMON_DESCRIPTOR, PUSB_COMMON_DESCRIPTOR structure pointer [Buses], USB_COMMON_DESCRIPTOR, USB_COMMON_DESCRIPTOR structure [Buses], _USB_COMMON_DESCRIPTOR, buses.usb_common_descriptor, usbspec/PUSB_COMMON_DESCRIPTOR, usbspec/USB_COMMON_DESCRIPTOR, usbstrct_be74945b-60a4-44cc-9c7b-e1eb5cc25525.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,11 +81,11 @@ Specifies the descriptor type code, as assigned by USB, for this descriptor.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usbdlib\nf-usbdlib-usbd_parsedescriptors.md">USBD_ParseDescriptors</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

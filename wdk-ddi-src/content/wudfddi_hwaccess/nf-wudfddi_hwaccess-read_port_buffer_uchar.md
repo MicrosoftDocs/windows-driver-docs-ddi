@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: CDA0A86B-94E7-4825-9826-0E12ECF42B57
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , A, B, C, D, E, F, H, O, P, R, READ_PORT_BUFFER_UCHAR, READ_PORT_BUFFER_UCHAR function, T, U, _, umdf.read_port_buffer_uchar, wdf.read_port_buffer_uchar, wudfddi_hwaccess/READ_PORT_BUFFER_UCHAR"
+ms.keywords: READ_PORT_BUFFER_UCHAR, READ_PORT_BUFFER_UCHAR function, umdf.read_port_buffer_uchar, wdf.read_port_buffer_uchar, wudfddi_hwaccess/READ_PORT_BUFFER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 74d9b770-c2b6-483d-a6d7-070ac2a55133
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, I, IWiaLog, IWiaLog interface [Imaging Devices], hResult method, IWiaLog::hResult, IWiaLog_e581a82d-60c1-45e3-9d5a-fcac2b4d9c9c.xml, L, R, W, a, e, g, h, hResult method [Imaging Devices], hResult method [Imaging Devices], IWiaLog interface, hResult,IWiaLog.hResult, i, image.iwialog_hresult, l, o, s, t, u, wia_lh/IWiaLog::hResult"
+ms.keywords: IWiaLog, IWiaLog interface [Imaging Devices], hResult method, IWiaLog::hResult, IWiaLog_e581a82d-60c1-45e3-9d5a-fcac2b4d9c9c.xml, hResult method [Imaging Devices], hResult method [Imaging Devices], IWiaLog interface, hResult,IWiaLog.hResult, image.iwialog_hresult, wia_lh/IWiaLog::hResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

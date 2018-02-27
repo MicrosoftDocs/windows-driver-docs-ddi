@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7B23A6DF-2B78-48DF-BDD4-451A19521CAC
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , B, I, N, NpdBrokerInitialize, NpdBrokerInitialize function [Network Drivers Starting with Windows Vista], a, d, e, i, k, knetpwrdepbroker/NpdBrokerInitialize, l, n, netvista.npdbrokerinitialize, o, p, r, t, z"
+ms.keywords: NpdBrokerInitialize, NpdBrokerInitialize function [Network Drivers Starting with Windows Vista], knetpwrdepbroker/NpdBrokerInitialize, netvista.npdbrokerinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

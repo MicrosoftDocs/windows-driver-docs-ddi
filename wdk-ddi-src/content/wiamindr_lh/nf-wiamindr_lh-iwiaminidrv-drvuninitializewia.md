@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 974de3b5-c129-42ee-a522-071c26726cf1
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, I, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvUnInitializeWia method, IWiaMiniDrv::drvUnInitializeWia, M, MiniDrv_2a06b98b-7b47-46d8-b158-8e6ff6bac6b9.xml, U, W, a, d, drvUnInitializeWia method [Imaging Devices], drvUnInitializeWia method [Imaging Devices], IWiaMiniDrv interface, drvUnInitializeWia,IWiaMiniDrv.drvUnInitializeWia, e, i, image.iwiaminidrv_drvuninitializewia, l, n, r, t, v, wiamindr_lh/IWiaMiniDrv::drvUnInitializeWia, z"
+ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvUnInitializeWia method, IWiaMiniDrv::drvUnInitializeWia, MiniDrv_2a06b98b-7b47-46d8-b158-8e6ff6bac6b9.xml, drvUnInitializeWia method [Imaging Devices], drvUnInitializeWia method [Imaging Devices], IWiaMiniDrv interface, drvUnInitializeWia,IWiaMiniDrv.drvUnInitializeWia, image.iwiaminidrv_drvuninitializewia, wiamindr_lh/IWiaMiniDrv::drvUnInitializeWia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

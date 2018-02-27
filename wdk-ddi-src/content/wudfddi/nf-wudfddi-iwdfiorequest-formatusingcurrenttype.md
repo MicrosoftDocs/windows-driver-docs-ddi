@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4cbf6d29-bccd-4629-b282-eb5314f9b4f4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, C, D, F, FormatUsingCurrentType method, FormatUsingCurrentType method, IWDFIoRequest interface, FormatUsingCurrentType,IWDFIoRequest.FormatUsingCurrentType, I, IWDFIoRequest, IWDFIoRequest interface, FormatUsingCurrentType method, IWDFIoRequest::FormatUsingCurrentType, R, T, U, UMDFRequestObjectRef_e16e60fe-557d-413c-a483-6bbe602986dc.xml, W, a, e, g, i, m, n, o, p, q, r, s, t, u, umdf.iwdfiorequest_formatusingcurrenttype, wdf.iwdfiorequest_formatusingcurrenttype, wudfddi/IWDFIoRequest::FormatUsingCurrentType, y"
+ms.keywords: FormatUsingCurrentType method, FormatUsingCurrentType method, IWDFIoRequest interface, FormatUsingCurrentType,IWDFIoRequest.FormatUsingCurrentType, IWDFIoRequest, IWDFIoRequest interface, FormatUsingCurrentType method, IWDFIoRequest::FormatUsingCurrentType, UMDFRequestObjectRef_e16e60fe-557d-413c-a483-6bbe602986dc.xml, umdf.iwdfiorequest_formatusingcurrenttype, wdf.iwdfiorequest_formatusingcurrenttype, wudfddi/IWDFIoRequest::FormatUsingCurrentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

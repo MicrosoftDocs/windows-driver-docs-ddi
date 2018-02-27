@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fc4faca4-4d44-4b3e-bace-718fc8774f54
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, AtaPortRequestSynchronizedRoutine, AtaPortRequestSynchronizedRoutine routine [Storage Devices], P, R, S, a, atartns_612d4956-589d-4404-b3d3-f72eb6119e65.xml, c, d, e, h, i, irb/AtaPortRequestSynchronizedRoutine, n, o, q, r, s, storage.ataportrequestsynchronizedroutine, t, u, y, z"
+ms.keywords: AtaPortRequestSynchronizedRoutine, AtaPortRequestSynchronizedRoutine routine [Storage Devices], atartns_612d4956-589d-4404-b3d3-f72eb6119e65.xml, irb/AtaPortRequestSynchronizedRoutine, storage.ataportrequestsynchronizedroutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

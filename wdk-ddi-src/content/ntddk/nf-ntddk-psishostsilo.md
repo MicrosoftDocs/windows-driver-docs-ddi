@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4C6D85F2-C9B8-425D-A307-5609E1C1465B
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , H, I, P, PsIsHostSilo, PsIsHostSilo routine [Kernel-Mode Driver Architecture], S, i, kernel.psishostsilo, l, ntddk/PsIsHostSilo, o, s, t"
+ms.keywords: PsIsHostSilo, PsIsHostSilo routine [Kernel-Mode Driver Architecture], kernel.psishostsilo, ntddk/PsIsHostSilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

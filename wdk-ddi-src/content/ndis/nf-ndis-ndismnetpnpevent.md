@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cbb097c1-dd20-4c6d-b23a-1e7683ac3e94
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , E, M, N, NdisMNetPnPEvent, NdisMNetPnPEvent function [Network Drivers Starting with Windows Vista], P, d, e, i, miniport_ndis_functions_ref_0f39567c-b58c-438e-936e-36323bbc2ea6.xml, n, ndis/NdisMNetPnPEvent, netvista.ndismnetpnpevent, s, t, v"
+ms.keywords: NdisMNetPnPEvent, NdisMNetPnPEvent function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_0f39567c-b58c-438e-936e-36323bbc2ea6.xml, ndis/NdisMNetPnPEvent, netvista.ndismnetpnpevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -287,6 +287,10 @@ For all other propagated events, the intermediate driver's
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
 
@@ -296,10 +300,6 @@ For all other propagated events, the intermediate driver's
 
 
 <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
 
 
 

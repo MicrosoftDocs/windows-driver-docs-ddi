@@ -83,14 +83,14 @@ NTSTATUS MRxFinalizeNetRoot(
 
 
 
-#### - pNetRoot [in, out]
-
-A pointer to the NET_ROOT structure to finalize. 
-
-
 #### - ForceDisconnect [in]
 
 A pointer to a Boolean value that indicates if the disconnect is to be forced. RDBSS currently passes <b>FALSE</b> for this parameter in all cases.
+
+
+#### - pNetRoot [in, out]
+
+A pointer to the NET_ROOT structure to finalize. 
 
 
 ## -returns
@@ -115,11 +115,15 @@ RDBSS ignores the return value from <i>MRxFinalizeNetRoot</i>.
 
 ## -see-also
 
+<a href="..\mrx\nc-mrx-pmrx_create_v_net_root.md">MRxCreateVNetRoot</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_create_srvcall.md">MRxCreateSrvCall</a>
+
+
+
 <a href="..\mrx\nc-mrx-pmrx_finalize_srvcall_calldown.md">MRxFinalizeSrvCall</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_extract_netroot_name.md">MRxExtractNetRootName</a>
 
 
 
@@ -127,7 +131,7 @@ RDBSS ignores the return value from <i>MRxFinalizeNetRoot</i>.
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_create_v_net_root.md">MRxCreateVNetRoot</a>
+<a href="..\mrx\nc-mrx-pmrx_extract_netroot_name.md">MRxExtractNetRootName</a>
 
 
 
@@ -136,10 +140,6 @@ RDBSS ignores the return value from <i>MRxFinalizeNetRoot</i>.
 
 
 <a href="..\mrx\nc-mrx-pmrx_preparse_name.md">MRxPreparseName</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_create_srvcall.md">MRxCreateSrvCall</a>
 
 
 

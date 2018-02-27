@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7287281b-8c7b-4842-b312-1fff130a5de6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , I, L, R, RIL_Initialize, RIL_Initialize method [Network Drivers Starting with Windows Vista], _, a, e, i, l, n, netvista.ril_initialize, rilapi/RIL_Initialize, t, z"
+ms.keywords: RIL_Initialize, RIL_Initialize method [Network Drivers Starting with Windows Vista], netvista.ril_initialize, rilapi/RIL_Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

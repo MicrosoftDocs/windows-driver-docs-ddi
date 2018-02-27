@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 22afd9b9-9bed-45b0-afd8-1a5a34b9e6ad
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , G, I, P, PcGetTimeInterval, PcGetTimeInterval function [Audio Devices], T, a, audio.pcgettimeinterval, audpc-routines_a68c0cf5-01b7-4e01-a719-f0bdea2d367f.xml, c, e, i, l, m, n, portcls/PcGetTimeInterval, r, t, v"
+ms.keywords: PcGetTimeInterval, PcGetTimeInterval function [Audio Devices], audio.pcgettimeinterval, audpc-routines_a68c0cf5-01b7-4e01-a719-f0bdea2d367f.xml, portcls/PcGetTimeInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

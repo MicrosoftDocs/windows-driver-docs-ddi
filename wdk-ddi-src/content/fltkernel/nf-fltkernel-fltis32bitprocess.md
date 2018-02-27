@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0ba4d101-5eba-4258-9526-9e9dc3fd142a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , 2, 3, F, FltApiRef_e_to_o_dbd737ec-e787-4f85-bd9e-833e06e862f0.xml, FltIs32bitProcess, FltIs32bitProcess routine [Installable File System Drivers], I, P, b, c, e, fltkernel/FltIs32bitProcess, i, ifsk.fltis32bitprocess, l, o, r, s, t"
+ms.keywords: FltApiRef_e_to_o_dbd737ec-e787-4f85-bd9e-833e06e862f0.xml, FltIs32bitProcess, FltIs32bitProcess routine [Installable File System Drivers], fltkernel/FltIs32bitProcess, ifsk.fltis32bitprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -120,7 +120,7 @@ To determine whether a callback data structure represents a file system filter (
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544645">FLT_IS_FASTIO_OPERATION</a>
 
 
 
@@ -128,11 +128,11 @@ To determine whether a callback data structure represents a file system filter (
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544645">FLT_IS_FASTIO_OPERATION</a>
 
 
 

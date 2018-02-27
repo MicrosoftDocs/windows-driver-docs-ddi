@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: adf514e1-5413-4552-b676-7567e8fa9954
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , *, *PKSAC3_ROOM_TYPE, ,, 3, A, C, E, K, KSAC3_ROOM_TYPE, KSAC3_ROOM_TYPE structure [Audio Devices], M, O, P, PKSAC3_ROOM_TYPE, PKSAC3_ROOM_TYPE structure pointer [Audio Devices], R, S, T, Y, _, aud-prop_cfc30aae-0335-42d9-bd6d-7888fed060af.xml, audio.ksac3_room_type, ksmedia/KSAC3_ROOM_TYPE, ksmedia/PKSAC3_ROOM_TYPE"
+ms.keywords: "*PKSAC3_ROOM_TYPE, KSAC3_ROOM_TYPE, KSAC3_ROOM_TYPE structure [Audio Devices], PKSAC3_ROOM_TYPE, PKSAC3_ROOM_TYPE structure pointer [Audio Devices], aud-prop_cfc30aae-0335-42d9-bd6d-7888fed060af.xml, audio.ksac3_room_type, ksmedia/KSAC3_ROOM_TYPE, ksmedia/PKSAC3_ROOM_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

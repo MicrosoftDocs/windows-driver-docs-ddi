@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 612a66fa-0e0c-4eee-99b0-9bc09437b026
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , F, M, N, NdisFreeMdl, NdisFreeMdl function [Network Drivers Starting with Windows Vista], d, e, i, l, ndis/NdisFreeMdl, ndis_netbuf_functions_ref_0631fdd9-0961-43a9-a7a8-7d41e9d17220.xml, netvista.ndisfreemdl, r, s"
+ms.keywords: NdisFreeMdl, NdisFreeMdl function [Network Drivers Starting with Windows Vista], ndis/NdisFreeMdl, ndis_netbuf_functions_ref_0631fdd9-0961-43a9-a7a8-7d41e9d17220.xml, netvista.ndisfreemdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

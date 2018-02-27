@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 16ac6fea-9eea-4062-8ab9-fd14d80118a6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , DFTimerObjectRef_b081e639-a1d6-4119-b47c-b95b772630bc.xml, G, O, P, T, W, WdfTimerGetParentObject, WdfTimerGetParentObject method, a, b, c, d, e, f, i, j, kmdf.wdftimergetparentobject, m, n, r, t, wdf.wdftimergetparentobject, wdftimer/WdfTimerGetParentObject"
+ms.keywords: DFTimerObjectRef_b081e639-a1d6-4119-b47c-b95b772630bc.xml, WdfTimerGetParentObject, WdfTimerGetParentObject method, kmdf.wdftimergetparentobject, wdf.wdftimergetparentobject, wdftimer/WdfTimerGetParentObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

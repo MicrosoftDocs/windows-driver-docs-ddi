@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4A33F3EB-9A2E-40F4-B5BC-EDEA5085301E
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PNOTIFICATION_CONFIG_1, ,, 1, A, C, F, G, I, N, NOTIFICATION_CONFIG_1, NOTIFICATION_CONFIG_1 structure [Print Devices], O, P, PNOTIFICATION_CONFIG_1, PNOTIFICATION_CONFIG_1 structure pointer [Print Devices], T, _, _NOTIFICATION_CONFIG_1, print.notification_config_1, winsplp/NOTIFICATION_CONFIG_1, winsplp/PNOTIFICATION_CONFIG_1"
+ms.keywords: "*PNOTIFICATION_CONFIG_1, NOTIFICATION_CONFIG_1, NOTIFICATION_CONFIG_1 structure [Print Devices], PNOTIFICATION_CONFIG_1, PNOTIFICATION_CONFIG_1 structure pointer [Print Devices], _NOTIFICATION_CONFIG_1, print.notification_config_1, winsplp/NOTIFICATION_CONFIG_1, winsplp/PNOTIFICATION_CONFIG_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

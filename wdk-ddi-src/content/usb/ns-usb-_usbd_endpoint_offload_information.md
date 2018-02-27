@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F2A8E966-269E-447F-9467-EB2E877FFAA2
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PUSBD_ENDPOINT_OFFLOAD_INFORMATION, ,, A, B, D, E, F, I, L, M, N, O, P, PUSBD_ENDPOINT_OFFLOAD_INFORMATION, PUSBD_ENDPOINT_OFFLOAD_INFORMATION structure pointer [Buses], R, S, T, U, USBD_ENDPOINT_OFFLOAD_INFORMATION, USBD_ENDPOINT_OFFLOAD_INFORMATION structure [Buses], _, _USBD_ENDPOINT_OFFLOAD_INFORMATION, buses.usbd_endpoint_offload_information, usb/PUSBD_ENDPOINT_OFFLOAD_INFORMATION, usb/USBD_ENDPOINT_OFFLOAD_INFORMATION"
+ms.keywords: "*PUSBD_ENDPOINT_OFFLOAD_INFORMATION, PUSBD_ENDPOINT_OFFLOAD_INFORMATION, PUSBD_ENDPOINT_OFFLOAD_INFORMATION structure pointer [Buses], USBD_ENDPOINT_OFFLOAD_INFORMATION, USBD_ENDPOINT_OFFLOAD_INFORMATION structure [Buses], _USBD_ENDPOINT_OFFLOAD_INFORMATION, buses.usbd_endpoint_offload_information, usb/PUSBD_ENDPOINT_OFFLOAD_INFORMATION, usb/USBD_ENDPOINT_OFFLOAD_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -203,13 +203,6 @@ The virtual address of the current segment of the transfer data.
 The virtual address of the current segment of the transfer data.
 
 
-#### - size_t
-
-The size of the requested data.
-
-The size of the requested data.
-
-
 #### - ULONG
 
 The cycle state of the transfer.
@@ -218,4 +211,11 @@ Reserved message for endpoint offload mode.
 
 
 The cycle state of the transfer.
+
+
+#### - size_t
+
+The size of the requested data.
+
+The size of the requested data.
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b76acae1-3c37-4095-bf8b-1785dc90f378
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, C, D, F, I, IWDFObject, IWDFObject interface, RetrieveContext method, IWDFObject::RetrieveContext, O, R, RetrieveContext method, RetrieveContext method, IWDFObject interface, RetrieveContext,IWDFObject.RetrieveContext, UMDFBaseObjectRef_e12f4a9b-d71b-4fc1-96df-0244b7513f32.xml, W, b, c, e, i, j, n, o, r, t, umdf.iwdfobject_retrievecontext, v, wdf.iwdfobject_retrievecontext, wudfddi/IWDFObject::RetrieveContext, x"
+ms.keywords: IWDFObject, IWDFObject interface, RetrieveContext method, IWDFObject::RetrieveContext, RetrieveContext method, RetrieveContext method, IWDFObject interface, RetrieveContext,IWDFObject.RetrieveContext, UMDFBaseObjectRef_e12f4a9b-d71b-4fc1-96df-0244b7513f32.xml, umdf.iwdfobject_retrievecontext, wdf.iwdfobject_retrievecontext, wudfddi/IWDFObject::RetrieveContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,7 +101,7 @@ For a code example of how to use the <b>RetrieveContext</b> method, see <a href=
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560208">IWDFObject::AssignContext</a>
 
 
 
@@ -109,7 +109,7 @@ For a code example of how to use the <b>RetrieveContext</b> method, see <a href=
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560208">IWDFObject::AssignContext</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6eedef2d-9fa5-4001-9246-7445198c4386
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , I, IoSetInformation, IoSetInformation function [Installable File System Drivers], S, a, e, f, i, ifsk.iosetinformation, ioref_3c058acd-e360-4923-a9be-b17d3882727f.xml, m, n, ntifs/IoSetInformation, o, r, t"
+ms.keywords: IoSetInformation, IoSetInformation function [Installable File System Drivers], ifsk.iosetinformation, ioref_3c058acd-e360-4923-a9be-b17d3882727f.xml, ntifs/IoSetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

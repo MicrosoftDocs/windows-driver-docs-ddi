@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 26e6b0c6-7de0-43c9-a117-5c0bf0e986a2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, L, R, RtlLeftChild, RtlLeftChild routine [Installable File System Drivers], d, e, f, h, i, ifsk.rtlleftchild, l, ntddk/RtlLeftChild, rtlref_f2bfae7c-de1d-4d7c-84b5-947a0cfdb16f.xml, t"
+ms.keywords: RtlLeftChild, RtlLeftChild routine [Installable File System Drivers], ifsk.rtlleftchild, ntddk/RtlLeftChild, rtlref_f2bfae7c-de1d-4d7c-84b5-947a0cfdb16f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -87,11 +87,11 @@ Callers of <b>RtlLeftChild</b> must be running at IRQL &lt;= DISPATCH_LEVEL if t
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
 
 
 

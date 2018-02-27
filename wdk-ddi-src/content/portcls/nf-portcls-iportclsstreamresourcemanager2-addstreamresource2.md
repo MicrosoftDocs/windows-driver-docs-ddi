@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: C140D11C-41D6-4812-AD95-990CBFA06FE8
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., 2, :, A, AddStreamResource2 method [Audio Devices], AddStreamResource2 method [Audio Devices], IPortClsStreamResourceManager2 interface, AddStreamResource2,IPortClsStreamResourceManager2.AddStreamResource2, C, I, IPortClsStreamResourceManager2, IPortClsStreamResourceManager2 interface [Audio Devices], AddStreamResource2 method, IPortClsStreamResourceManager2::AddStreamResource2, M, P, R, S, a, audio.iportclsstreamresourcemanager2_addstreamresource2, c, d, e, g, l, m, n, o, portcls/IPortClsStreamResourceManager2::AddStreamResource2, r, s, t, u"
+ms.keywords: AddStreamResource2 method [Audio Devices], AddStreamResource2 method [Audio Devices], IPortClsStreamResourceManager2 interface, AddStreamResource2,IPortClsStreamResourceManager2.AddStreamResource2, IPortClsStreamResourceManager2, IPortClsStreamResourceManager2 interface [Audio Devices], AddStreamResource2 method, IPortClsStreamResourceManager2::AddStreamResource2, audio.iportclsstreamresourcemanager2_addstreamresource2, portcls/IPortClsStreamResourceManager2::AddStreamResource2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -112,7 +112,7 @@ Additional standard status codes may be returned.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportclsstreamresourcemanager.md">IPortClsStreamResourceManager</a>
+<a href="..\portcls\nn-portcls-iportclsstreamresourcemanager2.md">IPortClsStreamResourceManager2</a>
 
 
 
@@ -124,7 +124,7 @@ Additional standard status codes may be returned.
 
 
 
-<a href="..\portcls\nn-portcls-iportclsstreamresourcemanager2.md">IPortClsStreamResourceManager2</a>
+<a href="..\portcls\nn-portcls-iportclsstreamresourcemanager.md">IPortClsStreamResourceManager</a>
 
 
 

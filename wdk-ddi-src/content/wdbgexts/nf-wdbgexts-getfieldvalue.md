@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4655bac3-997e-43d9-b628-b4292ae5509d
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , F, G, GetFieldValue, GetFieldValue function [Windows Debugging], V, WdbgExts_Ref_68aca028-5d92-48a3-845d-f9eb480a2c40.xml, a, d, debugger.getfieldvalue, e, i, l, t, u, wdbgexts/GetFieldValue"
+ms.keywords: GetFieldValue, GetFieldValue function [Windows Debugging], WdbgExts_Ref_68aca028-5d92-48a3-845d-f9eb480a2c40.xml, debugger.getfieldvalue, wdbgexts/GetFieldValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

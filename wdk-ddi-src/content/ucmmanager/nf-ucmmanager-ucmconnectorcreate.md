@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1376CB84-05F6-4903-B245-A00CFA9B228E
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, U, UcmConnectorCreate, UcmConnectorCreate method [Buses], a, buses.ucmconnectorcreate, c, e, m, n, o, r, t, ucmmanager/UcmConnectorCreate"
+ms.keywords: UcmConnectorCreate, UcmConnectorCreate method [Buses], buses.ucmconnectorcreate, ucmmanager/UcmConnectorCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

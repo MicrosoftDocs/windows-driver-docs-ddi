@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: aeed8086-b413-428c-b275-d555523b5503
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, K, KsCreateTopologyNode, KsCreateTopologyNode function [Streaming Media Devices], N, T, a, d, e, g, ks/KsCreateTopologyNode, ksfunc_15092cdb-3f97-4f13-a10e-9dbc92d20776.xml, l, o, p, r, s, stream.kscreatetopologynode, t, y"
+ms.keywords: KsCreateTopologyNode, KsCreateTopologyNode function [Streaming Media Devices], ks/KsCreateTopologyNode, ksfunc_15092cdb-3f97-4f13-a10e-9dbc92d20776.xml, stream.kscreatetopologynode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

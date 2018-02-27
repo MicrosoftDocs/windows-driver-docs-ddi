@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 59a77753-1f34-4224-af11-c6bbfa847619
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, B, D, DrvItem_d3717889-b428-4dbc-8ef9-c501a52f3328.xml, F, FindItemByName method [Imaging Devices], FindItemByName method [Imaging Devices], IWiaDrvItem interface, FindItemByName,IWiaDrvItem.FindItemByName, I, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], FindItemByName method, IWiaDrvItem::FindItemByName, N, W, a, d, e, i, image.iwiadrvitem_finditembyname, m, n, r, t, v, wiamindr_lh/IWiaDrvItem::FindItemByName, y"
+ms.keywords: DrvItem_d3717889-b428-4dbc-8ef9-c501a52f3328.xml, FindItemByName method [Imaging Devices], FindItemByName method [Imaging Devices], IWiaDrvItem interface, FindItemByName,IWiaDrvItem.FindItemByName, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], FindItemByName method, IWiaDrvItem::FindItemByName, image.iwiadrvitem_finditembyname, wiamindr_lh/IWiaDrvItem::FindItemByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,14 +87,14 @@ HRESULT FindItemByName(
 
 
 
-#### - lFlags [in]
-
-Reserved. Set to zero. 
-
-
 #### - bstrFullItemName [in]
 
 Specifies the full name of the item to find.
+
+
+#### - lFlags [in]
+
+Reserved. Set to zero. 
 
 
 #### - ppItem [out, optional]

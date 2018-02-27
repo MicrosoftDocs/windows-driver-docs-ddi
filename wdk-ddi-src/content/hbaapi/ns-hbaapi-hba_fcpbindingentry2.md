@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e2e7353d-2c83-4704-bec4-9485ab3c7706
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PHBA_FCPBINDINGENTRY2, ,, 2, A, B, C, D, E, F, G, H, HBA_FCPBINDINGENTRY2, HBA_FCPBINDINGENTRY2 structure [Storage Devices], HBA_FCPBindingEntry2, HBA_FCPBindingEntry2 structure [Storage Devices], I, N, P, PHBA_FCPBINDINGENTRY2, PHBA_FCPBINDINGENTRY2 structure pointer [Storage Devices], R, T, Y, _, d, g, hbaapi/HBA_FCPBindingEntry2, hbaapi/PHBA_FCPBINDINGENTRY2, i, n, r, storage.hba_fcpbindingentry2, structs-Fibre_168ea26c-34d1-4843-8464-528dc53e3953.xml, t, y"
+ms.keywords: "*PHBA_FCPBINDINGENTRY2, HBA_FCPBINDINGENTRY2, HBA_FCPBINDINGENTRY2 structure [Storage Devices], HBA_FCPBindingEntry2, HBA_FCPBindingEntry2 structure [Storage Devices], PHBA_FCPBINDINGENTRY2, PHBA_FCPBINDINGENTRY2 structure pointer [Storage Devices], hbaapi/HBA_FCPBindingEntry2, hbaapi/PHBA_FCPBINDINGENTRY2, storage.hba_fcpbindingentry2, structs-Fibre_168ea26c-34d1-4843-8464-528dc53e3953.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -169,11 +169,15 @@ This structure is very similar to the <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbi
 
 ## -see-also
 
+<a href="..\hbaapi\ns-hbaapi-hba_luid.md">HBA_LUID</a>
+
+
+
 <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry2.md">HBAFCPBindingEntry2</a>
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry.md">HBA_FCPBindingEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556046">HBA_BIND_TYPE</a>
 
 
 
@@ -181,11 +185,7 @@ This structure is very similar to the <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbi
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_luid.md">HBA_LUID</a>
-
-
-
-<a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
+<a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry.md">HBA_FCPBindingEntry</a>
 
 
 
@@ -193,7 +193,7 @@ This structure is very similar to the <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556046">HBA_BIND_TYPE</a>
+<a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
 
 
 

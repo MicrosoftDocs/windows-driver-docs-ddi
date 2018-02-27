@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0E1089E4-5FE4-4769-A244-3E1979E4DE46
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, 3, :, B, G, GetInt32 method [Print Devices], GetInt32 method [Print Devices], IPrinterScriptablePropertyBag interface, GetInt32,IPrinterScriptablePropertyBag.GetInt32, I, IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], GetInt32 method, IPrinterScriptablePropertyBag::GetInt32, P, S, a, b, c, e, g, i, l, n, o, p, print.iprinterscriptablepropertybag_getint32, printerextension/IPrinterScriptablePropertyBag::GetInt32, r, t, y"
+ms.keywords: GetInt32 method [Print Devices], GetInt32 method [Print Devices], IPrinterScriptablePropertyBag interface, GetInt32,IPrinterScriptablePropertyBag.GetInt32, IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], GetInt32 method, IPrinterScriptablePropertyBag::GetInt32, print.iprinterscriptablepropertybag_getint32, printerextension/IPrinterScriptablePropertyBag::GetInt32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: eb960301-2afa-42f7-a2ea-129d85c49db9
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , K, KsStreamPointerLock, KsStreamPointerLock function [Streaming Media Devices], L, P, S, a, avfunc_c7a4d7fb-9708-480d-a452-f398637bc82a.xml, c, e, i, k, ks/KsStreamPointerLock, m, n, o, r, s, stream.ksstreampointerlock, t"
+ms.keywords: KsStreamPointerLock, KsStreamPointerLock function [Streaming Media Devices], avfunc_c7a4d7fb-9708-480d-a452-f398637bc82a.xml, ks/KsStreamPointerLock, stream.ksstreampointerlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

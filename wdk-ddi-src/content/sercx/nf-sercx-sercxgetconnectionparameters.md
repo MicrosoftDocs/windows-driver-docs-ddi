@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 361BC3A7-AE86-4C92-B7E1-A30D467D4A65
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , 1/SerCxGetConnectionParameters, C, G, P, S, SerCxGetConnectionParameters, SerCxGetConnectionParameters method [Serial Ports], a, c, e, i, m, n, o, r, s, serports.sercxgetconnectionparameters, t, x"
+ms.keywords: 1/SerCxGetConnectionParameters, SerCxGetConnectionParameters, SerCxGetConnectionParameters method [Serial Ports], serports.sercxgetconnectionparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

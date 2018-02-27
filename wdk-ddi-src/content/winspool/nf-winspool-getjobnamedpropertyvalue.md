@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: A9256A7B-B851-498C-94C3-95268D079828
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , G, GetJobNamedPropertyValue, GetJobNamedPropertyValue function [Print Devices], J, N, P, V, a, b, d, e, l, m, o, p, print.getjobnamedpropertyvalue, r, t, u, winspool/GetJobNamedPropertyValue, y"
+ms.keywords: GetJobNamedPropertyValue, GetJobNamedPropertyValue function [Print Devices], print.getjobnamedpropertyvalue, winspool/GetJobNamedPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

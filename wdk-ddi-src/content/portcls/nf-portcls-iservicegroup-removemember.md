@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f257c861-036b-44d1-9f99-dc5c0ab6e715
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, G, I, IServiceGroup, IServiceGroup interface [Audio Devices], RemoveMember method, IServiceGroup::RemoveMember, M, R, RemoveMember method [Audio Devices], RemoveMember method [Audio Devices], IServiceGroup interface, RemoveMember,IServiceGroup.RemoveMember, S, audio.iservicegroup_removemember, audmp-routines_0b3fd59f-9233-4344-aa0c-f58505eee693.xml, b, c, e, i, m, o, p, portcls/IServiceGroup::RemoveMember, r, u, v"
+ms.keywords: IServiceGroup, IServiceGroup interface [Audio Devices], RemoveMember method, IServiceGroup::RemoveMember, RemoveMember method [Audio Devices], RemoveMember method [Audio Devices], IServiceGroup interface, RemoveMember,IServiceGroup.RemoveMember, audio.iservicegroup_removemember, audmp-routines_0b3fd59f-9233-4344-aa0c-f58505eee693.xml, portcls/IServiceGroup::RemoveMember
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,11 +92,11 @@ The <code>RemoveMember</code> method removes a service sink that was previously 
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-
-
-
 <a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
+
+
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 

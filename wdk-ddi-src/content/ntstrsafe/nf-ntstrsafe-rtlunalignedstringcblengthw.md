@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 03f49658-ec51-4869-bba8-832c6856c4b0
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, L, R, RtlUnalignedStringCbLength, RtlUnalignedStringCbLengthW, RtlUnalignedStringCbLengthW function [Kernel-Mode Driver Architecture], S, U, W, a, b, d, e, g, h, i, kernel.rtlunalignedstringcblength, l, n, ntstrsafe/RtlUnalignedStringCbLengthW, r, safestrings_6724eedb-4d8d-490a-aac8-81c5c95ca3df.xml, t"
+ms.keywords: RtlUnalignedStringCbLength, RtlUnalignedStringCbLengthW, RtlUnalignedStringCbLengthW function [Kernel-Mode Driver Architecture], kernel.rtlunalignedstringcblength, ntstrsafe/RtlUnalignedStringCbLengthW, safestrings_6724eedb-4d8d-490a-aac8-81c5c95ca3df.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

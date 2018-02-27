@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1636CA34-7F5F-4690-B2AB-2882F0E91D74
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PTHERMAL_COOLING_INTERFACE, *PTHERMAL_DEVICE_INTERFACE, ,, A, C, D, E, F, G, H, I, L, M, N, O, P, PTHERMAL_COOLING_INTERFACE, PTHERMAL_COOLING_INTERFACE structure pointer [Kernel-Mode Driver Architecture], R, T, THERMAL_COOLING_INTERFACE, THERMAL_COOLING_INTERFACE structure [Kernel-Mode Driver Architecture], THERMAL_DEVICE_INTERFACE, V, _, _THERMAL_COOLING_INTERFACE, kernel.thermal_cooling_interface, poclass/PTHERMAL_COOLING_INTERFACE, poclass/THERMAL_COOLING_INTERFACE"
+ms.keywords: "*PTHERMAL_COOLING_INTERFACE, *PTHERMAL_DEVICE_INTERFACE, PTHERMAL_COOLING_INTERFACE, PTHERMAL_COOLING_INTERFACE structure pointer [Kernel-Mode Driver Architecture], THERMAL_COOLING_INTERFACE, THERMAL_COOLING_INTERFACE structure [Kernel-Mode Driver Architecture], THERMAL_DEVICE_INTERFACE, _THERMAL_COOLING_INTERFACE, kernel.thermal_cooling_interface, poclass/PTHERMAL_COOLING_INTERFACE, poclass/THERMAL_COOLING_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,7 +118,7 @@ A pointer to an <a href="..\poclass\nc-poclass-device_passive_cooling.md">Passiv
 
 
 
-The <b>THERMAL_COOLING_INTERFACE</b> structure is an extension of the <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure.
+The <b>THERMAL_COOLING_INTERFACE</b> structure is an extension of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
 
 Starting with Windows 8, the operating system calls the routines pointed to by the <b>THERMAL_COOLING_INTERFACE</b> structure to control the thermal levels of the devices in a hardware platform. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh698236">Device-Level Thermal Management</a>.
 
@@ -137,7 +137,11 @@ When a device driver receives an <a href="https://msdn.microsoft.com/library/win
 
 ## -see-also
 
-<a href="..\poclass\nc-poclass-device_passive_cooling.md">PassiveCooling</a>
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 
@@ -145,11 +149,7 @@ When a device driver receives an <a href="https://msdn.microsoft.com/library/win
 
 
 
-<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698265">GUID_THERMAL_COOLING_INTERFACE</a>
+<a href="..\poclass\nc-poclass-device_active_cooling.md">ActiveCooling</a>
 
 
 
@@ -157,15 +157,15 @@ When a device driver receives an <a href="https://msdn.microsoft.com/library/win
 
 
 
+<a href="..\poclass\nc-poclass-device_passive_cooling.md">PassiveCooling</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698265">GUID_THERMAL_COOLING_INTERFACE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
-
-
-
-<a href="..\poclass\nc-poclass-device_active_cooling.md">ActiveCooling</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 

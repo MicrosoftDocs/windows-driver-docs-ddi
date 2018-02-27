@@ -145,7 +145,11 @@ The GPIO_CLIENT_WRITE_PINS function type is defined in the Gpioclx.h header file
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698259">GPIO_WRITE_PINS_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 
 
@@ -157,11 +161,7 @@ The GPIO_CLIENT_WRITE_PINS function type is defined in the Gpioclx.h header file
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698259">GPIO_WRITE_PINS_PARAMETERS</a>
 
 
 

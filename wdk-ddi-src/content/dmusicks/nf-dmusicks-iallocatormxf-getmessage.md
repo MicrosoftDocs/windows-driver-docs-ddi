@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d5b56926-bcfb-4411-b24d-cc0758852510
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, A, F, G, GetMessage method [Audio Devices], GetMessage method [Audio Devices], IAllocatorMXF interface, GetMessage,IAllocatorMXF.GetMessage, I, IAllocatorMXF, IAllocatorMXF interface [Audio Devices], GetMessage method, IAllocatorMXF::GetMessage, M, X, a, audio.iallocatormxf_getmessage, audmp-routines_24207ff5-69a9-47bd-a756-78c2a218080e.xml, c, dmusicks/IAllocatorMXF::GetMessage, e, g, l, o, r, s, t"
+ms.keywords: GetMessage method [Audio Devices], GetMessage method [Audio Devices], IAllocatorMXF interface, GetMessage,IAllocatorMXF.GetMessage, IAllocatorMXF, IAllocatorMXF interface [Audio Devices], GetMessage method, IAllocatorMXF::GetMessage, audio.iallocatormxf_getmessage, audmp-routines_24207ff5-69a9-47bd-a756-78c2a218080e.xml, dmusicks/IAllocatorMXF::GetMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -96,7 +96,7 @@ For more information about the allocator, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
+<a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
 
 
 
@@ -104,7 +104,7 @@ For more information about the allocator, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
 
 
 

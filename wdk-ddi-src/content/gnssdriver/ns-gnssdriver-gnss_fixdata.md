@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 2939F01A-2F1C-4434-BAE1-59F1F320BD44
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , *, *PGNSS_FIXDATA, ,, A, D, F, G, GNSS_FIXDATA, GNSS_FIXDATA structure [Sensor Devices], I, N, P, PGNSS_FIXDATA, PGNSS_FIXDATA structure pointer [Sensor Devices], S, T, X, _, gnssdriver/GNSS_FIXDATA, gnssdriver/PGNSS_FIXDATA, sensors.gnss_fixdata"
+ms.keywords: "*PGNSS_FIXDATA, GNSS_FIXDATA, GNSS_FIXDATA structure [Sensor Devices], PGNSS_FIXDATA, PGNSS_FIXDATA structure pointer [Sensor Devices], gnssdriver/GNSS_FIXDATA, gnssdriver/PGNSS_FIXDATA, sensors.gnss_fixdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

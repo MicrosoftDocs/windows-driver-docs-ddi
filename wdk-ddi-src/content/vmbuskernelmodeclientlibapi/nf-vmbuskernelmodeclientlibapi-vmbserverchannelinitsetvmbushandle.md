@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0ECF76C7-9475-439E-8E59-B2B7CD350D24
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, H, I, S, V, VmbServerChannelInitSetVmbusHandle, VmbServerChannelInitSetVmbusHandle function [Network Drivers Starting with Windows Vista], a, b, d, e, h, i, l, m, n, netvista.vmbserverchannelinitsetvmbushandle, r, s, t, u, v, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetVmbusHandle"
+ms.keywords: VmbServerChannelInitSetVmbusHandle, VmbServerChannelInitSetVmbusHandle function [Network Drivers Starting with Windows Vista], netvista.vmbserverchannelinitsetvmbushandle, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetVmbusHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

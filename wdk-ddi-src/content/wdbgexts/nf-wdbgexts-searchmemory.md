@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7e07c47e-803b-44fa-9d0f-aa86475246d2
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , M, S, SearchMemory, SearchMemory function [Windows Debugging], WdbgExts_Ref_4eb909e5-edfd-487c-851c-812b15274c66.xml, a, c, debugger.searchmemory, e, h, m, o, r, wdbgexts/SearchMemory, y"
+ms.keywords: SearchMemory, SearchMemory function [Windows Debugging], WdbgExts_Ref_4eb909e5-edfd-487c-851c-812b15274c66.xml, debugger.searchmemory, wdbgexts/SearchMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7A1CD16A-4B7A-40FE-8650-AAD8CAC10FB0
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 1, 2, A, B, C, D, DXGI1_2_DDI_BASE_FUNCTIONS, DXGI1_2_DDI_BASE_FUNCTIONS structure [Display Devices], E, F, G, I, N, O, S, T, U, X, _, display.dxgi1_2_ddi_base_functions, dxgiddi/DXGI1_2_DDI_BASE_FUNCTIONS"
+ms.keywords: DXGI1_2_DDI_BASE_FUNCTIONS, DXGI1_2_DDI_BASE_FUNCTIONS structure [Display Devices], display.dxgi1_2_ddi_base_functions, dxgiddi/DXGI1_2_DDI_BASE_FUNCTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -243,6 +243,17 @@ A pointer to a <a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_reclaimresources.md"
 
 
 
+#### - pfnCheckMultiPlaneOverlaySupport
+
+Called by the DXGI runtime to check the details on hardware support for multiplane overlays.
+
+
+
+#### pSupport
+
+A pointer to a <a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_checkmultiplaneoverlaysupport.md">DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT</a> structure that describes how to display to the destination surface. 
+
+
 #### - pfnGetMultiPlaneOverlayCaps
 
 Called by the DXGI runtime to request that the user-mode display driver  get basic overlay plane capabilities. Optionally implemented by WDDM 1.3 and later user-mode display drivers.
@@ -257,17 +268,6 @@ Called by the DXGI runtime to request that the user-mode display driver  get bas
 #### - pfnGetMultiPlaneOverlayFilterRange
 
 This member is reserved and should be set to zero. Supported starting with Windows 8.1.
-
-
-#### - pfnCheckMultiPlaneOverlaySupport
-
-Called by the DXGI runtime to check the details on hardware support for multiplane overlays.
-
-
-
-#### pSupport
-
-A pointer to a <a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_checkmultiplaneoverlaysupport.md">DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT</a> structure that describes how to display to the destination surface. 
 
 
 #### - pfnPresentMultiPlaneOverlay
@@ -285,15 +285,15 @@ A pointer to the driver's <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_present_mul
 
 
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_args.md">DXGI_DDI_BASE_ARGS</a>
-
-
-
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_functions.md">DXGI_DDI_BASE_FUNCTIONS</a>
 
 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+
+
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_args.md">DXGI_DDI_BASE_ARGS</a>
 
 
 

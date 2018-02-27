@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 206c8b70-575d-47e2-a03d-4c88e0d92fe0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , A, D, E, G, L, R, RtlEnumerateGenericTableLikeADirectory, RtlEnumerateGenericTableLikeADirectory routine [Installable File System Drivers], T, a, b, c, e, i, ifsk.rtlenumerategenerictablelikeadirectory, k, l, m, n, ntddk/RtlEnumerateGenericTableLikeADirectory, o, r, rtlref_7a5f2110-e171-4273-9928-9a8471f4e933.xml, t, u, y"
+ms.keywords: RtlEnumerateGenericTableLikeADirectory, RtlEnumerateGenericTableLikeADirectory routine [Installable File System Drivers], ifsk.rtlenumerategenerictablelikeadirectory, ntddk/RtlEnumerateGenericTableLikeADirectory, rtlref_7a5f2110-e171-4273-9928-9a8471f4e933.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -188,11 +188,11 @@ The caller-supplied <i>MatchFunction</i> contains pageable code.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlgetelementgenerictable.md">RtlGetElementGenericTable</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTable</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlgetelementgenerictable.md">RtlGetElementGenericTable</a>
 
 
 

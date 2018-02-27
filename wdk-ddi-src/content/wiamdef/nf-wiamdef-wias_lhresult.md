@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: dcc02735-632f-4b86-ac4f-833c8dcba1c5
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, E, H, I, IWiaLog_f9693b87-6464-423a-9b50-f715f3b35f36.xml, L, R, S, T, U, W, WIAS_LHRESULT, WIAS_LHRESULT macro [Imaging Devices], _, image.wias_lhresult, wiamdef/WIAS_LHRESULT"
+ms.keywords: IWiaLog_f9693b87-6464-423a-9b50-f715f3b35f36.xml, WIAS_LHRESULT, WIAS_LHRESULT macro [Imaging Devices], image.wias_lhresult, wiamdef/WIAS_LHRESULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The WIAS_LHRESULT macro is obsolete for Windows Vista and later. It is recommended that the <a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a> macro be used instead. The WIAS_LHRESULT macro translates an HRESULT value into a string and writes the string to the diagnostic log file.
+The WIAS_LHRESULT macro is obsolete for Windows Vista and later. It is recommended that the <a href="..\wiautil\nf-wiautil-wias_hresult.md">WIAS_HRESULT</a> macro be used instead. The WIAS_LHRESULT macro translates an HRESULT value into a string and writes the string to the diagnostic log file.
 
 
 ## -syntax
@@ -102,26 +102,26 @@ if (hr != S_OK)
 </td>
 </tr>
 </table></span></div>
-The WIAS_LHRESULT macro is not recommended for Windows Vista and later operating system versions. It is recommended that the <a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a> macro be used instead. 
+The WIAS_LHRESULT macro is not recommended for Windows Vista and later operating system versions. It is recommended that the <a href="..\wiautil\nf-wiautil-wias_hresult.md">WIAS_HRESULT</a> macro be used instead. 
 
 
 
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wias_lwarning.md">WIAS_LWARNING</a>
+<a href="..\wiautil\nf-wiautil-wias_hresult.md">WIAS_HRESULT</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a>
+<a href="..\wiautil\nf-wiautil-wias_lwarning.md">WIAS_LWARNING</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wias_lerror.md">WIAS_LERROR</a>
+<a href="..\wiautil\nf-wiautil-wias_ltrace.md">WIAS_LTRACE</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a>
+<a href="..\wiautil\nf-wiautil-wias_lerror.md">WIAS_LERROR</a>
 
 
 

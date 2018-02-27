@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6b39e89e-21cc-404f-b9fc-6cad0b5c8d22
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, AtaPortControllerSyncRoutine, AtaPortControllerSyncRoutine routine [Storage Devices], C, P, R, S, a, atartns_1fdbc2cb-49db-4121-aaaa-8a50c2a6cbde.xml, c, e, i, irb/AtaPortControllerSyncRoutine, l, n, o, r, storage.ataportcontrollersyncroutine, t, u, y"
+ms.keywords: AtaPortControllerSyncRoutine, AtaPortControllerSyncRoutine routine [Storage Devices], atartns_1fdbc2cb-49db-4121-aaaa-8a50c2a6cbde.xml, irb/AtaPortControllerSyncRoutine, storage.ataportcontrollersyncroutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

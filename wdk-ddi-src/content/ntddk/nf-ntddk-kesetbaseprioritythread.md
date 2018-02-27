@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7070070c-a953-4120-bddf-c1a7f080ef50
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , B, K, KeSetBasePriorityThread, KeSetBasePriorityThread routine [Kernel-Mode Driver Architecture], P, S, T, a, d, e, h, i, k105_6c558266-e459-447c-9586-4b327e24d7dd.xml, kernel.kesetbaseprioritythread, ntddk/KeSetBasePriorityThread, o, r, s, t, y"
+ms.keywords: KeSetBasePriorityThread, KeSetBasePriorityThread routine [Kernel-Mode Driver Architecture], k105_6c558266-e459-447c-9586-4b327e24d7dd.xml, kernel.kesetbaseprioritythread, ntddk/KeSetBasePriorityThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

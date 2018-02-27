@@ -90,7 +90,7 @@ Because the <a href="..\wdtf\nn-wdtf-iaction.md">IAction</a> interface inherits 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538787">IAction</a>
+<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
 
 
 
@@ -98,7 +98,7 @@ Because the <a href="..\wdtf\nn-wdtf-iaction.md">IAction</a> interface inherits 
 
 
 
-<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538787">IAction</a>
 
 
 

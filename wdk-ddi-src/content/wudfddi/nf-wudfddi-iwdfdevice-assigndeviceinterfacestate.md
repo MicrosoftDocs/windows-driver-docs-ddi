@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 466af310-f2a7-4bd7-b927-df644e2e9c24
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, A, AssignDeviceInterfaceState method, AssignDeviceInterfaceState method, IWDFDevice interface, AssignDeviceInterfaceState,IWDFDevice.AssignDeviceInterfaceState, D, F, I, IWDFDevice, IWDFDevice interface, AssignDeviceInterfaceState method, IWDFDevice::AssignDeviceInterfaceState, S, UMDFDeviceObjectRef_d3c15e61-9df6-4b55-a479-375486383064.xml, W, a, c, e, f, g, i, n, r, s, t, umdf.iwdfdevice_assigndeviceinterfacestate, v, wdf.iwdfdevice_assigndeviceinterfacestate, wudfddi/IWDFDevice::AssignDeviceInterfaceState"
+ms.keywords: AssignDeviceInterfaceState method, AssignDeviceInterfaceState method, IWDFDevice interface, AssignDeviceInterfaceState,IWDFDevice.AssignDeviceInterfaceState, IWDFDevice, IWDFDevice interface, AssignDeviceInterfaceState method, IWDFDevice::AssignDeviceInterfaceState, UMDFDeviceObjectRef_d3c15e61-9df6-4b55-a479-375486383064.xml, umdf.iwdfdevice_assigndeviceinterfacestate, wdf.iwdfdevice_assigndeviceinterfacestate, wudfddi/IWDFDevice::AssignDeviceInterfaceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -119,11 +119,11 @@ For a code example of how to use the <b>AssignDeviceInterfaceState</b> method, s
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557016">IWDFDevice::CreateDeviceInterface</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 
 

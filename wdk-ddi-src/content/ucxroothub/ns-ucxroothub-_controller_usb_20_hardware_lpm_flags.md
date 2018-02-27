@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B8CEBCEA-7F1F-4E4B-B04E-D914D5875027
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PCONTROLLER_USB_20_HARDWARE_LPM_FLAGS, ,, 0, 2, A, B, C, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS union [Buses], D, E, F, G, H, L, M, N, O, P, R, S, T, U, W, _, _CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, buses._controller_usb_20_hardware_lpm_flags, ucxroothub/_CONTROLLER_USB_20_HARDWARE_LPM_FLAGS"
+ms.keywords: "*PCONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS union [Buses], _CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, buses._controller_usb_20_hardware_lpm_flags, ucxroothub/_CONTROLLER_USB_20_HARDWARE_LPM_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,14 +84,14 @@ The size of structure represented as a char (8-bit) value.
 
 
 
-#### - L1CapabilitySupported
-
-Indicates support for L1 transitions.
-
-
 #### - BeslLpmCapabilitySupported
 
 Indicates Best Effort Service latency (BESL) latency support. 
+
+
+#### - L1CapabilitySupported
+
+Indicates support for L1 transitions.
 
 
 ## -see-also

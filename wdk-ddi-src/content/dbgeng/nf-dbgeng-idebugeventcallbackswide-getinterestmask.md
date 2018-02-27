@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b1e62ae3-4a3d-42db-b7fe-87d1a7e0b438
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, D, E, G, GetInterestMask method [Windows Debugging], GetInterestMask method [Windows Debugging], IDebugEventCallbacksWide interface, GetInterestMask,IDebugEventCallbacksWide.GetInterestMask, I, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], GetInterestMask method, IDebugEventCallbacksWide::GetInterestMask, M, W, a, b, c, d, dbgeng/IDebugEventCallbacksWide::GetInterestMask, debugger.idebugeventcallbackswide_getinterestmask, e, g, i, k, l, n, r, s, t, u, v"
+ms.keywords: GetInterestMask method [Windows Debugging], GetInterestMask method [Windows Debugging], IDebugEventCallbacksWide interface, GetInterestMask,IDebugEventCallbacksWide.GetInterestMask, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], GetInterestMask method, IDebugEventCallbacksWide::GetInterestMask, dbgeng/IDebugEventCallbacksWide::GetInterestMask, debugger.idebugeventcallbackswide_getinterestmask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

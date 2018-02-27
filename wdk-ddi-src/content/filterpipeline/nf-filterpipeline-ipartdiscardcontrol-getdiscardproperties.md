@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 37f624b8-3b15-41ee-9670-84287c3e10e6
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, D, G, GetDiscardProperties method [Print Devices], GetDiscardProperties method [Print Devices], IPartDiscardControl interface, GetDiscardProperties,IPartDiscardControl.GetDiscardProperties, I, IPartDiscardControl, IPartDiscardControl interface [Print Devices], GetDiscardProperties method, IPartDiscardControl::GetDiscardProperties, P, a, c, d, e, filterpipeline/IPartDiscardControl::GetDiscardProperties, filterpipeline_ffa81b25-78c6-4193-a253-cc1d5d51aafe.xml, i, l, n, o, p, print.ipartdiscardcontrol_getdiscardproperties, r, s, t"
+ms.keywords: GetDiscardProperties method [Print Devices], GetDiscardProperties method [Print Devices], IPartDiscardControl interface, GetDiscardProperties,IPartDiscardControl.GetDiscardProperties, IPartDiscardControl, IPartDiscardControl interface [Print Devices], GetDiscardProperties method, IPartDiscardControl::GetDiscardProperties, filterpipeline/IPartDiscardControl::GetDiscardProperties, filterpipeline_ffa81b25-78c6-4193-a253-cc1d5d51aafe.xml, print.ipartdiscardcontrol_getdiscardproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

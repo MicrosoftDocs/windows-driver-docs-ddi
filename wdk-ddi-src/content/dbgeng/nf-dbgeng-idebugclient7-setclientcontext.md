@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 235DA791-D4D1-486C-B136-3703E62E91E2
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 7, :, C, D, I, IDebugClient7, IDebugClient7 interface [Windows Debugging], SetClientContext method, IDebugClient7::SetClientContext, S, SetClientContext method [Windows Debugging], SetClientContext method [Windows Debugging], IDebugClient7 interface, SetClientContext,IDebugClient7.SetClientContext, b, dbgeng/IDebugClient7::SetClientContext, debugger.idebugclient7_setclientcontext, e, g, i, l, n, o, t, u, x"
+ms.keywords: IDebugClient7, IDebugClient7 interface [Windows Debugging], SetClientContext method, IDebugClient7::SetClientContext, SetClientContext method [Windows Debugging], SetClientContext method [Windows Debugging], IDebugClient7 interface, SetClientContext,IDebugClient7.SetClientContext, dbgeng/IDebugClient7::SetClientContext, debugger.idebugclient7_setclientcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -89,11 +89,11 @@ The <b>SetClientContext</b> method is reserved for internal use.
 
 ## -see-also
 
-<a href="..\dbgeng\ns-dbgeng-_debug_client_context.md">DEBUG_CLIENT_CONTEXT</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient7.md">IDebugClient7</a>
+
+
+
+<a href="..\dbgeng\ns-dbgeng-_debug_client_context.md">DEBUG_CLIENT_CONTEXT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C66CD2FB-AD45-4666-ACD4-6555ED681935
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 2, 3, A, D, D3DKMTDestroyAllocation2, D3DKMTDestroyAllocation2 function [Display Devices], K, M, T, a, c, d3dkmthk/D3DKMTDestroyAllocation2, display.d3dkmtdestroyallocation2, e, i, l, n, o, r, s, t, y"
+ms.keywords: D3DKMTDestroyAllocation2, D3DKMTDestroyAllocation2 function [Display Devices], d3dkmthk/D3DKMTDestroyAllocation2, display.d3dkmtdestroyallocation2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

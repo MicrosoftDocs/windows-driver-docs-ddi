@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d1570dc0-1587-4d02-a655-724c999d10a2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , *, *LPRILMSGBCGENERAL, ,, A, B, C, E, G, I, L, M, N, P, R, RILMSGBCGENERAL, RILMSGBCGENERAL structure [Network Drivers Starting with Windows Vista], S, netvista.rilmsgbcgeneral, ntddrilapitypes/RILMSGBCGENERAL"
+ms.keywords: "*LPRILMSGBCGENERAL, RILMSGBCGENERAL, RILMSGBCGENERAL structure [Network Drivers Starting with Windows Vista], netvista.rilmsgbcgeneral, ntddrilapitypes/RILMSGBCGENERAL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

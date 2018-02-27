@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e92685f6-031a-464a-b26a-54bebf7d66b6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , G, I, IoGetTopLevelIrp, IoGetTopLevelIrp routine [Installable File System Drivers], L, T, e, ifsk.iogettoplevelirp, ioref_4826c2a4-5c95-461d-b21c-7e3fca98c0cb.xml, l, ntifs/IoGetTopLevelIrp, o, p, r, t, v"
+ms.keywords: IoGetTopLevelIrp, IoGetTopLevelIrp routine [Installable File System Drivers], ifsk.iogettoplevelirp, ioref_4826c2a4-5c95-461d-b21c-7e3fca98c0cb.xml, ntifs/IoGetTopLevelIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -145,7 +145,7 @@ The cache manager is the top-level component for the current thread, and the cur
 
 ## -see-also
 
-<a href="..\rx\nf-rx-iosettoplevelirp.md">IoSetTopLevelIrp</a>
+<a href="..\wdm\nf-wdm-iosettoplevelirp.md">IoSetTopLevelIrp</a>
 
 
 

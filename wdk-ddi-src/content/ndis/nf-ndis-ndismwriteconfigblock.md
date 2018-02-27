@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: de7f651b-9847-41e9-9f52-71c2365bac44
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , B, C, M, N, NdisMWriteConfigBlock, NdisMWriteConfigBlock function [Network Drivers Starting with Windows Vista], W, c, d, e, f, g, i, k, l, n, ndis/NdisMWriteConfigBlock, netvista.ndismwriteconfigblock, o, r, s, t"
+ms.keywords: NdisMWriteConfigBlock, NdisMWriteConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMWriteConfigBlock, netvista.ndismwriteconfigblock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -157,11 +157,11 @@ The VBD that runs in a Hyper-V child partition's guest operating system can quer
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451609">WriteVfConfigBlock</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451146">GUID_VPCI_INTERFACE_STANDARD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451609">WriteVfConfigBlock</a>
 
 
 

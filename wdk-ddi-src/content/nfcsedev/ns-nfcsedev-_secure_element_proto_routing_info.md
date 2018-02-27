@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: E22C5985-13A8-4A55-A97B-DABD7E475BD3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , *, *PSECURE_ELEMENT_PROTO_ROUTING_INFO, ,, C, E, F, G, I, L, M, N, O, P, PSECURE_ELEMENT_PROTO_ROUTING_INFO, P_SECURE_ELEMENT_PROTO_ROUTING_INFO, P_SECURE_ELEMENT_PROTO_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], R, S, SECURE_ELEMENT_PROTO_ROUTING_INFO, SECURE_ELEMENT_PROTO_ROUTING_INFO structure [Near-Field Proximity Drivers], T, U, _, _SECURE_ELEMENT_PROTO_ROUTING_INFO, nfcsedev/P_SECURE_ELEMENT_PROTO_ROUTING_INFO, nfcsedev/_SECURE_ELEMENT_PROTO_ROUTING_INFO, nfpdrivers._secure_element_proto_routing_info"
+ms.keywords: "*PSECURE_ELEMENT_PROTO_ROUTING_INFO, PSECURE_ELEMENT_PROTO_ROUTING_INFO, P_SECURE_ELEMENT_PROTO_ROUTING_INFO, P_SECURE_ELEMENT_PROTO_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_PROTO_ROUTING_INFO, SECURE_ELEMENT_PROTO_ROUTING_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_PROTO_ROUTING_INFO, nfcsedev/P_SECURE_ELEMENT_PROTO_ROUTING_INFO, nfcsedev/_SECURE_ELEMENT_PROTO_ROUTING_INFO, nfpdrivers._secure_element_proto_routing_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

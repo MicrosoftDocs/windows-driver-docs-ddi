@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: EBEEF2C7-AD2E-4BE5-B20C-D4E148F1454C
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 3, :, C, D, I, IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], TerminatePlmPackageWide method, IDebugPlmClient3::TerminatePlmPackageWide, P, T, TerminatePlmPackageWide method [Windows Debugging], TerminatePlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, TerminatePlmPackageWide,IDebugPlmClient3.TerminatePlmPackageWide, W, a, b, c, d, dbgeng/IDebugPlmClient3::TerminatePlmPackageWide, debugger.idebugplmclient3_terminateplmpackagewide, e, g, i, k, l, m, n, r, t, u"
+ms.keywords: IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], TerminatePlmPackageWide method, IDebugPlmClient3::TerminatePlmPackageWide, TerminatePlmPackageWide method [Windows Debugging], TerminatePlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, TerminatePlmPackageWide,IDebugPlmClient3.TerminatePlmPackageWide, dbgeng/IDebugPlmClient3::TerminatePlmPackageWide, debugger.idebugplmclient3_terminateplmpackagewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

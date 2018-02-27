@@ -85,14 +85,14 @@ typedef PHDAUDIO_TRANSFER_COMPLETE_CALLBACK HDAudioTransferCompleteCallback;
 
 
 
-#### - pHDAudioCodecTransfer
-
-A pointer to the codecTransfer array element that contains the codec command and the response that triggered the callback. 
-
-
 #### - Context
 
  This is the same  context value that was specified previously in the <a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">PTRANSFER_CODEC_VERBS</a> routine's callbackContext parameter.
+
+
+#### - pHDAudioCodecTransfer
+
+A pointer to the codecTransfer array element that contains the codec command and the response that triggered the callback. 
 
 
 ## -returns

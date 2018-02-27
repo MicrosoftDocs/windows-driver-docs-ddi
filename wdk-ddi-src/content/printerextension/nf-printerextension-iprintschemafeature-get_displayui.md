@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 47E8BF6E-7CBE-43B9-9F3F-D91E88FB02D4
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, DisplayUI property [Print Devices], DisplayUI property [Print Devices], IPrintSchemaFeature interface, F, I, IPrintSchemaFeature, IPrintSchemaFeature interface [Print Devices], DisplayUI property, IPrintSchemaFeature.DisplayUI, IPrintSchemaFeature::get_DisplayUI, P, S, U, _, a, c, e, g, get_DisplayUI, get_DisplayUI,IPrintSchemaFeature.get_DisplayUI, h, i, l, m, n, p, print.iprintschemafeature_displayui, printerextension/IPrintSchemaFeature::DisplayUI, printerextension/IPrintSchemaFeature::get_DisplayUI, r, s, t, u, y"
+ms.keywords: DisplayUI property [Print Devices], DisplayUI property [Print Devices], IPrintSchemaFeature interface, IPrintSchemaFeature, IPrintSchemaFeature interface [Print Devices], DisplayUI property, IPrintSchemaFeature.DisplayUI, IPrintSchemaFeature::get_DisplayUI, get_DisplayUI, get_DisplayUI,IPrintSchemaFeature.get_DisplayUI, print.iprintschemafeature_displayui, printerextension/IPrintSchemaFeature::DisplayUI, printerextension/IPrintSchemaFeature::get_DisplayUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

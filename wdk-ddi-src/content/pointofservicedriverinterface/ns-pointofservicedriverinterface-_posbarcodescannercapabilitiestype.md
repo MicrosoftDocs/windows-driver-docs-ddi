@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 4387e6f4-c980-4339-a89c-0e71c5a79e2c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, B, C, P, PosBarcodeScannerCapabilitiesType, PosBarcodeScannerCapabilitiesType structure, S, T, _, _PosBarcodeScannerCapabilitiesType, a, b, c, d, e, i, l, n, o, p, pointofservicedriverinterface/PosBarcodeScannerCapabilitiesType, pos.posbarcodescannercapabilitiestype, r, s, t, y"
+ms.keywords: PosBarcodeScannerCapabilitiesType, PosBarcodeScannerCapabilitiesType structure, _PosBarcodeScannerCapabilitiesType, pointofservicedriverinterface/PosBarcodeScannerCapabilitiesType, pos.posbarcodescannercapabilitiestype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

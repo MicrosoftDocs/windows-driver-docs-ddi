@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 127D132B-6A40-4F6F-BCDA-473F89A1A747
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, D, I, U, UdecxUsbDeviceInitAllocate, UdecxUsbDeviceInitAllocate function [Buses], a, b, buses.udecxusbdeviceinitallocate, c, d, e, i, l, n, o, s, t, udecxusbdevice/UdecxUsbDeviceInitAllocate, v, x"
+ms.keywords: UdecxUsbDeviceInitAllocate, UdecxUsbDeviceInitAllocate function [Buses], buses.udecxusbdeviceinitallocate, udecxusbdevice/UdecxUsbDeviceInitAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

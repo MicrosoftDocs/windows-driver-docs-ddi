@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4116be18-e98e-4778-b0aa-753c1ca79d32
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, C, D, E, G, I, IDARG_OUT_GETDIRTYRECTS, IDARG_OUT_GETDIRTYRECTS structure [Display Devices], O, R, S, T, U, Y, _, display.idarg_out_getdirtyrects, iddcx/IDARG_OUT_GETDIRTYRECTS"
+ms.keywords: IDARG_OUT_GETDIRTYRECTS, IDARG_OUT_GETDIRTYRECTS structure [Display Devices], display.idarg_out_getdirtyrects, iddcx/IDARG_OUT_GETDIRTYRECTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: abd4da69-c0c3-442f-af58-e77362c637da
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, G, K, KsPinGetAndGate, KsPinGetAndGate function [Streaming Media Devices], P, a, avfunc_a4159ef9-1a69-4716-96ce-4fabd1ee6218.xml, d, e, i, ks/KsPinGetAndGate, n, s, stream.kspingetandgate, t"
+ms.keywords: KsPinGetAndGate, KsPinGetAndGate function [Streaming Media Devices], avfunc_a4159ef9-1a69-4716-96ce-4fabd1ee6218.xml, ks/KsPinGetAndGate, stream.kspingetandgate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,11 +93,11 @@ For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-
-
-
 <a href="..\ks\nf-ks-ksfiltergetandgate.md">KsFilterGetAndGate</a>
+
+
+
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 
 

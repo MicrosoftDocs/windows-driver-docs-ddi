@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 693CB919-A1D1-4A82-ABE5-2362431A9B92
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 3, :, B, D, G, GetSystemByServer method [Windows Debugging], GetSystemByServer method [Windows Debugging], IDebugSystemObjects3 interface, GetSystemByServer,IDebugSystemObjects3.GetSystemByServer, I, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetSystemByServer method, IDebugSystemObjects3::GetSystemByServer, O, S, b, c, dbgeng/IDebugSystemObjects3::GetSystemByServer, debugger.idebugsystemobjects3_getsystembyserver, e, g, j, m, r, s, t, u, v, y"
+ms.keywords: GetSystemByServer method [Windows Debugging], GetSystemByServer method [Windows Debugging], IDebugSystemObjects3 interface, GetSystemByServer,IDebugSystemObjects3.GetSystemByServer, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetSystemByServer method, IDebugSystemObjects3::GetSystemByServer, dbgeng/IDebugSystemObjects3::GetSystemByServer, debugger.idebugsystemobjects3_getsystembyserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

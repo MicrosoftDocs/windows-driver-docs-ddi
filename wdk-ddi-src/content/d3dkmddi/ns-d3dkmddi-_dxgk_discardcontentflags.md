@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0a93d3a2-0274-4b14-9c4b-9ed31a48e600
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, A, C, D, DXGK_DISCARDCONTENTFLAGS, DXGK_DISCARDCONTENTFLAGS structure [Display Devices], DmStructs_9ff479c6-8592-4ebd-b001-c0a7d58772f2.xml, E, F, G, I, K, L, N, O, R, S, T, X, _, _DXGK_DISCARDCONTENTFLAGS, d3dkmddi/DXGK_DISCARDCONTENTFLAGS, display.dxgk_discardcontentflags"
+ms.keywords: DXGK_DISCARDCONTENTFLAGS, DXGK_DISCARDCONTENTFLAGS structure [Display Devices], DmStructs_9ff479c6-8592-4ebd-b001-c0a7d58772f2.xml, _DXGK_DISCARDCONTENTFLAGS, d3dkmddi/DXGK_DISCARDCONTENTFLAGS, display.dxgk_discardcontentflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

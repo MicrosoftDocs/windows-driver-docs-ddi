@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 66f62a55-0bed-48ed-ae79-042bffe75b70
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , C, F, I, K, KsFreeObjectCreateItem, KsFreeObjectCreateItem function [Streaming Media Devices], O, a, b, c, e, j, ks/KsFreeObjectCreateItem, ksfunc_e91e49bc-521e-486e-a67b-33b16b7caa68.xml, m, r, s, stream.ksfreeobjectcreateitem, t"
+ms.keywords: KsFreeObjectCreateItem, KsFreeObjectCreateItem function [Streaming Media Devices], ks/KsFreeObjectCreateItem, ksfunc_e91e49bc-521e-486e-a67b-33b16b7caa68.xml, stream.ksfreeobjectcreateitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: afe92cb5-519a-46a3-a66d-c01b6a2c780b
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PWIA_PROPERTY_CONTEXT, ,, A, C, E, I, N, O, P, PWIA_PROPERTY_CONTEXT, PWIA_PROPERTY_CONTEXT structure pointer [Imaging Devices], R, T, W, WIA_PROPERTY_CONTEXT, WIA_PROPERTY_CONTEXT structure [Imaging Devices], X, Y, _, _WIA_PROPERTY_CONTEXT, image.wia_property_context, wiamindr_lh/PWIA_PROPERTY_CONTEXT, wiamindr_lh/WIA_PROPERTY_CONTEXT, wiastrct_044e9a49-3276-42f5-a903-d21969cf6168.xml"
+ms.keywords: "*PWIA_PROPERTY_CONTEXT, PWIA_PROPERTY_CONTEXT, PWIA_PROPERTY_CONTEXT structure pointer [Imaging Devices], WIA_PROPERTY_CONTEXT, WIA_PROPERTY_CONTEXT structure [Imaging Devices], _WIA_PROPERTY_CONTEXT, image.wia_property_context, wiamindr_lh/PWIA_PROPERTY_CONTEXT, wiamindr_lh/WIA_PROPERTY_CONTEXT, wiastrct_044e9a49-3276-42f5-a903-d21969cf6168.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,11 +98,7 @@ Several WIA service library functions use the WIA_PROPERTY_CONTEXT structure. Th
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasupdatevalidformat.md">wiasUpdateValidFormat</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluestr.md">wiasGetChangedValueStr</a>
+<a href="..\wiamdef\nf-wiamdef-wiasispropchanged.md">wiasIsPropChanged</a>
 
 
 
@@ -110,11 +106,7 @@ Several WIA service library functions use the WIA_PROPERTY_CONTEXT structure. Th
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasispropchanged.md">wiasIsPropChanged</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiasfreepropcontext.md">wiasFreePropContext</a>
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluelong.md">wiasGetChangedValueLong</a>
 
 
 
@@ -122,11 +114,11 @@ Several WIA service library functions use the WIA_PROPERTY_CONTEXT structure. Th
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluelong.md">wiasGetChangedValueLong</a>
+<a href="..\wiamdef\nf-wiamdef-wiasupdatescanrect.md">wiasUpdateScanRect</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiascreatepropcontext.md">wiasCreatePropContext</a>
+<a href="..\wiamdef\nf-wiamdef-wiasfreepropcontext.md">wiasFreePropContext</a>
 
 
 
@@ -134,7 +126,15 @@ Several WIA service library functions use the WIA_PROPERTY_CONTEXT structure. Th
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasupdatescanrect.md">wiasUpdateScanRect</a>
+<a href="..\wiamdef\nf-wiamdef-wiascreatepropcontext.md">wiasCreatePropContext</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluestr.md">wiasGetChangedValueStr</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasupdatevalidformat.md">wiasUpdateValidFormat</a>
 
 
 

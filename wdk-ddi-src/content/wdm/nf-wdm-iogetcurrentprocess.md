@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 97a5c14f-949a-4455-9109-79355e5dec37
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, G, I, IoGetCurrentProcess, IoGetCurrentProcess routine [Kernel-Mode Driver Architecture], P, c, e, k104_f59c640e-e335-46e0-a6ca-2f672bb6fc35.xml, kernel.iogetcurrentprocess, n, o, r, s, t, u, wdm/IoGetCurrentProcess"
+ms.keywords: IoGetCurrentProcess, IoGetCurrentProcess routine [Kernel-Mode Driver Architecture], k104_f59c640e-e335-46e0-a6ca-2f672bb6fc35.xml, kernel.iogetcurrentprocess, wdm/IoGetCurrentProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

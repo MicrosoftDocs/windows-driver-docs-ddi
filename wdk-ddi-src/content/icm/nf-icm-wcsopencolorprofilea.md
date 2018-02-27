@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ecc573e6-c83c-4cf2-9dad-c3c75d9578eb
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, C, O, P, W, WcsOpenColorProfile, WcsOpenColorProfile function [Print Devices], WcsOpenColorProfileA, WcsOpenColorProfileW, c, colorfnc_d9a9eca5-5559-4579-a892-c75499627912.xml, e, f, i, icm/WcsOpenColorProfile, l, n, o, p, print.wcsopencolorprofile, r, s"
+ms.keywords: WcsOpenColorProfile, WcsOpenColorProfile function [Print Devices], WcsOpenColorProfileA, WcsOpenColorProfileW, colorfnc_d9a9eca5-5559-4579-a892-c75499627912.xml, icm/WcsOpenColorProfile, print.wcsopencolorprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -167,11 +167,6 @@ A flag value that specifies whether to use the embedded WCS profile. This parame
  
 
 
-#### - pDMPProfile [in]
-
-A pointer to a profile structure that specifies a WCS device model profile (DMP). The <i>pDMPProfile</i> pointer can be freed as soon as the handle is created.
-
-
 #### - dwDesiredAccess [in]
 
 A flag value that specifies how to access the given color profile. This parameter must take one of the following values:
@@ -189,6 +184,11 @@ Specifies that the color profile will be opened for read-only access.
 #### PROFILE_READWRITE
 
 Specifies that the color profile will be opened for both read and write access.  This flag value is ignored when a WCS profile is opened.
+
+
+#### - pDMPProfile [in]
+
+A pointer to a profile structure that specifies a WCS device model profile (DMP). The <i>pDMPProfile</i> pointer can be freed as soon as the handle is created.
 
 
 ## -remarks

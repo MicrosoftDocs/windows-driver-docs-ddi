@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1bb5a365-1f8f-41d4-a3f5-6a4a7238de03
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , ,, A, C, D, F, G, I, L, M, R, RILMSGDCSFLAGS, RILMSGDCSFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_DCSFLAG_ALL, RIL_DCSFLAG_COMPRESSED, RIL_DCSFLAG_DISCARD, RIL_DCSFLAG_INDICATIONACTIVE, S, netvista.rilmsgdcsflags_2, rilapitypes/RILMSGDCSFLAGS, rilapitypes/RIL_DCSFLAG_ALL, rilapitypes/RIL_DCSFLAG_COMPRESSED, rilapitypes/RIL_DCSFLAG_DISCARD, rilapitypes/RIL_DCSFLAG_INDICATIONACTIVE"
+ms.keywords: RILMSGDCSFLAGS, RILMSGDCSFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_DCSFLAG_ALL, RIL_DCSFLAG_COMPRESSED, RIL_DCSFLAG_DISCARD, RIL_DCSFLAG_INDICATIONACTIVE, netvista.rilmsgdcsflags_2, rilapitypes/RILMSGDCSFLAGS, rilapitypes/RIL_DCSFLAG_ALL, rilapitypes/RIL_DCSFLAG_COMPRESSED, rilapitypes/RIL_DCSFLAG_DISCARD, rilapitypes/RIL_DCSFLAG_INDICATIONACTIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

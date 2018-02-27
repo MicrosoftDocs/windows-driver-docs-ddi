@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e2a624e9-599e-4325-820b-945b3e649323
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, A, C, D, DXVA2_Structs_28a4ec5c-f8e6-414b-ac91-846e3b0fdbf8.xml, DXVAHDDDI_COLOR_YCbCrA, DXVAHDDDI_COLOR_YCbCrA structure [Display Devices], H, I, L, O, R, V, X, Y, _, _DXVAHDDDI_COLOR_YCbCrA, b, d3dumddi/DXVAHDDDI_COLOR_YCbCrA, display.dxvahdddi_color_ycbcra, r"
+ms.keywords: DXVA2_Structs_28a4ec5c-f8e6-414b-ac91-846e3b0fdbf8.xml, DXVAHDDDI_COLOR_YCbCrA, DXVAHDDDI_COLOR_YCbCrA structure [Display Devices], _DXVAHDDDI_COLOR_YCbCrA, d3dumddi/DXVAHDDDI_COLOR_YCbCrA, display.dxvahdddi_color_ycbcra
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

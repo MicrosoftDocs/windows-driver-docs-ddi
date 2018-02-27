@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 11715852-8af2-4ae1-b3a2-c80153ef7cde
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 1, 3, A, C, D, D3D11DDI_THREADING_CAPS, D3D11DDI_THREADING_CAPS structure [Display Devices], E, G, H, I, N, P, R, S, T, UMDisplayDriver_Dx11param_Structs_0f59187b-c545-4e95-aa28-c2627cb62538.xml, _, d3d10umddi/D3D11DDI_THREADING_CAPS, display.d3d11ddi_threading_caps"
+ms.keywords: D3D11DDI_THREADING_CAPS, D3D11DDI_THREADING_CAPS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_0f59187b-c545-4e95-aa28-c2627cb62538.xml, d3d10umddi/D3D11DDI_THREADING_CAPS, display.d3d11ddi_threading_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c68cbdb4-bdf8-4c18-8f96-7274021f9ac2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, F, I, IoCheckQuerySetFileInformation, IoCheckQuerySetFileInformation function [Installable File System Drivers], Q, S, a, c, e, f, h, i, ifsk.iocheckquerysetfileinformation, ioref_22478455-1bd1-46cb-8ac2-05e4857c9524.xml, k, l, m, n, ntifs/IoCheckQuerySetFileInformation, o, r, t, u, y"
+ms.keywords: IoCheckQuerySetFileInformation, IoCheckQuerySetFileInformation function [Installable File System Drivers], ifsk.iocheckquerysetfileinformation, ioref_22478455-1bd1-46cb-8ac2-05e4857c9524.xml, ntifs/IoCheckQuerySetFileInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

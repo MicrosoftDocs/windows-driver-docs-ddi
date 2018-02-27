@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c85590bb-6489-4675-9008-8c5606d0b889
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, G, I, L, R, RIL_GetCallerIdSettings, RIL_GetCallerIdSettings method [Network Drivers Starting with Windows Vista], S, _, a, d, e, g, i, l, n, netvista.ril_getcalleridsettings, r, rilapi/RIL_GetCallerIdSettings, s, t"
+ms.keywords: RIL_GetCallerIdSettings, RIL_GetCallerIdSettings method [Network Drivers Starting with Windows Vista], netvista.ril_getcalleridsettings, rilapi/RIL_GetCallerIdSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

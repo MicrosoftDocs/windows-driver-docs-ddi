@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6bddeaeb-9913-4c90-b8ac-3a9f7b384b80
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PMSiSCSI_TargetMappings, ,, C, I, M, MSiSCSI_TargetMappings, MSiSCSI_TargetMappings structure [Storage Devices], P, PMSiSCSI_TargetMappings, PMSiSCSI_TargetMappings structure pointer [Storage Devices], S, T, _, _MSiSCSI_TargetMappings, a, e, g, i, iscsiop/MSiSCSI_TargetMappings, iscsiop/PMSiSCSI_TargetMappings, n, p, r, s, storage.msiscsi_targetmappings, structs-iSCSI_b8a3267a-8bab-4be6-9f3c-4086cc54f0f5.xml, t"
+ms.keywords: "*PMSiSCSI_TargetMappings, MSiSCSI_TargetMappings, MSiSCSI_TargetMappings structure [Storage Devices], PMSiSCSI_TargetMappings, PMSiSCSI_TargetMappings structure pointer [Storage Devices], _MSiSCSI_TargetMappings, iscsiop/MSiSCSI_TargetMappings, iscsiop/PMSiSCSI_TargetMappings, storage.msiscsi_targetmappings, structs-iSCSI_b8a3267a-8bab-4be6-9f3c-4086cc54f0f5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

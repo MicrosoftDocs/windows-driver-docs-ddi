@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0b0dc06f-51c2-429f-a9bb-079f8a61411d
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *LPMONITOR, ,, I, L, LPMONITOR, LPMONITOR structure pointer [Print Devices], M, MONITOR, MONITOR structure [Print Devices], N, O, P, R, T, _, _MONITOR, print.monitor, spoolfnc_c7b3aeed-d00f-4728-967d-bbe1a8512a42.xml, winsplp/LPMONITOR, winsplp/MONITOR"
+ms.keywords: "*LPMONITOR, LPMONITOR, LPMONITOR structure pointer [Print Devices], MONITOR, MONITOR structure [Print Devices], _MONITOR, print.monitor, spoolfnc_c7b3aeed-d00f-4728-967d-bbe1a8512a42.xml, winsplp/LPMONITOR, winsplp/MONITOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -811,11 +811,11 @@ If necessary, the port monitor should prevent other processes from using the spe
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a>
-
-
-
 <a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
+
+
+
+<a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a>
 
 
 

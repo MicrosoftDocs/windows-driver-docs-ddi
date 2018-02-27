@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d211bab9-4932-41c5-9b6f-528a75bb2ae4
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, C, ChangerClassAllocatePool, ChangerClassAllocatePool function [Storage Devices], P, a, c, chgrclas_e1b15ece-f3e4-446f-adc4-39301fc0346f.xml, e, g, h, l, mcd/ChangerClassAllocatePool, n, o, r, s, storage.changerclassallocatepool, t"
+ms.keywords: ChangerClassAllocatePool, ChangerClassAllocatePool function [Storage Devices], chgrclas_e1b15ece-f3e4-446f-adc4-39301fc0346f.xml, mcd/ChangerClassAllocatePool, storage.changerclassallocatepool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ PVOID ChangerClassAllocatePool(
 
 ### -param PoolType [in]
 
-Indicates the type of pool memory to allocate. See <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> for a list of types.
+Indicates the type of pool memory to allocate. See <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> for a list of types.
 
 
 ### -param NumberOfBytes [in]
@@ -90,7 +90,7 @@ None
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
 
 
 

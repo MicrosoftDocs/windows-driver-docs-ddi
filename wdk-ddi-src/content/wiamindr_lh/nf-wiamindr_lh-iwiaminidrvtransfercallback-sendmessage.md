@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9C4800E6-0F5F-4895-AD19-635C7F784462
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, D, I, IWiaMiniDrvTransferCallback, IWiaMiniDrvTransferCallback interface [Imaging Devices], SendMessage method, IWiaMiniDrvTransferCallback::SendMessage, M, S, SendMessage method [Imaging Devices], SendMessage method [Imaging Devices], IWiaMiniDrvTransferCallback interface, SendMessage,IWiaMiniDrvTransferCallback.SendMessage, T, W, a, b, c, d, e, f, g, i, image.iwiaminidrvtransfercallback_sendmessage, k, l, n, r, s, v, wiamindr_lh/IWiaMiniDrvTransferCallback::SendMessage"
+ms.keywords: IWiaMiniDrvTransferCallback, IWiaMiniDrvTransferCallback interface [Imaging Devices], SendMessage method, IWiaMiniDrvTransferCallback::SendMessage, SendMessage method [Imaging Devices], SendMessage method [Imaging Devices], IWiaMiniDrvTransferCallback interface, SendMessage,IWiaMiniDrvTransferCallback.SendMessage, image.iwiaminidrvtransfercallback_sendmessage, wiamindr_lh/IWiaMiniDrvTransferCallback::SendMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

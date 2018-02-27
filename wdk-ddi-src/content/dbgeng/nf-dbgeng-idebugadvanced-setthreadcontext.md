@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eaaaa9d7-ba6d-4379-b721-74c92375ea05
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, C, D, I, IDebugAdvanced, IDebugAdvanced interface [Windows Debugging], SetThreadContext method, IDebugAdvanced2 interface [Windows Debugging], SetThreadContext method, IDebugAdvanced2::SetThreadContext, IDebugAdvanced3 interface [Windows Debugging], SetThreadContext method, IDebugAdvanced3::SetThreadContext, IDebugAdvanced::SetThreadContext, IDebugAdvanced_08e9f1e1-7af3-4cdf-9550-7d22fa5a59da.xml, S, SetThreadContext method [Windows Debugging], SetThreadContext method [Windows Debugging], IDebugAdvanced interface, SetThreadContext method [Windows Debugging], IDebugAdvanced2 interface, SetThreadContext method [Windows Debugging], IDebugAdvanced3 interface, SetThreadContext,IDebugAdvanced.SetThreadContext, T, a, b, c, d, dbgeng/IDebugAdvanced2::SetThreadContext, dbgeng/IDebugAdvanced3::SetThreadContext, dbgeng/IDebugAdvanced::SetThreadContext, debugger.setthreadcontext, e, g, h, n, o, r, t, u, v, x"
+ms.keywords: IDebugAdvanced, IDebugAdvanced interface [Windows Debugging], SetThreadContext method, IDebugAdvanced2 interface [Windows Debugging], SetThreadContext method, IDebugAdvanced2::SetThreadContext, IDebugAdvanced3 interface [Windows Debugging], SetThreadContext method, IDebugAdvanced3::SetThreadContext, IDebugAdvanced::SetThreadContext, IDebugAdvanced_08e9f1e1-7af3-4cdf-9550-7d22fa5a59da.xml, SetThreadContext method [Windows Debugging], SetThreadContext method [Windows Debugging], IDebugAdvanced interface, SetThreadContext method [Windows Debugging], IDebugAdvanced2 interface, SetThreadContext method [Windows Debugging], IDebugAdvanced3 interface, SetThreadContext,IDebugAdvanced.SetThreadContext, dbgeng/IDebugAdvanced2::SetThreadContext, dbgeng/IDebugAdvanced3::SetThreadContext, dbgeng/IDebugAdvanced::SetThreadContext, debugger.setthreadcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -121,7 +121,7 @@ For more information about the thread context, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549291">GetThreadContext</a>
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
 
 
 
@@ -137,7 +137,7 @@ For more information about the thread context, see <a href="https://msdn.microso
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549291">GetThreadContext</a>
 
 
 

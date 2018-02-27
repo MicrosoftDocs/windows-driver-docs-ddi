@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 3b0b43c4-24b9-41e7-9861-6733c79bf40a
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, I, ITracing, ITracing interface [Windows Device Testing Framework], SetTraceLevel method, ITracing::SetTraceLevel, ITracing_e998383b-984d-4f24-b684-06e81e453714.xml, L, S, SetTraceLevel method [Windows Device Testing Framework], SetTraceLevel method [Windows Device Testing Framework], ITracing interface, SetTraceLevel,ITracing.SetTraceLevel, T, a, c, dtf.itracing_settracelevel, e, g, i, l, n, r, t, v, wdtf/ITracing::SetTraceLevel"
+ms.keywords: ITracing, ITracing interface [Windows Device Testing Framework], SetTraceLevel method, ITracing::SetTraceLevel, ITracing_e998383b-984d-4f24-b684-06e81e453714.xml, SetTraceLevel method [Windows Device Testing Framework], SetTraceLevel method [Windows Device Testing Framework], ITracing interface, SetTraceLevel,ITracing.SetTraceLevel, dtf.itracing_settracelevel, wdtf/ITracing::SetTraceLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

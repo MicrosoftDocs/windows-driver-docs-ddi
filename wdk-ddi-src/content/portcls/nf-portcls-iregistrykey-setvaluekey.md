@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4f9dd025-b49f-44ab-88c4-38139e6cbee2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, I, IRegistryKey, IRegistryKey interface [Audio Devices], SetValueKey method, IRegistryKey::SetValueKey, K, R, S, SetValueKey method [Audio Devices], SetValueKey method [Audio Devices], IRegistryKey interface, SetValueKey,IRegistryKey.SetValueKey, V, a, audio.iregistrykey_setvaluekey, audmp-routines_a7668b45-2b58-4a49-b1ef-a8d0755225b0.xml, e, g, i, l, portcls/IRegistryKey::SetValueKey, r, s, t, u, y"
+ms.keywords: IRegistryKey, IRegistryKey interface [Audio Devices], SetValueKey method, IRegistryKey::SetValueKey, SetValueKey method [Audio Devices], SetValueKey method [Audio Devices], IRegistryKey interface, SetValueKey,IRegistryKey.SetValueKey, audio.iregistrykey_setvaluekey, audmp-routines_a7668b45-2b58-4a49-b1ef-a8d0755225b0.xml, portcls/IRegistryKey::SetValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

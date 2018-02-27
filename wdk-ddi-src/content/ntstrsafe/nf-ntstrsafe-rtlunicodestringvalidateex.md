@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 864935c4-28b8-4738-ac83-e51e6988248b
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , E, R, RtlUnicodeStringValidateEx, RtlUnicodeStringValidateEx function [Kernel-Mode Driver Architecture], S, U, V, a, c, d, e, g, i, kernel.rtlunicodestringvalidateex, l, n, ntstrsafe/RtlUnicodeStringValidateEx, o, r, safestrings_dcb45919-f329-4637-b09b-f944ad034502.xml, t, x"
+ms.keywords: RtlUnicodeStringValidateEx, RtlUnicodeStringValidateEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringvalidateex, ntstrsafe/RtlUnicodeStringValidateEx, safestrings_dcb45919-f329-4637-b09b-f944ad034502.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -151,11 +151,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringvalidate.md">RtlUnicodeStringValidate</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringvalidate.md">RtlUnicodeStringValidate</a>
 
 
 

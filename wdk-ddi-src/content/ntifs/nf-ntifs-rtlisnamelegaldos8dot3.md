@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 27aa6bd1-c4e2-427e-a9e4-383d66fe2d61
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , 3, 8, D, I, L, N, O, R, RtlIsNameLegalDOS8Dot3, RtlIsNameLegalDOS8Dot3 routine [Installable File System Drivers], S, a, e, g, ifsk.rtlisnamelegaldos8dot3, l, m, ntifs/RtlIsNameLegalDOS8Dot3, o, rtlref_73bcf962-f0aa-4fa1-9e45-0a471a6b2c40.xml, s, t"
+ms.keywords: RtlIsNameLegalDOS8Dot3, RtlIsNameLegalDOS8Dot3 routine [Installable File System Drivers], ifsk.rtlisnamelegaldos8dot3, ntifs/RtlIsNameLegalDOS8Dot3, rtlref_73bcf962-f0aa-4fa1-9e45-0a471a6b2c40.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,11 +112,11 @@ If the block of memory at <i>Name</i> is nonpaged, the caller can be running at 
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlgenerate8dot3name.md">RtlGenerate8dot3Name</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlgenerate8dot3name.md">RtlGenerate8dot3Name</a>
 
 
 

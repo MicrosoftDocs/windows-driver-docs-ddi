@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 951b42b6-4d6a-45af-a27f-6e8056676bb0
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 3, :, D, I, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], RemoveSyntheticModule method, IDebugSymbols3::RemoveSyntheticModule, IDebugSymbols_f1ed1ce4-53ad-469f-9ab8-17900b6870e8.xml, M, R, RemoveSyntheticModule method [Windows Debugging], RemoveSyntheticModule method [Windows Debugging], IDebugSymbols3 interface, RemoveSyntheticModule,IDebugSymbols3.RemoveSyntheticModule, S, b, c, d, dbgeng/IDebugSymbols3::RemoveSyntheticModule, debugger.removesyntheticmodule, e, g, h, i, l, m, n, o, s, t, u, v, y"
+ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], RemoveSyntheticModule method, IDebugSymbols3::RemoveSyntheticModule, IDebugSymbols_f1ed1ce4-53ad-469f-9ab8-17900b6870e8.xml, RemoveSyntheticModule method [Windows Debugging], RemoveSyntheticModule method [Windows Debugging], IDebugSymbols3 interface, RemoveSyntheticModule,IDebugSymbols3.RemoveSyntheticModule, dbgeng/IDebugSymbols3::RemoveSyntheticModule, debugger.removesyntheticmodule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

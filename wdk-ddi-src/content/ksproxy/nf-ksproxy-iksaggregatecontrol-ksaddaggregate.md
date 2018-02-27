@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9808bdb9-17f9-4a80-90c7-e85ab35b74ae
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, A, C, I, IKsAggregateControl, IKsAggregateControl interface [Streaming Media Devices], KsAddAggregate method, IKsAggregateControl::KsAddAggregate, K, KsAddAggregate method [Streaming Media Devices], KsAddAggregate method [Streaming Media Devices], IKsAggregateControl interface, KsAddAggregate,IKsAggregateControl.KsAddAggregate, a, d, e, g, ksproxy/IKsAggregateControl::KsAddAggregate, ksproxy_1c56f07f-a830-4c2b-80ae-a18f14588bd3.xml, l, n, o, r, s, stream.iksaggregatecontrol_ksaddaggregate, t"
+ms.keywords: IKsAggregateControl, IKsAggregateControl interface [Streaming Media Devices], KsAddAggregate method, IKsAggregateControl::KsAddAggregate, KsAddAggregate method [Streaming Media Devices], KsAddAggregate method [Streaming Media Devices], IKsAggregateControl interface, KsAddAggregate,IKsAggregateControl.KsAddAggregate, ksproxy/IKsAggregateControl::KsAddAggregate, ksproxy_1c56f07f-a830-4c2b-80ae-a18f14588bd3.xml, stream.iksaggregatecontrol_ksaddaggregate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,11 +83,11 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-iksaggregatecontrol.md">IKsAggregateControl</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559717">IKsAggregateControl::KsRemoveAggregate</a>
+
+
+
+<a href="..\ksproxy\nn-ksproxy-iksaggregatecontrol.md">IKsAggregateControl</a>
 
 
 

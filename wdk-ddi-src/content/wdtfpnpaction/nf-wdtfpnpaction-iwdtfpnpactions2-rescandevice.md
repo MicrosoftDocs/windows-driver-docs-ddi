@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: c5b2df39-e631-448e-a2fb-6424f86fc19e
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, D, F, I, IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], RescanDevice method, IWDTFPNPActions2::RescanDevice, N, P, R, RescanDevice method [Windows Device Testing Framework], RescanDevice method [Windows Device Testing Framework], IWDTFPNPActions2 interface, RescanDevice,IWDTFPNPActions2.RescanDevice, T, W, a, c, dtf.iwdtfpnpactions2_rescandevice, e, i, n, o, s, t, v, wdtfpnpaction/IWDTFPNPActions2::RescanDevice"
+ms.keywords: IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], RescanDevice method, IWDTFPNPActions2::RescanDevice, RescanDevice method [Windows Device Testing Framework], RescanDevice method [Windows Device Testing Framework], IWDTFPNPActions2 interface, RescanDevice,IWDTFPNPActions2.RescanDevice, dtf.iwdtfpnpactions2_rescandevice, wdtfpnpaction/IWDTFPNPActions2::RescanDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

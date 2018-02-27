@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: b0528932-d7a8-46d7-bd94-6fd729a9d7f2
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, C, D, E, I, ISensorDriver, ISensorDriver::OnClientSubscribeToEvents, O, OnClientSubscribeToEvents method [Sensor Devices], OnClientSubscribeToEvents,ISensorDriver.OnClientSubscribeToEvents, S, T, b, c, e, i, l, n, o, r, s, sensors.isensordriver_onclientsubscribetoevents, t, u, v"
+ms.keywords: ISensorDriver, ISensorDriver::OnClientSubscribeToEvents, OnClientSubscribeToEvents method [Sensor Devices], OnClientSubscribeToEvents,ISensorDriver.OnClientSubscribeToEvents, sensors.isensordriver_onclientsubscribetoevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

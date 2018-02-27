@@ -99,14 +99,14 @@ A pointer to the first constant in the buffer pointed to by <i>StartBuffer</i>.
 The number of constants in the  buffer pointed to by  <i>StartBuffer</i>.
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
 #### - StartBuffer [in]
 
  The starting constant buffer to set. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
 
 
 #### - phBuffers [in]
@@ -138,11 +138,11 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_devicefuncs.md">D3D11_1DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

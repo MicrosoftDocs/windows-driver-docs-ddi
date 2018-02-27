@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7c6d61c6-40e5-46fd-8c18-1f9d89c58515
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , P, S, StorPortWritePortUlong, StorPortWritePortUlong routine [Storage Devices], U, W, e, g, i, l, n, o, r, storage.storportwriteportulong, storport/StorPortWritePortUlong, storprt_4f568f62-adb7-4176-9229-e2af5d4453cb.xml, t"
+ms.keywords: StorPortWritePortUlong, StorPortWritePortUlong routine [Storage Devices], storage.storportwriteportulong, storport/StorPortWritePortUlong, storprt_4f568f62-adb7-4176-9229-e2af5d4453cb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -116,11 +116,11 @@ For more information, see <a href="..\storport\nf-storport-scsiportwriteportulon
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportwriteportbufferulong.md">StorPortWritePortBufferUlong</a>
-
-
-
 <a href="..\storport\nf-storport-scsiportwriteportulong.md">ScsiPortWritePortUlong</a>
+
+
+
+<a href="..\storport\nf-storport-storportwriteportbufferulong.md">StorPortWritePortBufferUlong</a>
 
 
 

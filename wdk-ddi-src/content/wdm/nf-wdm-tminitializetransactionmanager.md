@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A44B4B93-4EC7-4FC3-B64F-BF1FF19D067E
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , I, M, T, TmInitializeTransactionManager, TmInitializeTransactionManager routine [Kernel-Mode Driver Architecture], a, c, e, g, i, kernel.tminitializetransactionmanager_, l, m, n, o, r, s, t, wdm/TmInitializeTransactionManager, z"
+ms.keywords: TmInitializeTransactionManager, TmInitializeTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tminitializetransactionmanager_, wdm/TmInitializeTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

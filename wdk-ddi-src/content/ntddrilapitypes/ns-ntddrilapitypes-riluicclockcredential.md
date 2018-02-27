@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4ca8411e-2492-4832-881c-5fdb974485fc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , *, *LPRILUICCLOCKCREDENTIAL, ,, A, C, D, E, I, K, L, N, O, P, R, RILUICCLOCKCREDENTIAL, RILUICCLOCKCREDENTIAL structure [Network Drivers Starting with Windows Vista], T, U, netvista.riluicclockcredential, ntddrilapitypes/RILUICCLOCKCREDENTIAL"
+ms.keywords: "*LPRILUICCLOCKCREDENTIAL, RILUICCLOCKCREDENTIAL, RILUICCLOCKCREDENTIAL structure [Network Drivers Starting with Windows Vista], netvista.riluicclockcredential, ntddrilapitypes/RILUICCLOCKCREDENTIAL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

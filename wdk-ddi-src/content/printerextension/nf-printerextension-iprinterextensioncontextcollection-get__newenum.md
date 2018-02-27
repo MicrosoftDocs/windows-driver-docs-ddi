@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 139B2E3F-AA08-4400-9BBF-A549B9EB2643
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, E, I, IPrinterExtensionContextCollection, IPrinterExtensionContextCollection interface [Print Devices], NewEnum method, IPrinterExtensionContextCollection,get_NewEnum, NewEnum, IPrinterExtensionContextCollection::NewEnum, IPrinterExtensionContextCollection::get__NewEnum, N, NewEnum method [Print Devices], NewEnum method [Print Devices], IPrinterExtensionContextCollection interface, P, _, c, e, g, get__NewEnum,IPrinterExtensionContextCollection.get__NewEnum, i, l, m, n, o, print.iprinterextensioncontextcollection_newenum, printerextension/IPrinterExtensionContextCollection::NewEnum, r, s, t, u, w, x"
+ms.keywords: IPrinterExtensionContextCollection, IPrinterExtensionContextCollection interface [Print Devices], NewEnum method, IPrinterExtensionContextCollection,get_NewEnum, NewEnum, IPrinterExtensionContextCollection::NewEnum, IPrinterExtensionContextCollection::get__NewEnum, NewEnum method [Print Devices], NewEnum method [Print Devices], IPrinterExtensionContextCollection interface, get__NewEnum,IPrinterExtensionContextCollection.get__NewEnum, print.iprinterextensioncontextcollection_newenum, printerextension/IPrinterExtensionContextCollection::NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

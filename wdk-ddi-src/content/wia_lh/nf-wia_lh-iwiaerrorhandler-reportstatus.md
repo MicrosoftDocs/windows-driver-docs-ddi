@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c244d5a1-d3c1-4f8f-9b55-3729e5f13887
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, E, H, I, IWiaErrorHandler, IWiaErrorHandler interface [Imaging Devices], ReportStatus method, IWiaErrorHandler::ReportStatus, IWiaErrorHandler_39808ebb-728b-40de-bdc0-48dd6614e59b.xml, R, ReportStatus method [Imaging Devices], ReportStatus method [Imaging Devices], IWiaErrorHandler interface, ReportStatus,IWiaErrorHandler.ReportStatus, S, W, a, d, e, i, image.iwiaerrorhandler_reportstatus, l, n, o, p, r, s, t, u, wia_lh/IWiaErrorHandler::ReportStatus"
+ms.keywords: IWiaErrorHandler, IWiaErrorHandler interface [Imaging Devices], ReportStatus method, IWiaErrorHandler::ReportStatus, IWiaErrorHandler_39808ebb-728b-40de-bdc0-48dd6614e59b.xml, ReportStatus method [Imaging Devices], ReportStatus method [Imaging Devices], IWiaErrorHandler interface, ReportStatus,IWiaErrorHandler.ReportStatus, image.iwiaerrorhandler_reportstatus, wia_lh/IWiaErrorHandler::ReportStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

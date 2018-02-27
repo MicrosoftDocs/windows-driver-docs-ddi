@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 40371218-E948-475E-92E6-0CB02D348008
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 5, :, C, D, I, IDebugClient5, IDebugClient5 interface [Windows Debugging], PopOutputLinePrefix method, IDebugClient5::PopOutputLinePrefix, L, O, P, PopOutputLinePrefix method [Windows Debugging], PopOutputLinePrefix method [Windows Debugging], IDebugClient5 interface, PopOutputLinePrefix,IDebugClient5.PopOutputLinePrefix, b, dbgeng/IDebugClient5::PopOutputLinePrefix, debugger.idebugclient5_popoutputlineprefix, e, f, g, i, l, n, o, p, r, t, u, x"
+ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], PopOutputLinePrefix method, IDebugClient5::PopOutputLinePrefix, PopOutputLinePrefix method [Windows Debugging], PopOutputLinePrefix method [Windows Debugging], IDebugClient5 interface, PopOutputLinePrefix,IDebugClient5.PopOutputLinePrefix, dbgeng/IDebugClient5::PopOutputLinePrefix, debugger.idebugclient5_popoutputlineprefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

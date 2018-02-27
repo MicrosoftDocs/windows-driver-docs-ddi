@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3a4c2eaa-167a-406a-a792-612c3e624f89
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, H, K, KsMethodHandlerWithAllocator, KsMethodHandlerWithAllocator function [Streaming Media Devices], M, W, a, c, d, e, h, i, ks/KsMethodHandlerWithAllocator, ksfunc_b8089a49-086b-4695-bebd-6fc3817ed7e0.xml, l, n, o, r, s, stream.ksmethodhandlerwithallocator, t"
+ms.keywords: KsMethodHandlerWithAllocator, KsMethodHandlerWithAllocator function [Streaming Media Devices], ks/KsMethodHandlerWithAllocator, ksfunc_b8089a49-086b-4695-bebd-6fc3817ed7e0.xml, stream.ksmethodhandlerwithallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

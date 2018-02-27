@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 18cc608e-b94d-4588-98e9-c22a7949a3b6
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PWIDTHRUN, ,, D, H, I, N, P, PWIDTHRUN, PWIDTHRUN structure pointer [Print Devices], R, T, U, W, WIDTHRUN, WIDTHRUN structure [Print Devices], _, _WIDTHRUN, print.widthrun, print_unidrv-pscript_fonts_68b08066-7503-4496-bfab-001aba659926.xml, prntfont/PWIDTHRUN, prntfont/WIDTHRUN"
+ms.keywords: "*PWIDTHRUN, PWIDTHRUN, PWIDTHRUN structure pointer [Print Devices], WIDTHRUN, WIDTHRUN structure [Print Devices], _WIDTHRUN, print.widthrun, print_unidrv-pscript_fonts_68b08066-7503-4496-bfab-001aba659926.xml, prntfont/PWIDTHRUN, prntfont/WIDTHRUN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -126,11 +126,11 @@ For East Asian device fonts, the <b>fwdAveCharWidth</b> and <b>fwdMaxCharInc</b>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a>
-
-
-
 <a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a>
 
 
 

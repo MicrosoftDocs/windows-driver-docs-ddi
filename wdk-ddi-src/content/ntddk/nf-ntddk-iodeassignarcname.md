@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 978fbe0a-ac10-4c83-870d-35d98775c233
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, D, I, IoDeassignArcName, IoDeassignArcName routine [Kernel-Mode Driver Architecture], N, a, c, e, g, i, k104_859767ed-5969-41db-a454-b7808a1ef131.xml, kernel.iodeassignarcname, m, n, ntddk/IoDeassignArcName, o, r, s"
+ms.keywords: IoDeassignArcName, IoDeassignArcName routine [Kernel-Mode Driver Architecture], k104_859767ed-5969-41db-a454-b7808a1ef131.xml, kernel.iodeassignarcname, ntddk/IoDeassignArcName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

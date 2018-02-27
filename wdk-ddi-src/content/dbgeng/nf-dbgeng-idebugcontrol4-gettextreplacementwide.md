@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 39a609f3-8f79-4a8b-9d29-0cfe09070f2b
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 4, :, C, D, G, GetTextReplacementWide method [Windows Debugging], GetTextReplacementWide method [Windows Debugging], IDebugControl4 interface, GetTextReplacementWide,IDebugControl4.GetTextReplacementWide, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetTextReplacementWide method, IDebugControl4::GetTextReplacementWide, R, T, W, a, b, c, d, dbgeng/IDebugControl4::GetTextReplacementWide, debugger.gettextreplacementwide, e, g, i, l, m, n, o, p, r, t, u, x"
+ms.keywords: GetTextReplacementWide method [Windows Debugging], GetTextReplacementWide method [Windows Debugging], IDebugControl4 interface, GetTextReplacementWide,IDebugControl4.GetTextReplacementWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetTextReplacementWide method, IDebugControl4::GetTextReplacementWide, dbgeng/IDebugControl4::GetTextReplacementWide, debugger.gettextreplacementwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -159,7 +159,7 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
 
 
 
@@ -167,7 +167,7 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
 
 
 
@@ -175,7 +175,7 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
 
 
 

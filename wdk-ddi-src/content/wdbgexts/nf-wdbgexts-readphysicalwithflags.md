@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7ff5787f-f663-4ceb-be59-4f48ecea03a9
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , F, P, R, ReadPhysicalWithFlags, ReadPhysicalWithFlags function [Windows Debugging], W, WdbgExts_Ref_cf166083-f21a-4cfd-8daa-90c3f6bbcdcb.xml, a, c, d, debugger.readphysicalwithflags, e, g, h, i, l, s, t, wdbgexts/ReadPhysicalWithFlags, y"
+ms.keywords: ReadPhysicalWithFlags, ReadPhysicalWithFlags function [Windows Debugging], WdbgExts_Ref_cf166083-f21a-4cfd-8daa-90c3f6bbcdcb.xml, debugger.readphysicalwithflags, wdbgexts/ReadPhysicalWithFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -166,11 +166,11 @@ If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are w
 
 ## -see-also
 
-<a href="..\dbgeng\nf-dbgeng-idebugdataspaces-readphysical.md">ReadPhysical</a>
-
-
-
 <a href="..\wdbgexts\nf-wdbgexts-writephysicalwithflags.md">WritePhysicalWithFlags</a>
+
+
+
+<a href="..\wdbgexts\nf-wdbgexts-readphysical.md">ReadPhysical</a>
 
 
 

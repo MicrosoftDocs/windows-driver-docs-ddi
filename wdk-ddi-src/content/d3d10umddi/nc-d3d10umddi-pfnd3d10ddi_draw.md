@@ -84,9 +84,9 @@ VOID APIENTRY Draw(
 
 
 
-#### - hDevice [in]
+#### - StartVertexLocation [in]
 
- A handle to the display device (graphics context).
+ The first vertex in the vertex buffer that vertices are read from to draw the primitives.
 
 
 #### - VertexCount [in]
@@ -94,9 +94,9 @@ VOID APIENTRY Draw(
  The number of vertices in the vertex buffer that vertices are read from to draw the primitives.
 
 
-#### - StartVertexLocation [in]
+#### - hDevice [in]
 
- The first vertex in the vertex buffer that vertices are read from to draw the primitives.
+ A handle to the display device (graphics context).
 
 
 ## -returns

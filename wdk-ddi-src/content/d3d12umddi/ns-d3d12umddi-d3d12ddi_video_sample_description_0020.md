@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B9918A06-6C10-4AD7-97EC-4FA0BC5319AD
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020, D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020 structure [Display Devices], E, I, L, M, N, O, P, R, S, T, V, _, d3d12umddi/D3D12DDI_VIDEO_SAMPLE_DESCRIPTION, display.d3d12ddi_video_sample_description"
+ms.keywords: D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020, D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_SAMPLE_DESCRIPTION, display.d3d12ddi_video_sample_description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 58a0cc96-7180-4823-a4af-bf2d5fa49474
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PSCANINFO, ,, A, C, F, I, MicroDrv_42f31c58-206a-468e-98ff-794c69b82457.xml, N, O, P, PSCANINFO, PSCANINFO structure pointer [Imaging Devices], S, SCANINFO, SCANINFO structure [Imaging Devices], _, _SCANINFO, image.scaninfo, wiamicro/PSCANINFO, wiamicro/SCANINFO"
+ms.keywords: "*PSCANINFO, MicroDrv_42f31c58-206a-468e-98ff-794c69b82457.xml, PSCANINFO, PSCANINFO structure pointer [Imaging Devices], SCANINFO, SCANINFO structure [Imaging Devices], _SCANINFO, image.scaninfo, wiamicro/PSCANINFO, wiamicro/SCANINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -474,11 +474,11 @@ This structure is used as a parameter in the microdriver's <a href="..\wiamicro\
 
 ## -see-also
 
-<a href="..\wiamicro\nf-wiamicro-scan.md">Scan</a>
-
-
-
 <a href="..\wiamicro\nf-wiamicro-setpixelwindow.md">SetPixelWindow</a>
+
+
+
+<a href="..\wiamicro\nf-wiamicro-scan.md">Scan</a>
 
 
 

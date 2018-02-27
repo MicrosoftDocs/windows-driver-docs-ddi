@@ -93,6 +93,21 @@ VOID APIENTRY ResourceResolveSubresource(
 
 
 
+#### - DstSubresource [in]
+
+ An index that indicates the destination subresource to resolve to. 
+
+
+#### - ResolveFormat [in]
+
+ A DXGI_FORMAT-typed value that indicates how to interpret the contents of the resolved resource.
+
+
+#### - SrcSubresource [in]
+
+ An index that indicates the source subresource to resolve from. 
+
+
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -103,24 +118,9 @@ VOID APIENTRY ResourceResolveSubresource(
  A handle to the destination resource to resolve to. This resource must have been created as D3D10_USAGE_DEFAULT and single sampled.
 
 
-#### - DstSubresource [in]
-
- An index that indicates the destination subresource to resolve to. 
-
-
 #### - hSrcResource [in]
 
  A handle to the source resource to resolve from.
-
-
-#### - SrcSubresource [in]
-
- An index that indicates the source subresource to resolve from. 
-
-
-#### - ResolveFormat [in]
-
- A DXGI_FORMAT-typed value that indicates how to interpret the contents of the resolved resource.
 
 
 ## -returns
@@ -161,15 +161,15 @@ If both resources are prestructured plus typeless, they must be equal formats, a
 
 ## -see-also
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcecopyregion.md">ResourceCopyRegion</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcecopy.md">ResourceCopy</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcecopyregion.md">ResourceCopyRegion</a>
 
 
 

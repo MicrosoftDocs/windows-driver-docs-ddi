@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 22c1957d-089a-4504-b92c-9268a37ac265
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , F, H, K, KsSetMajorFunctionHandler, KsSetMajorFunctionHandler function [Streaming Media Devices], M, S, a, c, d, e, i, j, ks/KsSetMajorFunctionHandler, ksfunc_e8761f66-4ca5-4465-bf7b-f6d2ab1d2355.xml, l, n, o, r, s, stream.kssetmajorfunctionhandler, t, u"
+ms.keywords: KsSetMajorFunctionHandler, KsSetMajorFunctionHandler function [Streaming Media Devices], ks/KsSetMajorFunctionHandler, ksfunc_e8761f66-4ca5-4465-bf7b-f6d2ab1d2355.xml, stream.kssetmajorfunctionhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

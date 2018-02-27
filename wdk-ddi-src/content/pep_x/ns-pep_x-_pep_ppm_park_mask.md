@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 528576FD-BDB2-4772-9151-A1C855BA953E
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PPEP_PPM_PARK_MASK, ,, A, E, K, M, P, PEP_PPM_PARK_MASK, PEP_PPM_PARK_MASK structure [Kernel-Mode Driver Architecture], PPEP_PPM_PARK_MASK, PPEP_PPM_PARK_MASK structure pointer [Kernel-Mode Driver Architecture], R, S, _, _PEP_PPM_PARK_MASK, kernel.pep_ppm_park_mask, pepfx/PEP_PPM_PARK_MASK, pepfx/PPEP_PPM_PARK_MASK"
+ms.keywords: "*PPEP_PPM_PARK_MASK, PEP_PPM_PARK_MASK, PEP_PPM_PARK_MASK structure [Kernel-Mode Driver Architecture], PPEP_PPM_PARK_MASK, PPEP_PPM_PARK_MASK structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PARK_MASK, kernel.pep_ppm_park_mask, pepfx/PEP_PPM_PARK_MASK, pepfx/PPEP_PPM_PARK_MASK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,23 +99,13 @@ The Processors array is guaranteed to contain the processors in increasing order
 
 
 
-##### - Processors.On input
-
-Indicates the OS parking preference for each processor.
-
-
-##### - Processors.On output
-
-Returns the PEP parking preference for each processor.
-
-
 ## -see-also
 
+<a href="..\pepfx\ns-pepfx-_pep_processor_park_state.md">PEP_PROCESSOR_PARK_STATE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186768">PEP_NOTIFY_PPM_PARK_MASK notification</a>
-
-
-
-<a href="..\pep_x\ns-pep_x-_pep_processor_park_state.md">PEP_PROCESSOR_PARK_STATE</a>
 
 
 

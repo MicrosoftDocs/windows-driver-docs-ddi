@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8dc4252f-72d5-47ae-9f43-8006aa71c29d
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, D, E, G, GetPDEVAdjustment method [Print Devices], GetPDEVAdjustment method [Print Devices], IPrintOemPS2 interface, GetPDEVAdjustment,IPrintOemPS2.GetPDEVAdjustment, I, IPrintOemPS2, IPrintOemPS2 interface [Print Devices], GetPDEVAdjustment method, IPrintOemPS2::GetPDEVAdjustment, O, P, S, V, d, e, i, j, m, n, prcomoem/IPrintOemPS2::GetPDEVAdjustment, print.iprintoemps2_getpdevadjustment, print_unidrv-pscript_rendering_eca8e6af-1563-4028-9d87-fd014e1e06ee.xml, r, s, t, u"
+ms.keywords: GetPDEVAdjustment method [Print Devices], GetPDEVAdjustment method [Print Devices], IPrintOemPS2 interface, GetPDEVAdjustment,IPrintOemPS2.GetPDEVAdjustment, IPrintOemPS2, IPrintOemPS2 interface [Print Devices], GetPDEVAdjustment method, IPrintOemPS2::GetPDEVAdjustment, prcomoem/IPrintOemPS2::GetPDEVAdjustment, print.iprintoemps2_getpdevadjustment, print_unidrv-pscript_rendering_eca8e6af-1563-4028-9d87-fd014e1e06ee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -157,7 +157,7 @@ Currently, the Pscript5 driver calls <code>IPrintOemPS2::GetPDEVAdjustment</code
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_pdev_use_true_color.md">PDEV_USE_TRUE_COLOR</a>
+<a href="..\prcomoem\nn-prcomoem-iprintoemps2.md">IPrintOemPS2</a>
 
 
 
@@ -169,7 +169,7 @@ Currently, the Pscript5 driver calls <code>IPrintOemPS2::GetPDEVAdjustment</code
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemps2.md">IPrintOemPS2</a>
+<a href="..\printoem\ns-printoem-_pdev_use_true_color.md">PDEV_USE_TRUE_COLOR</a>
 
 
 

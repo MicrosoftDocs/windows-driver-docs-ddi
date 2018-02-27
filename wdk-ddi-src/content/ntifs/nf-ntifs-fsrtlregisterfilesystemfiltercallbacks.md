@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cd6d2ab6-ce17-47db-b5d0-4f9543e15487
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, F, FsRtlRegisterFileSystemFilterCallbacks, FsRtlRegisterFileSystemFilterCallbacks routine [Installable File System Drivers], R, S, a, b, c, e, fsrtlref_a831a0f3-f819-45e3-9121-ae50ef1b95bf.xml, g, i, ifsk.fsrtlregisterfilesystemfiltercallbacks, k, l, m, ntifs/FsRtlRegisterFileSystemFilterCallbacks, r, s, t, y"
+ms.keywords: FsRtlRegisterFileSystemFilterCallbacks, FsRtlRegisterFileSystemFilterCallbacks routine [Installable File System Drivers], fsrtlref_a831a0f3-f819-45e3-9121-ae50ef1b95bf.xml, ifsk.fsrtlregisterfilesystemfiltercallbacks, ntifs/FsRtlRegisterFileSystemFilterCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

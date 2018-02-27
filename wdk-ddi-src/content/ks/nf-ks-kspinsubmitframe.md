@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3fdb83b2-85b7-4f86-9a59-a42138000214
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , F, K, KsPinSubmitFrame, KsPinSubmitFrame function [Streaming Media Devices], P, S, a, avfunc_ce7c4c71-c404-4061-a2e5-b9f4c15df4a2.xml, b, e, i, ks/KsPinSubmitFrame, m, n, r, s, stream.kspinsubmitframe, t, u"
+ms.keywords: KsPinSubmitFrame, KsPinSubmitFrame function [Streaming Media Devices], avfunc_ce7c4c71-c404-4061-a2e5-b9f4c15df4a2.xml, ks/KsPinSubmitFrame, stream.kspinsubmitframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,11 +113,11 @@ Returns STATUS_SUCCESS if frame submission is successful. Otherwise returns an a
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a>
-
-
-
 <a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
+
+
+
+<a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A482CCB8-D7C6-48B6-900D-73CD0EF3B296
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , D, E, P, W, WdfDevicePostEvent, WdfDevicePostEvent function, c, d, e, f, i, n, o, s, t, v, wdf.wdfdevicepostevent, wdfdevice/WdfDevicePostEvent"
+ms.keywords: WdfDevicePostEvent, WdfDevicePostEvent function, wdf.wdfdevicepostevent, wdfdevice/WdfDevicePostEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

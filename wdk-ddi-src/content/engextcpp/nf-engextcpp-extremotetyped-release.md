@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 041f585a-bc1f-4413-9d68-ae18969e4d75
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, E, EngExtCpp_Ref_529ae2ad-c867-4b76-a53d-b0e7118f1fcd.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], Release method, ExtRemoteTyped::Release, R, Release method [Windows Debugging], Release method [Windows Debugging], ExtRemoteTyped interface, Release,ExtRemoteTyped.Release, T, a, d, debugger.extremotetyped_release, e, l, m, o, p, s, t, x, y"
+ms.keywords: EngExtCpp_Ref_529ae2ad-c867-4b76-a53d-b0e7118f1fcd.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], Release method, ExtRemoteTyped::Release, Release method [Windows Debugging], Release method [Windows Debugging], ExtRemoteTyped interface, Release,ExtRemoteTyped.Release, debugger.extremotetyped_release
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

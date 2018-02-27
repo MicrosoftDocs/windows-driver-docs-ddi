@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5481ae5e-c28a-478e-96be-c6ec8d7f163e
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , M, P, S, StorPortMoveMemory, StorPortMoveMemory routine [Storage Devices], e, m, o, r, storage.storportmovememory, storport/StorPortMoveMemory, storprt_7af1ec0d-f1c4-4335-9b80-1aaef26afa35.xml, t, v, y"
+ms.keywords: StorPortMoveMemory, StorPortMoveMemory routine [Storage Devices], storage.storportmovememory, storport/StorPortMoveMemory, storprt_7af1ec0d-f1c4-4335-9b80-1aaef26afa35.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E880F758-A872-4B59-BF7D-602C3ACDA490
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 0, 1, 2, 3, C, D, D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020, D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020 structure [Display Devices], E, F, I, N, O, R, S, U, V, _, d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020, display.d3d12ddi_device_funcs_core_video_0020"
+ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020, D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020, display.d3d12ddi_device_funcs_core_video_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

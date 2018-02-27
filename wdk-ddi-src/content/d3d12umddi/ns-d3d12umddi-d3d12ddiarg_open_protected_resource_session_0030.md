@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d5f0a089-c6cb-444d-a959-ee8a5a024ea7
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , ,, 0, 1, 2, 3, A, C, D, D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030, D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030 structure [Display Devices], E, G, I, N, O, P, R, S, T, U, _, d3d12umddi/D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030, display.d3d12ddiarg-open-protected-resource-session-0030"
+ms.keywords: D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030, D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030 structure [Display Devices], d3d12umddi/D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030, display.d3d12ddiarg-open-protected-resource-session-0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

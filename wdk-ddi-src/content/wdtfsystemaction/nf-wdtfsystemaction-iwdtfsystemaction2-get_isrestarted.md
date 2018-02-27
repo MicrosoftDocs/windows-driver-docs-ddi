@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: EF89D020-BA9F-4698-B82A-7671DBE3FDE8
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, D, F, I, IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], IsRestarted property, IWDTFSystemAction2.IsRestarted, IWDTFSystemAction2::get_IsRestarted, IsRestarted property [Windows Device Testing Framework], IsRestarted property [Windows Device Testing Framework], IWDTFSystemAction2 interface, Microsoft.WDTF.IWDTFSystemAction2.IsRestarted, Microsoft::WDTF::IWDTFSystemAction2::IsRestarted, R, S, T, W, _, a, c, d, dtf.iwdtfsystemaction2_isrestarted, e, g, get_IsRestarted,IWDTFSystemAction2.get_IsRestarted, i, m, n, o, r, s, t, wdtfsystemaction/IWDTFSystemAction2::IsRestarted, wdtfsystemaction/IWDTFSystemAction2::get_IsRestarted, y"
+ms.keywords: IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], IsRestarted property, IWDTFSystemAction2.IsRestarted, IWDTFSystemAction2::get_IsRestarted, IsRestarted property [Windows Device Testing Framework], IsRestarted property [Windows Device Testing Framework], IWDTFSystemAction2 interface, Microsoft.WDTF.IWDTFSystemAction2.IsRestarted, Microsoft::WDTF::IWDTFSystemAction2::IsRestarted, dtf.iwdtfsystemaction2_isrestarted, get_IsRestarted,IWDTFSystemAction2.get_IsRestarted, wdtfsystemaction/IWDTFSystemAction2::IsRestarted, wdtfsystemaction/IWDTFSystemAction2::get_IsRestarted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

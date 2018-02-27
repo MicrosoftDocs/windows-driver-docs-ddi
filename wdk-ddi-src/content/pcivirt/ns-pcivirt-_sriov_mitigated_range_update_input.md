@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: ae4936ac-9794-4854-81ec-2139b3ce4c3c
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , *, *PSRIOV_MITIGATED_RANGE_UPDATE_INPUT, ,, A, D, E, G, I, M, N, O, P, PCI.sriov_mitigated_range_update_input, R, S, SRIOV_MITIGATED_RANGE_UPDATE_INPUT, SRIOV_MITIGATED_RANGE_UPDATE_INPUT structure [Buses], T, U, V, _, _SRIOV_MITIGATED_RANGE_UPDATE_INPUT, pcivirt/SRIOV_MITIGATED_RANGE_UPDATE_INPUT"
+ms.keywords: "*PSRIOV_MITIGATED_RANGE_UPDATE_INPUT, PCI.sriov_mitigated_range_update_input, SRIOV_MITIGATED_RANGE_UPDATE_INPUT, SRIOV_MITIGATED_RANGE_UPDATE_INPUT structure [Buses], _SRIOV_MITIGATED_RANGE_UPDATE_INPUT, pcivirt/SRIOV_MITIGATED_RANGE_UPDATE_INPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

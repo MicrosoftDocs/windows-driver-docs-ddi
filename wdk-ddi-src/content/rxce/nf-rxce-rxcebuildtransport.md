@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 019cc9b7-13f7-4925-af98-5df0e8556e1c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , B, C, R, RxCeBuildTransport, RxCeBuildTransport function [Installable File System Drivers], T, a, d, e, i, ifsk.rxcebuildtransport, l, n, o, p, r, rxce/RxCeBuildTransport, rxref_8251916d-7a85-4e6d-8ca1-2deacf4a389a.xml, s, t, u, x"
+ms.keywords: RxCeBuildTransport, RxCeBuildTransport function [Installable File System Drivers], ifsk.rxcebuildtransport, rxce/RxCeBuildTransport, rxref_8251916d-7a85-4e6d-8ca1-2deacf4a389a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

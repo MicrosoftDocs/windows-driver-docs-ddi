@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: AAD0101E-13FB-48A2-8834-799472B93931
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, A, C, E, I, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamChannelMute method, IMiniportStreamAudioEngineNode::SetStreamChannelMute, M, N, S, SetStreamChannelMute method [Audio Devices], SetStreamChannelMute method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetStreamChannelMute,IMiniportStreamAudioEngineNode.SetStreamChannelMute, a, audio.iminiportstreamaudioenginenode_setstreamchannelmute, d, e, g, h, i, l, m, n, o, p, portcls/IMiniportStreamAudioEngineNode::SetStreamChannelMute, r, t, u"
+ms.keywords: IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamChannelMute method, IMiniportStreamAudioEngineNode::SetStreamChannelMute, SetStreamChannelMute method [Audio Devices], SetStreamChannelMute method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetStreamChannelMute,IMiniportStreamAudioEngineNode.SetStreamChannelMute, audio.iminiportstreamaudioenginenode_setstreamchannelmute, portcls/IMiniportStreamAudioEngineNode::SetStreamChannelMute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

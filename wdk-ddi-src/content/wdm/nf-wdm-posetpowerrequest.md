@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5670a4dd-3804-4532-8765-2fdffe1c4a0b
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , P, PoSetPowerRequest, PoSetPowerRequest routine [Kernel-Mode Driver Architecture], R, S, e, kernel.posetpowerrequest, o, portn_8f3abb03-a324-4841-b630-b62344d656ce.xml, q, r, s, t, u, w, wdm/PoSetPowerRequest"
+ms.keywords: PoSetPowerRequest, PoSetPowerRequest routine [Kernel-Mode Driver Architecture], kernel.posetpowerrequest, portn_8f3abb03-a324-4841-b630-b62344d656ce.xml, wdm/PoSetPowerRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

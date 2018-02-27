@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 8fbbe6c8-bf65-42df-a4e4-cb683b567bf7
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, I, IStillImageW, IStillImageW interface [Imaging Devices], SetupDeviceParameters method, IStillImageW::SetupDeviceParameters, P, S, SetupDeviceParameters method [Imaging Devices], SetupDeviceParameters method [Imaging Devices], IStillImageW interface, SetupDeviceParameters,IStillImageW.SetupDeviceParameters, W, a, c, e, g, i, image.istillimage_setupdeviceparameters, l, m, p, r, s, sti/IStillImageW::SetupDeviceParameters, stifnc_08d945b1-ff61-4018-ae0b-5b134fc4f112.xml, t, u, v"
+ms.keywords: IStillImageW, IStillImageW interface [Imaging Devices], SetupDeviceParameters method, IStillImageW::SetupDeviceParameters, SetupDeviceParameters method [Imaging Devices], SetupDeviceParameters method [Imaging Devices], IStillImageW interface, SetupDeviceParameters,IStillImageW.SetupDeviceParameters, image.istillimage_setupdeviceparameters, sti/IStillImageW::SetupDeviceParameters, stifnc_08d945b1-ff61-4018-ae0b-5b134fc4f112.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

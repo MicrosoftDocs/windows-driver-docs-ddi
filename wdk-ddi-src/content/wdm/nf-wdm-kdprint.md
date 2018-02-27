@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 4a2ab12b-ee89-462d-821a-0a2db20cc36c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , DebugFns_630aea64-3f51-4c73-8575-00a507846ab9.xml, K, KdPrint, KdPrint function [Driver Development Tools], P, d, devtest.kdprint, i, n, r, t, wdm/KdPrint"
+ms.keywords: DebugFns_630aea64-3f51-4c73-8575-00a507846ab9.xml, KdPrint, KdPrint function [Driver Development Tools], devtest.kdprint, wdm/KdPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -130,11 +130,11 @@ There is no upper limit to the size of the <i>Format</i> string or the number of
 
 
 
-<a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-dbgprint.md">DbgPrint</a>
+
+
+
+<a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a1651745-08f0-44f2-bb9f-825d6497db42
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, F, FilterGraphics method [Print Devices], FilterGraphics method [Print Devices], IPrintOemUni interface, FilterGraphics,IPrintOemUni.FilterGraphics, G, I, IPrintOemUni, IPrintOemUni interface [Print Devices], FilterGraphics method, IPrintOemUni::FilterGraphics, O, P, U, a, c, e, h, i, l, m, n, p, prcomoem/IPrintOemUni::FilterGraphics, print.iprintoemuni_filtergraphics, print_unidrv-pscript_rendering_7e6c6ada-fa4a-4188-b7c2-0ac95869bcdc.xml, r, s, t"
+ms.keywords: FilterGraphics method [Print Devices], FilterGraphics method [Print Devices], IPrintOemUni interface, FilterGraphics,IPrintOemUni.FilterGraphics, IPrintOemUni, IPrintOemUni interface [Print Devices], FilterGraphics method, IPrintOemUni::FilterGraphics, prcomoem/IPrintOemUni::FilterGraphics, print.iprintoemuni_filtergraphics, print_unidrv-pscript_rendering_7e6c6ada-fa4a-4188-b7c2-0ac95869bcdc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -202,14 +202,6 @@ For more information about customizing Unidrv's rendering operations, see <a hre
 
 ## -see-also
 
-<a href="..\printoem\nf-printoem-oemfiltergraphics.md">OEMFilterGraphics</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
-
-
-
 <a href="..\printoem\nc-printoem-pfn_drvwritespoolbuf.md">DrvWriteSpoolBuf</a>
 
 
@@ -218,11 +210,11 @@ For more information about customizing Unidrv's rendering operations, see <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a>
+<a href="..\printoem\nf-printoem-oemfiltergraphics.md">OEMFilterGraphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556250">DrvNextBand</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
 
 
 
@@ -230,7 +222,15 @@ For more information about customizing Unidrv's rendering operations, see <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556250">DrvNextBand</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a>
 
 
 

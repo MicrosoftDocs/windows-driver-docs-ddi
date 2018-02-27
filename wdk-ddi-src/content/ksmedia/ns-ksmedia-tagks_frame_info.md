@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7c2ebe5d-ecb0-41d2-a1bb-7e131ea350a7
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PKS_FRAME_INFO, ,, A, E, F, I, K, KS_FRAME_INFO, KS_FRAME_INFO structure [Streaming Media Devices], M, N, O, P, PKS_FRAME_INFO, PKS_FRAME_INFO structure pointer [Streaming Media Devices], R, S, _, a, g, ksmedia/KS_FRAME_INFO, ksmedia/PKS_FRAME_INFO, stream.ks_frame_info, t, tagKS_FRAME_INFO, vidcapstruct_1ce3f0b4-3032-4956-83a3-2a92039eb7a0.xml"
+ms.keywords: "*PKS_FRAME_INFO, KS_FRAME_INFO, KS_FRAME_INFO structure [Streaming Media Devices], PKS_FRAME_INFO, PKS_FRAME_INFO structure pointer [Streaming Media Devices], ksmedia/KS_FRAME_INFO, ksmedia/PKS_FRAME_INFO, stream.ks_frame_info, tagKS_FRAME_INFO, vidcapstruct_1ce3f0b4-3032-4956-83a3-2a92039eb7a0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -203,9 +203,11 @@ Reserved and should not be used by the minidriver.
 Reserved and should not be used by the minidriver.
 
 
-#### - lSurfacePitch
+#### - FrameCompletionNumber
 
-Contains surface pitch a.k.a stride
+An identifying sequence number for the frame in the completed queue. This number is used to verify proper frame order. When this value is 0, the frame was cancelled.
+
+This member is available starting with Windows 8.1.
 
 
 #### - Reserved1
@@ -213,11 +215,9 @@ Contains surface pitch a.k.a stride
 Reserved and should not be used by the minidriver.
 
 
-#### - FrameCompletionNumber
+#### - lSurfacePitch
 
-An identifying sequence number for the frame in the completed queue. This number is used to verify proper frame order. When this value is 0, the frame was cancelled.
-
-This member is available starting with Windows 8.1.
+Contains surface pitch a.k.a stride
 
 
 ## -remarks

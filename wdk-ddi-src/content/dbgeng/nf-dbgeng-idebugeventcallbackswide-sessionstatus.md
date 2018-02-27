@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cc3ed4ef-5e2d-4865-8d6f-b140d6b5d7af
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, C, D, E, I, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], SessionStatus method, IDebugEventCallbacksWide::SessionStatus, S, SessionStatus method [Windows Debugging], SessionStatus method [Windows Debugging], IDebugEventCallbacksWide interface, SessionStatus,IDebugEventCallbacksWide.SessionStatus, W, a, b, c, d, dbgeng/IDebugEventCallbacksWide::SessionStatus, debugger.idebugeventcallbackswide_sessionstatus, e, g, i, k, l, n, o, s, t, u, v"
+ms.keywords: IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], SessionStatus method, IDebugEventCallbacksWide::SessionStatus, SessionStatus method [Windows Debugging], SessionStatus method [Windows Debugging], IDebugEventCallbacksWide interface, SessionStatus,IDebugEventCallbacksWide.SessionStatus, dbgeng/IDebugEventCallbacksWide::SessionStatus, debugger.idebugeventcallbackswide_sessionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

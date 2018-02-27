@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0deccfee-34e3-47ee-b141-9758cffcd0c2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, C, D, F, G, GetConfiguredSettingIndex method, GetConfiguredSettingIndex method, IWDFUsbInterface interface, GetConfiguredSettingIndex,IWDFUsbInterface.GetConfiguredSettingIndex, I, IWDFUsbInterface, IWDFUsbInterface interface, GetConfiguredSettingIndex method, IWDFUsbInterface::GetConfiguredSettingIndex, S, U, UMDFUSBref_5c2cdbd4-d660-4933-b1fb-a99852b5cba8.xml, W, a, b, c, d, e, f, g, i, n, o, r, s, t, u, umdf.iwdfusbinterface_getconfiguredsettingindex, wdf.iwdfusbinterface_getconfiguredsettingindex, wudfusb/IWDFUsbInterface::GetConfiguredSettingIndex, x"
+ms.keywords: GetConfiguredSettingIndex method, GetConfiguredSettingIndex method, IWDFUsbInterface interface, GetConfiguredSettingIndex,IWDFUsbInterface.GetConfiguredSettingIndex, IWDFUsbInterface, IWDFUsbInterface interface, GetConfiguredSettingIndex method, IWDFUsbInterface::GetConfiguredSettingIndex, UMDFUSBref_5c2cdbd4-d660-4933-b1fb-a99852b5cba8.xml, umdf.iwdfusbinterface_getconfiguredsettingindex, wdf.iwdfusbinterface_getconfiguredsettingindex, wudfusb/IWDFUsbInterface::GetConfiguredSettingIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

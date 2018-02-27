@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 5685540F-B4C4-4ED9-B783-85A898EC5A62
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, D, I, L, R, W, WppRecorderIsDefaultLogAvailable, _, a, b, c, d, devtest.wpprecorderisdefaultlogavailable, e, f, g, i, imp_WppRecorderIsDefaultLogAvailable, imp_WppRecorderIsDefaultLogAvailable function [Driver Development Tools], l, m, o, p, r, s, t, u, v, wpprecorder/imp_WppRecorderIsDefaultLogAvailable"
+ms.keywords: WppRecorderIsDefaultLogAvailable, devtest.wpprecorderisdefaultlogavailable, imp_WppRecorderIsDefaultLogAvailable, imp_WppRecorderIsDefaultLogAvailable function [Driver Development Tools], wpprecorder/imp_WppRecorderIsDefaultLogAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

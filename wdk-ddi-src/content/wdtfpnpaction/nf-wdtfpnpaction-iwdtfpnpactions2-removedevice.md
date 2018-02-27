@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 8926e96e-b738-47ff-a5c4-8bc15943c6a4
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, A, D, F, I, IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], RemoveDevice method, IWDTFPNPActions2::RemoveDevice, N, P, R, RemoveDevice method [Windows Device Testing Framework], RemoveDevice method [Windows Device Testing Framework], IWDTFPNPActions2 interface, RemoveDevice,IWDTFPNPActions2.RemoveDevice, T, W, c, dtf.iwdtfpnpactions2_removedevice, e, i, m, n, o, s, t, v, wdtfpnpaction/IWDTFPNPActions2::RemoveDevice"
+ms.keywords: IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], RemoveDevice method, IWDTFPNPActions2::RemoveDevice, RemoveDevice method [Windows Device Testing Framework], RemoveDevice method [Windows Device Testing Framework], IWDTFPNPActions2 interface, RemoveDevice,IWDTFPNPActions2.RemoveDevice, dtf.iwdtfpnpactions2_removedevice, wdtfpnpaction/IWDTFPNPActions2::RemoveDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

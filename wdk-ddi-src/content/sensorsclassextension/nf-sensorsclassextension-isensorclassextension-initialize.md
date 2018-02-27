@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 9b5b9cdf-06a9-410f-87c3-b87318c25a11
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, C, E, I, ISensorClassExtension, ISensorClassExtension::Initialize, Initialize method [Sensor Devices], Initialize,ISensorClassExtension.Initialize, S, a, e, i, l, n, o, r, s, sensors.isensorclassextension_initialize, t, x, z"
+ms.keywords: ISensorClassExtension, ISensorClassExtension::Initialize, Initialize method [Sensor Devices], Initialize,ISensorClassExtension.Initialize, sensors.isensorclassextension_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

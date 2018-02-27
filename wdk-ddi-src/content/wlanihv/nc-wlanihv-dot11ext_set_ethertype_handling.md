@@ -180,6 +180,15 @@ The operating system defaults to an empty list of privacy exemptions and EtherTy
 
 ## -see-also
 
+<a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
+   Dot11ExtPreAssociateCompletion</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
    Dot11ExtIhvPerformPreAssociate</a>
 
@@ -195,15 +204,6 @@ The operating system defaults to an empty list of privacy exemptions and EtherTy
 
 
 <a href="..\windot11\ns-windot11-dot11_privacy_exemption.md">DOT11_PRIVACY_EXEMPTION</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
-   Dot11ExtPreAssociateCompletion</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
 
 
 

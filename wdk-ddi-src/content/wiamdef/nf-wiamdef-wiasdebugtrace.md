@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: db39c7f6-d966-4538-8ee9-d3623995535c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , D, T, a, b, c, e, g, i, image.wiasdebugtrace, r, s, u, w, wiamdef/wiasDebugTrace, wiasDebugTrace, wiasDebugTrace function [Imaging Devices], wiasFncs_b6582555-3674-4261-a542-9a6388649bb0.xml"
+ms.keywords: image.wiasdebugtrace, wiamdef/wiasDebugTrace, wiasDebugTrace, wiasDebugTrace function [Imaging Devices], wiasFncs_b6582555-3674-4261-a542-9a6388649bb0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,7 +104,7 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-The wiasDebugTrace function is not recommended for Windows XP and later. For Windows XP use the <a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a> macro instead. For Windows Vista use the <a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a> macro instead.
+The wiasDebugTrace function is not recommended for Windows XP and later. For Windows XP use the <a href="..\wiautil\nf-wiautil-wias_ltrace.md">WIAS_LTRACE</a> macro instead. For Windows Vista use the <a href="..\wiautil\nf-wiautil-wias_trace.md">WIAS_TRACE</a> macro instead.
 
 To enable tracing in free builds, drivers must define the WIAS_DEBUG macro. Tracing is enabled by default in checked and debug builds of the operating system.
 
@@ -113,11 +113,11 @@ To enable tracing in free builds, drivers must define the WIAS_DEBUG macro. Trac
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
+<a href="..\wiautil\nf-wiautil-wias_trace.md">WIAS_TRACE</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a>
+<a href="..\wiautil\nf-wiautil-wias_ltrace.md">WIAS_LTRACE</a>
 
 
 

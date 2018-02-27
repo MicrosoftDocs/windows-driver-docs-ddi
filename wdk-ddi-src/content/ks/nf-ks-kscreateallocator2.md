@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f0efa17c-9318-46a4-bc08-d4d372cc07ba
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , 2, A, C, K, KsCreateAllocator2, KsCreateAllocator2 function [Streaming Media Devices], a, c, e, ks/KsCreateAllocator2, l, o, r, s, stream.kscreateallocator2, t"
+ms.keywords: KsCreateAllocator2, KsCreateAllocator2 function [Streaming Media Devices], ks/KsCreateAllocator2, stream.kscreateallocator2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

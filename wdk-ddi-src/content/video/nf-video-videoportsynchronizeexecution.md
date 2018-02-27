@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93c9e4f4-7b36-4815-b762-3ac528ac96ba
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , E, P, S, V, VideoPortSynchronizeExecution, VideoPortSynchronizeExecution function [Display Devices], VideoPort_Functions_675225d0-5e49-4ad5-bdaa-f7341b9a96db.xml, c, d, display.videoportsynchronizeexecution, e, h, i, n, o, r, t, u, video/VideoPortSynchronizeExecution, x, y, z"
+ms.keywords: VideoPortSynchronizeExecution, VideoPortSynchronizeExecution function [Display Devices], VideoPort_Functions_675225d0-5e49-4ad5-bdaa-f7341b9a96db.xml, display.videoportsynchronizeexecution, video/VideoPortSynchronizeExecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

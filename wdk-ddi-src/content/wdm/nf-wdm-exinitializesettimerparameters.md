@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 43A07E6E-C69F-4D6C-9B9C-EB7FFDF7651E
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , E, ExInitializeSetTimerParameters, ExInitializeSetTimerParameters routine [Kernel-Mode Driver Architecture], I, P, S, T, a, e, i, kernel.exinitializesettimerparameters, l, m, n, r, s, t, wdm/ExInitializeSetTimerParameters, x, z"
+ms.keywords: ExInitializeSetTimerParameters, ExInitializeSetTimerParameters routine [Kernel-Mode Driver Architecture], kernel.exinitializesettimerparameters, wdm/ExInitializeSetTimerParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0be4c4e1-6ea6-4439-841d-088cb1902604
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , *, *PKSP_PIN, ,, I, K, KSPROPERTY_PIN_FLAGS_ATTRIBUTE_RANGE_AWARE, KSP_PIN, KSP_PIN structure [Streaming Media Devices], N, P, PKSP_PIN, PKSP_PIN structure pointer [Streaming Media Devices], S, _, ks-struct_02faf16f-fb8d-4f1f-9176-e2c379a36d4e.xml, ks/KSP_PIN, ks/PKSP_PIN, stream.ksp_pin"
+ms.keywords: "*PKSP_PIN, KSPROPERTY_PIN_FLAGS_ATTRIBUTE_RANGE_AWARE, KSP_PIN, KSP_PIN structure [Streaming Media Devices], PKSP_PIN, PKSP_PIN structure pointer [Streaming Media Devices], ks-struct_02faf16f-fb8d-4f1f-9176-e2c379a36d4e.xml, ks/KSP_PIN, ks/PKSP_PIN, stream.ksp_pin"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,13 +83,6 @@ Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56426
 Specifies the pin type ID.
 
 
-#### - Reserved
-
-Reserved. Should be set to zero.
-
-Reserved. Should be set to zero.
-
-
 #### - Flags
 
 Pin flags. This is set to either 0 or the following.
@@ -111,6 +104,13 @@ The client is aware of attributes and handles attribute ranges.
 </tr>
 </table>
  
+
+
+#### - Reserved
+
+Reserved. Should be set to zero.
+
+Reserved. Should be set to zero.
 
 
 ## -see-also

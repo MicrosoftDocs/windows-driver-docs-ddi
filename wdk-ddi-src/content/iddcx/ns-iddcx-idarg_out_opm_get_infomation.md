@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7c51b228-480d-4e19-aa70-4fcc44ffae16
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, D, E, F, G, I, IDARG_OUT_OPM_GET_INFOMATION, IDARG_OUT_OPM_GET_INFOMATION structure [Display Devices], M, N, O, P, R, T, U, _, display.idarg_out_opm_get_infomation, iddcx/IDARG_OUT_OPM_GET_INFOMATION"
+ms.keywords: IDARG_OUT_OPM_GET_INFOMATION, IDARG_OUT_OPM_GET_INFOMATION structure [Display Devices], display.idarg_out_opm_get_infomation, iddcx/IDARG_OUT_OPM_GET_INFOMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

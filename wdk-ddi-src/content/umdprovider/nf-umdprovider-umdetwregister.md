@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 03352d5d-122f-4818-965d-f5cc8231d6ed
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , D, E, M, R, U, UMDEtwRegister, UMDEtwRegister function [Display Devices], display.umdetwregister, e, g, i, r, s, t, umdprovider/UMDEtwRegister, w"
+ms.keywords: UMDEtwRegister, UMDEtwRegister function [Display Devices], display.umdetwregister, umdprovider/UMDEtwRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

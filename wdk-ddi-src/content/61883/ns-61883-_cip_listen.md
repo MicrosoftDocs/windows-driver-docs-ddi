@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 362ABECF-66D3-4B0B-913B-59F7196D6BFD
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ",  , *, *PCIP_LISTEN, ,, 61883/CIP_LISTEN, 61883/PCIP_LISTEN, C, CIP_LISTEN, CIP_LISTEN structure [Buses], E, I, IEEE.cip_listen, L, N, P, PCIP_LISTEN, PCIP_LISTEN structure pointer [Buses], S, T, _, _CIP_LISTEN"
+ms.keywords: "*PCIP_LISTEN, 61883/CIP_LISTEN, 61883/PCIP_LISTEN, CIP_LISTEN, CIP_LISTEN structure [Buses], IEEE.cip_listen, PCIP_LISTEN, PCIP_LISTEN structure pointer [Buses], _CIP_LISTEN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

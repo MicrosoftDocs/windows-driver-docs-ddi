@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ccee5459-f156-41c3-b9a1-8bd7d16c8d19
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , 1, 3, D, D3DKMTSetVidPnSourceOwner1, D3DKMTSetVidPnSourceOwner1 callback function [Display Devices], K, M, O, P, PFND3DKMT_SETVIDPNSOURCEOWNER1, S, T, V, c, d, d3dkmthk/D3DKMTSetVidPnSourceOwner1, display.d3dkmtsetvidpnsourceowner1, e, i, n, o, r, t, u, w"
+ms.keywords: D3DKMTSetVidPnSourceOwner1, D3DKMTSetVidPnSourceOwner1 callback function [Display Devices], PFND3DKMT_SETVIDPNSOURCEOWNER1, d3dkmthk/D3DKMTSetVidPnSourceOwner1, display.d3dkmtsetvidpnsourceowner1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

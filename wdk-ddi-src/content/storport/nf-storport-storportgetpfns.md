@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: F9E69501-4889-4A1B-8942-C6D4406474DE
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , G, P, S, StorPortGetPfns, StorPortGetPfns routine [Storage Devices], e, f, n, o, r, s, storage.storportgetpfns, storport/StorPortGetPfns, t"
+ms.keywords: StorPortGetPfns, StorPortGetPfns routine [Storage Devices], storage.storportgetpfns, storport/StorPortGetPfns
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

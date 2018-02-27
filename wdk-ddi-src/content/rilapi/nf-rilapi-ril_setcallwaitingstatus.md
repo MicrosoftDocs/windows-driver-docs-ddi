@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e511db5d-3544-45a4-9ed4-72bb3f2572ec
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , C, I, L, R, RIL_SetCallWaitingStatus, RIL_SetCallWaitingStatus method [Network Drivers Starting with Windows Vista], S, W, _, a, e, g, i, l, n, netvista.ril_setcallwaitingstatus, rilapi/RIL_SetCallWaitingStatus, s, t, u"
+ms.keywords: RIL_SetCallWaitingStatus, RIL_SetCallWaitingStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setcallwaitingstatus, rilapi/RIL_SetCallWaitingStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

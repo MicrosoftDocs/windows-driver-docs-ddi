@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9d032bd1-3ee7-4044-951f-c6730a28f3a1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ",  , E, G, I, R, RtlIsGenericTableEmpty, RtlIsGenericTableEmpty routine [Installable File System Drivers], T, a, b, c, e, i, ifsk.rtlisgenerictableempty, l, m, n, ntddk/RtlIsGenericTableEmpty, p, r, rtlref_07ea645e-b497-445c-a872-34947a2f7e54.xml, s, t, y"
+ms.keywords: RtlIsGenericTableEmpty, RtlIsGenericTableEmpty routine [Installable File System Drivers], ifsk.rtlisgenerictableempty, ntddk/RtlIsGenericTableEmpty, rtlref_07ea645e-b497-445c-a872-34947a2f7e54.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

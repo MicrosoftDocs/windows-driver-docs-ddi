@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: A91B8EAA-2FCB-4468-8CF3-A3C4D9D7E355
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, A, B, C, E, I, O, P, POS_CX_ATTRIBUTES, POS_CX_ATTRIBUTES structure, PPOS_CX_ATTRIBUTES, PPOS_CX_ATTRIBUTES structure pointer, R, S, T, U, X, _, _POS_CX_ATTRIBUTES, pos.pos_cx_attributes, poscx/POS_CX_ATTRIBUTES, poscx/PPOS_CX_ATTRIBUTES"
+ms.keywords: POS_CX_ATTRIBUTES, POS_CX_ATTRIBUTES structure, PPOS_CX_ATTRIBUTES, PPOS_CX_ATTRIBUTES structure pointer, _POS_CX_ATTRIBUTES, pos.pos_cx_attributes, poscx/POS_CX_ATTRIBUTES, poscx/PPOS_CX_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,11 +95,11 @@ A pointer to an <a href="..\poscx\nc-poscx-evt_pos_cx_device_remote_retain.md">E
 
 ## -see-also
 
-<a href="..\poscx\nf-poscx-poscxinit.md">PosCxInit</a>
-
-
-
 <a href="..\poscx\nf-poscx-pos_cx_attributes_init.md">POS_CX_ATTRIBUTES_INIT</a>
+
+
+
+<a href="..\poscx\nf-poscx-poscxinit.md">PosCxInit</a>
 
 
 

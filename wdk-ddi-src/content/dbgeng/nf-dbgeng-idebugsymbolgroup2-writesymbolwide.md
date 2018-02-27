@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ed77fddf-c23c-4522-a2c4-875f07d249fb
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, :, D, G, I, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], WriteSymbolWide method, IDebugSymbolGroup2::WriteSymbolWide, S, W, WriteSymbolWide method [Windows Debugging], WriteSymbolWide method [Windows Debugging], IDebugSymbolGroup2 interface, WriteSymbolWide,IDebugSymbolGroup2.WriteSymbolWide, b, d, dbgeng/IDebugSymbolGroup2::WriteSymbolWide, debugger.writesymbolwide, e, g, i, l, m, o, p, r, t, u, y"
+ms.keywords: IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], WriteSymbolWide method, IDebugSymbolGroup2::WriteSymbolWide, WriteSymbolWide method [Windows Debugging], WriteSymbolWide method [Windows Debugging], IDebugSymbolGroup2 interface, WriteSymbolWide,IDebugSymbolGroup2.WriteSymbolWide, dbgeng/IDebugSymbolGroup2::WriteSymbolWide, debugger.writesymbolwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -119,15 +119,15 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549201">GetSymbolValueText</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 

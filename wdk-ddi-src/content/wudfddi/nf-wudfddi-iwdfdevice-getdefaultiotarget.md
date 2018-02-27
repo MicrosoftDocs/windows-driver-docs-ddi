@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 27bc5f1b-128d-486b-ae09-0356b1164ae0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ",  , ,, ., :, D, F, G, GetDefaultIoTarget method, GetDefaultIoTarget method, IWDFDevice interface, GetDefaultIoTarget,IWDFDevice.GetDefaultIoTarget, I, IWDFDevice, IWDFDevice interface, GetDefaultIoTarget method, IWDFDevice::GetDefaultIoTarget, T, UMDFDeviceObjectRef_33807b94-79d4-4bb9-85a4-69de9d7c33dc.xml, W, a, c, e, f, g, i, l, o, r, t, u, umdf.iwdfdevice_getdefaultiotarget, v, wdf.iwdfdevice_getdefaultiotarget, wudfddi/IWDFDevice::GetDefaultIoTarget"
+ms.keywords: GetDefaultIoTarget method, GetDefaultIoTarget method, IWDFDevice interface, GetDefaultIoTarget,IWDFDevice.GetDefaultIoTarget, IWDFDevice, IWDFDevice interface, GetDefaultIoTarget method, IWDFDevice::GetDefaultIoTarget, UMDFDeviceObjectRef_33807b94-79d4-4bb9-85a4-69de9d7c33dc.xml, umdf.iwdfdevice_getdefaultiotarget, wdf.iwdfdevice_getdefaultiotarget, wudfddi/IWDFDevice::GetDefaultIoTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

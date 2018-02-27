@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 28d23e5e-4daf-4176-8d7b-af92eee8ccef
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., 2, 4, :, C, D, F, I, IDebugControl4, IDebugControl4 interface [Windows Debugging], OpenLogFile2Wide method, IDebugControl4::OpenLogFile2Wide, L, O, OpenLogFile2Wide method [Windows Debugging], OpenLogFile2Wide method [Windows Debugging], IDebugControl4 interface, OpenLogFile2Wide,IDebugControl4.OpenLogFile2Wide, W, b, d, dbgeng/IDebugControl4::OpenLogFile2Wide, debugger.openlogfile2wide, e, g, i, l, n, o, p, r, t, u"
+ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], OpenLogFile2Wide method, IDebugControl4::OpenLogFile2Wide, OpenLogFile2Wide method [Windows Debugging], OpenLogFile2Wide method [Windows Debugging], IDebugControl4 interface, OpenLogFile2Wide,IDebugControl4.OpenLogFile2Wide, dbgeng/IDebugControl4::OpenLogFile2Wide, debugger.openlogfile2wide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -149,22 +149,6 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563986">.logappend (Append Log File)</a>
 
 
@@ -173,11 +157,27 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
 
 
 

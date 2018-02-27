@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5d8e6b87-6cfd-48ec-ac38-a75cb94cf5ac
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, C, D, I, IddCxAdapterUpdateMaxDisplayPipelineRate, IddCxAdapterUpdateMaxDisplayPipelineRate method [Display Devices], M, P, R, U, a, d, display.iddcxadapterupdatemaxdisplaypipelinerate, e, i, iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate, l, n, p, r, s, t, x, y"
+ms.keywords: IddCxAdapterUpdateMaxDisplayPipelineRate, IddCxAdapterUpdateMaxDisplayPipelineRate method [Display Devices], display.iddcxadapterupdatemaxdisplaypipelinerate, iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

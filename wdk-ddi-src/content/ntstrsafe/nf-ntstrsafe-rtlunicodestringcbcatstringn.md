@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bc2139d2-9d59-4d19-a4b5-ce0a993a9846
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , C, N, R, RtlUnicodeStringCbCatStringN, RtlUnicodeStringCbCatStringN function [Kernel-Mode Driver Architecture], S, U, a, b, c, d, e, g, i, kernel.rtlunicodestringcbcatstringn, l, n, ntstrsafe/RtlUnicodeStringCbCatStringN, o, r, safestrings_54ef3816-fbca-461c-b250-4c0fca04c2ed.xml, t"
+ms.keywords: RtlUnicodeStringCbCatStringN, RtlUnicodeStringCbCatStringN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcatstringn, ntstrsafe/RtlUnicodeStringCbCatStringN, safestrings_54ef3816-fbca-461c-b250-4c0fca04c2ed.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

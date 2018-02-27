@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7750a0f5-f38d-4530-81dc-589a1c2009ca
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , A, C, F, K, KsFilterFactoryRegisterAggregatedClientUnknown, KsFilterFactoryRegisterAggregatedClientUnknown function [Streaming Media Devices], R, U, a, avfunc_03ec0abd-d481-4b97-b8ab-6be504e95a55.xml, c, d, e, g, i, k, ks/KsFilterFactoryRegisterAggregatedClientUnknown, l, n, o, r, s, stream.ksfilterfactoryregisteraggregatedclientunknown, t, w, y"
+ms.keywords: KsFilterFactoryRegisterAggregatedClientUnknown, KsFilterFactoryRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_03ec0abd-d481-4b97-b8ab-6be504e95a55.xml, ks/KsFilterFactoryRegisterAggregatedClientUnknown, stream.ksfilterfactoryregisteraggregatedclientunknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

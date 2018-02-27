@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5cad43c7-00f0-4590-997c-f956afe07e55
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
-ms.keywords: ",  , A, AtaPortGetDeviceBase, AtaPortGetDeviceBase routine [Storage Devices], B, D, G, P, a, atartns_94ad1c8e-3a7b-4eeb-97d1-5b57284be6f3.xml, c, e, i, irb/AtaPortGetDeviceBase, o, r, s, storage.ataportgetdevicebase, t, v"
+ms.keywords: AtaPortGetDeviceBase, AtaPortGetDeviceBase routine [Storage Devices], atartns_94ad1c8e-3a7b-4eeb-97d1-5b57284be6f3.xml, irb/AtaPortGetDeviceBase, storage.ataportgetdevicebase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,11 +111,11 @@ Miniport drivers must use logical addresses that have been mapped into system sp
 
 
 
-<a href="..\irb\nf-irb-ataportreadportulong.md">AtaPortReadPortUlong</a>
-
-
-
 <a href="..\irb\nf-irb-ataportreadportuchar.md">AtaPortReadPortUchar</a>
+
+
+
+<a href="..\irb\nf-irb-ataportreadportulong.md">AtaPortReadPortUlong</a>
 
 
 

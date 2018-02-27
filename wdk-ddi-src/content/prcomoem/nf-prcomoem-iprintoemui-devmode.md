@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: decc76c4-1973-41c5-9091-6dc5b9ccd30d
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: ",  , ,, ., :, D, DevMode method [Print Devices], DevMode method [Print Devices], IPrintOemUI interface, DevMode,IPrintOemUI.DevMode, I, IPrintOemUI, IPrintOemUI interface [Print Devices], DevMode method, IPrintOemUI::DevMode, M, O, P, U, d, e, i, m, n, o, prcomoem/IPrintOemUI::DevMode, print.iprintoemui_devmode, print_unidrv-pscript_ui_3d5344ac-bacd-499b-87f7-c8e1b7f0e174.xml, r, t, v"
+ms.keywords: DevMode method [Print Devices], DevMode method [Print Devices], IPrintOemUI interface, DevMode,IPrintOemUI.DevMode, IPrintOemUI, IPrintOemUI interface [Print Devices], DevMode method, IPrintOemUI::DevMode, prcomoem/IPrintOemUI::DevMode, print.iprintoemui_devmode, print_unidrv-pscript_ui_3d5344ac-bacd-499b-87f7-c8e1b7f0e174.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -150,11 +150,11 @@ The <code>IPrintOemUI::DevMode</code> method must perform the operation indicate
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553205">IPrintOemPS::DevMode</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554230">IPrintOemUni::DevMode</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553205">IPrintOemPS::DevMode</a>
 
 
 
