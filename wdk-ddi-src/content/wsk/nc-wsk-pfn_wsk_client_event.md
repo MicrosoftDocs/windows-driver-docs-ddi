@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5511f540-4448-4cbe-849a-b1712453fae1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wskclientevent, WskClientEvent callback function [Network Drivers Starting with Windows Vista], WskClientEvent, PFN_WSK_CLIENT_EVENT, PFN_WSK_CLIENT_EVENT, wsk/WskClientEvent, wskref_c9f563f1-19c1-4f8d-ab44-04eedd74763f.xml
+ms.keywords: PFN_WSK_CLIENT_EVENT, WskClientEvent, WskClientEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskclientevent, wsk/WskClientEvent, wskref_c9f563f1-19c1-4f8d-ab44-04eedd74763f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wsk.h
-apiname:
+api_name:
 -	WskClientEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO"
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -176,11 +176,11 @@ A WSK application's <i>WskClientEvent</i> event callback function must not wait 
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a>
-
-
-
 <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a>
 
 
 

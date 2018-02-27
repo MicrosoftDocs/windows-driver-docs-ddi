@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c4352eab-8bbd-429e-93ad-190372d29f2c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddndis/NdisRequestClose, PNDIS_REQUEST_TYPE, *PNDIS_REQUEST_TYPE, NDIS_REQUEST_TYPE, ntddndis/NdisRequestSend, NdisRequestGeneric1, ntddndis/NdisRequestOpen, ntddndis/NdisRequestTransferData, NdisRequestQueryInformation, NdisRequestGeneric2, NdisRequestClose, NDIS_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_REQUEST_TYPE, ntddndis/PNDIS_REQUEST_TYPE, ndis_request_ref_78880aa3-bab2-49bd-9232-117accb98ce3.xml, ntddndis/NdisRequestQueryStatistics, NdisRequestSend, _NDIS_REQUEST_TYPE, NdisRequestQueryStatistics, ntddndis/NdisRequestGeneric1, NdisRequestGeneric3, ntddndis/NdisRequestGeneric3, NdisRequestReset, NdisRequestOpen, NdisRequestSetInformation, ntddndis/NdisRequestGeneric4, ntddndis/NdisRequestReset, ntddndis/NdisRequestQueryInformation, ntddndis/NdisRequestMethod, ntddndis/NdisRequestSetInformation, NdisRequestMethod, NdisRequestTransferData, NdisRequestGeneric4, netvista.ndis_request_type, ntddndis/NdisRequestGeneric2, PNDIS_REQUEST_TYPE enumeration pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PNDIS_REQUEST_TYPE, NDIS_REQUEST_TYPE, NDIS_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisRequestClose, NdisRequestGeneric1, NdisRequestGeneric2, NdisRequestGeneric3, NdisRequestGeneric4, NdisRequestMethod, NdisRequestOpen, NdisRequestQueryInformation, NdisRequestQueryStatistics, NdisRequestReset, NdisRequestSend, NdisRequestSetInformation, NdisRequestTransferData, PNDIS_REQUEST_TYPE, PNDIS_REQUEST_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_REQUEST_TYPE, ndis_request_ref_78880aa3-bab2-49bd-9232-117accb98ce3.xml, netvista.ndis_request_type, ntddndis/NDIS_REQUEST_TYPE, ntddndis/NdisRequestClose, ntddndis/NdisRequestGeneric1, ntddndis/NdisRequestGeneric2, ntddndis/NdisRequestGeneric3, ntddndis/NdisRequestGeneric4, ntddndis/NdisRequestMethod, ntddndis/NdisRequestOpen, ntddndis/NdisRequestQueryInformation, ntddndis/NdisRequestQueryStatistics, ntddndis/NdisRequestReset, ntddndis/NdisRequestSend, ntddndis/NdisRequestSetInformation, ntddndis/NdisRequestTransferData, ntddndis/PNDIS_REQUEST_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddndis.h
-apiname:
+api_name:
 -	NDIS_REQUEST_TYPE
 product: Windows
 targetos: Windows

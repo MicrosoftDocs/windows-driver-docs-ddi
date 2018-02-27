@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f29579de-ba5d-4b7a-9aeb-558be03d7eef
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfpostdeviceremove, DFCoinstallerRef_82480a49-b7ac-4e1d-b942-93d1eb8a5c34.xml, wdfinstaller/WdfPostDeviceRemove, WdfPostDeviceRemove function, WdfPostDeviceRemove, kmdf.wdfpostdeviceremove
+ms.keywords: DFCoinstallerRef_82480a49-b7ac-4e1d-b942-93d1eb8a5c34.xml, WdfPostDeviceRemove, WdfPostDeviceRemove function, kmdf.wdfpostdeviceremove, wdf.wdfpostdeviceremove, wdfinstaller/WdfPostDeviceRemove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: N/A (Exported by the KMDF co-installer library. For information about the co-installer library's filename, see Using the KMDF Co-installer.)
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	N/A
 -	N/A.dll
-apiname:
+api_name:
 -	WdfPostDeviceRemove
 product: Windows
 targetos: Windows

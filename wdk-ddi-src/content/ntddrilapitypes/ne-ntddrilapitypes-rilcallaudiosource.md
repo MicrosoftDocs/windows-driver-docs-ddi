@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ec6d45ba-3afe-44cb-a699-ef3b3b804b6b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RILCALLAUDIOSOURCE, ntddrilapitypes/RIL_CALLAUDIOSOURCE_PKT_APP, netvista.rilcallaudiosource, RIL_CALLAUDIOSOURCE_PKT_APP, RILCALLAUDIOSOURCE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_CALLAUDIOSOURCE_MAX, RIL_CALLAUDIOSOURCE_MAX, RIL_CALLAUDIOSOURCE_PKT_MODEM, RILCALLAUDIOSOURCE, ntddrilapitypes/RIL_CALLAUDIOSOURCE_PKT_MODEM
+ms.keywords: RILCALLAUDIOSOURCE, RILCALLAUDIOSOURCE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLAUDIOSOURCE_MAX, RIL_CALLAUDIOSOURCE_PKT_APP, RIL_CALLAUDIOSOURCE_PKT_MODEM, netvista.rilcallaudiosource, ntddrilapitypes/RILCALLAUDIOSOURCE, ntddrilapitypes/RIL_CALLAUDIOSOURCE_MAX, ntddrilapitypes/RIL_CALLAUDIOSOURCE_PKT_APP, ntddrilapitypes/RIL_CALLAUDIOSOURCE_PKT_MODEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddrilapitypes.h
-apiname:
+api_name:
 -	RILCALLAUDIOSOURCE
 product: Windows
 targetos: Windows

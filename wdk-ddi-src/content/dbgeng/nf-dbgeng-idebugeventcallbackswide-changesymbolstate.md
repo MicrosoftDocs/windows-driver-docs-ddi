@@ -4,11 +4,11 @@ title: IDebugEventCallbacksWide::ChangeSymbolState method
 author: windows-driver-content
 description: The ChangeSymbolState callback method is called by the engine when the symbol state changes.
 old-location: debugger\idebugeventcallbackswide_changesymbolstate.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: ea331612-5c48-4320-a658-101c3d93e7be
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, IDebugEventCallbacksWide, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface, ChangeSymbolState, IDebugEventCallbacksWide interface [Windows Debugging], ChangeSymbolState method, ChangeSymbolState method [Windows Debugging], debugger.idebugeventcallbackswide_changesymbolstate, IDebugEventCallbacksWide::ChangeSymbolState
+ms.date: 2/23/2018
+ms.keywords: ChangeSymbolState method [Windows Debugging], ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface, ChangeSymbolState,IDebugEventCallbacksWide.ChangeSymbolState, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], ChangeSymbolState method, IDebugEventCallbacksWide::ChangeSymbolState, dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, debugger.idebugeventcallbackswide_changesymbolstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugEventCallbacksWide.ChangeSymbolState
 product: Windows
 targetos: Windows

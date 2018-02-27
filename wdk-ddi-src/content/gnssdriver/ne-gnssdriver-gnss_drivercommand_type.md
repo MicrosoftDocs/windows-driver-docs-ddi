@@ -7,8 +7,8 @@ old-location: sensors\gnss_drivercommand_type.htm
 old-project: sensors
 ms.assetid: 61D7C52C-D8C9-4BBE-9DCA-B5E934A02FAE
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: gnssdriver/GNSS_SetNiTimeoutInterval, GNSS_SetLocationServiceEnabled, gnssdriver/GNSS_CustomCommand, GNSS_ForceSatelliteSystem, GNSS_SetNMEALogging, GNSS_DRIVERCOMMAND_TYPE, GNSS_ForceOperationMode, gnssdriver/GNSS_ResetGeofencesTracking, GNSS_SetUplServerAccessInterval, GNSS_SetNiTimeoutInterval, gnssdriver/GNSS_ForceOperationMode, GNSS_CustomCommand, gnssdriver/GNSS_ForceSatelliteSystem, GNSS_DRIVERCOMMAND_TYPE enumeration [Sensor Devices], gnssdriver/GNSS_SetUplServerAccessInterval, gnssdriver/GNSS_SetLocationServiceEnabled, GNSS_SetSuplVersion, gnssdriver/GNSS_SetNMEALogging, GNSS_ResetEngine, gnssdriver/GNSS_ClearAgnssData, GNSS_SetLocationNIRequestAllowed, GNSS_ClearAgnssData, gnssdriver/GNSS_SetLocationNIRequestAllowed, GNSS_ResetGeofencesTracking, sensors.gnss_drivercommand_type, gnssdriver/GNSS_ResetEngine, gnssdriver/GNSS_SetSuplVersion, gnssdriver/GNSS_DRIVERCOMMAND_TYPE
+ms.date: 2/22/2018
+ms.keywords: GNSS_ClearAgnssData, GNSS_CustomCommand, GNSS_DRIVERCOMMAND_TYPE, GNSS_DRIVERCOMMAND_TYPE enumeration [Sensor Devices], GNSS_ForceOperationMode, GNSS_ForceSatelliteSystem, GNSS_ResetEngine, GNSS_ResetGeofencesTracking, GNSS_SetLocationNIRequestAllowed, GNSS_SetLocationServiceEnabled, GNSS_SetNMEALogging, GNSS_SetNiTimeoutInterval, GNSS_SetSuplVersion, GNSS_SetUplServerAccessInterval, gnssdriver/GNSS_ClearAgnssData, gnssdriver/GNSS_CustomCommand, gnssdriver/GNSS_DRIVERCOMMAND_TYPE, gnssdriver/GNSS_ForceOperationMode, gnssdriver/GNSS_ForceSatelliteSystem, gnssdriver/GNSS_ResetEngine, gnssdriver/GNSS_ResetGeofencesTracking, gnssdriver/GNSS_SetLocationNIRequestAllowed, gnssdriver/GNSS_SetLocationServiceEnabled, gnssdriver/GNSS_SetNMEALogging, gnssdriver/GNSS_SetNiTimeoutInterval, gnssdriver/GNSS_SetSuplVersion, gnssdriver/GNSS_SetUplServerAccessInterval, sensors.gnss_drivercommand_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	gnssdriver.h
-apiname:
+api_name:
 -	GNSS_DRIVERCOMMAND_TYPE
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: display\d3d12ddi_texture_layout.htm
 old-project: display
 ms.assetid: F039A0D9-D1AE-4940-B67D-30CC6344EC7D
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3d12umddi/D3D12DDI_TEXTURE_LAYOUT, D3D12DDI_TEXTURE_LAYOUT, display.d3d12ddi_texture_layout, D3D12DDI_TL_64KB_TILE_STANDARD_SWIZZLE, d3d12umddi/D3D12DDI_TL_UNDEFINED, d3d12umddi/D3D12DDI_TL_DEVICE_DEPENDENT_SWIZZLE_0, d3d12umddi/D3D12DDI_TL_64KB_TILE_UNDEFINED_SWIZZLE, D3D12DDI_TL_DEVICE_DEPENDENT_SWIZZLE_0, d3d12umddi/D3D12DDI_TL_64KB_TILE_STANDARD_SWIZZLE, D3D12DDI_TEXTURE_LAYOUT enumeration [Display Devices], D3D12DDI_TL_UNDEFINED, D3D12DDI_TL_ROW_MAJOR, d3d12umddi/D3D12DDI_TL_ROW_MAJOR, D3D12DDI_TL_64KB_TILE_UNDEFINED_SWIZZLE
+ms.date: 2/24/2018
+ms.keywords: D3D12DDI_TEXTURE_LAYOUT, D3D12DDI_TEXTURE_LAYOUT enumeration [Display Devices], D3D12DDI_TL_64KB_TILE_STANDARD_SWIZZLE, D3D12DDI_TL_64KB_TILE_UNDEFINED_SWIZZLE, D3D12DDI_TL_DEVICE_DEPENDENT_SWIZZLE_0, D3D12DDI_TL_ROW_MAJOR, D3D12DDI_TL_UNDEFINED, d3d12umddi/D3D12DDI_TEXTURE_LAYOUT, d3d12umddi/D3D12DDI_TL_64KB_TILE_STANDARD_SWIZZLE, d3d12umddi/D3D12DDI_TL_64KB_TILE_UNDEFINED_SWIZZLE, d3d12umddi/D3D12DDI_TL_DEVICE_DEPENDENT_SWIZZLE_0, d3d12umddi/D3D12DDI_TL_ROW_MAJOR, d3d12umddi/D3D12DDI_TL_UNDEFINED, display.d3d12ddi_texture_layout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3d12umddi.h
-apiname:
+api_name:
 -	D3D12DDI_TEXTURE_LAYOUT
 product: Windows
 targetos: Windows

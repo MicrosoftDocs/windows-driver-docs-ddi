@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7b5245e9-7f25-4697-932a-d7d1416e921c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilunblockuicclockparams_2, RILUNBLOCKUICCLOCKPARAMS, rilapitypes/RILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILUNBLOCKUICCLOCKPARAMS
+ms.keywords: "*LPRILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilunblockuicclockparams_2, rilapitypes/RILUNBLOCKUICCLOCKPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILUNBLOCKUICCLOCKPARAMS
 product: Windows
 targetos: Windows

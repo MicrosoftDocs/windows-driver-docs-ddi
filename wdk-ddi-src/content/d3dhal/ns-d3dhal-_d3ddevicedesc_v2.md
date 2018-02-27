@@ -7,8 +7,8 @@ old-location: display\d3ddevicedesc_v2.htm
 old-project: display
 ms.assetid: d8ef093e-81f9-443c-9d85-d0d1b6c03416
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.d3ddevicedesc_v2, D3DDEVICEDESC_V2, d3dhal/, D3DDEVICEDESC_V2 structure [Display Devices], *LPD3DDEVICEDESC_V2, d3dstrct_93cd326d-38b8-4911-87de-a0b4e81f897c.xml, _D3DDeviceDesc_V2
+ms.date: 2/24/2018
+ms.keywords: "*LPD3DDEVICEDESC_V2, D3DDEVICEDESC_V2, D3DDEVICEDESC_V2 structure [Display Devices], _D3DDeviceDesc_V2, d3dhal/, d3dstrct_93cd326d-38b8-4911-87de-a0b4e81f897c.xml, display.d3ddevicedesc_v2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dhal.h
-apiname:
+api_name:
 -	D3DDEVICEDESC_V2
 product: Windows
 targetos: Windows

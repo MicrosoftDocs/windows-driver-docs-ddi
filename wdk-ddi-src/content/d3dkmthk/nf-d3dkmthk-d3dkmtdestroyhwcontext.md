@@ -7,8 +7,8 @@ old-location: display\d3dkmtdestroyhwcontext.htm
 old-project: display
 ms.assetid: 832CA7CA-40B3-4D6D-B640-9838B479EC76
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DKMTDestroyHwContext, display.d3dkmtdestroyhwcontext, d3dkmthk/D3DKMTDestroyHwContext, D3DKMTDestroyHwContext function [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: D3DKMTDestroyHwContext, D3DKMTDestroyHwContext function [Display Devices], d3dkmthk/D3DKMTDestroyHwContext, display.d3dkmtdestroyhwcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Tbd
 req.dll: Tbd
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	tbd
-apiname:
+api_name:
 -	D3DKMTDestroyHwContext
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: display\iddcx_monitor_info.htm
 old-project: display
 ms.assetid: 62c2182c-af55-4482-a890-803f92dc863a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.iddcx_monitor_info, IDDCX_MONITOR_INFO, iddcx/IDDCX_MONITOR_INFO, IDDCX_MONITOR_INFO structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: IDDCX_MONITOR_INFO, IDDCX_MONITOR_INFO structure [Display Devices], display.iddcx_monitor_info, iddcx/IDDCX_MONITOR_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	iddcx.h
-apiname:
+api_name:
 -	IDDCX_MONITOR_INFO
 product: Windows
 targetos: Windows

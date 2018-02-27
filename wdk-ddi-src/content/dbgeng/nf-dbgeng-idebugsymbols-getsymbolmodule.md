@@ -4,11 +4,11 @@ title: IDebugSymbols::GetSymbolModule method
 author: windows-driver-content
 description: The GetSymbolModule method returns the base address of module which contains the specified symbol.
 old-location: debugger\getsymbolmodule.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: f3774204-86c3-467b-96ba-739f19d300e3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugSymbols2::GetSymbolModule, GetSymbolModule method [Windows Debugging], IDebugSymbols3 interface, debugger.getsymbolmodule, GetSymbolModule method [Windows Debugging], GetSymbolModule method [Windows Debugging], IDebugSymbols interface, GetSymbolModule, IDebugSymbols3 interface [Windows Debugging], GetSymbolModule method, IDebugSymbols2 interface [Windows Debugging], GetSymbolModule method, GetSymbolModule method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols, dbgeng/IDebugSymbols2::GetSymbolModule, IDebugSymbols::GetSymbolModule, IDebugSymbols3::GetSymbolModule, dbgeng/IDebugSymbols::GetSymbolModule, IDebugSymbols_a680615c-bc2a-4fa3-a83a-6960ed64c1e9.xml, dbgeng/IDebugSymbols3::GetSymbolModule, IDebugSymbols interface [Windows Debugging], GetSymbolModule method
+ms.date: 2/23/2018
+ms.keywords: GetSymbolModule method [Windows Debugging], GetSymbolModule method [Windows Debugging], IDebugSymbols interface, GetSymbolModule method [Windows Debugging], IDebugSymbols2 interface, GetSymbolModule method [Windows Debugging], IDebugSymbols3 interface, GetSymbolModule,IDebugSymbols.GetSymbolModule, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetSymbolModule method, IDebugSymbols2 interface [Windows Debugging], GetSymbolModule method, IDebugSymbols2::GetSymbolModule, IDebugSymbols3 interface [Windows Debugging], GetSymbolModule method, IDebugSymbols3::GetSymbolModule, IDebugSymbols::GetSymbolModule, IDebugSymbols_a680615c-bc2a-4fa3-a83a-6960ed64c1e9.xml, dbgeng/IDebugSymbols2::GetSymbolModule, dbgeng/IDebugSymbols3::GetSymbolModule, dbgeng/IDebugSymbols::GetSymbolModule, debugger.getsymbolmodule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugSymbols.GetSymbolModule
 -	IDebugSymbols2.GetSymbolModule
 -	IDebugSymbols3.GetSymbolModule

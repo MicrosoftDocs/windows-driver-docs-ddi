@@ -7,8 +7,8 @@ old-location: stream\streamclassreadwriteconfig.htm
 old-project: stream
 ms.assetid: ae8c1478-b429-4af1-a36d-96145696a990
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: StreamClassReadWriteConfig routine [Streaming Media Devices], strmini/StreamClassReadWriteConfig, stream.streamclassreadwriteconfig, strclass-routines_5bfa9287-1b6a-40d8-abdc-637fe88e6372.xml, StreamClassReadWriteConfig
+ms.date: 2/23/2018
+ms.keywords: StreamClassReadWriteConfig, StreamClassReadWriteConfig routine [Streaming Media Devices], strclass-routines_5bfa9287-1b6a-40d8-abdc-637fe88e6372.xml, stream.streamclassreadwriteconfig, strmini/StreamClassReadWriteConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Stream.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Stream.lib
 -	Stream.dll
-apiname:
+api_name:
 -	StreamClassReadWriteConfig
 product: Windows
 targetos: Windows

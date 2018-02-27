@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: df2b6438-271d-4ea2-a06b-49a83415ca7a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 1394stct_bf7f3e1b-88a4-4c37-88ee-cf5d69595988.xml, 1394/ADDRESS_FIFO, PADDRESS_FIFO, ADDRESS_FIFO, PADDRESS_FIFO structure pointer [Buses], _ADDRESS_FIFO, *PADDRESS_FIFO, IEEE.address_fifo, 1394/PADDRESS_FIFO, ADDRESS_FIFO structure [Buses]
+ms.keywords: "*PADDRESS_FIFO, 1394/ADDRESS_FIFO, 1394/PADDRESS_FIFO, 1394stct_bf7f3e1b-88a4-4c37-88ee-cf5d69595988.xml, ADDRESS_FIFO, ADDRESS_FIFO structure [Buses], IEEE.address_fifo, PADDRESS_FIFO, PADDRESS_FIFO structure pointer [Buses], _ADDRESS_FIFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	1394.h
-apiname:
+api_name:
 -	ADDRESS_FIFO
 product: Windows
 targetos: Windows
-req.typenames: "*PADDRESS_FIFO, ADDRESS_FIFO"
+req.typenames: ADDRESS_FIFO, *PADDRESS_FIFO
 ---
 
 # _ADDRESS_FIFO structure
@@ -80,11 +80,11 @@ Specifies the MDL for the FIFO element described by this entry of the list.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537437">NOTIFICATION_INFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537437">NOTIFICATION_INFO</a>
 
 
 

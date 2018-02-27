@@ -4,11 +4,11 @@ title: IDebugBreakpoint2::GetMatchThreadId method
 author: windows-driver-content
 description: The GetMatchThreadId method returns the engine thread ID of the thread that can trigger a breakpoint.
 old-location: debugger\getmatchthreadid.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 0f0f7248-de85-4757-8006-48444af8edac
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: dbgeng/IDebugBreakpoint::GetMatchThreadId, GetMatchThreadId, dbgeng/IDebugBreakpoint2::GetMatchThreadId, debugger.getmatchthreadid, GetMatchThreadId method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint interface [Windows Debugging], GetMatchThreadId method, GetMatchThreadId method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging], GetMatchThreadId method, IDebugBreakpoint2, IDebugBreakpoint2::GetMatchThreadId, IDebugBreakpoint, GetMatchThreadId method [Windows Debugging], ComOther_6a9afca5-8445-48d9-8e28-8d38e6cf2658.xml, IDebugBreakpoint::GetMatchThreadId
+ms.date: 2/23/2018
+ms.keywords: ComOther_6a9afca5-8445-48d9-8e28-8d38e6cf2658.xml, GetMatchThreadId method [Windows Debugging], GetMatchThreadId method [Windows Debugging], IDebugBreakpoint interface, GetMatchThreadId method [Windows Debugging], IDebugBreakpoint2 interface, GetMatchThreadId,IDebugBreakpoint2.GetMatchThreadId, IDebugBreakpoint interface [Windows Debugging], GetMatchThreadId method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetMatchThreadId method, IDebugBreakpoint2::GetMatchThreadId, IDebugBreakpoint::GetMatchThreadId, dbgeng/IDebugBreakpoint2::GetMatchThreadId, dbgeng/IDebugBreakpoint::GetMatchThreadId, debugger.getmatchthreadid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugBreakpoint.GetMatchThreadId
 -	IDebugBreakpoint2.GetMatchThreadId
 product: Windows

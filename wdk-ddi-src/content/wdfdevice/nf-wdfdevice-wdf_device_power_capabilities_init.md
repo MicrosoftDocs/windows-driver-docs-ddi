@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1a4b2708-efe2-47c0-b5b7-4e56f33e0266
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdf_device_power_capabilities_init, WDF_DEVICE_POWER_CAPABILITIES_INIT, WDF_DEVICE_POWER_CAPABILITIES_INIT function, DFDeviceObjectGeneralRef_888be612-b20f-427f-a098-e6b0f73f8704.xml, wdf.wdf_device_power_capabilities_init, wdfdevice/WDF_DEVICE_POWER_CAPABILITIES_INIT
+ms.keywords: DFDeviceObjectGeneralRef_888be612-b20f-427f-a098-e6b0f73f8704.xml, WDF_DEVICE_POWER_CAPABILITIES_INIT, WDF_DEVICE_POWER_CAPABILITIES_INIT function, kmdf.wdf_device_power_capabilities_init, wdf.wdf_device_power_capabilities_init, wdfdevice/WDF_DEVICE_POWER_CAPABILITIES_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfdevice.h
-apiname:
+api_name:
 -	WDF_DEVICE_POWER_CAPABILITIES_INIT
 product: Windows
 targetos: Windows

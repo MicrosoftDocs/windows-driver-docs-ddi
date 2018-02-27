@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 3ffd954f-91f8-4896-b105-86e07a5b6be7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: biometric.ioctl_biometric_calibrate, IOCTL_BIOMETRIC_CALIBRATE control code [Biometric Devices], IOCTL_BIOMETRIC_CALIBRATE, winbio_ioctl/IOCTL_BIOMETRIC_CALIBRATE, biometric_ref_160131c1-3389-4869-89c5-0d01761930e2.xml
+ms.keywords: IOCTL_BIOMETRIC_CALIBRATE, IOCTL_BIOMETRIC_CALIBRATE control code [Biometric Devices], biometric.ioctl_biometric_calibrate, biometric_ref_160131c1-3389-4869-89c5-0d01761930e2.xml, winbio_ioctl/IOCTL_BIOMETRIC_CALIBRATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Winbio_ioctl.h
-apiname:
+api_name:
 -	IOCTL_BIOMETRIC_CALIBRATE
 product: Windows
 targetos: Windows
-req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
+req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

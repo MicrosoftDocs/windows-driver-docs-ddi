@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 6a89a581-0af4-4a42-be81-fb7cb1f33bdd
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WINBIO_VERSION structure [Biometric Devices], winbio_types/WINBIO_VERSION, *PWINBIO_VERSION, WINBIO_VERSION, biometric_ref_2f55229e-601f-422c-b35c-0fb58605b273.xml, PWINBIO_VERSION, winbio_types/PWINBIO_VERSION, PWINBIO_VERSION structure pointer [Biometric Devices], _WINBIO_VERSION, biometric.winbio_version
+ms.keywords: "*PWINBIO_VERSION, PWINBIO_VERSION, PWINBIO_VERSION structure pointer [Biometric Devices], WINBIO_VERSION, WINBIO_VERSION structure [Biometric Devices], _WINBIO_VERSION, biometric.winbio_version, biometric_ref_2f55229e-601f-422c-b35c-0fb58605b273.xml, winbio_types/PWINBIO_VERSION, winbio_types/WINBIO_VERSION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winbio_types.h
-apiname:
+api_name:
 -	WINBIO_VERSION
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 

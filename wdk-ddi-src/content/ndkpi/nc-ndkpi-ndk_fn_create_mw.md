@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BAE0DF74-19AB-4AE9-A28C-C1CC2F569D1F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_create_mw, NdkCreateMw callback function [Network Drivers Starting with Windows Vista], NdkCreateMw, NDK_FN_CREATE_MW, NDK_FN_CREATE_MW, ndkpi/NdkCreateMw
+ms.keywords: NDK_FN_CREATE_MW, NdkCreateMw, NdkCreateMw callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateMw, netvista.ndk_fn_create_mw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ndkpi.h
-apiname:
+api_name:
 -	NdkCreateMw
 product: Windows
 targetos: Windows
@@ -174,11 +174,11 @@ The <i>NdkCreateMw</i> function creates an  NDK memory window (MW) object that c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
-
-
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
 
 
 
@@ -186,7 +186,7 @@ The <i>NdkCreateMw</i> function creates an  NDK memory window (MW) object that c
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: storage\storportasyncnotificationdetected.htm
 old-project: storage
 ms.assetid: 558F652C-6D1A-4BAF-9C2C-3F4FE24651D2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.storportasyncnotificationdetected, RAID_ASYNC_NOTIFY_FLAG_DEVICE_OPERATION, storport/StorPortAsyncNotificationDetected, StorPortAsyncNotificationDetected routine [Storage Devices], StorPortAsyncNotificationDetected, RAID_ASYNC_NOTIFY_FLAG_DEVICE_STATUS, RAID_ASYNC_NOTIFY_FLAG_MEDIA_STATUS
+ms.date: 2/24/2018
+ms.keywords: RAID_ASYNC_NOTIFY_FLAG_DEVICE_OPERATION, RAID_ASYNC_NOTIFY_FLAG_DEVICE_STATUS, RAID_ASYNC_NOTIFY_FLAG_MEDIA_STATUS, StorPortAsyncNotificationDetected, StorPortAsyncNotificationDetected routine [Storage Devices], storage.storportasyncnotificationdetected, storport/StorPortAsyncNotificationDetected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	storport.h
-apiname:
+api_name:
 -	StorPortAsyncNotificationDetected
 product: Windows
 targetos: Windows

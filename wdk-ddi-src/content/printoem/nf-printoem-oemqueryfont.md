@@ -7,8 +7,8 @@ old-location: print\oemqueryfont.htm
 old-project: print
 ms.assetid: cee6b2dd-e79b-4372-8371-c57fe950de88
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print_unidrv-pscript_rendering_52b50b2d-ab61-420f-be04-7285a5504be6.xml, OEMQueryFont function [Print Devices], printoem/OEMQueryFont, print.oemqueryfont, OEMQueryFont
+ms.date: 2/23/2018
+ms.keywords: OEMQueryFont, OEMQueryFont function [Print Devices], print.oemqueryfont, print_unidrv-pscript_rendering_52b50b2d-ab61-420f-be04-7285a5504be6.xml, printoem/OEMQueryFont
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	printoem.h
-apiname:
+api_name:
 -	OEMQueryFont
 product: Windows
 targetos: Windows

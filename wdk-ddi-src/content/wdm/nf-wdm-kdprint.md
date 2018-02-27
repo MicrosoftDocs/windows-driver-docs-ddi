@@ -7,8 +7,8 @@ old-location: devtest\kdprint.htm
 old-project: devtest
 ms.assetid: 4a2ab12b-ee89-462d-821a-0a2db20cc36c
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: wdm/KdPrint, DebugFns_630aea64-3f51-4c73-8575-00a507846ab9.xml, KdPrint function [Driver Development Tools], devtest.kdprint, KdPrint
+ms.date: 2/23/2018
+ms.keywords: DebugFns_630aea64-3f51-4c73-8575-00a507846ab9.xml, KdPrint, KdPrint function [Driver Development Tools], devtest.kdprint, wdm/KdPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib (See DbgPrint.)
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	KdPrint
 product: Windows
 targetos: Windows
@@ -126,10 +126,6 @@ There is no upper limit to the size of the <i>Format</i> string or the number of
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-kdprintex.md">KdPrintEx</a>
 
 
@@ -138,9 +134,13 @@ There is no upper limit to the size of the <i>Format</i> string or the number of
 
 
 
- 
+<a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20KdPrint function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20KdPrint function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

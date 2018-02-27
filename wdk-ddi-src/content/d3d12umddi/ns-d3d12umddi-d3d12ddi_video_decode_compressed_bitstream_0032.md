@@ -7,8 +7,8 @@ old-location: display\d3d12ddi-video-decode-compressed-bitstream-0032.htm
 old-project: display
 ms.assetid: 5ef654ff-9a1e-4e97-9087-34ff21e40e1d
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0032 structure [Display Devices], display.d3d12ddi-video-decode-compressed-bitstream-0032, d3d12umddi/D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0032, D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0032
+ms.date: 2/24/2018
+ms.keywords: D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0032, D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0032, display.d3d12ddi-video-decode-compressed-bitstream-0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0032
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1ecf4536-9669-4437-8919-3c7b0e4a9183
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoCreateStreamFileObjectEx routine [Installable File System Drivers], ntifs/IoCreateStreamFileObjectEx, ifsk.iocreatestreamfileobjectex, IoCreateStreamFileObjectEx, ioref_0c92890a-e4ae-4a25-b1cb-8097361674ee.xml
+ms.keywords: IoCreateStreamFileObjectEx, IoCreateStreamFileObjectEx routine [Installable File System Drivers], ifsk.iocreatestreamfileobjectex, ioref_0c92890a-e4ae-4a25-b1cb-8097361674ee.xml, ntifs/IoCreateStreamFileObjectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoCreateStreamFileObjectEx
 product: Windows
 targetos: Windows
@@ -114,11 +114,7 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectEx</b> raises a 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobject.md">IoCreateStreamFileObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a>
 
 
 
@@ -126,7 +122,7 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectEx</b> raises a 
 
 
 
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectlite.md">IoCreateStreamFileObjectLite</a>
+<a href="..\ntifs\nf-ntifs-iocreatestreamfileobject.md">IoCreateStreamFileObject</a>
 
 
 
@@ -134,7 +130,11 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectEx</b> raises a 
 
 
 
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobject.md">IoCreateStreamFileObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectlite.md">IoCreateStreamFileObjectLite</a>
 
 
 

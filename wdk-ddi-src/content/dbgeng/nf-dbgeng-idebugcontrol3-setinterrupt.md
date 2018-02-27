@@ -4,11 +4,11 @@ title: IDebugControl3::SetInterrupt method
 author: windows-driver-content
 description: The SetInterrupt method registers a user interrupt or breaks into the debugger.
 old-location: debugger\setinterrupt.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: d67119c7-ecbe-446c-8a4f-38d33e92a277
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl3, IDebugControl2, IDebugControl_dd73562c-6f15-4101-8ab3-3f432de5a002.xml, IDebugControl, debugger.setinterrupt, dbgeng/IDebugControl::SetInterrupt, IDebugControl2 interface [Windows Debugging], SetInterrupt method, SetInterrupt method [Windows Debugging], dbgeng/IDebugControl2::SetInterrupt, SetInterrupt method [Windows Debugging], IDebugControl2 interface, SetInterrupt method [Windows Debugging], IDebugControl interface, IDebugControl2::SetInterrupt, IDebugControl3::SetInterrupt, IDebugControl3 interface [Windows Debugging], SetInterrupt method, dbgeng/IDebugControl3::SetInterrupt, IDebugControl interface [Windows Debugging], SetInterrupt method, SetInterrupt, SetInterrupt method [Windows Debugging], IDebugControl3 interface, IDebugControl::SetInterrupt
+ms.date: 2/23/2018
+ms.keywords: IDebugControl interface [Windows Debugging], SetInterrupt method, IDebugControl2 interface [Windows Debugging], SetInterrupt method, IDebugControl2::SetInterrupt, IDebugControl3, IDebugControl3 interface [Windows Debugging], SetInterrupt method, IDebugControl3::SetInterrupt, IDebugControl::SetInterrupt, IDebugControl_dd73562c-6f15-4101-8ab3-3f432de5a002.xml, SetInterrupt method [Windows Debugging], SetInterrupt method [Windows Debugging], IDebugControl interface, SetInterrupt method [Windows Debugging], IDebugControl2 interface, SetInterrupt method [Windows Debugging], IDebugControl3 interface, SetInterrupt,IDebugControl3.SetInterrupt, dbgeng/IDebugControl2::SetInterrupt, dbgeng/IDebugControl3::SetInterrupt, dbgeng/IDebugControl::SetInterrupt, debugger.setinterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugControl.SetInterrupt
 -	IDebugControl2.SetInterrupt
 -	IDebugControl3.SetInterrupt
@@ -161,11 +161,11 @@ If <i>Flags</i> is DEBUG_INTERRUPT_ACTIVE, and the interrupt times out, the engi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546955">GetInterruptTimeout</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546944">GetInterrupt</a>
 
 
 
@@ -177,7 +177,7 @@ If <i>Flags</i> is DEBUG_INTERRUPT_ACTIVE, and the interrupt times out, the engi
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546955">GetInterruptTimeout</a>
 
 
 
@@ -185,5 +185,5 @@ If <i>Flags</i> is DEBUG_INTERRUPT_ACTIVE, and the interrupt times out, the engi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::SetInterrupt method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetInterrupt method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

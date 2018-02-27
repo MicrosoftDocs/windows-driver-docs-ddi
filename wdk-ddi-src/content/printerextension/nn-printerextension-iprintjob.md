@@ -7,8 +7,8 @@ old-location: print\iprintjob.htm
 old-project: print
 ms.assetid: 068E53EC-26B8-48E7-A605-081709C94043
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.iprintjob, IPrintJob interface [Print Devices], IPrintJob interface [Print Devices], described, IPrintJob, printerextension/IPrintJob
+ms.date: 2/23/2018
+ms.keywords: IPrintJob, IPrintJob interface [Print Devices], IPrintJob interface [Print Devices], described, print.iprintjob, printerextension/IPrintJob
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Printerextension.h
-apiname:
+api_name:
 -	IPrintJob
 product: Windows
 targetos: Windows
@@ -55,6 +55,14 @@ Contains properties that represent a print job.
 This interface also provides a method that allows a print job to be cancelled.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintJob</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintJob</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
+
 ## -members
 
 The <b>IPrintJob</b> interface has these methods.
@@ -72,11 +80,8 @@ Requests the cancellation of a print job.
 
 </td>
 </tr>
-</table>Requests the cancellation of a print job.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintJob</b> interface has these properties.
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintJob</b> interface has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
@@ -179,55 +184,7 @@ Gets the total number of pages that the document contains.
 
 </td>
 </tr>
-</table>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">Id</a>
-
-
-Read-only
-
-Gets the print job identifier (ID).
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
-
-
-Read-only
-
-Gets the name of the print job.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265403">PrintedPages</a>
-
-
-Read-only
-
-Gets the number of pages that have been printed.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a>
-
-
-Read-only
-
-Gets the current status of the print job.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265410">SubmissionTime</a>
-
-
-Read-only
-
-Gets the submission time, in the “DATE” format, provided in the user’s local time (not in the UTC format that is provided by the spooler).
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265411">TotalPages</a>
-
-
-Read-only
-
-Gets the total number of pages that the document contains.
-
- 
+</table> 
 
 
 ## -remarks
@@ -255,5 +212,5 @@ The <b>IPrintJob</b> interface provides a wrapper around select properties of th
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintJob interface%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintJob interface%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

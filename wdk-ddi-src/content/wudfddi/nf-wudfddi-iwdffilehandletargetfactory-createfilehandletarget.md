@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 579a2cef-1e37-426c-9f69-8766dc9011ba
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFFileHandleTargetFactory interface, CreateFileHandleTarget method, UMDFDeviceObjectRef_4a3fcfeb-e1a1-4375-8bd5-bdd75c36c454.xml, wudfddi/IWDFFileHandleTargetFactory::CreateFileHandleTarget, IWDFFileHandleTargetFactory::CreateFileHandleTarget, CreateFileHandleTarget method, IWDFFileHandleTargetFactory interface, wdf.iwdffilehandletargetfactory_createfilehandletarget, CreateFileHandleTarget, IWDFFileHandleTargetFactory, CreateFileHandleTarget method, umdf.iwdffilehandletargetfactory_createfilehandletarget
+ms.keywords: CreateFileHandleTarget method, CreateFileHandleTarget method, IWDFFileHandleTargetFactory interface, CreateFileHandleTarget,IWDFFileHandleTargetFactory.CreateFileHandleTarget, IWDFFileHandleTargetFactory, IWDFFileHandleTargetFactory interface, CreateFileHandleTarget method, IWDFFileHandleTargetFactory::CreateFileHandleTarget, UMDFDeviceObjectRef_4a3fcfeb-e1a1-4375-8bd5-bdd75c36c454.xml, umdf.iwdffilehandletargetfactory_createfilehandletarget, wdf.iwdffilehandletargetfactory_createfilehandletarget, wudfddi/IWDFFileHandleTargetFactory::CreateFileHandleTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFFileHandleTargetFactory.CreateFileHandleTarget
 product: Windows
 targetos: Windows
@@ -192,7 +192,7 @@ if (SUCCEEDED(hr)) {
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdffilehandletargetfactory.md">IWDFFileHandleTargetFactory</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
 
 

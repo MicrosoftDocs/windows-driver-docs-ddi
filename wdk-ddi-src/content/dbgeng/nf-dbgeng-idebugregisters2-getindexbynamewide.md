@@ -4,11 +4,11 @@ title: IDebugRegisters2::GetIndexByNameWide method
 author: windows-driver-content
 description: The GetIndexByNameWide method returns the index of the named register.
 old-location: debugger\getindexbynamewide.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: eb6a50b4-275f-42c9-8121-17677971ebb2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetIndexByNameWide method, dbgeng/IDebugRegisters2::GetIndexByNameWide, IDebugRegisters2::GetIndexByNameWide, GetIndexByNameWide method [Windows Debugging], IDebugRegisters2 interface, GetIndexByNameWide, GetIndexByNameWide method [Windows Debugging], debugger.getindexbynamewide
+ms.date: 2/23/2018
+ms.keywords: GetIndexByNameWide method [Windows Debugging], GetIndexByNameWide method [Windows Debugging], IDebugRegisters2 interface, GetIndexByNameWide,IDebugRegisters2.GetIndexByNameWide, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetIndexByNameWide method, IDebugRegisters2::GetIndexByNameWide, dbgeng/IDebugRegisters2::GetIndexByNameWide, debugger.getindexbynamewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugRegisters2.GetIndexByNameWide
 product: Windows
 targetos: Windows

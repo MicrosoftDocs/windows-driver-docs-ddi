@@ -4,11 +4,11 @@ title: ReadIoSpace function
 author: windows-driver-content
 description: The ReadIoSpace function reads from the system I/O locations.
 old-location: debugger\readiospace.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 31118f7f-fcc4-45f9-a248-a1d6f929f3a2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.readiospace, wdbgexts/ReadIoSpace, WdbgExts_Ref_e34c76a6-de5d-4347-90a7-959d5392680e.xml, ReadIoSpace, ReadIoSpace function [Windows Debugging]
+ms.date: 2/23/2018
+ms.keywords: ReadIoSpace, ReadIoSpace function [Windows Debugging], WdbgExts_Ref_e34c76a6-de5d-4347-90a7-959d5392680e.xml, debugger.readiospace, wdbgexts/ReadIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdbgexts.h
-apiname:
+api_name:
 -	ReadIoSpace
 product: Windows
 targetos: Windows

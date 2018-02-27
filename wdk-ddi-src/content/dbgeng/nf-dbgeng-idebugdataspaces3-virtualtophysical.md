@@ -4,11 +4,11 @@ title: IDebugDataSpaces3::VirtualToPhysical method
 author: windows-driver-content
 description: The VirtualToPhysical method translates a location in the target's virtual address space into a physical memory address.
 old-location: debugger\virtualtophysical.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: e0b7bd4c-cb3f-4bc3-8359-241c9a245204
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugDataSpaces4::VirtualToPhysical, IDebugDataSpaces4 interface [Windows Debugging], VirtualToPhysical method, VirtualToPhysical method [Windows Debugging], IDebugDataSpaces2 interface, VirtualToPhysical method [Windows Debugging], IDebugDataSpaces3 interface [Windows Debugging], VirtualToPhysical method, VirtualToPhysical, IDebugDataSpaces3::VirtualToPhysical, IDebugDataSpaces2, IDebugDataSpaces2::VirtualToPhysical, IDebugDataSpaces2 interface [Windows Debugging], VirtualToPhysical method, IDebugDataSpaces3, VirtualToPhysical method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces3::VirtualToPhysical, dbgeng/IDebugDataSpaces4::VirtualToPhysical, VirtualToPhysical method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_56267474-49c4-446c-83eb-3e4eb2e92734.xml, dbgeng/IDebugDataSpaces2::VirtualToPhysical, debugger.virtualtophysical
+ms.date: 2/23/2018
+ms.keywords: IDebugDataSpaces2 interface [Windows Debugging], VirtualToPhysical method, IDebugDataSpaces2::VirtualToPhysical, IDebugDataSpaces3, IDebugDataSpaces3 interface [Windows Debugging], VirtualToPhysical method, IDebugDataSpaces3::VirtualToPhysical, IDebugDataSpaces4 interface [Windows Debugging], VirtualToPhysical method, IDebugDataSpaces4::VirtualToPhysical, IDebugDataSpaces_56267474-49c4-446c-83eb-3e4eb2e92734.xml, VirtualToPhysical method [Windows Debugging], VirtualToPhysical method [Windows Debugging], IDebugDataSpaces2 interface, VirtualToPhysical method [Windows Debugging], IDebugDataSpaces3 interface, VirtualToPhysical method [Windows Debugging], IDebugDataSpaces4 interface, VirtualToPhysical,IDebugDataSpaces3.VirtualToPhysical, dbgeng/IDebugDataSpaces2::VirtualToPhysical, dbgeng/IDebugDataSpaces3::VirtualToPhysical, dbgeng/IDebugDataSpaces4::VirtualToPhysical, debugger.virtualtophysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Dbgeng.h
-apiname:
+api_name:
 -	IDebugDataSpaces2.VirtualToPhysical
 -	IDebugDataSpaces3.VirtualToPhysical
 -	IDebugDataSpaces4.VirtualToPhysical

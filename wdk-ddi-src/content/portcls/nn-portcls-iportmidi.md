@@ -7,8 +7,8 @@ old-location: audio\iportmidi.htm
 old-project: audio
 ms.assetid: e5403377-fd24-4fd5-8158-194f30238c44
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iportmidi, IPortMidi interface [Audio Devices], IPortMidi interface [Audio Devices], described, IPortMidi, portcls/IPortMidi, audmp-routines_52a1c6a3-7658-4c69-a4c9-6d965a1d99c9.xml
+ms.date: 2/22/2018
+ms.keywords: IPortMidi, IPortMidi interface [Audio Devices], IPortMidi interface [Audio Devices], described, audio.iportmidi, audmp-routines_52a1c6a3-7658-4c69-a4c9-6d965a1d99c9.xml, portcls/IPortMidi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IPortMidi
 product: Windows
 targetos: Windows

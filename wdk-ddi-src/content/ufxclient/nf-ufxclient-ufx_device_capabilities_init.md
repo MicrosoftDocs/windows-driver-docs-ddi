@@ -4,11 +4,11 @@ title: UFX_DEVICE_CAPABILITIES_INIT function
 author: windows-driver-content
 description: The UFX_DEVICE_CAPABILITIES_INIT macro the initializes the UFX_DEVICE_CAPABILITIES structure.
 old-location: buses\ufx_device_capabilities_init.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 7C55EB8D-1B68-484A-B95A-E0150FBA9AB8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.ufx_device_capabilities_init, UFX_DEVICE_CAPABILITIES_INIT function [Buses], UFX_DEVICE_CAPABILITIES_INIT, ufxclient/UFX_DEVICE_CAPABILITIES_INIT
+ms.date: 2/24/2018
+ms.keywords: UFX_DEVICE_CAPABILITIES_INIT, UFX_DEVICE_CAPABILITIES_INIT function [Buses], buses.ufx_device_capabilities_init, ufxclient/UFX_DEVICE_CAPABILITIES_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ufxclient.h
-apiname:
+api_name:
 -	UFX_DEVICE_CAPABILITIES_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

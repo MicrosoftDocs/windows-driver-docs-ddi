@@ -7,8 +7,8 @@ old-location: stream\streamclassregisteradapter.htm
 old-project: stream
 ms.assetid: f57e9c0f-d99b-4b01-b512-4a8f754c8822
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: StreamClassRegisterAdapter, StreamClassRegisterAdapter function [Streaming Media Devices], stream.streamclassregisteradapter, strmini/StreamClassRegisterAdapter, strclass-routines_059c6a60-83c5-4eaa-ade5-f60ddcbba594.xml
+ms.date: 2/23/2018
+ms.keywords: StreamClassRegisterAdapter, StreamClassRegisterAdapter function [Streaming Media Devices], strclass-routines_059c6a60-83c5-4eaa-ade5-f60ddcbba594.xml, stream.streamclassregisteradapter, strmini/StreamClassRegisterAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	strmini.h
-apiname:
+api_name:
 -	StreamClassRegisterAdapter
 product: Windows
 targetos: Windows

@@ -4,11 +4,11 @@ title: IOCTL_WAIT_ON_DEVICE_EVENT
 author: windows-driver-content
 description: Returns information about an event occurring on a USB interrupt pipe.
 old-location: image\ioctl_wait_on_device_event.htm
-old-project: Image
+old-project: image
 ms.assetid: 0895a19b-bb28-405a-98df-28522a18ec2b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: image.ioctl_wait_on_device_event, IOCTL_WAIT_ON_DEVICE_EVENT control code [Imaging Devices], IOCTL_WAIT_ON_DEVICE_EVENT, usbscan/IOCTL_WAIT_ON_DEVICE_EVENT, stifnc_ef4b6e5f-ed60-4354-adae-443e1a27b215.xml
+ms.date: 2/23/2018
+ms.keywords: IOCTL_WAIT_ON_DEVICE_EVENT, IOCTL_WAIT_ON_DEVICE_EVENT control code [Imaging Devices], image.ioctl_wait_on_device_event, stifnc_ef4b6e5f-ed60-4354-adae-443e1a27b215.xml, usbscan/IOCTL_WAIT_ON_DEVICE_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Usbscan.h
-apiname:
+api_name:
 -	IOCTL_WAIT_ON_DEVICE_EVENT
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -7,8 +7,8 @@ old-location: hid\pi8042_isr_write_port.htm
 old-project: hid
 ms.assetid: deded3fb-f0b3-4af5-b8b4-03658293b0fc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: hid.pi8042_isr_write_port, I8042IsrWritePort callback function [Human Input Devices], I8042IsrWritePort, PI8042_ISR_WRITE_PORT, PI8042_ISR_WRITE_PORT, ntdd8042/I8042IsrWritePort, i8042ref_775d438e-5883-455b-86c4-2ce28099598f.xml
+ms.date: 2/24/2018
+ms.keywords: I8042IsrWritePort, I8042IsrWritePort callback function [Human Input Devices], PI8042_ISR_WRITE_PORT, hid.pi8042_isr_write_port, i8042ref_775d438e-5883-455b-86c4-2ce28099598f.xml, ntdd8042/I8042IsrWritePort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ntdd8042.h
-apiname:
+api_name:
 -	I8042IsrWritePort
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes"
+req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
 ---
 
 # PI8042_ISR_WRITE_PORT callback
@@ -115,7 +115,7 @@ The PI8042_ISR_WRITE_PORT callback runs in kernel mode at the same IRQL as the I
 
 
 
-<b>IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</b>
+<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_mouse.md">IOCTL_INTERNAL_I8042_HOOK_MOUSE</a>
 
 
 
@@ -123,5 +123,5 @@ The PI8042_ISR_WRITE_PORT callback runs in kernel mode at the same IRQL as the I
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20PI8042_ISR_WRITE_PORT callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20PI8042_ISR_WRITE_PORT callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

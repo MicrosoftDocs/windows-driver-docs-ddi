@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9caed664-6367-4eb0-9c9f-551f8a5938bc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON structure [Network Drivers Starting with Windows Vista], _NDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON, PNDIS_PM_WAKE_REASON structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_pm_wake_reason, *PNDIS_PM_WAKE_REASON, ntddndis/PNDIS_PM_WAKE_REASON, ntddndis/NDIS_PM_WAKE_REASON
+ms.keywords: "*PNDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON structure [Network Drivers Starting with Windows Vista], PNDIS_PM_WAKE_REASON, PNDIS_PM_WAKE_REASON structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_WAKE_REASON, netvista.ndis_pm_wake_reason, ntddndis/NDIS_PM_WAKE_REASON, ntddndis/PNDIS_PM_WAKE_REASON"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddndis.h
-apiname:
+api_name:
 -	NDIS_PM_WAKE_REASON
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON"
+req.typenames: NDIS_PM_WAKE_REASON, *PNDIS_PM_WAKE_REASON
 ---
 
 # _NDIS_PM_WAKE_REASON structure
@@ -132,11 +132,11 @@ For more information about how to issue an <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\ntddndis\ne-ntddndis-_ndis_pm_wake_reason_type.md">NDIS_PM_WAKE_REASON_TYPE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

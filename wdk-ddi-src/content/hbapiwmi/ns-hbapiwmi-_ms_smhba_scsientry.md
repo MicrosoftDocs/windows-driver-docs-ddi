@@ -7,8 +7,8 @@ old-location: storage\ms_smhba_scsientry.htm
 old-project: storage
 ms.assetid: 38779458-a561-4048-86d8-905e4e50095f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: MS_SMHBA_SCSIENTRY, PMS_SMHBA_SCSIENTRY, _MS_SMHBA_SCSIENTRY, *PMS_SMHBA_SCSIENTRY, storage.ms_smhba_scsientry, MS_SMHBA_SCSIENTRY structure [Storage Devices], hbapiwmi/MS_SMHBA_SCSIENTRY, hbapiwmi/PMS_SMHBA_SCSIENTRY, PMS_SMHBA_SCSIENTRY structure pointer [Storage Devices], structs-Fibre_95d0f020-6910-4764-9234-181b525abf5b.xml
+ms.date: 2/24/2018
+ms.keywords: "*PMS_SMHBA_SCSIENTRY, MS_SMHBA_SCSIENTRY, MS_SMHBA_SCSIENTRY structure [Storage Devices], PMS_SMHBA_SCSIENTRY, PMS_SMHBA_SCSIENTRY structure pointer [Storage Devices], _MS_SMHBA_SCSIENTRY, hbapiwmi/MS_SMHBA_SCSIENTRY, hbapiwmi/PMS_SMHBA_SCSIENTRY, storage.ms_smhba_scsientry, structs-Fibre_95d0f020-6910-4764-9234-181b525abf5b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hbapiwmi.h
-apiname:
+api_name:
 -	MS_SMHBA_SCSIENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*PMS_SMHBA_SCSIENTRY, MS_SMHBA_SCSIENTRY"
+req.typenames: MS_SMHBA_SCSIENTRY, *PMS_SMHBA_SCSIENTRY
 ---
 
 # _MS_SMHBA_SCSIENTRY structure

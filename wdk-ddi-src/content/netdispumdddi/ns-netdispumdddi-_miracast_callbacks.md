@@ -7,8 +7,8 @@ old-location: display\miracast_callbacks.htm
 old-project: display
 ms.assetid: 2168a4d8-a33d-4534-b4e8-126a41e528f5
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: netdispumdddi/MIRACAST_CALLBACKS, display.miracast_callbacks, _MIRACAST_CALLBACKS, netdispumdddi/PMIRACAST_CALLBACKS, PMIRACAST_CALLBACKS structure pointer [Display Devices], MIRACAST_CALLBACKS, PMIRACAST_CALLBACKS, *PMIRACAST_CALLBACKS, MIRACAST_CALLBACKS structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PMIRACAST_CALLBACKS, MIRACAST_CALLBACKS, MIRACAST_CALLBACKS structure [Display Devices], PMIRACAST_CALLBACKS, PMIRACAST_CALLBACKS structure pointer [Display Devices], _MIRACAST_CALLBACKS, display.miracast_callbacks, netdispumdddi/MIRACAST_CALLBACKS, netdispumdddi/PMIRACAST_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Netdispumdddi.h
-apiname:
+api_name:
 -	MIRACAST_CALLBACKS
 product: Windows
 targetos: Windows
-req.typenames: "*PMIRACAST_CALLBACKS, MIRACAST_CALLBACKS"
+req.typenames: MIRACAST_CALLBACKS, *PMIRACAST_CALLBACKS
 ---
 
 # _MIRACAST_CALLBACKS structure

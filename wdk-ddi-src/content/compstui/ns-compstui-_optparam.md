@@ -7,8 +7,8 @@ old-location: print\optparam.htm
 old-project: print
 ms.assetid: d0cd2867-783c-4a41-a819-e919d4ffc1e3
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: OPTPARAM, cpsuifnc_1c22c283-993e-45d7-b0c7-1148eafeb13c.xml, print.optparam, OPTPARAM structure [Print Devices], *POPTPARAM, compstui/POPTPARAM, _OPTPARAM, POPTPARAM, POPTPARAM structure pointer [Print Devices], compstui/OPTPARAM
+ms.date: 2/23/2018
+ms.keywords: "*POPTPARAM, OPTPARAM, OPTPARAM structure [Print Devices], POPTPARAM, POPTPARAM structure pointer [Print Devices], _OPTPARAM, compstui/OPTPARAM, compstui/POPTPARAM, cpsuifnc_1c22c283-993e-45d7-b0c7-1148eafeb13c.xml, print.optparam"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	compstui.h
-apiname:
+api_name:
 -	OPTPARAM
 product: Windows
 targetos: Windows
-req.typenames: "*POPTPARAM, OPTPARAM"
+req.typenames: OPTPARAM, *POPTPARAM
 ---
 
 # _OPTPARAM structure

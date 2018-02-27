@@ -7,8 +7,8 @@ old-location: audio\iportwavecyclic_newmasterdmachannel.htm
 old-project: audio
 ms.assetid: bbd2b6e2-e332-49ae-aa18-490fd5631479
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: NewMasterDmaChannel method [Audio Devices], NewMasterDmaChannel, audmp-routines_831f81bd-545d-47e5-ae1a-8ecaa631497c.xml, IPortWaveCyclic interface [Audio Devices], NewMasterDmaChannel method, audio.iportwavecyclic_newmasterdmachannel, NewMasterDmaChannel method [Audio Devices], IPortWaveCyclic interface, IPortWaveCyclic, IPortWaveCyclic::NewMasterDmaChannel, portcls/IPortWaveCyclic::NewMasterDmaChannel
+ms.date: 2/22/2018
+ms.keywords: IPortWaveCyclic, IPortWaveCyclic interface [Audio Devices], NewMasterDmaChannel method, IPortWaveCyclic::NewMasterDmaChannel, NewMasterDmaChannel method [Audio Devices], NewMasterDmaChannel method [Audio Devices], IPortWaveCyclic interface, NewMasterDmaChannel,IPortWaveCyclic.NewMasterDmaChannel, audio.iportwavecyclic_newmasterdmachannel, audmp-routines_831f81bd-545d-47e5-ae1a-8ecaa631497c.xml, portcls/IPortWaveCyclic::NewMasterDmaChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IPortWaveCyclic.NewMasterDmaChannel
 product: Windows
 targetos: Windows
@@ -166,5 +166,5 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWaveCyclic::NewMasterDmaChannel method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWaveCyclic::NewMasterDmaChannel method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

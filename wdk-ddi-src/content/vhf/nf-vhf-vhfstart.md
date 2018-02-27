@@ -7,8 +7,8 @@ old-location: hid\vhfstart.htm
 old-project: hid
 ms.assetid: F3DA4CBB-5749-4E7D-828F-398714575173
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: vhf/VhfStart, VhfStart method [Human Input Devices], hid.vhfstart, VhfStart
+ms.date: 2/24/2018
+ms.keywords: VhfStart, VhfStart method [Human Input Devices], hid.vhfstart, vhf/VhfStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: VhfKm.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	VhfKm.lib
 -	VhfKm.dll
-apiname:
+api_name:
 -	VhfStart
 product: Windows
 targetos: Windows

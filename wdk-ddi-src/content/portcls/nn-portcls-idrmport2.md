@@ -7,8 +7,8 @@ old-location: audio\idrmport2.htm
 old-project: audio
 ms.assetid: c0fa64cf-bfc7-415c-a30d-50bf6182cc3d
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.idrmport2, IDrmPort2 interface [Audio Devices], IDrmPort2 interface [Audio Devices], described, IDrmPort2, portcls/IDrmPort2, audmp-routines_93a46344-36f2-49ea-9091-93b4e810f195.xml
+ms.date: 2/22/2018
+ms.keywords: IDrmPort2, IDrmPort2 interface [Audio Devices], IDrmPort2 interface [Audio Devices], described, audio.idrmport2, audmp-routines_93a46344-36f2-49ea-9091-93b4e810f195.xml, portcls/IDrmPort2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IDrmPort2
 product: Windows
 targetos: Windows

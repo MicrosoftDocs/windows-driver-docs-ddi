@@ -7,8 +7,8 @@ old-location: audio\hdaudio_stream_state.htm
 old-project: audio
 ms.assetid: A1029A2D-980F-44F5-B7D6-1C37F97D0368
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: HDAUDIO_STREAM_STATE enumeration [Audio Devices], PHDAUDIO_STREAM_STATE, hdaudio/ResetState, HDAUDIO_STREAM_STATE, hdaudio/StopState, audio.hdaudio_stream_state, hdaudio/RunState, *PHDAUDIO_STREAM_STATE, _HDAUDIO_STREAM_STATE, hdaudio/PauseState, PHDAUDIO_STREAM_STATE enumeration pointer [Audio Devices], PauseState, hdaudio/PHDAUDIO_STREAM_STATE, hdaudio/HDAUDIO_STREAM_STATE, StopState, RunState, ResetState
+ms.date: 2/22/2018
+ms.keywords: "*PHDAUDIO_STREAM_STATE, HDAUDIO_STREAM_STATE, HDAUDIO_STREAM_STATE enumeration [Audio Devices], PHDAUDIO_STREAM_STATE, PHDAUDIO_STREAM_STATE enumeration pointer [Audio Devices], PauseState, ResetState, RunState, StopState, _HDAUDIO_STREAM_STATE, audio.hdaudio_stream_state, hdaudio/HDAUDIO_STREAM_STATE, hdaudio/PHDAUDIO_STREAM_STATE, hdaudio/PauseState, hdaudio/ResetState, hdaudio/RunState, hdaudio/StopState"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Hdaudio.h
-apiname:
+api_name:
 -	HDAUDIO_STREAM_STATE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: c8eff87f-b8af-4876-9327-545eeff958c3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: powermeter.ioctl_pmi_set_configuration, IOCTL_PMI_SET_CONFIGURATION control code [Power Metering and Budgeting Devices], IOCTL_PMI_SET_CONFIGURATION, pmi/IOCTL_PMI_SET_CONFIGURATION, PowerMeterRef_6bfb518f-962c-48c1-b94e-711679fd8057.xml
+ms.keywords: IOCTL_PMI_SET_CONFIGURATION, IOCTL_PMI_SET_CONFIGURATION control code [Power Metering and Budgeting Devices], PowerMeterRef_6bfb518f-962c-48c1-b94e-711679fd8057.xml, pmi/IOCTL_PMI_SET_CONFIGURATION, powermeter.ioctl_pmi_set_configuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Pmi.h
-apiname:
+api_name:
 -	IOCTL_PMI_SET_CONFIGURATION
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: PMI_MEASUREMENT_UNIT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -134,15 +134,15 @@ Only PMI configuration data that the power meter supports with read/write permis
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
-
-
-
 <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
 
 
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
 
 
 

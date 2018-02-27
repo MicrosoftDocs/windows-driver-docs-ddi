@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 17ae946a-e57e-48bd-9213-cf47db2cba64
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UPSTurnOff function [Battery Devices], upssvc/UPSTurnOff, battery.upsturnoff, UPS_fns_ab585909-7eee-470f-b33f-6045f839ceed.xml, UPSTurnOff
+ms.keywords: UPSTurnOff, UPSTurnOff function [Battery Devices], UPS_fns_ab585909-7eee-470f-b33f-6045f839ceed.xml, battery.upsturnoff, upssvc/UPSTurnOff
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	upssvc.h
-apiname:
+api_name:
 -	UPSTurnOff
 product: Windows
 targetos: Windows

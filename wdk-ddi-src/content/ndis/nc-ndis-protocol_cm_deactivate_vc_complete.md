@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 44ee0e3c-aee9-4e24-9e54-c57248b568b6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolcmdeactivatevccomplete, ProtocolCmDeactivateVcComplete callback function [Network Drivers Starting with Windows Vista], ProtocolCmDeactivateVcComplete, PROTOCOL_CM_DEACTIVATE_VC_COMPLETE, PROTOCOL_CM_DEACTIVATE_VC_COMPLETE, ndis/ProtocolCmDeactivateVcComplete, condis_call_manager_ref_ecf43479-8006-4170-9422-604236ede43a.xml
+ms.keywords: PROTOCOL_CM_DEACTIVATE_VC_COMPLETE, ProtocolCmDeactivateVcComplete, ProtocolCmDeactivateVcComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_ecf43479-8006-4170-9422-604236ede43a.xml, ndis/ProtocolCmDeactivateVcComplete, netvista.protocolcmdeactivatevccomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Ndis.h
-apiname:
+api_name:
 -	ProtocolCmDeactivateVcComplete
 product: Windows
 targetos: Windows
@@ -182,11 +182,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmclosecallcomplete.md">NdisCmCloseCallComplete</a>
 
 
 

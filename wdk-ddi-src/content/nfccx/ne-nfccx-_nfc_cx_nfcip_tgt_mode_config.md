@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: E689992B-C767-4942-871D-D6EEDA35F0E7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: nfccx/NFC_CX_NFCIP_NFC_ACTIVE_A, _NFC_CX_NFCIP_TGT_MODE_CONFIG, PNFC_CX_NFCIP_TGT_MODE_CONFIG, NFC_CX_NFCIP_NFC_ACTIVE_A, nfccx/NFC_CX_NFCIP_NFC_ACTIVE_F_424, NFC_CX_NFCIP_NFC_ACTIVE_F_424, NFC_CX_NFCIP_NFC_F_212, nfccx/NFC_CX_NFCIP_NFC_F_212, nfccx/NFC_CX_NFCIP_NFC_F_424, nfpdrivers.nfc_cx_nfcip_tgt_mode_config, nfccx/NFC_CX_NFCIP_NFC_ACTIVE, nfccx/NFC_CX_NFCIP_TGT_MODE_CONFIG, NFC_CX_NFCIP_TGT_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_NFCIP_NFC_ACTIVE_F_212, nfccx/NFC_CX_NFCIP_DEFAULT, *PNFC_CX_NFCIP_TGT_MODE_CONFIG, NFC_CX_NFCIP_DEFAULT, nfccx/NFC_CX_NFCIP_NFC_A, NFC_CX_NFCIP_NFC_A, nfccx/NFC_CX_NFCIP_NFC_ACTIVE_F_212, NFC_CX_NFCIP_NFC_F_424, NFC_CX_NFCIP_NFC_ACTIVE, NFC_CX_NFCIP_TGT_MODE_CONFIG
+ms.keywords: "*PNFC_CX_NFCIP_TGT_MODE_CONFIG, NFC_CX_NFCIP_DEFAULT, NFC_CX_NFCIP_NFC_A, NFC_CX_NFCIP_NFC_ACTIVE, NFC_CX_NFCIP_NFC_ACTIVE_A, NFC_CX_NFCIP_NFC_ACTIVE_F_212, NFC_CX_NFCIP_NFC_ACTIVE_F_424, NFC_CX_NFCIP_NFC_F_212, NFC_CX_NFCIP_NFC_F_424, NFC_CX_NFCIP_TGT_MODE_CONFIG, NFC_CX_NFCIP_TGT_MODE_CONFIG enumeration [Near-Field Proximity Drivers], PNFC_CX_NFCIP_TGT_MODE_CONFIG, _NFC_CX_NFCIP_TGT_MODE_CONFIG, nfccx/NFC_CX_NFCIP_DEFAULT, nfccx/NFC_CX_NFCIP_NFC_A, nfccx/NFC_CX_NFCIP_NFC_ACTIVE, nfccx/NFC_CX_NFCIP_NFC_ACTIVE_A, nfccx/NFC_CX_NFCIP_NFC_ACTIVE_F_212, nfccx/NFC_CX_NFCIP_NFC_ACTIVE_F_424, nfccx/NFC_CX_NFCIP_NFC_F_212, nfccx/NFC_CX_NFCIP_NFC_F_424, nfccx/NFC_CX_NFCIP_TGT_MODE_CONFIG, nfpdrivers.nfc_cx_nfcip_tgt_mode_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Requires same
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	nfccx.h
-apiname:
+api_name:
 -	NFC_CX_NFCIP_TGT_MODE_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PNFC_CX_NFCIP_TGT_MODE_CONFIG, NFC_CX_NFCIP_TGT_MODE_CONFIG"
+req.typenames: NFC_CX_NFCIP_TGT_MODE_CONFIG, *PNFC_CX_NFCIP_TGT_MODE_CONFIG
 ---
 
 # _NFC_CX_NFCIP_TGT_MODE_CONFIG enumeration

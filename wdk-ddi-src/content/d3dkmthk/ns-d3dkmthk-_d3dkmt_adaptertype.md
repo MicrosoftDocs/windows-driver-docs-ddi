@@ -7,8 +7,8 @@ old-location: display\d3dkmt_adaptertype.htm
 old-project: display
 ms.assetid: a92865bc-620f-434d-a185-b837924599fc
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3dkmthk/D3DKMT_ADAPTERTYPE, D3DKMT_ADAPTERTYPE, _D3DKMT_ADAPTERTYPE, D3DKMT_ADAPTERTYPE structure [Display Devices], display.d3dkmt_adaptertype
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_ADAPTERTYPE, D3DKMT_ADAPTERTYPE structure [Display Devices], _D3DKMT_ADAPTERTYPE, d3dkmthk/D3DKMT_ADAPTERTYPE, display.d3dkmt_adaptertype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3dkmthk.h
-apiname:
+api_name:
 -	D3DKMT_ADAPTERTYPE
 product: Windows
 targetos: Windows

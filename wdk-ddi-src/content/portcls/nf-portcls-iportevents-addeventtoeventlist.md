@@ -7,8 +7,8 @@ old-location: audio\iportevents_addeventtoeventlist.htm
 old-project: audio
 ms.assetid: 49b01942-3562-4fb2-907b-8863b2f09f8e
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: AddEventToEventList method [Audio Devices], IPortEvents interface, IPortEvents, AddEventToEventList, AddEventToEventList method [Audio Devices], audmp-routines_13ea6aa7-0f65-43d4-b80c-4aa46102c43e.xml, IPortEvents::AddEventToEventList, portcls/IPortEvents::AddEventToEventList, audio.iportevents_addeventtoeventlist, IPortEvents interface [Audio Devices], AddEventToEventList method
+ms.date: 2/22/2018
+ms.keywords: AddEventToEventList method [Audio Devices], AddEventToEventList method [Audio Devices], IPortEvents interface, AddEventToEventList,IPortEvents.AddEventToEventList, IPortEvents, IPortEvents interface [Audio Devices], AddEventToEventList method, IPortEvents::AddEventToEventList, audio.iportevents_addeventtoeventlist, audmp-routines_13ea6aa7-0f65-43d4-b80c-4aa46102c43e.xml, portcls/IPortEvents::AddEventToEventList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IPortEvents.AddEventToEventList
 product: Windows
 targetos: Windows
@@ -92,15 +92,11 @@ This method is used by a miniport driver's to add events to the event list that 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536889">IPortEvents::GenerateEventList</a>
 
 
 
-<a href="..\portcls\nc-portcls-pcpfnevent_handler.md">EventHandler</a>
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
 
 
@@ -108,9 +104,13 @@ This method is used by a miniport driver's to add events to the event list that 
 
 
 
- 
+<a href="..\portcls\nc-portcls-pcpfnevent_handler.md">EventHandler</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortEvents::AddEventToEventList method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortEvents::AddEventToEventList method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

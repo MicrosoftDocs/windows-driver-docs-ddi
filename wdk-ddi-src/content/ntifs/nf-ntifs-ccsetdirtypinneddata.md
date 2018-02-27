@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f621a54f-ed40-4ec7-8678-7c72fcd9e704
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: CcSetDirtyPinnedData routine [Installable File System Drivers], ifsk.ccsetdirtypinneddata, ntifs/CcSetDirtyPinnedData, ccref_2cd7571b-289f-4510-a5de-f4e38eb049a2.xml, CcSetDirtyPinnedData
+ms.keywords: CcSetDirtyPinnedData, CcSetDirtyPinnedData routine [Installable File System Drivers], ccref_2cd7571b-289f-4510-a5de-f4e38eb049a2.xml, ifsk.ccsetdirtypinneddata, ntifs/CcSetDirtyPinnedData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	CcSetDirtyPinnedData
 product: Windows
 targetos: Windows
@@ -98,10 +98,6 @@ None
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
 
 
@@ -111,6 +107,10 @@ None
 
 
 <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
 
 
 

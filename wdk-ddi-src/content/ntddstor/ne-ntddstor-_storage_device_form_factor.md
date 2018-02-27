@@ -7,8 +7,8 @@ old-location: storage\storage_device_form_factor.htm
 old-project: storage
 ms.assetid: EE59767B-2504-4E5F-A442-60EEBEE70B59
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: ntddstor/PSTORAGE_DEVICE_FORM_FACTOR, FormFactorMemoryCard, FormFactor1_8Less, FormFactorPCIeBoard, FormFactor3_5, FormFactor1_8, FormFactorM_2, PSTORAGE_DEVICE_FORM_FACTOR enumeration pointer [Storage Devices], FormFactorDimm, ntddstor/FormFactormSata, ntddstor/STORAGE_DEVICE_FORM_FACTOR, FormFactormSata, FormFactor2_5, ntddstor/FormFactorPCIeBoard, ntddstor/FormFactor2_5, STORAGE_DEVICE_FORM_FACTOR enumeration [Storage Devices], ntddstor/FormFactor3_5, PSTORAGE_DEVICE_FORM_FACTOR, ntddstor/FormFactor1_8, _STORAGE_DEVICE_FORM_FACTOR, storage.storage_device_form_factor, ntddstor/FormFactorUnknown, *PSTORAGE_DEVICE_FORM_FACTOR, FormFactorUnknown, ntddstor/FormFactorEmbedded, ntddstor/FormFactor1_8Less, ntddstor/FormFactorM_2, FormFactorEmbedded, STORAGE_DEVICE_FORM_FACTOR, ntddstor/FormFactorDimm, ntddstor/FormFactorMemoryCard
+ms.date: 2/24/2018
+ms.keywords: "*PSTORAGE_DEVICE_FORM_FACTOR, FormFactor1_8, FormFactor1_8Less, FormFactor2_5, FormFactor3_5, FormFactorDimm, FormFactorEmbedded, FormFactorM_2, FormFactorMemoryCard, FormFactorPCIeBoard, FormFactorUnknown, FormFactormSata, PSTORAGE_DEVICE_FORM_FACTOR, PSTORAGE_DEVICE_FORM_FACTOR enumeration pointer [Storage Devices], STORAGE_DEVICE_FORM_FACTOR, STORAGE_DEVICE_FORM_FACTOR enumeration [Storage Devices], _STORAGE_DEVICE_FORM_FACTOR, ntddstor/FormFactor1_8, ntddstor/FormFactor1_8Less, ntddstor/FormFactor2_5, ntddstor/FormFactor3_5, ntddstor/FormFactorDimm, ntddstor/FormFactorEmbedded, ntddstor/FormFactorM_2, ntddstor/FormFactorMemoryCard, ntddstor/FormFactorPCIeBoard, ntddstor/FormFactorUnknown, ntddstor/FormFactormSata, ntddstor/PSTORAGE_DEVICE_FORM_FACTOR, ntddstor/STORAGE_DEVICE_FORM_FACTOR, storage.storage_device_form_factor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddstor.h
-apiname:
+api_name:
 -	STORAGE_DEVICE_FORM_FACTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_DEVICE_FORM_FACTOR, STORAGE_DEVICE_FORM_FACTOR"
+req.typenames: STORAGE_DEVICE_FORM_FACTOR, *PSTORAGE_DEVICE_FORM_FACTOR
 ---
 
 # _STORAGE_DEVICE_FORM_FACTOR enumeration

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d10baf1a-149d-4499-89de-e151327218f7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeReleaseQueuedSpinLock, keref_8815930f-e691-4759-ac40-3ebbe95e9116.xml, ifsk.kereleasequeuedspinlock, ntifs/KeReleaseQueuedSpinLock, KeReleaseQueuedSpinLock function [Installable File System Drivers]
+ms.keywords: KeReleaseQueuedSpinLock, KeReleaseQueuedSpinLock function [Installable File System Drivers], ifsk.kereleasequeuedspinlock, keref_8815930f-e691-4759-ac40-3ebbe95e9116.xml, ntifs/KeReleaseQueuedSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntifs.h
-apiname:
+api_name:
 -	KeReleaseQueuedSpinLock
 product: Windows
 targetos: Windows

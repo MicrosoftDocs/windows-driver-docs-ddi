@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 266ec8f5-f6ec-47e5-b433-4f570f2d43d2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wwan/WWAN_SET_SIGNAL_INDICATION, PWWAN_SET_SIGNAL_INDICATION, _WWAN_SET_SIGNAL_INDICATION, netvista.wwan_set_signal_indication, *PWWAN_SET_SIGNAL_INDICATION, wwan/PWWAN_SET_SIGNAL_INDICATION, PWWAN_SET_SIGNAL_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_SIGNAL_INDICATION structure [Network Drivers Starting with Windows Vista], WWAN_SET_SIGNAL_INDICATION, WwanRef_fa4b9dee-5b46-47f2-8674-d8fa78351d86.xml
+ms.keywords: "*PWWAN_SET_SIGNAL_INDICATION, PWWAN_SET_SIGNAL_INDICATION, PWWAN_SET_SIGNAL_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_SIGNAL_INDICATION, WWAN_SET_SIGNAL_INDICATION structure [Network Drivers Starting with Windows Vista], WwanRef_fa4b9dee-5b46-47f2-8674-d8fa78351d86.xml, _WWAN_SET_SIGNAL_INDICATION, netvista.wwan_set_signal_indication, wwan/PWWAN_SET_SIGNAL_INDICATION, wwan/WWAN_SET_SIGNAL_INDICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_SET_SIGNAL_INDICATION
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2DFC2C13-19C4-4DFD-B18B-459B38521962
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoGetOplockKeyContextEx routine [Installable File System Drivers], ntddk/IoGetOplockKeyContextEx, ifsk.iogetoplockkeycontextex, IoGetOplockKeyContextEx
+ms.keywords: IoGetOplockKeyContextEx, IoGetOplockKeyContextEx routine [Installable File System Drivers], ifsk.iogetoplockkeycontextex, ntddk/IoGetOplockKeyContextEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ntoskrnl.lib
 -	ntoskrnl.dll
-apiname:
+api_name:
 -	IoGetOplockKeyContextEx
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoGetOplockKeyContextEx function
@@ -84,15 +84,15 @@ An pointer to an <a href="..\ntddk\ns-ntddk-_oplock_key_context.md">OPLOCK_KEY_C
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551003">OPLOCK_KEY_ECP_CONTEXT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406392">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_oplock_key_context.md">OPLOCK_KEY_CONTEXT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551003">OPLOCK_KEY_ECP_CONTEXT</a>
 
 
 

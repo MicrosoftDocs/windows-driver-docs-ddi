@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: D4A9B507-E199-42EA-BC29-6F477BEC8D20
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 61883/PSET_UNIT_INFO, PSET_UNIT_INFO structure pointer [Buses], SET_UNIT_INFO, *PSET_UNIT_INFO, _SET_UNIT_INFO, 61883/SET_UNIT_INFO, PSET_UNIT_INFO, SET_UNIT_INFO structure [Buses], IEEE.set_unit_info
+ms.keywords: "*PSET_UNIT_INFO, 61883/PSET_UNIT_INFO, 61883/SET_UNIT_INFO, IEEE.set_unit_info, PSET_UNIT_INFO, PSET_UNIT_INFO structure pointer [Buses], SET_UNIT_INFO, SET_UNIT_INFO structure [Buses], _SET_UNIT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	61883.h
-apiname:
+api_name:
 -	SET_UNIT_INFO
 product: Windows
 targetos: Windows

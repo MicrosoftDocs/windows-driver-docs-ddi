@@ -7,8 +7,8 @@ old-location: print\iprintunidiasyncnotifyregistration.htm
 old-project: print
 ms.assetid: A1CC714A-CDD5-494F-8157-9D95DF738CBE
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.iprintunidiasyncnotifyregistration, IPrintUnidiAsyncNotifyRegistration interface [Print Devices], IPrintUnidiAsyncNotifyRegistration interface [Print Devices], described, IPrintUnidiAsyncNotifyRegistration, prnasntp/IPrintUnidiAsyncNotifyRegistration
+ms.date: 2/23/2018
+ms.keywords: IPrintUnidiAsyncNotifyRegistration, IPrintUnidiAsyncNotifyRegistration interface [Print Devices], IPrintUnidiAsyncNotifyRegistration interface [Print Devices], described, print.iprintunidiasyncnotifyregistration, prnasntp/IPrintUnidiAsyncNotifyRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Prnasntp.h
-apiname:
+api_name:
 -	IPrintUnidiAsyncNotifyRegistration
 product: Windows
 targetos: Windows
@@ -52,6 +52,13 @@ req.product: Windows 10 or later.
 
  Provides information on <b>IPrintUnidiAsyncNotifyRegistration</b> constructs.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintUnidiAsyncNotifyRegistration</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintUnidiAsyncNotifyRegistration</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 436fd67e-6696-4079-9bcf-7260de3bbc00
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILSYSTEMTIME structure [Network Drivers Starting with Windows Vista], RILSYSTEMTIME, *LPRILSYSTEMTIME, netvista.rilsystemtime_2, rilapitypes/RILSYSTEMTIME
+ms.keywords: "*LPRILSYSTEMTIME, RILSYSTEMTIME, RILSYSTEMTIME structure [Network Drivers Starting with Windows Vista], netvista.rilsystemtime_2, rilapitypes/RILSYSTEMTIME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILSYSTEMTIME
 product: Windows
 targetos: Windows

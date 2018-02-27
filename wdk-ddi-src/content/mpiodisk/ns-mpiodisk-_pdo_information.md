@@ -7,8 +7,8 @@ old-location: storage\pdo_information.htm
 old-project: storage
 ms.assetid: 26ce460f-b12d-4e5e-994a-047a1853325d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: mpiodisk/PPDO_INFORMATION, _PDO_INFORMATION, storage.pdo_information, PPDO_INFORMATION structure pointer [Storage Devices], PDO_INFORMATION, PPDO_INFORMATION, structs-scsibus_da7fe7ec-475b-4779-b4ed-7cf903fe2525.xml, mpiodisk/PDO_INFORMATION, PDO_INFORMATION structure [Storage Devices], *PPDO_INFORMATION
+ms.date: 2/24/2018
+ms.keywords: "*PPDO_INFORMATION, PDO_INFORMATION, PDO_INFORMATION structure [Storage Devices], PPDO_INFORMATION, PPDO_INFORMATION structure pointer [Storage Devices], _PDO_INFORMATION, mpiodisk/PDO_INFORMATION, mpiodisk/PPDO_INFORMATION, storage.pdo_information, structs-scsibus_da7fe7ec-475b-4779-b4ed-7cf903fe2525.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	mpiodisk.h
-apiname:
+api_name:
 -	PDO_INFORMATION
 product: Windows
 targetos: Windows

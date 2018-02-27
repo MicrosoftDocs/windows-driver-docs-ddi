@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ce0953d3-054f-446b-9f69-58f4580740f3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFNamedPropertyStore2, DeleteNamedValue method, wudfddi/IWDFNamedPropertyStore2::DeleteNamedValue, UMDFPropertyStoreObjectRef_9363c14f-0ff0-4c2f-910a-916b3cb9d664.xml, IWDFNamedPropertyStore2 interface, DeleteNamedValue method, DeleteNamedValue, IWDFNamedPropertyStore2::DeleteNamedValue, wdf.iwdfnamedpropertystore2_deletenamedvalue, umdf.iwdfnamedpropertystore2_deletenamedvalue, DeleteNamedValue method, IWDFNamedPropertyStore2 interface
+ms.keywords: DeleteNamedValue method, DeleteNamedValue method, IWDFNamedPropertyStore2 interface, DeleteNamedValue,IWDFNamedPropertyStore2.DeleteNamedValue, IWDFNamedPropertyStore2, IWDFNamedPropertyStore2 interface, DeleteNamedValue method, IWDFNamedPropertyStore2::DeleteNamedValue, UMDFPropertyStoreObjectRef_9363c14f-0ff0-4c2f-910a-916b3cb9d664.xml, umdf.iwdfnamedpropertystore2_deletenamedvalue, wdf.iwdfnamedpropertystore2_deletenamedvalue, wudfddi/IWDFNamedPropertyStore2::DeleteNamedValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFNamedPropertyStore2.DeleteNamedValue
 product: Windows
 targetos: Windows
@@ -147,11 +147,11 @@ CMyDevice::OnCleanup(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore2.md">IWDFNamedPropertyStore2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore2.md">IWDFNamedPropertyStore2</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: F7B4E80F-AB83-4E0F-9933-D953744A1970
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ACPI_GET_DEVICE_SPECIFIC_DATA structure [ACPI Devices], acpiioct/ACPI_GET_DEVICE_SPECIFIC_DATA, acpi.acpi_get_device_specific_data, _ACPI_GET_DEVICE_SPECIFIC_DATA, PACPI_GET_DEVICE_SPECIFIC_DATA, PACPI_GET_DEVICE_SPECIFIC_DATA structure pointer [ACPI Devices], acpiioct/PACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA, *PACPI_GET_DEVICE_SPECIFIC_DATA
+ms.keywords: "*PACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA structure [ACPI Devices], PACPI_GET_DEVICE_SPECIFIC_DATA, PACPI_GET_DEVICE_SPECIFIC_DATA structure pointer [ACPI Devices], _ACPI_GET_DEVICE_SPECIFIC_DATA, acpi.acpi_get_device_specific_data, acpiioct/ACPI_GET_DEVICE_SPECIFIC_DATA, acpiioct/PACPI_GET_DEVICE_SPECIFIC_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Acpiioct.h
-apiname:
+api_name:
 -	ACPI_GET_DEVICE_SPECIFIC_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA"
+req.typenames: ACPI_GET_DEVICE_SPECIFIC_DATA, *PACPI_GET_DEVICE_SPECIFIC_DATA
 ---
 
 # _ACPI_GET_DEVICE_SPECIFIC_DATA structure

@@ -4,11 +4,11 @@ title: ExtRemoteList::StartTail method
 author: windows-driver-content
 description: The StartTail method initializes the list for iterating backward, starting at the head.
 old-location: debugger\extremotelist_starttail.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: StartTail method [Windows Debugging], ExtRemoteList::StartTail, StartTail method [Windows Debugging], ExtRemoteList class, debugger.extremotelist_starttail, EngExtCpp_Ref_736ed502-a1e7-49cd-95f6-67201cb8dbb3.xml, ExtRemoteList, ExtRemoteList class [Windows Debugging], StartTail method, StartTail
+ms.date: 2/23/2018
+ms.keywords: EngExtCpp_Ref_736ed502-a1e7-49cd-95f6-67201cb8dbb3.xml, ExtRemoteList, ExtRemoteList class [Windows Debugging], StartTail method, ExtRemoteList::StartTail, StartTail method [Windows Debugging], StartTail method [Windows Debugging], ExtRemoteList class, StartTail,ExtRemoteList.StartTail, debugger.extremotelist_starttail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	engextcpp.hpp
-apiname:
+api_name:
 -	ExtRemoteList.StartTail
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C19C250D-3C8D-4855-A8B3-82E139CE09BB
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DiagnoseLevelFirmwareImageDump, eDiagnoseLevel enumeration [Network Drivers Starting with Windows Vista], eDiagnoseLevel, DiagnoseLevelNone, dot11wdi/DiagnoseLevelFirmwareImageDump, netvista.wdiediagnoselevel, dot11wdi/DiagnoseLevelNone, DiagnoseLevelDriverStateDump, dot11wdi/DiagnoseLevelDriverStateDump, dot11wdi/eDiagnoseLevel, dot11wdi/DiagnoseLevelHardwareRegisters, DiagnoseLevelHardwareRegisters
+ms.keywords: DiagnoseLevelDriverStateDump, DiagnoseLevelFirmwareImageDump, DiagnoseLevelHardwareRegisters, DiagnoseLevelNone, dot11wdi/DiagnoseLevelDriverStateDump, dot11wdi/DiagnoseLevelFirmwareImageDump, dot11wdi/DiagnoseLevelHardwareRegisters, dot11wdi/DiagnoseLevelNone, dot11wdi/eDiagnoseLevel, eDiagnoseLevel, eDiagnoseLevel enumeration [Network Drivers Starting with Windows Vista], netvista.wdiediagnoselevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dot11wdi.h
-apiname:
+api_name:
 -	eDiagnoseLevel
 product: Windows
 targetos: Windows

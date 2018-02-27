@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 52b2b97e-217b-445b-9c7a-093808f37aba
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SPEED_MAP structure [Buses], *PSPEED_MAP, 1394/PSPEED_MAP, 1394stct_0df32f88-2279-4df2-a7f3-856ddfdacb56.xml, PSPEED_MAP structure pointer [Buses], 1394/SPEED_MAP, _SPEED_MAP, IEEE.speed_map, PSPEED_MAP, SPEED_MAP
+ms.keywords: "*PSPEED_MAP, 1394/PSPEED_MAP, 1394/SPEED_MAP, 1394stct_0df32f88-2279-4df2-a7f3-856ddfdacb56.xml, IEEE.speed_map, PSPEED_MAP, PSPEED_MAP structure pointer [Buses], SPEED_MAP, SPEED_MAP structure [Buses], _SPEED_MAP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	1394.h
-apiname:
+api_name:
 -	SPEED_MAP
 product: Windows
 targetos: Windows
-req.typenames: "*PSPEED_MAP, SPEED_MAP"
+req.typenames: SPEED_MAP, *PSPEED_MAP
 ---
 
 # _SPEED_MAP structure

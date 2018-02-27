@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 362ABECF-66D3-4B0B-913B-59F7196D6BFD
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCIP_LISTEN structure pointer [Buses], 61883/CIP_LISTEN, CIP_LISTEN, CIP_LISTEN structure [Buses], 61883/PCIP_LISTEN, _CIP_LISTEN, PCIP_LISTEN, *PCIP_LISTEN, IEEE.cip_listen
+ms.keywords: "*PCIP_LISTEN, 61883/CIP_LISTEN, 61883/PCIP_LISTEN, CIP_LISTEN, CIP_LISTEN structure [Buses], IEEE.cip_listen, PCIP_LISTEN, PCIP_LISTEN structure pointer [Buses], _CIP_LISTEN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	61883.h
-apiname:
+api_name:
 -	CIP_LISTEN
 product: Windows
 targetos: Windows
-req.typenames: "*PCIP_LISTEN, CIP_LISTEN"
+req.typenames: CIP_LISTEN, *PCIP_LISTEN
 ---
 
 # _CIP_LISTEN structure

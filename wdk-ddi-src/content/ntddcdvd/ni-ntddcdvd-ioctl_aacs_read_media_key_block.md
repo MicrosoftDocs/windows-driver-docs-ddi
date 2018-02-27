@@ -7,8 +7,8 @@ old-location: storage\ioctl_aacs_read_media_key_block.htm
 old-project: storage
 ms.assetid: 08852f41-1836-4c55-bf6f-0246caa2c8bd
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.ioctl_aacs_read_media_key_block, IOCTL_AACS_READ_MEDIA_KEY_BLOCK control code [Storage Devices], IOCTL_AACS_READ_MEDIA_KEY_BLOCK, ntddcdvd/IOCTL_AACS_READ_MEDIA_KEY_BLOCK, k307_0e90884e-4c78-4fd5-b30c-eed14d73ba5e.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_AACS_READ_MEDIA_KEY_BLOCK, IOCTL_AACS_READ_MEDIA_KEY_BLOCK control code [Storage Devices], k307_0e90884e-4c78-4fd5-b30c-eed14d73ba5e.xml, ntddcdvd/IOCTL_AACS_READ_MEDIA_KEY_BLOCK, storage.ioctl_aacs_read_media_key_block
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddcdvd.h
-apiname:
+api_name:
 -	IOCTL_AACS_READ_MEDIA_KEY_BLOCK
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

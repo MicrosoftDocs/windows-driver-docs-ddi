@@ -7,8 +7,8 @@ old-location: storage\mpio_path_health_class.htm
 old-project: storage
 ms.assetid: 13be9014-e1ce-4b08-a264-c2828e8632ae
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PMPIO_PATH_HEALTH_CLASS structure pointer [Storage Devices], mpiowmi/PMPIO_PATH_HEALTH_CLASS, mpiowmi/MPIO_PATH_HEALTH_CLASS, _MPIO_PATH_HEALTH_CLASS, PMPIO_PATH_HEALTH_CLASS, MPIO_PATH_HEALTH_CLASS, structs-scsibus_ffbf044f-24cd-4e04-8a26-bfa5f2542189.xml, storage.mpio_path_health_class, MPIO_PATH_HEALTH_CLASS structure [Storage Devices], *PMPIO_PATH_HEALTH_CLASS
+ms.date: 2/24/2018
+ms.keywords: "*PMPIO_PATH_HEALTH_CLASS, MPIO_PATH_HEALTH_CLASS, MPIO_PATH_HEALTH_CLASS structure [Storage Devices], PMPIO_PATH_HEALTH_CLASS, PMPIO_PATH_HEALTH_CLASS structure pointer [Storage Devices], _MPIO_PATH_HEALTH_CLASS, mpiowmi/MPIO_PATH_HEALTH_CLASS, mpiowmi/PMPIO_PATH_HEALTH_CLASS, storage.mpio_path_health_class, structs-scsibus_ffbf044f-24cd-4e04-8a26-bfa5f2542189.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	mpiowmi.h
-apiname:
+api_name:
 -	MPIO_PATH_HEALTH_CLASS
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: kernel\rtluinttolong.htm
 old-project: kernel
 ms.assetid: 9C388D02-003B-4B0E-B2ED-E311AE750601
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RtlUIntToLong function [Kernel-Mode Driver Architecture], RtlUIntToLong, kernel.rtluinttolong, ntintsafe/RtlUIntToLong
+ms.date: 2/24/2018
+ms.keywords: RtlUIntToLong, RtlUIntToLong function [Kernel-Mode Driver Architecture], kernel.rtluinttolong, ntintsafe/RtlUIntToLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntintsafe.h
-apiname:
+api_name:
 -	RtlUIntToLong
 product: Windows
 targetos: Windows

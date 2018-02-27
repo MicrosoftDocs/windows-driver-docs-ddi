@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9891e360-ca09-4ebb-8cf4-d08b3456910c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFNamedPropertyStore::GetNameCount, umdf.iwdfnamedpropertystore_getnamecount, IWDFNamedPropertyStore, GetNameCount method, GetNameCount, IWDFNamedPropertyStore interface, GetNameCount method, wudfddi/IWDFNamedPropertyStore::GetNameCount, wdf.iwdfnamedpropertystore_getnamecount, GetNameCount method, IWDFNamedPropertyStore interface, UMDFPropertyStoreObjectRef_94f4d4d8-43e9-4901-a2bb-613761069daf.xml
+ms.keywords: GetNameCount method, GetNameCount method, IWDFNamedPropertyStore interface, GetNameCount,IWDFNamedPropertyStore.GetNameCount, IWDFNamedPropertyStore, IWDFNamedPropertyStore interface, GetNameCount method, IWDFNamedPropertyStore::GetNameCount, UMDFPropertyStoreObjectRef_94f4d4d8-43e9-4901-a2bb-613761069daf.xml, umdf.iwdfnamedpropertystore_getnamecount, wdf.iwdfnamedpropertystore_getnamecount, wudfddi/IWDFNamedPropertyStore::GetNameCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFNamedPropertyStore.GetNameCount
 product: Windows
 targetos: Windows

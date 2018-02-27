@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E9091C69-0E21-40CC-B3D3-1F770ABA0D47
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndispdallocatequeue, NdisPDAllocateQueue callback function [Network Drivers Starting with Windows Vista], NdisPDAllocateQueue, NDIS_PD_ALLOCATE_QUEUE, NDIS_PD_ALLOCATE_QUEUE, ndis/NdisPDAllocateQueue
+ms.keywords: NDIS_PD_ALLOCATE_QUEUE, NdisPDAllocateQueue, NdisPDAllocateQueue callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDAllocateQueue, netvista.ndispdallocatequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Ndis.h
-apiname:
+api_name:
 -	NdisPDAllocateQueue
 product: Windows
 targetos: Windows

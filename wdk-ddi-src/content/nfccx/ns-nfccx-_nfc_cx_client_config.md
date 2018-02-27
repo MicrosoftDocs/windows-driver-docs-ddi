@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 8E005C77-4234-4B32-90F2-E4A8A7CD6305
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PNFC_CX_CLIENT_CONFIG, NFC_CX_CLIENT_CONFIG, NFC_CX_CLIENT_CONFIG structure [Near-Field Proximity Drivers], nfccx/PNFC_CX_CLIENT_CONFIG, _NFC_CX_CLIENT_CONFIG, *PNFC_CX_CLIENT_CONFIG, nfpdrivers.nfc_cx_client_config, PNFC_CX_CLIENT_CONFIG structure pointer [Near-Field Proximity Drivers], nfccx/_NFC_CX_CLIENT_CONFIG
+ms.keywords: "*PNFC_CX_CLIENT_CONFIG, NFC_CX_CLIENT_CONFIG, NFC_CX_CLIENT_CONFIG structure [Near-Field Proximity Drivers], PNFC_CX_CLIENT_CONFIG, PNFC_CX_CLIENT_CONFIG structure pointer [Near-Field Proximity Drivers], _NFC_CX_CLIENT_CONFIG, nfccx/PNFC_CX_CLIENT_CONFIG, nfccx/_NFC_CX_CLIENT_CONFIG, nfpdrivers.nfc_cx_client_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	nfccx.h
-apiname:
+api_name:
 -	NFC_CX_CLIENT_CONFIG
 product: Windows
 targetos: Windows
@@ -84,7 +84,7 @@ Size of this structure in bytes.
 
 ### -field IsPowerPolicyOwner
 
- A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator. 
+ A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator. 
 
 
 ### -field PowerIdleTimeout

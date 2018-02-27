@@ -7,8 +7,8 @@ old-location: print\iprinterqueue_interface.htm
 old-project: print
 ms.assetid: 2DB57234-E783-4C6B-A743-F1E9F7D34D97
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.iprinterqueue_interface, IPrinterQueue interface [Print Devices], IPrinterQueue interface [Print Devices], described, IPrinterQueue, printerextension/IPrinterQueue
+ms.date: 2/23/2018
+ms.keywords: IPrinterQueue, IPrinterQueue interface [Print Devices], IPrinterQueue interface [Print Devices], described, print.iprinterqueue_interface, printerextension/IPrinterQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Printerextension.h
-apiname:
+api_name:
 -	IPrinterQueue
 product: Windows
 targetos: Windows
@@ -52,6 +52,14 @@ req.product: Windows 10 or later.
 
 Represents a single printer queue.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrinterQueue</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IPrinterQueue</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
 
 ## -members
 
@@ -79,13 +87,8 @@ Performs an asynchronous refresh operation with the specified query, and invokes
 
 </td>
 </tr>
-</table>Gets the properties in the property bag for the queue.
-
-Performs an asynchronous refresh operation with the specified query, and invokes the <a href="https://msdn.microsoft.com/D0CD9950-DF73-4D46-B901-FA45BA88D3CF">IPrinterQueueEvent::OnBidiResponseReceived</a> method.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrinterQueue</b> interface has these properties.
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrinterQueue</b> interface has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
@@ -124,23 +127,7 @@ Gets the name of the printer for this print queue.
 
 </td>
 </tr>
-</table>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973215">Handle</a>
-
-
-Read-only
-
-Gets the underlying native handle for this print queue.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
-
-
-Read-only
-
-Gets the name of the printer for this print queue.
-
- 
+</table> 
 
 
 ## -remarks
@@ -169,5 +156,5 @@ Any event sink that implements <a href="..\printerextension\nn-printerextension-
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterQueue interface%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterQueue interface%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

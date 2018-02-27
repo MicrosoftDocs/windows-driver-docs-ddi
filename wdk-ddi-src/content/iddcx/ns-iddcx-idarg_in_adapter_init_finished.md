@@ -7,8 +7,8 @@ old-location: display\idarg_in_adapter_init_finished.htm
 old-project: display
 ms.assetid: 7ff07613-7c40-4310-856a-a44dc97c7f20
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: IDARG_IN_ADAPTER_INIT_FINISHED structure [Display Devices], iddcx/IDARG_IN_ADAPTER_INIT_FINISHED, display.idarg_in_adapter_init_finished, IDARG_IN_ADAPTER_INIT_FINISHED
+ms.date: 2/24/2018
+ms.keywords: IDARG_IN_ADAPTER_INIT_FINISHED, IDARG_IN_ADAPTER_INIT_FINISHED structure [Display Devices], display.idarg_in_adapter_init_finished, iddcx/IDARG_IN_ADAPTER_INIT_FINISHED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	iddcx.h
-apiname:
+api_name:
 -	IDARG_IN_ADAPTER_INIT_FINISHED
 product: Windows
 targetos: Windows

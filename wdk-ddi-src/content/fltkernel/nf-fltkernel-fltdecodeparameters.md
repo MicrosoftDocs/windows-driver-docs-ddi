@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c0569a55-7bc0-4c98-80b9-c332c313ca5b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltDecodeParameters routine [Installable File System Drivers], FltDecodeParameters, fltkernel/FltDecodeParameters, FltApiRef_a_to_d_0e793d86-f756-4885-8b23-5f74cd50b144.xml, ifsk.fltdecodeparameters
+ms.keywords: FltApiRef_a_to_d_0e793d86-f756-4885-8b23-5f74cd50b144.xml, FltDecodeParameters, FltDecodeParameters routine [Installable File System Drivers], fltkernel/FltDecodeParameters, ifsk.fltdecodeparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	FltMgr.lib
 -	FltMgr.dll
-apiname:
+api_name:
 -	FltDecodeParameters
 product: Windows
 targetos: Windows
@@ -190,7 +190,7 @@ IoWriteAccess
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
 
 
 
@@ -198,7 +198,7 @@ IoWriteAccess
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_parameters.md">FLT_PARAMETERS</a>
 
 
 
@@ -206,11 +206,11 @@ IoWriteAccess
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_parameters.md">FLT_PARAMETERS</a>
-
-
-
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
 
 
 

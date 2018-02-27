@@ -4,11 +4,11 @@ title: IDebugAdvanced3::GetSymbolInformation method
 author: windows-driver-content
 description: The GetSymbolInformation method returns specified information about a symbol.
 old-location: debugger\getsymbolinformation.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 1866c6ad-57a2-4f3d-a2c8-f5748ecf42bc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.getsymbolinformation, GetSymbolInformation method [Windows Debugging], IDebugAdvanced_353e07f5-e506-4d5f-8c64-d3f500ff283f.xml, IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformation method, IDebugAdvanced2, IDebugAdvanced2 interface [Windows Debugging], GetSymbolInformation method, GetSymbolInformation method [Windows Debugging], IDebugAdvanced3 interface, GetSymbolInformation, IDebugAdvanced3, GetSymbolInformation method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced2::GetSymbolInformation, dbgeng/IDebugAdvanced2::GetSymbolInformation, dbgeng/IDebugAdvanced3::GetSymbolInformation, IDebugAdvanced3::GetSymbolInformation
+ms.date: 2/23/2018
+ms.keywords: GetSymbolInformation method [Windows Debugging], GetSymbolInformation method [Windows Debugging], IDebugAdvanced2 interface, GetSymbolInformation method [Windows Debugging], IDebugAdvanced3 interface, GetSymbolInformation,IDebugAdvanced3.GetSymbolInformation, IDebugAdvanced2 interface [Windows Debugging], GetSymbolInformation method, IDebugAdvanced2::GetSymbolInformation, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformation method, IDebugAdvanced3::GetSymbolInformation, IDebugAdvanced_353e07f5-e506-4d5f-8c64-d3f500ff283f.xml, dbgeng/IDebugAdvanced2::GetSymbolInformation, dbgeng/IDebugAdvanced3::GetSymbolInformation, debugger.getsymbolinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugAdvanced2.GetSymbolInformation
 -	IDebugAdvanced3.GetSymbolInformation
 product: Windows

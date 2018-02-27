@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 17d5ab30-141a-4b7b-93f1-113fb1a39ba6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvprocesssessionchange, Dot11ExtIhvProcessSessionChange callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvProcessSessionChange, DOT11EXTIHV_PROCESS_SESSION_CHANGE, DOT11EXTIHV_PROCESS_SESSION_CHANGE, wlanihv/Dot11ExtIhvProcessSessionChange, Native_802.11_IHV_Ext_158881c6-a8ae-4155-a2e6-549a47c3fce1.xml
+ms.keywords: DOT11EXTIHV_PROCESS_SESSION_CHANGE, Dot11ExtIhvProcessSessionChange, Dot11ExtIhvProcessSessionChange callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_158881c6-a8ae-4155-a2e6-549a47c3fce1.xml, netvista.dot11extihvprocesssessionchange, wlanihv/Dot11ExtIhvProcessSessionChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	Dot11ExtIhvProcessSessionChange
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 

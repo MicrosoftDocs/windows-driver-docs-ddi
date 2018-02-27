@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BDD2E8A6-D233-4581-AC1D-B6E33919898E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDK_SRQ, PNDK_SRQ structure pointer [Network Drivers Starting with Windows Vista], ndkpi/PNDK_SRQ, ndkpi/NDK_SRQ, NDK_SRQ, NDK_SRQ structure [Network Drivers Starting with Windows Vista], _NDK_SRQ, netvista.ndk_srq
+ms.keywords: NDK_SRQ, NDK_SRQ structure [Network Drivers Starting with Windows Vista], PNDK_SRQ, PNDK_SRQ structure pointer [Network Drivers Starting with Windows Vista], _NDK_SRQ, ndkpi/NDK_SRQ, ndkpi/PNDK_SRQ, netvista.ndk_srq
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndkpi.h
-apiname:
+api_name:
 -	NDK_SRQ
 product: Windows
 targetos: Windows
-req.typenames: NDK_SRQ
+req.typenames: NDK_SRQ, NDK_SRQ
 ---
 
 # _NDK_SRQ structure
@@ -89,7 +89,11 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_srq_dispatch.md">NDK_SRQ_DISPATCH</a>
+<a href="https://msdn.microsoft.com/2BF6F253-FCB4-4A61-9A67-81092F3C44E4">NDKPI Work Request Posting Requirements</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
 
 
 
@@ -105,7 +109,7 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_srq_dispatch.md">NDK_SRQ_DISPATCH</a>
 
 
 
@@ -113,11 +117,7 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 
 
-<a href="https://msdn.microsoft.com/2BF6F253-FCB4-4A61-9A67-81092F3C44E4">NDKPI Work Request Posting Requirements</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
 
 

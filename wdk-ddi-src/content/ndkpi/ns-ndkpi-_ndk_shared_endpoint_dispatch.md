@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A0AFCF2B-E1A9-478C-8B03-D7C873F83369
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_shared_endpoint_dispatch, ndkpi/NDK_SHARED_ENDPOINT_DISPATCH, _NDK_SHARED_ENDPOINT_DISPATCH, NDK_SHARED_ENDPOINT_DISPATCH, NDK_SHARED_ENDPOINT_DISPATCH structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDK_SHARED_ENDPOINT_DISPATCH, NDK_SHARED_ENDPOINT_DISPATCH structure [Network Drivers Starting with Windows Vista], _NDK_SHARED_ENDPOINT_DISPATCH, ndkpi/NDK_SHARED_ENDPOINT_DISPATCH, netvista.ndk_shared_endpoint_dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndkpi.h
-apiname:
+api_name:
 -	NDK_SHARED_ENDPOINT_DISPATCH
 product: Windows
 targetos: Windows
@@ -95,11 +95,11 @@ The <b>NDK_SHARED_ENDPOINT_DISPATCH</b> structure is used in the <a href="..\ndk
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_shared_endpoint_local_address.md">NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS</a>
 
 
 
@@ -107,7 +107,7 @@ The <b>NDK_SHARED_ENDPOINT_DISPATCH</b> structure is used in the <a href="..\ndk
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_shared_endpoint_local_address.md">NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
 
 

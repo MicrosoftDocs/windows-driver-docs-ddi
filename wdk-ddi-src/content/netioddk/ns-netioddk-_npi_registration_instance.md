@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a368f9d9-a7e0-4b35-ba14-b0919f74029d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NPI_REGISTRATION_INSTANCE, netioddk/NPI_REGISTRATION_INSTANCE, PNPI_REGISTRATION_INSTANCE structure pointer [Network Drivers Starting with Windows Vista], nmrref_a31a8531-bab8-47d5-b79e-a239dcde475f.xml, NPI_REGISTRATION_INSTANCE structure [Network Drivers Starting with Windows Vista], _NPI_REGISTRATION_INSTANCE, netvista.npi_registration_instance, netioddk/PNPI_REGISTRATION_INSTANCE, PNPI_REGISTRATION_INSTANCE
+ms.keywords: NPI_REGISTRATION_INSTANCE, NPI_REGISTRATION_INSTANCE structure [Network Drivers Starting with Windows Vista], PNPI_REGISTRATION_INSTANCE, PNPI_REGISTRATION_INSTANCE structure pointer [Network Drivers Starting with Windows Vista], _NPI_REGISTRATION_INSTANCE, netioddk/NPI_REGISTRATION_INSTANCE, netioddk/PNPI_REGISTRATION_INSTANCE, netvista.npi_registration_instance, nmrref_a31a8531-bab8-47d5-b79e-a239dcde475f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "< DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	netioddk.h
-apiname:
+api_name:
 -	NPI_REGISTRATION_INSTANCE
 product: Windows
 targetos: Windows
@@ -178,7 +178,11 @@ A network module must make sure that the memory for the NPIID pointed to by the
 
 
 
-<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568813">NPI_MODULEID</a>
+
+
+
+<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
 
 
 
@@ -186,11 +190,7 @@ A network module must make sure that the memory for the NPIID pointed to by the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568813">NPI_MODULEID</a>
-
-
-
-<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
+<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
 
 
 

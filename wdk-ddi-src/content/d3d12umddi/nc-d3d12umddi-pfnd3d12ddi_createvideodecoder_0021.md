@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_createvideodecoder.htm
 old-project: display
 ms.assetid: 5E0B6A5A-FA6E-4722-B442-FE74437224B3
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.pfnd3d12ddi_createvideodecoder, pfnCreateVideoDecoder callback function [Display Devices], pfnCreateVideoDecoder, PFND3D12DDI_CREATEVIDEODECODER_0021, PFND3D12DDI_CREATEVIDEODECODER_0021, d3d12umddi/pfnCreateVideoDecoder
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_CREATEVIDEODECODER_0021, d3d12umddi/pfnCreateVideoDecoder, display.pfnd3d12ddi_createvideodecoder, pfnCreateVideoDecoder, pfnCreateVideoDecoder callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	D3d12umddi.h
-apiname:
+api_name:
 -	pfnCreateVideoDecoder
 product: Windows
 targetos: Windows

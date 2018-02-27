@@ -4,11 +4,11 @@ title: PWINDBG_STACKTRACE_ROUTINE
 author: windows-driver-content
 description: The PWINDBG_STACKTRACE_ROUTINE (StackTrace) function retrieves a stack trace for the process being debugged. Returns the number of frames read into the buffer pointed to by StackFrames.
 old-location: debugger\stacktrace.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 689d99a2-6971-4098-84fb-4c40dc2bbaac
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.stacktrace, StackTrace, StackTrace callback function [Windows Debugging], StackTrace, PWINDBG_STACKTRACE_ROUTINE, PWINDBG_STACKTRACE_ROUTINE, wdbgexts/StackTrace, WdbgExts_Ref_5ccc4adf-2b59-4373-8e4a-3bc8847c5749.xml
+ms.date: 2/23/2018
+ms.keywords: PWINDBG_STACKTRACE_ROUTINE, StackTrace, StackTrace callback function [Windows Debugging], WdbgExts_Ref_5ccc4adf-2b59-4373-8e4a-3bc8847c5749.xml, debugger.stacktrace, wdbgexts/StackTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wdbgexts.h
-apiname:
+api_name:
 -	StackTrace
 product: Windows
 targetos: Windows

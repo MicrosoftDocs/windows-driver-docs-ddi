@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: FE396C2C-B099-47F4-9C27-93D420D54103
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PCIP_STOP, 61883/CIP_STOP, CIP_STOP structure [Buses], _CIP_STOP, IEEE.cip_stop, PCIP_STOP, CIP_STOP, PCIP_STOP structure pointer [Buses], 61883/PCIP_STOP"
+ms.keywords: "*PCIP_STOP, 61883/CIP_STOP, 61883/PCIP_STOP, CIP_STOP, CIP_STOP structure [Buses], IEEE.cip_stop, PCIP_STOP, PCIP_STOP structure pointer [Buses], _CIP_STOP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	61883.h
-apiname:
+api_name:
 -	CIP_STOP
 product: Windows
 targetos: Windows
-req.typenames: "*PCIP_STOP, CIP_STOP"
+req.typenames: CIP_STOP, *PCIP_STOP
 ---
 
 # _CIP_STOP structure

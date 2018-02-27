@@ -7,8 +7,8 @@ old-location: display\iddcxswapchainreleaseandacquirebuffer.htm
 old-project: display
 ms.assetid: f9b0cf3f-cbb6-4b44-81c1-b60ae525ec17
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: IddCxSwapChainReleaseAndAcquireBuffer, iddcx/IddCxSwapChainReleaseAndAcquireBuffer, IddCxSwapChainReleaseAndAcquireBuffer method [Display Devices], display.iddcxswapchainreleaseandacquirebuffer
+ms.date: 2/24/2018
+ms.keywords: IddCxSwapChainReleaseAndAcquireBuffer, IddCxSwapChainReleaseAndAcquireBuffer method [Display Devices], display.iddcxswapchainreleaseandacquirebuffer, iddcx/IddCxSwapChainReleaseAndAcquireBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "_Must_inspect_result_"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	iddcx.h
-apiname:
+api_name:
 -	IddCxSwapChainReleaseAndAcquireBuffer
 product: Windows
 targetos: Windows

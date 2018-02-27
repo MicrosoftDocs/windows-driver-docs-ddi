@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 46fd1e3e-38de-460e-8bb8-ff7db2a16e1a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILSENDMSGRESPONSE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILSENDMSGRESPONSE, RILSENDMSGRESPONSE, *LPRILSENDMSGRESPONSE, netvista.rilsendmsgresponse_2
+ms.keywords: "*LPRILSENDMSGRESPONSE, RILSENDMSGRESPONSE, RILSENDMSGRESPONSE structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgresponse_2, rilapitypes/RILSENDMSGRESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILSENDMSGRESPONSE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILSENDMSGRESPONSE, RILSENDMSGRESPONSE"
+req.typenames: RILSENDMSGRESPONSE, *LPRILSENDMSGRESPONSE
 req.product: Windows 10 or later.
 ---
 

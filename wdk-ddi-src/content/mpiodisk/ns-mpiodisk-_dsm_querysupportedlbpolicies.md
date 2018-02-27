@@ -7,8 +7,8 @@ old-location: storage\dsm_querysupportedlbpolicies.htm
 old-project: storage
 ms.assetid: c9c04601-783a-454d-a80e-be8aa5df519a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.dsm_querysupportedlbpolicies, DSM_QuerySupportedLBPolicies structure [Storage Devices], _DSM_QuerySupportedLBPolicies, *PDSM_QuerySupportedLBPolicies, PDSM_QuerySupportedLBPolicies, mpiodisk/DSM_QuerySupportedLBPolicies, structs-scsibus_44692da4-cfd1-4492-94b5-1f601fa53fd0.xml, PDSM_QuerySupportedLBPolicies structure pointer [Storage Devices], mpiodisk/PDSM_QuerySupportedLBPolicies, DSM_QuerySupportedLBPolicies
+ms.date: 2/24/2018
+ms.keywords: "*PDSM_QuerySupportedLBPolicies, DSM_QuerySupportedLBPolicies, DSM_QuerySupportedLBPolicies structure [Storage Devices], PDSM_QuerySupportedLBPolicies, PDSM_QuerySupportedLBPolicies structure pointer [Storage Devices], _DSM_QuerySupportedLBPolicies, mpiodisk/DSM_QuerySupportedLBPolicies, mpiodisk/PDSM_QuerySupportedLBPolicies, storage.dsm_querysupportedlbpolicies, structs-scsibus_44692da4-cfd1-4492-94b5-1f601fa53fd0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	mpiodisk.h
-apiname:
+api_name:
 -	DSM_QuerySupportedLBPolicies
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0fc9fb57-219e-4a3d-bc82-904ab8657d66
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RxPostToWorkerThread, rxref_19387eca-2666-41c0-a93d-2133d3ca03ee.xml, RxPostToWorkerThread routine [Installable File System Drivers], ifsk.rxposttoworkerthread, rxworkq/RxPostToWorkerThread
+ms.keywords: RxPostToWorkerThread, RxPostToWorkerThread routine [Installable File System Drivers], ifsk.rxposttoworkerthread, rxref_19387eca-2666-41c0-a93d-2133d3ca03ee.xml, rxworkq/RxPostToWorkerThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rxworkq.h
-apiname:
+api_name:
 -	RxPostToWorkerThread
 product: Windows
 targetos: Windows
@@ -176,11 +176,11 @@ If the <b>RxPostToWorkerThread </b>routine fails on a debug build, the <a href="
 
 
 
-<a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread</a>
-
-
-
 <a href="..\rxworkq\nf-rxworkq-rxspindownmrxdispatcher.md">RxSpinDownMRxDispatcher</a>
+
+
+
+<a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread</a>
 
 
 

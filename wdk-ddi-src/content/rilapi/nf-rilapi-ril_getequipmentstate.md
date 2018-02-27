@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cf7f1572-b967-4aaf-8705-99ede231484a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_GetEquipmentState, netvista.ril_getequipmentstate, RIL_GetEquipmentState method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetEquipmentState
+ms.keywords: RIL_GetEquipmentState, RIL_GetEquipmentState method [Network Drivers Starting with Windows Vista], netvista.ril_getequipmentstate, rilapi/RIL_GetEquipmentState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapi.h
-apiname:
+api_name:
 -	RIL_GetEquipmentState
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

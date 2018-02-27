@@ -7,8 +7,8 @@ old-location: display\videoportgetassociateddeviceextension.htm
 old-project: display
 ms.assetid: 825e2b61-6b51-4553-88e1-0aff2e9e3cce
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: VideoPortGetAssociatedDeviceExtension, display.videoportgetassociateddeviceextension, VideoPort_Functions_7116b537-1296-4136-b62c-ce5918eea10d.xml, VideoPortGetAssociatedDeviceExtension function [Display Devices], video/VideoPortGetAssociatedDeviceExtension
+ms.date: 2/24/2018
+ms.keywords: VideoPortGetAssociatedDeviceExtension, VideoPortGetAssociatedDeviceExtension function [Display Devices], VideoPort_Functions_7116b537-1296-4136-b62c-ce5918eea10d.xml, display.videoportgetassociateddeviceextension, video/VideoPortGetAssociatedDeviceExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Videoprt.sys
-apiname:
+api_name:
 -	VideoPortGetAssociatedDeviceExtension
 product: Windows
 targetos: Windows

@@ -4,11 +4,11 @@ title: IDebugSystemObjects2::GetCurrentProcessSystemId method
 author: windows-driver-content
 description: The GetCurrentProcessSystemId method returns the system process ID of the current process.
 old-location: debugger\getcurrentprocesssystemid.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 850f2f86-af0d-414a-99d7-d081753c591f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessSystemId method, dbgeng/IDebugSystemObjects3::GetCurrentProcessSystemId, IDebugSystemObjects, GetCurrentProcessSystemId method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessSystemId method, IDebugSystemObjects_e2d8479b-c723-462c-b423-905186bf69e6.xml, dbgeng/IDebugSystemObjects2::GetCurrentProcessSystemId, IDebugSystemObjects::GetCurrentProcessSystemId, IDebugSystemObjects2::GetCurrentProcessSystemId, GetCurrentProcessSystemId method [Windows Debugging], debugger.getcurrentprocesssystemid, IDebugSystemObjects2, dbgeng/IDebugSystemObjects::GetCurrentProcessSystemId, GetCurrentProcessSystemId method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessSystemId method, GetCurrentProcessSystemId method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects4::GetCurrentProcessSystemId, dbgeng/IDebugSystemObjects4::GetCurrentProcessSystemId, GetCurrentProcessSystemId, GetCurrentProcessSystemId method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects3::GetCurrentProcessSystemId, IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessSystemId method
+ms.date: 2/23/2018
+ms.keywords: GetCurrentProcessSystemId method [Windows Debugging], GetCurrentProcessSystemId method [Windows Debugging], IDebugSystemObjects interface, GetCurrentProcessSystemId method [Windows Debugging], IDebugSystemObjects2 interface, GetCurrentProcessSystemId method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentProcessSystemId method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentProcessSystemId,IDebugSystemObjects2.GetCurrentProcessSystemId, IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessSystemId method, IDebugSystemObjects2, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessSystemId method, IDebugSystemObjects2::GetCurrentProcessSystemId, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessSystemId method, IDebugSystemObjects3::GetCurrentProcessSystemId, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessSystemId method, IDebugSystemObjects4::GetCurrentProcessSystemId, IDebugSystemObjects::GetCurrentProcessSystemId, IDebugSystemObjects_e2d8479b-c723-462c-b423-905186bf69e6.xml, dbgeng/IDebugSystemObjects2::GetCurrentProcessSystemId, dbgeng/IDebugSystemObjects3::GetCurrentProcessSystemId, dbgeng/IDebugSystemObjects4::GetCurrentProcessSystemId, dbgeng/IDebugSystemObjects::GetCurrentProcessSystemId, debugger.getcurrentprocesssystemid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugSystemObjects.GetCurrentProcessSystemId
 -	IDebugSystemObjects2.GetCurrentProcessSystemId
 -	IDebugSystemObjects3.GetCurrentProcessSystemId

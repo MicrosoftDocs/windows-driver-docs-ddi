@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: EB3C395F-235A-4B9A-B777-E4E8CD8AFC3C
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_close_completion, NdkCloseCompletion callback function [Network Drivers Starting with Windows Vista], NdkCloseCompletion, NDK_FN_CLOSE_COMPLETION, NDK_FN_CLOSE_COMPLETION, ndkpi/NdkCloseCompletion
+ms.keywords: NDK_FN_CLOSE_COMPLETION, NdkCloseCompletion, NdkCloseCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCloseCompletion, netvista.ndk_fn_close_completion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ndkpi.h
-apiname:
+api_name:
 -	NdkCloseCompletion
 product: Windows
 targetos: Windows
@@ -103,11 +103,11 @@ The provider will call the <i>NdkCloseCompletion</i> function after all  pending
 
 ## -see-also
 
+<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
 
 
@@ -115,7 +115,7 @@ The provider will call the <i>NdkCloseCompletion</i> function after all  pending
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
 
 

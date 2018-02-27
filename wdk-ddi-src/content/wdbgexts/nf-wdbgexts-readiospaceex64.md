@@ -4,11 +4,11 @@ title: ReadIoSpaceEx64 function
 author: windows-driver-content
 description: The ReadIoSpaceEx64 function is an extended version of ReadIoSpace64.
 old-location: debugger\readiospaceex64.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 6903a684-e9da-4ff0-b5ea-330b070849c6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: ReadIoSpaceEx64, debugger.readiospaceex64, WdbgExts_Ref_5d81517c-f30d-4f8c-b4fe-e3487ad6c49e.xml, ReadIoSpaceEx64 function [Windows Debugging], wdbgexts/ReadIoSpaceEx64
+ms.date: 2/23/2018
+ms.keywords: ReadIoSpaceEx64, ReadIoSpaceEx64 function [Windows Debugging], WdbgExts_Ref_5d81517c-f30d-4f8c-b4fe-e3487ad6c49e.xml, debugger.readiospaceex64, wdbgexts/ReadIoSpaceEx64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdbgexts.h
-apiname:
+api_name:
 -	ReadIoSpaceEx64
 product: Windows
 targetos: Windows

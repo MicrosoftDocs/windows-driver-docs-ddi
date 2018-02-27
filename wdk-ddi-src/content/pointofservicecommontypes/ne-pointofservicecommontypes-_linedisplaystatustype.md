@@ -7,8 +7,8 @@ old-location: pos\linedisplaystatustype.htm
 old-project: pos
 ms.assetid: B3260D6C-F363-4077-BA8C-88BBEDA167D8
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: pointofservicecommontypes/LineDisplayStatusType, _LineDisplayStatusType, LineDisplayStatusType enumeration, LineDisplayStatusType, PLineDisplayStatusType enumeration pointer, pos.linedisplaystatustype, pointofservicecommontypes/PLineDisplayStatusType, PLineDisplayStatusType, pointofservicecommontypes/
+ms.date: 2/23/2018
+ms.keywords: LineDisplayStatusType, LineDisplayStatusType enumeration, PLineDisplayStatusType, PLineDisplayStatusType enumeration pointer, _LineDisplayStatusType, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayStatusType, pointofservicecommontypes/PLineDisplayStatusType, pos.linedisplaystatustype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pointofservicecommontypes.h
-apiname:
+api_name:
 -	LineDisplayStatusType
 product: Windows
 targetos: Windows

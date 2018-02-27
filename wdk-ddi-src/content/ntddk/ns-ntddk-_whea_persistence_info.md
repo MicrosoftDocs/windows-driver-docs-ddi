@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: ab429d1b-0b4d-4897-b5f0-73113d16758e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WHEA_PERSISTENCE_INFO, PWHEA_PERSISTENCE_INFO, _WHEA_PERSISTENCE_INFO, ntddk/PWHEA_PERSISTENCE_INFO, whearef_0c5f7bbf-fc55-4667-b97a-9b28ec014bb5.xml, PWHEA_PERSISTENCE_INFO union pointer [WHEA Drivers and Applications], WHEA_PERSISTENCE_INFO union [WHEA Drivers and Applications], *PWHEA_PERSISTENCE_INFO, whea.whea_persistence_info, ntddk/WHEA_PERSISTENCE_INFO
+ms.keywords: "*PWHEA_PERSISTENCE_INFO, PWHEA_PERSISTENCE_INFO, PWHEA_PERSISTENCE_INFO union pointer [WHEA Drivers and Applications], WHEA_PERSISTENCE_INFO, WHEA_PERSISTENCE_INFO union [WHEA Drivers and Applications], _WHEA_PERSISTENCE_INFO, ntddk/PWHEA_PERSISTENCE_INFO, ntddk/WHEA_PERSISTENCE_INFO, whea.whea_persistence_info, whearef_0c5f7bbf-fc55-4667-b97a-9b28ec014bb5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddk.h
-apiname:
+api_name:
 -	WHEA_PERSISTENCE_INFO
 product: Windows
 targetos: Windows
@@ -85,21 +85,6 @@ typedef union _WHEA_PERSISTENCE_INFO {
 A ULONGLONG representation of the contents of the WHEA_PERSISTENCE_INFO union.
 
 
-#### - Signature
-
-The signature of the error record when it is stored in the platform's persistent data storage. This member contains the value 'RE'.
-
-
-#### - Length
-
-The length, in bytes, of the error record when it is stored in the platform's persistent data storage.
-
-
-#### - Identifier
-
-An identifier that uniquely identifies the error record when it is stored in the platform's persistent data storage. The data type for this identifier is WHEA_ERROR_RECORD_ID.
-
-
 #### - Attributes
 
 Attribute flags that describe the error record. No attributes are currently defined.
@@ -110,9 +95,24 @@ Attribute flags that describe the error record. No attributes are currently defi
 A single bit that indicates that WHEA should not log an entry in the system event log for the error record.
 
 
+#### - Identifier
+
+An identifier that uniquely identifies the error record when it is stored in the platform's persistent data storage. The data type for this identifier is WHEA_ERROR_RECORD_ID.
+
+
+#### - Length
+
+The length, in bytes, of the error record when it is stored in the platform's persistent data storage.
+
+
 #### - Reserved
 
 Reserved for system use. This member must be zero.
+
+
+#### - Signature
+
+The signature of the error record when it is stored in the platform's persistent data storage. This member contains the value 'RE'.
 
 
 ## -remarks

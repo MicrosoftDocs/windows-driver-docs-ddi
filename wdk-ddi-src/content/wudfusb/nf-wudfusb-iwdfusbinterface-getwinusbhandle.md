@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 31c23596-21b2-4fb2-96bd-5372fe2432ab
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetWinUsbHandle method, IWDFUsbInterface interface, IWDFUsbInterface::GetWinUsbHandle, umdf.iwdfusbinterface_getwinusbhandle, wdf.iwdfusbinterface_getwinusbhandle, UMDFUSBref_6c94f0cc-8995-45c9-8101-bc123b0e48bf.xml, IWDFUsbInterface, wudfusb/IWDFUsbInterface::GetWinUsbHandle, GetWinUsbHandle, IWDFUsbInterface interface, GetWinUsbHandle method, GetWinUsbHandle method
+ms.keywords: GetWinUsbHandle method, GetWinUsbHandle method, IWDFUsbInterface interface, GetWinUsbHandle,IWDFUsbInterface.GetWinUsbHandle, IWDFUsbInterface, IWDFUsbInterface interface, GetWinUsbHandle method, IWDFUsbInterface::GetWinUsbHandle, UMDFUSBref_6c94f0cc-8995-45c9-8101-bc123b0e48bf.xml, umdf.iwdfusbinterface_getwinusbhandle, wdf.iwdfusbinterface_getwinusbhandle, wudfusb/IWDFUsbInterface::GetWinUsbHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFUsbInterface.GetWinUsbHandle
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -96,15 +96,15 @@ The UMDF driver should not call the <a href="https://msdn.microsoft.com/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540233">WinUsb_Free</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540233">WinUsb_Free</a>
+<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540233">WinUsb_Free</a>
 
 
 

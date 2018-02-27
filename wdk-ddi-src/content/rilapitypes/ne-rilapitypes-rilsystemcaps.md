@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d8148f94-d3f0-4578-83a3-024e64c9258b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_SYSTEMCAPS_ALL, RIL_SYSTEMCAPS_VOICEDATA, rilapitypes/RIL_SYSTEMCAPS_VOICEDATA, RILSYSTEMCAPS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILSYSTEMCAPS, rilapitypes/RIL_SYSTEMCAPS_ALL, RILSYSTEMCAPS, netvista.rilsystemcaps_2
+ms.keywords: RILSYSTEMCAPS, RILSYSTEMCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_SYSTEMCAPS_ALL, RIL_SYSTEMCAPS_VOICEDATA, netvista.rilsystemcaps_2, rilapitypes/RILSYSTEMCAPS, rilapitypes/RIL_SYSTEMCAPS_ALL, rilapitypes/RIL_SYSTEMCAPS_VOICEDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILSYSTEMCAPS
 product: Windows
 targetos: Windows

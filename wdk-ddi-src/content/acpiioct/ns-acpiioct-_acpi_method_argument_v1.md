@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 4038d5a5-9ce7-44cb-a6f0-3033617cfe6a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ACPI_METHOD_ARGUMENT, ACPI_METHOD_ARGUMENT_V1, _ACPI_METHOD_ARGUMENT_V1, *PACPI_METHOD_ARGUMENT_V1, acpi-meth-eval-ref_a8988425-e05b-4e85-a345-31a367dec427.xml, ACPI_METHOD_ARGUMENT_V1 structure [ACPI Devices], acpi.acpi_method_argument, acpiioct/ACPI_METHOD_ARGUMENT_V1, *PACPI_METHOD_ARGUMENT
+ms.keywords: "*PACPI_METHOD_ARGUMENT, *PACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT, ACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT_V1 structure [ACPI Devices], _ACPI_METHOD_ARGUMENT_V1, acpi-meth-eval-ref_a8988425-e05b-4e85-a345-31a367dec427.xml, acpi.acpi_method_argument, acpiioct/ACPI_METHOD_ARGUMENT_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Acpiioct.h
-apiname:
+api_name:
 -	ACPI_METHOD_ARGUMENT_V1
 product: Windows
 targetos: Windows
@@ -160,7 +160,7 @@ For more information about how to use ACPI_METHOD_ARGUMENT structures to supply 
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_output_buffer_v1.md">ACPI_EVAL_OUTPUT_BUFFER</a>
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: audio\iminiportwavert_getdevicedescription.htm
 old-project: audio
 ms.assetid: c6c0da06-c304-4d2d-907c-ccbb141c385b
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iminiportwavert_getdevicedescription, GetDeviceDescription method [Audio Devices], IMiniportWaveRT interface, audmp-routines_3a5441ed-a935-42ea-84be-29f1f6b6db07.xml, GetDeviceDescription, IMiniportWaveRT interface [Audio Devices], GetDeviceDescription method, GetDeviceDescription method [Audio Devices], portcls/IMiniportWaveRT::GetDeviceDescription, IMiniportWaveRT::GetDeviceDescription, IMiniportWaveRT
+ms.date: 2/22/2018
+ms.keywords: GetDeviceDescription method [Audio Devices], GetDeviceDescription method [Audio Devices], IMiniportWaveRT interface, GetDeviceDescription,IMiniportWaveRT.GetDeviceDescription, IMiniportWaveRT, IMiniportWaveRT interface [Audio Devices], GetDeviceDescription method, IMiniportWaveRT::GetDeviceDescription, audio.iminiportwavert_getdevicedescription, audmp-routines_3a5441ed-a935-42ea-84be-29f1f6b6db07.xml, portcls/IMiniportWaveRT::GetDeviceDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Passive level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IMiniportWaveRT.GetDeviceDescription
 product: Windows
 targetos: Windows
@@ -92,6 +92,10 @@ The <i>DeviceDescription</i> parameter contains a pointer to a DEVICE_DESCRIPTIO
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+
+
+
 <a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
 
 
@@ -100,13 +104,9 @@ The <i>DeviceDescription</i> parameter contains a pointer to a DEVICE_DESCRIPTIO
 
 
 
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveRT::GetDeviceDescription method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveRT::GetDeviceDescription method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

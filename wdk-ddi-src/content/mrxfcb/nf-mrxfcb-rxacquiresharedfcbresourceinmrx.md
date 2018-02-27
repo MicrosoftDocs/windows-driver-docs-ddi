@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5ef976a7-5be6-414b-a558-75c107f75d61
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: mrxfcb/RxAcquireSharedFcbResourceInMRx, RxAcquireSharedFcbResourceInMRx, rxref_8be6c6b8-c906-4071-b1a1-7687f044dcb7.xml, RxAcquireSharedFcbResourceInMRx routine [Installable File System Drivers], ifsk.rxacquiresharedfcbresourceinmrx
+ms.keywords: RxAcquireSharedFcbResourceInMRx, RxAcquireSharedFcbResourceInMRx routine [Installable File System Drivers], ifsk.rxacquiresharedfcbresourceinmrx, mrxfcb/RxAcquireSharedFcbResourceInMRx, rxref_8be6c6b8-c906-4071-b1a1-7687f044dcb7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	mrxfcb.h
-apiname:
+api_name:
 -	RxAcquireSharedFcbResourceInMRx
 product: Windows
 targetos: Windows
@@ -133,6 +133,10 @@ An FCB resource acquired with <b>RxAcquireSharedFcbResourceInMRx </b>should be r
 
 ## -see-also
 
+<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceinmrx.md">RxReleaseFcbResourceInMRx</a>
+
+
+
 <a href="..\mrxfcb\nf-mrxfcb-rxacquireexclusivefcbresourceinmrx.md">RxAcquireExclusiveFcbResourceInMRx</a>
 
 
@@ -142,10 +146,6 @@ An FCB resource acquired with <b>RxAcquireSharedFcbResourceInMRx </b>should be r
 
 
 <a href="..\mrxfcb\nf-mrxfcb-rxacquiresharedfcbresourceinmrxex.md">RxAcquireSharedFcbResourceInMRxEx</a>
-
-
-
-<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceinmrx.md">RxReleaseFcbResourceInMRx</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: stream\iksinterfacehandler_ksprocessmediasamples.htm
 old-project: stream
 ms.assetid: 3f0982d8-4ac3-40f6-8587-624c26d25510
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KsProcessMediaSamples method [Streaming Media Devices], IKsInterfaceHandler interface, IKsInterfaceHandler interface [Streaming Media Devices], KsProcessMediaSamples method, IKsInterfaceHandler, stream.iksinterfacehandler_ksprocessmediasamples, KsProcessMediaSamples method [Streaming Media Devices], KsProcessMediaSamples, IKsInterfaceHandler::KsProcessMediaSamples, ksproxy_929792a7-d5c4-4568-9178-866b9738079b.xml, ksproxy/IKsInterfaceHandler::KsProcessMediaSamples
+ms.date: 2/23/2018
+ms.keywords: IKsInterfaceHandler, IKsInterfaceHandler interface [Streaming Media Devices], KsProcessMediaSamples method, IKsInterfaceHandler::KsProcessMediaSamples, KsProcessMediaSamples method [Streaming Media Devices], KsProcessMediaSamples method [Streaming Media Devices], IKsInterfaceHandler interface, KsProcessMediaSamples,IKsInterfaceHandler.KsProcessMediaSamples, ksproxy/IKsInterfaceHandler::KsProcessMediaSamples, ksproxy_929792a7-d5c4-4568-9178-866b9738079b.xml, stream.iksinterfacehandler_ksprocessmediasamples
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	ksproxy.h
-apiname:
+api_name:
 -	IKsInterfaceHandler.KsProcessMediaSamples
 product: Windows
 targetos: Windows
@@ -148,11 +148,11 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559836">IKsDataTypeHandler::KsQueryExtendedSize</a>
-
-
-
 <a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559836">IKsDataTypeHandler::KsQueryExtendedSize</a>
 
 
 
@@ -164,5 +164,5 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsInterfaceHandler::KsProcessMediaSamples method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsInterfaceHandler::KsProcessMediaSamples method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 25b2dd6a-2e20-4221-bef4-0001bbaae1d5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: LOCK_OPERATION, wdm/IoWriteAccess, LOCK_OPERATION enumeration [Installable File System Drivers], wdm/IoReadAccess, IoWriteAccess, ifsk.lock_operation, IoModifyAccess, IoReadAccess, wdm/LOCK_OPERATION, wdm/IoModifyAccess, _LOCK_OPERATION
+ms.keywords: IoModifyAccess, IoReadAccess, IoWriteAccess, LOCK_OPERATION, LOCK_OPERATION enumeration [Installable File System Drivers], _LOCK_OPERATION, ifsk.lock_operation, wdm/IoModifyAccess, wdm/IoReadAccess, wdm/IoWriteAccess, wdm/LOCK_OPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdm.h
-apiname:
+api_name:
 -	LOCK_OPERATION
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6675d529-10de-4c39-999c-4c18471ea6e0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltFreeGenericWorkItem routine [Installable File System Drivers], FltFreeGenericWorkItem, FltApiRef_e_to_o_e8a6dadd-879e-4476-9433-40a065066445.xml, fltkernel/FltFreeGenericWorkItem, ifsk.fltfreegenericworkitem
+ms.keywords: FltApiRef_e_to_o_e8a6dadd-879e-4476-9433-40a065066445.xml, FltFreeGenericWorkItem, FltFreeGenericWorkItem routine [Installable File System Drivers], fltkernel/FltFreeGenericWorkItem, ifsk.fltfreegenericworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	fltmgr.sys
-apiname:
+api_name:
 -	FltFreeGenericWorkItem
 product: Windows
 targetos: Windows
@@ -92,11 +92,11 @@ None
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltqueuegenericworkitem.md">FltQueueGenericWorkItem</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltallocategenericworkitem.md">FltAllocateGenericWorkItem</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltqueuegenericworkitem.md">FltQueueGenericWorkItem</a>
 
 
 

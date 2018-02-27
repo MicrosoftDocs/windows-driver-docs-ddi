@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: badbc73a-44aa-4917-83a8-2ebd9f9ec576
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlIsAnsiCharacterWild, fsrtlref_f5a31572-36b5-4bc3-8224-a4a7d8b74c65.xml, FsRtlIsAnsiCharacterWild function [Installable File System Drivers], ifsk.fsrtlisansicharacterwild, ntifs/FsRtlIsAnsiCharacterWild
+ms.keywords: FsRtlIsAnsiCharacterWild, FsRtlIsAnsiCharacterWild function [Installable File System Drivers], fsrtlref_f5a31572-36b5-4bc3-8224-a4a7d8b74c65.xml, ifsk.fsrtlisansicharacterwild, ntifs/FsRtlIsAnsiCharacterWild
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ntifs.h
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntifs.h
-apiname:
+api_name:
 -	FsRtlIsAnsiCharacterWild
 product: Windows
 targetos: Windows
@@ -92,11 +92,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlisunicodecharacterwild.md">FsRtlIsUnicodeCharacterWild</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegal.md">FsRtlIsAnsiCharacterLegal</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlisunicodecharacterwild.md">FsRtlIsUnicodeCharacterWild</a>
 
 
 

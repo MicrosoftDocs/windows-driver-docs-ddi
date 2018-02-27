@@ -7,8 +7,8 @@ old-location: print\spldeletespoolerportend.htm
 old-project: print
 ms.assetid: 947391B5-5355-4ADB-B26E-A51FE0B0B85F
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: SplDeleteSpoolerPortEnd, print.spldeletespoolerportend, SplDeleteSpoolerPortEnd function [Print Devices], winsplp/SplDeleteSpoolerPortEnd
+ms.date: 2/23/2018
+ms.keywords: SplDeleteSpoolerPortEnd, SplDeleteSpoolerPortEnd function [Print Devices], print.spldeletespoolerportend, winsplp/SplDeleteSpoolerPortEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Winsplp.h
-apiname:
+api_name:
 -	SplDeleteSpoolerPortEnd
 product: Windows
 targetos: Windows

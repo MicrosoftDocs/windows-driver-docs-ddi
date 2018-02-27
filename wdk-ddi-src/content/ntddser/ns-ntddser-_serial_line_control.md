@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 2D11187E-B21B-4211-BAC0-248B93BAB6D5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PSERIAL_LINE_CONTROL, ntddser/PSERIAL_LINE_CONTROL, serports.serial_line_control, SERIAL_LINE_CONTROL structure [Serial Ports], PSERIAL_LINE_CONTROL, _SERIAL_LINE_CONTROL, PSERIAL_LINE_CONTROL structure pointer [Serial Ports], SERIAL_LINE_CONTROL, ntddser/SERIAL_LINE_CONTROL"
+ms.keywords: "*PSERIAL_LINE_CONTROL, PSERIAL_LINE_CONTROL, PSERIAL_LINE_CONTROL structure pointer [Serial Ports], SERIAL_LINE_CONTROL, SERIAL_LINE_CONTROL structure [Serial Ports], _SERIAL_LINE_CONTROL, ntddser/PSERIAL_LINE_CONTROL, ntddser/SERIAL_LINE_CONTROL, serports.serial_line_control"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddser.h
-apiname:
+api_name:
 -	SERIAL_LINE_CONTROL
 product: Windows
 targetos: Windows
-req.typenames: "*PSERIAL_LINE_CONTROL, SERIAL_LINE_CONTROL"
+req.typenames: SERIAL_LINE_CONTROL, *PSERIAL_LINE_CONTROL
 ---
 
 # _SERIAL_LINE_CONTROL structure

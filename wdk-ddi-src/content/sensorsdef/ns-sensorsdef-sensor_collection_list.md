@@ -7,8 +7,8 @@ old-location: sensors\sensor_collection_list.htm
 old-project: sensors
 ms.assetid: B842C707-C6E0-4C56-986E-35BFD32F265D
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PSENSOR_COLLECTION_LIST structure pointer [Sensor Devices], *PSENSOR_COLLECTION_LIST, SENSOR_COLLECTION_LIST structure [Sensor Devices], sensorsdef/SENSOR_COLLECTION_LIST, sensors.sensor_collection_list, sensorsdef/PSENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST, SENSOR_COLLECTION_LIST
+ms.date: 2/22/2018
+ms.keywords: "*PSENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST structure pointer [Sensor Devices], SENSOR_COLLECTION_LIST, SENSOR_COLLECTION_LIST structure [Sensor Devices], sensors.sensor_collection_list, sensorsdef/PSENSOR_COLLECTION_LIST, sensorsdef/SENSOR_COLLECTION_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Sensorsdef.h
-apiname:
+api_name:
 -	SENSOR_COLLECTION_LIST
 product: Windows
 targetos: Windows
-req.typenames: "*PSENSOR_COLLECTION_LIST, SENSOR_COLLECTION_LIST"
+req.typenames: SENSOR_COLLECTION_LIST, *PSENSOR_COLLECTION_LIST
 req.product: Windows 10 or later.
 ---
 

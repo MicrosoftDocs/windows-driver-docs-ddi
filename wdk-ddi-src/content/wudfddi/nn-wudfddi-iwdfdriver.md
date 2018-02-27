@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ada475ae-e697-475c-b461-8e3a36ae9ab1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfdriver, IWDFDriver interface, IWDFDriver interface, described, IWDFDriver, wudfddi/IWDFDriver, UMDFDriverObjectRef_2bce205e-d670-4dae-870a-f5b01c3ea49e.xml, umdf.iwdfdriver
+ms.keywords: IWDFDriver, IWDFDriver interface, IWDFDriver interface, described, UMDFDriverObjectRef_2bce205e-d670-4dae-870a-f5b01c3ea49e.xml, umdf.iwdfdriver, wdf.iwdfdriver, wudfddi/IWDFDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFDriver
 product: Windows
 targetos: Windows
@@ -54,6 +54,13 @@ req.product: Windows 10 or later.
 
 The <b>IWDFDriver</b> interface exposes the framework driver object that represents the driver image that is loaded in the host process.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFDriver</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>. <b>IWDFDriver</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -117,17 +124,5 @@ The <a href="https://msdn.microsoft.com/2fa320df-bafd-42f4-a0a1-14151c39d68a">Re
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/df921271-b708-43bf-a250-048b7f638cac">CreateDevice</a> method configures and creates a new framework device object.
-
-The <a href="https://msdn.microsoft.com/9c24f42b-0f1d-4b93-99af-f4a5069b5223">CreatePreallocatedWdfMemory</a> method creates a <a href="https://msdn.microsoft.com/b5f7bb8b-115a-4536-9857-b7229ae2ec99">framework memory object</a> for the specified buffer.
-
-The <a href="https://msdn.microsoft.com/2ea754db-3bed-48d9-825f-7ee7b5e169b7">CreateWdfMemory</a> method creates a <a href="https://msdn.microsoft.com/b5f7bb8b-115a-4536-9857-b7229ae2ec99">framework memory object</a> and allocates, for the memory object, a data buffer of the specified nonzero size.
-
-The <a href="https://msdn.microsoft.com/9dda353d-7c39-4c3c-b9e2-38946d6cc086">CreateWdfObject</a> method creates a custom (or user) WDF object from a parent WDF object.
-
-The <a href="https://msdn.microsoft.com/9048a568-3369-44eb-8fa8-361ce968a253">IsVersionAvailable</a> method determines whether the specified version of the framework is available.
-
-The <a href="https://msdn.microsoft.com/2fa320df-bafd-42f4-a0a1-14151c39d68a">RetrieveVersionString</a> method retrieves the version of the framework.
-
- 
+</table> 
 

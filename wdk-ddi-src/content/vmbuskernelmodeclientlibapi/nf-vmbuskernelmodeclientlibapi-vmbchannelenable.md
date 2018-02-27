@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A0256B3F-C35C-45AB-A825-0A82189F08DC
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: VmbChannelEnable, VmbChannelEnable function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelEnable, netvista.vmbchannelenable
+ms.keywords: VmbChannelEnable, VmbChannelEnable function [Network Drivers Starting with Windows Vista], netvista.vmbchannelenable, vmbuskernelmodeclientlibapi/VmbChannelEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname:
+api_name:
 -	VmbChannelEnable
 product: Windows
 targetos: Windows

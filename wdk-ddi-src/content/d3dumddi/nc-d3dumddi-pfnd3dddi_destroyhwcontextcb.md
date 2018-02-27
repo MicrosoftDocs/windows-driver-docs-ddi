@@ -7,8 +7,8 @@ old-location: display\pfnd3dddi_destroyhwcontextcb.htm
 old-project: display
 ms.assetid: CD3B8EE1-8B54-4F0A-B3C7-3B6F7D968497
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.pfnd3dddi_destroyhwcontextcb, PFND3DDDI_DESTROYHWCONTEXTCB callback function [Display Devices], PFND3DDDI_DESTROYHWCONTEXTCB, d3dumddi/PFND3DDDI_DESTROYHWCONTEXTCB
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_DESTROYHWCONTEXTCB, PFND3DDDI_DESTROYHWCONTEXTCB callback function [Display Devices], d3dumddi/PFND3DDDI_DESTROYHWCONTEXTCB, display.pfnd3dddi_destroyhwcontextcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dumddi.h
-apiname:
+api_name:
 -	PFND3DDDI_DESTROYHWCONTEXTCB
 product: Windows
 targetos: Windows

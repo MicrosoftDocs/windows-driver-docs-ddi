@@ -7,8 +7,8 @@ old-location: print\oemcuipparam.htm
 old-project: print
 ms.assetid: 178b635c-0916-44f5-87a3-a2766601dcab
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: "*POEMCUIPPARAM, OEMCUIPPARAM, OEMCUIPPARAM structure [Print Devices], printoem/OEMCUIPPARAM, print_unidrv-pscript_ui_6ea92d10-0152-4bb2-a79b-0f6c29507e8c.xml, _OEMCUIPPARAM, print.oemcuipparam"
+ms.date: 2/23/2018
+ms.keywords: "*POEMCUIPPARAM, OEMCUIPPARAM, OEMCUIPPARAM structure [Print Devices], _OEMCUIPPARAM, print.oemcuipparam, print_unidrv-pscript_ui_6ea92d10-0152-4bb2-a79b-0f6c29507e8c.xml, printoem/OEMCUIPPARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	printoem.h
-apiname:
+api_name:
 -	OEMCUIPPARAM
 product: Windows
 targetos: Windows
-req.typenames: OEMCUIPPARAM, *POEMCUIPPARAM
+req.typenames: "*POEMCUIPPARAM, OEMCUIPPARAM"
 req.product: Windows 10 or later.
 ---
 

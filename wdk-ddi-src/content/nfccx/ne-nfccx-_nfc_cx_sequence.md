@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 752451F9-74FC-48A8-B9B8-2CBD381B91D9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SequenceNfceeDiscComplete, nfccx/SequencePreShutdown, nfccx/SequencePreNfceeDisc, nfccx/SequenceShutdownComplete, nfccx/SequenceMaximum, *PNFC_CX_SEQUENCE, SequenceRfDiscStopComplete, nfccx/SequenceNfceeDiscComplete, nfccx/SequencePreRecovery, SequencePreInit, SequencePreNfceeDisc, nfccx/SequencePreInit, nfpdrivers.nfc_cx_sequence, nfccx/SequenceRfDiscStartComplete, SequencePreRfDiscStart, SequencePreShutdown, SequencePreRfDiscStop, SequencePreRecovery, SequenceMaximum, NFC_CX_SEQUENCE, nfccx/SequenceInitComplete, nfccx/NFC_CX_SEQUENCE, nfccx/SequenceRecoveryComplete, SequenceRecoveryComplete, SequenceShutdownComplete, NFC_CX_SEQUENCE enumeration [Near-Field Proximity Drivers], PNFC_CX_SEQUENCE, nfccx/SequencePreRfDiscStop, nfccx/SequenceRfDiscStopComplete, SequenceInitComplete, _NFC_CX_SEQUENCE, SequenceRfDiscStartComplete, nfccx/SequencePreRfDiscStart
+ms.keywords: "*PNFC_CX_SEQUENCE, NFC_CX_SEQUENCE, NFC_CX_SEQUENCE enumeration [Near-Field Proximity Drivers], PNFC_CX_SEQUENCE, SequenceInitComplete, SequenceMaximum, SequenceNfceeDiscComplete, SequencePreInit, SequencePreNfceeDisc, SequencePreRecovery, SequencePreRfDiscStart, SequencePreRfDiscStop, SequencePreShutdown, SequenceRecoveryComplete, SequenceRfDiscStartComplete, SequenceRfDiscStopComplete, SequenceShutdownComplete, _NFC_CX_SEQUENCE, nfccx/NFC_CX_SEQUENCE, nfccx/SequenceInitComplete, nfccx/SequenceMaximum, nfccx/SequenceNfceeDiscComplete, nfccx/SequencePreInit, nfccx/SequencePreNfceeDisc, nfccx/SequencePreRecovery, nfccx/SequencePreRfDiscStart, nfccx/SequencePreRfDiscStop, nfccx/SequencePreShutdown, nfccx/SequenceRecoveryComplete, nfccx/SequenceRfDiscStartComplete, nfccx/SequenceRfDiscStopComplete, nfccx/SequenceShutdownComplete, nfpdrivers.nfc_cx_sequence"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Requires same
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	nfccx.h
-apiname:
+api_name:
 -	NFC_CX_SEQUENCE
 product: Windows
 targetos: Windows

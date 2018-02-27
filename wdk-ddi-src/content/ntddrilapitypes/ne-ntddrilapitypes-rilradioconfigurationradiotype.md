@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f4efebb4-0258-44f6-bdf0-ff61d3b13792
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILRADIOCONFIGURATIONRADIOTYPE, ntddrilapitypes/RIL_RADIOTYPE_SVLTE_DUALACTIVE, RIL_RADIOTYPE_MULTIMODE, RIL_RADIOTYPE_1XCSFB, ntddrilapitypes/RIL_RADIOTYPE_MAX, ntddrilapitypes/RIL_RADIOTYPE_DUALSTANDBY, ntddrilapitypes/RIL_RADIOTYPE_SGLTE, ntddrilapitypes/RIL_RADIOTYPE_MULTIMODE, RIL_RADIOTYPE_SGLTE_DUALACTIVE, ntddrilapitypes/RIL_RADIOTYPE_SVLTE, RIL_RADIOTYPE_SGLTE, netvista.rilradioconfigurationradiotype, RILRADIOCONFIGURATIONRADIOTYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_RADIOTYPE_1XCSFB, ntddrilapitypes/RIL_RADIOTYPE_SGLTE_DUALACTIVE, RIL_RADIOTYPE_SRLTE, ntddrilapitypes/RIL_RADIOTYPE_SINGLE, RIL_RADIOTYPE_SVLTE, RIL_RADIOTYPE_SVLTE_DUALACTIVE, ntddrilapitypes/RIL_RADIOTYPE_DUALACTIVE, RIL_RADIOTYPE_MAX, RIL_RADIOTYPE_DUALSTANDBY, ntddrilapitypes/RILRADIOCONFIGURATIONRADIOTYPE, ntddrilapitypes/RIL_RADIOTYPE_SRLTE, RIL_RADIOTYPE_DUALACTIVE, RIL_RADIOTYPE_SINGLE
+ms.keywords: RILRADIOCONFIGURATIONRADIOTYPE, RILRADIOCONFIGURATIONRADIOTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_RADIOTYPE_1XCSFB, RIL_RADIOTYPE_DUALACTIVE, RIL_RADIOTYPE_DUALSTANDBY, RIL_RADIOTYPE_MAX, RIL_RADIOTYPE_MULTIMODE, RIL_RADIOTYPE_SGLTE, RIL_RADIOTYPE_SGLTE_DUALACTIVE, RIL_RADIOTYPE_SINGLE, RIL_RADIOTYPE_SRLTE, RIL_RADIOTYPE_SVLTE, RIL_RADIOTYPE_SVLTE_DUALACTIVE, netvista.rilradioconfigurationradiotype, ntddrilapitypes/RILRADIOCONFIGURATIONRADIOTYPE, ntddrilapitypes/RIL_RADIOTYPE_1XCSFB, ntddrilapitypes/RIL_RADIOTYPE_DUALACTIVE, ntddrilapitypes/RIL_RADIOTYPE_DUALSTANDBY, ntddrilapitypes/RIL_RADIOTYPE_MAX, ntddrilapitypes/RIL_RADIOTYPE_MULTIMODE, ntddrilapitypes/RIL_RADIOTYPE_SGLTE, ntddrilapitypes/RIL_RADIOTYPE_SGLTE_DUALACTIVE, ntddrilapitypes/RIL_RADIOTYPE_SINGLE, ntddrilapitypes/RIL_RADIOTYPE_SRLTE, ntddrilapitypes/RIL_RADIOTYPE_SVLTE, ntddrilapitypes/RIL_RADIOTYPE_SVLTE_DUALACTIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddrilapitypes.h
-apiname:
+api_name:
 -	RILRADIOCONFIGURATIONRADIOTYPE
 product: Windows
 targetos: Windows

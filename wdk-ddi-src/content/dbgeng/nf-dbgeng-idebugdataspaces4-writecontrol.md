@@ -4,11 +4,11 @@ title: IDebugDataSpaces4::WriteControl method
 author: windows-driver-content
 description: The WriteControl method writes implementation-specific system data.
 old-location: debugger\writecontrol.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 0b512c66-7cd8-4605-87d5-13b78d790c8c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: WriteControl method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces4::WriteControl, IDebugDataSpaces_7da7d848-6188-4325-8da5-3fa3df3c68b9.xml, dbgeng/IDebugDataSpaces::WriteControl, dbgeng/IDebugDataSpaces3::WriteControl, IDebugDataSpaces interface [Windows Debugging], WriteControl method, IDebugDataSpaces3::WriteControl, WriteControl method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4::WriteControl, IDebugDataSpaces2 interface [Windows Debugging], WriteControl method, debugger.writecontrol, IDebugDataSpaces3, dbgeng/IDebugDataSpaces2::WriteControl, IDebugDataSpaces3 interface [Windows Debugging], WriteControl method, WriteControl method [Windows Debugging], IDebugDataSpaces2::WriteControl, WriteControl method [Windows Debugging], IDebugDataSpaces interface, WriteControl, IDebugDataSpaces, IDebugDataSpaces4 interface [Windows Debugging], WriteControl method, IDebugDataSpaces4, WriteControl method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces2, IDebugDataSpaces::WriteControl
+ms.date: 2/23/2018
+ms.keywords: IDebugDataSpaces interface [Windows Debugging], WriteControl method, IDebugDataSpaces2 interface [Windows Debugging], WriteControl method, IDebugDataSpaces2::WriteControl, IDebugDataSpaces3 interface [Windows Debugging], WriteControl method, IDebugDataSpaces3::WriteControl, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], WriteControl method, IDebugDataSpaces4::WriteControl, IDebugDataSpaces::WriteControl, IDebugDataSpaces_7da7d848-6188-4325-8da5-3fa3df3c68b9.xml, WriteControl method [Windows Debugging], WriteControl method [Windows Debugging], IDebugDataSpaces interface, WriteControl method [Windows Debugging], IDebugDataSpaces2 interface, WriteControl method [Windows Debugging], IDebugDataSpaces3 interface, WriteControl method [Windows Debugging], IDebugDataSpaces4 interface, WriteControl,IDebugDataSpaces4.WriteControl, dbgeng/IDebugDataSpaces2::WriteControl, dbgeng/IDebugDataSpaces3::WriteControl, dbgeng/IDebugDataSpaces4::WriteControl, dbgeng/IDebugDataSpaces::WriteControl, debugger.writecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugDataSpaces.WriteControl
 -	IDebugDataSpaces2.WriteControl
 -	IDebugDataSpaces3.WriteControl

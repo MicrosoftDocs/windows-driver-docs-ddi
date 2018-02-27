@@ -7,8 +7,8 @@ old-location: sensors\isensordriver_onclientsubscribetoevents.htm
 old-project: sensors
 ms.assetid: b0528932-d7a8-46d7-bd94-6fd729a9d7f2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: sensors.isensordriver_onclientsubscribetoevents, OnClientSubscribeToEvents method [Sensor Devices], ISensorDriver::OnClientSubscribeToEvents, OnClientSubscribeToEvents, ISensorDriver
+ms.date: 2/22/2018
+ms.keywords: ISensorDriver, ISensorDriver::OnClientSubscribeToEvents, OnClientSubscribeToEvents method [Sensor Devices], OnClientSubscribeToEvents,ISensorDriver.OnClientSubscribeToEvents, sensors.isensordriver_onclientsubscribetoevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname:
+api_name:
 -	OnClientSubscribeToEvents
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: pos\linedisplaysetbitmapdata.htm
 old-project: pos
 ms.assetid: 8674FD34-65FB-4B69-B43C-0D21133E35AB
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: LineDisplaySetBitmapData, LineDisplaySetBitmapData structure, pointofservicedriverinterface/LineDisplaySetBitmapData, pos.linedisplaysetbitmapdata, PLineDisplaySetBitmapData, pointofservicedriverinterface/PLineDisplaySetBitmapData, PLineDisplaySetBitmapData structure pointer, _LineDisplaySetBitmapData
+ms.date: 2/23/2018
+ms.keywords: LineDisplaySetBitmapData, LineDisplaySetBitmapData structure, PLineDisplaySetBitmapData, PLineDisplaySetBitmapData structure pointer, _LineDisplaySetBitmapData, pointofservicedriverinterface/LineDisplaySetBitmapData, pointofservicedriverinterface/PLineDisplaySetBitmapData, pos.linedisplaysetbitmapdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pointofservicedriverinterface.h
-apiname:
+api_name:
 -	LineDisplaySetBitmapData
 product: Windows
 targetos: Windows

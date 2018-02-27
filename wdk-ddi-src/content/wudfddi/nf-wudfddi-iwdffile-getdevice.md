@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 914cc125-076e-40e1-baef-a12cba427b37
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFFile interface, GetDevice method, wudfddi/IWDFFile::GetDevice, GetDevice method, IWDFFile interface, IWDFFile, umdf.iwdffile_getdevice, wdf.iwdffile_getdevice, UMDFFileObjectRef_67417dd5-53be-487b-a93f-711bbcd6b0dd.xml, GetDevice method, GetDevice, IWDFFile::GetDevice
+ms.keywords: GetDevice method, GetDevice method, IWDFFile interface, GetDevice,IWDFFile.GetDevice, IWDFFile, IWDFFile interface, GetDevice method, IWDFFile::GetDevice, UMDFFileObjectRef_67417dd5-53be-487b-a93f-711bbcd6b0dd.xml, umdf.iwdffile_getdevice, wdf.iwdffile_getdevice, wudfddi/IWDFFile::GetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFFile.GetDevice
 product: Windows
 targetos: Windows

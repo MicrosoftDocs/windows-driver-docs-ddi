@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 7EAE617D-EFF9-4F77-9B9C-5985B864B310
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PCMP_DISCONNECT, 61883/CMP_DISCONNECT, PCMP_DISCONNECT structure pointer [Buses], CMP_DISCONNECT structure [Buses], IEEE.cmp_disconnect, 61883/PCMP_DISCONNECT, _CMP_DISCONNECT, CMP_DISCONNECT, PCMP_DISCONNECT"
+ms.keywords: "*PCMP_DISCONNECT, 61883/CMP_DISCONNECT, 61883/PCMP_DISCONNECT, CMP_DISCONNECT, CMP_DISCONNECT structure [Buses], IEEE.cmp_disconnect, PCMP_DISCONNECT, PCMP_DISCONNECT structure pointer [Buses], _CMP_DISCONNECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	61883.h
-apiname:
+api_name:
 -	CMP_DISCONNECT
 product: Windows
 targetos: Windows

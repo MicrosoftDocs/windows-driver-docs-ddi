@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 4b3f52ee-8028-4cba-a8c7-4ba73b1fcab0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.ioctl_serial_get_modem_control, IOCTL_SERIAL_GET_MODEM_CONTROL control code [Serial Ports], IOCTL_SERIAL_GET_MODEM_CONTROL, ntddser/IOCTL_SERIAL_GET_MODEM_CONTROL, serref_063be160-c01f-40c9-aff9-2de802c70bda.xml
+ms.keywords: IOCTL_SERIAL_GET_MODEM_CONTROL, IOCTL_SERIAL_GET_MODEM_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_MODEM_CONTROL, serports.ioctl_serial_get_modem_control, serref_063be160-c01f-40c9-aff9-2de802c70bda.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddser.h
-apiname:
+api_name:
 -	IOCTL_SERIAL_GET_MODEM_CONTROL
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7c96412f-a866-4863-a06a-9eb6adb2a33b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniporttcpoffloadsend, MiniportTcpOffloadSend callback function [Network Drivers Starting with Windows Vista], MiniportTcpOffloadSend, W_TCP_OFFLOAD_SEND_HANDLER, W_TCP_OFFLOAD_SEND_HANDLER, ndischimney/MiniportTcpOffloadSend, tcp_chim_miniport_func_930a6efe-5c72-42cf-8afd-d8d35b2c33ed.xml
+ms.keywords: MiniportTcpOffloadSend, MiniportTcpOffloadSend callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_SEND_HANDLER, ndischimney/MiniportTcpOffloadSend, netvista.miniporttcpoffloadsend, tcp_chim_miniport_func_930a6efe-5c72-42cf-8afd-d8d35b2c33ed.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Ndischimney.h
-apiname:
+api_name:
 -	MiniportTcpOffloadSend
 product: Windows
 targetos: Windows

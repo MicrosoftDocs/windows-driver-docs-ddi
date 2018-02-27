@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: fbd6fa74-eb39-4240-947e-1edec1365a83
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: POPCR structure pointer [Buses], *POPCR, 61883/OPCR, OPCR structure [Buses], 61883_structures_271facde-3b80-421f-a3d2-1f0e9b8e1782.xml, OPCR, 61883/POPCR, _OPCR, IEEE.opcr, POPCR
+ms.keywords: "*POPCR, 61883/OPCR, 61883/POPCR, 61883_structures_271facde-3b80-421f-a3d2-1f0e9b8e1782.xml, IEEE.opcr, OPCR, OPCR structure [Buses], POPCR, POPCR structure pointer [Buses], _OPCR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	61883.h
-apiname:
+api_name:
 -	OPCR
 product: Windows
 targetos: Windows

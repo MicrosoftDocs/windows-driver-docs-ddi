@@ -7,8 +7,8 @@ old-location: display\evt_idd_cx_monitor_unassign_swapchain.htm
 old-project: display
 ms.assetid: 7e845805-0121-49b0-9c0c-0f63bed6a50c
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.evt_idd_cx_monitor_unassign_swapchain, EvtIddCxMonitorUnassignSwapchain callback function [Display Devices], EvtIddCxMonitorUnassignSwapchain, EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN, EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN, iddcx/EvtIddCxMonitorUnassignSwapchain, PFN_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN callback function pointer [Display Devices], PFN_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN
+ms.date: 2/24/2018
+ms.keywords: EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN, EvtIddCxMonitorUnassignSwapchain, EvtIddCxMonitorUnassignSwapchain callback function [Display Devices], PFN_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN, PFN_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN callback function pointer [Display Devices], display.evt_idd_cx_monitor_unassign_swapchain, iddcx/EvtIddCxMonitorUnassignSwapchain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "_requires_same_"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	iddcx.h
-apiname:
+api_name:
 -	PFN_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN
 product: Windows
 targetos: Windows

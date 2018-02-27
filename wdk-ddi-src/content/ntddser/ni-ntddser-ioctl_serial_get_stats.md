@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 264b8460-acda-46ba-b070-e2956f7cfc50
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.ioctl_serial_get_stats, IOCTL_SERIAL_GET_STATS control code [Serial Ports], IOCTL_SERIAL_GET_STATS, ntddser/IOCTL_SERIAL_GET_STATS, serref_c5deddd3-8649-4628-a62e-810d4693052e.xml
+ms.keywords: IOCTL_SERIAL_GET_STATS, IOCTL_SERIAL_GET_STATS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_STATS, serports.ioctl_serial_get_stats, serref_c5deddd3-8649-4628-a62e-810d4693052e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddser.h
-apiname:
+api_name:
 -	IOCTL_SERIAL_GET_STATS
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -109,11 +109,11 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the si
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a>
-
-
-
 <a href="..\ntddser\ns-ntddser-_serialperf_stats.md">SERIALPERF_STATS</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a>
 
 
 

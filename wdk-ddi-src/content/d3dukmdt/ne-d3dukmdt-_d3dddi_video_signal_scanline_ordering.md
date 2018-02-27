@@ -7,8 +7,8 @@ old-location: display\d3dddi_video_signal_scanline_ordering.htm
 old-project: display
 ms.assetid: f0dcfd93-1706-41f7-aab5-f9e9dd58e9b3
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST, d3dukmdt/D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST, d3dukmdt/D3DDDI_VSSLO_OTHER, D3DDDI_VSSLO_PROGRESSIVE, d3dukmdt/D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, d3dukmdt/D3DDDI_VSSLO_PROGRESSIVE, DmEnums_81ac5c85-97c5-40ac-a6e6-df079576211a.xml, d3dukmdt/D3DDDI_VSSLO_UNINITIALIZED, D3DDDI_VSSLO_UNINITIALIZED, D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING enumeration [Display Devices], d3dukmdt/D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST, D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST, display.d3dddi_video_signal_scanline_ordering, D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, _D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, D3DDDI_VSSLO_OTHER
+ms.date: 2/24/2018
+ms.keywords: D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING enumeration [Display Devices], D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST, D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST, D3DDDI_VSSLO_OTHER, D3DDDI_VSSLO_PROGRESSIVE, D3DDDI_VSSLO_UNINITIALIZED, DmEnums_81ac5c85-97c5-40ac-a6e6-df079576211a.xml, _D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, d3dukmdt/D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, d3dukmdt/D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST, d3dukmdt/D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST, d3dukmdt/D3DDDI_VSSLO_OTHER, d3dukmdt/D3DDDI_VSSLO_PROGRESSIVE, d3dukmdt/D3DDDI_VSSLO_UNINITIALIZED, display.d3dddi_video_signal_scanline_ordering
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dukmdt.h
-apiname:
+api_name:
 -	D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING
 product: Windows
 targetos: Windows

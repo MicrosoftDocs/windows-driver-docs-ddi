@@ -7,8 +7,8 @@ old-location: display\d3dkmtgetruntimedata.htm
 old-project: display
 ms.assetid: a73ebde8-a1d5-4f97-8457-1f01244bb266
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: OpenGL_Functions_c2273a4f-9a28-41b5-97c2-daa8eaa9f128.xml, display.d3dkmtgetruntimedata, D3DKMTGetRuntimeData function [Display Devices], d3dkmthk/D3DKMTGetRuntimeData, D3DKMTGetRuntimeData, PFND3DKMT_GETRUNTIMEDATA
+ms.date: 2/24/2018
+ms.keywords: D3DKMTGetRuntimeData, D3DKMTGetRuntimeData callback function [Display Devices], OpenGL_Functions_c2273a4f-9a28-41b5-97c2-daa8eaa9f128.xml, PFND3DKMT_GETRUNTIMEDATA, d3dkmthk/D3DKMTGetRuntimeData, display.d3dkmtgetruntimedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -26,20 +26,17 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: GDI32.lib
-req.dll: GDI32.dll
+req.lib: NtosKrnl.exe
+req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
--	DllExport
-apilocation:
--	GDI32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname:
+api_type:
+-	UserDefined
+api_location:
+-	d3dkmthk.h
+api_name:
 -	D3DKMTGetRuntimeData
 product: Windows
 targetos: Windows

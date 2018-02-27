@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 99555765-A58F-45A1-B146-3742C390E666
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEEE.pbus_reset_routine, BusResetRoutine callback function [Buses], BusResetRoutine, PBUS_RESET_ROUTINE, PBUS_RESET_ROUTINE, 61883/BusResetRoutine, BusResetRoutine callback function [Buses], BusResetRoutine
+ms.keywords: 61883/BusResetRoutine, BusResetRoutine, BusResetRoutine callback function [Buses], IEEE.pbus_reset_routine, PBUS_RESET_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	61883.h
-apiname:
+api_name:
 -	BusResetRoutine
 product: Windows
 targetos: Windows
-req.typenames: "*PTOPOLOGY_MAP, TOPOLOGY_MAP"
+req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
 ---
 
 # PBUS_RESET_ROUTINE callback

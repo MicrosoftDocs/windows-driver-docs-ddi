@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 06aa5ff6-974c-43dd-8395-bc1a1a8421d5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolcmaddparty, ProtocolCmAddParty callback function [Network Drivers Starting with Windows Vista], ProtocolCmAddParty, PROTOCOL_CM_ADD_PARTY, PROTOCOL_CM_ADD_PARTY, ndis/ProtocolCmAddParty, condis_call_manager_ref_06efc681-bd3d-4bcc-938e-5ba45ce97279.xml
+ms.keywords: PROTOCOL_CM_ADD_PARTY, ProtocolCmAddParty, ProtocolCmAddParty callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_06efc681-bd3d-4bcc-938e-5ba45ce97279.xml, ndis/ProtocolCmAddParty, netvista.protocolcmaddparty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Ndis.h
-apiname:
+api_name:
 -	ProtocolCmAddParty
 product: Windows
 targetos: Windows
@@ -249,11 +249,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">ProtocolClAddPartyComplete</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">ProtocolClAddPartyComplete</a>
 
 
 

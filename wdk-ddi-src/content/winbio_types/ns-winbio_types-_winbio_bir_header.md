@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 5053b027-61a9-463a-967c-9e9ff1673b1c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: "_WINBIO_BIR_HEADER, winbio_types/PWINBIO_BIR_HEADER, WINBIO_BIR_HEADER structure [Biometric Devices], *PWINBIO_BIR_HEADER, PWINBIO_BIR_HEADER, WINBIO_BIR_HEADER, biometric_ref_1e5e4af7-36a5-414b-8c26-7a266c38272c.xml, PWINBIO_BIR_HEADER structure pointer [Biometric Devices], biometric.winbio_bir_header, winbio_types/WINBIO_BIR_HEADER"
+ms.keywords: "*PWINBIO_BIR_HEADER, PWINBIO_BIR_HEADER, PWINBIO_BIR_HEADER structure pointer [Biometric Devices], WINBIO_BIR_HEADER, WINBIO_BIR_HEADER structure [Biometric Devices], _WINBIO_BIR_HEADER, biometric.winbio_bir_header, biometric_ref_1e5e4af7-36a5-414b-8c26-7a266c38272c.xml, winbio_types/PWINBIO_BIR_HEADER, winbio_types/WINBIO_BIR_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winbio_types.h
-apiname:
+api_name:
 -	WINBIO_BIR_HEADER
 product: Windows
 targetos: Windows
@@ -179,11 +179,11 @@ You can find more information about the fields of the standard biometric header 
 
 ## -see-also
 
-<a href="..\winbio_types\ns-winbio_types-_winbio_bir.md">WINBIO_BIR</a>
-
-
-
 <a href="..\winbio_types\ns-winbio_types-_winbio_bir_data.md">WINBIO_BIR_DATA</a>
+
+
+
+<a href="..\winbio_types\ns-winbio_types-_winbio_bir.md">WINBIO_BIR</a>
 
 
 

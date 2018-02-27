@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 21ae3a61-55c6-437d-8c1e-84d720de9dd5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.psreverttoself, psref_da555465-d8ee-4ae6-af44-cf0af7633458.xml, PsRevertToSelf routine [Installable File System Drivers], PsRevertToSelf, ntifs/PsRevertToSelf
+ms.keywords: PsRevertToSelf, PsRevertToSelf routine [Installable File System Drivers], ifsk.psreverttoself, ntifs/PsRevertToSelf, psref_da555465-d8ee-4ae6-af44-cf0af7633458.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	PsRevertToSelf
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 25c03114-8e50-40a2-869a-08b11b7490be
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltApiRef_a_to_d_2fd5a055-2bcb-47a5-af89-5a34a92982f1.xml, FltAllocateDeferredIoWorkItem function [Installable File System Drivers], fltkernel/FltAllocateDeferredIoWorkItem, ifsk.fltallocatedeferredioworkitem, FltAllocateDeferredIoWorkItem
+ms.keywords: FltAllocateDeferredIoWorkItem, FltAllocateDeferredIoWorkItem function [Installable File System Drivers], FltApiRef_a_to_d_2fd5a055-2bcb-47a5-af89-5a34a92982f1.xml, fltkernel/FltAllocateDeferredIoWorkItem, ifsk.fltallocatedeferredioworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	FltMgr.lib
 -	FltMgr.dll
-apiname:
+api_name:
 -	FltAllocateDeferredIoWorkItem
 product: Windows
 targetos: Windows

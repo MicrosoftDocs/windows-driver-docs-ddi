@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 1C8610F5-A397-4CDE-890D-7AA5AD94A6AF
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_SERIAL_COMMPROP, ntddser/SERIAL_COMMPROP, ntddser/PSERIAL_COMMPROP, SERIAL_COMMPROP structure [Serial Ports], serports.serial_commprop, SERIAL_COMMPROP, PSERIAL_COMMPROP structure pointer [Serial Ports], *PSERIAL_COMMPROP, PSERIAL_COMMPROP"
+ms.keywords: "*PSERIAL_COMMPROP, PSERIAL_COMMPROP, PSERIAL_COMMPROP structure pointer [Serial Ports], SERIAL_COMMPROP, SERIAL_COMMPROP structure [Serial Ports], _SERIAL_COMMPROP, ntddser/PSERIAL_COMMPROP, ntddser/SERIAL_COMMPROP, serports.serial_commprop"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddser.h
-apiname:
+api_name:
 -	SERIAL_COMMPROP
 product: Windows
 targetos: Windows
-req.typenames: "*PSERIAL_COMMPROP, SERIAL_COMMPROP"
+req.typenames: SERIAL_COMMPROP, *PSERIAL_COMMPROP
 ---
 
 # _SERIAL_COMMPROP structure

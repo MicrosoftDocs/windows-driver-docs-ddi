@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 154a9d3d-4bb9-4c63-a820-816b254c69c2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketBitmapPattern, NdisPMWoLPacketIPv6TcpSyn, NDIS_PM_WOL_PACKET enumeration [Network Drivers Starting with Windows Vista], *PNDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketMagicPacket, NdisPMWoLPacketMagicPacket, NdisPMWoLPacketBitmapPattern, ntddndis/NdisPMWoLPacketEapolRequestIdMessage, NDIS_PM_WOL_PACKET, NdisPMWoLPacketUnspecified, NdisPMWoLPacketIPv4TcpSyn, ntddndis/NdisPMWoLPacketIPv6TcpSyn, _NDIS_PM_WOL_PACKET, netvista.ndis_pm_wol_packet, miniport_power_management_ref_4788c1ee-7ed8-49f2-950b-7a820223bc32.xml, ntddndis/NdisPMWoLPacketUnspecified, ntddndis/NdisPMWoLPacketIPv4TcpSyn, NdisPMWoLPacketMaximum, ntddndis/NDIS_PM_WOL_PACKET, ntddndis/PNDIS_PM_WOL_PACKET, NdisPMWoLPacketEapolRequestIdMessage, PNDIS_PM_WOL_PACKET enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisPMWoLPacketMaximum
+ms.keywords: "*PNDIS_PM_WOL_PACKET, NDIS_PM_WOL_PACKET, NDIS_PM_WOL_PACKET enumeration [Network Drivers Starting with Windows Vista], NdisPMWoLPacketBitmapPattern, NdisPMWoLPacketEapolRequestIdMessage, NdisPMWoLPacketIPv4TcpSyn, NdisPMWoLPacketIPv6TcpSyn, NdisPMWoLPacketMagicPacket, NdisPMWoLPacketMaximum, NdisPMWoLPacketUnspecified, PNDIS_PM_WOL_PACKET, PNDIS_PM_WOL_PACKET enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_WOL_PACKET, miniport_power_management_ref_4788c1ee-7ed8-49f2-950b-7a820223bc32.xml, netvista.ndis_pm_wol_packet, ntddndis/NDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketBitmapPattern, ntddndis/NdisPMWoLPacketEapolRequestIdMessage, ntddndis/NdisPMWoLPacketIPv4TcpSyn, ntddndis/NdisPMWoLPacketIPv6TcpSyn, ntddndis/NdisPMWoLPacketMagicPacket, ntddndis/NdisPMWoLPacketMaximum, ntddndis/NdisPMWoLPacketUnspecified, ntddndis/PNDIS_PM_WOL_PACKET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddndis.h
-apiname:
+api_name:
 -	NDIS_PM_WOL_PACKET
 product: Windows
 targetos: Windows

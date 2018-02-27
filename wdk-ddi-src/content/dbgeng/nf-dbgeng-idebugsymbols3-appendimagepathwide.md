@@ -4,11 +4,11 @@ title: IDebugSymbols3::AppendImagePathWide method
 author: windows-driver-content
 description: The AppendImagePathWide method appends directories to the executable image path.
 old-location: debugger\appendimagepathwide.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 9a129ce5-4493-4838-9a6c-8a3c054e7c27
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: dbgeng/IDebugSymbols3::AppendImagePathWide, IDebugSymbols3 interface [Windows Debugging], AppendImagePathWide method, debugger.appendimagepathwide, IDebugSymbols3::AppendImagePathWide, IDebugSymbols3, AppendImagePathWide method [Windows Debugging], IDebugSymbols3 interface, AppendImagePathWide method [Windows Debugging], AppendImagePathWide
+ms.date: 2/23/2018
+ms.keywords: AppendImagePathWide method [Windows Debugging], AppendImagePathWide method [Windows Debugging], IDebugSymbols3 interface, AppendImagePathWide,IDebugSymbols3.AppendImagePathWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], AppendImagePathWide method, IDebugSymbols3::AppendImagePathWide, dbgeng/IDebugSymbols3::AppendImagePathWide, debugger.appendimagepathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Dbgeng.h
-apiname:
+api_name:
 -	IDebugSymbols3.AppendImagePathWide
 product: Windows
 targetos: Windows
@@ -113,21 +113,21 @@ The executable image path can consist of several directories separated by semico
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556708">SetImagePath</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556708">SetImagePath</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546851">GetImagePath</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556708">SetImagePath</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols3::AppendImagePathWide method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3::AppendImagePathWide method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

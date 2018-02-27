@@ -7,8 +7,8 @@ old-location: display\iddcx_frame_statistics.htm
 old-project: display
 ms.assetid: 5099ff37-eed9-44fd-8254-3828b8c5d8bd
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: iddcx/IDDCX_FRAME_STATISTICS, IDDCX_FRAME_STATISTICS, display.iddcx_frame_statistics, IDDCX_FRAME_STATISTICS structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: IDDCX_FRAME_STATISTICS, IDDCX_FRAME_STATISTICS structure [Display Devices], display.iddcx_frame_statistics, iddcx/IDDCX_FRAME_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	iddcx.h
-apiname:
+api_name:
 -	IDDCX_FRAME_STATISTICS
 product: Windows
 targetos: Windows

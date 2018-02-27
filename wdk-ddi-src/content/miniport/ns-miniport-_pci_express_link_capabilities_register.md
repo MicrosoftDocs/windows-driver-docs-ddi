@@ -7,8 +7,8 @@ old-location: pci\pci_express_link_capabilities_register.htm
 old-project: PCI
 ms.assetid: d49d1deb-cb98-4dc0-9ec5-7015b765c9e4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: ntddk/PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER union pointer [Buses], PCI.pci_express_link_capabilities_register, ntddk/PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, *PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, pci_struct_22681134-04dc-4d7c-86a0-3d92c21ef8b3.xml, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER union [Buses]
+ms.date: 2/24/2018
+ms.keywords: "*PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI.pci_express_link_capabilities_register, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER union [Buses], PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER union pointer [Buses], _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, pci_struct_22681134-04dc-4d7c-86a0-3d92c21ef8b3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddk.h
-apiname:
+api_name:
 -	PCI_EXPRESS_LINK_CAPABILITIES_REGISTER
 product: Windows
 targetos: Windows
-req.typenames: "*PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER"
+req.typenames: PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, *PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER
 ---
 
 # _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure
@@ -89,72 +89,6 @@ typedef union _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER {
 A ULONG representation of the contents of the PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure.
 
 
-#### - MaximumLinkSpeed
-
-The maximum link speed of the PCIe link. The only valid value is:
-
-
-
-
-
-#### 1
-
-2.5 gigabits per second
-
-All other values are reserved.
-
-
-#### - MaximumLinkWidth
-
-The maximum link width (number of lanes) implemented by the component. Possible values are:
-
-
-
-
-
-#### 1
-
-x1 (1 lane)
-
-
-
-#### 2
-
-x2 (2 lanes)
-
-
-
-#### 4
-
-x4 (4 lanes)
-
-
-
-#### 8
-
-x8 (8 lanes)
-
-
-
-#### 12
-
-x12 (12 lanes)
-
-
-
-#### 16
-
-x16 (16 lanes)
-
-
-
-#### 32
-
-x32 (32 lanes)
-
-All other values are reserved.
-
-
 #### - ActiveStatePMSupport
 
 The level of active state power management supported on the PCIe link. Possible values are:
@@ -174,6 +108,16 @@ L0s is supported.
 L0s and L1 are supported.
 
 All other values are reserved.
+
+
+#### - ClockPowerManagement
+
+A single bit that indicates that the component supports clock power management.
+
+
+#### - DataLinkLayerActiveReportingCapable
+
+A single bit that indicates that the component supports the optional capability of reporting the data link active state of the data link control and management state machine. This bit only applies to downstream ports. Hot-plug capable downstream ports must support this capability.
 
 
 #### - L0sExitLatency
@@ -288,19 +232,75 @@ More than 64 microseconds
 This value is ignored if the <b>ActiveStatePMSupport </b>member is not set to <b>L0sAndL1EntrySupport</b>.
 
 
-#### - ClockPowerManagement
+#### - MaximumLinkSpeed
 
-A single bit that indicates that the component supports clock power management.
-
-
-#### - SurpriseDownErrorReportingCapable
-
-A single bit that indicates that the component supports the optional capability of detecting and reporting a surprise-down error condition. This bit only applies to downstream ports.
+The maximum link speed of the PCIe link. The only valid value is:
 
 
-#### - DataLinkLayerActiveReportingCapable
 
-A single bit that indicates that the component supports the optional capability of reporting the data link active state of the data link control and management state machine. This bit only applies to downstream ports. Hot-plug capable downstream ports must support this capability.
+
+
+#### 1
+
+2.5 gigabits per second
+
+All other values are reserved.
+
+
+#### - MaximumLinkWidth
+
+The maximum link width (number of lanes) implemented by the component. Possible values are:
+
+
+
+
+
+#### 1
+
+x1 (1 lane)
+
+
+
+#### 2
+
+x2 (2 lanes)
+
+
+
+#### 4
+
+x4 (4 lanes)
+
+
+
+#### 8
+
+x8 (8 lanes)
+
+
+
+#### 12
+
+x12 (12 lanes)
+
+
+
+#### 16
+
+x16 (16 lanes)
+
+
+
+#### 32
+
+x32 (32 lanes)
+
+All other values are reserved.
+
+
+#### - PortNumber
+
+The PCIe port number for the PCIe link.
 
 
 #### - Rsvd
@@ -308,9 +308,9 @@ A single bit that indicates that the component supports the optional capability 
 Reserved.
 
 
-#### - PortNumber
+#### - SurpriseDownErrorReportingCapable
 
-The PCIe port number for the PCIe link.
+A single bit that indicates that the component supports the optional capability of detecting and reporting a surprise-down error condition. This bit only applies to downstream ports.
 
 
 ## -remarks
@@ -334,5 +334,5 @@ A PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure is contained in the <a href="
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_LINK_CAPABILITIES_REGISTER union%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_LINK_CAPABILITIES_REGISTER union%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

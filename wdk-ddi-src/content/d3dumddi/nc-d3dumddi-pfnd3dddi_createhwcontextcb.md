@@ -7,8 +7,8 @@ old-location: display\pfnd3dddi_createhwcontextcb.htm
 old-project: display
 ms.assetid: 989682F3-340E-4F64-BF2D-771D58066EB2
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.pfnd3dddi_createhwcontextcb, PFND3DDDI_CREATEHWCONTEXTCB callback function [Display Devices], PFND3DDDI_CREATEHWCONTEXTCB, d3dumddi/PFND3DDDI_CREATEHWCONTEXTCB
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_CREATEHWCONTEXTCB, PFND3DDDI_CREATEHWCONTEXTCB callback function [Display Devices], d3dumddi/PFND3DDDI_CREATEHWCONTEXTCB, display.pfnd3dddi_createhwcontextcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dumddi.h
-apiname:
+api_name:
 -	PFND3DDDI_CREATEHWCONTEXTCB
 product: Windows
 targetos: Windows

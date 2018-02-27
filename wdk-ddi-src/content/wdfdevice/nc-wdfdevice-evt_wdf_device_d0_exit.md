@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bc3af732-f9ab-43a4-bc6f-7fa0b4c05a66
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdeviced0exit, EvtDeviceD0Exit callback function, EvtDeviceD0Exit, EVT_WDF_DEVICE_D0_EXIT, EVT_WDF_DEVICE_D0_EXIT, wdfdevice/EvtDeviceD0Exit, DFDeviceObjectGeneralRef_f2327720-a8e1-4e92-acb2-72378c3c5fb1.xml, kmdf.evtdeviced0exit
+ms.keywords: DFDeviceObjectGeneralRef_f2327720-a8e1-4e92-acb2-72378c3c5fb1.xml, EVT_WDF_DEVICE_D0_EXIT, EvtDeviceD0Exit, EvtDeviceD0Exit callback function, kmdf.evtdeviced0exit, wdf.evtdeviced0exit, wdfdevice/EvtDeviceD0Exit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Wdfdevice.h
-apiname:
+api_name:
 -	EvtDeviceD0Exit
 product: Windows
 targetos: Windows

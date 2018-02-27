@@ -7,8 +7,8 @@ old-location: storage\driverentry.htm
 old-project: storage
 ms.assetid: f756e66b-7e66-4a27-9327-70608207d99b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: DriverEntry, storage.driverentry, DriverEntry routine [Storage Devices], wdm/DriverEntry, atartns_b300b119-8261-4daf-8155-c9da17cb519a.xml
+ms.date: 2/24/2018
+ms.keywords: DriverEntry, DriverEntry routine [Storage Devices], atartns_b300b119-8261-4daf-8155-c9da17cb519a.xml, storage.driverentry, wdm/DriverEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	DriverEntry
 product: Windows
 targetos: Windows
@@ -98,17 +98,17 @@ The return values for this routine are recommended to mirror the return values o
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550140">AtaAdapterControl</a>
-
-
-
 <a href="..\irb\nf-irb-ataportinitializeex.md">AtaPortInitializeEx</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550140">AtaAdapterControl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DriverEntry routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DriverEntry routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

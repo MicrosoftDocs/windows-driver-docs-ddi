@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0A041372-7EC0-44E3-AD1F-3EA0CBB21425
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PDOT11_SEND_INVITATION_RESPONSE_PARAMETERS, DOT11_SEND_INVITATION_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_SEND_INVITATION_RESPONSE_PARAMETERS, PDOT11_SEND_INVITATION_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_SEND_INVITATION_RESPONSE_PARAMETERS, netvista.dot11_send_invitation_response_parameters, _DOT11_SEND_INVITATION_RESPONSE_PARAMETERS, DOT11_SEND_INVITATION_RESPONSE_PARAMETERS, windot11/PDOT11_SEND_INVITATION_RESPONSE_PARAMETERS
+ms.keywords: "*PDOT11_SEND_INVITATION_RESPONSE_PARAMETERS, DOT11_SEND_INVITATION_RESPONSE_PARAMETERS, DOT11_SEND_INVITATION_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_SEND_INVITATION_RESPONSE_PARAMETERS, PDOT11_SEND_INVITATION_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SEND_INVITATION_RESPONSE_PARAMETERS, netvista.dot11_send_invitation_response_parameters, windot11/DOT11_SEND_INVITATION_RESPONSE_PARAMETERS, windot11/PDOT11_SEND_INVITATION_RESPONSE_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Windot11.h
-apiname:
+api_name:
 -	DOT11_SEND_INVITATION_RESPONSE_PARAMETERS
 product: Windows
 targetos: Windows
@@ -167,15 +167,15 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439781">NDIS_STATUS_DOT11_WFD_INVITATION_RESPONSE_SEND_COMPLETE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451807">OID_DOT11_WFD_SEND_INVITATION_RESPONSE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439793">NDIS_STATUS_DOT11_WFD_RECEIVED_INVITATION_REQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439781">NDIS_STATUS_DOT11_WFD_INVITATION_RESPONSE_SEND_COMPLETE</a>
 
 
 

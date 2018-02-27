@@ -4,11 +4,11 @@ title: IDebugControl::OutputVaList method
 author: windows-driver-content
 description: The OutputVaList method formats a string and sends the result to the output callbacks that are registered with the engine's clients.
 old-location: debugger\outputvalist.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 6b2c0c43-26a3-4e66-aa9f-45b431ce6516
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: OutputVaList method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::OutputVaList, OutputVaList method [Windows Debugging], IDebugControl2 interface, OutputVaList method [Windows Debugging], IDebugControl3 interface, IDebugControl, OutputVaList, debugger.outputvalist, IDebugControl3 interface [Windows Debugging], OutputVaList method, IDebugControl2::OutputVaList, dbgeng/IDebugControl3::OutputVaList, IDebugControl2 interface [Windows Debugging], OutputVaList method, OutputVaList method [Windows Debugging], dbgeng/IDebugControl2::OutputVaList, IDebugControl_4c0f8057-9e61-4a89-a2e8-be15bd49e5fc.xml, IDebugControl::OutputVaList, IDebugControl3::OutputVaList, IDebugControl interface [Windows Debugging], OutputVaList method
+ms.date: 2/23/2018
+ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], OutputVaList method, IDebugControl2 interface [Windows Debugging], OutputVaList method, IDebugControl2::OutputVaList, IDebugControl3 interface [Windows Debugging], OutputVaList method, IDebugControl3::OutputVaList, IDebugControl::OutputVaList, IDebugControl_4c0f8057-9e61-4a89-a2e8-be15bd49e5fc.xml, OutputVaList method [Windows Debugging], OutputVaList method [Windows Debugging], IDebugControl interface, OutputVaList method [Windows Debugging], IDebugControl2 interface, OutputVaList method [Windows Debugging], IDebugControl3 interface, OutputVaList,IDebugControl.OutputVaList, dbgeng/IDebugControl2::OutputVaList, dbgeng/IDebugControl3::OutputVaList, dbgeng/IDebugControl::OutputVaList, debugger.outputvalist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugControl.OutputVaList
 -	IDebugControl2.OutputVaList
 -	IDebugControl3.OutputVaList
@@ -303,11 +303,11 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
-
-
-
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -319,7 +319,7 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
 
 
 
@@ -327,5 +327,5 @@ When generating very large output strings, it is possible to reach the limits of
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::OutputVaList method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::OutputVaList method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

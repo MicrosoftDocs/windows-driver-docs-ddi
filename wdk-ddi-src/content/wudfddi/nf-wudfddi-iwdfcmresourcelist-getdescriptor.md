@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5E870D10-A03B-4CD8-A2DD-54A6AB527DB2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfcmresourcelist_getdescriptor, GetDescriptor method, IWDFCmResourceList, GetDescriptor, IWDFCmResourceList interface, GetDescriptor method, wdf.iwdfcmresourcelist_getdescriptor, GetDescriptor method, IWDFCmResourceList interface, IWDFCmResourceList::GetDescriptor, wudfddi/IWDFCmResourceList::GetDescriptor
+ms.keywords: GetDescriptor method, GetDescriptor method, IWDFCmResourceList interface, GetDescriptor,IWDFCmResourceList.GetDescriptor, IWDFCmResourceList, IWDFCmResourceList interface, GetDescriptor method, IWDFCmResourceList::GetDescriptor, umdf.iwdfcmresourcelist_getdescriptor, wdf.iwdfcmresourcelist_getdescriptor, wudfddi/IWDFCmResourceList::GetDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFCmResourceList.GetDescriptor
 product: Windows
 targetos: Windows

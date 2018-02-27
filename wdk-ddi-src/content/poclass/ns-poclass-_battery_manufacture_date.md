@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 1ab9caa3-344a-49c8-8f40-75d9c251be04
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PBATTERY_MANUFACTURE_DATE, bat-struct_7c707930-4017-4761-94fc-e4322cd6ead9.xml, *PBATTERY_MANUFACTURE_DATE, poclass/PBATTERY_MANUFACTURE_DATE, battery.battery_manufacture_date, PBATTERY_MANUFACTURE_DATE structure pointer [Battery Devices], BATTERY_MANUFACTURE_DATE, poclass/BATTERY_MANUFACTURE_DATE, _BATTERY_MANUFACTURE_DATE, BATTERY_MANUFACTURE_DATE structure [Battery Devices]
+ms.keywords: "*PBATTERY_MANUFACTURE_DATE, BATTERY_MANUFACTURE_DATE, BATTERY_MANUFACTURE_DATE structure [Battery Devices], PBATTERY_MANUFACTURE_DATE, PBATTERY_MANUFACTURE_DATE structure pointer [Battery Devices], _BATTERY_MANUFACTURE_DATE, bat-struct_7c707930-4017-4761-94fc-e4322cd6ead9.xml, battery.battery_manufacture_date, poclass/BATTERY_MANUFACTURE_DATE, poclass/PBATTERY_MANUFACTURE_DATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	poclass.h
-apiname:
+api_name:
 -	BATTERY_MANUFACTURE_DATE
 product: Windows
 targetos: Windows
-req.typenames: "*PBATTERY_MANUFACTURE_DATE, BATTERY_MANUFACTURE_DATE"
+req.typenames: BATTERY_MANUFACTURE_DATE, *PBATTERY_MANUFACTURE_DATE
 ---
 
 # _BATTERY_MANUFACTURE_DATE structure

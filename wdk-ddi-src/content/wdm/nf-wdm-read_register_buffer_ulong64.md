@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8961126F-FE54-4369-A929-6CC4BDC67598
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: READ_REGISTER_BUFFER_ULONG64 function, umdf.read_register_buffer_ulong64, READ_REGISTER_BUFFER_ULONG64, wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG64, wdf.read_register_buffer_ulong64
+ms.keywords: READ_REGISTER_BUFFER_ULONG64, READ_REGISTER_BUFFER_ULONG64 function, umdf.read_register_buffer_ulong64, wdf.read_register_buffer_ulong64, wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wudfddi_hwaccess.h
-apiname:
+api_name:
 -	READ_REGISTER_BUFFER_ULONG64
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: dtf\iwdtfaction2_target.htm
 old-project: dtf
 ms.assetid: 9713c1c8-2bfc-4ac4-82f1-b223d3fe2511
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: Target property [Windows Device Testing Framework], Microsoft::WDTF::IWDTFAction2::Target, IWDTFAction2.Target, IWDTFAction2 interface [Windows Device Testing Framework], Target property, wdtf/IWDTFAction2::get_Target, Target property [Windows Device Testing Framework], IWDTFAction2 interface, dtf.iwdtfaction2_target, wdtf/IWDTFAction2::Target, IWDTFAction2, get_Target, IWDTFAction2::get_Target, Microsoft.WDTF.IWDTFAction2.Target
+ms.date: 2/23/2018
+ms.keywords: IWDTFAction2, IWDTFAction2 interface [Windows Device Testing Framework], Target property, IWDTFAction2.Target, IWDTFAction2::get_Target, Microsoft.WDTF.IWDTFAction2.Target, Microsoft::WDTF::IWDTFAction2::Target, Target property [Windows Device Testing Framework], Target property [Windows Device Testing Framework], IWDTFAction2 interface, dtf.iwdtfaction2_target, get_Target,IWDTFAction2.get_Target, wdtf/IWDTFAction2::Target, wdtf/IWDTFAction2::get_Target
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtf.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WDTF.Interop.metadata_dll.dll
-apiname:
+api_name:
 -	IWDTFAction2.Target
 -	IWDTFAction2.get_Target
 product: Windows
@@ -79,5 +79,5 @@ HRESULT get_Target(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFAction2::Target property%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFAction2::Target property%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

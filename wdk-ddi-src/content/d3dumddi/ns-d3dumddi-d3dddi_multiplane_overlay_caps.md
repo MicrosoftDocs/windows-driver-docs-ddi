@@ -7,8 +7,8 @@ old-location: display\d3dddi_multiplane_overlay_caps.htm
 old-project: display
 ms.assetid: 66365126-d7c3-4886-b14f-a94dc12c1626
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_CAPS, D3DDDI_MULTIPLANE_OVERLAY_CAPS structure [Display Devices], display.d3dddi_multiplane_overlay_caps, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_CAPS
+ms.date: 2/24/2018
+ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_CAPS, D3DDDI_MULTIPLANE_OVERLAY_CAPS structure [Display Devices], d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_CAPS, display.d3dddi_multiplane_overlay_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3dumddi.h
-apiname:
+api_name:
 -	D3DDDI_MULTIPLANE_OVERLAY_CAPS
 product: Windows
 targetos: Windows

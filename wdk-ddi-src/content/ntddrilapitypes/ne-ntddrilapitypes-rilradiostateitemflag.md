@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dcbd0b16-4960-4cc1-b76b-6d971ba6a192
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RILRADIOSTATEITEMFLAG, RILRADIOSTATEITEMFLAG, ntddrilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL, RILRADIOSTATEITEMFLAG enumeration [Network Drivers Starting with Windows Vista], RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL, ntddrilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY, ntddrilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL, netvista.rilradiostateitemflag, RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL, RIL_RADIOSTATE_ITEMFLAG_USE_INTARRAY, ntddrilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_INTARRAY, RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY, RIL_RADIOSTATE_ITEMFLAG_USE_MAX, ntddrilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_MAX, ntddrilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY, RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY
+ms.keywords: RILRADIOSTATEITEMFLAG, RILRADIOSTATEITEMFLAG enumeration [Network Drivers Starting with Windows Vista], RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY, RIL_RADIOSTATE_ITEMFLAG_USE_INTARRAY, RIL_RADIOSTATE_ITEMFLAG_USE_MAX, RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY, RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL, RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL, netvista.rilradiostateitemflag, ntddrilapitypes/RILRADIOSTATEITEMFLAG, ntddrilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY, ntddrilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_INTARRAY, ntddrilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_MAX, ntddrilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY, ntddrilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL, ntddrilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddrilapitypes.h
-apiname:
+api_name:
 -	RILRADIOSTATEITEMFLAG
 product: Windows
 targetos: Windows

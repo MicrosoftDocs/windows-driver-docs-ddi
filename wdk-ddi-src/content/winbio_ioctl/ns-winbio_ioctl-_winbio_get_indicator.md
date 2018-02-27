@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: e0920576-de0f-44bd-8d95-85dde4ee6817
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: "*PWINBIO_GET_INDICATOR, PWINBIO_GET_INDICATOR, winbio_ioctl/WINBIO_GET_INDICATOR, biometric.winbio_get_indicator, _WINBIO_GET_INDICATOR, WINBIO_GET_INDICATOR, WINBIO_GET_INDICATOR structure [Biometric Devices], biometric_ref_2ff9c2b7-38fd-4419-aa90-a87cceef3cda.xml, PWINBIO_GET_INDICATOR structure pointer [Biometric Devices], winbio_ioctl/PWINBIO_GET_INDICATOR"
+ms.keywords: "*PWINBIO_GET_INDICATOR, PWINBIO_GET_INDICATOR, PWINBIO_GET_INDICATOR structure pointer [Biometric Devices], WINBIO_GET_INDICATOR, WINBIO_GET_INDICATOR structure [Biometric Devices], _WINBIO_GET_INDICATOR, biometric.winbio_get_indicator, biometric_ref_2ff9c2b7-38fd-4419-aa90-a87cceef3cda.xml, winbio_ioctl/PWINBIO_GET_INDICATOR, winbio_ioctl/WINBIO_GET_INDICATOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winbio_ioctl.h
-apiname:
+api_name:
 -	WINBIO_GET_INDICATOR
 product: Windows
 targetos: Windows
@@ -123,11 +123,11 @@ The sensor indicator light is off.  Sensors that do not have an indicator light 
 
 ## -see-also
 
-<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_set_indicator.md">WINBIO_SET_INDICATOR</a>
-
-
-
 <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_get_indicator.md">IOCTL_BIOMETRIC_GET_INDICATOR</a>
+
+
+
+<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_set_indicator.md">WINBIO_SET_INDICATOR</a>
 
 
 

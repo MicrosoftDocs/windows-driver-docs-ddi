@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 13229dcc-e698-4743-9ca2-303bef69304c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.ioctl_serial_config_size, IOCTL_SERIAL_CONFIG_SIZE control code [Serial Ports], IOCTL_SERIAL_CONFIG_SIZE, ntddser/IOCTL_SERIAL_CONFIG_SIZE, serref_c851a6c5-27c1-4690-bb2f-36bd458b6629.xml
+ms.keywords: IOCTL_SERIAL_CONFIG_SIZE, IOCTL_SERIAL_CONFIG_SIZE control code [Serial Ports], ntddser/IOCTL_SERIAL_CONFIG_SIZE, serports.ioctl_serial_config_size, serref_c851a6c5-27c1-4690-bb2f-36bd458b6629.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddser.h
-apiname:
+api_name:
 -	IOCTL_SERIAL_CONFIG_SIZE
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 1d1df123-4c1a-498b-b629-ca63336a762b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: biometric.winbio_capture_data, PWINBIO_CAPTURE_DATA, winbio_ioctl/PWINBIO_CAPTURE_DATA, WINBIO_CAPTURE_DATA, _WINBIO_CAPTURE_DATA, WINBIO_CAPTURE_DATA structure [Biometric Devices], *PWINBIO_CAPTURE_DATA, winbio_ioctl/WINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA structure pointer [Biometric Devices], biometric_ref_be8dfe0a-ed13-4b31-af93-8fde60a1640f.xml
+ms.keywords: "*PWINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA structure pointer [Biometric Devices], WINBIO_CAPTURE_DATA, WINBIO_CAPTURE_DATA structure [Biometric Devices], _WINBIO_CAPTURE_DATA, biometric.winbio_capture_data, biometric_ref_be8dfe0a-ed13-4b31-af93-8fde60a1640f.xml, winbio_ioctl/PWINBIO_CAPTURE_DATA, winbio_ioctl/WINBIO_CAPTURE_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winbio_ioctl.h
-apiname:
+api_name:
 -	WINBIO_CAPTURE_DATA
 product: Windows
 targetos: Windows

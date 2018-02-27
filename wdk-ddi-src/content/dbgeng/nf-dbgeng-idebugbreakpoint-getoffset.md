@@ -4,11 +4,11 @@ title: IDebugBreakpoint::GetOffset method
 author: windows-driver-content
 description: The GetOffset method returns the location that triggers a breakpoint.
 old-location: debugger\getoffset.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 7da401c9-10c1-4a2b-91ea-c0f9f58fd87a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugBreakpoint2::GetOffset, GetOffset, GetOffset method [Windows Debugging], IDebugBreakpoint2 interface, GetOffset method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2 interface [Windows Debugging], GetOffset method, debugger.getoffset, dbgeng/IDebugBreakpoint2::GetOffset, ComOther_020a92c1-effa-4b14-9198-153641401e46.xml, dbgeng/IDebugBreakpoint::GetOffset, IDebugBreakpoint, IDebugBreakpoint::GetOffset, IDebugBreakpoint interface [Windows Debugging], GetOffset method, GetOffset method [Windows Debugging]
+ms.date: 2/23/2018
+ms.keywords: ComOther_020a92c1-effa-4b14-9198-153641401e46.xml, GetOffset method [Windows Debugging], GetOffset method [Windows Debugging], IDebugBreakpoint interface, GetOffset method [Windows Debugging], IDebugBreakpoint2 interface, GetOffset,IDebugBreakpoint.GetOffset, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], GetOffset method, IDebugBreakpoint2 interface [Windows Debugging], GetOffset method, IDebugBreakpoint2::GetOffset, IDebugBreakpoint::GetOffset, dbgeng/IDebugBreakpoint2::GetOffset, dbgeng/IDebugBreakpoint::GetOffset, debugger.getoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugBreakpoint.GetOffset
 -	IDebugBreakpoint2.GetOffset
 product: Windows

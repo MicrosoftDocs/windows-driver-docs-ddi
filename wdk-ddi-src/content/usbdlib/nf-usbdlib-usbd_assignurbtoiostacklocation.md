@@ -4,11 +4,11 @@ title: USBD_AssignUrbToIoStackLocation function
 author: windows-driver-content
 description: The USBD_AssignUrbToIoStackLocation routine is called by a client driver to associate an URB with the IRP's next stack location.
 old-location: buses\usbd_assignurbtostacklocation.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 66A66050-B2BF-47FA-A4E2-BF8816390B16
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.usbd_assignurbtostacklocation, USBD_AssignUrbToIoStackLocation routine [Buses], usbdlib/USBD_AssignUrbToIoStackLocation, USBD_AssignUrbToIoStackLocation
+ms.date: 2/24/2018
+ms.keywords: USBD_AssignUrbToIoStackLocation, USBD_AssignUrbToIoStackLocation routine [Buses], buses.usbd_assignurbtostacklocation, usbdlib/USBD_AssignUrbToIoStackLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Usbdex.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Usbdex.lib
 -	Usbdex.dll
-apiname:
+api_name:
 -	USBD_AssignUrbToIoStackLocation
 product: Windows
 targetos: Windows
@@ -119,15 +119,7 @@ For a code example, see <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-<a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD_UrbAllocate</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450899">How to Submit an URB</a>
-
-
-
-<a href="..\usbdlib\nf-usbdlib-usbd_selectinterfaceurballocateandbuild.md">USBD_SelectInterfaceUrbAllocateAndBuild</a>
 
 
 
@@ -135,9 +127,17 @@ For a code example, see <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
- 
+<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
+
+
+
+<a href="..\usbdlib\nf-usbdlib-usbd_selectinterfaceurballocateandbuild.md">USBD_SelectInterfaceUrbAllocateAndBuild</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USBD_AssignUrbToIoStackLocation routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_AssignUrbToIoStackLocation routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

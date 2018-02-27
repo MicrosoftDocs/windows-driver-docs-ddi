@@ -7,8 +7,8 @@ old-location: sensors\isensordriver_ongetproperties.htm
 old-project: sensors
 ms.assetid: 8c7f378c-b4e6-4074-8b6a-571068b5ab80
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: ISensorDriver::OnGetProperties, OnGetProperties, OnGetProperties method [Sensor Devices], sensors.isensordriver_ongetproperties, ISensorDriver
+ms.date: 2/22/2018
+ms.keywords: ISensorDriver, ISensorDriver::OnGetProperties, OnGetProperties method [Sensor Devices], OnGetProperties,ISensorDriver.OnGetProperties, sensors.isensordriver_ongetproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname:
+api_name:
 -	OnGetProperties
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E7F76E93-79B8-48AE-A1D1-E3215E2402F8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: windot11/dot11_wfd_scan_type_auto, DOT11_WFD_SCAN_TYPE, windot11/dot11_wfd_scan_type_passive, windot11/DOT11_WFD_SCAN_TYPE, DOT11_WFD_SCAN_TYPE enumeration [Network Drivers Starting with Windows Vista], netvista.dot11_wfd_scan_type, _DOT11_WFD_SCAN_TYPE, windot11/dot11_wfd_scan_type_active, dot11_wfd_scan_type_passive, *PDOT11_WFD_SCAN_TYPE, dot11_wfd_scan_type_auto, dot11_wfd_scan_type_active
+ms.keywords: "*PDOT11_WFD_SCAN_TYPE, DOT11_WFD_SCAN_TYPE, DOT11_WFD_SCAN_TYPE enumeration [Network Drivers Starting with Windows Vista], _DOT11_WFD_SCAN_TYPE, dot11_wfd_scan_type_active, dot11_wfd_scan_type_auto, dot11_wfd_scan_type_passive, netvista.dot11_wfd_scan_type, windot11/DOT11_WFD_SCAN_TYPE, windot11/dot11_wfd_scan_type_active, windot11/dot11_wfd_scan_type_auto, windot11/dot11_wfd_scan_type_passive"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Windot11.h
-apiname:
+api_name:
 -	DOT11_WFD_SCAN_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_WFD_SCAN_TYPE, DOT11_WFD_SCAN_TYPE"
+req.typenames: DOT11_WFD_SCAN_TYPE, *PDOT11_WFD_SCAN_TYPE
 req.product: Windows 10 or later.
 ---
 

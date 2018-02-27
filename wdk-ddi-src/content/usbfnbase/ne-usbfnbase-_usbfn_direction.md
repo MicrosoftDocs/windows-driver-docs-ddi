@@ -4,11 +4,11 @@ title: "_USBFN_DIRECTION"
 author: windows-driver-content
 description: Defines the USB data transfer direction types.
 old-location: buses\usbfn_direction.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: C6E1FA5A-993C-4212-9428-0B759C09F5DE
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: UsbfnDirectionIn, UsbfnDirectionTx, USBFN_DIRECTION, usbfnbase/UsbfnDirectionIn, usbfnbase/UsbfnDirectionRx, UsbfnDirectionOut, *PUSBFN_DIRECTION, USBFN_DIRECTION enumeration [Buses], usbfnbase/USBFN_DIRECTION, UsbfnDirectionRx, usbfnbase/UsbfnDirectionMinimum, usbfnbase/UsbfnDirectionMaximum, UsbfnDirectionMaximum, buses.usbfn_direction, UsbfnDirectionMinimum, _USBFN_DIRECTION, usbfnbase/UsbfnDirectionTx, usbfnbase/UsbfnDirectionOut
+ms.date: 2/24/2018
+ms.keywords: "*PUSBFN_DIRECTION, USBFN_DIRECTION, USBFN_DIRECTION enumeration [Buses], UsbfnDirectionIn, UsbfnDirectionMaximum, UsbfnDirectionMinimum, UsbfnDirectionOut, UsbfnDirectionRx, UsbfnDirectionTx, _USBFN_DIRECTION, buses.usbfn_direction, usbfnbase/USBFN_DIRECTION, usbfnbase/UsbfnDirectionIn, usbfnbase/UsbfnDirectionMaximum, usbfnbase/UsbfnDirectionMinimum, usbfnbase/UsbfnDirectionOut, usbfnbase/UsbfnDirectionRx, usbfnbase/UsbfnDirectionTx"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	usbfnbase.h
-apiname:
+api_name:
 -	USBFN_DIRECTION
 product: Windows
 targetos: Windows

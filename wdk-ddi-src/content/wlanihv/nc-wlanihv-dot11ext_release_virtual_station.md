@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 39a907ba-18dc-4e74-a35d-dbf96ef47287
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extreleasevirtualstation, Dot11ExtReleaseVirtualStation callback function [Network Drivers Starting with Windows Vista], Dot11ExtReleaseVirtualStation, DOT11EXT_RELEASE_VIRTUAL_STATION, DOT11EXT_RELEASE_VIRTUAL_STATION, wlanihv/Dot11ExtReleaseVirtualStation, Native_802.11_IHV_Ext_3fe2f0cd-336a-4272-8d14-1ab400515de5.xml
+ms.keywords: DOT11EXT_RELEASE_VIRTUAL_STATION, Dot11ExtReleaseVirtualStation, Dot11ExtReleaseVirtualStation callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_3fe2f0cd-336a-4272-8d14-1ab400515de5.xml, netvista.dot11extreleasevirtualstation, wlanihv/Dot11ExtReleaseVirtualStation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	Dot11ExtReleaseVirtualStation
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -122,10 +122,6 @@ A call to
 
 
 ## -see-also
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_request_virtual_station.md">
    Dot11ExtRequestVirtualStation</a>

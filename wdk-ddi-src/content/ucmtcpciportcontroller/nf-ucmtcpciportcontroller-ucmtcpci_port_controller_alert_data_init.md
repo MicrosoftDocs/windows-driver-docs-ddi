@@ -4,10 +4,10 @@ title: UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT function
 author: windows-driver-content
 description: Initializes the UCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure.
 old-location: buses\ucmtcpci_port_controller_alert_data_init.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 7c3276cc-9194-4c18-b1d8-2795efbeb357
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/24/2018
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT, UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT method [Buses], buses.ucmtcpci_port_controller_alert_data_init, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ucmtcpciportcontroller.h
-apiname:
+api_name:
 -	UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT
 product: Windows
 targetos: Windows

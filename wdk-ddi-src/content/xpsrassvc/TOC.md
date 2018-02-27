@@ -8,5 +8,8 @@
 ### [IXpsRasterizer::RasterizeRect method](../xpsrassvc/nf-xpsrassvc-ixpsrasterizer-rasterizerect.md)
 ### [IXpsRasterizer::SetMinimalLineWidth method](../xpsrassvc/nf-xpsrassvc-ixpsrasterizer-setminimallinewidth.md)
 ### [IXpsRasterizerNotificationCallback::Continue method](../xpsrassvc/nf-xpsrassvc-ixpsrasterizernotificationcallback-continue.md)
+### [IXpsRasterizationFactory interface](../xpsrassvc/nn-xpsrassvc-ixpsrasterizationfactory.md)
 ### [IXpsRasterizationFactory1 interface](../xpsrassvc/nn-xpsrassvc-ixpsrasterizationfactory1.md)
 ### [IXpsRasterizationFactory2 interface](../xpsrassvc/nn-xpsrassvc-ixpsrasterizationfactory2.md)
+### [IXpsRasterizer interface](../xpsrassvc/nn-xpsrassvc-ixpsrasterizer.md)
+### [IXpsRasterizerNotificationCallback interface](../xpsrassvc/nn-xpsrassvc-ixpsrasterizernotificationcallback.md)

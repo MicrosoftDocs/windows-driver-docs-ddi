@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7D88B513-5289-4347-BD25-BDFEB86CE62F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwdifreeadapter, MiniportWdiFreeAdapter callback function [Network Drivers Starting with Windows Vista], MiniportWdiFreeAdapter, MINIPORT_WDI_FREE_ADAPTER, MINIPORT_WDI_FREE_ADAPTER, dot11wdi/MiniportWdiFreeAdapter
+ms.keywords: MINIPORT_WDI_FREE_ADAPTER, MiniportWdiFreeAdapter, MiniportWdiFreeAdapter callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiFreeAdapter, netvista.miniportwdifreeadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	dot11wdi.h
-apiname:
+api_name:
 -	MiniportWdiFreeAdapter
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_FREE_ADAPTER callback

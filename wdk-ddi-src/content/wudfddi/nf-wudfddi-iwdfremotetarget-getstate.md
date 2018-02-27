@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3918d764-c5bb-42b6-8b06-a2d544511a96
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetState method, IWDFRemoteTarget::GetState, IWDFRemoteTarget interface, GetState method, GetState method, IWDFRemoteTarget interface, wudfddi/IWDFRemoteTarget::GetState, umdf.iwdfremotetarget_getstate, UMDFIoTargetObjectRef_34bf0f92-927a-4733-9897-5aa146998136.xml, GetState, wdf.iwdfremotetarget_getstate, IWDFRemoteTarget
+ms.keywords: GetState method, GetState method, IWDFRemoteTarget interface, GetState,IWDFRemoteTarget.GetState, IWDFRemoteTarget, IWDFRemoteTarget interface, GetState method, IWDFRemoteTarget::GetState, UMDFIoTargetObjectRef_34bf0f92-927a-4733-9897-5aa146998136.xml, umdf.iwdfremotetarget_getstate, wdf.iwdfremotetarget_getstate, wudfddi/IWDFRemoteTarget::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFRemoteTarget.GetState
 product: Windows
 targetos: Windows
@@ -108,11 +108,11 @@ The following code example determines whether a remote I/O target is closed.
 
 ## -see-also
 
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
-
-
-
-<a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
 
 
 

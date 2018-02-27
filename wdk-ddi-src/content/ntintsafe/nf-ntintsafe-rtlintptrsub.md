@@ -7,8 +7,8 @@ old-location: kernel\rtlintptrsub.htm
 old-project: kernel
 ms.assetid: 72352FD3-4855-4630-AF42-368FF3A6B2BB
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RtlIntPtrSub, kernel.rtlintptrsub, ntintsafe/RtlIntPtrSub, RtlIntPtrSub function [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: RtlIntPtrSub, RtlIntPtrSub function [Kernel-Mode Driver Architecture], kernel.rtlintptrsub, ntintsafe/RtlIntPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntintsafe.h
-apiname:
+api_name:
 -	RtlIntPtrSub
 product: Windows
 targetos: Windows

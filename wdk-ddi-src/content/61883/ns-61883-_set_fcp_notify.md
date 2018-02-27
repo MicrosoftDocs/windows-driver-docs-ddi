@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 94A966C4-9FFA-4937-B7D8-D1A3608E4A7F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PSET_FCP_NOTIFY structure pointer [Buses], 61883/PSET_FCP_NOTIFY, SET_FCP_NOTIFY, PSET_FCP_NOTIFY, IEEE.set_fcp_notify, _SET_FCP_NOTIFY, 61883/SET_FCP_NOTIFY, *PSET_FCP_NOTIFY, SET_FCP_NOTIFY structure [Buses]
+ms.keywords: "*PSET_FCP_NOTIFY, 61883/PSET_FCP_NOTIFY, 61883/SET_FCP_NOTIFY, IEEE.set_fcp_notify, PSET_FCP_NOTIFY, PSET_FCP_NOTIFY structure pointer [Buses], SET_FCP_NOTIFY, SET_FCP_NOTIFY structure [Buses], _SET_FCP_NOTIFY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	61883.h
-apiname:
+api_name:
 -	SET_FCP_NOTIFY
 product: Windows
 targetos: Windows

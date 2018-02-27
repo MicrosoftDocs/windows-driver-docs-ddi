@@ -7,8 +7,8 @@ old-location: stream\kscamera_metadataid.htm
 old-project: stream
 ms.assetid: 1CD1D065-9A96-42D5-807E-B439B4273920
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KSCAMERA_MetadataId enumeration [Streaming Media Devices], ksmedia/MetadataId_Standard_End, stream.kscamera_metadataid, ksmedia/MetadataId_PhotoConfirmation, MetadataId_Standard_Start, KSCAMERA_MetadataId, ksmedia/MetadataId_Standard_Start, MetadataId_PhotoConfirmation, ksmedia/MetadataId_Custom_Start, MetadataId_Custom_Start, ksmedia/KSCAMERA_MetadataId, MetadataId_Standard_End
+ms.date: 2/23/2018
+ms.keywords: KSCAMERA_MetadataId, KSCAMERA_MetadataId enumeration [Streaming Media Devices], MetadataId_Custom_Start, MetadataId_PhotoConfirmation, MetadataId_Standard_End, MetadataId_Standard_Start, ksmedia/KSCAMERA_MetadataId, ksmedia/MetadataId_Custom_Start, ksmedia/MetadataId_PhotoConfirmation, ksmedia/MetadataId_Standard_End, ksmedia/MetadataId_Standard_Start, stream.kscamera_metadataid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ksmedia.h
-apiname:
+api_name:
 -	KSCAMERA_MetadataId
 product: Windows
 targetos: Windows

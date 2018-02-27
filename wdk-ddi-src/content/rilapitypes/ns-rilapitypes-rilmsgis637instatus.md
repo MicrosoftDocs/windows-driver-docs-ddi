@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 70215db8-52c0-48c5-8e59-c60a61fbd07e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*LPRILMSGIS637INSTATUS, netvista.rilmsgis637instatus_2, RILMSGIS637INSTATUS, rilapitypes/RILMSGIS637INSTATUS, RILMSGIS637INSTATUS structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: "*LPRILMSGIS637INSTATUS, RILMSGIS637INSTATUS, RILMSGIS637INSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilmsgis637instatus_2, rilapitypes/RILMSGIS637INSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILMSGIS637INSTATUS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILMSGIS637INSTATUS, RILMSGIS637INSTATUS"
+req.typenames: RILMSGIS637INSTATUS, *LPRILMSGIS637INSTATUS
 req.product: Windows 10 or later.
 ---
 

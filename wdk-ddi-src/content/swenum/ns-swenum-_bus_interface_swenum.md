@@ -7,8 +7,8 @@ old-location: stream\bus_interface_swenum.htm
 old-project: stream
 ms.assetid: 7e667dd9-8ed1-49ef-a6ef-0d079d41db86
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: swenum/BUS_INTERFACE_SWENUM, *PBUS_INTERFACE_SWENUM, swenum/PBUS_INTERFACE_SWENUM, _BUS_INTERFACE_SWENUM, PBUS_INTERFACE_SWENUM, BUS_INTERFACE_SWENUM, PBUS_INTERFACE_SWENUM structure pointer [Streaming Media Devices], stream.bus_interface_swenum, ks-struct_d2f7683d-30e1-4ff5-b494-57309987e181.xml, BUS_INTERFACE_SWENUM structure [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PBUS_INTERFACE_SWENUM, BUS_INTERFACE_SWENUM, BUS_INTERFACE_SWENUM structure [Streaming Media Devices], PBUS_INTERFACE_SWENUM, PBUS_INTERFACE_SWENUM structure pointer [Streaming Media Devices], _BUS_INTERFACE_SWENUM, ks-struct_d2f7683d-30e1-4ff5-b494-57309987e181.xml, stream.bus_interface_swenum, swenum/BUS_INTERFACE_SWENUM, swenum/PBUS_INTERFACE_SWENUM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	swenum.h
-apiname:
+api_name:
 -	BUS_INTERFACE_SWENUM
 product: Windows
 targetos: Windows
@@ -73,7 +73,7 @@ typedef struct _BUS_INTERFACE_SWENUM {
 
 ### -field Interface
 
-Specifies the exported <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>.
+Specifies the exported <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>.
 
 
 ### -field ReferenceDeviceObject

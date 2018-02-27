@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 49dfbbb3-74e7-4904-8370-36d589276653
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.filterdetach, FilterDetach callback function [Network Drivers Starting with Windows Vista], FilterDetach, FILTER_DETACH, FILTER_DETACH, ndis/FilterDetach, filter_functions_ref_dec15a06-93c1-4da8-9dc6-b66be9c6f8eb.xml
+ms.keywords: FILTER_DETACH, FilterDetach, FilterDetach callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_dec15a06-93c1-4da8-9dc6-b66be9c6f8eb.xml, ndis/FilterDetach, netvista.filterdetach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ndis.h
-apiname:
+api_name:
 -	FilterDetach
 product: Windows
 targetos: Windows

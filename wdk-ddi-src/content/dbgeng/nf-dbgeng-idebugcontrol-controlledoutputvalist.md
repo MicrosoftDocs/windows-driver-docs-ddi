@@ -4,11 +4,11 @@ title: IDebugControl::ControlledOutputVaList method
 author: windows-driver-content
 description: The ControlledOutputVaList method formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
 old-location: debugger\controlledoutputvalist.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 5fd3c915-77e0-4f81-9131-0eaf9d3493a3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl2::ControlledOutputVaList, dbgeng/IDebugControl::ControlledOutputVaList, dbgeng/IDebugControl2::ControlledOutputVaList, IDebugControl, IDebugControl3::ControlledOutputVaList, ControlledOutputVaList method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], ControlledOutputVaList method, dbgeng/IDebugControl3::ControlledOutputVaList, ControlledOutputVaList method [Windows Debugging], IDebugControl3 interface [Windows Debugging], ControlledOutputVaList method, debugger.controlledoutputvalist, ControlledOutputVaList method [Windows Debugging], IDebugControl2 interface, IDebugControl_2ea55393-9577-4639-ac83-5cefb584ff3b.xml, IDebugControl2 interface [Windows Debugging], ControlledOutputVaList method, IDebugControl::ControlledOutputVaList, ControlledOutputVaList method [Windows Debugging], IDebugControl interface, ControlledOutputVaList
+ms.date: 2/23/2018
+ms.keywords: ControlledOutputVaList method [Windows Debugging], ControlledOutputVaList method [Windows Debugging], IDebugControl interface, ControlledOutputVaList method [Windows Debugging], IDebugControl2 interface, ControlledOutputVaList method [Windows Debugging], IDebugControl3 interface, ControlledOutputVaList,IDebugControl.ControlledOutputVaList, IDebugControl, IDebugControl interface [Windows Debugging], ControlledOutputVaList method, IDebugControl2 interface [Windows Debugging], ControlledOutputVaList method, IDebugControl2::ControlledOutputVaList, IDebugControl3 interface [Windows Debugging], ControlledOutputVaList method, IDebugControl3::ControlledOutputVaList, IDebugControl::ControlledOutputVaList, IDebugControl_2ea55393-9577-4639-ac83-5cefb584ff3b.xml, dbgeng/IDebugControl2::ControlledOutputVaList, dbgeng/IDebugControl3::ControlledOutputVaList, dbgeng/IDebugControl::ControlledOutputVaList, debugger.controlledoutputvalist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Dbgeng.h
-apiname:
+api_name:
 -	IDebugControl.ControlledOutputVaList
 -	IDebugControl2.ControlledOutputVaList
 -	IDebugControl3.ControlledOutputVaList
@@ -475,15 +475,19 @@ The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Std
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
-
-
-
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
 
 
 
@@ -495,13 +499,9 @@ The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Std
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::ControlledOutputVaList method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::ControlledOutputVaList method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

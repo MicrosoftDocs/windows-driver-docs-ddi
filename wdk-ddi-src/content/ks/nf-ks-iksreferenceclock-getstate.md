@@ -7,8 +7,8 @@ old-location: stream\iksreferenceclock_getstate.htm
 old-project: stream
 ms.assetid: 5a77a8bc-b477-41b3-bc4e-07c6c14291a1
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: GetState method [Streaming Media Devices], IKsReferenceClock interface [Streaming Media Devices], GetState method, IKsReferenceClock, ks/IKsReferenceClock::GetState, GetState method [Streaming Media Devices], IKsReferenceClock interface, stream.iksreferenceclock_getstate, avintfc_e2017894-2e83-4091-84b7-5ea793076b29.xml, IKsReferenceClock::GetState, GetState
+ms.date: 2/23/2018
+ms.keywords: GetState method [Streaming Media Devices], GetState method [Streaming Media Devices], IKsReferenceClock interface, GetState,IKsReferenceClock.GetState, IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], GetState method, IKsReferenceClock::GetState, avintfc_e2017894-2e83-4091-84b7-5ea793076b29.xml, ks/IKsReferenceClock::GetState, stream.iksreferenceclock_getstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ks.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	IKsReferenceClock.GetState
 product: Windows
 targetos: Windows
@@ -106,5 +106,5 @@ AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsReferenceClock::GetState method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsReferenceClock::GetState method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f364fc4b-a3c4-4010-a089-59a00ec3f872
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlMdlReadDev, ntifs/FsRtlMdlReadDev, ifsk.fsrtlmdlreaddev, fsrtlref_0ea7c45a-9056-4a17-9e9f-38608e643172.xml, FsRtlMdlReadDev routine [Installable File System Drivers]
+ms.keywords: FsRtlMdlReadDev, FsRtlMdlReadDev routine [Installable File System Drivers], fsrtlref_0ea7c45a-9056-4a17-9e9f-38608e643172.xml, ifsk.fsrtlmdlreaddev, ntifs/FsRtlMdlReadDev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	FsRtlMdlReadDev
 product: Windows
 targetos: Windows

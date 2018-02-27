@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1483be56-71c5-435b-843d-821f73dc79d7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvprocessuiresponse, Dot11ExtIhvProcessUIResponse callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvProcessUIResponse, DOT11EXTIHV_PROCESS_UI_RESPONSE, DOT11EXTIHV_PROCESS_UI_RESPONSE, wlanihv/Dot11ExtIhvProcessUIResponse, Native_802.11_IHV_Ext_6bf65442-0a9a-4061-81a3-855b0ae80df4.xml
+ms.keywords: DOT11EXTIHV_PROCESS_UI_RESPONSE, Dot11ExtIhvProcessUIResponse, Dot11ExtIhvProcessUIResponse callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_6bf65442-0a9a-4061-81a3-855b0ae80df4.xml, netvista.dot11extihvprocessuiresponse, wlanihv/Dot11ExtIhvProcessUIResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	Dot11ExtIhvProcessUIResponse
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 

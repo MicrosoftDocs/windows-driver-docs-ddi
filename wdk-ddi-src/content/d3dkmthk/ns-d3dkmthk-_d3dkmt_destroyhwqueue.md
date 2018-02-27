@@ -7,8 +7,8 @@ old-location: display\d3dkmt_destroyhwqueue.htm
 old-project: display
 ms.assetid: 076B47F5-8312-43E3-AE75-D4DDA8C0A181
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DKMT_DESTROYHWQUEUE structure [Display Devices], d3dkmthk/D3DKMT_DESTROYHWQUEUE, D3DKMT_DESTROYHWQUEUE, display.d3dkmt_destroyhwqueue, _D3DKMT_DESTROYHWQUEUE
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_DESTROYHWQUEUE, D3DKMT_DESTROYHWQUEUE structure [Display Devices], _D3DKMT_DESTROYHWQUEUE, d3dkmthk/D3DKMT_DESTROYHWQUEUE, display.d3dkmt_destroyhwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	D3DKMT_DESTROYHWQUEUE
 product: Windows
 targetos: Windows

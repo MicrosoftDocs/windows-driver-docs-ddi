@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: f6d3f95b-7484-4a6b-9b7e-69f6172b7a12
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEEE.av_pcr, AV_PCR structure [Buses], 61883/PAV_PCR, 61883/AV_PCR, _AV_PCR, *PAV_PCR, 61883_structures_d8602c71-aca5-427d-a8bf-d1da914ebacc.xml, AV_PCR, PAV_PCR structure pointer [Buses], PAV_PCR
+ms.keywords: "*PAV_PCR, 61883/AV_PCR, 61883/PAV_PCR, 61883_structures_d8602c71-aca5-427d-a8bf-d1da914ebacc.xml, AV_PCR, AV_PCR structure [Buses], IEEE.av_pcr, PAV_PCR, PAV_PCR structure pointer [Buses], _AV_PCR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	61883.h
-apiname:
+api_name:
 -	AV_PCR
 product: Windows
 targetos: Windows
-req.typenames: "*PAV_PCR, AV_PCR"
+req.typenames: AV_PCR, *PAV_PCR
 ---
 
 # _AV_PCR structure
@@ -73,14 +73,14 @@ typedef struct _AV_PCR {
 
 
 
-#### - oPCR
-
-Contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537441">OPCR</a> structure that contains initialization values for an output plug. 
-
-
 #### - iPCR
 
 Contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537348">IPCR</a> structure that contains initialization values for an input plug.
+
+
+#### - oPCR
+
+Contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537441">OPCR</a> structure that contains initialization values for an output plug. 
 
 
 #### - ulongData

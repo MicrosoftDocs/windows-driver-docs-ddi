@@ -7,8 +7,8 @@ old-location: kernel\auxklibinitialize.htm
 old-project: kernel
 ms.assetid: 7e15cbe1-17f7-4df7-9273-9a365d309d03
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: aux_klib_d83fd3ae-3a26-4798-9ef8-1530adb78543.xml, AuxKlibInitialize routine [Kernel-Mode Driver Architecture], AuxKlibInitialize, aux_klib/AuxKlibInitialize, kernel.auxklibinitialize
+ms.date: 2/24/2018
+ms.keywords: AuxKlibInitialize, AuxKlibInitialize routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibInitialize, aux_klib_d83fd3ae-3a26-4798-9ef8-1530adb78543.xml, kernel.auxklibinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Aux_Klib.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Aux_Klib.lib
 -	Aux_Klib.dll
-apiname:
+api_name:
 -	AuxKlibInitialize
 product: Windows
 targetos: Windows
-req.typenames: "*PREPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA"
+req.typenames: REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA
 ---
 
 # AuxKlibInitialize function

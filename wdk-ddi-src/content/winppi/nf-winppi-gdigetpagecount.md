@@ -7,8 +7,8 @@ old-location: print\gdigetpagecount.htm
 old-project: print
 ms.assetid: 0a101b59-c610-4158-97a8-002222a94309
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: GdiGetPageCount, GdiGetPageCount function [Print Devices], winppi/GdiGetPageCount, print.gdigetpagecount, gdifnc_f34bbc65-29f2-47b1-aec3-523af01a804c.xml
+ms.date: 2/23/2018
+ms.keywords: GdiGetPageCount, GdiGetPageCount function [Print Devices], gdifnc_f34bbc65-29f2-47b1-aec3-523af01a804c.xml, print.gdigetpagecount, winppi/GdiGetPageCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,16 +29,16 @@ req.type-library:
 req.lib: Gdi32.Lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Gdi32.dll
 -	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 -	GDI32Full.dll
-apiname:
+api_name:
 -	GdiGetPageCount
 product: Windows
 targetos: Windows

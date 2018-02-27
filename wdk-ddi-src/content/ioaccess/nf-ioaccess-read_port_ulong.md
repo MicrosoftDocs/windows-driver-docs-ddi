@@ -7,8 +7,8 @@ old-location: kernel\read_port_ulong.htm
 old-project: kernel
 ms.assetid: 8a2f4429-b805-4a36-afdf-8b9c9a886951
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: READ_PORT_ULONG routine [Kernel-Mode Driver Architecture], READ_PORT_ULONG, kernel.read_port_ulong, k103_04794cc7-88eb-4456-8613-6fcf9947ebe4.xml, wdm/READ_PORT_ULONG
+ms.date: 2/24/2018
+ms.keywords: READ_PORT_ULONG, READ_PORT_ULONG routine [Kernel-Mode Driver Architecture], k103_04794cc7-88eb-4456-8613-6fcf9947ebe4.xml, kernel.read_port_ulong, wdm/READ_PORT_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Hal.lib
 -	Hal.dll
-apiname:
+api_name:
 -	READ_PORT_ULONG
 product: Windows
 targetos: Windows

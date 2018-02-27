@@ -7,8 +7,8 @@ old-location: print\createprinteric.htm
 old-project: print
 ms.assetid: 87C99B3A-EF77-4D87-9953-BBE9628D2A3D
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.createprinteric, winsplp/CreatePrinterIC, CreatePrinterIC function [Print Devices], CreatePrinterIC
+ms.date: 2/23/2018
+ms.keywords: CreatePrinterIC, CreatePrinterIC function [Print Devices], print.createprinteric, winsplp/CreatePrinterIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Winsplp.h
-apiname:
+api_name:
 -	CreatePrinterIC
 product: Windows
 targetos: Windows

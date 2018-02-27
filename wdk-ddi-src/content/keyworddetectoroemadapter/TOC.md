@@ -8,3 +8,4 @@
 ### [IKeywordDetectorOemAdapter::VerifyUserKeyword method](../keyworddetectoroemadapter/nf-keyworddetectoroemadapter-ikeyworddetectoroemadapter-verifyuserkeyword.md)
 ### [IKeywordDetectorOemAdapter interface](../keyworddetectoroemadapter/nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md)
 ### [__MIDL_IKeywordDetectorOemAdapter_0003 structure](../keyworddetectoroemadapter/ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003.md)
+### [__MIDL___MIDL_itf_keyworddetectoroemadapter_0000_0000_0001 structure](../keyworddetectoroemadapter/ns-keyworddetectoroemadapter-__midl___midl_itf_keyworddetectoroemadapter_0000_0000_0001.md)

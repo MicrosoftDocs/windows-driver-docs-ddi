@@ -7,8 +7,8 @@ old-location: storage\sm_getpersistentbinding_in.htm
 old-project: storage
 ms.assetid: 6c716394-1e82-40d2-befc-50a0ea88f750
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*PSM_GetPersistentBinding_IN, _SM_GetPersistentBinding_IN, storage.sm_getpersistentbinding_in, PSM_GetPersistentBinding_IN structure pointer [Storage Devices], hbapiwmi/SM_GetPersistentBinding_IN, structs-Fibre_2cf97173-2aa3-4770-865a-825f5db0daf1.xml, hbapiwmi/PSM_GetPersistentBinding_IN, SM_GetPersistentBinding_IN, SM_GetPersistentBinding_IN structure [Storage Devices], PSM_GetPersistentBinding_IN"
+ms.date: 2/24/2018
+ms.keywords: "*PSM_GetPersistentBinding_IN, PSM_GetPersistentBinding_IN, PSM_GetPersistentBinding_IN structure pointer [Storage Devices], SM_GetPersistentBinding_IN, SM_GetPersistentBinding_IN structure [Storage Devices], _SM_GetPersistentBinding_IN, hbapiwmi/PSM_GetPersistentBinding_IN, hbapiwmi/SM_GetPersistentBinding_IN, storage.sm_getpersistentbinding_in, structs-Fibre_2cf97173-2aa3-4770-865a-825f5db0daf1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hbapiwmi.h
-apiname:
+api_name:
 -	SM_GetPersistentBinding_IN
 product: Windows
 targetos: Windows

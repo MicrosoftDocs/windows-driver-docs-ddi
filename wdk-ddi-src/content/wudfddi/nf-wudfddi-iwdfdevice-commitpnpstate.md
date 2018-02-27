@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 650ad98a-81e5-4ec8-b276-a5dc79366652
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfdevice_commitpnpstate, UMDFDeviceObjectRef_51342f9e-fc5f-4100-8c5c-bc58d7569529.xml, wudfddi/IWDFDevice::CommitPnpState, CommitPnpState method, IWDFDevice::CommitPnpState, CommitPnpState method, IWDFDevice interface, wdf.iwdfdevice_commitpnpstate, IWDFDevice, CommitPnpState, IWDFDevice interface, CommitPnpState method
+ms.keywords: CommitPnpState method, CommitPnpState method, IWDFDevice interface, CommitPnpState,IWDFDevice.CommitPnpState, IWDFDevice, IWDFDevice interface, CommitPnpState method, IWDFDevice::CommitPnpState, UMDFDeviceObjectRef_51342f9e-fc5f-4100-8c5c-bc58d7569529.xml, umdf.iwdfdevice_commitpnpstate, wdf.iwdfdevice_commitpnpstate, wudfddi/IWDFDevice::CommitPnpState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFDevice.CommitPnpState
 product: Windows
 targetos: Windows

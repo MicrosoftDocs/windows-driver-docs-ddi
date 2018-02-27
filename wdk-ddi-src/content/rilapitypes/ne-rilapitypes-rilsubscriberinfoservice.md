@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9dcdfbcc-bab8-4621-993b-e64106d0457e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilsubscriberinfoservice, RIL_SERVICE_OTHER, RIL_SERVICE_FAX, rilapitypes/RIL_SERVICE_VOICE, RILSUBSCRIBERINFOSERVICE, rilapitypes/RIL_SERVICE_OTHER, rilapitypes/RILSUBSCRIBERINFOSERVICE, rilapitypes/RIL_SERVICE_FAX, rilapitypes/RIL_SERVICE_UNKNOWN, RIL_SERVICE_UNKNOWN, RILSUBSCRIBERINFOSERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_SERVICE_VOICE
+ms.keywords: RILSUBSCRIBERINFOSERVICE, RILSUBSCRIBERINFOSERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_SERVICE_FAX, RIL_SERVICE_OTHER, RIL_SERVICE_UNKNOWN, RIL_SERVICE_VOICE, netvista.rilsubscriberinfoservice, rilapitypes/RILSUBSCRIBERINFOSERVICE, rilapitypes/RIL_SERVICE_FAX, rilapitypes/RIL_SERVICE_OTHER, rilapitypes/RIL_SERVICE_UNKNOWN, rilapitypes/RIL_SERVICE_VOICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILSUBSCRIBERINFOSERVICE
 product: Windows
 targetos: Windows

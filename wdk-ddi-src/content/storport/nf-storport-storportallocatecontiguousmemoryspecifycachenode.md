@@ -7,8 +7,8 @@ old-location: storage\storportallocatecontiguousmemoryspecifycachenode.htm
 old-project: storage
 ms.assetid: b2ed8c88-9ffd-4601-8fd0-c9390e9ba84d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storport/StorPortAllocateContiguousMemorySpecifyCacheNode, storprt_d91d6ab4-677e-4bc0-a0b5-1c252475ecbb.xml, storage.storportallocatecontiguousmemoryspecifycachenode, StorPortAllocateContiguousMemorySpecifyCacheNode routine [Storage Devices], StorPortAllocateContiguousMemorySpecifyCacheNode
+ms.date: 2/24/2018
+ms.keywords: StorPortAllocateContiguousMemorySpecifyCacheNode, StorPortAllocateContiguousMemorySpecifyCacheNode routine [Storage Devices], storage.storportallocatecontiguousmemoryspecifycachenode, storport/StorPortAllocateContiguousMemorySpecifyCacheNode, storprt_d91d6ab4-677e-4bc0-a0b5-1c252475ecbb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	storport.h
-apiname:
+api_name:
 -	StorPortAllocateContiguousMemorySpecifyCacheNode
 product: Windows
 targetos: Windows

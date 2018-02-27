@@ -7,8 +7,8 @@ old-location: smartcrd\vendor_attr.htm
 old-project: smartcrd
 ms.assetid: f166ced5-2d63-4e35-af77-78ca80c888d7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "_VENDOR_ATTR, *PVENDOR_ATTR, smclib/VENDOR_ATTR, scstruct_dfa4be20-d572-46d6-aff7-c4c16d930c7f.xml, smclib/PVENDOR_ATTR, VENDOR_ATTR, PVENDOR_ATTR, PVENDOR_ATTR structure pointer [Smart Card Reader Devices], VENDOR_ATTR structure [Smart Card Reader Devices], smartcrd.vendor_attr"
+ms.date: 2/22/2018
+ms.keywords: "*PVENDOR_ATTR, PVENDOR_ATTR, PVENDOR_ATTR structure pointer [Smart Card Reader Devices], VENDOR_ATTR, VENDOR_ATTR structure [Smart Card Reader Devices], _VENDOR_ATTR, scstruct_dfa4be20-d572-46d6-aff7-c4c16d930c7f.xml, smartcrd.vendor_attr, smclib/PVENDOR_ATTR, smclib/VENDOR_ATTR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level (See Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	smclib.h
-apiname:
+api_name:
 -	VENDOR_ATTR
 product: Windows
 targetos: Windows
-req.typenames: "*PVENDOR_ATTR, VENDOR_ATTR"
+req.typenames: VENDOR_ATTR, *PVENDOR_ATTR
 req.product: Windows 10 or later.
 ---
 

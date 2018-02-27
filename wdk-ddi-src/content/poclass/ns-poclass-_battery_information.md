@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: e9326d96-bd96-4493-a0b2-abe6b8f2401a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: battery.battery_information, poclass/BATTERY_INFORMATION, _BATTERY_INFORMATION, BATTERY_INFORMATION structure [Battery Devices], bat-struct_c2f83d6c-44f6-4e41-8f15-874edfc17b7c.xml, BATTERY_INFORMATION, PBATTERY_INFORMATION structure pointer [Battery Devices], poclass/PBATTERY_INFORMATION, PBATTERY_INFORMATION, *PBATTERY_INFORMATION
+ms.keywords: "*PBATTERY_INFORMATION, BATTERY_INFORMATION, BATTERY_INFORMATION structure [Battery Devices], PBATTERY_INFORMATION, PBATTERY_INFORMATION structure pointer [Battery Devices], _BATTERY_INFORMATION, bat-struct_c2f83d6c-44f6-4e41-8f15-874edfc17b7c.xml, battery.battery_information, poclass/BATTERY_INFORMATION, poclass/PBATTERY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	poclass.h
-apiname:
+api_name:
 -	BATTERY_INFORMATION
 product: Windows
 targetos: Windows
@@ -160,11 +160,11 @@ Specify the number of charge/discharge cycles the battery has experienced, or ze
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a>
-
-
-
 <a href="https://msdn.microsoft.com/04811f63-8a57-4b39-84c5-c9b7f803c057">BatteryMiniQueryStatus</a>
+
+
+
+<a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a>
 
 
 

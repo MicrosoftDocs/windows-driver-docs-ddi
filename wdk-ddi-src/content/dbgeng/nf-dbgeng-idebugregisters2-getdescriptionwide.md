@@ -4,11 +4,11 @@ title: IDebugRegisters2::GetDescriptionWide method
 author: windows-driver-content
 description: The GetDescriptionWide method returns the description of a register.
 old-location: debugger\getdescriptionwide.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: e599d960-aefb-4b68-8149-7e93150d90d5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: dbgeng/IDebugRegisters2::GetDescriptionWide, IDebugRegisters2 interface [Windows Debugging], GetDescriptionWide method, IDebugRegisters2, IDebugRegisters2::GetDescriptionWide, GetDescriptionWide method [Windows Debugging], GetDescriptionWide, GetDescriptionWide method [Windows Debugging], IDebugRegisters2 interface, debugger.getdescriptionwide
+ms.date: 2/23/2018
+ms.keywords: GetDescriptionWide method [Windows Debugging], GetDescriptionWide method [Windows Debugging], IDebugRegisters2 interface, GetDescriptionWide,IDebugRegisters2.GetDescriptionWide, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetDescriptionWide method, IDebugRegisters2::GetDescriptionWide, dbgeng/IDebugRegisters2::GetDescriptionWide, debugger.getdescriptionwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugRegisters2.GetDescriptionWide
 product: Windows
 targetos: Windows

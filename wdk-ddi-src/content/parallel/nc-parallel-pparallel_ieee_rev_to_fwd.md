@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 4c9c88bf-e7f9-484b-b476-0def92cf48b2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.pparallel_ieee_rev_to_fwd, PPARALLEL_IEEE_REV_TO_FWD function pointer [Parallel Ports], PPARALLEL_IEEE_REV_TO_FWD, parallel/PPARALLEL_IEEE_REV_TO_FWD, cisspd_f42cc965-4f4d-4d18-b111-0e19fca9a9d5.xml
+ms.keywords: PPARALLEL_IEEE_REV_TO_FWD, PPARALLEL_IEEE_REV_TO_FWD function pointer [Parallel Ports], cisspd_f42cc965-4f4d-4d18-b111-0e19fca9a9d5.xml, parallel/PPARALLEL_IEEE_REV_TO_FWD, parports.pparallel_ieee_rev_to_fwd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	parallel.h
-apiname:
+api_name:
 -	PPARALLEL_IEEE_REV_TO_FWD
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # PPARALLEL_IEEE_REV_TO_FWD callback
@@ -124,23 +124,11 @@ The PPARALLEL_IEEE_REV_TO_FWD callback runs in the caller's thread at the IRQL o
 
 ## -see-also
 
-<a href="..\parallel\nc-parallel-pparallel_ieee_fwd_to_rev.md">PPARALLEL_IEEE_FWD_TO_REV</a>
-
-
-
-<a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
-
-
-
-<a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
-
-
-
-<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_get_mode.md">IOCTL_IEEE1284_GET_MODE</a>
-
-
-
 <a href="..\parallel\nc-parallel-pterminate_ieee_mode.md">PTERMINATE_IEEE_MODE</a>
+
+
+
+<a href="..\ntddpar\ni-ntddpar-ioctl_par_get_default_modes.md">IOCTL_PAR_GET_DEFAULT_MODES</a>
 
 
 
@@ -148,7 +136,19 @@ The PPARALLEL_IEEE_REV_TO_FWD callback runs in the caller's thread at the IRQL o
 
 
 
-<a href="..\parallel\nc-parallel-pterminate_ieee_mode.md">PTERMINATE_IEEE_MODE</a>
+<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_get_mode.md">IOCTL_IEEE1284_GET_MODE</a>
+
+
+
+<a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
+
+
+
+<a href="..\parallel\nc-parallel-pparallel_ieee_fwd_to_rev.md">PPARALLEL_IEEE_FWD_TO_REV</a>
+
+
+
+<a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
 
 
 

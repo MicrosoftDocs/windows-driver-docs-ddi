@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 25e1462c-6eaa-480a-9f9e-6f8689da05c5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extsetprofilecustomuserdata, Dot11ExtSetProfileCustomUserData callback function [Network Drivers Starting with Windows Vista], Dot11ExtSetProfileCustomUserData, DOT11EXT_SET_PROFILE_CUSTOM_USER_DATA, DOT11EXT_SET_PROFILE_CUSTOM_USER_DATA, wlanihv/Dot11ExtSetProfileCustomUserData, Native_802.11_IHV_Ext_87f713b8-bd3e-4165-adce-c37fbb829cdb.xml
+ms.keywords: DOT11EXT_SET_PROFILE_CUSTOM_USER_DATA, Dot11ExtSetProfileCustomUserData, Dot11ExtSetProfileCustomUserData callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_87f713b8-bd3e-4165-adce-c37fbb829cdb.xml, netvista.dot11extsetprofilecustomuserdata, wlanihv/Dot11ExtSetProfileCustomUserData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	Dot11ExtSetProfileCustomUserData
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -155,13 +155,13 @@ After custom user data has been set, this data can be accessed using the
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_get_profile_custom_user_data.md">
-   Dot11ExtGetProfileCustomUserData</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
    Dot11ExtIhvPerformPreAssociate</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_get_profile_custom_user_data.md">
+   Dot11ExtGetProfileCustomUserData</a>
 
 
 

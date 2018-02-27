@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f3fedf69-260c-4117-b302-db3ce6b182a0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.PFLT_GET_OPERATION_STATUS_CALLBACK, OperationStatusCallback routine [Installable File System Drivers], OperationStatusCallback, PFLT_GET_OPERATION_STATUS_CALLBACK, PFLT_GET_OPERATION_STATUS_CALLBACK, fltkernel/OperationStatusCallback
+ms.keywords: OperationStatusCallback, OperationStatusCallback routine [Installable File System Drivers], PFLT_GET_OPERATION_STATUS_CALLBACK, fltkernel/OperationStatusCallback, ifsk.PFLT_GET_OPERATION_STATUS_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	FltKernel.h
-apiname:
+api_name:
 -	OperationStatusCallback
 product: Windows
 targetos: Windows

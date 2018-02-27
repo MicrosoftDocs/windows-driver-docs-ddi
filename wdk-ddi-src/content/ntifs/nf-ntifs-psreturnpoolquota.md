@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 12ceb592-97ca-41c9-89d0-26fd2dc87981
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: psref_7dc67879-8f0e-41a1-96cf-018dcf60afcd.xml, ntifs/PsReturnPoolQuota, ifsk.psreturnpoolquota, PsReturnPoolQuota routine [Installable File System Drivers], PsReturnPoolQuota
+ms.keywords: PsReturnPoolQuota, PsReturnPoolQuota routine [Installable File System Drivers], ifsk.psreturnpoolquota, ntifs/PsReturnPoolQuota, psref_7dc67879-8f0e-41a1-96cf-018dcf60afcd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	PsReturnPoolQuota
 product: Windows
 targetos: Windows

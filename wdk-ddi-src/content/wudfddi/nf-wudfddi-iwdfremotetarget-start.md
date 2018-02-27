@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f0f21d34-21f2-48ac-994f-e050f4447745
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFRemoteTarget interface, Start method, wudfddi/IWDFRemoteTarget::Start, IWDFRemoteTarget::Start, wdf.iwdfremotetarget_start, Start method, IWDFRemoteTarget interface, Start method, UMDFIoTargetObjectRef_8e44c1ab-5ce6-4c4a-a7dc-e9de4b10ba12.xml, umdf.iwdfremotetarget_start, Start, IWDFRemoteTarget
+ms.keywords: IWDFRemoteTarget, IWDFRemoteTarget interface, Start method, IWDFRemoteTarget::Start, Start method, Start method, IWDFRemoteTarget interface, Start,IWDFRemoteTarget.Start, UMDFIoTargetObjectRef_8e44c1ab-5ce6-4c4a-a7dc-e9de4b10ba12.xml, umdf.iwdfremotetarget_start, wdf.iwdfremotetarget_start, wudfddi/IWDFRemoteTarget::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFRemoteTarget.Start
 product: Windows
 targetos: Windows

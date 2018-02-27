@@ -7,8 +7,8 @@ old-location: audio\iservicesink_requestservice.htm
 old-project: audio
 ms.assetid: c5035dee-3523-4b0d-9baa-e30720115499
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: RequestService method [Audio Devices], IServiceSink interface, IServiceSink interface [Audio Devices], RequestService method, RequestService method [Audio Devices], IServiceSink::RequestService, portcls/IServiceSink::RequestService, audmp-routines_c59de1c6-446e-489b-ba96-c2b24f74576a.xml, RequestService, IServiceSink, audio.iservicesink_requestservice
+ms.date: 2/22/2018
+ms.keywords: IServiceSink, IServiceSink interface [Audio Devices], RequestService method, IServiceSink::RequestService, RequestService method [Audio Devices], RequestService method [Audio Devices], IServiceSink interface, RequestService,IServiceSink.RequestService, audio.iservicesink_requestservice, audmp-routines_c59de1c6-446e-489b-ba96-c2b24f74576a.xml, portcls/IServiceSink::RequestService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IServiceSink.RequestService
 product: Windows
 targetos: Windows

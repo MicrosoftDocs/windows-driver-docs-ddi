@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e990b7fc-a341-419d-b358-eac4fa2dca78
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.mrxextractnetrootname, MRxExtractNetRootName, MRxExtractNetRootName routine [Installable File System Drivers], MRxExtractNetRootName, PMRX_EXTRACT_NETROOT_NAME, PMRX_EXTRACT_NETROOT_NAME, mrx/MRxExtractNetRootName, mrxref_6ccbe7d3-a74d-4eab-bfc1-994791d9613a.xml
+ms.keywords: MRxExtractNetRootName, MRxExtractNetRootName routine [Installable File System Drivers], PMRX_EXTRACT_NETROOT_NAME, ifsk.mrxextractnetrootname, mrx/MRxExtractNetRootName, mrxref_6ccbe7d3-a74d-4eab-bfc1-994791d9613a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	mrx.h
-apiname:
+api_name:
 -	MRxExtractNetRootName
 product: Windows
 targetos: Windows
@@ -122,15 +122,11 @@ None
 
 ## -see-also
 
+<a href="..\mrx\nc-mrx-pmrx_finalize_srvcall_calldown.md">MRxFinalizeSrvCall</a>
+
+
+
 <a href="..\mrx\nc-mrx-pmrx_finalize_net_root_calldown.md">MRxFinalizeNetRoot</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_srvcall_winner_notify.md">MRxSrvCallWinnerNotify</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_preparse_name.md">MRxPreparseName</a>
 
 
 
@@ -138,15 +134,19 @@ None
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_finalize_v_net_root_calldown.md">MRxFinalizeVNetRoot</a>
+<a href="..\mrx\nc-mrx-pmrx_preparse_name.md">MRxPreparseName</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_finalize_srvcall_calldown.md">MRxFinalizeSrvCall</a>
+<a href="..\mrx\nc-mrx-pmrx_srvcall_winner_notify.md">MRxSrvCallWinnerNotify</a>
 
 
 
 <a href="..\mrx\nc-mrx-pmrx_create_v_net_root.md">MRxCreateVNetRoot</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_finalize_v_net_root_calldown.md">MRxFinalizeVNetRoot</a>
 
 
 

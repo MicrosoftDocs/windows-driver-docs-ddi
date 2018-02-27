@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9F422CE9-8ADC-4709-8FE5-5A3501B47AC2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/FAST_IO_DISPATCH, PFAST_IO_DISPATCH structure pointer [Installable File System Drivers], PFAST_IO_DISPATCH, wdm/PFAST_IO_DISPATCH, _FAST_IO_DISPATCH, ifsk.fast_io_dispatch, FAST_IO_DISPATCH structure [Installable File System Drivers], FAST_IO_DISPATCH, *PFAST_IO_DISPATCH
+ms.keywords: "*PFAST_IO_DISPATCH, FAST_IO_DISPATCH, FAST_IO_DISPATCH structure [Installable File System Drivers], PFAST_IO_DISPATCH, PFAST_IO_DISPATCH structure pointer [Installable File System Drivers], _FAST_IO_DISPATCH, ifsk.fast_io_dispatch, wdm/FAST_IO_DISPATCH, wdm/PFAST_IO_DISPATCH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	FAST_IO_DISPATCH
 product: Windows
 targetos: Windows

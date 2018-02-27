@@ -4,11 +4,11 @@ title: IDebugDataSpaces4::ReadIo method
 author: windows-driver-content
 description: The ReadIo method reads from the system and bus I/O memory.
 old-location: debugger\readio.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: d690cf53-63a6-487c-a952-07035786d19c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugDataSpaces3 interface [Windows Debugging], ReadIo method, IDebugDataSpaces::ReadIo, IDebugDataSpaces interface [Windows Debugging], ReadIo method, ReadIo, dbgeng/IDebugDataSpaces2::ReadIo, ReadIo method [Windows Debugging], debugger.readio, IDebugDataSpaces_a6189a47-dc48-44cf-aadd-61769085ebc5.xml, dbgeng/IDebugDataSpaces::ReadIo, IDebugDataSpaces3, dbgeng/IDebugDataSpaces3::ReadIo, ReadIo method [Windows Debugging], IDebugDataSpaces4 interface, ReadIo method [Windows Debugging], IDebugDataSpaces3 interface, ReadIo method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces, dbgeng/IDebugDataSpaces4::ReadIo, IDebugDataSpaces4 interface [Windows Debugging], ReadIo method, IDebugDataSpaces3::ReadIo, IDebugDataSpaces4, IDebugDataSpaces2, ReadIo method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces2 interface [Windows Debugging], ReadIo method, IDebugDataSpaces2::ReadIo, IDebugDataSpaces4::ReadIo
+ms.date: 2/23/2018
+ms.keywords: IDebugDataSpaces interface [Windows Debugging], ReadIo method, IDebugDataSpaces2 interface [Windows Debugging], ReadIo method, IDebugDataSpaces2::ReadIo, IDebugDataSpaces3 interface [Windows Debugging], ReadIo method, IDebugDataSpaces3::ReadIo, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadIo method, IDebugDataSpaces4::ReadIo, IDebugDataSpaces::ReadIo, IDebugDataSpaces_a6189a47-dc48-44cf-aadd-61769085ebc5.xml, ReadIo method [Windows Debugging], ReadIo method [Windows Debugging], IDebugDataSpaces interface, ReadIo method [Windows Debugging], IDebugDataSpaces2 interface, ReadIo method [Windows Debugging], IDebugDataSpaces3 interface, ReadIo method [Windows Debugging], IDebugDataSpaces4 interface, ReadIo,IDebugDataSpaces4.ReadIo, dbgeng/IDebugDataSpaces2::ReadIo, dbgeng/IDebugDataSpaces3::ReadIo, dbgeng/IDebugDataSpaces4::ReadIo, dbgeng/IDebugDataSpaces::ReadIo, debugger.readio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugDataSpaces.ReadIo
 -	IDebugDataSpaces2.ReadIo
 -	IDebugDataSpaces3.ReadIo

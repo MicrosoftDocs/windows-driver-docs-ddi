@@ -7,8 +7,8 @@ old-location: audio\iport.htm
 old-project: audio
 ms.assetid: 8aaadfd6-3aca-451b-a5e9-081b083ae51d
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iport, IPort interface [Audio Devices], IPort interface [Audio Devices], described, IPort, portcls/IPort, audmp-routines_45897b1f-29f6-411d-9963-60f31e1655e7.xml
+ms.date: 2/22/2018
+ms.keywords: IPort, IPort interface [Audio Devices], IPort interface [Audio Devices], described, audio.iport, audmp-routines_45897b1f-29f6-411d-9963-60f31e1655e7.xml, portcls/IPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IPort
 product: Windows
 targetos: Windows

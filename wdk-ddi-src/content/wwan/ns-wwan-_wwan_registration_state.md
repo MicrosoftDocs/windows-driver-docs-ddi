@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 72a41403-9e22-4212-955a-16e243f7af1d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WwanRef_ff7f3a8a-853b-43e3-95fb-ed4320806ad2.xml, PWWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], PWWAN_REGISTRATION_STATE, wwan/PWWAN_REGISTRATION_STATE, WWAN_REGISTRATION_STATE, wwan/WWAN_REGISTRATION_STATE, netvista.wwan_registration_state, *PWWAN_REGISTRATION_STATE, WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], _WWAN_REGISTRATION_STATE
+ms.keywords: "*PWWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_REGISTRATION_STATE, WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_ff7f3a8a-853b-43e3-95fb-ed4320806ad2.xml, _WWAN_REGISTRATION_STATE, netvista.wwan_registration_state, wwan/PWWAN_REGISTRATION_STATE, wwan/WWAN_REGISTRATION_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_REGISTRATION_STATE
 product: Windows
 targetos: Windows
@@ -273,15 +273,15 @@ Miniport drivers connected to a multi-mode network should indicate the cellular 
 
 ## -see-also
 
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_registration_state.md">NDIS_WWAN_REGISTRATION_STATE</a>
+
+
+
 <a href="..\wwan\ne-wwan-_wwan_register_mode.md">WWAN_REGISTER_MODE</a>
 
 
 
 <a href="..\wwan\ne-wwan-_wwan_register_state.md">WWAN_REGISTER_STATE</a>
-
-
-
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_registration_state.md">NDIS_WWAN_REGISTRATION_STATE</a>
 
 
 

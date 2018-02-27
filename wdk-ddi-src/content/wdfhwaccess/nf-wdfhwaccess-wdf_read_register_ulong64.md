@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A47BEA59-CBDD-41B5-9CEB-DC354D2BCC72
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfhwaccess/WDF_READ_REGISTER_ULONG64, wdf.wdf_read_register_ulong64, WDF_READ_REGISTER_ULONG64, WDF_READ_REGISTER_ULONG64 function
+ms.keywords: WDF_READ_REGISTER_ULONG64, WDF_READ_REGISTER_ULONG64 function, wdf.wdf_read_register_ulong64, wdfhwaccess/WDF_READ_REGISTER_ULONG64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdfhwaccess.h
-apiname:
+api_name:
 -	WDF_READ_REGISTER_ULONG64
 product: Windows
 targetos: Windows

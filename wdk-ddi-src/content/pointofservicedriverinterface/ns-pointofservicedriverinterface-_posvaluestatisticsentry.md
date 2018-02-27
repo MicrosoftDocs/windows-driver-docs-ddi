@@ -7,8 +7,8 @@ old-location: pos\posvaluestatisticsentry.htm
 old-project: pos
 ms.assetid: e6627d5f-5905-479e-b968-6914491231b1
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: "_PosValueStatisticsEntry, PosValueStatisticsEntry, PosValueStatisticsEntry structure, pos.posvaluestatisticsentry, pointofservicedriverinterface/PosValueStatisticsEntry"
+ms.date: 2/23/2018
+ms.keywords: PosValueStatisticsEntry, PosValueStatisticsEntry structure, _PosValueStatisticsEntry, pointofservicedriverinterface/PosValueStatisticsEntry, pos.posvaluestatisticsentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	PointOfServiceDriverInterface.h
-apiname:
+api_name:
 -	PosValueStatisticsEntry
 product: Windows
 targetos: Windows

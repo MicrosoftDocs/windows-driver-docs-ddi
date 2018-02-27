@@ -7,8 +7,8 @@ old-location: display\evt_idd_cx_adapter_commit_modes.htm
 old-project: display
 ms.assetid: 30e1d240-8a1e-4bcd-8c04-76894ac61624
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.evt_idd_cx_adapter_commit_modes, EvtIddCxAdapterCommitModes callback function [Display Devices], EvtIddCxAdapterCommitModes, EVT_IDD_CX_ADAPTER_COMMIT_MODES, EVT_IDD_CX_ADAPTER_COMMIT_MODES, iddcx/EvtIddCxAdapterCommitModes, PFN_IDD_CX_ADAPTER_COMMIT_MODES callback function pointer [Display Devices], PFN_IDD_CX_ADAPTER_COMMIT_MODES
+ms.date: 2/24/2018
+ms.keywords: EVT_IDD_CX_ADAPTER_COMMIT_MODES, EvtIddCxAdapterCommitModes, EvtIddCxAdapterCommitModes callback function [Display Devices], PFN_IDD_CX_ADAPTER_COMMIT_MODES, PFN_IDD_CX_ADAPTER_COMMIT_MODES callback function pointer [Display Devices], display.evt_idd_cx_adapter_commit_modes, iddcx/EvtIddCxAdapterCommitModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "_requires_same_"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	iddcx.h
-apiname:
+api_name:
 -	PFN_IDD_CX_ADAPTER_COMMIT_MODES
 product: Windows
 targetos: Windows

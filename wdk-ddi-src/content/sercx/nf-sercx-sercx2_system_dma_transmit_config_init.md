@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: B65CE818-9D92-441B-AF98-1DE51DEEF3D5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT function [Serial Ports], 2/SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT, serports.sercx2_system_dma_transmit_config_init, SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT
+ms.keywords: 2/SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT, SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT, SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT function [Serial Ports], serports.sercx2_system_dma_transmit_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	2.0\Sercx.h
-apiname:
+api_name:
 -	SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
+req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
 

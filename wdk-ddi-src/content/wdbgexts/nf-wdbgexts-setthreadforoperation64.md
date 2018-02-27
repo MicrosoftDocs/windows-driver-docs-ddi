@@ -4,11 +4,11 @@ title: SetThreadForOperation64 function
 author: windows-driver-content
 description: The SetThreadForOperation64 function sets the thread to use for the next StackTrace call.
 old-location: debugger\setthreadforoperation64.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 0c8f7113-0866-454a-9596-8733dd78b282
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.setthreadforoperation64, SetThreadForOperation64 function [Windows Debugging], SetThreadForOperation64, wdbgexts/SetThreadForOperation64, WdbgExts_Ref_8c7ef2e9-4096-4284-9878-63d90f49e227.xml
+ms.date: 2/23/2018
+ms.keywords: SetThreadForOperation64, SetThreadForOperation64 function [Windows Debugging], WdbgExts_Ref_8c7ef2e9-4096-4284-9878-63d90f49e227.xml, debugger.setthreadforoperation64, wdbgexts/SetThreadForOperation64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdbgexts.h
-apiname:
+api_name:
 -	SetThreadForOperation64
 product: Windows
 targetos: Windows

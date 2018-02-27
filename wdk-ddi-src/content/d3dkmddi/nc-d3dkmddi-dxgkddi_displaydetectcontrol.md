@@ -7,8 +7,8 @@ old-location: display\dxgkddi_displaydetectcontrol.htm
 old-project: display
 ms.assetid: 6F10EA4D-BCDE-475E-9937-414CB83F6F2F
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgkddi_displaydetectcontrol, DXGKDDI_DISPLAYDETECTCONTROL callback function [Display Devices], DXGKDDI_DISPLAYDETECTCONTROL, d3dkmddi/DXGKDDI_DISPLAYDETECTCONTROL
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_DISPLAYDETECTCONTROL, DXGKDDI_DISPLAYDETECTCONTROL callback function [Display Devices], d3dkmddi/DXGKDDI_DISPLAYDETECTCONTROL, display.dxgkddi_displaydetectcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	DXGKDDI_DISPLAYDETECTCONTROL
 product: Windows
 targetos: Windows

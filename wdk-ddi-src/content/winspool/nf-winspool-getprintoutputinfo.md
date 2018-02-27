@@ -7,8 +7,8 @@ old-location: print\getprintoutputinfo.htm
 old-project: print
 ms.assetid: 0EC09215-48B1-4B71-9B4C-99A25C35269F
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: winspool/GetPrintOutputInfo, print.getprintoutputinfo, GetPrintOutputInfo function [Print Devices], GetPrintOutputInfo
+ms.date: 2/23/2018
+ms.keywords: GetPrintOutputInfo, GetPrintOutputInfo function [Print Devices], print.getprintoutputinfo, winspool/GetPrintOutputInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Winspool.h
-apiname:
+api_name:
 -	GetPrintOutputInfo
 product: Windows
 targetos: Windows

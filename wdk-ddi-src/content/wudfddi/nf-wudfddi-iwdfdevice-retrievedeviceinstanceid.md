@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 224277b4-447f-4981-aabf-90a10322c0df
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: RetrieveDeviceInstanceId, wdf.iwdfdevice_retrievedeviceinstanceid, UMDFDeviceObjectRef_fef96c70-8877-4c1f-9e05-d4caf9a8ea28.xml, RetrieveDeviceInstanceId method, RetrieveDeviceInstanceId method, IWDFDevice interface, IWDFDevice::RetrieveDeviceInstanceId, IWDFDevice, umdf.iwdfdevice_retrievedeviceinstanceid, IWDFDevice interface, RetrieveDeviceInstanceId method, wudfddi/IWDFDevice::RetrieveDeviceInstanceId
+ms.keywords: IWDFDevice, IWDFDevice interface, RetrieveDeviceInstanceId method, IWDFDevice::RetrieveDeviceInstanceId, RetrieveDeviceInstanceId method, RetrieveDeviceInstanceId method, IWDFDevice interface, RetrieveDeviceInstanceId,IWDFDevice.RetrieveDeviceInstanceId, UMDFDeviceObjectRef_fef96c70-8877-4c1f-9e05-d4caf9a8ea28.xml, umdf.iwdfdevice_retrievedeviceinstanceid, wdf.iwdfdevice_retrievedeviceinstanceid, wudfddi/IWDFDevice::RetrieveDeviceInstanceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFDevice.RetrieveDeviceInstanceId
 product: Windows
 targetos: Windows

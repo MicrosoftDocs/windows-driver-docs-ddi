@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eebffed4-a2e0-4743-871b-f50f0cdda30d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.clientcleanupbindingcontext, ClientCleanupBindingContext callback function [Network Drivers Starting with Windows Vista], ClientCleanupBindingContext, NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN, NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN, netioddk/ClientCleanupBindingContext, PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN callback function [Network Drivers Starting with Windows Vista], PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN, nmrref_75483511-e903-4f9d-bc78-29e823b22f8f.xml
+ms.keywords: ClientCleanupBindingContext, ClientCleanupBindingContext callback function [Network Drivers Starting with Windows Vista], NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN, PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN, PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN callback function [Network Drivers Starting with Windows Vista], netioddk/ClientCleanupBindingContext, netvista.clientcleanupbindingcontext, nmrref_75483511-e903-4f9d-bc78-29e823b22f8f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	netioddk.h
-apiname:
+api_name:
 -	PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS"
+req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
 ---
 
 # NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN callback
@@ -132,17 +132,15 @@ The NMR calls a client module's
 
 
 
-
-
-
-
 <a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
 
 
 
+<a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
+
+
+
 <a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
-
-
 
 
 

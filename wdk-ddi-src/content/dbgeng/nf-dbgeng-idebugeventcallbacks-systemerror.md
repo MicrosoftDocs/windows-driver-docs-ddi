@@ -4,11 +4,11 @@ title: IDebugEventCallbacks::SystemError method
 author: windows-driver-content
 description: The SystemError callback method is called by the engine when a system error occurs in the target.
 old-location: debugger\idebugeventcallbacks_systemerror.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 651f5207-36c8-4d46-8305-950efb2365bf
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: SystemError, IDebugEventCallbacks interface [Windows Debugging], SystemError method, SystemError method [Windows Debugging], dbgeng/IDebugEventCallbacks::SystemError, SystemError method [Windows Debugging], IDebugEventCallbacks interface, debugger.idebugeventcallbacks_systemerror, ComCallbacks_a84628b9-4376-4ca0-883f-835d19e13d73.xml, IDebugEventCallbacks, IDebugEventCallbacks::SystemError
+ms.date: 2/23/2018
+ms.keywords: ComCallbacks_a84628b9-4376-4ca0-883f-835d19e13d73.xml, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], SystemError method, IDebugEventCallbacks::SystemError, SystemError method [Windows Debugging], SystemError method [Windows Debugging], IDebugEventCallbacks interface, SystemError,IDebugEventCallbacks.SystemError, dbgeng/IDebugEventCallbacks::SystemError, debugger.idebugeventcallbacks_systemerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugEventCallbacks.SystemError
 product: Windows
 targetos: Windows

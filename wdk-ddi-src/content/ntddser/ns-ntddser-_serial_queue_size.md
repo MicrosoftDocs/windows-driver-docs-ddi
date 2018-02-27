@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 5EEE0B7D-2857-42D1-A387-9D38DAC2E368
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ntddser/SERIAL_QUEUE_SIZE, SERIAL_QUEUE_SIZE, *PSERIAL_QUEUE_SIZE, serports.serial_queue_size, PSERIAL_QUEUE_SIZE, _SERIAL_QUEUE_SIZE, PSERIAL_QUEUE_SIZE structure pointer [Serial Ports], ntddser/PSERIAL_QUEUE_SIZE, SERIAL_QUEUE_SIZE structure [Serial Ports]
+ms.keywords: "*PSERIAL_QUEUE_SIZE, PSERIAL_QUEUE_SIZE, PSERIAL_QUEUE_SIZE structure pointer [Serial Ports], SERIAL_QUEUE_SIZE, SERIAL_QUEUE_SIZE structure [Serial Ports], _SERIAL_QUEUE_SIZE, ntddser/PSERIAL_QUEUE_SIZE, ntddser/SERIAL_QUEUE_SIZE, serports.serial_queue_size"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddser.h
-apiname:
+api_name:
 -	SERIAL_QUEUE_SIZE
 product: Windows
 targetos: Windows
-req.typenames: "*PSERIAL_QUEUE_SIZE, SERIAL_QUEUE_SIZE"
+req.typenames: SERIAL_QUEUE_SIZE, *PSERIAL_QUEUE_SIZE
 ---
 
 # _SERIAL_QUEUE_SIZE structure
@@ -89,11 +89,11 @@ This structure is used by <a href="..\ntddser\ni-ntddser-ioctl_serial_set_queue_
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_queue_size.md">IOCTL_SERIAL_SET_QUEUE_SIZE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_queue_size.md">IOCTL_SERIAL_SET_QUEUE_SIZE</a>
 
 
 

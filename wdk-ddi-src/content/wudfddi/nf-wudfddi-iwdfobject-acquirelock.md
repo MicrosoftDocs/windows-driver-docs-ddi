@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f69328fb-356b-4381-ae6e-df39ac60e032
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfobject_acquirelock, UMDFBaseObjectRef_3a9b581b-87cd-489d-b945-924489d5c3b9.xml, AcquireLock, AcquireLock method, AcquireLock method, IWDFObject interface, wdf.iwdfobject_acquirelock, IWDFObject::AcquireLock, wudfddi/IWDFObject::AcquireLock, IWDFObject interface, AcquireLock method, IWDFObject
+ms.keywords: AcquireLock method, AcquireLock method, IWDFObject interface, AcquireLock,IWDFObject.AcquireLock, IWDFObject, IWDFObject interface, AcquireLock method, IWDFObject::AcquireLock, UMDFBaseObjectRef_3a9b581b-87cd-489d-b945-924489d5c3b9.xml, umdf.iwdfobject_acquirelock, wdf.iwdfobject_acquirelock, wudfddi/IWDFObject::AcquireLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFObject.AcquireLock
 product: Windows
 targetos: Windows

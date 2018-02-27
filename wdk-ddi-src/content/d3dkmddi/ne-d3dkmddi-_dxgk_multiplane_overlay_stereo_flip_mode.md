@@ -7,8 +7,8 @@ old-location: display\dxgk_multiplane_overlay_stereo_flip_mode.htm
 old-project: display
 ms.assetid: f226f276-c5d3-460d-9f52-c66ccfd3393f
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration [Display Devices], DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, display.dxgk_multiplane_overlay_stereo_flip_mode, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1, _DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
+ms.date: 2/24/2018
+ms.keywords: DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration [Display Devices], DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE, _DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE, display.dxgk_multiplane_overlay_stereo_flip_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3dkmddi.h
-apiname:
+api_name:
 -	DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
 product: Windows
 targetos: Windows

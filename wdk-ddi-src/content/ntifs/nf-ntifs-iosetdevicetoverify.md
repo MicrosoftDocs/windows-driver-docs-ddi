@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 509eb91d-7f34-4ebb-bc37-56889c15a1b3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ioref_58eab192-eab0-42ee-8c2b-4fe1ad0fb703.xml, ifsk.iosetdevicetoverify, ntifs/IoSetDeviceToVerify, IoSetDeviceToVerify routine [Installable File System Drivers], IoSetDeviceToVerify
+ms.keywords: IoSetDeviceToVerify, IoSetDeviceToVerify routine [Installable File System Drivers], ifsk.iosetdevicetoverify, ioref_58eab192-eab0-42ee-8c2b-4fe1ad0fb703.xml, ntifs/IoSetDeviceToVerify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoSetDeviceToVerify
 product: Windows
 targetos: Windows
@@ -104,11 +104,7 @@ For more information about removable-media devices, see <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psgetcurrentthread.md">PsGetCurrentThread</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ioverifyvolume.md">IoVerifyVolume</a>
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 
 
@@ -117,6 +113,10 @@ For more information about removable-media devices, see <a href="https://msdn.mi
 
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ioverifyvolume.md">IoVerifyVolume</a>
 
 
 

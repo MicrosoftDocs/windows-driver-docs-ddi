@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f5f39310-8b15-4d6b-a985-3f25522a16b1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/PACE_HEADER, ACE_HEADER, *PACE_HEADER, PACE_HEADER, securitystructures_a5aba00b-54fc-4356-9dc8-bf3d5dbe7f78.xml, ACE_HEADER structure [Installable File System Drivers], PACE_HEADER structure pointer [Installable File System Drivers], _ACE_HEADER, ntifs/ACE_HEADER, ifsk.ace_header
+ms.keywords: "*PACE_HEADER, ACE_HEADER, ACE_HEADER structure [Installable File System Drivers], PACE_HEADER, PACE_HEADER structure pointer [Installable File System Drivers], _ACE_HEADER, ifsk.ace_header, ntifs/ACE_HEADER, ntifs/PACE_HEADER, securitystructures_a5aba00b-54fc-4356-9dc8-bf3d5dbe7f78.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntifs.h
-apiname:
+api_name:
 -	ACE_HEADER
 product: Windows
 targetos: Windows
@@ -221,15 +221,11 @@ System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
-
-
-
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 
 
@@ -238,6 +234,10 @@ System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot 
 
 
 <a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
 
 
 

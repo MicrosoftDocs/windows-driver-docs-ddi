@@ -7,8 +7,8 @@ old-location: display\videoportmapdmamemory.htm
 old-project: display
 ms.assetid: 51148c26-c10d-4c57-9e3e-c7d82d6a1c79
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: video/VideoPortMapDmaMemory, display.videoportmapdmamemory, VideoPortMapDmaMemory function [Display Devices], VideoPortMapDmaMemory, VideoPort_Functions_f2a97e55-d165-4884-a121-52e98f8f46cd.xml
+ms.date: 2/24/2018
+ms.keywords: VideoPortMapDmaMemory, VideoPortMapDmaMemory function [Display Devices], VideoPort_Functions_f2a97e55-d165-4884-a121-52e98f8f46cd.xml, display.videoportmapdmamemory, video/VideoPortMapDmaMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Videoprt.sys
-apiname:
+api_name:
 -	VideoPortMapDmaMemory
 product: Windows
 targetos: Windows

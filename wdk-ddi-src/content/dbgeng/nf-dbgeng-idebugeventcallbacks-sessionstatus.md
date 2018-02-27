@@ -4,11 +4,11 @@ title: IDebugEventCallbacks::SessionStatus method
 author: windows-driver-content
 description: The SessionStatus callback method is called by the engine when a change occurs in the debugger session.
 old-location: debugger\idebugeventcallbacks_sessionstatus.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 127c4e48-87db-4735-8d3d-e01fed6a9cf0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.idebugeventcallbacks_sessionstatus, IDebugEventCallbacks interface [Windows Debugging], SessionStatus method, SessionStatus method [Windows Debugging], ComCallbacks_72cb31db-cc24-41b7-b891-65921c50ce12.xml, IDebugEventCallbacks::SessionStatus, SessionStatus, dbgeng/IDebugEventCallbacks::SessionStatus, SessionStatus method [Windows Debugging], IDebugEventCallbacks interface, IDebugEventCallbacks
+ms.date: 2/23/2018
+ms.keywords: ComCallbacks_72cb31db-cc24-41b7-b891-65921c50ce12.xml, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], SessionStatus method, IDebugEventCallbacks::SessionStatus, SessionStatus method [Windows Debugging], SessionStatus method [Windows Debugging], IDebugEventCallbacks interface, SessionStatus,IDebugEventCallbacks.SessionStatus, dbgeng/IDebugEventCallbacks::SessionStatus, debugger.idebugeventcallbacks_sessionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugEventCallbacks.SessionStatus
 product: Windows
 targetos: Windows

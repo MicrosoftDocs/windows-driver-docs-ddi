@@ -7,8 +7,8 @@ old-location: audio\iresourcelist_numberofentries.htm
 old-project: audio
 ms.assetid: cb882170-5c8e-455d-89a6-b09ca77e63fb
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: NumberOfEntries method [Audio Devices], IResourceList interface, audmp-routines_65fc1416-83e5-4cb6-b362-3133affd5448.xml, IResourceList, IResourceList::NumberOfEntries, portcls/IResourceList::NumberOfEntries, NumberOfEntries method [Audio Devices], audio.iresourcelist_numberofentries, IResourceList interface [Audio Devices], NumberOfEntries method, NumberOfEntries
+ms.date: 2/22/2018
+ms.keywords: IResourceList, IResourceList interface [Audio Devices], NumberOfEntries method, IResourceList::NumberOfEntries, NumberOfEntries method [Audio Devices], NumberOfEntries method [Audio Devices], IResourceList interface, NumberOfEntries,IResourceList.NumberOfEntries, audio.iresourcelist_numberofentries, audmp-routines_65fc1416-83e5-4cb6-b362-3133affd5448.xml, portcls/IResourceList::NumberOfEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IResourceList.NumberOfEntries
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 883c561c-0d1b-4a6c-946e-8ca567b12c9a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 1394stct_b63840e2-0a05-49e9-a533-9575f46af648.xml, TEXTUAL_LEAF structure [Buses], IEEE.textual_leaf, *PTEXTUAL_LEAF, _TEXTUAL_LEAF, PTEXTUAL_LEAF structure pointer [Buses], TEXTUAL_LEAF, 1394/TEXTUAL_LEAF, 1394/PTEXTUAL_LEAF, PTEXTUAL_LEAF
+ms.keywords: "*PTEXTUAL_LEAF, 1394/PTEXTUAL_LEAF, 1394/TEXTUAL_LEAF, 1394stct_b63840e2-0a05-49e9-a533-9575f46af648.xml, IEEE.textual_leaf, PTEXTUAL_LEAF, PTEXTUAL_LEAF structure pointer [Buses], TEXTUAL_LEAF, TEXTUAL_LEAF structure [Buses], _TEXTUAL_LEAF"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	1394.h
-apiname:
+api_name:
 -	TEXTUAL_LEAF
 product: Windows
 targetos: Windows
-req.typenames: "*PTEXTUAL_LEAF, TEXTUAL_LEAF"
+req.typenames: TEXTUAL_LEAF, *PTEXTUAL_LEAF
 ---
 
 # _TEXTUAL_LEAF structure

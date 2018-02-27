@@ -7,8 +7,8 @@ old-location: display\d3dkmtsubmitcommandtohwqueue.htm
 old-project: display
 ms.assetid: E4E6B637-BFAF-4ACD-86C2-109704B8D33D
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DKMTSubmitCommandToHwQueue function [Display Devices], display.d3dkmtsubmitcommandtohwqueue, D3DKMTSubmitCommandToHwQueue, d3dkmthk/D3DKMTSubmitCommandToHwQueue
+ms.date: 2/24/2018
+ms.keywords: D3DKMTSubmitCommandToHwQueue, D3DKMTSubmitCommandToHwQueue function [Display Devices], d3dkmthk/D3DKMTSubmitCommandToHwQueue, display.d3dkmtsubmitcommandtohwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Tbd
 req.dll: Tbd
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	tbd
-apiname:
+api_name:
 -	D3DKMTSubmitCommandToHwQueue
 product: Windows
 targetos: Windows

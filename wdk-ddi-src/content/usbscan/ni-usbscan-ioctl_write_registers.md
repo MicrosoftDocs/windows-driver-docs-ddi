@@ -4,11 +4,11 @@ title: IOCTL_WRITE_REGISTERS
 author: windows-driver-content
 description: Writes to USB device registers, using the control pipe.
 old-location: image\ioctl_write_registers.htm
-old-project: Image
+old-project: image
 ms.assetid: c7175b39-9db2-4903-bb50-bb0c97fda471
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: image.ioctl_write_registers, IOCTL_WRITE_REGISTERS control code [Imaging Devices], IOCTL_WRITE_REGISTERS, usbscan/IOCTL_WRITE_REGISTERS, stifnc_e994c3b6-35b9-4b5f-aaba-72fedeb9e08f.xml
+ms.date: 2/23/2018
+ms.keywords: IOCTL_WRITE_REGISTERS, IOCTL_WRITE_REGISTERS control code [Imaging Devices], image.ioctl_write_registers, stifnc_e994c3b6-35b9-4b5f-aaba-72fedeb9e08f.xml, usbscan/IOCTL_WRITE_REGISTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Usbscan.h
-apiname:
+api_name:
 -	IOCTL_WRITE_REGISTERS
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

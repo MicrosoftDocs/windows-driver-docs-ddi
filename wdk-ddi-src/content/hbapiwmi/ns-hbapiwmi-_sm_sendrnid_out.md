@@ -7,8 +7,8 @@ old-location: storage\sm_sendrnid_out.htm
 old-project: storage
 ms.assetid: 177ffc7d-697d-47c5-9692-19cba6734077
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: structs-Fibre_9e6a1fff-df92-4d26-af84-b99b9feecbef.xml, hbapiwmi/PSM_SendRNID_OUT, storage.sm_sendrnid_out, hbapiwmi/SM_SendRNID_OUT, SM_SendRNID_OUT, _SM_SendRNID_OUT, *PSM_SendRNID_OUT, SM_SendRNID_OUT structure [Storage Devices], PSM_SendRNID_OUT structure pointer [Storage Devices], PSM_SendRNID_OUT
+ms.date: 2/24/2018
+ms.keywords: "*PSM_SendRNID_OUT, PSM_SendRNID_OUT, PSM_SendRNID_OUT structure pointer [Storage Devices], SM_SendRNID_OUT, SM_SendRNID_OUT structure [Storage Devices], _SM_SendRNID_OUT, hbapiwmi/PSM_SendRNID_OUT, hbapiwmi/SM_SendRNID_OUT, storage.sm_sendrnid_out, structs-Fibre_9e6a1fff-df92-4d26-af84-b99b9feecbef.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hbapiwmi.h
-apiname:
+api_name:
 -	SM_SendRNID_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_SendRNID_OUT, SM_SendRNID_OUT"
+req.typenames: SM_SendRNID_OUT, *PSM_SendRNID_OUT
 ---
 
 # _SM_SendRNID_OUT structure

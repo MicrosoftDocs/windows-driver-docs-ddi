@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 21cc6f5b-d7c4-405d-9c98-c17e2f669cda
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlOplockIsSharedRequest routine [Installable File System Drivers], ntifs/FsRtlOplockIsSharedRequest, FsRtlOplockIsSharedRequest, fsrtlref_e79317ec-0086-4387-8f80-a7a1e44aba1c.xml, ifsk.fsrtloplockissharedrequest
+ms.keywords: FsRtlOplockIsSharedRequest, FsRtlOplockIsSharedRequest routine [Installable File System Drivers], fsrtlref_e79317ec-0086-4387-8f80-a7a1e44aba1c.xml, ifsk.fsrtloplockissharedrequest, ntifs/FsRtlOplockIsSharedRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	FsRtlOplockIsSharedRequest
 product: Windows
 targetos: Windows

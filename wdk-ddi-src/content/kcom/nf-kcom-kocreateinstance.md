@@ -7,8 +7,8 @@ old-location: stream\kocreateinstance.htm
 old-project: stream
 ms.assetid: ee719cbe-0933-4adc-b5c7-62b66f2bf4e1
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: kcom/KoCreateInstance, KoCreateInstance function [Streaming Media Devices], stream.kocreateinstance, ksfunc_57c8ab23-3163-4ef8-a381-bd81ce01d18e.xml, KoCreateInstance
+ms.date: 2/23/2018
+ms.keywords: KoCreateInstance, KoCreateInstance function [Streaming Media Devices], kcom/KoCreateInstance, ksfunc_57c8ab23-3163-4ef8-a381-bd81ce01d18e.xml, stream.kocreateinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KoCreateInstance
 product: Windows
 targetos: Windows
-req.typenames: "*PCONNECT_DATA, CONNECT_DATA"
+req.typenames: CONNECT_DATA, *PCONNECT_DATA
 ---
 
 # KoCreateInstance function

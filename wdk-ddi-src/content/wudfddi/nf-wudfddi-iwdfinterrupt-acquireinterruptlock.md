@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2ED55AEC-2446-4E66-AAFD-A22BAB3FC9C7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: AcquireInterruptLock method, IWDFInterrupt interface, AcquireInterruptLock, IWDFInterrupt, wdf.iwdfinterrupt_acquireinterruptlock, IWDFInterrupt::AcquireInterruptLock, wudfddi/IWDFInterrupt::AcquireInterruptLock, AcquireInterruptLock method, IWDFInterrupt interface, AcquireInterruptLock method, umdf.iwdfinterrupt_acquireinterruptlock
+ms.keywords: AcquireInterruptLock method, AcquireInterruptLock method, IWDFInterrupt interface, AcquireInterruptLock,IWDFInterrupt.AcquireInterruptLock, IWDFInterrupt, IWDFInterrupt interface, AcquireInterruptLock method, IWDFInterrupt::AcquireInterruptLock, umdf.iwdfinterrupt_acquireinterruptlock, wdf.iwdfinterrupt_acquireinterruptlock, wudfddi/IWDFInterrupt::AcquireInterruptLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFInterrupt.AcquireInterruptLock
 product: Windows
 targetos: Windows

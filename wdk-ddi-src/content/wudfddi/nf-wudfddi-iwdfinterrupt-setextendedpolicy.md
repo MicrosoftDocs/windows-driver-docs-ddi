@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6637E939-010E-4462-92CE-50C4DB867694
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: SetExtendedPolicy method, umdf.iwdfinterrupt_setextendedpolicy, IWDFInterrupt, IWDFInterrupt::SetExtendedPolicy, SetExtendedPolicy method, IWDFInterrupt interface, SetExtendedPolicy, wudfddi/IWDFInterrupt::SetExtendedPolicy, IWDFInterrupt interface, SetExtendedPolicy method, wdf.iwdfinterrupt_setextendedpolicy
+ms.keywords: IWDFInterrupt, IWDFInterrupt interface, SetExtendedPolicy method, IWDFInterrupt::SetExtendedPolicy, SetExtendedPolicy method, SetExtendedPolicy method, IWDFInterrupt interface, SetExtendedPolicy,IWDFInterrupt.SetExtendedPolicy, umdf.iwdfinterrupt_setextendedpolicy, wdf.iwdfinterrupt_setextendedpolicy, wudfddi/IWDFInterrupt::SetExtendedPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFInterrupt.SetExtendedPolicy
 product: Windows
 targetos: Windows

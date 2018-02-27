@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 952625D0-BA82-40C1-8EBF-8CD54C0E4C40
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 61883/PCIP_CANCEL_FRAME, CIP_CANCEL_FRAME structure [Buses], 61883/CIP_CANCEL_FRAME, _CIP_CANCEL_FRAME, *PCIP_CANCEL_FRAME, PCIP_CANCEL_FRAME, CIP_CANCEL_FRAME, IEEE.cip_cancel_frame, PCIP_CANCEL_FRAME structure pointer [Buses]
+ms.keywords: "*PCIP_CANCEL_FRAME, 61883/CIP_CANCEL_FRAME, 61883/PCIP_CANCEL_FRAME, CIP_CANCEL_FRAME, CIP_CANCEL_FRAME structure [Buses], IEEE.cip_cancel_frame, PCIP_CANCEL_FRAME, PCIP_CANCEL_FRAME structure pointer [Buses], _CIP_CANCEL_FRAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	61883.h
-apiname:
+api_name:
 -	CIP_CANCEL_FRAME
 product: Windows
 targetos: Windows
-req.typenames: "*PCIP_CANCEL_FRAME, CIP_CANCEL_FRAME"
+req.typenames: CIP_CANCEL_FRAME, *PCIP_CANCEL_FRAME
 ---
 
 # _CIP_CANCEL_FRAME structure

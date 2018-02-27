@@ -7,8 +7,8 @@ old-location: dtf\iwdtfsystemaction2_critical.htm
 old-project: dtf
 ms.assetid: 173cf6f2-7c6c-41d5-bd30-e323b24a0db0
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfsystemaction2_critical, wdtfsystemaction/IWDTFSystemAction2::get_Critical, IWDTFSystemAction2 interface [Windows Device Testing Framework], Critical property, Critical property [Windows Device Testing Framework], wdtfsystemaction/IWDTFSystemAction2::put_Critical, IWDTFSystemAction2::put_Critical, IWDTFSystemAction2.Critical, Critical property [Windows Device Testing Framework], IWDTFSystemAction2 interface, Microsoft::WDTF::IWDTFSystemAction2::Critical, IWDTFSystemAction2, IWDTFSystemAction2::get_Critical, get_Critical, wdtfsystemaction/IWDTFSystemAction2::Critical, Microsoft.WDTF.IWDTFSystemAction2.Critical
+ms.date: 2/23/2018
+ms.keywords: Critical property [Windows Device Testing Framework], Critical property [Windows Device Testing Framework], IWDTFSystemAction2 interface, IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], Critical property, IWDTFSystemAction2.Critical, IWDTFSystemAction2::get_Critical, IWDTFSystemAction2::put_Critical, Microsoft.WDTF.IWDTFSystemAction2.Critical, Microsoft::WDTF::IWDTFSystemAction2::Critical, dtf.iwdtfsystemaction2_critical, get_Critical,IWDTFSystemAction2.get_Critical, wdtfsystemaction/IWDTFSystemAction2::Critical, wdtfsystemaction/IWDTFSystemAction2::get_Critical, wdtfsystemaction/IWDTFSystemAction2::put_Critical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtfsystemaction.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WDTFSystemAction.Interop.dll
-apiname:
+api_name:
 -	IWDTFSystemAction2.Critical
 -	IWDTFSystemAction2.get_Critical
 -	IWDTFSystemAction2.put_Critical
@@ -84,5 +84,5 @@ HRESULT get_Critical(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFSystemAction2::Critical property%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFSystemAction2::Critical property%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5d2a97a3-3214-4f23-bf9d-d0ed292a46f0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: dot11wdi/WDI_TXRX_PEER_CFG, WDI_TXRX_PEER_CFG structure [Network Drivers Starting with Windows Vista], PWDI_TXRX_PEER_CFG structure pointer [Network Drivers Starting with Windows Vista], _WDI_TXRX_PEER_CFG, *PWDI_TXRX_PEER_CFG, PWDI_TXRX_PEER_CFG, netvista.wifi_txrx_peer_cfg, WDI_TXRX_PEER_CFG, dot11wdi/PWDI_TXRX_PEER_CFG, netvista.wdi_txrx_peer_cfg
+ms.keywords: "*PWDI_TXRX_PEER_CFG, PWDI_TXRX_PEER_CFG, PWDI_TXRX_PEER_CFG structure pointer [Network Drivers Starting with Windows Vista], WDI_TXRX_PEER_CFG, WDI_TXRX_PEER_CFG structure [Network Drivers Starting with Windows Vista], _WDI_TXRX_PEER_CFG, dot11wdi/PWDI_TXRX_PEER_CFG, dot11wdi/WDI_TXRX_PEER_CFG, netvista.wdi_txrx_peer_cfg, netvista.wifi_txrx_peer_cfg"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dot11wdi.h
-apiname:
+api_name:
 -	WDI_TXRX_PEER_CFG
 product: Windows
 targetos: Windows

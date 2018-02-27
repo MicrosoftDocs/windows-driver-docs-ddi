@@ -7,8 +7,8 @@ old-location: print\extdevicemode.htm
 old-project: print
 ms.assetid: dade9d25-7143-4566-adc1-0c97cb508c07
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.extdevicemode, winspool/ExtDeviceMode, ExtDeviceMode function [Print Devices], spoolfnc_56c49c94-99f4-43b9-90eb-189041a1dd3a.xml, ExtDeviceMode
+ms.date: 2/23/2018
+ms.keywords: ExtDeviceMode, ExtDeviceMode function [Print Devices], print.extdevicemode, spoolfnc_56c49c94-99f4-43b9-90eb-189041a1dd3a.xml, winspool/ExtDeviceMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Winspool.lib
 req.dll: WinSpool.drv
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	WinSpool.drv
-apiname:
+api_name:
 -	ExtDeviceMode
 product: Windows
 targetos: Windows

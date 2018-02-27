@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c08f8bcd-23fc-445c-9c42-e5c4edc75d78
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_status_ref_d5bb44f8-a279-4806-b81b-87e109078a82.xml, _NDIS_OPER_STATE, NDIS_OPER_STATE structure [Network Drivers Starting with Windows Vista], netvista.ndis_oper_state, PNDIS_OPER_STATE structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_OPER_STATE, *PNDIS_OPER_STATE, ntddndis/PNDIS_OPER_STATE, NDIS_OPER_STATE, PNDIS_OPER_STATE
+ms.keywords: "*PNDIS_OPER_STATE, NDIS_OPER_STATE, NDIS_OPER_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_OPER_STATE, PNDIS_OPER_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OPER_STATE, ndis_status_ref_d5bb44f8-a279-4806-b81b-87e109078a82.xml, netvista.ndis_oper_state, ntddndis/NDIS_OPER_STATE, ntddndis/PNDIS_OPER_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddndis.h
-apiname:
+api_name:
 -	NDIS_OPER_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_OPER_STATE, NDIS_OPER_STATE"
+req.typenames: NDIS_OPER_STATE, *PNDIS_OPER_STATE
 ---
 
 # _NDIS_OPER_STATE structure
@@ -144,7 +144,7 @@ NDIS_STATUS_OPER_STATUS indicates the current operational state of an NDIS netwo
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567406">NDIS_STATUS_OPER_STATUS</a>
 
 
 
@@ -156,7 +156,7 @@ NDIS_STATUS_OPER_STATUS indicates the current operational state of an NDIS netwo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567406">NDIS_STATUS_OPER_STATUS</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

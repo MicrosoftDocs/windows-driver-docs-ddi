@@ -7,8 +7,8 @@ old-location: kernel\ioverifypartitiontable.htm
 old-project: kernel
 ms.assetid: dc7b543b-1fb5-477c-a612-c8e7381e637e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.ioverifypartitiontable, ntddk/IoVerifyPartitionTable, IoVerifyPartitionTable routine [Kernel-Mode Driver Architecture], IoVerifyPartitionTable, k104_d550806b-f911-45f6-b6ab-efbf05683c4d.xml
+ms.date: 2/24/2018
+ms.keywords: IoVerifyPartitionTable, IoVerifyPartitionTable routine [Kernel-Mode Driver Architecture], k104_d550806b-f911-45f6-b6ab-efbf05683c4d.xml, kernel.ioverifypartitiontable, ntddk/IoVerifyPartitionTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoVerifyPartitionTable
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoVerifyPartitionTable function

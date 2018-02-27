@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c59f26b7-47ce-4bf9-b678-a2bb48c69754
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILCBMSGCONFIG, ntddrilapitypes/RILCBMSGCONFIG, *LPRILCBMSGCONFIG, netvista.rilcbmsgconfig, RILCBMSGCONFIG structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*LPRILCBMSGCONFIG, RILCBMSGCONFIG, RILCBMSGCONFIG structure [Network Drivers Starting with Windows Vista], netvista.rilcbmsgconfig, ntddrilapitypes/RILCBMSGCONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddrilapitypes.h
-apiname:
+api_name:
 -	RILCBMSGCONFIG
 product: Windows
 targetos: Windows

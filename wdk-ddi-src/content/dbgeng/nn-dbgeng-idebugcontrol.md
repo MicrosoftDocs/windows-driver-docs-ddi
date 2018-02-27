@@ -4,11 +4,11 @@ title: IDebugControl
 author: windows-driver-content
 description: IDebugControl interface
 old-location: debugger\idebugcontrol.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 6ff5b9ff-d2b8-4ade-8b8b-20284efdf266
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.idebugcontrol, IDebugControl interface [Windows Debugging], IDebugControl interface [Windows Debugging], described, IDebugControl, dbgeng/IDebugControl, IDebugControl_ce0030b2-73a7-49a8-9d21-942922a69184.xml
+ms.date: 2/23/2018
+ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], IDebugControl interface [Windows Debugging], described, IDebugControl_ce0030b2-73a7-49a8-9d21-942922a69184.xml, dbgeng/IDebugControl, debugger.idebugcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugControl
 -	IDebugControl.GetWindbgExtensionApis32
 product: Windows
@@ -51,6 +51,13 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugControl</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -951,265 +958,16 @@ Waits for an event that breaks into the debugger engine application.
 
 </td>
 </tr>
-</table>Creates a new breakpoint for the current target.
-
-
- Turns on some of the debugger engine's options.
-
-Loads an extension library into the debugger engine.
-
-
-Assembles a single processor instruction. The assembled instruction is placed in the target's memory.
-
-Calls a debugger extension.
-
-Closes the currently-open log file.
-
-Converts a value of one type into a value of another type.
-
-
-Converts an array of values into an array of values of different types.
-
-Formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
-
-
-Formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
-
-
-Disassembles a processor instruction in the target's memory.
-
-
-Evaluates an expression, returning the result.
-
-Executes the specified debugger commands.
-
-
-Opens the specified file and executes the debugger commands that are contained within.
-
-
-Returns the processor type of the physical processor of the computer that is running the target.
-
-
-Returns the breakpoint with the specified breakpoint ID.
-
-
-Returns the breakpoint located at the specified index.
-
-
-Returns the parameters of one or more breakpoints.
-
-
-Returns the current code level and is mainly used when stepping through code.
-
-
-Describes the nature of the current target.
-
-
-Returns the address of the last instruction disassembled using Disassemble.
-
-
-Returns the effective processor type of the processor of the computer that is running the target.
-
-
-Returns the engine's options.
-
-Returns the debugger command that the engine will execute when a specified event occurs.
-
-
-Returns a short description of an event for a specific filter.
-
-
-Returns the parameters for exception filters specified by exception codes or by index.
-
-
-Returns the command that will be executed by the debugger engine upon the second chance of a specified exception.
-
-
-Returns the executing processor type for the processor for which the last event occurred.
-
-
-Returns information about the execution status of the debugger engine.
-
-
-Returns the handle for an already loaded extension library.
-
-
-Returns a pointer to an extension function from an extension library.
-
-
-Checks whether a user interrupt was issued.
-
-Returns the number of seconds that the engine will wait when requesting a break into the debugger.
-
-Returns information about the last event that occurred in a target.
-
-
-Returns the name of the currently open log file.
-
-Returns the output mask for the currently open log file.
-
-HRESULT
-
-
-
-Returns the location of a processor instruction relative to a given location.
-
-
-Receives the handle of the event that will be signaled after the next exception in a target.
-
-
-Returns the number of breakpoints for the current process.
-
-
-Returns the number of event filters currently used by the engine.
-
-
-Returns the number of processor types that are supported by the computer running the current target.
-
-Returns the number of processors on the computer running the current target.
-
-
-Returns the number of processor types supported by the engine.
-
-
-Returns the page size for the effective processor mode.
-
-Returns the processor types that are supported by the computer running the current target.
-
-
-Returns the full name and abbreviated name of the specified processor type.
-
-
-Returns the standard prompt text that will be prepended to the formatted output specified in the <b>OutputPrompt</b> and <b>OutputPromptVaList</b> methods.
-
-Returns the default radix (number base) used by the debugger engine when it evaluates and displays MASM expressions, and when it displays symbol information.
-
- Returns the return address for the current function.
-
-Returns the value of filter argument for thespecific filters that have an argument.
-
-
-Returns the parameters for specific event filters.
-
-
-Returns the frames at the top of the specified call stack.
-
-Returns the processor types supported by the debugger engine. 
-
-
-Returns the control values for handling system errors.
-
-
-Returns information that identifies the operating system on the computer that is running the current target.
-
-Returns the value of a fixed-name alias.
-
-
-
-returns a structure that facilitates using the WdbgExts API.
-
-
-Requests an input string from the debugger engine.
-
-
-Determines if the effective processor uses 64-bit pointers.
-
-Opens a log file that will receive output from the client objects.
-
-Formats a string and sends the result to output callbacks that have been registered with the engine's clients.
-
-Prints the current state of the current target to the debugger console.
-
-
-Disassembles a processor instruction and sends the disassembly to the output callbacks.
-
-
-Disassembles several processor instructions and sends the resulting assembly instructions to the output callbacks.
-
- Formats and sends a user prompt to the output callback objects.
-
-
-Formats and sends a user prompt to the output callback objects.
-
-
-Outputs either the supplied stack frame or the current stack frames.
-
-
- Formats a string and sends the result to the output callbacks that are registered with the engine's clients.
-
-
-Prints version information about the debugger engine to the debugger console.
-
-
-Reads the kernel bug check code and related parameters.
-
-
-Removes a breakpoint.
-
-
-Turns off some of the engine's options.
-
-
-Unloads an extension library.
-
-This method is used by <a href="..\dbgeng\nn-dbgeng-idebuginputcallbacks.md">IDebugInputCallbacks</a> objects to send an input string to the engine following a request for input.
-
-
-Sets the current code level and is mainly used when stepping through code.
-
-
-Sets the effective processor type of the processor of the computer that is running the target.
-
-
-Changes the engine's options.
-
-
-Sets a debugger command for the engine to execute when a specified event occurs.
-
-
-Changes the break status and handling status for some exception filters.
-
-
-Sets the command that will be executed by the debugger engine on the second chance of a specified exception.
-
-Requests that the debugger engine enter an executable state. Actual execution will not occur until the next time <b>WaitForEvent</b> is called.
-
-
-Registers a user interrupt or breaks into the debugger.
-
-Sets the number of seconds that the debugger engine should wait when requesting a break into the debugger.
-
-Sets the output mask for the currently open log file.
-
-
-Sets the event that will be signaled after the next exception in a target.
-
-
-Sets the default radix (number base) used by the debugger engine when it evaluates and displays MASM expressions, and when it displays symbol information.
-
-Sets the value of filter argument for the specific filters that can have an argument.
-
-
-Changes the break status and handling status for some specific event filters.
-
-
-Sets the control values for handling system errors.
-
-Sets the value of a fixed-name alias.
-
-Waits for an event that breaks into the debugger engine application.
-
-
- 
+</table> 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -1221,5 +979,5 @@ Waits for an event that breaks into the debugger engine application.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl interface%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl interface%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

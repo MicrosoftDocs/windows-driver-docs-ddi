@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_writebufferimmediate_0032.htm
 old-project: display
 ms.assetid: 73486EA4-F1D8-4649-81C8-1698E1854DED
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.pfnd3d12ddi_writebufferimmediate_0032, PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032 callback function [Display Devices], PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032, d3d12umddi/PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032, PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032 callback function [Display Devices], d3d12umddi/PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032, display.pfnd3d12ddi_writebufferimmediate_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032
 product: Windows
 targetos: Windows

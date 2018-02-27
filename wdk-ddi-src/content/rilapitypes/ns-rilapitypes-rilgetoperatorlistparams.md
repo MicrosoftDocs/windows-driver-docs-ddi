@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d5836240-81d4-4134-9222-c810cd8f5822
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILGETOPERATORLISTPARAMS, RILGETOPERATORLISTPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILGETOPERATORLISTPARAMS, rilapitypes/RILGETOPERATORLISTPARAMS, netvista.rilgetoperatorlistparams_2
+ms.keywords: "*LPRILGETOPERATORLISTPARAMS, RILGETOPERATORLISTPARAMS, RILGETOPERATORLISTPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetoperatorlistparams_2, rilapitypes/RILGETOPERATORLISTPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILGETOPERATORLISTPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGETOPERATORLISTPARAMS, RILGETOPERATORLISTPARAMS"
+req.typenames: RILGETOPERATORLISTPARAMS, *LPRILGETOPERATORLISTPARAMS
 req.product: Windows 10 or later.
 ---
 

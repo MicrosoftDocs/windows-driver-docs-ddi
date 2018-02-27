@@ -7,8 +7,8 @@ old-location: stream\ksstate.htm
 old-project: stream
 ms.assetid: 6f5a3c65-9d6c-4d5f-af99-71aba16eb254
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KSSTATE_ACQUIRE, KSSTATE_RUN, KSSTATE, PKSSTATE enumeration pointer [Streaming Media Devices], ks-struct_a5862576-6737-471e-8e31-1bc98fb4b4f9.xml, ks/KSSTATE_RUN, ks/PKSSTATE, PKSSTATE, KSSTATE_STOP, stream.ksstate, ks/KSSTATE_ACQUIRE, KSSTATE_PAUSE, *PKSSTATE, KSSTATE enumeration [Streaming Media Devices], ks/KSSTATE_STOP, ks/KSSTATE_PAUSE, ks/KSSTATE
+ms.date: 2/23/2018
+ms.keywords: "*PKSSTATE, KSSTATE, KSSTATE enumeration [Streaming Media Devices], KSSTATE_ACQUIRE, KSSTATE_PAUSE, KSSTATE_RUN, KSSTATE_STOP, PKSSTATE, PKSSTATE enumeration pointer [Streaming Media Devices], ks-struct_a5862576-6737-471e-8e31-1bc98fb4b4f9.xml, ks/KSSTATE, ks/KSSTATE_ACQUIRE, ks/KSSTATE_PAUSE, ks/KSSTATE_RUN, ks/KSSTATE_STOP, ks/PKSSTATE, stream.ksstate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KSSTATE
 product: Windows
 targetos: Windows

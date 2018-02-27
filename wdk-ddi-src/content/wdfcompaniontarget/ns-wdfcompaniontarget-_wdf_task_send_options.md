@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cb2fd11c-c6a5-4499-a340-f96ffcfbbe0f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_TASK_SEND_OPTIONS structure, PWDF_TASK_SEND_OPTIONS structure pointer, _WDF_TASK_SEND_OPTIONS, PWDF_TASK_SEND_OPTIONS, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS, wdfcompaniontarget/PWDF_TASK_SEND_OPTIONS, *PWDF_TASK_SEND_OPTIONS, wdf.wdf_task_send_options, WDF_TASK_SEND_OPTIONS
+ms.keywords: "*PWDF_TASK_SEND_OPTIONS, PWDF_TASK_SEND_OPTIONS, PWDF_TASK_SEND_OPTIONS structure pointer, WDF_TASK_SEND_OPTIONS, WDF_TASK_SEND_OPTIONS structure, _WDF_TASK_SEND_OPTIONS, wdf.wdf_task_send_options, wdfcompaniontarget/PWDF_TASK_SEND_OPTIONS, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfcompaniontarget.h
-apiname:
+api_name:
 -	WDF_TASK_SEND_OPTIONS
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_TASK_SEND_OPTIONS, WDF_TASK_SEND_OPTIONS"
+req.typenames: WDF_TASK_SEND_OPTIONS, *PWDF_TASK_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 

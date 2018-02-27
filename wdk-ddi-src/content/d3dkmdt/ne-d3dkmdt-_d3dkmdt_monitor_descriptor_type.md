@@ -7,8 +7,8 @@ old-location: display\d3dkmdt_monitor_descriptor_type.htm
 old-project: display
 ms.assetid: f5ec761f-fc20-4baf-a012-c32356644a6c
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DKMDT_MDT_VESA_EDID_V1_BASEBLOCK, d3dkmdt/D3DKMDT_MDT_VESA_EDID_V1_BLOCKMAP, D3DKMDT_MONITOR_DESCRIPTOR_TYPE enumeration [Display Devices], display.d3dkmdt_monitor_descriptor_type, D3DKMDT_MONITOR_DESCRIPTOR_TYPE, _D3DKMDT_MONITOR_DESCRIPTOR_TYPE, DmEnums_9d9ed4df-33cf-403a-96dd-c0745426daf1.xml, D3DKMDT_MDT_UNINITIALIZED, d3dkmdt/D3DKMDT_MDT_UNINITIALIZED, D3DKMDT_MDT_OTHER, D3DKMDT_MDT_VESA_EDID_V1_BLOCKMAP, d3dkmdt/D3DKMDT_MDT_OTHER, d3dkmdt/D3DKMDT_MDT_VESA_EDID_V1_BASEBLOCK, d3dkmdt/D3DKMDT_MONITOR_DESCRIPTOR_TYPE
+ms.date: 2/24/2018
+ms.keywords: D3DKMDT_MDT_OTHER, D3DKMDT_MDT_UNINITIALIZED, D3DKMDT_MDT_VESA_EDID_V1_BASEBLOCK, D3DKMDT_MDT_VESA_EDID_V1_BLOCKMAP, D3DKMDT_MONITOR_DESCRIPTOR_TYPE, D3DKMDT_MONITOR_DESCRIPTOR_TYPE enumeration [Display Devices], DmEnums_9d9ed4df-33cf-403a-96dd-c0745426daf1.xml, _D3DKMDT_MONITOR_DESCRIPTOR_TYPE, d3dkmdt/D3DKMDT_MDT_OTHER, d3dkmdt/D3DKMDT_MDT_UNINITIALIZED, d3dkmdt/D3DKMDT_MDT_VESA_EDID_V1_BASEBLOCK, d3dkmdt/D3DKMDT_MDT_VESA_EDID_V1_BLOCKMAP, d3dkmdt/D3DKMDT_MONITOR_DESCRIPTOR_TYPE, display.d3dkmdt_monitor_descriptor_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmdt.h
-apiname:
+api_name:
 -	D3DKMDT_MONITOR_DESCRIPTOR_TYPE
 product: Windows
 targetos: Windows

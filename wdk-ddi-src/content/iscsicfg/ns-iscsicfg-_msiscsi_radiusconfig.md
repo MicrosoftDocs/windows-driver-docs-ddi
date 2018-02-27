@@ -7,8 +7,8 @@ old-location: storage\msiscsi_radiusconfig.htm
 old-project: storage
 ms.assetid: 6f8be86e-2729-4aa9-982d-df323f05cf1c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: iscsicfg/PMSiSCSI_RADIUSConfig, PMSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig, _MSiSCSI_RADIUSConfig, *PMSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig structure [Storage Devices], storage.msiscsi_radiusconfig, PMSiSCSI_RADIUSConfig structure pointer [Storage Devices], structs-iSCSI_9f8461c3-b370-4aed-a5a5-58f9dd276944.xml, iscsicfg/MSiSCSI_RADIUSConfig
+ms.date: 2/24/2018
+ms.keywords: "*PMSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig structure [Storage Devices], PMSiSCSI_RADIUSConfig, PMSiSCSI_RADIUSConfig structure pointer [Storage Devices], _MSiSCSI_RADIUSConfig, iscsicfg/MSiSCSI_RADIUSConfig, iscsicfg/PMSiSCSI_RADIUSConfig, storage.msiscsi_radiusconfig, structs-iSCSI_9f8461c3-b370-4aed-a5a5-58f9dd276944.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	iscsicfg.h
-apiname:
+api_name:
 -	MSiSCSI_RADIUSConfig
 product: Windows
 targetos: Windows
-req.typenames: "*PMSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig"
+req.typenames: MSiSCSI_RADIUSConfig, *PMSiSCSI_RADIUSConfig
 ---
 
 # _MSiSCSI_RADIUSConfig structure
@@ -121,17 +121,17 @@ Initiators should register each instance of the MSiSCSI_RADIUSConfig class using
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563114">MSiSCSI_RADIUSConfig WMI Class</a>
-
-
-
 <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563114">MSiSCSI_RADIUSConfig WMI Class</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_RADIUSConfig structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_RADIUSConfig structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4ea730ab-0ba0-46cd-b156-0b2f32b2eafe
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_DISCINIT_LOCAL, rilapitypes/RILCALLINFODISCONNECTINITIATOR, rilapitypes/RIL_DISCINIT_REMOTE, RILCALLINFODISCONNECTINITIATOR, RIL_DISCINIT_REMOTE, rilapitypes/RIL_DISCINIT_MAX, netvista.rilcallinfodisconnectinitiator_2, RILCALLINFODISCONNECTINITIATOR enumeration [Network Drivers Starting with Windows Vista], RIL_DISCINIT_MAX, rilapitypes/RIL_DISCINIT_LOCAL
+ms.keywords: RILCALLINFODISCONNECTINITIATOR, RILCALLINFODISCONNECTINITIATOR enumeration [Network Drivers Starting with Windows Vista], RIL_DISCINIT_LOCAL, RIL_DISCINIT_MAX, RIL_DISCINIT_REMOTE, netvista.rilcallinfodisconnectinitiator_2, rilapitypes/RILCALLINFODISCONNECTINITIATOR, rilapitypes/RIL_DISCINIT_LOCAL, rilapitypes/RIL_DISCINIT_MAX, rilapitypes/RIL_DISCINIT_REMOTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILCALLINFODISCONNECTINITIATOR
 product: Windows
 targetos: Windows

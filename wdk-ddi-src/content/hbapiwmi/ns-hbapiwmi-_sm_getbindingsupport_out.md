@@ -7,8 +7,8 @@ old-location: storage\sm_getbindingsupport_out.htm
 old-project: storage
 ms.assetid: 4f45e2ad-19f9-4308-8d63-edf066545e07
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.sm_getbindingsupport_out, PSM_GetBindingSupport_OUT structure pointer [Storage Devices], SM_GetBindingSupport_OUT structure [Storage Devices], hbapiwmi/SM_GetBindingSupport_OUT, PSM_GetBindingSupport_OUT, structs-Fibre_687416b3-60d9-494f-895b-a23fcb666994.xml, *PSM_GetBindingSupport_OUT, hbapiwmi/PSM_GetBindingSupport_OUT, _SM_GetBindingSupport_OUT, SM_GetBindingSupport_OUT
+ms.date: 2/24/2018
+ms.keywords: "*PSM_GetBindingSupport_OUT, PSM_GetBindingSupport_OUT, PSM_GetBindingSupport_OUT structure pointer [Storage Devices], SM_GetBindingSupport_OUT, SM_GetBindingSupport_OUT structure [Storage Devices], _SM_GetBindingSupport_OUT, hbapiwmi/PSM_GetBindingSupport_OUT, hbapiwmi/SM_GetBindingSupport_OUT, storage.sm_getbindingsupport_out, structs-Fibre_687416b3-60d9-494f-895b-a23fcb666994.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hbapiwmi.h
-apiname:
+api_name:
 -	SM_GetBindingSupport_OUT
 product: Windows
 targetos: Windows

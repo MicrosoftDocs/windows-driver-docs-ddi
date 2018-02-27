@@ -7,8 +7,8 @@ old-location: stream\kspeekoperation.htm
 old-project: stream
 ms.assetid: 057E822B-0C55-4E4A-9207-48FB583E8EAF
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KsPeekOperation_PeekOnly, KSPEEKOPERATION enumeration [Streaming Media Devices], KSPEEKOPERATION, ksproxy/KSPEEKOPERATION, ksproxy/KsPeekOperation_AddRef, stream.kspeekoperation, ksproxy/KsPeekOperation_PeekOnly, KsPeekOperation_AddRef
+ms.date: 2/23/2018
+ms.keywords: KSPEEKOPERATION, KSPEEKOPERATION enumeration [Streaming Media Devices], KsPeekOperation_AddRef, KsPeekOperation_PeekOnly, ksproxy/KSPEEKOPERATION, ksproxy/KsPeekOperation_AddRef, ksproxy/KsPeekOperation_PeekOnly, stream.kspeekoperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ksproxy.h
-apiname:
+api_name:
 -	KSPEEKOPERATION
 product: Windows
 targetos: Windows

@@ -4,11 +4,11 @@ title: IDebugEventCallbacks::CreateThread method
 author: windows-driver-content
 description: The CreateThread callback method is called by the engine when a create-threaddebugging event occurs in the target.
 old-location: debugger\idebugeventcallbacks_createthread.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: c3b2cbaa-33b9-4784-922d-d1209fc23dfd
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: ComCallbacks_db1fe5dc-8392-4c79-a1ed-9752170eed3c.xml, CreateThread method [Windows Debugging], CreateThread, IDebugEventCallbacks interface [Windows Debugging], CreateThread method, IDebugEventCallbacks::CreateThread, debugger.idebugeventcallbacks_createthread, dbgeng/IDebugEventCallbacks::CreateThread, IDebugEventCallbacks, CreateThread method [Windows Debugging], IDebugEventCallbacks interface
+ms.date: 2/23/2018
+ms.keywords: ComCallbacks_db1fe5dc-8392-4c79-a1ed-9752170eed3c.xml, CreateThread method [Windows Debugging], CreateThread method [Windows Debugging], IDebugEventCallbacks interface, CreateThread,IDebugEventCallbacks.CreateThread, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], CreateThread method, IDebugEventCallbacks::CreateThread, dbgeng/IDebugEventCallbacks::CreateThread, debugger.idebugeventcallbacks_createthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugEventCallbacks.CreateThread
 product: Windows
 targetos: Windows

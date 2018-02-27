@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f0e36d06-c5c2-42d6-ac43-c3d72dd789c8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fsrtllookuplastmcbentry, ntifs/FsRtlLookupLastMcbEntry, fsrtlref_432dcb48-ee5d-4eef-89ee-d10e6e8a9da7.xml, FsRtlLookupLastMcbEntry, FsRtlLookupLastMcbEntry function [Installable File System Drivers]
+ms.keywords: FsRtlLookupLastMcbEntry, FsRtlLookupLastMcbEntry function [Installable File System Drivers], fsrtlref_432dcb48-ee5d-4eef-89ee-d10e6e8a9da7.xml, ifsk.fsrtllookuplastmcbentry, ntifs/FsRtlLookupLastMcbEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntifs.h
-apiname:
+api_name:
 -	FsRtlLookupLastMcbEntry
 product: Windows
 targetos: Windows

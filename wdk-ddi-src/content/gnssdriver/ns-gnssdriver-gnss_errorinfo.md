@@ -7,8 +7,8 @@ old-location: sensors\gnss_errorinfo.htm
 old-project: sensors
 ms.assetid: 754CD1DD-88E6-4E02-8E24-1939222FE326
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_ERRORINFO, gnssdriver/PGNSS_ERRORINFO, gnssdriver/GNSS_ERRORINFO, sensors.gnss_errorinfo, GNSS_ERRORINFO structure [Sensor Devices], PGNSS_ERRORINFO, GNSS_ERRORINFO, PGNSS_ERRORINFO structure pointer [Sensor Devices]"
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_ERRORINFO, GNSS_ERRORINFO, GNSS_ERRORINFO structure [Sensor Devices], PGNSS_ERRORINFO, PGNSS_ERRORINFO structure pointer [Sensor Devices], gnssdriver/GNSS_ERRORINFO, gnssdriver/PGNSS_ERRORINFO, sensors.gnss_errorinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	gnssdriver.h
-apiname:
+api_name:
 -	GNSS_ERRORINFO
 product: Windows
 targetos: Windows

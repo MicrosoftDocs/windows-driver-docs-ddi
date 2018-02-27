@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e8747dc5-7ef7-4914-baf7-683ddfe68313
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvisuirequestpending, Dot11ExtIhvIsUIRequestPending callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvIsUIRequestPending, DOT11EXTIHV_IS_UI_REQUEST_PENDING, DOT11EXTIHV_IS_UI_REQUEST_PENDING, wlanihv/Dot11ExtIhvIsUIRequestPending, Native_802.11_IHV_Ext_88488999-ecad-4845-a4b3-051b96c506dd.xml
+ms.keywords: DOT11EXTIHV_IS_UI_REQUEST_PENDING, Dot11ExtIhvIsUIRequestPending, Dot11ExtIhvIsUIRequestPending callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_88488999-ecad-4845-a4b3-051b96c506dd.xml, netvista.dot11extihvisuirequestpending, wlanihv/Dot11ExtIhvIsUIRequestPending
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	Dot11ExtIhvIsUIRequestPending
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_destroyvideodecoderheap_0032.htm
 old-project: display
 ms.assetid: EFB7D67D-1900-4182-B604-8C0A183B118D
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.pfnd3d12ddi_destroyvideodecoderheap_0032, PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032 callback function [Display Devices], PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032, d3d12umddi/PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032, PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032 callback function [Display Devices], d3d12umddi/PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032, display.pfnd3d12ddi_destroyvideodecoderheap_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032
 product: Windows
 targetos: Windows

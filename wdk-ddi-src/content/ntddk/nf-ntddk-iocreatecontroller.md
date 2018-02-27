@@ -7,8 +7,8 @@ old-location: kernel\iocreatecontroller.htm
 old-project: kernel
 ms.assetid: 7db268a4-d1ef-4d23-9b5d-cd24612d547e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: ntddk/IoCreateController, IoCreateController, k104_a7ec4f8c-84d0-4fec-9f9e-40c5d57036f1.xml, IoCreateController routine [Kernel-Mode Driver Architecture], kernel.iocreatecontroller
+ms.date: 2/24/2018
+ms.keywords: IoCreateController, IoCreateController routine [Kernel-Mode Driver Architecture], k104_a7ec4f8c-84d0-4fec-9f9e-40c5d57036f1.xml, kernel.iocreatecontroller, ntddk/IoCreateController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoCreateController
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoCreateController function
@@ -96,15 +96,7 @@ If <b>IoCreateController</b> returns <b>NULL</b>, the driver should fail device 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_controller_object.md">CONTROLLER_OBJECT</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-iofreecontroller.md">IoFreeController</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iodeletecontroller.md">IoDeleteController</a>
 
 
 
@@ -112,9 +104,17 @@ If <b>IoCreateController</b> returns <b>NULL</b>, the driver should fail device 
 
 
 
- 
+<a href="..\ntddk\nf-ntddk-iodeletecontroller.md">IoDeleteController</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_controller_object.md">CONTROLLER_OBJECT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoCreateController routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoCreateController routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

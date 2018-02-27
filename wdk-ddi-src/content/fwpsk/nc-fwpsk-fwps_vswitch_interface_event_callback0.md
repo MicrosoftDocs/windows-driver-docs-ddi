@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 63EAA278-9CE6-4C75-8221-E1666F143815
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.fwps_vswitch_interface_event_callback0, vSwitchInterfaceEventNotifyFn callback function [Network Drivers Starting with Windows Vista], vSwitchInterfaceEventNotifyFn, FWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0, FWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0, fwpsk/vSwitchInterfaceEventNotifyFn
+ms.keywords: FWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0, fwpsk/vSwitchInterfaceEventNotifyFn, netvista.fwps_vswitch_interface_event_callback0, vSwitchInterfaceEventNotifyFn, vSwitchInterfaceEventNotifyFn callback function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	fwpsk.h
-apiname:
+api_name:
 -	vSwitchInterfaceEventNotifyFn
 product: Windows
 targetos: Windows
@@ -175,11 +175,7 @@ If the <i>eventType</i> parameter  is set to WPS_VSWITCH_EVENT_INTERFACE_CREATE,
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+<a href="..\fwpsk\ne-fwpsk-fwps_vswitch_event_type_.md">FWPS_VSWITCH_EVENT_TYPE</a>
 
 
 
@@ -187,11 +183,15 @@ If the <i>eventType</i> parameter  is set to WPS_VSWITCH_EVENT_INTERFACE_CREATE,
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a>
 
 
 

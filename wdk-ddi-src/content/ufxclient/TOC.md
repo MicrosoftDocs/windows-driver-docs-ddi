@@ -13,6 +13,7 @@
 ### [EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY callback](../ufxclient/nc-ufxclient-evt_ufx_device_proprietary_charger_set_property.md)
 ### [EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL callback](../ufxclient/nc-ufxclient-evt_ufx_device_remote_wakeup_signal.md)
 ### [EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback](../ufxclient/nc-ufxclient-evt_ufx_device_super_speed_power_feature.md)
+### [EVT_UFX_DEVICE_TESTHOOK callback](../ufxclient/nc-ufxclient-evt_ufx_device_testhook.md)
 ### [EVT_UFX_DEVICE_TEST_MODE_SET callback](../ufxclient/nc-ufxclient-evt_ufx_device_test_mode_set.md)
 ### [EVT_UFX_DEVICE_USB_STATE_CHANGE callback](../ufxclient/nc-ufxclient-evt_ufx_device_usb_state_change.md)
 ### [UfxDeviceCreate function](../ufxclient/nf-ufxclient-ufxdevicecreate.md)

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9df42e37-b04a-4159-a952-45754277f1b4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RILDIALPARAMS_V1, *LPRILDIALPARAMS_V1, netvista.rildialparams_v1_2, RILDIALPARAMS_V1 structure [Network Drivers Starting with Windows Vista], RILDIALPARAMS_V1
+ms.keywords: "*LPRILDIALPARAMS_V1, RILDIALPARAMS_V1, RILDIALPARAMS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rildialparams_v1_2, rilapitypes/RILDIALPARAMS_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILDIALPARAMS_V1
 product: Windows
 targetos: Windows

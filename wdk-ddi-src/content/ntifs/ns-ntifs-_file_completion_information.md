@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8C3C1A62-A838-436E-B8CC-ACE70FEAE8EA
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.file_completion_information, PFILE_COMPLETION_INFORMATION structure pointer [Installable File System Drivers], FILE_COMPLETION_INFORMATION structure [Installable File System Drivers], _FILE_COMPLETION_INFORMATION, *PFILE_COMPLETION_INFORMATION, ntifs/PFILE_COMPLETION_INFORMATION, PFILE_COMPLETION_INFORMATION, FILE_COMPLETION_INFORMATION, ntifs/FILE_COMPLETION_INFORMATION
+ms.keywords: "*PFILE_COMPLETION_INFORMATION, FILE_COMPLETION_INFORMATION, FILE_COMPLETION_INFORMATION structure [Installable File System Drivers], PFILE_COMPLETION_INFORMATION, PFILE_COMPLETION_INFORMATION structure pointer [Installable File System Drivers], _FILE_COMPLETION_INFORMATION, ifsk.file_completion_information, ntifs/FILE_COMPLETION_INFORMATION, ntifs/PFILE_COMPLETION_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntifs.h
-apiname:
+api_name:
 -	FILE_COMPLETION_INFORMATION
 product: Windows
 targetos: Windows

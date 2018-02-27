@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 746f13f5-c92d-4dae-8fd7-4c9fdfa9e044
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.pflt_filter_unload_callback, FilterUnloadCallback routine [Installable File System Drivers], FilterUnloadCallback, PFLT_FILTER_UNLOAD_CALLBACK, PFLT_FILTER_UNLOAD_CALLBACK, fltkernel/FilterUnloadCallback, FltCallbacks_e28b1a16-b974-493a-8ab5-7b6004d66268.xml
+ms.keywords: FilterUnloadCallback, FilterUnloadCallback routine [Installable File System Drivers], FltCallbacks_e28b1a16-b974-493a-8ab5-7b6004d66268.xml, PFLT_FILTER_UNLOAD_CALLBACK, fltkernel/FilterUnloadCallback, ifsk.pflt_filter_unload_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	fltkernel.h
-apiname:
+api_name:
 -	FilterUnloadCallback
 product: Windows
 targetos: Windows
@@ -140,11 +140,11 @@ If the FLTFL_FILTER_UNLOAD_MANDATORY flag is set in the <i>Flags</i> parameter, 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
-
-
-
 <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
 
 
 

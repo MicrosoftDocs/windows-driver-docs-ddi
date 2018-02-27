@@ -7,8 +7,8 @@ old-location: audio\iportwavertstream.htm
 old-project: audio
 ms.assetid: ca5039ff-d34a-4a61-b288-64f0c1f31b91
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iportwavertstream, IPortWaveRTStream interface [Audio Devices], IPortWaveRTStream interface [Audio Devices], described, IPortWaveRTStream, portcls/IPortWaveRTStream, audmp-routines_485f04fa-bdd1-4b92-bb3b-4f8653393811.xml
+ms.date: 2/22/2018
+ms.keywords: IPortWaveRTStream, IPortWaveRTStream interface [Audio Devices], IPortWaveRTStream interface [Audio Devices], described, audio.iportwavertstream, audmp-routines_485f04fa-bdd1-4b92-bb3b-4f8653393811.xml, portcls/IPortWaveRTStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IPortWaveRTStream
 product: Windows
 targetos: Windows
@@ -57,6 +57,13 @@ To allocate the memory needed for the cyclic buffer, the miniport driver must ca
 
 The methods in the <code>IPortWaveRTStream</code> interface are based on, and are similar to, the MmXxx kernel functions that perform allocation and mapping of memory descriptor lists (<a href="..\wdm\ns-wdm-_mdl.md">MDLs</a>). However, the MmXxx functions cannot be used in place of the <code>IPortWaveRTStream</code> methods. 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortWaveRTStream</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPortWaveRTStream</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -129,19 +136,5 @@ The <code>UnmapAllocatedPages</code> method releases a mapping.
 
 </td>
 </tr>
-</table>The <code>AllocateContiguousPagesForMdl</code> method allocates a list of contiguous, nonpaged, physical memory pages and returns a pointer to a memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>) that describes them.
-
-The <code>AllocatePagesForMdl</code> method allocates a list of nonpaged physical memory pages and returns a pointer to a memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>) that describes them.
-
-The <code>FreePagesFromMdl</code> method frees a memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>).
-
-The <code>GetPhysicalPageAddress</code> method returns the physical address for a page within a memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>).
-
-The <code>GetPhysicalPagesCount</code> method returns the count of the physical pages in a memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>).
-
-The <code>MapAllocatedPages</code> method maps a list of previously allocated physical pages into a contiguous block of virtual memory that is accessible from kernel-mode.
-
-The <code>UnmapAllocatedPages</code> method releases a mapping.
-
- 
+</table> 
 

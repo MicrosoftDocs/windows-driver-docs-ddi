@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fa678bfa-ebcc-4950-951a-47f9bba98131
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILNITZNOTIFICATIONCAPS, RIL_CAPS_NITZ_MAX, ntddrilapitypes/RIL_CAPS_NITZ_MAX, ntddrilapitypes/RILNITZNOTIFICATIONCAPS, RIL_CAPS_NITZ_ENABLED, netvista.rilnitznotificationcaps, ntddrilapitypes/RIL_CAPS_NITZ_ENABLED, RILNITZNOTIFICATIONCAPS enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RILNITZNOTIFICATIONCAPS, RILNITZNOTIFICATIONCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_NITZ_ENABLED, RIL_CAPS_NITZ_MAX, netvista.rilnitznotificationcaps, ntddrilapitypes/RILNITZNOTIFICATIONCAPS, ntddrilapitypes/RIL_CAPS_NITZ_ENABLED, ntddrilapitypes/RIL_CAPS_NITZ_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddrilapitypes.h
-apiname:
+api_name:
 -	RILNITZNOTIFICATIONCAPS
 product: Windows
 targetos: Windows

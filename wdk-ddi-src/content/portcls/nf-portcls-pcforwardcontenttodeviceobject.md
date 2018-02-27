@@ -7,8 +7,8 @@ old-location: audio\pcforwardcontenttodeviceobject.htm
 old-project: audio
 ms.assetid: 24891f90-422f-4104-97f4-395205e2b862
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audpc-routines_1dec7e58-07b2-41ce-82d3-5f0670bbc273.xml, PcForwardContentToDeviceObject, portcls/PcForwardContentToDeviceObject, audio.pcforwardcontenttodeviceobject, PcForwardContentToDeviceObject function [Audio Devices]
+ms.date: 2/22/2018
+ms.keywords: PcForwardContentToDeviceObject, PcForwardContentToDeviceObject function [Audio Devices], audio.pcforwardcontenttodeviceobject, audpc-routines_1dec7e58-07b2-41ce-82d3-5f0670bbc273.xml, portcls/PcForwardContentToDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Portcls.lib
 -	Portcls.dll
-apiname:
+api_name:
 -	PcForwardContentToDeviceObject
 product: Windows
 targetos: Windows
@@ -57,7 +57,11 @@ The <b>PcForwardContentToDeviceObject</b> function accepts a device object repre
 
 
 ````
-PORTCLASSAPI NTSTATUS NTAPI PcForwardContentToDeviceObject(void);
+PORTCLASSAPI NTSTATUS NTAPI PcForwardContentToDeviceObject(
+  _In_     ULONG        ContentId,
+  _In_opt_ PVOID        Reserved,
+  _In_     PCDRMFORWARD DrmForward
+);
 ````
 
 
@@ -66,21 +70,19 @@ PORTCLASSAPI NTSTATUS NTAPI PcForwardContentToDeviceObject(void);
 
 
 
-### -param ContentId
+### -param ContentId [in]
 
-TBD
-
-
-### -param Reserved
-
-TBD
+Specifies the DRM content ID. This parameter identifies a protected KS audio stream.
 
 
-### -param DrmForward
+### -param Reserved [in, optional]
 
-TBD
+Reserved for future use. Set to <b>NULL</b>.
 
 
+### -param DrmForward [in]
+
+Pointer to a <a href="..\drmk\ns-drmk-tagdrmforward.md">DRMFORWARD</a> structure specifying a device object and file object that identify the target device and a KS audio pin on that device, respectively. The structure also contains the context value that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>set-property request passes to the device.
 
 
 ## -returns
@@ -111,5 +113,5 @@ For more information, see the comments in <a href="..\drmk\nf-drmk-drmforwardcon
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcForwardContentToDeviceObject function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcForwardContentToDeviceObject function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

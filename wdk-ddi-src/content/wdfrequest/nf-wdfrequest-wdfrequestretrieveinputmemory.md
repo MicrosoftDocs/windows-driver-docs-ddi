@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c619e9b3-3736-48e3-a84d-e166be4f39af
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfrequestretrieveinputmemory, WdfRequestRetrieveInputMemory method, wdfrequest/WdfRequestRetrieveInputMemory, DFRequestObjectRef_180dea64-0a3a-4b59-89e8-37705a674e77.xml, kmdf.wdfrequestretrieveinputmemory, WdfRequestRetrieveInputMemory
+ms.keywords: DFRequestObjectRef_180dea64-0a3a-4b59-89e8-37705a674e77.xml, WdfRequestRetrieveInputMemory, WdfRequestRetrieveInputMemory method, kmdf.wdfrequestretrieveinputmemory, wdf.wdfrequestretrieveinputmemory, wdfrequest/WdfRequestRetrieveInputMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname:
+api_name:
 -	WdfRequestRetrieveInputMemory
 product: Windows
 targetos: Windows

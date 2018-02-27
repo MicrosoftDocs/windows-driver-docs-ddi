@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: bdf44009-4898-4890-9441-918e1647566d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.ioctl_internal_parallel_port_free, IOCTL_INTERNAL_PARALLEL_PORT_FREE control code [Parallel Ports], IOCTL_INTERNAL_PARALLEL_PORT_FREE, parallel/IOCTL_INTERNAL_PARALLEL_PORT_FREE, cisspd_ec1947dc-7124-445b-8b4a-759d6cba8225.xml
+ms.keywords: IOCTL_INTERNAL_PARALLEL_PORT_FREE, IOCTL_INTERNAL_PARALLEL_PORT_FREE control code [Parallel Ports], cisspd_ec1947dc-7124-445b-8b4a-759d6cba8225.xml, parallel/IOCTL_INTERNAL_PARALLEL_PORT_FREE, parports.ioctl_internal_parallel_port_free
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	parallel.h
-apiname:
+api_name:
 -	IOCTL_INTERNAL_PARALLEL_PORT_FREE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # IOCTL_INTERNAL_PARALLEL_PORT_FREE IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

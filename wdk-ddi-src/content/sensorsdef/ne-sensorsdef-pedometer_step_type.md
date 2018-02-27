@@ -7,8 +7,8 @@ old-location: sensors\pedometer_step_type.htm
 old-project: sensors
 ms.assetid: 13ECDA33-2047-4F72-A8D4-5281C4BA8543
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: sensors.pedometer_step_type, sensorsdef/PedometerStepType_Walking, PedometerStepType_Walking, PedometerStepType_Running, sensorsdef/PedometerStepType_Running, sensorsdef/PEDOMETER_STEP_TYPE, sensorsdef/PedometerStepType_Max, PEDOMETER_STEP_TYPE enumeration [Sensor Devices], PedometerStepType_Force_Dword, PEDOMETER_STEP_TYPE, PedometerStepType_Max, PedometerStepType_Unknown, sensorsdef/PedometerStepType_Unknown, sensorsdef/PedometerStepType_Force_Dword
+ms.date: 2/22/2018
+ms.keywords: PEDOMETER_STEP_TYPE, PEDOMETER_STEP_TYPE enumeration [Sensor Devices], PedometerStepType_Force_Dword, PedometerStepType_Max, PedometerStepType_Running, PedometerStepType_Unknown, PedometerStepType_Walking, sensors.pedometer_step_type, sensorsdef/PEDOMETER_STEP_TYPE, sensorsdef/PedometerStepType_Force_Dword, sensorsdef/PedometerStepType_Max, sensorsdef/PedometerStepType_Running, sensorsdef/PedometerStepType_Unknown, sensorsdef/PedometerStepType_Walking
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Sensorsdef.h
-apiname:
+api_name:
 -	PEDOMETER_STEP_TYPE
 product: Windows
 targetos: Windows
@@ -108,17 +108,17 @@ For more information about the sensor data fields that use this enumeration, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957076">Pedometer data fields</a>
-
-
-
 <a href="..\sensorsdef\ne-sensorsdef-pedometer_step_type_count.md">PEDOMETER_STEP_TYPE_COUNT</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957076">Pedometer data fields</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20PEDOMETER_STEP_TYPE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20PEDOMETER_STEP_TYPE enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

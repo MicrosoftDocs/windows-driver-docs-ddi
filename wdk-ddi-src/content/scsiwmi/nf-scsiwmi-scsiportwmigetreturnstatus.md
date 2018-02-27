@@ -7,8 +7,8 @@ old-location: storage\scsiportwmigetreturnstatus.htm
 old-project: storage
 ms.assetid: 79213f47-ba4c-41b0-b095-1b5c25c79456
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.scsiportwmigetreturnstatus, scsiwmi/ScsiPortWmiGetReturnStatus, scsiprt_cb3693a3-2fab-4d25-9c64-84327a7ef61c.xml, ScsiPortWmiGetReturnStatus, ScsiPortWmiGetReturnStatus macro [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: ScsiPortWmiGetReturnStatus, ScsiPortWmiGetReturnStatus macro [Storage Devices], scsiprt_cb3693a3-2fab-4d25-9c64-84327a7ef61c.xml, scsiwmi/ScsiPortWmiGetReturnStatus, storage.scsiportwmigetreturnstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: scsiwmi.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	scsiwmi.h
-apiname:
+api_name:
 -	ScsiPortWmiGetReturnStatus
 product: Windows
 targetos: Windows
@@ -84,7 +84,7 @@ A miniport driver must call <b>ScsiPortWmiGetReturnStatus</b> to obtain the valu
 
 ## -see-also
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
 
 
 
@@ -100,5 +100,5 @@ A miniport driver must call <b>ScsiPortWmiGetReturnStatus</b> to obtain the valu
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortWmiGetReturnStatus macro%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortWmiGetReturnStatus macro%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

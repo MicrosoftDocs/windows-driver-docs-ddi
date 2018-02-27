@@ -7,8 +7,8 @@ old-location: kernel\rtluinttoint.htm
 old-project: kernel
 ms.assetid: 5C595F39-3F47-4B4D-B6C6-6CBC5848AA4B
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RtlUIntToInt function [Kernel-Mode Driver Architecture], kernel.rtluinttoint, RtlUIntToInt, ntintsafe/RtlUIntToInt
+ms.date: 2/24/2018
+ms.keywords: RtlUIntToInt, RtlUIntToInt function [Kernel-Mode Driver Architecture], kernel.rtluinttoint, ntintsafe/RtlUIntToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntintsafe.h
-apiname:
+api_name:
 -	RtlUIntToInt
 product: Windows
 targetos: Windows

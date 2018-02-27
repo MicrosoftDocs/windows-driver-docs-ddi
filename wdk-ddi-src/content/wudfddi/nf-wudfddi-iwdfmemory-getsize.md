@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1ed699a3-20e5-4a1c-bce0-5a681bac9c39
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfmemory_getsize, umdf.iwdfmemory_getsize, GetSize, GetSize method, IWDFMemory interface, wudfddi/IWDFMemory::GetSize, IWDFMemory::GetSize, IWDFMemory interface, GetSize method, GetSize method, UMDFMemoryObjectRef_24a9b921-5760-41fd-8b01-6a21e6be71ed.xml, IWDFMemory
+ms.keywords: GetSize method, GetSize method, IWDFMemory interface, GetSize,IWDFMemory.GetSize, IWDFMemory, IWDFMemory interface, GetSize method, IWDFMemory::GetSize, UMDFMemoryObjectRef_24a9b921-5760-41fd-8b01-6a21e6be71ed.xml, umdf.iwdfmemory_getsize, wdf.iwdfmemory_getsize, wudfddi/IWDFMemory::GetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFMemory.GetSize
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: kernel\rtlshorttouint8.htm
 old-project: kernel
 ms.assetid: B1B5AE37-23BC-444A-9014-529BAD50ED52
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RtlShortToUInt8 function [Kernel-Mode Driver Architecture], RtlShortToUInt8, kernel.rtlshorttouint8, ntintsafe/RtlShortToUInt8
+ms.date: 2/24/2018
+ms.keywords: RtlShortToUInt8, RtlShortToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlshorttouint8, ntintsafe/RtlShortToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntintsafe.h
-apiname:
+api_name:
 -	RtlShortToUInt8
 product: Windows
 targetos: Windows

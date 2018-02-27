@@ -7,8 +7,8 @@ old-location: stream\ksirp_removal_operation.htm
 old-project: stream
 ms.assetid: 10AC7347-6C6B-4A37-9298-B773ADCB3FDA
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KsAcquireOnlySingleItem, ks/KsAcquireAndRemove, KsAcquireOnly, ks/KsAcquireOnly, ks/KsAcquireAndRemoveOnlySingleItem, KsAcquireAndRemove, KSIRP_REMOVAL_OPERATION, ks/KSIRP_REMOVAL_OPERATION, KSIRP_REMOVAL_OPERATION enumeration [Streaming Media Devices], ks/KsAcquireOnlySingleItem, stream.ksirp_removal_operation, KsAcquireAndRemoveOnlySingleItem
+ms.date: 2/23/2018
+ms.keywords: KSIRP_REMOVAL_OPERATION, KSIRP_REMOVAL_OPERATION enumeration [Streaming Media Devices], KsAcquireAndRemove, KsAcquireAndRemoveOnlySingleItem, KsAcquireOnly, KsAcquireOnlySingleItem, ks/KSIRP_REMOVAL_OPERATION, ks/KsAcquireAndRemove, ks/KsAcquireAndRemoveOnlySingleItem, ks/KsAcquireOnly, ks/KsAcquireOnlySingleItem, stream.ksirp_removal_operation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ks.h
-apiname:
+api_name:
 -	KSIRP_REMOVAL_OPERATION
 product: Windows
 targetos: Windows

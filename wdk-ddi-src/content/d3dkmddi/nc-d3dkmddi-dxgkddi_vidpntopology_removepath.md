@@ -7,8 +7,8 @@ old-location: display\dxgk_vidpntopology_interface_pfnremovepath.htm
 old-project: display
 ms.assetid: 463973e0-c443-417a-86ff-0b78773d40cc
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgk_vidpntopology_interface_pfnremovepath, pfnRemovePath callback function [Display Devices], pfnRemovePath, DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH, DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH, d3dkmddi/pfnRemovePath, VidPnFunctions_0a43b9cf-d4c2-4d6f-acc7-7988038c56e5.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH, VidPnFunctions_0a43b9cf-d4c2-4d6f-acc7-7988038c56e5.xml, d3dkmddi/pfnRemovePath, display.dxgk_vidpntopology_interface_pfnremovepath, pfnRemovePath, pfnRemovePath callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	pfnRemovePath
 product: Windows
 targetos: Windows

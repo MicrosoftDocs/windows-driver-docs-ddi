@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 0b822d28-edaa-40cc-a678-112a356d9022
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.bthinitializebrb, BthInitializeBrb callback function [Bluetooth Devices], BthInitializeBrb, PFNBTH_INITIALIZE_BRB, PFNBTH_INITIALIZE_BRB, bthddi/BthInitializeBrb, bth_funcs_11ec7e91-bfca-404f-a029-a3fbb8c56d47.xml
+ms.keywords: BthInitializeBrb, BthInitializeBrb callback function [Bluetooth Devices], PFNBTH_INITIALIZE_BRB, bltooth.bthinitializebrb, bth_funcs_11ec7e91-bfca-404f-a029-a3fbb8c56d47.xml, bthddi/BthInitializeBrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	bthddi.h
-apiname:
+api_name:
 -	BthInitializeBrb
 product: Windows
 targetos: Windows
-req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
+req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # PFNBTH_INITIALIZE_BRB callback
@@ -116,11 +116,11 @@ Profile drivers obtain a pointer to the
 
 ## -see-also
 
-<a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
-
-
-
 <a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
+
+
+
+<a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
 
 
 

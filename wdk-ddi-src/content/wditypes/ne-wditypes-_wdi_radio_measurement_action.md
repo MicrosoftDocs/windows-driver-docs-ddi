@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: AA17E666-5934-453D-B55D-98F8616F6369
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wditypes/WDI_RADIO_MEASUREMENT_ACTION, wditypes/WDI_RADIO_MEASUREMENT_ACTION_NEIGHBOR_REPORT_REQUEST, wditypes/WDI_RADIO_MEASUREMENT_ACTION_NEIGHBOR_REPORT_RESPONSE, WDI_RADIO_MEASUREMENT_ACTION_NEIGHBOR_REPORT_RESPONSE, WDI_RADIO_MEASUREMENT_ACTION enumeration [Device and Driver Installation], _WDI_RADIO_MEASUREMENT_ACTION, netvista.wdi_radio_measurement_action, netvista.wifi_radio_measurement_action, WDI_RADIO_MEASUREMENT_ACTION, WDI_RADIO_MEASUREMENT_ACTION_NEIGHBOR_REPORT_REQUEST
+ms.keywords: WDI_RADIO_MEASUREMENT_ACTION, WDI_RADIO_MEASUREMENT_ACTION enumeration [Device and Driver Installation], WDI_RADIO_MEASUREMENT_ACTION_NEIGHBOR_REPORT_REQUEST, WDI_RADIO_MEASUREMENT_ACTION_NEIGHBOR_REPORT_RESPONSE, _WDI_RADIO_MEASUREMENT_ACTION, netvista.wdi_radio_measurement_action, netvista.wifi_radio_measurement_action, wditypes/WDI_RADIO_MEASUREMENT_ACTION, wditypes/WDI_RADIO_MEASUREMENT_ACTION_NEIGHBOR_REPORT_REQUEST, wditypes/WDI_RADIO_MEASUREMENT_ACTION_NEIGHBOR_REPORT_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wditypes.hpp
-apiname:
+api_name:
 -	WDI_RADIO_MEASUREMENT_ACTION
 product: Windows
 targetos: Windows

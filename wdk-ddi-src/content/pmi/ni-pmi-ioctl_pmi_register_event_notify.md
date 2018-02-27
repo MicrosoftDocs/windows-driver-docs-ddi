@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 0d79a25b-846d-490d-9e04-d319fa860761
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: powermeter.ioctl_pmi_register_event_notify, IOCTL_PMI_REGISTER_EVENT_NOTIFY control code [Power Metering and Budgeting Devices], IOCTL_PMI_REGISTER_EVENT_NOTIFY, pmi/IOCTL_PMI_REGISTER_EVENT_NOTIFY, PowerMeterRef_9132445e-2195-4f6a-933d-0dc858128c4d.xml
+ms.keywords: IOCTL_PMI_REGISTER_EVENT_NOTIFY, IOCTL_PMI_REGISTER_EVENT_NOTIFY control code [Power Metering and Budgeting Devices], PowerMeterRef_9132445e-2195-4f6a-933d-0dc858128c4d.xml, pmi/IOCTL_PMI_REGISTER_EVENT_NOTIFY, powermeter.ioctl_pmi_register_event_notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Pmi.h
-apiname:
+api_name:
 -	IOCTL_PMI_REGISTER_EVENT_NOTIFY
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: PMI_MEASUREMENT_UNIT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -153,7 +153,7 @@ For more information about the <a href="https://msdn.microsoft.com/80a96083-4de9
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a>
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
 
 
 
@@ -161,11 +161,11 @@ For more information about the <a href="https://msdn.microsoft.com/80a96083-4de9
 
 
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
-
-
-
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
+<a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a>
 
 
 

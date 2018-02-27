@@ -7,8 +7,8 @@ old-location: display\dxgk_gpummucaps.htm
 old-project: display
 ms.assetid: 999820D0-FDEB-49FD-920A-75FD9886492A
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: "_DXGK_GPUMMUCAPS, DXGK_GPUMMUCAPS, DXGK_GPUMMUCAPS structure [Display Devices], d3dkmddi/DXGK_GPUMMUCAPS, display.dxgk_gpummucaps"
+ms.date: 2/24/2018
+ms.keywords: DXGK_GPUMMUCAPS, DXGK_GPUMMUCAPS structure [Display Devices], _DXGK_GPUMMUCAPS, d3dkmddi/DXGK_GPUMMUCAPS, display.dxgk_gpummucaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	DXGK_GPUMMUCAPS
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 29ed998c-d833-496f-a728-0eef2cd49ae6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: "*PWHEA_ERROR_RECORD, PWHEA_ERROR_RECORD, ntddk/WHEA_ERROR_RECORD, WHEA_ERROR_RECORD structure [WHEA Drivers and Applications], WHEA_ERROR_RECORD, ntddk/PWHEA_ERROR_RECORD, _WHEA_ERROR_RECORD, PWHEA_ERROR_RECORD structure pointer [WHEA Drivers and Applications], whea.whea_error_record, whearef_dc309156-feee-4cc2-ba75-d39f3f05fa5f.xml"
+ms.keywords: "*PWHEA_ERROR_RECORD, PWHEA_ERROR_RECORD, PWHEA_ERROR_RECORD structure pointer [WHEA Drivers and Applications], WHEA_ERROR_RECORD, WHEA_ERROR_RECORD structure [WHEA Drivers and Applications], _WHEA_ERROR_RECORD, ntddk/PWHEA_ERROR_RECORD, ntddk/WHEA_ERROR_RECORD, whea.whea_error_record, whearef_dc309156-feee-4cc2-ba75-d39f3f05fa5f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddk.h
-apiname:
+api_name:
 -	WHEA_ERROR_RECORD
 product: Windows
 targetos: Windows
-req.typenames: PWHEA_ERROR_RECORD, WHEA_ERROR_RECORD, *PWHEA_ERROR_RECORD
+req.typenames: "*PWHEA_ERROR_RECORD, *PWHEA_ERROR_RECORD, WHEA_ERROR_RECORD, PWHEA_ERROR_RECORD"
 ---
 
 # _WHEA_ERROR_RECORD structure

@@ -4,11 +4,11 @@ title: IDebugFailureAnalysis2::AddBuffer method
 author: windows-driver-content
 description: The AddBuffer method adds a new FA entry to a DebugFailureAnalysis object, and writes the bytes from a specified buffer to the data block of the new FA entry.
 old-location: debugger\idebugfailureanalysis2_addbuffer.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: E6510000-E390-4631-9D47-5A57AB845EF6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: AddBuffer method [Windows Debugging], IDebugFailureAnalysis2::AddBuffer, IDebugFailureAnalysis2 interface [Windows Debugging], AddBuffer method, AddBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_addbuffer, AddBuffer, IDebugFailureAnalysis2, extsfns/IDebugFailureAnalysis2::AddBuffer
+ms.date: 2/23/2018
+ms.keywords: AddBuffer method [Windows Debugging], AddBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface, AddBuffer,IDebugFailureAnalysis2.AddBuffer, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], AddBuffer method, IDebugFailureAnalysis2::AddBuffer, debugger.idebugfailureanalysis2_addbuffer, extsfns/IDebugFailureAnalysis2::AddBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: extsfns.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	extsfns.h
-apiname:
+api_name:
 -	IDebugFailureAnalysis2.AddBuffer
 product: Windows
 targetos: Windows
@@ -110,19 +110,7 @@ This method creates a new <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
-
-
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983423">SetBuffer</a>
 
 
 
@@ -130,9 +118,21 @@ This method creates a new <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983423">SetBuffer</a>
+
+
+
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+
+
+
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugFailureAnalysis2::AddBuffer method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugFailureAnalysis2::AddBuffer method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: kernel\read_register_buffer_ushort.htm
 old-project: kernel
 ms.assetid: 30c3fc44-e94a-47ca-a25b-33857b485817
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: READ_REGISTER_BUFFER_USHORT, k103_a4ed8007-394e-4090-bcdb-63ad37431377.xml, wdm/READ_REGISTER_BUFFER_USHORT, kernel.read_register_buffer_ushort, READ_REGISTER_BUFFER_USHORT routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: READ_REGISTER_BUFFER_USHORT, READ_REGISTER_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], k103_a4ed8007-394e-4090-bcdb-63ad37431377.xml, kernel.read_register_buffer_ushort, wdm/READ_REGISTER_BUFFER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	READ_REGISTER_BUFFER_USHORT
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C2EBA90C-3F36-45AC-9344-DFB1824A66B9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_WRITE_REGISTER_ULONG, wdf.wdf_write_register_ulong, WDF_WRITE_REGISTER_ULONG function, wdfhwaccess/WDF_WRITE_REGISTER_ULONG
+ms.keywords: WDF_WRITE_REGISTER_ULONG, WDF_WRITE_REGISTER_ULONG function, wdf.wdf_write_register_ulong, wdfhwaccess/WDF_WRITE_REGISTER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdfhwaccess.h
-apiname:
+api_name:
 -	WDF_WRITE_REGISTER_ULONG
 product: Windows
 targetos: Windows

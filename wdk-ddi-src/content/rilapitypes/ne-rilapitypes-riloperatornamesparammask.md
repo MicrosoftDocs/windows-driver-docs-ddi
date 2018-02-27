@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f3e3654f-d317-4a8c-aa18-bbac86b06286
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RIL_PARAM_ON_SYSTEMTYPE, RIL_PARAM_ON_COUNTRY_CODE, rilapitypes/RILOPERATORNAMESPARAMMASK, RIL_PARAM_ON_ALL, rilapitypes/RIL_PARAM_ON_LONGNAME, RILOPERATORNAMESPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ON_NUMNAME, rilapitypes/RIL_PARAM_ON_SHORTNAME, rilapitypes/RIL_PARAM_ON_NUMNAME, netvista.riloperatornamesparammask, RIL_PARAM_ON_LONGNAME, rilapitypes/RIL_PARAM_ON_ALL, RIL_PARAM_ON_SYSTEMTYPE, RILOPERATORNAMESPARAMMASK, RIL_PARAM_ON_SHORTNAME, rilapitypes/RIL_PARAM_ON_COUNTRY_CODE
+ms.keywords: RILOPERATORNAMESPARAMMASK, RILOPERATORNAMESPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ON_ALL, RIL_PARAM_ON_COUNTRY_CODE, RIL_PARAM_ON_LONGNAME, RIL_PARAM_ON_NUMNAME, RIL_PARAM_ON_SHORTNAME, RIL_PARAM_ON_SYSTEMTYPE, netvista.riloperatornamesparammask, rilapitypes/RILOPERATORNAMESPARAMMASK, rilapitypes/RIL_PARAM_ON_ALL, rilapitypes/RIL_PARAM_ON_COUNTRY_CODE, rilapitypes/RIL_PARAM_ON_LONGNAME, rilapitypes/RIL_PARAM_ON_NUMNAME, rilapitypes/RIL_PARAM_ON_SHORTNAME, rilapitypes/RIL_PARAM_ON_SYSTEMTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILOPERATORNAMESPARAMMASK
 product: Windows
 targetos: Windows

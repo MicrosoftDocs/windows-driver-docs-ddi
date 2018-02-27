@@ -7,8 +7,8 @@ old-location: print\ipartdiscardcontrol.htm
 old-project: print
 ms.assetid: 30c6fb0c-42ea-441f-b0a2-3310f8a5b407
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.ipartdiscardcontrol, IPartDiscardControl interface [Print Devices], IPartDiscardControl interface [Print Devices], described, IPartDiscardControl, filterpipeline/IPartDiscardControl, filterpipeline_c29b91d3-ecf6-4697-bf5f-5b536cfb7071.xml
+ms.date: 2/23/2018
+ms.keywords: IPartDiscardControl, IPartDiscardControl interface [Print Devices], IPartDiscardControl interface [Print Devices], described, filterpipeline/IPartDiscardControl, filterpipeline_c29b91d3-ecf6-4697-bf5f-5b536cfb7071.xml, print.ipartdiscardcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	filterpipeline.h
-apiname:
+api_name:
 -	IPartDiscardControl
 product: Windows
 targetos: Windows
@@ -53,6 +53,13 @@ The filter pipeline supports the discard control. Filters can use this object, i
 
 Filters can also create discard controls. To create a discard control, the filter must create an object that implements the <b>IPartDiscardControl</b> interface. Because the filter transfers ownership of the discard control when it sends it to the next filter, the filter must manage the lifetime of the discard control. If a filter creates a discard control, the filter DLL must not unload until the discard control has been released.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPartDiscardControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPartDiscardControl</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -71,7 +78,5 @@ The <b>GetDiscardProperties</b> method gets the properties of the discard contro
 
 </td>
 </tr>
-</table>The <b>GetDiscardProperties</b> method gets the properties of the discard control.
-
- 
+</table> 
 

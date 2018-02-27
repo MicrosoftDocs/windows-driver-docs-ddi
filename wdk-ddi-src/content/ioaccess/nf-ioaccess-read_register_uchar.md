@@ -7,8 +7,8 @@ old-location: kernel\read_register_uchar.htm
 old-project: kernel
 ms.assetid: 49f9d7d7-c774-4ba5-a9f3-6d605a3de674
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: READ_REGISTER_UCHAR, wdm/READ_REGISTER_UCHAR, kernel.read_register_uchar, k103_b7970afc-0b18-49c4-b873-a9fd689c0c97.xml, READ_REGISTER_UCHAR routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: READ_REGISTER_UCHAR, READ_REGISTER_UCHAR routine [Kernel-Mode Driver Architecture], k103_b7970afc-0b18-49c4-b873-a9fd689c0c97.xml, kernel.read_register_uchar, wdm/READ_REGISTER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	READ_REGISTER_UCHAR
 product: Windows
 targetos: Windows

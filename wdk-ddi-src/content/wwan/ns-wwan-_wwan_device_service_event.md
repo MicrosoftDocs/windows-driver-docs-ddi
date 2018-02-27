@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7E02DDE0-7D55-4FBD-879E-EFBA6A517D86
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WWAN_DEVICE_SERVICE_EVENT structure [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_EVENT, *PWWAN_DEVICE_SERVICE_EVENT, _WWAN_DEVICE_SERVICE_EVENT, wwan/PWWAN_DEVICE_SERVICE_EVENT, PWWAN_DEVICE_SERVICE_EVENT, PWWAN_DEVICE_SERVICE_EVENT structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_DEVICE_SERVICE_EVENT, netvista.wwan_device_service_event
+ms.keywords: "*PWWAN_DEVICE_SERVICE_EVENT, PWWAN_DEVICE_SERVICE_EVENT, PWWAN_DEVICE_SERVICE_EVENT structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_EVENT, WWAN_DEVICE_SERVICE_EVENT structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_EVENT, netvista.wwan_device_service_event, wwan/PWWAN_DEVICE_SERVICE_EVENT, wwan/WWAN_DEVICE_SERVICE_EVENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_DEVICE_SERVICE_EVENT
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_DEVICE_SERVICE_EVENT, WWAN_DEVICE_SERVICE_EVENT"
+req.typenames: WWAN_DEVICE_SERVICE_EVENT, *PWWAN_DEVICE_SERVICE_EVENT
 req.product: Windows 10 or later.
 ---
 

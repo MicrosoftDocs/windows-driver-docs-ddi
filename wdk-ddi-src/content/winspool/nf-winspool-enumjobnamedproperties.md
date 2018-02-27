@@ -7,8 +7,8 @@ old-location: print\enumjobnamedproperties.htm
 old-project: print
 ms.assetid: 0C5E2279-79D0-40A2-BA5B-66994A22E963
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.enumjobnamedproperties, winspool/EnumJobNamedProperties, EnumJobNamedProperties, EnumJobNamedProperties function [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: EnumJobNamedProperties, EnumJobNamedProperties function [Print Devices], print.enumjobnamedproperties, winspool/EnumJobNamedProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Winspool.h
-apiname:
+api_name:
 -	EnumJobNamedProperties
 product: Windows
 targetos: Windows

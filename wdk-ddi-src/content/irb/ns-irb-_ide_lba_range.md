@@ -7,8 +7,8 @@ old-location: storage\ide_lba_range.htm
 old-project: storage
 ms.assetid: 2d823d9c-7328-44e2-9ba2-22967471ef68
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PIDE_LBA_RANGE, irb/IDE_LBA_RANGE, IDE_LBA_RANGE, *PIDE_LBA_RANGE, PIDE_LBA_RANGE structure pointer [Storage Devices], IDE_LBA_RANGE structure [Storage Devices], structs-ATA_0abd91d5-18f0-49c9-b5de-ac442718da3f.xml, _IDE_LBA_RANGE, irb/PIDE_LBA_RANGE, storage.ide_lba_range
+ms.date: 2/24/2018
+ms.keywords: "*PIDE_LBA_RANGE, IDE_LBA_RANGE, IDE_LBA_RANGE structure [Storage Devices], PIDE_LBA_RANGE, PIDE_LBA_RANGE structure pointer [Storage Devices], _IDE_LBA_RANGE, irb/IDE_LBA_RANGE, irb/PIDE_LBA_RANGE, storage.ide_lba_range, structs-ATA_0abd91d5-18f0-49c9-b5de-ac442718da3f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	irb.h
-apiname:
+api_name:
 -	IDE_LBA_RANGE
 product: Windows
 targetos: Windows
-req.typenames: "*PIDE_LBA_RANGE, IDE_LBA_RANGE"
+req.typenames: IDE_LBA_RANGE, *PIDE_LBA_RANGE
 ---
 
 # _IDE_LBA_RANGE structure

@@ -7,8 +7,8 @@ old-location: print\printjobstatus.htm
 old-project: print
 ms.assetid: 856FDAE1-C1D9-458D-B386-0A2D8612EA33
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: printerextension/PrintJobStatus_Restarted, PrintJobStatus_Printed, PrintJobStatus_Complete, PrintJobStatus_Paused, printerextension/PrintJobStatus_Deleting, printerextension/PrintJobStatus_PaperOut, printerextension/PrintJobStatus_Retained, printerextension/PrintJobStatus_BlockedDeviceQueue, PrintJobStatus_Deleted, printerextension/PrintJobStatus_Printing, PrintJobStatus_Offline, PrintJobStatus enumeration [Print Devices], printerextension/PrintJobStatus_Paused, print.printjobstatus, PrintJobStatus_Deleting, printerextension/PrintJobStatus_Printed, PrintJobStatus_UserIntervention, PrintJobStatus_BlockedDeviceQueue, PrintJobStatus_Retained, printerextension/PrintJobStatus_Error, printerextension/PrintJobStatus_Deleted, printerextension/PrintJobStatus_Spooling, PrintJobStatus_Restarted, printerextension/PrintJobStatus_UserIntervention, PrintJobStatus_Printing, tagPrintJobStatus, printerextension/PrintJobStatus_Offline, PrintJobStatus_Error, PrintJobStatus_Spooling, printerextension/PrintJobStatus, PrintJobStatus, PrintJobStatus_PaperOut, printerextension/PrintJobStatus_Complete
+ms.date: 2/23/2018
+ms.keywords: PrintJobStatus, PrintJobStatus enumeration [Print Devices], PrintJobStatus_BlockedDeviceQueue, PrintJobStatus_Complete, PrintJobStatus_Deleted, PrintJobStatus_Deleting, PrintJobStatus_Error, PrintJobStatus_Offline, PrintJobStatus_PaperOut, PrintJobStatus_Paused, PrintJobStatus_Printed, PrintJobStatus_Printing, PrintJobStatus_Restarted, PrintJobStatus_Retained, PrintJobStatus_Spooling, PrintJobStatus_UserIntervention, print.printjobstatus, printerextension/PrintJobStatus, printerextension/PrintJobStatus_BlockedDeviceQueue, printerextension/PrintJobStatus_Complete, printerextension/PrintJobStatus_Deleted, printerextension/PrintJobStatus_Deleting, printerextension/PrintJobStatus_Error, printerextension/PrintJobStatus_Offline, printerextension/PrintJobStatus_PaperOut, printerextension/PrintJobStatus_Paused, printerextension/PrintJobStatus_Printed, printerextension/PrintJobStatus_Printing, printerextension/PrintJobStatus_Restarted, printerextension/PrintJobStatus_Retained, printerextension/PrintJobStatus_Spooling, printerextension/PrintJobStatus_UserIntervention, tagPrintJobStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Printerextension.h
-apiname:
+api_name:
 -	PrintJobStatus
 product: Windows
 targetos: Windows
@@ -178,5 +178,5 @@ It is possible for a job to have multiple  flag values specified simultaneously.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20PrintJobStatus enumeration%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20PrintJobStatus enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

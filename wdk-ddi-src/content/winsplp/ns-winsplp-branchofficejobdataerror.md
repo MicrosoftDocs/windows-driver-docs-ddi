@@ -7,8 +7,8 @@ old-location: print\branchofficejobdataerror.htm
 old-project: print
 ms.assetid: 947C508E-2EB9-451D-AA8D-DCDDE27DEBE6
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: BranchOfficeJobDataError structure [Print Devices], print.branchofficejobdataerror, winsplp/PBranchOfficeJobDataError, PBranchOfficeJobDataError structure pointer [Print Devices], winsplp/BranchOfficeJobDataError, PBranchOfficeJobDataError, BranchOfficeJobDataError, *PBranchOfficeJobDataError
+ms.date: 2/23/2018
+ms.keywords: "*PBranchOfficeJobDataError, BranchOfficeJobDataError, BranchOfficeJobDataError structure [Print Devices], PBranchOfficeJobDataError, PBranchOfficeJobDataError structure pointer [Print Devices], print.branchofficejobdataerror, winsplp/BranchOfficeJobDataError, winsplp/PBranchOfficeJobDataError"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Winsplp.h
-apiname:
+api_name:
 -	BranchOfficeJobDataError
 product: Windows
 targetos: Windows
-req.typenames: "*PBranchOfficeJobDataError, BranchOfficeJobDataError"
+req.typenames: BranchOfficeJobDataError, *PBranchOfficeJobDataError
 req.product: Windows 10 or later.
 ---
 

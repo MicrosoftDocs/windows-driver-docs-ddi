@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B45E2463-1EBC-4F32-B3AD-8331E664BB24
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: VmbChannelCreateGpadlFromBuffer function [Network Drivers Starting with Windows Vista], netvista.vmbchannelcreategpadlfrombuffer, VMBUS_CHANNEL_GPADL_READ_ONLY, VmbChannelCreateGpadlFromBuffer, vmbuskernelmodeclientlibapi/VmbChannelCreateGpadlFromBuffer
+ms.keywords: VMBUS_CHANNEL_GPADL_READ_ONLY, VmbChannelCreateGpadlFromBuffer, VmbChannelCreateGpadlFromBuffer function [Network Drivers Starting with Windows Vista], netvista.vmbchannelcreategpadlfrombuffer, vmbuskernelmodeclientlibapi/VmbChannelCreateGpadlFromBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname:
+api_name:
 -	VmbChannelCreateGpadlFromBuffer
 product: Windows
 targetos: Windows
@@ -140,11 +140,11 @@ The GPADL must be deleted by using the <a href="..\vmbuskernelmodeclientlibapi\n
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchanneldeletegpadl.md">VmbChannelDeleteGpadl</a>
-
-
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelmapgpadl.md">VmbChannelMapGpadl</a>
+
+
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchanneldeletegpadl.md">VmbChannelDeleteGpadl</a>
 
 
 

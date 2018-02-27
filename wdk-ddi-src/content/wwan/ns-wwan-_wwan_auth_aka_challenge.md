@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A0513766-7D58-4F85-8105-93D7A0D9036B
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PWWAN_AUTH_AKA_CHALLENGE, WWAN_AUTH_AKA_CHALLENGE, _WWAN_AUTH_AKA_CHALLENGE, *PWWAN_AUTH_AKA_CHALLENGE, PWWAN_AUTH_AKA_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_AUTH_AKA_CHALLENGE, wwan/PWWAN_AUTH_AKA_CHALLENGE, netvista.wwan_auth_aka_challenge, WWAN_AUTH_AKA_CHALLENGE structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PWWAN_AUTH_AKA_CHALLENGE, PWWAN_AUTH_AKA_CHALLENGE, PWWAN_AUTH_AKA_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKA_CHALLENGE, WWAN_AUTH_AKA_CHALLENGE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_AKA_CHALLENGE, netvista.wwan_auth_aka_challenge, wwan/PWWAN_AUTH_AKA_CHALLENGE, wwan/WWAN_AUTH_AKA_CHALLENGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_AUTH_AKA_CHALLENGE
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: print\expsfontrestriction.htm
 old-project: print
 ms.assetid: 079BEF8A-514E-42C3-8916-95655C605098
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0004, EXpsFontRestriction enumeration [Print Devices], Xps_Restricted_Font_NoEmbedding, filterpipeline/Xps_Restricted_Font_NoEmbedding, Xps_Restricted_Font_PreviewPrint, EXpsFontRestriction, filterpipeline/Xps_Restricted_Font_Editable, print.expsfontrestriction, filterpipeline/Xps_Restricted_Font_Installable, Xps_Restricted_Font_Installable, filterpipeline/Xps_Restricted_Font_PreviewPrint, Xps_Restricted_Font_Editable, filterpipeline/EXpsFontRestriction"
+ms.date: 2/23/2018
+ms.keywords: EXpsFontRestriction, EXpsFontRestriction enumeration [Print Devices], Xps_Restricted_Font_Editable, Xps_Restricted_Font_Installable, Xps_Restricted_Font_NoEmbedding, Xps_Restricted_Font_PreviewPrint, __MIDL___MIDL_itf_filterpipeline_0000_0000_0004, filterpipeline/EXpsFontRestriction, filterpipeline/Xps_Restricted_Font_Editable, filterpipeline/Xps_Restricted_Font_Installable, filterpipeline/Xps_Restricted_Font_NoEmbedding, filterpipeline/Xps_Restricted_Font_PreviewPrint, print.expsfontrestriction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Filterpipeline.h
-apiname:
+api_name:
 -	EXpsFontRestriction
 product: Windows
 targetos: Windows

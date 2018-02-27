@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0043DC3F-E8EE-448F-B381-C67C199CE7A7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NDK_LISTENER structure [Network Drivers Starting with Windows Vista], NDK_LISTENER, netvista.ndk_listener, _NDK_LISTENER, ndkpi/PNDK_LISTENER, ndkpi/NDK_LISTENER, PNDK_LISTENER, PNDK_LISTENER structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: NDK_LISTENER, NDK_LISTENER structure [Network Drivers Starting with Windows Vista], PNDK_LISTENER, PNDK_LISTENER structure pointer [Network Drivers Starting with Windows Vista], _NDK_LISTENER, ndkpi/NDK_LISTENER, ndkpi/PNDK_LISTENER, netvista.ndk_listener
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndkpi.h
-apiname:
+api_name:
 -	NDK_LISTENER
 product: Windows
 targetos: Windows
-req.typenames: NDK_LISTENER
+req.typenames: NDK_LISTENER, NDK_LISTENER
 ---
 
 # _NDK_LISTENER structure
@@ -89,15 +89,7 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_listener_dispatch.md">NDK_LISTENER_DISPATCH</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
-
-
-
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_listener.md">NDK_FN_CREATE_LISTENER</a>
 
 
 
@@ -109,11 +101,19 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_listener.md">NDK_FN_CREATE_LISTENER</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
+
+
+
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_listener_dispatch.md">NDK_LISTENER_DISPATCH</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
 
 

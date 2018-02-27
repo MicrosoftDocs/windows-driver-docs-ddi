@@ -7,8 +7,8 @@ old-location: audio\iportclsstreamresourcemanager2.htm
 old-project: audio
 ms.assetid: B37310B5-3C74-428A-B8DF-C39B85A521C0
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iportclsstreamresourcemanager2, IPortClsStreamResourceManager2 interface [Audio Devices], IPortClsStreamResourceManager2 interface [Audio Devices], described, IPortClsStreamResourceManager2, portcls/IPortClsStreamResourceManager2
+ms.date: 2/22/2018
+ms.keywords: IPortClsStreamResourceManager2, IPortClsStreamResourceManager2 interface [Audio Devices], IPortClsStreamResourceManager2 interface [Audio Devices], described, audio.iportclsstreamresourcemanager2, portcls/IPortClsStreamResourceManager2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IPortClsStreamResourceManager2
 product: Windows
 targetos: Windows

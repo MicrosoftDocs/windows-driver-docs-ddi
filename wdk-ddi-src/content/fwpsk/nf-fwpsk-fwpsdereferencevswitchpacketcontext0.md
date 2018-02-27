@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9A315227-7305-4068-81DE-BD25F733E650
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fwpsk/FwpsDereferencevSwitchPacketContext0, FwpsDereferencevSwitchPacketContext0, netvista.fwpsdereferencevswitchpacketcontext0, FwpsDereferencevSwitchPacketContext0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: FwpsDereferencevSwitchPacketContext0, FwpsDereferencevSwitchPacketContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsDereferencevSwitchPacketContext0, netvista.fwpsdereferencevswitchpacketcontext0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname:
+api_name:
 -	FwpsDereferencevSwitchPacketContext0
 product: Windows
 targetos: Windows
@@ -93,11 +93,11 @@ The <b>FwpsDereferencevSwitchPacketContext0</b> function releases a reference  t
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">FWPS_INCOMING_METADATA_VALUES0</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpsreferencevswitchpacketcontext0.md">FwpsReferencevSwitchPacketContext0</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">FWPS_INCOMING_METADATA_VALUES0</a>
 
 
 

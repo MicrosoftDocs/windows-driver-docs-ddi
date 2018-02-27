@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F45D253E-E7D7-4600-AF8C-6D4EB096030D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PWWAN_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], _WWAN_SLOT_INFO, wwan/PWWAN_SLOT_INFO, *PWWAN_SLOT_INFO, wwan/WWAN_SLOT_INFO, WWAN_SLOT_INFO structure [Network Drivers Starting with Windows Vista], WWAN_SLOT_INFO, netvista.wwan_slot_info_status, PWWAN_SLOT_INFO
+ms.keywords: "*PWWAN_SLOT_INFO, PWWAN_SLOT_INFO, PWWAN_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_SLOT_INFO, WWAN_SLOT_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_SLOT_INFO, netvista.wwan_slot_info_status, wwan/PWWAN_SLOT_INFO, wwan/WWAN_SLOT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_SLOT_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_SLOT_INFO, WWAN_SLOT_INFO"
+req.typenames: WWAN_SLOT_INFO, *PWWAN_SLOT_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -81,19 +81,19 @@ The state of the slot being queried, a member of the  <a href="..\wwan\ne-wwan-_
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_uiccslot_state.md">WWAN_UICCSLOT_STATE</a>
-
-
-
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_slot_info.md">NDIS_WWAN_SLOT_INFO</a>
-
-
-
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_slot_info.md">NDIS_WWAN_SLOT_INFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/6267D480-5055-4A7A-B2A0-F4DF9154DCD7">OID_WWAN_SLOT_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/FA1E16E4-56A3-4401-875F-D75DD01FE75D">NDIS_STATUS_WWAN_SLOT_INFO</a>
+
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_slot_info.md">NDIS_WWAN_SLOT_INFO</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_uiccslot_state.md">WWAN_UICCSLOT_STATE</a>
 
 
 

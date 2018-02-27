@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 70e0f22c-14d4-43e6-bfb6-66523706ba52
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_PARAM_MI_ALL, netvista.rilmessageinfoparammask, ntddrilapitypes/RIL_PARAM_MI_STATUS, ntddrilapitypes/RILMESSAGEINFOPARAMMASK, RILMESSAGEINFOPARAMMASK, RILMESSAGEINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MI_MESSAGE, ntddrilapitypes/RIL_PARAM_MI_ALL, ntddrilapitypes/RIL_PARAM_MI_MESSAGE, RIL_PARAM_MI_STATUS
+ms.keywords: RILMESSAGEINFOPARAMMASK, RILMESSAGEINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MI_ALL, RIL_PARAM_MI_MESSAGE, RIL_PARAM_MI_STATUS, netvista.rilmessageinfoparammask, ntddrilapitypes/RILMESSAGEINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_MI_ALL, ntddrilapitypes/RIL_PARAM_MI_MESSAGE, ntddrilapitypes/RIL_PARAM_MI_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddrilapitypes.h
-apiname:
+api_name:
 -	RILMESSAGEINFOPARAMMASK
 product: Windows
 targetos: Windows

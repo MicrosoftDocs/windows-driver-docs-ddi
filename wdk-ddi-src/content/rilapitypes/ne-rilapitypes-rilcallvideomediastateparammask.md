@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4cd834ba-c2f0-4b48-bc24-adf1cf2610f8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RIL_PARAM_CALLVIDEO_ALL, rilapitypes/RIL_PARAM_CALLVIDEO_CONTEXTID, RIL_PARAM_CALLVIDEO_FLAGS, RIL_PARAM_CALLVIDEO_ALL, RILCALLVIDEOMEDIASTATEPARAMMASK, rilapitypes/RILCALLVIDEOMEDIASTATEPARAMMASK, RILCALLVIDEOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CALLVIDEO_CONTEXTID, netvista.rilcallvideomediastateparammask_2, rilapitypes/RIL_PARAM_CALLVIDEO_FLAGS
+ms.keywords: RILCALLVIDEOMEDIASTATEPARAMMASK, RILCALLVIDEOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CALLVIDEO_ALL, RIL_PARAM_CALLVIDEO_CONTEXTID, RIL_PARAM_CALLVIDEO_FLAGS, netvista.rilcallvideomediastateparammask_2, rilapitypes/RILCALLVIDEOMEDIASTATEPARAMMASK, rilapitypes/RIL_PARAM_CALLVIDEO_ALL, rilapitypes/RIL_PARAM_CALLVIDEO_CONTEXTID, rilapitypes/RIL_PARAM_CALLVIDEO_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILCALLVIDEOMEDIASTATEPARAMMASK
 product: Windows
 targetos: Windows

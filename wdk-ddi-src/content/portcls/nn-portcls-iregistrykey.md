@@ -7,8 +7,8 @@ old-location: audio\iregistrykey.htm
 old-project: audio
 ms.assetid: 41601234-7b8e-4d53-9455-626a5a3c4ff3
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iregistrykey, IRegistryKey interface [Audio Devices], IRegistryKey interface [Audio Devices], described, IRegistryKey, portcls/IRegistryKey, audmp-routines_40bea095-17f2-4b5f-96e8-ab2fed6d82d4.xml
+ms.date: 2/22/2018
+ms.keywords: IRegistryKey, IRegistryKey interface [Audio Devices], IRegistryKey interface [Audio Devices], described, audio.iregistrykey, audmp-routines_40bea095-17f2-4b5f-96e8-ab2fed6d82d4.xml, portcls/IRegistryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IRegistryKey
 product: Windows
 targetos: Windows
@@ -53,6 +53,13 @@ The <code>IRegistryKey</code> interface provides an abstraction of a registry ke
 
 For more information, see <a href="https://msdn.microsoft.com/c666f0cc-5a8a-4df8-9c65-08e3b044a08f">Registry Key Objects</a>.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRegistryKey</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRegistryKey</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -134,21 +141,5 @@ The <code>SetValueKey</code> method replaces or creates a value entry under the 
 
 </td>
 </tr>
-</table>The <code>DeleteKey</code> method deletes the registry key.
-
-The <code>EnumerateKey</code> method returns information about the subkeys of the open key.
-
-The <code>EnumerateValueKey</code> method returns information about a registry entry that contains a value key.
-
-The <code>NewSubKey</code> method either creates a new registry subkey or opens an existing subkey under the key represented by the <b>IRegistryKey</b> object.
-
-The <code>QueryKey</code> method retrieves information about a registry key, including the key name, key class, and the number of subkeys and their sizes.
-
-The <code>QueryRegistryValues</code> method allows the caller to query several values from the registry with a single call.
-
-The <code>QueryValueKey</code> method retrieves information about a registry key's value entries, including their names, types, data sizes, and values.
-
-The <code>SetValueKey</code> method replaces or creates a value entry under the open key.
-
- 
+</table> 
 

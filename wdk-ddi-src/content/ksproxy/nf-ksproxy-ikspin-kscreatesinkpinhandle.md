@@ -7,8 +7,8 @@ old-location: stream\ikspin_kscreatesinkpinhandle.htm
 old-project: stream
 ms.assetid: 68faba0a-8057-4259-b93d-c19899637356
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ikspin_kscreatesinkpinhandle, KsCreateSinkPinHandle method [Streaming Media Devices], ksproxy/IKsPin::KsCreateSinkPinHandle, KsCreateSinkPinHandle method [Streaming Media Devices], IKsPin interface, ksproxy_8d4ac125-ae14-4abf-97cb-74fd33e5029c.xml, KsCreateSinkPinHandle, IKsPin interface [Streaming Media Devices], KsCreateSinkPinHandle method, IKsPin::KsCreateSinkPinHandle, IKsPin
+ms.date: 2/23/2018
+ms.keywords: IKsPin, IKsPin interface [Streaming Media Devices], KsCreateSinkPinHandle method, IKsPin::KsCreateSinkPinHandle, KsCreateSinkPinHandle method [Streaming Media Devices], KsCreateSinkPinHandle method [Streaming Media Devices], IKsPin interface, KsCreateSinkPinHandle,IKsPin.KsCreateSinkPinHandle, ksproxy/IKsPin::KsCreateSinkPinHandle, ksproxy_8d4ac125-ae14-4abf-97cb-74fd33e5029c.xml, stream.ikspin_kscreatesinkpinhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	ksproxy.h
-apiname:
+api_name:
 -	IKsPin.KsCreateSinkPinHandle
 product: Windows
 targetos: Windows
@@ -70,12 +70,12 @@ HRESULT KsCreateSinkPinHandle(
 
 ### -param Interface [in]
 
-A type reference to a <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a> structure for the interface that <b>KsCreateSinkPinHandle</b> negotiated for the created pin. 
+A type reference to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a> structure for the interface that <b>KsCreateSinkPinHandle</b> negotiated for the created pin. 
 
 
 ### -param Medium [in]
 
-A type reference to a <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a> structure for the medium that <b>KsCreateSinkPinHandle</b> negotiated for the created pin. 
+A type reference to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a> structure for the medium that <b>KsCreateSinkPinHandle</b> negotiated for the created pin. 
 
 
 ## -returns
@@ -102,15 +102,15 @@ This method is for proxy use and is not recommended for application use.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
 
 
 
-<a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a>
-
-
-
-<a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a>
 
 
 
@@ -118,5 +118,5 @@ This method is for proxy use and is not recommended for application use.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsPin::KsCreateSinkPinHandle method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsPin::KsCreateSinkPinHandle method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6efa3d8e-3e54-4ab1-82e0-08ba12bb1877
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: OnD0Entry method, IPnpCallback interface, OnD0Entry method, IPnpCallback::OnD0Entry, OnD0Entry method, IPnpCallback interface, IPnpCallback, UMDFDeviceObjectRef_96da33eb-c6ef-41f0-9a4c-1a8e8158d023.xml, wudfddi/IPnpCallback::OnD0Entry, umdf.ipnpcallback_ond0entry, OnD0Entry, wdf.ipnpcallback_ond0entry
+ms.keywords: IPnpCallback, IPnpCallback interface, OnD0Entry method, IPnpCallback::OnD0Entry, OnD0Entry method, OnD0Entry method, IPnpCallback interface, OnD0Entry,IPnpCallback.OnD0Entry, UMDFDeviceObjectRef_96da33eb-c6ef-41f0-9a4c-1a8e8158d023.xml, umdf.ipnpcallback_ond0entry, wdf.ipnpcallback_ond0entry, wudfddi/IPnpCallback::OnD0Entry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Wudfddi.h
-apiname:
+api_name:
 -	IPnpCallback.OnD0Entry
 product: Windows
 targetos: Windows
@@ -107,7 +107,7 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallb
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a>
 
 
 
@@ -115,7 +115,7 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallb
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a>
+<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
 
 
 

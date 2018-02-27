@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6a6285c9-8366-4487-a1c5-38aa24d172a9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfiorequest2, IWDFIoRequest2 interface, IWDFIoRequest2 interface, described, IWDFIoRequest2, wudfddi/IWDFIoRequest2, UMDFRequestObjectRef_0aa42362-60ac-4be7-8101-6395a709f420.xml, umdf.iwdfiorequest2
+ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, IWDFIoRequest2 interface, described, UMDFRequestObjectRef_0aa42362-60ac-4be7-8101-6395a709f420.xml, umdf.iwdfiorequest2, wdf.iwdfiorequest2, wudfddi/IWDFIoRequest2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFIoRequest2
 product: Windows
 targetos: Windows
@@ -54,6 +54,13 @@ req.product: Windows 10 or later.
 
 To obtain the <b>IWDFIoRequest2</b> interface, drivers call <b>IWDFIoRequest::QueryInterface</b>.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoRequest2</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>. <b>IWDFIoRequest2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -198,35 +205,5 @@ The <a href="https://msdn.microsoft.com/af4ae2c0-b1e1-45af-bd0e-3b9a91566caa">St
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/bc34d86b-fa0e-419e-9342-61df12a8e484">GetCreateParametersEx</a> method retrieves file creation parameters that are associated with a file that is being created or opened.
-
-The <a href="https://msdn.microsoft.com/76909efd-99ca-4e47-9c81-8a48608c2543">GetEffectiveIoType</a> method returns the buffer access method that UMDF is using for the data buffers of the I/O request that the <b>IWDFIoRequest2</b> interface represents.
-
-The <a href="https://msdn.microsoft.com/e189d2f6-ef1c-45ed-8b55-8aae0661a426">GetQueryInformationParameters</a> method retrieves parameters that are associated with a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WdfRequestQueryInformation</a>-typed I/O request.
-
-The <a href="https://msdn.microsoft.com/8f918bc4-d2d0-4d5b-93c8-89f02c81a701">GetRequestorMode</a> method indicates whether an I/O request came from a kernel-mode driver or a user-mode component (either an application or a user-mode driver).
-
-The <a href="https://msdn.microsoft.com/44872d92-4a71-4cc7-9f7c-c95477ac3264">GetSetInformationParameters</a> method retrieves parameters that are associated with a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WdfRequestSetInformation</a>-typed I/O request.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh406321">GetStatus</a> method returns the status of an I/O request.
-
-The <a href="https://msdn.microsoft.com/68523fcb-bb0d-492f-b6ae-3dab4f6aa637">IsCanceled</a> method determines whether the I/O manager has attempted to cancel an I/O request.
-
-The <a href="https://msdn.microsoft.com/17a1e4d8-5438-42b6-b4a5-335e7bd57b1b">IsFromUserModeDriver</a> method indicates whether an I/O request came from a user-mode driver or an application.
-
-The <a href="https://msdn.microsoft.com/1e33f284-6cb9-426f-a900-76b827341927">Requeue</a> method returns an I/O request to the head of the I/O queue from which it was delivered to the driver.
-
-The <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputbuffer.md">RequestRetrieveInputBuffer</a> method retrieves an I/O request's input buffer.
-
-The <a href="https://msdn.microsoft.com/32596330-6cd9-4f82-9140-7f9a26cf7932">RetrieveInputMemory</a> method retrieves the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface of a framework memory object that represents an I/O request's input buffer.
-
-The <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">RequestRetrieveOutputBuffer</a> method retrieves an I/O request's output buffer.
-
-The <a href="https://msdn.microsoft.com/d17e7435-adc3-4248-a6c9-c7e267504291">RetrieveOutputMemory</a> method retrieves the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface of a framework memory object that represents an I/O request's output buffer.
-
-The <a href="https://msdn.microsoft.com/21d04633-3b68-4c89-a0b9-81507a1bb6d3">Reuse</a> method reinitializes a framework request object so that it can be reused.
-
-The <a href="https://msdn.microsoft.com/af4ae2c0-b1e1-45af-bd0e-3b9a91566caa">StopAcknowledge</a> method informs the framework that the driver has stopped processing a specified I/O request.
-
- 
+</table> 
 

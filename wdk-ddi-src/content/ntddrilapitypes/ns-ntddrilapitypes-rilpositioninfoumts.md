@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c17760c4-6f75-41e8-84a5-f13e26735af5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilpositioninfoumts, RILPOSITIONINFOUMTS structure [Network Drivers Starting with Windows Vista], *LPRILPOSITIONINFOUMTS, rilapitypes/RILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS
+ms.keywords: "*LPRILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfoumts, rilapitypes/RILPOSITIONINFOUMTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILPOSITIONINFOUMTS
 product: Windows
 targetos: Windows
@@ -81,7 +81,7 @@ struct RILPOSITIONINFOUMTS {
 
 ### -field dwParams
 
-A bitwise combination of <a href="..\ntddrilapitypes\ne-ntddrilapitypes-rilpositioninfoumtsparammask.md">RILPOSITIONINFOUMTSPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
+A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilpositioninfoumtsparammask.md">RILPOSITIONINFOUMTSPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
 ### -field dwMobileCountryCode

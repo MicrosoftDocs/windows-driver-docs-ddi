@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B74F44E4-AD7A-46EE-81B0-E2BD2FB79A5B
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwdistartoperation, MiniportWdiStartAdapterOperation callback function [Network Drivers Starting with Windows Vista], MiniportWdiStartAdapterOperation, MINIPORT_WDI_START_ADAPTER_OPERATION, MINIPORT_WDI_START_ADAPTER_OPERATION, dot11wdi/MiniportWdiStartAdapterOperation, (*MINIPORT_WDI_START_OPERATION_HANDLER) callback function [Network Drivers Starting with Windows Vista], (*MINIPORT_WDI_START_OPERATION_HANDLER)
+ms.keywords: "(*MINIPORT_WDI_START_OPERATION_HANDLER), (*MINIPORT_WDI_START_OPERATION_HANDLER) callback function [Network Drivers Starting with Windows Vista], MINIPORT_WDI_START_ADAPTER_OPERATION, MiniportWdiStartAdapterOperation, MiniportWdiStartAdapterOperation callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiStartAdapterOperation, netvista.miniportwdistartoperation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	dot11wdi.h
-apiname:
+api_name:
 -	(*MINIPORT_WDI_START_OPERATION_HANDLER)
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_START_ADAPTER_OPERATION callback
@@ -126,10 +126,6 @@ An appropriate NDIS_STATUS code in the case of a failure.
 
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

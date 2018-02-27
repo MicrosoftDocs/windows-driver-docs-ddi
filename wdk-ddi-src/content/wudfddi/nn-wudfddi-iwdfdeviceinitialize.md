@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a776069c-0cbb-4ae9-bf6b-1d300dbcec34
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfdeviceinitialize, IWDFDeviceInitialize interface, IWDFDeviceInitialize interface, described, IWDFDeviceInitialize, wudfddi/IWDFDeviceInitialize, UMDFDeviceObjectRef_b63038ef-0e6e-4417-96de-0c3f5ec1866e.xml, umdf.iwdfdeviceinitialize
+ms.keywords: IWDFDeviceInitialize, IWDFDeviceInitialize interface, IWDFDeviceInitialize interface, described, UMDFDeviceObjectRef_b63038ef-0e6e-4417-96de-0c3f5ec1866e.xml, umdf.iwdfdeviceinitialize, wdf.iwdfdeviceinitialize, wudfddi/IWDFDeviceInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFDeviceInitialize
 product: Windows
 targetos: Windows
@@ -54,6 +54,13 @@ req.product: Windows 10 or later.
 
 The <b>IWDFDeviceInitialize</b> interface is a helper interface that the framework supplies as an input parameter to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554896">IDriverEntry::OnDeviceAdd</a> method.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFDeviceInitialize</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWDFDeviceInitialize</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -135,23 +142,7 @@ The <a href="https://msdn.microsoft.com/18b0b277-97c8-4aff-9f09-34822ce84290">Se
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/b9c8e54e-7cd5-48a9-b948-5327900c8a99">AutoForwardCreateCleanupClose</a> method controls when create, cleanup, and close notifications are forwarded to the next lower driver in the device stack.
-
-The <a href="https://msdn.microsoft.com/64f15528-e934-4bdd-a9f7-6790eef7c7c5">GetPnpCapability</a> method determines the state of the specified  Plug and Play (PnP) capability.
-
-The <a href="https://msdn.microsoft.com/224277b4-447f-4981-aabf-90a10322c0df">RetrieveDeviceInstanceId</a> method retrieves the identifier of an instance of a device.
-
-The <a href="https://msdn.microsoft.com/be47a1f0-03ff-432c-a3ef-5978c9b48183">RetrieveDevicePropertyStore</a> method retrieves a device property store that clients can read and write device properties through.
-
-The <a href="https://msdn.microsoft.com/a5f61a83-43db-4ad7-9b18-0cdf574ea546">SetFilter</a> method sets the property that enables a device as a filter device.
-
-The <a href="https://msdn.microsoft.com/c0062ad4-6666-49db-9d53-70f2ed2353d1">SetLockingConstraint</a> method sets the synchronization (or locking) model for callback functions into the driver.
-
-The <a href="https://msdn.microsoft.com/82892740-12f6-469b-a65c-6905d32c0b0d">SetPnpCapability</a> method sets the specified Plug and Play (PnP) capability of a device to the specified state.
-
-The <a href="https://msdn.microsoft.com/18b0b277-97c8-4aff-9f09-34822ce84290">SetPowerPolicyOwnership</a> method sets the ownership of the power policy to a driver or removes ownership from the driver.
-
- 
+</table> 
 
 
 ## -remarks

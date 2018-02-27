@@ -7,8 +7,8 @@ old-location: display\d3d12ddi-protected-resource-session-support-flags-0030.htm
 old-project: display
 ms.assetid: f313ee29-9ff4-415b-9a0e-900bf751bb88
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS_0030 enumeration [Display Devices], d3d12umddi/D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAG_0030_SUPPORTED, D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAG_0030_SUPPORTED, display.d3d12ddi-protected-resource-session-support-flags-0030, d3d12umddi/D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAG_0030_NONE, d3d12umddi/D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS_0030, D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAG_0030_NONE, D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS_0030
+ms.date: 2/24/2018
+ms.keywords: D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS_0030, D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS_0030 enumeration [Display Devices], D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAG_0030_NONE, D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAG_0030_SUPPORTED, d3d12umddi/D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS_0030, d3d12umddi/D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAG_0030_NONE, d3d12umddi/D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAG_0030_SUPPORTED, display.d3d12ddi-protected-resource-session-support-flags-0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS_0030
 product: Windows
 targetos: Windows

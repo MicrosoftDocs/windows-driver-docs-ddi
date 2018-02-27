@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1b21b4b4-a35d-47c4-9cd6-e31e2dfbe59f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wwan_pin_operation, PWWAN_PIN_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_OPERATION enumeration [Network Drivers Starting with Windows Vista], WwanPinOperationDisable, wwan/WwanPinOperationMax, PWWAN_PIN_OPERATION, wwan/WwanPinOperationEnable, WWAN_PIN_OPERATION, wwan/PWWAN_PIN_OPERATION, wwan/WwanPinOperationDisable, WwanPinOperationChange, wwan/WwanPinOperationChange, wwan/WwanPinOperationEnter, WwanRef_06404d11-22d3-4b07-9c6f-60771ecfc154.xml, WwanPinOperationEnter, WwanPinOperationEnable, _WWAN_PIN_OPERATION, *PWWAN_PIN_OPERATION, WwanPinOperationMax, wwan/WWAN_PIN_OPERATION
+ms.keywords: "*PWWAN_PIN_OPERATION, PWWAN_PIN_OPERATION, PWWAN_PIN_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_OPERATION, WWAN_PIN_OPERATION enumeration [Network Drivers Starting with Windows Vista], WwanPinOperationChange, WwanPinOperationDisable, WwanPinOperationEnable, WwanPinOperationEnter, WwanPinOperationMax, WwanRef_06404d11-22d3-4b07-9c6f-60771ecfc154.xml, _WWAN_PIN_OPERATION, netvista.wwan_pin_operation, wwan/PWWAN_PIN_OPERATION, wwan/WWAN_PIN_OPERATION, wwan/WwanPinOperationChange, wwan/WwanPinOperationDisable, wwan/WwanPinOperationEnable, wwan/WwanPinOperationEnter, wwan/WwanPinOperationMax"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_PIN_OPERATION
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_PIN_OPERATION, WWAN_PIN_OPERATION"
+req.typenames: WWAN_PIN_OPERATION, *PWWAN_PIN_OPERATION
 req.product: Windows 10 or later.
 ---
 

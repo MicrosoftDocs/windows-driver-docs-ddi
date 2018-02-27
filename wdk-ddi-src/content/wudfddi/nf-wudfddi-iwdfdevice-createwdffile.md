@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b356e3ac-451d-4a10-94e2-d03fcf76cb29
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFDevice, IWDFDevice interface, CreateWdfFile method, CreateWdfFile method, wdf.iwdfdevice_createwdffile, IWDFDevice::CreateWdfFile, umdf.iwdfdevice_createwdffile, CreateWdfFile method, IWDFDevice interface, CreateWdfFile, wudfddi/IWDFDevice::CreateWdfFile, UMDFDeviceObjectRef_d5f035e1-d7ea-474e-9dc4-bc6b64baea2c.xml
+ms.keywords: CreateWdfFile method, CreateWdfFile method, IWDFDevice interface, CreateWdfFile,IWDFDevice.CreateWdfFile, IWDFDevice, IWDFDevice interface, CreateWdfFile method, IWDFDevice::CreateWdfFile, UMDFDeviceObjectRef_d5f035e1-d7ea-474e-9dc4-bc6b64baea2c.xml, umdf.iwdfdevice_createwdffile, wdf.iwdfdevice_createwdffile, wudfddi/IWDFDevice::CreateWdfFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFDevice.CreateWdfFile
 product: Windows
 targetos: Windows

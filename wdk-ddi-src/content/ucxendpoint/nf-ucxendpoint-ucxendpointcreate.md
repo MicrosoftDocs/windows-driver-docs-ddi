@@ -4,11 +4,11 @@ title: UcxEndpointCreate function
 author: windows-driver-content
 description: Creates an endpoint on the specified USB device object.
 old-location: buses\_ucxendpointcreate.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 2BB3B2CE-FD15-4D28-BBDA-29C3BB523874
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: UcxEndpointCreate, ucxendpoint/UcxEndpointCreate, buses._ucxendpointcreate, UcxEndpointCreate method [Buses]
+ms.date: 2/24/2018
+ms.keywords: UcxEndpointCreate, UcxEndpointCreate method [Buses], buses._ucxendpointcreate, ucxendpoint/UcxEndpointCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	ucxendpoint.h
-apiname:
+api_name:
 -	UcxEndpointCreate
 product: Windows
 targetos: Windows

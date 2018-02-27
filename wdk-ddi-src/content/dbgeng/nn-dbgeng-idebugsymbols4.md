@@ -4,11 +4,11 @@ title: IDebugSymbols4
 author: windows-driver-content
 description: This interface supports determination of the symbol of an inline frame.
 old-location: debugger\idebugsymbols4.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: BE2734B5-1E67-4E38-B4DF-0C353BFB1F0B
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.idebugsymbols4, IDebugSymbols4 interface [Windows Debugging], IDebugSymbols4 interface [Windows Debugging], described, IDebugSymbols4, dbgeng/IDebugSymbols4
+ms.date: 2/23/2018
+ms.keywords: IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], IDebugSymbols4 interface [Windows Debugging], described, dbgeng/IDebugSymbols4, debugger.idebugsymbols4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Dbgeng.h
-apiname:
+api_name:
 -	IDebugSymbols4
 product: Windows
 targetos: Windows
@@ -51,6 +51,13 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 This interface supports determination of the symbol of an inline frame.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbols4</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugSymbols4</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -123,19 +130,5 @@ Sets the scope as an extended frame structure.
 
 </td>
 </tr>
-</table>Gets a line by inline context.
-
-Gets a line by inline context.
-
-Gets a name by inline context.
-
-Gets a name by inline context.
-
-Gets the scope as an extended frame structure. 
-
-Specifies an output symbol by using an inline context.
-
-Sets the scope as an extended frame structure. 
-
- 
+</table> 
 

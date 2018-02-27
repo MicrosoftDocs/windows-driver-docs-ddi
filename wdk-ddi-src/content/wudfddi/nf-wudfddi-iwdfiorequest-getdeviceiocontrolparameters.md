@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 96de6f7a-da1d-44a6-b1f7-44859312a662
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi/IWDFIoRequest::GetDeviceIoControlParameters, GetDeviceIoControlParameters method, IWDFIoRequest interface, IWDFIoRequest, umdf.iwdfiorequest_getdeviceiocontrolparameters, UMDFRequestObjectRef_8a0fa5cd-af16-4599-8282-4ca0a81591ac.xml, IWDFIoRequest::GetDeviceIoControlParameters, GetDeviceIoControlParameters, wdf.iwdfiorequest_getdeviceiocontrolparameters, IWDFIoRequest interface, GetDeviceIoControlParameters method, GetDeviceIoControlParameters method
+ms.keywords: GetDeviceIoControlParameters method, GetDeviceIoControlParameters method, IWDFIoRequest interface, GetDeviceIoControlParameters,IWDFIoRequest.GetDeviceIoControlParameters, IWDFIoRequest, IWDFIoRequest interface, GetDeviceIoControlParameters method, IWDFIoRequest::GetDeviceIoControlParameters, UMDFRequestObjectRef_8a0fa5cd-af16-4599-8282-4ca0a81591ac.xml, umdf.iwdfiorequest_getdeviceiocontrolparameters, wdf.iwdfiorequest_getdeviceiocontrolparameters, wudfddi/IWDFIoRequest::GetDeviceIoControlParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFIoRequest.GetDeviceIoControlParameters
 product: Windows
 targetos: Windows
@@ -119,11 +119,11 @@ Although the driver can optionally specify <b>NULL</b> for each of the <i>pContr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
 
 
 

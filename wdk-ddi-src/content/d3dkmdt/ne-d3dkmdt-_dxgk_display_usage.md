@@ -7,8 +7,8 @@ old-location: display\dxgk_display_usage.htm
 old-project: display
 ms.assetid: 07B51679-4E9B-4360-AA4A-D5BD9BADB4FC
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: DXGK_DU_AR, _DXGK_DISPLAY_USAGE, *PDXGK_DISPLAY_USAGE, display.dxgk_display_usage, DXGK_DU_VR, DXGK_DISPLAY_USAGE enumeration [Display Devices], DXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DU_GENERIC, PDXGK_DISPLAY_USAGE, DXGK_DU_GENERIC, d3dkmdt/DXGK_DU_VR, d3dkmdt/DXGK_DU_AR, DXGK_DU_INVALID, d3dkmdt/PDXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DU_INVALID, PDXGK_DISPLAY_USAGE enumeration pointer [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PDXGK_DISPLAY_USAGE, DXGK_DISPLAY_USAGE, DXGK_DISPLAY_USAGE enumeration [Display Devices], DXGK_DU_AR, DXGK_DU_GENERIC, DXGK_DU_INVALID, DXGK_DU_VR, PDXGK_DISPLAY_USAGE, PDXGK_DISPLAY_USAGE enumeration pointer [Display Devices], _DXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DU_AR, d3dkmdt/DXGK_DU_GENERIC, d3dkmdt/DXGK_DU_INVALID, d3dkmdt/DXGK_DU_VR, d3dkmdt/PDXGK_DISPLAY_USAGE, display.dxgk_display_usage"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmdt.h
-apiname:
+api_name:
 -	DXGK_DISPLAY_USAGE
 product: Windows
 targetos: Windows
-req.typenames: "*PDXGK_DISPLAY_USAGE, DXGK_DISPLAY_USAGE"
+req.typenames: DXGK_DISPLAY_USAGE, *PDXGK_DISPLAY_USAGE
 ---
 
 # _DXGK_DISPLAY_USAGE enumeration

@@ -7,8 +7,8 @@ old-location: audio\ioctl_bthhfp_mic_get_volume_status_update.htm
 old-project: audio
 ms.assetid: 8BF4AEA4-B8EC-4C09-AEC8-5E47A0D715FB
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.ioctl_bthhfp_mic_get_volume_status_update, IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE control code [Audio Devices], IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE, bthhfpddi/IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE
+ms.date: 2/22/2018
+ms.keywords: IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE, IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE control code [Audio Devices], audio.ioctl_bthhfp_mic_get_volume_status_update, bthhfpddi/IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Bthhfpddi.h
-apiname:
+api_name:
 -	IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -120,15 +120,11 @@ The request’s output parameter is the same as the <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537208">KSNODETYPE_VOLUME</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537128">KSEVENT_CONTROL_CHANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537309">KSPROPERTY_AUDIO_VOLUMELEVEL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537208">KSNODETYPE_VOLUME</a>
 
 
 
@@ -136,9 +132,13 @@ The request’s output parameter is the same as the <a href="https://msdn.micros
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537309">KSPROPERTY_AUDIO_VOLUMELEVEL</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE control code%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE control code%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

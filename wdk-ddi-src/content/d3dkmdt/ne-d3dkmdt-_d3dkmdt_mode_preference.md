@@ -7,8 +7,8 @@ old-location: display\d3dkmdt_mode_preference.htm
 old-project: display
 ms.assetid: 5d18431d-ca35-4757-8bbe-9397abd31568
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DKMDT_MODE_PREFERENCE enumeration [Display Devices], DmEnums_b5bdbc2e-4abe-4db7-8700-e34fc0125472.xml, display.d3dkmdt_mode_preference, d3dkmdt/D3DKMDT_MODE_PREFERENCE, D3DKMDT_MODE_PREFERENCE, D3DKMDT_MP_PREFERRED, D3DKMDT_MP_NOTPREFERRED, d3dkmdt/D3DKMDT_MP_PREFERRED, d3dkmdt/D3DKMDT_MP_UNINITIALIZED, D3DKMDT_MP_UNINITIALIZED, _D3DKMDT_MODE_PREFERENCE, d3dkmdt/D3DKMDT_MP_NOTPREFERRED
+ms.date: 2/24/2018
+ms.keywords: D3DKMDT_MODE_PREFERENCE, D3DKMDT_MODE_PREFERENCE enumeration [Display Devices], D3DKMDT_MP_NOTPREFERRED, D3DKMDT_MP_PREFERRED, D3DKMDT_MP_UNINITIALIZED, DmEnums_b5bdbc2e-4abe-4db7-8700-e34fc0125472.xml, _D3DKMDT_MODE_PREFERENCE, d3dkmdt/D3DKMDT_MODE_PREFERENCE, d3dkmdt/D3DKMDT_MP_NOTPREFERRED, d3dkmdt/D3DKMDT_MP_PREFERRED, d3dkmdt/D3DKMDT_MP_UNINITIALIZED, display.d3dkmdt_mode_preference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmdt.h
-apiname:
+api_name:
 -	D3DKMDT_MODE_PREFERENCE
 product: Windows
 targetos: Windows
@@ -103,5 +103,5 @@ The <b>Info</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_so
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_MODE_PREFERENCE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_MODE_PREFERENCE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

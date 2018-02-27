@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: DC6353BB-98C0-4647-9180-F099CD95348E
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi_types/WdfEventBroadcast, WdfEventReserved, WdfEventMaximum, _WDF_EVENT_TYPE, wdfdevice/WdfEventMaximum, wdfdevice/WdfEventBroadcast, wudfddi_types/WdfEventMaximum, WDF_EVENT_TYPE, wudfddi_types/WdfEventReserved, wdfdevice/WdfEventReserved, wdf.wdf_event_type, WdfEventBroadcast, wdfdevice/WDF_EVENT_TYPE, wudfddi_types/WDF_EVENT_TYPE, WDF_EVENT_TYPE enumeration
+ms.keywords: WDF_EVENT_TYPE, WDF_EVENT_TYPE enumeration, WdfEventBroadcast, WdfEventMaximum, WdfEventReserved, _WDF_EVENT_TYPE, wdf.wdf_event_type, wdfdevice/WDF_EVENT_TYPE, wdfdevice/WdfEventBroadcast, wdfdevice/WdfEventMaximum, wdfdevice/WdfEventReserved, wudfddi_types/WDF_EVENT_TYPE, wudfddi_types/WdfEventBroadcast, wudfddi_types/WdfEventMaximum, wudfddi_types/WdfEventReserved
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfdevice.h
 -	wudfddi_types.h
-apiname:
+api_name:
 -	WDF_EVENT_TYPE
 product: Windows
 targetos: Windows

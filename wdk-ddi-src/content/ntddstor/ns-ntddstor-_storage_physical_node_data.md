@@ -7,8 +7,8 @@ old-location: storage\storage_physical_node_data.htm
 old-project: storage
 ms.assetid: F6C1EE86-FB1C-467D-9E03-B238CB132D1A
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*PSTORAGE_PHYSICAL_NODE_DATA, _STORAGE_PHYSICAL_NODE_DATA, storage.storage_physical_node_data, ntddstor/PSTORAGE_PHYSICAL_NODE_DATA, STORAGE_PHYSICAL_NODE_DATA, PSTORAGE_PHYSICAL_NODE_DATA, STORAGE_PHYSICAL_NODE_DATA structure [Storage Devices], ntddstor/STORAGE_PHYSICAL_NODE_DATA, PSTORAGE_PHYSICAL_NODE_DATA structure pointer [Storage Devices]"
+ms.date: 2/24/2018
+ms.keywords: "*PSTORAGE_PHYSICAL_NODE_DATA, PSTORAGE_PHYSICAL_NODE_DATA, PSTORAGE_PHYSICAL_NODE_DATA structure pointer [Storage Devices], STORAGE_PHYSICAL_NODE_DATA, STORAGE_PHYSICAL_NODE_DATA structure [Storage Devices], _STORAGE_PHYSICAL_NODE_DATA, ntddstor/PSTORAGE_PHYSICAL_NODE_DATA, ntddstor/STORAGE_PHYSICAL_NODE_DATA, storage.storage_physical_node_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddstor.h
-apiname:
+api_name:
 -	STORAGE_PHYSICAL_NODE_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_PHYSICAL_NODE_DATA, STORAGE_PHYSICAL_NODE_DATA"
+req.typenames: STORAGE_PHYSICAL_NODE_DATA, *PSTORAGE_PHYSICAL_NODE_DATA
 ---
 
 # _STORAGE_PHYSICAL_NODE_DATA structure

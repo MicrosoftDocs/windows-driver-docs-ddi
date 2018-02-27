@@ -7,8 +7,8 @@ old-location: dtf\iwdtfdriversetupaction2.htm
 old-project: dtf
 ms.assetid: 474590f9-f737-4b9a-9a63-8cce8a35c538
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfdriversetupaction2, IWDTFDriverSetupAction2 interface [Windows Device Testing Framework], IWDTFDriverSetupAction2 interface [Windows Device Testing Framework], described, IWDTFDriverSetupAction2, wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2, Microsoft.WDTF.IWDTFDriverSetupAction2
+ms.date: 2/23/2018
+ms.keywords: IWDTFDriverSetupAction2, IWDTFDriverSetupAction2 interface [Windows Device Testing Framework], IWDTFDriverSetupAction2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFDriverSetupAction2, dtf.iwdtfdriversetupaction2, wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtfdriversetupdeviceaction.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WDTFDriverSetupDeviceAction.Interop.dll
-apiname:
+api_name:
 -	IWDTFDriverSetupAction2
 product: Windows
 targetos: Windows
@@ -52,6 +52,13 @@ req.product: Windows 10 or later.
 
 Defines operations that control the target device during driver setup.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFDriverSetupAction2</b> interface inherits from <b>IWDTFAction2</b>. <b>IWDTFDriverSetupAction2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -79,9 +86,5 @@ Updates the target device with a driver from the driver package.
 
 </td>
 </tr>
-</table>Uninstalls the current driver for the target device.
-
-Updates the target device with a driver from the driver package.
-
- 
+</table> 
 

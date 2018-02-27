@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57B52C5B-D151-4112-8173-23D18C636E98
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportwdipostadapterpause, MiniportWdiPostAdapterPause callback function [Network Drivers Starting with Windows Vista], MiniportWdiPostAdapterPause, MINIPORT_WDI_POST_ADAPTER_PAUSE, MINIPORT_WDI_POST_ADAPTER_PAUSE, dot11wdi/MiniportWdiPostAdapterPause
+ms.keywords: MINIPORT_WDI_POST_ADAPTER_PAUSE, MiniportWdiPostAdapterPause, MiniportWdiPostAdapterPause callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiPostAdapterPause, netvista.miniportwdipostadapterpause
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	dot11wdi.h
-apiname:
+api_name:
 -	MiniportWdiPostAdapterPause
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_POST_ADAPTER_PAUSE callback
@@ -97,7 +97,7 @@ The return value is only used for logging/informational purposes.
 
 ## -see-also
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_pause_parameters.md">NDIS_MINIPORT_PAUSE_PARAMETERS</a>
 
 
 
@@ -105,7 +105,7 @@ The return value is only used for logging/informational purposes.
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_pause_parameters.md">NDIS_MINIPORT_PAUSE_PARAMETERS</a>
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
 
 
 

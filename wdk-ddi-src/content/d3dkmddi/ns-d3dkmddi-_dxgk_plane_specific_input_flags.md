@@ -7,8 +7,8 @@ old-location: display\dxgk_plane_specific_input_flags.htm
 old-project: display
 ms.assetid: 39BE1343-D965-4750-9B94-B54127D873A5
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure [Display Devices], d3dkmddi/DXGK_PLANE_SPECIFIC_INPUT_FLAGS, display.dxgk_plane_specific_input_flags, DXGK_PLANE_SPECIFIC_INPUT_FLAGS, _DXGK_PLANE_SPECIFIC_INPUT_FLAGS
+ms.date: 2/24/2018
+ms.keywords: DXGK_PLANE_SPECIFIC_INPUT_FLAGS, DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure [Display Devices], _DXGK_PLANE_SPECIFIC_INPUT_FLAGS, d3dkmddi/DXGK_PLANE_SPECIFIC_INPUT_FLAGS, display.dxgk_plane_specific_input_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	DXGK_PLANE_SPECIFIC_INPUT_FLAGS
 product: Windows
 targetos: Windows

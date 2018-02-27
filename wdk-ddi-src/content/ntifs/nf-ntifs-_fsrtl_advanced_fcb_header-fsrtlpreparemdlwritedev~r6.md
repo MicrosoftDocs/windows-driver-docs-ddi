@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f425487d-c4cd-4fd0-93d3-d5ce15277c6d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fsrtlref_0d4bcdd2-9d31-41f1-aba3-ee9341d82b92.xml, ntifs/FsRtlPrepareMdlWriteDev, FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], ifsk.fsrtlpreparemdlwritedev, FsRtlPrepareMdlWriteDev
+ms.keywords: FsRtlPrepareMdlWriteDev, FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], fsrtlref_0d4bcdd2-9d31-41f1-aba3-ee9341d82b92.xml, ifsk.fsrtlpreparemdlwritedev, ntifs/FsRtlPrepareMdlWriteDev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	FsRtlPrepareMdlWriteDev
 product: Windows
 targetos: Windows
@@ -130,11 +130,11 @@ The pages that the MDLs point to are locked in memory, but are not mapped in sys
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlwritecompletedev~r3.md">FsRtlMdlWriteCompleteDev</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopywrite~r7.md">FsRtlCopyWrite</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
 
 

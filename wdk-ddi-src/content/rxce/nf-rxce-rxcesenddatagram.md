@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9cb714d5-92f6-481d-bc5e-5fa05b6a0938
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rxref_dc97dbe7-c676-4b1f-8aee-7dbc7cfbc5e3.xml, ifsk.rxcesenddatagram, rxce/RxCeSendDatagram, RxCeSendDatagram, RxCeSendDatagram function [Installable File System Drivers]
+ms.keywords: RxCeSendDatagram, RxCeSendDatagram function [Installable File System Drivers], ifsk.rxcesenddatagram, rxce/RxCeSendDatagram, rxref_dc97dbe7-c676-4b1f-8aee-7dbc7cfbc5e3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rxce.h
-apiname:
+api_name:
 -	RxCeSendDatagram
 product: Windows
 targetos: Windows

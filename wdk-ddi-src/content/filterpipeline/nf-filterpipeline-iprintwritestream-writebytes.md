@@ -7,8 +7,8 @@ old-location: print\iprintwritestream_writebytes.htm
 old-project: print
 ms.assetid: d47c836e-a291-4cc2-9688-82526f8bfb8b
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: WriteBytes, IPrintWriteStream, print.iprintwritestream_writebytes, IPrintWriteStream interface [Print Devices], WriteBytes method, WriteBytes method [Print Devices], filterpipeline/IPrintWriteStream::WriteBytes, IPrintWriteStream::WriteBytes, WriteBytes method [Print Devices], IPrintWriteStream interface, filterpipeline_168a03b1-8fdc-4a98-9a5f-5c706fcd401b.xml
+ms.date: 2/23/2018
+ms.keywords: IPrintWriteStream, IPrintWriteStream interface [Print Devices], WriteBytes method, IPrintWriteStream::WriteBytes, WriteBytes method [Print Devices], WriteBytes method [Print Devices], IPrintWriteStream interface, WriteBytes,IPrintWriteStream.WriteBytes, filterpipeline/IPrintWriteStream::WriteBytes, filterpipeline_168a03b1-8fdc-4a98-9a5f-5c706fcd401b.xml, print.iprintwritestream_writebytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	filterpipeline.h
-apiname:
+api_name:
 -	IPrintWriteStream.WriteBytes
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 3D370646-3879-4415-8D80-04D0B23839B0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PSPB_TRANSFER_DESCRIPTOR, spbcx/PSPB_TRANSFER_DESCRIPTOR, SPB_TRANSFER_DESCRIPTOR, SPB_TRANSFER_DESCRIPTOR structure [Buses], SPB.spb_transfer_descriptor, PSPB_TRANSFER_DESCRIPTOR structure pointer [Buses], spbcx/SPB_TRANSFER_DESCRIPTOR, *PSPB_TRANSFER_DESCRIPTOR
+ms.keywords: "*PSPB_TRANSFER_DESCRIPTOR, PSPB_TRANSFER_DESCRIPTOR, PSPB_TRANSFER_DESCRIPTOR structure pointer [Buses], SPB.spb_transfer_descriptor, SPB_TRANSFER_DESCRIPTOR, SPB_TRANSFER_DESCRIPTOR structure [Buses], spbcx/PSPB_TRANSFER_DESCRIPTOR, spbcx/SPB_TRANSFER_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any IRQL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Spbcx.h
-apiname:
+api_name:
 -	SPB_TRANSFER_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_TRANSFER_DESCRIPTOR, SPB_TRANSFER_DESCRIPTOR"
+req.typenames: SPB_TRANSFER_DESCRIPTOR, *PSPB_TRANSFER_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -112,7 +112,7 @@ The <b>DelayInUs</b> member specifies a delay before the start of the transfer. 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406219">SPB_TRANSFER_DESCRIPTOR_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450924">SpbRequestGetTransferParameters</a>
 
 
 

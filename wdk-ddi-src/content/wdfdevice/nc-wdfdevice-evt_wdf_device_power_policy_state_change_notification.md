@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91432773-3255-4feb-a6f4-c24da4486703
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdevicepowerpolicystatechange, EvtDevicePowerPolicyStateChange callback function, EvtDevicePowerPolicyStateChange, EVT_WDF_DEVICE_POWER_POLICY_STATE_CHANGE_NOTIFICATION, EVT_WDF_DEVICE_POWER_POLICY_STATE_CHANGE_NOTIFICATION, wdfdevice/EvtDevicePowerPolicyStateChange, DFDeviceObjectGeneralRef_e672bc5b-0c7a-4df4-8c21-d3f6aafa6fb8.xml, kmdf.evtdevicepowerpolicystatechange
+ms.keywords: DFDeviceObjectGeneralRef_e672bc5b-0c7a-4df4-8c21-d3f6aafa6fb8.xml, EVT_WDF_DEVICE_POWER_POLICY_STATE_CHANGE_NOTIFICATION, EvtDevicePowerPolicyStateChange, EvtDevicePowerPolicyStateChange callback function, kmdf.evtdevicepowerpolicystatechange, wdf.evtdevicepowerpolicystatechange, wdfdevice/EvtDevicePowerPolicyStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Wdfdevice.h
-apiname:
+api_name:
 -	EvtDevicePowerPolicyStateChange
 product: Windows
 targetos: Windows

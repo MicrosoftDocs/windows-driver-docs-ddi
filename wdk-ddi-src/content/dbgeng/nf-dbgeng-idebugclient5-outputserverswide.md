@@ -4,11 +4,11 @@ title: IDebugClient5::OutputServersWide method
 author: windows-driver-content
 description: The OutputServersWide method lists the servers running on a given computer.
 old-location: debugger\outputserverswide.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: ce4b52af-17c6-41ed-95cb-09418137f049
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], OutputServersWide method, IDebugClient5, IDebugClient5::OutputServersWide, OutputServersWide method [Windows Debugging], IDebugClient5 interface, OutputServersWide method [Windows Debugging], dbgeng/IDebugClient5::OutputServersWide, debugger.outputserverswide, OutputServersWide
+ms.date: 2/23/2018
+ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], OutputServersWide method, IDebugClient5::OutputServersWide, OutputServersWide method [Windows Debugging], OutputServersWide method [Windows Debugging], IDebugClient5 interface, OutputServersWide,IDebugClient5.OutputServersWide, dbgeng/IDebugClient5::OutputServersWide, debugger.outputserverswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugClient5.OutputServersWide
 product: Windows
 targetos: Windows
@@ -153,15 +153,7 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558813">StartServer</a>
-
-
-
-<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
 
 
 
@@ -169,7 +161,15 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558813">StartServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
 
 
@@ -177,5 +177,5 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient5::OutputServersWide method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient5::OutputServersWide method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

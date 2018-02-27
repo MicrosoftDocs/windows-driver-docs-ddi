@@ -7,8 +7,8 @@ old-location: print\enumprintprocessordatatypes.htm
 old-project: print
 ms.assetid: 018880d0-0b0b-4130-bd8f-93814e40fe1e
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: EnumPrintProcessorDatatypes, EnumPrintProcessorDatatypes function [Print Devices], EnumPrintProcessorDatatypesA, spoolfnc_f0686e8e-e1bc-448a-8dd1-eeccfb66dd9e.xml, print.enumprintprocessordatatypes, winspool/EnumPrintProcessorDatatypes
+ms.date: 2/23/2018
+ms.keywords: EnumPrintProcessorDatatypes, EnumPrintProcessorDatatypes function [Print Devices], EnumPrintProcessorDatatypesA, print.enumprintprocessordatatypes, spoolfnc_f0686e8e-e1bc-448a-8dd1-eeccfb66dd9e.xml, winspool/EnumPrintProcessorDatatypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winspool.h
-apiname:
+api_name:
 -	EnumPrintProcessorDatatypes
 product: Windows
 targetos: Windows

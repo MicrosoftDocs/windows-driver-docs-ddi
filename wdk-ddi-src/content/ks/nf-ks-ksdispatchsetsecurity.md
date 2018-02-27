@@ -7,8 +7,8 @@ old-location: stream\ksdispatchsetsecurity.htm
 old-project: stream
 ms.assetid: c1af342a-438d-4c83-be2d-a4c4c9f204b5
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KsDispatchSetSecurity function [Streaming Media Devices], ksfunc_b643b100-dc1c-4df4-b1e4-32ac7ae59b2a.xml, ks/KsDispatchSetSecurity, stream.ksdispatchsetsecurity, KsDispatchSetSecurity
+ms.date: 2/23/2018
+ms.keywords: KsDispatchSetSecurity, KsDispatchSetSecurity function [Streaming Media Devices], ks/KsDispatchSetSecurity, ksfunc_b643b100-dc1c-4df4-b1e4-32ac7ae59b2a.xml, stream.ksdispatchsetsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsDispatchSetSecurity
 product: Windows
 targetos: Windows

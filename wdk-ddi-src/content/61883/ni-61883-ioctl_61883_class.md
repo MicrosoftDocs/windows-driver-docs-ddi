@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: c73472ee-aa27-4256-aa58-9331312ad513
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEEE.ioctl_61883_class, IOCTL_61883_CLASS control code [Buses], IOCTL_61883_CLASS, 61883/IOCTL_61883_CLASS, 61883_requests_a47ccc46-e231-4e3e-8a71-97e4a79143e4.xml
+ms.keywords: 61883/IOCTL_61883_CLASS, 61883_requests_a47ccc46-e231-4e3e-8a71-97e4a79143e4.xml, IEEE.ioctl_61883_class, IOCTL_61883_CLASS, IOCTL_61883_CLASS control code [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	61883.h
-apiname:
+api_name:
 -	IOCTL_61883_CLASS
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: CMP_PLUG_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

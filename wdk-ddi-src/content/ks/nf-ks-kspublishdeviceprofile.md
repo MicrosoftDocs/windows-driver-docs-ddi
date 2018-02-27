@@ -7,8 +7,8 @@ old-location: stream\kspublishdeviceprofile.htm
 old-project: stream
 ms.assetid: 944A593D-D623-400C-80F9-6DCD973681C9
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.kspublishdeviceprofile, ks/KsPublishDeviceProfile, KsPublishDeviceProfile, KsPublishDeviceProfile function [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: KsPublishDeviceProfile, KsPublishDeviceProfile function [Streaming Media Devices], ks/KsPublishDeviceProfile, stream.kspublishdeviceprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ks.lib
 -	ks.dll
-apiname:
+api_name:
 -	KsPublishDeviceProfile
 product: Windows
 targetos: Windows

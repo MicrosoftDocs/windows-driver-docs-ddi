@@ -7,8 +7,8 @@ old-location: audio\ipinname.htm
 old-project: audio
 ms.assetid: 3ed209f5-d4ea-44e5-a16c-59fa39053465
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.ipinname, IPinName interface [Audio Devices], IPinName interface [Audio Devices], described, IPinName, portcls/IPinName, audmp-routines_27ed00c6-3e56-400f-9bed-2c2c84091e74.xml
+ms.date: 2/22/2018
+ms.keywords: IPinName, IPinName interface [Audio Devices], IPinName interface [Audio Devices], described, audio.ipinname, audmp-routines_27ed00c6-3e56-400f-9bed-2c2c84091e74.xml, portcls/IPinName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IPinName
 product: Windows
 targetos: Windows

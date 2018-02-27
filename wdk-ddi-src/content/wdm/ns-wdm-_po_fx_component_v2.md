@@ -7,8 +7,8 @@ old-location: kernel\po_fx_component.htm
 old-project: kernel
 ms.assetid: 4ACCA041-C638-4124-AFC1-3F34671C9EF8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PPO_FX_COMPONENT_V2, PO_FX_COMPONENT structure [Kernel-Mode Driver Architecture], PO_FX_COMPONENT, PO_FX_COMPONENT_V1, _PO_FX_COMPONENT_V2, *PPO_FX_COMPONENT, PO_FX_COMPONENT_V2 structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_V2 structure pointer [Kernel-Mode Driver Architecture], wdm/PO_FX_COMPONENT_V2, PO_FX_COMPONENT_V2, kernel.po_fx_component, wdm/PPO_FX_COMPONENT_V2, *PPO_FX_COMPONENT_V2, *PPO_FX_COMPONENT_V1, _PO_FX_COMPONENT_V1, wdm/PO_FX_COMPONENT
+ms.date: 2/24/2018
+ms.keywords: "*PPO_FX_COMPONENT, *PPO_FX_COMPONENT_V2, PO_FX_COMPONENT, PO_FX_COMPONENT structure [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_V2, PO_FX_COMPONENT_V2 structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_V2, PPO_FX_COMPONENT_V2 structure pointer [Kernel-Mode Driver Architecture], _PO_FX_COMPONENT_V2, kernel.po_fx_component, wdm/PO_FX_COMPONENT, wdm/PO_FX_COMPONENT_V2, wdm/PPO_FX_COMPONENT_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	PO_FX_COMPONENT_V2
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_COMPONENT_V2, PO_FX_COMPONENT_V2"
+req.typenames: PO_FX_COMPONENT_V2, *PPO_FX_COMPONENT_V2
 req.product: Windows 10 or later.
 ---
 
@@ -146,17 +146,11 @@ When the component transitions to the idle state, PoFx first makes the dependent
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_idle_state.md">PO_FX_COMPONENT_IDLE_STATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450935">Component-Level Power Management</a>
 
 
 
-
-
-<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
+<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_idle_state.md">PO_FX_COMPONENT_IDLE_STATE</a>
 
 
 
@@ -164,5 +158,5 @@ When the component transitions to the idle state, PoFx first makes the dependent
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PO_FX_COMPONENT_V2 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PO_FX_COMPONENT_V2 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

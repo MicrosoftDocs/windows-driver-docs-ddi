@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E1CC0E8D-B48E-4F02-AE26-82123A3722E6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NpdBrokerUninitialize, netvista.npdbrokeruninitialize, knetpwrdepbroker/NpdBrokerUninitialize, NpdBrokerUninitialize function [Network Drivers Starting with Windows Vista]
+ms.keywords: NpdBrokerUninitialize, NpdBrokerUninitialize function [Network Drivers Starting with Windows Vista], knetpwrdepbroker/NpdBrokerUninitialize, netvista.npdbrokeruninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	KNetPwrDepBroker.h
-apiname:
+api_name:
 -	NpdBrokerUninitialize
 product: Windows
 targetos: Windows

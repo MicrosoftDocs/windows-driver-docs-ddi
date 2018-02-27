@@ -7,8 +7,8 @@ old-location: stream\iksclockpropertyset.htm
 old-project: stream
 ms.assetid: bf50d4b1-782f-4d15-b6ef-23fa13da68ff
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.iksclockpropertyset, IKsClockPropertySet interface [Streaming Media Devices], IKsClockPropertySet interface [Streaming Media Devices], described, IKsClockPropertySet, ksproxy/IKsClockPropertySet, ksproxy_0be3eb82-08b7-4afc-a4e5-3815f7499ad0.xml
+ms.date: 2/23/2018
+ms.keywords: IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], IKsClockPropertySet interface [Streaming Media Devices], described, ksproxy/IKsClockPropertySet, ksproxy_0be3eb82-08b7-4afc-a4e5-3815f7499ad0.xml, stream.iksclockpropertyset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Ksproxy.lib
 -	Ksproxy.dll
-apiname:
+api_name:
 -	IKsClockPropertySet
 product: Windows
 targetos: Windows
@@ -52,6 +52,13 @@ req.typenames: PIPE_STATE
 
 The <b>IKsClockPropertySet</b> interface provides methods that let the proxy accurately reflect time.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsClockPropertySet</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IKsClockPropertySet</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -151,27 +158,7 @@ Sets the current presentation time on the underlying clock.
 
 </td>
 </tr>
-</table>Retrieves the physical time and the correlated system time from the underlying clock.
-
-Retrieves the presentation time and the correlated system time from the underlying clock.
-
-Retrieves the current physical time from the underlying clock. 
-
-Retrieves the clock resolution from the underlying clock.
-
-Retrieves the streaming state of a pin from the underlying clock.
-
-Retrieves the current presentation time from the underlying clock.
-
-Sets the physical time with the correlated system time on the underlying clock.
-
-Sets the correlated system time with the presentation time on the underlying clock.
-
-Sets the current physical time on the underlying clock.
-
-Sets the current presentation time on the underlying clock.
-
- 
+</table> 
 
 
 ## -remarks

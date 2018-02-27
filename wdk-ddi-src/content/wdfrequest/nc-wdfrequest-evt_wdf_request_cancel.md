@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: db54fa76-d3e0-4f8c-aa3f-bab268dd9b4d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtrequestcancel, EvtRequestCancel callback function, EvtRequestCancel, EVT_WDF_REQUEST_CANCEL, EVT_WDF_REQUEST_CANCEL, wdfrequest/EvtRequestCancel, DFRequestObjectRef_fe2e3eee-9f6a-4fd8-afa7-23eb740ccd01.xml, kmdf.evtrequestcancel
+ms.keywords: DFRequestObjectRef_fe2e3eee-9f6a-4fd8-afa7-23eb740ccd01.xml, EVT_WDF_REQUEST_CANCEL, EvtRequestCancel, EvtRequestCancel callback function, kmdf.evtrequestcancel, wdf.evtrequestcancel, wdfrequest/EvtRequestCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Wdfrequest.h
-apiname:
+api_name:
 -	EvtRequestCancel
 product: Windows
 targetos: Windows
@@ -148,7 +148,7 @@ The <b>EVT_WDF_REQUEST_CANCEL</b> function type is defined in the Wdfrequest.h h
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
 
 
@@ -156,7 +156,7 @@ The <b>EVT_WDF_REQUEST_CANCEL</b> function type is defined in the Wdfrequest.h h
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: stream\caminitialize.htm
 old-project: stream
 ms.assetid: a39f78b7-f749-40b8-952a-5442608b0f1f
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.caminitialize, CamInitialize, CamUnInitialize, MyInitialize routine [Streaming Media Devices], MyInitialize, PCAM_INITIALIZE_ROUTINE, PCAM_INITIALIZE_ROUTINE, usbcamdi/MyInitialize, usbcmdpr_77de14cb-6be6-441a-af16-ef5bf38d8d01.xml
+ms.date: 2/23/2018
+ms.keywords: CamInitialize, CamUnInitialize, MyInitialize, MyInitialize routine [Streaming Media Devices], PCAM_INITIALIZE_ROUTINE, stream.caminitialize, usbcamdi/MyInitialize, usbcmdpr_77de14cb-6be6-441a-af16-ef5bf38d8d01.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	usbcamdi.h
-apiname:
+api_name:
 -	MyInitialize
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A6295FEE-3633-42E7-A2EA-BA0D3C9E4101
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_get_privileged_memory_region_token, NdkGetPrivilegedMemoryRegionToken callback function [Network Drivers Starting with Windows Vista], NdkGetPrivilegedMemoryRegionToken, NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN, NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN, ndkpi/NdkGetPrivilegedMemoryRegionToken
+ms.keywords: NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN, NdkGetPrivilegedMemoryRegionToken, NdkGetPrivilegedMemoryRegionToken callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetPrivilegedMemoryRegionToken, netvista.ndk_fn_get_privileged_memory_region_token
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ndkpi.h
-apiname:
+api_name:
 -	NdkGetPrivilegedMemoryRegionToken
 product: Windows
 targetos: Windows

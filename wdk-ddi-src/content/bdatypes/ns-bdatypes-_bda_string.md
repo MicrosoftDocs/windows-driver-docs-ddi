@@ -7,8 +7,8 @@ old-location: stream\bda_string.htm
 old-project: stream
 ms.assetid: 69E2090F-02A6-43FB-85CB-E482B9142645
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.bda_string, *PBDA_STRING, bdatypes/BDA_STRING, BDA_STRING structure [Streaming Media Devices], bdatypes/PBDA_STRING, PBDA_STRING, _BDA_STRING, PBDA_STRING structure pointer [Streaming Media Devices], BDA_STRING
+ms.date: 2/23/2018
+ms.keywords: "*PBDA_STRING, BDA_STRING, BDA_STRING structure [Streaming Media Devices], PBDA_STRING, PBDA_STRING structure pointer [Streaming Media Devices], _BDA_STRING, bdatypes/BDA_STRING, bdatypes/PBDA_STRING, stream.bda_string"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Bdatypes.h
-apiname:
+api_name:
 -	BDA_STRING
 product: Windows
 targetos: Windows
-req.typenames: "*PBDA_STRING, BDA_STRING"
+req.typenames: BDA_STRING, *PBDA_STRING
 ---
 
 # _BDA_STRING structure

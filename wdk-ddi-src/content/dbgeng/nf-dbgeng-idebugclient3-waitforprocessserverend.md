@@ -4,11 +4,11 @@ title: IDebugClient3::WaitForProcessServerEnd method
 author: windows-driver-content
 description: The WaitForProcessServerEnd method waits for a local process server to exit.
 old-location: debugger\waitforprocessserverend.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 19573307-0192-47bd-86a0-9c7721d16c5e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugClient3::WaitForProcessServerEnd, IDebugClient_ac54327c-85c5-41ab-906f-605d374a0e2d.xml, WaitForProcessServerEnd method [Windows Debugging], IDebugClient3 interface, WaitForProcessServerEnd, debugger.waitforprocessserverend, IDebugClient2 interface [Windows Debugging], WaitForProcessServerEnd method, WaitForProcessServerEnd method [Windows Debugging], IDebugClient5 interface, IDebugClient2::WaitForProcessServerEnd, IDebugClient3 interface [Windows Debugging], WaitForProcessServerEnd method, dbgeng/IDebugClient2::WaitForProcessServerEnd, IDebugClient4::WaitForProcessServerEnd, IDebugClient5 interface [Windows Debugging], WaitForProcessServerEnd method, dbgeng/IDebugClient3::WaitForProcessServerEnd, WaitForProcessServerEnd method [Windows Debugging], IDebugClient2 interface, WaitForProcessServerEnd method [Windows Debugging], IDebugClient4 interface, IDebugClient4 interface [Windows Debugging], WaitForProcessServerEnd method, dbgeng/IDebugClient5::WaitForProcessServerEnd, IDebugClient2, dbgeng/IDebugClient4::WaitForProcessServerEnd, IDebugClient3, WaitForProcessServerEnd method [Windows Debugging], IDebugClient5::WaitForProcessServerEnd
+ms.date: 2/23/2018
+ms.keywords: IDebugClient2 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient2::WaitForProcessServerEnd, IDebugClient3, IDebugClient3 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient3::WaitForProcessServerEnd, IDebugClient4 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient4::WaitForProcessServerEnd, IDebugClient5 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient5::WaitForProcessServerEnd, IDebugClient_ac54327c-85c5-41ab-906f-605d374a0e2d.xml, WaitForProcessServerEnd method [Windows Debugging], WaitForProcessServerEnd method [Windows Debugging], IDebugClient2 interface, WaitForProcessServerEnd method [Windows Debugging], IDebugClient3 interface, WaitForProcessServerEnd method [Windows Debugging], IDebugClient4 interface, WaitForProcessServerEnd method [Windows Debugging], IDebugClient5 interface, WaitForProcessServerEnd,IDebugClient3.WaitForProcessServerEnd, dbgeng/IDebugClient2::WaitForProcessServerEnd, dbgeng/IDebugClient3::WaitForProcessServerEnd, dbgeng/IDebugClient4::WaitForProcessServerEnd, dbgeng/IDebugClient5::WaitForProcessServerEnd, debugger.waitforprocessserverend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugClient2.WaitForProcessServerEnd
 -	IDebugClient3.WaitForProcessServerEnd
 -	IDebugClient4.WaitForProcessServerEnd
@@ -129,7 +129,15 @@ The constant INFINITE is defined in Winbase.h.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
@@ -138,10 +146,6 @@ The constant INFINITE is defined in Winbase.h.
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
 
 
 
@@ -149,13 +153,9 @@ The constant INFINITE is defined in Winbase.h.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient2::WaitForProcessServerEnd method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient2::WaitForProcessServerEnd method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

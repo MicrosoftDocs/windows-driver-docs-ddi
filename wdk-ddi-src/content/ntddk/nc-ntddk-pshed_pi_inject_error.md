@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: efd2658b-875e-4589-9ba0-42232e070b91
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: whea.injecterror, InjectError callback function [WHEA Drivers and Applications], InjectError, PSHED_PI_INJECT_ERROR, PSHED_PI_INJECT_ERROR, ntddk/InjectError, whearef_377f07ab-4ea0-4982-8298-c7139b4bfdc7.xml
+ms.keywords: InjectError, InjectError callback function [WHEA Drivers and Applications], PSHED_PI_INJECT_ERROR, ntddk/InjectError, whea.injecterror, whearef_377f07ab-4ea0-4982-8298-c7139b4bfdc7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Ntddk.h
-apiname:
+api_name:
 -	InjectError
 product: Windows
 targetos: Windows
-req.typenames: "*PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA"
+req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 ---
 
 # PSHED_PI_INJECT_ERROR callback
@@ -239,11 +239,11 @@ The WHEA management application that is injecting the error can pass additional 
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
 
 
 

@@ -4,11 +4,11 @@ title: IDebugControl::AddExtension method
 author: windows-driver-content
 description: The AddExtension method loads an extension library into the debugger engine.
 old-location: debugger\addextension.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 67dbc01a-83ee-4c7c-921e-f0945fbcc2ef
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: AddExtension, IDebugControl3 interface [Windows Debugging], AddExtension method, debugger.addextension, dbgeng/IDebugControl2::AddExtension, IDebugControl3::AddExtension, IDebugControl2 interface [Windows Debugging], AddExtension method, AddExtension method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::AddExtension, AddExtension method [Windows Debugging], IDebugControl interface, AddExtension method [Windows Debugging], IDebugControl2 interface, IDebugControl, IDebugControl_9d85fcbb-1c02-4b5a-b9ab-c50b9b266d1d.xml, IDebugControl interface [Windows Debugging], AddExtension method, IDebugControl::AddExtension, IDebugControl2::AddExtension, dbgeng/IDebugControl::AddExtension, AddExtension method [Windows Debugging]
+ms.date: 2/23/2018
+ms.keywords: AddExtension method [Windows Debugging], AddExtension method [Windows Debugging], IDebugControl interface, AddExtension method [Windows Debugging], IDebugControl2 interface, AddExtension method [Windows Debugging], IDebugControl3 interface, AddExtension,IDebugControl.AddExtension, IDebugControl, IDebugControl interface [Windows Debugging], AddExtension method, IDebugControl2 interface [Windows Debugging], AddExtension method, IDebugControl2::AddExtension, IDebugControl3 interface [Windows Debugging], AddExtension method, IDebugControl3::AddExtension, IDebugControl::AddExtension, IDebugControl_9d85fcbb-1c02-4b5a-b9ab-c50b9b266d1d.xml, dbgeng/IDebugControl2::AddExtension, dbgeng/IDebugControl3::AddExtension, dbgeng/IDebugControl::AddExtension, debugger.addextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Dbgeng.h
-apiname:
+api_name:
 -	IDebugControl.AddExtension
 -	IDebugControl2.AddExtension
 -	IDebugControl3.AddExtension
@@ -129,11 +129,11 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554497">RemoveExtension</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -145,7 +145,7 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
 
 
 
@@ -153,5 +153,5 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::AddExtension method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::AddExtension method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: audio\iservicegroup.htm
 old-project: audio
 ms.assetid: eef2741e-e1a3-471b-a756-d89990929738
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iservicegroup, IServiceGroup interface [Audio Devices], IServiceGroup interface [Audio Devices], described, IServiceGroup, portcls/IServiceGroup, audmp-routines_10cfd005-be11-47a2-a929-f338f40e6f79.xml
+ms.date: 2/22/2018
+ms.keywords: IServiceGroup, IServiceGroup interface [Audio Devices], IServiceGroup interface [Audio Devices], described, audio.iservicegroup, audmp-routines_10cfd005-be11-47a2-a929-f338f40e6f79.xml, portcls/IServiceGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IServiceGroup
 product: Windows
 targetos: Windows
@@ -53,6 +53,13 @@ The <code>IServiceGroup</code> interface encapsulates a group of objects that al
 
 Port drivers typically use service group objects to demultiplex requests for interrupt service, although the functionality of a service group is general enough to make it potentially useful for other purposes as well. For more information, see <a href="https://msdn.microsoft.com/00e17e01-8889-4fae-a0ff-e110d7a9b21e">Service Sink and Service Group Objects</a>.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceGroup</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IServiceGroup</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -116,17 +123,5 @@ The <code>SupportDelayedService</code> method indicates that the service group s
 
 </td>
 </tr>
-</table>The <code>AddMember</code> method adds a member to the service group.
-
-The <code>CancelDelayedService</code> method cancels the previously requested delayed service.
-
-The <code>RemoveMember</code> method removes the specified member from the service group.
-
-The <code>RequestDelayedService</code> method requests service after the specified delay.
-
-TBD
-
-The <code>SupportDelayedService</code> method indicates that the service group should prepare to support delayed service.
-
- 
+</table> 
 

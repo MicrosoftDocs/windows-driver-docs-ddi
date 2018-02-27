@@ -7,8 +7,8 @@ old-location: pci\ioctl-sriov-notification.htm
 old-project: PCI
 ms.assetid: 3f2d67e0-abab-40a1-b4a9-cb65e81884e9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PCI.ioctl-sriov-notification, IOCTL_SRIOV_NOTIFICATION control code [Buses], IOCTL_SRIOV_NOTIFICATION, pcivirt/IOCTL_SRIOV_NOTIFICATION
+ms.date: 2/24/2018
+ms.keywords: IOCTL_SRIOV_NOTIFICATION, IOCTL_SRIOV_NOTIFICATION control code [Buses], PCI.ioctl-sriov-notification, pcivirt/IOCTL_SRIOV_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Pcivirt.h
-apiname:
+api_name:
 -	IOCTL_SRIOV_NOTIFICATION
 product: Windows
 targetos: Windows

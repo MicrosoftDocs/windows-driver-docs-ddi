@@ -7,8 +7,8 @@ old-location: storage\ioctl_volume_is_clustered.htm
 old-project: storage
 ms.assetid: aa8accf8-79c9-4868-b621-d468a121cb60
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.ioctl_volume_is_clustered, IOCTL_VOLUME_IS_CLUSTERED control code [Storage Devices], IOCTL_VOLUME_IS_CLUSTERED, ntddvol/IOCTL_VOLUME_IS_CLUSTERED, k307_32e3c9a5-1828-4fbb-b7f1-9ddbd367f70f.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_VOLUME_IS_CLUSTERED, IOCTL_VOLUME_IS_CLUSTERED control code [Storage Devices], k307_32e3c9a5-1828-4fbb-b7f1-9ddbd367f70f.xml, ntddvol/IOCTL_VOLUME_IS_CLUSTERED, storage.ioctl_volume_is_clustered
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddvol.h
-apiname:
+api_name:
 -	IOCTL_VOLUME_IS_CLUSTERED
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_WIN32K_CALLBACKS_PARAMS, VIDEO_WIN32K_CALLBACKS_PARAMS"
+req.typenames: VIDEO_WIN32K_CALLBACKS_PARAMS, *PVIDEO_WIN32K_CALLBACKS_PARAMS
 ---
 
 # IOCTL_VOLUME_IS_CLUSTERED IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*PVIDEO_WIN32K_CALLBACKS_PARAMS, VIDEO_WIN32K_CALLBACKS_PARAMS"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

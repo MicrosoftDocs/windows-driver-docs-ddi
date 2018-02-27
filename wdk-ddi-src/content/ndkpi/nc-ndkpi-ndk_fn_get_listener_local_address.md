@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7BF5322F-5283-445D-AC3F-19382CB28E2B
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_get_listener_local_address, NdkGetListenerLocalAddress callback function [Network Drivers Starting with Windows Vista], NdkGetListenerLocalAddress, NDK_FN_GET_LISTENER_LOCAL_ADDRESS, NDK_FN_GET_LISTENER_LOCAL_ADDRESS, ndkpi/NdkGetListenerLocalAddress
+ms.keywords: NDK_FN_GET_LISTENER_LOCAL_ADDRESS, NdkGetListenerLocalAddress, NdkGetListenerLocalAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetListenerLocalAddress, netvista.ndk_fn_get_listener_local_address
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ndkpi.h
-apiname:
+api_name:
 -	NdkGetListenerLocalAddress
 product: Windows
 targetos: Windows

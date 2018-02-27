@@ -4,11 +4,11 @@ title: IDebugBreakpoint2::GetCommand method
 author: windows-driver-content
 description: The GetCommand method returns the command string that is executed when a breakpoint is triggered.
 old-location: debugger\getcommand.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 3f7b704f-be73-459a-bb5a-bbe649751900
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GetCommand method [Windows Debugging], IDebugBreakpoint interface, GetCommand, debugger.getcommand, GetCommand method [Windows Debugging], IDebugBreakpoint::GetCommand, ComOther_4bb08d44-5a99-4177-b8a4-8926f1e45dcf.xml, IDebugBreakpoint2 interface [Windows Debugging], GetCommand method, IDebugBreakpoint2, IDebugBreakpoint2::GetCommand, IDebugBreakpoint, dbgeng/IDebugBreakpoint::GetCommand, IDebugBreakpoint interface [Windows Debugging], GetCommand method, GetCommand method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::GetCommand
+ms.date: 2/23/2018
+ms.keywords: ComOther_4bb08d44-5a99-4177-b8a4-8926f1e45dcf.xml, GetCommand method [Windows Debugging], GetCommand method [Windows Debugging], IDebugBreakpoint interface, GetCommand method [Windows Debugging], IDebugBreakpoint2 interface, GetCommand,IDebugBreakpoint2.GetCommand, IDebugBreakpoint interface [Windows Debugging], GetCommand method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetCommand method, IDebugBreakpoint2::GetCommand, IDebugBreakpoint::GetCommand, dbgeng/IDebugBreakpoint2::GetCommand, dbgeng/IDebugBreakpoint::GetCommand, debugger.getcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugBreakpoint.GetCommand
 -	IDebugBreakpoint2.GetCommand
 product: Windows

@@ -7,8 +7,8 @@ old-location: audio\keywordid.htm
 old-project: audio
 ms.assetid: 88D85EB1-11BC-42B9-B22E-5FB58F409C75
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: KEYWORDID, __MIDL_IKeywordDetectorOemAdapter_0002, audio.keywordid, KwVoiceAssistant, KEYWORDID enumeration [Audio Devices], KwInvalid, keyworddetectoroemadapter/ KwSelection, keyworddetectoroemadapter/KEYWORDID, keyworddetectoroemadapter/KwInvalid, keyworddetectoroemadapter/ KwVoiceAssistant, KwSelection
+ms.date: 2/22/2018
+ms.keywords: KEYWORDID, KEYWORDID enumeration [Audio Devices], KwInvalid, KwSelection, KwVoiceAssistant, __MIDL_IKeywordDetectorOemAdapter_0002, audio.keywordid, keyworddetectoroemadapter/ KwSelection, keyworddetectoroemadapter/ KwVoiceAssistant, keyworddetectoroemadapter/KEYWORDID, keyworddetectoroemadapter/KwInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	KeywordDetectorOemAdapter.h
-apiname:
+api_name:
 -	KEYWORDID
 product: Windows
 targetos: Windows

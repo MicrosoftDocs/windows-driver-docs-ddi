@@ -7,8 +7,8 @@ old-location: pci\sriov_query_vf_luid.htm
 old-project: PCI
 ms.assetid: 17fe6e28-59ce-4678-8268-b49cef09a3db
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PCI.sriov_query_vf_luid, SriovQueryVfLuid callback function [Buses], SriovQueryVfLuid, SRIOV_QUERY_VF_LUID, SRIOV_QUERY_VF_LUID, pcivirt/SriovQueryVfLuid, *PSRIOV_QUERY_VF_LUID callback function pointer [Buses], *PSRIOV_QUERY_VF_LUID
+ms.date: 2/24/2018
+ms.keywords: "*PSRIOV_QUERY_VF_LUID, *PSRIOV_QUERY_VF_LUID callback function pointer [Buses], PCI.sriov_query_vf_luid, SRIOV_QUERY_VF_LUID, SriovQueryVfLuid, SriovQueryVfLuid callback function [Buses], pcivirt/SriovQueryVfLuid"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	pcivirt.h
-apiname:
+api_name:
 -	*PSRIOV_QUERY_VF_LUID
 product: Windows
 targetos: Windows

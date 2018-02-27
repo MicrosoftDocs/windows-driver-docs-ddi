@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 6EB96A37-06B9-4655-AD69-375EE770F4DF
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: nfpdrivers.evtnfccxsequencehandler, EVT_NFC_CX_SEQUENCE_HANDLER, *PFN_NFC_CX_SEQUENCE_HANDLER, EvtNfcCxSequenceHandler callback function [Near-Field Proximity Drivers], EvtNfcCxSequenceHandler, EVT_NFC_CX_SEQUENCE_HANDLER, EVT_NFC_CX_SEQUENCE_HANDLER, nfccx/ EvtNfcCxSequenceHandler
+ms.keywords: "*PFN_NFC_CX_SEQUENCE_HANDLER, EVT_NFC_CX_SEQUENCE_HANDLER, EvtNfcCxSequenceHandler, EvtNfcCxSequenceHandler callback function [Near-Field Proximity Drivers], nfccx/ EvtNfcCxSequenceHandler, nfpdrivers.evtnfccxsequencehandler"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	nfccx.h
-apiname:
+api_name:
 -	EvtNfcCxSequenceHandler
 product: Windows
 targetos: Windows

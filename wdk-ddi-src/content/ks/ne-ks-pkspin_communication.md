@@ -7,8 +7,8 @@ old-location: stream\kspin_communication.htm
 old-project: stream
 ms.assetid: DBBEEE9D-82C1-4387-AA6D-C5D86EDB138C
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KSPIN_COMMUNICATION_SOURCE, ks/KSPIN_COMMUNICATION_BOTH, ks/KSPIN_COMMUNICATION_SINK, ks/KSPIN_COMMUNICATION_NONE, KSPIN_COMMUNICATION_SINK, *PKSPIN_COMMUNICATION, ks/KSPIN_COMMUNICATION_SOURCE, KSPIN_COMMUNICATION_BRIDGE, KSPIN_COMMUNICATION, stream.kspin_communication, ks/KSPIN_COMMUNICATION, KSPIN_COMMUNICATION enumeration [Streaming Media Devices], ks/PKSPIN_COMMUNICATION, KSPIN_COMMUNICATION_NONE, PKSPIN_COMMUNICATION enumeration pointer [Streaming Media Devices], KSPIN_COMMUNICATION_BOTH, ks/KSPIN_COMMUNICATION_BRIDGE, PKSPIN_COMMUNICATION
+ms.date: 2/23/2018
+ms.keywords: "*PKSPIN_COMMUNICATION, KSPIN_COMMUNICATION, KSPIN_COMMUNICATION enumeration [Streaming Media Devices], KSPIN_COMMUNICATION_BOTH, KSPIN_COMMUNICATION_BRIDGE, KSPIN_COMMUNICATION_NONE, KSPIN_COMMUNICATION_SINK, KSPIN_COMMUNICATION_SOURCE, PKSPIN_COMMUNICATION, PKSPIN_COMMUNICATION enumeration pointer [Streaming Media Devices], ks/KSPIN_COMMUNICATION, ks/KSPIN_COMMUNICATION_BOTH, ks/KSPIN_COMMUNICATION_BRIDGE, ks/KSPIN_COMMUNICATION_NONE, ks/KSPIN_COMMUNICATION_SINK, ks/KSPIN_COMMUNICATION_SOURCE, ks/PKSPIN_COMMUNICATION, stream.kspin_communication"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ks.h
-apiname:
+api_name:
 -	KSPIN_COMMUNICATION
 product: Windows
 targetos: Windows
-req.typenames: "*PKSPIN_COMMUNICATION, KSPIN_COMMUNICATION"
+req.typenames: KSPIN_COMMUNICATION, *PKSPIN_COMMUNICATION
 ---
 
 # *PKSPIN_COMMUNICATION enumeration

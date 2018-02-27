@@ -7,8 +7,8 @@ old-location: stream\kspinacquirecontrol.htm
 old-project: stream
 ms.assetid: 05ff1829-8305-4bc4-be22-233d391a5dc0
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: avfunc_fd5d1466-6403-42cf-aab7-d044014c4abf.xml, stream.kspinacquirecontrol, KsPinAcquireControl, KsPinAcquireControl function [Streaming Media Devices], ks/KsPinAcquireControl
+ms.date: 2/23/2018
+ms.keywords: KsPinAcquireControl, KsPinAcquireControl function [Streaming Media Devices], avfunc_fd5d1466-6403-42cf-aab7-d044014c4abf.xml, ks/KsPinAcquireControl, stream.kspinacquirecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KsPinAcquireControl
 product: Windows
 targetos: Windows
@@ -94,6 +94,14 @@ The pin control mutex is the same mutex that is used by <i>Pin</i>'s parent. Thi
 
 ## -see-also
 
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
+<a href="..\ks\nf-ks-kspinreleasecontrol.md">KsPinReleaseControl</a>
+
+
+
 <a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
 
 
@@ -102,17 +110,9 @@ The pin control mutex is the same mutex that is used by <i>Pin</i>'s parent. Thi
 
 
 
-<a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
-
-
-
-<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinAcquireControl function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinAcquireControl function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

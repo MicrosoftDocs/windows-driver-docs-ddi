@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3cfa8fa4-fab0-4f94-abc1-5c7900af208b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMacPacketTypeUndefined, ntddndis/NdisMacPacketTypeUndefined, ntddndis/NdisMacPacketTypeMaximum, ntddndis/NdisMacPacketTypeBroadcast, ntddndis/NdisMacPacketTypeMulticast, NdisMacPacketTypeUnicast, ntddndis/NdisMacPacketTypeUnicast, NdisMacPacketTypeMaximum, PNDIS_MAC_PACKET_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], PNDIS_MAC_PACKET_TYPE, *PNDIS_MAC_PACKET_TYPE, _NDIS_MAC_PACKET_TYPE, NdisMacPacketTypeBroadcast, NdisMacPacketTypeMulticast, netvista.ndis_mac_packet_type, ntddndis/NDIS_MAC_PACKET_TYPE, NDIS_MAC_PACKET_TYPE, NDIS_MAC_PACKET_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_MAC_PACKET_TYPE
+ms.keywords: "*PNDIS_MAC_PACKET_TYPE, NDIS_MAC_PACKET_TYPE, NDIS_MAC_PACKET_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisMacPacketTypeBroadcast, NdisMacPacketTypeMaximum, NdisMacPacketTypeMulticast, NdisMacPacketTypeUndefined, NdisMacPacketTypeUnicast, PNDIS_MAC_PACKET_TYPE, PNDIS_MAC_PACKET_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_MAC_PACKET_TYPE, netvista.ndis_mac_packet_type, ntddndis/NDIS_MAC_PACKET_TYPE, ntddndis/NdisMacPacketTypeBroadcast, ntddndis/NdisMacPacketTypeMaximum, ntddndis/NdisMacPacketTypeMulticast, ntddndis/NdisMacPacketTypeUndefined, ntddndis/NdisMacPacketTypeUnicast, ntddndis/PNDIS_MAC_PACKET_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddndis.h
-apiname:
+api_name:
 -	NDIS_MAC_PACKET_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_MAC_PACKET_TYPE, NDIS_MAC_PACKET_TYPE"
+req.typenames: NDIS_MAC_PACKET_TYPE, *PNDIS_MAC_PACKET_TYPE
 ---
 
 # _NDIS_MAC_PACKET_TYPE enumeration

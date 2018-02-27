@@ -7,8 +7,8 @@ old-location: kernel\rtldwordptradd.htm
 old-project: kernel
 ms.assetid: 8364FC5F-1FF4-415F-B83C-4A866C860522
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.rtldwordptradd, RtlDWordPtrAdd function [Kernel-Mode Driver Architecture], ntintsafe/RtlDWordPtrAdd, RtlDWordPtrAdd
+ms.date: 2/24/2018
+ms.keywords: RtlDWordPtrAdd, RtlDWordPtrAdd function [Kernel-Mode Driver Architecture], kernel.rtldwordptradd, ntintsafe/RtlDWordPtrAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntintsafe.h
-apiname:
+api_name:
 -	RtlDWordPtrAdd
 product: Windows
 targetos: Windows

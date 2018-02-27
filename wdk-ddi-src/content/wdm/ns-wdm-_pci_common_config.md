@@ -7,8 +7,8 @@ old-location: kernel\pci_common_config.htm
 old-project: kernel
 ms.assetid: 239d0c0a-e78e-40d5-b359-36910bdd9358
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: wdm/PCI_COMMON_CONFIG, wdm/PPCI_COMMON_CONFIG, PPCI_COMMON_CONFIG structure pointer [Kernel-Mode Driver Architecture], PCI_COMMON_CONFIG structure [Kernel-Mode Driver Architecture], kstruct_c_42f21057-e812-4a4d-96c5-f1177a03982b.xml, _PCI_COMMON_CONFIG, PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG, kernel.pci_common_config, PPCI_COMMON_CONFIG
+ms.date: 2/24/2018
+ms.keywords: "*PPCI_COMMON_CONFIG, PCI_COMMON_CONFIG, PCI_COMMON_CONFIG structure [Kernel-Mode Driver Architecture], PPCI_COMMON_CONFIG, PPCI_COMMON_CONFIG structure pointer [Kernel-Mode Driver Architecture], _PCI_COMMON_CONFIG, kernel.pci_common_config, kstruct_c_42f21057-e812-4a4d-96c5-f1177a03982b.xml, wdm/PCI_COMMON_CONFIG, wdm/PPCI_COMMON_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	PCI_COMMON_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG
+req.typenames: PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG, PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -257,99 +257,6 @@ Minimum grant.
 Maximum latency.
 
 
-##### - u.type0
-
-Drivers call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a> to configure these values and to get back the bus-relative values passed to other configuration routines.
-
-
-
-##### type0.BaseAddresses
-
-Base addresses.
-
-
-
-##### type0.Reserved1
-
-Reserved.
-
-
-
-##### type0.ROMBaseAddress
-
-ROM base address.
-
-
-
-##### type0.Reserved2
-
-Reserved.
-
-
-
-##### type0.InterruptLine
-
-Interrupt line number.
-
-
-
-##### type0.InterruptPin
-
-Interrupt pin number.
-
-
-
-##### type0.MinimumGrant
-
-Minimum grant.
-
-
-
-##### type0.MaximumLatency
-
-Maximum latency.
-
-
-###### - u.type0.BaseAddresses
-
-Base addresses.
-
-
-###### - u.type0.Reserved1
-
-Reserved.
-
-
-###### - u.type0.ROMBaseAddress
-
-ROM base address.
-
-
-###### - u.type0.Reserved2
-
-Reserved.
-
-
-###### - u.type0.InterruptLine
-
-Interrupt line number.
-
-
-###### - u.type0.InterruptPin
-
-Interrupt pin number.
-
-
-###### - u.type0.MinimumGrant
-
-Minimum grant.
-
-
-###### - u.type0.MaximumLatency
-
-Maximum latency.
-
-
 ## -remarks
 
 
@@ -387,5 +294,5 @@ Other members are provisionally read-only: that is, the system initializes them 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PCI_COMMON_CONFIG structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PCI_COMMON_CONFIG structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

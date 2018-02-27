@@ -7,8 +7,8 @@ old-location: storage\mpio_timers_counters.htm
 old-project: storage
 ms.assetid: edbca8b0-53c1-4538-ac96-52238d75168d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*PMPIO_TIMERS_COUNTERS, mpiowmi/MPIO_TIMERS_COUNTERS, MPIO_TIMERS_COUNTERS structure [Storage Devices], structs-scsibus_4e4255c8-94e3-4eb0-bf6b-e5c8cddba010.xml, PMPIO_TIMERS_COUNTERS structure pointer [Storage Devices], PMPIO_TIMERS_COUNTERS, storage.mpio_timers_counters, mpiowmi/PMPIO_TIMERS_COUNTERS, MPIO_TIMERS_COUNTERS, _MPIO_TIMERS_COUNTERS"
+ms.date: 2/24/2018
+ms.keywords: "*PMPIO_TIMERS_COUNTERS, MPIO_TIMERS_COUNTERS, MPIO_TIMERS_COUNTERS structure [Storage Devices], PMPIO_TIMERS_COUNTERS, PMPIO_TIMERS_COUNTERS structure pointer [Storage Devices], _MPIO_TIMERS_COUNTERS, mpiowmi/MPIO_TIMERS_COUNTERS, mpiowmi/PMPIO_TIMERS_COUNTERS, storage.mpio_timers_counters, structs-scsibus_4e4255c8-94e3-4eb0-bf6b-e5c8cddba010.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	mpiowmi.h
-apiname:
+api_name:
 -	MPIO_TIMERS_COUNTERS
 product: Windows
 targetos: Windows
-req.typenames: "*PMPIO_TIMERS_COUNTERS, MPIO_TIMERS_COUNTERS"
+req.typenames: MPIO_TIMERS_COUNTERS, *PMPIO_TIMERS_COUNTERS
 ---
 
 # _MPIO_TIMERS_COUNTERS structure

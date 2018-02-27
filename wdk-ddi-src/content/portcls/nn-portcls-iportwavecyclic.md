@@ -7,8 +7,8 @@ old-location: audio\iportwavecyclic.htm
 old-project: audio
 ms.assetid: de241c4c-2012-4d57-b069-d169b1e0aec3
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iportwavecyclic, IPortWaveCyclic interface [Audio Devices], IPortWaveCyclic interface [Audio Devices], described, IPortWaveCyclic, portcls/IPortWaveCyclic, audmp-routines_079bd398-d9f2-4a35-9ee0-6ced8fecdeb4.xml
+ms.date: 2/22/2018
+ms.keywords: IPortWaveCyclic, IPortWaveCyclic interface [Audio Devices], IPortWaveCyclic interface [Audio Devices], described, audio.iportwavecyclic, audmp-routines_079bd398-d9f2-4a35-9ee0-6ced8fecdeb4.xml, portcls/IPortWaveCyclic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IPortWaveCyclic
 product: Windows
 targetos: Windows

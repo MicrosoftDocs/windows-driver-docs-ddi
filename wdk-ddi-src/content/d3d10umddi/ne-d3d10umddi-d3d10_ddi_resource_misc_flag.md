@@ -7,8 +7,8 @@ old-location: display\d3d10_ddi_resource_misc_flag.htm
 old-project: display
 ms.assetid: 1de11acf-1571-44ae-9bde-2b417bf615b7
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3D10_DDI_RESOURCE_MISC_FLAG, d3d10umddi/D3D11_DDI_RESOURCE_MISC_RESOURCE_CLAMP, D3D11_1DDI_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE_DRIVER, D3D11_DDI_RESOURCE_MISC_DRAWINDIRECT_ARGS, d3d10umddi/, d3d10umddi/D3D10_DDI_RESOURCE_MISC_SHARED, d3d10umddi/D3D11_DDI_RESOURCE_MISC_DRAWINDIRECT_ARGS, D3DWDDM1_3DDI_RESOURCE_MISC_TILED, d3d10umddi/D3DWDDM1_3DDI_RESOURCE_MISC_TILE_POOL, D3DWDDM2_0DDI_RESOURCE_MISC_HW_PROTECTED, D3D11_DDI_RESOURCE_MISC_BUFFER_STRUCTURED, D3D10_DDI_RESOURCE_AUTO_GEN_MIP_MAP, D3D10_DDI_RESOURCE_MISC_FLAG enumeration [Display Devices], d3d10umddi/D3D11_DDI_RESOURCE_MISC_BUFFER_STRUCTURED, d3d10umddi/D3DWDDM1_3DDI_RESOURCE_MISC_TILED, D3D10_DDI_RESOURCE_MISC_SHARED, d3d10umddi/D3DWDDM1_3DDI_RESOURCE_MISC_CROSS_ADAPTER, D3DWDDM2_0DDI_RESOURCE_MISC_CONTAINS_HW_PROTECTED, d3d10umddi/D3D10_DDI_RESOURCE_AUTO_GEN_MIP_MAP, D3DWDDM1_3DDI_RESOURCE_MISC_CROSS_ADAPTER, d3d10umddi/D3DWDDM2_0DDI_RESOURCE_MISC_HW_PROTECTED, D3DWDDM2_0DDI_RESOURCE_MISC_DISPLAYABLE_SURFACE, d3d10umddi/D3D10_DDI_RESOURCE_MISC_DISCARD_ON_PRESENT, d3d10umddi/D3D11_DDI_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS, D3D11_DDI_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS, d3d10umddi/D3D11_1DDI_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE_DRIVER, d3d10umddi/D3DWDDM2_0DDI_RESOURCE_MISC_CONTAINS_HW_PROTECTED, D3D11_1DDI_RESOURCE_MISC_RESTRICTED_CONTENT, d3d10umddi/D3D11_1DDI_RESOURCE_MISC_RESTRICTED_CONTENT, d3d10umddi/D3DWDDM2_0DDI_RESOURCE_MISC_DISPLAYABLE_SURFACE, UMDisplayDriver_Dx10param_Structs_0b144bfc-1cec-4e30-b7c6-f7c2cb7d4567.xml, D3D10_DDI_RESOURCE_MISC_DISCARD_ON_PRESENT, d3d10umddi/D3D10_DDI_RESOURCE_MISC_REMOTE, D3D10_DDI_RESOURCE_MISC_REMOTE, d3d10umddi/D3D10_DDI_RESOURCE_MISC_FLAG, D3D11_DDI_RESOURCE_MISC_RESOURCE_CLAMP, D3DWDDM1_3DDI_RESOURCE_MISC_TILE_POOL, display.d3d10_ddi_resource_misc_flag
+ms.date: 2/24/2018
+ms.keywords: D3D10_DDI_RESOURCE_AUTO_GEN_MIP_MAP, D3D10_DDI_RESOURCE_MISC_DISCARD_ON_PRESENT, D3D10_DDI_RESOURCE_MISC_FLAG, D3D10_DDI_RESOURCE_MISC_FLAG enumeration [Display Devices], D3D10_DDI_RESOURCE_MISC_REMOTE, D3D10_DDI_RESOURCE_MISC_SHARED, D3D11_1DDI_RESOURCE_MISC_RESTRICTED_CONTENT, D3D11_1DDI_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE_DRIVER, D3D11_DDI_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS, D3D11_DDI_RESOURCE_MISC_BUFFER_STRUCTURED, D3D11_DDI_RESOURCE_MISC_DRAWINDIRECT_ARGS, D3D11_DDI_RESOURCE_MISC_RESOURCE_CLAMP, D3DWDDM1_3DDI_RESOURCE_MISC_CROSS_ADAPTER, D3DWDDM1_3DDI_RESOURCE_MISC_TILED, D3DWDDM1_3DDI_RESOURCE_MISC_TILE_POOL, D3DWDDM2_0DDI_RESOURCE_MISC_CONTAINS_HW_PROTECTED, D3DWDDM2_0DDI_RESOURCE_MISC_DISPLAYABLE_SURFACE, D3DWDDM2_0DDI_RESOURCE_MISC_HW_PROTECTED, UMDisplayDriver_Dx10param_Structs_0b144bfc-1cec-4e30-b7c6-f7c2cb7d4567.xml, d3d10umddi/, d3d10umddi/D3D10_DDI_RESOURCE_AUTO_GEN_MIP_MAP, d3d10umddi/D3D10_DDI_RESOURCE_MISC_DISCARD_ON_PRESENT, d3d10umddi/D3D10_DDI_RESOURCE_MISC_FLAG, d3d10umddi/D3D10_DDI_RESOURCE_MISC_REMOTE, d3d10umddi/D3D10_DDI_RESOURCE_MISC_SHARED, d3d10umddi/D3D11_1DDI_RESOURCE_MISC_RESTRICTED_CONTENT, d3d10umddi/D3D11_1DDI_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE_DRIVER, d3d10umddi/D3D11_DDI_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS, d3d10umddi/D3D11_DDI_RESOURCE_MISC_BUFFER_STRUCTURED, d3d10umddi/D3D11_DDI_RESOURCE_MISC_DRAWINDIRECT_ARGS, d3d10umddi/D3D11_DDI_RESOURCE_MISC_RESOURCE_CLAMP, d3d10umddi/D3DWDDM1_3DDI_RESOURCE_MISC_CROSS_ADAPTER, d3d10umddi/D3DWDDM1_3DDI_RESOURCE_MISC_TILED, d3d10umddi/D3DWDDM1_3DDI_RESOURCE_MISC_TILE_POOL, d3d10umddi/D3DWDDM2_0DDI_RESOURCE_MISC_CONTAINS_HW_PROTECTED, d3d10umddi/D3DWDDM2_0DDI_RESOURCE_MISC_DISPLAYABLE_SURFACE, d3d10umddi/D3DWDDM2_0DDI_RESOURCE_MISC_HW_PROTECTED, display.d3d10_ddi_resource_misc_flag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d10umddi.h
-apiname:
+api_name:
 -	D3D10_DDI_RESOURCE_MISC_FLAG
 product: Windows
 targetos: Windows
@@ -210,19 +210,7 @@ Supported starting with Windows 10.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createshaderresourceview.md">CreateShaderResourceView(D3D11)</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_setresourceminlod.md">SetResourceMinLOD</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_genmips.md">GenMips</a>
 
 
 
@@ -230,7 +218,15 @@ Supported starting with Windows 10.
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createshaderresourceview.md">CreateShaderResourceView(D3D11)</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
 
 
 
@@ -238,11 +234,15 @@ Supported starting with Windows 10.
 
 
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_setresourceminlod.md">SetResourceMinLOD</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createshaderresourceview.md">D3D11DDIARG_CREATESHADERRESOURCEVIEW</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_setresourceminlod.md">SetResourceMinLOD</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_usage.md">D3D10_DDI_RESOURCE_USAGE</a>
 
 
 
@@ -250,7 +250,7 @@ Supported starting with Windows 10.
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_genmips.md">GenMips</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
 
 
 
@@ -258,5 +258,5 @@ Supported starting with Windows 10.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D10_DDI_RESOURCE_MISC_FLAG enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D10_DDI_RESOURCE_MISC_FLAG enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

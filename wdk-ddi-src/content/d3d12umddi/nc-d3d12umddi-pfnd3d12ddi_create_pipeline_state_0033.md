@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_create_pipeline_state_0033.htm
 old-project: display
 ms.assetid: F8255544-D5B6-4692-BDC0-EF5A2B856153
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.pfnd3d12ddi_create_pipeline_state_0033, PFND3D12DDI_CREATE_PIPELINE_STATE_0033 entry point [Display Devices], PFND3D12DDI_CREATE_PIPELINE_STATE_0033, d3d12umddi/PFND3D12DDI_CREATE_PIPELINE_STATE_0033
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_CREATE_PIPELINE_STATE_0033, PFND3D12DDI_CREATE_PIPELINE_STATE_0033 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CREATE_PIPELINE_STATE_0033, display.pfnd3d12ddi_create_pipeline_state_0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3d12umddi.h
-apiname:
+api_name:
 -	PFND3D12DDI_CREATE_PIPELINE_STATE_0033
 product: Windows
 targetos: Windows
@@ -86,9 +86,6 @@ HRESULT APIENTRY* PFND3D12DDI_CREATE_PIPELINE_STATE_0033(
 
 
 
-
-
-#### - d3d12ddi_hdevice
 
 
 #### - d3d12ddi_hdevice

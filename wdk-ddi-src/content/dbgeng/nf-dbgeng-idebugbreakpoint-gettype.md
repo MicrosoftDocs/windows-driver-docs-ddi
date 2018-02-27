@@ -4,11 +4,11 @@ title: IDebugBreakpoint::GetType method
 author: windows-driver-content
 description: The GetType method returns the type of the breakpoint and the type of the processor that a breakpoint is set for.
 old-location: debugger\gettype.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: c6aa6560-3183-4e3a-a625-80d1c5072af5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GetType method [Windows Debugging], IDebugBreakpoint2 interface, GetType, IDebugBreakpoint::GetType, IDebugBreakpoint2::GetType, dbgeng/IDebugBreakpoint2::GetType, IDebugBreakpoint2 interface [Windows Debugging], GetType method, debugger.gettype, ComOther_3305c400-f816-463b-a643-4495bf546460.xml, IDebugBreakpoint interface [Windows Debugging], GetType method, IDebugBreakpoint, GetType method [Windows Debugging], dbgeng/IDebugBreakpoint::GetType, GetType method [Windows Debugging], IDebugBreakpoint interface
+ms.date: 2/23/2018
+ms.keywords: ComOther_3305c400-f816-463b-a643-4495bf546460.xml, GetType method [Windows Debugging], GetType method [Windows Debugging], IDebugBreakpoint interface, GetType method [Windows Debugging], IDebugBreakpoint2 interface, GetType,IDebugBreakpoint.GetType, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], GetType method, IDebugBreakpoint2 interface [Windows Debugging], GetType method, IDebugBreakpoint2::GetType, IDebugBreakpoint::GetType, dbgeng/IDebugBreakpoint2::GetType, dbgeng/IDebugBreakpoint::GetType, debugger.gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugBreakpoint.GetType
 -	IDebugBreakpoint2.GetType
 product: Windows

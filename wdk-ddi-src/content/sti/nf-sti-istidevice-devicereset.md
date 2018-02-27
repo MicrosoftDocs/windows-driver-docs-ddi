@@ -4,11 +4,11 @@ title: IStiDevice::DeviceReset method
 author: windows-driver-content
 description: The IStiDevice::DeviceReset method resets a still image device to a known state.
 old-location: image\istidevice_devicereset.htm
-old-project: Image
+old-project: image
 ms.assetid: 8a52c452-9a80-45d5-9bc8-85e17654eb6a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: DeviceReset, sti/IStiDevice::DeviceReset, IStiDevice::DeviceReset, stifnc_ef289b1a-3123-4e1e-b643-688a10e69e36.xml, IStiDevice interface [Imaging Devices], DeviceReset method, IStiDevice, image.istidevice_devicereset, DeviceReset method [Imaging Devices], IStiDevice interface, DeviceReset method [Imaging Devices]
+ms.date: 2/23/2018
+ms.keywords: DeviceReset method [Imaging Devices], DeviceReset method [Imaging Devices], IStiDevice interface, DeviceReset,IStiDevice.DeviceReset, IStiDevice, IStiDevice interface [Imaging Devices], DeviceReset method, IStiDevice::DeviceReset, image.istidevice_devicereset, sti/IStiDevice::DeviceReset, stifnc_ef289b1a-3123-4e1e-b643-688a10e69e36.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Sti.h
-apiname:
+api_name:
 -	IStiDevice.DeviceReset
 product: Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE
+req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
 ---
 

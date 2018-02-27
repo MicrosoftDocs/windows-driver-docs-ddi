@@ -4,11 +4,11 @@ title: IDebugBreakpoint::SetOffsetExpression method
 author: windows-driver-content
 description: The SetOffsetExpression methods set an expression string that evaluates to the location that triggers a breakpoint.
 old-location: debugger\setoffsetexpression.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 63cfb3f2-5240-4cb6-9c23-8cdb363f62a8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugBreakpoint::SetOffsetExpression, dbgeng/IDebugBreakpoint::SetOffsetExpression, SetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetOffsetExpression, ComOther_d34036ae-b160-4b24-86d0-ebd2bd8408ea.xml, IDebugBreakpoint2 interface [Windows Debugging], SetOffsetExpression method, SetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, SetOffsetExpression, IDebugBreakpoint2::SetOffsetExpression, debugger.setoffsetexpression, IDebugBreakpoint, SetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface [Windows Debugging], SetOffsetExpression method
+ms.date: 2/23/2018
+ms.keywords: ComOther_d34036ae-b160-4b24-86d0-ebd2bd8408ea.xml, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], SetOffsetExpression method, IDebugBreakpoint2 interface [Windows Debugging], SetOffsetExpression method, IDebugBreakpoint2::SetOffsetExpression, IDebugBreakpoint::SetOffsetExpression, SetOffsetExpression method [Windows Debugging], SetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, SetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, SetOffsetExpression,IDebugBreakpoint.SetOffsetExpression, dbgeng/IDebugBreakpoint2::SetOffsetExpression, dbgeng/IDebugBreakpoint::SetOffsetExpression, debugger.setoffsetexpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugBreakpoint.SetOffsetExpression
 -	IDebugBreakpoint2.SetOffsetExpression
 product: Windows

@@ -4,11 +4,11 @@ title: "_ERROR_INFOW"
 author: windows-driver-content
 description: The STI_ERROR_INFO structure is used as a parameter for the IStiDevice::GetLastErrorInfo and IStiUSD::GetLastErrorInfo methods. It is also used as a member of the STI_DIAG structure.
 old-location: image\sti_error_info.htm
-old-project: Image
+old-project: image
 ms.assetid: e448ddfc-ae5a-4eb8-a39c-e46771278081
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: STI_ERROR_INFO, stifnc_c4e51568-9e80-4866-9258-72a8fcbd242d.xml, PSTI_ERROR_INFO, *PSTI_ERROR_INFO, sti/PSTI_ERROR_INFO, STI_ERROR_INFO structure [Imaging Devices], image.sti_error_info, *PSTI_ERROR_INFOW, PSTI_ERROR_INFO structure pointer [Imaging Devices], sti/STI_ERROR_INFO, _ERROR_INFOW, STI_ERROR_INFOW
+ms.date: 2/23/2018
+ms.keywords: "*PSTI_ERROR_INFO, *PSTI_ERROR_INFOW, PSTI_ERROR_INFO, PSTI_ERROR_INFO structure pointer [Imaging Devices], STI_ERROR_INFO, STI_ERROR_INFO structure [Imaging Devices], STI_ERROR_INFOW, _ERROR_INFOW, image.sti_error_info, sti/PSTI_ERROR_INFO, sti/STI_ERROR_INFO, stifnc_c4e51568-9e80-4866-9258-72a8fcbd242d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	sti.h
-apiname:
+api_name:
 -	STI_ERROR_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_ERROR_INFOW, STI_ERROR_INFOW"
+req.typenames: STI_ERROR_INFOW, *PSTI_ERROR_INFOW
 req.product: Windows 10 or later.
 ---
 

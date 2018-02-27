@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b6186c05-ccb9-432c-bd83-9a3fb3af7f0b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_WORKITEM_CONFIG structure, kmdf.wdf_workitem_config, PWDF_WORKITEM_CONFIG structure pointer, wdfworkitem/WDF_WORKITEM_CONFIG, _WDF_WORKITEM_CONFIG, *PWDF_WORKITEM_CONFIG, wdfworkitem/PWDF_WORKITEM_CONFIG, PWDF_WORKITEM_CONFIG, wdf.wdf_workitem_config, WDF_WORKITEM_CONFIG, DFWorkItemObjectRef_48012621-6363-421b-8b95-2bdae4e63b32.xml
+ms.keywords: "*PWDF_WORKITEM_CONFIG, DFWorkItemObjectRef_48012621-6363-421b-8b95-2bdae4e63b32.xml, PWDF_WORKITEM_CONFIG, PWDF_WORKITEM_CONFIG structure pointer, WDF_WORKITEM_CONFIG, WDF_WORKITEM_CONFIG structure, _WDF_WORKITEM_CONFIG, kmdf.wdf_workitem_config, wdf.wdf_workitem_config, wdfworkitem/PWDF_WORKITEM_CONFIG, wdfworkitem/WDF_WORKITEM_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfworkitem.h
-apiname:
+api_name:
 -	WDF_WORKITEM_CONFIG
 product: Windows
 targetos: Windows
@@ -104,7 +104,7 @@ For more information about <b>AutomaticSerialization</b> and synchronizing drive
 
 ## -see-also
 
-<a href="..\wdfworkitem\nf-wdfworkitem-wdf_workitem_config_init.md">WDF_WORKITEM_CONFIG_INIT</a>
+<a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
 
 
 
@@ -112,7 +112,7 @@ For more information about <b>AutomaticSerialization</b> and synchronizing drive
 
 
 
-<a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
+<a href="..\wdfworkitem\nf-wdfworkitem-wdf_workitem_config_init.md">WDF_WORKITEM_CONFIG_INIT</a>
 
 
 

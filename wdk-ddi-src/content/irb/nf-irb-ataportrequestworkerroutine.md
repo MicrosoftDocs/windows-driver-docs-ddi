@@ -7,8 +7,8 @@ old-location: storage\ataportrequestworkerroutine.htm
 old-project: storage
 ms.assetid: 2d9a6886-aeec-4d61-8c9d-056d1409b905
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.ataportrequestworkerroutine, atartns_9edce4ce-1bcf-4e52-81c1-705e645fe5f4.xml, AtaPortRequestWorkerRoutine, irb/AtaPortRequestWorkerRoutine, AtaPortRequestWorkerRoutine routine [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: AtaPortRequestWorkerRoutine, AtaPortRequestWorkerRoutine routine [Storage Devices], atartns_9edce4ce-1bcf-4e52-81c1-705e645fe5f4.xml, irb/AtaPortRequestWorkerRoutine, storage.ataportrequestworkerroutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	irb.h
-apiname:
+api_name:
 -	AtaPortRequestWorkerRoutine
 product: Windows
 targetos: Windows

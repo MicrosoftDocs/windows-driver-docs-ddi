@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 4eeb543b-0c23-4119-8e42-ff086b4b7682
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 1394stct_e03538df-3b91-483d-99da-95645f017bef.xml, IEEE.address_range, ADDRESS_RANGE, 1394/ADDRESS_RANGE, PADDRESS_RANGE, 1394/PADDRESS_RANGE, *PADDRESS_RANGE, PADDRESS_RANGE structure pointer [Buses], _ADDRESS_RANGE, ADDRESS_RANGE structure [Buses]
+ms.keywords: "*PADDRESS_RANGE, 1394/ADDRESS_RANGE, 1394/PADDRESS_RANGE, 1394stct_e03538df-3b91-483d-99da-95645f017bef.xml, ADDRESS_RANGE, ADDRESS_RANGE structure [Buses], IEEE.address_range, PADDRESS_RANGE, PADDRESS_RANGE structure pointer [Buses], _ADDRESS_RANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	1394.h
-apiname:
+api_name:
 -	ADDRESS_RANGE
 product: Windows
 targetos: Windows
-req.typenames: "*PADDRESS_RANGE, ADDRESS_RANGE"
+req.typenames: ADDRESS_RANGE, *PADDRESS_RANGE
 ---
 
 # _ADDRESS_RANGE structure

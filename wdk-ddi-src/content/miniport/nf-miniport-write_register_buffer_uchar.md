@@ -7,8 +7,8 @@ old-location: kernel\write_register_buffer_uchar.htm
 old-project: kernel
 ms.assetid: 4cb90f37-c7ce-4f78-9e68-cbe4aaf6ea72
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.write_register_buffer_uchar, WRITE_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], WRITE_REGISTER_BUFFER_UCHAR, wdm/WRITE_REGISTER_BUFFER_UCHAR, k103_29b68153-db95-4017-ab96-d05e6c984503.xml
+ms.date: 2/24/2018
+ms.keywords: WRITE_REGISTER_BUFFER_UCHAR, WRITE_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_29b68153-db95-4017-ab96-d05e6c984503.xml, kernel.write_register_buffer_uchar, wdm/WRITE_REGISTER_BUFFER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	WRITE_REGISTER_BUFFER_UCHAR
 product: Windows
 targetos: Windows

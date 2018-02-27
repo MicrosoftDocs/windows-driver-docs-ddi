@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c0f6b5bd-991c-403c-9bda-82960b356ca9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/FsRtlPrivateLock, fsrtlref_950e4ca4-4e7f-4158-8e1e-083af825488d.xml, FsRtlPrivateLock, FsRtlPrivateLock function [Installable File System Drivers], ifsk.fsrtlprivatelock
+ms.keywords: FsRtlPrivateLock, FsRtlPrivateLock function [Installable File System Drivers], fsrtlref_950e4ca4-4e7f-4158-8e1e-083af825488d.xml, ifsk.fsrtlprivatelock, ntifs/FsRtlPrivateLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntifs.h
-apiname:
+api_name:
 -	FsRtlPrivateLock
 product: Windows
 targetos: Windows

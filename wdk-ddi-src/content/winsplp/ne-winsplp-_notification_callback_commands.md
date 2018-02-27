@@ -7,8 +7,8 @@ old-location: print\notification_callback_commands.htm
 old-project: print
 ms.assetid: D93D09AE-B0B8-4682-BBBA-1EEC952A733D
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.notification_callback_commands, NOTIFICATION_CALLBACK_COMMANDS enumeration [Print Devices], NOTIFICATION_COMMAND_NOTIFY, NOTIFICATION_COMMAND_CONTEXT_RELEASE, _NOTIFICATION_CALLBACK_COMMANDS, winsplp/NOTIFICATION_COMMAND_CONTEXT_RELEASE, winsplp/NOTIFICATION_COMMAND_NOTIFY, winsplp/NOTIFICATION_COMMAND_CONTEXT_ACQUIRE, winsplp/NOTIFICATION_CALLBACK_COMMANDS, NOTIFICATION_COMMAND_CONTEXT_ACQUIRE, NOTIFICATION_CALLBACK_COMMANDS
+ms.date: 2/23/2018
+ms.keywords: NOTIFICATION_CALLBACK_COMMANDS, NOTIFICATION_CALLBACK_COMMANDS enumeration [Print Devices], NOTIFICATION_COMMAND_CONTEXT_ACQUIRE, NOTIFICATION_COMMAND_CONTEXT_RELEASE, NOTIFICATION_COMMAND_NOTIFY, _NOTIFICATION_CALLBACK_COMMANDS, print.notification_callback_commands, winsplp/NOTIFICATION_CALLBACK_COMMANDS, winsplp/NOTIFICATION_COMMAND_CONTEXT_ACQUIRE, winsplp/NOTIFICATION_COMMAND_CONTEXT_RELEASE, winsplp/NOTIFICATION_COMMAND_NOTIFY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Winsplp.h
-apiname:
+api_name:
 -	NOTIFICATION_CALLBACK_COMMANDS
 product: Windows
 targetos: Windows

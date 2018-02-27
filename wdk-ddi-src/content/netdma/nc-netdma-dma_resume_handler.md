@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 06609603-eeed-4fb0-a878-87cad2e72b46
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.providerresumedma, ProviderResumeDma callback function [Network Drivers Starting with Windows Vista], ProviderResumeDma, DMA_RESUME_HANDLER, DMA_RESUME_HANDLER, netdma/ProviderResumeDma, netdma_ref_75548093-1640-40f2-a715-0918b92900d3.xml
+ms.keywords: DMA_RESUME_HANDLER, ProviderResumeDma, ProviderResumeDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderResumeDma, netdma_ref_75548093-1640-40f2-a715-0918b92900d3.xml, netvista.providerresumedma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	netdma.h
-apiname:
+api_name:
 -	ProviderResumeDma
 product: Windows
 targetos: Windows

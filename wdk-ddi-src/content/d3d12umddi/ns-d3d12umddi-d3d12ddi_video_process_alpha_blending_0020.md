@@ -7,8 +7,8 @@ old-location: display\d3d12ddi_video_process_alpha_blending.htm
 old-project: display
 ms.assetid: 58E7A600-1CA9-40F8-8F37-CA7A0834B3F4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.d3d12ddi_video_process_alpha_blending, D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020, D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020
+ms.date: 2/24/2018
+ms.keywords: D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020, D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020, display.d3d12ddi_video_process_alpha_blending
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3d12umddi.h
-apiname:
+api_name:
 -	D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020
 product: Windows
 targetos: Windows

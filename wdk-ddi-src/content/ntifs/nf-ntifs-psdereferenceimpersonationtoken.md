@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8320d4d1-f282-4977-96e7-de6f63d86ec4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/PsDereferenceImpersonationToken, PsDereferenceImpersonationToken, ifsk.psdereferenceimpersonationtoken, PsDereferenceImpersonationToken routine [Installable File System Drivers], psref_8d62cb23-83a3-45fd-8b35-f7e38dd1548d.xml
+ms.keywords: PsDereferenceImpersonationToken, PsDereferenceImpersonationToken routine [Installable File System Drivers], ifsk.psdereferenceimpersonationtoken, ntifs/PsDereferenceImpersonationToken, psref_8d62cb23-83a3-45fd-8b35-f7e38dd1548d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	PsDereferenceImpersonationToken
 product: Windows
 targetos: Windows
@@ -94,11 +94,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
 
 
 

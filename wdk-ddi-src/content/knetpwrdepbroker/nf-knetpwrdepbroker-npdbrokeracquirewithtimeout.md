@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D2067A72-0FF5-4D77-A1F6-0A6984A1735A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NpdBrokerAcquireWithTimeout function [Network Drivers Starting with Windows Vista], netvista.npdbrokeracquirewithtimeout, knetpwrdepbroker/NpdBrokerAcquireWithTimeout, NpdBrokerAcquireWithTimeout
+ms.keywords: NpdBrokerAcquireWithTimeout, NpdBrokerAcquireWithTimeout function [Network Drivers Starting with Windows Vista], knetpwrdepbroker/NpdBrokerAcquireWithTimeout, netvista.npdbrokeracquirewithtimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	KNetPwrDepBroker.h
-apiname:
+api_name:
 -	NpdBrokerAcquireWithTimeout
 product: Windows
 targetos: Windows

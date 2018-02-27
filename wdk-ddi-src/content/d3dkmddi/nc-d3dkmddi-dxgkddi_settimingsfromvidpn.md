@@ -7,8 +7,8 @@ old-location: display\dxgkddi_settimingsfromvidpn.htm
 old-project: display
 ms.assetid: 7E991251-1738-41AD-83D6-60DD7E183D68
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgkddi_settimingsfromvidpn, DXGKDDI_SETTIMINGSFROMVIDPN callback function [Display Devices], DXGKDDI_SETTIMINGSFROMVIDPN, d3dkmddi/DXGKDDI_SETTIMINGSFROMVIDPN
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_SETTIMINGSFROMVIDPN, DXGKDDI_SETTIMINGSFROMVIDPN callback function [Display Devices], d3dkmddi/DXGKDDI_SETTIMINGSFROMVIDPN, display.dxgkddi_settimingsfromvidpn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	DXGKDDI_SETTIMINGSFROMVIDPN
 product: Windows
 targetos: Windows

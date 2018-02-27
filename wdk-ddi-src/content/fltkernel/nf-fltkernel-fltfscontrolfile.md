@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: afc72cdf-ea29-4e78-95a0-fc621e3290a7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltFsControlFile, fltkernel/FltFsControlFile, FltFsControlFile routine [Installable File System Drivers], ifsk.fltfscontrolfile, FltApiRef_e_to_o_3cad833f-9ece-410a-896d-1b3fe897c251.xml
+ms.keywords: FltApiRef_e_to_o_3cad833f-9ece-410a-896d-1b3fe897c251.xml, FltFsControlFile, FltFsControlFile routine [Installable File System Drivers], fltkernel/FltFsControlFile, ifsk.fltfscontrolfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	fltmgr.sys
-apiname:
+api_name:
 -	FltFsControlFile
 product: Windows
 targetos: Windows

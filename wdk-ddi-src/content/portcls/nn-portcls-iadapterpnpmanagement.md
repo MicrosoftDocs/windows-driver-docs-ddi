@@ -7,8 +7,8 @@ old-location: audio\iadapterpnpmanagement.htm
 old-project: audio
 ms.assetid: A5EF8214-76D9-4F4E-A9FE-9374E0EDC9D2
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iadapterpnpmanagement, IAdapterPnpManagement interface [Audio Devices], IAdapterPnpManagement interface [Audio Devices], described, IAdapterPnpManagement, portcls/IAdapterPnpManagement
+ms.date: 2/22/2018
+ms.keywords: IAdapterPnpManagement, IAdapterPnpManagement interface [Audio Devices], IAdapterPnpManagement interface [Audio Devices], described, audio.iadapterpnpmanagement, portcls/IAdapterPnpManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IAdapterPnpManagement
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: d834d97c-cf2d-430b-8f54-b0b47ab1503c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PcmciaNEC_98, PcmciaTI, ntddpcm/PcmciaElcController, PcmciaTopic, ntddpcm/PcmciaO2Micro, PcmciaDatabookCB, PCMCIA_CONTROLLER_CLASS, PCMCIA.pcmcia_controller_class, ntddpcm/PcmciaTI, ntddpcm/PcmciaDatabook, ntddpcm/PcmciaRicoh, ntddpcm/PcmciaTrid, ntddpcm/PcmciaNEC, ntddpcm/PcmciaOpti, PcmciaDatabook, PCMCIA_CONTROLLER_CLASS enumeration [Buses], PcmciaO2Micro, PcmciaOpti, ntddpcm/PCMCIA_CONTROLLER_CLASS, PcmciaInvalidControllerClass, ntddpcm/PcmciaCirrusLogic, PPCMCIA_CONTROLLER_CLASS, _PCMCIA_CONTROLLER_CLASS, ntddpcm/PcmciaNEC_98, memcdref_a3d708d3-6fa4-4edd-af5d-1513c8da5a9b.xml, PcmciaCirrusLogic, PcmciaElcController, ntddpcm/PcmciaCardBusCompatible, ntddpcm/PcmciaDatabookCB, ntddpcm/PcmciaTopic, ntddpcm/PcmciaInvalidControllerClass, PcmciaIntelCompatible, PcmciaTrid, *PPCMCIA_CONTROLLER_CLASS, PcmciaRicoh, PcmciaNEC, ntddpcm/PPCMCIA_CONTROLLER_CLASS, ntddpcm/PcmciaPciPcmciaBridge, PPCMCIA_CONTROLLER_CLASS enumeration pointer [Buses], PcmciaCardBusCompatible, PcmciaPciPcmciaBridge, ntddpcm/PcmciaIntelCompatible
+ms.keywords: "*PPCMCIA_CONTROLLER_CLASS, PCMCIA.pcmcia_controller_class, PCMCIA_CONTROLLER_CLASS, PCMCIA_CONTROLLER_CLASS enumeration [Buses], PPCMCIA_CONTROLLER_CLASS, PPCMCIA_CONTROLLER_CLASS enumeration pointer [Buses], PcmciaCardBusCompatible, PcmciaCirrusLogic, PcmciaDatabook, PcmciaDatabookCB, PcmciaElcController, PcmciaIntelCompatible, PcmciaInvalidControllerClass, PcmciaNEC, PcmciaNEC_98, PcmciaO2Micro, PcmciaOpti, PcmciaPciPcmciaBridge, PcmciaRicoh, PcmciaTI, PcmciaTopic, PcmciaTrid, _PCMCIA_CONTROLLER_CLASS, memcdref_a3d708d3-6fa4-4edd-af5d-1513c8da5a9b.xml, ntddpcm/PCMCIA_CONTROLLER_CLASS, ntddpcm/PPCMCIA_CONTROLLER_CLASS, ntddpcm/PcmciaCardBusCompatible, ntddpcm/PcmciaCirrusLogic, ntddpcm/PcmciaDatabook, ntddpcm/PcmciaDatabookCB, ntddpcm/PcmciaElcController, ntddpcm/PcmciaIntelCompatible, ntddpcm/PcmciaInvalidControllerClass, ntddpcm/PcmciaNEC, ntddpcm/PcmciaNEC_98, ntddpcm/PcmciaO2Micro, ntddpcm/PcmciaOpti, ntddpcm/PcmciaPciPcmciaBridge, ntddpcm/PcmciaRicoh, ntddpcm/PcmciaTI, ntddpcm/PcmciaTopic, ntddpcm/PcmciaTrid"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL (See Remarks section.)"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddpcm.h
-apiname:
+api_name:
 -	PCMCIA_CONTROLLER_CLASS
 product: Windows
 targetos: Windows

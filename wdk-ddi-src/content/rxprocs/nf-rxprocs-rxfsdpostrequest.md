@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0b1bc248-6b8e-498c-936d-64f6ff9fa183
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rxprocs/RxFsdPostRequest, ifsk.rxfsdpostrequest, RxFsdPostRequest function [Installable File System Drivers], rxref_ceb83e58-1e5a-49d0-b281-50cd5067e09f.xml, RxFsdPostRequest
+ms.keywords: RxFsdPostRequest, RxFsdPostRequest function [Installable File System Drivers], ifsk.rxfsdpostrequest, rxprocs/RxFsdPostRequest, rxref_ceb83e58-1e5a-49d0-b281-50cd5067e09f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rxprocs.h
-apiname:
+api_name:
 -	RxFsdPostRequest
 product: Windows
 targetos: Windows

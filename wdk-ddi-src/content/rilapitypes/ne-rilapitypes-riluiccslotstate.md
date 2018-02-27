@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e88c6e79-c1a0-4ff9-ac00-f8f367aaa7c4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RIL_UICCSLOT_OFF, rilapitypes/RIL_UICCSLOT_NOT_READY, RIL_UICCSLOT_NOT_READY, RILUICCSLOTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCSLOT_EMPTY, RIL_UICCSLOT_ERROR, netvista.riluiccslotstate, RIL_UICCSLOT_ACTIVE, RIL_UICCSLOT_OFF_EMPTY, rilapitypes/RIL_UICCSLOT_EMPTY, rilapitypes/RIL_UICCSLOT_ERROR, rilapitypes/RILUICCSLOTSTATE, rilapitypes/RIL_UICCSLOT_OFF_EMPTY, rilapitypes/RIL_UICCSLOT_ACTIVE, RILUICCSLOTSTATE, RIL_UICCSLOT_OFF
+ms.keywords: RILUICCSLOTSTATE, RILUICCSLOTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCSLOT_ACTIVE, RIL_UICCSLOT_EMPTY, RIL_UICCSLOT_ERROR, RIL_UICCSLOT_NOT_READY, RIL_UICCSLOT_OFF, RIL_UICCSLOT_OFF_EMPTY, netvista.riluiccslotstate, rilapitypes/RILUICCSLOTSTATE, rilapitypes/RIL_UICCSLOT_ACTIVE, rilapitypes/RIL_UICCSLOT_EMPTY, rilapitypes/RIL_UICCSLOT_ERROR, rilapitypes/RIL_UICCSLOT_NOT_READY, rilapitypes/RIL_UICCSLOT_OFF, rilapitypes/RIL_UICCSLOT_OFF_EMPTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILUICCSLOTSTATE
 product: Windows
 targetos: Windows

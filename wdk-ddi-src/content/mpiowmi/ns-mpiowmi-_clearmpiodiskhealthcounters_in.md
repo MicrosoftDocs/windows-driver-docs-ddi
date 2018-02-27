@@ -7,8 +7,8 @@ old-location: storage\clearmpiodiskhealthcounters_in.htm
 old-project: storage
 ms.assetid: 1af28545-f43f-47a2-b6a2-64fd7a408687
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*PClearMpioDiskHealthCounters_IN, ClearMpioDiskHealthCounters_IN, ClearMpioDiskHealthCounters_IN structure [Storage Devices], storage.clearmpiodiskhealthcounters_in, mpiowmi/ClearMpioDiskHealthCounters_IN, PClearMpioDiskHealthCounters_IN structure pointer [Storage Devices], mpiowmi/PClearMpioDiskHealthCounters_IN, _ClearMpioDiskHealthCounters_IN, PClearMpioDiskHealthCounters_IN, structs-scsibus_52663a43-dc66-4b77-b30d-d60ffbea7232.xml"
+ms.date: 2/24/2018
+ms.keywords: "*PClearMpioDiskHealthCounters_IN, ClearMpioDiskHealthCounters_IN, ClearMpioDiskHealthCounters_IN structure [Storage Devices], PClearMpioDiskHealthCounters_IN, PClearMpioDiskHealthCounters_IN structure pointer [Storage Devices], _ClearMpioDiskHealthCounters_IN, mpiowmi/ClearMpioDiskHealthCounters_IN, mpiowmi/PClearMpioDiskHealthCounters_IN, storage.clearmpiodiskhealthcounters_in, structs-scsibus_52663a43-dc66-4b77-b30d-d60ffbea7232.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	mpiowmi.h
-apiname:
+api_name:
 -	ClearMpioDiskHealthCounters_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PClearMpioDiskHealthCounters_IN, ClearMpioDiskHealthCounters_IN"
+req.typenames: ClearMpioDiskHealthCounters_IN, *PClearMpioDiskHealthCounters_IN
 ---
 
 # _ClearMpioDiskHealthCounters_IN structure

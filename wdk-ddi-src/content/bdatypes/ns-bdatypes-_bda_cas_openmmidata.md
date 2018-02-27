@@ -7,8 +7,8 @@ old-location: stream\bda_cas_openmmidata.htm
 old-project: stream
 ms.assetid: FAF30768-5DE4-4284-8CB5-2E518A2E37E7
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.bda_cas_openmmidata, PBDA_CAS_OPENMMIDATA structure pointer [Streaming Media Devices], PBDA_CAS_OPENMMIDATA, bdatypes/PBDA_CAS_OPENMMIDATA, bdatypes/BDA_CAS_OPENMMIDATA, _BDA_CAS_OPENMMIDATA, *PBDA_CAS_OPENMMIDATA, BDA_CAS_OPENMMIDATA structure [Streaming Media Devices], BDA_CAS_OPENMMIDATA
+ms.date: 2/23/2018
+ms.keywords: "*PBDA_CAS_OPENMMIDATA, BDA_CAS_OPENMMIDATA, BDA_CAS_OPENMMIDATA structure [Streaming Media Devices], PBDA_CAS_OPENMMIDATA, PBDA_CAS_OPENMMIDATA structure pointer [Streaming Media Devices], _BDA_CAS_OPENMMIDATA, bdatypes/BDA_CAS_OPENMMIDATA, bdatypes/PBDA_CAS_OPENMMIDATA, stream.bda_cas_openmmidata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Bdatypes.h
-apiname:
+api_name:
 -	BDA_CAS_OPENMMIDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PBDA_CAS_OPENMMIDATA, BDA_CAS_OPENMMIDATA"
+req.typenames: BDA_CAS_OPENMMIDATA, *PBDA_CAS_OPENMMIDATA
 ---
 
 # _BDA_CAS_OPENMMIDATA structure

@@ -7,8 +7,8 @@ old-location: stream\ksdevice_thermal_dispatch.htm
 old-project: stream
 ms.assetid: 6E4ADD86-EFC4-4369-83A1-1D2824235310
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ksdevice_thermal_dispatch, ks/KSDEVICE_THERMAL_DISPATCH, PKSDEVICE_THERMAL_DISPATCH structure pointer [Streaming Media Devices], KSDEVICE_THERMAL_DISPATCH structure [Streaming Media Devices], Engaged, ks/PKSDEVICE_THERMAL_DISPATCH, _KSDEVICE_THERMAL_DISPATCH, DeviceThermalState, *PKSDEVICE_THERMAL_DISPATCH, PKSDEVICE_THERMAL_DISPATCH, KsDevice, Percentage, KSDEVICE_THERMAL_DISPATCH
+ms.date: 2/23/2018
+ms.keywords: "*PKSDEVICE_THERMAL_DISPATCH, DeviceThermalState, Engaged, KSDEVICE_THERMAL_DISPATCH, KSDEVICE_THERMAL_DISPATCH structure [Streaming Media Devices], KsDevice, PKSDEVICE_THERMAL_DISPATCH, PKSDEVICE_THERMAL_DISPATCH structure pointer [Streaming Media Devices], Percentage, _KSDEVICE_THERMAL_DISPATCH, ks/KSDEVICE_THERMAL_DISPATCH, ks/PKSDEVICE_THERMAL_DISPATCH, stream.ksdevice_thermal_dispatch"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KSDEVICE_THERMAL_DISPATCH
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: storage\ide_channel_configuration.htm
 old-project: storage
 ms.assetid: 1ca9a198-ac6b-4837-9503-68eb7ca36527
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: irb/IDE_CHANNEL_CONFIGURATION, storage.ide_channel_configuration, IDE_CHANNEL_CONFIGURATION structure [Storage Devices], PIDE_CHANNEL_CONFIGURATION structure pointer [Storage Devices], structs-ATA_79456267-9b2d-4f9a-beff-e44915bda026.xml, irb/PIDE_CHANNEL_CONFIGURATION, PIDE_CHANNEL_CONFIGURATION, _IDE_CHANNEL_CONFIGURATION, *PIDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION
+ms.date: 2/24/2018
+ms.keywords: "*PIDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION structure [Storage Devices], PIDE_CHANNEL_CONFIGURATION, PIDE_CHANNEL_CONFIGURATION structure pointer [Storage Devices], _IDE_CHANNEL_CONFIGURATION, irb/IDE_CHANNEL_CONFIGURATION, irb/PIDE_CHANNEL_CONFIGURATION, storage.ide_channel_configuration, structs-ATA_79456267-9b2d-4f9a-beff-e44915bda026.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	irb.h
-apiname:
+api_name:
 -	IDE_CHANNEL_CONFIGURATION
 product: Windows
 targetos: Windows
-req.typenames: "*PIDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION"
+req.typenames: IDE_CHANNEL_CONFIGURATION, *PIDE_CHANNEL_CONFIGURATION
 ---
 
 # _IDE_CHANNEL_CONFIGURATION structure

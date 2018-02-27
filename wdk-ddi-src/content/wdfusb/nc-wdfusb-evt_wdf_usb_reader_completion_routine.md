@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: da762d78-6d73-4ab9-83a8-297c6f48855b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtusbtargetpipereadcomplete, EvtUsbTargetPipeReadComplete callback function, EvtUsbTargetPipeReadComplete, EVT_WDF_USB_READER_COMPLETION_ROUTINE, EVT_WDF_USB_READER_COMPLETION_ROUTINE, wdfusb/EvtUsbTargetPipeReadComplete, DFUsbRef_6c37ab84-2c88-41d5-8a63-3e74207083ed.xml, kmdf.evtusbtargetpipereadcomplete
+ms.keywords: DFUsbRef_6c37ab84-2c88-41d5-8a63-3e74207083ed.xml, EVT_WDF_USB_READER_COMPLETION_ROUTINE, EvtUsbTargetPipeReadComplete, EvtUsbTargetPipeReadComplete callback function, kmdf.evtusbtargetpipereadcomplete, wdf.evtusbtargetpipereadcomplete, wdfusb/EvtUsbTargetPipeReadComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL  (See Remarks section.)"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	WdfUsb.h
-apiname:
+api_name:
 -	EvtUsbTargetPipeReadComplete
 product: Windows
 targetos: Windows
@@ -193,11 +193,11 @@ The <b>EVT_WDF_USB_READER_COMPLETION_ROUTINE</b> function type is defined in the
 
 
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md">WDF_USB_CONTINUOUS_READER_CONFIG</a>
-
-
-
 <a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_failed.md">EvtUsbTargetPipeReadersFailed</a>
+
+
+
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md">WDF_USB_CONTINUOUS_READER_CONFIG</a>
 
 
 

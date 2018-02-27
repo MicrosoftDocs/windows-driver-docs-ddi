@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0859c9bb-04f2-4bef-9da7-da72375d05f7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FwpsRedirectHandleDestroy0 function [Network Drivers Starting with Windows Vista], FwpsRedirectHandleDestroy0, fwpsk/FwpsRedirectHandleDestroy0, netvista.fwpsredirecthandledestroy0
+ms.keywords: FwpsRedirectHandleDestroy0, FwpsRedirectHandleDestroy0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsRedirectHandleDestroy0, netvista.fwpsredirecthandledestroy0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname:
+api_name:
 -	FwpsRedirectHandleDestroy0
 product: Windows
 targetos: Windows

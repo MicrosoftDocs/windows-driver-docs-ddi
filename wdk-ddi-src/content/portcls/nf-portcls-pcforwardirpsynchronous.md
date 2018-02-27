@@ -7,8 +7,8 @@ old-location: audio\pcforwardirpsynchronous.htm
 old-project: audio
 ms.assetid: 29f69d26-6788-4c52-b6a4-ef96991ea238
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: PcForwardIrpSynchronous, audpc-routines_9ecb1bfa-c318-424c-8f65-3777136c5f65.xml, PcForwardIrpSynchronous function [Audio Devices], audio.pcforwardirpsynchronous, portcls/PcForwardIrpSynchronous
+ms.date: 2/22/2018
+ms.keywords: PcForwardIrpSynchronous, PcForwardIrpSynchronous function [Audio Devices], audio.pcforwardirpsynchronous, audpc-routines_9ecb1bfa-c318-424c-8f65-3777136c5f65.xml, portcls/PcForwardIrpSynchronous
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Portcls.lib
 -	Portcls.dll
-apiname:
+api_name:
 -	PcForwardIrpSynchronous
 product: Windows
 targetos: Windows
@@ -101,6 +101,10 @@ The <a href="..\portcls\nf-portcls-pccompleteirp.md">PcCompleteIrp</a> function 
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
@@ -109,13 +113,9 @@ The <a href="..\portcls\nf-portcls-pccompleteirp.md">PcCompleteIrp</a> function 
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcForwardIrpSynchronous function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcForwardIrpSynchronous function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

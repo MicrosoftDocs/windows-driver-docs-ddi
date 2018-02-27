@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1893a929-c9e6-446e-a840-3825f4992c18
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WwanRef_90dec032-ce8e-4b19-a4d8-e9a7a22d681e.xml, PWWAN_SERVICE_ACTIVATION structure pointer [Network Drivers Starting with Windows Vista], _WWAN_SERVICE_ACTIVATION, PWWAN_SERVICE_ACTIVATION, WWAN_SERVICE_ACTIVATION structure [Network Drivers Starting with Windows Vista], wwan/WWAN_SERVICE_ACTIVATION, WWAN_SERVICE_ACTIVATION, *PWWAN_SERVICE_ACTIVATION, netvista.wwan_service_activation, wwan/PWWAN_SERVICE_ACTIVATION
+ms.keywords: "*PWWAN_SERVICE_ACTIVATION, PWWAN_SERVICE_ACTIVATION, PWWAN_SERVICE_ACTIVATION structure pointer [Network Drivers Starting with Windows Vista], WWAN_SERVICE_ACTIVATION, WWAN_SERVICE_ACTIVATION structure [Network Drivers Starting with Windows Vista], WwanRef_90dec032-ce8e-4b19-a4d8-e9a7a22d681e.xml, _WWAN_SERVICE_ACTIVATION, netvista.wwan_service_activation, wwan/PWWAN_SERVICE_ACTIVATION, wwan/WWAN_SERVICE_ACTIVATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_SERVICE_ACTIVATION
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_SERVICE_ACTIVATION, WWAN_SERVICE_ACTIVATION"
+req.typenames: WWAN_SERVICE_ACTIVATION, *PWWAN_SERVICE_ACTIVATION
 req.product: Windows 10 or later.
 ---
 

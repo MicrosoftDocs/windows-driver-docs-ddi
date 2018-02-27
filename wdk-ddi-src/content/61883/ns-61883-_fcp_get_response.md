@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 1CE962A4-7F99-4F81-8B85-265A4225B88A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: FCP_GET_RESPONSE, *PFCP_RESPONSE, FCP_GET_RESPONSE structure [Buses], 61883/PFCP_GET_RESPONSE, PFCP_GET_RESPONSE structure pointer [Buses], _FCP_GET_RESPONSE, PFCP_GET_RESPONSE, IEEE.fcp_get_response, 61883/FCP_GET_RESPONSE, *PFCP_GET_RESPONSE, FCP_RESPONSE
+ms.keywords: "*PFCP_GET_RESPONSE, *PFCP_RESPONSE, 61883/FCP_GET_RESPONSE, 61883/PFCP_GET_RESPONSE, FCP_GET_RESPONSE, FCP_GET_RESPONSE structure [Buses], FCP_RESPONSE, IEEE.fcp_get_response, PFCP_GET_RESPONSE, PFCP_GET_RESPONSE structure pointer [Buses], _FCP_GET_RESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	61883.h
-apiname:
+api_name:
 -	FCP_GET_RESPONSE
 product: Windows
 targetos: Windows
-req.typenames: FCP_GET_RESPONSE, *PFCP_GET_RESPONSE, FCP_RESPONSE, *PFCP_RESPONSE
+req.typenames: FCP_RESPONSE, *PFCP_RESPONSE, FCP_GET_RESPONSE, *PFCP_GET_RESPONSE
 ---
 
 # _FCP_GET_RESPONSE structure

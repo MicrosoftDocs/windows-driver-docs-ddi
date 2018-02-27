@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 15c02819-bae8-48f5-8782-97823b6907bd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WWAN_RADIO_STATE, PWWAN_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_RADIO_STATE, *PWWAN_RADIO_STATE, WwanRef_b1ea0ea1-b23f-4e5c-9528-659e1f6e4162.xml, PWWAN_RADIO_STATE, wwan/PWWAN_RADIO_STATE, _WWAN_RADIO_STATE, WWAN_RADIO_STATE structure [Network Drivers Starting with Windows Vista], netvista.wwan_radio_state
+ms.keywords: "*PWWAN_RADIO_STATE, PWWAN_RADIO_STATE, PWWAN_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_RADIO_STATE, WWAN_RADIO_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_b1ea0ea1-b23f-4e5c-9528-659e1f6e4162.xml, _WWAN_RADIO_STATE, netvista.wwan_radio_state, wwan/PWWAN_RADIO_STATE, wwan/WWAN_RADIO_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_RADIO_STATE
 product: Windows
 targetos: Windows
@@ -230,11 +230,11 @@ The miniport driver should send all applicable status indications such as
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_radio.md">WWAN_RADIO</a>
-
-
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_radio_state.md">NDIS_WWAN_RADIO_STATE</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_radio.md">WWAN_RADIO</a>
 
 
 

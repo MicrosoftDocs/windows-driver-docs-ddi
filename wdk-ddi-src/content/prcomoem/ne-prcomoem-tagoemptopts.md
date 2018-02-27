@@ -7,8 +7,8 @@ old-location: print\oemptopts.htm
 old-project: print
 ms.assetid: A63C115D-7215-422A-B4F9-C88820FC8168
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: OEMPTOPTS, tagOEMPTOPTS, *POEMPTOPTS, POEMPTOPTS enumeration pointer [Print Devices], OEMPT_NOSHAPSHOT, POEMPTOPTS, print.oemptopts, OEMPT_DEFAULT, OEMPTOPTS enumeration [Print Devices], prcomoem/POEMPTOPTS, prcomoem/OEMPT_DEFAULT, prcomoem/OEMPTOPTS, prcomoem/OEMPT_NOSHAPSHOT
+ms.date: 2/23/2018
+ms.keywords: "*POEMPTOPTS, OEMPTOPTS, OEMPTOPTS enumeration [Print Devices], OEMPT_DEFAULT, OEMPT_NOSHAPSHOT, POEMPTOPTS, POEMPTOPTS enumeration pointer [Print Devices], prcomoem/OEMPTOPTS, prcomoem/OEMPT_DEFAULT, prcomoem/OEMPT_NOSHAPSHOT, prcomoem/POEMPTOPTS, print.oemptopts, tagOEMPTOPTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Prcomoem.h
-apiname:
+api_name:
 -	OEMPTOPTS
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

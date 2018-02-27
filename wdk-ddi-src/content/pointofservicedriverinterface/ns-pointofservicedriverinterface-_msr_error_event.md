@@ -7,8 +7,8 @@ old-location: pos\msr_error_event.htm
 old-project: pos
 ms.assetid: daab2df5-4d23-4fe3-b357-74b2615e6d1e
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: PMSR_ERROR_EVENT, pointofservicedriverinterface/PMSR_ERROR_EVENT, pointofservicedriverinterface/MSR_ERROR_EVENT, MSR_ERROR_EVENT structure, MSR_ERROR_EVENT, PMSR_ERROR_EVENT structure pointer, *PMSR_ERROR_EVENT, _MSR_ERROR_EVENT, pos.msr_error_event
+ms.date: 2/23/2018
+ms.keywords: "*PMSR_ERROR_EVENT, MSR_ERROR_EVENT, MSR_ERROR_EVENT structure, PMSR_ERROR_EVENT, PMSR_ERROR_EVENT structure pointer, _MSR_ERROR_EVENT, pointofservicedriverinterface/MSR_ERROR_EVENT, pointofservicedriverinterface/PMSR_ERROR_EVENT, pos.msr_error_event"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	PointOfServiceDriverInterface.h
-apiname:
+api_name:
 -	MSR_ERROR_EVENT
 product: Windows
 targetos: Windows

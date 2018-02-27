@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7ae85902-d990-45d9-9e9d-e609aea24091
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_PARAM_SSP_ROAMINGMODE, RIL_PARAM_SSP_PLMNINFO, RIL_PARAM_SSP_ACQUISITIONORDERSIZE, RIL_PARAM_SSP_ALL, RIL_PARAM_SSP_SYSTEMTYPES, RIL_PARAM_SSP_ACQUISITIONORDER, rilapitypes/RIL_PARAM_SSP_MODE, RILSYSTEMSELECTIONPREFSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_SSP_ACQUISITIONORDER, RILSYSTEMSELECTIONPREFSPARAMMASK, RIL_PARAM_SSP_MODE, rilapitypes/RIL_PARAM_SSP_PLMNINFO, rilapitypes/RIL_PARAM_SSP_ROAMINGMODE, netvista.rilsystemselectionprefsparammask_2, rilapitypes/RILSYSTEMSELECTIONPREFSPARAMMASK, rilapitypes/RIL_PARAM_SSP_ACQUISITIONORDERSIZE, rilapitypes/RIL_PARAM_SSP_ALL, rilapitypes/RIL_PARAM_SSP_SYSTEMTYPES
+ms.keywords: RILSYSTEMSELECTIONPREFSPARAMMASK, RILSYSTEMSELECTIONPREFSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SSP_ACQUISITIONORDER, RIL_PARAM_SSP_ACQUISITIONORDERSIZE, RIL_PARAM_SSP_ALL, RIL_PARAM_SSP_MODE, RIL_PARAM_SSP_PLMNINFO, RIL_PARAM_SSP_ROAMINGMODE, RIL_PARAM_SSP_SYSTEMTYPES, netvista.rilsystemselectionprefsparammask_2, rilapitypes/RILSYSTEMSELECTIONPREFSPARAMMASK, rilapitypes/RIL_PARAM_SSP_ACQUISITIONORDER, rilapitypes/RIL_PARAM_SSP_ACQUISITIONORDERSIZE, rilapitypes/RIL_PARAM_SSP_ALL, rilapitypes/RIL_PARAM_SSP_MODE, rilapitypes/RIL_PARAM_SSP_PLMNINFO, rilapitypes/RIL_PARAM_SSP_ROAMINGMODE, rilapitypes/RIL_PARAM_SSP_SYSTEMTYPES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILSYSTEMSELECTIONPREFSPARAMMASK
 product: Windows
 targetos: Windows

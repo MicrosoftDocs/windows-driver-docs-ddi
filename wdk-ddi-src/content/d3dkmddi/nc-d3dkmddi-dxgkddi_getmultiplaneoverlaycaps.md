@@ -7,8 +7,8 @@ old-location: display\dxgkddi_getmultiplaneoverlaycaps.htm
 old-project: display
 ms.assetid: 17A9B769-D280-491D-844E-A9B2C66D2207
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgkddi_getmultiplaneoverlaycaps, DXGKDDI_GETMULTIPLANEOVERLAYCAPS callback function [Display Devices], DXGKDDI_GETMULTIPLANEOVERLAYCAPS, d3dkmddi/DXGKDDI_GETMULTIPLANEOVERLAYCAPS
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_GETMULTIPLANEOVERLAYCAPS, DXGKDDI_GETMULTIPLANEOVERLAYCAPS callback function [Display Devices], d3dkmddi/DXGKDDI_GETMULTIPLANEOVERLAYCAPS, display.dxgkddi_getmultiplaneoverlaycaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	DXGKDDI_GETMULTIPLANEOVERLAYCAPS
 product: Windows
 targetos: Windows

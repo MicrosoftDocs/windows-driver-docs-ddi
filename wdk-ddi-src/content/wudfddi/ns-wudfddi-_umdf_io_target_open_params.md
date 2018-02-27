@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ee8c3585-4e27-4b53-99d8-0af0c5a0099d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.umdf_io_target_open_params, UMDF_IO_TARGET_OPEN_PARAMS structure, PUMDF_IO_TARGET_OPEN_PARAMS structure pointer, wdf.umdf_io_target_open_params, wudfddi/PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS, _UMDF_IO_TARGET_OPEN_PARAMS, PUMDF_IO_TARGET_OPEN_PARAMS, wudfddi/UMDF_IO_TARGET_OPEN_PARAMS, umdfstructs_ac731d61-3f97-4c2c-a9af-0a2a58774766.xml
+ms.keywords: "*PUMDF_IO_TARGET_OPEN_PARAMS, PUMDF_IO_TARGET_OPEN_PARAMS, PUMDF_IO_TARGET_OPEN_PARAMS structure pointer, UMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS structure, _UMDF_IO_TARGET_OPEN_PARAMS, umdf.umdf_io_target_open_params, umdfstructs_ac731d61-3f97-4c2c-a9af-0a2a58774766.xml, wdf.umdf_io_target_open_params, wudfddi/PUMDF_IO_TARGET_OPEN_PARAMS, wudfddi/UMDF_IO_TARGET_OPEN_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wudfddi.h
-apiname:
+api_name:
 -	UMDF_IO_TARGET_OPEN_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
+req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -98,11 +98,11 @@ The <b>UMDF_IO_TARGET_OPEN_PARAMS</b> structure is used as input to <a href="htt
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
 
 
 

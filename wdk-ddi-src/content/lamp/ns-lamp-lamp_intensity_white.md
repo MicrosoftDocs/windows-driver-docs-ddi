@@ -7,8 +7,8 @@ old-location: stream\lamp_intensity_white.htm
 old-project: stream
 ms.assetid: BDE53311-589F-4458-9510-1B02F1BD0289
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: LAMP_INTENSITY_WHITE, stream.lamp_intensity_white, LAMP_INTENSITY_WHITE structure [Streaming Media Devices], lamp/LAMP_INTENSITY_WHITE
+ms.date: 2/23/2018
+ms.keywords: LAMP_INTENSITY_WHITE, LAMP_INTENSITY_WHITE structure [Streaming Media Devices], lamp/LAMP_INTENSITY_WHITE, stream.lamp_intensity_white
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	lamp.h
-apiname:
+api_name:
 -	LAMP_INTENSITY_WHITE
 product: Windows
 targetos: Windows

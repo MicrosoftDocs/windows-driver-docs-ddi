@@ -7,8 +7,8 @@ old-location: storage\ioctl_ehstor_device_get_authz_state.htm
 old-project: storage
 ms.assetid: 20322156-316B-4FE5-A804-14506C8CEB49
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.ioctl_ehstor_device_get_authz_state, IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE control code [Storage Devices], IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE, ehstorioctl/IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE
+ms.date: 2/24/2018
+ms.keywords: IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE, IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE, storage.ioctl_ehstor_device_get_authz_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	EhStorIoctl.h
-apiname:
+api_name:
 -	IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: PDO_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

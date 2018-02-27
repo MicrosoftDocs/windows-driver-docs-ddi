@@ -7,8 +7,8 @@ old-location: sensors\gnss_supl_cert_config.htm
 old-project: sensors
 ms.assetid: F974D5E2-7230-4F85-9C1A-7CE7E240DBE1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG structure [Sensor Devices], gnssdriver/PGNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG structure pointer [Sensor Devices], sensors.gnss_supl_cert_config, *PGNSS_SUPL_CERT_CONFIG, gnssdriver/GNSS_SUPL_CERT_CONFIG
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG structure [Sensor Devices], PGNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG structure pointer [Sensor Devices], gnssdriver/GNSS_SUPL_CERT_CONFIG, gnssdriver/PGNSS_SUPL_CERT_CONFIG, sensors.gnss_supl_cert_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	gnssdriver.h
-apiname:
+api_name:
 -	GNSS_SUPL_CERT_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG"
+req.typenames: GNSS_SUPL_CERT_CONFIG, *PGNSS_SUPL_CERT_CONFIG
 ---
 
 # GNSS_SUPL_CERT_CONFIG structure
@@ -148,9 +148,9 @@ The size of the certificate in bytes.
 
 
 
-#### - SuplCertName[MAX_PATH]
+#### - CertData[ANYSIZE_ARRAY]
 
-String containing the certificate name.
+The binary content of the certificate.  The total size of the bytes is defined by <b>CertSize</b>. The certificate is Base64 encoded.
 
 
 #### - IsRoot
@@ -160,12 +160,12 @@ Specify whether the certificate is a root certificate.
 Multiple root certificates can be configured since some mobile operator require this functionality. An IHV supporting SUPL should have support for multiple certificates.
 
 
+#### - SuplCertName[MAX_PATH]
+
+String containing the certificate name.
+
+
 #### - Unused[512]
 
 Padding buffer.
-
-
-#### - CertData[ANYSIZE_ARRAY]
-
-The binary content of the certificate.  The total size of the bytes is defined by <b>CertSize</b>. The certificate is Base64 encoded.
 

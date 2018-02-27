@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0AD10F14-EBDB-45F8-A435-1D0A6D6FEFFF
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WWAN_PCO_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanPcoTypePartial, wwan/WWAN_PCO_TYPE, wwan/WwanPcoTypeComplete, *PWWAN_PCO_TYPE, WwanPcoTypePartial, netvista.wwan_pco_type, WwanPcoTypeComplete, _WWAN_PCO_TYPE, WWAN_PCO_TYPE
+ms.keywords: "*PWWAN_PCO_TYPE, WWAN_PCO_TYPE, WWAN_PCO_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanPcoTypeComplete, WwanPcoTypePartial, _WWAN_PCO_TYPE, netvista.wwan_pco_type, wwan/WWAN_PCO_TYPE, wwan/WwanPcoTypeComplete, wwan/WwanPcoTypePartial"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_PCO_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_PCO_TYPE, WWAN_PCO_TYPE"
+req.typenames: WWAN_PCO_TYPE, *PWWAN_PCO_TYPE
 req.product: Windows 10 or later.
 ---
 

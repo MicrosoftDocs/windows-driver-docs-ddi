@@ -7,8 +7,8 @@ old-location: storage\getpathconfiguration_out.htm
 old-project: storage
 ms.assetid: 055db46e-59fc-4eb9-93d7-16d680495220
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: mpiowmi/GetPathConfiguration_OUT, structs-scsibus_4d2ebbae-67ff-42bc-8904-c33f914485cd.xml, PGetPathConfiguration_OUT, storage.getpathconfiguration_out, *PGetPathConfiguration_OUT, mpiowmi/PGetPathConfiguration_OUT, GetPathConfiguration_OUT, GetPathConfiguration_OUT structure [Storage Devices], PGetPathConfiguration_OUT structure pointer [Storage Devices], _GetPathConfiguration_OUT
+ms.date: 2/24/2018
+ms.keywords: "*PGetPathConfiguration_OUT, GetPathConfiguration_OUT, GetPathConfiguration_OUT structure [Storage Devices], PGetPathConfiguration_OUT, PGetPathConfiguration_OUT structure pointer [Storage Devices], _GetPathConfiguration_OUT, mpiowmi/GetPathConfiguration_OUT, mpiowmi/PGetPathConfiguration_OUT, storage.getpathconfiguration_out, structs-scsibus_4d2ebbae-67ff-42bc-8904-c33f914485cd.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	mpiowmi.h
-apiname:
+api_name:
 -	GetPathConfiguration_OUT
 product: Windows
 targetos: Windows

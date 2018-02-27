@@ -7,8 +7,8 @@ old-location: display\dxgk_pte.htm
 old-project: display
 ms.assetid: 2d5c1f3e-69a6-4f7f-9c99-bbaf94e6401b
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: DmStructs_701e980c-29dc-46d2-8f03-ce8485a4cc70.xml, display.dxgk_pte, DXGK_PTE, DXGK_PTE structure [Display Devices], _DXGK_PTE, d3dukmdt/DXGK_PTE
+ms.date: 2/24/2018
+ms.keywords: DXGK_PTE, DXGK_PTE structure [Display Devices], DmStructs_701e980c-29dc-46d2-8f03-ce8485a4cc70.xml, _DXGK_PTE, d3dukmdt/DXGK_PTE, display.dxgk_pte
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dukmdt.h
-apiname:
+api_name:
 -	DXGK_PTE
 product: Windows
 targetos: Windows

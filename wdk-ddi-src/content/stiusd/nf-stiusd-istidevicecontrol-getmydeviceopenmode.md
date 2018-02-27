@@ -4,11 +4,11 @@ title: IStiDeviceControl::GetMyDeviceOpenMode method
 author: windows-driver-content
 description: The IStiDeviceControl::GetMyDeviceOpenMode method allows a still image minidriver to obtain the transfer mode that an application specified when it created an instance of a still image device.
 old-location: image\istidevicecontrol_getmydeviceopenmode.htm
-old-project: Image
+old-project: image
 ms.assetid: 814e739f-6147-4287-876e-db6fc41c5aa1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GetMyDeviceOpenMode method [Imaging Devices], GetMyDeviceOpenMode, IStiDeviceControl interface [Imaging Devices], GetMyDeviceOpenMode method, stifnc_a3082d9f-d152-4494-b11f-e9d2bd1efe63.xml, IStiDeviceControl::GetMyDeviceOpenMode, IStiDeviceControl, GetMyDeviceOpenMode method [Imaging Devices], IStiDeviceControl interface, stiusd/IStiDeviceControl::GetMyDeviceOpenMode, image.istidevicecontrol_getmydeviceopenmode
+ms.date: 2/23/2018
+ms.keywords: GetMyDeviceOpenMode method [Imaging Devices], GetMyDeviceOpenMode method [Imaging Devices], IStiDeviceControl interface, GetMyDeviceOpenMode,IStiDeviceControl.GetMyDeviceOpenMode, IStiDeviceControl, IStiDeviceControl interface [Imaging Devices], GetMyDeviceOpenMode method, IStiDeviceControl::GetMyDeviceOpenMode, image.istidevicecontrol_getmydeviceopenmode, stifnc_a3082d9f-d152-4494-b11f-e9d2bd1efe63.xml, stiusd/IStiDeviceControl::GetMyDeviceOpenMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	stiusd.h
-apiname:
+api_name:
 -	IStiDeviceControl.GetMyDeviceOpenMode
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 689b4abc-13ee-4d4a-8b2e-bb0be7cc6672
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILMESSAGEINFO structure [Network Drivers Starting with Windows Vista], netvista.rilmessageinfo, RILMESSAGEINFO, *LPRILMESSAGEINFO, ntddrilapitypes/RILMESSAGEINFO
+ms.keywords: "*LPRILMESSAGEINFO, RILMESSAGEINFO, RILMESSAGEINFO structure [Network Drivers Starting with Windows Vista], netvista.rilmessageinfo, ntddrilapitypes/RILMESSAGEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddrilapitypes.h
-apiname:
+api_name:
 -	RILMESSAGEINFO
 product: Windows
 targetos: Windows

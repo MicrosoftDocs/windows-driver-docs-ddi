@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 0a468158-4beb-42e0-a990-0282041a6bf8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: sd-structs_e0ab70a5-5006-4469-872a-ea8f6279b5d6.xml, SDRT_3, SDRT_UNSPECIFIED, sddef/SD_RESPONSE_TYPE, SDRT_5B, SDRT_4, SDRT_2, sddef/SDRT_NONE, SD.sd_response_type, sddef/SDRT_5B, sddef/SDRT_3, sddef/SDRT_4, SD_RESPONSE_TYPE, sddef/SDRT_6, SDRT_1, sddef/SDRT_5, SDRT_1B, SD_RESPONSE_TYPE enumeration [Buses], sddef/SDRT_1, SDRT_5, sddef/SDRT_UNSPECIFIED, sddef/SDRT_1B, sddef/SDRT_2, SDRT_6, SDRT_NONE
+ms.keywords: SD.sd_response_type, SDRT_1, SDRT_1B, SDRT_2, SDRT_3, SDRT_4, SDRT_5, SDRT_5B, SDRT_6, SDRT_NONE, SDRT_UNSPECIFIED, SD_RESPONSE_TYPE, SD_RESPONSE_TYPE enumeration [Buses], sd-structs_e0ab70a5-5006-4469-872a-ea8f6279b5d6.xml, sddef/SDRT_1, sddef/SDRT_1B, sddef/SDRT_2, sddef/SDRT_3, sddef/SDRT_4, sddef/SDRT_5, sddef/SDRT_5B, sddef/SDRT_6, sddef/SDRT_NONE, sddef/SDRT_UNSPECIFIED, sddef/SD_RESPONSE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	sddef.h
-apiname:
+api_name:
 -	SD_RESPONSE_TYPE
 product: Windows
 targetos: Windows

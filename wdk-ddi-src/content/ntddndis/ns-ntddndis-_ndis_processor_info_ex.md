@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e4f28f30-32bc-4bbc-8e95-f87dfe80229d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PNDIS_PROCESSOR_INFO_EX, _NDIS_PROCESSOR_INFO_EX, ntddndis/NDIS_PROCESSOR_INFO_EX, ndis_processor_group_ref_0a75adfb-c28f-4d9b-8b29-6da14662bda7.xml, PNDIS_PROCESSOR_INFO_EX structure pointer [Network Drivers Starting with Windows Vista], NDIS_PROCESSOR_INFO_EX structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_PROCESSOR_INFO_EX, NDIS_PROCESSOR_INFO_EX, netvista.ndis_processor_info_ex, PNDIS_PROCESSOR_INFO_EX"
+ms.keywords: "*PNDIS_PROCESSOR_INFO_EX, NDIS_PROCESSOR_INFO_EX, NDIS_PROCESSOR_INFO_EX structure [Network Drivers Starting with Windows Vista], PNDIS_PROCESSOR_INFO_EX, PNDIS_PROCESSOR_INFO_EX structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROCESSOR_INFO_EX, ndis_processor_group_ref_0a75adfb-c28f-4d9b-8b29-6da14662bda7.xml, netvista.ndis_processor_info_ex, ntddndis/NDIS_PROCESSOR_INFO_EX, ntddndis/PNDIS_PROCESSOR_INFO_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddndis.h
-apiname:
+api_name:
 -	NDIS_PROCESSOR_INFO_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PROCESSOR_INFO_EX, NDIS_PROCESSOR_INFO_EX"
+req.typenames: NDIS_PROCESSOR_INFO_EX, *PNDIS_PROCESSOR_INFO_EX
 ---
 
 # _NDIS_PROCESSOR_INFO_EX structure
@@ -133,7 +133,8 @@ The NDIS_PROCESSOR_INFO_EX structure is used in the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
+<a href="..\ndis\nf-ndis-ndisgetprocessorinformationex.md">
+   NdisGetProcessorInformationEx</a>
 
 
 

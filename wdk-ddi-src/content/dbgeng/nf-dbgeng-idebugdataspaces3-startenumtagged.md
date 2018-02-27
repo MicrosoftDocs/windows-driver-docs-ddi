@@ -4,11 +4,11 @@ title: IDebugDataSpaces3::StartEnumTagged method
 author: windows-driver-content
 description: The StartEnumTagged method initializes a enumeration over the tagged data associated with a debugger session.
 old-location: debugger\startenumtagged.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: b79b1f09-baff-4071-a209-6fc399c9aef9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: StartEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], StartEnumTagged method, IDebugDataSpaces_bc6f5148-04e1-4912-8ca2-8c095519af8f.xml, dbgeng/IDebugDataSpaces4::StartEnumTagged, IDebugDataSpaces3, StartEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4::StartEnumTagged, IDebugDataSpaces3::StartEnumTagged, StartEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces3::StartEnumTagged, debugger.startenumtagged, StartEnumTagged, IDebugDataSpaces3 interface [Windows Debugging], StartEnumTagged method
+ms.date: 2/23/2018
+ms.keywords: IDebugDataSpaces3, IDebugDataSpaces3 interface [Windows Debugging], StartEnumTagged method, IDebugDataSpaces3::StartEnumTagged, IDebugDataSpaces4 interface [Windows Debugging], StartEnumTagged method, IDebugDataSpaces4::StartEnumTagged, IDebugDataSpaces_bc6f5148-04e1-4912-8ca2-8c095519af8f.xml, StartEnumTagged method [Windows Debugging], StartEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface, StartEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface, StartEnumTagged,IDebugDataSpaces3.StartEnumTagged, dbgeng/IDebugDataSpaces3::StartEnumTagged, dbgeng/IDebugDataSpaces4::StartEnumTagged, debugger.startenumtagged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugDataSpaces3.StartEnumTagged
 -	IDebugDataSpaces4.StartEnumTagged
 product: Windows

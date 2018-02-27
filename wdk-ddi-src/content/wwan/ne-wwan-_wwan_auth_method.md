@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D24D8C90-8F65-42BC-8FBC-308ECC4A73C9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WwanAuthMethodMax, wwan/WwanAuthAkaPrime, wwan/WwanAuthAka, WWAN_AUTH_METHOD enumeration [Network Drivers Starting with Windows Vista], WwanAuthAka, *PWWAN_AUTH_METHOD, wwan/WWAN_AUTH_METHOD, wwan/WwanAuthMethodMax, netvista.wwan_auth_method, WWAN_AUTH_METHOD, WwanAuthSim, _WWAN_AUTH_METHOD, wwan/WwanAuthSim, WwanAuthAkaPrime
+ms.keywords: "*PWWAN_AUTH_METHOD, WWAN_AUTH_METHOD, WWAN_AUTH_METHOD enumeration [Network Drivers Starting with Windows Vista], WwanAuthAka, WwanAuthAkaPrime, WwanAuthMethodMax, WwanAuthSim, _WWAN_AUTH_METHOD, netvista.wwan_auth_method, wwan/WWAN_AUTH_METHOD, wwan/WwanAuthAka, wwan/WwanAuthAkaPrime, wwan/WwanAuthMethodMax, wwan/WwanAuthSim"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_AUTH_METHOD
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_AUTH_METHOD, WWAN_AUTH_METHOD"
+req.typenames: WWAN_AUTH_METHOD, *PWWAN_AUTH_METHOD
 req.product: Windows 10 or later.
 ---
 

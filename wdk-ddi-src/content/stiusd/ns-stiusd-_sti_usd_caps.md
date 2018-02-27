@@ -4,11 +4,11 @@ title: "_STI_USD_CAPS"
 author: windows-driver-content
 description: The STI_USD_CAPS structure is used as a parameter for the IStiUSD::GetCapabilities method.
 old-location: image\sti_usd_caps.htm
-old-project: Image
+old-project: image
 ms.assetid: 24dda069-5f93-469d-8ce3-87b488019b88
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: stiusd/STI_USD_CAPS, STI_USD_CAPS, *PSTI_USD_CAPS, _STI_USD_CAPS, stifnc_4f136561-e3a7-467d-b8be-a60db8534126.xml, stiusd/PSTI_USD_CAPS, PSTI_USD_CAPS, PSTI_USD_CAPS structure pointer [Imaging Devices], STI_USD_CAPS structure [Imaging Devices], image.sti_usd_caps
+ms.date: 2/23/2018
+ms.keywords: "*PSTI_USD_CAPS, PSTI_USD_CAPS, PSTI_USD_CAPS structure pointer [Imaging Devices], STI_USD_CAPS, STI_USD_CAPS structure [Imaging Devices], _STI_USD_CAPS, image.sti_usd_caps, stifnc_4f136561-e3a7-467d-b8be-a60db8534126.xml, stiusd/PSTI_USD_CAPS, stiusd/STI_USD_CAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	stiusd.h
-apiname:
+api_name:
 -	STI_USD_CAPS
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_USD_CAPS, STI_USD_CAPS"
+req.typenames: STI_USD_CAPS, *PSTI_USD_CAPS
 req.product: Windows 10 or later.
 ---
 

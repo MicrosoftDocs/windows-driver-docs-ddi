@@ -7,8 +7,8 @@ old-location: print\oemdmparam.htm
 old-project: print
 ms.assetid: 625980d1-47eb-4427-a9e8-967b1873bbd6
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: POEMDMPARAM structure pointer [Print Devices], printoem/POEMDMPARAM, print.oemdmparam, OEMDMPARAM, POEMDMPARAM, *POEMDMPARAM, print_unidrv-pscript_ui_49535272-ec29-4133-8105-0ce9b31808a2.xml, _OEMDMPARAM, OEMDMPARAM structure [Print Devices], printoem/OEMDMPARAM
+ms.date: 2/23/2018
+ms.keywords: "*POEMDMPARAM, OEMDMPARAM, OEMDMPARAM structure [Print Devices], POEMDMPARAM, POEMDMPARAM structure pointer [Print Devices], _OEMDMPARAM, print.oemdmparam, print_unidrv-pscript_ui_49535272-ec29-4133-8105-0ce9b31808a2.xml, printoem/OEMDMPARAM, printoem/POEMDMPARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	printoem.h
-apiname:
+api_name:
 -	OEMDMPARAM
 product: Windows
 targetos: Windows
-req.typenames: "*POEMDMPARAM, OEMDMPARAM"
+req.typenames: OEMDMPARAM, *POEMDMPARAM
 req.product: Windows 10 or later.
 ---
 

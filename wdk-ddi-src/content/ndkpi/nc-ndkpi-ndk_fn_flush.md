@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8C5F62DD-36CB-4EBC-9113-BB5BF19C0D45
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_flush, NdkFlush callback function [Network Drivers Starting with Windows Vista], NdkFlush, NDK_FN_FLUSH, NDK_FN_FLUSH, ndkpi/NdkFlush
+ms.keywords: NDK_FN_FLUSH, NdkFlush, NdkFlush callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkFlush, netvista.ndk_fn_flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ndkpi.h
-apiname:
+api_name:
 -	NdkFlush
 product: Windows
 targetos: Windows

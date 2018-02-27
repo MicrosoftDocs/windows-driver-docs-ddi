@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: ac9efa58-fd38-43f2-85e6-577d58735847
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEEE.cip_frame, 61883_structures_1fd796fa-88d2-4dc4-a440-89bf50b81ae8.xml, PCIP_FRAME structure pointer [Buses], CIP_FRAME, *PCIP_FRAME, _CIP_FRAME, PCIP_FRAME, 61883/CIP_FRAME, CIP_FRAME structure [Buses], 61883/PCIP_FRAME
+ms.keywords: "*PCIP_FRAME, 61883/CIP_FRAME, 61883/PCIP_FRAME, 61883_structures_1fd796fa-88d2-4dc4-a440-89bf50b81ae8.xml, CIP_FRAME, CIP_FRAME structure [Buses], IEEE.cip_frame, PCIP_FRAME, PCIP_FRAME structure pointer [Buses], _CIP_FRAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	61883.h
-apiname:
+api_name:
 -	CIP_FRAME
 product: Windows
 targetos: Windows
-req.typenames: "*PCIP_FRAME, CIP_FRAME"
+req.typenames: CIP_FRAME, *PCIP_FRAME
 ---
 
 # _CIP_FRAME structure
@@ -234,11 +234,11 @@ Reserved for internal use.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536956">Av61883_CancelFrame</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536950">Av61883_AttachFrame</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536956">Av61883_CancelFrame</a>
 
 
 

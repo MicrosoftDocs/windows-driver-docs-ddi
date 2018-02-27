@@ -7,8 +7,8 @@ old-location: stream\ksmpegvid_rect.htm
 old-project: stream
 ms.assetid: 3fde33d4-a9c8-4647-bd2d-3da66f13ef8a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ksmedia/KSMPEGVID_RECT, vidcapstruct_ceaab9c9-ac63-4248-9365-fd9694a0b440.xml, PKSMPEGVID_RECT structure pointer [Streaming Media Devices], KSMPEGVID_RECT structure [Streaming Media Devices], _KSMPEGVID_RECT, stream.ksmpegvid_rect, ksmedia/PKSMPEGVID_RECT, *PKSMPEGVID_RECT, PKSMPEGVID_RECT, KSMPEGVID_RECT
+ms.date: 2/23/2018
+ms.keywords: "*PKSMPEGVID_RECT, KSMPEGVID_RECT, KSMPEGVID_RECT structure [Streaming Media Devices], PKSMPEGVID_RECT, PKSMPEGVID_RECT structure pointer [Streaming Media Devices], _KSMPEGVID_RECT, ksmedia/KSMPEGVID_RECT, ksmedia/PKSMPEGVID_RECT, stream.ksmpegvid_rect, vidcapstruct_ceaab9c9-ac63-4248-9365-fd9694a0b440.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ksmedia.h
-apiname:
+api_name:
 -	KSMPEGVID_RECT
 product: Windows
 targetos: Windows

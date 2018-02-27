@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 49a3defc-d86c-4d70-8c1c-a5abbadda013
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdffile2, IWDFFile2 interface, IWDFFile2 interface, described, IWDFFile2, wudfddi/IWDFFile2, UMDFFileObjectRef_991af5dd-c654-4afe-9072-0efeb7ab4d57.xml, umdf.iwdffile2
+ms.keywords: IWDFFile2, IWDFFile2 interface, IWDFFile2 interface, described, UMDFFileObjectRef_991af5dd-c654-4afe-9072-0efeb7ab4d57.xml, umdf.iwdffile2, wdf.iwdffile2, wudfddi/IWDFFile2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFFile2
 product: Windows
 targetos: Windows
@@ -54,6 +54,13 @@ req.product: Windows 10 or later.
 
 Drivers obtain the <b>IWDFFile2</b> interface by calling <b>IWDFFile::QueryInterface</b>.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFFile2</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>. <b>IWDFFile2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -81,9 +88,5 @@ The <a href="https://msdn.microsoft.com/0b3aa8d9-1947-4e5e-91d1-6f73ddb3908a">Re
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/0ac5c19a-b3ec-4f1e-a018-2c11cc18e58d">GetRelatedFileObject</a> method retrieves the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface of a <i>related file object</i>, which is a file object that has a technology-specific relationship with another file object.
-
-The <a href="https://msdn.microsoft.com/0b3aa8d9-1947-4e5e-91d1-6f73ddb3908a">RetrieveCountedFileName</a> method retrieves the full counted file name for a file that is associated with a device. 
-
- 
+</table> 
 

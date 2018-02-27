@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b9c8e54e-7cd5-48a9-b948-5327900c8a99
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi/IWDFDeviceInitialize::AutoForwardCreateCleanupClose, IWDFDeviceInitialize, IWDFDeviceInitialize interface, AutoForwardCreateCleanupClose method, UMDFDeviceObjectRef_6f68d9cd-cfb9-49ae-94b8-a230e4dc0762.xml, AutoForwardCreateCleanupClose method, IWDFDeviceInitialize interface, AutoForwardCreateCleanupClose, wdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, IWDFDeviceInitialize::AutoForwardCreateCleanupClose, AutoForwardCreateCleanupClose method, umdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose
+ms.keywords: AutoForwardCreateCleanupClose method, AutoForwardCreateCleanupClose method, IWDFDeviceInitialize interface, AutoForwardCreateCleanupClose,IWDFDeviceInitialize.AutoForwardCreateCleanupClose, IWDFDeviceInitialize, IWDFDeviceInitialize interface, AutoForwardCreateCleanupClose method, IWDFDeviceInitialize::AutoForwardCreateCleanupClose, UMDFDeviceObjectRef_6f68d9cd-cfb9-49ae-94b8-a230e4dc0762.xml, umdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, wdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, wudfddi/IWDFDeviceInitialize::AutoForwardCreateCleanupClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFDeviceInitialize.AutoForwardCreateCleanupClose
 product: Windows
 targetos: Windows
@@ -147,15 +147,15 @@ For more information about how a UMDF driver uses <b>AutoForwardCreateCleanupClo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
 
 
 

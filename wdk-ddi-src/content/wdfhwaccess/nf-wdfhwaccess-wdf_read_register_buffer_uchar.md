@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D4A7F80C-C223-4F92-AD08-C37F0668B292
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdf_read_register_buffer_uchar, WDF_READ_REGISTER_BUFFER_UCHAR function, wdfhwaccess/WDF_READ_REGISTER_BUFFER_UCHAR, WDF_READ_REGISTER_BUFFER_UCHAR
+ms.keywords: WDF_READ_REGISTER_BUFFER_UCHAR, WDF_READ_REGISTER_BUFFER_UCHAR function, wdf.wdf_read_register_buffer_uchar, wdfhwaccess/WDF_READ_REGISTER_BUFFER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdfhwaccess.h
-apiname:
+api_name:
 -	WDF_READ_REGISTER_BUFFER_UCHAR
 product: Windows
 targetos: Windows

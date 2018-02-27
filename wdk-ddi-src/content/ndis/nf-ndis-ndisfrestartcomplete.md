@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 84685763-e7d8-4184-afa3-83efb4a0d3d7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisFRestartComplete function [Network Drivers Starting with Windows Vista], NdisFRestartComplete, ndis/NdisFRestartComplete, filter_ndis_functions_ref_592af2b7-2172-4a8d-aa7b-315f7c321705.xml, netvista.ndisfrestartcomplete
+ms.keywords: NdisFRestartComplete, NdisFRestartComplete function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_592af2b7-2172-4a8d-aa7b-315f7c321705.xml, ndis/NdisFRestartComplete, netvista.ndisfrestartcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname:
+api_name:
 -	NdisFRestartComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFRestartComplete function
@@ -140,7 +140,7 @@ A filter driver can resume indicating received network data immediately after ND
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
+<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
 
 
 
@@ -148,7 +148,7 @@ A filter driver can resume indicating received network data immediately after ND
 
 
 
-<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
+<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
 
 
 

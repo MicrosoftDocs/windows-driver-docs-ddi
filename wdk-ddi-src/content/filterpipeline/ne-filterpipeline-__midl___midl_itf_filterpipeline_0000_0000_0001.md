@@ -7,8 +7,8 @@ old-location: print\expscompressionoptions.htm
 old-project: print
 ms.assetid: 7df53803-4e01-4d00-b7a4-2f2d1dde5ad8
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: filterpipeline/Compression_Normal, EXpsCompressionOptions enumeration [Print Devices], Compression_Normal, filterpipeline/Compression_Small, filterpipeline_eb934659-a4bd-4063-b0a7-f4011998c0ec.xml, filterpipeline/Compression_NotCompressed, Compression_Small, Compression_Fast, __MIDL___MIDL_itf_filterpipeline_0000_0000_0001, filterpipeline/Compression_Fast, filterpipeline/EXpsCompressionOptions, EXpsCompressionOptions, print.expscompressionoptions, Compression_NotCompressed
+ms.date: 2/23/2018
+ms.keywords: Compression_Fast, Compression_Normal, Compression_NotCompressed, Compression_Small, EXpsCompressionOptions, EXpsCompressionOptions enumeration [Print Devices], __MIDL___MIDL_itf_filterpipeline_0000_0000_0001, filterpipeline/Compression_Fast, filterpipeline/Compression_Normal, filterpipeline/Compression_NotCompressed, filterpipeline/Compression_Small, filterpipeline/EXpsCompressionOptions, filterpipeline_eb934659-a4bd-4063-b0a7-f4011998c0ec.xml, print.expscompressionoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	filterpipeline.h
-apiname:
+api_name:
 -	EXpsCompressionOptions
 product: Windows
 targetos: Windows

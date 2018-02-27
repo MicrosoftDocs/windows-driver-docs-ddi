@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 3b285a32-c1bc-4103-aa2e-0f6c8f5cc7ec
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.sdpconvertstreamtotree, SdpConvertStreamToTree callback function [Bluetooth Devices], SdpConvertStreamToTree, PCONVERTSTREAMTOTREE, PCONVERTSTREAMTOTREE, bthsdpddi/SdpConvertStreamToTree, bth_funcs_7155961d-c993-428b-a16e-4fdcf85e28c2.xml
+ms.keywords: PCONVERTSTREAMTOTREE, SdpConvertStreamToTree, SdpConvertStreamToTree callback function [Bluetooth Devices], bltooth.sdpconvertstreamtotree, bth_funcs_7155961d-c993-428b-a16e-4fdcf85e28c2.xml, bthsdpddi/SdpConvertStreamToTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	BthSdpddi.h
-apiname:
+api_name:
 -	SdpConvertStreamToTree
 product: Windows
 targetos: Windows
@@ -175,25 +175,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 ## -see-also
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a>
-
-
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a>
-
-
-
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
+
+
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
 
 
 
@@ -201,6 +187,15 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a>
+
+
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
 
 
 
@@ -208,12 +203,7 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
-
-
-
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
 
 
 

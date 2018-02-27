@@ -7,8 +7,8 @@ old-location: display\iddcx_opm_get_random_number.htm
 old-project: display
 ms.assetid: 6960f235-984e-4f98-97ef-5e1dd295eab7
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: IDDCX_OPM_GET_RANDOM_NUMBER, iddcx/IDDCX_OPM_GET_RANDOM_NUMBER, display.iddcx_opm_get_random_number, IDDCX_OPM_GET_RANDOM_NUMBER structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: IDDCX_OPM_GET_RANDOM_NUMBER, IDDCX_OPM_GET_RANDOM_NUMBER structure [Display Devices], display.iddcx_opm_get_random_number, iddcx/IDDCX_OPM_GET_RANDOM_NUMBER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	iddcx.h
-apiname:
+api_name:
 -	IDDCX_OPM_GET_RANDOM_NUMBER
 product: Windows
 targetos: Windows

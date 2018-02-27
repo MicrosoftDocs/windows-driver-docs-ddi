@@ -7,8 +7,8 @@ old-location: sensors\gnss_georegion_circle.htm
 old-project: sensors
 ms.assetid: 498F8325-C887-4FDE-8BCF-A713639E3B35
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: gnssdriver/PGNSS_GEOREGION_CIRCLE, PGNSS_GEOREGION_CIRCLE structure pointer [Sensor Devices], GNSS_GEOREGION_CIRCLE structure [Sensor Devices], *PGNSS_GEOREGION_CIRCLE, gnssdriver/GNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE, sensors.gnss_georegion_circle, PGNSS_GEOREGION_CIRCLE
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE structure [Sensor Devices], PGNSS_GEOREGION_CIRCLE, PGNSS_GEOREGION_CIRCLE structure pointer [Sensor Devices], gnssdriver/GNSS_GEOREGION_CIRCLE, gnssdriver/PGNSS_GEOREGION_CIRCLE, sensors.gnss_georegion_circle"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	gnssdriver.h
-apiname:
+api_name:
 -	GNSS_GEOREGION_CIRCLE
 product: Windows
 targetos: Windows

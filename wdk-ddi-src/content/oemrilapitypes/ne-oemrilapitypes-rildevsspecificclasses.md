@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 21fcd199-b2bb-4ba0-9a22-33ef6579cd7a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: oemrilapitypes/RIL_DSCLASS_OEM_GBA, RILDEVSSPECIFICCLASSES, netvista.rildevsspecificclasses, RILDEVSSPECIFICCLASSES enumeration [Network Drivers Starting with Windows Vista], oemrilapitypes/RILDEVSSPECIFICCLASSES, RIL_DSCLASS_OEM_GBA
+ms.keywords: RILDEVSSPECIFICCLASSES, RILDEVSSPECIFICCLASSES enumeration [Network Drivers Starting with Windows Vista], RIL_DSCLASS_OEM_GBA, netvista.rildevsspecificclasses, oemrilapitypes/RILDEVSSPECIFICCLASSES, oemrilapitypes/RIL_DSCLASS_OEM_GBA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	oemrilapitypes.h
-apiname:
+api_name:
 -	RILDEVSSPECIFICCLASSES
 product: Windows
 targetos: Windows

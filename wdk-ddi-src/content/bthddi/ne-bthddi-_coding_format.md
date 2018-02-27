@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 3A97BBAF-47B0-4987-B5EC-2B3A40F2B42D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCODING_FORMAT, bthddi/CODING_FORMAT, *PCODING_FORMAT, bltooth.coding_format, PCODING_FORMAT enumeration pointer [Bluetooth Devices], bthddi/, CODING_FORMAT, _CODING_FORMAT, bthddi/PCODING_FORMAT, CODING_FORMAT enumeration [Bluetooth Devices]
+ms.keywords: "*PCODING_FORMAT, CODING_FORMAT, CODING_FORMAT enumeration [Bluetooth Devices], PCODING_FORMAT, PCODING_FORMAT enumeration pointer [Bluetooth Devices], _CODING_FORMAT, bltooth.coding_format, bthddi/, bthddi/CODING_FORMAT, bthddi/PCODING_FORMAT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	bthddi.h
-apiname:
+api_name:
 -	CODING_FORMAT
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: display\displayid_detailed_timing_type_i_scanning_mode.htm
 old-project: display
 ms.assetid: 8a5d3fba-ffd5-4fbc-973a-d5bfec6bb6e3
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: "_DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE enumeration [Display Devices], d3dkmdt/DIDDT1_Progressive, DmEnums_62dac0af-5d16-4943-ad25-71a00d0d4e9e.xml, display.displayid_detailed_timing_type_i_scanning_mode, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, DIDDT1_Progressive, DIDDT1_Interlaced, _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, d3dkmdt/DIDDT1_Interlaced"
+ms.date: 2/24/2018
+ms.keywords: DIDDT1_Interlaced, DIDDT1_Progressive, DmEnums_62dac0af-5d16-4943-ad25-71a00d0d4e9e.xml, _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE enumeration [Display Devices], d3dkmdt/DIDDT1_Interlaced, d3dkmdt/DIDDT1_Progressive, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE, display.displayid_detailed_timing_type_i_scanning_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmdt.h
-apiname:
+api_name:
 -	_DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE
 product: Windows
 targetos: Windows

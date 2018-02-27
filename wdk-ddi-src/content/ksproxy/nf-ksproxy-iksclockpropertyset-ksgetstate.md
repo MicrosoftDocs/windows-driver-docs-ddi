@@ -7,8 +7,8 @@ old-location: stream\iksclockpropertyset_ksgetstate.htm
 old-project: stream
 ms.assetid: 153e4f47-ae07-4f1e-9ab5-69ef6565ad5d
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KsGetState, KsGetState method [Streaming Media Devices], KsGetState method [Streaming Media Devices], IKsClockPropertySet interface, stream.iksclockpropertyset_ksgetstate, IKsClockPropertySet interface [Streaming Media Devices], KsGetState method, IKsClockPropertySet, ksproxy/IKsClockPropertySet::KsGetState, IKsClockPropertySet::KsGetState, ksproxy_d14aea61-913f-44f9-8fc0-08d31b9e8e50.xml
+ms.date: 2/23/2018
+ms.keywords: IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], KsGetState method, IKsClockPropertySet::KsGetState, KsGetState method [Streaming Media Devices], KsGetState method [Streaming Media Devices], IKsClockPropertySet interface, KsGetState,IKsClockPropertySet.KsGetState, ksproxy/IKsClockPropertySet::KsGetState, ksproxy_d14aea61-913f-44f9-8fc0-08d31b9e8e50.xml, stream.iksclockpropertyset_ksgetstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	ksproxy.h
-apiname:
+api_name:
 -	IKsClockPropertySet.KsGetState
 product: Windows
 targetos: Windows

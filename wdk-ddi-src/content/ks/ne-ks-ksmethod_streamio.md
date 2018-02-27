@@ -7,8 +7,8 @@ old-location: stream\ksmethod_streamio.htm
 old-project: stream
 ms.assetid: BFA53A37-A1EB-4F06-9903-967A94029BC8
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ksmethod_streamio, KSMETHOD_STREAMIO_READ, ks/KSMETHOD_STREAMIO_READ, KSMETHOD_STREAMIO enumeration [Streaming Media Devices], KSMETHOD_STREAMIO_WRITE, ks/KSMETHOD_STREAMIO_WRITE, KSMETHOD_STREAMIO, ks/KSMETHOD_STREAMIO
+ms.date: 2/23/2018
+ms.keywords: KSMETHOD_STREAMIO, KSMETHOD_STREAMIO enumeration [Streaming Media Devices], KSMETHOD_STREAMIO_READ, KSMETHOD_STREAMIO_WRITE, ks/KSMETHOD_STREAMIO, ks/KSMETHOD_STREAMIO_READ, ks/KSMETHOD_STREAMIO_WRITE, stream.ksmethod_streamio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ks.h
-apiname:
+api_name:
 -	KSMETHOD_STREAMIO
 product: Windows
 targetos: Windows

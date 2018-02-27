@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 31f0239e-86d3-43e8-8627-7e16bd58df87
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: pmi/PMI_MEASUREMENT_UNIT, PmiMeasurementUnitMilliWatt, pmi/PmiMeasurementUnitMilliWatt, PowerMeterRef_7c2e4685-6992-455c-b584-9391e0ea8afa.xml, PmiMeasurementUnitMax, powermeter.pmi_measurement_unit, pmi/PmiMeasurementUnitMax, PMI_MEASUREMENT_UNIT enumeration [Power Metering and Budgeting Devices], PMI_MEASUREMENT_UNIT
+ms.keywords: PMI_MEASUREMENT_UNIT, PMI_MEASUREMENT_UNIT enumeration [Power Metering and Budgeting Devices], PmiMeasurementUnitMax, PmiMeasurementUnitMilliWatt, PowerMeterRef_7c2e4685-6992-455c-b584-9391e0ea8afa.xml, pmi/PMI_MEASUREMENT_UNIT, pmi/PmiMeasurementUnitMax, pmi/PmiMeasurementUnitMilliWatt, powermeter.pmi_measurement_unit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pmi.h
-apiname:
+api_name:
 -	PMI_MEASUREMENT_UNIT
 product: Windows
 targetos: Windows

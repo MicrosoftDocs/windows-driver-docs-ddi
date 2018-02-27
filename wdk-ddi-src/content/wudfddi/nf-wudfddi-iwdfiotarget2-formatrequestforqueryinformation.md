@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 24ce2918-1d9f-41eb-add1-a50b888f0a99
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: FormatRequestForQueryInformation method, IWDFIoTarget2 interface, wudfddi/IWDFIoTarget2::FormatRequestForQueryInformation, FormatRequestForQueryInformation, UMDFIoTargetObjectRef_8057f7bc-65c3-491b-9aa3-a5fc9e790524.xml, umdf.iwdfiotarget2_formatrequestforqueryinformation, wdf.iwdfiotarget2_formatrequestforqueryinformation, IWDFIoTarget2 interface, FormatRequestForQueryInformation method, IWDFIoTarget2::FormatRequestForQueryInformation, FormatRequestForQueryInformation method, IWDFIoTarget2
+ms.keywords: FormatRequestForQueryInformation method, FormatRequestForQueryInformation method, IWDFIoTarget2 interface, FormatRequestForQueryInformation,IWDFIoTarget2.FormatRequestForQueryInformation, IWDFIoTarget2, IWDFIoTarget2 interface, FormatRequestForQueryInformation method, IWDFIoTarget2::FormatRequestForQueryInformation, UMDFIoTargetObjectRef_8057f7bc-65c3-491b-9aa3-a5fc9e790524.xml, umdf.iwdfiotarget2_formatrequestforqueryinformation, wdf.iwdfiotarget2_formatrequestforqueryinformation, wudfddi/IWDFIoTarget2::FormatRequestForQueryInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFIoTarget2.FormatRequestForQueryInformation
 product: Windows
 targetos: Windows
@@ -224,11 +224,11 @@ Error;
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget2.md">IWDFIoTarget2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559191">IWDFIoTarget2::FormatRequestForSetInformation</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget2.md">IWDFIoTarget2</a>
 
 
 

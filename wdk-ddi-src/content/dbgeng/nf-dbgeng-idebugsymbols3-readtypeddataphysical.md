@@ -4,11 +4,11 @@ title: IDebugSymbols3::ReadTypedDataPhysical method
 author: windows-driver-content
 description: The ReadTypedDataPhysical method reads the value of a variable from the target computer's physical memory.
 old-location: debugger\readtypeddataphysical.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 72562325-27f9-4e80-b03f-8926adad99c1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugSymbols2::ReadTypedDataPhysical, dbgeng/IDebugSymbols::ReadTypedDataPhysical, debugger.readtypeddataphysical, IDebugSymbols_d9131c11-5752-4b05-b779-69cb256b8ded.xml, IDebugSymbols::ReadTypedDataPhysical, IDebugSymbols3::ReadTypedDataPhysical, ReadTypedDataPhysical method [Windows Debugging], ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::ReadTypedDataPhysical, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols3 interface [Windows Debugging], ReadTypedDataPhysical method, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, ReadTypedDataPhysical, IDebugSymbols, dbgeng/IDebugSymbols3::ReadTypedDataPhysical, IDebugSymbols3, IDebugSymbols2, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols interface
+ms.date: 2/23/2018
+ms.keywords: IDebugSymbols interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols2::ReadTypedDataPhysical, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols3::ReadTypedDataPhysical, IDebugSymbols::ReadTypedDataPhysical, IDebugSymbols_d9131c11-5752-4b05-b779-69cb256b8ded.xml, ReadTypedDataPhysical method [Windows Debugging], ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, ReadTypedDataPhysical,IDebugSymbols3.ReadTypedDataPhysical, dbgeng/IDebugSymbols2::ReadTypedDataPhysical, dbgeng/IDebugSymbols3::ReadTypedDataPhysical, dbgeng/IDebugSymbols::ReadTypedDataPhysical, debugger.readtypeddataphysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugSymbols.ReadTypedDataPhysical
 -	IDebugSymbols2.ReadTypedDataPhysical
 -	IDebugSymbols3.ReadTypedDataPhysical

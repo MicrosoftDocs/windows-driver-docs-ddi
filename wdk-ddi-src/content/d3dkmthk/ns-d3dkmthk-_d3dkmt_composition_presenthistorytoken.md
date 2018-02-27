@@ -7,8 +7,8 @@ old-location: display\d3dkmt_composition_presenthistorytoken.htm
 old-project: display
 ms.assetid: F3F2DE77-9FC5-4AC1-B857-51B51557108E
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3dkmthk/D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, _D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN structure [Display Devices], display.d3dkmt_composition_presenthistorytoken
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN structure [Display Devices], _D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, display.d3dkmt_composition_presenthistorytoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3dkmthk.h
-apiname:
+api_name:
 -	D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN
 product: Windows
 targetos: Windows

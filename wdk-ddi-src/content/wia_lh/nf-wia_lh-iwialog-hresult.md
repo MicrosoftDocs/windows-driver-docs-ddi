@@ -4,11 +4,11 @@ title: IWiaLog::hResult method
 author: windows-driver-content
 description: Note that the IWiaLog interface is obsolete for Microsoft Windows XP and later, and is no longer supported.
 old-location: image\iwialog_hresult.htm
-old-project: Image
+old-project: image
 ms.assetid: 74d9b770-c2b6-483d-a6d7-070ac2a55133
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IWiaLog::hResult, IWiaLog interface [Imaging Devices], hResult method, hResult method [Imaging Devices], IWiaLog interface, IWiaLog_e581a82d-60c1-45e3-9d5a-fcac2b4d9c9c.xml, hResult, image.iwialog_hresult, hResult method [Imaging Devices], wia_lh/IWiaLog::hResult, IWiaLog
+ms.date: 2/23/2018
+ms.keywords: IWiaLog, IWiaLog interface [Imaging Devices], hResult method, IWiaLog::hResult, IWiaLog_e581a82d-60c1-45e3-9d5a-fcac2b4d9c9c.xml, hResult method [Imaging Devices], hResult method [Imaging Devices], IWiaLog interface, hResult,IWiaLog.hResult, image.iwialog_hresult, wia_lh/IWiaLog::hResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wia_lh.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	wia_lh.h
-apiname:
+api_name:
 -	IWiaLog.hResult
 product: Windows
 targetos: Windows
-req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
+req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
 

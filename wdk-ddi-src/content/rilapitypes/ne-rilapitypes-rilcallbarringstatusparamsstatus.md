@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0d7eff2c-7179-4517-a678-deb62315e53b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILCALLBARRINGSTATUSPARAMSSTATUS enumeration [Network Drivers Starting with Windows Vista], netvista.rilcallbarringstatusparamsstatus_2, rilapitypes/RILCALLBARRINGSTATUSPARAMSSTATUS, rilapitypes/RIL_BARRINGSTATUS_ENABLED, rilapitypes/RIL_BARRINGSTATUS_MAX, RIL_BARRINGSTATUS_MAX, RIL_BARRINGSTATUS_ENABLED, RILCALLBARRINGSTATUSPARAMSSTATUS
+ms.keywords: RILCALLBARRINGSTATUSPARAMSSTATUS, RILCALLBARRINGSTATUSPARAMSSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_BARRINGSTATUS_ENABLED, RIL_BARRINGSTATUS_MAX, netvista.rilcallbarringstatusparamsstatus_2, rilapitypes/RILCALLBARRINGSTATUSPARAMSSTATUS, rilapitypes/RIL_BARRINGSTATUS_ENABLED, rilapitypes/RIL_BARRINGSTATUS_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILCALLBARRINGSTATUSPARAMSSTATUS
 product: Windows
 targetos: Windows

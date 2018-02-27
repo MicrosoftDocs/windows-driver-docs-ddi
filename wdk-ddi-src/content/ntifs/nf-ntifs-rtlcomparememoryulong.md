@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 78ff21da-be0f-4b57-9162-1052a6c12b5c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlCompareMemoryUlong, ntifs/RtlCompareMemoryUlong, RtlCompareMemoryUlong routine [Installable File System Drivers], ifsk.rtlcomparememoryulong, rtlref_a220e168-945b-46d1-9aa7-7750bdfc39bd.xml
+ms.keywords: RtlCompareMemoryUlong, RtlCompareMemoryUlong routine [Installable File System Drivers], ifsk.rtlcomparememoryulong, ntifs/RtlCompareMemoryUlong, rtlref_a220e168-945b-46d1-9aa7-7750bdfc39bd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname:
+api_name:
 -	RtlCompareMemoryUlong
 product: Windows
 targetos: Windows

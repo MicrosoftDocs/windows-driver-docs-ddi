@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: d2615320-6c8a-4813-afb5-c5b510e5fde9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PWHEA_ERROR_SOURCE_TYPE enumeration pointer [WHEA Drivers and Applications], ntddk/WheaErrSrcTypeSCIGeneric, ntddk/PWHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeCPE, ntddk/WheaErrSrcTypeINIT, WheaErrSrcTypeIPFMCA, ntddk/WheaErrSrcTypeMCE, WheaErrSrcTypeSCIGeneric, WheaErrSrcTypeMax, WheaErrSrcTypeNMI, ntddk/WheaErrSrcTypeIPFCPE, ntddk/WheaErrSrcTypeCPE, PWHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeNMI, *PWHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeINIT, whea.whea_error_source_type, WheaErrSrcTypeIPFCPE, ntddk/WheaErrSrcTypeIPFMCA, WheaErrSrcTypePCIe, ntddk/WHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeBOOT, ntddk/WheaErrSrcTypeIPFCMC, WheaErrSrcTypeGeneric, WHEA_ERROR_SOURCE_TYPE enumeration [WHEA Drivers and Applications], ntddk/WheaErrSrcTypeGeneric, _WHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeIPFCMC, whearef_786d549e-14b1-4945-a1ce-23c7112ff0c8.xml, ntddk/WheaErrSrcTypeBOOT, WheaErrSrcTypeMCE, ntddk/WheaErrSrcTypeCMC, WheaErrSrcTypeCMC, ntddk/WheaErrSrcTypePCIe, ntddk/WheaErrSrcTypeMax, WHEA_ERROR_SOURCE_TYPE
+ms.keywords: "*PWHEA_ERROR_SOURCE_TYPE, PWHEA_ERROR_SOURCE_TYPE, PWHEA_ERROR_SOURCE_TYPE enumeration pointer [WHEA Drivers and Applications], WHEA_ERROR_SOURCE_TYPE, WHEA_ERROR_SOURCE_TYPE enumeration [WHEA Drivers and Applications], WheaErrSrcTypeBOOT, WheaErrSrcTypeCMC, WheaErrSrcTypeCPE, WheaErrSrcTypeGeneric, WheaErrSrcTypeINIT, WheaErrSrcTypeIPFCMC, WheaErrSrcTypeIPFCPE, WheaErrSrcTypeIPFMCA, WheaErrSrcTypeMCE, WheaErrSrcTypeMax, WheaErrSrcTypeNMI, WheaErrSrcTypePCIe, WheaErrSrcTypeSCIGeneric, _WHEA_ERROR_SOURCE_TYPE, ntddk/PWHEA_ERROR_SOURCE_TYPE, ntddk/WHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeBOOT, ntddk/WheaErrSrcTypeCMC, ntddk/WheaErrSrcTypeCPE, ntddk/WheaErrSrcTypeGeneric, ntddk/WheaErrSrcTypeINIT, ntddk/WheaErrSrcTypeIPFCMC, ntddk/WheaErrSrcTypeIPFCPE, ntddk/WheaErrSrcTypeIPFMCA, ntddk/WheaErrSrcTypeMCE, ntddk/WheaErrSrcTypeMax, ntddk/WheaErrSrcTypeNMI, ntddk/WheaErrSrcTypePCIe, ntddk/WheaErrSrcTypeSCIGeneric, whea.whea_error_source_type, whearef_786d549e-14b1-4945-a1ce-23c7112ff0c8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddk.h
-apiname:
+api_name:
 -	WHEA_ERROR_SOURCE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_ERROR_SOURCE_TYPE, WHEA_ERROR_SOURCE_TYPE"
+req.typenames: WHEA_ERROR_SOURCE_TYPE, *PWHEA_ERROR_SOURCE_TYPE
 ---
 
 # _WHEA_ERROR_SOURCE_TYPE enumeration
@@ -163,11 +163,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
 

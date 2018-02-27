@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3a8b4be6-91b5-4368-8f54-efa73deb41c0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RIL_PARAM_CIDS_ALL, ntddrilapitypes/RIL_PARAM_CIDS_PROVISIONING, ntddrilapitypes/RILCALLERIDSETTINGSPARAMMASK, RIL_PARAM_CIDS_ALL, RIL_PARAM_CIDS_PROVISIONING, ntddrilapitypes/RIL_PARAM_CIDS_STATUS, RILCALLERIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILCALLERIDSETTINGSPARAMMASK, netvista.rilcalleridsettingsparammask, RIL_PARAM_CIDS_STATUS
+ms.keywords: RILCALLERIDSETTINGSPARAMMASK, RILCALLERIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CIDS_ALL, RIL_PARAM_CIDS_PROVISIONING, RIL_PARAM_CIDS_STATUS, netvista.rilcalleridsettingsparammask, ntddrilapitypes/RILCALLERIDSETTINGSPARAMMASK, ntddrilapitypes/RIL_PARAM_CIDS_ALL, ntddrilapitypes/RIL_PARAM_CIDS_PROVISIONING, ntddrilapitypes/RIL_PARAM_CIDS_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddrilapitypes.h
-apiname:
+api_name:
 -	RILCALLERIDSETTINGSPARAMMASK
 product: Windows
 targetos: Windows

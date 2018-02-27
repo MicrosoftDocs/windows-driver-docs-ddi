@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 38F50F76-5D14-47CE-A211-3FC4F1399A74
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function [Buses], SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE, SPB.spb_transfer_list_entry_init_simple, spb/SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE
+ms.keywords: SPB.spb_transfer_list_entry_init_simple, SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE, SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any IRQL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Spb.h
-apiname:
+api_name:
 -	SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE
 product: Windows
 targetos: Windows

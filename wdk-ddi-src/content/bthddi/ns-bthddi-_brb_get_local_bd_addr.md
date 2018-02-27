@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: cddaa92c-c43b-4875-a52e-a28ecc30962d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_BRB_GET_LOCAL_BD_ADDR structure [Bluetooth Devices], bltooth._brb_get_local_bd_addr, bthddi/_BRB_GET_LOCAL_BD_ADDR, bth_structs_eede3474-96b3-4865-a700-70f7e444a4c3.xml, _BRB_GET_LOCAL_BD_ADDR"
+ms.keywords: "_BRB_GET_LOCAL_BD_ADDR, _BRB_GET_LOCAL_BD_ADDR structure [Bluetooth Devices], bltooth._brb_get_local_bd_addr, bth_structs_eede3474-96b3-4865-a700-70f7e444a4c3.xml, bthddi/_BRB_GET_LOCAL_BD_ADDR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	bthddi.h
-apiname:
+api_name:
 -	_BRB_GET_LOCAL_BD_ADDR
 product: Windows
 targetos: Windows

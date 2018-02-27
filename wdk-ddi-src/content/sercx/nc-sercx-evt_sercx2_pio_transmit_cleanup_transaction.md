@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 48300C50-47B7-47DC-BDE5-3847E1EAE820
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercx2piotransmitcleanuptransaction, EvtSerCx2PioTransmitCleanupTransaction callback function [Serial Ports], EvtSerCx2PioTransmitCleanupTransaction, EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION, EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION, 2/EvtSerCx2PioTransmitCleanupTransaction
+ms.keywords: 2/EvtSerCx2PioTransmitCleanupTransaction, EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION, EvtSerCx2PioTransmitCleanupTransaction, EvtSerCx2PioTransmitCleanupTransaction callback function [Serial Ports], serports.evtsercx2piotransmitcleanuptransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	2.0\Sercx.h
-apiname:
+api_name:
 -	EvtSerCx2PioTransmitCleanupTransaction
 product: Windows
 targetos: Windows
@@ -141,11 +141,11 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION</b> function type is defined 
 
 
 
-<a href="..\sercx\nf-sercx-sercx2piotransmitcleanuptransactioncomplete.md">SerCx2PioTransmitCleanupTransactionComplete</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2piotransmitcleanuptransactioncomplete.md">SerCx2PioTransmitCleanupTransactionComplete</a>
 
 
 

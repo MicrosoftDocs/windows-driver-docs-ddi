@@ -4,11 +4,11 @@ title: TranslateVirtualToPhysical function
 author: windows-driver-content
 description: The TranslateVirtualToPhysical function translates a virtual memory address into a physical memory address.
 old-location: debugger\translatevirtualtophysical.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 803f766a-e02f-4b9c-bfe0-6197e0f2855c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: TranslateVirtualToPhysical, wdbgexts/TranslateVirtualToPhysical, WdbgExts_Ref_ec3ff314-8800-4f77-a40e-e127e6cf0133.xml, TranslateVirtualToPhysical function [Windows Debugging], debugger.translatevirtualtophysical
+ms.date: 2/23/2018
+ms.keywords: TranslateVirtualToPhysical, TranslateVirtualToPhysical function [Windows Debugging], WdbgExts_Ref_ec3ff314-8800-4f77-a40e-e127e6cf0133.xml, debugger.translatevirtualtophysical, wdbgexts/TranslateVirtualToPhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdbgexts.h
-apiname:
+api_name:
 -	TranslateVirtualToPhysical
 product: Windows
 targetos: Windows

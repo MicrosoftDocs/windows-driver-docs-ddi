@@ -7,8 +7,8 @@ old-location: dtf\iwdtflog2_outputinfo.htm
 old-project: dtf
 ms.assetid: bd98186f-5681-4611-9c27-eabfe4412df7
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: IWDTFLOG2::OutputInfo, OutputInfo, OutputInfo method [Windows Device Testing Framework], IWDTFLOG2 interface, dtf.iwdtflog2_outputinfo, wdtf/IWDTFLOG2::OutputInfo, IWDTFLOG2, OutputInfo method [Windows Device Testing Framework], IWDTFLOG2 interface [Windows Device Testing Framework], OutputInfo method, Microsoft.WDTF.IWDTFLOG2.OutputInfo, Microsoft::WDTF::IWDTFLOG2::OutputInfo
+ms.date: 2/23/2018
+ms.keywords: IWDTFLOG2, IWDTFLOG2 interface [Windows Device Testing Framework], OutputInfo method, IWDTFLOG2::OutputInfo, Microsoft.WDTF.IWDTFLOG2.OutputInfo, Microsoft::WDTF::IWDTFLOG2::OutputInfo, OutputInfo method [Windows Device Testing Framework], OutputInfo method [Windows Device Testing Framework], IWDTFLOG2 interface, OutputInfo,IWDTFLOG2.OutputInfo, dtf.iwdtflog2_outputinfo, wdtf/IWDTFLOG2::OutputInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtf.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WDTF.Interop.metadata_dll.dll
-apiname:
+api_name:
 -	IWDTFLOG2.OutputInfo
 product: Windows
 targetos: Windows
@@ -92,5 +92,5 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFLOG2::OutputInfo method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFLOG2::OutputInfo method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

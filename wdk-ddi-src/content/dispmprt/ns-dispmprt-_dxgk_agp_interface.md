@@ -7,8 +7,8 @@ old-location: display\dxgk_agp_interface.htm
 old-project: display
 ms.assetid: ebaa2aba-426f-4f5f-b2bf-a8433cdc9205
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: "_DXGK_AGP_INTERFACE, DmStructs_787b846e-2c2b-4fba-aa99-979a195c4305.xml, display.dxgk_agp_interface, DXGK_AGP_INTERFACE, dispmprt/DXGK_AGP_INTERFACE, PDXGK_AGP_INTERFACE structure pointer [Display Devices], PDXGK_AGP_INTERFACE, dispmprt/PDXGK_AGP_INTERFACE, *PDXGK_AGP_INTERFACE, DXGK_AGP_INTERFACE structure [Display Devices]"
+ms.date: 2/24/2018
+ms.keywords: "*PDXGK_AGP_INTERFACE, DXGK_AGP_INTERFACE, DXGK_AGP_INTERFACE structure [Display Devices], DmStructs_787b846e-2c2b-4fba-aa99-979a195c4305.xml, PDXGK_AGP_INTERFACE, PDXGK_AGP_INTERFACE structure pointer [Display Devices], _DXGK_AGP_INTERFACE, display.dxgk_agp_interface, dispmprt/DXGK_AGP_INTERFACE, dispmprt/PDXGK_AGP_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dispmprt.h
-apiname:
+api_name:
 -	DXGK_AGP_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: "*PDXGK_AGP_INTERFACE, DXGK_AGP_INTERFACE"
+req.typenames: DXGK_AGP_INTERFACE, *PDXGK_AGP_INTERFACE
 ---
 
 # _DXGK_AGP_INTERFACE structure

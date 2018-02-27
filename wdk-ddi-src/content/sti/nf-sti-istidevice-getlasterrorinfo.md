@@ -4,11 +4,11 @@ title: IStiDevice::GetLastErrorInfo method
 author: windows-driver-content
 description: The IStiDevice::GetLastErrorInfo method returns information about the last known error associated with a still image device.
 old-location: image\istidevice_getlasterrorinfo.htm
-old-project: Image
+old-project: image
 ms.assetid: de2f8897-c75f-4c37-aecb-f36d0f9933f9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: stifnc_f54b574c-5894-4029-888c-fe60738858d7.xml, GetLastErrorInfo, image.istidevice_getlasterrorinfo, IStiDevice, GetLastErrorInfo method [Imaging Devices], IStiDevice interface [Imaging Devices], GetLastErrorInfo method, sti/IStiDevice::GetLastErrorInfo, GetLastErrorInfo method [Imaging Devices], IStiDevice interface, IStiDevice::GetLastErrorInfo
+ms.date: 2/23/2018
+ms.keywords: GetLastErrorInfo method [Imaging Devices], GetLastErrorInfo method [Imaging Devices], IStiDevice interface, GetLastErrorInfo,IStiDevice.GetLastErrorInfo, IStiDevice, IStiDevice interface [Imaging Devices], GetLastErrorInfo method, IStiDevice::GetLastErrorInfo, image.istidevice_getlasterrorinfo, sti/IStiDevice::GetLastErrorInfo, stifnc_f54b574c-5894-4029-888c-fe60738858d7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	sti.h
-apiname:
+api_name:
 -	IStiDevice.GetLastErrorInfo
 product: Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE
+req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
 ---
 

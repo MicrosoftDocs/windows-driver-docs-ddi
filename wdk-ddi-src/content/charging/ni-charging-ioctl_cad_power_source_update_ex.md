@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 8D582EF9-B9D1-498B-AE20-337F3A33250C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: battery.ioctl_cad_power_source_update_ex, IOCTL_CAD_POWER_SOURCE_UPDATE_EX control code [Battery Devices], IOCTL_CAD_POWER_SOURCE_UPDATE_EX, charging/IOCTL_CAD_POWER_SOURCE_UPDATE_EX
+ms.keywords: IOCTL_CAD_POWER_SOURCE_UPDATE_EX, IOCTL_CAD_POWER_SOURCE_UPDATE_EX control code [Battery Devices], battery.ioctl_cad_power_source_update_ex, charging/IOCTL_CAD_POWER_SOURCE_UPDATE_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	charging.h
-apiname:
+api_name:
 -	IOCTL_CAD_POWER_SOURCE_UPDATE_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWERSOURCEID, POWERSOURCEID"
+req.typenames: POWERSOURCEID, *PPOWERSOURCEID
 ---
 
 # IOCTL_CAD_POWER_SOURCE_UPDATE_EX IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*PPOWERSOURCEID, POWERSOURCEID"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

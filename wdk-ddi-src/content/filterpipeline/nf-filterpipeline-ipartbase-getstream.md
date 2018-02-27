@@ -7,8 +7,8 @@ old-location: print\ipartbase_getstream.htm
 old-project: print
 ms.assetid: 83840bca-2e6e-4982-9ec1-e1e278908993
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: filterpipeline_22f13e92-765e-41b8-8404-26aae5a50d02.xml, print.ipartbase_getstream, filterpipeline/IPartBase::GetStream, GetStream, GetStream method [Print Devices], IPartBase interface, IPartBase::GetStream, GetStream method [Print Devices], IPartBase interface [Print Devices], GetStream method, IPartBase
+ms.date: 2/23/2018
+ms.keywords: GetStream method [Print Devices], GetStream method [Print Devices], IPartBase interface, GetStream,IPartBase.GetStream, IPartBase, IPartBase interface [Print Devices], GetStream method, IPartBase::GetStream, filterpipeline/IPartBase::GetStream, filterpipeline_22f13e92-765e-41b8-8404-26aae5a50d02.xml, print.ipartbase_getstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	filterpipeline.h
-apiname:
+api_name:
 -	IPartBase.GetStream
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: display\dxgkddi_settargetgamma.htm
 old-project: display
 ms.assetid: 658EA0AA-80FC-4A45-B2EF-DFE928917E7B
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgkddi_settargetgamma, DXGKDDI_SETTARGETGAMMA callback function [Display Devices], DXGKDDI_SETTARGETGAMMA, d3dkmddi/DXGKDDI_SETTARGETGAMMA
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_SETTARGETGAMMA, DXGKDDI_SETTARGETGAMMA callback function [Display Devices], d3dkmddi/DXGKDDI_SETTARGETGAMMA, display.dxgkddi_settargetgamma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	DXGKDDI_SETTARGETGAMMA
 product: Windows
 targetos: Windows

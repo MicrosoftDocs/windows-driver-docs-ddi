@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 007E0DDE-0BD1-499D-A6C6-446644BBCE00
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEEE.irb_req_async_write, _IRB_REQ_ASYNC_WRITE, IRB_REQ_ASYNC_WRITE, 1394/IRB_REQ_ASYNC_WRITE, IRB_REQ_ASYNC_WRITE structure [Buses]
+ms.keywords: 1394/IRB_REQ_ASYNC_WRITE, IEEE.irb_req_async_write, IRB_REQ_ASYNC_WRITE, IRB_REQ_ASYNC_WRITE structure [Buses], _IRB_REQ_ASYNC_WRITE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	1394.h
-apiname:
+api_name:
 -	IRB_REQ_ASYNC_WRITE
 product: Windows
 targetos: Windows

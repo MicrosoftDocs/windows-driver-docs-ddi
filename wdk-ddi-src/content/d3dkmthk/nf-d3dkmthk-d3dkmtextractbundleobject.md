@@ -7,8 +7,8 @@ old-location: display\d3dkmtextractbundleobject.htm
 old-project: display
 ms.assetid: f3193d5b-084f-4df1-9688-26ba5a964cca
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DKMTExtractBundleObject method [Display Devices], D3DKMTExtractBundleObject, d3dkmthk/D3DKMTExtractBundleObject, display.d3dkmtextractbundleobject
+ms.date: 2/24/2018
+ms.keywords: D3DKMTExtractBundleObject, D3DKMTExtractBundleObject method [Display Devices], d3dkmthk/D3DKMTExtractBundleObject, display.d3dkmtextractbundleobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	D3DKMTExtractBundleObject
 product: Windows
 targetos: Windows

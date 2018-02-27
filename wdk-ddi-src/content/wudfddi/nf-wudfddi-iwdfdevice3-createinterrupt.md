@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EE68BED8-5FDC-4590-8E95-B228F1DFD32D
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFDevice3 interface, CreateInterrupt method, CreateInterrupt method, IWDFDevice3 interface, wdf.iwdfdevice3_createinterrupt, wudfddi/IWDFDevice3::CreateInterrupt, CreateInterrupt method, CreateInterrupt, IWDFDevice3, IWDFDevice3::CreateInterrupt, umdf.iwdfdevice3_createinterrupt
+ms.keywords: CreateInterrupt method, CreateInterrupt method, IWDFDevice3 interface, CreateInterrupt,IWDFDevice3.CreateInterrupt, IWDFDevice3, IWDFDevice3 interface, CreateInterrupt method, IWDFDevice3::CreateInterrupt, umdf.iwdfdevice3_createinterrupt, wdf.iwdfdevice3_createinterrupt, wudfddi/IWDFDevice3::CreateInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFDevice3.CreateInterrupt
 product: Windows
 targetos: Windows
@@ -145,11 +145,11 @@ hr = pDevice-&gt;Create(&amp;interruptConfig,
 
 
 
-<a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
+
+
+
+<a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a>
 
 
 

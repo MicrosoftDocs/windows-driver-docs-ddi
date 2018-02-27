@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0a39e19b-9720-4641-83f0-654a5f116432
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtdmaenablerdisable, EvtDmaEnablerDisable callback function, EvtDmaEnablerDisable, EVT_WDF_DMA_ENABLER_DISABLE, EVT_WDF_DMA_ENABLER_DISABLE, wdfdmaenabler/EvtDmaEnablerDisable, DFDmaObjectRef_f8cd455b-22a3-47d4-b430-a4e8139aa96e.xml, kmdf.evtdmaenablerdisable
+ms.keywords: DFDmaObjectRef_f8cd455b-22a3-47d4-b430-a4e8139aa96e.xml, EVT_WDF_DMA_ENABLER_DISABLE, EvtDmaEnablerDisable, EvtDmaEnablerDisable callback function, kmdf.evtdmaenablerdisable, wdf.evtdmaenablerdisable, wdfdmaenabler/EvtDmaEnablerDisable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	WdfDmaEnabler.h
-apiname:
+api_name:
 -	EvtDmaEnablerDisable
 product: Windows
 targetos: Windows
@@ -140,7 +140,7 @@ The <b>EVT_WDF_DMA_ENABLER_DISABLE</b> function type is defined in the WdfDmaEna
 
 
 
-<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
 
 
 

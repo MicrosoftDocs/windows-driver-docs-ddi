@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 9386DBEC-A47D-44A5-8AF8-D5B406143070
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_POWERSOURCESTATUS, charging/BATTERY_INFORMATION, POWERSOURCESTATUS, POWERSOURCESTATUS structure [Battery Devices], battery.powersourcestatus, *PPOWERSOURCESTATUS"
+ms.keywords: "*PPOWERSOURCESTATUS, POWERSOURCESTATUS, POWERSOURCESTATUS structure [Battery Devices], _POWERSOURCESTATUS, battery.powersourcestatus, charging/BATTERY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Charging.h
-apiname:
+api_name:
 -	BATTERY_INFORMATION
 product: Windows
 targetos: Windows

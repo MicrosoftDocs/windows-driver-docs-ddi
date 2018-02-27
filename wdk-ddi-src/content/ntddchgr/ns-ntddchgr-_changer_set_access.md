@@ -7,8 +7,8 @@ old-location: storage\changer_set_access.htm
 old-project: storage
 ms.assetid: 4349d772-89c6-4201-9d9d-2e0590d61424
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "_CHANGER_SET_ACCESS, ntddchgr/CHANGER_SET_ACCESS, CHANGER_SET_ACCESS, structs-changer_01f5a159-3d46-4400-8eae-87367e81ed72.xml, PCHANGER_SET_ACCESS, CHANGER_SET_ACCESS structure [Storage Devices], ntddchgr/PCHANGER_SET_ACCESS, *PCHANGER_SET_ACCESS, storage.changer_set_access, PCHANGER_SET_ACCESS structure pointer [Storage Devices]"
+ms.date: 2/24/2018
+ms.keywords: "*PCHANGER_SET_ACCESS, CHANGER_SET_ACCESS, CHANGER_SET_ACCESS structure [Storage Devices], PCHANGER_SET_ACCESS, PCHANGER_SET_ACCESS structure pointer [Storage Devices], _CHANGER_SET_ACCESS, ntddchgr/CHANGER_SET_ACCESS, ntddchgr/PCHANGER_SET_ACCESS, storage.changer_set_access, structs-changer_01f5a159-3d46-4400-8eae-87367e81ed72.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddchgr.h
-apiname:
+api_name:
 -	CHANGER_SET_ACCESS
 product: Windows
 targetos: Windows
-req.typenames: "*PCHANGER_SET_ACCESS, CHANGER_SET_ACCESS"
+req.typenames: CHANGER_SET_ACCESS, *PCHANGER_SET_ACCESS
 ---
 
 # _CHANGER_SET_ACCESS structure
@@ -108,25 +108,25 @@ Retract the IEport. Valid only if CHANGER_CLOSE_IEPORT is set.
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
-
-
-
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
-
-
-
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_access.md">IOCTL_CHANGER_SET_ACCESS</a>
 
 
 
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+
+
+
 <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
 
 
 
- 
+<a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CHANGER_SET_ACCESS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CHANGER_SET_ACCESS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

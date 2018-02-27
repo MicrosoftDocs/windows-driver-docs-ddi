@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: d072a97d-f15d-44e9-b7d5-4fb872bfcbf0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.ioctl_internal_select_device, IOCTL_INTERNAL_SELECT_DEVICE control code [Parallel Ports], IOCTL_INTERNAL_SELECT_DEVICE, parallel/IOCTL_INTERNAL_SELECT_DEVICE, cisspd_e884bf73-c8d2-4007-a01a-ba6af4fd8359.xml
+ms.keywords: IOCTL_INTERNAL_SELECT_DEVICE, IOCTL_INTERNAL_SELECT_DEVICE control code [Parallel Ports], cisspd_e884bf73-c8d2-4007-a01a-ba6af4fd8359.xml, parallel/IOCTL_INTERNAL_SELECT_DEVICE, parports.ioctl_internal_select_device
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	parallel.h
-apiname:
+api_name:
 -	IOCTL_INTERNAL_SELECT_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # IOCTL_INTERNAL_SELECT_DEVICE IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -7,8 +7,8 @@ old-location: print\oem_dmextraheader.htm
 old-project: print
 ms.assetid: fecefdbc-3036-4991-900c-203ae8be254b
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: printoem/POEM_DMEXTRAHEADER, printoem/OEM_DMEXTRAHEADER, OEM_DMEXTRAHEADER, POEM_DMEXTRAHEADER structure pointer [Print Devices], POEM_DMEXTRAHEADER, print_unidrv-pscript_ui_f356f9c1-f867-4c53-8b12-be48da73de4f.xml, _OEM_DMEXTRAHEADER, *POEM_DMEXTRAHEADER, print.oem_dmextraheader, OEM_DMEXTRAHEADER structure [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: "*POEM_DMEXTRAHEADER, OEM_DMEXTRAHEADER, OEM_DMEXTRAHEADER structure [Print Devices], POEM_DMEXTRAHEADER, POEM_DMEXTRAHEADER structure pointer [Print Devices], _OEM_DMEXTRAHEADER, print.oem_dmextraheader, print_unidrv-pscript_ui_f356f9c1-f867-4c53-8b12-be48da73de4f.xml, printoem/OEM_DMEXTRAHEADER, printoem/POEM_DMEXTRAHEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	printoem.h
-apiname:
+api_name:
 -	OEM_DMEXTRAHEADER
 product: Windows
 targetos: Windows
-req.typenames: "*POEM_DMEXTRAHEADER, OEM_DMEXTRAHEADER"
+req.typenames: OEM_DMEXTRAHEADER, *POEM_DMEXTRAHEADER
 req.product: Windows 10 or later.
 ---
 

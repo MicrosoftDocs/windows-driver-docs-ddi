@@ -4,11 +4,11 @@ title: IDebugDataSpaces
 author: windows-driver-content
 description: IDebugDataSpaces interface
 old-location: debugger\idebugdataspaces.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 9477821c-4f4f-4ea2-9968-d43f87c496b2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.idebugdataspaces, IDebugDataSpaces interface [Windows Debugging], IDebugDataSpaces interface [Windows Debugging], described, IDebugDataSpaces, dbgeng/IDebugDataSpaces, IDebugDataSpaces_83f3a88c-f7e6-4b5c-a2b2-4e8bccef4281.xml
+ms.date: 2/23/2018
+ms.keywords: IDebugDataSpaces, IDebugDataSpaces interface [Windows Debugging], IDebugDataSpaces interface [Windows Debugging], described, IDebugDataSpaces_83f3a88c-f7e6-4b5c-a2b2-4e8bccef4281.xml, dbgeng/IDebugDataSpaces, debugger.idebugdataspaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugDataSpaces
 product: Windows
 targetos: Windows
@@ -50,6 +50,13 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugDataSpaces</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugDataSpaces</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -240,51 +247,14 @@ Writes data to the target's virtual address space.
 
 </td>
 </tr>
-</table>Checks for memory corruption in the low 4 GB of memory.
-
-Reads data from a system bus.
-
-Reads implementation-specific system data.
-
-Returns information about the target that the debugger engine has queried or determined during the current session.
-
-Reads from the system and bus I/O memory.
-
-Reads a specified Model-Specific Register (MSR).
-
-Reads the target's memory from the specified physical address.
-
- Reads pointers from the target's virtual address space.
-
-
-Returns data about the specified processor.
-
-Reads memory from the target's virtual address space.
-
-Reads memory from the target's virtual address space.
-
-Searches the target's virtual memory for a specified pattern of bytes.
-
-Writes data to a system bus.
-
-Writes implementation-specific system data.
-
-Writes to the system and bus I/O memory.
-
-Writes a value to the specified Model-Specific Register (MSR).
-
-Writes data to the specified physical address in the target's memory.
-
-Writes pointers to the target's virtual address space.
-
-Writes data to the target's virtual address space.
-
-Writes data to the target's virtual address space.
-
- 
+</table> 
 
 
 ## -see-also
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
@@ -294,13 +264,9 @@ Writes data to the target's virtual address space.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugDataSpaces interface%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugDataSpaces interface%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: kernel\pnp_bus_information.htm
 old-project: kernel
 ms.assetid: 68372562-9af0-431d-90ae-c82678d9103e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PPNP_BUS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PNP_BUS_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PPNP_BUS_INFORMATION, kernel.pnp_bus_information, kstruct_c_a62e40f6-081a-4d2e-859b-28c98c2216f3.xml, PPNP_BUS_INFORMATION, PNP_BUS_INFORMATION, _PNP_BUS_INFORMATION, wdm/PNP_BUS_INFORMATION, *PPNP_BUS_INFORMATION
+ms.date: 2/24/2018
+ms.keywords: "*PPNP_BUS_INFORMATION, PNP_BUS_INFORMATION, PNP_BUS_INFORMATION structure [Kernel-Mode Driver Architecture], PPNP_BUS_INFORMATION, PPNP_BUS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PNP_BUS_INFORMATION, kernel.pnp_bus_information, kstruct_c_a62e40f6-081a-4d2e-859b-28c98c2216f3.xml, wdm/PNP_BUS_INFORMATION, wdm/PPNP_BUS_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	PNP_BUS_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PPNP_BUS_INFORMATION, PNP_BUS_INFORMATION"
+req.typenames: PNP_BUS_INFORMATION, *PPNP_BUS_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -90,5 +90,5 @@ typedef struct _PNP_BUS_INFORMATION {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PNP_BUS_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PNP_BUS_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

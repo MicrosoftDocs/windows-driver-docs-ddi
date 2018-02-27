@@ -7,8 +7,8 @@ old-location: pci\sriov_query_probed_bars_2.htm
 old-project: PCI
 ms.assetid: e0c079aa-8adf-42c9-a4ac-bfc623471964
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PCI.sriov_query_probed_bars_2, SriovQueryProbedBars2 callback function [Buses], SriovQueryProbedBars2, SRIOV_QUERY_PROBED_BARS_2, SRIOV_QUERY_PROBED_BARS_2, pcivirt/SriovQueryProbedBars2, *PSRIOV_QUERY_PROBED_BARS_2 callback function pointer [Buses], *PSRIOV_QUERY_PROBED_BARS_2
+ms.date: 2/24/2018
+ms.keywords: "*PSRIOV_QUERY_PROBED_BARS_2, *PSRIOV_QUERY_PROBED_BARS_2 callback function pointer [Buses], PCI.sriov_query_probed_bars_2, SRIOV_QUERY_PROBED_BARS_2, SriovQueryProbedBars2, SriovQueryProbedBars2 callback function [Buses], pcivirt/SriovQueryProbedBars2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Pcivirt.h
-apiname:
+api_name:
 -	*PSRIOV_QUERY_PROBED_BARS_2
 product: Windows
 targetos: Windows

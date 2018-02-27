@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fcb5f1a4-8673-412e-95ac-5f3ca781411b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_CALLMEDIADIRECTION_MAX, RIL_CALLMEDIADIRECTION_TX, rilapitypes/RILCALLMEDIADIRECTION, RIL_CALLMEDIADIRECTION_RX, rilapitypes/RIL_CALLMEDIADIRECTION_MAX, netvista.rilcallmediadirection_2, rilapitypes/RIL_CALLMEDIADIRECTION_RX, RIL_CALLMEDIADIRECTION_RXTX, RILCALLMEDIADIRECTION, rilapitypes/RIL_CALLMEDIADIRECTION_RXTX, RILCALLMEDIADIRECTION enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_CALLMEDIADIRECTION_TX
+ms.keywords: RILCALLMEDIADIRECTION, RILCALLMEDIADIRECTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIADIRECTION_MAX, RIL_CALLMEDIADIRECTION_RX, RIL_CALLMEDIADIRECTION_RXTX, RIL_CALLMEDIADIRECTION_TX, netvista.rilcallmediadirection_2, rilapitypes/RILCALLMEDIADIRECTION, rilapitypes/RIL_CALLMEDIADIRECTION_MAX, rilapitypes/RIL_CALLMEDIADIRECTION_RX, rilapitypes/RIL_CALLMEDIADIRECTION_RXTX, rilapitypes/RIL_CALLMEDIADIRECTION_TX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILCALLMEDIADIRECTION
 product: Windows
 targetos: Windows

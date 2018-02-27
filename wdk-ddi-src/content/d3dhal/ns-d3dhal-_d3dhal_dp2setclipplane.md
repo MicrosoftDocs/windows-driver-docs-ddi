@@ -7,8 +7,8 @@ old-location: display\d3dhal_dp2setclipplane.htm
 old-project: display
 ms.assetid: 84459f39-42cb-4877-b569-17c51ee2d6e4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: "*LPD3DHAL_DP2SETCLIPPLANE, D3DHAL_DP2SETCLIPPLANE, d3dstrct_91eb9840-4f5f-42c2-84e7-d2461d484bbf.xml, _D3DHAL_DP2SETCLIPPLANE, d3dhal/LPD3DHAL_DP2SETCLIPPLANE, D3DHAL_DP2SETCLIPPLANE structure [Display Devices], LPD3DHAL_DP2SETCLIPPLANE structure pointer [Display Devices], d3dhal/D3DHAL_DP2SETCLIPPLANE, display.d3dhal_dp2setclipplane, LPD3DHAL_DP2SETCLIPPLANE"
+ms.date: 2/24/2018
+ms.keywords: "*LPD3DHAL_DP2SETCLIPPLANE, D3DHAL_DP2SETCLIPPLANE, D3DHAL_DP2SETCLIPPLANE structure [Display Devices], LPD3DHAL_DP2SETCLIPPLANE, LPD3DHAL_DP2SETCLIPPLANE structure pointer [Display Devices], _D3DHAL_DP2SETCLIPPLANE, d3dhal/D3DHAL_DP2SETCLIPPLANE, d3dhal/LPD3DHAL_DP2SETCLIPPLANE, d3dstrct_91eb9840-4f5f-42c2-84e7-d2461d484bbf.xml, display.d3dhal_dp2setclipplane"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dhal.h
-apiname:
+api_name:
 -	D3DHAL_DP2SETCLIPPLANE
 product: Windows
 targetos: Windows

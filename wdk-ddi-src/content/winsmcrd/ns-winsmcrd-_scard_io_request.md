@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: DE670712-2F11-4BB0-ADC7-B68C94EF0759
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SCARD_IO_REQUEST structure [Near-Field Proximity Drivers], *PSCARD_IO_REQUEST, winsmcrd/SCARD_IO_REQUEST, PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST structure pointer [Near-Field Proximity Drivers], SCARD_IO_REQUEST, PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST, winsmcrd/PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST, _SCARD_IO_REQUEST, nfpdrivers.scard_io_request_structure, *LPSCARD_IO_REQUEST
+ms.keywords: "*LPSCARD_IO_REQUEST, *PSCARD_IO_REQUEST, PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST, PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST structure pointer [Near-Field Proximity Drivers], SCARD_IO_REQUEST, SCARD_IO_REQUEST structure [Near-Field Proximity Drivers], _SCARD_IO_REQUEST, nfpdrivers.scard_io_request_structure, winsmcrd/PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST, winsmcrd/SCARD_IO_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winsmcrd.h
-apiname:
+api_name:
 -	SCARD_IO_REQUEST
 product: Windows
 targetos: Windows
@@ -81,11 +81,11 @@ Specifies the protocol control information length.
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
 
 

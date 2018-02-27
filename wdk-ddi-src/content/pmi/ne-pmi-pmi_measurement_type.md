@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 7a075d95-3bc6-4869-bcd6-1bce6df43384
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PmiMeasurementTypeOutput, PMI_MEASUREMENT_TYPE enumeration [Power Metering and Budgeting Devices], PmiMeasurementTypeMax, pmi/PmiMeasurementTypeOutput, PMI_MEASUREMENT_TYPE, pmi/PmiMeasurementTypeMax, PowerMeterRef_2156ee1f-16d6-4021-865e-ce6482a53f66.xml, powermeter.pmi_measurement_type, PmiMeasurementTypeInput, pmi/PMI_MEASUREMENT_TYPE, pmi/PmiMeasurementTypeInput
+ms.keywords: PMI_MEASUREMENT_TYPE, PMI_MEASUREMENT_TYPE enumeration [Power Metering and Budgeting Devices], PmiMeasurementTypeInput, PmiMeasurementTypeMax, PmiMeasurementTypeOutput, PowerMeterRef_2156ee1f-16d6-4021-865e-ce6482a53f66.xml, pmi/PMI_MEASUREMENT_TYPE, pmi/PmiMeasurementTypeInput, pmi/PmiMeasurementTypeMax, pmi/PmiMeasurementTypeOutput, powermeter.pmi_measurement_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pmi.h
-apiname:
+api_name:
 -	PMI_MEASUREMENT_TYPE
 product: Windows
 targetos: Windows
@@ -97,11 +97,11 @@ PMI measurement data is returned through a query request of <a href="..\pmi\ni-p
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
-
-
-
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_measurement.md">IOCTL_PMI_GET_MEASUREMENT</a>
+
+
+
+<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
 
 
 

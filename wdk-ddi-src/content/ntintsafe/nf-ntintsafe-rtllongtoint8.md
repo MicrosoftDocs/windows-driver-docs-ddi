@@ -7,8 +7,8 @@ old-location: kernel\rtllongtoint8.htm
 old-project: kernel
 ms.assetid: 38BE4F80-DEF2-486B-8A37-BCFD7626325D
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RtlLongToInt8, kernel.rtllongtoint8, ntintsafe/RtlLongToInt8, RtlLongToInt8 function [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: RtlLongToInt8, RtlLongToInt8 function [Kernel-Mode Driver Architecture], kernel.rtllongtoint8, ntintsafe/RtlLongToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntintsafe.h
-apiname:
+api_name:
 -	RtlLongToInt8
 product: Windows
 targetos: Windows

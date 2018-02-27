@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 74386760-95c8-4c69-99bf-542e7c58b8c8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILPARTICIPANTOPERATION, RIL_PARTICIPANT_MAX, rilapitypes/RILPARTICIPANTOPERATION, RIL_PARTICIPANT_REMOVE, rilapitypes/RIL_PARTICIPANT_MAX, rilapitypes/RIL_PARTICIPANT_REMOVE, netvista.rilparticipantoperation_2, RILPARTICIPANTOPERATION enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RILPARTICIPANTOPERATION, RILPARTICIPANTOPERATION enumeration [Network Drivers Starting with Windows Vista], RIL_PARTICIPANT_MAX, RIL_PARTICIPANT_REMOVE, netvista.rilparticipantoperation_2, rilapitypes/RILPARTICIPANTOPERATION, rilapitypes/RIL_PARTICIPANT_MAX, rilapitypes/RIL_PARTICIPANT_REMOVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILPARTICIPANTOPERATION
 product: Windows
 targetos: Windows

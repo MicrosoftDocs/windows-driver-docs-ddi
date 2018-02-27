@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0672eed0-4824-464b-9f4e-93862f27d586
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extsendpacket, Dot11ExtSendPacket callback function [Network Drivers Starting with Windows Vista], Dot11ExtSendPacket, DOT11EXT_SEND_PACKET, DOT11EXT_SEND_PACKET, wlanihv/Dot11ExtSendPacket, Native_802.11_IHV_Ext_0acd1763-b9d3-4e75-ada6-63f5a77b42c3.xml
+ms.keywords: DOT11EXT_SEND_PACKET, Dot11ExtSendPacket, Dot11ExtSendPacket callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_0acd1763-b9d3-4e75-ada6-63f5a77b42c3.xml, netvista.dot11extsendpacket, wlanihv/Dot11ExtSendPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	Dot11ExtSendPacket
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -174,10 +174,13 @@ This packet data is passed to the miniport driver.
 
 ## -see-also
 
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_send_packet_completion.md">
+   Dot11ExtIhvSendPacketCompletion</a>
 
 
 
@@ -186,11 +189,6 @@ This packet data is passed to the miniport driver.
 
 
 <a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header Management</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_send_packet_completion.md">
-   Dot11ExtIhvSendPacketCompletion</a>
 
 
 

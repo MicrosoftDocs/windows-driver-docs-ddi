@@ -7,8 +7,8 @@ old-location: kernel\rtlcomparememory.htm
 old-project: kernel
 ms.assetid: 1801fc27-53bf-4ac5-be41-072dfd8b0696
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: k109_3deee1b7-0b3a-4d24-8c0f-5e428d051a02.xml, RtlCompareMemory routine [Kernel-Mode Driver Architecture], wdm/RtlCompareMemory, kernel.rtlcomparememory, RtlCompareMemory
+ms.date: 2/24/2018
+ms.keywords: RtlCompareMemory, RtlCompareMemory routine [Kernel-Mode Driver Architecture], k109_3deee1b7-0b3a-4d24-8c0f-5e428d051a02.xml, kernel.rtlcomparememory, wdm/RtlCompareMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib; OneCoreUAP.lib on Windows 10
 req.dll: NtDll.dll (user mode); Kernel32.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: Any level (See Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtDll.dll
 -	Kernel32.dll
 -	NtosKrnl.exe
 -	API-MS-Win-Core-rtlsupport-l1-1-0.dll
 -	API-MS-Win-Core-rtlsupport-l1-2-0.dll
-apiname:
+api_name:
 -	RtlCompareMemory
 product: Windows
 targetos: Windows

@@ -4,11 +4,11 @@ title: PDEBUG_EXTENSION_QUERY_VALUE_NAMES
 author: windows-driver-content
 description: The DebugExtensionQueryValueNames callback function recovers pseudo-register values.C++ CALLBACK* PDEBUG_EXTENSION_QUERY_VALUE_NAMES DebugExtensionQueryValueNames;
 old-location: debugger\debugextensionqueryvaluenames.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: cda46d60-913c-40f7-958a-5f9dea93bd0f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.debugextensionqueryvaluenames, DebugExtensionQueryValueNames, DebugExtensionQueryValueNames callback function [Windows Debugging], DebugExtensionQueryValueNames, PDEBUG_EXTENSION_QUERY_VALUE_NAMES, PDEBUG_EXTENSION_QUERY_VALUE_NAMES, dbgeng/DebugExtensionQueryValueNames, Extensions_Ref_d06137e2-2d0a-4760-b5f6-2f03355f8c07.xml
+ms.date: 2/23/2018
+ms.keywords: DebugExtensionQueryValueNames, DebugExtensionQueryValueNames callback function [Windows Debugging], Extensions_Ref_d06137e2-2d0a-4760-b5f6-2f03355f8c07.xml, PDEBUG_EXTENSION_QUERY_VALUE_NAMES, dbgeng/DebugExtensionQueryValueNames, debugger.debugextensionqueryvaluenames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Dbgeng.h
-apiname:
+api_name:
 -	DebugExtensionQueryValueNames
 product: Windows
 targetos: Windows
@@ -153,10 +153,6 @@ Value names must start with <b>$$</b> and have a terminating NULL character. The
 
 ## -see-also
 
-<i>KnownStructOutput</i>
-
-
-
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
 
 
@@ -165,7 +161,7 @@ Value names must start with <b>$$</b> and have a terminating NULL character. The
 
 
 
-<i>KnownStructOutput</i>
+<i>DebugExtensionUninitialize</i>
 
 
 
@@ -173,7 +169,7 @@ Value names must start with <b>$$</b> and have a terminating NULL character. The
 
 
 
-<i>DebugExtensionUninitialize</i>
+<i>KnownStructOutput</i>
 
 
 
@@ -181,5 +177,5 @@ Value names must start with <b>$$</b> and have a terminating NULL character. The
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20PDEBUG_EXTENSION_QUERY_VALUE_NAMES callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20PDEBUG_EXTENSION_QUERY_VALUE_NAMES callback function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

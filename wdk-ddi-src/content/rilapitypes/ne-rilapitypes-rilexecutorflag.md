@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 691d962a-5775-462a-8c3f-d9b02e189810
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILEXECUTORFLAG enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_EXECUTORFLAG_HIGHPRIORITY, RILEXECUTORFLAG, netvista.rilexecutorflag_2, rilapitypes/RIL_EXECUTORFLAG_ALL, rilapitypes/RILEXECUTORFLAG, RIL_EXECUTORFLAG_HIGHPRIORITY, RIL_EXECUTORFLAG_ALL
+ms.keywords: RILEXECUTORFLAG, RILEXECUTORFLAG enumeration [Network Drivers Starting with Windows Vista], RIL_EXECUTORFLAG_ALL, RIL_EXECUTORFLAG_HIGHPRIORITY, netvista.rilexecutorflag_2, rilapitypes/RILEXECUTORFLAG, rilapitypes/RIL_EXECUTORFLAG_ALL, rilapitypes/RIL_EXECUTORFLAG_HIGHPRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILEXECUTORFLAG
 product: Windows
 targetos: Windows

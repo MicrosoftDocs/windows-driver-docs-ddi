@@ -4,11 +4,11 @@ title: IDebugSymbols3::GetModuleVersionInformation method
 author: windows-driver-content
 description: The GetModuleVersionInformation method returns version information for the specified module.
 old-location: debugger\getmoduleversioninformation.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: af655cd2-2e1f-4d78-aff3-3875106b50bc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GetModuleVersionInformation method [Windows Debugging], IDebugSymbols3 interface, debugger.getmoduleversioninformation, IDebugSymbols3::GetModuleVersionInformation, dbgeng/IDebugSymbols2::GetModuleVersionInformation, GetModuleVersionInformation method [Windows Debugging], IDebugSymbols2 interface [Windows Debugging], GetModuleVersionInformation method, IDebugSymbols_a325db82-91a3-48d9-b189-8971cd5eaf75.xml, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleVersionInformation method, dbgeng/IDebugSymbols3::GetModuleVersionInformation, IDebugSymbols2::GetModuleVersionInformation, GetModuleVersionInformation method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2, GetModuleVersionInformation
+ms.date: 2/23/2018
+ms.keywords: GetModuleVersionInformation method [Windows Debugging], GetModuleVersionInformation method [Windows Debugging], IDebugSymbols2 interface, GetModuleVersionInformation method [Windows Debugging], IDebugSymbols3 interface, GetModuleVersionInformation,IDebugSymbols3.GetModuleVersionInformation, IDebugSymbols2 interface [Windows Debugging], GetModuleVersionInformation method, IDebugSymbols2::GetModuleVersionInformation, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleVersionInformation method, IDebugSymbols3::GetModuleVersionInformation, IDebugSymbols_a325db82-91a3-48d9-b189-8971cd5eaf75.xml, dbgeng/IDebugSymbols2::GetModuleVersionInformation, dbgeng/IDebugSymbols3::GetModuleVersionInformation, debugger.getmoduleversioninformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugSymbols2.GetModuleVersionInformation
 -	IDebugSymbols3.GetModuleVersionInformation
 product: Windows
@@ -166,11 +166,7 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
 
 
 
@@ -178,17 +174,21 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547927">GetNumberModules</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols2::GetModuleVersionInformation method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols2::GetModuleVersionInformation method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

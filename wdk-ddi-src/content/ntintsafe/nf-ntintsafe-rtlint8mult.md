@@ -7,8 +7,8 @@ old-location: kernel\rtlint8mult.htm
 old-project: kernel
 ms.assetid: A2551FD2-55E7-4931-887B-1CB9901F23D6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RtlInt8Mult function [Kernel-Mode Driver Architecture], kernel.rtlint8mult, RtlInt8Mult, ntintsafe/RtlInt8Mult
+ms.date: 2/24/2018
+ms.keywords: RtlInt8Mult, RtlInt8Mult function [Kernel-Mode Driver Architecture], kernel.rtlint8mult, ntintsafe/RtlInt8Mult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntintsafe.h
-apiname:
+api_name:
 -	RtlInt8Mult
 product: Windows
 targetos: Windows

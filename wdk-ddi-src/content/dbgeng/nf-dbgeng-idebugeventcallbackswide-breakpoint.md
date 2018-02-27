@@ -4,11 +4,11 @@ title: IDebugEventCallbacksWide::Breakpoint method
 author: windows-driver-content
 description: The Breakpoint callback method is called by the engine when the target issues a breakpointexception.
 old-location: debugger\idebugeventcallbackswide_breakpoint.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: ee9b9b6c-c76e-4979-9f23-c411fe1b002a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugEventCallbacksWide, debugger.idebugeventcallbackswide_breakpoint, IDebugEventCallbacksWide interface [Windows Debugging], Breakpoint method, dbgeng/IDebugEventCallbacksWide::Breakpoint, Breakpoint, IDebugEventCallbacksWide::Breakpoint, Breakpoint method [Windows Debugging], Breakpoint method [Windows Debugging], IDebugEventCallbacksWide interface
+ms.date: 2/23/2018
+ms.keywords: Breakpoint method [Windows Debugging], Breakpoint method [Windows Debugging], IDebugEventCallbacksWide interface, Breakpoint,IDebugEventCallbacksWide.Breakpoint, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], Breakpoint method, IDebugEventCallbacksWide::Breakpoint, dbgeng/IDebugEventCallbacksWide::Breakpoint, debugger.idebugeventcallbackswide_breakpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugEventCallbacksWide.Breakpoint
 product: Windows
 targetos: Windows

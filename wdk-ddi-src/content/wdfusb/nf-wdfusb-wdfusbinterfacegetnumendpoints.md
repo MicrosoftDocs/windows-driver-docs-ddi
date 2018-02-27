@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6041b96e-2364-4592-9bc5-de4fb1b36957
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfUsbInterfaceGetNumEndpoints method, wdfusb/WdfUsbInterfaceGetNumEndpoints, kmdf.wdfusbinterfacegetnumendpoints, WdfUsbInterfaceGetNumEndpoints, DFUsbRef_e0c08e93-b09f-40d0-9958-e4e51d7b887d.xml, wdf.wdfusbinterfacegetnumendpoints
+ms.keywords: DFUsbRef_e0c08e93-b09f-40d0-9958-e4e51d7b887d.xml, WdfUsbInterfaceGetNumEndpoints, WdfUsbInterfaceGetNumEndpoints method, kmdf.wdfusbinterfacegetnumendpoints, wdf.wdfusbinterfacegetnumendpoints, wdfusb/WdfUsbInterfaceGetNumEndpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname:
+api_name:
 -	WdfUsbInterfaceGetNumEndpoints
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

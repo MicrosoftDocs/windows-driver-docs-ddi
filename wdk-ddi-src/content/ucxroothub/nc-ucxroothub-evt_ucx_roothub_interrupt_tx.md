@@ -4,11 +4,11 @@ title: EVT_UCX_ROOTHUB_INTERRUPT_TX
 author: windows-driver-content
 description: The client driver's implementation that UCX calls when it receives a request for information about changed ports.
 old-location: buses\evt_ucx_roothub_interrupt_tx.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: e2371b90-2274-459b-9e4a-5c9936d21b9c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_roothub_interrupt_tx, EvtUcxInterruptTransferTx callback function [Buses], EvtUcxInterruptTransferTx, EVT_UCX_ROOTHUB_INTERRUPT_TX, EVT_UCX_ROOTHUB_INTERRUPT_TX, ucxroothub/EvtUcxInterruptTransferTx, PEVT_UCX_ROOTHUB_INTERRUPT_TX callback function pointer [Buses], PEVT_UCX_ROOTHUB_INTERRUPT_TX
+ms.date: 2/24/2018
+ms.keywords: EVT_UCX_ROOTHUB_INTERRUPT_TX, EvtUcxInterruptTransferTx, EvtUcxInterruptTransferTx callback function [Buses], PEVT_UCX_ROOTHUB_INTERRUPT_TX, PEVT_UCX_ROOTHUB_INTERRUPT_TX callback function pointer [Buses], buses.evt_ucx_roothub_interrupt_tx, ucxroothub/EvtUcxInterruptTransferTx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ucxroothub.h
-apiname:
+api_name:
 -	PEVT_UCX_ROOTHUB_INTERRUPT_TX
 product: Windows
 targetos: Windows

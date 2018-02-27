@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a7f6d53a-439e-4274-80b0-9fb183459824
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extrequestvirtualstation, Dot11ExtRequestVirtualStation callback function [Network Drivers Starting with Windows Vista], Dot11ExtRequestVirtualStation, DOT11EXT_REQUEST_VIRTUAL_STATION, DOT11EXT_REQUEST_VIRTUAL_STATION, wlanihv/Dot11ExtRequestVirtualStation, Native_802.11_IHV_Ext_d118b82f-9abc-4878-b76f-4aabf93b38ea.xml
+ms.keywords: DOT11EXT_REQUEST_VIRTUAL_STATION, Dot11ExtRequestVirtualStation, Dot11ExtRequestVirtualStation callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_d118b82f-9abc-4878-b76f-4aabf93b38ea.xml, netvista.dot11extrequestvirtualstation, wlanihv/Dot11ExtRequestVirtualStation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	Dot11ExtRequestVirtualStation
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -118,12 +118,12 @@ After the operating system creates the new virtual station, the IHV Extensions D
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_release_virtual_station.md">
    Dot11ExtReleaseVirtualStation</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 

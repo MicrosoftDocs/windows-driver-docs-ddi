@@ -7,8 +7,8 @@ old-location: display\hwvidinitialize.htm
 old-project: display
 ms.assetid: 0e43de21-59e5-4368-8ea2-34fa52e99950
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.hwvidinitialize, HwVidInitialize callback function [Display Devices], HwVidInitialize, PVIDEO_HW_INITIALIZE, PVIDEO_HW_INITIALIZE, video/HwVidInitialize, VideoMiniport_Functions_7c9d848d-8129-45cc-91f0-7f66f536e7a6.xml
+ms.date: 2/24/2018
+ms.keywords: HwVidInitialize, HwVidInitialize callback function [Display Devices], PVIDEO_HW_INITIALIZE, VideoMiniport_Functions_7c9d848d-8129-45cc-91f0-7f66f536e7a6.xml, display.hwvidinitialize, video/HwVidInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	video.h
-apiname:
+api_name:
 -	HwVidInitialize
 product: Windows
 targetos: Windows
@@ -102,7 +102,7 @@ If at all possible, <i>HwVidInitialize</i> should avoid programming the device h
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_reset_hw.md">HwVidResetHw</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 
 
@@ -110,7 +110,7 @@ If at all possible, <i>HwVidInitialize</i> should avoid programming the device h
 
 
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="..\video\nc-video-pvideo_hw_reset_hw.md">HwVidResetHw</a>
 
 
 
@@ -118,5 +118,5 @@ If at all possible, <i>HwVidInitialize</i> should avoid programming the device h
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PVIDEO_HW_INITIALIZE callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PVIDEO_HW_INITIALIZE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

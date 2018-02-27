@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: ccf9e0a2-b891-474c-ac95-7b18112857c0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SD.ioctl_sffdisk_device_command, IOCTL_SFFDISK_DEVICE_COMMAND control code [Buses], IOCTL_SFFDISK_DEVICE_COMMAND, sffdisk/IOCTL_SFFDISK_DEVICE_COMMAND, sd-ioctls_27448784-2a0f-484b-a36f-60f3c617ec08.xml
+ms.keywords: IOCTL_SFFDISK_DEVICE_COMMAND, IOCTL_SFFDISK_DEVICE_COMMAND control code [Buses], SD.ioctl_sffdisk_device_command, sd-ioctls_27448784-2a0f-484b-a36f-60f3c617ec08.xml, sffdisk/IOCTL_SFFDISK_DEVICE_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	sffdisk.h
-apiname:
+api_name:
 -	IOCTL_SFFDISK_DEVICE_COMMAND
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

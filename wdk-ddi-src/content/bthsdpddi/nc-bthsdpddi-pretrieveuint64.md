@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: fa187750-1aed-4e74-8e98-a3b8c731f1d1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.sdpretrieveuint128, SdpRetrieveUint128 callback function [Bluetooth Devices], SdpRetrieveUint128, PRETRIEVEUINT64, PRETRIEVEUINT64, sdplib/SdpRetrieveUint128, bth_funcs_5377ee2b-643e-4486-9eb2-6d37bda46c85.xml
+ms.keywords: PRETRIEVEUINT64, SdpRetrieveUint128, SdpRetrieveUint128 callback function [Bluetooth Devices], bltooth.sdpretrieveuint128, bth_funcs_5377ee2b-643e-4486-9eb2-6d37bda46c85.xml, sdplib/SdpRetrieveUint128
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	sdplib.h
-apiname:
+api_name:
 -	SdpRetrieveUint128
 product: Windows
 targetos: Windows

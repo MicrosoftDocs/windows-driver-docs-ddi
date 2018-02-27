@@ -7,8 +7,8 @@ old-location: audio\ipowernotify.htm
 old-project: audio
 ms.assetid: f4856f40-b462-4e69-9324-a2cc837b2893
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.ipowernotify, IPowerNotify interface [Audio Devices], IPowerNotify interface [Audio Devices], described, IPowerNotify, portcls/IPowerNotify, audmp-routines_345bcede-d886-4423-b56e-0b7c15596744.xml
+ms.date: 2/22/2018
+ms.keywords: IPowerNotify, IPowerNotify interface [Audio Devices], IPowerNotify interface [Audio Devices], described, audio.ipowernotify, audmp-routines_345bcede-d886-4423-b56e-0b7c15596744.xml, portcls/IPowerNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IPowerNotify
 product: Windows
 targetos: Windows
@@ -92,6 +92,13 @@ The process is reversed when the device is powering up. PortCls first calls the 
 For more information, see <a href="https://msdn.microsoft.com/8bd8b4c8-1961-41ea-ba98-41e3a732ed37">Implementing IPowerNotify</a>.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPowerNotify</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPowerNotify</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IPowerNotify</b> interface has these methods.
@@ -109,7 +116,5 @@ The <code>PowerChangeNotify</code> method notifies the miniport driver of change
 
 </td>
 </tr>
-</table>The <code>PowerChangeNotify</code> method notifies the miniport driver of changes in the power state.
-
- 
+</table> 
 

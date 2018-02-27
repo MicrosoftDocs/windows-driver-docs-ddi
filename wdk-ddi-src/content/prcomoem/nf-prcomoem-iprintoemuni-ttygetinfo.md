@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_ttygetinfo.htm
 old-project: print
 ms.assetid: 0df8c555-4298-47e7-a6a7-43f101620e04
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IPrintOemUni interface [Print Devices], TTYGetInfo method, IPrintOemUni::TTYGetInfo, TTYGetInfo method [Print Devices], print.iprintoemuni_ttygetinfo, prcomoem/IPrintOemUni::TTYGetInfo, TTYGetInfo, print_unidrv-pscript_rendering_d98708b3-8e01-4037-a545-aee0e32a46c6.xml, IPrintOemUni, TTYGetInfo method [Print Devices], IPrintOemUni interface
+ms.date: 2/23/2018
+ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], TTYGetInfo method, IPrintOemUni::TTYGetInfo, TTYGetInfo method [Print Devices], TTYGetInfo method [Print Devices], IPrintOemUni interface, TTYGetInfo,IPrintOemUni.TTYGetInfo, prcomoem/IPrintOemUni::TTYGetInfo, print.iprintoemuni_ttygetinfo, print_unidrv-pscript_rendering_d98708b3-8e01-4037-a545-aee0e32a46c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	prcomoem.h
-apiname:
+api_name:
 -	IPrintOemUni.TTYGetInfo
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

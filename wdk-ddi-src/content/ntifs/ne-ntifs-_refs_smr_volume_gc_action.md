@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9A9D174A-0E9E-4B3A-BF91-3000128C58C7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/PREFS_SMR_VOLUME_GC_ACTION, SmrGcActionStartFullSpeed, SmrGcActionPause, ntifs/REFS_SMR_VOLUME_GC_ACTION, ntifs/SmrGcActionStart, SmrGcActionStop, PREFS_SMR_VOLUME_GC_ACTION, ifsk.refs_smr_volume_gc_action, ntifs/SmrGcActionStop, *PREFS_SMR_VOLUME_GC_ACTION, PREFS_SMR_VOLUME_GC_ACTION enumeration pointer [Installable File System Drivers], ntifs/SmrGcActionStartFullSpeed, REFS_SMR_VOLUME_GC_ACTION enumeration [Installable File System Drivers], _REFS_SMR_VOLUME_GC_ACTION, REFS_SMR_VOLUME_GC_ACTION, ntifs/SmrGcActionPause, SmrGcActionStart
+ms.keywords: "*PREFS_SMR_VOLUME_GC_ACTION, PREFS_SMR_VOLUME_GC_ACTION, PREFS_SMR_VOLUME_GC_ACTION enumeration pointer [Installable File System Drivers], REFS_SMR_VOLUME_GC_ACTION, REFS_SMR_VOLUME_GC_ACTION enumeration [Installable File System Drivers], SmrGcActionPause, SmrGcActionStart, SmrGcActionStartFullSpeed, SmrGcActionStop, _REFS_SMR_VOLUME_GC_ACTION, ifsk.refs_smr_volume_gc_action, ntifs/PREFS_SMR_VOLUME_GC_ACTION, ntifs/REFS_SMR_VOLUME_GC_ACTION, ntifs/SmrGcActionPause, ntifs/SmrGcActionStart, ntifs/SmrGcActionStartFullSpeed, ntifs/SmrGcActionStop"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntifs.h
-apiname:
+api_name:
 -	REFS_SMR_VOLUME_GC_ACTION
 product: Windows
 targetos: Windows
-req.typenames: "*PREFS_SMR_VOLUME_GC_ACTION, REFS_SMR_VOLUME_GC_ACTION"
+req.typenames: REFS_SMR_VOLUME_GC_ACTION, *PREFS_SMR_VOLUME_GC_ACTION
 ---
 
 # _REFS_SMR_VOLUME_GC_ACTION enumeration

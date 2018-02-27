@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6620d6c8-2b8a-440e-acf4-fb08570b13bf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PWWAN_SMS_FLAG, PWWAN_SMS_FLAG enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanSmsFlagAll, PWWAN_SMS_FLAG, WwanSmsFlagSent, wwan/WwanSmsFlagNew, wwan/WwanSmsFlagIndex, WwanSmsFlagIndex, WwanSmsFlagMax, netvista.wwan_sms_flag, WWAN_SMS_FLAG enumeration [Network Drivers Starting with Windows Vista], WwanSmsFlagNew, _WWAN_SMS_FLAG, wwan/WwanSmsFlagSent, wwan/PWWAN_SMS_FLAG, wwan/WwanSmsFlagMax, WwanSmsFlagOld, WwanSmsFlagAll, WWAN_SMS_FLAG, wwan/WwanSmsFlagOld, WwanSmsFlagDraft, wwan/WWAN_SMS_FLAG, WwanRef_379a284f-534f-4acb-88c7-d60f7627ab32.xml, wwan/WwanSmsFlagDraft"
+ms.keywords: "*PWWAN_SMS_FLAG, PWWAN_SMS_FLAG, PWWAN_SMS_FLAG enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_FLAG, WWAN_SMS_FLAG enumeration [Network Drivers Starting with Windows Vista], WwanRef_379a284f-534f-4acb-88c7-d60f7627ab32.xml, WwanSmsFlagAll, WwanSmsFlagDraft, WwanSmsFlagIndex, WwanSmsFlagMax, WwanSmsFlagNew, WwanSmsFlagOld, WwanSmsFlagSent, _WWAN_SMS_FLAG, netvista.wwan_sms_flag, wwan/PWWAN_SMS_FLAG, wwan/WWAN_SMS_FLAG, wwan/WwanSmsFlagAll, wwan/WwanSmsFlagDraft, wwan/WwanSmsFlagIndex, wwan/WwanSmsFlagMax, wwan/WwanSmsFlagNew, wwan/WwanSmsFlagOld, wwan/WwanSmsFlagSent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_SMS_FLAG
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c994060c-d8b3-4daa-a0dd-a734ffe34229
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.mrxgetconnectionid, MRxGetConnectionId, MRxGetConnectionId routine [Installable File System Drivers], MRxGetConnectionId, PMRX_GET_CONNECTION_ID, PMRX_GET_CONNECTION_ID, mrx/MRxGetConnectionId, mrxref_14943242-5da1-4404-bc5b-b86c2a88b347.xml
+ms.keywords: MRxGetConnectionId, MRxGetConnectionId routine [Installable File System Drivers], PMRX_GET_CONNECTION_ID, ifsk.mrxgetconnectionid, mrx/MRxGetConnectionId, mrxref_14943242-5da1-4404-bc5b-b86c2a88b347.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	mrx.h
-apiname:
+api_name:
 -	MRxGetConnectionId
 product: Windows
 targetos: Windows
@@ -122,11 +122,11 @@ If connection IDs are supported by the network mini-redirector, then the returne
 
 ## -see-also
 
-<a href="..\mrx\nc-mrx-pmrx_compute_new_buffering_state.md">MRxComputeNewBufferingState</a>
-
-
-
 <a href="..\mrx\nc-mrx-pmrx_change_buffering_state_calldown.md">MRxCompleteBufferingStateChangeRequest</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_compute_new_buffering_state.md">MRxComputeNewBufferingState</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 773490EE-ECFC-4089-869D-19683A76E4FA
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WWAN_USSD_REQUEST_TYPE, wwan/WWAN_USSD_REQUEST_TYPE, _WWAN_USSD_REQUEST_TYPE, wwan/WwanUssdRequestCancel, WwanUssdRequestCancel, WwanUssdRequestInitiate, netvista.wwan_ussd_request_type, *PWWAN_USSD_REQUEST_TYPE, wwan/WwanUssdRequestInitiate, wwan/WwanUssdRequestContinue, WwanUssdRequestContinue, WWAN_USSD_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PWWAN_USSD_REQUEST_TYPE, WWAN_USSD_REQUEST_TYPE, WWAN_USSD_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanUssdRequestCancel, WwanUssdRequestContinue, WwanUssdRequestInitiate, _WWAN_USSD_REQUEST_TYPE, netvista.wwan_ussd_request_type, wwan/WWAN_USSD_REQUEST_TYPE, wwan/WwanUssdRequestCancel, wwan/WwanUssdRequestContinue, wwan/WwanUssdRequestInitiate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_USSD_REQUEST_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_USSD_REQUEST_TYPE, WWAN_USSD_REQUEST_TYPE"
+req.typenames: WWAN_USSD_REQUEST_TYPE, *PWWAN_USSD_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

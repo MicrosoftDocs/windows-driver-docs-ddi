@@ -4,11 +4,11 @@ title: IWiaTransferCallback::TransferCallback method
 author: windows-driver-content
 description: The IWiaTransferCallback::TransferCallback method is implemented by an image processing filter. It is called by the WIA service as a result of an application calling IWiaTransfer::Download or the preview component's IWiaPreview::GetNewPreview.
 old-location: image\iwiatransfercallback_transfercallback.htm
-old-project: Image
+old-project: image
 ms.assetid: dc6c2057-9617-4c69-ac79-2a8f910a1ee2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: TransferCallback method [Imaging Devices], IWiaTransfercallback_8e8bdc78-ce93-4fe1-98aa-91ffe608ee52.xml, image.iwiatransfercallback_transfercallback, IWiaTransferCallback::TransferCallback, IWiaTransferCallback, TransferCallback, IWiaTransferCallback interface [Imaging Devices], TransferCallback method, wia_lh/IWiaTransferCallback::TransferCallback, TransferCallback method [Imaging Devices], IWiaTransferCallback interface
+ms.date: 2/23/2018
+ms.keywords: IWiaTransferCallback, IWiaTransferCallback interface [Imaging Devices], TransferCallback method, IWiaTransferCallback::TransferCallback, IWiaTransfercallback_8e8bdc78-ce93-4fe1-98aa-91ffe608ee52.xml, TransferCallback method [Imaging Devices], TransferCallback method [Imaging Devices], IWiaTransferCallback interface, TransferCallback,IWiaTransferCallback.TransferCallback, image.iwiatransfercallback_transfercallback, wia_lh/IWiaTransferCallback::TransferCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wia_lh.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	wia_lh.h
-apiname:
+api_name:
 -	IWiaTransferCallback.TransferCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
+req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
 

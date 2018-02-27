@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 00f6c2d9-7521-46c8-b37e-2be304d8a045
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_RxLog function [Installable File System Drivers], _RxLog, rxlog/_RxLog, ifsk._rxlog, rxref_2c140100-e24e-4fe0-935a-81fa6840db24.xml"
+ms.keywords: "_RxLog, _RxLog function [Installable File System Drivers], ifsk._rxlog, rxlog/_RxLog, rxref_2c140100-e24e-4fe0-935a-81fa6840db24.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rxlog.h
-apiname:
+api_name:
 -	_RxLog
 product: Windows
 targetos: Windows
@@ -123,7 +123,7 @@ It is recommended that the <b>RxLog</b> macro be used to call this routine. On c
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-rxlogeventwithannotation.md">RxLogEventWithAnnotation</a>
+<a href="..\rxprocs\nf-rxprocs-rxlogeventwithbufferdirect.md">RxLogEventWithBufferDirect</a>
 
 
 
@@ -131,7 +131,7 @@ It is recommended that the <b>RxLog</b> macro be used to call this routine. On c
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxlogeventwithbufferdirect.md">RxLogEventWithBufferDirect</a>
+<a href="..\rxprocs\nf-rxprocs-rxlogeventwithannotation.md">RxLogEventWithAnnotation</a>
 
 
 

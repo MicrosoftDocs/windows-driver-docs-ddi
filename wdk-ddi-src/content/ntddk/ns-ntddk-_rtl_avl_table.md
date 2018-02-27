@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 115d9489-f9f5-4dd2-bf09-33e8fd640743
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PRTL_AVL_TABLE structure pointer [Installable File System Drivers], othersystemstructures_15c34a0b-0bca-4c5f-82d9-0320ef0d33ad.xml, _RTL_AVL_TABLE, ifsk.rtl_avl_table, *PRTL_AVL_TABLE, PRTL_AVL_TABLE, RTL_AVL_TABLE structure [Installable File System Drivers], ntddk/PRTL_AVL_TABLE, RTL_AVL_TABLE, ntddk/RTL_AVL_TABLE
+ms.keywords: "*PRTL_AVL_TABLE, PRTL_AVL_TABLE, PRTL_AVL_TABLE structure pointer [Installable File System Drivers], RTL_AVL_TABLE, RTL_AVL_TABLE structure [Installable File System Drivers], _RTL_AVL_TABLE, ifsk.rtl_avl_table, ntddk/PRTL_AVL_TABLE, ntddk/RTL_AVL_TABLE, othersystemstructures_15c34a0b-0bca-4c5f-82d9-0320ef0d33ad.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddk.h
-apiname:
+api_name:
 -	RTL_AVL_TABLE
 product: Windows
 targetos: Windows
@@ -219,27 +219,7 @@ To initialize an AVL table package, you allocate a buffer that is at least <b>si
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTableAvl</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictable.md">RtlLookupElementGenericTableAvl</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplayingAvl</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictablelikeadirectory.md">RtlEnumerateGenericTableLikeADirectory</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtllookupfirstmatchingelementgenerictableavl.md">RtlLookupFirstMatchingElementGenericTableAvl</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplayingAvl</a>
 
 
 
@@ -247,15 +227,11 @@ To initialize an AVL table package, you allocate a buffer that is at least <b>si
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTableAvl</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlgetelementgenerictableavl.md">RtlGetElementGenericTableAvl</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtllookupelementgenerictablefullavl.md">RtlLookupElementGenericTableFullAvl</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_rtl_generic_table.md">RTL_GENERIC_TABLE</a>
 
 
 
@@ -263,7 +239,11 @@ To initialize an AVL table package, you allocate a buffer that is at least <b>si
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTableAvl</a>
+<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictable.md">RtlInsertElementGenericTableAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtllookupfirstmatchingelementgenerictableavl.md">RtlLookupFirstMatchingElementGenericTableAvl</a>
 
 
 
@@ -271,7 +251,27 @@ To initialize an AVL table package, you allocate a buffer that is at least <b>si
 
 
 
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTableAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElementsAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTableAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplayingAvl</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlgetelementgenerictableavl.md">RtlGetElementGenericTableAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictable.md">RtlLookupElementGenericTableAvl</a>
 
 
 

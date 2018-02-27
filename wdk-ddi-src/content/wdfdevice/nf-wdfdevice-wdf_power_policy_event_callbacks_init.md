@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 09ab4995-58be-4d87-adf7-e843e637ac09
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_POWER_POLICY_EVENT_CALLBACKS_INIT function, WDF_POWER_POLICY_EVENT_CALLBACKS_INIT, DFDeviceObjectGeneralRef_46bebe7b-91e3-4ad3-b535-233d6c40622e.xml, wdfdevice/WDF_POWER_POLICY_EVENT_CALLBACKS_INIT, wdf.wdf_power_policy_event_callbacks_init, kmdf.wdf_power_policy_event_callbacks_init
+ms.keywords: DFDeviceObjectGeneralRef_46bebe7b-91e3-4ad3-b535-233d6c40622e.xml, WDF_POWER_POLICY_EVENT_CALLBACKS_INIT, WDF_POWER_POLICY_EVENT_CALLBACKS_INIT function, kmdf.wdf_power_policy_event_callbacks_init, wdf.wdf_power_policy_event_callbacks_init, wdfdevice/WDF_POWER_POLICY_EVENT_CALLBACKS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfdevice.h
-apiname:
+api_name:
 -	WDF_POWER_POLICY_EVENT_CALLBACKS_INIT
 product: Windows
 targetos: Windows

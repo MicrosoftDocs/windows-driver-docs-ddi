@@ -7,8 +7,8 @@ old-location: display\d3d12ddi_video_coded_interlace_type.htm
 old-project: display
 ms.assetid: 5440595D-C692-4349-9332-393CCB11DBFF
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3d12umddi/D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020_FIELD_BASED, d3d12umddi/D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020_NONE, D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020_FIELD_BASED, display.d3d12ddi_video_coded_interlace_type, D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020_NONE, D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020, d3d12umddi/D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020, D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020 enumeration [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020, D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020 enumeration [Display Devices], D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020_FIELD_BASED, D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020_NONE, d3d12umddi/D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020, d3d12umddi/D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020_FIELD_BASED, d3d12umddi/D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020_NONE, display.d3d12ddi_video_coded_interlace_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3d12umddi.h
-apiname:
+api_name:
 -	D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020
 product: Windows
 targetos: Windows

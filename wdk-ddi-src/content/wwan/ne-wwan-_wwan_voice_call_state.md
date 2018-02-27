@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 50b85fc0-b84a-4c1d-9d7b-4b91150f8e76
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WwanVoiceCallStateHangUp, wwan/WwanVoiceCallStateMaximum, PWWAN_VOICE_CALL_STATE enumeration pointer [Network Drivers Starting with Windows Vista], PWWAN_VOICE_CALL_STATE, WwanVoiceCallStateMaximum, WWAN_VOICE_CALL_STATE, WwanRef_65c4ae25-c50f-4527-95fd-043730c736e4.xml, _WWAN_VOICE_CALL_STATE, wwan/PWWAN_VOICE_CALL_STATE, WwanVoiceCallStateInProgress, wwan/WwanVoiceCallStateInProgress, WWAN_VOICE_CALL_STATE enumeration [Network Drivers Starting with Windows Vista], WwanVoiceCallStateNone, wwan/WwanVoiceCallStateNone, wwan/WwanVoiceCallStateHangUp, *PWWAN_VOICE_CALL_STATE, wwan/WWAN_VOICE_CALL_STATE, netvista.wwan_voice_call_state
+ms.keywords: "*PWWAN_VOICE_CALL_STATE, PWWAN_VOICE_CALL_STATE, PWWAN_VOICE_CALL_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_VOICE_CALL_STATE, WWAN_VOICE_CALL_STATE enumeration [Network Drivers Starting with Windows Vista], WwanRef_65c4ae25-c50f-4527-95fd-043730c736e4.xml, WwanVoiceCallStateHangUp, WwanVoiceCallStateInProgress, WwanVoiceCallStateMaximum, WwanVoiceCallStateNone, _WWAN_VOICE_CALL_STATE, netvista.wwan_voice_call_state, wwan/PWWAN_VOICE_CALL_STATE, wwan/WWAN_VOICE_CALL_STATE, wwan/WwanVoiceCallStateHangUp, wwan/WwanVoiceCallStateInProgress, wwan/WwanVoiceCallStateMaximum, wwan/WwanVoiceCallStateNone"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_VOICE_CALL_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_VOICE_CALL_STATE, WWAN_VOICE_CALL_STATE"
+req.typenames: WWAN_VOICE_CALL_STATE, *PWWAN_VOICE_CALL_STATE
 req.product: Windows 10 or later.
 ---
 

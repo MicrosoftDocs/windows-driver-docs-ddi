@@ -4,11 +4,11 @@ title: IOCTL_CANCEL_IO
 author: windows-driver-content
 description: Cancels activity on the specified USB transfer pipe that is associated with the specified device handle.
 old-location: image\ioctl_cancel_io.htm
-old-project: Image
+old-project: image
 ms.assetid: 5748e949-3edb-405a-ab2f-05c929cf5aa6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: image.ioctl_cancel_io, IOCTL_CANCEL_IO control code [Imaging Devices], IOCTL_CANCEL_IO, usbscan/IOCTL_CANCEL_IO, stifnc_df576f5d-a45a-4aa8-91c6-e288f9d99c14.xml
+ms.date: 2/23/2018
+ms.keywords: IOCTL_CANCEL_IO, IOCTL_CANCEL_IO control code [Imaging Devices], image.ioctl_cancel_io, stifnc_df576f5d-a45a-4aa8-91c6-e288f9d99c14.xml, usbscan/IOCTL_CANCEL_IO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Usbscan.h
-apiname:
+api_name:
 -	IOCTL_CANCEL_IO
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

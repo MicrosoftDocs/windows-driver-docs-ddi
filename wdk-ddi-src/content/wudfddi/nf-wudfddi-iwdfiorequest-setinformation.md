@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dc2c907c-1e3b-418c-85f8-9902dc83f7ab
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFIoRequest interface, SetInformation method, SetInformation method, IWDFIoRequest interface, SetInformation, umdf.iwdfiorequest_setinformation, wudfddi/IWDFIoRequest::SetInformation, IWDFIoRequest::SetInformation, SetInformation method, IWDFIoRequest, wdf.iwdfiorequest_setinformation, UMDFRequestObjectRef_6b29fa48-7024-44de-ab4f-68907515483a.xml
+ms.keywords: IWDFIoRequest, IWDFIoRequest interface, SetInformation method, IWDFIoRequest::SetInformation, SetInformation method, SetInformation method, IWDFIoRequest interface, SetInformation,IWDFIoRequest.SetInformation, UMDFRequestObjectRef_6b29fa48-7024-44de-ab4f-68907515483a.xml, umdf.iwdfiorequest_setinformation, wdf.iwdfiorequest_setinformation, wudfddi/IWDFIoRequest::SetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFIoRequest.SetInformation
 product: Windows
 targetos: Windows

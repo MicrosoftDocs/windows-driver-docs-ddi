@@ -7,8 +7,8 @@ old-location: pos\posbarcodescannererroroccurredeventdata.htm
 old-project: pos
 ms.assetid: c9e18ed0-bc34-49ed-a31e-20c82d43860f
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: pos.posbarcodescannererroroccurredeventdata, PosBarcodeScannerErrorOccurredEventData, pointofservicedriverinterface/PosBarcodeScannerErrorOccurredEventData, PosBarcodeScannerErrorOccurredEventData structure, _PosBarcodeScannerErrorOccurredEventData
+ms.date: 2/23/2018
+ms.keywords: PosBarcodeScannerErrorOccurredEventData, PosBarcodeScannerErrorOccurredEventData structure, _PosBarcodeScannerErrorOccurredEventData, pointofservicedriverinterface/PosBarcodeScannerErrorOccurredEventData, pos.posbarcodescannererroroccurredeventdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	PointOfServiceDriverInterface.h
-apiname:
+api_name:
 -	PosBarcodeScannerErrorOccurredEventData
 product: Windows
 targetos: Windows
@@ -76,7 +76,7 @@ typedef struct _PosBarcodeScannerErrorOccurredEventData {
 
 ### -field Header
 
-The <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_poseventdataheader.md">PosEventDataHeader</a> structure that describes the amount of memory, in bytes, of the <b>PosBarcodeScannerErrorOccurredEventData</b> structure and trailing error message and scan data.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn772232">PosEventDataHeader</a> structure that describes the amount of memory, in bytes, of the <b>PosBarcodeScannerErrorOccurredEventData</b> structure and trailing error message and scan data.
 
 
 ### -field IsRetriable

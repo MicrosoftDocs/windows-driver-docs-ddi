@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 542a8a3b-7704-434c-ad81-0cf8e1f70015
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WwanPacketServiceStateAttached, wwan/WwanPacketServiceStateAttached, WWAN_PACKET_SERVICE_STATE enumeration [Network Drivers Starting with Windows Vista], WWAN_PACKET_SERVICE_STATE, PWWAN_PACKET_SERVICE_STATE, WwanRef_c342b0ee-c3da-4199-9172-4e2fb538f64b.xml, wwan/WWAN_PACKET_SERVICE_STATE, wwan/WwanPacketServiceStateUnknown, WwanPacketServiceStateAttaching, wwan/WwanPacketServiceStateDetaching, WwanPacketServiceStateDetached, wwan/WwanPacketServiceStateDetached, wwan/PWWAN_PACKET_SERVICE_STATE, _WWAN_PACKET_SERVICE_STATE, PWWAN_PACKET_SERVICE_STATE enumeration pointer [Network Drivers Starting with Windows Vista], netvista.wwan_packet_service_state, WwanPacketServiceStateDetaching, WwanPacketServiceStateUnknown, *PWWAN_PACKET_SERVICE_STATE, wwan/WwanPacketServiceStateAttaching
+ms.keywords: "*PWWAN_PACKET_SERVICE_STATE, PWWAN_PACKET_SERVICE_STATE, PWWAN_PACKET_SERVICE_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PACKET_SERVICE_STATE, WWAN_PACKET_SERVICE_STATE enumeration [Network Drivers Starting with Windows Vista], WwanPacketServiceStateAttached, WwanPacketServiceStateAttaching, WwanPacketServiceStateDetached, WwanPacketServiceStateDetaching, WwanPacketServiceStateUnknown, WwanRef_c342b0ee-c3da-4199-9172-4e2fb538f64b.xml, _WWAN_PACKET_SERVICE_STATE, netvista.wwan_packet_service_state, wwan/PWWAN_PACKET_SERVICE_STATE, wwan/WWAN_PACKET_SERVICE_STATE, wwan/WwanPacketServiceStateAttached, wwan/WwanPacketServiceStateAttaching, wwan/WwanPacketServiceStateDetached, wwan/WwanPacketServiceStateDetaching, wwan/WwanPacketServiceStateUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_PACKET_SERVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_PACKET_SERVICE_STATE, WWAN_PACKET_SERVICE_STATE"
+req.typenames: WWAN_PACKET_SERVICE_STATE, *PWWAN_PACKET_SERVICE_STATE
 req.product: Windows 10 or later.
 ---
 

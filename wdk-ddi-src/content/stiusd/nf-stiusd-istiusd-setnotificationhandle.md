@@ -4,11 +4,11 @@ title: IStiUSD::SetNotificationHandle method
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::SetNotificationHandle method specifies an event handle that the minidriver should use to inform the caller of device events.
 old-location: image\istiusd_setnotificationhandle.htm
-old-project: Image
+old-project: image
 ms.assetid: 096e9b7a-fc50-46a2-b67a-7128dba13321
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: SetNotificationHandle method [Imaging Devices], image.istiusd_setnotificationhandle, IStiUSD, stifnc_f6b96be7-54e0-4cf1-a895-3d8d31dbc72b.xml, stiusd/IStiUSD::SetNotificationHandle, SetNotificationHandle, IStiUSD interface [Imaging Devices], SetNotificationHandle method, SetNotificationHandle method [Imaging Devices], IStiUSD interface, IStiUSD::SetNotificationHandle
+ms.date: 2/23/2018
+ms.keywords: IStiUSD, IStiUSD interface [Imaging Devices], SetNotificationHandle method, IStiUSD::SetNotificationHandle, SetNotificationHandle method [Imaging Devices], SetNotificationHandle method [Imaging Devices], IStiUSD interface, SetNotificationHandle,IStiUSD.SetNotificationHandle, image.istiusd_setnotificationhandle, stifnc_f6b96be7-54e0-4cf1-a895-3d8d31dbc72b.xml, stiusd/IStiUSD::SetNotificationHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	stiusd.h
-apiname:
+api_name:
 -	IStiUSD.SetNotificationHandle
 product: Windows
 targetos: Windows

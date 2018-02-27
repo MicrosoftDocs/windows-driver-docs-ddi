@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C6F937B8-6C3B-4D95-ADE0-931463EB57C3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, windot11/PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, *PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, netvista.dot11_send_provision_discovery_response_parameters, DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS
+ms.keywords: "*PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, netvista.dot11_send_provision_discovery_response_parameters, windot11/DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, windot11/PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Windot11.h
-apiname:
+api_name:
 -	DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS"
+req.typenames: DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, *PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS
 req.product: Windows 10 or later.
 ---
 
@@ -131,15 +131,15 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439797">NDIS_STATUS_DOT11_WFD_RECEIVED_PROVISION_DISCOVERY_REQUEST</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451808">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_RESPONSE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439785">NDIS_STATUS_DOT11_WFD_PROVISION_DISCOVERY_RESPONSE_SEND_COMPLETE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439797">NDIS_STATUS_DOT11_WFD_RECEIVED_PROVISION_DISCOVERY_REQUEST</a>
 
 
 

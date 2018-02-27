@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b5aeb972-3e52-4cdc-842b-7848bb2f8dc7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rxcanceltimerrequest, RxCancelTimerRequest, rxtimer/RxCancelTimerRequest, RxCancelTimerRequest routine [Installable File System Drivers], rxref_f9950992-18a5-4418-a18d-e105ecdc74ff.xml
+ms.keywords: RxCancelTimerRequest, RxCancelTimerRequest routine [Installable File System Drivers], ifsk.rxcanceltimerrequest, rxref_f9950992-18a5-4418-a18d-e105ecdc74ff.xml, rxtimer/RxCancelTimerRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rxtimer.h
-apiname:
+api_name:
 -	RxCancelTimerRequest
 product: Windows
 targetos: Windows

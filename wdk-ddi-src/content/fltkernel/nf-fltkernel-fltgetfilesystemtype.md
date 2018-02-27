@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9e603d0f-74e7-4715-b3dc-4a9623f98dde
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltGetFileSystemType function [Installable File System Drivers], FltApiRef_e_to_o_00fe70b3-cc15-4272-a4df-653c05abfeb1.xml, fltkernel/FltGetFileSystemType, ifsk.fltgetfilesystemtype, FltGetFileSystemType
+ms.keywords: FltApiRef_e_to_o_00fe70b3-cc15-4272-a4df-653c05abfeb1.xml, FltGetFileSystemType, FltGetFileSystemType function [Installable File System Drivers], fltkernel/FltGetFileSystemType, ifsk.fltgetfilesystemtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: FltMgr.sys
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	FltMgr.sys
-apiname:
+api_name:
 -	FltGetFileSystemType
 product: Windows
 targetos: Windows
@@ -119,15 +119,7 @@ If STATUS_INVALID_PARAMETER is returned, the <i>FileSystemType</i> parameter is 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltisvolumewritable.md">FltIsVolumeWritable</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinformation.md">FltGetVolumeInformation</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
 
 
 
@@ -135,7 +127,7 @@ If STATUS_INVALID_PARAMETER is returned, the <i>FileSystemType</i> parameter is 
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromfileobject.md">FltGetVolumeFromFileObject</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
 
 
 
@@ -147,11 +139,19 @@ If STATUS_INVALID_PARAMETER is returned, the <i>FileSystemType</i> parameter is 
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromfileobject.md">FltGetVolumeFromFileObject</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltisvolumewritable.md">FltIsVolumeWritable</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumefrominstance.md">FltGetVolumeFromInstance</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinformation.md">FltGetVolumeInformation</a>
 
 
 

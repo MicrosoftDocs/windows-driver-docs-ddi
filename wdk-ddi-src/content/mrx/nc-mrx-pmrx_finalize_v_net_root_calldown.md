@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 13d0c903-57b6-4a57-977a-bf1bd651660f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.mrxfinalizevnetroot, MRxFinalizeVNetRoot, MRxFinalizeVNetRoot routine [Installable File System Drivers], MRxFinalizeVNetRoot, PMRX_FINALIZE_V_NET_ROOT_CALLDOWN, PMRX_FINALIZE_V_NET_ROOT_CALLDOWN, mrx/MRxFinalizeVNetRoot, mrxref_a5cc53ee-2d11-4987-aeb4-fe9cc2cc9b3e.xml
+ms.keywords: MRxFinalizeVNetRoot, MRxFinalizeVNetRoot routine [Installable File System Drivers], PMRX_FINALIZE_V_NET_ROOT_CALLDOWN, ifsk.mrxfinalizevnetroot, mrx/MRxFinalizeVNetRoot, mrxref_a5cc53ee-2d11-4987-aeb4-fe9cc2cc9b3e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	mrx.h
-apiname:
+api_name:
 -	MRxFinalizeVNetRoot
 product: Windows
 targetos: Windows
@@ -117,23 +117,19 @@ RDBSS ignores the return value from <i>MRxFinalizeVNetRoot</i>.
 
 ## -see-also
 
-<a href="..\mrx\nc-mrx-pmrx_finalize_net_root_calldown.md">MRxFinalizeNetRoot</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549864">MRxCreateSrvCall</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_extract_netroot_name.md">MRxExtractNetRootName</a>
-
-
-
 <a href="..\mrx\nc-mrx-pmrx_preparse_name.md">MRxPreparseName</a>
 
 
 
+<a href="..\mrx\nc-mrx-pmrx_finalize_net_root_calldown.md">MRxFinalizeNetRoot</a>
+
+
+
 <a href="..\mrx\nc-mrx-pmrx_create_srvcall.md">MRxCreateSrvCall</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_extract_netroot_name.md">MRxExtractNetRootName</a>
 
 
 
@@ -142,6 +138,10 @@ RDBSS ignores the return value from <i>MRxFinalizeVNetRoot</i>.
 
 
 <a href="..\mrx\nc-mrx-pmrx_create_v_net_root.md">MRxCreateVNetRoot</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
 
 
 

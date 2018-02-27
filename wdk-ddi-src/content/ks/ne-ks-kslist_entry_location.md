@@ -7,8 +7,8 @@ old-location: stream\kslist_entry_location.htm
 old-project: stream
 ms.assetid: C2047F4D-6D24-432B-98F1-EA00D88E3860
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KSLIST_ENTRY_LOCATION enumeration [Streaming Media Devices], KSLIST_ENTRY_LOCATION, KsListEntryTail, ks/KsListEntryTail, KsListEntryHead, ks/KSLIST_ENTRY_LOCATION, stream.kslist_entry_location, ks/KsListEntryHead
+ms.date: 2/23/2018
+ms.keywords: KSLIST_ENTRY_LOCATION, KSLIST_ENTRY_LOCATION enumeration [Streaming Media Devices], KsListEntryHead, KsListEntryTail, ks/KSLIST_ENTRY_LOCATION, ks/KsListEntryHead, ks/KsListEntryTail, stream.kslist_entry_location
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ks.h
-apiname:
+api_name:
 -	KSLIST_ENTRY_LOCATION
 product: Windows
 targetos: Windows

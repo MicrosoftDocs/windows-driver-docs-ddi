@@ -7,8 +7,8 @@ old-location: sensors\isensordriver_ongetsupportedproperties.htm
 old-project: sensors
 ms.assetid: 8712fe85-0af1-4552-9351-aca4fe5430d1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: OnGetSupportedProperties method [Sensor Devices], ISensorDriver::OnGetSupportedProperties, OnGetSupportedProperties, sensors.isensordriver_ongetsupportedproperties, ISensorDriver
+ms.date: 2/22/2018
+ms.keywords: ISensorDriver, ISensorDriver::OnGetSupportedProperties, OnGetSupportedProperties method [Sensor Devices], OnGetSupportedProperties,ISensorDriver.OnGetSupportedProperties, sensors.isensordriver_ongetsupportedproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname:
+api_name:
 -	OnGetSupportedProperties
 product: Windows
 targetos: Windows

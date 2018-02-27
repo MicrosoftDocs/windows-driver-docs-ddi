@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 14247f48-7ef8-481c-aa1e-e657475812fa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.netallocatemdl, NetAllocateMdl callback function [Network Drivers Starting with Windows Vista], NetAllocateMdl, NET_BUFFER_ALLOCATE_MDL_HANDLER, NET_BUFFER_ALLOCATE_MDL_HANDLER, ndis/NetAllocateMdl, ndis_netbuf_functions_ref_d6801343-5c75-4328-b2d9-4b252afdfe15.xml
+ms.keywords: NET_BUFFER_ALLOCATE_MDL_HANDLER, NetAllocateMdl, NetAllocateMdl callback function [Network Drivers Starting with Windows Vista], ndis/NetAllocateMdl, ndis_netbuf_functions_ref_d6801343-5c75-4328-b2d9-4b252afdfe15.xml, netvista.netallocatemdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Ndis.h
-apiname:
+api_name:
 -	NetAllocateMdl
 product: Windows
 targetos: Windows

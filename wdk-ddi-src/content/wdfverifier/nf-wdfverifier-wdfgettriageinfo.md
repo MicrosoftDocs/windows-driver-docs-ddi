@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F6B1DC49-B691-45E4-8DE9-ADCD73D90ADE
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfverifier/WdfGetTriageInfo, WdfGetTriageInfo function, WdfGetTriageInfo, wdf.wdfgettriageinfo, kmdf.wdfgettriageinfo
+ms.keywords: WdfGetTriageInfo, WdfGetTriageInfo function, kmdf.wdfgettriageinfo, wdf.wdfgettriageinfo, wdfverifier/WdfGetTriageInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdfverifier.h
-apiname:
+api_name:
 -	WdfGetTriageInfo
 product: Windows
 targetos: Windows

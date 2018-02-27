@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a777b8df-e255-402a-aa55-14e5861b215f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DeleteWdfObject method, DeleteWdfObject, wdf.iwdfobject_deletewdfobject, IWDFObject, IWDFObject::DeleteWdfObject, DeleteWdfObject method, IWDFObject interface, wudfddi/IWDFObject::DeleteWdfObject, UMDFBaseObjectRef_e8c4d75a-eed6-4da3-9cce-79d863a01cd6.xml, IWDFObject interface, DeleteWdfObject method, umdf.iwdfobject_deletewdfobject
+ms.keywords: DeleteWdfObject method, DeleteWdfObject method, IWDFObject interface, DeleteWdfObject,IWDFObject.DeleteWdfObject, IWDFObject, IWDFObject interface, DeleteWdfObject method, IWDFObject::DeleteWdfObject, UMDFBaseObjectRef_e8c4d75a-eed6-4da3-9cce-79d863a01cd6.xml, umdf.iwdfobject_deletewdfobject, wdf.iwdfobject_deletewdfobject, wudfddi/IWDFObject::DeleteWdfObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFObject.DeleteWdfObject
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: stream\kspin_mdl_caching_event.htm
 old-project: stream
 ms.assetid: 74A7C2C8-F12B-4753-8E1F-C425B0B56788
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KSPIN_MDL_CACHING_NOTIFY_ADDSAMPLE, KSPIN_MDL_CACHING_EVENT enumeration [Streaming Media Devices], ks/KSPIN_MDL_CACHING_NOTIFY_CLEANALL_WAIT, KSPIN_MDL_CACHING_NOTIFY_CLEANALL_WAIT, ks/KSPIN_MDL_CACHING_NOTIFY_CLEANALL_NOWAIT, KSPIN_MDL_CACHING_NOTIFY_CLEANALL_NOWAIT, KSPIN_MDL_CACHING_NOTIFY_CLEANUP, KSPIN_MDL_CACHING_EVENT, ks/KSPIN_MDL_CACHING_NOTIFY_CLEANUP, ks/KSPIN_MDL_CACHING_NOTIFY_ADDSAMPLE, stream.kspin_mdl_caching_event, ks/KSPIN_MDL_CACHING_EVENT
+ms.date: 2/23/2018
+ms.keywords: KSPIN_MDL_CACHING_EVENT, KSPIN_MDL_CACHING_EVENT enumeration [Streaming Media Devices], KSPIN_MDL_CACHING_NOTIFY_ADDSAMPLE, KSPIN_MDL_CACHING_NOTIFY_CLEANALL_NOWAIT, KSPIN_MDL_CACHING_NOTIFY_CLEANALL_WAIT, KSPIN_MDL_CACHING_NOTIFY_CLEANUP, ks/KSPIN_MDL_CACHING_EVENT, ks/KSPIN_MDL_CACHING_NOTIFY_ADDSAMPLE, ks/KSPIN_MDL_CACHING_NOTIFY_CLEANALL_NOWAIT, ks/KSPIN_MDL_CACHING_NOTIFY_CLEANALL_WAIT, ks/KSPIN_MDL_CACHING_NOTIFY_CLEANUP, stream.kspin_mdl_caching_event
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KSPIN_MDL_CACHING_EVENT
 product: Windows
 targetos: Windows

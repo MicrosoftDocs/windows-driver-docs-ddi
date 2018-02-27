@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b6f169ae-6c4c-4c27-8532-75a76b66cc5a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_USB_INTERFACE_SETTING_PAIR structure, DFUsbRef_e8de7f02-5d9b-4cba-9e7c-dc4562256f9e.xml, kmdf.wdf_usb_interface_setting_pair, PWDF_USB_INTERFACE_SETTING_PAIR structure pointer, PWDF_USB_INTERFACE_SETTING_PAIR, WDF_USB_INTERFACE_SETTING_PAIR, wdfusb/WDF_USB_INTERFACE_SETTING_PAIR, *PWDF_USB_INTERFACE_SETTING_PAIR, wdfusb/PWDF_USB_INTERFACE_SETTING_PAIR, _WDF_USB_INTERFACE_SETTING_PAIR, wdf.wdf_usb_interface_setting_pair
+ms.keywords: "*PWDF_USB_INTERFACE_SETTING_PAIR, DFUsbRef_e8de7f02-5d9b-4cba-9e7c-dc4562256f9e.xml, PWDF_USB_INTERFACE_SETTING_PAIR, PWDF_USB_INTERFACE_SETTING_PAIR structure pointer, WDF_USB_INTERFACE_SETTING_PAIR, WDF_USB_INTERFACE_SETTING_PAIR structure, _WDF_USB_INTERFACE_SETTING_PAIR, kmdf.wdf_usb_interface_setting_pair, wdf.wdf_usb_interface_setting_pair, wdfusb/PWDF_USB_INTERFACE_SETTING_PAIR, wdfusb/WDF_USB_INTERFACE_SETTING_PAIR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfusb.h
-apiname:
+api_name:
 -	WDF_USB_INTERFACE_SETTING_PAIR
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_INTERFACE_SETTING_PAIR, WDF_USB_INTERFACE_SETTING_PAIR"
+req.typenames: WDF_USB_INTERFACE_SETTING_PAIR, *PWDF_USB_INTERFACE_SETTING_PAIR
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 5607AFBA-2C8C-4637-81E8-7940CF9E989A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPIO.gpio_write_pins_parameters, *PGPIO_WRITE_PINS_PARAMETERS, GPIO_WRITE_PINS_PARAMETERS, PGPIO_WRITE_PINS_PARAMETERS, gpioclx/PGPIO_WRITE_PINS_PARAMETERS, GPIO_WRITE_PINS_PARAMETERS structure [Parallel Ports], _GPIO_WRITE_PINS_PARAMETERS, PGPIO_WRITE_PINS_PARAMETERS structure pointer [Parallel Ports], gpioclx/GPIO_WRITE_PINS_PARAMETERS
+ms.keywords: "*PGPIO_WRITE_PINS_PARAMETERS, GPIO.gpio_write_pins_parameters, GPIO_WRITE_PINS_PARAMETERS, GPIO_WRITE_PINS_PARAMETERS structure [Parallel Ports], PGPIO_WRITE_PINS_PARAMETERS, PGPIO_WRITE_PINS_PARAMETERS structure pointer [Parallel Ports], _GPIO_WRITE_PINS_PARAMETERS, gpioclx/GPIO_WRITE_PINS_PARAMETERS, gpioclx/PGPIO_WRITE_PINS_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Gpioclx.h
-apiname:
+api_name:
 -	GPIO_WRITE_PINS_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PGPIO_WRITE_PINS_PARAMETERS, GPIO_WRITE_PINS_PARAMETERS"
+req.typenames: GPIO_WRITE_PINS_PARAMETERS, *PGPIO_WRITE_PINS_PARAMETERS
 ---
 
 # _GPIO_WRITE_PINS_PARAMETERS structure
@@ -113,15 +113,15 @@ The <i>WriteParameters</i> parameter of the <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439439">CLIENT_WriteGpioPins</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439439">CLIENT_WriteGpioPins</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439439">CLIENT_WriteGpioPins</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
 

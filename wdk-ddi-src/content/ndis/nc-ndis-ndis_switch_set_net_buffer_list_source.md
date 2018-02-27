@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6537824A-F521-4916-AAC8-7C0E6E5F7331
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.setnetbufferlistsource, SetNetBufferListSource callback function [Network Drivers Starting with Windows Vista], SetNetBufferListSource, NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE, NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE, ndis/SetNetBufferListSource
+ms.keywords: NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE, SetNetBufferListSource, SetNetBufferListSource callback function [Network Drivers Starting with Windows Vista], ndis/SetNetBufferListSource, netvista.setnetbufferlistsource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Ndis.h
-apiname:
+api_name:
 -	SetNetBufferListSource
 product: Windows
 targetos: Windows
@@ -149,7 +149,11 @@ For more information on packet send and receive operations, see <a href="https:/
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">NdisAllocateCloneNetBufferList</a>
+<a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -157,11 +161,7 @@ For more information on packet send and receive operations, see <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

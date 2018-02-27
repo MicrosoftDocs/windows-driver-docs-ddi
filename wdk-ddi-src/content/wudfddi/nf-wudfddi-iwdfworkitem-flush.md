@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: AB79C2AE-0696-4EEC-9FC0-8A458CF19B82
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Flush, IWDFWorkItem interface, Flush method, Flush method, Flush method, IWDFWorkItem interface, IWDFWorkItem::Flush, wdf.iwdfworkitem_flush, IWDFWorkItem, umdf.iwdfworkitem_flush, wudfddi/IWDFWorkItem::Flush
+ms.keywords: Flush method, Flush method, IWDFWorkItem interface, Flush,IWDFWorkItem.Flush, IWDFWorkItem, IWDFWorkItem interface, Flush method, IWDFWorkItem::Flush, umdf.iwdfworkitem_flush, wdf.iwdfworkitem_flush, wudfddi/IWDFWorkItem::Flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFWorkItem.Flush
 product: Windows
 targetos: Windows
@@ -92,11 +92,11 @@ For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF
 
 ## -see-also
 
-<a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
+
+
+
+<a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a>
 
 
 

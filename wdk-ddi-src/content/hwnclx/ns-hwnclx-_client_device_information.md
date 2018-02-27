@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: ae438f89-27b7-423f-9f82-b103ba70b7b5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_DEVICE_INFORMATION structure, hwnclx/CLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION, _CLIENT_DEVICE_INFORMATION, *PCLIENT_DEVICE_INFORMATION, gpiobtn._client_device_information
+ms.keywords: "*PCLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION structure, _CLIENT_DEVICE_INFORMATION, gpiobtn._client_device_information, hwnclx/CLIENT_DEVICE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Hwnclx.h
-apiname:
+api_name:
 -	CLIENT_DEVICE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PCLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION"
+req.typenames: CLIENT_DEVICE_INFORMATION, *PCLIENT_DEVICE_INFORMATION
 ---
 
 # _CLIENT_DEVICE_INFORMATION structure

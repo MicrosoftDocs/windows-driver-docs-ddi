@@ -7,8 +7,8 @@ old-location: stream\streamclasscallatnewpriority.htm
 old-project: stream
 ms.assetid: 86c4e9da-7c71-4d79-b8e2-f602489da647
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: strmini/StreamClassCallAtNewPriority, StreamClassCallAtNewPriority routine [Streaming Media Devices], StreamClassCallAtNewPriority, stream.streamclasscallatnewpriority, strclass-routines_6335ceee-08a1-4078-a9ce-aaa15d8158cd.xml
+ms.date: 2/23/2018
+ms.keywords: StreamClassCallAtNewPriority, StreamClassCallAtNewPriority routine [Streaming Media Devices], strclass-routines_6335ceee-08a1-4078-a9ce-aaa15d8158cd.xml, stream.streamclasscallatnewpriority, strmini/StreamClassCallAtNewPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Stream.lib
 req.dll: 
 req.irql: "(See Parameters section)"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Stream.lib
 -	Stream.dll
-apiname:
+api_name:
 -	StreamClassCallAtNewPriority
 product: Windows
 targetos: Windows
@@ -138,7 +138,7 @@ Used to allow a thread called at low priority to return to high priority so that
 
 ### -param PriorityRoutine [in]
 
-Pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff568462">StrMiniPriorityRoutine</a> to be called at the specified priority level.
+Pointer to a minidriver-supplied <a href="..\strmini\nc-strmini-phw_priority_routine.md">StrMiniPriorityRoutine</a> to be called at the specified priority level.
 
 
 ### -param Context [in]

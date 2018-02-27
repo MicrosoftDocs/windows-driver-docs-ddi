@@ -7,8 +7,8 @@ old-location: print\iprintoemdriverui_drvupdateuisetting.htm
 old-project: print
 ms.assetid: f5dec76e-16ad-4df0-b3c9-f0cbfb9b8c41
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.iprintoemdriverui_drvupdateuisetting, IPrintOemDriverUI::DrvUpdateUISetting, DrvUpdateUISetting method [Print Devices], IPrintOemDriverUI interface, prcomoem/IPrintOemDriverUI::DrvUpdateUISetting, IPrintOemDriverUI, DrvUpdateUISetting, DrvUpdateUISetting method [Print Devices], print_unidrv-pscript_ui_7a403e81-0021-463c-954c-659dd8c578b0.xml, IPrintOemDriverUI interface [Print Devices], DrvUpdateUISetting method
+ms.date: 2/23/2018
+ms.keywords: DrvUpdateUISetting method [Print Devices], DrvUpdateUISetting method [Print Devices], IPrintOemDriverUI interface, DrvUpdateUISetting,IPrintOemDriverUI.DrvUpdateUISetting, IPrintOemDriverUI, IPrintOemDriverUI interface [Print Devices], DrvUpdateUISetting method, IPrintOemDriverUI::DrvUpdateUISetting, prcomoem/IPrintOemDriverUI::DrvUpdateUISetting, print.iprintoemdriverui_drvupdateuisetting, print_unidrv-pscript_ui_7a403e81-0021-463c-954c-659dd8c578b0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	prcomoem.h
-apiname:
+api_name:
 -	IPrintOemDriverUI.DrvUpdateUISetting
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

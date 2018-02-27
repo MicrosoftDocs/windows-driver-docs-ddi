@@ -7,8 +7,8 @@ old-location: print\propsheetui_info.htm
 old-project: print
 ms.assetid: b21c3ee1-13e8-4796-af45-6ba60e84df4e
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: PPROPSHEETUI_INFO structure pointer [Print Devices], cpsuifnc_0afe9ac8-ca1f-4984-acc5-04a8955b4b30.xml, PPROPSHEETUI_INFO, *PPROPSHEETUI_INFO, compstui/PROPSHEETUI_INFO, PROPSHEETUI_INFO, print.propsheetui_info, PROPSHEETUI_INFO structure [Print Devices], compstui/PPROPSHEETUI_INFO, _PROPSHEETUI_INFO
+ms.date: 2/23/2018
+ms.keywords: "*PPROPSHEETUI_INFO, PPROPSHEETUI_INFO, PPROPSHEETUI_INFO structure pointer [Print Devices], PROPSHEETUI_INFO, PROPSHEETUI_INFO structure [Print Devices], _PROPSHEETUI_INFO, compstui/PPROPSHEETUI_INFO, compstui/PROPSHEETUI_INFO, cpsuifnc_0afe9ac8-ca1f-4984-acc5-04a8955b4b30.xml, print.propsheetui_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	compstui.h
-apiname:
+api_name:
 -	PROPSHEETUI_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PPROPSHEETUI_INFO, PROPSHEETUI_INFO"
+req.typenames: PROPSHEETUI_INFO, *PPROPSHEETUI_INFO
 ---
 
 # _PROPSHEETUI_INFO structure
@@ -139,12 +139,12 @@ For information about the meaning of each constant, see the Remarks section of t
 
 ### -field hComPropSheet
 
-CPSUI-supplied handle to a property sheet <a href="https://msdn.microsoft.com/b4c40c15-df16-4af0-81c8-9e70d26ba598">group parent</a>. This handle can be passed to CPSUI's <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function.
+CPSUI-supplied handle to a property sheet <a href="https://msdn.microsoft.com/b4c40c15-df16-4af0-81c8-9e70d26ba598">group parent</a>. This handle can be passed to CPSUI's <a href="..\compstui\nc-compstui-pfncompropsheet.md">ComPropSheet</a> function.
 
 
 ### -field pfnComPropSheet
 
-Address of CPSUI's <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function.
+Address of CPSUI's <a href="..\compstui\nc-compstui-pfncompropsheet.md">ComPropSheet</a> function.
 
 
 ### -field lParamInit

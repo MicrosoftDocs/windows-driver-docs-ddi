@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 29aeb49a-1647-46ee-a88e-f088f8a2548f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: BTH_SDP_RECORD, bltooth.bth_sdp_record, bth_structs_e77453a7-05d1-403d-9552-972368d7a76c.xml, _BTH_SDP_RECORD, PBTH_SDP_RECORD structure pointer [Bluetooth Devices], bthioctl/BTH_SDP_RECORD, PBTH_SDP_RECORD, BTH_SDP_RECORD structure [Bluetooth Devices], bthioctl/PBTH_SDP_RECORD, *PBTH_SDP_RECORD
+ms.keywords: "*PBTH_SDP_RECORD, BTH_SDP_RECORD, BTH_SDP_RECORD structure [Bluetooth Devices], PBTH_SDP_RECORD, PBTH_SDP_RECORD structure pointer [Bluetooth Devices], _BTH_SDP_RECORD, bltooth.bth_sdp_record, bth_structs_e77453a7-05d1-403d-9552-972368d7a76c.xml, bthioctl/BTH_SDP_RECORD, bthioctl/PBTH_SDP_RECORD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	bthioctl.h
-apiname:
+api_name:
 -	BTH_SDP_RECORD
 product: Windows
 targetos: Windows
-req.typenames: "*PBTH_SDP_RECORD, BTH_SDP_RECORD"
+req.typenames: BTH_SDP_RECORD, *PBTH_SDP_RECORD
 ---
 
 # _BTH_SDP_RECORD structure

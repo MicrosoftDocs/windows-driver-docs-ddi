@@ -7,8 +7,8 @@ old-location: stream\strminiinterrupt.htm
 old-project: stream
 ms.assetid: a98986c6-f4ac-4e2e-9ba0-49fec6684158
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.strminiinterrupt, StrMiniInterrupt, StrMiniInterrupt routine [Streaming Media Devices], StrMiniInterrupt, PHW_INTERRUPT, PHW_INTERRUPT, strmini/StrMiniInterrupt, strmini-routines_10ec4194-fc96-49da-a7d7-e7e90ead67e3.xml
+ms.date: 2/23/2018
+ms.keywords: PHW_INTERRUPT, StrMiniInterrupt, StrMiniInterrupt routine [Streaming Media Devices], stream.strminiinterrupt, strmini-routines_10ec4194-fc96-49da-a7d7-e7e90ead67e3.xml, strmini/StrMiniInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	strmini.h
-apiname:
+api_name:
 -	StrMiniInterrupt
 product: Windows
 targetos: Windows

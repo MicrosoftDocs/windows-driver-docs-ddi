@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E800AC7B-EAEB-44FB-96ED-890C6442F066
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndk_fn_create_connector, NdkCreateConnector callback function [Network Drivers Starting with Windows Vista], NdkCreateConnector, NDK_FN_CREATE_CONNECTOR, NDK_FN_CREATE_CONNECTOR, ndkpi/NdkCreateConnector
+ms.keywords: NDK_FN_CREATE_CONNECTOR, NdkCreateConnector, NdkCreateConnector callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateConnector, netvista.ndk_fn_create_connector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ndkpi.h
-apiname:
+api_name:
 -	NdkCreateConnector
 product: Windows
 targetos: Windows
@@ -178,11 +178,11 @@ The <i>NdkCreateConnector</i> function creates an NDK connector object. If the f
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
-
-
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
 
 
 
@@ -190,7 +190,7 @@ The <i>NdkCreateConnector</i> function creates an NDK connector object. If the f
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
 
 
 

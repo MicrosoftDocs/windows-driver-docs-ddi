@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E6A61B8F-CB43-4858-B5CF-32DD022A569E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: OPLOCK_KEY_CONTEXT structure [Installable File System Drivers], *POPLOCK_KEY_CONTEXT, POPLOCK_KEY_CONTEXT, OPLOCK_KEY_FLAG_TARGET_KEY, ifsk.oplock_key_context, OPLOCK_KEY_CONTEXT, ntddk/POPLOCK_KEY_CONTEXT, OPLOCK_KEY_VERSION_WIN8, POPLOCK_KEY_CONTEXT structure pointer [Installable File System Drivers], OPLOCK_KEY_FLAG_PARENT_KEY, ntddk/OPLOCK_KEY_CONTEXT, OPLOCK_KEY_VERSION_WIN7, _OPLOCK_KEY_CONTEXT
+ms.keywords: "*POPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT structure [Installable File System Drivers], OPLOCK_KEY_FLAG_PARENT_KEY, OPLOCK_KEY_FLAG_TARGET_KEY, OPLOCK_KEY_VERSION_WIN7, OPLOCK_KEY_VERSION_WIN8, POPLOCK_KEY_CONTEXT, POPLOCK_KEY_CONTEXT structure pointer [Installable File System Drivers], _OPLOCK_KEY_CONTEXT, ifsk.oplock_key_context, ntddk/OPLOCK_KEY_CONTEXT, ntddk/POPLOCK_KEY_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddk.h
-apiname:
+api_name:
 -	OPLOCK_KEY_CONTEXT
 product: Windows
 targetos: Windows
@@ -164,7 +164,7 @@ If an oplock is requested for a file during an <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406392">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
+<a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a>
 
 
 

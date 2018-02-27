@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 56fba38d-6c5f-4b75-98b6-213a42f47bbb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RILUICCSERVICEPARAMS, netvista.riluiccserviceparams_2, RILUICCSERVICEPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILUICCSERVICEPARAMS, RILUICCSERVICEPARAMS
+ms.keywords: "*LPRILUICCSERVICEPARAMS, RILUICCSERVICEPARAMS, RILUICCSERVICEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.riluiccserviceparams_2, rilapitypes/RILUICCSERVICEPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILUICCSERVICEPARAMS
 product: Windows
 targetos: Windows

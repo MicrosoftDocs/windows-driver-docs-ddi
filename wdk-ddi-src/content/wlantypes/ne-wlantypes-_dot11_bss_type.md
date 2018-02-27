@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5cb263e2-e5b7-456f-9fef-deaf5434c404
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11_bss_type, *PDOT11_BSS_TYPE, wlantypes/PDOT11_BSS_TYPE, dot11_BSS_type_infrastructure, wlantypes/dot11_BSS_type_independent, PDOT11_BSS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], wlantypes/DOT11_BSS_TYPE, _DOT11_BSS_TYPE, dot11_BSS_type_independent, DOT11_BSS_TYPE, Native_802.11_data_types_ac59d6f5-1095-4953-8079-7f616769a3fa.xml, wlantypes/dot11_BSS_type_infrastructure, DOT11_BSS_TYPE enumeration [Network Drivers Starting with Windows Vista], wlantypes/dot11_BSS_type_any, dot11_BSS_type_any, PDOT11_BSS_TYPE
+ms.keywords: "*PDOT11_BSS_TYPE, DOT11_BSS_TYPE, DOT11_BSS_TYPE enumeration [Network Drivers Starting with Windows Vista], Native_802.11_data_types_ac59d6f5-1095-4953-8079-7f616769a3fa.xml, PDOT11_BSS_TYPE, PDOT11_BSS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_BSS_TYPE, dot11_BSS_type_any, dot11_BSS_type_independent, dot11_BSS_type_infrastructure, netvista.dot11_bss_type, wlantypes/DOT11_BSS_TYPE, wlantypes/PDOT11_BSS_TYPE, wlantypes/dot11_BSS_type_any, wlantypes/dot11_BSS_type_independent, wlantypes/dot11_BSS_type_infrastructure"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wlantypes.h
-apiname:
+api_name:
 -	DOT11_BSS_TYPE
 product: Windows
 targetos: Windows
@@ -100,7 +100,7 @@ The
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
+<a href="..\windot11\ns-windot11-dot11_bss_entry.md">DOT11_BSS_ENTRY</a>
 
 
 
@@ -109,7 +109,7 @@ The
 
 
 
-<a href="..\windot11\ns-windot11-dot11_bss_entry.md">DOT11_BSS_ENTRY</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
 
 
 
@@ -121,7 +121,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
 
 
 

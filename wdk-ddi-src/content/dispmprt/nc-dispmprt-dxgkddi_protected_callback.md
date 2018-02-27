@@ -7,8 +7,8 @@ old-location: display\dxgkprotectedcallback.htm
 old-project: display
 ms.assetid: 7e282ec6-c159-47a4-af14-2b0cb8e34a8e
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgkprotectedcallback, DxgkProtectedCallback callback function [Display Devices], DxgkProtectedCallback, DXGKDDI_PROTECTED_CALLBACK, DXGKDDI_PROTECTED_CALLBACK, dispmprt/DxgkProtectedCallback, DmFunctions_a4386149-d1c4-45f4-8649-5539783620f4.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_PROTECTED_CALLBACK, DmFunctions_a4386149-d1c4-45f4-8649-5539783620f4.xml, DxgkProtectedCallback, DxgkProtectedCallback callback function [Display Devices], display.dxgkprotectedcallback, dispmprt/DxgkProtectedCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	dispmprt.h
-apiname:
+api_name:
 -	DxgkProtectedCallback
 product: Windows
 targetos: Windows
@@ -144,5 +144,5 @@ The adapter, including its registers and display mode, is maintained in the prop
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_PROTECTED_CALLBACK callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_PROTECTED_CALLBACK callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

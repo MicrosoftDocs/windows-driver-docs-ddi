@@ -7,8 +7,8 @@ old-location: print\ibidispl_ibidispl__unbinddevice.htm
 old-project: print
 ms.assetid: 4c294d1d-5a37-4ea4-b50f-447260e885b1
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IBidiSpl interface [Print Devices], UnbindDevice method, IBidiSpl::UnbindDevice, gdi.ibidispl_ibidispl__unbinddevice, bidispl/IBidiSpl::UnbindDevice, print.ibidispl_ibidispl__unbinddevice, IBidiSpl, _win32_IBidiSpl_UnbindDevice, UnbindDevice method [Print Devices], UnbindDevice, UnbindDevice method [Print Devices], IBidiSpl interface
+ms.date: 2/23/2018
+ms.keywords: IBidiSpl, IBidiSpl interface [Print Devices], UnbindDevice method, IBidiSpl::UnbindDevice, UnbindDevice method [Print Devices], UnbindDevice method [Print Devices], IBidiSpl interface, UnbindDevice,IBidiSpl.UnbindDevice, _win32_IBidiSpl_UnbindDevice, bidispl/IBidiSpl::UnbindDevice, gdi.ibidispl_ibidispl__unbinddevice, print.ibidispl_ibidispl__unbinddevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: bidispl.h
 req.dll: Bidispl.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	bidispl.dll
-apiname:
+api_name:
 -	IBidiSpl.UnbindDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
+req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # IBidiSpl::UnbindDevice method
@@ -119,15 +119,15 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
+
+
 <a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
 
 
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
-
-
-
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
 
@@ -135,5 +135,5 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiSpl::UnbindDevice method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiSpl::UnbindDevice method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

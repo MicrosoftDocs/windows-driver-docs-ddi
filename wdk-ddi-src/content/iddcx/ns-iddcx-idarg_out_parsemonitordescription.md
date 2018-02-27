@@ -7,8 +7,8 @@ old-location: display\idarg_out_parsemonitordescription.htm
 old-project: display
 ms.assetid: 30f4c178-5ef8-4650-b396-1e4bc9cc9125
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.idarg_out_parsemonitordescription, IDARG_OUT_PARSEMONITORDESCRIPTION structure [Display Devices], iddcx/IDARG_OUT_PARSEMONITORDESCRIPTION, IDARG_OUT_PARSEMONITORDESCRIPTION
+ms.date: 2/24/2018
+ms.keywords: IDARG_OUT_PARSEMONITORDESCRIPTION, IDARG_OUT_PARSEMONITORDESCRIPTION structure [Display Devices], display.idarg_out_parsemonitordescription, iddcx/IDARG_OUT_PARSEMONITORDESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	iddcx.h
-apiname:
+api_name:
 -	IDARG_OUT_PARSEMONITORDESCRIPTION
 product: Windows
 targetos: Windows

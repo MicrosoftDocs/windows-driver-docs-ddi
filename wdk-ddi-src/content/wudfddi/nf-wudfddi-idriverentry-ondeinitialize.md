@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9366029e-4f8b-4121-ad99-01a5116a7f46
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: OnDeinitialize method, IDriverEntry interface, UMDFDriverObjectRef_0dc59f06-5979-4077-8945-b0568d8980ba.xml, wudfddi/IDriverEntry::OnDeinitialize, wdf.idriverentry_ondeinitialize, IDriverEntry interface, OnDeinitialize method, OnDeinitialize method, IDriverEntry::OnDeinitialize, umdf.idriverentry_ondeinitialize, IDriverEntry, OnDeinitialize
+ms.keywords: IDriverEntry, IDriverEntry interface, OnDeinitialize method, IDriverEntry::OnDeinitialize, OnDeinitialize method, OnDeinitialize method, IDriverEntry interface, OnDeinitialize,IDriverEntry.OnDeinitialize, UMDFDriverObjectRef_0dc59f06-5979-4077-8945-b0568d8980ba.xml, umdf.idriverentry_ondeinitialize, wdf.idriverentry_ondeinitialize, wudfddi/IDriverEntry::OnDeinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Wudfddi.h
-apiname:
+api_name:
 -	IDriverEntry.OnDeinitialize
 product: Windows
 targetos: Windows
@@ -95,11 +95,11 @@ The framework creates a new driver object for each driver that is loaded in the 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
 
 
 

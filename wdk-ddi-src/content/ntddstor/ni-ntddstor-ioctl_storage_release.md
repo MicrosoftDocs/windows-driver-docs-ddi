@@ -7,8 +7,8 @@ old-location: storage\ioctl_storage_release.htm
 old-project: storage
 ms.assetid: ca43da4e-6e0e-4689-83db-3f5ee5e560b2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.ioctl_storage_release, IOCTL_STORAGE_RELEASE control code [Storage Devices], IOCTL_STORAGE_RELEASE, ntddstor/IOCTL_STORAGE_RELEASE, k307_8097610b-98ad-4bb2-9f16-2caca8bf7f0d.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_STORAGE_RELEASE, IOCTL_STORAGE_RELEASE control code [Storage Devices], k307_8097610b-98ad-4bb2-9f16-2caca8bf7f0d.xml, ntddstor/IOCTL_STORAGE_RELEASE, storage.ioctl_storage_release
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddstor.h
-apiname:
+api_name:
 -	IOCTL_STORAGE_RELEASE
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION"
+req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ---
 
 # IOCTL_STORAGE_RELEASE IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*PSTORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

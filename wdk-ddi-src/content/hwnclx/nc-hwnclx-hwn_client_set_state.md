@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: 5d2ccc29-4022-467c-9f37-d49badcceba4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: gpiobtn.hwn_client_set_state, HwnClientSetState callback function, HwnClientSetState, HWN_CLIENT_SET_STATE, HWN_CLIENT_SET_STATE, hwnclx/HwnClientSetState, *PHWN_CLIENT_SET_STATE callback function pointer, *PHWN_CLIENT_SET_STATE
+ms.keywords: "*PHWN_CLIENT_SET_STATE, *PHWN_CLIENT_SET_STATE callback function pointer, HWN_CLIENT_SET_STATE, HwnClientSetState, HwnClientSetState callback function, gpiobtn.hwn_client_set_state, hwnclx/HwnClientSetState"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Hwnclx.h
-apiname:
+api_name:
 -	*PHWN_CLIENT_SET_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PHPMI_QUERY_CAPABILITIES_RESPONSE, HPMI_QUERY_CAPABILITIES_RESPONSE"
+req.typenames: HPMI_QUERY_CAPABILITIES_RESPONSE, *PHPMI_QUERY_CAPABILITIES_RESPONSE
 ---
 
 # HWN_CLIENT_SET_STATE callback

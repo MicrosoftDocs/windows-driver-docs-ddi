@@ -7,8 +7,8 @@ old-location: display\dxgk_i2c_interface.htm
 old-project: display
 ms.assetid: aba0ebc8-2c92-4d27-a35b-9ac25ac6e5ab
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgk_i2c_interface, dispmprt/PDXGK_I2C_INTERFACE, _DXGK_I2C_INTERFACE, DXGK_I2C_INTERFACE, DXGK_I2C_INTERFACE structure [Display Devices], DmStructs_59985b59-bb86-459c-8bd2-2b6124a6b9bb.xml, *PDXGK_I2C_INTERFACE, dispmprt/DXGK_I2C_INTERFACE, PDXGK_I2C_INTERFACE structure pointer [Display Devices], PDXGK_I2C_INTERFACE
+ms.date: 2/24/2018
+ms.keywords: "*PDXGK_I2C_INTERFACE, DXGK_I2C_INTERFACE, DXGK_I2C_INTERFACE structure [Display Devices], DmStructs_59985b59-bb86-459c-8bd2-2b6124a6b9bb.xml, PDXGK_I2C_INTERFACE, PDXGK_I2C_INTERFACE structure pointer [Display Devices], _DXGK_I2C_INTERFACE, display.dxgk_i2c_interface, dispmprt/DXGK_I2C_INTERFACE, dispmprt/PDXGK_I2C_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dispmprt.h
-apiname:
+api_name:
 -	DXGK_I2C_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: "*PDXGK_I2C_INTERFACE, DXGK_I2C_INTERFACE"
+req.typenames: DXGK_I2C_INTERFACE, *PDXGK_I2C_INTERFACE
 ---
 
 # _DXGK_I2C_INTERFACE structure

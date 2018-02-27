@@ -7,8 +7,8 @@ old-location: display\d3d12ddi_video_process_filter_range.htm
 old-project: display
 ms.assetid: D77D1542-2730-456A-BC99-3507C4377C77
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.d3d12ddi_video_process_filter_range, D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020, D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020
+ms.date: 2/24/2018
+ms.keywords: D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020, D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020, display.d3d12ddi_video_process_filter_range
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3d12umddi.h
-apiname:
+api_name:
 -	D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020
 product: Windows
 targetos: Windows

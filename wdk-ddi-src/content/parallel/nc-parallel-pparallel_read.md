@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: a478fd0d-3fbe-4cd9-aaf9-67b74b607770
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.pparallel_read, PPARALLEL_READ function pointer [Parallel Ports], PPARALLEL_READ, parallel/PPARALLEL_READ, cisspd_ae27b566-d561-4bc8-9519-fc3c35069791.xml
+ms.keywords: PPARALLEL_READ, PPARALLEL_READ function pointer [Parallel Ports], cisspd_ae27b566-d561-4bc8-9519-fc3c35069791.xml, parallel/PPARALLEL_READ, parports.pparallel_read
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	parallel.h
-apiname:
+api_name:
 -	PPARALLEL_READ
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # PPARALLEL_READ callback
@@ -148,11 +148,11 @@ The PPARALLEL_READ callback runs in the caller's thread at the IRQL of the calle
 
 ## -see-also
 
-<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
-
-
-
 <a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WRITE</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
 
 
 

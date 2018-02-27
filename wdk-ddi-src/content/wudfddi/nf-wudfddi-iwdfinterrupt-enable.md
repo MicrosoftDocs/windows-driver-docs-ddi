@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 605C58C2-9A4F-4185-BB5C-95C9F5180C05
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Enable method, IWDFInterrupt interface, Enable, umdf.iwdfinterrupt_enable, wudfddi/IWDFInterrupt::Enable, wdf.iwdfinterrupt_enable, IWDFInterrupt interface, Enable method, Enable method, IWDFInterrupt, IWDFInterrupt::Enable
+ms.keywords: Enable method, Enable method, IWDFInterrupt interface, Enable,IWDFInterrupt.Enable, IWDFInterrupt, IWDFInterrupt interface, Enable method, IWDFInterrupt::Enable, umdf.iwdfinterrupt_enable, wdf.iwdfinterrupt_enable, wudfddi/IWDFInterrupt::Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFInterrupt.Enable
 product: Windows
 targetos: Windows
@@ -109,11 +109,11 @@ The following code example enables the device interrupt that is associated with 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D87C868D-9538-4752-AEBD-2A15E53628CF">IWDFInterrupt::Disable</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/D87C868D-9538-4752-AEBD-2A15E53628CF">IWDFInterrupt::Disable</a>
 
 
 

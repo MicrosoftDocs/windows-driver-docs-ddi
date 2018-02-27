@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 579a0943-0577-4dde-82d9-4794537e58f4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*LPRILPSMEDIACONFIGURATION, netvista.rilpsmediaconfiguration, RILPSMEDIACONFIGURATION, RILPSMEDIACONFIGURATION structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILPSMEDIACONFIGURATION"
+ms.keywords: "*LPRILPSMEDIACONFIGURATION, RILPSMEDIACONFIGURATION, RILPSMEDIACONFIGURATION structure [Network Drivers Starting with Windows Vista], netvista.rilpsmediaconfiguration, ntddrilapitypes/RILPSMEDIACONFIGURATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddrilapitypes.h
-apiname:
+api_name:
 -	RILPSMEDIACONFIGURATION
 product: Windows
 targetos: Windows

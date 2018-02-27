@@ -4,11 +4,11 @@ title: IDebugEventCallbacksWide::ChangeDebuggeeState method
 author: windows-driver-content
 description: The ChangeDebuggeeState callback method is called by the engine when it makes or detects changes to the target.
 old-location: debugger\idebugeventcallbackswide_changedebuggeestate.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: ffb5925a-6bbd-41f5-b8b8-e8c7189d57ac
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], ChangeDebuggeeState method, debugger.idebugeventcallbackswide_changedebuggeestate, dbgeng/IDebugEventCallbacksWide::ChangeDebuggeeState, IDebugEventCallbacksWide::ChangeDebuggeeState, ChangeDebuggeeState, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacksWide interface
+ms.date: 2/23/2018
+ms.keywords: ChangeDebuggeeState method [Windows Debugging], ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacksWide interface, ChangeDebuggeeState,IDebugEventCallbacksWide.ChangeDebuggeeState, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], ChangeDebuggeeState method, IDebugEventCallbacksWide::ChangeDebuggeeState, dbgeng/IDebugEventCallbacksWide::ChangeDebuggeeState, debugger.idebugeventcallbackswide_changedebuggeestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugEventCallbacksWide.ChangeDebuggeeState
 product: Windows
 targetos: Windows

@@ -4,11 +4,11 @@ title: "_DEBUG_CACHED_SYMBOL_INFO"
 author: windows-driver-content
 description: Defines information about cached symbols.
 old-location: debugger\debug_cached_symbol_info.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: CC7914B6-DCE1-45D1-84D3-5FF1449AD565
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: DEBUG_CACHED_SYMBOL_INFO, *PDEBUG_CACHED_SYMBOL_INFO, DEBUG_CACHED_SYMBOL_INFO structure [Windows Debugging], dbgeng/DEBUG_CACHED_SYMBOL_INFO, _DEBUG_CACHED_SYMBOL_INFO, debugger.debug_cached_symbol_info, PDEBUG_CACHED_SYMBOL_INFO structure pointer [Windows Debugging], PDEBUG_CACHED_SYMBOL_INFO, dbgeng/PDEBUG_CACHED_SYMBOL_INFO
+ms.date: 2/23/2018
+ms.keywords: "*PDEBUG_CACHED_SYMBOL_INFO, DEBUG_CACHED_SYMBOL_INFO, DEBUG_CACHED_SYMBOL_INFO structure [Windows Debugging], PDEBUG_CACHED_SYMBOL_INFO, PDEBUG_CACHED_SYMBOL_INFO structure pointer [Windows Debugging], _DEBUG_CACHED_SYMBOL_INFO, dbgeng/DEBUG_CACHED_SYMBOL_INFO, dbgeng/PDEBUG_CACHED_SYMBOL_INFO, debugger.debug_cached_symbol_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	DbgEng.h
-apiname:
+api_name:
 -	DEBUG_CACHED_SYMBOL_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PDEBUG_CACHED_SYMBOL_INFO, DEBUG_CACHED_SYMBOL_INFO"
+req.typenames: DEBUG_CACHED_SYMBOL_INFO, *PDEBUG_CACHED_SYMBOL_INFO
 ---
 
 # _DEBUG_CACHED_SYMBOL_INFO structure

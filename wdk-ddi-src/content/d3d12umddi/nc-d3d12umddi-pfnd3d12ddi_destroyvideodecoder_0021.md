@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_destroyvideodecoder_.htm
 old-project: display
 ms.assetid: 97028FEB-A3C2-4C2F-B64E-07024BC3C382
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.pfnd3d12ddi_destroyvideodecoder_, PFND3D12DDI_DESTROYVIDEODECODER_0021 callback function [Display Devices], PFND3D12DDI_DESTROYVIDEODECODER_0021, d3d12umddi/PFND3D12DDI_DESTROYVIDEODECODER_0021
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_DESTROYVIDEODECODER_0021, PFND3D12DDI_DESTROYVIDEODECODER_0021 callback function [Display Devices], d3d12umddi/PFND3D12DDI_DESTROYVIDEODECODER_0021, display.pfnd3d12ddi_destroyvideodecoder_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	D3d12umddi.h
-apiname:
+api_name:
 -	PFND3D12DDI_DESTROYVIDEODECODER_0021
 product: Windows
 targetos: Windows

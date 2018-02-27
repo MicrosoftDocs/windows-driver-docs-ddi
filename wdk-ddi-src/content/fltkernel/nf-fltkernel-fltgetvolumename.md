@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 50815b33-d417-4499-9423-f65697396200
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltGetVolumeName routine [Installable File System Drivers], fltkernel/FltGetVolumeName, FltGetVolumeName, FltApiRef_e_to_o_8d8cee36-2d14-4d5e-b95a-065a50d83f15.xml, ifsk.fltgetvolumename
+ms.keywords: FltApiRef_e_to_o_8d8cee36-2d14-4d5e-b95a-065a50d83f15.xml, FltGetVolumeName, FltGetVolumeName routine [Installable File System Drivers], fltkernel/FltGetVolumeName, ifsk.fltgetvolumename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	fltmgr.sys
-apiname:
+api_name:
 -	FltGetVolumeName
 product: Windows
 targetos: Windows
@@ -183,11 +183,7 @@ For more information about how to name a volume, see <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromname.md">FltGetVolumeFromName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540492">FilterGetDosName</a>
 
 
 
@@ -195,7 +191,11 @@ For more information about how to name a volume, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540492">FilterGetDosName</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromname.md">FltGetVolumeFromName</a>
 
 
 

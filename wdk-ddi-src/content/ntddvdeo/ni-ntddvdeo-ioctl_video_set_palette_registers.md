@@ -7,8 +7,8 @@ old-location: display\ioctl_video_set_palette_registers.htm
 old-project: display
 ms.assetid: f36dc8cf-2141-4ee2-9f23-ae996a0f0d97
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.ioctl_video_set_palette_registers, IOCTL_VIDEO_SET_PALETTE_REGISTERS control code [Display Devices], IOCTL_VIDEO_SET_PALETTE_REGISTERS, ntddvdeo/IOCTL_VIDEO_SET_PALETTE_REGISTERS, Video_IOCTLs_d8a3a22e-037b-4e82-b542-e5a5e4a7fef7.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_VIDEO_SET_PALETTE_REGISTERS, IOCTL_VIDEO_SET_PALETTE_REGISTERS control code [Display Devices], Video_IOCTLs_d8a3a22e-037b-4e82-b542-e5a5e4a7fef7.xml, display.ioctl_video_set_palette_registers, ntddvdeo/IOCTL_VIDEO_SET_PALETTE_REGISTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddvdeo.h
-apiname:
+api_name:
 -	IOCTL_VIDEO_SET_PALETTE_REGISTERS
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

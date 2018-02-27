@@ -7,8 +7,8 @@ old-location: display\pfnstatevssrvcb.htm
 old-project: display
 ms.assetid: 5102104e-b79c-40e5-87de-9ccf848288db
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.pfnstatevssrvcb, pfnStateVsSrvCb callback function [Display Devices], pfnStateVsSrvCb, PFND3D10DDI_STATE_VS_SRV_CB, PFND3D10DDI_STATE_VS_SRV_CB, d3d10umddi/pfnStateVsSrvCb, d3d10state_functions_18fed75e-bd90-41af-9ddd-d68c80f6afd7.xml
+ms.date: 2/24/2018
+ms.keywords: PFND3D10DDI_STATE_VS_SRV_CB, d3d10state_functions_18fed75e-bd90-41af-9ddd-d68c80f6afd7.xml, d3d10umddi/pfnStateVsSrvCb, display.pfnstatevssrvcb, pfnStateVsSrvCb, pfnStateVsSrvCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3d10umddi.h
-apiname:
+api_name:
 -	pfnStateVsSrvCb
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_STATE_VS_SRV_CB callback
@@ -122,5 +122,5 @@ None
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_STATE_VS_SRV_CB callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_STATE_VS_SRV_CB callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

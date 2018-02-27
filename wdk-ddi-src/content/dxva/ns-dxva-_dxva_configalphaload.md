@@ -7,8 +7,8 @@ old-location: display\dxva_configalphaload.htm
 old-project: display
 ms.assetid: 0754c362-57b8-40e8-a050-c9dded5180c1
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: LPDXVA_ConfigAlphaLoad structure pointer [Display Devices], DXVA_ConfigAlphaLoad, display.dxva_configalphaload, dxva/LPDXVA_ConfigAlphaLoad, *LPDXVA_ConfigAlphaLoad, dxvaref_c813af12-264d-44c6-bebb-1b93f20c545d.xml, LPDXVA_ConfigAlphaLoad, dxva/DXVA_ConfigAlphaLoad, _DXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: "*LPDXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad structure [Display Devices], LPDXVA_ConfigAlphaLoad, LPDXVA_ConfigAlphaLoad structure pointer [Display Devices], _DXVA_ConfigAlphaLoad, display.dxva_configalphaload, dxva/DXVA_ConfigAlphaLoad, dxva/LPDXVA_ConfigAlphaLoad, dxvaref_c813af12-264d-44c6-bebb-1b93f20c545d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dxva.h
-apiname:
+api_name:
 -	DXVA_ConfigAlphaLoad
 product: Windows
 targetos: Windows
-req.typenames: "*LPDXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad"
+req.typenames: DXVA_ConfigAlphaLoad, *LPDXVA_ConfigAlphaLoad
 ---
 
 # _DXVA_ConfigAlphaLoad structure

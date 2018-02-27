@@ -1,5 +1,6 @@
 # [Human Interface Devices (HID)](../_hid/index.md)
 ## [Hidclass.h](index.md)
+### [PHIDP_GETCAPS callback](../hidclass/nc-hidclass-phidp_getcaps.md)
 ### [IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS IOCTL](../hidclass/ni-hidclass-ioctl_get_num_device_input_buffers.md)
 ### [IOCTL_GET_PHYSICAL_DESCRIPTOR IOCTL](../hidclass/ni-hidclass-ioctl_get_physical_descriptor.md)
 ### [IOCTL_HID_DEVICERESET_NOTIFICATION IOCTL](../hidclass/ni-hidclass-ioctl_hid_devicereset_notification.md)

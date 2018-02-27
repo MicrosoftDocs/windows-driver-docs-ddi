@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: bcb0eb53-e3b3-4cec-9912-6306e8faef21
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PowerMeterRef_9c4ec041-69a6-4397-8620-93b17615f084.xml, PPMI_REPORTED_CAPABILITIES, pmi/PMI_REPORTED_CAPABILITIES, PPMI_REPORTED_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], PMI_REPORTED_CAPABILITIES structure [Power Metering and Budgeting Devices], pmi/PPMI_REPORTED_CAPABILITIES, powermeter.pmi_reported_capabilities, _PMI_REPORTED_CAPABILITIES, *PPMI_REPORTED_CAPABILITIES, PMI_REPORTED_CAPABILITIES
+ms.keywords: "*PPMI_REPORTED_CAPABILITIES, PMI_REPORTED_CAPABILITIES, PMI_REPORTED_CAPABILITIES structure [Power Metering and Budgeting Devices], PPMI_REPORTED_CAPABILITIES, PPMI_REPORTED_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_9c4ec041-69a6-4397-8620-93b17615f084.xml, _PMI_REPORTED_CAPABILITIES, pmi/PMI_REPORTED_CAPABILITIES, pmi/PPMI_REPORTED_CAPABILITIES, powermeter.pmi_reported_capabilities"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pmi.h
-apiname:
+api_name:
 -	PMI_REPORTED_CAPABILITIES
 product: Windows
 targetos: Windows
@@ -211,11 +211,11 @@ If the query request completes successfully, the request returns a <a href="..\p
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
-
-
-
 <a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
+
+
+
+<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
 
 
 

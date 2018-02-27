@@ -7,8 +7,8 @@ old-location: print\iasyncgetsrvreferralcookie.htm
 old-project: print
 ms.assetid: F22F5706-7238-43C1-B1F6-E41A0F9F3665
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.iasyncgetsrvreferralcookie, IAsyncGetSrvReferralCookie interface [Print Devices], IAsyncGetSrvReferralCookie interface [Print Devices], described, IAsyncGetSrvReferralCookie, prnasntp/IAsyncGetSrvReferralCookie
+ms.date: 2/23/2018
+ms.keywords: IAsyncGetSrvReferralCookie, IAsyncGetSrvReferralCookie interface [Print Devices], IAsyncGetSrvReferralCookie interface [Print Devices], described, print.iasyncgetsrvreferralcookie, prnasntp/IAsyncGetSrvReferralCookie
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Prnasntp.h
-apiname:
+api_name:
 -	IAsyncGetSrvReferralCookie
 product: Windows
 targetos: Windows

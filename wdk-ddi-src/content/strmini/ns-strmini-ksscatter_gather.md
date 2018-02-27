@@ -7,8 +7,8 @@ old-location: stream\ksscatter_gather.htm
 old-project: stream
 ms.assetid: 10AFDC4B-75E5-4E88-A614-60043848C570
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: PKSSCATTER_GATHER structure pointer [Streaming Media Devices], KSSCATTER_GATHER structure [Streaming Media Devices], stream.ksscatter_gather, strmini/PKSSCATTER_GATHER, KSSCATTER_GATHER, PKSSCATTER_GATHER, strmini/KSSCATTER_GATHER, *PKSSCATTER_GATHER
+ms.date: 2/23/2018
+ms.keywords: "*PKSSCATTER_GATHER, KSSCATTER_GATHER, KSSCATTER_GATHER structure [Streaming Media Devices], PKSSCATTER_GATHER, PKSSCATTER_GATHER structure pointer [Streaming Media Devices], stream.ksscatter_gather, strmini/KSSCATTER_GATHER, strmini/PKSSCATTER_GATHER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Strmini.h
-apiname:
+api_name:
 -	KSSCATTER_GATHER
 product: Windows
 targetos: Windows

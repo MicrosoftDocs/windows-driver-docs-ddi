@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: E056400C-A0FE-4740-945D-C529C8804DF3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hpmi/HPMI_HINT_BOOL, HpmiBoolFalse, hpmi/HpmiBoolMax, *PHPMI_HINT_BOOL, hpmi/HpmiBoolTrue, powermeter.hpmi_hint_bool, _HPMI_HINT_BOOL, HpmiBoolUnavailable, hpmi/HpmiBoolFalse, HpmiBoolTrue, HpmiBoolMax, HPMI_HINT_BOOL enumeration [Power Metering and Budgeting Devices], hpmi/HpmiBoolUnavailable, HPMI_HINT_BOOL
+ms.keywords: "*PHPMI_HINT_BOOL, HPMI_HINT_BOOL, HPMI_HINT_BOOL enumeration [Power Metering and Budgeting Devices], HpmiBoolFalse, HpmiBoolMax, HpmiBoolTrue, HpmiBoolUnavailable, _HPMI_HINT_BOOL, hpmi/HPMI_HINT_BOOL, hpmi/HpmiBoolFalse, hpmi/HpmiBoolMax, hpmi/HpmiBoolTrue, hpmi/HpmiBoolUnavailable, powermeter.hpmi_hint_bool"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hpmi.h
-apiname:
+api_name:
 -	HPMI_HINT_BOOL
 product: Windows
 targetos: Windows
-req.typenames: "*PHPMI_HINT_BOOL, HPMI_HINT_BOOL"
+req.typenames: HPMI_HINT_BOOL, *PHPMI_HINT_BOOL
 ---
 
 # _HPMI_HINT_BOOL enumeration
@@ -95,8 +95,6 @@ Value is not used.
 ## -see-also
 
 <a href="..\hpmi\ni-hpmi-ioctl_hpmi_battery_utilization_hint.md">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
-
-
 
 
 

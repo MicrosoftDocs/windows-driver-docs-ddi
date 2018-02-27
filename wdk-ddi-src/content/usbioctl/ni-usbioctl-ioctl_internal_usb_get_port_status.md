@@ -4,11 +4,11 @@ title: IOCTL_INTERNAL_USB_GET_PORT_STATUS
 author: windows-driver-content
 description: The IOCTL_INTERNAL_USB_GET_PORT_STATUS I/O request queries the status of the PDO. IOCTL_INTERNAL_USB_GET_PORT_STATUS is a kernel-mode I/O control request. This request targets the USB hub PDO. This IOCTL must be sent at IRQL = PASSIVE_LEVEL.
 old-location: buses\ioctl_internal_usb_get_port_status.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: eb15d01c-e77c-4605-9c12-dd8495834875
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.ioctl_internal_usb_get_port_status, IOCTL_INTERNAL_USB_GET_PORT_STATUS control code [Buses], IOCTL_INTERNAL_USB_GET_PORT_STATUS, usbioctl/IOCTL_INTERNAL_USB_GET_PORT_STATUS, usbirp_4fc2e386-093d-45b3-a74d-da66e711d71d.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_INTERNAL_USB_GET_PORT_STATUS, IOCTL_INTERNAL_USB_GET_PORT_STATUS control code [Buses], buses.ioctl_internal_usb_get_port_status, usbioctl/IOCTL_INTERNAL_USB_GET_PORT_STATUS, usbirp_4fc2e386-093d-45b3-a74d-da66e711d71d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Usbioctl.h
-apiname:
+api_name:
 -	IOCTL_INTERNAL_USB_GET_PORT_STATUS
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

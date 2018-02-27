@@ -7,8 +7,8 @@ old-location: print\iprintasyncnewchannelcookie.htm
 old-project: print
 ms.assetid: 48C5F80F-64AB-415A-AAF5-8B06505B02BF
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.iprintasyncnewchannelcookie, IPrintAsyncNewChannelCookie interface [Print Devices], IPrintAsyncNewChannelCookie interface [Print Devices], described, IPrintAsyncNewChannelCookie, prnasntp/IPrintAsyncNewChannelCookie
+ms.date: 2/23/2018
+ms.keywords: IPrintAsyncNewChannelCookie, IPrintAsyncNewChannelCookie interface [Print Devices], IPrintAsyncNewChannelCookie interface [Print Devices], described, print.iprintasyncnewchannelcookie, prnasntp/IPrintAsyncNewChannelCookie
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Prnasntp.h
-apiname:
+api_name:
 -	IPrintAsyncNewChannelCookie
 product: Windows
 targetos: Windows
@@ -52,6 +52,13 @@ req.product: Windows 10 or later.
 
 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintAsyncNewChannelCookie</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintAsyncNewChannelCookie</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 

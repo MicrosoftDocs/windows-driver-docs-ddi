@@ -7,8 +7,8 @@ old-location: display\ioctl_video_set_cursor_position.htm
 old-project: display
 ms.assetid: 80346b99-49f5-4cbf-b524-1c5f40cf441f
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.ioctl_video_set_cursor_position, IOCTL_VIDEO_SET_CURSOR_POSITION control code [Display Devices], IOCTL_VIDEO_SET_CURSOR_POSITION, ntddvdeo/IOCTL_VIDEO_SET_CURSOR_POSITION, Video_IOCTLs_f95d8cf3-a53e-4b67-867e-7af83e3b0d40.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_VIDEO_SET_CURSOR_POSITION, IOCTL_VIDEO_SET_CURSOR_POSITION control code [Display Devices], Video_IOCTLs_f95d8cf3-a53e-4b67-867e-7af83e3b0d40.xml, display.ioctl_video_set_cursor_position, ntddvdeo/IOCTL_VIDEO_SET_CURSOR_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddvdeo.h
-apiname:
+api_name:
 -	IOCTL_VIDEO_SET_CURSOR_POSITION
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

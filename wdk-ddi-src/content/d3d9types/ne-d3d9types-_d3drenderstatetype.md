@@ -7,8 +7,8 @@ old-location: display\d3drenderstatetype.htm
 old-project: display
 ms.assetid: 82978b22-1538-4da0-bcf2-c4c52d2e3429
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DRS_MAXPIXELSHADERINST, D3DRS_MAXVERTEXSHADERINST, d3d9types/, d3d9types/D3DRS_MAXVERTEXSHADERINST, d3d9types/D3DRENDERSTATE_EVICTMANAGEDTEXTURES, D3DRENDERSTATE_EVICTMANAGEDTEXTURES, d3d9types/D3DRS_DELETERTPATCH, enumeration [Display Devices], display.d3drenderstatetype, d3d9types/D3DRS_MAXPIXELSHADERINST, d3denum_6b8d96f8-ff88-43c3-9850-a213d84d548f.xml, d3d9types/D3DRENDERSTATE_SCENECAPTURE, _D3DRENDERSTATETYPE, D3DRENDERSTATETYPE, D3DRENDERSTATE_SCENECAPTURE, D3DRS_DELETERTPATCH
+ms.date: 2/24/2018
+ms.keywords: D3DRENDERSTATETYPE, D3DRENDERSTATE_EVICTMANAGEDTEXTURES, D3DRENDERSTATE_SCENECAPTURE, D3DRS_DELETERTPATCH, D3DRS_MAXPIXELSHADERINST, D3DRS_MAXVERTEXSHADERINST, _D3DRENDERSTATETYPE, d3d9types/, d3d9types/D3DRENDERSTATE_EVICTMANAGEDTEXTURES, d3d9types/D3DRENDERSTATE_SCENECAPTURE, d3d9types/D3DRS_DELETERTPATCH, d3d9types/D3DRS_MAXPIXELSHADERINST, d3d9types/D3DRS_MAXVERTEXSHADERINST, d3denum_6b8d96f8-ff88-43c3-9850-a213d84d548f.xml, display.d3drenderstatetype, enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d9types.h
-apiname:
+api_name:
 -	D3DRENDERSTATETYPE
 product: Windows
 targetos: Windows

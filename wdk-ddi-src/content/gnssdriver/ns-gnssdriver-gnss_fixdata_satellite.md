@@ -7,8 +7,8 @@ old-location: sensors\gnss_fixdata_satellite.htm
 old-project: sensors
 ms.assetid: D1454F07-3CBA-498B-B054-6A0D5020A164
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PGNSS_FIXDATA_SATELLITE structure pointer [Sensor Devices], PGNSS_FIXDATA_SATELLITE, GNSS_FIXDATA_SATELLITE, sensors.gnss_fixdata_satellite, gnssdriver/PGNSS_FIXDATA_SATELLITE, GNSS_FIXDATA_SATELLITE structure [Sensor Devices], *PGNSS_FIXDATA_SATELLITE, gnssdriver/GNSS_FIXDATA_SATELLITE
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_FIXDATA_SATELLITE, GNSS_FIXDATA_SATELLITE, GNSS_FIXDATA_SATELLITE structure [Sensor Devices], PGNSS_FIXDATA_SATELLITE, PGNSS_FIXDATA_SATELLITE structure pointer [Sensor Devices], gnssdriver/GNSS_FIXDATA_SATELLITE, gnssdriver/PGNSS_FIXDATA_SATELLITE, sensors.gnss_fixdata_satellite"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	gnssdriver.h
-apiname:
+api_name:
 -	GNSS_FIXDATA_SATELLITE
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_FIXDATA_SATELLITE, GNSS_FIXDATA_SATELLITE"
+req.typenames: GNSS_FIXDATA_SATELLITE, *PGNSS_FIXDATA_SATELLITE
 ---
 
 # GNSS_FIXDATA_SATELLITE structure

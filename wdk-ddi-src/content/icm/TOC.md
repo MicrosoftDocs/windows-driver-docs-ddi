@@ -15,6 +15,8 @@
 ### [WcsGetDefaultColorProfile function](../icm/nf-icm-wcsgetdefaultcolorprofile.md)
 ### [WcsGetDefaultColorProfileSize function](../icm/nf-icm-wcsgetdefaultcolorprofilesize.md)
 ### [WcsGetUsePerUserProfiles function](../icm/nf-icm-wcsgetuseperuserprofiles.md)
+### [WcsOpenColorProfileA function](../icm/nf-icm-wcsopencolorprofilea.md)
+### [WcsOpenColorProfileW function](../icm/nf-icm-wcsopencolorprofilew.md)
 ### [WcsSetDefaultColorProfile function](../icm/nf-icm-wcssetdefaultcolorprofile.md)
 ### [WcsSetUsePerUserProfiles function](../icm/nf-icm-wcssetuseperuserprofiles.md)
 ### [WcsTranslateColors function](../icm/nf-icm-wcstranslatecolors.md)

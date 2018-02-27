@@ -4,11 +4,11 @@ title: IDebugOutputStream
 author: windows-driver-content
 description: Supports the debug output stream.
 old-location: debugger\idebugoutputstream.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 7A9AB25B-2B8B-4E8A-9E67-79C56181E5D9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.idebugoutputstream, IDebugOutputStream interface [Windows Debugging], IDebugOutputStream interface [Windows Debugging], described, IDebugOutputStream, dbgeng/IDebugOutputStream
+ms.date: 2/23/2018
+ms.keywords: IDebugOutputStream, IDebugOutputStream interface [Windows Debugging], IDebugOutputStream interface [Windows Debugging], described, dbgeng/IDebugOutputStream, debugger.idebugoutputstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugOutputStream
 product: Windows
 targetos: Windows
@@ -51,6 +51,13 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 Supports the debug output stream.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugOutputStream</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugOutputStream</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -69,7 +76,5 @@ Writes to the debug output stream.
 
 </td>
 </tr>
-</table>Writes to the debug output stream.
-
- 
+</table> 
 

@@ -7,8 +7,8 @@ old-location: kernel\interlockedcompareexchange.htm
 old-project: kernel
 ms.assetid: 925a5481-d626-4824-8cbe-4fc2a0a6ad92
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.interlockedcompareexchange, k102_d40d8288-4c0d-43ed-af9f-3f9afabe1455.xml, InterlockedCompareExchange, InterlockedCompareExchange routine [Kernel-Mode Driver Architecture], wdm/InterlockedCompareExchange
+ms.date: 2/24/2018
+ms.keywords: InterlockedCompareExchange, InterlockedCompareExchange routine [Kernel-Mode Driver Architecture], k102_d40d8288-4c0d-43ed-af9f-3f9afabe1455.xml, kernel.interlockedcompareexchange, wdm/InterlockedCompareExchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: OneCoreUAP.lib on Windows 10
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	OneCoreUAP.lib
 -	OneCoreUAP.dll
 -	API-MS-Win-Core-Interlocked-l1-1-0.dll
 -	API-MS-Win-Core-Interlocked-l1-2-0.dll
 -	KernelBase.dll
 -	MinKernelBase.dll
-apiname:
+api_name:
 -	InterlockedCompareExchange
 product: Windows
 targetos: Windows
@@ -91,14 +91,14 @@ TBD
 
 
 
-#### - Exchange [in]
-
-Specifies the output value pointed to by <i>Destination</i> if the input value pointed to by <i>Destination</i> equals the value of <i>Comparand</i>. 
-
-
 #### - Comparand [in]
 
 Specifies the value that is compared with the input value pointed to by <i>Destination</i>.
+
+
+#### - Exchange [in]
+
+Specifies the output value pointed to by <i>Destination</i> if the input value pointed to by <i>Destination</i> equals the value of <i>Comparand</i>. 
 
 
 ## -returns
@@ -127,19 +127,7 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\miniport\nf-miniport-interlockedexchange.md">InterlockedExchange</a>
-
-
-
-<a href="..\miniport\nf-miniport-interlockedincrement.md">InterlockedIncrement</a>
-
-
-
-<a href="..\miniport\nf-miniport-interlockedcompareexchangepointer.md">InterlockedCompareExchangePointer</a>
-
-
-
-<a href="..\miniport\nf-miniport-interlockedexchangepointer.md">InterlockedExchangePointer</a>
+<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
 
 
 
@@ -147,7 +135,19 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 
-<a href="..\miniport\nf-miniport-interlockeddecrement.md">InterlockedDecrement</a>
+<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedexchangepointer.md">InterlockedExchangePointer</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedcompareexchangepointer.md">InterlockedCompareExchangePointer</a>
 
 
 
@@ -155,5 +155,5 @@ Interlocked operations cannot be used on non-cached memory.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20InterlockedCompareExchange routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20InterlockedCompareExchange routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_enablepdev.htm
 old-project: print
 ms.assetid: 93028b21-7995-42cd-af14-97e74ae75092
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IPrintOemUni::EnablePDEV, print_unidrv-pscript_rendering_ec7d7a16-5eae-4d4e-8596-7463d967120e.xml, EnablePDEV, EnablePDEV method [Print Devices], IPrintOemUni, EnablePDEV method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], EnablePDEV method, prcomoem/IPrintOemUni::EnablePDEV, print.iprintoemuni_enablepdev
+ms.date: 2/23/2018
+ms.keywords: EnablePDEV method [Print Devices], EnablePDEV method [Print Devices], IPrintOemUni interface, EnablePDEV,IPrintOemUni.EnablePDEV, IPrintOemUni, IPrintOemUni interface [Print Devices], EnablePDEV method, IPrintOemUni::EnablePDEV, prcomoem/IPrintOemUni::EnablePDEV, print.iprintoemuni_enablepdev, print_unidrv-pscript_rendering_ec7d7a16-5eae-4d4e-8596-7463d967120e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Prcomoem.h
-apiname:
+api_name:
 -	IPrintOemUni.EnablePDEV
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

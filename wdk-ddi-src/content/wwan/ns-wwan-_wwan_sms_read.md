@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 920ca041-7fc8-4c6b-bc1a-7bf41dffcf7b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WWAN_SMS_READ structure [Network Drivers Starting with Windows Vista], netvista.wwan_sms_read, wwan/PWWAN_SMS_READ, WwanRef_8b221a53-0311-4ed7-a98b-e8677cb40051.xml, wwan/WWAN_SMS_READ, WWAN_SMS_READ, _WWAN_SMS_READ, PWWAN_SMS_READ, *PWWAN_SMS_READ, PWWAN_SMS_READ structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PWWAN_SMS_READ, PWWAN_SMS_READ, PWWAN_SMS_READ structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_READ, WWAN_SMS_READ structure [Network Drivers Starting with Windows Vista], WwanRef_8b221a53-0311-4ed7-a98b-e8677cb40051.xml, _WWAN_SMS_READ, netvista.wwan_sms_read, wwan/PWWAN_SMS_READ, wwan/WWAN_SMS_READ"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_SMS_READ
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_SMS_READ, WWAN_SMS_READ"
+req.typenames: WWAN_SMS_READ, *PWWAN_SMS_READ
 req.product: Windows 10 or later.
 ---
 
@@ -100,7 +100,7 @@ Represents the filter upon which the miniport driver should retrieve the message
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_read.md">NDIS_WWAN_SMS_READ</a>
+<a href="..\wwan\ns-wwan-_wwan_sms_filter.md">WWAN_SMS_FILTER</a>
 
 
 

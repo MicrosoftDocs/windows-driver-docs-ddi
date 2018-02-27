@@ -7,8 +7,8 @@ old-location: storage\storage_zone_group.htm
 old-project: storage
 ms.assetid: 71CEEE58-22CC-4FB4-83E1-5FCC6563D1D2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: STORAGE_ZONE_GROUP structure [Storage Devices], ntddstor/PSTORAGE_ZONE_GROUP, ntddstor/ STORAGE_ZONE_GROUP, _STORAGE_ZONE_GROUP, STORAGE_ZONE_GROUP, *PSTORAGE_ZONE_GROUP, PSTORAGE_ZONE_GROUP structure pointer [Storage Devices], storage.storage_zone_group, PSTORAGE_ZONE_GROUP
+ms.date: 2/24/2018
+ms.keywords: "*PSTORAGE_ZONE_GROUP, PSTORAGE_ZONE_GROUP, PSTORAGE_ZONE_GROUP structure pointer [Storage Devices], STORAGE_ZONE_GROUP, STORAGE_ZONE_GROUP structure [Storage Devices], _STORAGE_ZONE_GROUP, ntddstor/ STORAGE_ZONE_GROUP, ntddstor/PSTORAGE_ZONE_GROUP, storage.storage_zone_group"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddstor.h
-apiname:
+api_name:
 -	STORAGE_ZONE_GROUP
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_ZONE_GROUP, STORAGE_ZONE_GROUP"
+req.typenames: STORAGE_ZONE_GROUP, *PSTORAGE_ZONE_GROUP
 ---
 
 # _STORAGE_ZONE_GROUP structure

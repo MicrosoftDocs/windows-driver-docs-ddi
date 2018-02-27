@@ -7,8 +7,8 @@ old-location: storage\tapeminiextensioninit.htm
 old-project: storage
 ms.assetid: 4837b9c2-a3c1-4574-8f5b-4bf7c7d037a0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.tapeminiextensioninit, (*TAPE_EXTENSION_INIT_ROUTINE) routine [Storage Devices], (*TAPE_EXTENSION_INIT_ROUTINE), TAPE_EXTENSION_INIT_ROUTINE, TAPE_EXTENSION_INIT_ROUTINE, minitape/(*TAPE_EXTENSION_INIT_ROUTINE), tapemini_858bcb61-472e-45c4-8438-060eb61f1c4a.xml
+ms.date: 2/24/2018
+ms.keywords: "(*TAPE_EXTENSION_INIT_ROUTINE), (*TAPE_EXTENSION_INIT_ROUTINE) routine [Storage Devices], TAPE_EXTENSION_INIT_ROUTINE, minitape/(*TAPE_EXTENSION_INIT_ROUTINE), storage.tapeminiextensioninit, tapemini_858bcb61-472e-45c4-8438-060eb61f1c4a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	minitape.h
-apiname:
+api_name:
 -	(*TAPE_EXTENSION_INIT_ROUTINE)
 product: Windows
 targetos: Windows
-req.typenames: "*PPROCESSOR_NUMBER, PROCESSOR_NUMBER"
+req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
 ---
 
 # TAPE_EXTENSION_INIT_ROUTINE callback
@@ -115,8 +115,11 @@ The tape class driver allocates the minitape extension and supplies it subsequen
 
 
 
+<a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
 
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
 
 
 
@@ -128,13 +131,9 @@ The tape class driver allocates the minitape extension and supplies it subsequen
 
 
 
-<a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_EXTENSION_INIT_ROUTINE routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_EXTENSION_INIT_ROUTINE routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

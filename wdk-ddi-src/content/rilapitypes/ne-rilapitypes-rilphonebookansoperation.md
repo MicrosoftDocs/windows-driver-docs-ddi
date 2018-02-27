@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ce1d2d09-64a3-40a9-b24b-66edbd34d637
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_PHONEBOOK_ANSMODIFIED, RILPHONEBOOKANSOPERATION enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PHONEBOOK_MAX, rilapitypes/RIL_PHONEBOOK_ANSMODIFIED, RIL_PHONEBOOK_ANSDELETED, RILPHONEBOOKANSOPERATION, RIL_PHONEBOOK_MAX, netvista.rilphonebookansoperation_2, rilapitypes/RILPHONEBOOKANSOPERATION, rilapitypes/RIL_PHONEBOOK_ANSDELETED
+ms.keywords: RILPHONEBOOKANSOPERATION, RILPHONEBOOKANSOPERATION enumeration [Network Drivers Starting with Windows Vista], RIL_PHONEBOOK_ANSDELETED, RIL_PHONEBOOK_ANSMODIFIED, RIL_PHONEBOOK_MAX, netvista.rilphonebookansoperation_2, rilapitypes/RILPHONEBOOKANSOPERATION, rilapitypes/RIL_PHONEBOOK_ANSDELETED, rilapitypes/RIL_PHONEBOOK_ANSMODIFIED, rilapitypes/RIL_PHONEBOOK_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILPHONEBOOKANSOPERATION
 product: Windows
 targetos: Windows

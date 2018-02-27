@@ -7,8 +7,8 @@ old-location: print\dot4_dc_create_data.htm
 old-project: print
 ms.assetid: 9C21732B-0AB1-4F3E-8F3D-F0B12007920A
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: "*PDOT4_DC_CREATE_DATA, d4drvif/PDOT4_DC_CREATE_DATA, DOT4_DC_CREATE_DATA, DOT4_DC_CREATE_DATA structure [Print Devices], d4drvif/DOT4_DC_CREATE_DATA, print.dot4_dc_create_data, _DOT4_DC_CREATE_DATA, PDOT4_DC_CREATE_DATA, PDOT4_DC_CREATE_DATA structure pointer [Print Devices]"
+ms.date: 2/23/2018
+ms.keywords: "*PDOT4_DC_CREATE_DATA, DOT4_DC_CREATE_DATA, DOT4_DC_CREATE_DATA structure [Print Devices], PDOT4_DC_CREATE_DATA, PDOT4_DC_CREATE_DATA structure pointer [Print Devices], _DOT4_DC_CREATE_DATA, d4drvif/DOT4_DC_CREATE_DATA, d4drvif/PDOT4_DC_CREATE_DATA, print.dot4_dc_create_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D4drvif.h
-apiname:
+api_name:
 -	DOT4_DC_CREATE_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_DC_CREATE_DATA, DOT4_DC_CREATE_DATA"
+req.typenames: DOT4_DC_CREATE_DATA, *PDOT4_DC_CREATE_DATA
 ---
 
 # _DOT4_DC_CREATE_DATA structure

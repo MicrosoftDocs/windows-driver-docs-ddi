@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 05e889b1-4b18-4122-9332-69778017e15c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PAR_SET_INFORMATION, ntddpar/PPAR_SET_INFORMATION, PPAR_SET_INFORMATION, PAR_SET_INFORMATION structure [Parallel Ports], ntddpar/PAR_SET_INFORMATION, PPAR_SET_INFORMATION structure pointer [Parallel Ports], *PPAR_SET_INFORMATION, _PAR_SET_INFORMATION, cisspd_8390a7d0-a4b2-4970-94f8-fd270f2d8256.xml, parports.par_set_information
+ms.keywords: "*PPAR_SET_INFORMATION, PAR_SET_INFORMATION, PAR_SET_INFORMATION structure [Parallel Ports], PPAR_SET_INFORMATION, PPAR_SET_INFORMATION structure pointer [Parallel Ports], _PAR_SET_INFORMATION, cisspd_8390a7d0-a4b2-4970-94f8-fd270f2d8256.xml, ntddpar/PAR_SET_INFORMATION, ntddpar/PPAR_SET_INFORMATION, parports.par_set_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddpar.h
-apiname:
+api_name:
 -	PAR_SET_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PPAR_SET_INFORMATION, PAR_SET_INFORMATION"
+req.typenames: PAR_SET_INFORMATION, *PPAR_SET_INFORMATION
 ---
 
 # _PAR_SET_INFORMATION structure

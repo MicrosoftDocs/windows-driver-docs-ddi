@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 0c0dca35-3590-4c24-a2a7-8dd0378c525f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PNOTIFICATION_INFO, *PNOTIFICATION_INFO_W2K, NOTIFICATION_INFO structure [Buses], NOTIFICATION_INFO, IEEE.notification_info, *PNOTIFICATION_INFO_WXP, 1394stct_db1356d4-c42d-46a4-bbc4-ed8452dc2212.xml, NOTIFICATION_INFO_WXP, _NOTIFICATION_INFO_W2K, PNOTIFICATION_INFO structure pointer [Buses], PNOTIFICATION_INFO, 1394/PNOTIFICATION_INFO, NOTIFICATION_INFO_W2K, _NOTIFICATION_INFO_WXP, 1394/NOTIFICATION_INFO"
+ms.keywords: "*PNOTIFICATION_INFO, *PNOTIFICATION_INFO_WXP, 1394/NOTIFICATION_INFO, 1394/PNOTIFICATION_INFO, 1394stct_db1356d4-c42d-46a4-bbc4-ed8452dc2212.xml, IEEE.notification_info, NOTIFICATION_INFO, NOTIFICATION_INFO structure [Buses], NOTIFICATION_INFO_W2K, NOTIFICATION_INFO_WXP, PNOTIFICATION_INFO, PNOTIFICATION_INFO structure pointer [Buses], _NOTIFICATION_INFO_WXP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	1394.h
-apiname:
+api_name:
 -	NOTIFICATION_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PNOTIFICATION_INFO_WXP, NOTIFICATION_INFO_WXP"
+req.typenames: NOTIFICATION_INFO_WXP, *PNOTIFICATION_INFO_WXP
 ---
 
 # _NOTIFICATION_INFO_WXP structure

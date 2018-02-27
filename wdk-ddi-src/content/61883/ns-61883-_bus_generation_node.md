@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 8db151ca-6358-41b0-a96a-e69b9d6c2c95
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PBUS_GENERATION_NODE, 61883_structures_41921b5c-98f0-4df8-9770-335cc579eb38.xml, 61883/BUS_GENERATION_NODE, BUS_GENERATION_NODE structure [Buses], *PBUS_GENERATION_NODE, IEEE.bus_generation_node, 61883/PBUS_GENERATION_NODE, _BUS_GENERATION_NODE, BUS_GENERATION_NODE, PBUS_GENERATION_NODE structure pointer [Buses]
+ms.keywords: "*PBUS_GENERATION_NODE, 61883/BUS_GENERATION_NODE, 61883/PBUS_GENERATION_NODE, 61883_structures_41921b5c-98f0-4df8-9770-335cc579eb38.xml, BUS_GENERATION_NODE, BUS_GENERATION_NODE structure [Buses], IEEE.bus_generation_node, PBUS_GENERATION_NODE, PBUS_GENERATION_NODE structure pointer [Buses], _BUS_GENERATION_NODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	61883.h
-apiname:
+api_name:
 -	BUS_GENERATION_NODE
 product: Windows
 targetos: Windows
-req.typenames: "*PBUS_GENERATION_NODE, BUS_GENERATION_NODE"
+req.typenames: BUS_GENERATION_NODE, *PBUS_GENERATION_NODE
 ---
 
 # _BUS_GENERATION_NODE structure

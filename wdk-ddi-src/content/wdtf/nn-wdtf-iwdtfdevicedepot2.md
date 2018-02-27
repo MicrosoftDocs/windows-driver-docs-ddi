@@ -7,8 +7,8 @@ old-location: dtf\iwdtfdevicedepot2.htm
 old-project: dtf
 ms.assetid: 7f7f1286-83e9-4bd8-ac57-1c3def4c0035
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfdevicedepot2, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], IWDTFDeviceDepot2 interface [Windows Device Testing Framework], described, IWDTFDeviceDepot2, wdtf/IWDTFDeviceDepot2, Microsoft.WDTF.IWDTFDeviceDepot2
+ms.date: 2/23/2018
+ms.keywords: IWDTFDeviceDepot2, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], IWDTFDeviceDepot2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFDeviceDepot2, dtf.iwdtfdevicedepot2, wdtf/IWDTFDeviceDepot2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtf.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WDTF.Interop.metadata_dll.dll
-apiname:
+api_name:
 -	IWDTFDeviceDepot2
 product: Windows
 targetos: Windows
@@ -52,6 +52,14 @@ req.product: Windows 10 or later.
 
 Defines properties and operations for the collection of devices on a computer.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFDeviceDepot2</b> interface inherits from <b>ITracing</b>. <b>IWDTFDeviceDepot2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
 
 ## -members
 
@@ -79,13 +87,8 @@ Returns a single target device from the DeviceDepot.
 
 </td>
 </tr>
-</table>Returns a subset of the devices in the DeviceDepot.
-
-Returns a single target device from the DeviceDepot.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFDeviceDepot2</b> interface has these properties.
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFDeviceDepot2</b> interface has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
@@ -172,45 +175,5 @@ Gets the main WDTF aggregation object.
 
 </td>
 </tr>
-</table>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
-
-
-Read-only
-
-Gets the iteration enumerator for the collection of devices in the DeviceDepot.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
-
-
-Read-only
-
-Gets the number of devices that are currently provided by the DeviceDepot.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
-
-
-Read-only
-
-Gets an individual device in the DeviceDepot.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406413">RootDevice</a>
-
-
-Read-only
-
-Gets the root device.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406421">WDTF</a>
-
-
-Read-only
-
-Gets the main WDTF aggregation object.
-
- 
+</table> 
 

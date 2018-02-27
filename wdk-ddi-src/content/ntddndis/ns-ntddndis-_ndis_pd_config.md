@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2B010641-4CFA-40B6-AB77-BE9F85347134
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NDIS_PD_CONFIG, NDIS_PD_CONFIG structure [Network Drivers Starting with Windows Vista], netvista.ndis_pd_config, _NDIS_PD_CONFIG, ntddndis/NDIS_PD_CONFIG
+ms.keywords: NDIS_PD_CONFIG, NDIS_PD_CONFIG structure [Network Drivers Starting with Windows Vista], _NDIS_PD_CONFIG, netvista.ndis_pd_config, ntddndis/NDIS_PD_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddndis.h
-apiname:
+api_name:
 -	NDIS_PD_CONFIG
 product: Windows
 targetos: Windows

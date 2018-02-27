@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 95818f9a-9053-4fb3-8bcb-6e318ed6bae5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RIL_MSGCLASS_INCOMING, RILMSGCLASS, rilapitypes/RIL_MSGCLASS_OUTGOING, RILMSGCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCLASS_INCOMING, netvista.rilmsgclass_2, rilapitypes/RIL_MSGCLASS_BROADCAST, rilapitypes/RIL_MSGCLASS_ALL, RIL_MSGCLASS_OUTGOING, rilapitypes/RILMSGCLASS, RIL_MSGCLASS_ALL, RIL_MSGCLASS_BROADCAST
+ms.keywords: RILMSGCLASS, RILMSGCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCLASS_ALL, RIL_MSGCLASS_BROADCAST, RIL_MSGCLASS_INCOMING, RIL_MSGCLASS_OUTGOING, netvista.rilmsgclass_2, rilapitypes/RILMSGCLASS, rilapitypes/RIL_MSGCLASS_ALL, rilapitypes/RIL_MSGCLASS_BROADCAST, rilapitypes/RIL_MSGCLASS_INCOMING, rilapitypes/RIL_MSGCLASS_OUTGOING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILMSGCLASS
 product: Windows
 targetos: Windows

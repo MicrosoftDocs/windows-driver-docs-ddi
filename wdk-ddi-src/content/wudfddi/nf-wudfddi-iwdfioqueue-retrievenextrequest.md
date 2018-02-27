@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2d9dbfc8-7563-4c47-9b34-27cce2b847b2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFIoQueue interface, RetrieveNextRequest method, wudfddi/IWDFIoQueue::RetrieveNextRequest, RetrieveNextRequest, IWDFIoQueue::RetrieveNextRequest, RetrieveNextRequest method, IWDFIoQueue interface, IWDFIoQueue, UMDFQueueObjectRef_d76f57ad-f8d5-4a09-861f-26c6d5e6a709.xml, RetrieveNextRequest method, wdf.iwdfioqueue_retrievenextrequest, umdf.iwdfioqueue_retrievenextrequest
+ms.keywords: IWDFIoQueue, IWDFIoQueue interface, RetrieveNextRequest method, IWDFIoQueue::RetrieveNextRequest, RetrieveNextRequest method, RetrieveNextRequest method, IWDFIoQueue interface, RetrieveNextRequest,IWDFIoQueue.RetrieveNextRequest, UMDFQueueObjectRef_d76f57ad-f8d5-4a09-861f-26c6d5e6a709.xml, umdf.iwdfioqueue_retrievenextrequest, wdf.iwdfioqueue_retrievenextrequest, wudfddi/IWDFIoQueue::RetrieveNextRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFIoQueue.RetrieveNextRequest
 product: Windows
 targetos: Windows
@@ -222,11 +222,11 @@ CMyDevice::ServiceSwitchChangeQueue(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
 
 
 

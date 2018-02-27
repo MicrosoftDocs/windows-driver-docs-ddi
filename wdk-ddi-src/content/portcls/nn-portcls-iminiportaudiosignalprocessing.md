@@ -7,8 +7,8 @@ old-location: audio\iminiportaudiosignalprocessing.htm
 old-project: audio
 ms.assetid: 6C520509-347F-4E01-95C4-0D3306031E51
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iminiportaudiosignalprocessing, IMiniportAudioSignalProcessing interface [Audio Devices], IMiniportAudioSignalProcessing interface [Audio Devices], described, IMiniportAudioSignalProcessing, portcls/IMiniportAudioSignalProcessing
+ms.date: 2/22/2018
+ms.keywords: IMiniportAudioSignalProcessing, IMiniportAudioSignalProcessing interface [Audio Devices], IMiniportAudioSignalProcessing interface [Audio Devices], described, audio.iminiportaudiosignalprocessing, portcls/IMiniportAudioSignalProcessing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Portcls.h
-apiname:
+api_name:
 -	IMiniportAudioSignalProcessing
 product: Windows
 targetos: Windows
@@ -51,6 +51,13 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 The IMiniportAudioSignalProcessing interface is implemented by the WaveRT miniport component of any audio driver, if any of its pins support audio signal processing modes.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportAudioSignalProcessing</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMiniportAudioSignalProcessing</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -69,9 +76,7 @@ The GetModes method, Gets the audio signal processing modes supported by an audi
 
 </td>
 </tr>
-</table>The GetModes method, Gets the audio signal processing modes supported by an audio pin.
-
- 
+</table> 
 
 
 ## -remarks

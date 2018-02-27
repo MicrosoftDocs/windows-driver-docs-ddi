@@ -7,8 +7,8 @@ old-location: print\pspinfo.htm
 old-project: print
 ms.assetid: 80a15ee4-e160-49fc-9c61-a14b14d19751
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: PSPINFO structure [Print Devices], *PPSPINFO, PSPINFO, compstui/PPSPINFO, PPSPINFO structure pointer [Print Devices], cpsuifnc_0e5bb634-1f21-4e4d-aee9-c45ff0dc1c26.xml, compstui/PSPINFO, PPSPINFO, print.pspinfo, _PSPINFO
+ms.date: 2/23/2018
+ms.keywords: "*PPSPINFO, PPSPINFO, PPSPINFO structure pointer [Print Devices], PSPINFO, PSPINFO structure [Print Devices], _PSPINFO, compstui/PPSPINFO, compstui/PSPINFO, cpsuifnc_0e5bb634-1f21-4e4d-aee9-c45ff0dc1c26.xml, print.pspinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	compstui.h
-apiname:
+api_name:
 -	PSPINFO
 product: Windows
 targetos: Windows
@@ -93,7 +93,7 @@ CPSUI-supplied handle to the property sheet page.
 
 ### -field pfnComPropSheet
 
-CPSUI-supplied pointer to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function.
+CPSUI-supplied pointer to its <a href="..\compstui\nc-compstui-pfncompropsheet.md">ComPropSheet</a> function.
 
 
 ## -remarks

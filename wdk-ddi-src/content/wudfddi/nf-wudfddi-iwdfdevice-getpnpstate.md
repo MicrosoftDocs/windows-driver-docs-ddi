@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7214a0e9-5519-4daa-bd2f-cc3c697dd867
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetPnpState, UMDFDeviceObjectRef_6fe8971d-2af6-4fc0-a902-74edb5d45f39.xml, IWDFDevice::GetPnpState, GetPnpState method, IWDFDevice interface, wdf.iwdfdevice_getpnpstate, umdf.iwdfdevice_getpnpstate, wudfddi/IWDFDevice::GetPnpState, IWDFDevice, GetPnpState method, IWDFDevice interface, GetPnpState method
+ms.keywords: GetPnpState method, GetPnpState method, IWDFDevice interface, GetPnpState,IWDFDevice.GetPnpState, IWDFDevice, IWDFDevice interface, GetPnpState method, IWDFDevice::GetPnpState, UMDFDeviceObjectRef_6fe8971d-2af6-4fc0-a902-74edb5d45f39.xml, umdf.iwdfdevice_getpnpstate, wdf.iwdfdevice_getpnpstate, wudfddi/IWDFDevice::GetPnpState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFDevice.GetPnpState
 product: Windows
 targetos: Windows

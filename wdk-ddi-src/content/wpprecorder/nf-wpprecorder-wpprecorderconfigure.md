@@ -7,8 +7,8 @@ old-location: devtest\wpprecorderconfigure.htm
 old-project: devtest
 ms.assetid: 995E4606-F987-46A7-8310-28E8E9C7682C
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: imp_WppRecorderConfigure, devtest.wpprecorderconfigure, WppRecorderConfigure, imp_WppRecorderConfigure function [Driver Development Tools], wpprecorder/imp_WppRecorderConfigure
+ms.date: 2/23/2018
+ms.keywords: WppRecorderConfigure, devtest.wpprecorderconfigure, imp_WppRecorderConfigure, imp_WppRecorderConfigure function [Driver Development Tools], wpprecorder/imp_WppRecorderConfigure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wpprecorder.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wpprecorder.h
-apiname:
+api_name:
 -	imp_WppRecorderConfigure
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 

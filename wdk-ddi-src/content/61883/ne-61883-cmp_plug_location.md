@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: C46822B9-2263-4424-853B-32C726D83950
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 61883/CMP_PlugRemote, CMP_PLUG_LOCATION enumeration [Buses], CMP_PlugRemote, 61883/CMP_PLUG_LOCATION, IEEE.cmp_plug_location, CMP_PLUG_LOCATION, CMP_PlugLocal, 61883/CMP_PlugLocal
+ms.keywords: 61883/CMP_PLUG_LOCATION, 61883/CMP_PlugLocal, 61883/CMP_PlugRemote, CMP_PLUG_LOCATION, CMP_PLUG_LOCATION enumeration [Buses], CMP_PlugLocal, CMP_PlugRemote, IEEE.cmp_plug_location
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	61883.h
-apiname:
+api_name:
 -	CMP_PLUG_LOCATION
 product: Windows
 targetos: Windows

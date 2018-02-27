@@ -7,8 +7,8 @@ old-location: audio\iportclsversion_getversion.htm
 old-project: audio
 ms.assetid: ce1394e5-1d45-4b59-8738-fcb2cbe7cf51
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: GetVersion method [Audio Devices], IPortClsVersion interface, IPortClsVersion interface [Audio Devices], GetVersion method, IPortClsVersion::GetVersion, audio.iportclsversion_getversion, audmp-routines_82b73b24-296b-4b31-88e4-1d1303863c6c.xml, portcls/IPortClsVersion::GetVersion, GetVersion, GetVersion method [Audio Devices], IPortClsVersion
+ms.date: 2/22/2018
+ms.keywords: GetVersion method [Audio Devices], GetVersion method [Audio Devices], IPortClsVersion interface, GetVersion,IPortClsVersion.GetVersion, IPortClsVersion, IPortClsVersion interface [Audio Devices], GetVersion method, IPortClsVersion::GetVersion, audio.iportclsversion_getversion, audmp-routines_82b73b24-296b-4b31-88e4-1d1303863c6c.xml, portcls/IPortClsVersion::GetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IPortClsVersion.GetVersion
 product: Windows
 targetos: Windows
@@ -316,17 +316,17 @@ The version numbers in the preceding table are listed in roughly chronological o
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioiswdmversionavailable.md">IoIsWdmVersionAvailable</a>
-
-
-
 <a href="..\portcls\nn-portcls-iportclsversion.md">IPortClsVersion</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-ioiswdmversionavailable.md">IoIsWdmVersionAvailable</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortClsVersion::GetVersion method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortClsVersion::GetVersion method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

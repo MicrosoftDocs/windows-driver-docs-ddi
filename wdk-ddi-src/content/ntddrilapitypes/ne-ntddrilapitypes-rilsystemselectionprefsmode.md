@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f2d9bb70-cb0c-4e4b-be7a-11a89df739be
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RIL_OPSELMODE_MANUAL, RILSYSTEMSELECTIONPREFSMODE, RIL_OPSELMODE_MAX, ntddrilapitypes/RIL_OPSELMODE_MAX, RILSYSTEMSELECTIONPREFSMODE enumeration [Network Drivers Starting with Windows Vista], netvista.rilsystemselectionprefsmode, ntddrilapitypes/RILSYSTEMSELECTIONPREFSMODE, RIL_OPSELMODE_MANUAL
+ms.keywords: RILSYSTEMSELECTIONPREFSMODE, RILSYSTEMSELECTIONPREFSMODE enumeration [Network Drivers Starting with Windows Vista], RIL_OPSELMODE_MANUAL, RIL_OPSELMODE_MAX, netvista.rilsystemselectionprefsmode, ntddrilapitypes/RILSYSTEMSELECTIONPREFSMODE, ntddrilapitypes/RIL_OPSELMODE_MANUAL, ntddrilapitypes/RIL_OPSELMODE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddrilapitypes.h
-apiname:
+api_name:
 -	RILSYSTEMSELECTIONPREFSMODE
 product: Windows
 targetos: Windows

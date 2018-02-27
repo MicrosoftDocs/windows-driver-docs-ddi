@@ -7,8 +7,8 @@ old-location: kernel\read_port_uchar.htm
 old-project: kernel
 ms.assetid: a58e55f5-d657-43bf-afef-05af7c6c02cc
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: k103_d0d69b7f-15ad-4a72-ad99-6a5753348f6a.xml, wdm/READ_PORT_UCHAR, READ_PORT_UCHAR routine [Kernel-Mode Driver Architecture], READ_PORT_UCHAR, kernel.read_port_uchar
+ms.date: 2/24/2018
+ms.keywords: READ_PORT_UCHAR, READ_PORT_UCHAR routine [Kernel-Mode Driver Architecture], k103_d0d69b7f-15ad-4a72-ad99-6a5753348f6a.xml, kernel.read_port_uchar, wdm/READ_PORT_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Hal.lib
 -	Hal.dll
-apiname:
+api_name:
 -	READ_PORT_UCHAR
 product: Windows
 targetos: Windows

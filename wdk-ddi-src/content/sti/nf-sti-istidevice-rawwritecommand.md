@@ -4,11 +4,11 @@ title: IStiDevice::RawWriteCommand method
 author: windows-driver-content
 description: The IStiDevice::RawWriteCommand method sends command information to a still image device.
 old-location: image\istidevice_rawwritecommand.htm
-old-project: Image
+old-project: image
 ms.assetid: 6260fd33-96b3-43d7-a7eb-35322247076b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IStiDevice interface [Imaging Devices], RawWriteCommand method, stifnc_07c4667c-956f-4396-bc59-0bcbf21103a8.xml, image.istidevice_rawwritecommand, RawWriteCommand method [Imaging Devices], IStiDevice interface, RawWriteCommand method [Imaging Devices], IStiDevice::RawWriteCommand, IStiDevice, RawWriteCommand, sti/IStiDevice::RawWriteCommand
+ms.date: 2/23/2018
+ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], RawWriteCommand method, IStiDevice::RawWriteCommand, RawWriteCommand method [Imaging Devices], RawWriteCommand method [Imaging Devices], IStiDevice interface, RawWriteCommand,IStiDevice.RawWriteCommand, image.istidevice_rawwritecommand, sti/IStiDevice::RawWriteCommand, stifnc_07c4667c-956f-4396-bc59-0bcbf21103a8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	sti.h
-apiname:
+api_name:
 -	IStiDevice.RawWriteCommand
 product: Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE
+req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
 ---
 

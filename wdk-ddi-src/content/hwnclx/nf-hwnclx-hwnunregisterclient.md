@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: 94e5153a-3ce5-400c-b53a-5323b34a6c34
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: HwNUnregisterClient function, HwNUnregisterClient, hwnclx/HwNUnregisterClient, gpiobtn.hwnunregisterclient
+ms.keywords: HwNUnregisterClient, HwNUnregisterClient function, gpiobtn.hwnunregisterclient, hwnclx/HwNUnregisterClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Mshwnclxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Mshwnclxstub.lib
 -	Mshwnclxstub.dll
-apiname:
+api_name:
 -	HwNUnregisterClient
 product: Windows
 targetos: Windows
-req.typenames: "*PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX"
+req.typenames: HWN_CLX_EXPORT_INDEX, *PHWN_CLX_EXPORT_INDEX
 ---
 
 # HwNUnregisterClient function

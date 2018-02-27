@@ -7,8 +7,8 @@ old-location: print\drvconvertdevmode.htm
 old-project: print
 ms.assetid: eb0402a8-22ce-417f-9b19-25b357451307
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.drvconvertdevmode, DrvConvertDevMode function [Print Devices], print_interface-graphics_ceabaf66-f730-4243-85a7-ffcee065192b.xml, DrvConvertDevMode, winddiui/DrvConvertDevMode
+ms.date: 2/23/2018
+ms.keywords: DrvConvertDevMode, DrvConvertDevMode function [Print Devices], print.drvconvertdevmode, print_interface-graphics_ceabaf66-f730-4243-85a7-ffcee065192b.xml, winddiui/DrvConvertDevMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winddiui.h
-apiname:
+api_name:
 -	DrvConvertDevMode
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 

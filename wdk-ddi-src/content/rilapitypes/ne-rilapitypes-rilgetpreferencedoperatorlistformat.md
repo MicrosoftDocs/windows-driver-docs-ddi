@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1193174e-9247-4854-94d8-7404b2b15e5c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilgetpreferencedoperatorlistformat_2, RILGETPREFERENCEDOPERATORLISTFORMAT enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_OPFORMAT_NUM, RIL_OPFORMAT_MAX, rilapitypes/RIL_OPFORMAT_MAX, RILGETPREFERENCEDOPERATORLISTFORMAT, RIL_OPFORMAT_SHORT, RIL_OPFORMAT_NUM, rilapitypes/RILGETPREFERENCEDOPERATORLISTFORMAT, rilapitypes/RIL_OPFORMAT_SHORT
+ms.keywords: RILGETPREFERENCEDOPERATORLISTFORMAT, RILGETPREFERENCEDOPERATORLISTFORMAT enumeration [Network Drivers Starting with Windows Vista], RIL_OPFORMAT_MAX, RIL_OPFORMAT_NUM, RIL_OPFORMAT_SHORT, netvista.rilgetpreferencedoperatorlistformat_2, rilapitypes/RILGETPREFERENCEDOPERATORLISTFORMAT, rilapitypes/RIL_OPFORMAT_MAX, rilapitypes/RIL_OPFORMAT_NUM, rilapitypes/RIL_OPFORMAT_SHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILGETPREFERENCEDOPERATORLISTFORMAT
 product: Windows
 targetos: Windows

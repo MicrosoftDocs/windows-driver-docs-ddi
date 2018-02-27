@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 05771d81-d2e1-4787-a190-e7ef4d9ebcc9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfobject_releaselock, wudfddi/IWDFObject::ReleaseLock, ReleaseLock method, IWDFObject interface, ReleaseLock method, UMDFBaseObjectRef_bdc7490f-170b-42bb-91af-435ee5dc3e5a.xml, ReleaseLock, IWDFObject interface, ReleaseLock method, wdf.iwdfobject_releaselock, IWDFObject::ReleaseLock, IWDFObject
+ms.keywords: IWDFObject, IWDFObject interface, ReleaseLock method, IWDFObject::ReleaseLock, ReleaseLock method, ReleaseLock method, IWDFObject interface, ReleaseLock,IWDFObject.ReleaseLock, UMDFBaseObjectRef_bdc7490f-170b-42bb-91af-435ee5dc3e5a.xml, umdf.iwdfobject_releaselock, wdf.iwdfobject_releaselock, wudfddi/IWDFObject::ReleaseLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFObject.ReleaseLock
 product: Windows
 targetos: Windows
@@ -81,11 +81,11 @@ None
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560204">IWDFObject::AcquireLock</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560204">IWDFObject::AcquireLock</a>
 
 
 

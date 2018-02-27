@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D8633E80-C7A3-4050-8E8E-8AE459F905D5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wwan/PWWAN_CDMA_MRL_INFO, PWWAN_CDMA_MRL_INFO, _WWAN_CDMA_MRL_INFO, wwan/WWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO, PWWAN_CDMA_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_CDMA_MRL_INFO, netvista.wwan_cdma_mrl_info, WWAN_CDMA_MRL_INFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PWWAN_CDMA_MRL_INFO, PWWAN_CDMA_MRL_INFO, PWWAN_CDMA_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_CDMA_MRL_INFO, netvista.wwan_cdma_mrl_info, wwan/PWWAN_CDMA_MRL_INFO, wwan/WWAN_CDMA_MRL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_CDMA_MRL_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO"
+req.typenames: WWAN_CDMA_MRL_INFO, *PWWAN_CDMA_MRL_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -132,7 +132,7 @@ The Signal Strength of the pilot (0-63). Use 0xFFFFFFFF when this information is
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_cdma_mrl.md">WWAN_CDMA_MRL</a>
+<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
 
 
 
@@ -140,7 +140,7 @@ The Signal Strength of the pilot (0-63). Use 0xFFFFFFFF when this information is
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+<a href="..\wwan\ns-wwan-_wwan_cdma_mrl.md">WWAN_CDMA_MRL</a>
 
 
 

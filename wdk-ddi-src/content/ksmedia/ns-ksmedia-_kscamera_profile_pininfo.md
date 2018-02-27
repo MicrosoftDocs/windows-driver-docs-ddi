@@ -7,8 +7,8 @@ old-location: stream\kscamera_profile_pininfo.htm
 old-project: stream
 ms.assetid: 09B7D454-D28C-4E3F-9FF3-0DD595CDB90A
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KSCAMERA_PROFILE_PININFO structure [Streaming Media Devices], PKSCAMERA_PROFILE_PININFO structure pointer [Streaming Media Devices], PKSCAMERA_PROFILE_PININFO, *PKSCAMERA_PROFILE_PININFO, ksmedia/KSCAMERA_PROFILE_PININFO, KSCAMERA_PROFILE_PININFO, stream.kscamera_profile_pininfo, _KSCAMERA_PROFILE_PININFO, ksmedia/PKSCAMERA_PROFILE_PININFO
+ms.date: 2/23/2018
+ms.keywords: "*PKSCAMERA_PROFILE_PININFO, KSCAMERA_PROFILE_PININFO, KSCAMERA_PROFILE_PININFO structure [Streaming Media Devices], PKSCAMERA_PROFILE_PININFO, PKSCAMERA_PROFILE_PININFO structure pointer [Streaming Media Devices], _KSCAMERA_PROFILE_PININFO, ksmedia/KSCAMERA_PROFILE_PININFO, ksmedia/PKSCAMERA_PROFILE_PININFO, stream.kscamera_profile_pininfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ksmedia.h
-apiname:
+api_name:
 -	KSCAMERA_PROFILE_PININFO
 product: Windows
 targetos: Windows
-req.typenames: "*PKSCAMERA_PROFILE_PININFO, KSCAMERA_PROFILE_PININFO"
+req.typenames: KSCAMERA_PROFILE_PININFO, *PKSCAMERA_PROFILE_PININFO
 ---
 
 # _KSCAMERA_PROFILE_PININFO structure

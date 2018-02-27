@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 8DE03C05-48A4-4699-8513-F2B596EED37F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PIRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP structure pointer [Buses], IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP structure [Buses], IRB_REQ_ISOCH_ALLOCATE_RESOURCES, 1394/PIRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, 1394/IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, IEEE.irb_req_isoch_allocate_resources_wxp, PIRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
+ms.keywords: 1394/IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, 1394/PIRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, IEEE.irb_req_isoch_allocate_resources_wxp, IRB_REQ_ISOCH_ALLOCATE_RESOURCES, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP structure [Buses], PIRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, PIRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP structure pointer [Buses], _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	1394.h
-apiname:
+api_name:
 -	IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
 product: Windows
 targetos: Windows

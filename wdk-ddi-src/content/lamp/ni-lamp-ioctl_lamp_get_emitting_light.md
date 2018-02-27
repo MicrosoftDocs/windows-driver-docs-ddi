@@ -7,8 +7,8 @@ old-location: stream\ioctl_lamp_get_emitting_light.htm
 old-project: stream
 ms.assetid: 82BBD72D-9F65-442F-8B25-E80A2160C5A2
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ioctl_lamp_get_emitting_light, IOCTL_LAMP_GET_EMITTING_LIGHT control code [Streaming Media Devices], IOCTL_LAMP_GET_EMITTING_LIGHT, lamp/IOCTL_LAMP_GET_EMITTING_LIGHT
+ms.date: 2/23/2018
+ms.keywords: IOCTL_LAMP_GET_EMITTING_LIGHT, IOCTL_LAMP_GET_EMITTING_LIGHT control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_EMITTING_LIGHT, stream.ioctl_lamp_get_emitting_light
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	lamp.h
-apiname:
+api_name:
 -	IOCTL_LAMP_GET_EMITTING_LIGHT
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: LAMP_MODE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

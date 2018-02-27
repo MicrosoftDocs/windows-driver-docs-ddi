@@ -7,8 +7,8 @@ old-location: print\routercreateprintasyncnotificationchannel.htm
 old-project: print
 ms.assetid: 11f9a438-861f-42ef-b4f5-f64b0b9d658a
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: spoolfnc_24cb45ed-2f72-4a13-9a40-c1197c41aae7.xml, prnasntp/RouterCreatePrintAsyncNotificationChannel, RouterCreatePrintAsyncNotificationChannel, RouterCreatePrintAsyncNotificationChannel function [Print Devices], print.routercreateprintasyncnotificationchannel
+ms.date: 2/23/2018
+ms.keywords: RouterCreatePrintAsyncNotificationChannel, RouterCreatePrintAsyncNotificationChannel function [Print Devices], print.routercreateprintasyncnotificationchannel, prnasntp/RouterCreatePrintAsyncNotificationChannel, spoolfnc_24cb45ed-2f72-4a13-9a40-c1197c41aae7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Spoolss.dll
-apiname:
+api_name:
 -	RouterCreatePrintAsyncNotificationChannel
 product: Windows
 targetos: Windows

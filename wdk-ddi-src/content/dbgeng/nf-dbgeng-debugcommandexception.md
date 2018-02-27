@@ -4,11 +4,11 @@ title: DebugCommandException function
 author: windows-driver-content
 description: Specifies a debug command exception.
 old-location: debugger\debugcommandexception.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 6DC67840-B985-45D0-8E81-671C3DC1EBC2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.debugcommandexception, dbgeng/DebugCommandException, DebugCommandException, DebugCommandException function [Windows Debugging]
+ms.date: 2/23/2018
+ms.keywords: DebugCommandException, DebugCommandException function [Windows Debugging], dbgeng/DebugCommandException, debugger.debugcommandexception
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	DebugCommandException
 product: Windows
 targetos: Windows

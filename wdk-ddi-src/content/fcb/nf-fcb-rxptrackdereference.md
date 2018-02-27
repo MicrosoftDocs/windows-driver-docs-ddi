@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: eaff92d2-d866-4096-8528-0672255ced60
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rxptrackdereference, fcb/RxpTrackDereference, RxpTrackDereference function [Installable File System Drivers], RxpTrackDereference, rxref_60f3cce5-bd6b-47b9-a6cc-85b5ee027934.xml
+ms.keywords: RxpTrackDereference, RxpTrackDereference function [Installable File System Drivers], fcb/RxpTrackDereference, ifsk.rxptrackdereference, rxref_60f3cce5-bd6b-47b9-a6cc-85b5ee027934.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	fcb.h
-apiname:
+api_name:
 -	RxpTrackDereference
 product: Windows
 targetos: Windows
-req.typenames: "*PFA_ENTRY, FA_ENTRY"
+req.typenames: FA_ENTRY, *PFA_ENTRY
 ---
 
 # RxpTrackDereference function
@@ -161,19 +161,7 @@ A number of macros are defined in <i>fcb.h</i> for debugging that are the prefer
 
 ## -see-also
 
-<a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553384">RxAssert</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
-
-
-
-<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
 
 
 
@@ -181,7 +169,19 @@ A number of macros are defined in <i>fcb.h</i> for debugging that are the prefer
 
 
 
+<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554385">RxDbgBreakPoint</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
 
 

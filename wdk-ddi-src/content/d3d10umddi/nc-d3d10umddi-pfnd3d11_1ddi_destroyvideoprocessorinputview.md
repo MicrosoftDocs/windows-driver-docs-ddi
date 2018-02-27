@@ -7,8 +7,8 @@ old-location: display\destroyvideoprocessorinputview.htm
 old-project: display
 ms.assetid: 3a815201-091b-4c85-a62a-2cdbbaf0bf95
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.destroyvideoprocessorinputview, pfnDestroyVideoProcessorInputView callback function [Display Devices], pfnDestroyVideoProcessorInputView, PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW, PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW, d3d10umddi/pfnDestroyVideoProcessorInputView
+ms.date: 2/24/2018
+ms.keywords: PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW, d3d10umddi/pfnDestroyVideoProcessorInputView, display.destroyvideoprocessorinputview, pfnDestroyVideoProcessorInputView, pfnDestroyVideoProcessorInputView callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	D3d10umddi.h
-apiname:
+api_name:
 -	pfnDestroyVideoProcessorInputView
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW callback

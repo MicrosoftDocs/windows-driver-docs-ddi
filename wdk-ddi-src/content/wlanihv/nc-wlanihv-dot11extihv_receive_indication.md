@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b4d5c33e-563d-459c-90da-a2912c82d1cd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvreceiveindication, Dot11ExtIhvReceiveIndication callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvReceiveIndication, DOT11EXTIHV_RECEIVE_INDICATION, DOT11EXTIHV_RECEIVE_INDICATION, wlanihv/Dot11ExtIhvReceiveIndication, Native_802.11_IHV_Ext_f3bf018e-2849-4abc-af5b-4edb3438339f.xml
+ms.keywords: DOT11EXTIHV_RECEIVE_INDICATION, Dot11ExtIhvReceiveIndication, Dot11ExtIhvReceiveIndication callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_f3bf018e-2849-4abc-af5b-4edb3438339f.xml, netvista.dot11extihvreceiveindication, wlanihv/Dot11ExtIhvReceiveIndication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	Dot11ExtIhvReceiveIndication
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -138,7 +138,7 @@ When the Native 802.11 miniport driver, which manages the WLAN adapter, makes an
 
 
 
-<a href="..\wlanihv\ne-wlanihv-_dot11ext_ihv_indication_type.md">DOT11EXT_IHV_INDICATION_TYPE</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 

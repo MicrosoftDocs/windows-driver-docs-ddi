@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0820f6f2-bec2-4d38-9a95-cfff6151ef02
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_TOKEN_SOURCE, PTOKEN_SOURCE structure pointer [Installable File System Drivers], PTOKEN_SOURCE, ntifs/PTOKEN_SOURCE, *PTOKEN_SOURCE, ifsk.token_source, TOKEN_SOURCE, TOKEN_SOURCE structure [Installable File System Drivers], securitystructures_caf23dc4-0bfe-40e1-9b94-b58bb0eb893e.xml, ntifs/TOKEN_SOURCE"
+ms.keywords: "*PTOKEN_SOURCE, PTOKEN_SOURCE, PTOKEN_SOURCE structure pointer [Installable File System Drivers], TOKEN_SOURCE, TOKEN_SOURCE structure [Installable File System Drivers], _TOKEN_SOURCE, ifsk.token_source, ntifs/PTOKEN_SOURCE, ntifs/TOKEN_SOURCE, securitystructures_caf23dc4-0bfe-40e1-9b94-b58bb0eb893e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntifs.h
-apiname:
+api_name:
 -	TOKEN_SOURCE
 product: Windows
 targetos: Windows
@@ -84,6 +84,10 @@ Specifies a locally unique identifier (LUID) provided by the source component na
 
 
 
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
 
 
@@ -93,10 +97,6 @@ Specifies a locally unique identifier (LUID) provided by the source component na
 
 
 <a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
-
-
-
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
 
 
 

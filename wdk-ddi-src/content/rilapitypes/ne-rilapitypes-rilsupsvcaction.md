@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 776db7b4-aa53-489d-9358-387e29e4e3e1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilsupsvcaction_2, RIL_SUPSVCACTION_INTERROGATE, RIL_SUPSVCACTION_MAX, rilapitypes/RIL_SUPSVCACTION_USSD, RILSUPSVCACTION, RIL_SUPSVCACTION_DEACTIVATE, rilapitypes/RIL_SUPSVCACTION_REGISTER, RIL_SUPSVCACTION_ERASE, rilapitypes/RIL_SUPSVCACTION_DEACTIVATE, rilapitypes/RIL_SUPSVCACTION_INTERROGATE, RIL_SUPSVCACTION_USSD, rilapitypes/RIL_SUPSVCACTION_MAX, rilapitypes/RILSUPSVCACTION, rilapitypes/RIL_SUPSVCACTION_REGISTER_PW, RILSUPSVCACTION enumeration [Network Drivers Starting with Windows Vista], RIL_SUPSVCACTION_REGISTER, rilapitypes/RIL_SUPSVCACTION_ERASE, RIL_SUPSVCACTION_REGISTER_PW
+ms.keywords: RILSUPSVCACTION, RILSUPSVCACTION enumeration [Network Drivers Starting with Windows Vista], RIL_SUPSVCACTION_DEACTIVATE, RIL_SUPSVCACTION_ERASE, RIL_SUPSVCACTION_INTERROGATE, RIL_SUPSVCACTION_MAX, RIL_SUPSVCACTION_REGISTER, RIL_SUPSVCACTION_REGISTER_PW, RIL_SUPSVCACTION_USSD, netvista.rilsupsvcaction_2, rilapitypes/RILSUPSVCACTION, rilapitypes/RIL_SUPSVCACTION_DEACTIVATE, rilapitypes/RIL_SUPSVCACTION_ERASE, rilapitypes/RIL_SUPSVCACTION_INTERROGATE, rilapitypes/RIL_SUPSVCACTION_MAX, rilapitypes/RIL_SUPSVCACTION_REGISTER, rilapitypes/RIL_SUPSVCACTION_REGISTER_PW, rilapitypes/RIL_SUPSVCACTION_USSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILSUPSVCACTION
 product: Windows
 targetos: Windows

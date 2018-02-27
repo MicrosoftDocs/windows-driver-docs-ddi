@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0A50C1FB-D0C6-47C4-AD71-AD0B7486AA2E
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfdevice/PWDF_REMOVE_LOCK_OPTIONS, WDF_REMOVE_LOCK_OPTIONS, _WDF_REMOVE_LOCK_OPTIONS, PWDF_REMOVE_LOCK_OPTIONS, wdfdevice/WDF_REMOVE_LOCK_OPTIONS, *PWDF_REMOVE_LOCK_OPTIONS, wdf.wdf_remove_lock_options, WDF_REMOVE_LOCK_OPTIONS structure, PWDF_REMOVE_LOCK_OPTIONS structure pointer, kmdf.wdf_remove_lock_options
+ms.keywords: "*PWDF_REMOVE_LOCK_OPTIONS, PWDF_REMOVE_LOCK_OPTIONS, PWDF_REMOVE_LOCK_OPTIONS structure pointer, WDF_REMOVE_LOCK_OPTIONS, WDF_REMOVE_LOCK_OPTIONS structure, _WDF_REMOVE_LOCK_OPTIONS, kmdf.wdf_remove_lock_options, wdf.wdf_remove_lock_options, wdfdevice/PWDF_REMOVE_LOCK_OPTIONS, wdfdevice/WDF_REMOVE_LOCK_OPTIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfdevice.h
-apiname:
+api_name:
 -	WDF_REMOVE_LOCK_OPTIONS
 product: Windows
 targetos: Windows
@@ -84,7 +84,7 @@ The bitwise <b>OR</b> of values from the <a href="..\wdfdevice\ne-wdfdevice-_wdf
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdf_remove_lock_options_init.md">WDF_REMOVE_LOCK_OPTIONS_INIT</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetremovelockoptions.md">WdfDeviceInitSetRemoveLockOptions</a>
 
 
 

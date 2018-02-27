@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8ddcb9cb-d184-4ec8-a321-599394a8512e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtfileclose, EvtFileClose callback function, EvtFileClose, EVT_WDF_FILE_CLOSE, EVT_WDF_FILE_CLOSE, wdfdevice/EvtFileClose, DFDeviceObjectGeneralRef_490bda33-9f36-43ab-9108-8622a3ea79b0.xml, kmdf.evtfileclose
+ms.keywords: DFDeviceObjectGeneralRef_490bda33-9f36-43ab-9108-8622a3ea79b0.xml, EVT_WDF_FILE_CLOSE, EvtFileClose, EvtFileClose callback function, kmdf.evtfileclose, wdf.evtfileclose, wdfdevice/EvtFileClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Wdfdevice.h
-apiname:
+api_name:
 -	EvtFileClose
 product: Windows
 targetos: Windows

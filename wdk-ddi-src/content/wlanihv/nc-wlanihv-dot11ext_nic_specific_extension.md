@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e588db31-d6d7-4b79-80f5-128c6d618ab6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extnicspecificextension, Dot11ExtNicSpecificExtension callback function [Network Drivers Starting with Windows Vista], Dot11ExtNicSpecificExtension, DOT11EXT_NIC_SPECIFIC_EXTENSION, DOT11EXT_NIC_SPECIFIC_EXTENSION, wlanihv/Dot11ExtNicSpecificExtension, Native_802.11_IHV_Ext_cab7d3ba-3192-4fb5-8827-f0c4b77bcb20.xml
+ms.keywords: DOT11EXT_NIC_SPECIFIC_EXTENSION, Dot11ExtNicSpecificExtension, Dot11ExtNicSpecificExtension callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_cab7d3ba-3192-4fb5-8827-f0c4b77bcb20.xml, netvista.dot11extnicspecificextension, wlanihv/Dot11ExtNicSpecificExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	Dot11ExtNicSpecificExtension
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -143,12 +143,12 @@ The
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-nic-specific-extension">
    OID_DOT11_NIC_SPECIFIC_EXTENSION</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 

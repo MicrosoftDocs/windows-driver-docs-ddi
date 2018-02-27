@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3c8f5c4a-a1a3-41a9-ae55-f83048aab0ec
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfusbtargetpipe_setpipepolicy, UMDFUSBref_ab486cfe-19aa-440c-a017-e956aa4d2bb1.xml, IWDFUsbTargetPipe::SetPipePolicy, wdf.iwdfusbtargetpipe_setpipepolicy, SetPipePolicy, SetPipePolicy method, IWDFUsbTargetPipe interface, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, SetPipePolicy method, wudfusb/IWDFUsbTargetPipe::SetPipePolicy, SetPipePolicy method
+ms.keywords: IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, SetPipePolicy method, IWDFUsbTargetPipe::SetPipePolicy, SetPipePolicy method, SetPipePolicy method, IWDFUsbTargetPipe interface, SetPipePolicy,IWDFUsbTargetPipe.SetPipePolicy, UMDFUSBref_ab486cfe-19aa-440c-a017-e956aa4d2bb1.xml, umdf.iwdfusbtargetpipe_setpipepolicy, wdf.iwdfusbtargetpipe_setpipepolicy, wudfusb/IWDFUsbTargetPipe::SetPipePolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFUsbTargetPipe.SetPipePolicy
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

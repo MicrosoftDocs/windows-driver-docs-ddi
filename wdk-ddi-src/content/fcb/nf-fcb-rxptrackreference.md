@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: af697ccd-a748-45f8-97bb-fe595d81b693
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RxpTrackReference function [Installable File System Drivers], rxref_12b9266b-6cd9-4011-b764-b62376e0a5fb.xml, RxpTrackReference, fcb/RxpTrackReference, ifsk.rxptrackreference
+ms.keywords: RxpTrackReference, RxpTrackReference function [Installable File System Drivers], fcb/RxpTrackReference, ifsk.rxptrackreference, rxref_12b9266b-6cd9-4011-b764-b62376e0a5fb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	fcb.h
-apiname:
+api_name:
 -	RxpTrackReference
 product: Windows
 targetos: Windows
-req.typenames: "*PFA_ENTRY, FA_ENTRY"
+req.typenames: FA_ENTRY, *PFA_ENTRY
 ---
 
 # RxpTrackReference function
@@ -167,11 +167,11 @@ For retail builds, this function does nothing.
 
 
 
+<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553384">RxAssert</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
 
 
@@ -179,11 +179,11 @@ For retail builds, this function does nothing.
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554385">RxDbgBreakPoint</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
 
 

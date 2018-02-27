@@ -7,8 +7,8 @@ old-location: dtf\ttracelevel.htm
 old-project: dtf
 ms.assetid: d1bc1775-cb0f-468e-938b-b3ed95e80b5b
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ITracing_6a4e6447-651b-4e2e-9f45-e1bd14e84682.xml, dtf.ttracelevel, wdtf/Trace2_Medium, Trace3_High, TTraceLevel enumeration [Windows Device Testing Framework], Trace0_Off, wdtf/Trace0_Off, Trace7_Custom, wdtf/Trace_Default, wdtf/TTraceLevel, Trace4_All, wdtf/Trace1_Low, __MIDL___MIDL_itf_wdtf_0000_0001_0001, wdtf/Trace5_Custom, Trace8_Custom, wdtf/Trace4_All, wdtf/Trace8_Custom, wdtf/Trace3_High, Trace_Default, wdtf/Trace6_Custom, Trace6_Custom, wdtf/Trace7_Custom, TTraceLevel, Trace1_Low, Trace5_Custom, Trace2_Medium
+ms.date: 2/23/2018
+ms.keywords: ITracing_6a4e6447-651b-4e2e-9f45-e1bd14e84682.xml, TTraceLevel, TTraceLevel enumeration [Windows Device Testing Framework], Trace0_Off, Trace1_Low, Trace2_Medium, Trace3_High, Trace4_All, Trace5_Custom, Trace6_Custom, Trace7_Custom, Trace8_Custom, Trace_Default, __MIDL___MIDL_itf_wdtf_0000_0001_0001, dtf.ttracelevel, wdtf/TTraceLevel, wdtf/Trace0_Off, wdtf/Trace1_Low, wdtf/Trace2_Medium, wdtf/Trace3_High, wdtf/Trace4_All, wdtf/Trace5_Custom, wdtf/Trace6_Custom, wdtf/Trace7_Custom, wdtf/Trace8_Custom, wdtf/Trace_Default
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdtf.h
-apiname:
+api_name:
 -	TTraceLevel
 product: Windows
 targetos: Windows
@@ -154,5 +154,5 @@ Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539522">I
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20TTraceLevel enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20TTraceLevel enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

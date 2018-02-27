@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: C72CA6D0-DD85-46AC-9CE3-BE11233475C0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercxfileclose, EvtSerCxFileClose callback function [Serial Ports], EvtSerCxFileClose, EVT_SERCX_FILECLOSE, EVT_SERCX_FILECLOSE, 1/EvtSerCxFileClose
+ms.keywords: 1/EvtSerCxFileClose, EVT_SERCX_FILECLOSE, EvtSerCxFileClose, EvtSerCxFileClose callback function [Serial Ports], serports.evtsercxfileclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	1.0\Sercx.h
-apiname:
+api_name:
 -	EvtSerCxFileClose
 product: Windows
 targetos: Windows

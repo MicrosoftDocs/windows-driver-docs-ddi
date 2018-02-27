@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 0a9f3720-8ae4-4219-a8b3-f1b88126f176
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bthddi/_BRB_L2CA_CLOSE_CHANNEL, bth_structs_97d7dc1f-eb95-4cf3-8d21-a814622a0b81.xml, _BRB_L2CA_CLOSE_CHANNEL structure [Bluetooth Devices], _BRB_L2CA_CLOSE_CHANNEL, bltooth._brb_l2ca_close_channel
+ms.keywords: "_BRB_L2CA_CLOSE_CHANNEL, _BRB_L2CA_CLOSE_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_close_channel, bth_structs_97d7dc1f-eb95-4cf3-8d21-a814622a0b81.xml, bthddi/_BRB_L2CA_CLOSE_CHANNEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	bthddi.h
-apiname:
+api_name:
 -	_BRB_L2CA_CLOSE_CHANNEL
 product: Windows
 targetos: Windows
@@ -110,16 +110,16 @@ A <b>BRB_L2CA_CLOSE_CHANNEL</b> request can be made for a channel that was initi
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+   BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536614">BRB_L2CA_CLOSE_CHANNEL</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
-   BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
 
 
 

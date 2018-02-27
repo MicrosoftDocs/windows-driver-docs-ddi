@@ -7,8 +7,8 @@ old-location: display\d3d11_1ddi_video_processor_rotation.htm
 old-project: display
 ms.assetid: 4fe01ddd-723f-4b3c-884a-a18d4f8512e5
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_IDENTITY, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_90, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_270, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION, display.d3d11_1ddi_video_processor_rotation, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_90, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_180, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_180, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_IDENTITY, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION enumeration [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_270
+ms.date: 2/24/2018
+ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_ROTATION, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_180, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_270, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_90, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_IDENTITY, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_180, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_270, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_90, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_IDENTITY, display.d3d11_1ddi_video_processor_rotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3d10umddi.h
-apiname:
+api_name:
 -	D3D11_1DDI_VIDEO_PROCESSOR_ROTATION
 product: Windows
 targetos: Windows

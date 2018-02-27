@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 76909efd-99ca-4e47-9c81-8a48608c2543
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi/IWDFIoRequest2::GetEffectiveIoType, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml, umdf.iwdfiorequest2_geteffectiveiotype, IWDFIoRequest2, IWDFIoRequest2 interface, GetEffectiveIoType method, GetEffectiveIoType method, GetEffectiveIoType method, IWDFIoRequest2 interface, IWDFIoRequest2::GetEffectiveIoType, GetEffectiveIoType, wdf.iwdfiorequest2_geteffectiveiotype
+ms.keywords: GetEffectiveIoType method, GetEffectiveIoType method, IWDFIoRequest2 interface, GetEffectiveIoType,IWDFIoRequest2.GetEffectiveIoType, IWDFIoRequest2, IWDFIoRequest2 interface, GetEffectiveIoType method, IWDFIoRequest2::GetEffectiveIoType, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml, umdf.iwdfiorequest2_geteffectiveiotype, wdf.iwdfiorequest2_geteffectiveiotype, wudfddi/IWDFIoRequest2::GetEffectiveIoType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFIoRequest2.GetEffectiveIoType
 product: Windows
 targetos: Windows

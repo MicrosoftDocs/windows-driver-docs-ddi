@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9879db5b-25c1-451c-bb50-37e85cf1f5e5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILSUPSERVICEDATASTATUS, rilapitypes/RIL_SUPSVCDATASTATUS_TIMEOUT, RILSUPSERVICEDATASTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_SUPSVCDATASTATUS_ERROR, rilapitypes/RILSUPSERVICEDATASTATUS, netvista.rilsupservicedatastatus_2, rilapitypes/RIL_SUPSVCDATASTATUS_ERROR, RIL_SUPSVCDATASTATUS_MAX, rilapitypes/RIL_SUPSVCDATASTATUS_FURTHERINFOREQUIRED, rilapitypes/RIL_SUPSVCDATASTATUS_MAX, RIL_SUPSVCDATASTATUS_FURTHERINFOREQUIRED, RIL_SUPSVCDATASTATUS_TIMEOUT
+ms.keywords: RILSUPSERVICEDATASTATUS, RILSUPSERVICEDATASTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_SUPSVCDATASTATUS_ERROR, RIL_SUPSVCDATASTATUS_FURTHERINFOREQUIRED, RIL_SUPSVCDATASTATUS_MAX, RIL_SUPSVCDATASTATUS_TIMEOUT, netvista.rilsupservicedatastatus_2, rilapitypes/RILSUPSERVICEDATASTATUS, rilapitypes/RIL_SUPSVCDATASTATUS_ERROR, rilapitypes/RIL_SUPSVCDATASTATUS_FURTHERINFOREQUIRED, rilapitypes/RIL_SUPSVCDATASTATUS_MAX, rilapitypes/RIL_SUPSVCDATASTATUS_TIMEOUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILSUPSERVICEDATASTATUS
 product: Windows
 targetos: Windows

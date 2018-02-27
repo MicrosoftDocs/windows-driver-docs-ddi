@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 73275e2e-b738-4adc-b89e-2cd152de6c75
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: windot11/dot11_temp_type_unknown, PDOT11_TEMP_TYPE, dot11_temp_type_unknown, DOT11_TEMP_TYPE, windot11/dot11_temp_type_1, dot11_temp_type_2, windot11/dot11_temp_type_2, Native_802.11_data_types_5b580f41-75a6-4d16-9ea5-cc3dc3622a84.xml, _DOT11_TEMP_TYPE, *PDOT11_TEMP_TYPE, dot11_temp_type_1, windot11/PDOT11_TEMP_TYPE, windot11/DOT11_TEMP_TYPE, DOT11_TEMP_TYPE enumeration [Network Drivers Starting with Windows Vista], PDOT11_TEMP_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], netvista.dot11_temp_type
+ms.keywords: "*PDOT11_TEMP_TYPE, DOT11_TEMP_TYPE, DOT11_TEMP_TYPE enumeration [Network Drivers Starting with Windows Vista], Native_802.11_data_types_5b580f41-75a6-4d16-9ea5-cc3dc3622a84.xml, PDOT11_TEMP_TYPE, PDOT11_TEMP_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_TEMP_TYPE, dot11_temp_type_1, dot11_temp_type_2, dot11_temp_type_unknown, netvista.dot11_temp_type, windot11/DOT11_TEMP_TYPE, windot11/PDOT11_TEMP_TYPE, windot11/dot11_temp_type_1, windot11/dot11_temp_type_2, windot11/dot11_temp_type_unknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	windot11.h
-apiname:
+api_name:
 -	DOT11_TEMP_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_TEMP_TYPE, DOT11_TEMP_TYPE"
+req.typenames: DOT11_TEMP_TYPE, *PDOT11_TEMP_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -98,11 +98,11 @@ There are different operating temperature requirements dependent on the anticipa
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569431">OID_DOT11_TEMP_TYPE</a>
-
-
-
 <a href="..\windot11\ns-windot11-dot11_phy_attributes.md">DOT11_PHY_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569431">OID_DOT11_TEMP_TYPE</a>
 
 
 

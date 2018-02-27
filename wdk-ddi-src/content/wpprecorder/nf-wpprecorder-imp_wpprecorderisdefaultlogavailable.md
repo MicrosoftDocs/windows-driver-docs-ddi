@@ -7,8 +7,8 @@ old-location: devtest\wpprecorderisdefaultlogavailable.htm
 old-project: devtest
 ms.assetid: 5685540F-B4C4-4ED9-B783-85A898EC5A62
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: imp_WppRecorderIsDefaultLogAvailable, devtest.wpprecorderisdefaultlogavailable, wpprecorder/imp_WppRecorderIsDefaultLogAvailable, imp_WppRecorderIsDefaultLogAvailable function [Driver Development Tools], WppRecorderIsDefaultLogAvailable
+ms.date: 2/23/2018
+ms.keywords: WppRecorderIsDefaultLogAvailable, devtest.wpprecorderisdefaultlogavailable, imp_WppRecorderIsDefaultLogAvailable, imp_WppRecorderIsDefaultLogAvailable function [Driver Development Tools], wpprecorder/imp_WppRecorderIsDefaultLogAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wpprecorder.h
-apiname:
+api_name:
 -	imp_WppRecorderIsDefaultLogAvailable
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 

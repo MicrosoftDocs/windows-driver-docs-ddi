@@ -7,8 +7,8 @@ old-location: pos\ioctl_point_of_service_reset_statistics.htm
 old-project: pos
 ms.assetid: dfa6a460-ea80-4aa4-9948-2fd290f6616b
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: pos.ioctl_point_of_service_reset_statistics, IOCTL_POINT_OF_SERVICE_RESET_STATISTICS control code, IOCTL_POINT_OF_SERVICE_RESET_STATISTICS, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RESET_STATISTICS
+ms.date: 2/23/2018
+ms.keywords: IOCTL_POINT_OF_SERVICE_RESET_STATISTICS, IOCTL_POINT_OF_SERVICE_RESET_STATISTICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RESET_STATISTICS, pos.ioctl_point_of_service_reset_statistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pointofservicedriverinterface.h
-apiname:
+api_name:
 -	IOCTL_POINT_OF_SERVICE_RESET_STATISTICS
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: PosPropertyId
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

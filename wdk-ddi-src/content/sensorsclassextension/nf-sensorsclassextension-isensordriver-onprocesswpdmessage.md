@@ -7,8 +7,8 @@ old-location: sensors\isensordriver_onprocesswpdmessage.htm
 old-project: sensors
 ms.assetid: 4780d0ea-a54a-4125-b3b6-2210a14eff71
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: sensors.isensordriver_onprocesswpdmessage, ISensorDriver::OnProcessWpdMessage, OnProcessWpdMessage, OnProcessWpdMessage method [Sensor Devices], ISensorDriver
+ms.date: 2/22/2018
+ms.keywords: ISensorDriver, ISensorDriver::OnProcessWpdMessage, OnProcessWpdMessage method [Sensor Devices], OnProcessWpdMessage,ISensorDriver.OnProcessWpdMessage, sensors.isensordriver_onprocesswpdmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname:
+api_name:
 -	OnProcessWpdMessage
 product: Windows
 targetos: Windows

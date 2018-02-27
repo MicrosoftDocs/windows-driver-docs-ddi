@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 376b0cc3-8189-499e-ad7f-5844f8cb4221
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ConfigureRequestDispatching method, umdf.iwdfioqueue_configurerequestdispatching, IWDFIoQueue, ConfigureRequestDispatching method, IWDFIoQueue interface, ConfigureRequestDispatching, wudfddi/IWDFIoQueue::ConfigureRequestDispatching, wdf.iwdfioqueue_configurerequestdispatching, IWDFIoQueue::ConfigureRequestDispatching, UMDFQueueObjectRef_8aab2e0a-7864-4a37-abba-2807327dd4dc.xml, IWDFIoQueue interface, ConfigureRequestDispatching method
+ms.keywords: ConfigureRequestDispatching method, ConfigureRequestDispatching method, IWDFIoQueue interface, ConfigureRequestDispatching,IWDFIoQueue.ConfigureRequestDispatching, IWDFIoQueue, IWDFIoQueue interface, ConfigureRequestDispatching method, IWDFIoQueue::ConfigureRequestDispatching, UMDFQueueObjectRef_8aab2e0a-7864-4a37-abba-2807327dd4dc.xml, umdf.iwdfioqueue_configurerequestdispatching, wdf.iwdfioqueue_configurerequestdispatching, wudfddi/IWDFIoQueue::ConfigureRequestDispatching
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFIoQueue.ConfigureRequestDispatching
 product: Windows
 targetos: Windows
@@ -123,11 +123,11 @@ The following code example shows how to configure forwarding for IOCTL requests.
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
 
 

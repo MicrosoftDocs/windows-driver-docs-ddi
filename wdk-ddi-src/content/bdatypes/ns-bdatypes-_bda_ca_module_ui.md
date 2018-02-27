@@ -7,8 +7,8 @@ old-location: stream\bda_ca_module_ui.htm
 old-project: stream
 ms.assetid: 2f2c8cb5-0e84-467f-9671-735575835c3a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: BDA_CA_MODULE_UI, _BDA_CA_MODULE_UI, bdatypes/PBDA_CA_MODULE_UI, bdaref_470f210b-d1cb-4615-a7c5-a4d8e21833d1.xml, *PBDA_CA_MODULE_UI, stream.bda_ca_module_ui, bdatypes/BDA_CA_MODULE_UI, PBDA_CA_MODULE_UI, BDA_CA_MODULE_UI structure [Streaming Media Devices], PBDA_CA_MODULE_UI structure pointer [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PBDA_CA_MODULE_UI, BDA_CA_MODULE_UI, BDA_CA_MODULE_UI structure [Streaming Media Devices], PBDA_CA_MODULE_UI, PBDA_CA_MODULE_UI structure pointer [Streaming Media Devices], _BDA_CA_MODULE_UI, bdaref_470f210b-d1cb-4615-a7c5-a4d8e21833d1.xml, bdatypes/BDA_CA_MODULE_UI, bdatypes/PBDA_CA_MODULE_UI, stream.bda_ca_module_ui"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	bdatypes.h
-apiname:
+api_name:
 -	BDA_CA_MODULE_UI
 product: Windows
 targetos: Windows
@@ -86,17 +86,17 @@ Array of descriptors for the UI.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566536">KSPROPSETID_BdaCA</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564294">KSPROPERTY_BDA_CA_MODULE_UI</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566536">KSPROPSETID_BdaCA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BDA_CA_MODULE_UI structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BDA_CA_MODULE_UI structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

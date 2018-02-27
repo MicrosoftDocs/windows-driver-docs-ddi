@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1399922d-684c-44a4-8bc7-b9e45ba05086
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFMemory interface, SetBuffer method, UMDFMemoryObjectRef_34339a6a-7426-46fc-8df9-7f5281b03308.xml, SetBuffer method, IWDFMemory interface, wdf.iwdfmemory_setbuffer, SetBuffer method, SetBuffer, wudfddi/IWDFMemory::SetBuffer, IWDFMemory::SetBuffer, umdf.iwdfmemory_setbuffer, IWDFMemory
+ms.keywords: IWDFMemory, IWDFMemory interface, SetBuffer method, IWDFMemory::SetBuffer, SetBuffer method, SetBuffer method, IWDFMemory interface, SetBuffer,IWDFMemory.SetBuffer, UMDFMemoryObjectRef_34339a6a-7426-46fc-8df9-7f5281b03308.xml, umdf.iwdfmemory_setbuffer, wdf.iwdfmemory_setbuffer, wudfddi/IWDFMemory::SetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFMemory.SetBuffer
 product: Windows
 targetos: Windows

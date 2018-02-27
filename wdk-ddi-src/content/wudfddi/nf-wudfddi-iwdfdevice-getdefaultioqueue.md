@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9e998e54-b4c9-41ed-bba8-6f11c013f681
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetDefaultIoQueue, IWDFDevice::GetDefaultIoQueue, UMDFDeviceObjectRef_b4c10b3b-eba4-4e6c-8f9e-80c32705f43d.xml, IWDFDevice interface, GetDefaultIoQueue method, GetDefaultIoQueue method, GetDefaultIoQueue method, IWDFDevice interface, wdf.iwdfdevice_getdefaultioqueue, umdf.iwdfdevice_getdefaultioqueue, wudfddi/IWDFDevice::GetDefaultIoQueue, IWDFDevice
+ms.keywords: GetDefaultIoQueue method, GetDefaultIoQueue method, IWDFDevice interface, GetDefaultIoQueue,IWDFDevice.GetDefaultIoQueue, IWDFDevice, IWDFDevice interface, GetDefaultIoQueue method, IWDFDevice::GetDefaultIoQueue, UMDFDeviceObjectRef_b4c10b3b-eba4-4e6c-8f9e-80c32705f43d.xml, umdf.iwdfdevice_getdefaultioqueue, wdf.iwdfdevice_getdefaultioqueue, wudfddi/IWDFDevice::GetDefaultIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFDevice.GetDefaultIoQueue
 product: Windows
 targetos: Windows

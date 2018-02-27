@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 145e460e-6988-4e61-bb33-6f1b1df54629
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: sffdisk/SFFDISK_DC_LOCK_CHANNEL, sffdisk/SFFDISK_DC_DEVICE_COMMAND, SFFDISK_DC_GET_VERSION, SFFDISK_DC_UNLOCK_CHANNEL, SFFDISK_DCMD, SFFDISK_DC_LOCK_CHANNEL, SFFDISK_DC_DEVICE_COMMAND, sffdisk/SFFDISK_DC_GET_VERSION, sd-structs_440acb4f-89ba-4ea0-9f8b-c7fd241dfe85.xml, SD.sffdisk_dcmd, sffdisk/SFFDISK_DCMD, SFFDISK_DCMD enumeration [Buses], sffdisk/SFFDISK_DC_UNLOCK_CHANNEL
+ms.keywords: SD.sffdisk_dcmd, SFFDISK_DCMD, SFFDISK_DCMD enumeration [Buses], SFFDISK_DC_DEVICE_COMMAND, SFFDISK_DC_GET_VERSION, SFFDISK_DC_LOCK_CHANNEL, SFFDISK_DC_UNLOCK_CHANNEL, sd-structs_440acb4f-89ba-4ea0-9f8b-c7fd241dfe85.xml, sffdisk/SFFDISK_DCMD, sffdisk/SFFDISK_DC_DEVICE_COMMAND, sffdisk/SFFDISK_DC_GET_VERSION, sffdisk/SFFDISK_DC_LOCK_CHANNEL, sffdisk/SFFDISK_DC_UNLOCK_CHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any IRQL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	sffdisk.h
-apiname:
+api_name:
 -	SFFDISK_DCMD
 product: Windows
 targetos: Windows

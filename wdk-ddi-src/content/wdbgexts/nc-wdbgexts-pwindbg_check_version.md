@@ -4,11 +4,11 @@ title: PWINDBG_CHECK_VERSION
 author: windows-driver-content
 description: The PWINDBG_CHECK_VERSION (CheckVersion) callback function verifies that the extension module version matches the debugger version, and outputs an warning message if there is a mismatch.
 old-location: debugger\checkversion.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 82e16423-7e23-4229-9ba6-b43970a1135a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.checkversion, CheckVersion, CheckVersion callback function [Windows Debugging], CheckVersion, PWINDBG_CHECK_VERSION, PWINDBG_CHECK_VERSION, wdbgexts/CheckVersion, WdbgExts_Callbacks_9f917023-190d-4047-a272-7e46de9b5afb.xml
+ms.date: 2/23/2018
+ms.keywords: CheckVersion, CheckVersion callback function [Windows Debugging], PWINDBG_CHECK_VERSION, WdbgExts_Callbacks_9f917023-190d-4047-a272-7e46de9b5afb.xml, debugger.checkversion, wdbgexts/CheckVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wdbgexts.h
-apiname:
+api_name:
 -	CheckVersion
 product: Windows
 targetos: Windows

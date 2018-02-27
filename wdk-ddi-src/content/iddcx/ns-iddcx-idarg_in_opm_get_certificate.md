@@ -7,8 +7,8 @@ old-location: display\idarg_in_opm_get_certificate.htm
 old-project: display
 ms.assetid: 0f6ce53f-f755-44f7-b579-ce3526e44c41
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.idarg_in_opm_get_certificate, IDARG_IN_OPM_GET_CERTIFICATE structure [Display Devices], IDARG_IN_OPM_GET_CERTIFICATE, iddcx/IDARG_IN_OPM_GET_CERTIFICATE
+ms.date: 2/24/2018
+ms.keywords: IDARG_IN_OPM_GET_CERTIFICATE, IDARG_IN_OPM_GET_CERTIFICATE structure [Display Devices], display.idarg_in_opm_get_certificate, iddcx/IDARG_IN_OPM_GET_CERTIFICATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	iddcx.h
-apiname:
+api_name:
 -	IDARG_IN_OPM_GET_CERTIFICATE
 product: Windows
 targetos: Windows

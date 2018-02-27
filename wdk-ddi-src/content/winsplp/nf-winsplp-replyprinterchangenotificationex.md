@@ -7,8 +7,8 @@ old-location: print\replyprinterchangenotificationex.htm
 old-project: print
 ms.assetid: A3A906C0-FA96-4008-B904-1DA333B59833
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: ReplyPrinterChangeNotificationEx, winsplp/ReplyPrinterChangeNotificationEx, print.replyprinterchangenotificationex, ReplyPrinterChangeNotificationEx function [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: ReplyPrinterChangeNotificationEx, ReplyPrinterChangeNotificationEx function [Print Devices], print.replyprinterchangenotificationex, winsplp/ReplyPrinterChangeNotificationEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Winsplp.h
-apiname:
+api_name:
 -	ReplyPrinterChangeNotificationEx
 product: Windows
 targetos: Windows

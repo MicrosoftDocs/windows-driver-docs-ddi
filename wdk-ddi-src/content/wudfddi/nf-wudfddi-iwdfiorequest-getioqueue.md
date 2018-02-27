@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 834d5ee3-b28b-4d75-b0b7-be1f36ace8aa
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFIoRequest::GetIoQueue, GetIoQueue method, IWDFIoRequest interface, GetIoQueue method, IWDFIoRequest, umdf.iwdfiorequest_getioqueue, wudfddi/IWDFIoRequest::GetIoQueue, UMDFRequestObjectRef_1e603d95-06ae-45a8-ab4d-3592d6e140bf.xml, IWDFIoRequest interface, GetIoQueue method, wdf.iwdfiorequest_getioqueue, GetIoQueue
+ms.keywords: GetIoQueue method, GetIoQueue method, IWDFIoRequest interface, GetIoQueue,IWDFIoRequest.GetIoQueue, IWDFIoRequest, IWDFIoRequest interface, GetIoQueue method, IWDFIoRequest::GetIoQueue, UMDFRequestObjectRef_1e603d95-06ae-45a8-ab4d-3592d6e140bf.xml, umdf.iwdfiorequest_getioqueue, wdf.iwdfiorequest_getioqueue, wudfddi/IWDFIoRequest::GetIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFIoRequest.GetIoQueue
 product: Windows
 targetos: Windows

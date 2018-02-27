@@ -4,11 +4,11 @@ title: "_SCANWINDOW"
 author: windows-driver-content
 description: The SCANWINDOW structure is used by the WIA Flatbed driver to tell the microdriver what image area to scan.
 old-location: image\scanwindow.htm
-old-project: Image
+old-project: image
 ms.assetid: c4b507ac-af32-4949-add0-e19c00e328fe
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: image.scanwindow, SCANWINDOW, _SCANWINDOW, MicroDrv_b89f7f9d-a1e6-4a61-83e3-659c6f3a9d13.xml, wiamicro/SCANWINDOW, *PSCANWINDOW, SCANWINDOW structure [Imaging Devices], PSCANWINDOW structure pointer [Imaging Devices], wiamicro/PSCANWINDOW, PSCANWINDOW
+ms.date: 2/23/2018
+ms.keywords: "*PSCANWINDOW, MicroDrv_b89f7f9d-a1e6-4a61-83e3-659c6f3a9d13.xml, PSCANWINDOW, PSCANWINDOW structure pointer [Imaging Devices], SCANWINDOW, SCANWINDOW structure [Imaging Devices], _SCANWINDOW, image.scanwindow, wiamicro/PSCANWINDOW, wiamicro/SCANWINDOW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wiamicro.h
-apiname:
+api_name:
 -	SCANWINDOW
 product: Windows
 targetos: Windows

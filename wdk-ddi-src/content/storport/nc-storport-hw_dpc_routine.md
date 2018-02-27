@@ -7,8 +7,8 @@ old-location: storage\hwstordpcroutine.htm
 old-project: storage
 ms.assetid: bc646191-e405-49e2-8793-0c0b81e52f50
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.hwstordpcroutine, HwStorDpcRoutine routine [Storage Devices], HwStorDpcRoutine, HW_DPC_ROUTINE, HW_DPC_ROUTINE, storport/HwStorDpcRoutine, stormini_593e93b3-e078-48a4-b192-75cc161686bb.xml
+ms.date: 2/24/2018
+ms.keywords: HW_DPC_ROUTINE, HwStorDpcRoutine, HwStorDpcRoutine routine [Storage Devices], storage.hwstordpcroutine, stormini_593e93b3-e078-48a4-b192-75cc161686bb.xml, storport/HwStorDpcRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks section.)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Storport.h
-apiname:
+api_name:
 -	HwStorDpcRoutine
 product: Windows
 targetos: Windows
@@ -182,6 +182,10 @@ The <b>HW_DPC_ROUTINE</b> function type is defined in the Storport.h header file
 
 
 
+<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
+
+
+
 <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
 
 
@@ -194,13 +198,9 @@ The <b>HW_DPC_ROUTINE</b> function type is defined in the Storport.h header file
 
 
 
-<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HW_DPC_ROUTINE routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HW_DPC_ROUTINE routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 282cd191-03c5-4599-9a61-e84221ef9143
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.riluiccfiles_2, RILUICCFILES, *LPRILUICCFILES, RILUICCFILES structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCFILES
+ms.keywords: "*LPRILUICCFILES, RILUICCFILES, RILUICCFILES structure [Network Drivers Starting with Windows Vista], netvista.riluiccfiles_2, rilapitypes/RILUICCFILES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILUICCFILES
 product: Windows
 targetos: Windows

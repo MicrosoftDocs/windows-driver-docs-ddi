@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f9166dfa-e895-4aca-8080-af3cfe9c143f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILPHONEENTRYSTORELOCATION, rilapitypes/RIL_PBLOC_UICCPHONEBOOK, rilapitypes/RIL_PBLOC_UICCFIXDIALING, rilapitypes/RIL_PBLOC_ALL, RIL_PBLOC_UICCSERVICEDIALING, netvista.rilphoneentrystorelocation_2, RIL_PBLOC_UICCPHONEBOOK, RIL_PBLOC_ALL, rilapitypes/RIL_PBLOC_UICCSERVICEDIALING, RIL_PBLOC_OWNNUMBERS, rilapitypes/RIL_PBLOC_OWNNUMBERS, rilapitypes/RILPHONEENTRYSTORELOCATION, RIL_PBLOC_UICCFIXDIALING, RILPHONEENTRYSTORELOCATION enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RILPHONEENTRYSTORELOCATION, RILPHONEENTRYSTORELOCATION enumeration [Network Drivers Starting with Windows Vista], RIL_PBLOC_ALL, RIL_PBLOC_OWNNUMBERS, RIL_PBLOC_UICCFIXDIALING, RIL_PBLOC_UICCPHONEBOOK, RIL_PBLOC_UICCSERVICEDIALING, netvista.rilphoneentrystorelocation_2, rilapitypes/RILPHONEENTRYSTORELOCATION, rilapitypes/RIL_PBLOC_ALL, rilapitypes/RIL_PBLOC_OWNNUMBERS, rilapitypes/RIL_PBLOC_UICCFIXDIALING, rilapitypes/RIL_PBLOC_UICCPHONEBOOK, rilapitypes/RIL_PBLOC_UICCSERVICEDIALING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILPHONEENTRYSTORELOCATION
 product: Windows
 targetos: Windows

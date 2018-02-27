@@ -4,11 +4,11 @@ title: "_DRV_VERSION"
 author: windows-driver-content
 description: The DRV_VERSION structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_GET_VERSION.
 old-location: image\drv_version.htm
-old-project: Image
+old-project: image
 ms.assetid: 61b6dbd3-7565-4d63-bcc0-007df9793398
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PDRV_VERSION, DRV_VERSION structure [Imaging Devices], *PDRV_VERSION, DRV_VERSION, usbscan/PDRV_VERSION, PDRV_VERSION structure pointer [Imaging Devices], _DRV_VERSION, stifnc_99059efa-8e64-49f6-bebe-560d33fca145.xml, usbscan/DRV_VERSION, image.drv_version
+ms.date: 2/23/2018
+ms.keywords: "*PDRV_VERSION, DRV_VERSION, DRV_VERSION structure [Imaging Devices], PDRV_VERSION, PDRV_VERSION structure pointer [Imaging Devices], _DRV_VERSION, image.drv_version, stifnc_99059efa-8e64-49f6-bebe-560d33fca145.xml, usbscan/DRV_VERSION, usbscan/PDRV_VERSION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	usbscan.h
-apiname:
+api_name:
 -	DRV_VERSION
 product: Windows
 targetos: Windows

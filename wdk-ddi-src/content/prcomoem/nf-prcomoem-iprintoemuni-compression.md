@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_compression.htm
 old-project: print
 ms.assetid: 02524493-3842-462e-86f6-2ab35998c65e
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: Compression method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::Compression, print.iprintoemuni_compression, IPrintOemUni, IPrintOemUni::Compression, Compression, print_unidrv-pscript_rendering_47704483-1ab7-46a6-8a1e-07559fc6bde2.xml, IPrintOemUni interface [Print Devices], Compression method, Compression method [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: Compression method [Print Devices], Compression method [Print Devices], IPrintOemUni interface, Compression,IPrintOemUni.Compression, IPrintOemUni, IPrintOemUni interface [Print Devices], Compression method, IPrintOemUni::Compression, prcomoem/IPrintOemUni::Compression, print.iprintoemuni_compression, print_unidrv-pscript_rendering_47704483-1ab7-46a6-8a1e-07559fc6bde2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	prcomoem.h
-apiname:
+api_name:
 -	IPrintOemUni.Compression
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

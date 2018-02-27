@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ffe6cedc-bdac-4e39-855f-99f909f6b0e6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILEXECUTORFOCUSSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_EXECUTORFOCUSSTATE_ALL, RIL_PARAM_EXECUTORFOCUSSTATE_STATE, ntddrilapitypes/RILEXECUTORFOCUSSTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_EXECUTORFOCUSSTATE_STATE, netvista.rilexecutorfocusstateparammask, RILEXECUTORFOCUSSTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_EXECUTORFOCUSSTATE_ALL
+ms.keywords: RILEXECUTORFOCUSSTATEPARAMMASK, RILEXECUTORFOCUSSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_EXECUTORFOCUSSTATE_ALL, RIL_PARAM_EXECUTORFOCUSSTATE_STATE, netvista.rilexecutorfocusstateparammask, ntddrilapitypes/RILEXECUTORFOCUSSTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_EXECUTORFOCUSSTATE_ALL, ntddrilapitypes/RIL_PARAM_EXECUTORFOCUSSTATE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddrilapitypes.h
-apiname:
+api_name:
 -	RILEXECUTORFOCUSSTATEPARAMMASK
 product: Windows
 targetos: Windows

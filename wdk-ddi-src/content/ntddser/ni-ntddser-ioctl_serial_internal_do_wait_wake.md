@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 9bfa8f9e-9cda-42ff-bfce-44187d5ae5b5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.ioctl_serial_internal_do_wait_wake, IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE control code [Serial Ports], IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE, ntddser/IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE, serref_732ef87d-9bb2-4566-a70a-0e22d0afe19f.xml
+ms.keywords: IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE, IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE control code [Serial Ports], ntddser/IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE, serports.ioctl_serial_internal_do_wait_wake, serref_732ef87d-9bb2-4566-a70a-0e22d0afe19f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddser.h
-apiname:
+api_name:
 -	IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

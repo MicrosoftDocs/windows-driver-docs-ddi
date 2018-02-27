@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: FE572606-8F47-4C40-BF74-24D5F667D2EC
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.ioctl_bthx_set_version, IOCTL_BTHX_SET_VERSION control code [Bluetooth Devices], IOCTL_BTHX_SET_VERSION, bthxddi/IOCTL_BTHX_SET_VERSION
+ms.keywords: IOCTL_BTHX_SET_VERSION, IOCTL_BTHX_SET_VERSION control code [Bluetooth Devices], bltooth.ioctl_bthx_set_version, bthxddi/IOCTL_BTHX_SET_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	BthXDDI.h
-apiname:
+api_name:
 -	IOCTL_BTHX_SET_VERSION
 product: Windows
 targetos: Windows
-req.typenames: "*PBTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT"
+req.typenames: BTHX_SCO_SUPPORT, *PBTHX_SCO_SUPPORT
 ---
 
 # IOCTL_BTHX_SET_VERSION IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*PBTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

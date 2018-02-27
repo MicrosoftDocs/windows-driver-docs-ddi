@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9dda353d-7c39-4c3c-b9e2-38946d6cc086
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: CreateWdfObject method, wudfddi/IWDFDriver::CreateWdfObject, umdf.iwdfdriver_createwdfobject, CreateWdfObject, IWDFDriver, wdf.iwdfdriver_createwdfobject, IWDFDriver::CreateWdfObject, UMDFDriverObjectRef_8ab61a3d-78e3-4d92-8a9c-0eff2837f65f.xml, CreateWdfObject method, IWDFDriver interface, IWDFDriver interface, CreateWdfObject method
+ms.keywords: CreateWdfObject method, CreateWdfObject method, IWDFDriver interface, CreateWdfObject,IWDFDriver.CreateWdfObject, IWDFDriver, IWDFDriver interface, CreateWdfObject method, IWDFDriver::CreateWdfObject, UMDFDriverObjectRef_8ab61a3d-78e3-4d92-8a9c-0eff2837f65f.xml, umdf.iwdfdriver_createwdfobject, wdf.iwdfdriver_createwdfobject, wudfddi/IWDFDriver::CreateWdfObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFDriver.CreateWdfObject
 product: Windows
 targetos: Windows
@@ -113,7 +113,7 @@ If the driver must clean up the child object before the parent object is deleted
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
 
 
 
@@ -121,11 +121,11 @@ If the driver must clean up the child object before the parent object is deleted
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
 
 
 

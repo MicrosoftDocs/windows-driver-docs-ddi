@@ -7,8 +7,8 @@ old-location: print\spoolerfindfirstprinterchangenotification.htm
 old-project: print
 ms.assetid: 429A5DF5-46A6-4A41-A77B-4D5743C841DC
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.spoolerfindfirstprinterchangenotification, SpoolerFindFirstPrinterChangeNotification, winsplp/SpoolerFindFirstPrinterChangeNotification, SpoolerFindFirstPrinterChangeNotification function [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: SpoolerFindFirstPrinterChangeNotification, SpoolerFindFirstPrinterChangeNotification function [Print Devices], print.spoolerfindfirstprinterchangenotification, winsplp/SpoolerFindFirstPrinterChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Winsplp.h
-apiname:
+api_name:
 -	SpoolerFindFirstPrinterChangeNotification
 product: Windows
 targetos: Windows

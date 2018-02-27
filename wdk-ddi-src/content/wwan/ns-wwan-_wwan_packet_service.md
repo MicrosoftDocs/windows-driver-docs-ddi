@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5d444e1c-cbcf-47ab-9c5a-10af1f1915cf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PWWAN_PACKET_SERVICE, wwan/WWAN_PACKET_SERVICE, WWAN_PACKET_SERVICE structure [Network Drivers Starting with Windows Vista], *PWWAN_PACKET_SERVICE, WWAN_PACKET_SERVICE, WwanRef_ce147c69-a83d-42fd-9b08-7a12e6ecaf1a.xml, _WWAN_PACKET_SERVICE, netvista.wwan_packet_service, PWWAN_PACKET_SERVICE structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_PACKET_SERVICE
+ms.keywords: "*PWWAN_PACKET_SERVICE, PWWAN_PACKET_SERVICE, PWWAN_PACKET_SERVICE structure pointer [Network Drivers Starting with Windows Vista], WWAN_PACKET_SERVICE, WWAN_PACKET_SERVICE structure [Network Drivers Starting with Windows Vista], WwanRef_ce147c69-a83d-42fd-9b08-7a12e6ecaf1a.xml, _WWAN_PACKET_SERVICE, netvista.wwan_packet_service, wwan/PWWAN_PACKET_SERVICE, wwan/WWAN_PACKET_SERVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_PACKET_SERVICE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_PACKET_SERVICE, WWAN_PACKET_SERVICE"
+req.typenames: WWAN_PACKET_SERVICE, *PWWAN_PACKET_SERVICE
 req.product: Windows 10 or later.
 ---
 
@@ -190,12 +190,12 @@ Miniport drivers must report the cause code at the earliest possible instance. F
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_packet_service_state.md">WWAN_PACKET_SERVICE_STATE</a>
-
-
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_packet_service_state.md">
    NDIS_WWAN_PACKET_SERVICE_STATE</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_packet_service_state.md">WWAN_PACKET_SERVICE_STATE</a>
 
 
 

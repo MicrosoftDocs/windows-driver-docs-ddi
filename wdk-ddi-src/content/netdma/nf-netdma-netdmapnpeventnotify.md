@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a0f0fdbc-089c-4bfb-ba5f-eaff6042621c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.netdmapnpeventnotify, NetDmaPnPEventNotify function [Network Drivers Starting with Windows Vista], netdma_ref_406452bc-e56a-47da-9e7a-09fb4aebe1eb.xml, netdma/NetDmaPnPEventNotify, NetDmaPnPEventNotify
+ms.keywords: NetDmaPnPEventNotify, NetDmaPnPEventNotify function [Network Drivers Starting with Windows Vista], netdma/NetDmaPnPEventNotify, netdma_ref_406452bc-e56a-47da-9e7a-09fb4aebe1eb.xml, netvista.netdmapnpeventnotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	netdma.h
-apiname:
+api_name:
 -	NetDmaPnPEventNotify
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: pos\msrdataencryption.htm
 old-project: pos
 ms.assetid: 3e587242-2d7e-4b1f-8fcd-e0acada91524
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: MsrDataEncryption enumeration, pointofservicedriverinterface/MsrDataEncryption_None, MsrDataEncryption_3DEA_DUKPT, pointofservicedriverinterface/MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption_ExtendedBase, pos.msrdataencryption, MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption_AES, _MsrDataEncryption, MsrDataEncryption_ExtendedBase, MsrDataEncryption_AES, MsrDataEncryption_None, pointofservicedriverinterface/MsrDataEncryption_3DEA_DUKPT
+ms.date: 2/23/2018
+ms.keywords: MsrDataEncryption, MsrDataEncryption enumeration, MsrDataEncryption_3DEA_DUKPT, MsrDataEncryption_AES, MsrDataEncryption_ExtendedBase, MsrDataEncryption_None, _MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption_3DEA_DUKPT, pointofservicedriverinterface/MsrDataEncryption_AES, pointofservicedriverinterface/MsrDataEncryption_ExtendedBase, pointofservicedriverinterface/MsrDataEncryption_None, pos.msrdataencryption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pointofservicedriverinterface.h
-apiname:
+api_name:
 -	MsrDataEncryption
 product: Windows
 targetos: Windows

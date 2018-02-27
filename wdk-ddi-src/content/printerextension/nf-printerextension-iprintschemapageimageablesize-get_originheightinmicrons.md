@@ -7,8 +7,8 @@ old-location: print\iprintschemapageimageablesize_originheightinmicrons.htm
 old-project: print
 ms.assetid: 9D266AC2-4CA1-4E23-B058-F2841420D0AC
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IPrintSchemaPageImageableSize::get_OriginHeightInMicrons, OriginHeightInMicrons property [Print Devices], IPrintSchemaPageImageableSize interface, printerextension/IPrintSchemaPageImageableSize::OriginHeightInMicrons, print.iprintschemapageimageablesize_originheightinmicrons, IPrintSchemaPageImageableSize, OriginHeightInMicrons property [Print Devices], printerextension/IPrintSchemaPageImageableSize::get_OriginHeightInMicrons, get_OriginHeightInMicrons, IPrintSchemaPageImageableSize interface [Print Devices], OriginHeightInMicrons property, IPrintSchemaPageImageableSize.OriginHeightInMicrons
+ms.date: 2/23/2018
+ms.keywords: IPrintSchemaPageImageableSize, IPrintSchemaPageImageableSize interface [Print Devices], OriginHeightInMicrons property, IPrintSchemaPageImageableSize.OriginHeightInMicrons, IPrintSchemaPageImageableSize::get_OriginHeightInMicrons, OriginHeightInMicrons property [Print Devices], OriginHeightInMicrons property [Print Devices], IPrintSchemaPageImageableSize interface, get_OriginHeightInMicrons, get_OriginHeightInMicrons,IPrintSchemaPageImageableSize.get_OriginHeightInMicrons, print.iprintschemapageimageablesize_originheightinmicrons, printerextension/IPrintSchemaPageImageableSize::OriginHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::get_OriginHeightInMicrons
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Printerextension.h
-apiname:
+api_name:
 -	IPrintSchemaPageImageableSize.OriginHeightInMicrons
 -	IPrintSchemaPageImageableSize.get_OriginHeightInMicrons
 product: Windows
@@ -79,5 +79,5 @@ HRESULT get_OriginHeightInMicrons(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaPageImageableSize::OriginHeightInMicrons property%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaPageImageableSize::OriginHeightInMicrons property%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

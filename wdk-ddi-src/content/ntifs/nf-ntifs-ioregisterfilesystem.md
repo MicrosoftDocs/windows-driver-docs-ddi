@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 19d53afd-b63c-4fd3-9b08-c51e2a1247af
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoRegisterFileSystem routine [Installable File System Drivers], ntifs/IoRegisterFileSystem, ioref_42200300-9ef6-4be9-8fee-bf42b027a809.xml, ifsk.ioregisterfilesystem, IoRegisterFileSystem
+ms.keywords: IoRegisterFileSystem, IoRegisterFileSystem routine [Installable File System Drivers], ifsk.ioregisterfilesystem, ioref_42200300-9ef6-4be9-8fee-bf42b027a809.xml, ntifs/IoRegisterFileSystem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoRegisterFileSystem
 product: Windows
 targetos: Windows
@@ -114,15 +114,15 @@ If the DO_LOW_PRIORITY_FILESYSTEM flag is set on the file system's control devic
 
 
 
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>
+<a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
 
 
 

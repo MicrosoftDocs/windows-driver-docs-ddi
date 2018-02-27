@@ -7,8 +7,8 @@ old-location: pos\posdeviceinformation.htm
 old-project: pos
 ms.assetid: 9ae1cfd1-1ef8-4f27-b6e1-f593bdc020e8
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: pointofservicecommontypes/PosDeviceInformation, _PosDeviceInformation, PosDeviceInformation structure, pos.posdeviceinformation, PosDeviceInformation
+ms.date: 2/23/2018
+ms.keywords: PosDeviceInformation, PosDeviceInformation structure, _PosDeviceInformation, pointofservicecommontypes/PosDeviceInformation, pos.posdeviceinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	PointOfServiceCommonTypes.h
-apiname:
+api_name:
 -	PosDeviceInformation
 product: Windows
 targetos: Windows

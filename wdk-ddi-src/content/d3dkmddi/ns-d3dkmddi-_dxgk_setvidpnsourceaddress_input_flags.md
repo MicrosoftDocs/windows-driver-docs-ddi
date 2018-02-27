@@ -7,7 +7,7 @@ old-location: display\dxgk_setvidpnsourceaddress_input_flags.htm
 old-project: display
 ms.assetid: FBC661AA-B028-45AF-8E3C-7C2472652BD5
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/24/2018
 ms.keywords: DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS structure [Display Devices], _DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS, display.dxgk_setvidpnsourceaddress_input_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS
 product: Windows
 targetos: Windows

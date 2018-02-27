@@ -7,8 +7,8 @@ old-location: stream\ioctl_lamp_get_mode.htm
 old-project: stream
 ms.assetid: 741FFB14-B6F1-452B-AD8A-E82C0E34CB6A
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ioctl_lamp_get_mode, IOCTL_LAMP_GET_MODE control code [Streaming Media Devices], IOCTL_LAMP_GET_MODE, lamp/IOCTL_LAMP_GET_MODE
+ms.date: 2/23/2018
+ms.keywords: IOCTL_LAMP_GET_MODE, IOCTL_LAMP_GET_MODE control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_MODE, stream.ioctl_lamp_get_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	lamp.h
-apiname:
+api_name:
 -	IOCTL_LAMP_GET_MODE
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: LAMP_MODE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

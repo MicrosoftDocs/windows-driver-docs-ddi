@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1d95084b-16c4-468e-84af-47650292c5a1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfobjectgettypedcontextworker, wdfobject/WdfObjectGetTypedContextWorker, WdfObjectGetTypedContextWorker, wdf.wdfobjectgettypedcontextworker, WdfObjectGetTypedContextWorker method, DFGenObjectRef_d932d163-5341-45b3-b896-bb3adb5831a6.xml
+ms.keywords: DFGenObjectRef_d932d163-5341-45b3-b896-bb3adb5831a6.xml, WdfObjectGetTypedContextWorker, WdfObjectGetTypedContextWorker method, kmdf.wdfobjectgettypedcontextworker, wdf.wdfobjectgettypedcontextworker, wdfobject/WdfObjectGetTypedContextWorker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfobject.h
-apiname:
+api_name:
 -	WdfObjectGetTypedContextWorker
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: storage\dsm_counters.htm
 old-project: storage
 ms.assetid: 3202aec4-d95e-4162-86a1-17595ed2a5b5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: mpiowmi/PDSM_COUNTERS, structs-scsibus_bfb9b1ff-6274-47b9-b817-254428b02f17.xml, PDSM_COUNTERS structure pointer [Storage Devices], storage.dsm_counters, _DSM_COUNTERS, *PDSM_COUNTERS, DSM_COUNTERS structure [Storage Devices], DSM_COUNTERS, mpiowmi/DSM_COUNTERS, PDSM_COUNTERS
+ms.date: 2/24/2018
+ms.keywords: "*PDSM_COUNTERS, DSM_COUNTERS, DSM_COUNTERS structure [Storage Devices], PDSM_COUNTERS, PDSM_COUNTERS structure pointer [Storage Devices], _DSM_COUNTERS, mpiowmi/DSM_COUNTERS, mpiowmi/PDSM_COUNTERS, storage.dsm_counters, structs-scsibus_bfb9b1ff-6274-47b9-b817-254428b02f17.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	mpiowmi.h
-apiname:
+api_name:
 -	DSM_COUNTERS
 product: Windows
 targetos: Windows
-req.typenames: "*PDSM_COUNTERS, DSM_COUNTERS"
+req.typenames: DSM_COUNTERS, *PDSM_COUNTERS
 ---
 
 # _DSM_COUNTERS structure

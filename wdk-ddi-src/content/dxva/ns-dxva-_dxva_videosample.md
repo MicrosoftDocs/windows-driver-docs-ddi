@@ -7,8 +7,8 @@ old-location: display\dxva_videosample.htm
 old-project: display
 ms.assetid: 2fab4993-0b34-44ce-a905-5094e6e3ce47
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dxvaref_08c56205-0793-4556-bb9a-e682eb6ca354.xml, dxva/LPDXVA_VideoSample, LPDXVA_VideoSample structure pointer [Display Devices], DXVA_VideoSample structure [Display Devices], *LPDXVA_VideoSample, dxva/DXVA_VideoSample, display.dxva_videosample, LPDXVA_VideoSample, _DXVA_VideoSample, DXVA_VideoSample
+ms.date: 2/24/2018
+ms.keywords: "*LPDXVA_VideoSample, DXVA_VideoSample, DXVA_VideoSample structure [Display Devices], LPDXVA_VideoSample, LPDXVA_VideoSample structure pointer [Display Devices], _DXVA_VideoSample, display.dxva_videosample, dxva/DXVA_VideoSample, dxva/LPDXVA_VideoSample, dxvaref_08c56205-0793-4556-bb9a-e682eb6ca354.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dxva.h
-apiname:
+api_name:
 -	DXVA_VideoSample
 product: Windows
 targetos: Windows
-req.typenames: "*LPDXVA_VideoSample, DXVA_VideoSample"
+req.typenames: DXVA_VideoSample, *LPDXVA_VideoSample
 ---
 
 # _DXVA_VideoSample structure
@@ -92,7 +92,7 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5517
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlaceblt.md">DXVA_DeinterlaceBlt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
 
 
 
@@ -100,7 +100,7 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5517
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
+<a href="..\dxva\ns-dxva-_dxva_deinterlaceblt.md">DXVA_DeinterlaceBlt</a>
 
 
 
@@ -108,5 +108,5 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5517
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_VideoSample structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_VideoSample structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

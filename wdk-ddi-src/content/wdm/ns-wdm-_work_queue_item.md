@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 068ac200-55bb-4d7b-bc69-ad57d466a36b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/WORK_QUEUE_ITEM, wdm/PWORK_QUEUE_ITEM, *PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM structure [Installable File System Drivers], WORK_QUEUE_ITEM, othersystemstructures_52486f79-e8f4-4fb3-9b41-564bbd78f5d5.xml, ifsk.work_queue_item, PWORK_QUEUE_ITEM structure pointer [Installable File System Drivers], PWORK_QUEUE_ITEM, _WORK_QUEUE_ITEM
+ms.keywords: "*PWORK_QUEUE_ITEM, PWORK_QUEUE_ITEM, PWORK_QUEUE_ITEM structure pointer [Installable File System Drivers], WORK_QUEUE_ITEM, WORK_QUEUE_ITEM structure [Installable File System Drivers], _WORK_QUEUE_ITEM, ifsk.work_queue_item, othersystemstructures_52486f79-e8f4-4fb3-9b41-564bbd78f5d5.xml, wdm/PWORK_QUEUE_ITEM, wdm/WORK_QUEUE_ITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdm.h
-apiname:
+api_name:
 -	WORK_QUEUE_ITEM
 product: Windows
 targetos: Windows
-req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
+req.typenames: WORK_QUEUE_ITEM, *PWORK_QUEUE_ITEM
 req.product: Windows 10 or later.
 ---
 
@@ -121,11 +121,11 @@ To post the initialized work item to a system work queue, call <a href="..\wdm\n
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializeworkitem.md">ExInitializeWorkItem</a>
+<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
 
 
 
-<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
+<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
 
 
 
@@ -133,11 +133,11 @@ To post the initialized work item to a system work queue, call <a href="..\wdm\n
 
 
 
+<a href="..\wdm\nf-wdm-exinitializeworkitem.md">ExInitializeWorkItem</a>
+
+
+
 <a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
 
 
 

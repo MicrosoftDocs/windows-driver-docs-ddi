@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68523004-c9f5-4038-985e-702d929cdf04
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdf_align_size_up, WDF_ALIGN_SIZE_UP function, WDF_ALIGN_SIZE_UP, wdfcore/WDF_ALIGN_SIZE_UP, DFMemoryObjectRef_48452ee1-3939-48ba-a485-4d503ee052f3.xml, kmdf.wdf_align_size_up
+ms.keywords: DFMemoryObjectRef_48452ee1-3939-48ba-a485-4d503ee052f3.xml, WDF_ALIGN_SIZE_UP, WDF_ALIGN_SIZE_UP function, kmdf.wdf_align_size_up, wdf.wdf_align_size_up, wdfcore/WDF_ALIGN_SIZE_UP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: Any IRQL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname:
+api_name:
 -	WDF_ALIGN_SIZE_UP
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: stream\pipe_termination.htm
 old-project: stream
 ms.assetid: 6c425b5d-8d9f-4438-b9e4-256dcc8878c5
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: PIPE_TERMINATION structure [Streaming Media Devices], PPIPE_TERMINATION structure pointer [Streaming Media Devices], stream.pipe_termination, PIPE_TERMINATION, _PIPE_TERMINATION, PPIPE_TERMINATION, ksproxy_ee6f14a8-dda3-4b28-b6a9-e99bafd7e921.xml, ksproxy/PPIPE_TERMINATION, ksproxy/PIPE_TERMINATION
+ms.date: 2/23/2018
+ms.keywords: PIPE_TERMINATION, PIPE_TERMINATION structure [Streaming Media Devices], PPIPE_TERMINATION, PPIPE_TERMINATION structure pointer [Streaming Media Devices], _PIPE_TERMINATION, ksproxy/PIPE_TERMINATION, ksproxy/PPIPE_TERMINATION, ksproxy_ee6f14a8-dda3-4b28-b6a9-e99bafd7e921.xml, stream.pipe_termination
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ksproxy.h
-apiname:
+api_name:
 -	PIPE_TERMINATION
 product: Windows
 targetos: Windows

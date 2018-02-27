@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 55c56436-ac59-4095-a9f3-f36092db19c0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.ioctl_serial_internal_restore_settings, IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS control code [Serial Ports], IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS, ntddser/IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS, serref_bb81345f-080d-4de6-bc36-34a32f934fc7.xml
+ms.keywords: IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS, IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS control code [Serial Ports], ntddser/IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS, serports.ioctl_serial_internal_restore_settings, serref_bb81345f-080d-4de6-bc36-34a32f934fc7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddser.h
-apiname:
+api_name:
 -	IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

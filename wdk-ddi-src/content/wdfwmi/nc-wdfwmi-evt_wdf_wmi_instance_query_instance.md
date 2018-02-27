@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 13eed838-2943-4bb4-915f-6a84f0f95851
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtwmiinstancequeryinstance, EvtWmiInstanceQueryInstance callback function, EvtWmiInstanceQueryInstance, EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE, EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE, wdfwmi/EvtWmiInstanceQueryInstance, DFWMIRef_424a0070-8839-4d3f-b285-166b23ac03f7.xml, kmdf.evtwmiinstancequeryinstance
+ms.keywords: DFWMIRef_424a0070-8839-4d3f-b285-166b23ac03f7.xml, EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE, EvtWmiInstanceQueryInstance, EvtWmiInstanceQueryInstance callback function, kmdf.evtwmiinstancequeryinstance, wdf.evtwmiinstancequeryinstance, wdfwmi/EvtWmiInstanceQueryInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	WdfWMI.h
-apiname:
+api_name:
 -	EvtWmiInstanceQueryInstance
 product: Windows
 targetos: Windows
@@ -169,15 +169,7 @@ The <b>EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE</b> function type is defined in the W
 
 ## -see-also
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
-
-
-
 <a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_buffer_append_string.md">WDF_WMI_BUFFER_APPEND_STRING</a>
-
-
-
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
 
 
@@ -189,7 +181,7 @@ The <b>EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE</b> function type is defined in the W
 
 
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_instance.md">EvtWmiInstanceSetInstance</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
 
 
@@ -197,7 +189,11 @@ The <b>EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE</b> function type is defined in the W
 
 
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_execute_method.md">EvtWmiInstanceExecuteMethod</a>
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_instance.md">EvtWmiInstanceSetInstance</a>
+
+
+
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: b59fd639-f2e2-4765-bcc7-01934df3a0bc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SDPMS_MEDIA_INSERTED, SDPROP_MEDIA_STATE enumeration [Buses], SDPMS_NO_MEDIA, ntddsd/SDPMS_NO_MEDIA, ntddsd/SDPROP_MEDIA_STATE, ntddsd/SDPMS_MEDIA_INSERTED, SDPROP_MEDIA_STATE, SD.sdprop_media_state, sd-structs_a2064f73-cec7-4703-95ec-8ab8adc0b4b2.xml
+ms.keywords: SD.sdprop_media_state, SDPMS_MEDIA_INSERTED, SDPMS_NO_MEDIA, SDPROP_MEDIA_STATE, SDPROP_MEDIA_STATE enumeration [Buses], ntddsd/SDPMS_MEDIA_INSERTED, ntddsd/SDPMS_NO_MEDIA, ntddsd/SDPROP_MEDIA_STATE, sd-structs_a2064f73-cec7-4703-95ec-8ab8adc0b4b2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddsd.h
-apiname:
+api_name:
 -	SDPROP_MEDIA_STATE
 product: Windows
 targetos: Windows
@@ -84,7 +84,7 @@ Indicates that the media is inserted.
 
 
 
-<a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
 
 
 

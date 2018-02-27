@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 854C2DA1-1763-4354-8B9D-9AE0C60D8F31
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wsklisten, WskListen callback function [Network Drivers Starting with Windows Vista], WskListen, PFN_WSK_LISTEN, PFN_WSK_LISTEN, wsk/WskListen
+ms.keywords: PFN_WSK_LISTEN, WskListen, WskListen callback function [Network Drivers Starting with Windows Vista], netvista.wsklisten, wsk/WskListen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wsk.h
-apiname:
+api_name:
 -	WskListen
 product: Windows
 targetos: Windows
-req.typenames: "*PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO"
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -165,15 +165,11 @@ A WSK application can call the <b>WskListen</b> function only on a stream socket
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 
@@ -182,6 +178,10 @@ A WSK application can call the <b>WskListen</b> function only on a stream socket
 
 
 <a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b50be4c2-4575-42b9-953d-9ddb3c3e696c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfKProcessorModeMaximum, wudfddi_types/WDF_KPROCESSOR_MODE, wudfddi_types/WdfKProcessorModeInvalid, WdfUserMode, umdf.wdf_kprocessor_mode, wudfddi_types/WdfKProcessorModeMaximum, WDF_KPROCESSOR_MODE enumeration, PWDF_KPROCESSOR_MODE enumeration pointer, _WDF_KPROCESSOR_MODE, wudfddi_types/WdfUserMode, WDF_KPROCESSOR_MODE, PWDF_KPROCESSOR_MODE, wudfddi_types/WdfKernelMode, umdfstructs_581a9b17-c059-4dc8-9784-8dce0d6a4e7d.xml, wudfddi_types/PWDF_KPROCESSOR_MODE, WdfKernelMode, *PWDF_KPROCESSOR_MODE, wdf.wdf_kprocessor_mode, WdfKProcessorModeInvalid
+ms.keywords: "*PWDF_KPROCESSOR_MODE, PWDF_KPROCESSOR_MODE, PWDF_KPROCESSOR_MODE enumeration pointer, WDF_KPROCESSOR_MODE, WDF_KPROCESSOR_MODE enumeration, WdfKProcessorModeInvalid, WdfKProcessorModeMaximum, WdfKernelMode, WdfUserMode, _WDF_KPROCESSOR_MODE, umdf.wdf_kprocessor_mode, umdfstructs_581a9b17-c059-4dc8-9784-8dce0d6a4e7d.xml, wdf.wdf_kprocessor_mode, wudfddi_types/PWDF_KPROCESSOR_MODE, wudfddi_types/WDF_KPROCESSOR_MODE, wudfddi_types/WdfKProcessorModeInvalid, wudfddi_types/WdfKProcessorModeMaximum, wudfddi_types/WdfKernelMode, wudfddi_types/WdfUserMode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wudfddi_types.h
-apiname:
+api_name:
 -	WDF_KPROCESSOR_MODE
 product: Windows
 targetos: Windows

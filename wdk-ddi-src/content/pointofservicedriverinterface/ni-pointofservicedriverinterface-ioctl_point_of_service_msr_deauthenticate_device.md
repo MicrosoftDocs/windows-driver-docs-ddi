@@ -7,8 +7,8 @@ old-location: pos\ioctl_point_of_service_msr_deauthenticate_device.htm
 old-project: pos
 ms.assetid: 796ee8e7-693f-41dd-ad09-cb3c21779ab9
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: pos.ioctl_point_of_service_msr_deauthenticate_device, IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE control code, IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE
+ms.date: 2/23/2018
+ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE, IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE, pos.ioctl_point_of_service_msr_deauthenticate_device
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pointofservicedriverinterface.h
-apiname:
+api_name:
 -	IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: PosPropertyId
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

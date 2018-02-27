@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6acff4d8-c21f-49c5-a255-5b46aac97c9f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfioqueueretrieverequestbyfileobject, WdfIoQueueRetrieveRequestByFileObject method, wdfio/WdfIoQueueRetrieveRequestByFileObject, WdfIoQueueRetrieveRequestByFileObject, kmdf.wdfioqueueretrieverequestbyfileobject, DFQueueObjectRef_52e014c4-04ca-44b2-a5a8-19185b085cdf.xml
+ms.keywords: DFQueueObjectRef_52e014c4-04ca-44b2-a5a8-19185b085cdf.xml, WdfIoQueueRetrieveRequestByFileObject, WdfIoQueueRetrieveRequestByFileObject method, kmdf.wdfioqueueretrieverequestbyfileobject, wdf.wdfioqueueretrieverequestbyfileobject, wdfio/WdfIoQueueRetrieveRequestByFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname:
+api_name:
 -	WdfIoQueueRetrieveRequestByFileObject
 product: Windows
 targetos: Windows

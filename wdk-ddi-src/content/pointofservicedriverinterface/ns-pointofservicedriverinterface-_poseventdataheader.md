@@ -7,8 +7,8 @@ old-location: pos\posbarcodescannerimageprevieweventdata.htm
 old-project: pos
 ms.assetid: dc542e81-9078-4e14-8c8d-9cfaeb5b5495
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: pointofservicedriverinterface/PosBarcodeScannerImagePreviewEventData, PosBarcodeScannerImagePreviewEventData, PosEventDataHeader structure, _PosEventDataHeader, PosBarcodeScannerImagePreviewEventData structure, pos.posbarcodescannerimageprevieweventdata, PosEventDataHeader, pointofservicedriverinterface/PosEventDataHeader
+ms.date: 2/23/2018
+ms.keywords: PosBarcodeScannerImagePreviewEventData, PosBarcodeScannerImagePreviewEventData structure, PosEventDataHeader, PosEventDataHeader structure, _PosEventDataHeader, pointofservicedriverinterface/PosBarcodeScannerImagePreviewEventData, pointofservicedriverinterface/PosEventDataHeader, pos.posbarcodescannerimageprevieweventdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	PointOfServiceDriverInterface.h
-apiname:
+api_name:
 -	PosEventDataHeader
 product: Windows
 targetos: Windows
-req.typenames: PosBarcodeScannerImagePreviewEventData, PosEventDataHeader
+req.typenames: PosEventDataHeader, PosBarcodeScannerImagePreviewEventData
 ---
 
 # _PosEventDataHeader structure

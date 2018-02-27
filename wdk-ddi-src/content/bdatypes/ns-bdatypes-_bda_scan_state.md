@@ -7,8 +7,8 @@ old-location: stream\bda_scan_state.htm
 old-project: stream
 ms.assetid: C80506D2-AAB6-4A37-A62F-CDDD3DCBC7F1
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: BDA_SCAN_STATE, bdatypes/BDA_SCAN_STATE, PBDA_SCAN_STATE structure pointer [Streaming Media Devices], stream.bda_scan_state, bdatypes/PBDA_SCAN_STATE, *PBDA_SCAN_STATE, BDA_SCAN_STATE structure [Streaming Media Devices], _BDA_SCAN_STATE, PBDA_SCAN_STATE
+ms.date: 2/23/2018
+ms.keywords: "*PBDA_SCAN_STATE, BDA_SCAN_STATE, BDA_SCAN_STATE structure [Streaming Media Devices], PBDA_SCAN_STATE, PBDA_SCAN_STATE structure pointer [Streaming Media Devices], _BDA_SCAN_STATE, bdatypes/BDA_SCAN_STATE, bdatypes/PBDA_SCAN_STATE, stream.bda_scan_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Bdatypes.h
-apiname:
+api_name:
 -	BDA_SCAN_STATE
 product: Windows
 targetos: Windows

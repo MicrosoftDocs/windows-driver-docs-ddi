@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: C0DA1B09-230E-4DE6-98CD-F80243D63B95
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: acpitabl/GIC_ITS, GIC_ITS, acpi.gic_its, GIC_ITS structure [ACPI Devices], *PGIC_ITS, _GIC_ITS
+ms.keywords: "*PGIC_ITS, GIC_ITS, GIC_ITS structure [ACPI Devices], _GIC_ITS, acpi.gic_its, acpitabl/GIC_ITS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Acpitabl.h
-apiname:
+api_name:
 -	GIC_ITS
 product: Windows
 targetos: Windows

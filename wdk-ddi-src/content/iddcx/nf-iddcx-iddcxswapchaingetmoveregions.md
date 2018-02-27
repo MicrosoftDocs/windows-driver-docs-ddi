@@ -7,8 +7,8 @@ old-location: display\iddcxswapchaingetmoveregions.htm
 old-project: display
 ms.assetid: ae8257a6-4d4c-446e-b144-1adfe0a28e50
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.iddcxswapchaingetmoveregions, IddCxSwapChainGetMoveRegions method [Display Devices], IddCxSwapChainGetMoveRegions, iddcx/IddCxSwapChainGetMoveRegions
+ms.date: 2/24/2018
+ms.keywords: IddCxSwapChainGetMoveRegions, IddCxSwapChainGetMoveRegions method [Display Devices], display.iddcxswapchaingetmoveregions, iddcx/IddCxSwapChainGetMoveRegions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "_Must_inspect_result_"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	iddcx.h
-apiname:
+api_name:
 -	IddCxSwapChainGetMoveRegions
 product: Windows
 targetos: Windows

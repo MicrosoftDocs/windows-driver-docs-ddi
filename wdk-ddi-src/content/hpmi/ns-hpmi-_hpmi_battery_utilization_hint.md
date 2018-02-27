@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: A974998F-C9AF-496E-88B1-510413C17C4A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: HPMI_BATTERY_UTILIZATION_HINT structure [Power Metering and Budgeting Devices], HPMI_BATTERY_UTILIZATION_HINT, hpmi/HPMI_BATTERY_UTILIZATION_HINT, powermeter.hpmi_battery_utilization_hint, PHPMI_BATTERY_UTILIZATION_HINT, PHPMI_BATTERY_UTILIZATION_HINT structure pointer [Power Metering and Budgeting Devices], *PHPMI_BATTERY_UTILIZATION_HINT, hpmi/PHPMI_BATTERY_UTILIZATION_HINT, _HPMI_BATTERY_UTILIZATION_HINT
+ms.keywords: "*PHPMI_BATTERY_UTILIZATION_HINT, HPMI_BATTERY_UTILIZATION_HINT, HPMI_BATTERY_UTILIZATION_HINT structure [Power Metering and Budgeting Devices], PHPMI_BATTERY_UTILIZATION_HINT, PHPMI_BATTERY_UTILIZATION_HINT structure pointer [Power Metering and Budgeting Devices], _HPMI_BATTERY_UTILIZATION_HINT, hpmi/HPMI_BATTERY_UTILIZATION_HINT, hpmi/PHPMI_BATTERY_UTILIZATION_HINT, powermeter.hpmi_battery_utilization_hint"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hpmi.h
-apiname:
+api_name:
 -	HPMI_BATTERY_UTILIZATION_HINT
 product: Windows
 targetos: Windows
-req.typenames: "*PHPMI_BATTERY_UTILIZATION_HINT, HPMI_BATTERY_UTILIZATION_HINT"
+req.typenames: HPMI_BATTERY_UTILIZATION_HINT, *PHPMI_BATTERY_UTILIZATION_HINT
 ---
 
 # _HPMI_BATTERY_UTILIZATION_HINT structure
@@ -97,10 +97,6 @@ Set to HPMI_BATTERY_UTILIZATION_HINT_VERSION_1.
 
 ## -see-also
 
-<a href="..\hpmi\ne-hpmi-_hpmi_hint_bool.md">HPMI_HINT_BOOL</a>
-
-
-
 <a href="..\hpmi\ni-hpmi-ioctl_hpmi_battery_utilization_hint.md">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
 
 
@@ -109,9 +105,7 @@ Set to HPMI_BATTERY_UTILIZATION_HINT_VERSION_1.
 
 
 
-
-
-<a href="..\hpmi\ni-hpmi-ioctl_hpmi_battery_utilization_hint.md">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
+<a href="..\hpmi\ne-hpmi-_hpmi_hint_bool.md">HPMI_HINT_BOOL</a>
 
 
 

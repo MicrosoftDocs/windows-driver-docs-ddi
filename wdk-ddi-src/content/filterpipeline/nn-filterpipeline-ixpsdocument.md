@@ -7,8 +7,8 @@ old-location: print\ixpsdocument.htm
 old-project: print
 ms.assetid: 1d4a9ad3-6ac1-44c3-9ddd-0dc5f996d70d
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.ixpsdocument, IXpsDocument interface [Print Devices], IXpsDocument interface [Print Devices], described, IXpsDocument, filterpipeline/IXpsDocument, filterpipeline_d2db5467-7b2d-439c-8ad1-3ffb607a3167.xml
+ms.date: 2/23/2018
+ms.keywords: IXpsDocument, IXpsDocument interface [Print Devices], IXpsDocument interface [Print Devices], described, filterpipeline/IXpsDocument, filterpipeline_d2db5467-7b2d-439c-8ad1-3ffb607a3167.xml, print.ixpsdocument
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	filterpipeline.h
-apiname:
+api_name:
 -	IXpsDocument
 product: Windows
 targetos: Windows
@@ -51,6 +51,13 @@ req.typenames: EXpsFontRestriction
 
 The <code>IXpsDocument</code> interface represents the root of an XPS document.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsDocument</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IXpsDocument</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -78,9 +85,5 @@ The <code>SetThumbnail</code> method removes the current thumbnail object from t
 
 </td>
 </tr>
-</table>The <code>GetThumbnail</code> method gets the document thumbnail object. 
-
-The <code>SetThumbnail</code> method removes the current thumbnail object from the document and inserts a new one.
-
- 
+</table> 
 

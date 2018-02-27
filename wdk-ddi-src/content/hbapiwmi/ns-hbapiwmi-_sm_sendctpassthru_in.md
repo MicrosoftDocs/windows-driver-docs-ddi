@@ -7,8 +7,8 @@ old-location: storage\sm_sendctpassthru_in.htm
 old-project: storage
 ms.assetid: a6dfb1a2-bfc2-4117-8a4e-f52979818289
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PSM_SendCTPassThru_IN structure pointer [Storage Devices], _SM_SendCTPassThru_IN, storage.sm_sendctpassthru_in, SM_SendCTPassThru_IN structure [Storage Devices], SM_SendCTPassThru_IN, PSM_SendCTPassThru_IN, structs-Fibre_87514826-5f0e-4b59-a514-a4e14f60c4bb.xml, hbapiwmi/SM_SendCTPassThru_IN, *PSM_SendCTPassThru_IN, hbapiwmi/PSM_SendCTPassThru_IN
+ms.date: 2/24/2018
+ms.keywords: "*PSM_SendCTPassThru_IN, PSM_SendCTPassThru_IN, PSM_SendCTPassThru_IN structure pointer [Storage Devices], SM_SendCTPassThru_IN, SM_SendCTPassThru_IN structure [Storage Devices], _SM_SendCTPassThru_IN, hbapiwmi/PSM_SendCTPassThru_IN, hbapiwmi/SM_SendCTPassThru_IN, storage.sm_sendctpassthru_in, structs-Fibre_87514826-5f0e-4b59-a514-a4e14f60c4bb.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hbapiwmi.h
-apiname:
+api_name:
 -	SM_SendCTPassThru_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_SendCTPassThru_IN, SM_SendCTPassThru_IN"
+req.typenames: SM_SendCTPassThru_IN, *PSM_SendCTPassThru_IN
 ---
 
 # _SM_SendCTPassThru_IN structure

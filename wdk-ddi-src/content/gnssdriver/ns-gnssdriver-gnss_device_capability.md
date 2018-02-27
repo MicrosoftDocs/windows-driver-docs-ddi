@@ -7,8 +7,8 @@ old-location: sensors\gnss_device_capability.htm
 old-project: sensors
 ms.assetid: F8FA91AC-9085-4C25-8798-CEB9ADB34320
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PGNSS_DEVICE_CAPABILITY structure pointer [Sensor Devices], sensors.gnss_device_capability, gnssdriver/GNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY structure [Sensor Devices], GNSS_DEVICE_CAPABILITY, *PGNSS_DEVICE_CAPABILITY, PGNSS_DEVICE_CAPABILITY, gnssdriver/PGNSS_DEVICE_CAPABILITY
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY structure [Sensor Devices], PGNSS_DEVICE_CAPABILITY, PGNSS_DEVICE_CAPABILITY structure pointer [Sensor Devices], gnssdriver/GNSS_DEVICE_CAPABILITY, gnssdriver/PGNSS_DEVICE_CAPABILITY, sensors.gnss_device_capability"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	gnssdriver.h
-apiname:
+api_name:
 -	GNSS_DEVICE_CAPABILITY
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY"
+req.typenames: GNSS_DEVICE_CAPABILITY, *PGNSS_DEVICE_CAPABILITY
 ---
 
 # GNSS_DEVICE_CAPABILITY structure

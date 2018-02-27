@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ab364ad8-1b04-4ad0-a036-9b1c41e16604
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfMemoryDescriptorTypeInvalid, WDF_MEMORY_DESCRIPTOR_TYPE, wdfmemory/WdfMemoryDescriptorTypeBuffer, wdf.wdf_memory_descriptor_type, DFMemoryObjectRef_3817f18e-3d20-43d6-b6f0-584c1533fe9a.xml, kmdf.wdf_memory_descriptor_type, wdfmemory/WdfMemoryDescriptorTypeHandle, wdfmemory/WdfMemoryDescriptorTypeMdl, WDF_MEMORY_DESCRIPTOR_TYPE enumeration, wdfmemory/WdfMemoryDescriptorTypeInvalid, wdfmemory/WDF_MEMORY_DESCRIPTOR_TYPE, _WDF_MEMORY_DESCRIPTOR_TYPE, WdfMemoryDescriptorTypeBuffer, WdfMemoryDescriptorTypeHandle, WdfMemoryDescriptorTypeMdl
+ms.keywords: DFMemoryObjectRef_3817f18e-3d20-43d6-b6f0-584c1533fe9a.xml, WDF_MEMORY_DESCRIPTOR_TYPE, WDF_MEMORY_DESCRIPTOR_TYPE enumeration, WdfMemoryDescriptorTypeBuffer, WdfMemoryDescriptorTypeHandle, WdfMemoryDescriptorTypeInvalid, WdfMemoryDescriptorTypeMdl, _WDF_MEMORY_DESCRIPTOR_TYPE, kmdf.wdf_memory_descriptor_type, wdf.wdf_memory_descriptor_type, wdfmemory/WDF_MEMORY_DESCRIPTOR_TYPE, wdfmemory/WdfMemoryDescriptorTypeBuffer, wdfmemory/WdfMemoryDescriptorTypeHandle, wdfmemory/WdfMemoryDescriptorTypeInvalid, wdfmemory/WdfMemoryDescriptorTypeMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfmemory.h
-apiname:
+api_name:
 -	WDF_MEMORY_DESCRIPTOR_TYPE
 product: Windows
 targetos: Windows

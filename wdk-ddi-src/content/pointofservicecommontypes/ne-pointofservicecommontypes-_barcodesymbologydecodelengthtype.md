@@ -7,8 +7,8 @@ old-location: pos\barcodesymbologydecodelengthtype.htm
 old-project: pos
 ms.assetid: 155D1C71-7935-4512-8AA2-0EB167FCBF5E
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: DecodeLengthType_Discrete, BarcodeSymbologyDecodeLengthType, DecodeLengthType_AnyLength, pos.barcodesymbologydecodelengthtype, pointofservicecommontypes/DecodeLengthType_AnyLength, pointofservicecommontypes/DecodeLengthType_Discrete, pointofservicecommontypes/DecodeLengthType_Range, DecodeLengthType_Range, _BarcodeSymbologyDecodeLengthType, BarcodeSymbologyDecodeLengthType enumeration, pointofservicecommontypes/BarcodeSymbologyDecodeLengthType
+ms.date: 2/23/2018
+ms.keywords: BarcodeSymbologyDecodeLengthType, BarcodeSymbologyDecodeLengthType enumeration, DecodeLengthType_AnyLength, DecodeLengthType_Discrete, DecodeLengthType_Range, _BarcodeSymbologyDecodeLengthType, pointofservicecommontypes/BarcodeSymbologyDecodeLengthType, pointofservicecommontypes/DecodeLengthType_AnyLength, pointofservicecommontypes/DecodeLengthType_Discrete, pointofservicecommontypes/DecodeLengthType_Range, pos.barcodesymbologydecodelengthtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pointofservicecommontypes.h
-apiname:
+api_name:
 -	BarcodeSymbologyDecodeLengthType
 product: Windows
 targetos: Windows

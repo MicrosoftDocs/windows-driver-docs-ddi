@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a45dede9-6559-4207-a49f-d9627054433a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndistcpoffloadreceivehandler, NdisTcpOffloadReceiveHandler callback function [Network Drivers Starting with Windows Vista], NdisTcpOffloadReceiveHandler, NDIS_TCP_OFFLOAD_RECEIVE_INDICATE, NDIS_TCP_OFFLOAD_RECEIVE_INDICATE, ndischimney/NdisTcpOffloadReceiveHandler, tcp_chim_ndis_func_c79b9638-b69d-49de-b33b-95c0136a45f8.xml
+ms.keywords: NDIS_TCP_OFFLOAD_RECEIVE_INDICATE, NdisTcpOffloadReceiveHandler, NdisTcpOffloadReceiveHandler callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadReceiveHandler, netvista.ndistcpoffloadreceivehandler, tcp_chim_ndis_func_c79b9638-b69d-49de-b33b-95c0136a45f8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ndischimney.h
-apiname:
+api_name:
 -	NdisTcpOffloadReceiveHandler
 product: Windows
 targetos: Windows
@@ -304,16 +304,7 @@ In the
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_return_handler.md">
-   MiniportTcpOffloadReceiveReturn</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 
@@ -321,16 +312,11 @@ In the
 
 
 
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-
-
-
-
-
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 
@@ -339,7 +325,7 @@ In the
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

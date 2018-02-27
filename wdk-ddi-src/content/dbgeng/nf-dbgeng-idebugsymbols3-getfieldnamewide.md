@@ -4,11 +4,11 @@ title: IDebugSymbols3::GetFieldNameWide method
 author: windows-driver-content
 description: The GetFieldNameWide method returns the name of a field within a structure.
 old-location: debugger\getfieldnamewide.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: e27c6af5-c9fa-4fe6-ad39-82ea59a0f27b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GetFieldNameWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetFieldNameWide, GetFieldNameWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetFieldNameWide method, GetFieldNameWide, IDebugSymbols3, dbgeng/IDebugSymbols3::GetFieldNameWide, debugger.getfieldnamewide
+ms.date: 2/23/2018
+ms.keywords: GetFieldNameWide method [Windows Debugging], GetFieldNameWide method [Windows Debugging], IDebugSymbols3 interface, GetFieldNameWide,IDebugSymbols3.GetFieldNameWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetFieldNameWide method, IDebugSymbols3::GetFieldNameWide, dbgeng/IDebugSymbols3::GetFieldNameWide, debugger.getfieldnamewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugSymbols3.GetFieldNameWide
 product: Windows
 targetos: Windows

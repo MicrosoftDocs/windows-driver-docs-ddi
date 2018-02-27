@@ -7,8 +7,8 @@ old-location: dtf\iwdtfsimpleiostressaction2.htm
 old-project: dtf
 ms.assetid: dc594873-2347-4ad8-9748-2d5a1fa4d8a7
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfsimpleiostressaction2, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], described, IWDTFSimpleIOStressAction2, wdtfinterfaces/IWDTFSimpleIOStressAction2, Microsoft.WDTF.IWDTFSimpleIOStressAction2
+ms.date: 2/23/2018
+ms.keywords: IWDTFSimpleIOStressAction2, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFSimpleIOStressAction2, dtf.iwdtfsimpleiostressaction2, wdtfinterfaces/IWDTFSimpleIOStressAction2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtfinterfaces.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WDTFInterfaces.Interop.dll
-apiname:
+api_name:
 -	IWDTFSimpleIOStressAction2
 product: Windows
 targetos: Windows
@@ -52,6 +52,13 @@ req.product: Windows 10 or later.
 
 Defines operations for a simple asynchronous I/O functionality test.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSimpleIOStressAction2</b> interface inherits from <b>IWDTFActionWithCustomActions2</b>. <b>IWDTFSimpleIOStressAction2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -133,21 +140,5 @@ Waits for the completion of any of the asynchronous events.
 
 </td>
 </tr>
-</table>Continues the I/O.
-
-Asynchronously signals the I/O to continue.
-
-Pauses the I/O.
-
-Opens the device.
-
-Asynchronously signals a start event to occur.
-
-Stops the device.
-
-Asynchronously signals the stop event to occur.
-
-Waits for the completion of any of the asynchronous events.
-
- 
+</table> 
 

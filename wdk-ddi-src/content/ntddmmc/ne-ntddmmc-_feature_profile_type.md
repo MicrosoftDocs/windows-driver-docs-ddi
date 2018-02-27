@@ -7,8 +7,8 @@ old-location: storage\feature_profile_type.htm
 old-project: storage
 ms.assetid: 60cce78f-1025-41a7-861d-150ef28376cb
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: ntddmmc/ProfileDDCdRewritable, ProfileDvdPlusR, structs-CD-ROM_89bf20da-a096-4f37-ab24-219533578d34.xml, ProfileDvdRom, ntddmmc/ProfileNonRemovableDisk, ntddmmc/ProfileDvdPlusRW, ntddmmc/ProfileHDDVDRecordable, ntddmmc/ProfileDvdRewritable, *PFEATURE_PROFILE_TYPE, storage.feature_profile_type, FEATURE_PROFILE_TYPE, ntddmmc/ProfileCdRecordable, ProfileDDCdRewritable, ntddmmc/ProfileRemovableDisk, ntddmmc/ProfileCdRewritable, ntddmmc/ProfileInvalid, ntddmmc/ProfileHDDVDRDualLayer, ntddmmc/ProfileDDCdRecordable, ProfileDvdDashRLayerJump, ntddmmc/ProfileHDDVDRam, ntddmmc/ProfileAS_MO, ProfileCdRewritable, ntddmmc/ProfileHDDVDRom, ntddmmc/FEATURE_PROFILE_TYPE, ProfileDvdPlusRW, ProfileHDDVDRam, ntddmmc/ProfileCdrom, ntddmmc/ProfileBDRSequentialWritable, ntddmmc/ProfileDvdDashRLayerJump, ProfileDvdRWSequential, FEATURE_PROFILE_TYPE enumeration [Storage Devices], ProfileDvdPlusRDualLayer, ProfileCdRecordable, ProfileDvdRewritable, ProfileDvdDashRDualLayer, PFEATURE_PROFILE_TYPE, ntddmmc/ProfileDvdRecordable, _FEATURE_PROFILE_TYPE, ntddmmc/ProfileDDCdrom, ntddmmc/ProfileDvdDashRDualLayer, ProfileDDCdrom, ntddmmc/PFEATURE_PROFILE_TYPE, ProfileDvdRecordable, ProfileBDRSequentialWritable, ntddmmc/ProfileBDRewritable, ntddmmc/ProfileDvdRam, ProfileHDDVDRecordable, ntddmmc/ProfileBDRRandomWritable, ntddmmc/ProfileDvdRWSequential, ProfileHDDVDRDualLayer, ProfileCdrom, ntddmmc/ProfileHDDVDRewritable, ProfileHDDVDRom, ntddmmc/ProfileHDDVDRWDualLayer, ProfileNonStandard, ProfileInvalid, ProfileDDCdRecordable, ProfileBDRewritable, ntddmmc/ProfileDvdPlusRDualLayer, ProfileBDRom, ProfileNonRemovableDisk, ntddmmc/ProfileDvdPlusRWDualLayer, ProfileMOErasable, ntddmmc/ProfileMOErasable, ProfileDvdPlusRWDualLayer, ntddmmc/ProfileBDRom, ProfileRemovableDisk, ProfileDvdRam, ProfileBDRRandomWritable, ProfileHDDVDRewritable, ProfileAS_MO, ProfileMOWriteOnce, ntddmmc/ProfileDvdRom, PFEATURE_PROFILE_TYPE enumeration pointer [Storage Devices], ntddmmc/ProfileDvdPlusR, ntddmmc/ProfileNonStandard, ProfileHDDVDRWDualLayer, ntddmmc/ProfileMOWriteOnce
+ms.date: 2/24/2018
+ms.keywords: "*PFEATURE_PROFILE_TYPE, FEATURE_PROFILE_TYPE, FEATURE_PROFILE_TYPE enumeration [Storage Devices], PFEATURE_PROFILE_TYPE, PFEATURE_PROFILE_TYPE enumeration pointer [Storage Devices], ProfileAS_MO, ProfileBDRRandomWritable, ProfileBDRSequentialWritable, ProfileBDRewritable, ProfileBDRom, ProfileCdRecordable, ProfileCdRewritable, ProfileCdrom, ProfileDDCdRecordable, ProfileDDCdRewritable, ProfileDDCdrom, ProfileDvdDashRDualLayer, ProfileDvdDashRLayerJump, ProfileDvdPlusR, ProfileDvdPlusRDualLayer, ProfileDvdPlusRW, ProfileDvdPlusRWDualLayer, ProfileDvdRWSequential, ProfileDvdRam, ProfileDvdRecordable, ProfileDvdRewritable, ProfileDvdRom, ProfileHDDVDRDualLayer, ProfileHDDVDRWDualLayer, ProfileHDDVDRam, ProfileHDDVDRecordable, ProfileHDDVDRewritable, ProfileHDDVDRom, ProfileInvalid, ProfileMOErasable, ProfileMOWriteOnce, ProfileNonRemovableDisk, ProfileNonStandard, ProfileRemovableDisk, _FEATURE_PROFILE_TYPE, ntddmmc/FEATURE_PROFILE_TYPE, ntddmmc/PFEATURE_PROFILE_TYPE, ntddmmc/ProfileAS_MO, ntddmmc/ProfileBDRRandomWritable, ntddmmc/ProfileBDRSequentialWritable, ntddmmc/ProfileBDRewritable, ntddmmc/ProfileBDRom, ntddmmc/ProfileCdRecordable, ntddmmc/ProfileCdRewritable, ntddmmc/ProfileCdrom, ntddmmc/ProfileDDCdRecordable, ntddmmc/ProfileDDCdRewritable, ntddmmc/ProfileDDCdrom, ntddmmc/ProfileDvdDashRDualLayer, ntddmmc/ProfileDvdDashRLayerJump, ntddmmc/ProfileDvdPlusR, ntddmmc/ProfileDvdPlusRDualLayer, ntddmmc/ProfileDvdPlusRW, ntddmmc/ProfileDvdPlusRWDualLayer, ntddmmc/ProfileDvdRWSequential, ntddmmc/ProfileDvdRam, ntddmmc/ProfileDvdRecordable, ntddmmc/ProfileDvdRewritable, ntddmmc/ProfileDvdRom, ntddmmc/ProfileHDDVDRDualLayer, ntddmmc/ProfileHDDVDRWDualLayer, ntddmmc/ProfileHDDVDRam, ntddmmc/ProfileHDDVDRecordable, ntddmmc/ProfileHDDVDRewritable, ntddmmc/ProfileHDDVDRom, ntddmmc/ProfileInvalid, ntddmmc/ProfileMOErasable, ntddmmc/ProfileMOWriteOnce, ntddmmc/ProfileNonRemovableDisk, ntddmmc/ProfileNonStandard, ntddmmc/ProfileRemovableDisk, storage.feature_profile_type, structs-CD-ROM_89bf20da-a096-4f37-ab24-219533578d34.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddmmc.h
-apiname:
+api_name:
 -	FEATURE_PROFILE_TYPE
 product: Windows
 targetos: Windows
@@ -268,5 +268,5 @@ Indicates that the device does not conform to any profile.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FEATURE_PROFILE_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FEATURE_PROFILE_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

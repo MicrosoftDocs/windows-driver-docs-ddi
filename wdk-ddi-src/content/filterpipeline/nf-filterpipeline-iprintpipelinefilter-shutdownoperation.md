@@ -7,8 +7,8 @@ old-location: print\iprintpipelinefilter_shutdownoperation.htm
 old-project: print
 ms.assetid: 4df9721f-19d1-4070-92dd-45d41b7c5374
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: ShutdownOperation method [Print Devices], IPrintPipelineFilter interface, IPrintPipelineFilter interface [Print Devices], ShutdownOperation method, ShutdownOperation method [Print Devices], filterpipeline_5635f15b-3779-42ef-8b8d-3afeab1bab17.xml, IPrintPipelineFilter::ShutdownOperation, ShutdownOperation, IPrintPipelineFilter, filterpipeline/IPrintPipelineFilter::ShutdownOperation, print.iprintpipelinefilter_shutdownoperation
+ms.date: 2/23/2018
+ms.keywords: IPrintPipelineFilter, IPrintPipelineFilter interface [Print Devices], ShutdownOperation method, IPrintPipelineFilter::ShutdownOperation, ShutdownOperation method [Print Devices], ShutdownOperation method [Print Devices], IPrintPipelineFilter interface, ShutdownOperation,IPrintPipelineFilter.ShutdownOperation, filterpipeline/IPrintPipelineFilter::ShutdownOperation, filterpipeline_5635f15b-3779-42ef-8b8d-3afeab1bab17.xml, print.iprintpipelinefilter_shutdownoperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Filterpipeline.h
-apiname:
+api_name:
 -	IPrintPipelineFilter.ShutdownOperation
 product: Windows
 targetos: Windows
@@ -104,5 +104,5 @@ The <code>ShutdownOperation</code> method is called by the pipeline manager if t
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintPipelineFilter::ShutdownOperation method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintPipelineFilter::ShutdownOperation method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

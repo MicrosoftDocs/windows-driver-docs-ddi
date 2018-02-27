@@ -4,11 +4,11 @@ title: "_RAW_PIPE_TYPE"
 author: windows-driver-content
 description: The RAW_PIPE_TYPE data type is used to specify the type of a USB pipe.
 old-location: image\raw_pipe_type.htm
-old-project: Image
+old-project: image
 ms.assetid: 6af4161c-7caa-4d80-8938-303380ee3058
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: USBSCAN_PIPE_INTERRUPT, image.raw_pipe_type, stifnc_6f079c69-737d-4653-9e83-202418853f75.xml, USBSCAN_PIPE_BULK, _RAW_PIPE_TYPE, RAW_PIPE_TYPE, RAW_PIPE_TYPE enumeration [Imaging Devices], USBSCAN_PIPE_ISOCHRONOUS, usbscan/USBSCAN_PIPE_ISOCHRONOUS, usbscan/USBSCAN_PIPE_BULK, USBSCAN_PIPE_CONTROL, usbscan/RAW_PIPE_TYPE, usbscan/USBSCAN_PIPE_CONTROL, usbscan/USBSCAN_PIPE_INTERRUPT
+ms.date: 2/23/2018
+ms.keywords: RAW_PIPE_TYPE, RAW_PIPE_TYPE enumeration [Imaging Devices], USBSCAN_PIPE_BULK, USBSCAN_PIPE_CONTROL, USBSCAN_PIPE_INTERRUPT, USBSCAN_PIPE_ISOCHRONOUS, _RAW_PIPE_TYPE, image.raw_pipe_type, stifnc_6f079c69-737d-4653-9e83-202418853f75.xml, usbscan/RAW_PIPE_TYPE, usbscan/USBSCAN_PIPE_BULK, usbscan/USBSCAN_PIPE_CONTROL, usbscan/USBSCAN_PIPE_INTERRUPT, usbscan/USBSCAN_PIPE_ISOCHRONOUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	usbscan.h
-apiname:
+api_name:
 -	RAW_PIPE_TYPE
 product: Windows
 targetos: Windows

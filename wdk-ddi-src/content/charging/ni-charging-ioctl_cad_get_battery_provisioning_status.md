@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 4E92A629-C080-4C32-8768-D0615F35B161
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: battery.ioctl_cad_get_battery_provisioning_status, IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS control code [Battery Devices], IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS, charging/IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
+ms.keywords: IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS, IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS control code [Battery Devices], battery.ioctl_cad_get_battery_provisioning_status, charging/IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	charging.h
-apiname:
+api_name:
 -	IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWERSOURCEID, POWERSOURCEID"
+req.typenames: POWERSOURCEID, *PPOWERSOURCEID
 ---
 
 # IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*PPOWERSOURCEID, POWERSOURCEID"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

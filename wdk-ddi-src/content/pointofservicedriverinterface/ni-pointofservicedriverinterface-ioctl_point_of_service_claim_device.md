@@ -7,8 +7,8 @@ old-location: pos\ioctl_point_of_service_claim_device.htm
 old-project: pos
 ms.assetid: e9dfa630-d3ac-4228-ae2a-02ff5a0fd558
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: pos.ioctl_point_of_service_claim_device, IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE control code, IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE
+ms.date: 2/23/2018
+ms.keywords: IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE, IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE, pos.ioctl_point_of_service_claim_device
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pointofservicedriverinterface.h
-apiname:
+api_name:
 -	IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: PosPropertyId
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -4,11 +4,11 @@ title: IDebugControl4::SetExceptionFilterSecondCommandWide method
 author: windows-driver-content
 description: The SetExceptionFilterSecondCommandWide method sets the command that will be executed by the debugger engine on the second chance of a specified exception.
 old-location: debugger\setexceptionfiltersecondcommandwide.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: cbc0e98b-eac7-441d-b2b5-512725403210
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: SetExceptionFilterSecondCommandWide method [Windows Debugging], dbgeng/IDebugControl4::SetExceptionFilterSecondCommandWide, IDebugControl4, SetExceptionFilterSecondCommandWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::SetExceptionFilterSecondCommandWide, IDebugControl4 interface [Windows Debugging], SetExceptionFilterSecondCommandWide method, SetExceptionFilterSecondCommandWide, debugger.setexceptionfiltersecondcommandwide
+ms.date: 2/23/2018
+ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], SetExceptionFilterSecondCommandWide method, IDebugControl4::SetExceptionFilterSecondCommandWide, SetExceptionFilterSecondCommandWide method [Windows Debugging], SetExceptionFilterSecondCommandWide method [Windows Debugging], IDebugControl4 interface, SetExceptionFilterSecondCommandWide,IDebugControl4.SetExceptionFilterSecondCommandWide, dbgeng/IDebugControl4::SetExceptionFilterSecondCommandWide, debugger.setexceptionfiltersecondcommandwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugControl4.SetExceptionFilterSecondCommandWide
 product: Windows
 targetos: Windows
@@ -121,7 +121,7 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556678">SetEventFilterCommand</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -137,5 +137,5 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl4::SetExceptionFilterSecondCommandWide method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::SetExceptionFilterSecondCommandWide method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

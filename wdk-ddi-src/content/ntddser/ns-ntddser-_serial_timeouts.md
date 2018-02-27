@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 58DABEF8-5886-4575-BFB0-C10709BBACAE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.serial_timeouts, *PSERIAL_TIMEOUTS, ntddser/SERIAL_TIMEOUTS, PSERIAL_TIMEOUTS, _SERIAL_TIMEOUTS, SERIAL_TIMEOUTS structure [Serial Ports], PSERIAL_TIMEOUTS structure pointer [Serial Ports], SERIAL_TIMEOUTS, ntddser/PSERIAL_TIMEOUTS
+ms.keywords: "*PSERIAL_TIMEOUTS, PSERIAL_TIMEOUTS, PSERIAL_TIMEOUTS structure pointer [Serial Ports], SERIAL_TIMEOUTS, SERIAL_TIMEOUTS structure [Serial Ports], _SERIAL_TIMEOUTS, ntddser/PSERIAL_TIMEOUTS, ntddser/SERIAL_TIMEOUTS, serports.serial_timeouts"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddser.h
-apiname:
+api_name:
 -	SERIAL_TIMEOUTS
 product: Windows
 targetos: Windows
-req.typenames: "*PSERIAL_TIMEOUTS, SERIAL_TIMEOUTS"
+req.typenames: SERIAL_TIMEOUTS, *PSERIAL_TIMEOUTS
 ---
 
 # _SERIAL_TIMEOUTS structure
@@ -159,6 +159,10 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_timeouts.md">IOCTL_SERIAL_SET_TIMEOUTS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 
 
@@ -167,15 +171,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_timeouts.md">IOCTL_SERIAL_SET_TIMEOUTS</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercxgetreadintervaltimeout.md">SerCxGetReadIntervalTimeout</a>
-
-
-
-<a href="https://msdn.microsoft.com/259aa110-b2c3-4583-a3f9-805a42025a81">COMMTIMEOUTS</a>
 
 
 
@@ -184,6 +180,10 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 <a href="https://msdn.microsoft.com/71aa6ab3-d56c-43bc-9932-5b4e61fc4b30">SetCommTimeouts</a>
+
+
+
+<a href="https://msdn.microsoft.com/259aa110-b2c3-4583-a3f9-805a42025a81">COMMTIMEOUTS</a>
 
 
 

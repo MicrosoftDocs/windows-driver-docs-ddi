@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a583c4cb-53c1-4eff-bcfe-c962f736b1f8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportqueryoffload, MiniportQueryOffload callback function [Network Drivers Starting with Windows Vista], MiniportQueryOffload, W_QUERY_OFFLOAD_HANDLER, W_QUERY_OFFLOAD_HANDLER, ndischimney/MiniportQueryOffload, tcp_chim_miniport_func_920f9145-1dda-4899-85d7-845dd545a6bc.xml
+ms.keywords: MiniportQueryOffload, MiniportQueryOffload callback function [Network Drivers Starting with Windows Vista], W_QUERY_OFFLOAD_HANDLER, ndischimney/MiniportQueryOffload, netvista.miniportqueryoffload, tcp_chim_miniport_func_920f9145-1dda-4899-85d7-845dd545a6bc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Ndischimney.h
-apiname:
+api_name:
 -	MiniportQueryOffload
 product: Windows
 targetos: Windows
@@ -163,16 +163,16 @@ The query operation did not succeed. The host stack will terminate the state obj
 
 
 
+<a href="..\ndischimney\nf-ndischimney-ndismqueryoffloadstatecomplete.md">
+   NdisMQueryOffloadStateComplete</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndismqueryoffloadstatecomplete.md">
-   NdisMQueryOffloadStateComplete</a>
 
 
 

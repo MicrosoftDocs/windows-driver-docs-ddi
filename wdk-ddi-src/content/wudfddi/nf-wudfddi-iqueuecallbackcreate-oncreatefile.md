@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f569d306-4e1e-44b7-acb0-6b46abc26b37
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IQueueCallbackCreate::OnCreateFile, OnCreateFile, wdf.iqueuecallbackcreate_oncreatefile, OnCreateFile method, UMDFQueueObjectRef_db0b57a0-6086-4e2a-87bd-71e5a1e4f46d.xml, wudfddi/IQueueCallbackCreate::OnCreateFile, OnCreateFile method, IQueueCallbackCreate interface, IQueueCallbackCreate, IQueueCallbackCreate interface, OnCreateFile method, umdf.iqueuecallbackcreate_oncreatefile
+ms.keywords: IQueueCallbackCreate, IQueueCallbackCreate interface, OnCreateFile method, IQueueCallbackCreate::OnCreateFile, OnCreateFile method, OnCreateFile method, IQueueCallbackCreate interface, OnCreateFile,IQueueCallbackCreate.OnCreateFile, UMDFQueueObjectRef_db0b57a0-6086-4e2a-87bd-71e5a1e4f46d.xml, umdf.iqueuecallbackcreate_oncreatefile, wdf.iqueuecallbackcreate_oncreatefile, wudfddi/IQueueCallbackCreate::OnCreateFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Wudfddi.h
-apiname:
+api_name:
 -	IQueueCallbackCreate.OnCreateFile
 product: Windows
 targetos: Windows
@@ -155,23 +155,27 @@ return;
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackcreate.md">IQueueCallbackCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559088">IWDFIoRequest::GetCreateParameters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554916">IImpersonateCallback::OnImpersonate</a>
 
 
 
@@ -179,11 +183,7 @@ return;
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
 
 
 

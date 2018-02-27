@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 765c34f7-c1c3-4579-b813-0c9845b3fabb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RIL_FWDREASON_NOREPLY, rilapitypes/RIL_FWDREASON_MAX, RIL_FWDREASON_MAX, RILCALLFORWARDINGSETTINGSREASON, rilapitypes/RIL_FWDREASON_ALLCONDITIONAL, RIL_FWDREASON_ALLCONDITIONAL, rilapitypes/RILCALLFORWARDINGSETTINGSREASON, RIL_FWDREASON_MOBILEBUSY, RIL_FWDREASON_NOREPLY, rilapitypes/RIL_FWDREASON_ALLFORWARDING, rilapitypes/RIL_FWDREASON_UNREACHABLE, RIL_FWDREASON_ALLFORWARDING, RILCALLFORWARDINGSETTINGSREASON enumeration [Network Drivers Starting with Windows Vista], netvista.rilcallforwardingsettingsreason_2, RIL_FWDREASON_UNREACHABLE, rilapitypes/RIL_FWDREASON_MOBILEBUSY
+ms.keywords: RILCALLFORWARDINGSETTINGSREASON, RILCALLFORWARDINGSETTINGSREASON enumeration [Network Drivers Starting with Windows Vista], RIL_FWDREASON_ALLCONDITIONAL, RIL_FWDREASON_ALLFORWARDING, RIL_FWDREASON_MAX, RIL_FWDREASON_MOBILEBUSY, RIL_FWDREASON_NOREPLY, RIL_FWDREASON_UNREACHABLE, netvista.rilcallforwardingsettingsreason_2, rilapitypes/RILCALLFORWARDINGSETTINGSREASON, rilapitypes/RIL_FWDREASON_ALLCONDITIONAL, rilapitypes/RIL_FWDREASON_ALLFORWARDING, rilapitypes/RIL_FWDREASON_MAX, rilapitypes/RIL_FWDREASON_MOBILEBUSY, rilapitypes/RIL_FWDREASON_NOREPLY, rilapitypes/RIL_FWDREASON_UNREACHABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILCALLFORWARDINGSETTINGSREASON
 product: Windows
 targetos: Windows

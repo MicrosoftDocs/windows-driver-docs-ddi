@@ -7,8 +7,8 @@ old-location: print\initializemonitorex.htm
 old-project: print
 ms.assetid: 1a619b27-4367-419c-985f-588e3f556425
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: winsplp/InitializeMonitorEx, print.initializemonitorex, spoolfnc_ffa71296-8b2a-48b3-a2c7-9765b9d7aed1.xml, InitializeMonitorEx function [Print Devices], InitializeMonitorEx
+ms.date: 2/23/2018
+ms.keywords: InitializeMonitorEx, InitializeMonitorEx function [Print Devices], print.initializemonitorex, spoolfnc_ffa71296-8b2a-48b3-a2c7-9765b9d7aed1.xml, winsplp/InitializeMonitorEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winsplp.h
-apiname:
+api_name:
 -	InitializeMonitorEx
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: kernel\resourcemanager_completion_information.htm
 old-project: kernel
 ms.assetid: c3b866c2-5908-418e-8744-9f8f22cdc88a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*PRESOURCEMANAGER_COMPLETION_INFORMATION, wdm/RESOURCEMANAGER_COMPLETION_INFORMATION, RESOURCEMANAGER_COMPLETION_INFORMATION structure [Kernel-Mode Driver Architecture], RESOURCEMANAGER_COMPLETION_INFORMATION, kernel.resourcemanager_completion_information, _RESOURCEMANAGER_COMPLETION_INFORMATION, ktm_ref_8a799d2d-405f-4ee9-bb2d-010c131666d0.xml"
+ms.date: 2/24/2018
+ms.keywords: "*PRESOURCEMANAGER_COMPLETION_INFORMATION, RESOURCEMANAGER_COMPLETION_INFORMATION, RESOURCEMANAGER_COMPLETION_INFORMATION structure [Kernel-Mode Driver Architecture], _RESOURCEMANAGER_COMPLETION_INFORMATION, kernel.resourcemanager_completion_information, ktm_ref_8a799d2d-405f-4ee9-bb2d-010c131666d0.xml, wdm/RESOURCEMANAGER_COMPLETION_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	RESOURCEMANAGER_COMPLETION_INFORMATION
 product: Windows
 targetos: Windows

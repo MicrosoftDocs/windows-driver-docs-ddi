@@ -7,8 +7,8 @@ old-location: hid\hid_collection_information.htm
 old-project: hid
 ms.assetid: 47490858-3fe0-4a94-adae-6589cad6a842
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: hidstrct_d61a583e-66c7-4851-ba75-3e5973a95c70.xml, HID_COLLECTION_INFORMATION, *PHID_COLLECTION_INFORMATION, hidclass/HID_COLLECTION_INFORMATION, HID_COLLECTION_INFORMATION structure [Human Input Devices], PHID_COLLECTION_INFORMATION structure pointer [Human Input Devices], hidclass/PHID_COLLECTION_INFORMATION, hid.hid_collection_information, PHID_COLLECTION_INFORMATION, _HID_COLLECTION_INFORMATION
+ms.date: 2/24/2018
+ms.keywords: "*PHID_COLLECTION_INFORMATION, HID_COLLECTION_INFORMATION, HID_COLLECTION_INFORMATION structure [Human Input Devices], PHID_COLLECTION_INFORMATION, PHID_COLLECTION_INFORMATION structure pointer [Human Input Devices], _HID_COLLECTION_INFORMATION, hid.hid_collection_information, hidclass/HID_COLLECTION_INFORMATION, hidclass/PHID_COLLECTION_INFORMATION, hidstrct_d61a583e-66c7-4851-ba75-3e5973a95c70.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hidclass.h
-apiname:
+api_name:
 -	HID_COLLECTION_INFORMATION
 product: Windows
 targetos: Windows
@@ -113,7 +113,7 @@ Kernel-mode drivers can use an <a href="..\hidclass\ni-hidclass-ioctl_hid_get_co
 
 ## -see-also
 
-<a href="..\hidclass\ns-hidclass-_hid_collection_information.md">HID_COLLECTION_INFORMATION</a>
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_collection_information.md">IOCTL_HID_GET_COLLECTION_INFORMATION</a>
 
 
 
@@ -121,7 +121,7 @@ Kernel-mode drivers can use an <a href="..\hidclass\ni-hidclass-ioctl_hid_get_co
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_collection_information.md">IOCTL_HID_GET_COLLECTION_INFORMATION</a>
+<a href="..\hidclass\ns-hidclass-_hid_collection_information.md">HID_COLLECTION_INFORMATION</a>
 
 
 
@@ -129,5 +129,5 @@ Kernel-mode drivers can use an <a href="..\hidclass\ni-hidclass-ioctl_hid_get_co
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HID_COLLECTION_INFORMATION structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HID_COLLECTION_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

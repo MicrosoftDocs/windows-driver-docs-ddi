@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e234a3bf-599b-4ccc-961e-a395b0453658
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILCDMAAVOIDANCEREQUESTYPE enumeration [Network Drivers Starting with Windows Vista], RILCDMAAVOIDANCEREQUESTYPE, rilapitypes/RILCDMAAVOIDANCEREQUESTYPE, RIL_AVOID_SYS_CLR_LIST, netvista.rilcdmaavoidancerequestype_2, rilapitypes/RIL_AVOID_SYS_CLR_LIST
+ms.keywords: RILCDMAAVOIDANCEREQUESTYPE, RILCDMAAVOIDANCEREQUESTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_AVOID_SYS_CLR_LIST, netvista.rilcdmaavoidancerequestype_2, rilapitypes/RILCDMAAVOIDANCEREQUESTYPE, rilapitypes/RIL_AVOID_SYS_CLR_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILCDMAAVOIDANCEREQUESTYPE
 product: Windows
 targetos: Windows

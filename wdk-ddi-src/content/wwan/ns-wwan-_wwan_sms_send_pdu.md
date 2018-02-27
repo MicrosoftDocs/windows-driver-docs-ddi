@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 94d19d5b-8fa5-437d-9359-e35ef103f380
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_WWAN_SMS_SEND_PDU, netvista.wwan_sms_send_pdu, wwan/WWAN_SMS_SEND_PDU, wwan/PWWAN_SMS_SEND_PDU, PWWAN_SMS_SEND_PDU, WWAN_SMS_SEND_PDU, WWAN_SMS_SEND_PDU structure [Network Drivers Starting with Windows Vista], WwanRef_5994a030-78ea-42c2-913a-1b2a9fcc2ea4.xml, PWWAN_SMS_SEND_PDU structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_SMS_SEND_PDU"
+ms.keywords: "*PWWAN_SMS_SEND_PDU, PWWAN_SMS_SEND_PDU, PWWAN_SMS_SEND_PDU structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_SEND_PDU, WWAN_SMS_SEND_PDU structure [Network Drivers Starting with Windows Vista], WwanRef_5994a030-78ea-42c2-913a-1b2a9fcc2ea4.xml, _WWAN_SMS_SEND_PDU, netvista.wwan_sms_send_pdu, wwan/PWWAN_SMS_SEND_PDU, wwan/WWAN_SMS_SEND_PDU"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_SMS_SEND_PDU
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_SMS_SEND_PDU, WWAN_SMS_SEND_PDU"
+req.typenames: WWAN_SMS_SEND_PDU, *PWWAN_SMS_SEND_PDU
 req.product: Windows 10 or later.
 ---
 

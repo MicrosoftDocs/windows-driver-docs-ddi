@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5bf7a1ce-bff0-481e-8053-584fb6319146
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.dot11extihvperformpreassociate, Dot11ExtIhvPerformPreAssociate callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvPerformPreAssociate, DOT11EXTIHV_PERFORM_PRE_ASSOCIATE, DOT11EXTIHV_PERFORM_PRE_ASSOCIATE, wlanihv/Dot11ExtIhvPerformPreAssociate, Native_802.11_IHV_Ext_431e221a-0022-47ad-b2bf-e7580eb889e8.xml
+ms.keywords: DOT11EXTIHV_PERFORM_PRE_ASSOCIATE, Dot11ExtIhvPerformPreAssociate, Dot11ExtIhvPerformPreAssociate callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_431e221a-0022-47ad-b2bf-e7580eb889e8.xml, netvista.dot11extihvperformpreassociate, wlanihv/Dot11ExtIhvPerformPreAssociate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	Dot11ExtIhvPerformPreAssociate
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -208,12 +208,20 @@ For more information about the pre-association operation, see
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
    DOT11EXT_IHV_CONNECTIVITY_PROFILE</a>
+
+
+
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
+
+
+
+<a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 
@@ -222,16 +230,7 @@ For more information about the pre-association operation, see
 
 
 
-<a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a>
-
-
-
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
-   DOT11EXT_IHV_CONNECTIVITY_PROFILE</a>
-
-
-
-<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569122">OID_DOT11_CONNECT_REQUEST</a>
 
 
 
@@ -240,8 +239,7 @@ For more information about the pre-association operation, see
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
-   Dot11ExtPreAssociateCompletion</a>
+<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
 
 
 

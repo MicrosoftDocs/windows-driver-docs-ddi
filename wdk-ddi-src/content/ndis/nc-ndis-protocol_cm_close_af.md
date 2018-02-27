@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a7a02813-62e4-49c5-abb6-a90f4e092b9f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.protocolcmcloseaf, ProtocolCmCloseAf callback function [Network Drivers Starting with Windows Vista], ProtocolCmCloseAf, PROTOCOL_CM_CLOSE_AF, PROTOCOL_CM_CLOSE_AF, ndis/ProtocolCmCloseAf, condis_call_manager_ref_bedb117e-f1a4-4faa-a6fb-c6b8a317c958.xml
+ms.keywords: PROTOCOL_CM_CLOSE_AF, ProtocolCmCloseAf, ProtocolCmCloseAf callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_bedb117e-f1a4-4faa-a6fb-c6b8a317c958.xml, ndis/ProtocolCmCloseAf, netvista.protocolcmcloseaf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Ndis.h
-apiname:
+api_name:
 -	ProtocolCmCloseAf
 product: Windows
 targetos: Windows

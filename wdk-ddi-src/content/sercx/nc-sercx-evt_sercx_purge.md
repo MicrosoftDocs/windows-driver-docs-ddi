@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 036D9AAC-C740-4108-B952-0A4F91585488
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercxpurge, EvtSerCxPurge callback function [Serial Ports], EvtSerCxPurge, EVT_SERCX_PURGE, EVT_SERCX_PURGE, 1/EvtSerCxPurge
+ms.keywords: 1/EvtSerCxPurge, EVT_SERCX_PURGE, EvtSerCxPurge, EvtSerCxPurge callback function [Serial Ports], serports.evtsercxpurge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	1.0\Sercx.h
-apiname:
+api_name:
 -	EvtSerCxPurge
 product: Windows
 targetos: Windows
@@ -187,15 +187,15 @@ For more information about SDV requirements for function declarations, see <a hr
 
 ## -see-also
 
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_purge.md">IOCTL_SERIAL_PURGE</a>
+
+
+
 <a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
-
-
-
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-
-
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

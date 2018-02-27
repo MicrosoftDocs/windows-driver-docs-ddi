@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e87104d2-96e4-4840-8609-8a75247a039a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILDELETEMSGPARAMS structure [Network Drivers Starting with Windows Vista], RILDELETEMSGPARAMS, *LPRILDELETEMSGPARAMS, ntddrilapitypes/RILDELETEMSGPARAMS, netvista.rildeletemsgparams
+ms.keywords: "*LPRILDELETEMSGPARAMS, RILDELETEMSGPARAMS, RILDELETEMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeletemsgparams, ntddrilapitypes/RILDELETEMSGPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddrilapitypes.h
-apiname:
+api_name:
 -	RILDELETEMSGPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILDELETEMSGPARAMS, RILDELETEMSGPARAMS"
+req.typenames: RILDELETEMSGPARAMS, *LPRILDELETEMSGPARAMS
 ---
 
 # RILDELETEMSGPARAMS structure

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EE076D50-8E08-4D98-872F-DA6DBA27B9E5
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfhwaccess/WDF_WRITE_REGISTER_BUFFER_USHORT, wdf.wdf_write_register_buffer_ushort, WDF_WRITE_REGISTER_BUFFER_USHORT function, WDF_WRITE_REGISTER_BUFFER_USHORT
+ms.keywords: WDF_WRITE_REGISTER_BUFFER_USHORT, WDF_WRITE_REGISTER_BUFFER_USHORT function, wdf.wdf_write_register_buffer_ushort, wdfhwaccess/WDF_WRITE_REGISTER_BUFFER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdfhwaccess.h
-apiname:
+api_name:
 -	WDF_WRITE_REGISTER_BUFFER_USHORT
 product: Windows
 targetos: Windows

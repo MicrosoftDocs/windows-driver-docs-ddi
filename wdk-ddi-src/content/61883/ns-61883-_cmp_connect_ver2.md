@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 2A2C1478-0512-4F84-90B9-B9C62B5D44DA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PCMP_CONNECT, CMP_CONNECT_VER2 structure, 61883/CMP_CONNECT_VER2, CMP_CONNECT_VER2, PCMP_CONNECT_VER2, *PCMP_CONNECT_VER2, 61883/PCMP_CONNECT_VER2, IEEE.cmp_connect_ver2, PCMP_CONNECT_VER2 structure pointer, _CMP_CONNECT_VER2, CMP_CONNECT"
+ms.keywords: "*PCMP_CONNECT, *PCMP_CONNECT_VER2, 61883/CMP_CONNECT_VER2, 61883/PCMP_CONNECT_VER2, CMP_CONNECT, CMP_CONNECT_VER2, CMP_CONNECT_VER2 structure, IEEE.cmp_connect_ver2, PCMP_CONNECT_VER2, PCMP_CONNECT_VER2 structure pointer, _CMP_CONNECT_VER2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	61883.h
-apiname:
+api_name:
 -	CMP_CONNECT_VER2
 product: Windows
 targetos: Windows
-req.typenames: "*PCMP_CONNECT_VER2, CMP_CONNECT_VER2"
+req.typenames: CMP_CONNECT_VER2, *PCMP_CONNECT_VER2
 ---
 
 # _CMP_CONNECT_VER2 structure

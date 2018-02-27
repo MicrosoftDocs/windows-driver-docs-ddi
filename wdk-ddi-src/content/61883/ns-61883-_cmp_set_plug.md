@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 2C47165D-9D04-46C8-A1EC-04E6F32AE516
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CMP_SET_PLUG, PCMP_SET_PLUG, 61883/PCMP_SET_PLUG, *PCMP_SET_PLUG, IEEE.cmp_set_plug, _CMP_SET_PLUG, 61883/CMP_SET_PLUG, CMP_SET_PLUG structure [Buses], PCMP_SET_PLUG structure pointer [Buses]
+ms.keywords: "*PCMP_SET_PLUG, 61883/CMP_SET_PLUG, 61883/PCMP_SET_PLUG, CMP_SET_PLUG, CMP_SET_PLUG structure [Buses], IEEE.cmp_set_plug, PCMP_SET_PLUG, PCMP_SET_PLUG structure pointer [Buses], _CMP_SET_PLUG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	61883.h
-apiname:
+api_name:
 -	CMP_SET_PLUG
 product: Windows
 targetos: Windows

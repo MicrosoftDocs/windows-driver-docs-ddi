@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e5e83b2d-e1e4-485e-80bc-ed22567e9af1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ObMakeTemporaryObject, ObMakeTemporaryObject function [Installable File System Drivers], ifsk.obmaketemporaryobject, obref_788c8be6-d015-4a3d-b79c-725808c3677d.xml, ntifs/ObMakeTemporaryObject
+ms.keywords: ObMakeTemporaryObject, ObMakeTemporaryObject function [Installable File System Drivers], ifsk.obmaketemporaryobject, ntifs/ObMakeTemporaryObject, obref_788c8be6-d015-4a3d-b79c-725808c3677d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntifs.h
-apiname:
+api_name:
 -	ObMakeTemporaryObject
 product: Windows
 targetos: Windows

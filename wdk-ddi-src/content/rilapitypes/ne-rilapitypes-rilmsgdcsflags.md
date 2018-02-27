@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1bb5a365-1f8f-41d4-a3f5-6a4a7238de03
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILMSGDCSFLAGS enumeration [Network Drivers Starting with Windows Vista], RILMSGDCSFLAGS, RIL_DCSFLAG_ALL, rilapitypes/RIL_DCSFLAG_DISCARD, netvista.rilmsgdcsflags_2, rilapitypes/RILMSGDCSFLAGS, RIL_DCSFLAG_COMPRESSED, RIL_DCSFLAG_INDICATIONACTIVE, rilapitypes/RIL_DCSFLAG_COMPRESSED, rilapitypes/RIL_DCSFLAG_INDICATIONACTIVE, rilapitypes/RIL_DCSFLAG_ALL, RIL_DCSFLAG_DISCARD
+ms.keywords: RILMSGDCSFLAGS, RILMSGDCSFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_DCSFLAG_ALL, RIL_DCSFLAG_COMPRESSED, RIL_DCSFLAG_DISCARD, RIL_DCSFLAG_INDICATIONACTIVE, netvista.rilmsgdcsflags_2, rilapitypes/RILMSGDCSFLAGS, rilapitypes/RIL_DCSFLAG_ALL, rilapitypes/RIL_DCSFLAG_COMPRESSED, rilapitypes/RIL_DCSFLAG_DISCARD, rilapitypes/RIL_DCSFLAG_INDICATIONACTIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILMSGDCSFLAGS
 product: Windows
 targetos: Windows

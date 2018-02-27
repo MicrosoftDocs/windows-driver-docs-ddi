@@ -7,8 +7,8 @@ old-location: print\wcscheckcolors.htm
 old-project: print
 ms.assetid: 1254b0d4-cb72-4171-b09d-f0bca58a137a
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.wcscheckcolors, colorfnc_abd03c7d-c516-4c81-a0ff-df351cac753e.xml, WcsCheckColors function [Print Devices], WcsCheckColors, icm/WcsCheckColors
+ms.date: 2/23/2018
+ms.keywords: WcsCheckColors, WcsCheckColors function [Print Devices], colorfnc_abd03c7d-c516-4c81-a0ff-df351cac753e.xml, icm/WcsCheckColors, print.wcscheckcolors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Mscms.dll
-apiname:
+api_name:
 -	WcsCheckColors
 product: Windows
 targetos: Windows

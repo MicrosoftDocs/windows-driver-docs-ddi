@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0189a83d-da46-49f1-99b8-8fb920009804
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfiotarget/WdfIoTargetStopped, WDF_IO_TARGET_STATE, wudfddi_types/WdfIoTargetStopped, WDF_IO_TARGET_STATE enumeration, wdfiotarget/WdfIoTargetDeleted, wdfiotarget/WdfIoTargetClosed, WdfIoTargetDeleted, DFIOTargetRef_0dbd75b8-eb70-4996-8a13-80fb90f86dca.xml, wdfiotarget/PWDF_IO_TARGET_STATE, wdf.wdf_io_target_state, WdfIoTargetPurged, wudfddi_types/WdfIoTargetStateUndefined, WdfIoTargetStarted, wudfddi_types/WdfIoTargetClosedForQueryRemove, _WDF_IO_TARGET_STATE, WdfIoTargetClosed, wudfddi_types/WdfIoTargetDeleted, wudfddi_types/WdfIoTargetStarted, wudfddi_types/WdfIoTargetPurged, wudfddi_types/WDF_IO_TARGET_STATE, PWDF_IO_TARGET_STATE enumeration pointer, wdfiotarget/WDF_IO_TARGET_STATE, wdfiotarget/WdfIoTargetStateUndefined, wdfiotarget/WdfIoTargetClosedForQueryRemove, PWDF_IO_TARGET_STATE, WdfIoTargetClosedForQueryRemove, wdfiotarget/WdfIoTargetStarted, wudfddi_types/WdfIoTargetClosed, wdfiotarget/WdfIoTargetPurged, kmdf.wdf_io_target_state, *PWDF_IO_TARGET_STATE, wudfddi_types/PWDF_IO_TARGET_STATE, WdfIoTargetStopped, WdfIoTargetStateUndefined
+ms.keywords: "*PWDF_IO_TARGET_STATE, DFIOTargetRef_0dbd75b8-eb70-4996-8a13-80fb90f86dca.xml, PWDF_IO_TARGET_STATE, PWDF_IO_TARGET_STATE enumeration pointer, WDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE enumeration, WdfIoTargetClosed, WdfIoTargetClosedForQueryRemove, WdfIoTargetDeleted, WdfIoTargetPurged, WdfIoTargetStarted, WdfIoTargetStateUndefined, WdfIoTargetStopped, _WDF_IO_TARGET_STATE, kmdf.wdf_io_target_state, wdf.wdf_io_target_state, wdfiotarget/PWDF_IO_TARGET_STATE, wdfiotarget/WDF_IO_TARGET_STATE, wdfiotarget/WdfIoTargetClosed, wdfiotarget/WdfIoTargetClosedForQueryRemove, wdfiotarget/WdfIoTargetDeleted, wdfiotarget/WdfIoTargetPurged, wdfiotarget/WdfIoTargetStarted, wdfiotarget/WdfIoTargetStateUndefined, wdfiotarget/WdfIoTargetStopped, wudfddi_types/PWDF_IO_TARGET_STATE, wudfddi_types/WDF_IO_TARGET_STATE, wudfddi_types/WdfIoTargetClosed, wudfddi_types/WdfIoTargetClosedForQueryRemove, wudfddi_types/WdfIoTargetDeleted, wudfddi_types/WdfIoTargetPurged, wudfddi_types/WdfIoTargetStarted, wudfddi_types/WdfIoTargetStateUndefined, wudfddi_types/WdfIoTargetStopped"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfiotarget.h
 -	wudfddi_types.h
-apiname:
+api_name:
 -	WDF_IO_TARGET_STATE
 product: Windows
 targetos: Windows

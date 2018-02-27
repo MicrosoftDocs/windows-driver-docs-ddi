@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0f59d104-ef86-4fed-9728-1a01ccb6f879
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILPARTICIPANTOPERATION, RIL_PARTICIPANT_MAX, RIL_PARTICIPANT_REMOVE, netvista.rilparticipantoperation, ntddrilapitypes/RILPARTICIPANTOPERATION, ntddrilapitypes/RIL_PARTICIPANT_REMOVE, RILPARTICIPANTOPERATION enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARTICIPANT_MAX
+ms.keywords: RILPARTICIPANTOPERATION, RILPARTICIPANTOPERATION enumeration [Network Drivers Starting with Windows Vista], RIL_PARTICIPANT_MAX, RIL_PARTICIPANT_REMOVE, netvista.rilparticipantoperation, ntddrilapitypes/RILPARTICIPANTOPERATION, ntddrilapitypes/RIL_PARTICIPANT_MAX, ntddrilapitypes/RIL_PARTICIPANT_REMOVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddrilapitypes.h
-apiname:
+api_name:
 -	RILPARTICIPANTOPERATION
 product: Windows
 targetos: Windows

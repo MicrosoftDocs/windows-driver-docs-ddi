@@ -7,8 +7,8 @@ old-location: dtf\iwdtfactions2.htm
 old-project: dtf
 ms.assetid: cf78bd7f-7d92-421f-8f68-e56db5e7c7d4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfactions2, IWDTFActions2 interface [Windows Device Testing Framework], IWDTFActions2 interface [Windows Device Testing Framework], described, IWDTFActions2, wdtf/IWDTFActions2
+ms.date: 2/23/2018
+ms.keywords: IWDTFActions2, IWDTFActions2 interface [Windows Device Testing Framework], IWDTFActions2 interface [Windows Device Testing Framework], described, dtf.iwdtfactions2, wdtf/IWDTFActions2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtf.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	wdtf.h
-apiname:
+api_name:
 -	IWDTFActions2
 product: Windows
 targetos: Windows
@@ -53,6 +53,14 @@ req.product: Windows 10 or later.
 Defines operations and properties for the collection of actions that the IWDTFTargets::GetInterfaces 
 method returns.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFActions2</b> interface inherits from <b>ITracing</b>. <b>IWDTFActions2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
 
 ## -members
 
@@ -125,23 +133,8 @@ Remove an action from the collection.
 
 </td>
 </tr>
-</table>Add a single action to the collection.
-
-Removes all items from the collection.
-
-Disable object error logging for all actions in the collection.
-
-Disable object logging for all actions in the collection.
-
-Enable object error logging for all actions in the collection.
-
-Enable object logging for all actions in the collection.
-
-Remove an action from the collection.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFActions2</b> interface has these properties.
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFActions2</b> interface has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
@@ -197,30 +190,5 @@ Gets an individual action in the collection.
 
 </td>
 </tr>
-</table>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
-
-
-Read-only
-
-Gets a new iteration variable that the <b>For Each</b> 
-loop structure implicitly uses.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
-
-
-Read-only
-
-Gets the number of actions in this collection.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
-
-
-Read-only
-
-Gets an individual action in the collection.
-
- 
+</table> 
 

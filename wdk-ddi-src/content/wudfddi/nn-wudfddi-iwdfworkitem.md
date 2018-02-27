@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F9EDA26E-92E0-4936-87B7-E1E2A02A9D96
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfworkitem, IWDFWorkItem interface, IWDFWorkItem interface, described, IWDFWorkItem, wudfddi/IWDFWorkItem, umdf.iwdfworkitem
+ms.keywords: IWDFWorkItem, IWDFWorkItem interface, IWDFWorkItem interface, described, umdf.iwdfworkitem, wdf.iwdfworkitem, wudfddi/IWDFWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFWorkItem
 product: Windows
 targetos: Windows
@@ -54,6 +54,13 @@ req.product: Windows 10 or later.
 
 This interface exposes a work item object.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFWorkItem</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>. <b>IWDFWorkItem</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -92,15 +99,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh463891">GetPa
 
 </td>
 </tr>
-</table>
-   The <a href="https://msdn.microsoft.com/library/windows/hardware/hh463883">Enqueue</a> method adds this interface's framework work-item object to the system's work-item queue.
-  
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a> method returns after this interface's work item has been serviced.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh463891">GetParentObject</a> method returns the parent framework object of this interface's  work item.
-
- 
+</table> 
 
 
 ## -see-also

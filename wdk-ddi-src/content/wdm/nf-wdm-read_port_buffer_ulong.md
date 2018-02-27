@@ -7,8 +7,8 @@ old-location: kernel\read_port_buffer_ulong.htm
 old-project: kernel
 ms.assetid: a63028d8-f90e-4f86-81f5-27bc727ecad7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: READ_PORT_BUFFER_ULONG, kernel.read_port_buffer_ulong, wdm/READ_PORT_BUFFER_ULONG, k103_ccd1ed9a-a7f9-4ea4-abc4-44ff756ea274.xml, READ_PORT_BUFFER_ULONG routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: READ_PORT_BUFFER_ULONG, READ_PORT_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], k103_ccd1ed9a-a7f9-4ea4-abc4-44ff756ea274.xml, kernel.read_port_buffer_ulong, wdm/READ_PORT_BUFFER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Hal.lib
 -	Hal.dll
-apiname:
+api_name:
 -	READ_PORT_BUFFER_ULONG
 product: Windows
 targetos: Windows

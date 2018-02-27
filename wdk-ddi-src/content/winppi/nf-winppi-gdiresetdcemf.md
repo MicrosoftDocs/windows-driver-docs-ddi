@@ -7,8 +7,8 @@ old-location: print\gdiresetdcemf.htm
 old-project: print
 ms.assetid: ea97cc22-6057-427d-90c1-4f23ced932aa
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: GdiResetDCEMF function [Print Devices], print.gdiresetdcemf, GdiResetDCEMF, gdifnc_ff066b35-7062-430e-a8b9-bbdef46494a6.xml, winppi/GdiResetDCEMF
+ms.date: 2/23/2018
+ms.keywords: GdiResetDCEMF, GdiResetDCEMF function [Print Devices], gdifnc_ff066b35-7062-430e-a8b9-bbdef46494a6.xml, print.gdiresetdcemf, winppi/GdiResetDCEMF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,16 +29,16 @@ req.type-library:
 req.lib: Gdi32.Lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Gdi32.dll
 -	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 -	GDI32Full.dll
-apiname:
+api_name:
 -	GdiResetDCEMF
 product: Windows
 targetos: Windows

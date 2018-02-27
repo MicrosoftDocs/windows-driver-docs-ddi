@@ -7,8 +7,8 @@ old-location: display\videoportgetdmacontext.htm
 old-project: display
 ms.assetid: 1bd9a156-a366-4f35-956f-d195c41ae722
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: VideoPort_Functions_97335d32-fa36-4130-a050-39fbdfc08517.xml, video/VideoPortGetDmaContext, VideoPortGetDmaContext, VideoPortGetDmaContext function [Display Devices], display.videoportgetdmacontext
+ms.date: 2/24/2018
+ms.keywords: VideoPortGetDmaContext, VideoPortGetDmaContext function [Display Devices], VideoPort_Functions_97335d32-fa36-4130-a050-39fbdfc08517.xml, display.videoportgetdmacontext, video/VideoPortGetDmaContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Videoprt.sys
-apiname:
+api_name:
 -	VideoPortGetDmaContext
 product: Windows
 targetos: Windows

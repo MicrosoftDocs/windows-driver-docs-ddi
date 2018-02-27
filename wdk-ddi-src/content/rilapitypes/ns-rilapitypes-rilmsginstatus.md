@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4dcc198f-5e42-4c60-bfec-19702c9ab674
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILMSGINSTATUS structure [Network Drivers Starting with Windows Vista], RILMSGINSTATUS, netvista.rilmsginstatus_2, rilapitypes/RILMSGINSTATUS, *LPRILMSGINSTATUS
+ms.keywords: "*LPRILMSGINSTATUS, RILMSGINSTATUS, RILMSGINSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilmsginstatus_2, rilapitypes/RILMSGINSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILMSGINSTATUS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILMSGINSTATUS, RILMSGINSTATUS"
+req.typenames: RILMSGINSTATUS, *LPRILMSGINSTATUS
 req.product: Windows 10 or later.
 ---
 

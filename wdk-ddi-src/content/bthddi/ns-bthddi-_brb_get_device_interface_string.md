@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 340e4b9a-9959-4eda-b26b-674f7fca7156
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bth_structs_3d85c9ac-2714-4d6c-8a3e-f8908d8e5be9.xml, _BRB_GET_DEVICE_INTERFACE_STRING, bthddi/_BRB_GET_DEVICE_INTERFACE_STRING, bltooth._brb_get_device_interface_string, _BRB_GET_DEVICE_INTERFACE_STRING structure [Bluetooth Devices]
+ms.keywords: "_BRB_GET_DEVICE_INTERFACE_STRING, _BRB_GET_DEVICE_INTERFACE_STRING structure [Bluetooth Devices], bltooth._brb_get_device_interface_string, bth_structs_3d85c9ac-2714-4d6c-8a3e-f8908d8e5be9.xml, bthddi/_BRB_GET_DEVICE_INTERFACE_STRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	bthddi.h
-apiname:
+api_name:
 -	_BRB_GET_DEVICE_INTERFACE_STRING
 product: Windows
 targetos: Windows
@@ -114,7 +114,7 @@ If the buffer pointed to by the
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 

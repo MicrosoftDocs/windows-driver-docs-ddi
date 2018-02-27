@@ -7,8 +7,8 @@ old-location: print\iprinterpropertybag_getwritestream.htm
 old-project: print
 ms.assetid: 47F535C0-57C7-407B-B47B-188EB6434F2E
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IPrinterPropertyBag interface [Print Devices], GetWriteStream method, printerextension/IPrinterPropertyBag::GetWriteStream, IPrinterPropertyBag::GetWriteStream, IPrinterPropertyBag, GetWriteStream method [Print Devices], IPrinterPropertyBag interface, GetWriteStream, print.iprinterpropertybag_getwritestream, GetWriteStream method [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: GetWriteStream method [Print Devices], GetWriteStream method [Print Devices], IPrinterPropertyBag interface, GetWriteStream,IPrinterPropertyBag.GetWriteStream, IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], GetWriteStream method, IPrinterPropertyBag::GetWriteStream, print.iprinterpropertybag_getwritestream, printerextension/IPrinterPropertyBag::GetWriteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Printerextension.h
-apiname:
+api_name:
 -	IPrinterPropertyBag.GetWriteStream
 product: Windows
 targetos: Windows
@@ -114,5 +114,5 @@ This method does not work with non-stream properties.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterPropertyBag::GetWriteStream method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterPropertyBag::GetWriteStream method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

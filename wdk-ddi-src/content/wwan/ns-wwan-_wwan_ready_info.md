@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6db8730e-a1da-428b-9938-fd9f3f71283a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WwanRef_8ab0bf23-8ad9-4786-bf5e-013a23d9c16e.xml, WWAN_READY_INFO structure [Network Drivers Starting with Windows Vista], netvista.wwan_ready_info, wwan/WWAN_READY_INFO, _WWAN_READY_INFO, WWAN_READY_INFO, PWWAN_READY_INFO structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_READY_INFO, PWWAN_READY_INFO, *PWWAN_READY_INFO
+ms.keywords: "*PWWAN_READY_INFO, PWWAN_READY_INFO, PWWAN_READY_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_READY_INFO, WWAN_READY_INFO structure [Network Drivers Starting with Windows Vista], WwanRef_8ab0bf23-8ad9-4786-bf5e-013a23d9c16e.xml, _WWAN_READY_INFO, netvista.wwan_ready_info, wwan/PWWAN_READY_INFO, wwan/WWAN_READY_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_READY_INFO
 product: Windows
 targetos: Windows
@@ -129,11 +129,7 @@ Miniport drivers should not specify this value until the device ready-state chan
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_emergency_mode.md">WWAN_EMERGENCY_MODE</a>
-
-
-
-<a href="..\wwan\ne-wwan-_wwan_emergency_mode.md">WWAN_EMERGENCY_MODE</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_ready_info.md">NDIS_WWAN_READY_INFO</a>
 
 
 
@@ -141,7 +137,11 @@ Miniport drivers should not specify this value until the device ready-state chan
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_ready_state.md">WWAN_READY_STATE</a>
+<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_emergency_mode.md">WWAN_EMERGENCY_MODE</a>
 
 
 

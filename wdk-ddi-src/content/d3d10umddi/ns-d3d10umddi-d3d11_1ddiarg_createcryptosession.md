@@ -7,8 +7,8 @@ old-location: display\d3d11_1ddiarg_createcryptosession.htm
 old-project: display
 ms.assetid: 9e63a4eb-050b-4f12-ad43-00e62021abd3
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION, display.d3d11_1ddiarg_createcryptosession, D3D11_1DDIARG_CREATECRYPTOSESSION, d3d10umddi/D3D11_1DDIARG_CREATECRYPTOSESSION, D3D11_1DDI_KEY_EXCHANGE_RSAES_OAEP, D3D11_1DDI_CRYPTO_TYPE_AES128_CTR, D3D11_1DDIARG_CREATECRYPTOSESSION structure [Display Devices], D3D11_1DDI_CRYPTO_TYPE_PROPRIETARY
+ms.date: 2/24/2018
+ms.keywords: D3D11_1DDIARG_CREATECRYPTOSESSION, D3D11_1DDIARG_CREATECRYPTOSESSION structure [Display Devices], D3D11_1DDI_CRYPTO_TYPE_AES128_CTR, D3D11_1DDI_CRYPTO_TYPE_PROPRIETARY, D3D11_1DDI_KEY_EXCHANGE_RSAES_OAEP, D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION, d3d10umddi/D3D11_1DDIARG_CREATECRYPTOSESSION, display.d3d11_1ddiarg_createcryptosession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3d10umddi.h
-apiname:
+api_name:
 -	D3D11_1DDIARG_CREATECRYPTOSESSION
 product: Windows
 targetos: Windows

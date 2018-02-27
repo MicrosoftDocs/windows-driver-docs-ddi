@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c4a5eb8-d364-4e5d-9d2f-2605c8c34f63
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.power_action, wudfddi/PowerActionWarmEject, wudfddi/PowerActionNone, PowerActionWarmEject, __MIDL___MIDL_itf_wudfddi_0000_0000_0001, PowerActionHibernate, wudfddi/PowerActionShutdownReset, PPOWER_ACTION, wudfddi/PowerActionShutdownOff, PowerActionSleep, wudfddi/PPOWER_ACTION, *PPOWER_ACTION, PowerActionReserved, wudfddi/PowerActionHibernate, umdfstructs_02db2a83-1907-4aa2-9cdd-af3477e78ddd.xml, POWER_ACTION enumeration, POWER_ACTION, wdf.power_action, wudfddi/PowerActionSleep, wudfddi/PowerActionShutdown, PowerActionShutdown, PowerActionShutdownReset, PPOWER_ACTION enumeration pointer, wudfddi/PowerActionReserved, PowerActionShutdownOff, PowerActionNone, wudfddi/POWER_ACTION
+ms.keywords: "*PPOWER_ACTION, POWER_ACTION, POWER_ACTION enumeration, PPOWER_ACTION, PPOWER_ACTION enumeration pointer, PowerActionHibernate, PowerActionNone, PowerActionReserved, PowerActionShutdown, PowerActionShutdownOff, PowerActionShutdownReset, PowerActionSleep, PowerActionWarmEject, __MIDL___MIDL_itf_wudfddi_0000_0000_0001, umdf.power_action, umdfstructs_02db2a83-1907-4aa2-9cdd-af3477e78ddd.xml, wdf.power_action, wudfddi/POWER_ACTION, wudfddi/PPOWER_ACTION, wudfddi/PowerActionHibernate, wudfddi/PowerActionNone, wudfddi/PowerActionReserved, wudfddi/PowerActionShutdown, wudfddi/PowerActionShutdownOff, wudfddi/PowerActionShutdownReset, wudfddi/PowerActionSleep, wudfddi/PowerActionWarmEject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wudfddi.h
-apiname:
+api_name:
 -	POWER_ACTION
 product: Windows
 targetos: Windows

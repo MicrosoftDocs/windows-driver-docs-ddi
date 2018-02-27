@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b83a786d-0b17-4129-bdd4-86942ad9d3ec
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PUMDF_VERSION_DATA, wudfddi_types/UMDF_VERSION_DATA, UMDF_VERSION_DATA, umdf.umdf_version_data, wudfddi_types/PUMDF_VERSION_DATA, wdf.umdf_version_data, UMDF_VERSION_DATA structure, PUMDF_VERSION_DATA structure pointer, *PUMDF_VERSION_DATA, umdfstructs_b4fe6241-b095-437b-a3f8-e1cf395da8ee.xml
+ms.keywords: "*PUMDF_VERSION_DATA, PUMDF_VERSION_DATA, PUMDF_VERSION_DATA structure pointer, UMDF_VERSION_DATA, UMDF_VERSION_DATA structure, umdf.umdf_version_data, umdfstructs_b4fe6241-b095-437b-a3f8-e1cf395da8ee.xml, wdf.umdf_version_data, wudfddi_types/PUMDF_VERSION_DATA, wudfddi_types/UMDF_VERSION_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wudfddi_types.h
-apiname:
+api_name:
 -	UMDF_VERSION_DATA
 product: Windows
 targetos: Windows
@@ -131,11 +131,11 @@ Header:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558909">IWDFDriver::IsVersionAvailable</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh780327">Microsoft_WDF_UMDF_Version</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558909">IWDFDriver::IsVersionAvailable</a>
 
 
 

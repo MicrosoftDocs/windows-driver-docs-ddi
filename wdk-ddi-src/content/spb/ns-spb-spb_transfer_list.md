@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: DC4E165B-4D3A-4C5F-9B6F-8CB825BAF4FD
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: spb/PSPB_TRANSFER_LIST, PSPB_TRANSFER_LIST, SPB_TRANSFER_LIST structure [Buses], SPB.spb_transfer_list, *PSPB_TRANSFER_LIST, PSPB_TRANSFER_LIST structure pointer [Buses], SPB_TRANSFER_LIST, spb/SPB_TRANSFER_LIST
+ms.keywords: "*PSPB_TRANSFER_LIST, PSPB_TRANSFER_LIST, PSPB_TRANSFER_LIST structure pointer [Buses], SPB.spb_transfer_list, SPB_TRANSFER_LIST, SPB_TRANSFER_LIST structure [Buses], spb/PSPB_TRANSFER_LIST, spb/SPB_TRANSFER_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Spb.h
-apiname:
+api_name:
 -	SPB_TRANSFER_LIST
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_TRANSFER_LIST, SPB_TRANSFER_LIST"
+req.typenames: SPB_TRANSFER_LIST, *PSPB_TRANSFER_LIST
 req.product: Windows 10 or later.
 ---
 

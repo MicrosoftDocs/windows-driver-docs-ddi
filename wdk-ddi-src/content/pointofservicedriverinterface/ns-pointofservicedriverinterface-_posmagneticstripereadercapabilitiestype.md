@@ -7,8 +7,8 @@ old-location: pos\posmagneticstripereadercapabilitiestype.htm
 old-project: pos
 ms.assetid: 8f5ad241-a145-468d-bd69-7956985152b5
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: "_PosMagneticStripeReaderCapabilitiesType, PosMagneticStripeReaderCapabilitiesType, PosMagneticStripeReaderCapabilitiesType structure, pointofservicedriverinterface/PosMagneticStripeReaderCapabilitiesType, pos.posmagneticstripereadercapabilitiestype"
+ms.date: 2/23/2018
+ms.keywords: PosMagneticStripeReaderCapabilitiesType, PosMagneticStripeReaderCapabilitiesType structure, _PosMagneticStripeReaderCapabilitiesType, pointofservicedriverinterface/PosMagneticStripeReaderCapabilitiesType, pos.posmagneticstripereadercapabilitiestype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	PointOfServiceDriverInterface.h
-apiname:
+api_name:
 -	PosMagneticStripeReaderCapabilitiesType
 product: Windows
 targetos: Windows

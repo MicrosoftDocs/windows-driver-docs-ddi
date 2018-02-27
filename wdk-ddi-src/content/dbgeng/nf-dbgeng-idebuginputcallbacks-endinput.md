@@ -4,11 +4,11 @@ title: IDebugInputCallbacks::EndInput method
 author: windows-driver-content
 description: The EndInput callback method is called by the engine to indicate that it is no longer waiting for input.
 old-location: debugger\idebuginputcallbacks_endinput.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: e22b616c-51f6-4687-95b0-eb833ceb9ec3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: EndInput, IDebugInputCallbacks interface [Windows Debugging], EndInput method, ComCallbacks_3e06dd1c-483b-4934-83d5-b00241d9d88b.xml, EndInput method [Windows Debugging], IDebugInputCallbacks interface, IDebugInputCallbacks::EndInput, EndInput method [Windows Debugging], dbgeng/IDebugInputCallbacks::EndInput, IDebugInputCallbacks, debugger.idebuginputcallbacks_endinput
+ms.date: 2/23/2018
+ms.keywords: ComCallbacks_3e06dd1c-483b-4934-83d5-b00241d9d88b.xml, EndInput method [Windows Debugging], EndInput method [Windows Debugging], IDebugInputCallbacks interface, EndInput,IDebugInputCallbacks.EndInput, IDebugInputCallbacks, IDebugInputCallbacks interface [Windows Debugging], EndInput method, IDebugInputCallbacks::EndInput, dbgeng/IDebugInputCallbacks::EndInput, debugger.idebuginputcallbacks_endinput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugInputCallbacks.EndInput
 product: Windows
 targetos: Windows

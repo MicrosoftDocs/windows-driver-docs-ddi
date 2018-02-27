@@ -7,8 +7,8 @@ old-location: stream\bda_ts_selectorinfo.htm
 old-project: stream
 ms.assetid: 34F10EDD-C196-4022-8D03-45A005F17F5F
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.bda_ts_selectorinfo, bdatypes/PBDA_TS_SELECTORINFO, BDA_TS_SELECTORINFO structure [Streaming Media Devices], BDA_TS_SELECTORINFO, PBDA_TS_SELECTORINFO structure pointer [Streaming Media Devices], *PBDA_TS_SELECTORINFO, PBDA_TS_SELECTORINFO, _BDA_TS_SELECTORINFO, bdatypes/BDA_TS_SELECTORINFO
+ms.date: 2/23/2018
+ms.keywords: "*PBDA_TS_SELECTORINFO, BDA_TS_SELECTORINFO, BDA_TS_SELECTORINFO structure [Streaming Media Devices], PBDA_TS_SELECTORINFO, PBDA_TS_SELECTORINFO structure pointer [Streaming Media Devices], _BDA_TS_SELECTORINFO, bdatypes/BDA_TS_SELECTORINFO, bdatypes/PBDA_TS_SELECTORINFO, stream.bda_ts_selectorinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Bdatypes.h
-apiname:
+api_name:
 -	BDA_TS_SELECTORINFO
 product: Windows
 targetos: Windows

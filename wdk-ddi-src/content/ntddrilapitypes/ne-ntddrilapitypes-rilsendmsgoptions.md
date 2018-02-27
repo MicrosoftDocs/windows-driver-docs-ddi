@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 23f2500f-8b0d-4e52-ab7e-b39d8368f78b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RIL_SENDOPT_PERSISTLINK, ntddrilapitypes/RIL_SENDOPT_IMS, RIL_SENDOPT_IMS, netvista.rilsendmsgoptions, ntddrilapitypes/RILSENDMSGOPTIONS, RILSENDMSGOPTIONS, RIL_SENDOPT_PERSISTLINK, RILSENDMSGOPTIONS enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RILSENDMSGOPTIONS, RILSENDMSGOPTIONS enumeration [Network Drivers Starting with Windows Vista], RIL_SENDOPT_IMS, RIL_SENDOPT_PERSISTLINK, netvista.rilsendmsgoptions, ntddrilapitypes/RILSENDMSGOPTIONS, ntddrilapitypes/RIL_SENDOPT_IMS, ntddrilapitypes/RIL_SENDOPT_PERSISTLINK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddrilapitypes.h
-apiname:
+api_name:
 -	RILSENDMSGOPTIONS
 product: Windows
 targetos: Windows

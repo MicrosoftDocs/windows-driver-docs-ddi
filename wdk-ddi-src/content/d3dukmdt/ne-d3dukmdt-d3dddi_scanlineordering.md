@@ -7,8 +7,8 @@ old-location: display\d3dddi_scanlineordering.htm
 old-project: display
 ms.assetid: 6b7b0bbf-79f2-4b0c-a7e6-75dc92bf8a63
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DDDI_SCANLINEORDERING_INTERLACED, d3dukmdt/D3DDDI_SCANLINEORDERING_UNKNOWN, D3DDDI_SCANLINEORDERING_PROGRESSIVE, D3DDDI_SCANLINEORDERING enumeration [Display Devices], D3DDDI_SCANLINEORDERING, display.d3dddi_scanlineordering, d3dukmdt/D3DDDI_SCANLINEORDERING_INTERLACED, D3D_other_Structs_e1e24d3b-d40e-4f20-bd78-94ab7c2d0761.xml, d3dukmdt/D3DDDI_SCANLINEORDERING_PROGRESSIVE, D3DDDI_SCANLINEORDERING_UNKNOWN, d3dukmdt/D3DDDI_SCANLINEORDERING
+ms.date: 2/24/2018
+ms.keywords: D3DDDI_SCANLINEORDERING, D3DDDI_SCANLINEORDERING enumeration [Display Devices], D3DDDI_SCANLINEORDERING_INTERLACED, D3DDDI_SCANLINEORDERING_PROGRESSIVE, D3DDDI_SCANLINEORDERING_UNKNOWN, D3D_other_Structs_e1e24d3b-d40e-4f20-bd78-94ab7c2d0761.xml, d3dukmdt/D3DDDI_SCANLINEORDERING, d3dukmdt/D3DDDI_SCANLINEORDERING_INTERLACED, d3dukmdt/D3DDDI_SCANLINEORDERING_PROGRESSIVE, d3dukmdt/D3DDDI_SCANLINEORDERING_UNKNOWN, display.d3dddi_scanlineordering
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dukmdt.h
-apiname:
+api_name:
 -	D3DDDI_SCANLINEORDERING
 product: Windows
 targetos: Windows

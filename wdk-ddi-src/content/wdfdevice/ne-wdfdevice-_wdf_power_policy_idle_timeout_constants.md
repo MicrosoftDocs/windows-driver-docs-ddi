@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a707c7b9-2fc9-48c8-9492-b911c126668b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/IdleTimeoutDefaultConstant, wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wdf.wdf_power_policy_idle_timeout_constants, wdfdevice/IdleTimeoutDefaultConstant, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, IdleTimeoutDefaultConstant, _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
+ms.keywords: IdleTimeoutDefaultConstant, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wdf.wdf_power_policy_idle_timeout_constants, wdfdevice/IdleTimeoutDefaultConstant, wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/IdleTimeoutDefaultConstant, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfdevice.h
 -	wudfddi_types.h
-apiname:
+api_name:
 -	WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
 product: Windows
 targetos: Windows

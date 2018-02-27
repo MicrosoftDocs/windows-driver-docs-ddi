@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 292f54d6-0555-47d0-97b9-b76e9e08bf78
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilmsgdcsindication_2, RILMSGDCSINDICATION, RIL_DCSINDICATION_FAX, RILMSGDCSINDICATION enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_DCSINDICATION_FAX, RIL_DCSINDICATION_OTHER, rilapitypes/RIL_DCSINDICATION_OTHER, rilapitypes/RIL_DCSINDICATION_MAX, RIL_DCSINDICATION_MAX, rilapitypes/RIL_DCSINDICATION_EMAIL, RIL_DCSINDICATION_EMAIL, rilapitypes/RILMSGDCSINDICATION
+ms.keywords: RILMSGDCSINDICATION, RILMSGDCSINDICATION enumeration [Network Drivers Starting with Windows Vista], RIL_DCSINDICATION_EMAIL, RIL_DCSINDICATION_FAX, RIL_DCSINDICATION_MAX, RIL_DCSINDICATION_OTHER, netvista.rilmsgdcsindication_2, rilapitypes/RILMSGDCSINDICATION, rilapitypes/RIL_DCSINDICATION_EMAIL, rilapitypes/RIL_DCSINDICATION_FAX, rilapitypes/RIL_DCSINDICATION_MAX, rilapitypes/RIL_DCSINDICATION_OTHER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILMSGDCSINDICATION
 product: Windows
 targetos: Windows

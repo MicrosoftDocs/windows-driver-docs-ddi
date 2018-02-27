@@ -7,8 +7,8 @@ old-location: pci\pci_express_uncorrectable_error_mask.htm
 old-project: PCI
 ms.assetid: 0dfc6e49-5556-4163-abef-b00a26a7a2ad
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, pci_struct_309db853-f6d7-4f88-9a73-861d63a1e927.xml, PCI.pci_express_uncorrectable_error_mask, PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union pointer [Buses], *PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union [Buses], _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
+ms.date: 2/24/2018
+ms.keywords: "*PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI.pci_express_uncorrectable_error_mask, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union [Buses], PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union pointer [Buses], _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, pci_struct_309db853-f6d7-4f88-9a73-861d63a1e927.xml, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdm.h
-apiname:
+api_name:
 -	PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
 product: Windows
 targetos: Windows
@@ -94,39 +94,9 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK {
 A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure.
 
 
-#### - Undefined
+#### - CompleterAbort
 
-A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that the reporting of link training errors is masked.
-
-
-#### - Reserved1
-
-Reserved.
-
-
-#### - DataLinkProtocolError
-
-A single bit that indicates that the reporting of data link protocol errors is masked.
-
-
-#### - SurpriseDownError
-
-A single bit that indicates that the reporting of surprise down errors is masked.
-
-
-#### - Reserved2
-
-Reserved.
-
-
-#### - PoisonedTLP
-
-A single bit that indicates that the reporting of poisoned transaction layer packets (TLPs) is masked.
-
-
-#### - FlowControlProtocolError
-
-A single bit that indicates that the reporting of flow control protocol errors is masked.
+A single bit that indicates that the reporting of completer aborts is masked.
 
 
 #### - CompletionTimeout
@@ -134,24 +104,9 @@ A single bit that indicates that the reporting of flow control protocol errors i
 A single bit that indicates that the reporting of completion timeouts is masked.
 
 
-#### - CompleterAbort
+#### - DataLinkProtocolError
 
-A single bit that indicates that the reporting of completer aborts is masked.
-
-
-#### - UnexpectedCompletion
-
-A single bit that indicates that the reporting of unexpected completions is masked.
-
-
-#### - ReceiverOverflow
-
-A single bit that indicates that the reporting of receiver overflows is masked.
-
-
-#### - MalformedTLP
-
-A single bit that indicates that the reporting of malformed transaction layer packets (TLPs) is masked.
+A single bit that indicates that the reporting of data link protocol errors is masked.
 
 
 #### - ECRCError
@@ -159,14 +114,59 @@ A single bit that indicates that the reporting of malformed transaction layer pa
 A single bit that indicates that the reporting of end-to-end cyclic redundancy check (ECRC) errors is masked.
 
 
-#### - UnsupportedRequestError
+#### - FlowControlProtocolError
 
-A single bit that indicates that the reporting of unsupported request errors is masked.
+A single bit that indicates that the reporting of flow control protocol errors is masked.
+
+
+#### - MalformedTLP
+
+A single bit that indicates that the reporting of malformed transaction layer packets (TLPs) is masked.
+
+
+#### - PoisonedTLP
+
+A single bit that indicates that the reporting of poisoned transaction layer packets (TLPs) is masked.
+
+
+#### - ReceiverOverflow
+
+A single bit that indicates that the reporting of receiver overflows is masked.
+
+
+#### - Reserved1
+
+Reserved.
+
+
+#### - Reserved2
+
+Reserved.
 
 
 #### - Reserved3
 
 Reserved.
+
+
+#### - SurpriseDownError
+
+A single bit that indicates that the reporting of surprise down errors is masked.
+
+
+#### - Undefined
+
+A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that the reporting of link training errors is masked.
+
+
+#### - UnexpectedCompletion
+
+A single bit that indicates that the reporting of unexpected completions is masked.
+
+
+#### - UnsupportedRequestError
+
+A single bit that indicates that the reporting of unsupported request errors is masked.
 
 
 ## -remarks
@@ -182,7 +182,7 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure is contained in the <a href="ht
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
 
 
 
@@ -190,7 +190,7 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure is contained in the <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
 
 
@@ -198,5 +198,5 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure is contained in the <a href="ht
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

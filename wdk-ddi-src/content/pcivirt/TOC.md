@@ -2,6 +2,7 @@
 ## [Pcivirt.h](index.md)
 ### [READ_WRITE_MITIGATED_REGISTER callback](../pcivirt/nc-pcivirt-read_write_mitigated_register.md)
 ### [SRIOV_GET_DEVICE_LOCATION callback](../pcivirt/nc-pcivirt-sriov_get_device_location.md)
+### [SRIOV_GET_MMIO_REQUIREMENTS callback](../pcivirt/nc-pcivirt-sriov_get_mmio_requirements.md)
 ### [SRIOV_GET_RESOURCE_FOR_BAR callback](../pcivirt/nc-pcivirt-sriov_get_resource_for_bar.md)
 ### [SRIOV_GET_VENDOR_AND_DEVICE_IDS callback](../pcivirt/nc-pcivirt-sriov_get_vendor_and_device_ids.md)
 ### [SRIOV_QUERY_LUID callback](../pcivirt/nc-pcivirt-sriov_query_luid.md)

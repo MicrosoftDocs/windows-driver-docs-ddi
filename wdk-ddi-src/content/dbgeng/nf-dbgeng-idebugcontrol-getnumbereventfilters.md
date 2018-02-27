@@ -4,11 +4,11 @@ title: IDebugControl::GetNumberEventFilters method
 author: windows-driver-content
 description: The GetNumberEventFilters method returns the number of event filters currently used by the engine.
 old-location: debugger\getnumbereventfilters.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 6bb80c64-bb2e-4388-b1a8-479bdaa8b635
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl::GetNumberEventFilters, IDebugControl3::GetNumberEventFilters, IDebugControl_de1a980a-b0cb-486b-a292-1a9463a231c6.xml, IDebugControl, dbgeng/IDebugControl::GetNumberEventFilters, dbgeng/IDebugControl2::GetNumberEventFilters, IDebugControl2 interface [Windows Debugging], GetNumberEventFilters method, GetNumberEventFilters method [Windows Debugging], IDebugControl3 interface, IDebugControl2::GetNumberEventFilters, IDebugControl3 interface [Windows Debugging], GetNumberEventFilters method, GetNumberEventFilters, GetNumberEventFilters method [Windows Debugging], IDebugControl interface, GetNumberEventFilters method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetNumberEventFilters, IDebugControl interface [Windows Debugging], GetNumberEventFilters method, debugger.getnumbereventfilters, GetNumberEventFilters method [Windows Debugging]
+ms.date: 2/23/2018
+ms.keywords: GetNumberEventFilters method [Windows Debugging], GetNumberEventFilters method [Windows Debugging], IDebugControl interface, GetNumberEventFilters method [Windows Debugging], IDebugControl2 interface, GetNumberEventFilters method [Windows Debugging], IDebugControl3 interface, GetNumberEventFilters,IDebugControl.GetNumberEventFilters, IDebugControl, IDebugControl interface [Windows Debugging], GetNumberEventFilters method, IDebugControl2 interface [Windows Debugging], GetNumberEventFilters method, IDebugControl2::GetNumberEventFilters, IDebugControl3 interface [Windows Debugging], GetNumberEventFilters method, IDebugControl3::GetNumberEventFilters, IDebugControl::GetNumberEventFilters, IDebugControl_de1a980a-b0cb-486b-a292-1a9463a231c6.xml, dbgeng/IDebugControl2::GetNumberEventFilters, dbgeng/IDebugControl3::GetNumberEventFilters, dbgeng/IDebugControl::GetNumberEventFilters, debugger.getnumbereventfilters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugControl.GetNumberEventFilters
 -	IDebugControl2.GetNumberEventFilters
 -	IDebugControl3.GetNumberEventFilters

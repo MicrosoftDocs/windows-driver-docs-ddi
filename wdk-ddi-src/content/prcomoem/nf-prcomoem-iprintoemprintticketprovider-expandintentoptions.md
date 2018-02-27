@@ -7,8 +7,8 @@ old-location: print\iprintoemprintticketprovider_expandintentoptions.htm
 old-project: print
 ms.assetid: c0499a9b-8f02-4a88-bffa-e088e9098a6c
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices], ExpandIntentOptions method, ExpandIntentOptions method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider, ExpandIntentOptions, IPrintOemPrintTicketProvider::ExpandIntentOptions, print_ticket-package_1b344230-a06b-49ca-8b55-eb9c3500c3f1.xml, prcomoem/IPrintOemPrintTicketProvider::ExpandIntentOptions, print.iprintoemprintticketprovider_expandintentoptions, ExpandIntentOptions method [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: ExpandIntentOptions, ExpandIntentOptions method [Print Devices], ExpandIntentOptions method [Print Devices], IPrintOemPrintTicketProvider interface, ExpandIntentOptions,IPrintOemPrintTicketProvider.ExpandIntentOptions, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], ExpandIntentOptions method, IPrintOemPrintTicketProvider::ExpandIntentOptions, prcomoem/IPrintOemPrintTicketProvider::ExpandIntentOptions, print.iprintoemprintticketprovider_expandintentoptions, print_ticket-package_1b344230-a06b-49ca-8b55-eb9c3500c3f1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	prcomoem.h
-apiname:
+api_name:
 -	IPrintOemPrintTicketProvider.ExpandIntentOptions
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

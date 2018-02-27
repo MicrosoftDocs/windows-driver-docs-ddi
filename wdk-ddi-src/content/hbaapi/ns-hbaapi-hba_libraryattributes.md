@@ -7,8 +7,8 @@ old-location: storage\hba_libraryattributes.htm
 old-project: storage
 ms.assetid: 9dc03c5d-5e14-4399-b282-f0385a85a16c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: hbaapi/HBA_LibraryAttributes, PHBA_LIBRARYATTRIBUTES, hbaapi/PHBA_LIBRARYATTRIBUTES, *PHBA_LIBRARYATTRIBUTES, structs-Fibre_1be227ba-622d-475f-811e-2d65de5cbaa8.xml, storage.hba_libraryattributes, PHBA_LIBRARYATTRIBUTES structure pointer [Storage Devices], HBA_LIBRARYATTRIBUTES structure [Storage Devices], HBA_LibraryAttributes, HBA_LibraryAttributes structure [Storage Devices], HBA_LIBRARYATTRIBUTES
+ms.date: 2/24/2018
+ms.keywords: "*PHBA_LIBRARYATTRIBUTES, HBA_LIBRARYATTRIBUTES, HBA_LIBRARYATTRIBUTES structure [Storage Devices], HBA_LibraryAttributes, HBA_LibraryAttributes structure [Storage Devices], PHBA_LIBRARYATTRIBUTES, PHBA_LIBRARYATTRIBUTES structure pointer [Storage Devices], hbaapi/HBA_LibraryAttributes, hbaapi/PHBA_LIBRARYATTRIBUTES, storage.hba_libraryattributes, structs-Fibre_1be227ba-622d-475f-811e-2d65de5cbaa8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hbaapi.h
-apiname:
+api_name:
 -	HBA_LIBRARYATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: "*PHBA_LIBRARYATTRIBUTES, HBA_LIBRARYATTRIBUTES"
+req.typenames: HBA_LIBRARYATTRIBUTES, *PHBA_LIBRARYATTRIBUTES
 ---
 
 # HBA_LibraryAttributes structure

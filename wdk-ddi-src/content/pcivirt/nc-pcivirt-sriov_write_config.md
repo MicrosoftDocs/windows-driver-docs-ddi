@@ -7,8 +7,8 @@ old-location: pci\sriov_write_config.htm
 old-project: PCI
 ms.assetid: 323c8150-ef58-42a4-8c8b-77081ecb64b3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PCI.sriov_write_config, SriovWriteConfig callback function [Buses], SriovWriteConfig, SRIOV_WRITE_CONFIG, SRIOV_WRITE_CONFIG, pcivirt/SriovWriteConfig, *PSRIOV_WRITE_CONFIG callback function pointer [Buses], *PSRIOV_WRITE_CONFIG
+ms.date: 2/24/2018
+ms.keywords: "*PSRIOV_WRITE_CONFIG, *PSRIOV_WRITE_CONFIG callback function pointer [Buses], PCI.sriov_write_config, SRIOV_WRITE_CONFIG, SriovWriteConfig, SriovWriteConfig callback function [Buses], pcivirt/SriovWriteConfig"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Pcivirt.h
-apiname:
+api_name:
 -	*PSRIOV_WRITE_CONFIG
 product: Windows
 targetos: Windows

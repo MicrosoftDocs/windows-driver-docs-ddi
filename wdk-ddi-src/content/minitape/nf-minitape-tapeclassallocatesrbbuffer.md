@@ -7,8 +7,8 @@ old-location: storage\tapeclassallocatesrbbuffer.htm
 old-project: storage
 ms.assetid: f6762d9b-5a3d-49a3-b954-48e4e4a9eacb
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: tapeclas_77717175-fd25-4cbe-8baf-8c326a5ec152.xml, TapeClassAllocateSrbBuffer, minitape/TapeClassAllocateSrbBuffer, TapeClassAllocateSrbBuffer routine [Storage Devices], storage.tapeclassallocatesrbbuffer
+ms.date: 2/24/2018
+ms.keywords: TapeClassAllocateSrbBuffer, TapeClassAllocateSrbBuffer routine [Storage Devices], minitape/TapeClassAllocateSrbBuffer, storage.tapeclassallocatesrbbuffer, tapeclas_77717175-fd25-4cbe-8baf-8c326a5ec152.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Tape.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Tape.lib
 -	Tape.dll
-apiname:
+api_name:
 -	TapeClassAllocateSrbBuffer
 product: Windows
 targetos: Windows
-req.typenames: "*PTAPE_STATUS, TAPE_STATUS"
+req.typenames: TAPE_STATUS, *PTAPE_STATUS
 ---
 
 # TapeClassAllocateSrbBuffer function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0b3aa8d9-1947-4e5e-91d1-6f73ddb3908a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdffile2_retrievecountedfilename, RetrieveCountedFileName method, IWDFFile2 interface, UMDFFileObjectRef_89204c8a-3847-4e03-bf8b-c660b1b2408b.xml, umdf.iwdffile2_retrievecountedfilename, RetrieveCountedFileName method, wudfddi/IWDFFile2::RetrieveCountedFileName, IWDFFile2, IWDFFile2 interface, RetrieveCountedFileName method, IWDFFile2::RetrieveCountedFileName, RetrieveCountedFileName
+ms.keywords: IWDFFile2, IWDFFile2 interface, RetrieveCountedFileName method, IWDFFile2::RetrieveCountedFileName, RetrieveCountedFileName method, RetrieveCountedFileName method, IWDFFile2 interface, RetrieveCountedFileName,IWDFFile2.RetrieveCountedFileName, UMDFFileObjectRef_89204c8a-3847-4e03-bf8b-c660b1b2408b.xml, umdf.iwdffile2_retrievecountedfilename, wdf.iwdffile2_retrievecountedfilename, wudfddi/IWDFFile2::RetrieveCountedFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFFile2.RetrieveCountedFileName
 product: Windows
 targetos: Windows

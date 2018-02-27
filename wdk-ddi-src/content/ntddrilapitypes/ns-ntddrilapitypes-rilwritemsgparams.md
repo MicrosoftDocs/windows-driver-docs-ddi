@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d66d63cd-ec34-4749-9ed9-38ee6d962ea5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILWRITEMSGPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILWRITEMSGPARAMS, ntddrilapitypes/RILWRITEMSGPARAMS, netvista.rilwritemsgparams, RILWRITEMSGPARAMS
+ms.keywords: "*LPRILWRITEMSGPARAMS, RILWRITEMSGPARAMS, RILWRITEMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilwritemsgparams, ntddrilapitypes/RILWRITEMSGPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddrilapitypes.h
-apiname:
+api_name:
 -	RILWRITEMSGPARAMS
 product: Windows
 targetos: Windows

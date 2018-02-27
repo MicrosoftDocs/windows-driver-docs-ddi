@@ -7,8 +7,8 @@ old-location: storage\port_configuration_information__scsi_.htm
 old-project: storage
 ms.assetid: f3c9d851-d30d-4757-82a3-225ee67528c1
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PPORT_CONFIGURATION_INFORMATION structure pointer [Storage Devices], *PPORT_CONFIGURATION_INFORMATION, srb/_PORT_CONFIGURATION_INFORMATION, srb/PPORT_CONFIGURATION_INFORMATION, structs-scsiport_1a472219-5839-443c-a3a1-26c9708b3b18.xml, PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION, storage.port_configuration_information__scsi_, PORT_CONFIGURATION_INFORMATION structure [Storage Devices], _PORT_CONFIGURATION_INFORMATION structure [Storage Devices], _PORT_CONFIGURATION_INFORMATION
+ms.date: 2/24/2018
+ms.keywords: "*PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION structure [Storage Devices], PPORT_CONFIGURATION_INFORMATION, PPORT_CONFIGURATION_INFORMATION structure pointer [Storage Devices], _PORT_CONFIGURATION_INFORMATION, _PORT_CONFIGURATION_INFORMATION structure [Storage Devices], srb/PPORT_CONFIGURATION_INFORMATION, srb/_PORT_CONFIGURATION_INFORMATION, storage.port_configuration_information__scsi_, structs-scsiport_1a472219-5839-443c-a3a1-26c9708b3b18.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	srb.h
-apiname:
+api_name:
 -	PORT_CONFIGURATION_INFORMATION
 product: Windows
 targetos: Windows
@@ -130,7 +130,7 @@ Specifies the system-assigned number of the I/O bus to which the HBA is connecte
 
 ### -field AdapterInterfaceType
 
-Identifies the I/O bus interface. The OS-specific port driver always sets this member to the value specified by the miniport driver in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a> structure.
+Identifies the I/O bus interface. The OS-specific port driver always sets this member to the value specified by the miniport driver in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a> structure.
 
 
 ### -field BusInterruptLevel
@@ -252,32 +252,32 @@ Indicates when <b>TRUE</b> that the system DMA controller should be programmed f
 
 ### -field MapBuffers
 
-Indicates when <b>TRUE</b> that data buffers must be mapped to system virtual address ranges. When <b>FALSE</b> the data buffers do not have to be mapped to system virtual addresses. The OS-specific port driver always sets this member to the value passed in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. A miniport driver can reset this value for any particular HBA it controls. If <b>FALSE</b>, the miniport driver must not access <b>Srb.DataBuffer</b> directly.
+Indicates when <b>TRUE</b> that data buffers must be mapped to system virtual address ranges. When <b>FALSE</b> the data buffers do not have to be mapped to system virtual addresses. The OS-specific port driver always sets this member to the value passed in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. A miniport driver can reset this value for any particular HBA it controls. If <b>FALSE</b>, the miniport driver must not access <b>Srb.DataBuffer</b> directly.
 
 
 ### -field NeedPhysicalAddresses
 
-Indicates when <b>TRUE</b> that the miniport driver must translate virtual addresses to physical addresses, as required by the HBA. When <b>FALSE</b>, the miniport driver does not have to translate virtual addresses to physical addresses. The OS-specific port driver always sets this member to the value passed in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. A miniport driver can reset this value for any particular HBA it controls.
+Indicates when <b>TRUE</b> that the miniport driver must translate virtual addresses to physical addresses, as required by the HBA. When <b>FALSE</b>, the miniport driver does not have to translate virtual addresses to physical addresses. The OS-specific port driver always sets this member to the value passed in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. A miniport driver can reset this value for any particular HBA it controls.
 
 
 ### -field TaggedQueuing
 
-Indicates when <b>TRUE</b> that the HBA supports queuing of multiple requests with SCSI tags. When <b>FALSE</b>, the HBA does not support SCSI-tagged queuing. The OS-specific port driver always sets this member to the value passed in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. A miniport driver can reset this value for any particular HBA it controls.
+Indicates when <b>TRUE</b> that the HBA supports queuing of multiple requests with SCSI tags. When <b>FALSE</b>, the HBA does not support SCSI-tagged queuing. The OS-specific port driver always sets this member to the value passed in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. A miniport driver can reset this value for any particular HBA it controls.
 
 
 ### -field AutoRequestSense
 
-Indicates when <b>TRUE</b> that the HBA supports auto request sense. When <b>FALSE</b> the HBA does not support auto request sense. The OS-specific port driver always sets this member to the value passed in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. A miniport driver can reset this value for any particular HBA it controls. This member must be set to <b>TRUE</b> before the driver of a bus-master HBA calls <a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>.
+Indicates when <b>TRUE</b> that the HBA supports auto request sense. When <b>FALSE</b> the HBA does not support auto request sense. The OS-specific port driver always sets this member to the value passed in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. A miniport driver can reset this value for any particular HBA it controls. This member must be set to <b>TRUE</b> before the driver of a bus-master HBA calls <a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>.
 
 
 ### -field MultipleRequestPerLu
 
-Indicates when <b>TRUE</b> that the HBA supports multiple requests per logical unit. When <b>FALSE</b> the HBA does not support multiple requests per logical unit. The mechanism by which the adapter caches the requests is adapter-defined. The OS-specific port driver always sets this member to the value passed in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. A miniport driver can reset this value for any particular HBA it controls.
+Indicates when <b>TRUE</b> that the HBA supports multiple requests per logical unit. When <b>FALSE</b> the HBA does not support multiple requests per logical unit. The mechanism by which the adapter caches the requests is adapter-defined. The OS-specific port driver always sets this member to the value passed in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. A miniport driver can reset this value for any particular HBA it controls.
 
 
 ### -field ReceiveEvent
 
-Indicates when <b>TRUE</b> that the HBA supports SCSI receive-event operations. When <b>FALSE</b> the HBA does not support SCSI receive-event operations. The OS-specific port driver always sets this member to the value passed in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. A miniport driver can reset this value for any particular HBA it controls.
+Indicates when <b>TRUE</b> that the HBA supports SCSI receive-event operations. When <b>FALSE</b> the HBA does not support SCSI receive-event operations. The OS-specific port driver always sets this member to the value passed in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. A miniport driver can reset this value for any particular HBA it controls.
 
 
 ### -field RealModeInitialized
@@ -302,7 +302,7 @@ Reserved for system use and not available for use by miniport drivers.
 
 ### -field SlotNumber
 
-Specifies the slot number of an HBA with matching values to the <b>VendorId</b> and <b>DeviceId</b> that were specified in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <b>ScsiPortInitialize</b>.
+Specifies the slot number of an HBA with matching values to the <b>VendorId</b> and <b>DeviceId</b> that were specified in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <b>ScsiPortInitialize</b>.
 
 
 ### -field BusInterruptLevel2
@@ -357,7 +357,7 @@ Specifies the size in bytes required by the miniport driver for its per-request 
 
 ### -field Dma64BitAddresses
 
-Indicates that the HBA is able to access addresses greater than 4 GB, or 0x0FFFFFFFF if <b>Dma64BitAddresses</b> contains a value of SCSI_DMA64_MINIPORT_SUPPORTED. Prior to Windows 2000 the ScsiPort set this value based on the contents of <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>. This is no longer the case. In Windows 2000 the value of <b>Dma64BitAddresses</b> is determined by the miniport driver callback <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a> alone. If the operating system supports a 64-bit address space, the port driver passes a value of SCSI_DMA64_SYSTEM_SUPPORTED to the miniport driver in this member. If the HBA described by PORT_CONFIGURATION_INFORMATION also supports address spaces greater than 32-bits then the port/miniport driver is required to support full 64-bit addressing, and the miniport driver's callback <i>HwScsiFindAdapter</i> indicates this by assigning a value of SCSI_DMA64_MINIPORT_SUPPORTED to <b>Dma64BitAddresses</b>, writing over any previous value assigned by the port driver. The correct value must be assigned to the <b>Dma64BitAddresses</b> member before the miniport driver calls <a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>. 
+Indicates that the HBA is able to access addresses greater than 4 GB, or 0x0FFFFFFFF if <b>Dma64BitAddresses</b> contains a value of SCSI_DMA64_MINIPORT_SUPPORTED. Prior to Windows 2000 the ScsiPort set this value based on the contents of <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>. This is no longer the case. In Windows 2000 the value of <b>Dma64BitAddresses</b> is determined by the miniport driver callback <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a> alone. If the operating system supports a 64-bit address space, the port driver passes a value of SCSI_DMA64_SYSTEM_SUPPORTED to the miniport driver in this member. If the HBA described by PORT_CONFIGURATION_INFORMATION also supports address spaces greater than 32-bits then the port/miniport driver is required to support full 64-bit addressing, and the miniport driver's callback <i>HwScsiFindAdapter</i> indicates this by assigning a value of SCSI_DMA64_MINIPORT_SUPPORTED to <b>Dma64BitAddresses</b>, writing over any previous value assigned by the port driver. The correct value must be assigned to the <b>Dma64BitAddresses</b> member before the miniport driver calls <a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>. 
 
 
 ### -field ResetTargetSupported
@@ -377,7 +377,7 @@ Indicates when <b>TRUE</b> that the miniport driver responds to Windows Manageme
 
 #### - (*AccessRanges)
 
-Pointer to an array of <a href="..\strmini\ns-strmini-_access_range.md">ACCESS_RANGE</a>-type elements. The given <b>NumberOfAccessRanges</b> determines how many elements must be configured with bus-relative range values. The <b>AccessRanges</b> pointer must be <b>NULL</b> if <b>NumberOfAccessRanges</b> is zero. If possible, the OS-specific port driver initializes this member's elements, possibly from the registry or possibly by interrogating an I/O bus, for an HBA it found by using the miniport driver's specified <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>. Otherwise, the port driver initializes all values within array elements to zero.
+Pointer to an array of <a href="..\strmini\ns-strmini-_access_range.md">ACCESS_RANGE</a>-type elements. The given <b>NumberOfAccessRanges</b> determines how many elements must be configured with bus-relative range values. The <b>AccessRanges</b> pointer must be <b>NULL</b> if <b>NumberOfAccessRanges</b> is zero. If possible, the OS-specific port driver initializes this member's elements, possibly from the registry or possibly by interrogating an I/O bus, for an HBA it found by using the miniport driver's specified <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>. Otherwise, the port driver initializes all values within array elements to zero.
 
 If any access range element is set to nonzero values on entry to the miniport driver's <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a> routine, the miniport driver <i>must</i> map the supplied addresses with <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a> and use the corresponding logical addresses to verify whether that HBA is one it supports. If the input <b>AccessRanges</b> have nonzero values supplied, a miniport driver <i>should neverattempt</i> to scan the I/O bus for HBAs it supports using a set of driver-devised port/memory addresses that its HBA(s) might use.
 
@@ -407,23 +407,15 @@ This means that if the miniport driver needs additional space in either the LUN 
 
 ## -see-also
 
-<a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
-
-
-
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
+<a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
 
 
 
 <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
 
 
 
@@ -435,7 +427,15 @@ This means that if the miniport driver needs additional space in either the LUN 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
+<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
+
+
+
+<a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
 
 
 
@@ -443,5 +443,5 @@ This means that if the miniport driver needs additional space in either the LUN 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20_PORT_CONFIGURATION_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20_PORT_CONFIGURATION_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

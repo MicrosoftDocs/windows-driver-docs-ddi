@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0a1afab7-66e3-4880-9124-abf411682eaa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILDISPLAYINFOTYPE, rilapitypes/RILDISPLAYINFOTYPE, RILDISPLAYINFOTYPE enumeration [Network Drivers Starting with Windows Vista], netvista.rildisplayinfotype_2
+ms.keywords: RILDISPLAYINFOTYPE, RILDISPLAYINFOTYPE enumeration [Network Drivers Starting with Windows Vista], netvista.rildisplayinfotype_2, rilapitypes/RILDISPLAYINFOTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILDISPLAYINFOTYPE
 product: Windows
 targetos: Windows

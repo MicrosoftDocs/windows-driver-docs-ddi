@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 76b65ada-06b8-411e-83e9-62088f697f02
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SD.ioctl_sffdisk_device_password, IOCTL_SFFDISK_DEVICE_PASSWORD control code [Buses], IOCTL_SFFDISK_DEVICE_PASSWORD, sffdisk/IOCTL_SFFDISK_DEVICE_PASSWORD, sd-ioctls_409f2592-46a6-4658-bc4f-d15c10452007.xml
+ms.keywords: IOCTL_SFFDISK_DEVICE_PASSWORD, IOCTL_SFFDISK_DEVICE_PASSWORD control code [Buses], SD.ioctl_sffdisk_device_password, sd-ioctls_409f2592-46a6-4658-bc4f-d15c10452007.xml, sffdisk/IOCTL_SFFDISK_DEVICE_PASSWORD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	sffdisk.h
-apiname:
+api_name:
 -	IOCTL_SFFDISK_DEVICE_PASSWORD
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

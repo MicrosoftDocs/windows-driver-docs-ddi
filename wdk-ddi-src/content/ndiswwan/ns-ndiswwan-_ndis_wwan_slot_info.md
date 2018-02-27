@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 21D9DE55-2A26-467A-B119-8AFD4B47A4FD
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_wwan_slot_info_status, PNDIS_WWAN_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SLOT_INFO structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SLOT_INFO, NDIS_WWAN_SLOT_INFO, _NDIS_WWAN_SLOT_INFO, PNDIS_WWAN_SLOT_INFO, ndiswwan/NDIS_WWAN_SLOT_INFO, *PNDIS_WWAN_SLOT_INFO
+ms.keywords: "*PNDIS_WWAN_SLOT_INFO, NDIS_WWAN_SLOT_INFO, NDIS_WWAN_SLOT_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SLOT_INFO, PNDIS_WWAN_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SLOT_INFO, ndiswwan/NDIS_WWAN_SLOT_INFO, ndiswwan/PNDIS_WWAN_SLOT_INFO, netvista.ndis_wwan_slot_info_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndiswwan.h
-apiname:
+api_name:
 -	NDIS_WWAN_SLOT_INFO
 product: Windows
 targetos: Windows
@@ -211,11 +211,11 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_slot_info.md">WWAN_SLOT_INFO</a> stru
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/6267D480-5055-4A7A-B2A0-F4DF9154DCD7">OID_WWAN_SLOT_INFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/FA1E16E4-56A3-4401-875F-D75DD01FE75D">NDIS_STATUS_WWAN_SLOT_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/6267D480-5055-4A7A-B2A0-F4DF9154DCD7">OID_WWAN_SLOT_INFO</a>
 
 
 

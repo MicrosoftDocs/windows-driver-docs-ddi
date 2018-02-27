@@ -4,11 +4,11 @@ title: PDEBUG_EXTENSION_KNOWN_STRUCT_EX
 author: windows-driver-content
 description: The DebugExtensionKnownStructEx callback function is called by extensions in order to dump structures that are well known to them.
 old-location: debugger\debugextensionknownstructex.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 830BCD4C-0C3A-45F8-84E9-4F8596B8E1E8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.debugextensionknownstructex, DebugExtensionKnownStructEx, DebugExtensionKnownStructEx callback function [Windows Debugging], DebugExtensionKnownStructEx, PDEBUG_EXTENSION_KNOWN_STRUCT_EX, PDEBUG_EXTENSION_KNOWN_STRUCT_EX, dbgeng/DebugExtensionKnownStructEx
+ms.date: 2/23/2018
+ms.keywords: DebugExtensionKnownStructEx, DebugExtensionKnownStructEx callback function [Windows Debugging], PDEBUG_EXTENSION_KNOWN_STRUCT_EX, dbgeng/DebugExtensionKnownStructEx, debugger.debugextensionknownstructex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Dbgeng.h
-apiname:
+api_name:
 -	DebugExtensionKnownStructEx
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: stream\avstrminipinhandshake.htm
 old-project: stream
 ms.assetid: cebeceb1-f845-42cf-9a8b-3414e4a420b6
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.avstrminipinhandshake, AVStrMiniPinHandshake, AVStrMiniPinHandshake routine [Streaming Media Devices], AVStrMiniPinHandshake, PFNKSPINHANDSHAKE, PFNKSPINHANDSHAKE, ks/AVStrMiniPinHandshake, avstclbk_3a87dcb0-5825-4ba0-b9b3-dfb6a1af20a2.xml
+ms.date: 2/23/2018
+ms.keywords: AVStrMiniPinHandshake, AVStrMiniPinHandshake routine [Streaming Media Devices], PFNKSPINHANDSHAKE, avstclbk_3a87dcb0-5825-4ba0-b9b3-dfb6a1af20a2.xml, ks/AVStrMiniPinHandshake, stream.avstrminipinhandshake
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	AVStrMiniPinHandshake
 product: Windows
 targetos: Windows
@@ -87,6 +87,11 @@ NTSTATUS AVStrMiniPinHandshake(
 
 
 
+#### - Data [in]
+
+Pointer to a caller-allocated buffer. If the pin supports the requested protocol, <i>AVStrMiniPinHandshake</i> should fill in this parameter with a pointer to a <a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a> structure.
+
+
 #### - Irp [in]
 
 Pointer to the IRP containing the handshake request.
@@ -117,9 +122,11 @@ The minidriver specifies this routine's address in the <i>Handshake</i> paramete
 
 ## -see-also
 
+<a href="..\ks\nf-ks-kspinregisterhandshakecallback.md">KsPinRegisterHandshakeCallback</a>
+
+
+
 <a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a>
-
-
 
 
 
@@ -127,15 +134,9 @@ The minidriver specifies this routine's address in the <i>Handshake</i> paramete
 
 
 
-<a href="..\ks\nf-ks-kspinregisterhandshakecallback.md">KsPinRegisterHandshakeCallback</a>
-
-
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSPINHANDSHAKE routine%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSPINHANDSHAKE routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 394DB287-56E2-46D0-B2FF-2CCF22F619F8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: acpi.ioctl_acpi_eval_method_v1, IOCTL_ACPI_EVAL_METHOD_V1 control code [ACPI Devices], IOCTL_ACPI_EVAL_METHOD_V1, acpiioct/IOCTL_ACPI_EVAL_METHOD_V1
+ms.keywords: IOCTL_ACPI_EVAL_METHOD_V1, IOCTL_ACPI_EVAL_METHOD_V1 control code [ACPI Devices], acpi.ioctl_acpi_eval_method_v1, acpiioct/IOCTL_ACPI_EVAL_METHOD_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Acpiioct.h
-apiname:
+api_name:
 -	IOCTL_ACPI_EVAL_METHOD_V1
 product: Windows
 targetos: Windows
-req.typenames: "*PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS"
+req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 ---
 
 # IOCTL_ACPI_EVAL_METHOD_V1 IOCTL
@@ -107,10 +107,6 @@ The size, in bytes, of the output buffer.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
@@ -119,7 +115,11 @@ The size, in bytes, of the output buffer.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: kernel\silo_monitor_terminate_callback.htm
 old-project: kernel
 ms.assetid: 1F87D6AC-3603-4A34-BAAB-8B43ADF9E595
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: kernel.silo_monitor_terminate_callback, TerminateCallback callback function [Kernel-Mode Driver Architecture], TerminateCallback, SILO_MONITOR_TERMINATE_CALLBACK, SILO_MONITOR_TERMINATE_CALLBACK, ntddk/TerminateCallback
+ms.date: 2/24/2018
+ms.keywords: SILO_MONITOR_TERMINATE_CALLBACK, TerminateCallback, TerminateCallback callback function [Kernel-Mode Driver Architecture], kernel.silo_monitor_terminate_callback, ntddk/TerminateCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ntddk.h
-apiname:
+api_name:
 -	TerminateCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA"
+req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 ---
 
 # SILO_MONITOR_TERMINATE_CALLBACK callback

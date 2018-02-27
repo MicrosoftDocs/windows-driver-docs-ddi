@@ -7,8 +7,8 @@ old-location: display\video_pointer_position.htm
 old-project: display
 ms.assetid: 07586be9-a8bc-4149-8037-7b649a75a818
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: VIDEO_POINTER_POSITION structure [Display Devices], Video_Structs_72aeeda6-58eb-419e-95d2-35c1b66adf36.xml, ntddvdeo/PVIDEO_POINTER_POSITION, ntddvdeo/VIDEO_POINTER_POSITION, PVIDEO_POINTER_POSITION, _VIDEO_POINTER_POSITION, PVIDEO_POINTER_POSITION structure pointer [Display Devices], display.video_pointer_position, VIDEO_POINTER_POSITION, *PVIDEO_POINTER_POSITION
+ms.date: 2/24/2018
+ms.keywords: "*PVIDEO_POINTER_POSITION, PVIDEO_POINTER_POSITION, PVIDEO_POINTER_POSITION structure pointer [Display Devices], VIDEO_POINTER_POSITION, VIDEO_POINTER_POSITION structure [Display Devices], Video_Structs_72aeeda6-58eb-419e-95d2-35c1b66adf36.xml, _VIDEO_POINTER_POSITION, display.video_pointer_position, ntddvdeo/PVIDEO_POINTER_POSITION, ntddvdeo/VIDEO_POINTER_POSITION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddvdeo.h
-apiname:
+api_name:
 -	VIDEO_POINTER_POSITION
 product: Windows
 targetos: Windows

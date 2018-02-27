@@ -7,8 +7,8 @@ old-location: storage\ufs_power_descriptor.htm
 old-project: storage
 ms.assetid: FCF9DCD1-2C04-47E3-97C5-7ACC28B28C6C
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PUFS_POWER_DESCRIPTOR structure pointer [Storage Devices], ufs/PUFS_POWER_DESCRIPTOR, *PUFS_POWER_DESCRIPTOR, UFS_POWER_DESCRIPTOR, ufs/UFS_POWER_DESCRIPTOR, storage.ufs_power_descriptor, PUFS_POWER_DESCRIPTOR, UFS_POWER_DESCRIPTOR structure [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PUFS_POWER_DESCRIPTOR, PUFS_POWER_DESCRIPTOR, PUFS_POWER_DESCRIPTOR structure pointer [Storage Devices], UFS_POWER_DESCRIPTOR, UFS_POWER_DESCRIPTOR structure [Storage Devices], storage.ufs_power_descriptor, ufs/PUFS_POWER_DESCRIPTOR, ufs/UFS_POWER_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ufs.h
-apiname:
+api_name:
 -	UFS_POWER_DESCRIPTOR
 product: Windows
 targetos: Windows

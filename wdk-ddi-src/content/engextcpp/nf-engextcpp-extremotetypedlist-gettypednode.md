@@ -4,11 +4,11 @@ title: ExtRemoteTypedList::GetTypedNode method
 author: windows-driver-content
 description: The GetTypedNode method returns the current list item.
 old-location: debugger\extremotetypedlist_gettypednode.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: f74090c9-4e15-4d6c-bb62-b8d5c56d5a1c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GetTypedNode method [Windows Debugging], GetTypedNode, ExtRemoteTypedList class [Windows Debugging], GetTypedNode method, ExtRemoteTypedList::GetTypedNode, EngExtCpp_Ref_d00ee135-bef4-4326-97e5-374d52fd20a6.xml, debugger.extremotetypedlist_gettypednode, ExtRemoteTypedList, GetTypedNode method [Windows Debugging], ExtRemoteTypedList class
+ms.date: 2/23/2018
+ms.keywords: EngExtCpp_Ref_d00ee135-bef4-4326-97e5-374d52fd20a6.xml, ExtRemoteTypedList, ExtRemoteTypedList class [Windows Debugging], GetTypedNode method, ExtRemoteTypedList::GetTypedNode, GetTypedNode method [Windows Debugging], GetTypedNode method [Windows Debugging], ExtRemoteTypedList class, GetTypedNode,ExtRemoteTypedList.GetTypedNode, debugger.extremotetypedlist_gettypednode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	engextcpp.hpp
-apiname:
+api_name:
 -	ExtRemoteTypedList.GetTypedNode
 product: Windows
 targetos: Windows

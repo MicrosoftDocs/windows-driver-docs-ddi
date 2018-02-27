@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8f38616e-498b-485e-84c8-de62477b5871
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetReadParameters method, IWDFIoRequestCompletionParams, GetReadParameters method, IWDFIoRequestCompletionParams interface, umdf.iwdfiorequestcompletionparams_getreadparameters, GetReadParameters, IWDFIoRequestCompletionParams interface, GetReadParameters method, IWDFIoRequestCompletionParams::GetReadParameters, wudfddi/IWDFIoRequestCompletionParams::GetReadParameters, UMDFRequestObjectRef_008ca4d6-ddbe-4288-9b5d-d6ccb35518db.xml, wdf.iwdfiorequestcompletionparams_getreadparameters
+ms.keywords: GetReadParameters method, GetReadParameters method, IWDFIoRequestCompletionParams interface, GetReadParameters,IWDFIoRequestCompletionParams.GetReadParameters, IWDFIoRequestCompletionParams, IWDFIoRequestCompletionParams interface, GetReadParameters method, IWDFIoRequestCompletionParams::GetReadParameters, UMDFRequestObjectRef_008ca4d6-ddbe-4288-9b5d-d6ccb35518db.xml, umdf.iwdfiorequestcompletionparams_getreadparameters, wdf.iwdfiorequestcompletionparams_getreadparameters, wudfddi/IWDFIoRequestCompletionParams::GetReadParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFIoRequestCompletionParams.GetReadParameters
 product: Windows
 targetos: Windows

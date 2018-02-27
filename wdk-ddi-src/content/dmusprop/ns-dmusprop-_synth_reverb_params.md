@@ -7,8 +7,8 @@ old-location: audio\synth_reverb_params.htm
 old-project: audio
 ms.assetid: 9537D56C-920E-478E-9061-C4909240D7A0
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: dmusprop/PSYNTH_REVERB_PARAMS, dmusprop/SYNTH_REVERB_PARAMS, *PSYNTH_REVERB_PARAMS, SYNTH_REVERB_PARAMS, PSYNTH_REVERB_PARAMS, audio.synth_reverb_params, SYNTH_REVERB_PARAMS structure [Audio Devices], _SYNTH_REVERB_PARAMS, PSYNTH_REVERB_PARAMS structure pointer [Audio Devices]
+ms.date: 2/22/2018
+ms.keywords: "*PSYNTH_REVERB_PARAMS, PSYNTH_REVERB_PARAMS, PSYNTH_REVERB_PARAMS structure pointer [Audio Devices], SYNTH_REVERB_PARAMS, SYNTH_REVERB_PARAMS structure [Audio Devices], _SYNTH_REVERB_PARAMS, audio.synth_reverb_params, dmusprop/PSYNTH_REVERB_PARAMS, dmusprop/SYNTH_REVERB_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Dmusprop.h
-apiname:
+api_name:
 -	SYNTH_REVERB_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_REVERB_PARAMS, SYNTH_REVERB_PARAMS"
+req.typenames: SYNTH_REVERB_PARAMS, *PSYNTH_REVERB_PARAMS
 ---
 
 # _SYNTH_REVERB_PARAMS structure

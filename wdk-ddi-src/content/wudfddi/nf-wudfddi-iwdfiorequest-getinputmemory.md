@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: be3f965b-69fe-4d5e-b1b6-3a370603cd7b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetInputMemory, IWDFIoRequest interface, GetInputMemory method, UMDFRequestObjectRef_80c18660-b423-42b0-879d-a8732d2e7796.xml, umdf.iwdfiorequest_getinputmemory, IWDFIoRequest, GetInputMemory method, wudfddi/IWDFIoRequest::GetInputMemory, wdf.iwdfiorequest_getinputmemory, GetInputMemory method, IWDFIoRequest interface, IWDFIoRequest::GetInputMemory
+ms.keywords: GetInputMemory method, GetInputMemory method, IWDFIoRequest interface, GetInputMemory,IWDFIoRequest.GetInputMemory, IWDFIoRequest, IWDFIoRequest interface, GetInputMemory method, IWDFIoRequest::GetInputMemory, UMDFRequestObjectRef_80c18660-b423-42b0-879d-a8732d2e7796.xml, umdf.iwdfiorequest_getinputmemory, wdf.iwdfiorequest_getinputmemory, wudfddi/IWDFIoRequest::GetInputMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFIoRequest.GetInputMemory
 product: Windows
 targetos: Windows
@@ -113,15 +113,15 @@ For a code example of how to use the <b>GetInputMemory</b> method, see <a href="
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560152">IWDFMemory::GetDataBuffer</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
 
 
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560152">IWDFMemory::GetDataBuffer</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: print\iprintoemps_disabledriver.htm
 old-project: print
 ms.assetid: 4fa25706-dc79-45fd-a805-7b9d110213ed
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print_unidrv-pscript_rendering_f8c7413c-104b-4509-9909-89e97acc0069.xml, DisableDriver method [Print Devices], IPrintOemPS interface, IPrintOemPS interface [Print Devices], DisableDriver method, IPrintOemPS, DisableDriver method [Print Devices], IPrintOemPS::DisableDriver, prcomoem/IPrintOemPS::DisableDriver, print.iprintoemps_disabledriver, DisableDriver
+ms.date: 2/23/2018
+ms.keywords: DisableDriver method [Print Devices], DisableDriver method [Print Devices], IPrintOemPS interface, DisableDriver,IPrintOemPS.DisableDriver, IPrintOemPS, IPrintOemPS interface [Print Devices], DisableDriver method, IPrintOemPS::DisableDriver, prcomoem/IPrintOemPS::DisableDriver, print.iprintoemps_disabledriver, print_unidrv-pscript_rendering_f8c7413c-104b-4509-9909-89e97acc0069.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Prcomoem.h
-apiname:
+api_name:
 -	IPrintOemPS.DisableDriver
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

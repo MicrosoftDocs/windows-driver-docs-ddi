@@ -7,8 +7,8 @@ old-location: dtf\iwdtfpnpaction2.htm
 old-project: dtf
 ms.assetid: 02eb7351-fde0-4738-be96-53f8cda67d40
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfpnpaction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], IWDTFPNPAction2 interface [Windows Device Testing Framework], described, IWDTFPNPAction2, wdtfpnpaction/IWDTFPNPAction2, Microsoft.WDTF.IWDTFPNPAction2
+ms.date: 2/23/2018
+ms.keywords: IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], IWDTFPNPAction2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFPNPAction2, dtf.iwdtfpnpaction2, wdtfpnpaction/IWDTFPNPAction2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtfpnpaction.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WDTFDriverPNPAction.Interop.dll
-apiname:
+api_name:
 -	IWDTFPNPAction2
 product: Windows
 targetos: Windows
@@ -52,6 +52,13 @@ req.product: Windows 10 or later.
 
 Defines operations and properties for the Plug and Play (PNP) device-related test interfaces.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFPNPAction2</b> interface inherits from <b>IWDTFActionWithCustomActions2</b>. <b>IWDTFPNPAction2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -180,33 +187,5 @@ Initiates a device restart.
 
 </td>
 </tr>
-</table>Disables the target device.
-
-Sends an IRP_MN_CANCEL_REMOVE_DEVICE event to the target device.
-
-Sends an IRP_MN_CANCEL_STOP_DEVICE event to the target device.
-
-Sends an IRP_MN_SURPRISE_REMOVAL event to the target device.
-
-Attempts to send an IRP_MN_STOP_DEVICE event to the target device.
-
-Attempts to send an IRP_MN_STOP_DEVICE event to the target device and 
-then fail the subsequent device restart.
-
-Attempts to send an IRP_MN_STOP_DEVICE event to the target device and 
-assign new resources to the target device.
-
-Enables the target device.
-
-Removes the device.
-
-Initiates a device eject.
-
-Rescans the target device.
-
-Rescans and re-enumerates the target device's parent device.
-
-Initiates a device restart.
-
- 
+</table> 
 

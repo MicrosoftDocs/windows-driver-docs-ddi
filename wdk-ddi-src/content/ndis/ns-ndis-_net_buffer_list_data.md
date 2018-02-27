@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 104b2bc0-e657-43c6-a274-ddbcef76293b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NET_BUFFER_LIST_DATA, NET_BUFFER_LIST_DATA, *PNET_BUFFER_LIST_DATA, NET_BUFFER_LIST_DATA structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST_DATA, _NET_BUFFER_LIST_DATA, netvista.net_buffer_list_data, PNET_BUFFER_LIST_DATA structure pointer [Network Drivers Starting with Windows Vista], ndis_netbuf_structures_ref_1ce577dd-1eec-4ba6-94cb-3e37c205630d.xml, ndis/PNET_BUFFER_LIST_DATA
+ms.keywords: "*PNET_BUFFER_LIST_DATA, NET_BUFFER_LIST_DATA, NET_BUFFER_LIST_DATA structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST_DATA, PNET_BUFFER_LIST_DATA structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_LIST_DATA, ndis/NET_BUFFER_LIST_DATA, ndis/PNET_BUFFER_LIST_DATA, ndis_netbuf_structures_ref_1ce577dd-1eec-4ba6-94cb-3e37c205630d.xml, netvista.net_buffer_list_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndis.h
-apiname:
+api_name:
 -	NET_BUFFER_LIST_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_BUFFER_LIST_DATA, NET_BUFFER_LIST_DATA"
+req.typenames: NET_BUFFER_LIST_DATA, *PNET_BUFFER_LIST_DATA
 ---
 
 # _NET_BUFFER_LIST_DATA structure
@@ -100,11 +100,11 @@ The
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
 <a href="..\ndis\ns-ndis-_net_buffer_list_header.md">NET_BUFFER_LIST_HEADER</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

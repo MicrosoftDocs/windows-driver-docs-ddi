@@ -7,8 +7,8 @@ old-location: display\dxgk_queryphysicaladaptercapsin.htm
 old-project: display
 ms.assetid: 4B01E62F-5E5B-4316-B237-EADAA3C72242
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgk_queryphysicaladaptercapsin, DXGK_QUERYPHYSICALADAPTERCAPSIN, d3dkmddi/DXGK_QUERYPHYSICALADAPTERCAPSIN, DXGK_QUERYPHYSICALADAPTERCAPSIN structure [Display Devices], _DXGK_QUERYPHYSICALADAPTERCAPSIN
+ms.date: 2/24/2018
+ms.keywords: DXGK_QUERYPHYSICALADAPTERCAPSIN, DXGK_QUERYPHYSICALADAPTERCAPSIN structure [Display Devices], _DXGK_QUERYPHYSICALADAPTERCAPSIN, d3dkmddi/DXGK_QUERYPHYSICALADAPTERCAPSIN, display.dxgk_queryphysicaladaptercapsin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	DXGK_QUERYPHYSICALADAPTERCAPSIN
 product: Windows
 targetos: Windows

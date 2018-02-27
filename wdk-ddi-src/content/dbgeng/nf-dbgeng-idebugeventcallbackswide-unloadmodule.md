@@ -4,11 +4,11 @@ title: IDebugEventCallbacksWide::UnloadModule method
 author: windows-driver-content
 description: The UnloadModule callback method is called by the engine when a module-unload debugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_unloadmodule.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 05f3fa93-389e-4ecc-b7c0-71f43691232f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugEventCallbacksWide, UnloadModule method [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging], UnloadModule method, UnloadModule, debugger.idebugeventcallbackswide_unloadmodule, dbgeng/IDebugEventCallbacksWide::UnloadModule, UnloadModule method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide::UnloadModule
+ms.date: 2/23/2018
+ms.keywords: IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], UnloadModule method, IDebugEventCallbacksWide::UnloadModule, UnloadModule method [Windows Debugging], UnloadModule method [Windows Debugging], IDebugEventCallbacksWide interface, UnloadModule,IDebugEventCallbacksWide.UnloadModule, dbgeng/IDebugEventCallbacksWide::UnloadModule, debugger.idebugeventcallbackswide_unloadmodule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugEventCallbacksWide.UnloadModule
 product: Windows
 targetos: Windows

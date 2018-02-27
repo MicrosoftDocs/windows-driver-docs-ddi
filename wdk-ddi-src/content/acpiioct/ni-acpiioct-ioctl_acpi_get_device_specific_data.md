@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: D77E272D-833E-40EA-97AA-137E0A219730
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: acpi.ioctl_acpi_get_device_specific_data, IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA control code [ACPI Devices], IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA, acpiioct/IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA
+ms.keywords: IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA, IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA control code [ACPI Devices], acpi.ioctl_acpi_get_device_specific_data, acpiioct/IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Acpiioct.h
-apiname:
+api_name:
 -	IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS"
+req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 ---
 
 # IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA IOCTL
@@ -109,10 +109,6 @@ The size, in bytes, of the output buffer.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
@@ -121,7 +117,11 @@ The size, in bytes, of the output buffer.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
 

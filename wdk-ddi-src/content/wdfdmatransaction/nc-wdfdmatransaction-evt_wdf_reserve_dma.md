@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3663EF19-5F16-43D1-BFBC-28280E28D4DE
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evtreservedma, EvtReserveDma callback function, EvtReserveDma, EVT_WDF_RESERVE_DMA, EVT_WDF_RESERVE_DMA, wdfdmatransaction/EvtReserveDma, kmdf.evtreservedma
+ms.keywords: EVT_WDF_RESERVE_DMA, EvtReserveDma, EvtReserveDma callback function, kmdf.evtreservedma, wdf.evtreservedma, wdfdmatransaction/EvtReserveDma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	WdfDmaTransaction.h
-apiname:
+api_name:
 -	EvtReserveDma
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
+req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
 ---
 

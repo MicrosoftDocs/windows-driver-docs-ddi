@@ -7,8 +7,8 @@ old-location: print\oemdownloadcharglyph.htm
 old-project: print
 ms.assetid: da9a4058-1a0e-484b-afcd-9d4558810acd
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: OEMDownloadCharGlyph function [Print Devices], OEMDownloadCharGlyph, printoem/OEMDownloadCharGlyph, print_obsoletefunctions_fb2af04d-799c-419c-b675-3444fd7d3143.xml, print.oemdownloadcharglyph
+ms.date: 2/23/2018
+ms.keywords: OEMDownloadCharGlyph, OEMDownloadCharGlyph function [Print Devices], print.oemdownloadcharglyph, print_obsoletefunctions_fb2af04d-799c-419c-b675-3444fd7d3143.xml, printoem/OEMDownloadCharGlyph
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	printoem.h
-apiname:
+api_name:
 -	OEMDownloadCharGlyph
 product: Windows
 targetos: Windows

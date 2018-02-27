@@ -7,8 +7,8 @@ old-location: storage\ataportbuschangedetected.htm
 old-project: storage
 ms.assetid: e5a3d4dc-7446-49c1-985a-9d3a9d43dc15
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: irb/AtaPortBusChangeDetected, AtaPortBusChangeDetected, storage.ataportbuschangedetected, AtaPortBusChangeDetected routine [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: AtaPortBusChangeDetected, AtaPortBusChangeDetected routine [Storage Devices], irb/AtaPortBusChangeDetected, storage.ataportbuschangedetected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Irb.h
-apiname:
+api_name:
 -	AtaPortBusChangeDetected
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: print\drvsplendpage.htm
 old-project: print
 ms.assetid: 09c3db82-7890-48c8-a91f-3d1f3f01ef84
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: DrvSplEndPage function [Print Devices], print_interface-graphics_e5fbdcf3-d462-4ae9-8187-546a87189e19.xml, winddiui/DrvSplEndPage, DrvSplEndPage, print.drvsplendpage
+ms.date: 2/23/2018
+ms.keywords: DrvSplEndPage, DrvSplEndPage function [Print Devices], print.drvsplendpage, print_interface-graphics_e5fbdcf3-d462-4ae9-8187-546a87189e19.xml, winddiui/DrvSplEndPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winddiui.h
-apiname:
+api_name:
 -	DrvSplEndPage
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 

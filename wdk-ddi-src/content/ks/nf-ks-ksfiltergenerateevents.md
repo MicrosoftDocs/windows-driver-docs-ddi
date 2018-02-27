@@ -7,8 +7,8 @@ old-location: stream\ksfiltergenerateevents.htm
 old-project: stream
 ms.assetid: 62340660-3419-4da6-8d58-c2f82b4231ba
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KsFilterGenerateEvents, ks/KsFilterGenerateEvents, avfunc_bf12d7bb-6ebf-460b-a2c2-24632c89b083.xml, KsFilterGenerateEvents function [Streaming Media Devices], stream.ksfiltergenerateevents
+ms.date: 2/23/2018
+ms.keywords: KsFilterGenerateEvents, KsFilterGenerateEvents function [Streaming Media Devices], avfunc_bf12d7bb-6ebf-460b-a2c2-24632c89b083.xml, ks/KsFilterGenerateEvents, stream.ksfiltergenerateevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL (See Remarks section.)"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsFilterGenerateEvents
 product: Windows
 targetos: Windows
@@ -163,15 +163,15 @@ For more information, see <a href="https://msdn.microsoft.com/7add2055-8d3f-432d
 
 ## -see-also
 
+<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
+
+
+
 <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
 
 
 <a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
-
-
-
-<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
 
 
 
@@ -183,5 +183,5 @@ For more information, see <a href="https://msdn.microsoft.com/7add2055-8d3f-432d
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterGenerateEvents function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterGenerateEvents function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

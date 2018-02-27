@@ -7,8 +7,8 @@ old-location: print\iprintoemps_resetpdev.htm
 old-project: print
 ms.assetid: 10248026-471a-4419-9c96-3502c24a6e96
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IPrintOemPS interface [Print Devices], ResetPDEV method, ResetPDEV, IPrintOemPS::ResetPDEV, print_unidrv-pscript_rendering_d7b128bc-174c-4d06-8ffa-8df31ac22303.xml, IPrintOemPS, ResetPDEV method [Print Devices], prcomoem/IPrintOemPS::ResetPDEV, ResetPDEV method [Print Devices], IPrintOemPS interface, print.iprintoemps_resetpdev
+ms.date: 2/23/2018
+ms.keywords: IPrintOemPS, IPrintOemPS interface [Print Devices], ResetPDEV method, IPrintOemPS::ResetPDEV, ResetPDEV method [Print Devices], ResetPDEV method [Print Devices], IPrintOemPS interface, ResetPDEV,IPrintOemPS.ResetPDEV, prcomoem/IPrintOemPS::ResetPDEV, print.iprintoemps_resetpdev, print_unidrv-pscript_rendering_d7b128bc-174c-4d06-8ffa-8df31ac22303.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Prcomoem.h
-apiname:
+api_name:
 -	IPrintOemPS.ResetPDEV
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

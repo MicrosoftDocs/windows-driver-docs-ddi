@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E0358D5E-4C5A-408F-9548-98A006939F22
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: READ_REGISTER_BUFFER_UCHAR, wdf.read_register_buffer_uchar, wudfddi_hwaccess/READ_REGISTER_BUFFER_UCHAR, umdf.read_register_buffer_uchar, READ_REGISTER_BUFFER_UCHAR function
+ms.keywords: READ_REGISTER_BUFFER_UCHAR, READ_REGISTER_BUFFER_UCHAR function, umdf.read_register_buffer_uchar, wdf.read_register_buffer_uchar, wudfddi_hwaccess/READ_REGISTER_BUFFER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wudfddi_hwaccess.h
-apiname:
+api_name:
 -	READ_REGISTER_BUFFER_UCHAR
 product: Windows
 targetos: Windows
-req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
+req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
 req.product: Windows 10 or later.
 ---
 

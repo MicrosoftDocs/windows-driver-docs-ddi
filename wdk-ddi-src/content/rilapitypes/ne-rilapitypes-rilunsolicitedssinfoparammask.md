@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 772b2ab3-6ce6-4303-8b1e-145e4e28ee44
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_PARAM_UNSSS_HISTINFO, RIL_PARAM_UNSSS_ALL, RILUNSOLICITEDSSINFOPARAMMASK, rilapitypes/RILUNSOLICITEDSSINFOPARAMMASK, RILUNSOLICITEDSSINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UNSSS_SUBADDR, RIL_PARAM_UNSSS_ID, rilapitypes/RIL_PARAM_UNSSS_CUGINDEX, RIL_PARAM_UNSSS_NOTIFICATIONCODE, RIL_PARAM_UNSSS_HISTLENGTH, rilapitypes/RIL_PARAM_UNSSS_HISTLENGTH, rilapitypes/RIL_PARAM_UNSSS_ALL, rilapitypes/RIL_PARAM_UNSSS_ID, rilapitypes/RIL_PARAM_UNSSS_NOTIFICATIONCODE, rilapitypes/RIL_PARAM_UNSSS_SUBADDR, RIL_PARAM_UNSSS_ADDRESS, RIL_PARAM_UNSSS_CUGINDEX, rilapitypes/RIL_PARAM_UNSSS_HISTINFO, netvista.rilunsolicitedssinfoparammask_2, rilapitypes/RIL_PARAM_UNSSS_ADDRESS
+ms.keywords: RILUNSOLICITEDSSINFOPARAMMASK, RILUNSOLICITEDSSINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UNSSS_ADDRESS, RIL_PARAM_UNSSS_ALL, RIL_PARAM_UNSSS_CUGINDEX, RIL_PARAM_UNSSS_HISTINFO, RIL_PARAM_UNSSS_HISTLENGTH, RIL_PARAM_UNSSS_ID, RIL_PARAM_UNSSS_NOTIFICATIONCODE, RIL_PARAM_UNSSS_SUBADDR, netvista.rilunsolicitedssinfoparammask_2, rilapitypes/RILUNSOLICITEDSSINFOPARAMMASK, rilapitypes/RIL_PARAM_UNSSS_ADDRESS, rilapitypes/RIL_PARAM_UNSSS_ALL, rilapitypes/RIL_PARAM_UNSSS_CUGINDEX, rilapitypes/RIL_PARAM_UNSSS_HISTINFO, rilapitypes/RIL_PARAM_UNSSS_HISTLENGTH, rilapitypes/RIL_PARAM_UNSSS_ID, rilapitypes/RIL_PARAM_UNSSS_NOTIFICATIONCODE, rilapitypes/RIL_PARAM_UNSSS_SUBADDR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILUNSOLICITEDSSINFOPARAMMASK
 product: Windows
 targetos: Windows

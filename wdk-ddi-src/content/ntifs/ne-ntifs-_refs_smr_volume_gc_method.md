@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6C58EFD4-B5F9-4E2B-AF76-E9614218E0DC
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PREFS_SMR_VOLUME_GC_METHOD, ifsk.refs_smr_volume_gc_method, REFS_SMR_VOLUME_GC_METHOD enumeration [Installable File System Drivers], ntifs/PREFS_SMR_VOLUME_GC_METHOD, ntifs/SmrGcMethodCompression, ntifs/SmrGcMethodCompaction, ntifs/SmrGcMethodRotation, *PREFS_SMR_VOLUME_GC_METHOD, _REFS_SMR_VOLUME_GC_METHOD, SmrGcMethodCompression, SmrGcMethodRotation, PREFS_SMR_VOLUME_GC_METHOD enumeration pointer [Installable File System Drivers], SmrGcMethodCompaction, ntifs/REFS_SMR_VOLUME_GC_METHOD, REFS_SMR_VOLUME_GC_METHOD
+ms.keywords: "*PREFS_SMR_VOLUME_GC_METHOD, PREFS_SMR_VOLUME_GC_METHOD, PREFS_SMR_VOLUME_GC_METHOD enumeration pointer [Installable File System Drivers], REFS_SMR_VOLUME_GC_METHOD, REFS_SMR_VOLUME_GC_METHOD enumeration [Installable File System Drivers], SmrGcMethodCompaction, SmrGcMethodCompression, SmrGcMethodRotation, _REFS_SMR_VOLUME_GC_METHOD, ifsk.refs_smr_volume_gc_method, ntifs/PREFS_SMR_VOLUME_GC_METHOD, ntifs/REFS_SMR_VOLUME_GC_METHOD, ntifs/SmrGcMethodCompaction, ntifs/SmrGcMethodCompression, ntifs/SmrGcMethodRotation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntifs.h
-apiname:
+api_name:
 -	REFS_SMR_VOLUME_GC_METHOD
 product: Windows
 targetos: Windows
-req.typenames: "*PREFS_SMR_VOLUME_GC_METHOD, REFS_SMR_VOLUME_GC_METHOD"
+req.typenames: REFS_SMR_VOLUME_GC_METHOD, *PREFS_SMR_VOLUME_GC_METHOD
 ---
 
 # _REFS_SMR_VOLUME_GC_METHOD enumeration

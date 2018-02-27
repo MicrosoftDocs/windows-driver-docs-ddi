@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 09d36c81-d480-48c6-8633-c79061420217
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wlclient/PDOT11_PORT_STATE, _DOT11_PORT_STATE, DOT11_PORT_STATE structure [Network Drivers Starting with Windows Vista], netvista.dot11_port_state, DOT11_PORT_STATE, PDOT11_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], PDOT11_PORT_STATE, *PDOT11_PORT_STATE, wlclient/DOT11_PORT_STATE, Native_802.11_data_types_679b7f27-efba-43e8-9d20-7047c770b7db.xml
+ms.keywords: "*PDOT11_PORT_STATE, DOT11_PORT_STATE, DOT11_PORT_STATE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_679b7f27-efba-43e8-9d20-7047c770b7db.xml, PDOT11_PORT_STATE, PDOT11_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PORT_STATE, netvista.dot11_port_state, wlclient/DOT11_PORT_STATE, wlclient/PDOT11_PORT_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wlclient.h
-apiname:
+api_name:
 -	DOT11_PORT_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_PORT_STATE, DOT11_PORT_STATE"
+req.typenames: DOT11_PORT_STATE, *PDOT11_PORT_STATE
 req.product: Windows 10 or later.
 ---
 

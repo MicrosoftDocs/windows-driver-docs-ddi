@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 375af8a1-9e05-4830-9074-6313b4e082d9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wfp_ref_2_funct_2_fwpm_79b78030-bb8c-462d-98fc-6f3818dead3d.xml, FwpmBfeStateSubscribeChanges0 function [Network Drivers Starting with Windows Vista], netvista.fwpmbfestatesubscribechanges0, fwpmk/FwpmBfeStateSubscribeChanges0, FwpmBfeStateSubscribeChanges0
+ms.keywords: FwpmBfeStateSubscribeChanges0, FwpmBfeStateSubscribeChanges0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmBfeStateSubscribeChanges0, netvista.fwpmbfestatesubscribechanges0, wfp_ref_2_funct_2_fwpm_79b78030-bb8c-462d-98fc-6f3818dead3d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname:
+api_name:
 -	FwpmBfeStateSubscribeChanges0
 product: Windows
 targetos: Windows
@@ -232,16 +232,16 @@ A callout driver must deregister the callback function by calling the
 
 ## -see-also
 
+<a href="..\fwpmk\nf-fwpmk-fwpmbfestateunsubscribechanges0.md">
+   FwpmBfeStateUnsubscribeChanges0</a>
+
+
+
 <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>
 
 
 
 <a href="..\fwpmk\nf-fwpmk-fwpmbfestateget0.md">FwpmBfeStateGet0</a>
-
-
-
-<a href="..\fwpmk\nf-fwpmk-fwpmbfestateunsubscribechanges0.md">
-   FwpmBfeStateUnsubscribeChanges0</a>
 
 
 

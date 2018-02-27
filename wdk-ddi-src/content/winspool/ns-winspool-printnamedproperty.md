@@ -7,8 +7,8 @@ old-location: print\printnamedproperty.htm
 old-project: print
 ms.assetid: F7692594-DE13-4242-926C-F2706FF95E77
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: winspool/PrintNamedProperty, print.printnamedproperty, PrintNamedProperty, PrintNamedProperty structure [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: PrintNamedProperty, PrintNamedProperty structure [Print Devices], print.printnamedproperty, winspool/PrintNamedProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Winspool.h
-apiname:
+api_name:
 -	PrintNamedProperty
 product: Windows
 targetos: Windows

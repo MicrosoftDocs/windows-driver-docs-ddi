@@ -7,8 +7,8 @@ old-location: pos\linedisplaycharacterdata.htm
 old-project: pos
 ms.assetid: EBD3CE63-A5ED-49FB-904F-1EF6A402ED64
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: LineDisplayCharacterData, pos.linedisplaycharacterdata, pointofservicedriverinterface/LineDisplayCharacterData, PLineDisplayCharacterData structure pointer, PLineDisplayCharacterData, pointofservicedriverinterface/PLineDisplayCharacterData, _LineDisplayCharacterData, LineDisplayCharacterData structure
+ms.date: 2/23/2018
+ms.keywords: LineDisplayCharacterData, LineDisplayCharacterData structure, PLineDisplayCharacterData, PLineDisplayCharacterData structure pointer, _LineDisplayCharacterData, pointofservicedriverinterface/LineDisplayCharacterData, pointofservicedriverinterface/PLineDisplayCharacterData, pos.linedisplaycharacterdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pointofservicedriverinterface.h
-apiname:
+api_name:
 -	LineDisplayCharacterData
 product: Windows
 targetos: Windows

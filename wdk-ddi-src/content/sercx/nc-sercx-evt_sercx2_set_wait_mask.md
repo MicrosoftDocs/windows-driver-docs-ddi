@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: C248FEF0-8E0B-4296-940E-763165F80617
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.evtsercx2setwaitmask, EvtSerCx2SetWaitMask callback function [Serial Ports], EvtSerCx2SetWaitMask, EVT_SERCX2_SET_WAIT_MASK, EVT_SERCX2_SET_WAIT_MASK, 2/EvtSerCx2SetWaitMask
+ms.keywords: 2/EvtSerCx2SetWaitMask, EVT_SERCX2_SET_WAIT_MASK, EvtSerCx2SetWaitMask, EvtSerCx2SetWaitMask callback function [Serial Ports], serports.evtsercx2setwaitmask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	2.0\Sercx.h
-apiname:
+api_name:
 -	EvtSerCx2SetWaitMask
 product: Windows
 targetos: Windows
@@ -177,7 +177,15 @@ The <b>EVT_SERCX2_SET_WAIT_MASK</b> function type is defined in the Sercx.h head
 
 ## -see-also
 
+<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
+
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2completewait.md">SerCx2CompleteWait</a>
 
 
 
@@ -185,19 +193,11 @@ The <b>EVT_SERCX2_SET_WAIT_MASK</b> function type is defined in the Sercx.h head
 
 
 
-<a href="..\sercx\nf-sercx-sercx2completewait.md">SerCx2CompleteWait</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>
-
-
-
 <a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2completewait.md">SerCx2CompleteWait</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>
 
 
 

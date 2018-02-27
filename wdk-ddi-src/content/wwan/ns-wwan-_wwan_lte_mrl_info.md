@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 49C3D862-EB78-4C44-A7B7-CE15E79EB021
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PWWAN_LTE_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], PWWAN_LTE_MRL_INFO, _WWAN_LTE_MRL_INFO, netvista.wwan_lte_mrl_info, WWAN_LTE_MRL_INFO, wwan/PWWAN_LTE_MRL_INFO, WWAN_LTE_MRL_INFO structure [Network Drivers Starting with Windows Vista], wwan/WWAN_LTE_MRL_INFO, *PWWAN_LTE_MRL_INFO
+ms.keywords: "*PWWAN_LTE_MRL_INFO, PWWAN_LTE_MRL_INFO, PWWAN_LTE_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_LTE_MRL_INFO, WWAN_LTE_MRL_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_LTE_MRL_INFO, netvista.wwan_lte_mrl_info, wwan/PWWAN_LTE_MRL_INFO, wwan/WWAN_LTE_MRL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_LTE_MRL_INFO
 product: Windows
 targetos: Windows
@@ -130,19 +130,19 @@ The data buffer containing <i>ProviderId</i>.
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_lte_serving_cell_info.md">WWAN_LTE_SERVING_CELL_INFO</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+
+
+
 <a href="..\wwan\ns-wwan-_wwan_lte_mrl.md">WWAN_LTE_MRL</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
 
 
 

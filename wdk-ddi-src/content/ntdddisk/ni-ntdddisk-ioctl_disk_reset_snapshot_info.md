@@ -7,8 +7,8 @@ old-location: storage\ioctl_disk_reset_snapshot_info.htm
 old-project: storage
 ms.assetid: b22b00de-4711-4896-a21c-33fbc7b1d64e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: storage.ioctl_disk_reset_snapshot_info, IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Storage Devices], IOCTL_DISK_RESET_SNAPSHOT_INFO, ntdddisk/IOCTL_DISK_RESET_SNAPSHOT_INFO, k307_3c2ed554-3774-467f-80a0-5017439a0aad.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_DISK_RESET_SNAPSHOT_INFO, IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Storage Devices], k307_3c2ed554-3774-467f-80a0-5017439a0aad.xml, ntdddisk/IOCTL_DISK_RESET_SNAPSHOT_INFO, storage.ioctl_disk_reset_snapshot_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntdddisk.h
-apiname:
+api_name:
 -	IOCTL_DISK_RESET_SNAPSHOT_INFO
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: DETECTION_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

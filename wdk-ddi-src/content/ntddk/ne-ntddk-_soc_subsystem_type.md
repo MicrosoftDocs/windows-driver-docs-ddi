@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 179D61E3-C2EE-4821-93F8-DB763892DD3D
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: whea.soc_sybsystem_type, ntddk/SOC_SUBSYS_SENSORS, ntddk/SOC_SUBSYS_WIRELSS_CONNECTIVITY, ntddk/SOC_SUBSYSTEM_WIRELESS_MODEM, _SOC_SUBSYSTEM_TYPE, *PSOC_SUBSYSTEM_TYPE, SOC_SUBSYSTEM_WIRELESS_MODEM, SOC_SUBSYS_SENSORS, SOC_SUBSYS_VENDOR_DEFINED, SOC_SUBSYSTEM_TYPE enumeration [WHEA Drivers and Applications], SOC_SUBSYS_AUDIO_DSP, ntddk/SOC_SUBSYS_AUDIO_DSP, ntddk/SOC_SUBSYSTEM_TYPE, SOC_SUBSYS_WIRELSS_CONNECTIVITY, ntddk/SOC_SUBSYS_VENDOR_DEFINED, SOC_SUBSYSTEM_TYPE
+ms.keywords: "*PSOC_SUBSYSTEM_TYPE, SOC_SUBSYSTEM_TYPE, SOC_SUBSYSTEM_TYPE enumeration [WHEA Drivers and Applications], SOC_SUBSYSTEM_WIRELESS_MODEM, SOC_SUBSYS_AUDIO_DSP, SOC_SUBSYS_SENSORS, SOC_SUBSYS_VENDOR_DEFINED, SOC_SUBSYS_WIRELSS_CONNECTIVITY, _SOC_SUBSYSTEM_TYPE, ntddk/SOC_SUBSYSTEM_TYPE, ntddk/SOC_SUBSYSTEM_WIRELESS_MODEM, ntddk/SOC_SUBSYS_AUDIO_DSP, ntddk/SOC_SUBSYS_SENSORS, ntddk/SOC_SUBSYS_VENDOR_DEFINED, ntddk/SOC_SUBSYS_WIRELSS_CONNECTIVITY, whea.soc_sybsystem_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddk.h
-apiname:
+api_name:
 -	SOC_SUBSYSTEM_TYPE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6621a1ec-1d4e-4801-9418-d09a0073686a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdf_interrupt_polarity, DFInterruptObjectRef_979c7766-edd8-421b-8885-8000d60da78d.xml, WDF_INTERRUPT_POLARITY, *PWDF_INTERRUPT_POLARITY, WdfInterruptActiveLow, wdfinterrupt/WDF_INTERRUPT_POLARITY, wdfinterrupt/WdfInterruptActiveLow, wdfinterrupt/WdfInterruptPolarityUnknown, PWDF_INTERRUPT_POLARITY enumeration pointer, WdfInterruptPolarityUnknown, wdf.wdf_interrupt_polarity, PWDF_INTERRUPT_POLARITY, wdfinterrupt/WdfInterruptActiveHigh, WDF_INTERRUPT_POLARITY enumeration, wdfinterrupt/PWDF_INTERRUPT_POLARITY, _WDF_INTERRUPT_POLARITY, WdfInterruptActiveHigh
+ms.keywords: "*PWDF_INTERRUPT_POLARITY, DFInterruptObjectRef_979c7766-edd8-421b-8885-8000d60da78d.xml, PWDF_INTERRUPT_POLARITY, PWDF_INTERRUPT_POLARITY enumeration pointer, WDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY enumeration, WdfInterruptActiveHigh, WdfInterruptActiveLow, WdfInterruptPolarityUnknown, _WDF_INTERRUPT_POLARITY, kmdf.wdf_interrupt_polarity, wdf.wdf_interrupt_polarity, wdfinterrupt/PWDF_INTERRUPT_POLARITY, wdfinterrupt/WDF_INTERRUPT_POLARITY, wdfinterrupt/WdfInterruptActiveHigh, wdfinterrupt/WdfInterruptActiveLow, wdfinterrupt/WdfInterruptPolarityUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfinterrupt.h
-apiname:
+api_name:
 -	WDF_INTERRUPT_POLARITY
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY"
+req.typenames: WDF_INTERRUPT_POLARITY, *PWDF_INTERRUPT_POLARITY
 req.product: Windows 10 or later.
 ---
 

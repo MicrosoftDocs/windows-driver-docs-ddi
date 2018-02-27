@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e821f738-3712-49c2-9026-ff6ddc0381a6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFDevice2::ResumeIdle, ResumeIdle method, IWDFDevice2 interface, wudfddi/IWDFDevice2::ResumeIdle, wdf.iwdfdevice2_resumeidle, IWDFDevice2 interface, ResumeIdle method, UMDFDeviceObjectRef_2c3c90d0-ac7d-44ac-b643-7dd6abd8ac67.xml, ResumeIdle method, umdf.iwdfdevice2_resumeidle, ResumeIdle, IWDFDevice2
+ms.keywords: IWDFDevice2, IWDFDevice2 interface, ResumeIdle method, IWDFDevice2::ResumeIdle, ResumeIdle method, ResumeIdle method, IWDFDevice2 interface, ResumeIdle,IWDFDevice2.ResumeIdle, UMDFDeviceObjectRef_2c3c90d0-ac7d-44ac-b643-7dd6abd8ac67.xml, umdf.iwdfdevice2_resumeidle, wdf.iwdfdevice2_resumeidle, wudfddi/IWDFDevice2::ResumeIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFDevice2.ResumeIdle
 product: Windows
 targetos: Windows
@@ -120,11 +120,11 @@ The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556948">IWDFDevice2::StopIdle</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556948">IWDFDevice2::StopIdle</a>
 
 
 

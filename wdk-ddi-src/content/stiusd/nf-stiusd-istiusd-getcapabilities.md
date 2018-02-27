@@ -4,11 +4,11 @@ title: IStiUSD::GetCapabilities method
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::GetCapabilities method returns a still image device's capabilities.
 old-location: image\istiusd_getcapabilities.htm
-old-project: Image
+old-project: image
 ms.assetid: baec1e38-360e-4f4f-82bd-bc89e3f8483d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GetCapabilities, IStiUSD interface [Imaging Devices], GetCapabilities method, GetCapabilities method [Imaging Devices], stifnc_e0343c50-7695-417f-9742-1acd66f2791f.xml, IStiUSD, GetCapabilities method [Imaging Devices], IStiUSD interface, IStiUSD::GetCapabilities, image.istiusd_getcapabilities, stiusd/IStiUSD::GetCapabilities
+ms.date: 2/23/2018
+ms.keywords: GetCapabilities method [Imaging Devices], GetCapabilities method [Imaging Devices], IStiUSD interface, GetCapabilities,IStiUSD.GetCapabilities, IStiUSD, IStiUSD interface [Imaging Devices], GetCapabilities method, IStiUSD::GetCapabilities, image.istiusd_getcapabilities, stifnc_e0343c50-7695-417f-9742-1acd66f2791f.xml, stiusd/IStiUSD::GetCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	stiusd.h
-apiname:
+api_name:
 -	IStiUSD.GetCapabilities
 product: Windows
 targetos: Windows
@@ -100,6 +100,10 @@ The <b>IStiUSD::GetCapabilities</b> method should set appropriate device capabil
 
 ## -see-also
 
+<a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543745">IStiDevice::GetCapabilities</a>
 
 
@@ -108,5 +112,5 @@ The <b>IStiUSD::GetCapabilities</b> method should set appropriate device capabil
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IStiUSD::GetCapabilities method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStiUSD::GetCapabilities method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

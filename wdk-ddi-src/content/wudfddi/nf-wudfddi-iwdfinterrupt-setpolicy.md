@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EDBCBB37-41A4-4234-BE8C-4C8739BC287B
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFInterrupt interface, SetPolicy method, umdf.iwdfinterrupt_setpolicy, IWDFInterrupt, SetPolicy method, SetPolicy, wudfddi/IWDFInterrupt::SetPolicy, IWDFInterrupt::SetPolicy, SetPolicy method, IWDFInterrupt interface, wdf.iwdfinterrupt_setpolicy
+ms.keywords: IWDFInterrupt, IWDFInterrupt interface, SetPolicy method, IWDFInterrupt::SetPolicy, SetPolicy method, SetPolicy method, IWDFInterrupt interface, SetPolicy,IWDFInterrupt.SetPolicy, umdf.iwdfinterrupt_setpolicy, wdf.iwdfinterrupt_setpolicy, wudfddi/IWDFInterrupt::SetPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFInterrupt.SetPolicy
 product: Windows
 targetos: Windows
@@ -140,7 +140,11 @@ pIWdfInterrupt-&gt;SetPolicy(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+
+
+
+<a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_policy.md">WDF_INTERRUPT_POLICY</a>
 
 
 
@@ -148,11 +152,7 @@ pIWdfInterrupt-&gt;SetPolicy(
 
 
 
-<a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_policy.md">WDF_INTERRUPT_POLICY</a>
-
-
-
-<a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_policy.md">WDF_INTERRUPT_POLICY</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
 
 
 

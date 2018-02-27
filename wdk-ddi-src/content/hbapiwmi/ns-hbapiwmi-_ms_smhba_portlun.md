@@ -7,8 +7,8 @@ old-location: storage\ms_smhba_portlun.htm
 old-project: storage
 ms.assetid: cf62685f-7b4d-4671-a755-d59a593bf5d6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PMS_SMHBA_PORTLUN structure pointer [Storage Devices], MS_SMHBA_PORTLUN structure [Storage Devices], storage.ms_smhba_portlun, hbapiwmi/MS_SMHBA_PORTLUN, *PMS_SMHBA_PORTLUN, hbapiwmi/PMS_SMHBA_PORTLUN, _MS_SMHBA_PORTLUN, PMS_SMHBA_PORTLUN, structs-Fibre_a0363ae3-80ce-4efd-8409-826d1810190c.xml, MS_SMHBA_PORTLUN
+ms.date: 2/24/2018
+ms.keywords: "*PMS_SMHBA_PORTLUN, MS_SMHBA_PORTLUN, MS_SMHBA_PORTLUN structure [Storage Devices], PMS_SMHBA_PORTLUN, PMS_SMHBA_PORTLUN structure pointer [Storage Devices], _MS_SMHBA_PORTLUN, hbapiwmi/MS_SMHBA_PORTLUN, hbapiwmi/PMS_SMHBA_PORTLUN, storage.ms_smhba_portlun, structs-Fibre_a0363ae3-80ce-4efd-8409-826d1810190c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hbapiwmi.h
-apiname:
+api_name:
 -	MS_SMHBA_PORTLUN
 product: Windows
 targetos: Windows

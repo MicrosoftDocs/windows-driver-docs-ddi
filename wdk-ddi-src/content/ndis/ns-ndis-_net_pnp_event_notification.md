@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 58d3baf3-a1fa-42ae-b795-2774a148aeda
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNET_PNP_EVENT_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], _NET_PNP_EVENT_NOTIFICATION, ndis/NET_PNP_EVENT_NOTIFICATION, protocol_structures_ref_48e5c834-8115-4a76-bf0d-bcbea8866d20.xml, *PNET_PNP_EVENT_NOTIFICATION, netvista.net_pnp_event_notification, PNET_PNP_EVENT_NOTIFICATION, NET_PNP_EVENT_NOTIFICATION, NET_PNP_EVENT_NOTIFICATION structure [Network Drivers Starting with Windows Vista], ndis/PNET_PNP_EVENT_NOTIFICATION
+ms.keywords: "*PNET_PNP_EVENT_NOTIFICATION, NET_PNP_EVENT_NOTIFICATION, NET_PNP_EVENT_NOTIFICATION structure [Network Drivers Starting with Windows Vista], PNET_PNP_EVENT_NOTIFICATION, PNET_PNP_EVENT_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], _NET_PNP_EVENT_NOTIFICATION, ndis/NET_PNP_EVENT_NOTIFICATION, ndis/PNET_PNP_EVENT_NOTIFICATION, netvista.net_pnp_event_notification, protocol_structures_ref_48e5c834-8115-4a76-bf0d-bcbea8866d20.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndis.h
-apiname:
+api_name:
 -	NET_PNP_EVENT_NOTIFICATION
 product: Windows
 targetos: Windows
@@ -90,7 +90,7 @@ The source port of the event notification. If the status indication is not speci
 ### -field NetPnPEvent
 
 A
-     <a href="..\ndis\ns-ndis-_net_pnp_event.md">NET_PNP_EVENT</a> structure that describes the
+     <a href="..\netpnp\ns-netpnp-_net_pnp_event.md">NET_PNP_EVENT</a> structure that describes the
      event.
 
 
@@ -121,7 +121,7 @@ When the operating system issues a system PnP event or a power management event 
 
 The 
     <b>NetPnPEvent</b> member is a 
-    <a href="..\ndis\ns-ndis-_net_pnp_event.md">NET_PNP_EVENT</a> structure. The 
+    <a href="..\netpnp\ns-netpnp-_net_pnp_event.md">NET_PNP_EVENT</a> structure. The 
     <b>NetEvent</b> member of this NET_PNP_EVENT structure specifies an event code that identifies the network
     PnP event, NDIS PnP event, or power management event.
 
@@ -148,10 +148,6 @@ NDIS passes a pointer to a NET_PNP_EVENT_NOTIFICATION structure to the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
 
 
@@ -160,11 +156,11 @@ NDIS passes a pointer to a NET_PNP_EVENT_NOTIFICATION structure to the
 
 
 
-<a href="..\ndis\ns-ndis-_net_pnp_event.md">NET_PNP_EVENT</a>
+<a href="..\netpnp\ns-netpnp-_net_pnp_event.md">NET_PNP_EVENT</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_pnp_event.md">NET_PNP_EVENT</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

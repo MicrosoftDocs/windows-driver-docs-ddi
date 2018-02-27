@@ -7,8 +7,8 @@ old-location: print\oemquerycolorprofile.htm
 old-project: print
 ms.assetid: a33a216d-f97e-44be-b9a5-bdadf1c422e1
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print_obsoletefunctions_f21cf62d-45bd-4248-8b0c-a19cc982ad3c.xml, print.oemquerycolorprofile, OEMQueryColorProfile function [Print Devices], OEMQueryColorProfile, printoem/OEMQueryColorProfile
+ms.date: 2/23/2018
+ms.keywords: OEMQueryColorProfile, OEMQueryColorProfile function [Print Devices], print.oemquerycolorprofile, print_obsoletefunctions_f21cf62d-45bd-4248-8b0c-a19cc982ad3c.xml, printoem/OEMQueryColorProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	printoem.h
-apiname:
+api_name:
 -	OEMQueryColorProfile
 product: Windows
 targetos: Windows

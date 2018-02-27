@@ -7,8 +7,8 @@ old-location: stream\ksproperty_graphmanager_interface.htm
 old-project: stream
 ms.assetid: CC2A3E78-0A28-4760-A4E1-A2C600CE03CB
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: PKSPROPERTY_GRAPHMANAGER_INTERFACE structure pointer [Streaming Media Devices], *PKSPROPERTY_GRAPHMANAGER_INTERFACE, KSPROPERTY_GRAPHMANAGER_INTERFACE, KSPROPERTY_GRAPHMANAGER_INTERFACE structure [Streaming Media Devices], ks/PKSPROPERTY_GRAPHMANAGER_INTERFACE, stream.ksproperty_graphmanager_interface, _KSPROPERTY_GRAPHMANAGER_INTERFACE, ks/KSPROPERTY_GRAPHMANAGER_INTERFACE, PKSPROPERTY_GRAPHMANAGER_INTERFACE
+ms.date: 2/23/2018
+ms.keywords: "*PKSPROPERTY_GRAPHMANAGER_INTERFACE, KSPROPERTY_GRAPHMANAGER_INTERFACE, KSPROPERTY_GRAPHMANAGER_INTERFACE structure [Streaming Media Devices], PKSPROPERTY_GRAPHMANAGER_INTERFACE, PKSPROPERTY_GRAPHMANAGER_INTERFACE structure pointer [Streaming Media Devices], _KSPROPERTY_GRAPHMANAGER_INTERFACE, ks/KSPROPERTY_GRAPHMANAGER_INTERFACE, ks/PKSPROPERTY_GRAPHMANAGER_INTERFACE, stream.ksproperty_graphmanager_interface"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ks.h
-apiname:
+api_name:
 -	KSPROPERTY_GRAPHMANAGER_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: "*PKSPROPERTY_GRAPHMANAGER_INTERFACE, KSPROPERTY_GRAPHMANAGER_INTERFACE"
+req.typenames: KSPROPERTY_GRAPHMANAGER_INTERFACE, *PKSPROPERTY_GRAPHMANAGER_INTERFACE
 ---
 
 # _KSPROPERTY_GRAPHMANAGER_INTERFACE structure

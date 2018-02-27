@@ -7,8 +7,8 @@ old-location: stream\hw_stream_request_block.htm
 old-project: stream
 ms.assetid: e2a19bb1-631d-4160-9980-f3cbeb0b085a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.hw_stream_request_block, *PHW_STREAM_REQUEST_BLOCK, PHW_STREAM_REQUEST_BLOCK structure pointer [Streaming Media Devices], HW_STREAM_REQUEST_BLOCK structure [Streaming Media Devices], strmini/HW_STREAM_REQUEST_BLOCK, PHW_STREAM_REQUEST_BLOCK, HW_STREAM_REQUEST_BLOCK, strclass-struct_4b0da124-b08a-49fe-acbc-9457db500b26.xml, _HW_STREAM_REQUEST_BLOCK, strmini/PHW_STREAM_REQUEST_BLOCK
+ms.date: 2/23/2018
+ms.keywords: "*PHW_STREAM_REQUEST_BLOCK, HW_STREAM_REQUEST_BLOCK, HW_STREAM_REQUEST_BLOCK structure [Streaming Media Devices], PHW_STREAM_REQUEST_BLOCK, PHW_STREAM_REQUEST_BLOCK structure pointer [Streaming Media Devices], _HW_STREAM_REQUEST_BLOCK, strclass-struct_4b0da124-b08a-49fe-acbc-9457db500b26.xml, stream.hw_stream_request_block, strmini/HW_STREAM_REQUEST_BLOCK, strmini/PHW_STREAM_REQUEST_BLOCK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	strmini.h
-apiname:
+api_name:
 -	HW_STREAM_REQUEST_BLOCK
 product: Windows
 targetos: Windows
@@ -401,7 +401,7 @@ If Command is either <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 ### -field TimeoutCounter
 
-The number of seconds before this request times out. The class driver decrements this once per second. If the class driver decrements <b>TimeoutCounter</b> to zero before the minidriver completes this request, it will call the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568473">StrMiniRequestTimeout</a> routine. If the minidriver sets this to zero, the request does not time out.
+The number of seconds before this request times out. The class driver decrements this once per second. If the class driver decrements <b>TimeoutCounter</b> to zero before the minidriver completes this request, it will call the minidriver's <a href="..\strmini\nc-strmini-phw_request_timeout_handler.md">StrMiniRequestTimeout</a> routine. If the minidriver sets this to zero, the request does not time out.
 
 
 ### -field TimeoutOriginal
@@ -440,7 +440,7 @@ None
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568463">StrMiniReceiveDevicePacket</a>
+<a href="..\strmini\nc-strmini-phw_receive_device_srb.md">StrMiniReceiveDevicePacket</a>
 
 
 </td>
@@ -464,7 +464,7 @@ SRB_HW_FLAGS_DATA_TRANSFER | SRB_HW_FLAGS_STREAM_REQUEST
 </td>
 <td>
 
-<a href="..\strmini\nc-strmini-phw_receive_device_srb.md">StrMiniReceiveStreamDataPacket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568470">StrMiniReceiveStreamDataPacket</a>
 
 
 </td>
@@ -517,14 +517,14 @@ Specifies the number of physical elements pointed to by <b>ScatterGatherBuffer</
 
 
 
-#### - NumberOfBytesToTransfer
-
-For a SRB_READ_DATA or SRB_WRITE_DATA request, the number of bytes to be transferred.
-
-
 #### - ActualBytesTransferred
 
 For control requests, the number of bytes actually transferred. 
+
+
+#### - NumberOfBytesToTransfer
+
+For a SRB_READ_DATA or SRB_WRITE_DATA request, the number of bytes to be transferred.
 
 
 #### - Reserved[1]
@@ -536,11 +536,11 @@ Reserved for system use. Do not use.
 
 
 
-The stream class driver passes pointers to HW_STREAM_REQUEST_BLOCK structures to the minidriver's <a href="..\strmini\nc-strmini-phw_receive_device_srb.md">StrMiniReceiveStreamDataPacket</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff568463">StrMiniReceiveDevicePacket</a> routines.
+The stream class driver passes pointers to HW_STREAM_REQUEST_BLOCK structures to the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568470">StrMiniReceiveStreamDataPacket</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a>, and <a href="..\strmini\nc-strmini-phw_receive_device_srb.md">StrMiniReceiveDevicePacket</a> routines.
 
 The minidriver owns this stream request block until the request times out or it completes the request. The minidriver signals to the class driver that it has completed the request by calling <a href="..\strmini\nf-strmini-streamclassdevicenotification.md">StreamClassDeviceNotification</a>(DeviceRequestComplete, pSrb-&gt;HwDeviceExtension, pSRB) for device-specific requests, or calling <a href="..\strmini\nf-strmini-streamclassstreamnotification.md">StreamClassStreamNotification</a>(StreamRequestComplete, pSrb-&gt;StreamObject, pSrb) for stream-specific requests. (The minidriver can also complete a request by calling <a href="..\strmini\nf-strmini-streamclasscompleterequestandmarkqueueready.md">StreamClassCompleteRequestAndMarkQueueReady</a>(pSrb). See that routine for details.)
 
-If the class driver times out the request, it will call the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568473">StrMiniRequestTimeout</a> routine, which has the responsibility of terminating processing of the request. If the minidriver queues a request for later processing, it should set the <b>TimeoutCounter</b> member to zero, which will prevent the class driver from timing out the request. Once the minidriver is ready to resume processing the request, it should reset the <b>TimeoutCounter</b> member to the value of <b>TimeoutOriginal</b>.
+If the class driver times out the request, it will call the minidriver's <a href="..\strmini\nc-strmini-phw_request_timeout_handler.md">StrMiniRequestTimeout</a> routine, which has the responsibility of terminating processing of the request. If the minidriver queues a request for later processing, it should set the <b>TimeoutCounter</b> member to zero, which will prevent the class driver from timing out the request. Once the minidriver is ready to resume processing the request, it should reset the <b>TimeoutCounter</b> member to the value of <b>TimeoutOriginal</b>.
 
 
 

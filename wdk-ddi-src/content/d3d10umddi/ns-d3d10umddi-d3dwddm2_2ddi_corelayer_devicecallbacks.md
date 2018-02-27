@@ -7,8 +7,8 @@ old-location: display\d3dwddm2_2ddi_corelayer_devicecallbacks.htm
 old-project: display
 ms.assetid: B42DA194-690F-41A6-AC11-71224887A2E4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.d3dwddm2_2ddi_corelayer_devicecallbacks, d3d10umddi/D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS, D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS, D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS, D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS structure [Display Devices], d3d10umddi/D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS, display.d3dwddm2_2ddi_corelayer_devicecallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d10umddi.h
-apiname:
+api_name:
 -	D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS
 product: Windows
 targetos: Windows

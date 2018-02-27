@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b90c82ad-0531-4564-b30d-48e980282e85
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfFdoGetDefaultChildList, DFDeviceObjectFdoPdoRef_b91b8c48-179f-42e5-8015-67eaf1b38226.xml, wdf.wdffdogetdefaultchildlist, kmdf.wdffdogetdefaultchildlist, WdfFdoGetDefaultChildList method, wdffdo/WdfFdoGetDefaultChildList
+ms.keywords: DFDeviceObjectFdoPdoRef_b91b8c48-179f-42e5-8015-67eaf1b38226.xml, WdfFdoGetDefaultChildList, WdfFdoGetDefaultChildList method, kmdf.wdffdogetdefaultchildlist, wdf.wdffdogetdefaultchildlist, wdffdo/WdfFdoGetDefaultChildList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname:
+api_name:
 -	WdfFdoGetDefaultChildList
 product: Windows
 targetos: Windows

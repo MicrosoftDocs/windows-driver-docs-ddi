@@ -7,8 +7,8 @@ old-location: audio\iminiport.htm
 old-project: audio
 ms.assetid: 981a3560-473a-40b2-a1dc-4ab9dc618e67
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.iminiport, IMiniport interface [Audio Devices], IMiniport interface [Audio Devices], described, IMiniport, portcls/IMiniport, audmp-routines_8ecaedd2-12d2-420f-a5e7-0f71451cf989.xml
+ms.date: 2/22/2018
+ms.keywords: IMiniport, IMiniport interface [Audio Devices], IMiniport interface [Audio Devices], described, audio.iminiport, audmp-routines_8ecaedd2-12d2-420f-a5e7-0f71451cf989.xml, portcls/IMiniport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IMiniport
 product: Windows
 targetos: Windows

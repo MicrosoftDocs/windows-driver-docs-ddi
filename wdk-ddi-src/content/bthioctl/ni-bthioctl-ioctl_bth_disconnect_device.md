@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 03c7f389-60a4-4c98-881d-a58926644275
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.ioctl_bth_disconnect_device, IOCTL_BTH_DISCONNECT_DEVICE control code [Bluetooth Devices], IOCTL_BTH_DISCONNECT_DEVICE, bthioctl/IOCTL_BTH_DISCONNECT_DEVICE, bth_ioctls_03f58c9a-06b9-45b9-b817-3ef86058af5e.xml
+ms.keywords: IOCTL_BTH_DISCONNECT_DEVICE, IOCTL_BTH_DISCONNECT_DEVICE control code [Bluetooth Devices], bltooth.ioctl_bth_disconnect_device, bth_ioctls_03f58c9a-06b9-45b9-b817-3ef86058af5e.xml, bthioctl/IOCTL_BTH_DISCONNECT_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Bthioctl.h
-apiname:
+api_name:
 -	IOCTL_BTH_DISCONNECT_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: "*PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1"
+req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ---
 
 # IOCTL_BTH_DISCONNECT_DEVICE IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

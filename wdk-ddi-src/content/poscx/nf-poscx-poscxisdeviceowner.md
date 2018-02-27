@@ -7,8 +7,8 @@ old-location: pos\poscxisdeviceowner.htm
 old-project: pos
 ms.assetid: 48D30A9D-3BA2-4929-865A-D9A34DC6E497
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: PosCxIsDeviceOwner function, poscx/PosCxIsDeviceOwner, pos.poscxisdeviceowner, PosCxIsDeviceOwner
+ms.date: 2/23/2018
+ms.keywords: PosCxIsDeviceOwner, PosCxIsDeviceOwner function, pos.poscxisdeviceowner, poscx/PosCxIsDeviceOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	poscx.h
-apiname:
+api_name:
 -	PosCxIsDeviceOwner
 product: Windows
 targetos: Windows

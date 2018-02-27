@@ -7,8 +7,8 @@ old-location: display\pfngetresourcepresentprivatedriverdatacb.htm
 old-project: display
 ms.assetid: D4F0F272-60DC-4060-9762-3DB49236CE62
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.pfngetresourcepresentprivatedriverdatacb, pfnGetResourcePresentPrivateDriverDataCb callback function [Display Devices], pfnGetResourcePresentPrivateDriverDataCb, PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB, PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB, d3dumddi/pfnGetResourcePresentPrivateDriverDataCb
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB, d3dumddi/pfnGetResourcePresentPrivateDriverDataCb, display.pfngetresourcepresentprivatedriverdatacb, pfnGetResourcePresentPrivateDriverDataCb, pfnGetResourcePresentPrivateDriverDataCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dumddi.h
-apiname:
+api_name:
 -	pfnGetResourcePresentPrivateDriverDataCb
 product: Windows
 targetos: Windows

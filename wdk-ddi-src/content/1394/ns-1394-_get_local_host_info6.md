@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: d5da15b9-a020-42bf-8876-cec9edf3119f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PGET_LOCAL_HOST_INFO6, PGET_LOCAL_HOST_INFO6 structure pointer [Buses], GET_LOCAL_HOST_INFO6 structure [Buses], IEEE.get_local_host_info6, _GET_LOCAL_HOST_INFO6, 1394/GET_LOCAL_HOST_INFO6, PGET_LOCAL_HOST_INFO6, GET_LOCAL_HOST_INFO6, 1394/PGET_LOCAL_HOST_INFO6, 1394stct_90799b58-816d-4624-a194-6b42d64b903c.xml"
+ms.keywords: "*PGET_LOCAL_HOST_INFO6, 1394/GET_LOCAL_HOST_INFO6, 1394/PGET_LOCAL_HOST_INFO6, 1394stct_90799b58-816d-4624-a194-6b42d64b903c.xml, GET_LOCAL_HOST_INFO6, GET_LOCAL_HOST_INFO6 structure [Buses], IEEE.get_local_host_info6, PGET_LOCAL_HOST_INFO6, PGET_LOCAL_HOST_INFO6 structure pointer [Buses], _GET_LOCAL_HOST_INFO6"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	1394.h
-apiname:
+api_name:
 -	GET_LOCAL_HOST_INFO6
 product: Windows
 targetos: Windows

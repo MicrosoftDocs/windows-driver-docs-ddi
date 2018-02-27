@@ -7,8 +7,8 @@ old-location: print\waitforprinterchange.htm
 old-project: print
 ms.assetid: BD9DD9C4-D736-42DC-A55F-7F299351FA65
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: WaitForPrinterChange function [Print Devices], WaitForPrinterChange, print.waitforprinterchange, winspool/WaitForPrinterChange
+ms.date: 2/23/2018
+ms.keywords: WaitForPrinterChange, WaitForPrinterChange function [Print Devices], print.waitforprinterchange, winspool/WaitForPrinterChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Winspool.h
-apiname:
+api_name:
 -	WaitForPrinterChange
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 83e181cd-bbec-4142-8d97-4f67285b6bb4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rxref_be2316b0-d89d-4f61-bd09-05d631d1cfdd.xml, RxChangeBufferingState, ifsk.rxchangebufferingstate, rxprocs/RxChangeBufferingState, RxChangeBufferingState function [Installable File System Drivers]
+ms.keywords: RxChangeBufferingState, RxChangeBufferingState function [Installable File System Drivers], ifsk.rxchangebufferingstate, rxprocs/RxChangeBufferingState, rxref_be2316b0-d89d-4f61-bd09-05d631d1cfdd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rxprocs.h
-apiname:
+api_name:
 -	RxChangeBufferingState
 product: Windows
 targetos: Windows
@@ -187,11 +187,11 @@ On exit from <b>RxChangeBufferingState</b>, there is no change in resource owner
 
 ## -see-also
 
+<a href="..\rxprocs\nf-rxprocs-rxindicatechangeofbufferingstateforsrvopen.md">RxIndicateChangeOfBufferingStateForSrvOpen</a>
+
+
+
 <a href="..\rxprocs\nf-rxprocs-rxindicatechangeofbufferingstate.md">RxIndicateChangeOfBufferingState</a>
-
-
-
-<a href="https://msdn.microsoft.com/6cf4c6f6-a21f-4919-92b5-2403b650d8d0">The SRV_OPEN Structure</a>
 
 
 

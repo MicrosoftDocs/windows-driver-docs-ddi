@@ -4,11 +4,11 @@ title: PWINDBG_GET_THREAD_CONTEXT_ROUTINE
 author: windows-driver-content
 description: The PWINDBG_GET_THREAD_CONTEXT_ROUTINE (GetContext) function implements the functionality that is similar to the Microsoft Win32 GetThreadContext routine. It returns the context of the process being debugged.
 old-location: debugger\getcontext.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 706e05ae-9507-4414-b02c-52016e7bbbd9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.getcontext, GetContext, GetContext callback function [Windows Debugging], GetContext, PWINDBG_GET_THREAD_CONTEXT_ROUTINE, PWINDBG_GET_THREAD_CONTEXT_ROUTINE, wdbgexts/GetContext, WdbgExts_Ref_52639fac-abbf-4abc-a01f-361d14e49fd0.xml
+ms.date: 2/23/2018
+ms.keywords: GetContext, GetContext callback function [Windows Debugging], PWINDBG_GET_THREAD_CONTEXT_ROUTINE, WdbgExts_Ref_52639fac-abbf-4abc-a01f-361d14e49fd0.xml, debugger.getcontext, wdbgexts/GetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wdbgexts.h
-apiname:
+api_name:
 -	GetContext
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0a88cbb6-66be-4ef7-93da-27d7ce169779
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: CreateDeviceInterface method, IWDFDevice interface, wdf.iwdfdevice_createdeviceinterface, UMDFDeviceObjectRef_11606922-8b72-434f-a739-fd0c653ea026.xml, IWDFDevice::CreateDeviceInterface, wudfddi/IWDFDevice::CreateDeviceInterface, IWDFDevice interface, CreateDeviceInterface method, CreateDeviceInterface method, IWDFDevice, umdf.iwdfdevice_createdeviceinterface, CreateDeviceInterface
+ms.keywords: CreateDeviceInterface method, CreateDeviceInterface method, IWDFDevice interface, CreateDeviceInterface,IWDFDevice.CreateDeviceInterface, IWDFDevice, IWDFDevice interface, CreateDeviceInterface method, IWDFDevice::CreateDeviceInterface, UMDFDeviceObjectRef_11606922-8b72-434f-a739-fd0c653ea026.xml, umdf.iwdfdevice_createdeviceinterface, wdf.iwdfdevice_createdeviceinterface, wudfddi/IWDFDevice::CreateDeviceInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFDevice.CreateDeviceInterface
 product: Windows
 targetos: Windows
@@ -134,11 +134,11 @@ The following code example shows how to create a device interface instance. In t
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557006">IWDFDevice::AssignDeviceInterfaceState</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 
 

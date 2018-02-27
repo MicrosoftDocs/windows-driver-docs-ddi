@@ -7,8 +7,8 @@ old-location: dtf\itracer_getbits_method.htm
 old-project: dtf
 ms.assetid: d5c4f28a-63c0-4b9e-9994-de4589ea96c9
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dtf.itracer_getbits_method, GetBits method [Windows Device Testing Framework], ITracer interface, ITracer::GetBits, ITracer_80af4d1b-1fed-4775-83c6-4b7bee53b4a0.xml, GetBits, wdtf/ITracer::GetBits, ITracer interface [Windows Device Testing Framework], GetBits method, GetBits method [Windows Device Testing Framework], ITracer
+ms.date: 2/23/2018
+ms.keywords: GetBits method [Windows Device Testing Framework], GetBits method [Windows Device Testing Framework], ITracer interface, GetBits,ITracer.GetBits, ITracer, ITracer interface [Windows Device Testing Framework], GetBits method, ITracer::GetBits, ITracer_80af4d1b-1fed-4775-83c6-4b7bee53b4a0.xml, dtf.itracer_getbits_method, wdtf/ITracer::GetBits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtf.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	wdtf.h
-apiname:
+api_name:
 -	ITracer.GetBits
 product: Windows
 targetos: Windows
@@ -113,17 +113,17 @@ If <b>GetBits</b> fails for any reason, the caller is expected to silently conti
 
 
 
-<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
-
-
-
 <a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a>
 
 
 
- 
+<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20ITracer::GetBits method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20ITracer::GetBits method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

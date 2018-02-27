@@ -7,8 +7,8 @@ old-location: hid\ioctl_internal_i8042_mouse_write_buffer.htm
 old-project: hid
 ms.assetid: 40f6fd0b-8c18-408b-b1f7-5b280b9aa67d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: hid.ioctl_internal_i8042_mouse_write_buffer, IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER control code [Human Input Devices], IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER, ntdd8042/IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER, i8042ref_660499b1-32f5-4343-b0a2-176d03d0270c.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER, IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER control code [Human Input Devices], hid.ioctl_internal_i8042_mouse_write_buffer, i8042ref_660499b1-32f5-4343-b0a2-176d03d0270c.xml, ntdd8042/IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntdd8042.h
-apiname:
+api_name:
 -	IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER
 product: Windows
 targetos: Windows
-req.typenames: "*PMOUSE_STATE, MOUSE_STATE"
+req.typenames: MOUSE_STATE, *PMOUSE_STATE
 ---
 
 # IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*PMOUSE_STATE, MOUSE_STATE"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

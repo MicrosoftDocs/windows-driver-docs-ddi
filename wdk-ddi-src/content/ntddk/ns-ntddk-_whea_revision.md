@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 4258f223-353a-4b6e-a93c-5742e5c1668b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PWHEA_REVISION union pointer [WHEA Drivers and Applications], WHEA_REVISION, ntddk/WHEA_REVISION, ntddk/PWHEA_REVISION, whearef_0572aecb-765a-4118-8df0-7b34922e79d9.xml, PWHEA_REVISION, _WHEA_REVISION, *PWHEA_REVISION, WHEA_REVISION union [WHEA Drivers and Applications], whea.whea_revision
+ms.keywords: "*PWHEA_REVISION, PWHEA_REVISION, PWHEA_REVISION union pointer [WHEA Drivers and Applications], WHEA_REVISION, WHEA_REVISION union [WHEA Drivers and Applications], _WHEA_REVISION, ntddk/PWHEA_REVISION, ntddk/WHEA_REVISION, whea.whea_revision, whearef_0572aecb-765a-4118-8df0-7b34922e79d9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddk.h
-apiname:
+api_name:
 -	WHEA_REVISION
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_REVISION, WHEA_REVISION"
+req.typenames: WHEA_REVISION, *PWHEA_REVISION
 ---
 
 # _WHEA_REVISION structure
@@ -81,14 +81,14 @@ typedef union _WHEA_REVISION {
 A USHORT representation of the contents of the WHEA_REVISION union.
 
 
-#### - MinorRevision
-
-The minor revision number.
-
-
 #### - MajorRevision
 
 The major revision number.
+
+
+#### - MinorRevision
+
+The minor revision number.
 
 
 ## -remarks

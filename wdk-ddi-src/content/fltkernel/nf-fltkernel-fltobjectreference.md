@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ad6317bf-92fc-4e77-9993-37b7aa123a3d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltObjectReference, fltkernel/FltObjectReference, FltApiRef_e_to_o_66eccb5d-8f95-4779-b329-aaeb8b8c09b5.xml, FltObjectReference routine [Installable File System Drivers], ifsk.fltobjectreference
+ms.keywords: FltApiRef_e_to_o_66eccb5d-8f95-4779-b329-aaeb8b8c09b5.xml, FltObjectReference, FltObjectReference routine [Installable File System Drivers], fltkernel/FltObjectReference, ifsk.fltobjectreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	fltmgr.sys
-apiname:
+api_name:
 -	FltObjectReference
 product: Windows
 targetos: Windows

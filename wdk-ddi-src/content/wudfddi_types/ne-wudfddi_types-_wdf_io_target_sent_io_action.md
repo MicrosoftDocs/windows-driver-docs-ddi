@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9cdcf964-9f2d-437f-8693-de5bb4bb9895
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfIoTargetCancelSentIo, wudfddi_types/WdfIoTargetWaitForSentIoToComplete, umdfstructs_c5c41acc-35ac-4894-bb1b-af3b3a9b75d1.xml, wdf.wdf_io_target_sent_io_action__umdf_, WdfIoTargetSentIoUndefined, wudfddi_types/WdfIoTargetCancelSentIo, WdfIoTargetWaitForSentIoToComplete, wudfddi_types/WdfIoTargetLeaveSentIoPending, _WDF_IO_TARGET_SENT_IO_ACTION, wudfddi_types/WdfIoTargetSentIoUndefined, WdfIoTargetSentIoMaximum, WdfIoTargetLeaveSentIoPending, wudfddi_types/WDF_IO_TARGET_SENT_IO_ACTION, umdf.wdf_io_target_sent_io_action__umdf_, WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION enumeration, wudfddi_types/WdfIoTargetSentIoMaximum
+ms.keywords: WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION enumeration, WdfIoTargetCancelSentIo, WdfIoTargetLeaveSentIoPending, WdfIoTargetSentIoMaximum, WdfIoTargetSentIoUndefined, WdfIoTargetWaitForSentIoToComplete, _WDF_IO_TARGET_SENT_IO_ACTION, umdf.wdf_io_target_sent_io_action__umdf_, umdfstructs_c5c41acc-35ac-4894-bb1b-af3b3a9b75d1.xml, wdf.wdf_io_target_sent_io_action__umdf_, wudfddi_types/WDF_IO_TARGET_SENT_IO_ACTION, wudfddi_types/WdfIoTargetCancelSentIo, wudfddi_types/WdfIoTargetLeaveSentIoPending, wudfddi_types/WdfIoTargetSentIoMaximum, wudfddi_types/WdfIoTargetSentIoUndefined, wudfddi_types/WdfIoTargetWaitForSentIoToComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wudfddi_types.h
-apiname:
+api_name:
 -	WDF_IO_TARGET_SENT_IO_ACTION
 product: Windows
 targetos: Windows

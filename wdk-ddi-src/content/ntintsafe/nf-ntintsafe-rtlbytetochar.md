@@ -7,8 +7,8 @@ old-location: kernel\rtlbytetochar.htm
 old-project: kernel
 ms.assetid: A571B2C7-F97E-4717-AA22-D25DE47469E8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RtlByteToChar function [Kernel-Mode Driver Architecture], RtlByteToChar, ntintsafe/RtlByteToChar, kernel.rtlbytetochar
+ms.date: 2/24/2018
+ms.keywords: RtlByteToChar, RtlByteToChar function [Kernel-Mode Driver Architecture], kernel.rtlbytetochar, ntintsafe/RtlByteToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntintsafe.h
-apiname:
+api_name:
 -	RtlByteToChar
 product: Windows
 targetos: Windows

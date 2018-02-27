@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 694020c6-dd0a-46c7-9122-cd86ce28d03a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: BTH_VENDOR_PATTERN, bth_ref_e5c1f867-d585-4c90-bfe1-7b3c4a6e1582.xml, bthioctl/BTH_VENDOR_PATTERN, bthioctl/PBTH_VENDOR_PATTERN, PBTH_VENDOR_PATTERN structure pointer [Bluetooth Devices], PBTH_VENDOR_PATTERN, _BTH_VENDOR_PATTERN, bltooth.bth_vendor_pattern, *PBTH_VENDOR_PATTERN, BTH_VENDOR_PATTERN structure [Bluetooth Devices]
+ms.keywords: "*PBTH_VENDOR_PATTERN, BTH_VENDOR_PATTERN, BTH_VENDOR_PATTERN structure [Bluetooth Devices], PBTH_VENDOR_PATTERN, PBTH_VENDOR_PATTERN structure pointer [Bluetooth Devices], _BTH_VENDOR_PATTERN, bltooth.bth_vendor_pattern, bth_ref_e5c1f867-d585-4c90-bfe1-7b3c4a6e1582.xml, bthioctl/BTH_VENDOR_PATTERN, bthioctl/PBTH_VENDOR_PATTERN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	bthioctl.h
-apiname:
+api_name:
 -	BTH_VENDOR_PATTERN
 product: Windows
 targetos: Windows

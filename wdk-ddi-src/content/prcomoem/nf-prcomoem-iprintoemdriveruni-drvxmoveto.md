@@ -7,8 +7,8 @@ old-location: print\iprintoemdriveruni_drvxmoveto.htm
 old-project: print
 ms.assetid: 1f2c65ec-6218-438e-a853-4780f091a330
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: prcomoem/IPrintOemDriverUni::DrvXMoveTo, print_unidrv-pscript_rendering_85f4b5f5-6953-4b3d-902c-4573c4a1bb90.xml, DrvXMoveTo, DrvXMoveTo method [Print Devices], IPrintOemDriverUni interface [Print Devices], DrvXMoveTo method, DrvXMoveTo method [Print Devices], IPrintOemDriverUni interface, IPrintOemDriverUni, IPrintOemDriverUni::DrvXMoveTo, print.iprintoemdriveruni_drvxmoveto
+ms.date: 2/23/2018
+ms.keywords: DrvXMoveTo method [Print Devices], DrvXMoveTo method [Print Devices], IPrintOemDriverUni interface, DrvXMoveTo,IPrintOemDriverUni.DrvXMoveTo, IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], DrvXMoveTo method, IPrintOemDriverUni::DrvXMoveTo, prcomoem/IPrintOemDriverUni::DrvXMoveTo, print.iprintoemdriveruni_drvxmoveto, print_unidrv-pscript_rendering_85f4b5f5-6953-4b3d-902c-4573c4a1bb90.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	prcomoem.h
-apiname:
+api_name:
 -	IPrintOemDriverUni.DrvXMoveTo
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

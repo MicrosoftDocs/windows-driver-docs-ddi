@@ -4,11 +4,11 @@ title: IDebugFailureAnalysis2::GetUlong64 method
 author: windows-driver-content
 description: The GetUlong64 method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it gets the ULONG64 value from the entry's data block.
 old-location: debugger\idebugfailureanalysis2_getulong64.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: C00C983A-92BA-4E4A-A5AB-918121D14B64
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging], GetUlong method, debugger.idebugfailureanalysis2_getulong64, GetUlong method [Windows Debugging], GetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2::GetUlong64, IDebugFailureAnalysis2::GetUlong, GetUlong64, IDebugFailureAnalysis2, extsfns/IDebugFailureAnalysis2::GetUlong
+ms.date: 2/23/2018
+ms.keywords: GetUlong method [Windows Debugging], GetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, GetUlong64,IDebugFailureAnalysis2.GetUlong64, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], GetUlong method, IDebugFailureAnalysis2::GetUlong, IDebugFailureAnalysis2::GetUlong64, debugger.idebugfailureanalysis2_getulong64, extsfns/IDebugFailureAnalysis2::GetUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: extsfns.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	extsfns.h
-apiname:
+api_name:
 -	IDebugFailureAnalysis2.GetUlong
 product: Windows
 targetos: Windows
@@ -102,6 +102,14 @@ The appropriate use of this method is get the data block from an <a href="https:
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983426">SetUlong64</a>
+
+
+
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+
+
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
@@ -110,21 +118,13 @@ The appropriate use of this method is get the data block from an <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983426">SetUlong64</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983410">AddUlong64</a>
 
 
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugFailureAnalysis2::GetUlong method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugFailureAnalysis2::GetUlong method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

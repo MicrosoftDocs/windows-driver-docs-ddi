@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 88967BD6-C633-40D0-BE4F-2B08494EA5B0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlPrepareToReuseEcp, ntifs/FsRtlPrepareToReuseEcp, ifsk.fsrtlpreparetoreuseecp, FsRtlPrepareToReuseEcp routine [Installable File System Drivers]
+ms.keywords: FsRtlPrepareToReuseEcp, FsRtlPrepareToReuseEcp routine [Installable File System Drivers], ifsk.fsrtlpreparetoreuseecp, ntifs/FsRtlPrepareToReuseEcp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	FsRtlPrepareToReuseEcp
 product: Windows
 targetos: Windows
@@ -104,7 +104,7 @@ Within a file system minifilter driver, use <a href="..\fltkernel\nf-fltkernel-f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+<a href="..\ntifs\nf-ntifs-fsrtlinsertextracreateparameter.md">FsRtlInsertExtraCreateParameter</a>
 
 
 
@@ -112,7 +112,7 @@ Within a file system minifilter driver, use <a href="..\fltkernel\nf-fltkernel-f
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlinsertextracreateparameter.md">FsRtlInsertExtraCreateParameter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 
 

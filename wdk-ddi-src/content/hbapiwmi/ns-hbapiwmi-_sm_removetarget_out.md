@@ -7,8 +7,8 @@ old-location: storage\sm_removetarget_out.htm
 old-project: storage
 ms.assetid: b93f999e-471a-4f02-a6f2-e21386b9e289
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: PSM_RemoveTarget_OUT structure pointer [Storage Devices], _SM_RemoveTarget_OUT, SM_RemoveTarget_OUT, PSM_RemoveTarget_OUT, storage.sm_removetarget_out, hbapiwmi/PSM_RemoveTarget_OUT, hbapiwmi/SM_RemoveTarget_OUT, *PSM_RemoveTarget_OUT, structs-Fibre_3535f161-920f-4483-80d0-3d2d9863c935.xml, SM_RemoveTarget_OUT structure [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PSM_RemoveTarget_OUT, PSM_RemoveTarget_OUT, PSM_RemoveTarget_OUT structure pointer [Storage Devices], SM_RemoveTarget_OUT, SM_RemoveTarget_OUT structure [Storage Devices], _SM_RemoveTarget_OUT, hbapiwmi/PSM_RemoveTarget_OUT, hbapiwmi/SM_RemoveTarget_OUT, storage.sm_removetarget_out, structs-Fibre_3535f161-920f-4483-80d0-3d2d9863c935.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hbapiwmi.h
-apiname:
+api_name:
 -	SM_RemoveTarget_OUT
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: kernel\rtluint8tochar.htm
 old-project: kernel
 ms.assetid: 78EAB56F-8E6D-4048-83DC-1B9BC75E08B5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RtlUInt8ToChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlUInt8ToChar, RtlUInt8ToChar, kernel.rtluint8tochar
+ms.date: 2/24/2018
+ms.keywords: RtlUInt8ToChar, RtlUInt8ToChar function [Kernel-Mode Driver Architecture], kernel.rtluint8tochar, ntintsafe/RtlUInt8ToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntintsafe.h
-apiname:
+api_name:
 -	RtlUInt8ToChar
 product: Windows
 targetos: Windows

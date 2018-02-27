@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: acc56cb0-5f89-413f-9fdc-a051cc4947c0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdf_child_address_description_header_init, WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT function, wdfchildlist/WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT, DFDeviceObjectChildListRef_167489bc-617b-440a-a0b2-d5c346b4cf50.xml, WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT, kmdf.wdf_child_address_description_header_init
+ms.keywords: DFDeviceObjectChildListRef_167489bc-617b-440a-a0b2-d5c346b4cf50.xml, WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT, WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT function, kmdf.wdf_child_address_description_header_init, wdf.wdf_child_address_description_header_init, wdfchildlist/WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfchildlist.h
-apiname:
+api_name:
 -	WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: aa0903db-fced-4af9-bfc9-2769ed4962a1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: CcPinMappedData routine [Installable File System Drivers], ntifs/CcPinMappedData, CcPinMappedData, ifsk.ccpinmappeddata, ccref_3935eee3-9906-4110-812f-ca186953cfbf.xml
+ms.keywords: CcPinMappedData, CcPinMappedData routine [Installable File System Drivers], ccref_3935eee3-9906-4110-812f-ca186953cfbf.xml, ifsk.ccpinmappeddata, ntifs/CcPinMappedData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	CcPinMappedData
 product: Windows
 targetos: Windows
@@ -174,7 +174,7 @@ It is not necessary to call <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinDa
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 
 
@@ -194,7 +194,7 @@ It is not necessary to call <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinDa
 
 
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
 
 
 

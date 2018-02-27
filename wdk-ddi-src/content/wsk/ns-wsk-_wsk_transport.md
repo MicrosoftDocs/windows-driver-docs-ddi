@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aaf7b5ac-0401-4b6a-a478-3d50559817db
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PWSK_TRANSPORT structure pointer [Network Drivers Starting with Windows Vista], _WSK_TRANSPORT, wsk/WSK_TRANSPORT, netvista.wsk_transport, wskref_be7d6a6d-971e-49de-bc64-ebd1f1d04085.xml, WSK_TRANSPORT, *PWSK_TRANSPORT, PWSK_TRANSPORT, wsk/PWSK_TRANSPORT, WSK_TRANSPORT structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PWSK_TRANSPORT, PWSK_TRANSPORT, PWSK_TRANSPORT structure pointer [Network Drivers Starting with Windows Vista], WSK_TRANSPORT, WSK_TRANSPORT structure [Network Drivers Starting with Windows Vista], _WSK_TRANSPORT, netvista.wsk_transport, wsk/PWSK_TRANSPORT, wsk/WSK_TRANSPORT, wskref_be7d6a6d-971e-49de-bc64-ebd1f1d04085.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wsk.h
-apiname:
+api_name:
 -	WSK_TRANSPORT
 product: Windows
 targetos: Windows
-req.typenames: "*PWSK_TRANSPORT, WSK_TRANSPORT"
+req.typenames: WSK_TRANSPORT, *PWSK_TRANSPORT
 req.product: Windows 10 or later.
 ---
 
@@ -157,15 +157,15 @@ A single transport provider can support multiple combinations of values for the
 
 ## -see-also
 
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
 
 
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
 
 

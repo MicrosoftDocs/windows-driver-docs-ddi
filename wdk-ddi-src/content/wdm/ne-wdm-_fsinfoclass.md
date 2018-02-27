@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8A8F938D-8F6B-47E0-963F-8E8B14033802
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FS_INFORMATION_CLASS, wdm/FileFsDeviceInformation, FileFsControlInformation, FileFsDeviceInformation, wdm/FileFsControlInformation, FileFsSizeInformation, *PFS_INFORMATION_CLASS, FileFsSectorSizeInformation, FileFsAttributeInformation, FileFsFullSizeInformation, wdm/FileFsFullSizeInformation, FS_INFORMATION_CLASS enumeration [Installable File System Drivers], FileFsObjectIdInformation, wdm/FileFsObjectIdInformation, FileFsLabelInformation, FileFsVolumeFlagsInformation, _FSINFOCLASS, wdm/FileFsVolumeInformation, wdm/FileFsDriverPathInformation, wdm/FileFsVolumeFlagsInformation, FileFsDriverPathInformation, wdm/FileFsSectorSizeInformation, wdm/FileFsAttributeInformation, ifsk.fs_information_class, wdm/FS_INFORMATION_CLASS, wdm/FileFsSizeInformation, FileFsVolumeInformation, wdm/FileFsLabelInformation
+ms.keywords: "*PFS_INFORMATION_CLASS, FS_INFORMATION_CLASS, FS_INFORMATION_CLASS enumeration [Installable File System Drivers], FileFsAttributeInformation, FileFsControlInformation, FileFsDeviceInformation, FileFsDriverPathInformation, FileFsFullSizeInformation, FileFsLabelInformation, FileFsObjectIdInformation, FileFsSectorSizeInformation, FileFsSizeInformation, FileFsVolumeFlagsInformation, FileFsVolumeInformation, _FSINFOCLASS, ifsk.fs_information_class, wdm/FS_INFORMATION_CLASS, wdm/FileFsAttributeInformation, wdm/FileFsControlInformation, wdm/FileFsDeviceInformation, wdm/FileFsDriverPathInformation, wdm/FileFsFullSizeInformation, wdm/FileFsLabelInformation, wdm/FileFsObjectIdInformation, wdm/FileFsSectorSizeInformation, wdm/FileFsSizeInformation, wdm/FileFsVolumeFlagsInformation, wdm/FileFsVolumeInformation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdm.h
-apiname:
+api_name:
 -	FS_INFORMATION_CLASS
 product: Windows
 targetos: Windows
-req.typenames: "*PFS_INFORMATION_CLASS, FS_INFORMATION_CLASS"
+req.typenames: FS_INFORMATION_CLASS, *PFS_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c0d5ea59-c1df-403b-9e74-b1ab60761640
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFIoTargetStateManagement interface, Stop method, umdf.iwdfiotargetstatemanagement_stop, Stop method, IWDFIoTargetStateManagement::Stop, Stop method, IWDFIoTargetStateManagement interface, wdf.iwdfiotargetstatemanagement_stop, wudfddi/IWDFIoTargetStateManagement::Stop, UMDFIoTargetObjectRef_e3b5b892-9d72-49ad-8d58-9cf751f831ad.xml, Stop, IWDFIoTargetStateManagement
+ms.keywords: IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, Stop method, IWDFIoTargetStateManagement::Stop, Stop method, Stop method, IWDFIoTargetStateManagement interface, Stop,IWDFIoTargetStateManagement.Stop, UMDFIoTargetObjectRef_e3b5b892-9d72-49ad-8d58-9cf751f831ad.xml, umdf.iwdfiotargetstatemanagement_stop, wdf.iwdfiotargetstatemanagement_stop, wudfddi/IWDFIoTargetStateManagement::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFIoTargetStateManagement.Stop
 product: Windows
 targetos: Windows

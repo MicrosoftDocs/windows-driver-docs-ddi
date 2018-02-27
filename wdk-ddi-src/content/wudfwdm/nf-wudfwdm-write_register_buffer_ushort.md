@@ -7,8 +7,8 @@ old-location: kernel\write_register_buffer_ushort.htm
 old-project: kernel
 ms.assetid: 070fc2b0-045e-4778-82d4-0850cd2064a5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: WRITE_REGISTER_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], wdm/WRITE_REGISTER_BUFFER_USHORT, k103_31475540-7ba8-44b6-ad54-e794ffddf8ee.xml, WRITE_REGISTER_BUFFER_USHORT, kernel.write_register_buffer_ushort
+ms.date: 2/24/2018
+ms.keywords: WRITE_REGISTER_BUFFER_USHORT, WRITE_REGISTER_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], k103_31475540-7ba8-44b6-ad54-e794ffddf8ee.xml, kernel.write_register_buffer_ushort, wdm/WRITE_REGISTER_BUFFER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	WRITE_REGISTER_BUFFER_USHORT
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT"
+req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
 req.product: Windows 10 or later.
 ---
 

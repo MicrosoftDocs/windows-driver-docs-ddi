@@ -4,11 +4,11 @@ title: IDebugControl2::OutputTextReplacements method
 author: windows-driver-content
 description: The OutputTextReplacements method prints all the currently defined user-named aliases to the debugger's output stream.
 old-location: debugger\outputtextreplacements.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: ea01fa02-8f4b-45c3-9690-30c8a1e6b4e5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl_57964e7b-e11a-446f-afab-7d3326fab695.xml, debugger.outputtextreplacements, IDebugControl2, IDebugControl3::OutputTextReplacements, OutputTextReplacements method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::OutputTextReplacements, dbgeng/IDebugControl2::OutputTextReplacements, IDebugControl2::OutputTextReplacements, IDebugControl2 interface [Windows Debugging], OutputTextReplacements method, OutputTextReplacements method [Windows Debugging], OutputTextReplacements, IDebugControl3 interface [Windows Debugging], OutputTextReplacements method, OutputTextReplacements method [Windows Debugging], IDebugControl2 interface
+ms.date: 2/23/2018
+ms.keywords: IDebugControl2, IDebugControl2 interface [Windows Debugging], OutputTextReplacements method, IDebugControl2::OutputTextReplacements, IDebugControl3 interface [Windows Debugging], OutputTextReplacements method, IDebugControl3::OutputTextReplacements, IDebugControl_57964e7b-e11a-446f-afab-7d3326fab695.xml, OutputTextReplacements method [Windows Debugging], OutputTextReplacements method [Windows Debugging], IDebugControl2 interface, OutputTextReplacements method [Windows Debugging], IDebugControl3 interface, OutputTextReplacements,IDebugControl2.OutputTextReplacements, dbgeng/IDebugControl2::OutputTextReplacements, dbgeng/IDebugControl3::OutputTextReplacements, debugger.outputtextreplacements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugControl2.OutputTextReplacements
 -	IDebugControl3.OutputTextReplacements
 product: Windows
@@ -118,19 +118,7 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -142,6 +130,18 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
 
 
@@ -150,5 +150,5 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl2::OutputTextReplacements method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl2::OutputTextReplacements method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

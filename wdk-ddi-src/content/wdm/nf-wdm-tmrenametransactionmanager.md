@@ -7,8 +7,8 @@ old-location: kernel\tmrenametransactionmanager_.htm
 old-project: kernel
 ms.assetid: B4124FF4-50CC-474A-B42F-17BCF698AB59
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: TmRenameTransactionManager routine [Kernel-Mode Driver Architecture], wdm/TmRenameTransactionManager, TmRenameTransactionManager, kernel.tmrenametransactionmanager_
+ms.date: 2/24/2018
+ms.keywords: TmRenameTransactionManager, TmRenameTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tmrenametransactionmanager_, wdm/TmRenameTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,16 +29,16 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Wdm.h
 -	Ext-MS-Win-ntos-tm-l1-1-0.dll
 -	tm.sys
-apiname:
+api_name:
 -	TmRenameTransactionManager
 product: Windows
 targetos: Windows

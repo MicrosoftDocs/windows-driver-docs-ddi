@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5111A10F-F66F-4667-A77E-63691CCD282D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wwan/WwanUssdSessionStateExisting, wwan/WWAN_USSD_SESSION_STATE, _WWAN_USSD_SESSION_STATE, wwan/WwanUssdSessionStateNew, WwanUssdSessionStateNew, *PWWAN_USSD_SESSION_STATE, WwanUssdSessionStateExisting, WWAN_USSD_SESSION_STATE, netvista.wwan_ussd_session_state, WWAN_USSD_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PWWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista], WwanUssdSessionStateExisting, WwanUssdSessionStateNew, _WWAN_USSD_SESSION_STATE, netvista.wwan_ussd_session_state, wwan/WWAN_USSD_SESSION_STATE, wwan/WwanUssdSessionStateExisting, wwan/WwanUssdSessionStateNew"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_USSD_SESSION_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE"
+req.typenames: WWAN_USSD_SESSION_STATE, *PWWAN_USSD_SESSION_STATE
 req.product: Windows 10 or later.
 ---
 

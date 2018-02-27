@@ -7,8 +7,8 @@ old-location: display\dxva_connectmode.htm
 old-project: display
 ms.assetid: 84520745-c99d-4495-a7c4-514d5e6cd27e
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: LPDXVA_ConnectMode structure pointer [Display Devices], dxva/LPDXVA_ConnectMode, dxva/DXVA_ConnectMode, DXVA_ConnectMode structure [Display Devices], DXVA_ConnectMode, LPDXVA_ConnectMode, _DXVA_ConnectMode, dxvaref_24815d94-550d-4b5c-be95-2fb0882781c0.xml, *LPDXVA_ConnectMode, display.dxva_connectmode
+ms.date: 2/24/2018
+ms.keywords: "*LPDXVA_ConnectMode, DXVA_ConnectMode, DXVA_ConnectMode structure [Display Devices], LPDXVA_ConnectMode, LPDXVA_ConnectMode structure pointer [Display Devices], _DXVA_ConnectMode, display.dxva_connectmode, dxva/DXVA_ConnectMode, dxva/LPDXVA_ConnectMode, dxvaref_24815d94-550d-4b5c-be95-2fb0882781c0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dxva.h
-apiname:
+api_name:
 -	DXVA_ConnectMode
 product: Windows
 targetos: Windows
-req.typenames: "*LPDXVA_ConnectMode, DXVA_ConnectMode"
+req.typenames: DXVA_ConnectMode, *LPDXVA_ConnectMode
 ---
 
 # _DXVA_ConnectMode structure

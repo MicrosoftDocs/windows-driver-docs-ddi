@@ -7,8 +7,8 @@ old-location: stream\ksrelativeevent.htm
 old-project: stream
 ms.assetid: 4edb8b74-d5e5-49ee-85a7-9eb095f5a575
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ksrelativeevent, KSRELATIVEEVENT, KSRELATIVEEVENT structure [Streaming Media Devices], ks/KSRELATIVEEVENT, ks-struct_d79f6a15-6e44-4d81-b4f1-c113cbc2ee79.xml
+ms.date: 2/23/2018
+ms.keywords: KSRELATIVEEVENT, KSRELATIVEEVENT structure [Streaming Media Devices], ks-struct_d79f6a15-6e44-4d81-b4f1-c113cbc2ee79.xml, ks/KSRELATIVEEVENT, stream.ksrelativeevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KSRELATIVEEVENT
 product: Windows
 targetos: Windows
@@ -92,7 +92,7 @@ Reserved and set to zero.
 
 ### -field Event
 
-A <a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a> structure that contains the event to be used.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a> structure that contains the event to be used.
 
 
 ### -field EventData

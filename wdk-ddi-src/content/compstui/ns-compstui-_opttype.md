@@ -7,8 +7,8 @@ old-location: print\opttype.htm
 old-project: print
 ms.assetid: 041dd438-e837-4912-bda7-de654204198b
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: POPTTYPE structure pointer [Print Devices], OPTTYPE, print.opttype, OPTTYPE structure [Print Devices], compstui/POPTTYPE, compstui/OPTTYPE, POPTTYPE, *POPTTYPE, _OPTTYPE, cpsuifnc_de1ff2db-9eea-4daf-bc9e-2e24a2dd5271.xml
+ms.date: 2/23/2018
+ms.keywords: "*POPTTYPE, OPTTYPE, OPTTYPE structure [Print Devices], POPTTYPE, POPTTYPE structure pointer [Print Devices], _OPTTYPE, compstui/OPTTYPE, compstui/POPTTYPE, cpsuifnc_de1ff2db-9eea-4daf-bc9e-2e24a2dd5271.xml, print.opttype"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	compstui.h
-apiname:
+api_name:
 -	OPTTYPE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: B42852F3-BF64-44F8-8D9C-361D623CE35A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRB_REQ_ISOCH_TALK, _IRB_REQ_ISOCH_TALK, IEEE.irb_req_isoch_talk, 1394/IRB_REQ_ISOCH_TALK, IRB_REQ_ISOCH_TALK structure [Buses]
+ms.keywords: 1394/IRB_REQ_ISOCH_TALK, IEEE.irb_req_isoch_talk, IRB_REQ_ISOCH_TALK, IRB_REQ_ISOCH_TALK structure [Buses], _IRB_REQ_ISOCH_TALK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	1394.h
-apiname:
+api_name:
 -	IRB_REQ_ISOCH_TALK
 product: Windows
 targetos: Windows

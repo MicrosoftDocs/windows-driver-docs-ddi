@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d47cbcab-8682-4c7f-b651-3d1e0f78dc0c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.mrxcomputenewbufferingstate, MRxComputeNewBufferingState, MRxComputeNewBufferingState routine [Installable File System Drivers], MRxComputeNewBufferingState, PMRX_COMPUTE_NEW_BUFFERING_STATE, PMRX_COMPUTE_NEW_BUFFERING_STATE, mrx/MRxComputeNewBufferingState, mrxref_294ad2d0-2454-437d-818a-6879361f97e5.xml
+ms.keywords: MRxComputeNewBufferingState, MRxComputeNewBufferingState routine [Installable File System Drivers], PMRX_COMPUTE_NEW_BUFFERING_STATE, ifsk.mrxcomputenewbufferingstate, mrx/MRxComputeNewBufferingState, mrxref_294ad2d0-2454-437d-818a-6879361f97e5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	mrx.h
-apiname:
+api_name:
 -	MRxComputeNewBufferingState
 product: Windows
 targetos: Windows
@@ -128,11 +128,11 @@ The Server Message Block (SMB) redirector uses <i>MRxComputeNewBufferingState</i
 
 ## -see-also
 
-<a href="..\mrx\nc-mrx-pmrx_get_connection_id.md">MRxGetConnectionId</a>
-
-
-
 <a href="..\mrx\nc-mrx-pmrx_change_buffering_state_calldown.md">MRxCompleteBufferingStateChangeRequest</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_get_connection_id.md">MRxGetConnectionId</a>
 
 
 

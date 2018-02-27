@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c9328791-898e-48f2-acfd-30c8a36fcd29
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.baseband_channel_info, BASEBAND_CHANNEL_INFO, _BASEBAND_CHANNEL_INFO, bth_structs_849b4363-4e7e-4fee-b5c1-86b32431a6dd.xml, PBASEBAND_CHANNEL_INFO structure pointer [Bluetooth Devices], *PBASEBAND_CHANNEL_INFO, bthddi/PBASEBAND_CHANNEL_INFO, PBASEBAND_CHANNEL_INFO, BASEBAND_CHANNEL_INFO structure [Bluetooth Devices], bthddi/BASEBAND_CHANNEL_INFO
+ms.keywords: "*PBASEBAND_CHANNEL_INFO, BASEBAND_CHANNEL_INFO, BASEBAND_CHANNEL_INFO structure [Bluetooth Devices], PBASEBAND_CHANNEL_INFO, PBASEBAND_CHANNEL_INFO structure pointer [Bluetooth Devices], _BASEBAND_CHANNEL_INFO, bltooth.baseband_channel_info, bth_structs_849b4363-4e7e-4fee-b5c1-86b32431a6dd.xml, bthddi/BASEBAND_CHANNEL_INFO, bthddi/PBASEBAND_CHANNEL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	bthddi.h
-apiname:
+api_name:
 -	BASEBAND_CHANNEL_INFO
 product: Windows
 targetos: Windows

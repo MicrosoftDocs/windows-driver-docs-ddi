@@ -7,8 +7,8 @@ old-location: display\d3dkmt_mpo3ddi_support.htm
 old-project: display
 ms.assetid: 993E0BC3-DE46-48B9-A346-386E49CE28CE
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.d3dkmt_mpo3ddi_support, D3DKMT_MPO3DDI_SUPPORT structure [Display Devices], D3DKMT_MPO3DDI_SUPPORT, _D3DKMT_MPO3DDI_SUPPORT, d3dkmthk/D3DKMT_MPO3DDI_SUPPORT
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_MPO3DDI_SUPPORT, D3DKMT_MPO3DDI_SUPPORT structure [Display Devices], _D3DKMT_MPO3DDI_SUPPORT, d3dkmthk/D3DKMT_MPO3DDI_SUPPORT, display.d3dkmt_mpo3ddi_support
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	D3DKMT_MPO3DDI_SUPPORT
 product: Windows
 targetos: Windows

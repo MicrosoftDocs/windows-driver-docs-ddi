@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2765ccb0-3389-4962-8a7d-8080cb3c8806
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FILTER_REPLY_HEADER, PFILTER_REPLY_HEADER structure pointer [Installable File System Drivers], PFILTER_REPLY_HEADER, ifsk.filter_reply_header, *PFILTER_REPLY_HEADER, _FILTER_REPLY_HEADER, FltSystemStructures_93e9fad2-e89d-40af-8614-c09a51f07e7b.xml, FILTER_REPLY_HEADER structure [Installable File System Drivers], fltuserstructures/FILTER_REPLY_HEADER, fltuserstructures/PFILTER_REPLY_HEADER
+ms.keywords: "*PFILTER_REPLY_HEADER, FILTER_REPLY_HEADER, FILTER_REPLY_HEADER structure [Installable File System Drivers], FltSystemStructures_93e9fad2-e89d-40af-8614-c09a51f07e7b.xml, PFILTER_REPLY_HEADER, PFILTER_REPLY_HEADER structure pointer [Installable File System Drivers], _FILTER_REPLY_HEADER, fltuserstructures/FILTER_REPLY_HEADER, fltuserstructures/PFILTER_REPLY_HEADER, ifsk.filter_reply_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	fltuserstructures.h
-apiname:
+api_name:
 -	FILTER_REPLY_HEADER
 product: Windows
 targetos: Windows

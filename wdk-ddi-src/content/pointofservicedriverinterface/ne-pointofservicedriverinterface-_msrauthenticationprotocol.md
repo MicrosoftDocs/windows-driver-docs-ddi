@@ -7,8 +7,8 @@ old-location: pos\msrauthenticationprotocoltype.htm
 old-project: pos
 ms.assetid: 6f06d03e-001e-4340-9b96-8e3654be5c1a
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: MsrAuthenticationProtocol, MsrAuthenticationProtocol enumeration, MsrAuthenticationProtocolType_ChallengeResponse, pos.msrauthenticationprotocoltype, pointofservicedriverinterface/MsrAuthenticationProtocolType, MsrAuthenticationProtocolType_None, _MsrAuthenticationProtocol, MsrAuthenticationProtocolType enumeration, pointofservicedriverinterface/MsrAuthenticationProtocolType_None, pointofservicedriverinterface/MsrAuthenticationProtocolType_ChallengeResponse, MsrAuthenticationProtocolType
+ms.date: 2/23/2018
+ms.keywords: MsrAuthenticationProtocol, MsrAuthenticationProtocol enumeration, MsrAuthenticationProtocolType, MsrAuthenticationProtocolType enumeration, MsrAuthenticationProtocolType_ChallengeResponse, MsrAuthenticationProtocolType_None, _MsrAuthenticationProtocol, pointofservicedriverinterface/MsrAuthenticationProtocolType, pointofservicedriverinterface/MsrAuthenticationProtocolType_ChallengeResponse, pointofservicedriverinterface/MsrAuthenticationProtocolType_None, pos.msrauthenticationprotocoltype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pointofservicedriverinterface.h
-apiname:
+api_name:
 -	MsrAuthenticationProtocol
 product: Windows
 targetos: Windows

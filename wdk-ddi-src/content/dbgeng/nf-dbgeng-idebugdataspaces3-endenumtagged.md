@@ -4,11 +4,11 @@ title: IDebugDataSpaces3::EndEnumTagged method
 author: windows-driver-content
 description: The EndEnumTagged method releases the resources used by the specified enumeration.
 old-location: debugger\endenumtagged.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 6a456b8c-aec6-443d-8db4-21e7715ab818
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugDataSpaces3 interface [Windows Debugging], EndEnumTagged method, IDebugDataSpaces3::EndEnumTagged, dbgeng/IDebugDataSpaces4::EndEnumTagged, IDebugDataSpaces4 interface [Windows Debugging], EndEnumTagged method, EndEnumTagged, EndEnumTagged method [Windows Debugging], EndEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface, EndEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces3, dbgeng/IDebugDataSpaces3::EndEnumTagged, debugger.endenumtagged, IDebugDataSpaces4::EndEnumTagged, IDebugDataSpaces_a6366d17-1a38-43ca-af52-3c7e2b73be9e.xml
+ms.date: 2/23/2018
+ms.keywords: EndEnumTagged method [Windows Debugging], EndEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface, EndEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface, EndEnumTagged,IDebugDataSpaces3.EndEnumTagged, IDebugDataSpaces3, IDebugDataSpaces3 interface [Windows Debugging], EndEnumTagged method, IDebugDataSpaces3::EndEnumTagged, IDebugDataSpaces4 interface [Windows Debugging], EndEnumTagged method, IDebugDataSpaces4::EndEnumTagged, IDebugDataSpaces_a6366d17-1a38-43ca-af52-3c7e2b73be9e.xml, dbgeng/IDebugDataSpaces3::EndEnumTagged, dbgeng/IDebugDataSpaces4::EndEnumTagged, debugger.endenumtagged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugDataSpaces3.EndEnumTagged
 -	IDebugDataSpaces4.EndEnumTagged
 product: Windows

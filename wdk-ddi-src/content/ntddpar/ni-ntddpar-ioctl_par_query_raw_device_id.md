@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 3d7b99ea-eb53-4466-bd98-15c147c00d35
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.ioctl_par_query_raw_device_id, IOCTL_PAR_QUERY_RAW_DEVICE_ID control code [Parallel Ports], IOCTL_PAR_QUERY_RAW_DEVICE_ID, ntddpar/IOCTL_PAR_QUERY_RAW_DEVICE_ID, cisspd_422dd85c-1d22-4968-9b4c-fd1ef03432e5.xml
+ms.keywords: IOCTL_PAR_QUERY_RAW_DEVICE_ID, IOCTL_PAR_QUERY_RAW_DEVICE_ID control code [Parallel Ports], cisspd_422dd85c-1d22-4968-9b4c-fd1ef03432e5.xml, ntddpar/IOCTL_PAR_QUERY_RAW_DEVICE_ID, parports.ioctl_par_query_raw_device_id
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddpar.h
-apiname:
+api_name:
 -	IOCTL_PAR_QUERY_RAW_DEVICE_ID
 product: Windows
 targetos: Windows
-req.typenames: "*POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION"
+req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ---
 
 # IOCTL_PAR_QUERY_RAW_DEVICE_ID IOCTL
@@ -49,7 +49,7 @@ req.typenames: "*POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION"
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

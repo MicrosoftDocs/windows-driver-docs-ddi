@@ -4,11 +4,11 @@ title: ExtRemoteTypedList::SetTypeAndLink method
 author: windows-driver-content
 description: The SetTypeAndLink method sets the type information for the typed list.
 old-location: debugger\extremotetypedlist_settypeandlink.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: f6e2d8e3-294d-45d8-8fc6-33af3a746244
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: SetTypeAndLink method [Windows Debugging], ExtRemoteTypedList class, EngExtCpp_Ref_8867c503-5983-465c-bfb6-f13b21d325cc.xml, SetTypeAndLink method [Windows Debugging], ExtRemoteTypedList, ExtRemoteTypedList::SetTypeAndLink, ExtRemoteTypedList class [Windows Debugging], SetTypeAndLink method, debugger.extremotetypedlist_settypeandlink, SetTypeAndLink
+ms.date: 2/23/2018
+ms.keywords: EngExtCpp_Ref_8867c503-5983-465c-bfb6-f13b21d325cc.xml, ExtRemoteTypedList, ExtRemoteTypedList class [Windows Debugging], SetTypeAndLink method, ExtRemoteTypedList::SetTypeAndLink, SetTypeAndLink method [Windows Debugging], SetTypeAndLink method [Windows Debugging], ExtRemoteTypedList class, SetTypeAndLink,ExtRemoteTypedList.SetTypeAndLink, debugger.extremotetypedlist_settypeandlink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	engextcpp.hpp
-apiname:
+api_name:
 -	ExtRemoteTypedList.SetTypeAndLink
 product: Windows
 targetos: Windows
@@ -118,19 +118,7 @@ For more information about the SINGLE_LIST_ENTRY and LIST_ENTRY structures, see 
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList</a>
-
-
-
-<a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList</a>
-
-
-
 <a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(bool)</a>
-
-
-
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64 bool)</a>
 
 
 
@@ -138,9 +126,21 @@ For more information about the SINGLE_LIST_ENTRY and LIST_ENTRY structures, see 
 
 
 
- 
+<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64)</a>
+
+
+
+<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64 bool)</a>
+
+
+
+<a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20ExtRemoteTypedList.SetTypeAndLink method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtRemoteTypedList.SetTypeAndLink method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: IDebugFAEntryTags::SetProperties method
 author: windows-driver-content
 description: The SetProperties method sets the name or description (or both) of a tag in a DebugFailureAnalysisTags object.
 old-location: debugger\idebugfaentrytags_setproperties.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: EEBD3291-4DFC-4503-9F5A-49591FE09680
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: SetProperties, IDebugFAEntryTags, SetProperties method [Windows Debugging], IDebugFAEntryTags interface [Windows Debugging], SetProperties method, debugger.idebugfaentrytags_setproperties, IDebugFAEntryTags::SetProperties, SetProperties method [Windows Debugging], IDebugFAEntryTags interface, extsfns/IDebugFAEntryTags::SetProperties
+ms.date: 2/23/2018
+ms.keywords: IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], SetProperties method, IDebugFAEntryTags::SetProperties, SetProperties method [Windows Debugging], SetProperties method [Windows Debugging], IDebugFAEntryTags interface, SetProperties,IDebugFAEntryTags.SetProperties, debugger.idebugfaentrytags_setproperties, extsfns/IDebugFAEntryTags::SetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: extsfns.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	extsfns.h
-apiname:
+api_name:
 -	IDebugFAEntryTags.SetProperties
 product: Windows
 targetos: Windows
@@ -101,6 +101,18 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise it returns an error c
 
 ## -see-also
 
+<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+
+
+
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+
+
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
@@ -109,21 +121,9 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise it returns an error c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
-
-
-
-<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
-
-
-
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugFAEntryTags::SetProperties method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugFAEntryTags::SetProperties method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

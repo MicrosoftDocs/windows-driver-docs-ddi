@@ -1,3 +1,8 @@
+# [Storage](../_storage/index.md)
+## [Strmini.h](index.md)
+### [_ACCESS_RANGE structure](../strmini/ns-strmini-_access_range.md)
+### [_HW_INITIALIZATION_DATA structure](../strmini/ns-strmini-_hw_initialization_data.md)
+### [_PORT_CONFIGURATION_INFORMATION structure](../strmini/ns-strmini-_port_configuration_information.md)
 # [Streaming media devices](../_stream/index.md)
 ## [Strmini.h](index.md)
 ### [PHW_CANCEL_SRB callback](../strmini/nc-strmini-phw_cancel_srb.md)

@@ -7,8 +7,8 @@ old-location: display\iddcxdeviceinitialize.htm
 old-project: display
 ms.assetid: 4967e897-1a71-4f17-ad5b-9cc9916b0087
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: IddCxDeviceInitialize, iddcx/IddCxDeviceInitialize, display.iddcxdeviceinitialize, IddCxDeviceInitialize method [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: IddCxDeviceInitialize, IddCxDeviceInitialize method [Display Devices], display.iddcxdeviceinitialize, iddcx/IddCxDeviceInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "_Must_inspect_result_"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	iddcx.h
-apiname:
+api_name:
 -	IddCxDeviceInitialize
 product: Windows
 targetos: Windows

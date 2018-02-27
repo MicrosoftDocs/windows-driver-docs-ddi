@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F0D3F9C4-3305-42A8-A484-5300DB658C0B
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, windot11/PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, windot11/DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, *PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, netvista.dot11_received_go_negotiation_request_parameters
+ms.keywords: "*PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, netvista.dot11_received_go_negotiation_request_parameters, windot11/DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, windot11/PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Windot11.h
-apiname:
+api_name:
 -	DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS"
+req.typenames: DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, *PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS
 req.product: Windows 10 or later.
 ---
 
@@ -134,11 +134,11 @@ If  <b>RequestContext</b> is a pointer, the data pointed to must remain valid un
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451805">OID_DOT11_WFD_SEND_GO_NEGOTIATION_RESPONSE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439789">NDIS_STATUS_DOT11_WFD_RECEIVED_GO_NEGOTIATION_REQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451805">OID_DOT11_WFD_SEND_GO_NEGOTIATION_RESPONSE</a>
 
 
 

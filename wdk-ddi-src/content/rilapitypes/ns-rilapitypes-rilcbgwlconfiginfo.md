@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5939b967-bbc7-42e3-af90-a1c20698a934
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILCBGWLCONFIGINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCBGWLCONFIGINFO, netvista.rilcbgwlconfiginfo_2, *LPRILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO
+ms.keywords: "*LPRILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcbgwlconfiginfo_2, rilapitypes/RILCBGWLCONFIGINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILCBGWLCONFIGINFO
 product: Windows
 targetos: Windows

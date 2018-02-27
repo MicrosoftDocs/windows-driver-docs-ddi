@@ -7,8 +7,8 @@ old-location: display\dxgkvgpu_escape_initialize.htm
 old-project: display
 ms.assetid: 697F4A4C-349E-46E5-B891-215C4AFFC4B6
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: DXGKVGPU_ESCAPE_INITIALIZE, DXGKVGPU_ESCAPE_INITIALIZE structure [Display Devices], d3dukmdt/DXGKVGPU_ESCAPE_INITIALIZE, _DXGKVGPU_ESCAPE_INITIALIZE, display.dxgkvgpu_escape_initialize
+ms.date: 2/24/2018
+ms.keywords: DXGKVGPU_ESCAPE_INITIALIZE, DXGKVGPU_ESCAPE_INITIALIZE structure [Display Devices], _DXGKVGPU_ESCAPE_INITIALIZE, d3dukmdt/DXGKVGPU_ESCAPE_INITIALIZE, display.dxgkvgpu_escape_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dukmdt.h
-apiname:
+api_name:
 -	DXGKVGPU_ESCAPE_INITIALIZE
 product: Windows
 targetos: Windows

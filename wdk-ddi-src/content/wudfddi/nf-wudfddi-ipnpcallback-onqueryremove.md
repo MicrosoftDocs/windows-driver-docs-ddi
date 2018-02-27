@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ae95a22d-7b5b-4854-b2f5-76b46cf268f9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi/IPnpCallback::OnQueryRemove, wdf.ipnpcallback_onqueryremove, IPnpCallback interface, OnQueryRemove method, IPnpCallback, umdf.ipnpcallback_onqueryremove, UMDFDeviceObjectRef_27404593-38b6-46cc-8dcc-809d159822b6.xml, OnQueryRemove method, OnQueryRemove, OnQueryRemove method, IPnpCallback interface, IPnpCallback::OnQueryRemove
+ms.keywords: IPnpCallback, IPnpCallback interface, OnQueryRemove method, IPnpCallback::OnQueryRemove, OnQueryRemove method, OnQueryRemove method, IPnpCallback interface, OnQueryRemove,IPnpCallback.OnQueryRemove, UMDFDeviceObjectRef_27404593-38b6-46cc-8dcc-809d159822b6.xml, umdf.ipnpcallback_onqueryremove, wdf.ipnpcallback_onqueryremove, wudfddi/IPnpCallback::OnQueryRemove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Wudfddi.h
-apiname:
+api_name:
 -	IPnpCallback.OnQueryRemove
 product: Windows
 targetos: Windows

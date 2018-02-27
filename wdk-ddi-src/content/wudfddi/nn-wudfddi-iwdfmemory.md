@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8746eb43-7a6e-4e1d-b8fb-c8b7891295d6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfmemory, IWDFMemory interface, IWDFMemory interface, described, IWDFMemory, wudfddi/IWDFMemory, UMDFMemoryObjectRef_14266bd8-214b-4244-a96b-9bea5cfa9d84.xml, umdf.iwdfmemory
+ms.keywords: IWDFMemory, IWDFMemory interface, IWDFMemory interface, described, UMDFMemoryObjectRef_14266bd8-214b-4244-a96b-9bea5cfa9d84.xml, umdf.iwdfmemory, wdf.iwdfmemory, wudfddi/IWDFMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFMemory
 product: Windows
 targetos: Windows
@@ -54,6 +54,13 @@ req.product: Windows 10 or later.
 
 The <b>IWDFMemory</b> interface exposes the framework memory object that provides access to a memory block.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFMemory</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>. <b>IWDFMemory</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -117,17 +124,5 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/jj983423">SetBu
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/d8e56186-f801-4684-8919-236d2429310f">CopyFromBuffer</a> method safely copies data from the specified source buffer to a memory object.
-
-The <a href="https://msdn.microsoft.com/29b77215-9c7e-47f2-8c94-0bcd733f54a2">CopyFromMemory</a> method safely copies data from the specified source buffer and prevents overruns that the copy operation might otherwise cause.
-
-The <a href="https://msdn.microsoft.com/c5b34168-b3b8-4559-8b41-982f0a66f01d">CopyToBuffer</a> method safely copies data from a memory object to the specified target buffer.
-
-The <a href="https://msdn.microsoft.com/136aa2af-e3bf-48b6-9511-348510eedfb5">GetDataBuffer</a> method retrieves the data buffer that is associated with a memory object.
-
-The <a href="https://msdn.microsoft.com/1ed699a3-20e5-4a1c-bce0-5a681bac9c39">GetSize</a> method retrieves the size of the data buffer that is associated with a memory object.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/jj983423">SetBuffer</a> method assigns a specified buffer to a memory object that a driver created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff558902">IWDFDriver::CreatePreallocatedWdfMemory</a>. 
-
- 
+</table> 
 

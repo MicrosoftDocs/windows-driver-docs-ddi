@@ -7,8 +7,8 @@ old-location: storage\pdo_caps.htm
 old-project: storage
 ms.assetid: 78b6f3c7-bb42-4e93-8128-28b6f8e11dda
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: ehstorioctl/PDO_CAPS, structs-silo_bb81f7e7-c317-4937-87de-b38832944fe5.xml, PDO_CAPABILITY_UNDEFINED, ehstorioctl/PDO_CAPABILITY_UNDEFINED, _PDO_CAPS, PDO_CAPS enumeration [Storage Devices], ehstorioctl/PDO_CAPABILITY_INC512_CLEAR, PDO_CAPS, ehstorioctl/PDO_CAPABILITY_INC512_SET, PDO_CAPABILITY_INC512_CLEAR, storage.pdo_caps, PDO_CAPABILITY_INC512_SET
+ms.date: 2/24/2018
+ms.keywords: PDO_CAPABILITY_INC512_CLEAR, PDO_CAPABILITY_INC512_SET, PDO_CAPABILITY_UNDEFINED, PDO_CAPS, PDO_CAPS enumeration [Storage Devices], _PDO_CAPS, ehstorioctl/PDO_CAPABILITY_INC512_CLEAR, ehstorioctl/PDO_CAPABILITY_INC512_SET, ehstorioctl/PDO_CAPABILITY_UNDEFINED, ehstorioctl/PDO_CAPS, storage.pdo_caps, structs-silo_bb81f7e7-c317-4937-87de-b38832944fe5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	EhStorIoctl.h
-apiname:
+api_name:
 -	PDO_CAPS
 product: Windows
 targetos: Windows

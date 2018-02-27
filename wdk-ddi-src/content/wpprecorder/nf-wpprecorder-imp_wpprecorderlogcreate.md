@@ -7,8 +7,8 @@ old-location: devtest\wpprecorderlogcreate.htm
 old-project: devtest
 ms.assetid: 103796C6-989F-4FE3-A8E6-4B8F5648E521
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: imp_WppRecorderLogCreate, imp_WppRecorderLogCreate function [Driver Development Tools], devtest.wpprecorderlogcreate, WppRecorderLogCreate, wpprecorder/imp_WppRecorderLogCreate
+ms.date: 2/23/2018
+ms.keywords: WppRecorderLogCreate, devtest.wpprecorderlogcreate, imp_WppRecorderLogCreate, imp_WppRecorderLogCreate function [Driver Development Tools], wpprecorder/imp_WppRecorderLogCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wpprecorder.h
-apiname:
+api_name:
 -	imp_WppRecorderLogCreate
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 

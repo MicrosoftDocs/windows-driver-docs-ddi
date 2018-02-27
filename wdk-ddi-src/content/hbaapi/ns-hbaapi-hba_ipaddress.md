@@ -7,8 +7,8 @@ old-location: storage\hba_ipaddress.htm
 old-project: storage
 ms.assetid: c3f79350-29e8-4e31-a31d-359c9781777d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: HBA_IPADDRESS structure [Storage Devices], PHBA_IPADDRESS structure pointer [Storage Devices], hbaapi/HBA_ipaddress, PHBA_IPADDRESS, HBA_IPADDRESS, HBA_ipaddress, hbaapi/PHBA_IPADDRESS, HBA_ipaddress structure [Storage Devices], structs-Fibre_8ac1972d-ec33-4642-8dfe-3d913913ca66.xml, storage.hba_ipaddress, *PHBA_IPADDRESS
+ms.date: 2/24/2018
+ms.keywords: "*PHBA_IPADDRESS, HBA_IPADDRESS, HBA_IPADDRESS structure [Storage Devices], HBA_ipaddress, HBA_ipaddress structure [Storage Devices], PHBA_IPADDRESS, PHBA_IPADDRESS structure pointer [Storage Devices], hbaapi/HBA_ipaddress, hbaapi/PHBA_IPADDRESS, storage.hba_ipaddress, structs-Fibre_8ac1972d-ec33-4642-8dfe-3d913913ca66.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hbaapi.h
-apiname:
+api_name:
 -	HBA_IPADDRESS
 product: Windows
 targetos: Windows
-req.typenames: "*PHBA_IPADDRESS, HBA_IPADDRESS"
+req.typenames: HBA_IPADDRESS, *PHBA_IPADDRESS
 ---
 
 # HBA_ipaddress structure

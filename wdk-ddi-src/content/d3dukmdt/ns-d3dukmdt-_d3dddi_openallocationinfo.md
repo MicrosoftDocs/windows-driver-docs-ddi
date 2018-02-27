@@ -7,8 +7,8 @@ old-location: display\d3dddi_openallocationinfo.htm
 old-project: display
 ms.assetid: cd50602a-c4aa-410b-9ed6-56d7237571cd
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3dukmdt/D3DDDI_OPENALLOCATIONINFO, D3DDDI_OPENALLOCATIONINFO, _D3DDDI_OPENALLOCATIONINFO, display.d3dddi_openallocationinfo, D3D_other_Structs_cfb185b4-cc7d-4c1a-9e76-6032816feab0.xml, D3DDDI_OPENALLOCATIONINFO structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: D3DDDI_OPENALLOCATIONINFO, D3DDDI_OPENALLOCATIONINFO structure [Display Devices], D3D_other_Structs_cfb185b4-cc7d-4c1a-9e76-6032816feab0.xml, _D3DDDI_OPENALLOCATIONINFO, d3dukmdt/D3DDDI_OPENALLOCATIONINFO, display.d3dddi_openallocationinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dukmdt.h
-apiname:
+api_name:
 -	D3DDDI_OPENALLOCATIONINFO
 product: Windows
 targetos: Windows

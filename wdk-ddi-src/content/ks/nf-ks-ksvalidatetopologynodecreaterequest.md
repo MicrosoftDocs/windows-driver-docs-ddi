@@ -7,8 +7,8 @@ old-location: stream\ksvalidatetopologynodecreaterequest.htm
 old-project: stream
 ms.assetid: a7d69bf8-7aa8-46c2-98f9-769ee174757b
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ksvalidatetopologynodecreaterequest, ks/KsValidateTopologyNodeCreateRequest, KsValidateTopologyNodeCreateRequest, KsValidateTopologyNodeCreateRequest function [Streaming Media Devices], ksfunc_f2b7fc56-1bca-4de5-981b-68364aa96fa7.xml
+ms.date: 2/23/2018
+ms.keywords: KsValidateTopologyNodeCreateRequest, KsValidateTopologyNodeCreateRequest function [Streaming Media Devices], ks/KsValidateTopologyNodeCreateRequest, ksfunc_f2b7fc56-1bca-4de5-981b-68364aa96fa7.xml, stream.ksvalidatetopologynodecreaterequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsValidateTopologyNodeCreateRequest
 product: Windows
 targetos: Windows

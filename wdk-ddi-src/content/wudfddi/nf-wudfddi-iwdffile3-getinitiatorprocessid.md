@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4D23A651-7231-40CE-B9C2-4382D4E7F683
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdffile3_getinitiatorprocessid, GetInitiatorProcessId, GetInitiatorProcessId method, IWDFFile3 interface, IWDFFile3 interface, GetInitiatorProcessId method, IWDFFile3, wudfddi/IWDFFile3::GetInitiatorProcessId, GetInitiatorProcessId method, wdf.iwdffile3_getinitiatorprocessid, IWDFFile3::GetInitiatorProcessId
+ms.keywords: GetInitiatorProcessId method, GetInitiatorProcessId method, IWDFFile3 interface, GetInitiatorProcessId,IWDFFile3.GetInitiatorProcessId, IWDFFile3, IWDFFile3 interface, GetInitiatorProcessId method, IWDFFile3::GetInitiatorProcessId, umdf.iwdffile3_getinitiatorprocessid, wdf.iwdffile3_getinitiatorprocessid, wudfddi/IWDFFile3::GetInitiatorProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFFile3.GetInitiatorProcessId
 product: Windows
 targetos: Windows

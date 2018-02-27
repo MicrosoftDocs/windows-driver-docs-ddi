@@ -4,11 +4,11 @@ title: EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS
 author: windows-driver-content
 description: The client driver's implementation that UCX calls to notify the controller driver that it can complete cancelled transfers on the endpoint.
 old-location: buses\evt_ucx_endpoint_ok_to_cancel_transfers.htm
-old-project: UsbRef
+old-project: usbref
 ms.assetid: 3cb30b74-d50d-49dd-ab5d-de1cf71facd4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: buses.evt_ucx_endpoint_ok_to_cancel_transfers, EvtUcxEndpointOkToCancelTransfers callback function [Buses], EvtUcxEndpointOkToCancelTransfers, EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS, EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS, ucxendpoint/EvtUcxEndpointOkToCancelTransfers, PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS callback function pointer [Buses], PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS
+ms.date: 2/24/2018
+ms.keywords: EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS, EvtUcxEndpointOkToCancelTransfers, EvtUcxEndpointOkToCancelTransfers callback function [Buses], PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS, PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS callback function pointer [Buses], buses.evt_ucx_endpoint_ok_to_cancel_transfers, ucxendpoint/EvtUcxEndpointOkToCancelTransfers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ucxendpoint.h
-apiname:
+api_name:
 -	PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS
 product: Windows
 targetos: Windows

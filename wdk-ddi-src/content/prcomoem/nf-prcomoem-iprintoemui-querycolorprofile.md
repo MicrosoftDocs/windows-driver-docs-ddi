@@ -7,8 +7,8 @@ old-location: print\iprintoemui_querycolorprofile.htm
 old-project: print
 ms.assetid: ce1131f9-4b9c-4f20-afc9-514ccbc7ecf7
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print_unidrv-pscript_ui_7541a49f-f14c-4c73-88d7-80f316ae3602.xml, IPrintOemUI interface [Print Devices], QueryColorProfile method, print.iprintoemui_querycolorprofile, prcomoem/IPrintOemUI::QueryColorProfile, QueryColorProfile method [Print Devices], IPrintOemUI, IPrintOemUI::QueryColorProfile, QueryColorProfile, QueryColorProfile method [Print Devices], IPrintOemUI interface
+ms.date: 2/23/2018
+ms.keywords: IPrintOemUI, IPrintOemUI interface [Print Devices], QueryColorProfile method, IPrintOemUI::QueryColorProfile, QueryColorProfile method [Print Devices], QueryColorProfile method [Print Devices], IPrintOemUI interface, QueryColorProfile,IPrintOemUI.QueryColorProfile, prcomoem/IPrintOemUI::QueryColorProfile, print.iprintoemui_querycolorprofile, print_unidrv-pscript_ui_7541a49f-f14c-4c73-88d7-80f316ae3602.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	prcomoem.h
-apiname:
+api_name:
 -	IPrintOemUI.QueryColorProfile
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

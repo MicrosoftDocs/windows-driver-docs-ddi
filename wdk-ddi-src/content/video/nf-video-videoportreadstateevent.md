@@ -7,8 +7,8 @@ old-location: display\videoportreadstateevent.htm
 old-project: display
 ms.assetid: b09787b3-aede-4e53-9e22-0e81cf2dadb1
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: VideoPortReadStateEvent function [Display Devices], VideoPortReadStateEvent, display.videoportreadstateevent, video/VideoPortReadStateEvent, VideoPort_Functions_8cd6da91-d349-4ef7-b61c-2e9a22c5f25e.xml
+ms.date: 2/24/2018
+ms.keywords: VideoPortReadStateEvent, VideoPortReadStateEvent function [Display Devices], VideoPort_Functions_8cd6da91-d349-4ef7-b61c-2e9a22c5f25e.xml, display.videoportreadstateevent, video/VideoPortReadStateEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Videoprt.sys
-apiname:
+api_name:
 -	VideoPortReadStateEvent
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: pos\posbarcodescandatatypedata.htm
 old-project: pos
 ms.assetid: 1b6fcad3-a6a0-4180-8e36-ae4e597b4eb0
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: pointofservicedriverinterface/PosBarcodeScanDataTypeData, pos.posbarcodescandatatypedata, _PosBarcodeScanDataTypeData, PosBarcodeScanDataTypeData structure, PosBarcodeScanDataTypeData
+ms.date: 2/23/2018
+ms.keywords: PosBarcodeScanDataTypeData, PosBarcodeScanDataTypeData structure, _PosBarcodeScanDataTypeData, pointofservicedriverinterface/PosBarcodeScanDataTypeData, pos.posbarcodescandatatypedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	PointOfServiceDriverInterface.h
-apiname:
+api_name:
 -	PosBarcodeScanDataTypeData
 product: Windows
 targetos: Windows

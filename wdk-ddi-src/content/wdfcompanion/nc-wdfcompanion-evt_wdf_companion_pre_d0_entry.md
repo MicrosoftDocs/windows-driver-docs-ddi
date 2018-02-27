@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 18d55cf3-62c3-42e8-8c33-f61ea80ff680
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.evt_wdf_companion_pre_d0_entry, EVT_WDF_COMPANION_PRE_D0_ENTRY callback function, EVT_WDF_COMPANION_PRE_D0_ENTRY, EVT_WDF_COMPANION_PRE_D0_ENTRY, EVT_WDF_COMPANION_PRE_D0_ENTRY, wdfcompanion/EVT_WDF_COMPANION_PRE_D0_ENTRY
+ms.keywords: EVT_WDF_COMPANION_PRE_D0_ENTRY, EVT_WDF_COMPANION_PRE_D0_ENTRY callback function, wdf.evt_wdf_companion_pre_d0_entry, wdfcompanion/EVT_WDF_COMPANION_PRE_D0_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wdfcompanion.h
-apiname:
+api_name:
 -	EVT_WDF_COMPANION_PRE_D0_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG"
+req.typenames: WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG
 req.product: Windows 10 or later.
 ---
 

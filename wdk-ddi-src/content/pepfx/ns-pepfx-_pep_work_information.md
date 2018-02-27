@@ -7,8 +7,8 @@ old-location: kernel\pep_work_information.htm
 old-project: kernel
 ms.assetid: 7A3B2A94-AE6F-4DCC-9CDF-E2D5799C9F0D
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: pepfx/PEP_WORK_INFORMATION, kernel.pep_work_information, pepfx/PPEP_WORK_INFORMATION, PPEP_WORK_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PPEP_WORK_INFORMATION, PPEP_WORK_INFORMATION, _PEP_WORK_INFORMATION, PEP_WORK_INFORMATION structure [Kernel-Mode Driver Architecture], PEP_WORK_INFORMATION
+ms.date: 2/24/2018
+ms.keywords: "*PPEP_WORK_INFORMATION, PEP_WORK_INFORMATION, PEP_WORK_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_WORK_INFORMATION, PPEP_WORK_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_INFORMATION, kernel.pep_work_information, pepfx/PEP_WORK_INFORMATION, pepfx/PPEP_WORK_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pepfx.h
-apiname:
+api_name:
 -	PEP_WORK_INFORMATION
 product: Windows
 targetos: Windows
@@ -125,15 +125,11 @@ The <b>WorkInformation</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work.md
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_work_power_control.md">PEP_WORK_POWER_CONTROL</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_work.md">PEP_WORK</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_work_complete_perf_state.md">PEP_WORK_COMPLETE_PERF_STATE</a>
+<a href="..\pep_x\ns-pep_x-_pep_work_device_idle.md">PEP_WORK_DEVICE_IDLE</a>
 
 
 
@@ -145,7 +141,7 @@ The <b>WorkInformation</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work.md
 
 
 
-<a href="..\pepfx\ne-pepfx-_pep_work_type.md">PEP_WORK_TYPE</a>
+<a href="..\pepfx\ns-pepfx-_pep_work_power_control.md">PEP_WORK_POWER_CONTROL</a>
 
 
 
@@ -153,11 +149,11 @@ The <b>WorkInformation</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work.md
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a>
+<a href="..\pepfx\ns-pepfx-_pep_work.md">PEP_WORK</a>
 
 
 
-<a href="..\pep_x\ns-pep_x-_pep_work_device_idle.md">PEP_WORK_DEVICE_IDLE</a>
+<a href="..\pepfx\ne-pepfx-_pep_work_type.md">PEP_WORK_TYPE</a>
 
 
 
@@ -169,9 +165,13 @@ The <b>WorkInformation</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work.md
 
 
 
- 
+<a href="..\pepfx\ns-pepfx-_pep_work_complete_perf_state.md">PEP_WORK_COMPLETE_PERF_STATE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_WORK_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_WORK_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

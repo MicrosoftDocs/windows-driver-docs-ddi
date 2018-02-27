@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: abb8d45a-a698-41b0-94b3-c658fe3105bb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SecMakeSPNEx2, ifsk.secmakespnex2, ksecddref_be331d16-cc90-4e80-85cd-c2faaecca843.xml, SecMakeSPNEx2 function [Installable File System Drivers], ntifs/SecMakeSPNEx2
+ms.keywords: SecMakeSPNEx2, SecMakeSPNEx2 function [Installable File System Drivers], ifsk.secmakespnex2, ksecddref_be331d16-cc90-4e80-85cd-c2faaecca843.xml, ntifs/SecMakeSPNEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ksecdd.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ksecdd.lib
 -	Ksecdd.dll
-apiname:
+api_name:
 -	SecMakeSPNEx2
 product: Windows
 targetos: Windows
@@ -197,11 +197,11 @@ The <i>Allocate</i> parameter was set to <b>TRUE</b>, but the memory allocation 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-secmakespn.md">SecMakeSPN</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-secmakespnex.md">SecMakeSPNEx</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-secmakespn.md">SecMakeSPN</a>
 
 
 

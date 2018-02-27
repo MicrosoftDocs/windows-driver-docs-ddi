@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 55f06d11-60b7-4dc0-8f78-eb9901d49d1a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RIL_MSGMWITYPE_MAX, RIL_MSGMWITYPE_VOICEMAIL, netvista.rilmsgmwitype_2, rilapitypes/RIL_MSGMWITYPE_VOICEMAIL, RIL_MSGMWITYPE_FAX, rilapitypes/RIL_MSGMWITYPE_MULTIMEDIA, rilapitypes/RIL_MSGMWITYPE_VIDEOMAIL, RIL_MSGMWITYPE_VIDEOMAIL, RIL_MSGMWITYPE_TEXT, RIL_MSGMWITYPE_PAGER, RILMSGMWITYPE, rilapitypes/RIL_MSGMWITYPE_TEXT, RIL_MSGMWITYPE_MAX, RILMSGMWITYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILMSGMWITYPE, RIL_MSGMWITYPE_MULTIMEDIA, rilapitypes/RIL_MSGMWITYPE_FAX, rilapitypes/RIL_MSGMWITYPE_PAGER
+ms.keywords: RILMSGMWITYPE, RILMSGMWITYPE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGMWITYPE_FAX, RIL_MSGMWITYPE_MAX, RIL_MSGMWITYPE_MULTIMEDIA, RIL_MSGMWITYPE_PAGER, RIL_MSGMWITYPE_TEXT, RIL_MSGMWITYPE_VIDEOMAIL, RIL_MSGMWITYPE_VOICEMAIL, netvista.rilmsgmwitype_2, rilapitypes/RILMSGMWITYPE, rilapitypes/RIL_MSGMWITYPE_FAX, rilapitypes/RIL_MSGMWITYPE_MAX, rilapitypes/RIL_MSGMWITYPE_MULTIMEDIA, rilapitypes/RIL_MSGMWITYPE_PAGER, rilapitypes/RIL_MSGMWITYPE_TEXT, rilapitypes/RIL_MSGMWITYPE_VIDEOMAIL, rilapitypes/RIL_MSGMWITYPE_VOICEMAIL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILMSGMWITYPE
 product: Windows
 targetos: Windows

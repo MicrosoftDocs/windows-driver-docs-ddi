@@ -4,11 +4,11 @@ title: IDebugControl3::GetPageSize method
 author: windows-driver-content
 description: The GetPageSize method returns the page size for the effective processor mode.
 old-location: debugger\getpagesize.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 26f11dfb-3fc3-4804-a294-2dfc674b4a73
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl3 interface [Windows Debugging], GetPageSize method, dbgeng/IDebugControl3::GetPageSize, IDebugControl interface [Windows Debugging], GetPageSize method, GetPageSize method [Windows Debugging], IDebugControl interface, IDebugControl, GetPageSize method [Windows Debugging], IDebugControl3 interface, IDebugControl2, IDebugControl3, IDebugControl2::GetPageSize, IDebugControl::GetPageSize, IDebugControl3::GetPageSize, GetPageSize method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetPageSize method, dbgeng/IDebugControl::GetPageSize, GetPageSize, debugger.getpagesize, IDebugControl_b38e4c0a-5992-4afe-b684-2eb65b3a0271.xml, GetPageSize method [Windows Debugging], dbgeng/IDebugControl2::GetPageSize
+ms.date: 2/23/2018
+ms.keywords: GetPageSize method [Windows Debugging], GetPageSize method [Windows Debugging], IDebugControl interface, GetPageSize method [Windows Debugging], IDebugControl2 interface, GetPageSize method [Windows Debugging], IDebugControl3 interface, GetPageSize,IDebugControl3.GetPageSize, IDebugControl interface [Windows Debugging], GetPageSize method, IDebugControl2 interface [Windows Debugging], GetPageSize method, IDebugControl2::GetPageSize, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetPageSize method, IDebugControl3::GetPageSize, IDebugControl::GetPageSize, IDebugControl_b38e4c0a-5992-4afe-b684-2eb65b3a0271.xml, dbgeng/IDebugControl2::GetPageSize, dbgeng/IDebugControl3::GetPageSize, dbgeng/IDebugControl::GetPageSize, debugger.getpagesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugControl.GetPageSize
 -	IDebugControl2.GetPageSize
 -	IDebugControl3.GetPageSize

@@ -7,8 +7,8 @@ old-location: storage\getpersistentbinding2_in.htm
 old-project: storage
 ms.assetid: 646378f8-9037-4c40-bcbc-5ffe380e6279
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: structs-Fibre_3be7645f-006d-4a32-9739-d97e632edf58.xml, GetPersistentBinding2_IN, PGetPersistentBinding2_IN, *PGetPersistentBinding2_IN, GetPersistentBinding2_IN structure [Storage Devices], _GetPersistentBinding2_IN, hbapiwmi/PGetPersistentBinding2_IN, hbapiwmi/GetPersistentBinding2_IN, PGetPersistentBinding2_IN structure pointer [Storage Devices], storage.getpersistentbinding2_in
+ms.date: 2/24/2018
+ms.keywords: "*PGetPersistentBinding2_IN, GetPersistentBinding2_IN, GetPersistentBinding2_IN structure [Storage Devices], PGetPersistentBinding2_IN, PGetPersistentBinding2_IN structure pointer [Storage Devices], _GetPersistentBinding2_IN, hbapiwmi/GetPersistentBinding2_IN, hbapiwmi/PGetPersistentBinding2_IN, storage.getpersistentbinding2_in, structs-Fibre_3be7645f-006d-4a32-9739-d97e632edf58.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hbapiwmi.h
-apiname:
+api_name:
 -	GetPersistentBinding2_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PGetPersistentBinding2_IN, GetPersistentBinding2_IN"
+req.typenames: GetPersistentBinding2_IN, *PGetPersistentBinding2_IN
 ---
 
 # _GetPersistentBinding2_IN structure
@@ -97,5 +97,5 @@ The WMI tool suite generates a declaration of the GetPersistentBinding2_IN struc
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetPersistentBinding2_IN structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetPersistentBinding2_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

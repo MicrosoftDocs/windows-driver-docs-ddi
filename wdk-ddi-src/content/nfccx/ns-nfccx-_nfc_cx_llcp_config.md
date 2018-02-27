@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 84A1F957-FAAE-4C2D-9D49-486813A26950
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_NFC_CX_LLCP_CONFIG, PNFC_CX_LLCP_CONFIG structure pointer [Near-Field Proximity Drivers], nfccx/NFC_CX_LLCP_CONFIG, NFC_CX_LLCP_CONFIG, NFC_CX_LLCP_CONFIG structure [Near-Field Proximity Drivers], nfccx/PNFC_CX_LLCP_CONFIG, nfpdrivers.nfc_cx_llcp_config, PNFC_CX_LLCP_CONFIG, *PNFC_CX_LLCP_CONFIG"
+ms.keywords: "*PNFC_CX_LLCP_CONFIG, NFC_CX_LLCP_CONFIG, NFC_CX_LLCP_CONFIG structure [Near-Field Proximity Drivers], PNFC_CX_LLCP_CONFIG, PNFC_CX_LLCP_CONFIG structure pointer [Near-Field Proximity Drivers], _NFC_CX_LLCP_CONFIG, nfccx/NFC_CX_LLCP_CONFIG, nfccx/PNFC_CX_LLCP_CONFIG, nfpdrivers.nfc_cx_llcp_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	nfccx.h
-apiname:
+api_name:
 -	NFC_CX_LLCP_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PNFC_CX_LLCP_CONFIG, NFC_CX_LLCP_CONFIG"
+req.typenames: NFC_CX_LLCP_CONFIG, *PNFC_CX_LLCP_CONFIG
 ---
 
 # _NFC_CX_LLCP_CONFIG structure

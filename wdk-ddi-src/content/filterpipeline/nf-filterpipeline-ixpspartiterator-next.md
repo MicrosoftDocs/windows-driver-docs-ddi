@@ -7,8 +7,8 @@ old-location: print\ixpspartiterator_next.htm
 old-project: print
 ms.assetid: ac54ac59-4144-4449-a732-b9da16338ddf
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IXpsPartIterator, print.ixpspartiterator_next, Next, IXpsPartIterator::Next, Next method [Print Devices], filterpipeline/IXpsPartIterator::Next, Next method [Print Devices], IXpsPartIterator interface, IXpsPartIterator interface [Print Devices], Next method, filterpipeline_1e70f932-105f-4d9f-ace3-78f687f446c6.xml
+ms.date: 2/23/2018
+ms.keywords: IXpsPartIterator, IXpsPartIterator interface [Print Devices], Next method, IXpsPartIterator::Next, Next method [Print Devices], Next method [Print Devices], IXpsPartIterator interface, Next,IXpsPartIterator.Next, filterpipeline/IXpsPartIterator::Next, filterpipeline_1e70f932-105f-4d9f-ace3-78f687f446c6.xml, print.ixpspartiterator_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Filterpipeline.h
-apiname:
+api_name:
 -	IXpsPartIterator.Next
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8c17cec8-d161-47cf-b886-bb8b8d957656
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.miniportcodeactivatevc, MiniportCoDeactivateVc callback function [Network Drivers Starting with Windows Vista], MiniportCoDeactivateVc, MINIPORT_CO_DEACTIVATE_VC, MINIPORT_CO_DEACTIVATE_VC, ndis/MiniportCoDeactivateVc, condis_miniport_ref_01461ff7-cd2e-466d-ab9a-7903484ecbc5.xml
+ms.keywords: MINIPORT_CO_DEACTIVATE_VC, MiniportCoDeactivateVc, MiniportCoDeactivateVc callback function [Network Drivers Starting with Windows Vista], condis_miniport_ref_01461ff7-cd2e-466d-ab9a-7903484ecbc5.xml, ndis/MiniportCoDeactivateVc, netvista.miniportcodeactivatevc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Ndis.h
-apiname:
+api_name:
 -	MiniportCoDeactivateVc
 product: Windows
 targetos: Windows
@@ -179,11 +179,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismcodeactivatevccomplete.md">NdisMCoDeactivateVcComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
 
 
 

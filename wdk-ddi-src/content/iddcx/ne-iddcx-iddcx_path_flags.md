@@ -7,8 +7,8 @@ old-location: display\iddcx_path_flags.htm
 old-project: display
 ms.assetid: f7a9b20a-753c-487d-a2d5-3e1c08317519
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: iddcx/IDDCX_PATH_FLAGS, IDDCX_PATH_FLAGS_CHANGED, IDDCX_PATH_FLAGS enumeration [Display Devices], iddcx/IDDCX_PATH_FLAGS_ACTIVE, IDDCX_PATH_FLAGS_NONE, iddcx/IDDCX_PATH_FLAGS_NONE, iddcx/IDDCX_PATH_FLAGS_CHANGED, IDDCX_PATH_FLAGS_ACTIVE, display.iddcx_path_flags, IDDCX_PATH_FLAGS
+ms.date: 2/24/2018
+ms.keywords: IDDCX_PATH_FLAGS, IDDCX_PATH_FLAGS enumeration [Display Devices], IDDCX_PATH_FLAGS_ACTIVE, IDDCX_PATH_FLAGS_CHANGED, IDDCX_PATH_FLAGS_NONE, display.iddcx_path_flags, iddcx/IDDCX_PATH_FLAGS, iddcx/IDDCX_PATH_FLAGS_ACTIVE, iddcx/IDDCX_PATH_FLAGS_CHANGED, iddcx/IDDCX_PATH_FLAGS_NONE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "_requires_same_"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	iddcx.h
-apiname:
+api_name:
 -	IDDCX_PATH_FLAGS
 product: Windows
 targetos: Windows

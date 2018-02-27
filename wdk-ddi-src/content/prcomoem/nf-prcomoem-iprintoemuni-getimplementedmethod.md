@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_getimplementedmethod.htm
 old-project: print
 ms.assetid: bc2a00ea-214a-435a-86fa-d694188d0245
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IPrintOemUni interface [Print Devices], GetImplementedMethod method, print_unidrv-pscript_rendering_904bb300-cb68-4386-a5d1-9e614b38651d.xml, print.iprintoemuni_getimplementedmethod, IPrintOemUni::GetImplementedMethod, GetImplementedMethod method [Print Devices], GetImplementedMethod, GetImplementedMethod method [Print Devices], IPrintOemUni interface, IPrintOemUni, prcomoem/IPrintOemUni::GetImplementedMethod
+ms.date: 2/23/2018
+ms.keywords: GetImplementedMethod method [Print Devices], GetImplementedMethod method [Print Devices], IPrintOemUni interface, GetImplementedMethod,IPrintOemUni.GetImplementedMethod, IPrintOemUni, IPrintOemUni interface [Print Devices], GetImplementedMethod method, IPrintOemUni::GetImplementedMethod, prcomoem/IPrintOemUni::GetImplementedMethod, print.iprintoemuni_getimplementedmethod, print_unidrv-pscript_rendering_904bb300-cb68-4386-a5d1-9e614b38651d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	prcomoem.h
-apiname:
+api_name:
 -	IPrintOemUni.GetImplementedMethod
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

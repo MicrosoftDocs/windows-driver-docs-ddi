@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c5aeb5f4-be62-4418-981c-1dd4acdccf07
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: UMDFDeviceObjectRef_fafba7c5-57d5-4b05-bc46-46807b94ec6d.xml, CreateUsbTargetDevice method, IWDFUsbTargetFactory::CreateUsbTargetDevice, IWDFUsbTargetFactory interface, CreateUsbTargetDevice method, CreateUsbTargetDevice method, IWDFUsbTargetFactory interface, wudfusb/IWDFUsbTargetFactory::CreateUsbTargetDevice, IWDFUsbTargetFactory, umdf.iwdfusbtargetfactory_createusbtargetdevice, CreateUsbTargetDevice, wdf.iwdfusbtargetfactory_createusbtargetdevice
+ms.keywords: CreateUsbTargetDevice method, CreateUsbTargetDevice method, IWDFUsbTargetFactory interface, CreateUsbTargetDevice,IWDFUsbTargetFactory.CreateUsbTargetDevice, IWDFUsbTargetFactory, IWDFUsbTargetFactory interface, CreateUsbTargetDevice method, IWDFUsbTargetFactory::CreateUsbTargetDevice, UMDFDeviceObjectRef_fafba7c5-57d5-4b05-bc46-46807b94ec6d.xml, umdf.iwdfusbtargetfactory_createusbtargetdevice, wdf.iwdfusbtargetfactory_createusbtargetdevice, wudfusb/IWDFUsbTargetFactory::CreateUsbTargetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFUsbTargetFactory.CreateUsbTargetDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -236,11 +236,11 @@ CUmdfHidDevice::OnPrepareHardware(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559243">IWDFIoTarget::GetTargetFile</a>
-
-
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetfactory.md">IWDFUsbTargetFactory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559243">IWDFIoTarget::GetTargetFile</a>
 
 
 

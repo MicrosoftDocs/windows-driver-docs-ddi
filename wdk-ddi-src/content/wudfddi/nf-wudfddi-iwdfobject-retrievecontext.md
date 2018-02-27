@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b76acae1-3c37-4095-bf8b-1785dc90f378
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfobject_retrievecontext, wudfddi/IWDFObject::RetrieveContext, UMDFBaseObjectRef_e12f4a9b-d71b-4fc1-96df-0244b7513f32.xml, RetrieveContext method, IWDFObject interface, IWDFObject::RetrieveContext, RetrieveContext, wdf.iwdfobject_retrievecontext, IWDFObject, IWDFObject interface, RetrieveContext method, RetrieveContext method
+ms.keywords: IWDFObject, IWDFObject interface, RetrieveContext method, IWDFObject::RetrieveContext, RetrieveContext method, RetrieveContext method, IWDFObject interface, RetrieveContext,IWDFObject.RetrieveContext, UMDFBaseObjectRef_e12f4a9b-d71b-4fc1-96df-0244b7513f32.xml, umdf.iwdfobject_retrievecontext, wdf.iwdfobject_retrievecontext, wudfddi/IWDFObject::RetrieveContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFObject.RetrieveContext
 product: Windows
 targetos: Windows

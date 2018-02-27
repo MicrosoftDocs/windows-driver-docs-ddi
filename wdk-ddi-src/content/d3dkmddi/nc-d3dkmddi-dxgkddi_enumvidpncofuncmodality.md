@@ -7,8 +7,8 @@ old-location: display\dxgkddienumvidpncofuncmodality.htm
 old-project: display
 ms.assetid: 6dda82bd-1a43-4ffe-b398-a9f8cee6d1c1
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxgkddienumvidpncofuncmodality, DxgkDdiEnumVidPnCofuncModality callback function [Display Devices], DxgkDdiEnumVidPnCofuncModality, DXGKDDI_ENUMVIDPNCOFUNCMODALITY, DXGKDDI_ENUMVIDPNCOFUNCMODALITY, d3dkmddi/DxgkDdiEnumVidPnCofuncModality, DmFunctions_e8c49ebf-a4af-4a36-a32b-0ab6874e660a.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_ENUMVIDPNCOFUNCMODALITY, DmFunctions_e8c49ebf-a4af-4a36-a32b-0ab6874e660a.xml, DxgkDdiEnumVidPnCofuncModality, DxgkDdiEnumVidPnCofuncModality callback function [Display Devices], d3dkmddi/DxgkDdiEnumVidPnCofuncModality, display.dxgkddienumvidpncofuncmodality
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dkmddi.h
-apiname:
+api_name:
 -	DxgkDdiEnumVidPnCofuncModality
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: cdf156a1-1556-441a-ae3d-9a49daf47990
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bltooth.bthreusebrb, BthReuseBrb callback function [Bluetooth Devices], BthReuseBrb, PFNBTH_REUSE_BRB, PFNBTH_REUSE_BRB, bthddi/BthReuseBrb, bth_funcs_118c4022-448d-4970-ba70-34dcbc488d13.xml
+ms.keywords: BthReuseBrb, BthReuseBrb callback function [Bluetooth Devices], PFNBTH_REUSE_BRB, bltooth.bthreusebrb, bth_funcs_118c4022-448d-4970-ba70-34dcbc488d13.xml, bthddi/BthReuseBrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	bthddi.h
-apiname:
+api_name:
 -	BthReuseBrb
 product: Windows
 targetos: Windows
-req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
+req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # PFNBTH_REUSE_BRB callback

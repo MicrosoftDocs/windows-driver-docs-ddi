@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 841f3885-509a-457e-854d-e8ead657de54
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FwpsRedirectHandleCreate0 function [Network Drivers Starting with Windows Vista], FwpsRedirectHandleCreate0, fwpsk/FwpsRedirectHandleCreate0, netvista.fwpsredirecthandlecreate0
+ms.keywords: FwpsRedirectHandleCreate0, FwpsRedirectHandleCreate0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsRedirectHandleCreate0, netvista.fwpsredirecthandlecreate0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname:
+api_name:
 -	FwpsRedirectHandleCreate0
 product: Windows
 targetos: Windows
@@ -155,7 +155,7 @@ After a callout driver has finished using a redirect handle, it must call the <a
 
 
 
-<a href="..\fwpsk\ns-fwpsk-_fwps_connect_request0.md">FWPS_CONNECT_REQUEST0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsredirecthandledestroy0.md">FwpsRedirectHandleDestroy0</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F4F5005F-2BDA-4E58-A06A-2A4F1D34776D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fwpsk/FwpsReferencevSwitchPacketContext0, FwpsReferencevSwitchPacketContext0, netvista.fwpsreferencevswitchpacketcontext0, FwpsReferencevSwitchPacketContext0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: FwpsReferencevSwitchPacketContext0, FwpsReferencevSwitchPacketContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReferencevSwitchPacketContext0, netvista.fwpsreferencevswitchpacketcontext0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname:
+api_name:
 -	FwpsReferencevSwitchPacketContext0
 product: Windows
 targetos: Windows

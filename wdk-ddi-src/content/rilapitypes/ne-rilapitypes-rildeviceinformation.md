@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1abba51c-1db9-4424-aa11-64d3fd116a79
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILDEVICEINFORMATION, RIL_DEVICEINFO_MANUFACTURER, RILDEVICEINFORMATION enumeration [Network Drivers Starting with Windows Vista], netvista.rildeviceinformation, rilapitypes/RIL_DEVICEINFO_ARG_LARGEST, rilapitypes/RILDEVICEINFORMATION, rilapitypes/RIL_DEVICEINFO_REVISION, rilapitypes/RIL_DEVICEINFO_SERIALNUMBER_GW, RIL_DEVICEINFO_ARG_SMALLEST, rilapitypes/RIL_DEVICEINFO_ARG_SMALLEST, RIL_DEVICEINFO_MODEL, RIL_DEVICEINFO_ARG_LARGEST, RIL_DEVICEINFO_REVISION, rilapitypes/RIL_DEVICEINFO_MODEL, RIL_DEVICEINFO_SERIALNUMBER_CDMA, rilapitypes/RIL_DEVICEINFO_MANUFACTURER, rilapitypes/RIL_DEVICEINFO_SERIALNUMBER_CDMA, RIL_DEVICEINFO_SERIALNUMBER_GW
+ms.keywords: RILDEVICEINFORMATION, RILDEVICEINFORMATION enumeration [Network Drivers Starting with Windows Vista], RIL_DEVICEINFO_ARG_LARGEST, RIL_DEVICEINFO_ARG_SMALLEST, RIL_DEVICEINFO_MANUFACTURER, RIL_DEVICEINFO_MODEL, RIL_DEVICEINFO_REVISION, RIL_DEVICEINFO_SERIALNUMBER_CDMA, RIL_DEVICEINFO_SERIALNUMBER_GW, netvista.rildeviceinformation, rilapitypes/RILDEVICEINFORMATION, rilapitypes/RIL_DEVICEINFO_ARG_LARGEST, rilapitypes/RIL_DEVICEINFO_ARG_SMALLEST, rilapitypes/RIL_DEVICEINFO_MANUFACTURER, rilapitypes/RIL_DEVICEINFO_MODEL, rilapitypes/RIL_DEVICEINFO_REVISION, rilapitypes/RIL_DEVICEINFO_SERIALNUMBER_CDMA, rilapitypes/RIL_DEVICEINFO_SERIALNUMBER_GW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rilapitypes.h
-apiname:
+api_name:
 -	RILDEVICEINFORMATION
 product: Windows
 targetos: Windows

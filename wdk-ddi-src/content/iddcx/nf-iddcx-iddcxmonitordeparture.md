@@ -7,7 +7,7 @@ old-location: display\iddcxmonitordeparture.htm
 old-project: display
 ms.assetid: d23f70ee-a58d-4db1-8f21-b27887d661b9
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/24/2018
 ms.keywords: IddCxMonitorDeparture, IddCxMonitorDeparture method [Display Devices], display.iddcxmonitordeparture, iddcx/IddCxMonitorDeparture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "_Must_inspect_result_"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	iddcx.h
-apiname:
+api_name:
 -	IddCxMonitorDeparture
 product: Windows
 targetos: Windows
