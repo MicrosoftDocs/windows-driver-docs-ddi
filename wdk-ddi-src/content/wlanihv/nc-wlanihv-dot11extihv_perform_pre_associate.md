@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	Dot11ExtIhvPerformPreAssociate
 product: Windows
 targetos: Windows
@@ -208,7 +208,20 @@ For more information about the pre-association operation, see
 
 ## -see-also
 
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
+   DOT11EXT_IHV_CONNECTIVITY_PROFILE</a>
+
+
+
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
+
+
+
+<a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 
@@ -221,25 +234,12 @@ For more information about the pre-association operation, see
 
 
 
-<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
    Extensibility Functions</a>
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
-<a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a>
-
-
-
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
-   DOT11EXT_IHV_CONNECTIVITY_PROFILE</a>
+<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
 
 
 

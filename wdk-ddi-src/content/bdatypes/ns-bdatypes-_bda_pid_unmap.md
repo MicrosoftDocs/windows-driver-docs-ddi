@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	bdatypes.h
-apiname:
+api_name:
 -	BDA_PID_UNMAP
 product: Windows
 targetos: Windows
@@ -80,7 +80,7 @@ Array of PIDs that identify packets to unmap from the output of a PID filter.
 
 ## -see-also
 
-<a href="..\bdatypes\ns-bdatypes-pid_map.md">PID_MAP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566551">KSPROPSETID_BdaPIDFilter</a>
 
 
 
@@ -92,7 +92,7 @@ Array of PIDs that identify packets to unmap from the output of a PID filter.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566551">KSPROPSETID_BdaPIDFilter</a>
+<a href="..\bdatypes\ns-bdatypes-pid_map.md">PID_MAP</a>
 
 
 

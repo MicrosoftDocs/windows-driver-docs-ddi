@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KSPIN_CONNECT
 product: Windows
 targetos: Windows
@@ -107,11 +107,11 @@ If the KSPIN_CONNECT.PinToHandle element is not <b>NULL</b>, IRP_MJ_CREATE instr
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a>
+
+
+
+<a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a>
 
 
 

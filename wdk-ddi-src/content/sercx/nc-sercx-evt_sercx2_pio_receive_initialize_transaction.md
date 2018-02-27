@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	2.0\Sercx.h
-apiname:
+api_name:
 -	EvtSerCx2PioReceiveInitializeTransaction
 product: Windows
 targetos: Windows
@@ -144,11 +144,11 @@ The <b>EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION</b> function type is define
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2pioreceiveinitializetransactioncomplete.md">SerCx2PioReceiveInitializeTransactionComplete</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2pioreceiveinitializetransactioncomplete.md">SerCx2PioReceiveInitializeTransactionComplete</a>
 
 
 

@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Aux_Klib.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Aux_Klib.lib
 -	Aux_Klib.dll
-apiname:
+api_name:
 -	AuxKlibQueryModuleInformation
 product: Windows
 targetos: Windows
@@ -193,7 +193,7 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
+<a href="..\aux_klib\ns-aux_klib-_aux_module_basic_info.md">AUX_MODULE_BASIC_INFO</a>
 
 
 
@@ -201,15 +201,15 @@ if (!NT_SUCCESS(status)) {
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
-
-
-<a href="..\aux_klib\ns-aux_klib-_aux_module_basic_info.md">AUX_MODULE_BASIC_INFO</a>
+<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
 
 
 
 <a href="..\aux_klib\ns-aux_klib-_aux_module_extended_info.md">AUX_MODULE_EXTENDED_INFO</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 

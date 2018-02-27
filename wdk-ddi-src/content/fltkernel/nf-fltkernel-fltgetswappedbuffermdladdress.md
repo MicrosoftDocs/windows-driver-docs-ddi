@@ -29,14 +29,14 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	fltmgr.sys
-apiname:
+api_name:
 -	FltGetSwappedBufferMdlAddress
 product: Windows
 targetos: Windows

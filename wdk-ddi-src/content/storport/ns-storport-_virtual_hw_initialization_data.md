@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	storport.h
-apiname:
+api_name:
 -	VIRTUAL_HW_INITIALIZATION_DATA
 product: Windows
 targetos: Windows
@@ -279,7 +279,11 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557402">HwStorInitializeTracing</a>
+
+
+
+<a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
 
 
 
@@ -291,19 +295,15 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557379">HwStorCompleteServiceIrp</a>
+
+
+
 <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557402">HwStorInitializeTracing</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557392">HwStorFreeAdapterResources</a>
-
-
-
-<a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
+<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
 
 
@@ -311,11 +311,11 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557392">HwStorFreeAdapterResources</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557372">HwStorCleanupTracing</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557379">HwStorCompleteServiceIrp</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	miniport.h
-apiname:
+api_name:
 -	PROCESSOR_NUMBER
 product: Windows
 targetos: Windows
@@ -99,15 +99,7 @@ Kernel-mode routines that use the <b>PROCESSOR_NUMBER</b> structure include <a h
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kegetprocessorindexfromnumber.md">KeGetProcessorIndexFromNumber</a>
-
-
-
 <a href="..\wdm\nf-wdm-kegetcurrentprocessornumberex.md">KeGetCurrentProcessorNumberEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
 
 
 
@@ -116,6 +108,14 @@ Kernel-mode routines that use the <b>PROCESSOR_NUMBER</b> structure include <a h
 
 
 <a href="..\wdm\nf-wdm-kequerylogicalprocessorrelationship.md">KeQueryLogicalProcessorRelationship</a>
+
+
+
+<a href="..\wdm\nf-wdm-kegetprocessorindexfromnumber.md">KeGetProcessorIndexFromNumber</a>
+
+
+
+<a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
 
 
 

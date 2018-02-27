@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtfdriverpackageaction.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WDTFDriverPackageAction.Interop.dll
-apiname:
+api_name:
 -	IWDTFDriverPackageAction2.Provider
 -	IWDTFDriverPackageAction2.get_Provider
 product: Windows

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Prcomoem.h
-apiname:
+api_name:
 -	IPrintCoreHelper.SetOptions
 product: Windows
 targetos: Windows
@@ -217,11 +217,11 @@ For most scenarios, the <i>bResolveConflicts</i> parameter should be set to <b>T
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelper.md">IPrintCoreHelper</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552959">IPrintCoreHelper::GetOption</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintcorehelper.md">IPrintCoreHelper</a>
 
 
 

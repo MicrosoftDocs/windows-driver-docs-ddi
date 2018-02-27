@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntdddisk.h
-apiname:
+api_name:
 -	PARTITION_INFORMATION_EX
 product: Windows
 targetos: Windows
@@ -132,7 +132,7 @@ This is the extended version of the partition information structure, PARTITION_I
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_partition_information_gpt.md">PARTITION_INFORMATION_GPT</a>
+<a href="..\ntdddisk\ns-ntdddisk-_partition_information_mbr.md">PARTITION_INFORMATION_MBR</a>
 
 
 
@@ -140,7 +140,7 @@ This is the extended version of the partition information structure, PARTITION_I
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_partition_information_mbr.md">PARTITION_INFORMATION_MBR</a>
+<a href="..\ntdddisk\ns-ntdddisk-_partition_information_gpt.md">PARTITION_INFORMATION_GPT</a>
 
 
 

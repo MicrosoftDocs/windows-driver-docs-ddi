@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Urscxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Urscxstub.lib
 -	Urscxstub.dll
-apiname:
+api_name:
 -	UrsDeviceInitInitialize
 product: Windows
 targetos: Windows

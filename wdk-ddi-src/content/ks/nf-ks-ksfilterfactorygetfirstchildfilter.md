@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KsFilterFactoryGetFirstChildFilter
 product: Windows
 targetos: Windows
@@ -96,15 +96,15 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetfirstchild.md"
 
 
 
-<a href="..\ks\nf-ks-ksgetfirstchild.md">KsGetFirstChild</a>
-
-
-
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
 
 
 <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
+
+
+<a href="..\ks\nf-ks-ksgetfirstchild.md">KsGetFirstChild</a>
 
 
 

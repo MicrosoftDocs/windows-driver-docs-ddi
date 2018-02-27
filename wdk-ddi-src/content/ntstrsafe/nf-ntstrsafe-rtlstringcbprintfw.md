@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname:
+api_name:
 -	RtlStringCbPrintfW
 -	RtlStringCbPrintfA
 -	RtlStringCbPrintfW
@@ -263,11 +263,11 @@ The resultant string is "The answer is 1 + 2 = 3." It is contained in the buffer
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfw.md">RtlStringCbVPrintf</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfw.md">RtlStringCchPrintf</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfw.md">RtlStringCbVPrintf</a>
 
 
 

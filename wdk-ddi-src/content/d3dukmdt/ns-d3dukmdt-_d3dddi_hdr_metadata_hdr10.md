@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dukmdt.h
-apiname:
+api_name:
 -	D3DDDI_HDR_METADATA_HDR10
 product: Windows
 targetos: Windows

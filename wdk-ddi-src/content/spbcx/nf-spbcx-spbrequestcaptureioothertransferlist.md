@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: See Remarks.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	spbcxstubs.lib
 -	spbcxstubs.dll
-apiname:
+api_name:
 -	SpbRequestCaptureIoOtherTransferList
 product: Windows
 targetos: Windows
@@ -188,11 +188,7 @@ exit:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a>
 
 
 
@@ -200,7 +196,11 @@ exit:
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
 
 
 

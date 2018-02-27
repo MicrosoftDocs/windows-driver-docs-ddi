@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfdmaenabler.h
-apiname:
+api_name:
 -	WDF_DMA_DIRECTION
 product: Windows
 targetos: Windows
@@ -92,7 +92,7 @@ The <b>WDF_DMA_DIRECTION</b> enumeration is used as input to the <a href="https:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a>
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>
 
 
 
@@ -100,7 +100,7 @@ The <b>WDF_DMA_DIRECTION</b> enumeration is used as input to the <a href="https:
 
 
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>
+<a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a>
 
 
 

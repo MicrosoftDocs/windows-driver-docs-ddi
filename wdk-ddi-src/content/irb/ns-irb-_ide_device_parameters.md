@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	irb.h
-apiname:
+api_name:
 -	IDE_DEVICE_PARAMETERS
 product: Windows
 targetos: Windows
@@ -252,7 +252,7 @@ The port driver passes a IDE_DEVICE_PARAMETERS structure to the miniport driver 
 
 ## -see-also
 
-<a href="..\irb\ne-irb-ata_address_translation.md">ATA_ADDRESS_TRANSLATION</a>
+<a href="..\irb\ne-irb-ide_device_type.md">IDE_DEVICE_TYPE</a>
 
 
 
@@ -260,7 +260,7 @@ The port driver passes a IDE_DEVICE_PARAMETERS structure to the miniport driver 
 
 
 
-<a href="..\irb\ne-irb-ide_device_type.md">IDE_DEVICE_TYPE</a>
+<a href="..\irb\ne-irb-ata_address_translation.md">ATA_ADDRESS_TRANSLATION</a>
 
 
 

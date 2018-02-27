@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoGetDeviceAttachmentBaseRef
 product: Windows
 targetos: Windows
@@ -98,10 +98,6 @@ A file system filter driver typically calls <b>IoGetDeviceAttachmentBaseRef</b> 
 
 
 
-<a href="..\ntifs\nf-ntifs-iogetlowerdeviceobject.md">IoGetLowerDeviceObject</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a>
 
 
@@ -110,11 +106,15 @@ A file system filter driver typically calls <b>IoGetDeviceAttachmentBaseRef</b> 
 
 
 
-<a href="..\ntifs\nf-ntifs-obquerynamestring.md">ObQueryNameString</a>
-
-
-
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iogetlowerdeviceobject.md">IoGetLowerDeviceObject</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-obquerynamestring.md">ObQueryNameString</a>
 
 
 

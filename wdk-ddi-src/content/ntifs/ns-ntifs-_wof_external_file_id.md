@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntifs.h
-apiname:
+api_name:
 -	WOF_EXTERNAL_FILE_ID
 product: Windows
 targetos: Windows

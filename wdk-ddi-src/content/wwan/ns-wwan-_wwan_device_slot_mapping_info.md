@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_DEVICE_SLOT_MAPPING_INFO
 product: Windows
 targetos: Windows
@@ -89,11 +89,7 @@ The number of mappings, which is always equal to the number of executors.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/54AF3447-7918-49CE-945A-DC8DC1E78CBF">OID_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
-
-
-
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_device_slot_mapping_info.md">NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO</a>
+<a href="https://msdn.microsoft.com/7825C20E-FB56-420D-B516-1ADA0C7C382E">NDIS_STATUS_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
 
 
 
@@ -101,7 +97,11 @@ The number of mappings, which is always equal to the number of executors.
 
 
 
-<a href="https://msdn.microsoft.com/7825C20E-FB56-420D-B516-1ADA0C7C382E">NDIS_STATUS_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_device_slot_mapping_info.md">NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/54AF3447-7918-49CE-945A-DC8DC1E78CBF">OID_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
 
 
 

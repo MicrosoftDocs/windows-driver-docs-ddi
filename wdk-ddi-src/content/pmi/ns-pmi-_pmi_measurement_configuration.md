@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pmi.h
-apiname:
+api_name:
 -	PMI_MEASUREMENT_CONFIGURATION
 product: Windows
 targetos: Windows
@@ -85,7 +85,7 @@ The PMI_MEASUREMENT_CONFIGURATION structure specifies the current measurement pa
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
+<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
 
 
 
@@ -93,7 +93,7 @@ The PMI_MEASUREMENT_CONFIGURATION structure specifies the current measurement pa
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
+<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
 
 
 

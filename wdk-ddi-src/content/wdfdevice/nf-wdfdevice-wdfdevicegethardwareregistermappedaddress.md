@@ -29,14 +29,14 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	WUDFx02000.dll
-apiname:
+api_name:
 -	WdfDeviceGetHardwareRegisterMappedAddress
 product: Windows
 targetos: Windows
@@ -110,11 +110,11 @@ If you do use <b>WdfDeviceGetHardwareRegisterMappedAddress</b>, you must set the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/94852404-301F-4C09-81D2-CEDEECFCD6BD">IWDFDevice3::GetHardwareRegisterMappedAddress</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicemapiospace.md">WdfDeviceMapIoSpace</a>
+
+
+
+<a href="https://msdn.microsoft.com/94852404-301F-4C09-81D2-CEDEECFCD6BD">IWDFDevice3::GetHardwareRegisterMappedAddress</a>
 
 
 

@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname:
+api_name:
 -	WdfDeviceInitSetReleaseHardwareOrderOnFailure
 product: Windows
 targetos: Windows
@@ -135,11 +135,11 @@ The following code example shows how a bus driver can request that the framework
 
 
 
-<a href="..\wdfdevice\ne-wdfdevice-_wdf_release_hardware_order_on_failure.md">WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE</a>
-
-
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a>
+
+
+
+<a href="..\wdfdevice\ne-wdfdevice-_wdf_release_hardware_order_on_failure.md">WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE</a>
 
 
 

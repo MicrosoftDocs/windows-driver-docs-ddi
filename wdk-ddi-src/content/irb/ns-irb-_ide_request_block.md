@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	irb.h
-apiname:
+api_name:
 -	IDE_REQUEST_BLOCK
 product: Windows
 targetos: Windows
@@ -531,10 +531,6 @@ The IDE_REQUEST_BLOCK structure provides a functionality similar to the <a href=
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
-
 <a href="..\irb\ns-irb-_ide_task_file.md">IDE_TASK_FILE</a>
 
 
@@ -544,6 +540,10 @@ The IDE_REQUEST_BLOCK structure provides a functionality similar to the <a href=
 
 
 <a href="..\irb\nf-irb-ataportdevicebusy.md">AtaportDeviceBusy</a>
+
+
+
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 

@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsRemoveItemFromObjectBag
 product: Windows
 targetos: Windows
@@ -117,15 +117,15 @@ Note that the mutex associated with the bag must be held. For more  information,
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
+<a href="..\ks\nf-ks-ksmergeautomationtables.md">KsMergeAutomationTables</a>
+
+
+
+<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
 
 
 
 <a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
-
-
-
-<a href="..\ks\nf-ks-ksmergeautomationtables.md">KsMergeAutomationTables</a>
 
 
 
@@ -137,7 +137,7 @@ Note that the mutex associated with the bag must be held. For more  information,
 
 
 
-<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
+<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
 
 
 

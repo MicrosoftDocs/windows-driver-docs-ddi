@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	FILE_OBJECT
 product: Windows
 targetos: Windows
@@ -605,6 +605,18 @@ CLFS clients do not directly access the members of a <b>LOG_FILE_OBJECT</b> stru
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>
+
+
+
+<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 
@@ -617,7 +629,7 @@ CLFS clients do not directly access the members of a <b>LOG_FILE_OBJECT</b> stru
 
 
 
-<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 
@@ -625,19 +637,7 @@ CLFS clients do not directly access the members of a <b>LOG_FILE_OBJECT</b> stru
 
 
 
-<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>
-
-
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
 
 
 

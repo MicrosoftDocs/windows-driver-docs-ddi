@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	bthddi.h
-apiname:
+api_name:
 -	_BRB_GET_DEVICE_INTERFACE_STRING
 product: Windows
 targetos: Windows
@@ -114,16 +114,16 @@ If the buffer pointed to by the
 
 ## -see-also
 
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+
+
 <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536856">
    BRB_GET_DEVICE_INTERFACE_STRING</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 

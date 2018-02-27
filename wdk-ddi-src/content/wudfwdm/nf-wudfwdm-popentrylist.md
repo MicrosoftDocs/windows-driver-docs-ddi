@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	PopEntryList
 product: Windows
 targetos: Windows
@@ -97,11 +97,11 @@ Callers of <b>PopEntryList</b> can be running at any IRQL. If <b>PopEntryList</b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinterlockedpopentrylist.md">ExInterlockedPopEntryList</a>
-
-
-
 <a href="..\wudfwdm\nf-wudfwdm-pushentrylist.md">PushEntryList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedpopentrylist.md">ExInterlockedPopEntryList</a>
 
 
 

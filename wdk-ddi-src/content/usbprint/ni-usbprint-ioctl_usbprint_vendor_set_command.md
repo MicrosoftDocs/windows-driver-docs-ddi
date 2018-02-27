@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	usbprint.h
-apiname:
+api_name:
 -	IOCTL_USBPRINT_VENDOR_SET_COMMAND
 product: Windows
 targetos: Windows
@@ -157,10 +157,6 @@ Not used in this operation; set this parameter to 0.
 
 ## -see-also
 
-<a href="..\usbprint\ni-usbprint-ioctl_usbprint_vendor_get_command.md">IOCTL_USBPRINT_VENDOR_GET_COMMAND</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
@@ -169,11 +165,15 @@ Not used in this operation; set this parameter to 0.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+
+
+
+<a href="..\usbprint\ni-usbprint-ioctl_usbprint_vendor_get_command.md">IOCTL_USBPRINT_VENDOR_GET_COMMAND</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 

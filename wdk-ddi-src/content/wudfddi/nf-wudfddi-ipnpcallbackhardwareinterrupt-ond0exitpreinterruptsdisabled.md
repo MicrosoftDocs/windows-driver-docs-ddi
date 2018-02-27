@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Wudfddi.h
-apiname:
+api_name:
 -	IPnpCallbackHardwareInterrupt.OnD0ExitPreInterruptsDisabled
 product: Windows
 targetos: Windows
@@ -106,11 +106,11 @@ For more information, see <a href="https://msdn.microsoft.com/432907e7-05a3-4a99
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439750">OnD0EntryPostInterruptsEnabled</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardwareinterrupt.md">IPnpCallbackHardwareInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439750">OnD0EntryPostInterruptsEnabled</a>
 
 
 

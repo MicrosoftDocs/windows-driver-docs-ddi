@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Hbaapi.dll
-apiname:
+api_name:
 -	HBA_RegisterForLinkEvents
 product: Windows
 targetos: Windows
@@ -175,11 +175,11 @@ Only RLIR events are reported. To stop event delivery, call <a href="..\hbaapi\n
 
 ## -see-also
 
+<a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
+
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556121">HBA_LINK_CALLBACK</a>
 
 
 
@@ -187,7 +187,7 @@ Only RLIR events are reported. To stop event delivery, call <a href="..\hbaapi\n
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556121">HBA_LINK_CALLBACK</a>
 
 
 

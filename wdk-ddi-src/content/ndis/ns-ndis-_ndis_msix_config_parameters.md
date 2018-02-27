@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndis.h
-apiname:
+api_name:
 -	NDIS_MSIX_CONFIG_PARAMETERS
 product: Windows
 targetos: Windows
@@ -118,7 +118,7 @@ To mask, unmask, or map MSI-X table entries, an NDIS driver passes the NDIS_MSIX
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\ne-ndis-_ndis_msix_table_config.md">NDIS_MSIX_TABLE_OPERATION</a>
 
 
 
@@ -126,7 +126,7 @@ To mask, unmask, or map MSI-X table entries, an NDIS driver passes the NDIS_MSIX
 
 
 
-<a href="..\ndis\ne-ndis-_ndis_msix_table_config.md">NDIS_MSIX_TABLE_OPERATION</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

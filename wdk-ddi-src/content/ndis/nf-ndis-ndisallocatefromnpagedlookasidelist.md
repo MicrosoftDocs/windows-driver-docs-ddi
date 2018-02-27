@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndis.h
-apiname:
+api_name:
 -	NdisAllocateFromNPagedLookasideList
 product: Windows
 targetos: Windows
@@ -117,13 +117,13 @@ All entries that are allocated from a nonpaged lookaside list are of a fixed siz
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisdeletenpagedlookasidelist.md">
-   NdisDeleteNPagedLookasideList</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
    NdisInitializeNPagedLookasideList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisdeletenpagedlookasidelist.md">
+   NdisDeleteNPagedLookasideList</a>
 
 
 

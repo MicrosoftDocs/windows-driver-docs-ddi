@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	Dot11ExtIhvInitAdapter
 product: Windows
 targetos: Windows
@@ -133,7 +133,8 @@ For more information about WLAN adapter initialization, see
 
 ## -see-also
 
-<a href="..\wlclient\ns-wlclient-_dot11_adapter.md">DOT11_ADAPTER</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
+   Extensibility Functions</a>
 
 
 
@@ -142,13 +143,12 @@ For more information about WLAN adapter initialization, see
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
-   Extensibility Functions</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
    Dot11ExtIhvPerformPreAssociate</a>
+
+
+
+<a href="..\wlclient\ns-wlclient-_dot11_adapter.md">DOT11_ADAPTER</a>
 
 
 

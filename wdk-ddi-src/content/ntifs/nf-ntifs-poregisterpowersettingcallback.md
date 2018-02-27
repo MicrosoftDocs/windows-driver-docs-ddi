@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	PoRegisterPowerSettingCallback
 product: Windows
 targetos: Windows
@@ -254,7 +254,7 @@ The POWER_SETTING_CALLBACK function type is defined in the Wdm.h header file. To
 
 
 
-<a href="..\wdm\nf-wdm-pounregisterpowersettingcallback.md">PoUnregisterPowerSettingCallback</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 
@@ -262,7 +262,7 @@ The POWER_SETTING_CALLBACK function type is defined in the Wdm.h header file. To
 
 
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdm\nf-wdm-pounregisterpowersettingcallback.md">PoUnregisterPowerSettingCallback</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: "<= APC_LEVEL or <= DISPATCH_LEVEL (See Remarks section)"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Ntoskrnl.exe
-apiname:
+api_name:
 -	PoFxIssueComponentPerfStateChange
 product: Windows
 targetos: Windows
@@ -163,11 +163,11 @@ Only a single call of the <b>PoFxIssueComponentPerfStateChange</b> routine  is a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
+<a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechangemultiple.md">PoFxIssueComponentPerfStateChangeMultiple</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a>
+<a href="..\wudfwdm\ne-wudfwdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a>
 
 
 
@@ -175,11 +175,11 @@ Only a single call of the <b>PoFxIssueComponentPerfStateChange</b> routine  is a
 
 
 
-<a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechangemultiple.md">PoFxIssueComponentPerfStateChangeMultiple</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a>
 
 
 
-<a href="..\wudfwdm\ne-wudfwdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a>
+<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
 
 
 

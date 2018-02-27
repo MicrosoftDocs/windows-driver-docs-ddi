@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dumddi.h
-apiname:
+api_name:
 -	D3DDDIARG_CREATEDECODEDEVICE
 product: Windows
 targetos: Windows
@@ -92,7 +92,7 @@ typedef struct _D3DDDIARG_CREATEDECODEDEVICE {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_configpicturedecode.md">DXVADDI_CONFIGPICTUREDECODE</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a>
 
 
 
@@ -100,11 +100,11 @@ typedef struct _D3DDDIARG_CREATEDECODEDEVICE {
 
 
 
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_configpicturedecode.md">DXVADDI_CONFIGPICTUREDECODE</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a>
 
 
 

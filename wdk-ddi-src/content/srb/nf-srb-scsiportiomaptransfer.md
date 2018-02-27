@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname:
+api_name:
 -	ScsiPortIoMapTransfer
 product: Windows
 targetos: Windows
@@ -114,11 +114,11 @@ After the operating system-specific port driver programs the system DMA controll
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportflushdma.md">ScsiPortFlushDma</a>
-
-
-
 <a href="..\srb\nc-srb-phw_dma_started.md">HwScsiDmaStarted</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportflushdma.md">ScsiPortFlushDma</a>
 
 
 

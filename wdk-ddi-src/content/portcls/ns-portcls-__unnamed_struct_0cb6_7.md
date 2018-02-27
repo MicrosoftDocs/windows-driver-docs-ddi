@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	PCPIN_DESCRIPTOR
 product: Windows
 targetos: Windows
@@ -151,7 +151,11 @@ For more information, see <a href="https://msdn.microsoft.com/1399b8e1-bd73-4052
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536834">IPinCount::PinCount</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565204">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
+
+
+
+<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
 
 
 
@@ -159,7 +163,7 @@ For more information, see <a href="https://msdn.microsoft.com/1399b8e1-bd73-4052
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565204">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
+<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
 
 
 
@@ -167,11 +171,7 @@ For more information, see <a href="https://msdn.microsoft.com/1399b8e1-bd73-4052
 
 
 
-<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
-
-
-
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536834">IPinCount::PinCount</a>
 
 
 

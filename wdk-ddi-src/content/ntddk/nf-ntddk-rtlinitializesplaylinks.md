@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: See Remarks section.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddk.h
-apiname:
+api_name:
 -	RtlInitializeSplayLinks
 product: Windows
 targetos: Windows
@@ -96,15 +96,11 @@ Callers of <b>RtlInitializeSplayLinks</b> must be running at IRQL &lt;= DISPATCH
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
+<a href="..\ntddk\nf-ntddk-rtlsubtreepredecessor.md">RtlSubtreePredecessor</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlisroot.md">RtlIsRoot</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+<a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
 
 
 
@@ -116,7 +112,35 @@ Callers of <b>RtlInitializeSplayLinks</b> must be running at IRQL &lt;= DISPATCH
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlsubtreepredecessor.md">RtlSubtreePredecessor</a>
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlisleftchild.md">RtlIsLeftChild</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlsubtreesuccessor.md">RtlSubtreeSuccessor</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlisroot.md">RtlIsRoot</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlrealpredecessor.md">RtlRealPredecessor</a>
 
 
 
@@ -128,31 +152,7 @@ Callers of <b>RtlInitializeSplayLinks</b> must be running at IRQL &lt;= DISPATCH
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlsubtreesuccessor.md">RtlSubtreeSuccessor</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlisleftchild.md">RtlIsLeftChild</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlisrightchild.md">RtlIsRightChild</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlrealpredecessor.md">RtlRealPredecessor</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndis.h
-apiname:
+api_name:
 -	NdisReadRegisterUshort
 product: Windows
 targetos: Windows
@@ -98,7 +98,7 @@ If a driver calls this function, a NIC's device registers must be mapped to nonc
 
 
 
-<a href="..\ndis\nf-ndis-ndisreadregisterulong.md">NdisReadRegisterUlong</a>
+<a href="..\ndis\nf-ndis-ndisreadregisteruchar.md">NdisReadRegisterUchar</a>
 
 
 
@@ -106,11 +106,11 @@ If a driver calls this function, a NIC's device registers must be mapped to nonc
 
 
 
+<a href="..\ndis\nf-ndis-ndisreadregisterulong.md">NdisReadRegisterUlong</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisreadregisteruchar.md">NdisReadRegisterUchar</a>
 
 
 

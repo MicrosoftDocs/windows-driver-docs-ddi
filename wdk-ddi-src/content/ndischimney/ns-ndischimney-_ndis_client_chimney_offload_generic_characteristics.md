@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndischimney.h
-apiname:
+api_name:
 -	NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS
 product: Windows
 targetos: Windows
@@ -153,21 +153,12 @@ To register its generic chimney offload entry points, a protocol or intermediate
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-indicate_offload_event_handler.md">
    ProtocolIndicateOffloadEvent</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-invalidate_offload_complete_handler.md">
-   ProtocolInvalidateOffloadComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
 
 
 
@@ -176,12 +167,8 @@ To register its generic chimney offload entry points, a protocol or intermediate
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-terminate_offload_complete_handler.md">
-   ProtocolTerminateOffloadComplete</a>
+<a href="..\ndischimney\nc-ndischimney-update_offload_complete_handler.md">
+   ProtocolUpdateOffloadComplete</a>
 
 
 
@@ -190,8 +177,21 @@ To register its generic chimney offload entry points, a protocol or intermediate
 
 
 
-<a href="..\ndischimney\nc-ndischimney-update_offload_complete_handler.md">
-   ProtocolUpdateOffloadComplete</a>
+<a href="..\ndischimney\nc-ndischimney-invalidate_offload_complete_handler.md">
+   ProtocolInvalidateOffloadComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-terminate_offload_complete_handler.md">
+   ProtocolTerminateOffloadComplete</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

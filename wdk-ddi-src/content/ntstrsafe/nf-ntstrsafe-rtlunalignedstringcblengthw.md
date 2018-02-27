@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname:
+api_name:
 -	RtlUnalignedStringCbLengthW
 product: Windows
 targetos: Windows

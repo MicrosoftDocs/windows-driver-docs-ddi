@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Portcls.lib
 -	Portcls.dll
-apiname:
+api_name:
 -	PcCompleteIrp
 product: Windows
 targetos: Windows
@@ -107,7 +107,7 @@ The IRP handler should not call this function. An adapter driver's IRP handler i
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -115,7 +115,7 @@ The IRP handler should not call this function. An adapter driver's IRP handler i
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wudfddi_types.h
-apiname:
+api_name:
 -	WDF_POWER_DEVICE_STATE
 product: Windows
 targetos: Windows
@@ -129,11 +129,11 @@ The framework supplies one of the values of <a href="..\wudfddi_types\ne-wudfddi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a>
 
 
 

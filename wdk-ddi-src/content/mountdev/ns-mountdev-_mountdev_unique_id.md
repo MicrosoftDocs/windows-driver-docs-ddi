@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	mountdev.h
-apiname:
+api_name:
 -	MOUNTDEV_UNIQUE_ID
 product: Windows
 targetos: Windows

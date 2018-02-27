@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ksecdd.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ksecdd.lib
 -	Ksecdd.dll
-apiname:
+api_name:
 -	SecMakeSPNEx
 product: Windows
 targetos: Windows

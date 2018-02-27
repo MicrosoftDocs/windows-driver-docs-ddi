@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsInitializeDriver
 product: Windows
 targetos: Windows
@@ -114,19 +114,7 @@ This function is typically called from <b>DriverEntry</b>. If the minidriver pas
 
 
 
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
 <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
-
-
-
-<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
 
 
 
@@ -139,6 +127,18 @@ This function is typically called from <b>DriverEntry</b>. If the minidriver pas
 
 
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+
+
+
+<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
 
 
 

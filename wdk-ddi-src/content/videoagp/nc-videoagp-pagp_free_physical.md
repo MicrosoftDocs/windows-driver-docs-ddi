@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	videoagp.h
-apiname:
+api_name:
 -	AgpFreePhysical
 product: Windows
 targetos: Windows
@@ -114,11 +114,11 @@ When a miniport driver calls <b>AgpFreePhysical</b>, <b>Pages</b> pages of physi
 
 ## -see-also
 
-<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
-
-
-
 <a href="..\videoagp\nc-videoagp-pagp_release_physical.md">AgpReleasePhysical</a>
+
+
+
+<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
 
 
 

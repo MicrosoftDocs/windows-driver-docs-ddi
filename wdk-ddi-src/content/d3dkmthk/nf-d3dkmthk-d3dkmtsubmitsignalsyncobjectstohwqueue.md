@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Tbd
 req.dll: Tbd
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	tbd
-apiname:
+api_name:
 -	D3DKMTSubmitSignalSyncObjectsToHwQueue
 product: Windows
 targetos: Windows

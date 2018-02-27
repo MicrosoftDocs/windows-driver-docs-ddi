@@ -29,14 +29,14 @@ req.type-library:
 req.lib: extsfns.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	extsfns.h
-apiname:
+api_name:
 -	IDebugFailureAnalysis2.GetBuffer
 product: Windows
 targetos: Windows
@@ -108,7 +108,7 @@ If this method finds an <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-A
 
 
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983406">AddBuffer</a>
 
 
 
@@ -116,11 +116,11 @@ If this method finds an <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-A
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983406">AddBuffer</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983423">SetBuffer</a>
+
+
+
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 

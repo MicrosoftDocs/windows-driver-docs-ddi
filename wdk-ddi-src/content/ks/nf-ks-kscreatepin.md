@@ -29,16 +29,16 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	ks.lib
 -	ks.dll
 -	ksuser.dll
-apiname:
+api_name:
 -	KsCreatePin
 product: Windows
 targetos: Windows
@@ -114,15 +114,15 @@ If <i>Connect</i>-&gt;<b>PinToHandle</b> is <b>NULL</b>, <b>KsCreatePin</b> crea
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-
-
-
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 
 <a href="..\ks\ns-ks-kspin_connect.md">KSPIN_CONNECT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 

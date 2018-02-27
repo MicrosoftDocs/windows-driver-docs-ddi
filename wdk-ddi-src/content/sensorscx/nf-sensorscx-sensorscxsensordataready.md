@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	SensorsCx.h
-apiname:
+api_name:
 -	SensorsCxSensorDataReady
 product: Windows
 targetos: Windows
@@ -118,11 +118,11 @@ This function is implemented by the class extension and the driver must call it.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor properties</a>
-
-
-
 <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor properties</a>
 
 
 

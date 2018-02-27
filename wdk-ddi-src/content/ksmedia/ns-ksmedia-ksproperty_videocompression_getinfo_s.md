@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ksmedia.h
-apiname:
+api_name:
 -	KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S
 product: Windows
 targetos: Windows
@@ -110,7 +110,7 @@ Specifies the compression capabilities of the device. This member can be one or 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="..\ksmedia\ne-ksmedia-ks_compressioncaps.md">KS_CompressionCaps</a>
 
 
 
@@ -118,7 +118,7 @@ Specifies the compression capabilities of the device. This member can be one or 
 
 
 
-<a href="..\ksmedia\ne-ksmedia-ks_compressioncaps.md">KS_CompressionCaps</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	filterpipeline.h
-apiname:
+api_name:
 -	IFixedPage.GetPrintTicket
 product: Windows
 targetos: Windows
@@ -96,15 +96,15 @@ After calling this method to get the page-level print ticket, a print driver fil
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550992">IFixedDocument::GetPrintTicket</a>
+
+
+
 <a href="..\filterpipeline\nn-filterpipeline-ipartprintticket.md">IPartPrintTicket</a>
 
 
 
 <a href="..\filterpipeline\nn-filterpipeline-ifixedpage.md">IFixedPage</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550992">IFixedDocument::GetPrintTicket</a>
 
 
 

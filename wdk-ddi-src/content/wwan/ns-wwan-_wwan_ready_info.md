@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_READY_INFO
 product: Windows
 targetos: Windows
@@ -129,7 +129,7 @@ Miniport drivers should not specify this value until the device ready-state chan
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_emergency_mode.md">WWAN_EMERGENCY_MODE</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_ready_info.md">NDIS_WWAN_READY_INFO</a>
 
 
 
@@ -137,11 +137,11 @@ Miniport drivers should not specify this value until the device ready-state chan
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_ready_info.md">NDIS_WWAN_READY_INFO</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_emergency_mode.md">WWAN_EMERGENCY_MODE</a>
 
 
 

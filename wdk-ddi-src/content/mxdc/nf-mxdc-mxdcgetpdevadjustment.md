@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	mxdc.h
-apiname:
+api_name:
 -	MxdcGetPDEVAdjustment
 product: Windows
 targetos: Windows
@@ -432,11 +432,11 @@ All rotation will be done on the imageable area. If a configuration component (U
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuimxdc.md">IPrintOemUIMXDC Interface</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566484">GDIINFO</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemuimxdc.md">IPrintOemUIMXDC Interface</a>
 
 
 

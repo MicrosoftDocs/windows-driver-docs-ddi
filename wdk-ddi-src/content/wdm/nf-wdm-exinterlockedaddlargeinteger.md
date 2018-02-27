@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	ExInterlockedAddLargeInteger
 product: Windows
 targetos: Windows
@@ -113,11 +113,11 @@ Callers of <b>ExInterlockedAddLargeInteger</b> run at any IRQL. The storage for 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
-
-
-
 <a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
 
 
 
@@ -125,7 +125,7 @@ Callers of <b>ExInterlockedAddLargeInteger</b> run at any IRQL. The storage for 
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 
 

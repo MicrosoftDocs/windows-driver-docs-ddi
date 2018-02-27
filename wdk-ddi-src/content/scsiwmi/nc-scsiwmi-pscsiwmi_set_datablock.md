@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	scsiwmi.h
-apiname:
+api_name:
 -	HwScsiWmiSetDataBlock
 product: Windows
 targetos: Windows
@@ -131,7 +131,7 @@ The miniport driver should call <a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostpr
 
 ## -see-also
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
 
 
 
@@ -139,7 +139,7 @@ The miniport driver should call <a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostpr
 
 
 
-<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
 
 
 

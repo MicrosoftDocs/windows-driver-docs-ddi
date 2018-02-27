@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Poclass.h
-apiname:
+api_name:
 -	THERMAL_COOLING_INTERFACE
 product: Windows
 targetos: Windows
@@ -137,11 +137,15 @@ When a device driver receives an <a href="https://msdn.microsoft.com/library/win
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698265">GUID_THERMAL_COOLING_INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+
+
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 
@@ -153,19 +157,15 @@ When a device driver receives an <a href="https://msdn.microsoft.com/library/win
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
-
-
-
 <a href="..\poclass\nc-poclass-device_passive_cooling.md">PassiveCooling</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698265">GUID_THERMAL_COOLING_INTERFACE</a>
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
 
 
 

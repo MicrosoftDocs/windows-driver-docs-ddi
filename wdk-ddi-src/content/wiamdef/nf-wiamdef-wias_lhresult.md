@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamdef.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wiamdef.h
-apiname:
+api_name:
 -	WIAS_LHRESULT
 product: Windows
 targetos: Windows
@@ -109,11 +109,11 @@ The WIAS_LHRESULT macro is not recommended for Windows Vista and later operating
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_hresult.md">WIAS_HRESULT</a>
-
-
-
 <a href="..\wiautil\nf-wiautil-wias_lwarning.md">WIAS_LWARNING</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wias_hresult.md">WIAS_HRESULT</a>
 
 
 

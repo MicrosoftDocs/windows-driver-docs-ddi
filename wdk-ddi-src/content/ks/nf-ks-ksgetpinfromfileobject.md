@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KsGetPinFromFileObject
 product: Windows
 targetos: Windows
@@ -94,11 +94,11 @@ This call is an inline call to <a href="..\ks\nf-ks-ksgetobjectfromfileobject.md
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgetobjecttypefromfileobject.md">KsGetObjectTypeFromFileObject</a>
-
-
-
 <a href="..\ks\nf-ks-ksgetobjectfromfileobject.md">KsGetObjectFromFileObject</a>
+
+
+
+<a href="..\ks\nf-ks-ksgetobjecttypefromfileobject.md">KsGetObjectTypeFromFileObject</a>
 
 
 

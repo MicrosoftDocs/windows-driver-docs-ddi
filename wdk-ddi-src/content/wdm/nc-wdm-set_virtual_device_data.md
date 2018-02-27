@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	SetVirtualFunctionData
 product: Windows
 targetos: Windows
@@ -125,7 +125,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVi
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
 
 
 
@@ -133,7 +133,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
+<a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a>
 
 
 

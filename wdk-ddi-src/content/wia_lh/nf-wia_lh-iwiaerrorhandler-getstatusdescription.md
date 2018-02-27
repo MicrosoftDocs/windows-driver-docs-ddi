@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wia_lh.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	wia_lh.h
-apiname:
+api_name:
 -	IWiaErrorHandler.GetStatusDescription
 product: Windows
 targetos: Windows

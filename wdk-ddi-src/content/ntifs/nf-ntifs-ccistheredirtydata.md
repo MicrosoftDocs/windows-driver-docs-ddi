@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	CcIsThereDirtyData
 product: Windows
 targetos: Windows
@@ -92,11 +92,11 @@ Pointer to a volume parameter block (VPB) for the volume.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
 
 
 

@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname:
+api_name:
 -	NdisResetEvent
 product: Windows
 targetos: Windows
@@ -104,11 +104,11 @@ When an event is set to the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisinitializeevent.md">NdisInitializeEvent</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	mrx.h
-apiname:
+api_name:
 -	RxpUnregisterMinirdr
 product: Windows
 targetos: Windows
@@ -96,15 +96,11 @@ Note that the inline routine, <a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
-
-
-
 <a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
 
 
 
@@ -116,7 +112,11 @@ Note that the inline routine, <a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr
 
 
 
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
 
 
 

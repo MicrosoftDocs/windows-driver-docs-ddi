@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: Any level (See Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsGenerateEvent
 product: Windows
 targetos: Windows
@@ -93,7 +93,7 @@ A device determines when event notifications are generated using the <a href="..
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
+<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
 
 
 
@@ -101,7 +101,7 @@ A device determines when event notifications are generated using the <a href="..
 
 
 
-<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
+<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
 
 
 

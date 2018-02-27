@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Videoprt.sys
-apiname:
+api_name:
 -	VideoPortScanRom
 product: Windows
 targetos: Windows
@@ -113,15 +113,15 @@ If the string is found, <b>VideoPortScanRom</b> returns <b>TRUE</b>. Otherwise, 
 
 ## -see-also
 
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
+
 <a href="..\video\nf-video-videoportgetromimage.md">VideoPortGetRomImage</a>
 
 
 
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-
-
-
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
 
 

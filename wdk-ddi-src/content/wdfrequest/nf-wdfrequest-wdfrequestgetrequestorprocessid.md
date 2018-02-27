@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.lib
 req.dll: WUDFx02000.dll; TBD
 req.irql: DISPATCH_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	WUDFx02000.dll
-apiname:
+api_name:
 -	WdfRequestGetRequestorProcessId
 product: Windows
 targetos: Windows

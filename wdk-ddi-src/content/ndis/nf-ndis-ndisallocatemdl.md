@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname:
+api_name:
 -	NdisAllocateMdl
 product: Windows
 targetos: Windows
@@ -125,6 +125,22 @@ All MDLs that are allocated by calling
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreemdl.md">NdisFreeMdl</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepool.md">ExAllocatePool</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">NdisAllocateMemoryWithTagPriority</a>
 
 
@@ -133,23 +149,7 @@ All MDLs that are allocated by calling
 
 
 
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfreemdl.md">NdisFreeMdl</a>
-
-
-
-<a href="..\wdm\nf-wdm-exallocatepool.md">ExAllocatePool</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugClient5.StartServerWide
 product: Windows
 targetos: Windows
@@ -113,11 +113,11 @@ For more information about debugging servers, see Debugging Server and Debugging
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553247">OutputServers</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553247">OutputServers</a>
 
 
 

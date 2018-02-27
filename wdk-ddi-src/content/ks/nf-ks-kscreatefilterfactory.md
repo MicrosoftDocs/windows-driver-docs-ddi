@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsCreateFilterFactory
 product: Windows
 targetos: Windows
@@ -215,11 +215,11 @@ This function should be used by minidrivers that either initialize themselves wi
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
-
-
-
 <a href="..\ks\nf-ks-ksdeletefilterfactory.md">KsDeleteFilterFactory</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
 
 

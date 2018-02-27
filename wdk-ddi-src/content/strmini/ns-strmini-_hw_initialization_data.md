@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	srb.h
-apiname:
+api_name:
 -	HW_INITIALIZATION_DATA
 product: Windows
 targetos: Windows
@@ -319,11 +319,11 @@ Both HW_INITIALIZATION_DATA and PORT_CONFIGURATION_INFORMATION have a pair of me
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
 
 
 

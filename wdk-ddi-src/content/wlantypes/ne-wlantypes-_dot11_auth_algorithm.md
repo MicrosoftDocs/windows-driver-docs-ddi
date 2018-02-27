@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wlantypes.h
-apiname:
+api_name:
 -	DOT11_AUTH_ALGORITHM
 product: Windows
 targetos: Windows
@@ -217,8 +217,7 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
-   DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a>
+<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
 
 
 
@@ -231,7 +230,8 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 
 
-<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
+<a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
+   DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a>
 
 
 

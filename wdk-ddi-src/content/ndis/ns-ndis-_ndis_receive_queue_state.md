@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ndis.h
-apiname:
+api_name:
 -	NDIS_RECEIVE_QUEUE_STATE
 product: Windows
 targetos: Windows
@@ -114,10 +114,6 @@ The <b>NDIS_RECEIVE_QUEUE_STATE</b> structure is used in the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_operational_state.md">
    NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</a>
 
@@ -125,6 +121,10 @@ The <b>NDIS_RECEIVE_QUEUE_STATE</b> structure is used in the
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567214">
    NDIS_STATUS_RECEIVE_QUEUE_STATE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

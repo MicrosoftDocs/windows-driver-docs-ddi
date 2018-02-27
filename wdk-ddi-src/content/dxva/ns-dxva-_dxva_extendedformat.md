@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dxva.h
-apiname:
+api_name:
 -	DXVA_ExtendedFormat
 product: Windows
 targetos: Windows
@@ -110,23 +110,7 @@ Specifies the conversion function from R'G'B' to RGB. The 5 bits are defined by 
 
 ## -see-also
 
-<a href="..\dxva\ne-dxva-_dxva_videolighting.md">DXVA_VideoLighting</a>
-
-
-
-<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
-
-
-
-<a href="..\dxva\ne-dxva-_dxva_nominalrange.md">DXVA_NominalRange</a>
-
-
-
 <a href="..\dxva\ne-dxva-_dxva_videotransfermatrix.md">DXVA_VideoTransferMatrix</a>
-
-
-
-<a href="..\dxva\ne-dxva-_dxva_videochromasubsampling.md">DXVA_VideoChromaSubsampling</a>
 
 
 
@@ -135,6 +119,22 @@ Specifies the conversion function from R'G'B' to RGB. The 5 bits are defined by 
 
 
 <a href="..\dxva\ne-dxva-_dxva_videoprimaries.md">DXVA_VideoPrimaries</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_videolighting.md">DXVA_VideoLighting</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_nominalrange.md">DXVA_NominalRange</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_videochromasubsampling.md">DXVA_VideoChromaSubsampling</a>
 
 
 

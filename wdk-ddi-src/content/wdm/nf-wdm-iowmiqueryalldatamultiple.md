@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoWMIQueryAllDataMultiple
 product: Windows
 targetos: Windows
@@ -145,7 +145,7 @@ To query a single WMI class, use <a href="..\wdm\nf-wdm-iowmiqueryalldata.md">Io
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
+<a href="..\wdm\nf-wdm-iowmiqueryalldata.md">IoWMIQueryAllData</a>
 
 
 
@@ -153,7 +153,7 @@ To query a single WMI class, use <a href="..\wdm\nf-wdm-iowmiqueryalldata.md">Io
 
 
 
-<a href="..\wdm\nf-wdm-iowmiqueryalldata.md">IoWMIQueryAllData</a>
+<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
 
 
 

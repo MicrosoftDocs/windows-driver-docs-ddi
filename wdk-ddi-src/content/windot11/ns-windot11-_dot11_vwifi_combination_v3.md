@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Windot11.h
-apiname:
+api_name:
 -	DOT11_VWIFI_COMBINATION_V3
 product: Windows
 targetos: Windows

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugDataSpaces4.SearchVirtual2
 product: Windows
 targetos: Windows
@@ -160,11 +160,11 @@ This method searches the target's virtual memory for the first occurrence, subje
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554747">SearchVirtual</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554747">SearchVirtual</a>
 
 
 

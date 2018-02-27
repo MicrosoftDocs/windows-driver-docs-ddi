@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname:
+api_name:
 -	FwpsNetBufferListRetrieveContext0
 product: Windows
 targetos: Windows
@@ -162,6 +162,15 @@ You can also use this function to remove the context association by setting the
 
 ## -see-also
 
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistgettagforcontext0.md">
+   FwpsNetBufferListGetTagForContext0</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
    FwpsNetBufferListRemoveContext0</a>
 
@@ -169,15 +178,6 @@ You can also use this function to remove the context association by setting the
 
 <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext0.md">
    FwpsNetBufferListAssociateContext0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistgettagforcontext0.md">
-   FwpsNetBufferListGetTagForContext0</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

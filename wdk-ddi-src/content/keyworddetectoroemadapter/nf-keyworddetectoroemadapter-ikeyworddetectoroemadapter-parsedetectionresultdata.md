@@ -29,14 +29,14 @@ req.type-library:
 req.lib: keyworddetectoroemadapter.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	KeywordDetectorOemAdapter.h
-apiname:
+api_name:
 -	IKeywordDetectorOemAdapter.ParseDetectionResultData
 product: Windows
 targetos: Windows
@@ -224,7 +224,11 @@ If the caller receives <b>E_HW_RESET</b>, no keyword was detected by the hardwar
 
 
 
-<a href="..\ksmedia\ns-ksmedia-sounddetector_patternheader.md">SOUNDDETECTOR_PATTERNHEADER</a>
+<a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn946533">IMiniportWaveRTInputStream::GetReadPacket</a>
 
 
 
@@ -236,11 +240,7 @@ If the caller receives <b>E_HW_RESET</b>, no keyword was detected by the hardwar
 
 
 
-<a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946533">IMiniportWaveRTInputStream::GetReadPacket</a>
+<a href="..\ksmedia\ns-ksmedia-sounddetector_patternheader.md">SOUNDDETECTOR_PATTERNHEADER</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wiamdef.h
-apiname:
+api_name:
 -	WIAS_HRESULT
 product: Windows
 targetos: Windows
@@ -103,11 +103,11 @@ This macro is the recommended way to output HRESULTS on Windows Vista.
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a>
-
-
-
 <a href="..\wiautil\nf-wiautil-wias_assert.md">WIAS_ASSERT</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a>
 
 
 

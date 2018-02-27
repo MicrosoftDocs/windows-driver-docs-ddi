@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	CcCopyWriteWontFlush
 product: Windows
 targetos: Windows
@@ -95,11 +95,11 @@ Length in bytes of the data to be copied.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a>
 
 
 

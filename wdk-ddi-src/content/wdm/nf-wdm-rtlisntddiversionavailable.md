@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Rtlver.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Rtlver.lib
 -	Rtlver.dll
-apiname:
+api_name:
 -	RtlIsNtDdiVersionAvailable
 product: Windows
 targetos: Windows

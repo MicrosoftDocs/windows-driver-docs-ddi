@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	mcd.h
-apiname:
+api_name:
 -	ChangerExchangeMedium
 product: Windows
 targetos: Windows
@@ -117,15 +117,15 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 ## -see-also
 
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+
+
+
 <a href="..\mcd\nf-mcd-changermovemedium.md">ChangerMoveMedium</a>
 
 
 
 <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
-
-
-
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 
 
 

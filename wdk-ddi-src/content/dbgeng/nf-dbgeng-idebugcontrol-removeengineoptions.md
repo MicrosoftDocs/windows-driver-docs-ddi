@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugControl.RemoveEngineOptions
 -	IDebugControl2.RemoveEngineOptions
 -	IDebugControl3.RemoveEngineOptions
@@ -117,11 +117,11 @@ After the engine options have been changed, the engine sends out notification to
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
 
 
 
@@ -129,11 +129,11 @@ After the engine options have been changed, the engine sends out notification to
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
 
 
 

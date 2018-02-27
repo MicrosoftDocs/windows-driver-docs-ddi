@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	D3d12umddi.h
-apiname:
+api_name:
 -	pfnGetDecodeProfileCount
 product: Windows
 targetos: Windows
@@ -104,11 +104,11 @@ This function is called to retrieve the number of supported profiles.  The calle
 
 ## -see-also
 
-<a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md">pfnGetCaps</a>
-
-
-
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddicaps_type.md">D3D12DDICAPS_TYPE</a>
+
+
+
+<a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md">pfnGetCaps</a>
 
 
 

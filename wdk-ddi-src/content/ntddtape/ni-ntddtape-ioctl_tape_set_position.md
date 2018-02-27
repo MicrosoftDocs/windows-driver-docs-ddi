@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddtape.h
-apiname:
+api_name:
 -	IOCTL_TAPE_SET_POSITION
 product: Windows
 targetos: Windows
@@ -118,11 +118,11 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567954">TapeMiniSetPosition</a>
-
-
-
 <a href="..\ntddtape\ns-ntddtape-_tape_set_position.md">TAPE_SET_POSITION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567954">TapeMiniSetPosition</a>
 
 
 

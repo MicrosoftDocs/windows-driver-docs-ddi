@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Ufxclient.h
-apiname:
+api_name:
 -	PFN_UFX_DEVICE_PORT_CHANGE
 product: Windows
 targetos: Windows

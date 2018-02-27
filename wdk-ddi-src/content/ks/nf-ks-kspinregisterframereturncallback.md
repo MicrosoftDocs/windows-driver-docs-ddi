@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsPinRegisterFrameReturnCallback
 product: Windows
 targetos: Windows
@@ -105,11 +105,11 @@ Minidrivers that call this function are directly responsible for injecting frame
 
 
 
-<a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a>
-
-
-
 <a href="..\ks\nc-ks-pfnkspinframereturn.md">AVStrMiniFrameReturn</a>
+
+
+
+<a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntifs.h
-apiname:
+api_name:
 -	TOKEN_PRIMARY_GROUP
 product: Windows
 targetos: Windows
@@ -78,7 +78,11 @@ Pointer to a SID structure representing a group that will become the primary gro
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
 
 
 
@@ -86,11 +90,7 @@ Pointer to a SID structure representing a group that will become the primary gro
 
 
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 

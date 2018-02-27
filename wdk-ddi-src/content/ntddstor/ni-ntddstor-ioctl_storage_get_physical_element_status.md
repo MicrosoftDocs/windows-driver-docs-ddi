@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddstor.h
-apiname:
+api_name:
 -	IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS
 product: Windows
 targetos: Windows
@@ -159,15 +159,15 @@ To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/A0876712-4D9B-4A97-8E94-AA570A71C53D">PHYSICAL_ELEMENT_STATUS_REQUEST</a>
+
+
+
 <a href="https://msdn.microsoft.com/5E2AB36E-5A5C-4253-9791-A5CC157F15E3">PHYSICAL_ELEMENT_STATUS</a>
 
 
 
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
-
-
-
-<a href="https://msdn.microsoft.com/A0876712-4D9B-4A97-8E94-AA570A71C53D">PHYSICAL_ELEMENT_STATUS_REQUEST</a>
 
 
 

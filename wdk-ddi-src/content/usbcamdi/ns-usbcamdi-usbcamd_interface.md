@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	usbcamdi.h
-apiname:
+api_name:
 -	USBCAMD_INTERFACE
 product: Windows
 targetos: Windows
@@ -117,6 +117,26 @@ The camera minidriver may obtain the USBCAMD_INTERFACE entry points at any point
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568634">USBCAMD_SetVideoFormat</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568629">USBCAMD_SetIsoPipeState</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568577">USBCAMD_BulkReadWrite</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568580">USBCAMD_CancelBulkReadWrite</a>
 
 
@@ -125,27 +145,7 @@ The camera minidriver may obtain the USBCAMD_INTERFACE entry points at any point
 
 
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568629">USBCAMD_SetIsoPipeState</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568638">USBCAMD_WaitOnDeviceEvent</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568577">USBCAMD_BulkReadWrite</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568634">USBCAMD_SetVideoFormat</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
 
 

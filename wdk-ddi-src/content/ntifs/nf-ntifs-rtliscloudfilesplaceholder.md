@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: Ntdll.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Ntdll.dll
-apiname:
+api_name:
 -	RtlIsCloudFilesPlaceholder
 product: Windows
 targetos: Windows

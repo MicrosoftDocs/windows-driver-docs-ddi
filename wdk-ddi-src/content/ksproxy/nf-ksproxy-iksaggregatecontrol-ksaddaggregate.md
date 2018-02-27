@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	ksproxy.h
-apiname:
+api_name:
 -	IKsAggregateControl.KsAddAggregate
 product: Windows
 targetos: Windows
@@ -83,11 +83,11 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559717">IKsAggregateControl::KsRemoveAggregate</a>
-
-
-
 <a href="..\ksproxy\nn-ksproxy-iksaggregatecontrol.md">IKsAggregateControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559717">IKsAggregateControl::KsRemoveAggregate</a>
 
 
 

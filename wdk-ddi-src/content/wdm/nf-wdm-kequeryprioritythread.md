@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	KeQueryPriorityThread
 product: Windows
 targetos: Windows
@@ -93,11 +93,7 @@ Thread priorities range from 0 to 31, where 0 is the lowest priority and 31 is t
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 
 
@@ -105,7 +101,11 @@ Thread priorities range from 0 to 31, where 0 is the lowest priority and 31 is t
 
 
 
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
 
 
 

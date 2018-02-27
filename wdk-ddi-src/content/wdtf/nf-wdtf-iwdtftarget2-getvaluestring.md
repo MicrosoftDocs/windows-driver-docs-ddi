@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtf.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WDTF.Interop.metadata_dll.dll
-apiname:
+api_name:
 -	IWDTFTarget2.GetValueString
 product: Windows
 targetos: Windows

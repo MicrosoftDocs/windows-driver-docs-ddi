@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: Any level (See Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname:
+api_name:
 -	RtlTimeToTimeFields
 product: Windows
 targetos: Windows
@@ -100,11 +100,11 @@ Callers of <b>RtlTimeToTimeFields</b> can be running at any IRQL if both input b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exlocaltimetosystemtime.md">ExLocalTimeToSystemTime</a>
-
-
-
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
+
+
+
+<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
 
 
 
@@ -112,7 +112,7 @@ Callers of <b>RtlTimeToTimeFields</b> can be running at any IRQL if both input b
 
 
 
-<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
+<a href="..\wdm\nf-wdm-exlocaltimetosystemtime.md">ExLocalTimeToSystemTime</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	UcmTcpciPortControllerRequests.h
-apiname:
+api_name:
 -	UCMTCPCI_PORT_CONTROLLER_IOCTL
 product: Windows
 targetos: Windows

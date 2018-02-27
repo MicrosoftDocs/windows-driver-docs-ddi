@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_IP_ADDRESS_STATE
 product: Windows
 targetos: Windows
@@ -129,11 +129,11 @@ The number of entries in the <b>DnsTable</b> array.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-wwan_ip_configuration_flags.md">WWAN_IP_CONFIGURATION_FLAGS</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_ipaddress_entry.md">WWAN_IPADDRESS_ENTRY</a>
+
+
+
+<a href="..\wwan\ns-wwan-wwan_ip_configuration_flags.md">WWAN_IP_CONFIGURATION_FLAGS</a>
 
 
 

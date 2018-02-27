@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	D3d12umddi.h
-apiname:
+api_name:
 -	pfnAllocateCb
 product: Windows
 targetos: Windows
@@ -115,15 +115,15 @@ The driver must check the return value of the function.
 
 ## -see-also
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_corelayer_devicecallbacks_0022.md">D3D12DDI_CORELAYER_DEVICECALLBACKS_0022</a>
-
-
-
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddicb_allocate_0022.md">D3D12DDICB_ALLOCATE_0022</a>
 
 
 
 <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_deallocate_cb_0022.md">pfnDeallocateCb</a>
+
+
+
+<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_corelayer_devicecallbacks_0022.md">D3D12DDI_CORELAYER_DEVICECALLBACKS_0022</a>
 
 
 

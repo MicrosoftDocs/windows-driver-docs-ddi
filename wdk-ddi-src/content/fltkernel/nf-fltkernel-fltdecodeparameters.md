@@ -29,15 +29,15 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	FltMgr.lib
 -	FltMgr.dll
-apiname:
+api_name:
 -	FltDecodeParameters
 product: Windows
 targetos: Windows
@@ -190,14 +190,6 @@ IoWriteAccess
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltlockuserbuffer.md">FltLockUserBuffer</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
 
 
@@ -207,6 +199,14 @@ IoWriteAccess
 
 
 <a href="..\fltkernel\ns-fltkernel-_flt_parameters.md">FLT_PARAMETERS</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltlockuserbuffer.md">FltLockUserBuffer</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 

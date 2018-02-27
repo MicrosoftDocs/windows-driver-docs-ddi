@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS
 product: Windows
 targetos: Windows
@@ -102,15 +102,15 @@ Points to a caller-supplied context structure to be passed to the <i>DeviceReset
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn928420">GUID_DEVICE_RESET_INTERFACE_STANDARD</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn939354">DeviceReset</a>
 
 
 
 <a href="..\wdm\ns-wdm-_device_reset_interface_standard.md">DEVICE_RESET_INTERFACE_STANDARD</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn928420">GUID_DEVICE_RESET_INTERFACE_STANDARD</a>
 
 
 

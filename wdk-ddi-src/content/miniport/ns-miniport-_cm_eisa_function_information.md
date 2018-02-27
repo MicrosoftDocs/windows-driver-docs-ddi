@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdm.h
-apiname:
+api_name:
 -	CM_EISA_FUNCTION_INFORMATION
 product: Windows
 targetos: Windows
@@ -244,11 +244,11 @@ The information returned by <b>HalGetBusData</b> or <b>HalGetBusDataByOffset</b>
 
 
 
-<a href="..\wdm\ns-wdm-_cm_eisa_slot_information.md">CM_EISA_SLOT_INFORMATION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_eisa_slot_information.md">CM_EISA_SLOT_INFORMATION</a>
 
 
 

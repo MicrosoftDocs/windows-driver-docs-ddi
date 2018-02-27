@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3dumddi.h
-apiname:
+api_name:
 -	D3DDDIARG_TEXBLT1
 product: Windows
 targetos: Windows
@@ -104,15 +104,15 @@ A value that specifies characteristics of a copy operation as a bitwise OR of th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
 <a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 
 

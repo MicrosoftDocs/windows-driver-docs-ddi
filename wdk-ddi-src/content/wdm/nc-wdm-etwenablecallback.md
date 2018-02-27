@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wdm.h
-apiname:
+api_name:
 -	EtwEnableCallback
 product: Windows
 targetos: Windows
@@ -145,10 +145,6 @@ Callers of <b>EtwEnableCallback</b> must be running at IRQL = PASSIVE_LEVEL in t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545684">Event Filter Descriptor</a>
-
-
-
 <a href="..\wdm\nf-wdm-etwregister.md">EtwRegister</a>
 
 
@@ -157,11 +153,15 @@ Callers of <b>EtwEnableCallback</b> must be running at IRQL = PASSIVE_LEVEL in t
 
 
 
+<a href="..\wdm\nf-wdm-etwproviderenabled.md">EtwProviderEnabled</a>
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=103399">EnableTrace</a>
 
 
 
-<a href="..\wdm\nf-wdm-etwproviderenabled.md">EtwProviderEnabled</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545684">Event Filter Descriptor</a>
 
 
 

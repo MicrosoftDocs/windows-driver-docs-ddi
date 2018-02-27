@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddndis.h
-apiname:
+api_name:
 -	NDIS_PCI_DEVICE_CUSTOM_PROPERTIES
 product: Windows
 targetos: Windows
@@ -197,7 +197,12 @@ Some high performance miniport adapters can adjust the hardware configuration an
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-pci-device-custom-properties">
+   OID_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
 
 
 
@@ -206,12 +211,7 @@ Some high performance miniport adapters can adjust the hardware configuration an
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-pci-device-custom-properties">
-   OID_GEN_PCI_DEVICE_CUSTOM_PROPERTIES</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

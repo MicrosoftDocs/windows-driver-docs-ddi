@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname:
+api_name:
 -	NdisOffloadTcpReceiveReturn
 product: Windows
 targetos: Windows
@@ -137,11 +137,8 @@ The same PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_return_handler.md">
+   MiniportTcpOffloadReceiveReturn</a>
 
 
 
@@ -149,8 +146,11 @@ The same PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_return_handler.md">
-   MiniportTcpOffloadReceiveReturn</a>
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Wiautil.h
-apiname:
+api_name:
 -	CWiauPropertyList.GetPropId
 product: Windows
 targetos: Windows
@@ -84,11 +84,11 @@ The <b>CWiauPropertyList::GetPropId</b> method returns the property ID for the p
 
 ## -see-also
 
-<a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540400">CWiauPropertyList::LookupPropId</a>
+
+
+
+<a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
 
 
 

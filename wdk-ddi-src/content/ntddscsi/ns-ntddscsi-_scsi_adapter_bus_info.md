@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddscsi.h
-apiname:
+api_name:
 -	SCSI_ADAPTER_BUS_INFO
 product: Windows
 targetos: Windows
@@ -143,11 +143,11 @@ You must use <b>NextInquiryDataOffset</b> member to locate the inquiry data for 
 
 
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_inquiry_data.md">SCSI_INQUIRY_DATA</a>
-
-
-
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_bus_data.md">SCSI_BUS_DATA</a>
+
+
+
+<a href="..\ntddscsi\ns-ntddscsi-_scsi_inquiry_data.md">SCSI_INQUIRY_DATA</a>
 
 
 

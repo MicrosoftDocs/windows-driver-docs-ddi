@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	storport.h
-apiname:
+api_name:
 -	SCSI_POWER_REQUEST_BLOCK
 product: Windows
 targetos: Windows
@@ -225,7 +225,7 @@ The miniport can access the adapter's hardware resources.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
 
 
 
@@ -233,7 +233,7 @@ The miniport can access the adapter's hardware resources.
 
 
 
-<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 

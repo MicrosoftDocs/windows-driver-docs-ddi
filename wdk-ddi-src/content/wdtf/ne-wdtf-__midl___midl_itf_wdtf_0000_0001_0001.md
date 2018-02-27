@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdtf.h
-apiname:
+api_name:
 -	TTraceLevel
 product: Windows
 targetos: Windows
@@ -138,7 +138,7 @@ Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539522">I
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539522">ITracing::SetTraceLevel</a>
+<a href="..\wdtf\nn-wdtf-itracer.md">ITracer</a>
 
 
 
@@ -146,7 +146,7 @@ Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539522">I
 
 
 
-<a href="..\wdtf\nn-wdtf-itracer.md">ITracer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539522">ITracing::SetTraceLevel</a>
 
 
 

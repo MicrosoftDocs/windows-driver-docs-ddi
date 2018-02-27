@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Ntddk.h
-apiname:
+api_name:
 -	HalExamineMBR
 product: Windows
 targetos: Windows
@@ -115,11 +115,11 @@ For a list of system-defined MBR partition type identifiers, see the table in <a
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
-
-
-
 <a href="..\ntdddisk\ns-ntdddisk-_partition_information.md">PARTITION_INFORMATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 

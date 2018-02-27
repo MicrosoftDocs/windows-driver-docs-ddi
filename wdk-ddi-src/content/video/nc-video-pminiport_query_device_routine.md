@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	video.h
-apiname:
+api_name:
 -	HwVidQueryDeviceCallback
 product: Windows
 targetos: Windows
@@ -175,15 +175,15 @@ If it cannot get bus-relative access ranges values by calling <b>VideoPortGetDev
 
 
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-
-
-
 <a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
 
 
 
 <a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
+
+
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
 
 

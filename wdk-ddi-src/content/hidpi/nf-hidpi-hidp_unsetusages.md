@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Hidparse.lib
 -	Hidparse.dll
-apiname:
+api_name:
 -	HidP_UnsetUsages
 product: Windows
 targetos: Windows
@@ -241,14 +241,6 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539812">HidP_UnsetButtons</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539779">HidP_SetButtons</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
 
@@ -257,7 +249,15 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539779">HidP_SetButtons</a>
+
+
+
 <a href="..\hidpi\nf-hidpi-hidp_setusages.md">HidP_SetUsages</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539812">HidP_UnsetButtons</a>
 
 
 

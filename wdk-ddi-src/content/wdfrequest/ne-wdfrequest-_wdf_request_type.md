@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfrequest.h
-apiname:
+api_name:
 -	WDF_REQUEST_TYPE
 product: Windows
 targetos: Windows
@@ -276,10 +276,6 @@ For the UMDF version of this enumeration, see <a href="..\wdfrequest\ne-wdfreque
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_file_create.md">EvtDeviceFileCreate</a>
-
-
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_close.md">EvtFileClose</a>
 
 
@@ -289,6 +285,10 @@ For the UMDF version of this enumeration, see <a href="..\wdfrequest\ne-wdfreque
 
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_cleanup.md">EvtFileCleanup</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_file_create.md">EvtDeviceFileCreate</a>
 
 
 

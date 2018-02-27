@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KStrSetTimer
 product: Windows
 targetos: Windows
@@ -125,7 +125,7 @@ The minidriver supplied <i>KStrSetTimer</i> must have the same characteristics a
 
 
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 
 
@@ -133,7 +133,7 @@ The minidriver supplied <i>KStrSetTimer</i> must have the same characteristics a
 
 
 
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
 
 

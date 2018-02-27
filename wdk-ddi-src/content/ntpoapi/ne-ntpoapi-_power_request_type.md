@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	POWER_REQUEST_TYPE
 product: Windows
 targetos: Windows
@@ -127,7 +127,7 @@ While a <b>PowerRequestExecutionRequired</b> power request is in effect, the cal
 
 
 
-<a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
+<a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a>
 
 
 
@@ -135,7 +135,7 @@ While a <b>PowerRequestExecutionRequired</b> power request is in effect, the cal
 
 
 
-<a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a>
+<a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
 
 
 

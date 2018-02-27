@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Storport.lib
 -	Storport.dll
-apiname:
+api_name:
 -	StorPortWritePortUshort
 product: Windows
 targetos: Windows

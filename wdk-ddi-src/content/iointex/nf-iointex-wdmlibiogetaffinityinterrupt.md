@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	WdmlibIoGetAffinityInterrupt
 -	IoGetAffinityInterrupt
 product: Windows
@@ -122,7 +122,7 @@ In Windows 7, <a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">Wdml
 
 ## -see-also
 
-<a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a>
+<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
 
 
 
@@ -130,15 +130,15 @@ In Windows 7, <a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">Wdml
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a>
-
-
-
 <a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a>
+
+
+
+<a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a>
 
 
 

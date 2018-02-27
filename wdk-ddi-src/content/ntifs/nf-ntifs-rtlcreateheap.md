@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: "< DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname:
+api_name:
 -	RtlCreateHeap
 product: Windows
 targetos: Windows
@@ -439,15 +439,15 @@ The process has multiple threads, and the application provides its own mechanism
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlfreeheap.md">RtlFreeHeap</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-rtldestroyheap.md">RtlDestroyHeap</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
 
 
 

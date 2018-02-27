@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname:
+api_name:
 -	ScsiPortStallExecution
 product: Windows
 targetos: Windows
@@ -100,11 +100,7 @@ A miniport driver-supplied <a href="..\srb\nc-srb-phw_timer.md">HwScsiTimer</a> 
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
-
-
-
-<a href="..\srb\nc-srb-phw_timer.md">HwScsiTimer</a>
+<a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiInterrupt</a>
 
 
 
@@ -116,7 +112,11 @@ A miniport driver-supplied <a href="..\srb\nc-srb-phw_timer.md">HwScsiTimer</a> 
 
 
 
-<a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiInterrupt</a>
+<a href="..\srb\nc-srb-phw_timer.md">HwScsiTimer</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
 
 
 

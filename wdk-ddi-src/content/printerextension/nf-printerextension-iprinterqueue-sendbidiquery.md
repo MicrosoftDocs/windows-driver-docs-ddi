@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Printerextension.h
-apiname:
+api_name:
 -	IPrinterQueue.SendBidiQuery
 product: Windows
 targetos: Windows
@@ -115,15 +115,15 @@ All standard Bidi values (as defined by the port monitor’s embedded Bidi files
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/D0CD9950-DF73-4D46-B901-FA45BA88D3CF">IPrinterQueueEvent::OnBidiResponseReceived</a>
+
+
+
 <a href="http://msdn.microsoft.com/en-us/library/dd183365(v=vs.85)">Bidi Communication Interfaces</a>
 
 
 
 <a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
-
-
-
-<a href="https://msdn.microsoft.com/D0CD9950-DF73-4D46-B901-FA45BA88D3CF">IPrinterQueueEvent::OnBidiResponseReceived</a>
 
 
 

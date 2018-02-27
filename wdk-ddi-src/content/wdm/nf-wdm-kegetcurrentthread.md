@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	KeGetCurrentThread
 product: Windows
 targetos: Windows
@@ -90,10 +90,6 @@ A caller of <b>KeGetCurrentThread</b> can use the returned pointer as an input p
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
-
-
-
 <a href="..\wdm\nf-wdm-kequeryprioritythread.md">KeQueryPriorityThread</a>
 
 
@@ -103,6 +99,10 @@ A caller of <b>KeGetCurrentThread</b> can use the returned pointer as an input p
 
 
 <a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
 
 
 

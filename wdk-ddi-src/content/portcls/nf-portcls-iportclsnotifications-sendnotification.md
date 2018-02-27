@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Portcls.lib
 -	Portcls.dll
-apiname:
+api_name:
 -	IPortClsNotifications.SendNotification
 product: Windows
 targetos: Windows

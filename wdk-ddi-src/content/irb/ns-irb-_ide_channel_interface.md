@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	irb.h
-apiname:
+api_name:
 -	IDE_CHANNEL_INTERFACE
 product: Windows
 targetos: Windows
@@ -118,7 +118,11 @@ Reserved for future use. The miniport driver must not use this field.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558998">IdeHwReset</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557467">IdeHwInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559003">IdeHwStartIo</a>
 
 
 
@@ -130,15 +134,11 @@ Reserved for future use. The miniport driver must not use this field.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557467">IdeHwInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558998">IdeHwReset</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557462">IdeHwBuildIo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559003">IdeHwStartIo</a>
 
 
 

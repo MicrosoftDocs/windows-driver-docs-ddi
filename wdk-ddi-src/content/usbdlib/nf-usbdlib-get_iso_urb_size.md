@@ -29,14 +29,14 @@ req.type-library:
 req.lib: usbdlib.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	usbdlib.h
-apiname:
+api_name:
 -	GET_ISO_URB_SIZE
 product: Windows
 targetos: Windows
@@ -84,19 +84,19 @@ Specifies the number of isochronous transfer packets that will be part of the tr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">Routines for USB Client Drivers</a>
-
-
-
-<a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
-
-
-
 <a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
 
 
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">Routines for USB Client Drivers</a>
+
+
+
+<a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
 
 
 

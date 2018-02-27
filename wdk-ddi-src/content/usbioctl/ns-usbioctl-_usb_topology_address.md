@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	usbioctl.h
-apiname:
+api_name:
 -	USB_TOPOLOGY_ADDRESS
 product: Windows
 targetos: Windows
@@ -120,11 +120,11 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_get_topology_address.md">IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_get_topology_address.md">IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS</a>
 
 
 

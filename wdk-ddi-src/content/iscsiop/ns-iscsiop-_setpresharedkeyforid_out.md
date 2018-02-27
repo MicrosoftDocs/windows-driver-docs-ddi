@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	iscsiop.h
-apiname:
+api_name:
 -	SetPresharedKeyForId_OUT
 product: Windows
 targetos: Windows
@@ -83,7 +83,7 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
+<a href="..\iscsiop\ns-iscsiop-_setpresharedkeyforid_in.md">SetPresharedKeyForId_IN</a>
 
 
 
@@ -91,7 +91,7 @@ You must implement this method.
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_setpresharedkeyforid_in.md">SetPresharedKeyForId_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
 
 
 

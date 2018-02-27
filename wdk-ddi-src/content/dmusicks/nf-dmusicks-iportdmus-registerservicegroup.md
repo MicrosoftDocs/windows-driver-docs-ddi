@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dmusicks.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dmusicks.h
-apiname:
+api_name:
 -	IPortDMus.RegisterServiceGroup
 product: Windows
 targetos: Windows
@@ -113,19 +113,19 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 
 
-<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536700">IMiniportDMus::Init</a>
 
 
 
+<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
+
+
+
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
 
 
 

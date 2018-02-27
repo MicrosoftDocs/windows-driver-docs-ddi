@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	ksproxy.h
-apiname:
+api_name:
 -	IKsInterfaceHandler
 product: Windows
 targetos: Windows
@@ -116,11 +116,11 @@ For more information about <b>CoCreateInstance</b>, see the Microsoft Windows SD
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a>
+
+
+
+<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
 
 
 

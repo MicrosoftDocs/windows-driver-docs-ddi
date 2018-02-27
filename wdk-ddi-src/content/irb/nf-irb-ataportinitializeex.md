@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Pciidex.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Pciidex.lib
 -	Pciidex.dll
-apiname:
+api_name:
 -	AtaPortInitializeEx
 product: Windows
 targetos: Windows
@@ -130,11 +130,11 @@ After the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550142"
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-driverentry.md">DriverEntry</a>
-
-
-
 <a href="..\irb\ns-irb-_ide_controller_configuration.md">IDE_CONTROLLER_CONFIGURATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
 
 
 
@@ -142,7 +142,7 @@ After the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550142"
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
+<a href="..\mcd\nf-mcd-driverentry.md">DriverEntry</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Videoprt.sys
-apiname:
+api_name:
 -	VideoPortDeleteEvent
 product: Windows
 targetos: Windows
@@ -99,11 +99,11 @@ This function should not be used to delete a mapped user event. To delete a mapp
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565434">EngUnmapEvent</a>
-
-
-
 <a href="..\video\nf-video-videoportcreateevent.md">VideoPortCreateEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565434">EngUnmapEvent</a>
 
 
 

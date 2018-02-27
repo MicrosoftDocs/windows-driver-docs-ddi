@@ -29,14 +29,14 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	sti.h
-apiname:
+api_name:
 -	IStillImageW.GetHwNotificationState
 product: Windows
 targetos: Windows
@@ -99,11 +99,11 @@ Before calling <b>IStillImage::GetHwNotificationState</b>, clients of the <b>ISt
 
 ## -see-also
 
-<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543780">IStillImage::EnableHwNotifications</a>
+
+
+
+<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
 
 
 

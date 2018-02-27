@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	bthddi.h
-apiname:
+api_name:
 -	_BRB_SCO_GET_CHANNEL_INFO
 product: Windows
 targetos: Windows
@@ -345,7 +345,11 @@ To get the settings and statistics of a SCO channel, profile drivers should
 
 ## -see-also
 
-<a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a>
+<a href="..\bthddi\ne-bthddi-_sco_link_type.md">SCO_LINK_TYPE</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_baseband_channel_info.md">BASEBAND_CHANNEL_INFO</a>
 
 
 
@@ -353,15 +357,11 @@ To get the settings and statistics of a SCO channel, profile drivers should
 
 
 
+<a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536868">BRB_SCO_GET_CHANNEL_INFO</a>
-
-
-
-<a href="..\bthddi\ne-bthddi-_sco_link_type.md">SCO_LINK_TYPE</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_baseband_channel_info.md">BASEBAND_CHANNEL_INFO</a>
 
 
 

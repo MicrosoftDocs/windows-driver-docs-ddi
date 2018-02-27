@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdm.h
-apiname:
+api_name:
 -	PCW_CALLBACK_INFORMATION
 product: Windows
 targetos: Windows
@@ -93,11 +93,11 @@ The PCW_MASK_INFORMATION structure that identifies the instance of the counter s
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_pcw_counter_information.md">PCW_COUNTER_INFORMATION</a>
-
-
-
 <a href="..\wdm\ns-wdm-_pcw_mask_information.md">PCW_MASK_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_pcw_counter_information.md">PCW_COUNTER_INFORMATION</a>
 
 
 

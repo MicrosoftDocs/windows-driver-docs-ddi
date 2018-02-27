@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ksmedia.h
-apiname:
+api_name:
 -	KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S
 product: Windows
 targetos: Windows
@@ -92,15 +92,7 @@ A pointer to a buffer to hold the scanning capabilities of a broadcast network t
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tuner_analog_caps_s.md">TUNER_ANALOG_CAPS_S</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
@@ -108,7 +100,15 @@ A pointer to a buffer to hold the scanning capabilities of a broadcast network t
 
 
 
+<a href="..\ksmedia\ns-ksmedia-tuner_analog_caps_s.md">TUNER_ANALOG_CAPS_S</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565881">KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 

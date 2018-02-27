@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddcdrm.h
-apiname:
+api_name:
 -	CDROM_WRITE_SPEED_REQUEST
 product: Windows
 targetos: Windows
@@ -74,11 +74,11 @@ As defined in the <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_performance_request_ty
 
 ## -see-also
 
-<a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_performance_request_type.md">CDROM_PERFORMANCE_REQUEST_TYPE</a>
-
-
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
+
+
+
+<a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_performance_request_type.md">CDROM_PERFORMANCE_REQUEST_TYPE</a>
 
 
 

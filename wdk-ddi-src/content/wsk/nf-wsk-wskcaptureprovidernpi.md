@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Netio.lib
 -	Netio.dll
-apiname:
+api_name:
 -	WskCaptureProviderNPI
 product: Windows
 targetos: Windows
@@ -210,15 +210,15 @@ Callers of the
 
 ## -see-also
 
-<a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
-
-
-
 <a href="..\wsk\nf-wsk-wskreleaseprovidernpi.md">WskReleaseProviderNPI</a>
 
 
 
 <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
+
+
+
+<a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
 
 
 

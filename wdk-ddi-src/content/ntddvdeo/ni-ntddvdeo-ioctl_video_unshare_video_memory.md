@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddvdeo.h
-apiname:
+api_name:
 -	IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY
 product: Windows
 targetos: Windows
@@ -118,11 +118,11 @@ The miniport driver does not set the <b>Information</b> member of the <a href=".
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory.md">VIDEO_SHARE_MEMORY</a>
-
-
-
 <a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
+
+
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory.md">VIDEO_SHARE_MEMORY</a>
 
 
 

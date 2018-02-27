@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	extsfns.h
-apiname:
+api_name:
 -	FA_ENTRY_TYPE
 product: Windows
 targetos: Windows
@@ -133,7 +133,7 @@ A bitwise OR of this value and one of the basic types indicates an array. For ex
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTag</a>
 
 
 
@@ -141,15 +141,15 @@ A bitwise OR of this value and one of the basic types indicates an array. For ex
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991807">Failure Analysis Entries</a>
-
-
-
-<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTag</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 
 <a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj991807">Failure Analysis Entries</a>
 
 
 

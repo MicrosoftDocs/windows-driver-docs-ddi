@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Videoprt.sys
-apiname:
+api_name:
 -	VideoPortMapBankedMemory
 product: Windows
 targetos: Windows
@@ -203,23 +203,7 @@ Pointer to a miniport driver-supplied context that is passed back to the driver 
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unshare_video_memory.md">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567322">HwVidBankedMemoryCallback</a>
-
-
-
 <a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
-
-
-
-<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
-
-
-
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
 
 
 
@@ -228,6 +212,22 @@ Pointer to a miniport driver-supplied context that is passed back to the driver 
 
 
 <a href="..\video\nf-video-videoportmapmemory.md">VideoPortMapMemory</a>
+
+
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567322">HwVidBankedMemoryCallback</a>
+
+
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unshare_video_memory.md">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a>
+
+
+
+<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
 
 
 

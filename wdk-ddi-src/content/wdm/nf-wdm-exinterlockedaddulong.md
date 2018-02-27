@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	ExInterlockedAddUlong
 product: Windows
 targetos: Windows
@@ -115,15 +115,15 @@ Callers of <b>ExInterlockedAddUlong</b> run at any IRQL. The storage for the <i>
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
-
-
-
 <a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
 
 
 
 <a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
 
 
 

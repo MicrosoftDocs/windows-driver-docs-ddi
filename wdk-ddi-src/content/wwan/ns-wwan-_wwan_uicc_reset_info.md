@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_UICC_RESET_INFO
 product: Windows
 targetos: Windows
@@ -75,11 +75,11 @@ The passthrough status of the miniport adapter. For more info, see <a href="..\w
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_uicc_passthrough_status.md">WWAN_UICC_PASSTHROUGH_STATUS</a>
-
-
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_uicc_reset_info.md">NDIS_WWAN_UICC_RESET_INFO</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_uicc_passthrough_status.md">WWAN_UICC_PASSTHROUGH_STATUS</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	sti.h
-apiname:
+api_name:
 -	IStillImageW.GetDeviceInfo
 product: Windows
 targetos: Windows

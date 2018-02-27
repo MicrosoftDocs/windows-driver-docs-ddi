@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdffdo.h
-apiname:
+api_name:
 -	WDF_FDO_EVENT_CALLBACKS
 product: Windows
 targetos: Windows
@@ -108,11 +108,11 @@ A driver that specifies an <a href="https://msdn.microsoft.com/7d9b38b5-989d-45a
 
 ## -see-also
 
-<a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a>
-
-
-
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
+
+
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>
 
 
 
@@ -120,7 +120,7 @@ A driver that specifies an <a href="https://msdn.microsoft.com/7d9b38b5-989d-45a
 
 
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>
+<a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a>
 
 
 

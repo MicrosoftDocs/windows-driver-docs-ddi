@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Netio.lib
 -	Netio.dll
-apiname:
+api_name:
 -	NmrDeregisterClient
 product: Windows
 targetos: Windows
@@ -160,8 +160,7 @@ A client module typically calls the
 
 ## -see-also
 
-<a href="..\netioddk\nf-netioddk-nmrwaitforclientderegistercomplete.md">
-   NmrWaitForClientDeregisterComplete</a>
+<a href="..\netioddk\nf-netioddk-nmrregisterclient.md">NmrRegisterClient</a>
 
 
 
@@ -169,15 +168,16 @@ A client module typically calls the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
-
-
-
-<a href="..\netioddk\nf-netioddk-nmrregisterclient.md">NmrRegisterClient</a>
+<a href="..\netioddk\nf-netioddk-nmrwaitforclientderegistercomplete.md">
+   NmrWaitForClientDeregisterComplete</a>
 
 
 
 <a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
 
 
 

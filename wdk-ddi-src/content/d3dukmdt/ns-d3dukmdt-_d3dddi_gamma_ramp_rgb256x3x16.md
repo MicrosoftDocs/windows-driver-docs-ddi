@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dukmdt.h
-apiname:
+api_name:
 -	D3DDDI_GAMMA_RAMP_RGB256x3x16
 product: Windows
 targetos: Windows

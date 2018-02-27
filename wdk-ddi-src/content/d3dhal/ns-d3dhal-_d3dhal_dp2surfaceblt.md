@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dhal.h
-apiname:
+api_name:
 -	D3DHAL_DP2SURFACEBLT
 product: Windows
 targetos: Windows
@@ -125,10 +125,6 @@ The <b>dwSource</b> or <b>dwDest</b> member specifies the kernel handle to the t
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
 D3DDP2OP_BLT
 
 
@@ -138,6 +134,10 @@ D3DDP2OP_BLT
 
 
 D3DDP2OP_SURFACEBLT
+
+
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 

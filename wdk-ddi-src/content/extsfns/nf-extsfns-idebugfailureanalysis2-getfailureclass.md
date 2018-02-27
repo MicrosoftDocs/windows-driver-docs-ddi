@@ -29,14 +29,14 @@ req.type-library:
 req.lib: extsfns.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	extsfns.h
-apiname:
+api_name:
 -	IDebugFailureAnalysis2.GetFailureClass
 product: Windows
 targetos: Windows
@@ -122,15 +122,7 @@ These return values are defined in dbgeng.h.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983416">GetFailureCode</a>
-
-
-
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
-
-
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 
@@ -138,7 +130,15 @@ These return values are defined in dbgeng.h.
 
 
 
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983417">GetFailureType</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983416">GetFailureCode</a>
 
 
 

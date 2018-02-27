@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	prdrvcom.h
-apiname:
+api_name:
 -	IPrintTicketProvider.ConvertPrintTicketToDevMode
 product: Windows
 targetos: Windows
@@ -119,11 +119,11 @@ Before the system converts a print ticket back to a <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554360">IPrintTicketProvider::ConvertDevModeToPrintTicket</a>
-
-
-
 <a href="https://msdn.microsoft.com/4eb3c193-377b-4e51-a97b-50c6fdaa1b08">IPrintTicketProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554360">IPrintTicketProvider::ConvertDevModeToPrintTicket</a>
 
 
 

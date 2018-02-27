@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	windot11.h
-apiname:
+api_name:
 -	DOT11_MAC_ADDRESS
 product: Windows
 targetos: Windows
@@ -124,26 +124,7 @@ The PDOT11_MAC_ADDRESS type is defined as a pointer to the DOT11_MAC_ADDRESS typ
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
-   DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a>
-
-
-
-<a href="..\windot11\ns-windot11-dot11_bss_entry.md">DOT11_BSS_ENTRY</a>
-
-
-
-<a href="..\wlclient\ns-wlclient-_dot11_port_state.md">DOT11_PORT_STATE</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_stop_post_associate.md">
-   Dot11ExtIhvStopPostAssociate</a>
-
-
-
-<a href="..\windot11\ns-windot11-dot11_cipher_default_key_value.md">
-   DOT11_CIPHER_DEFAULT_KEY_VALUE</a>
+<a href="..\windot11\ns-windot11-_dot11_scan_request_v2.md">DOT11_SCAN_REQUEST_V2</a>
 
 
 
@@ -152,55 +133,11 @@ The PDOT11_MAC_ADDRESS type is defined as a pointer to the DOT11_MAC_ADDRESS typ
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569125">OID_DOT11_CURRENT_ADDRESS</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-start">
-   NDIS_STATUS_DOT11_ASSOCIATION_START</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569359">OID_DOT11_ENUM_ASSOCIATION_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
-   NDIS_STATUS_DOT11_DISASSOCIATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/gg157151.aspx">
-   NDIS_STATUS_DOT11_TKIPMIC_FAILURE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567344">NDIS_STATUS_DOT11_LINK_QUALITY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569400">OID_DOT11_PMKID_LIST</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">NDIS_STATUS_DOT11_ROAMING_START</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn305127">
-   NDIS_STATUS_DOT11_CONNECTION_START</a>
+<a href="..\windot11\ns-windot11-dot11_bss_entry.md">DOT11_BSS_ENTRY</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
-
-
-
-<a href="..\windot11\ns-windot11-_dot11_scan_request_v2.md">DOT11_SCAN_REQUEST_V2</a>
 
 
 
@@ -209,7 +146,51 @@ The PDOT11_MAC_ADDRESS type is defined as a pointer to the DOT11_MAC_ADDRESS typ
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569400">OID_DOT11_PMKID_LIST</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_stop_post_associate.md">
+   Dot11ExtIhvStopPostAssociate</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+   NDIS_STATUS_DOT11_DISASSOCIATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569419">OID_DOT11_STATION_ID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569125">OID_DOT11_CURRENT_ADDRESS</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_cipher_default_key_value.md">
+   DOT11_CIPHER_DEFAULT_KEY_VALUE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567344">NDIS_STATUS_DOT11_LINK_QUALITY</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-start">
+   NDIS_STATUS_DOT11_ASSOCIATION_START</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">NDIS_STATUS_DOT11_ROAMING_START</a>
 
 
 
@@ -218,21 +199,40 @@ The PDOT11_MAC_ADDRESS type is defined as a pointer to the DOT11_MAC_ADDRESS typ
 
 
 
-<a href="..\windot11\ns-windot11-dot11_roaming_completion_parameters.md">
-   DOT11_ROAMING_COMPLETION_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569359">OID_DOT11_ENUM_ASSOCIATION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
+<a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
+   DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a>
 
 
 
 <a href="..\windot11\ns-windot11-dot11_disassociation_parameters.md">
    DOT11_DISASSOCIATION_PARAMETERS</a>
+
+
+
+<a href="..\wlclient\ns-wlclient-_dot11_port_state.md">DOT11_PORT_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn305127">
+   NDIS_STATUS_DOT11_CONNECTION_START</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/gg157151.aspx">
+   NDIS_STATUS_DOT11_TKIPMIC_FAILURE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_roaming_completion_parameters.md">
+   DOT11_ROAMING_COMPLETION_PARAMETERS</a>
 
 
 

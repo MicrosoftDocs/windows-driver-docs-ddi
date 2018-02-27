@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Videoprt.sys
-apiname:
+api_name:
 -	VideoPortEnableInterrupt
 product: Windows
 targetos: Windows
@@ -113,11 +113,7 @@ If the video miniport driver has not registered an <a href="..\video\nc-video-pv
 
 ## -see-also
 
-<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
-
-
-
-<a href="..\video\nf-video-videoportdisableinterrupt.md">VideoPortDisableInterrupt</a>
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
 
 
@@ -125,7 +121,11 @@ If the video miniport driver has not registered an <a href="..\video\nc-video-pv
 
 
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
+
+<a href="..\video\nf-video-videoportdisableinterrupt.md">VideoPortDisableInterrupt</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: FltMgr.sys
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	FltMgr.sys
-apiname:
+api_name:
 -	FltIsVolumeSnapshot
 product: Windows
 targetos: Windows

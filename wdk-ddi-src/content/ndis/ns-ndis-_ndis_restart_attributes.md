@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndis.h
-apiname:
+api_name:
 -	NDIS_RESTART_ATTRIBUTES
 product: Windows
 targetos: Windows
@@ -155,16 +155,7 @@ If the restart attributes pointer is not <b>NULL</b>, the linked list of NDIS_RE
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_restart_general_attributes.md">
-   NDIS_RESTART_GENERAL_ATTRIBUTES</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
 
 
 
@@ -173,12 +164,13 @@ If the restart attributes pointer is not <b>NULL</b>, the linked list of NDIS_RE
 
 
 
+<a href="..\ndis\ns-ndis-_ndis_protocol_restart_parameters.md">
+   NDIS_PROTOCOL_RESTART_PARAMETERS</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">
    NDIS_MINIPORT_RESTART_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
 
 
 
@@ -191,8 +183,16 @@ If the restart attributes pointer is not <b>NULL</b>, the linked list of NDIS_RE
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_protocol_restart_parameters.md">
-   NDIS_PROTOCOL_RESTART_PARAMETERS</a>
+<a href="..\ndis\ns-ndis-_ndis_restart_general_attributes.md">
+   NDIS_RESTART_GENERAL_ATTRIBUTES</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
 
 
 

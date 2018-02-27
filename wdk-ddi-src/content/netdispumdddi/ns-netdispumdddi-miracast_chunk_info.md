@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Netdispumdddi.h
-apiname:
+api_name:
 -	MIRACAST_CHUNK_INFO
 product: Windows
 targetos: Windows
@@ -92,11 +92,11 @@ The encode bit rate, in kilobits per second, that the user-mode driver reported 
 
 ## -see-also
 
-<a href="..\netdispumdddi\ne-netdispumdddi-miracast_chunk_type.md">MIRACAST_CHUNK_TYPE</a>
-
-
-
 <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_id.md">MIRACAST_CHUNK_ID</a>
+
+
+
+<a href="..\netdispumdddi\ne-netdispumdddi-miracast_chunk_type.md">MIRACAST_CHUNK_TYPE</a>
 
 
 

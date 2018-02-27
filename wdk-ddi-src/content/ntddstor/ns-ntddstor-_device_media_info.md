@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddstor.h
-apiname:
+api_name:
 -	DEVICE_MEDIA_INFO
 product: Windows
 targetos: Windows
@@ -273,11 +273,11 @@ The driver fills in an array of <b>DEVICE_MEDIA_INFO</b> structures, one for eac
 
 ## -see-also
 
-<a href="..\ntddstor\ne-ntddstor-_storage_media_type.md">STORAGE_MEDIA_TYPE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567939">TapeMiniGetMediaTypes</a>
+
+
+
+<a href="..\ntddstor\ne-ntddstor-_storage_media_type.md">STORAGE_MEDIA_TYPE</a>
 
 
 

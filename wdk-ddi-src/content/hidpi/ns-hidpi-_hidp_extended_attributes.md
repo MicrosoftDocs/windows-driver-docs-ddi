@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hidpi.h
-apiname:
+api_name:
 -	HIDP_EXTENDED_ATTRIBUTES
 product: Windows
 targetos: Windows
@@ -101,11 +101,11 @@ The HIDP_EXTENDED_ATTRIBUTES structure is designed to be used with <b>HidP_GetEx
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getextendedattributes.md">HidP_GetExtendedAttributes</a>
-
-
-
 <a href="..\hidpi\ns-hidpi-_hidp_unknown_token.md">HIDP_UNKNOWN_TOKEN</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getextendedattributes.md">HidP_GetExtendedAttributes</a>
 
 
 

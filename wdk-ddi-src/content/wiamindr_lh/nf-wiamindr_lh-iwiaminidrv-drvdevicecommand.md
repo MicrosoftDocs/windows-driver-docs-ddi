@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	wiamindr_lh.h
-apiname:
+api_name:
 -	IWiaMiniDrv.drvDeviceCommand
 product: Windows
 targetos: Windows

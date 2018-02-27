@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Hbaapi.dll
-apiname:
+api_name:
 -	HBA_RegisterForAdapterEvents
 product: Windows
 targetos: Windows
@@ -159,6 +159,10 @@ If the configuration of the HBA referenced by <i>handle </i>is changed, the call
 
 ## -see-also
 
+<a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
+
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
 
@@ -168,10 +172,6 @@ If the configuration of the HBA referenced by <i>handle </i>is changed, the call
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
-<a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
 
 
 

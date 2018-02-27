@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugSymbols3.GetSourcePathWide
 product: Windows
 targetos: Windows
@@ -136,11 +136,11 @@ For more information about manipulating the source path, see <a href="https://ms
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538102">AppendSourcePath</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
 
 
 
@@ -148,7 +148,7 @@ For more information about manipulating the source path, see <a href="https://ms
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	storport.h
-apiname:
+api_name:
 -	StorPortFreeWorker
 product: Windows
 targetos: Windows
@@ -169,11 +169,11 @@ Miniports should call <b>StorPortFreeWorker</b> whenever a work item is no longe
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
-
-
-
 <a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
+
+
+
+<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
 
 
 

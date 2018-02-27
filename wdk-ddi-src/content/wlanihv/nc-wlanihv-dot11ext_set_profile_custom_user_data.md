@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	Dot11ExtSetProfileCustomUserData
 product: Windows
 targetos: Windows
@@ -147,12 +147,11 @@ After custom user data has been set, this data can be accessed using the
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_get_profile_custom_user_data.md">
-   Dot11ExtGetProfileCustomUserData</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_current_profile.md">Dot11ExtSetCurrentProfile</a>
 
 
 
@@ -161,7 +160,8 @@ After custom user data has been set, this data can be accessed using the
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_current_profile.md">Dot11ExtSetCurrentProfile</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_get_profile_custom_user_data.md">
+   Dot11ExtGetProfileCustomUserData</a>
 
 
 

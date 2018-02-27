@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	WmiQueryTraceInformation
 product: Windows
 targetos: Windows
@@ -370,6 +370,14 @@ If the caller supplies a non-<b>NULL</b> <i>RequiredLength</i> pointer, <b>WmiQu
 
 ## -see-also
 
+<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
+
+
+
+<a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
+
+
+
 <a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
 
 
@@ -378,15 +386,7 @@ If the caller supplies a non-<b>NULL</b> <i>RequiredLength</i> pointer, <b>WmiQu
 
 
 
-<a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
-
-
-
 <a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
-
-
-
-<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
 
 
 

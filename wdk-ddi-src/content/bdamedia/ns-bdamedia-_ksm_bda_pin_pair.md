@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	bdamedia.h
-apiname:
+api_name:
 -	KSM_BDA_PIN_PAIR
 product: Windows
 targetos: Windows
@@ -102,11 +102,11 @@ Member of the union in KSM_BDA_PIN_PAIR that contains the value that specifies t
 
 ## -see-also
 
-<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
+
+
+
+<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
 
 
 

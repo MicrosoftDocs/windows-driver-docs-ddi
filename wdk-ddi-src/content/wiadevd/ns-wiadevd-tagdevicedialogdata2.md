@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wiadevd.h
-apiname:
+api_name:
 -	DEVICEDIALOGDATA2
 product: Windows
 targetos: Windows
@@ -138,7 +138,7 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121995">PathMakeUniqueName</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
 
 
 
@@ -146,31 +146,7 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=122007">IWiaPropertyStorage</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=98432">IUnknown::AddRef</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121992">IWiaItem2</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121993">IWiaItem2::DeviceDlg</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?linkid=121997">CoTaskMemAlloc</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121994">IWiaDevMgr2::GetImageDlg</a>
 
 
 
@@ -178,7 +154,31 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 
 
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121995">PathMakeUniqueName</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121994">IWiaDevMgr2::GetImageDlg</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121992">IWiaItem2</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=98432">IUnknown::AddRef</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121993">IWiaItem2::DeviceDlg</a>
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=122008">IWiaTransfer</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=122007">IWiaPropertyStorage</a>
 
 
 

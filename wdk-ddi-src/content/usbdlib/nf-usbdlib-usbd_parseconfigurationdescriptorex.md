@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Usbd.lib
 req.dll: 
 req.irql: "< DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Usbd.lib
 -	Usbd.dll
-apiname:
+api_name:
 -	USBD_ParseConfigurationDescriptorEx
 product: Windows
 targetos: Windows
@@ -132,11 +132,11 @@ When this routine parses the configuration descriptor looking for the interface 
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
 
 
 

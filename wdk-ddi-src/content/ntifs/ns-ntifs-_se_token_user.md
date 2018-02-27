@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntifs.h
-apiname:
+api_name:
 -	SE_TOKEN_USER
 product: Windows
 targetos: Windows
@@ -112,11 +112,11 @@ Specifies an <b>SID_AND_ATTRIBUTES</b> structure representing the user associate
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556742">SID_AND_ATTRIBUTES</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556742">SID_AND_ATTRIBUTES</a>
 
 
 

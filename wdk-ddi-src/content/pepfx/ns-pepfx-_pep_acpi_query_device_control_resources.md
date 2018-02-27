@@ -29,13 +29,13 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	kbSyntax
-apitype:
+api_type:
 -	<TBD>
-apilocation:
+api_location:
 -
-apiname:
+api_name:
 -	PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES
 product: Windows
 targetos: Windows

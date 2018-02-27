@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	ExInterlockedInsertHeadList
 product: Windows
 targetos: Windows
@@ -109,11 +109,7 @@ The <b>ExInterlockedInsertHeadList</b> routine can be called at any IRQL. The st
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-insertheadlist.md">InsertHeadList</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 
 
@@ -121,11 +117,15 @@ The <b>ExInterlockedInsertHeadList</b> routine can be called at any IRQL. The st
 
 
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
-
-
-
 <a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-insertheadlist.md">InsertHeadList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	video.h
-apiname:
+api_name:
 -	HwVidInitialize
 product: Windows
 targetos: Windows
@@ -102,7 +102,7 @@ If at all possible, <i>HwVidInitialize</i> should avoid programming the device h
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_reset_hw.md">HwVidResetHw</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 
 
@@ -110,7 +110,7 @@ If at all possible, <i>HwVidInitialize</i> should avoid programming the device h
 
 
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="..\video\nc-video-pvideo_hw_reset_hw.md">HwVidResetHw</a>
 
 
 

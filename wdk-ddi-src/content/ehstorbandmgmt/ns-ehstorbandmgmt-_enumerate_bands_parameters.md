@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	EhStorBandMgmt.h
-apiname:
+api_name:
 -	ENUMERATE_BANDS_PARAMETERS
 product: Windows
 targetos: Windows
@@ -147,7 +147,7 @@ If <b>BandID</b> == 0 or no bands are configured and <b>Flags</b> is not set to 
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table.md">BAND_TABLE</a>
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table_entry.md">BAND_TABLE_ENTRY</a>
 
 
 
@@ -155,7 +155,7 @@ If <b>BandID</b> == 0 or no bands are configured and <b>Flags</b> is not set to 
 
 
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table_entry.md">BAND_TABLE_ENTRY</a>
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table.md">BAND_TABLE</a>
 
 
 

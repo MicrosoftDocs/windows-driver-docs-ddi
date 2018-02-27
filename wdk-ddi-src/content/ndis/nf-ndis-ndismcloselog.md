@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname:
+api_name:
 -	NdisMCloseLog
 product: Windows
 targetos: Windows
@@ -96,11 +96,11 @@ None
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
 
 
 
@@ -108,7 +108,7 @@ None
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
 
 
 

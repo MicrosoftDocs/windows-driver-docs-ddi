@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	KeBugCheck
 product: Windows
 targetos: Windows
@@ -102,7 +102,7 @@ When a bug check is unavoidable, most system components call <a href="..\wdm\nf-
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
+<a href="..\wdm\nf-wdm-keregisterbugcheckcallback.md">KeRegisterBugCheckCallback</a>
 
 
 
@@ -114,7 +114,7 @@ When a bug check is unavoidable, most system components call <a href="..\wdm\nf-
 
 
 
-<a href="..\wdm\nf-wdm-keregisterbugcheckcallback.md">KeRegisterBugCheckCallback</a>
+<a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
 
 
 

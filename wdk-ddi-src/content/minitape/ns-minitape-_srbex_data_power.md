@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Storport.h
-apiname:
+api_name:
 -	SRBEX_DATA_POWER
 product: Windows
 targetos: Windows
@@ -104,15 +104,15 @@ An enumerator value of type <a href="..\storport\ne-storport-pstor_power_action.
 
 ## -see-also
 
+<a href="..\storport\ne-storport-pstor_power_action.md">STOR_POWER_ACTION</a>
+
+
+
 <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 
 <a href="..\storport\ne-storport-_stor_device_power_state.md">STOR_DEVICE_POWER_STATE</a>
-
-
-
-<a href="..\storport\ne-storport-pstor_power_action.md">STOR_POWER_ACTION</a>
 
 
 

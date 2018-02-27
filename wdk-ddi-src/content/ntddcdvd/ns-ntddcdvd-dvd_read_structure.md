@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddcdvd.h
-apiname:
+api_name:
 -	DVD_READ_STRUCTURE
 product: Windows
 targetos: Windows
@@ -101,11 +101,11 @@ The DVD_READ_STRUCTURE structure contains data such as copyright information, or
 
 ## -see-also
 
-<a href="..\ntddcdvd\ne-ntddcdvd-dvd_structure_format.md">DVD_STRUCTURE_FORMAT</a>
-
-
-
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
+
+
+
+<a href="..\ntddcdvd\ne-ntddcdvd-dvd_structure_format.md">DVD_STRUCTURE_FORMAT</a>
 
 
 

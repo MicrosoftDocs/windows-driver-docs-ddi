@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hdaudio.h
-apiname:
+api_name:
 -	HDAUDIO_CODEC_TRANSFER
 product: Windows
 targetos: Windows
@@ -99,7 +99,7 @@ Upon return, the <b>Input</b> member contains the response to the codec command.
 
 ## -see-also
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_response.md">HDAUDIO_CODEC_RESPONSE</a>
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_command.md">HDAUDIO_CODEC_COMMAND</a>
 
 
 
@@ -107,7 +107,7 @@ Upon return, the <b>Input</b> member contains the response to the codec command.
 
 
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_command.md">HDAUDIO_CODEC_COMMAND</a>
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_response.md">HDAUDIO_CODEC_RESPONSE</a>
 
 
 

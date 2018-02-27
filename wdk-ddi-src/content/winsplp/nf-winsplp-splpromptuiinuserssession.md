@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Spoolss.dll
-apiname:
+api_name:
 -	SplPromptUIInUsersSession
 product: Windows
 targetos: Windows
@@ -113,11 +113,11 @@ If you plan to use this function in a driver intended to run under Windows 2000,
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-showuiparams.md">SHOWUIPARAMS</a>
-
-
-
 <a href="..\winsplp\nf-winsplp-splissessionzero.md">SplIsSessionZero</a>
+
+
+
+<a href="..\winsplp\ns-winsplp-showuiparams.md">SHOWUIPARAMS</a>
 
 
 

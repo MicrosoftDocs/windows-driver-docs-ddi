@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "_requires_same_"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	SensorsCx.h
-apiname:
+api_name:
 -	EvtSensorGetDataInterval
 product: Windows
 targetos: Windows

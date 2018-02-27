@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D4drvif.h
-apiname:
+api_name:
 -	IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST
 product: Windows
 targetos: Windows
@@ -99,10 +99,6 @@ This topic describes IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
@@ -112,6 +108,10 @@ This topic describes IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST.
 
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
 

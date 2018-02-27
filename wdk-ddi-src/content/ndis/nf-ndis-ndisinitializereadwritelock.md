@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: Ndis.sys
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	ndis.sys
-apiname:
+api_name:
 -	NdisInitializeReadWriteLock
 product: Windows
 targetos: Windows

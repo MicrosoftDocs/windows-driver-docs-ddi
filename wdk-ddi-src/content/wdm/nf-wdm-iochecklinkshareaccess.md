@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ntoskrnl.lib
 -	ntoskrnl.dll
-apiname:
+api_name:
 -	IoCheckLinkShareAccess
 product: Windows
 targetos: Windows
@@ -142,11 +142,11 @@ The <b>IoCheckLinkShareAccess</b> routine returns STATUS_SUCCESS if the requeste
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549503">I/O Manager Routines</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioupdatelinkshareaccess.md">IoUpdateLinkShareAccess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549503">I/O Manager Routines</a>
 
 
 

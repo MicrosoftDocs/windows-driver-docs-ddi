@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_SUPPORTED_DEVICE_SERVICES
 product: Windows
 targetos: Windows
@@ -95,7 +95,7 @@ This member points to the list of the <a href="..\wwan\ns-wwan-_wwan_device_serv
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_supported_device_services.md">NDIS_WWAN_SUPPORTED_DEVICE_SERVICES</a>
+<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 
 
 
@@ -103,7 +103,7 @@ This member points to the list of the <a href="..\wwan\ns-wwan-_wwan_device_serv
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_supported_device_services.md">NDIS_WWAN_SUPPORTED_DEVICE_SERVICES</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	video.h
-apiname:
+api_name:
 -	VIDEO_PORT_AGP_INTERFACE_2
 product: Windows
 targetos: Windows
@@ -170,7 +170,7 @@ This structure is identical to the <a href="..\video\ns-video-_video_port_agp_in
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
@@ -178,7 +178,7 @@ This structure is identical to the <a href="..\video\ns-video-_video_port_agp_in
 
 
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
 
 
 

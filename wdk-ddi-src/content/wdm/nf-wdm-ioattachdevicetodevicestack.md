@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoAttachDeviceToDeviceStack
 product: Windows
 targetos: Windows
@@ -109,19 +109,19 @@ A driver that acquired a pointer to the target device by calling <a href="..\wdm
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
 
 
 
 <a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
 
 
 

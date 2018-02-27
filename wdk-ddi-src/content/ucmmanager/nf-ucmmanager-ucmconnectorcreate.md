@@ -29,15 +29,15 @@ req.type-library:
 req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	UcmCxstub.lib
 -	UcmCxstub.dll
-apiname:
+api_name:
 -	UcmConnectorCreate
 product: Windows
 targetos: Windows

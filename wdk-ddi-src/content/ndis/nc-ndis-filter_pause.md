@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Ndis.h
-apiname:
+api_name:
 -	FilterPause
 product: Windows
 targetos: Windows
@@ -249,8 +249,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
-   FilterSendNetBufferListsComplete</a>
+<a href="..\ndis\nf-ndis-ndisfpausecomplete.md">NdisFPauseComplete</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_filter_pause_parameters.md">NDIS_FILTER_PAUSE_PARAMETERS</a>
 
 
 
@@ -258,11 +261,16 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\nf-ndis-ndisfreturnnetbufferlists.md">NdisFReturnNetBufferLists</a>
 
 
 
 <a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfsendnetbufferlistscomplete.md">
+   NdisFSendNetBufferListsComplete</a>
 
 
 
@@ -274,28 +282,20 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfreturnnetbufferlists.md">NdisFReturnNetBufferLists</a>
-
-
-
 <a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfsendnetbufferlistscomplete.md">
-   NdisFSendNetBufferListsComplete</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfpausecomplete.md">NdisFPauseComplete</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_filter_pause_parameters.md">NDIS_FILTER_PAUSE_PARAMETERS</a>
+<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
+   FilterSendNetBufferListsComplete</a>
 
 
 

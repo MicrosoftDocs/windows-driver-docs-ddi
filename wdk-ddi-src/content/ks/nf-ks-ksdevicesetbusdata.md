@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: See Remarks section.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsDeviceSetBusData
 product: Windows
 targetos: Windows
@@ -121,11 +121,11 @@ Drivers running on Windows 2000 and later can make this call at IRQL = DISPATCH_
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksdevicegetbusdata.md">KsDeviceGetBusData</a>
-
-
-
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
+
+<a href="..\ks\nf-ks-ksdevicegetbusdata.md">KsDeviceGetBusData</a>
 
 
 

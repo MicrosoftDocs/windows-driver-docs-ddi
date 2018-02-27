@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	Dot11ExtSendUIRequest
 product: Windows
 targetos: Windows
@@ -138,8 +138,11 @@ The operating system can query the completion status of the request through a ca
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_is_ui_request_pending.md">
-   Dot11ExtIhvIsUIRequestPending</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
 
 
 
@@ -148,15 +151,12 @@ The operating system can query the completion status of the request through a ca
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_is_ui_request_pending.md">
+   Dot11ExtIhvIsUIRequestPending</a>
 
 
 

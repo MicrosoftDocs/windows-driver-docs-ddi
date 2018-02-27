@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsFilterAcquireProcessingMutex
 product: Windows
 targetos: Windows
@@ -99,7 +99,7 @@ A minidriver that must suspend processing for a long period of time should not u
 
 
 
-<b>KsFilterReleaseProcessingMutex</b>
+<a href="..\ks\nf-ks-ksfilterattemptprocessing.md">KsFilterAttemptProcessing</a>
 
 
 
@@ -107,11 +107,11 @@ A minidriver that must suspend processing for a long period of time should not u
 
 
 
+<b>KsFilterReleaseProcessingMutex</b>
+
+
+
 <a href="..\ks\nf-ks-kspinacquireprocessingmutex.md">KsPinAcquireProcessingMutex</a>
-
-
-
-<a href="..\ks\nf-ks-ksfilterattemptprocessing.md">KsFilterAttemptProcessing</a>
 
 
 

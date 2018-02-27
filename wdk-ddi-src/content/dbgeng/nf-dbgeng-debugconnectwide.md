@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	DebugConnectWide
 product: Windows
 targetos: Windows
@@ -123,11 +123,11 @@ As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">Client Objects</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539137">Client Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">Client Objects</a>
 
 
 

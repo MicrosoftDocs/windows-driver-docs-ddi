@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	IOCTL_KS_METHOD
 product: Windows
 targetos: Windows
@@ -107,11 +107,11 @@ If the request is successful, the Status member is set to STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
+
+
+
+<a href="..\ks\ns-ks-ksfastmethod_item.md">KSFASTMETHOD_ITEM</a>
 
 
 
@@ -119,7 +119,7 @@ If the request is successful, the Status member is set to STATUS_SUCCESS.
 
 
 
-<a href="..\ks\ns-ks-ksfastmethod_item.md">KSFASTMETHOD_ITEM</a>
+<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
 
 
 

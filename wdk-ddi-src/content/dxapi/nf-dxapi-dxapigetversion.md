@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Dxapi.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Dxapi.lib
 -	Dxapi.dll
-apiname:
+api_name:
 -	DxApiGetVersion
 product: Windows
 targetos: Windows
@@ -81,11 +81,11 @@ Returns the major and minor version numbers of Direct Sound as 4 and 2 respectiv
 
 ## -see-also
 
-<a href="..\dxapi\nf-dxapi-dxapi.md">DxApi</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550637">DD_DXAPI_GETVERSIONNUMBER</a>
+
+
+
+<a href="..\dxapi\nf-dxapi-dxapi.md">DxApi</a>
 
 
 

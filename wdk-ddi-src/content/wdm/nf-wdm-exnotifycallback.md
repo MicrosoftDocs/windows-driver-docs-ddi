@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	ExNotifyCallback
 product: Windows
 targetos: Windows
@@ -111,11 +111,11 @@ Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. The system
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
-
-
-
 <a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
 
 
 

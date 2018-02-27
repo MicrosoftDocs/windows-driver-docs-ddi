@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddpar.h
-apiname:
+api_name:
 -	PAR_DEVICE_ID_SIZE_INFORMATION
 product: Windows
 targetos: Windows
@@ -74,11 +74,11 @@ Specifies the size, in bytes, of a buffer that can hold the IEEE 1284 device ID 
 
 ## -see-also
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_par_query_device_id.md">IOCTL_PAR_QUERY_DEVICE_ID</a>
-
-
-
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_device_id_size.md">IOCTL_PAR_QUERY_DEVICE_ID_SIZE</a>
+
+
+
+<a href="..\ntddpar\ni-ntddpar-ioctl_par_query_device_id.md">IOCTL_PAR_QUERY_DEVICE_ID</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3d10umddi.h
-apiname:
+api_name:
 -	pfnStateTextFilterSizeCb
 product: Windows
 targetos: Windows
@@ -104,7 +104,7 @@ The <b>pfnStateTextFilterSizeCb</b> function calls the user-mode display driver'
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks.md">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_settextfiltersize.md">SetTextFilterSize</a>
 
 
 
@@ -112,7 +112,7 @@ The <b>pfnStateTextFilterSizeCb</b> function calls the user-mode display driver'
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_settextfiltersize.md">SetTextFilterSize</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks.md">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
 
 
 

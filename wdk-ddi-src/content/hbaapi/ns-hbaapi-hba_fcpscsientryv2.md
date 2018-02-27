@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hbaapi.h
-apiname:
+api_name:
 -	HBA_FCPSCSIENTRYV2
 product: Windows
 targetos: Windows
@@ -99,15 +99,15 @@ The HBA_FcpScsiEntryV2 structure includes all of the information contained in th
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_luid.md">HBA_LUID</a>
-
-
-
 <a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
 
 
 
 <a href="..\hbaapi\ns-hbaapi-hba_fcpscsientry.md">HBA_FcpScsiEntry</a>
+
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_luid.md">HBA_LUID</a>
 
 
 

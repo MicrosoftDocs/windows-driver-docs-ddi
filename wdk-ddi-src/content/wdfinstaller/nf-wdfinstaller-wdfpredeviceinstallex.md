@@ -29,15 +29,15 @@ req.type-library:
 req.lib: N/A (Exported by the KMDF co-installer library. For information about the co-installer library's filename, see Using the KMDF Co-installer.)
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	N/A
 -	N/A.dll
-apiname:
+api_name:
 -	WdfPreDeviceInstallEx
 product: Windows
 targetos: Windows
@@ -130,11 +130,11 @@ For a code example that uses the <b>WdfPreDeviceInstallEx</b> function, see the 
 
 ## -see-also
 
-<a href="..\wdfinstaller\nf-wdfinstaller-wdfpredeviceinstall.md">WdfPreDeviceInstall</a>
-
-
-
 <a href="..\wdfinstaller\nf-wdfinstaller-wdfpostdeviceinstall.md">WdfPostDeviceInstall</a>
+
+
+
+<a href="..\wdfinstaller\nf-wdfinstaller-wdfpredeviceinstall.md">WdfPreDeviceInstall</a>
 
 
 

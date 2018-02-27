@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoCreateUnprotectedSymbolicLink
 product: Windows
 targetos: Windows
@@ -105,11 +105,11 @@ For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href=
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iodeletesymboliclink.md">IoDeleteSymbolicLink</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-ioassignarcname.md">IoAssignArcName</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
 
 
 
@@ -117,7 +117,7 @@ For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href=
 
 
 
-<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
+<a href="..\wdm\nf-wdm-iodeletesymboliclink.md">IoDeleteSymbolicLink</a>
 
 
 

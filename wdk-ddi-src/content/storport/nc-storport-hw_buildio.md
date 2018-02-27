@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks section.)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Storport.h
-apiname:
+api_name:
 -	HwStorBuildIo
 product: Windows
 targetos: Windows
@@ -315,23 +315,7 @@ The <b>HW_BUILDIO</b> function type is defined in the Storport.h header file. To
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
-
 <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
-
-
-
-<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
-
-
-
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
-
-
-
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
 
 
@@ -339,7 +323,23 @@ The <b>HW_BUILDIO</b> function type is defined in the Storport.h header file. To
 
 
 
+<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+
+
+
+<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
+
+
+
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
+
+
 <a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
+
+
+
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 

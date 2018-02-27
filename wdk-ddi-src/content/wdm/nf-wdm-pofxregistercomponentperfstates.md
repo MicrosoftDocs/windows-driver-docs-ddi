@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Ntoskrnl.exe
-apiname:
+api_name:
 -	PoFxRegisterComponentPerfStates
 product: Windows
 targetos: Windows
@@ -212,19 +212,19 @@ If the driver requires the PEP to provide performance state information, the dri
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a>
-
-
-
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_perf_info.md">PO_FX_COMPONENT_PERF_INFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_perf_info.md">PO_FX_COMPONENT_PERF_INFO</a>
 
 
 

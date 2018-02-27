@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dumddi.h
-apiname:
+api_name:
 -	D3DDDIARG_SETINDICES
 product: Windows
 targetos: Windows
@@ -80,11 +80,11 @@ typedef struct _D3DDDIARG_SETINDICES {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsourceum.md">SetStreamSourceUM</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setindices.md">SetIndices</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsourceum.md">SetStreamSourceUM</a>
 
 
 

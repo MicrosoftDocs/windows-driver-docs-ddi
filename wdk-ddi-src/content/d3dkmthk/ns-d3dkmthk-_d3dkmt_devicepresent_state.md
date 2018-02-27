@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	D3DKMT_DEVICEPRESENT_STATE
 product: Windows
 targetos: Windows
@@ -80,11 +80,11 @@ typedef struct _D3DKMT_DEVICEPRESENT_STATE {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_stats.md">D3DKMT_PRESENT_STATS</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdevicestate.md">D3DKMT_GETDEVICESTATE</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_stats.md">D3DKMT_PRESENT_STATS</a>
 
 
 

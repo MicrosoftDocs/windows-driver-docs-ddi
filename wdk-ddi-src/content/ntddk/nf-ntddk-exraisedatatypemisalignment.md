@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	ExRaiseDatatypeMisalignment
 product: Windows
 targetos: Windows
@@ -89,11 +89,11 @@ Because <b>ExRaiseDatatypeMisalignment</b> can only be used at IRQL = PASSIVE_LE
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-exraiseaccessviolation.md">ExRaiseAccessViolation</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
 
 
 
@@ -101,7 +101,7 @@ Because <b>ExRaiseDatatypeMisalignment</b> can only be used at IRQL = PASSIVE_LE
 
 
 
-<a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
+<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
 
 
 

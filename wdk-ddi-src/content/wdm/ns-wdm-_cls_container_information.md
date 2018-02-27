@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	CLS_CONTAINER_INFORMATION
 product: Windows
 targetos: Windows
@@ -214,11 +214,11 @@ Time values <b>CreationTime</b>, <b>LastAccessTime</b>, and <b>LastWriteTime</b>
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsscanlogcontainers.md">ClfsScanLogContainers</a>
-
-
-
 <a href="..\wdm\ns-wdm-_cls_scan_context.md">CLFS_SCAN_CONTEXT</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
 
 
 
@@ -226,7 +226,7 @@ Time values <b>CreationTime</b>, <b>LastAccessTime</b>, and <b>LastWriteTime</b>
 
 
 
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+<a href="..\wdm\nf-wdm-clfsscanlogcontainers.md">ClfsScanLogContainers</a>
 
 
 

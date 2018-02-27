@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ndis.h
-apiname:
+api_name:
 -	PD_BUFFER_VIRTUAL_SUBNET_INFO
 product: Windows
 targetos: Windows

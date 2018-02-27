@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ksmedia.h
-apiname:
+api_name:
 -	KS_DATAFORMAT_VIDEOINFOHEADER2
 product: Windows
 targetos: Windows
@@ -93,15 +93,15 @@ Minidrivers that do not need to specify bob or weave settings may use the <a hre
 
 
 
+<a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader.md">KS_DATAFORMAT_VIDEOINFOHEADER</a>
+
+
+
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 
 <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader.md">KS_DATAFORMAT_VIDEOINFOHEADER</a>
 
 
 

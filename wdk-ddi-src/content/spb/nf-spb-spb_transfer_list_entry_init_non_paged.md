@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any IRQL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Spb.h
-apiname:
+api_name:
 -	SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED
 product: Windows
 targetos: Windows

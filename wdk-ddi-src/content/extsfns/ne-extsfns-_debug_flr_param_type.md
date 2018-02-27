@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	extsfns.h
-apiname:
+api_name:
 -	DEBUG_FLR_PARAM_TYPE
 product: Windows
 targetos: Windows
@@ -2281,11 +2281,11 @@ For more information about tags, see <a href="https://msdn.microsoft.com/7648F78
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG enumeration</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj991807">Failure Analysis Entries</a>
-
-
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 
@@ -2293,7 +2293,7 @@ For more information about tags, see <a href="https://msdn.microsoft.com/7648F78
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG enumeration</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 

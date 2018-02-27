@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	bdasup.h
-apiname:
+api_name:
 -	BDA_FILTER_TEMPLATE
 product: Windows
 targetos: Windows
@@ -86,7 +86,7 @@ Array of BDA_PIN_PAIRING structures that describe the topology between a pair of
 
 ## -see-also
 
-<a href="..\bdasup\nf-bdasup-bdainitfilter.md">BdaInitFilter</a>
+<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
 
 
 
@@ -98,7 +98,7 @@ Array of BDA_PIN_PAIRING structures that describe the topology between a pair of
 
 
 
-<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
+<a href="..\bdasup\nf-bdasup-bdainitfilter.md">BdaInitFilter</a>
 
 
 

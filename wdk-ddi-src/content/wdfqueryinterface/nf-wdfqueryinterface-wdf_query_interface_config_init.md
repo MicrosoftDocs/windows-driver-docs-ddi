@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdfqueryinterface.h
-apiname:
+api_name:
 -	WDF_QUERY_INTERFACE_CONFIG_INIT
 product: Windows
 targetos: Windows
@@ -119,7 +119,7 @@ For a code example that uses <b>WDF_QUERY_INTERFACE_CONFIG_INIT</b>, see <a href
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">EvtDeviceProcessQueryInterfaceRequest</a>
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
@@ -127,7 +127,7 @@ For a code example that uses <b>WDF_QUERY_INTERFACE_CONFIG_INIT</b>, see <a href
 
 
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">EvtDeviceProcessQueryInterfaceRequest</a>
 
 
 

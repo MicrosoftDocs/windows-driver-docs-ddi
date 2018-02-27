@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ucxendpoint.h
-apiname:
+api_name:
 -	UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS
 product: Windows
 targetos: Windows

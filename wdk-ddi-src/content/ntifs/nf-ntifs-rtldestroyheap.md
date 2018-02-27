@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	RtlDestroyHeap
 product: Windows
 targetos: Windows
@@ -94,15 +94,15 @@ Processes can call <b>RtlDestroyHeap</b> without first calling <b>RtlFreeHeap</b
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlfreeheap.md">RtlFreeHeap</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-rtlcreateheap.md">RtlCreateHeap</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
 
 
 

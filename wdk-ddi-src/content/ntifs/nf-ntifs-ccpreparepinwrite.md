@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	CcPreparePinWrite
 product: Windows
 targetos: Windows
@@ -206,7 +206,15 @@ If any failure occurs, <b>CcPreparePinWrite</b> raises a status exception for th
 
 
 
+<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
 
 
 
@@ -218,15 +226,7 @@ If any failure occurs, <b>CcPreparePinWrite</b> raises a status exception for th
 
 
 
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	ExInitializeDeleteTimerParameters
 product: Windows
 targetos: Windows
@@ -93,11 +93,11 @@ Your driver must call <b>ExInitializeDeleteTimerParameters</b> to initialize an 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exdeletetimer.md">ExDeleteTimer</a>
-
-
-
 <a href="..\wdm\ns-wdm-_ext_delete_parameters.md">EXT_DELETE_PARAMETERS</a>
+
+
+
+<a href="..\wdm\nf-wdm-exdeletetimer.md">ExDeleteTimer</a>
 
 
 

@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	spbcxstubs.lib
 -	spbcxstubs.dll
-apiname:
+api_name:
 -	SpbControllerSetIoOtherCallback
 product: Windows
 targetos: Windows

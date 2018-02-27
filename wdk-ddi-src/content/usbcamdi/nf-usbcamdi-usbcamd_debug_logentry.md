@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	usbcamd2.lib
 -	usbcamd2.dll
-apiname:
+api_name:
 -	USBCAMD_Debug_LogEntry
 product: Windows
 targetos: Windows

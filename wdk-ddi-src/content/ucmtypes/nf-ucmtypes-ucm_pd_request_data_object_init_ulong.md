@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ucmtypes.h
-apiname:
+api_name:
 -	UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG
 product: Windows
 targetos: Windows

@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ks.lib
 -	ks.dll
-apiname:
+api_name:
 -	KsCreateTopologyNode
 product: Windows
 targetos: Windows
@@ -111,11 +111,11 @@ The <a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a> structure describes
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a>
 
 
 

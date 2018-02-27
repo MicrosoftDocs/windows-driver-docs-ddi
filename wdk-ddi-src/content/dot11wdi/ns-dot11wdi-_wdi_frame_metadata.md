@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dot11wdi.h
-apiname:
+api_name:
 -	WDI_FRAME_METADATA
 product: Windows
 targetos: Windows
@@ -120,7 +120,7 @@ RX metadata.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
+<a href="..\dot11wdi\ns-dot11wdi-_wdi_tx_metadata.md">WDI_TX_METADATA</a>
 
 
 
@@ -128,11 +128,11 @@ RX metadata.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
+
+
+
 <a href="..\dot11wdi\ns-dot11wdi-_wdi_rx_metadata.md">WDI_RX_METADATA</a>
-
-
-
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_tx_metadata.md">WDI_TX_METADATA</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	WdmlibIoConnectInterruptEx
 -	IoConnectInterruptEx
 product: Windows
@@ -167,7 +167,7 @@ For more information about registering an interrupt-handling routine, see <a hre
 
 ## -see-also
 
-<a href="..\iointex\nf-iointex-wdmlibiodisconnectinterruptex.md">WdmlibIoDisconnectInterruptEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547940">InterruptMessageService</a>
 
 
 
@@ -175,7 +175,7 @@ For more information about registering an interrupt-handling routine, see <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547940">InterruptMessageService</a>
+<a href="..\iointex\nf-iointex-wdmlibiodisconnectinterruptex.md">WdmlibIoDisconnectInterruptEx</a>
 
 
 

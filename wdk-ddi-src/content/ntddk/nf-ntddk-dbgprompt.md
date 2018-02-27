@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtDll.lib (user mode); NtosKrnl.lib (kernel mode)
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: "<= DIRQL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtDll.dll
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	DbgPrompt
 product: Windows
 targetos: Windows

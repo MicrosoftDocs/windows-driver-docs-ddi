@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdm.h
-apiname:
+api_name:
 -	POWER_STATE
 product: Windows
 targetos: Windows
@@ -92,10 +92,6 @@ For more information about power management, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_power_state_type.md">POWER_STATE_TYPE</a>
-
-
-
 <a href="..\wdm\nf-wdm-posetpowerstate.md">PoSetPowerState</a>
 
 
@@ -105,6 +101,10 @@ For more information about power management, see <a href="https://msdn.microsoft
 
 
 <a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
+
+
+
+<a href="..\wdm\ne-wdm-_power_state_type.md">POWER_STATE_TYPE</a>
 
 
 

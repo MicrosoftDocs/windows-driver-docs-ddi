@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoCreateController
 product: Windows
 targetos: Windows
@@ -100,15 +100,15 @@ If <b>IoCreateController</b> returns <b>NULL</b>, the driver should fail device 
 
 
 
-<a href="..\ntddk\ns-ntddk-_controller_object.md">CONTROLLER_OBJECT</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-ioallocatecontroller.md">IoAllocateController</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-iodeletecontroller.md">IoDeleteController</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_controller_object.md">CONTROLLER_OBJECT</a>
 
 
 

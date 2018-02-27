@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_AUTH_RESPONSE
 product: Windows
 targetos: Windows
@@ -112,11 +112,15 @@ The <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_auth_response.md">NDIS_WWAN_AUTH
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_auth_sim_response.md">WWAN_AUTH_SIM_RESPONSE</a>
+
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_auth_response.md">NDIS_WWAN_AUTH_RESPONSE</a>
+
+
+
 <a href="..\wwan\ns-wwan-_wwan_auth_akap_response.md">WWAN_AUTH_AKAP_RESPONSE</a>
-
-
-
-<a href="..\wwan\ne-wwan-_wwan_auth_method.md">WWAN_AUTH_METHOD</a>
 
 
 
@@ -124,11 +128,7 @@ The <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_auth_response.md">NDIS_WWAN_AUTH
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_auth_sim_response.md">WWAN_AUTH_SIM_RESPONSE</a>
-
-
-
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_auth_response.md">NDIS_WWAN_AUTH_RESPONSE</a>
+<a href="..\wwan\ne-wwan-_wwan_auth_method.md">WWAN_AUTH_METHOD</a>
 
 
 

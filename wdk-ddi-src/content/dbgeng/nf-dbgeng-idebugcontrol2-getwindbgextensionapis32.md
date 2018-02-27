@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugControl.GetWindbgExtensionApis32
 -	IDebugControl2.GetWindbgExtensionApis32
 -	IDebugControl3.GetWindbgExtensionApis32
@@ -128,15 +128,11 @@ For a list of the functions provided by the WdbgExts API, see <a href="https://m
 
 ## -see-also
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561258">WdbgExts Functions</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
 
 
 
@@ -145,6 +141,10 @@ For a list of the functions provided by the WdbgExts API, see <a href="https://m
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 

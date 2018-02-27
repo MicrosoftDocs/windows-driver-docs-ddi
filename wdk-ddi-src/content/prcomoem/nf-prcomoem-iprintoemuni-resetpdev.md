@@ -29,14 +29,14 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Prcomoem.h
-apiname:
+api_name:
 -	IPrintOemUni.ResetPDEV
 product: Windows
 targetos: Windows
@@ -135,11 +135,11 @@ The rendering plug-in's private PDEV structure's address is contained in the <b>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556276">DrvResetPDEV</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556276">DrvResetPDEV</a>
 
 
 

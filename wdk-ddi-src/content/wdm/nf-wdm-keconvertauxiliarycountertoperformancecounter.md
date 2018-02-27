@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Hal.dll
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Hal.dll
-apiname:
+api_name:
 -	KeConvertAuxiliaryCounterToPerformanceCounter
 product: Windows
 targetos: Windows

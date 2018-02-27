@@ -29,14 +29,14 @@ req.type-library:
 req.lib: avcstrm.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	avcstrm.h
-apiname:
+api_name:
 -	INIT_AVCSTRM_HEADER
 product: Windows
 targetos: Windows
@@ -97,18 +97,6 @@ The macro is defined as follows:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
-
-
-
-<a href="..\avcstrm\ni-avcstrm-ioctl_avcstrm_class.md">IOCTL_AVCSTRM_CLASS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
 
 
@@ -117,11 +105,11 @@ The macro is defined as follows:
 
 
 
+<a href="..\avcstrm\ni-avcstrm-ioctl_avcstrm_class.md">IOCTL_AVCSTRM_CLASS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
 
 
 
@@ -133,7 +121,19 @@ The macro is defined as follows:
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554110">AVCSTRM_CLOSE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
 
 
 

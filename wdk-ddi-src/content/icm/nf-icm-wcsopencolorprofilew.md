@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Mscms.lib
 -	Mscms.dll
-apiname:
+api_name:
 -	WcsOpenColorProfile
 product: Windows
 targetos: Windows

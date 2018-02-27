@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	CcZeroData
 product: Windows
 targetos: Windows
@@ -132,11 +132,11 @@ If <i>EndOffset</i> is not aligned, it will be rounded up to the next sector siz
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
 
 
 

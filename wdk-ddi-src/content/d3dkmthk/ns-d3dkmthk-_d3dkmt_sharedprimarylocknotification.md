@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dkmthk.h
-apiname:
+api_name:
 -	D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
 product: Windows
 targetos: Windows
@@ -86,11 +86,11 @@ typedef struct _D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION {
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsharedprimarylocknotification.md">D3DKMTSharedPrimaryLockNotification</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
 
 
 

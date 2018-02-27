@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dxva.h
-apiname:
+api_name:
 -	DXVA_AYUVsample2
 product: Windows
 targetos: Windows
@@ -113,11 +113,11 @@ The <b>DXVA_AYUVsample2</b> structure is used for each sample in a DirectX VA AY
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_bufferdescription.md">DXVA_BufferDescription</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_blendcombination.md">DXVA_BlendCombination</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_bufferdescription.md">DXVA_BufferDescription</a>
 
 
 

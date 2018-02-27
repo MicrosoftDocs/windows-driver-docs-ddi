@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	KeRegisterProcessorChangeCallback
 product: Windows
 targetos: Windows
@@ -168,11 +168,11 @@ A callback function that has been registered for notification of processor chang
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a>
-
-
-
 <a href="..\wdm\nf-wdm-kederegisterprocessorchangecallback.md">KeDeregisterProcessorChangeCallback</a>
+
+
+
+<a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dxva.h
-apiname:
+api_name:
 -	DXVA_COPPStatusOutput
 product: Windows
 targetos: Windows
@@ -151,15 +151,7 @@ Status requests are passed in the <i>pInput</i> parameter of the <a href="https:
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_coppstatusdata.md">DXVA_COPPStatusData</a>
-
-
-
-<a href="..\dxva\ns-dxva-_dxva_coppstatusdisplaydata.md">DXVA_COPPStatusDisplayData</a>
-
-
-
-<a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
+<a href="..\dxva\ns-dxva-_dxva_coppstatussignalingcmddata.md">DXVA_COPPStatusSignalingCmdData</a>
 
 
 
@@ -167,7 +159,7 @@ Status requests are passed in the <i>pInput</i> parameter of the <a href="https:
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_coppstatussignalingcmddata.md">DXVA_COPPStatusSignalingCmdData</a>
+<a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
 
 
 
@@ -175,7 +167,15 @@ Status requests are passed in the <i>pInput</i> parameter of the <a href="https:
 
 
 
+<a href="..\dxva\ns-dxva-_dxva_coppstatusdisplaydata.md">DXVA_COPPStatusDisplayData</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_coppstatusdata.md">DXVA_COPPStatusData</a>
 
 
 

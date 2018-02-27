@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	RtlUshortByteSwap
 product: Windows
 targetos: Windows
@@ -99,11 +99,11 @@ To reverse the ordering of bytes in a ULONG value, use the <a href="..\wdm\nf-wd
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlulongbyteswap.md">RtlUlongByteSwap</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlulonglongbyteswap.md">RtlUlonglongByteSwap</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlulongbyteswap.md">RtlUlongByteSwap</a>
 
 
 

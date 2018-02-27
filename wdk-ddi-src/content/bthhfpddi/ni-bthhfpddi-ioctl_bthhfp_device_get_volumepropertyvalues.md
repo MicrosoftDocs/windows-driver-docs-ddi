@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Bthhfpddi.h
-apiname:
+api_name:
 -	IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES
 product: Windows
 targetos: Windows
@@ -119,7 +119,7 @@ This allows the Handsfree proofile (HFP) driver to almost entirely handle the pr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
+<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563473(v=vs.85).aspx">KSNODE_DESCRIPTOR</a>
 
 
 
@@ -127,11 +127,11 @@ This allows the Handsfree proofile (HFP) driver to almost entirely handle the pr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
+
+
+
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff565966(v=vs.85).aspx">KSPROPERTY_VALUES</a>
-
-
-
-<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563473(v=vs.85).aspx">KSNODE_DESCRIPTOR</a>
 
 
 

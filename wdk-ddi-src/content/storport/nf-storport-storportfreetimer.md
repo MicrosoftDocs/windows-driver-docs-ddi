@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	storport.h
-apiname:
+api_name:
 -	StorPortFreeTimer
 product: Windows
 targetos: Windows
@@ -162,7 +162,7 @@ Miniports should call <b>StorPortFreeTimer</b> whenever a work item is no longer
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
+<a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>
 
 
 
@@ -170,7 +170,7 @@ Miniports should call <b>StorPortFreeTimer</b> whenever a work item is no longer
 
 
 
-<a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>
+<a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
 
 
 

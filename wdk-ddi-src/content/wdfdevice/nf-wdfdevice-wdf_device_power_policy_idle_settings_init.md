@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfdevice.h
-apiname:
+api_name:
 -	WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT
 product: Windows
 targetos: Windows

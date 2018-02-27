@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	avcstrm.h
-apiname:
+api_name:
 -	AVCSTRM_FORMAT_INFO
 product: Windows
 targetos: Windows
@@ -162,7 +162,7 @@ Reserved. Do not use. Must be set to 0.
 
 ## -see-also
 
-<a href="..\avcstrm\ne-avcstrm-_avcstrm_format.md">AVCSTRM_FORMAT</a>
+<a href="..\avcstrm\ns-avcstrm-_cip_hdr2_fdf.md">CIP_HDR2_FDF</a>
 
 
 
@@ -170,7 +170,7 @@ Reserved. Do not use. Must be set to 0.
 
 
 
-<a href="..\avcstrm\ns-avcstrm-_cip_hdr2_fdf.md">CIP_HDR2_FDF</a>
+<a href="..\avcstrm\ne-avcstrm-_avcstrm_format.md">AVCSTRM_FORMAT</a>
 
 
 

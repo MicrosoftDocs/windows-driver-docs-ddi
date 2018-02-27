@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdm.h
-apiname:
+api_name:
 -	PCI_CAPABILITIES_HEADER
 product: Windows
 targetos: Windows
@@ -272,11 +272,11 @@ All PCI Capability structures have the header described by PCI_CAPABILITIES_HEAD
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537587">PCI_PMCSR_BSE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537581">PCI_PMC</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537587">PCI_PMCSR_BSE</a>
 
 
 

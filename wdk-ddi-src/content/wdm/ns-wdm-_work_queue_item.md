@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdm.h
-apiname:
+api_name:
 -	WORK_QUEUE_ITEM
 product: Windows
 targetos: Windows
@@ -121,7 +121,7 @@ To post the initialized work item to a system work queue, call <a href="..\wdm\n
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializeworkitem.md">ExInitializeWorkItem</a>
+<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
 
 
 
@@ -129,15 +129,15 @@ To post the initialized work item to a system work queue, call <a href="..\wdm\n
 
 
 
-<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
-
-
-
 <a href="..\wdm\nf-wdm-exqueueworkitem.md">ExQueueWorkItem</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
+<a href="..\wdm\nf-wdm-exinitializeworkitem.md">ExInitializeWorkItem</a>
+
+
+
+<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
 
 
 

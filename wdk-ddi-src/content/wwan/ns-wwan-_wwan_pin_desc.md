@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_PIN_DESC
 product: Windows
 targetos: Windows
@@ -104,11 +104,11 @@ The maximum number of characters in the PIN. Miniport drivers should not specify
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_pin_list.md">WWAN_PIN_LIST</a>
-
-
-
 <a href="..\wwan\ne-wwan-_wwan_pin_mode.md">WWAN_PIN_MODE</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_pin_list.md">WWAN_PIN_LIST</a>
 
 
 

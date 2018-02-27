@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IMiniportMidiStream.SetFormat
 product: Windows
 targetos: Windows
@@ -92,11 +92,11 @@ The <code>SetFormat</code> method essentially does nothing because the data form
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
-
-
-
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
+
+<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
 
 
 

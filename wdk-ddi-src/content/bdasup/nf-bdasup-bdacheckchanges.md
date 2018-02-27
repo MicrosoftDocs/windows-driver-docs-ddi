@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Bdasup.lib
 -	Bdasup.dll
-apiname:
+api_name:
 -	BdaCheckChanges
 product: Windows
 targetos: Windows
@@ -100,7 +100,7 @@ A BDA minidriver calls the <b>BdaCheckChanges</b> function to verify a group of 
 
 ## -see-also
 
-<a href="..\bdasup\nf-bdasup-bdacommitchanges.md">BdaCommitChanges</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563403">KSMETHODSETID_BdaChangeSync</a>
 
 
 
@@ -108,11 +108,11 @@ A BDA minidriver calls the <b>BdaCheckChanges</b> function to verify a group of 
 
 
 
+<a href="..\bdasup\nf-bdasup-bdacommitchanges.md">BdaCommitChanges</a>
+
+
+
 <a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563403">KSMETHODSETID_BdaChangeSync</a>
 
 
 

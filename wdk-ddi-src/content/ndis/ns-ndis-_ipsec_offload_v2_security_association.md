@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndis.h
-apiname:
+api_name:
 -	IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
 product: Windows
 targetos: Windows
@@ -169,12 +169,12 @@ A
 
 
 
-<a href="..\ndis\ne-ndis-_ipsec_offload_v2_operation.md">IPSEC_OFFLOAD_V2_OPERATION</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ipsec_offload_v2_algorithm_info.md">
    IPSEC_OFFLOAD_V2_ALGORITHM_INFO</a>
+
+
+
+<a href="..\ndis\ne-ndis-_ipsec_offload_v2_operation.md">IPSEC_OFFLOAD_V2_OPERATION</a>
 
 
 

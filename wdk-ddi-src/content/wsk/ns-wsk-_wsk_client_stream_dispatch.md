@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wsk.h
-apiname:
+api_name:
 -	WSK_CLIENT_STREAM_DISPATCH
 product: Windows
 targetos: Windows
@@ -96,6 +96,10 @@ A WSK application passes a pointer to a <b>WSK_CLIENT_STREAM_DISPATCH</b> struct
 
 ## -see-also
 
+<a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
+
+
+
 <a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">WSK_CLIENT_CONNECTION_DISPATCH</a>
 
 
@@ -105,10 +109,6 @@ A WSK application passes a pointer to a <b>WSK_CLIENT_STREAM_DISPATCH</b> struct
 
 
 <a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	video.h
-apiname:
+api_name:
 -	VP_SCATTER_GATHER_LIST
 product: Windows
 targetos: Windows
@@ -98,11 +98,11 @@ The video port driver aggregates scatter/gather information in a VP_SCATTER_GATH
 
 ## -see-also
 
-<a href="..\video\ns-video-_vp_scatter_gather_element.md">VP_SCATTER_GATHER_ELEMENT</a>
-
-
-
 <a href="..\video\nc-video-pexecute_dma.md">HwVidExecuteDma</a>
+
+
+
+<a href="..\video\ns-video-_vp_scatter_gather_element.md">VP_SCATTER_GATHER_ELEMENT</a>
 
 
 

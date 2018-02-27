@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ksproxy.lib
 -	Ksproxy.dll
-apiname:
+api_name:
 -	KsGetMediaTypeCount
 product: Windows
 targetos: Windows
@@ -105,11 +105,11 @@ The number of available media types that <b>KsGetMediaTypeCount</b> returns is e
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikspinfactory.md">IKsPinFactory</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+
+
+
+<a href="..\ksproxy\nn-ksproxy-ikspinfactory.md">IKsPinFactory</a>
 
 
 

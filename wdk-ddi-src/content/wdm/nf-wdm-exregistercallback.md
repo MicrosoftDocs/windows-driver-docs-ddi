@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	ExRegisterCallback
 product: Windows
 targetos: Windows
@@ -156,7 +156,7 @@ The operating system calls registered callback routines at the same IRQL at whic
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a>
+<a href="..\wdm\nf-wdm-exunregistercallback.md">ExUnregisterCallback</a>
 
 
 
@@ -164,7 +164,7 @@ The operating system calls registered callback routines at the same IRQL at whic
 
 
 
-<a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a>
+<a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a>
 
 
 
@@ -172,7 +172,7 @@ The operating system calls registered callback routines at the same IRQL at whic
 
 
 
-<a href="..\wdm\nf-wdm-exunregistercallback.md">ExUnregisterCallback</a>
+<a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a>
 
 
 

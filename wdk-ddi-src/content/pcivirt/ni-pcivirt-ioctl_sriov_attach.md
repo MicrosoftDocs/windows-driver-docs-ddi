@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Pcivirt.h
-apiname:
+api_name:
 -	IOCTL_SRIOV_ATTACH
 product: Windows
 targetos: Windows
@@ -215,10 +215,6 @@ In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver mainta
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/8ede4a48-317b-46be-834a-a67b638b28c0">IOCTL_SRIOV_DETACH</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
@@ -227,11 +223,15 @@ In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver mainta
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/8ede4a48-317b-46be-834a-a67b638b28c0">IOCTL_SRIOV_DETACH</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Ucxcontroller.h
-apiname:
+api_name:
 -	PEVT_UCX_CONTROLLER_RESET
 product: Windows
 targetos: Windows
@@ -138,7 +138,7 @@ Controller_EvtControllerReset(
 
 ## -see-also
 
-<a href="..\ucxcontroller\nf-ucxcontroller-ucxcontrollerneedsreset.md">UcxControllerNeedsReset</a>
+<a href="..\ucxcontroller\nf-ucxcontroller-ucxcontrollerresetcomplete.md">UcxControllerResetComplete</a>
 
 
 
@@ -146,7 +146,7 @@ Controller_EvtControllerReset(
 
 
 
-<a href="..\ucxcontroller\nf-ucxcontroller-ucxcontrollerresetcomplete.md">UcxControllerResetComplete</a>
+<a href="..\ucxcontroller\nf-ucxcontroller-ucxcontrollerneedsreset.md">UcxControllerNeedsReset</a>
 
 
 

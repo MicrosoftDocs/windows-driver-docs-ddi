@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoSetDeviceToVerify
 product: Windows
 targetos: Windows
@@ -104,11 +104,7 @@ For more information about removable-media devices, see <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ioverifyvolume.md">IoVerifyVolume</a>
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 
 
@@ -116,7 +112,11 @@ For more information about removable-media devices, see <a href="https://msdn.mi
 
 
 
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ioverifyvolume.md">IoVerifyVolume</a>
 
 
 

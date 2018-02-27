@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddcdrm.h
-apiname:
+api_name:
 -	IOCTL_CDROM_ENABLE_STREAMING
 product: Windows
 targetos: Windows
@@ -152,11 +152,11 @@ By default, streaming is disabled for all newly opened raw CDROM handles. A play
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
-
-
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_streaming_control.md">CDROM_STREAMING_CONTROL</a>
+
+
+
+<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
 
 
 

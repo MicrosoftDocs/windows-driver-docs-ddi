@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Storport.lib
 -	Storport.dll
-apiname:
+api_name:
 -	StorPortWritePortBufferUshort
 product: Windows
 targetos: Windows
@@ -127,11 +127,11 @@ For more information, see <a href="..\storport\nf-storport-scsiportwriteportbuff
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportwriteportushort.md">StorPortWritePortUshort</a>
-
-
-
 <a href="..\storport\nf-storport-scsiportwriteportbufferushort.md">ScsiPortWritePortBufferUshort</a>
+
+
+
+<a href="..\storport\nf-storport-storportwriteportushort.md">StorPortWritePortUshort</a>
 
 
 

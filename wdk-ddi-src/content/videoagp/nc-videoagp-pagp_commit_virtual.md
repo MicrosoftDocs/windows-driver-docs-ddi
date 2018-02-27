@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	videoagp.h
-apiname:
+api_name:
 -	AgpCommitVirtual
 product: Windows
 targetos: Windows
@@ -136,15 +136,15 @@ When a miniport driver calls <b>AgpCommitVirtual</b>, a portion of the virtual a
 
 ## -see-also
 
+<a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>
+
+
+
 <a href="..\videoagp\nc-videoagp-pagp_free_virtual.md">AgpFreeVirtual</a>
 
 
 
 <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
-
-
-
-<a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>
 
 
 

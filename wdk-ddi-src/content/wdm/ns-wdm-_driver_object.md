@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	DRIVER_OBJECT
 product: Windows
 targetos: Windows
@@ -209,11 +209,11 @@ Undocumented members within a driver object should be considered inaccessible. D
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+
+
 <a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
 
 
 
@@ -221,7 +221,7 @@ Undocumented members within a driver object should be considered inaccessible. D
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
 
 
 

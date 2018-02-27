@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	iscsiop.h
-apiname:
+api_name:
 -	SetInitiatorNodeName_IN
 product: Windows
 targetos: Windows
@@ -83,11 +83,11 @@ It is optional that you implement this class.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_setinitiatornodename_out.md">SetInitiatorNodeName_OUT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565706">SetInitiatorNodeName</a>
+
+
+
+<a href="..\iscsiop\ns-iscsiop-_setinitiatornodename_out.md">SetInitiatorNodeName_OUT</a>
 
 
 

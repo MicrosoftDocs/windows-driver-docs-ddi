@@ -29,14 +29,14 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	sti.h
-apiname:
+api_name:
 -	IStillImageW.UnregisterLaunchApplication
 product: Windows
 targetos: Windows
@@ -95,11 +95,11 @@ Before calling <b>IStillImage::UnRegisterLaunchApplication</b>, clients of the <
 
 ## -see-also
 
-<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543798">IStillImage::RegisterLaunchApplication</a>
+
+
+
+<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
 
 
 

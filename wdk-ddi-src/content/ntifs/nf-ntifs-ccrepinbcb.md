@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	CcRepinBcb
 product: Windows
 targetos: Windows
@@ -98,11 +98,11 @@ Every call to <b>CcRepinBcb</b> must be matched by a subsequent call to <a href=
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
 
 
 

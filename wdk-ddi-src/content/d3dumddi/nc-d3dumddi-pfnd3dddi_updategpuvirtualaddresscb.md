@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	d3dumddi.h
-apiname:
+api_name:
 -	pfnUpdateGpuVirtualAddressCb
 product: Windows
 targetos: Windows
@@ -126,11 +126,11 @@ The user mode driver can submit many <b>pfnUpdateGpuVirtualAddressCb</b> calls a
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_updategpuvirtualaddress.md">D3DDDICB_UPDATEGPUVIRTUALADDRESS</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_updategpuvirtualaddress.md">D3DDDICB_UPDATEGPUVIRTUALADDRESS</a>
 
 
 

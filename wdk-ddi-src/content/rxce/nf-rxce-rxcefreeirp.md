@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rxce.h
-apiname:
+api_name:
 -	RxCeFreeIrp
 product: Windows
 targetos: Windows
@@ -93,11 +93,11 @@ An IRP allocated with an associated memory descriptor list allocated with <b>RxC
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
-
-
-
 <a href="..\rxce\nf-rxce-rxceallocateirpwithmdl.md">RxCeAllocateIrpWithMDL</a>
+
+
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 

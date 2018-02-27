@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pepfx.h
-apiname:
+api_name:
 -	PEP_ACPI_OBJECT_NAME
 product: Windows
 targetos: Windows
@@ -101,11 +101,11 @@ The <i>Name</i> member of the <a href="..\pepfx\ns-pepfx-_pep_acpi_object_name_w
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_object_name_with_type.md">PEP_ACPI_OBJECT_NAME_WITH_TYPE</a>
-
-
-
 <a href="..\pepfx\ns-pepfx-_pep_acpi_query_object_information.md">PEP_ACPI_QUERY_OBJECT_INFORMATION</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_acpi_object_name_with_type.md">PEP_ACPI_OBJECT_NAME_WITH_TYPE</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	minitape.h
-apiname:
+api_name:
 -	(*TAPE_VERIFY_INQUIRY_ROUTINE)
 product: Windows
 targetos: Windows
@@ -101,11 +101,11 @@ Pointer to a MODE_CAPABILITIES_PAGE structure that contains low-level informatio
 
 ## -see-also
 
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
-
-
-
 <a href="..\minitape\nf-minitape-tapeclasscomparememory.md">TapeClassCompareMemory</a>
+
+
+
+<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 

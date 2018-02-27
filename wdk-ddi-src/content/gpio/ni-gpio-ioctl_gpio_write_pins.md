@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Gpio.h
-apiname:
+api_name:
 -	IOCTL_GPIO_WRITE_PINS
 product: Windows
 targetos: Windows
@@ -128,7 +128,7 @@ For code examples that show how to use the <b>IOCTL_GPIO_WRITE_PINS</b> request 
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
 
 
@@ -136,7 +136,7 @@ For code examples that show how to use the <b>IOCTL_GPIO_WRITE_PINS</b> request 
 
 
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Dbgeng.h
-apiname:
+api_name:
 -	IDebugDataSpaces2.VirtualToPhysical
 -	IDebugDataSpaces3.VirtualToPhysical
 -	IDebugDataSpaces4.VirtualToPhysical

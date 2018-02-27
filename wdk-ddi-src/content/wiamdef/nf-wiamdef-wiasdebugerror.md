@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Wiaservc.dll
-apiname:
+api_name:
 -	wiasDebugError
 product: Windows
 targetos: Windows
@@ -111,11 +111,11 @@ The wiasDebugError function is not recommended for Windows XP and later. For Win
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a>
-
-
-
 <a href="..\wiautil\nf-wiautil-wias_lerror.md">WIAS_LERROR</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a>
 
 
 

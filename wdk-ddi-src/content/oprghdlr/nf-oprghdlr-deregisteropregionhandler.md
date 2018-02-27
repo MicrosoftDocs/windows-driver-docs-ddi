@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Oprghdlr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Oprghdlr.lib
 -	Oprghdlr.dll
-apiname:
+api_name:
 -	DeRegisterOpRegionHandler
 product: Windows
 targetos: Windows
@@ -142,11 +142,11 @@ For more information about operation regions, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\oprghdlr\nf-oprghdlr-registeropregionhandler.md">RegisterOpRegionHandler</a>
-
-
-
 <a href="..\oprghdlr\nc-oprghdlr-acpi_op_region_handler.md">ACPI_OP_REGION_HANDLER</a>
+
+
+
+<a href="..\oprghdlr\nf-oprghdlr-registeropregionhandler.md">RegisterOpRegionHandler</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3dkmddi.h
-apiname:
+api_name:
 -	DXGK_POWER_COMPONENT_MAPPING
 product: Windows
 targetos: Windows
@@ -121,11 +121,11 @@ An identifier of one of the video present targets associated with the VidPN obje
 
 ## -see-also
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_power_component_type.md">DXGK_POWER_COMPONENT_TYPE</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md">DXGK_POWER_RUNTIME_COMPONENT</a>
+
+
+
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_power_component_type.md">DXGK_POWER_COMPONENT_TYPE</a>
 
 
 

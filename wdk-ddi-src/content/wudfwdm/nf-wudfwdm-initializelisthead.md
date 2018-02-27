@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	InitializeListHead
 product: Windows
 targetos: Windows
@@ -97,15 +97,27 @@ Callers of <b>InitializeListHead</b> can be running at any IRQL. If <b>Initializ
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-insertheadlist.md">InsertHeadList</a>
-
-
-
 <a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
 
 
 
 <a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-removeentrylist.md">RemoveEntryList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-insertheadlist.md">InsertHeadList</a>
 
 
 
@@ -117,27 +129,7 @@ Callers of <b>InitializeListHead</b> can be running at any IRQL. If <b>Initializ
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-pushentrylist.md">PushEntryList</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-removeentrylist.md">RemoveEntryList</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinterlockedpushentrylist.md">ExInterlockedPushEntryList</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
+<a href="..\wdm\nf-wdm-exinterlockedpopentrylist.md">ExInterlockedPopEntryList</a>
 
 
 
@@ -145,11 +137,19 @@ Callers of <b>InitializeListHead</b> can be running at any IRQL. If <b>Initializ
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedpopentrylist.md">ExInterlockedPopEntryList</a>
-
-
-
 <a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-pushentrylist.md">PushEntryList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedpushentrylist.md">ExInterlockedPushEntryList</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 
 

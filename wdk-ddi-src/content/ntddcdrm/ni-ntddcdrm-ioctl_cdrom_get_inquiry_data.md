@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddcdrm.h
-apiname:
+api_name:
 -	IOCTL_CDROM_GET_INQUIRY_DATA
 product: Windows
 targetos: Windows
@@ -119,11 +119,11 @@ TBD
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_inquirydata.md">INQUIRYDATA</a>
-
-
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
+
+
+
+<a href="..\storport\ns-storport-_inquirydata.md">INQUIRYDATA</a>
 
 
 

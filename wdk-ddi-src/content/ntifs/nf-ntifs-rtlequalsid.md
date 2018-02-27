@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: Any
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname:
+api_name:
 -	RtlEqualSid
 product: Windows
 targetos: Windows
@@ -99,10 +99,6 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
 
 
@@ -112,6 +108,10 @@ For more information about security and access control, see the documentation on
 
 
 <a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pepfx.h
-apiname:
+api_name:
 -	PEP_COMPONENT_PERF_INFO
 product: Windows
 targetos: Windows
@@ -91,7 +91,7 @@ The <b>PEP_COMPONENT_PERF_INFO</b> structure contains input values that are supp
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_component_perf_info.md">PEP_COMPONENT_PERF_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186848">PEP_DPM_REGISTER_COMPONENT_PERF_STATES</a>
 
 
 
@@ -99,11 +99,11 @@ The <b>PEP_COMPONENT_PERF_INFO</b> structure contains input values that are supp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186848">PEP_DPM_REGISTER_COMPONENT_PERF_STATES</a>
-
-
-
 <a href="..\pepfx\ns-pepfx-_pep_register_component_perf_states.md">PEP_REGISTER_COMPONENT_PERF_STATES</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_component_perf_info.md">PEP_COMPONENT_PERF_INFO</a>
 
 
 

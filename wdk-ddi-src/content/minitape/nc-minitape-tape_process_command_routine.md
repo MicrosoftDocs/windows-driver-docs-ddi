@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	minitape.h
-apiname:
+api_name:
 -	(*TAPE_PROCESS_COMMAND_ROUTINE)
 product: Windows
 targetos: Windows
@@ -317,15 +317,15 @@ The minidriver returns the WMI data in the buffer pointed to by the <b>DataBuffe
 
 ## -see-also
 
-<a href="..\minitape\nf-minitape-tapeclasszeromemory.md">TapeClassZeroMemory</a>
-
-
-
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 
 <a href="..\minitape\nf-minitape-tapeclassallocatesrbbuffer.md">TapeClassAllocateSrbBuffer</a>
+
+
+
+<a href="..\minitape\nf-minitape-tapeclasszeromemory.md">TapeClassZeroMemory</a>
 
 
 

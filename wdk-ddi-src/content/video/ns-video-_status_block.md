@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	video.h
-apiname:
+api_name:
 -	STATUS_BLOCK
 product: Windows
 targetos: Windows
@@ -145,11 +145,11 @@ The requested operation has been carried out and completed successfully.
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
-
-
-
 <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
 
 
 

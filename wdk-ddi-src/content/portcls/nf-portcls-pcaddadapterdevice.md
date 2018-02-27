@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Portcls.lib
 -	Portcls.dll
-apiname:
+api_name:
 -	PcAddAdapterDevice
 product: Windows
 targetos: Windows
@@ -172,11 +172,7 @@ Variable <i>FunctionalDeviceObject</i> is a pointer to the audio adapter's FDO, 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
-
-
-
-<a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
@@ -184,7 +180,11 @@ Variable <i>FunctionalDeviceObject</i> is a pointer to the audio adapter's FDO, 
 
 
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	EhStorBandMgmt.h
-apiname:
+api_name:
 -	IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS
 product: Windows
 targetos: Windows
@@ -156,11 +156,11 @@ A driver or application can query for the necessary output buffer size by settin
 
 ## -see-also
 
-<b>ENUMERATE_BANDS_PARAMETERS</b>
-
-
-
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_enumerate_bands_parameters.md">BAND_TABLE</a>
+
+
+
+<b>ENUMERATE_BANDS_PARAMETERS</b>
 
 
 

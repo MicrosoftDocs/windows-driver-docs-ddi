@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddndis.h
-apiname:
+api_name:
 -	NDIS_ROUTING_DOMAIN_ENTRY
 product: Windows
 targetos: Windows
@@ -124,11 +124,11 @@ A <b>ULONG</b> value that specifies the offset, in bytes, to the first <b>NDIS_R
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn383683">NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_routing_domain_isolation_entry.md">NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -136,7 +136,7 @@ A <b>ULONG</b> value that specifies the offset, in bytes, to the first <b>NDIS_R
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn383683">NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

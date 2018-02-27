@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hbapiwmi.h
-apiname:
+api_name:
 -	GetPortAttributesByWWN_OUT
 product: Windows
 targetos: Windows
@@ -89,7 +89,7 @@ The WMI tool suite generates a declaration of the GetPortAttributesByWWN_OUT str
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattributesresults.md">MSFC_HBAPortAttributesResults</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554965">GetPortAttributesByWWN</a>
 
 
 
@@ -97,7 +97,7 @@ The WMI tool suite generates a declaration of the GetPortAttributesByWWN_OUT str
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554965">GetPortAttributesByWWN</a>
+<a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattributesresults.md">MSFC_HBAPortAttributesResults</a>
 
 
 

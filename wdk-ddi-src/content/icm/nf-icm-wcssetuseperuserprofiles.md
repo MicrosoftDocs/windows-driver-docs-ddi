@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Mscms.dll
-apiname:
+api_name:
 -	WcsSetUsePerUserProfiles
 product: Windows
 targetos: Windows

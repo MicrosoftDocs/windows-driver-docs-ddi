@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winsplp.h
-apiname:
+api_name:
 -	MESSAGEBOX_PARAMS
 product: Windows
 targetos: Windows
@@ -114,11 +114,11 @@ One member of the <a href="..\winsplp\ns-winsplp-showuiparams.md">SHOWUIPARAMS</
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-showuiparams.md">SHOWUIPARAMS</a>
-
-
-
 <a href="..\winsplp\nf-winsplp-splpromptuiinuserssession.md">SplPromptUIInUsersSession</a>
+
+
+
+<a href="..\winsplp\ns-winsplp-showuiparams.md">SHOWUIPARAMS</a>
 
 
 

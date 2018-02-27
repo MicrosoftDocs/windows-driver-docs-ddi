@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugDataSpaces.WritePointersVirtual
 -	IDebugDataSpaces2.WritePointersVirtual
 -	IDebugDataSpaces3.WritePointersVirtual
@@ -130,11 +130,7 @@ If the target uses 32-bit pointers, this method casts the specified  64-bit valu
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554323">ReadPointersVirtual</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561468">WriteVirtual</a>
 
 
 
@@ -142,7 +138,11 @@ If the target uses 32-bit pointers, this method casts the specified  64-bit valu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561468">WriteVirtual</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554323">ReadPointersVirtual</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
 
 

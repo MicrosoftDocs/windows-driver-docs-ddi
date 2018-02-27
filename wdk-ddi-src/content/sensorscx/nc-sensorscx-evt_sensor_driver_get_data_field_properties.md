@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "_requires_same_"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	SensorsCx.h
-apiname:
+api_name:
 -	EvtSensorGetDataFieldProperties
 product: Windows
 targetos: Windows
@@ -113,15 +113,15 @@ This function must be implemented by the driver and is called by the class exten
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957080">Proximity sensor data fields</a>
-
-
-
 <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946691">Sensor data fields</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957080">Proximity sensor data fields</a>
 
 
 

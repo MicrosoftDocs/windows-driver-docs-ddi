@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_DEVICE_CAPS
 product: Windows
 targetos: Windows
@@ -996,7 +996,15 @@ For CDMA-based devices, only CDMA-related data services must be specified. For e
 
 ## -see-also
 
+<a href="..\wwan\ne-wwan-_wwan_device_type.md">WWAN_DEVICE_TYPE</a>
+
+
+
 <a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_CELLULAR_CLASS</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_voice_class.md">WWAN_VOICE_CLASS</a>
 
 
 
@@ -1005,14 +1013,6 @@ For CDMA-based devices, only CDMA-related data services must be specified. For e
 
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_caps.md">NDIS_WWAN_DEVICE_CAPS</a>
-
-
-
-<a href="..\wwan\ne-wwan-_wwan_device_type.md">WWAN_DEVICE_TYPE</a>
-
-
-
-<a href="..\wwan\ne-wwan-_wwan_voice_class.md">WWAN_VOICE_CLASS</a>
 
 
 

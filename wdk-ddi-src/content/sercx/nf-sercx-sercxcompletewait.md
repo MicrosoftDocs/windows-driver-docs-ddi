@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	1.0\Sercx.h
-apiname:
+api_name:
 -	SerCxCompleteWait
 product: Windows
 targetos: Windows
@@ -120,6 +120,10 @@ Later, when an event in the new wait mask occurs, the driver calls <b>SerCxCompl
 
 ## -see-also
 
+<a href="..\sercx\nf-sercx-sercxgetwaitmask.md">SerCxGetWaitMask</a>
+
+
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
 
 
@@ -133,10 +137,6 @@ Later, when an event in the new wait mask occurs, the driver calls <b>SerCxCompl
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercxgetwaitmask.md">SerCxGetWaitMask</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Videoprt.sys
-apiname:
+api_name:
 -	VideoPortCompareMemory
 product: Windows
 targetos: Windows
@@ -111,7 +111,7 @@ Callers of <b>VideoPortCompareMemory</b> can be running at any IRQL if both bloc
 
 
 
-<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
+<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
 
 
 
@@ -119,11 +119,11 @@ Callers of <b>VideoPortCompareMemory</b> can be running at any IRQL if both bloc
 
 
 
+<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
+
+
+
 <a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
-
-
-
-<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
 
 
 

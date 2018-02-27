@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "_requires_same_"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	SensorsCx.h
-apiname:
+api_name:
 -	EvtSensorSetBatchLatency
 product: Windows
 targetos: Windows
@@ -105,11 +105,11 @@ For more information about the VT_FILETIME data type, see <a href="http://go.mic
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=313395">MSDN PROPVARIANT structure</a>
-
-
-
 <a href="..\sensorscx\nf-sensorscx-sensorscxsensordataready.md">SensorsCxSensorDataReady</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=313395">MSDN PROPVARIANT structure</a>
 
 
 

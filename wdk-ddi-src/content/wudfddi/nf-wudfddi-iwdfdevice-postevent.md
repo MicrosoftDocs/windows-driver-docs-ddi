@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WUDFx.dll
-apiname:
+api_name:
 -	IWDFDevice.PostEvent
 product: Windows
 targetos: Windows
@@ -172,11 +172,7 @@ For information about creating device events, see <a href="https://docs.microsof
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-field_offset.md">FIELD_OFFSET</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicepostevent.md">WdfDevicePostEvent</a>
 
 
 
@@ -184,7 +180,11 @@ For information about creating device events, see <a href="https://docs.microsof
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicepostevent.md">WdfDevicePostEvent</a>
+<a href="..\wdm\nf-wdm-field_offset.md">FIELD_OFFSET</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Dxgiddi.h
-apiname:
+api_name:
 -	DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
 product: Windows
 targetos: Windows

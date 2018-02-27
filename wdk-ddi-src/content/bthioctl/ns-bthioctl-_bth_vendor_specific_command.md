@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	bthioctl.h
-apiname:
+api_name:
 -	BTH_VENDOR_SPECIFIC_COMMAND
 product: Windows
 targetos: Windows
@@ -142,7 +142,7 @@ If such patterns are specified, the
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_command_header.md">BTH_COMMAND_HEADER</a>
+<a href="..\bthioctl\ns-bthioctl-_bth_vendor_pattern.md">BTH_VENDOR_PATTERN</a>
 
 
 
@@ -150,7 +150,7 @@ If such patterns are specified, the
 
 
 
-<a href="..\bthioctl\ns-bthioctl-_bth_vendor_pattern.md">BTH_VENDOR_PATTERN</a>
+<a href="..\bthioctl\ns-bthioctl-_bth_command_header.md">BTH_COMMAND_HEADER</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dmusicks.h
-apiname:
+api_name:
 -	DMUS_KERNEL_EVENT
 product: Windows
 targetos: Windows
@@ -194,11 +194,11 @@ Presentation time does not advance during the states KSSTATE_PAUSE and KSSTATE_S
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536494">IAllocatorMXF::GetMessage</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536494">IAllocatorMXF::GetMessage</a>
 
 
 

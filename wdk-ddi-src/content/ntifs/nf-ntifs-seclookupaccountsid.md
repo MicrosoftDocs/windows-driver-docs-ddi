@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ksecdd.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ksecdd.lib
 -	Ksecdd.dll
-apiname:
+api_name:
 -	SecLookupAccountSid
 product: Windows
 targetos: Windows
@@ -229,15 +229,15 @@ In addition to looking up SIDs for local accounts, local domain accounts, and ex
 
 
 
-<a href="..\ntifs\ne-ntifs-_sid_name_use.md">SID_NAME_USE</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
 
 
 
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
+<a href="..\ntifs\ne-ntifs-_sid_name_use.md">SID_NAME_USE</a>
 
 
 

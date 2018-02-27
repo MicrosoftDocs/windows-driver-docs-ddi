@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_SYS_CAPS_INFO
 product: Windows
 targetos: Windows
@@ -93,7 +93,7 @@ A unique 64-bit number that identifies the modem. This is required to distinguis
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sys_caps_info.md">NDIS_WWAN_SYS_CAPS_INFO</a>
+<a href="https://msdn.microsoft.com/653A35EC-29BB-458D-B33C-41EF6EF47A6E">NDIS_STATUS_WWAN_SYS_CAPS_INFO</a>
 
 
 
@@ -101,7 +101,7 @@ A unique 64-bit number that identifies the modem. This is required to distinguis
 
 
 
-<a href="https://msdn.microsoft.com/653A35EC-29BB-458D-B33C-41EF6EF47A6E">NDIS_STATUS_WWAN_SYS_CAPS_INFO</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sys_caps_info.md">NDIS_WWAN_SYS_CAPS_INFO</a>
 
 
 

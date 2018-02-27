@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section.)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Storport.h
-apiname:
+api_name:
 -	HwStorFindAdapter
 product: Windows
 targetos: Windows
@@ -246,6 +246,10 @@ The <b>HW_FIND_ADAPTER</b> function type is defined in the Storport.h header fil
 
 ## -see-also
 
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+
+
+
 <a href="..\storport\nf-storport-storportlogerror.md">StorPortLogError</a>
 
 
@@ -255,10 +259,6 @@ The <b>HW_FIND_ADAPTER</b> function type is defined in the Storport.h header fil
 
 
 <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
-
-
-
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
 
 
 

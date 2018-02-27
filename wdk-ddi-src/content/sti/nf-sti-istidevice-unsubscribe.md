@@ -29,14 +29,14 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Sti.h
-apiname:
+api_name:
 -	IStiDevice.UnSubscribe
 product: Windows
 targetos: Windows
@@ -88,11 +88,11 @@ Before calling <b>IStiDevice::UnSubscribe</b>, clients of the <b>IStiDevice</b> 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543768">IStiDevice::Subscribe</a>
-
-
-
 <a href="..\sti\nn-sti-istidevice.md">IStiDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543768">IStiDevice::Subscribe</a>
 
 
 

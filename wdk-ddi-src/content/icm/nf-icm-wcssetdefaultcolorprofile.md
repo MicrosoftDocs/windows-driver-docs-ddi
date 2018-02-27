@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Mscms.dll
-apiname:
+api_name:
 -	WcsSetDefaultColorProfile
 product: Windows
 targetos: Windows
@@ -121,6 +121,10 @@ This function is executable in Least-Privileged User Account (LUA) context if <i
 
 ## -see-also
 
+<a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
+
+
+
 <a href="..\icm\nf-icm-wcsgetdefaultcolorprofilesize.md">WcsGetDefaultColorProfileSize</a>
 
 
@@ -130,10 +134,6 @@ This function is executable in Least-Privileged User Account (LUA) context if <i
 
 
 <a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
-
-
-
-<a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
 
 
 

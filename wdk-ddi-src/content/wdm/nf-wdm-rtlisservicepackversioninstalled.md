@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Rtlver.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Rtlver.lib
 -	Rtlver.dll
-apiname:
+api_name:
 -	RtlIsServicePackVersionInstalled
 product: Windows
 targetos: Windows
@@ -294,11 +294,11 @@ The Windows kernel implements <b>RtlIsServicePackVersionInstalled</b> only in Wi
 
 
 
-<a href="..\wdm\nf-wdm-psgetversion.md">PsGetVersion</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
+
+
+
+<a href="..\wdm\nf-wdm-psgetversion.md">PsGetVersion</a>
 
 
 

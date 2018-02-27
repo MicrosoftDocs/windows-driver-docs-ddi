@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KSPIN_DESCRIPTOR_EX
 product: Windows
 targetos: Windows
@@ -262,6 +262,10 @@ Furthermore, if you specify KSPIN_FLAG_DO_NOT_INITIATE_PROCESSING and the pin us
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a>
+
+
+
 <a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
 
 
@@ -271,10 +275,6 @@ Furthermore, if you specify KSPIN_FLAG_DO_NOT_INITIATE_PROCESSING and the pin us
 
 
 <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
-
-
-
-<a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a>
 
 
 

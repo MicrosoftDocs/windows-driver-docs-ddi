@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	KeQueryInterruptTime
 product: Windows
 targetos: Windows
@@ -96,6 +96,10 @@ However, power-management state changes do affect the system interrupt time coun
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
+
+
+
 <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
 
 
@@ -108,15 +112,11 @@ However, power-management state changes do affect the system interrupt time coun
 
 
 
-<a href="https://msdn.microsoft.com/D66E0FC2-3AF2-489B-B4B5-78648905B77B">Acquiring high-resolution time stamps</a>
-
-
-
-<a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
-
-
-
 <a href="..\wdm\nf-wdm-kequeryunbiasedinterrupttime.md">KeQueryUnbiasedInterruptTime</a>
+
+
+
+<a href="https://msdn.microsoft.com/D66E0FC2-3AF2-489B-B4B5-78648905B77B">Acquiring high-resolution time stamps</a>
 
 
 

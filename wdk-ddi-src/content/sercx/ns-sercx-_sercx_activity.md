@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any IRQL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	1.0\Sercx.h
-apiname:
+api_name:
 -	SERCX_ACTIVITY
 product: Windows
 targetos: Windows
@@ -104,11 +104,11 @@ Typically, <b>SerCxGetActivity</b> is called from the main loop of the transmit/
 
 
 
+<a href="..\sercx\nf-sercx-sercxcompletewait.md">SerCxCompleteWait</a>
+
+
+
 <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercxgetactivity.md">SerCxGetActivity</a>
 
 
 
@@ -116,7 +116,7 @@ Typically, <b>SerCxGetActivity</b> is called from the main loop of the transmit/
 
 
 
-<a href="..\sercx\nf-sercx-sercxcompletewait.md">SerCxCompleteWait</a>
+<a href="..\sercx\nf-sercx-sercxgetactivity.md">SerCxGetActivity</a>
 
 
 

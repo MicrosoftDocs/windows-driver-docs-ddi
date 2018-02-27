@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Bdasup.lib
 -	Bdasup.dll
-apiname:
+api_name:
 -	BdaStartChanges
 product: Windows
 targetos: Windows
@@ -102,19 +102,19 @@ Calling the <b>BdaStartChanges</b> function causes any previously requested topo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563418">KSMETHOD_BDA_START_CHANGES</a>
-
-
-
-<a href="..\bdasup\nf-bdasup-bdacommitchanges.md">BdaCommitChanges</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563403">KSMETHODSETID_BdaChangeSync</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556518">BDA_CHANGE_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563418">KSMETHOD_BDA_START_CHANGES</a>
+
+
+
+<a href="..\bdasup\nf-bdasup-bdacommitchanges.md">BdaCommitChanges</a>
 
 
 

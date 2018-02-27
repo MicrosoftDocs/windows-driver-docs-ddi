@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname:
+api_name:
 -	NdisFDeregisterFilterDriver
 product: Windows
 targetos: Windows
@@ -100,11 +100,11 @@ A filter driver must call
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549936">FilterDriverUnload</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549936">FilterDriverUnload</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	filterpipeline.h
-apiname:
+api_name:
 -	IPrintPipelineProgressReport.ReportProgress
 product: Windows
 targetos: Windows
@@ -83,11 +83,11 @@ An <a href="..\filterpipeline\ne-filterpipeline-__midl___midl_itf_filterpipeline
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-iprintpipelineprogressreport.md">IPrintPipelineProgressReport</a>
-
-
-
 <a href="..\filterpipeline\ne-filterpipeline-__midl___midl_itf_filterpipeline_0000_0000_0003.md">EXpsJobConsumption</a>
+
+
+
+<a href="..\filterpipeline\nn-filterpipeline-iprintpipelineprogressreport.md">IPrintPipelineProgressReport</a>
 
 
 

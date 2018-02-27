@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsIncrementCountedWorker
 product: Windows
 targetos: Windows
@@ -93,11 +93,11 @@ This should be called after an addition has been made to the worker's list of ta
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksregistercountedworker.md">KsRegisterCountedWorker</a>
-
-
-
 <a href="..\ks\nf-ks-ksdecrementcountedworker.md">KsDecrementCountedWorker</a>
+
+
+
+<a href="..\ks\nf-ks-ksregistercountedworker.md">KsRegisterCountedWorker</a>
 
 
 

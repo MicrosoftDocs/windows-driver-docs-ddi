@@ -29,14 +29,14 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	prcomoem.h
-apiname:
+api_name:
 -	IPrintOemUI2.DocumentEvent
 product: Windows
 targetos: Windows
@@ -603,15 +603,7 @@ For a plug-in writer who is implementing the <b>IPrintOemUI2</b> interface, but 
 
 ## -see-also
 
-<a href="..\winddiui\ns-winddiui-_docevent_filter.md">DOCEVENT_FILTER</a>
-
-
-
 <a href="..\winddiui\ns-winddiui-_docevent_createdcpre.md">DOCEVENT_CREATEDCPRE</a>
-
-
-
-<a href="..\winddiui\ns-winddiui-_docevent_escape.md">DOCEVENT_ESCAPE</a>
 
 
 
@@ -620,6 +612,14 @@ For a plug-in writer who is implementing the <b>IPrintOemUI2</b> interface, but 
 
 
 <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
+
+
+
+<a href="..\winddiui\ns-winddiui-_docevent_escape.md">DOCEVENT_ESCAPE</a>
+
+
+
+<a href="..\winddiui\ns-winddiui-_docevent_filter.md">DOCEVENT_FILTER</a>
 
 
 

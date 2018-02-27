@@ -24,6 +24,7 @@
 ### [HidP_SetUsageValueArray function](../hidpi/nf-hidpi-hidp_setusagevaluearray.md)
 ### [HidP_TranslateUsagesToI8042ScanCodes function](../hidpi/nf-hidpi-hidp_translateusagestoi8042scancodes.md)
 ### [HidP_UnsetUsages function](../hidpi/nf-hidpi-hidp_unsetusages.md)
+### [HidP_UsageAndPageListDifference function](../hidpi/nf-hidpi-hidp_usageandpagelistdifference.md)
 ### [HidP_UsageListDifference function](../hidpi/nf-hidpi-hidp_usagelistdifference.md)
 ### [_HIDP_BUTTON_CAPS structure](../hidpi/ns-hidpi-_hidp_button_caps.md)
 ### [_HIDP_CAPS structure](../hidpi/ns-hidpi-_hidp_caps.md)

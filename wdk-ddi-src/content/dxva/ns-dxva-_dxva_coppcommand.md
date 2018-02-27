@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dxva.h
-apiname:
+api_name:
 -	DXVA_COPPCommand
 product: Windows
 targetos: Windows
@@ -149,14 +149,6 @@ For a DXVA_COPPSetSignaling command, the signaling information is supplied by ca
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
 
 
@@ -166,6 +158,14 @@ For a DXVA_COPPSetSignaling command, the signaling information is supplied by ca
 
 
 <a href="..\dxva\ns-dxva-_dxva_coppsetsignalingcmddata.md">DXVA_COPPSetSignalingCmdData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a>
 
 
 

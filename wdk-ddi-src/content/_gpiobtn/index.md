@@ -2,7 +2,7 @@
 UID: TP:gpiobtn
 ms.assetid: 44f18b04-69c6-3937-b9a0-04797d713edc
 ms.author: windowsdriverdev
-ms.date: 01/18/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

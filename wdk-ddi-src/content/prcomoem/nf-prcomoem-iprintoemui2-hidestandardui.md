@@ -29,14 +29,14 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	prcomoem.h
-apiname:
+api_name:
 -	IPrintOemUI2.HideStandardUI
 product: Windows
 targetos: Windows
@@ -195,7 +195,7 @@ When the printer has multiple UI plug-ins installed, the driver calls UI plug-in
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>
+<a href="..\prcomoem\nn-prcomoem-iprintoemui2.md">IPrintOemUI2</a>
 
 
 
@@ -203,7 +203,7 @@ When the printer has multiple UI plug-ins installed, the driver calls UI plug-in
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemui2.md">IPrintOemUI2</a>
+<a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>
 
 
 

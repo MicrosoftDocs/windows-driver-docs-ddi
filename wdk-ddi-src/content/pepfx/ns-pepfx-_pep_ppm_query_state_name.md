@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pepfx.h
-apiname:
+api_name:
 -	PEP_PPM_QUERY_STATE_NAME
 product: Windows
 targetos: Windows
@@ -88,11 +88,11 @@ If <b>Name</b> is not <b>NULL</b>, supplies the size of the <b>Name</b> buffer, 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186786">PEP_NOTIFY_PPM_QUERY_PROCESSOR_STATE_NAME notification</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186778">PEP_NOTIFY_PPM_QUERY_COORDINATED_STATE_NAME notification</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186786">PEP_NOTIFY_PPM_QUERY_PROCESSOR_STATE_NAME notification</a>
 
 
 

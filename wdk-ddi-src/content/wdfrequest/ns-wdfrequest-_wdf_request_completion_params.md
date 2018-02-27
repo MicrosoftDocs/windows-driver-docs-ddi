@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfrequest.h
-apiname:
+api_name:
 -	WDF_REQUEST_COMPLETION_PARAMS
 product: Windows
 targetos: Windows
@@ -287,6 +287,10 @@ The <b>Parameters.Others.Argument</b>  members are custom arguments that a drive
 
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetcompletionparams.md">WdfRequestGetCompletionParams</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dumddi.h
-apiname:
+api_name:
 -	D3DDDIARG_VIDEOPROCESSBLT
 product: Windows
 targetos: Windows
@@ -168,19 +168,11 @@ For example, consider video that natively has 1920 x 1080 pixels and that is dis
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_procampvalues.md">DXVADDI_PROCAMPVALUES</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessblt.md">VideoProcessBlt</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videosample.md">DXVADDI_VIDEOSAMPLE</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_ayuvsample8.md">DXVADDI_AYUVSAMPLE8</a>
 
 
 
@@ -188,7 +180,11 @@ For example, consider video that natively has 1920 x 1080 pixels and that is dis
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_procampvalues.md">DXVADDI_PROCAMPVALUES</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessblt.md">VideoProcessBlt</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
 
 
 
@@ -196,7 +192,11 @@ For example, consider video that natively has 1920 x 1080 pixels and that is dis
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_ayuvsample8.md">DXVADDI_AYUVSAMPLE8</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videosample.md">DXVADDI_VIDEOSAMPLE</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
 
 
 

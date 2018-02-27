@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dumddi.h
-apiname:
+api_name:
 -	DXVADDI_VIDEOSAMPLE
 product: Windows
 targetos: Windows
@@ -128,15 +128,7 @@ typedef struct _DXVADDI_VIDEOSAMPLE {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_ayuvsample8.md">DXVADDI_AYUVSAMPLE8</a>
 
 
 
@@ -144,7 +136,15 @@ typedef struct _DXVADDI_VIDEOSAMPLE {
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_ayuvsample8.md">DXVADDI_AYUVSAMPLE8</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a>
 
 
 

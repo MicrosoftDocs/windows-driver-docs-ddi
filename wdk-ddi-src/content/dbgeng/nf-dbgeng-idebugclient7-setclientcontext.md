@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugClient7.SetClientContext
 product: Windows
 targetos: Windows
@@ -89,11 +89,11 @@ The <b>SetClientContext</b> method is reserved for internal use.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient7.md">IDebugClient7</a>
-
-
-
 <a href="..\dbgeng\ns-dbgeng-_debug_client_context.md">DEBUG_CLIENT_CONTEXT</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient7.md">IDebugClient7</a>
 
 
 

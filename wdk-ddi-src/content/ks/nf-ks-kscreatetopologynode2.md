@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ks.h
-apiname:
+api_name:
 -	KsCreateTopologyNode2
 product: Windows
 targetos: Windows
@@ -112,7 +112,7 @@ This is a new version of the <a href="..\ks\nf-ks-kscreatetopologynode.md">KsCre
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 
@@ -120,7 +120,7 @@ This is a new version of the <a href="..\ks\nf-ks-kscreatetopologynode.md">KsCre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a>
 
 
 

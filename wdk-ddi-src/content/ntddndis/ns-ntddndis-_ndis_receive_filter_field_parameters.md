@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddndis.h
-apiname:
+api_name:
 -	NDIS_RECEIVE_FILTER_FIELD_PARAMETERS
 product: Windows
 targetos: Windows
@@ -437,15 +437,7 @@ If a VLAN tag is present in the received packet, the network adapter must remove
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_mac_header_field.md">NDIS_MAC_HEADER_FIELD</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_arp_header_field.md">NDIS_ARP_HEADER_FIELD</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_frame_header.md">NDIS_FRAME_HEADER</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_ipv4_header_field.md">NDIS_IPV4_HEADER_FIELD</a>
 
 
 
@@ -454,19 +446,11 @@ If a VLAN tag is present in the received packet, the network adapter must remove
 
 
 
+<a href="..\ntddndis\ne-ntddndis-_ndis_frame_header.md">NDIS_FRAME_HEADER</a>
+
+
+
 <a href="..\ntddndis\ne-ntddndis-_ndis_receive_filter_test.md">NDIS_RECEIVE_FILTER_TEST</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_ipv4_header_field.md">NDIS_IPV4_HEADER_FIELD</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
 
 
 
@@ -474,7 +458,23 @@ If a VLAN tag is present in the received packet, the network adapter must remove
 
 
 
+<a href="..\ntddndis\ne-ntddndis-_ndis_mac_header_field.md">NDIS_MAC_HEADER_FIELD</a>
+
+
+
 <a href="..\ntddndis\ne-ntddndis-_ndis_udp_header_field.md">NDIS_UDP_HEADER_FIELD</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_arp_header_field.md">NDIS_ARP_HEADER_FIELD</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

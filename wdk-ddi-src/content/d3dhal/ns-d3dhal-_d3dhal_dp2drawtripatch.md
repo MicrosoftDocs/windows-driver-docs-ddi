@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dhal.h
-apiname:
+api_name:
 -	D3DHAL_DP2DRAWTRIPATCH
 product: Windows
 targetos: Windows
@@ -109,11 +109,7 @@ The driver receives notification that cached patch information is be released vi
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawrectpatch.md">D3DHAL_DP2DRAWRECTPATCH</a>
-
-
-
-D3DDP2OP_DRAWTRIPATCH
+D3DRS_DELETERTPATCH
 
 
 
@@ -121,11 +117,15 @@ D3DDP2OP_DRAWTRIPATCH
 
 
 
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawrectpatch.md">D3DHAL_DP2DRAWRECTPATCH</a>
+
+
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
-D3DRS_DELETERTPATCH
+D3DDP2OP_DRAWTRIPATCH
 
 
 

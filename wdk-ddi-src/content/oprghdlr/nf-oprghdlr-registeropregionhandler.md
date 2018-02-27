@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Oprghdlr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Oprghdlr.lib
 -	Oprghdlr.dll
-apiname:
+api_name:
 -	RegisterOpRegionHandler
 product: Windows
 targetos: Windows

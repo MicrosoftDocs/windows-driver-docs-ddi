@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	Dot11ExtGetProfileCustomUserData
 product: Windows
 targetos: Windows
@@ -150,6 +150,14 @@ The caller is responsible for freeing the memory allocated for the buffer pointe
 
 ## -see-also
 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11ext_set_profile_custom_user_data.md">
    Dot11ExtSetProfileCustomUserData</a>
 
@@ -161,14 +169,6 @@ The caller is responsible for freeing the memory allocated for the buffer pointe
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_set_current_profile.md">Dot11ExtSetCurrentProfile</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 

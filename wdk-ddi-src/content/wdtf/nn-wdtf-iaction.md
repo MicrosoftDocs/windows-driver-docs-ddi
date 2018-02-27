@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtf.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WDTF.Interop.metadata_dll.dll
-apiname:
+api_name:
 -	IAction
 -	IAction.SetTarget
 product: Windows
@@ -100,15 +100,15 @@ For a listing of all action interfaces included in WDTF, see <a href="https://ms
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a>
+
+
+
 <a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
 
 
 
 <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
-
-
-
-<a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a>
 
 
 

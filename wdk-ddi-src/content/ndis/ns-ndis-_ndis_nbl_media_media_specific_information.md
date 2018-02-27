@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndis.h
-apiname:
+api_name:
 -	NDIS_NBL_MEDIA_SPECIFIC_INFORMATION
 product: Windows
 targetos: Windows
@@ -118,7 +118,8 @@ To access NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structures in a linked list, use t
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_nbl_media_specific_information_ex.md">NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566520">
+   NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO</a>
 
 
 
@@ -126,13 +127,7 @@ To access NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structures in a linked list, use t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566520">
-   NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566503">
-   NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
@@ -141,7 +136,12 @@ To access NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structures in a linked list, use t
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566503">
+   NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_nbl_media_specific_information_ex.md">NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX</a>
 
 
 

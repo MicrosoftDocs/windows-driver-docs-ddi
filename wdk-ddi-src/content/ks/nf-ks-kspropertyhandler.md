@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsPropertyHandler
 product: Windows
 targetos: Windows
@@ -113,11 +113,11 @@ The owner of the property sets can perform prefiltering or postfiltering of prop
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspropertyhandlerwithallocator.md">KsPropertyHandlerWithAllocator</a>
-
-
-
 <a href="..\ks\nf-ks-ksfastpropertyhandler.md">KsFastPropertyHandler</a>
+
+
+
+<a href="..\ks\nf-ks-kspropertyhandlerwithallocator.md">KsPropertyHandlerWithAllocator</a>
 
 
 

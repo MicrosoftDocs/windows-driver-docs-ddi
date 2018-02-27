@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoReportInterruptInactive
 product: Windows
 targetos: Windows
@@ -99,7 +99,7 @@ For more information about <b>IoReportInterruptInactive</b>, see <a href="https:
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
+<a href="..\wdm\nf-wdm-ioreportinterruptactive.md">IoReportInterruptActive</a>
 
 
 
@@ -111,7 +111,7 @@ For more information about <b>IoReportInterruptInactive</b>, see <a href="https:
 
 
 
-<a href="..\wdm\nf-wdm-ioreportinterruptactive.md">IoReportInterruptActive</a>
+<a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
 
 
 

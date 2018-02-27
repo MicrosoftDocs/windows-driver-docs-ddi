@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	RtlCreateAcl
 product: Windows
 targetos: Windows
@@ -219,11 +219,15 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a>
+
+
+
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 
 
@@ -231,15 +235,11 @@ For more information about security and access control, see the documentation on
 
 
 
+<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 
 

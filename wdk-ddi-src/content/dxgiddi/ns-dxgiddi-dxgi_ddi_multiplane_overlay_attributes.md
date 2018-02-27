@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Dxgiddi.h
-apiname:
+api_name:
 -	DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES
 product: Windows
 targetos: Windows
@@ -187,19 +187,15 @@ Specifies the overlay plane's stretch quality, given as a value from the <a href
 
 ## -see-also
 
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_video_frame_format.md">DXGI_DDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a>
-
-
-
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_stretch_quality.md">DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a>
-
-
-
 <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_ycbcr_flags.md">DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS</a>
 
 
 
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_stereo_format.md">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FORMAT</a>
+<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_rotation.md">DXGI_DDI_MODE_ROTATION</a>
+
+
+
+<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_video_frame_format.md">DXGI_DDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a>
 
 
 
@@ -207,7 +203,11 @@ Specifies the overlay plane's stretch quality, given as a value from the <a href
 
 
 
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_stereo_flip_mode.md">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a>
+<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_stereo_format.md">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FORMAT</a>
+
+
+
+<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_stretch_quality.md">DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a>
 
 
 
@@ -215,7 +215,7 @@ Specifies the overlay plane's stretch quality, given as a value from the <a href
 
 
 
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_rotation.md">DXGI_DDI_MODE_ROTATION</a>
+<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_stereo_flip_mode.md">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a>
 
 
 

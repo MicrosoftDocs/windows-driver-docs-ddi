@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wiamindr_lh.h
-apiname:
+api_name:
 -	WIA_PROPERTY_CONTEXT
 product: Windows
 targetos: Windows
@@ -102,11 +102,7 @@ Several WIA service library functions use the WIA_PROPERTY_CONTEXT structure. Th
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetpropchanged.md">wiasSetPropChanged</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluelong.md">wiasGetChangedValueLong</a>
+<a href="..\wiamdef\nf-wiamdef-wiascreatepropcontext.md">wiasCreatePropContext</a>
 
 
 
@@ -122,15 +118,19 @@ Several WIA service library functions use the WIA_PROPERTY_CONTEXT structure. Th
 
 
 
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluestr.md">wiasGetChangedValueStr</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiassetpropchanged.md">wiasSetPropChanged</a>
+
+
+
 <a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiascreatepropcontext.md">wiasCreatePropContext</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluestr.md">wiasGetChangedValueStr</a>
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluelong.md">wiasGetChangedValueLong</a>
 
 
 

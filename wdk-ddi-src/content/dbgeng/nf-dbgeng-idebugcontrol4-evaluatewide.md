@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugControl4.EvaluateWide
 product: Windows
 targetos: Windows
@@ -144,7 +144,7 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
 
 
@@ -152,11 +152,11 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
 
 

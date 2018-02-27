@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3dkmddi.h
-apiname:
+api_name:
 -	DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
 product: Windows
 targetos: Windows

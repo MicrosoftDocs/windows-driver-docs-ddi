@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Ntoskrnl.exe
-apiname:
+api_name:
 -	PoFxQueryCurrentComponentPerfState
 product: Windows
 targetos: Windows
@@ -146,15 +146,15 @@ This call always executes synchronously.
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_COMPONENT_PERF_INFO</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
 
 
 
 <a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_COMPONENT_PERF_INFO</a>
 
 
 

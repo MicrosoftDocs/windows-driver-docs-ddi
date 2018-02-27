@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddndis.h
-apiname:
+api_name:
 -	NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO
 product: Windows
 targetos: Windows
@@ -122,15 +122,15 @@ A USHORT value that uniquely identifies the device type of the VF network adapte
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451913">OID_SRIOV_VF_VENDOR_DEVICE_ID</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
 
 
 

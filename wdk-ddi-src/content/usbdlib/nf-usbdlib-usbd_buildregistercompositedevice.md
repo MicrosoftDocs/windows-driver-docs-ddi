@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Usbdex.lib
 req.dll: 
 req.irql: "< = DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Usbdex.lib
 -	Usbdex.dll
-apiname:
+api_name:
 -	USBD_BuildRegisterCompositeDevice
 product: Windows
 targetos: Windows
@@ -105,11 +105,11 @@ This routine does not return a value.
 
 ## -see-also
 
-<a href="..\usbdlib\ns-usbdlib-_register_composite_device.md">REGISTER_COMPOSITE_DEVICE</a>
-
-
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_register_composite_device.md">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a>
+
+
+
+<a href="..\usbdlib\ns-usbdlib-_register_composite_device.md">REGISTER_COMPOSITE_DEVICE</a>
 
 
 

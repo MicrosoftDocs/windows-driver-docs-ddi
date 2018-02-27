@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	netio.lib
 -	netio.dll
-apiname:
+api_name:
 -	WskQueryProviderCharacteristics
 product: Windows
 targetos: Windows
@@ -146,11 +146,11 @@ WSK clients can use this function to determine the WSK NPI versions supported by
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_provider_characteristics.md">WSK_PROVIDER_CHARACTERISTICS</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
 
 
 

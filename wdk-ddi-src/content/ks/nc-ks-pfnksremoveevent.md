@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	AVStrMiniRemoveEvent
 product: Windows
 targetos: Windows
@@ -127,11 +127,7 @@ Otherwise, your <i>AVStrMiniRemoveEvent</i> should reverse the steps taken in th
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
-
-
-
-<a href="..\ks\ns-ks-ksautomation_table_.md">KSAUTOMATION_TABLE</a>
+<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
 
 
 
@@ -143,11 +139,15 @@ Otherwise, your <i>AVStrMiniRemoveEvent</i> should reverse the steps taken in th
 
 
 
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+
+
+
 <a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
 
 
 
-<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
+<a href="..\ks\ns-ks-ksautomation_table_.md">KSAUTOMATION_TABLE</a>
 
 
 

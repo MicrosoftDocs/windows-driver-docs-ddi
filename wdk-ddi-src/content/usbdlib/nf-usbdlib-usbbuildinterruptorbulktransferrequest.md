@@ -29,14 +29,14 @@ req.type-library:
 req.lib: usbdlib.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	usbdlib.h
-apiname:
+api_name:
 -	UsbBuildInterruptOrBulkTransferRequest
 product: Windows
 targetos: Windows
@@ -131,7 +131,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 
@@ -139,7 +139,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
 
 

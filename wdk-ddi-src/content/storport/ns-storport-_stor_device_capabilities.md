@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	storport.h
-apiname:
+api_name:
 -	STOR_DEVICE_CAPABILITIES
 product: Windows
 targetos: Windows
@@ -161,15 +161,15 @@ Starting with Windows 8, miniports should use the <a href="..\storport\ns-storp
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
+
+
+
 <a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a>
 
 
 
 <a href="..\storport\ns-storport-_stor_device_capabilities_ex.md">STOR_DEVICE_CAPABILITIES_EX</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Printerextension.h
-apiname:
+api_name:
 -	IPrinterQueueViewEvent.OnChanged
 product: Windows
 targetos: Windows
@@ -111,10 +111,6 @@ The job range is controlled by the <a href="..\printerextension\nn-printerextens
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintjobcollection.md">IPrintJobCollection</a>
-
-
-
 <a href="https://msdn.microsoft.com/DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0">IPrinterQueueView::SetViewRange</a>
 
 
@@ -124,6 +120,10 @@ The job range is controlled by the <a href="..\printerextension\nn-printerextens
 
 
 <a href="..\printerextension\nn-printerextension-iprinterqueueview.md">IPrinterQueueView</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintjobcollection.md">IPrintJobCollection</a>
 
 
 

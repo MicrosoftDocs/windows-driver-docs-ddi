@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Storport.h
-apiname:
+api_name:
 -	HwStorAdapterControl
 product: Windows
 targetos: Windows
@@ -1010,7 +1010,7 @@ The <b>HW_ADAPTER_CONTROL</b> function type is defined in the Storport.h header 
 
 
 
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+<a href="..\storport\nf-storport-storportsetpowersettingnotificationguids.md">StorPortSetPowerSettingNotificationGuids</a>
 
 
 
@@ -1022,7 +1022,7 @@ The <b>HW_ADAPTER_CONTROL</b> function type is defined in the Storport.h header 
 
 
 
-<a href="..\storport\nf-storport-storportsetpowersettingnotificationguids.md">StorPortSetPowerSettingNotificationGuids</a>
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
 
 
 

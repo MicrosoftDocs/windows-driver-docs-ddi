@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	1.0\Sercx.h
-apiname:
+api_name:
 -	SerCxProgressReceive
 product: Windows
 targetos: Windows
@@ -155,11 +155,11 @@ If the <b>SerCxProgressReceive</b> does not complete all outstanding work for th
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxretrievereceivebuffer.md">SerCxRetrieveReceiveBuffer</a>
-
-
-
 <a href="..\sercx\ne-sercx-_sercx_status.md">SERCX_STATUS</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercxretrievereceivebuffer.md">SerCxRetrieveReceiveBuffer</a>
 
 
 

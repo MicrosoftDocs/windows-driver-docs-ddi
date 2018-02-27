@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	spbcxstubs.lib
 -	spbcxstubs.dll
-apiname:
+api_name:
 -	SpbRequestGetTransferParameters
 product: Windows
 targetos: Windows
@@ -164,11 +164,11 @@ for (ULONG i = 0; i &lt; parameters.SequenceCount; i += 1)
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406219">SPB_TRANSFER_DESCRIPTOR_INIT</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
 
 
 

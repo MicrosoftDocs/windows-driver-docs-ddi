@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname:
+api_name:
 -	VmbChannelPacketComplete
 product: Windows
 targetos: Windows

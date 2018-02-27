@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Gpioclx.h
-apiname:
+api_name:
 -	CLIENT_WriteGpioPins
 product: Windows
 targetos: Windows
@@ -153,7 +153,7 @@ The GPIO_CLIENT_WRITE_PINS function type is defined in the Gpioclx.h header file
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698259">GPIO_WRITE_PINS_PARAMETERS</a>
 
 
 
@@ -161,7 +161,7 @@ The GPIO_CLIENT_WRITE_PINS function type is defined in the Gpioclx.h header file
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698259">GPIO_WRITE_PINS_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
 

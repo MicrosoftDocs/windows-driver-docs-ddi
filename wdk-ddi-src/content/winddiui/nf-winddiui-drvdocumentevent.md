@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winddiui.h
-apiname:
+api_name:
 -	DrvDocumentEvent
 product: Windows
 targetos: Windows
@@ -660,11 +660,11 @@ The <b>DrvDocumentEvent</b> function executes in the context of the user-mode ca
 
 ## -see-also
 
-<a href="..\winddiui\ns-winddiui-_docevent_filter.md">DOCEVENT_FILTER</a>
-
-
-
 <a href="..\winddiui\ns-winddiui-_docevent_createdcpre.md">DOCEVENT_CREATEDCPRE</a>
+
+
+
+<a href="..\winddiui\ns-winddiui-_docevent_filter.md">DOCEVENT_FILTER</a>
 
 
 

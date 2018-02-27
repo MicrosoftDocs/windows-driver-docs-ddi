@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	UdecxUsbDevice.h
-apiname:
+api_name:
 -	UDECX_ENDPOINTS_CONFIGURE_PARAMS
 product: Windows
 targetos: Windows

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: xpsrassvc.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	xpsrassvc.h
-apiname:
+api_name:
 -	IXpsRasterizer.RasterizeRect
 product: Windows
 targetos: Windows
@@ -181,10 +181,6 @@ For a code example that calls the <code>RasterizeRect</code> method, see the XPS
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556366">IXpsRasterizer::SetMinimalLineWidth</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
 
 
@@ -194,6 +190,10 @@ For a code example that calls the <code>RasterizeRect</code> method, see the XPS
 
 
 <a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizer.md">IXpsRasterizer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556366">IXpsRasterizer::SetMinimalLineWidth</a>
 
 
 

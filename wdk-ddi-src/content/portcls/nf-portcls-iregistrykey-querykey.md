@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IRegistryKey.QueryKey
 product: Windows
 targetos: Windows
@@ -143,14 +143,6 @@ If the <i>KeyInformation</i> buffer is too small to hold the requested informati
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
-
-
-
-<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
-
-
-
 <a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
 
 
@@ -159,7 +151,15 @@ If the <i>KeyInformation</i> buffer is too small to hold the requested informati
 
 
 
+<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
+
+
+
 <a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
+
+
+
+<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
 
 

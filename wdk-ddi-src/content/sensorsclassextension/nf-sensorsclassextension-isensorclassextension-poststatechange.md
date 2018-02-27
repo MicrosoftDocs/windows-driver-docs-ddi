@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname:
+api_name:
 -	ISensorClassExtension.PostStateChange
 product: Windows
 targetos: Windows
@@ -185,11 +185,11 @@ The following example code demonstrates a function that posts a state-changed ev
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545598">ISensorDriver::OnClientUnsubscribeFromEvents</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545589">ISensorDriver::OnClientSubscribeToEvents</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545598">ISensorDriver::OnClientUnsubscribeFromEvents</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	IO_SESSION_STATE_INFORMATION
 product: Windows
 targetos: Windows
@@ -112,11 +112,11 @@ To obtain information about a user session, a driver calls the <b>IoGetContainer
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a>
-
-
-
 <a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a>
 
 
 

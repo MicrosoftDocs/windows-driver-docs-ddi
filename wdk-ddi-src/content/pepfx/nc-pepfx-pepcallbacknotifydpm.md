@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	pepfx.h
-apiname:
+api_name:
 -	AcceptDeviceNotification
 product: Windows
 targetos: Windows
@@ -109,15 +109,15 @@ The <i>AcceptDeviceNotification</i> routine can be called at IRQL &lt;= DISPATCH
 
 ## -see-also
 
+<a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a>
+
+
+
 <a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
 
 
 
 <a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a>
 
 
 

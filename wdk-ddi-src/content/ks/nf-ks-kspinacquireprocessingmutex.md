@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsPinAcquireProcessingMutex
 product: Windows
 targetos: Windows
@@ -93,7 +93,11 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
+<a href="..\ks\nf-ks-kspinreleasecontrol.md">KsPinReleaseControl</a>
+
+
+
+<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
 
 
 
@@ -101,11 +105,7 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 
 
-<a href="..\ks\nf-ks-kspinreleasecontrol.md">KsPinReleaseControl</a>
-
-
-
-<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
+<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KStrCancelTimer
 product: Windows
 targetos: Windows
@@ -105,11 +105,11 @@ If a minidriver supplies a <i>KStrCancelTimer</i> callback function, the minidri
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a>
-
-
-
 <a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a>
 
 
 

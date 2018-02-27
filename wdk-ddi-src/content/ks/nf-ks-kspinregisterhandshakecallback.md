@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsPinRegisterHandshakeCallback
 product: Windows
 targetos: Windows
@@ -101,19 +101,11 @@ Minidrivers that support private protocols between a given pin and another AVStr
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinregisterpowercallbacks.md">KsPinRegisterPowerCallbacks</a>
-
-
-
 <a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
 
 
 
-<a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a>
-
-
-
-<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
+<a href="..\ks\nf-ks-kspinregisterpowercallbacks.md">KsPinRegisterPowerCallbacks</a>
 
 
 
@@ -121,7 +113,15 @@ Minidrivers that support private protocols between a given pin and another AVStr
 
 
 
+<a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a>
+
+
+
 <a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
+
+
+
+<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
 
 
 

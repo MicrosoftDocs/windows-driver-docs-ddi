@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtfsystemaction.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WDTFSystemAction.Interop.dll
-apiname:
+api_name:
 -	IWDTFSystemAction2.SleepWakeTimeInSeconds
 -	IWDTFSystemAction2.get_SleepWakeTimeInSeconds
 -	IWDTFSystemAction2.put_SleepWakeTimeInSeconds

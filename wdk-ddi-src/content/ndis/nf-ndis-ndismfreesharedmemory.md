@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname:
+api_name:
 -	NdisMFreeSharedMemory
 product: Windows
 targetos: Windows
@@ -167,16 +167,17 @@ Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
    MiniportSharedMemoryAllocateComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_shutdown.md">MiniportShutdownEx</a>
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+   NdisMAllocateSharedMemoryAsyncEx</a>
 
 
 
@@ -188,8 +189,7 @@ Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of 
 
 
 
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
-   NdisMAllocateSharedMemoryAsyncEx</a>
+<a href="..\ndis\nc-ndis-miniport_shutdown.md">MiniportShutdownEx</a>
 
 
 

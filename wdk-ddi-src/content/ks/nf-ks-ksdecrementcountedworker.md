@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsDecrementCountedWorker
 product: Windows
 targetos: Windows
@@ -93,11 +93,11 @@ Returns the current counter. A count of zero implies that the task list has been
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksregistercountedworker.md">KsRegisterCountedWorker</a>
-
-
-
 <a href="..\ks\nf-ks-ksincrementcountedworker.md">KsIncrementCountedWorker</a>
+
+
+
+<a href="..\ks\nf-ks-ksregistercountedworker.md">KsRegisterCountedWorker</a>
 
 
 

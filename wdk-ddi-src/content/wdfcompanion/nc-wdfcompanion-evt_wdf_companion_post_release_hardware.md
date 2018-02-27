@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wdfcompanion.h
-apiname:
+api_name:
 -	EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
 product: Windows
 targetos: Windows

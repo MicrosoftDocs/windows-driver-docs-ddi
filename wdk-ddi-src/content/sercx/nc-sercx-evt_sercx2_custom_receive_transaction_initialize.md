@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	2.0\Sercx.h
-apiname:
+api_name:
 -	EvtSerCx2CustomReceiveTransactionInitialize
 product: Windows
 targetos: Windows
@@ -159,19 +159,19 @@ The <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE</b> function type is def
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2customreceivetransactioninitializecomplete.md">SerCx2CustomReceiveTransactionInitializeComplete</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
 
 
 
+<a href="..\sercx\nf-sercx-sercx2customreceivetransactioninitializecomplete.md">SerCx2CustomReceiveTransactionInitializeComplete</a>
+
+
+
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a>
 
 
 

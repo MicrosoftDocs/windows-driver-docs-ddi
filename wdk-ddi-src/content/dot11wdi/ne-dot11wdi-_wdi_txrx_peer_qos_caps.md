@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dot11wdi.h
-apiname:
+api_name:
 -	WDI_TXRX_PEER_QOS_CAPS
 product: Windows
 targetos: Windows

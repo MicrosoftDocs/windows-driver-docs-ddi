@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Printerextension.h
-apiname:
+api_name:
 -	IPrintSchematicket2.GetParameterInitializer
 product: Windows
 targetos: Windows
@@ -98,11 +98,11 @@ The <b>GetParameterInitializer</b> method returns an <b>HRESULT</b> value. If th
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket2.md">IPrintSchematicket2</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintschemaparameterinitializer.md">IPrintSchemaParameterInitializer</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintschematicket2.md">IPrintSchematicket2</a>
 
 
 

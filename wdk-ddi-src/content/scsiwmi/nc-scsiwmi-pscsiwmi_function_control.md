@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	scsiwmi.h
-apiname:
+api_name:
 -	HwScsiWmiFunctionControl
 product: Windows
 targetos: Windows
@@ -123,7 +123,7 @@ If the SRB is completed in the <b>HwScsiWmiFunctionControl</b> callback, then th
 
 ## -see-also
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
 
 
 
@@ -131,7 +131,7 @@ If the SRB is completed in the <b>HwScsiWmiFunctionControl</b> callback, then th
 
 
 
-<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
 
 
 

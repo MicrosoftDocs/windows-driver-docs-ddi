@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KSBUFFER_ITEM
 product: Windows
 targetos: Windows
@@ -89,11 +89,11 @@ KSBUFFER_ITEM extends the normal deferred procedure call (DPC) structure, which 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgeneratedataevent.md">KsGenerateDataEvent</a>
-
-
-
 <a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>
+
+
+
+<a href="..\ks\nf-ks-ksgeneratedataevent.md">KsGenerateDataEvent</a>
 
 
 

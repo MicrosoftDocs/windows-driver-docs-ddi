@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	mrx.h
-apiname:
+api_name:
 -	__RxFillAndInstallFastIoDispatch
 product: Windows
 targetos: Windows
@@ -108,7 +108,7 @@ For monolithic network mini-redirectors built by developers, the <b>__RxFillAndI
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
+<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
 
 
 
@@ -116,7 +116,7 @@ For monolithic network mini-redirectors built by developers, the <b>__RxFillAndI
 
 
 
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
+<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
 
 
 

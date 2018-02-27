@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	storport.h
-apiname:
+api_name:
 -	StorPortRequestTimer
 product: Windows
 targetos: Windows
@@ -192,11 +192,7 @@ The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
-
-
-
-<a href="..\storport\nc-storport-hw_timer.md">HwStorTimer</a>
+<a href="..\storport\nf-storport-storportfreetimer.md">StorPortFreeTimer</a>
 
 
 
@@ -204,7 +200,11 @@ The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the
 
 
 
-<a href="..\storport\nf-storport-storportfreetimer.md">StorPortFreeTimer</a>
+<a href="..\storport\nc-storport-hw_timer.md">HwStorTimer</a>
+
+
+
+<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
 
 
 

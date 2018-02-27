@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Hbaapi.dll
-apiname:
+api_name:
 -	HBA_RefreshAdapterConfiguration
 product: Windows
 targetos: Windows

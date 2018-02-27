@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Passive level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IMiniportWaveRT.GetDeviceDescription
 product: Windows
 targetos: Windows
@@ -92,11 +92,11 @@ The <i>DeviceDescription</i> parameter contains a pointer to a DEVICE_DESCRIPTIO
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
-
-
-
 <a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
 
 
 

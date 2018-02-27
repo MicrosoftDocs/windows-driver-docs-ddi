@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	printoem.h
-apiname:
+api_name:
 -	DEVOBJ
 product: Windows
 targetos: Windows
@@ -131,14 +131,6 @@ The DEVOBJ structure is accessible to graphics DDI hooking functions through the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
 
 
@@ -147,7 +139,15 @@ The DEVOBJ structure is accessible to graphics DDI hooking functions through the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554249">IPrintOemUni::EnablePDEV</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
 
 
 

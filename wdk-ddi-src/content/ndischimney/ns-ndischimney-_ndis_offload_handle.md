@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndischimney.h
-apiname:
+api_name:
 -	NDIS_OFFLOAD_HANDLE
 product: Windows
 targetos: Windows

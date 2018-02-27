@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Gdi32.dll
 -	API-MS-Win-DX-D3DKmt-l1-1-0.dll
 -	API-MS-Win-DX-D3DKmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname:
+api_name:
 -	D3DKMTOpenResource
 product: Windows
 targetos: Windows
@@ -131,11 +131,11 @@ This function might also return other <a href="https://msdn.microsoft.com/librar
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openresource.md">D3DKMT_OPENRESOURCE</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a>
 
 
 

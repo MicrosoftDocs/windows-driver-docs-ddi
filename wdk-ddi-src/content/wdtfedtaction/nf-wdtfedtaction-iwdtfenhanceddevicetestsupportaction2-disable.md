@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtfedtaction.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WDTFDriverEDTAction.Interop.dll
-apiname:
+api_name:
 -	IWDTFEnhancedDeviceTestSupportAction2.Disable
 product: Windows
 targetos: Windows

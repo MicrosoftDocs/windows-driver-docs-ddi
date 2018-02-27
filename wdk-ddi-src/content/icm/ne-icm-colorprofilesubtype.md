@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	icm.h
-apiname:
+api_name:
 -	COLORPROFILESUBTYPE
 product: Windows
 targetos: Windows
@@ -139,11 +139,11 @@ The PCOLORPROFILESUBTYPE and LPCOLORPROFILESUBTYPE data types are defined as poi
 
 ## -see-also
 
-<a href="..\icm\nf-icm-wcssetdefaultcolorprofile.md">WcsSetDefaultColorProfile</a>
-
-
-
 <a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
+
+
+
+<a href="..\icm\nf-icm-wcssetdefaultcolorprofile.md">WcsSetDefaultColorProfile</a>
 
 
 

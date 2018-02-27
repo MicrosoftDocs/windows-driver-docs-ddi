@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	storport.lib
 -	storport.dll
-apiname:
+api_name:
 -	StorPortPoFxPowerControl
 product: Windows
 targetos: Windows
@@ -208,11 +208,11 @@ Similarly, The PEP can send a power control request directly to the miniport. Th
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
-
-
-
 <a href="..\storport\nc-storport-hw_unit_control.md">HwStorUnitControl</a>
+
+
+
+<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
 
 

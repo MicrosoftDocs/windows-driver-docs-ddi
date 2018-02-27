@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtf.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WDTF.Interop.metadata_dll.dll
-apiname:
+api_name:
 -	IAction.SetTarget
 product: Windows
 targetos: Windows
@@ -100,7 +100,11 @@ The <b>SetTarget</b> method is used when you are creating WDTF actions.  Do not 
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iaction.md">IAction</a>
+<a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
+
+
+
+<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
 
@@ -108,15 +112,11 @@ The <b>SetTarget</b> method is used when you are creating WDTF actions.  Do not 
 
 
 
-<a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538355">Action interfaces</a>
 
 
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
+<a href="..\wdtf\nn-wdtf-iaction.md">IAction</a>
 
 
 

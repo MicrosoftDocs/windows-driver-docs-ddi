@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= APC_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	IO_SESSION_NOTIFICATION_FUNCTION
 product: Windows
 targetos: Windows
@@ -169,14 +169,6 @@ The IO_SESSION_NOTIFICATION_FUNCTION function type is defined in the Wdm.h heade
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_session_state_notification.md">IO_SESSION_STATE_NOTIFICATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioregistercontainernotification.md">IoRegisterContainerNotification</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a>
 
 
@@ -185,7 +177,15 @@ The IO_SESSION_NOTIFICATION_FUNCTION function type is defined in the Wdm.h heade
 
 
 
+<a href="..\wdm\ns-wdm-_io_session_state_notification.md">IO_SESSION_STATE_NOTIFICATION</a>
+
+
+
 <a href="..\wdm\ns-wdm-_io_session_connect_info.md">IO_SESSION_CONNECT_INFO</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioregistercontainernotification.md">IoRegisterContainerNotification</a>
 
 
 

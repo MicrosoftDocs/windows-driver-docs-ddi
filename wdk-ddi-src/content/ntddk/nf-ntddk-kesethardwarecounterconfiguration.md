@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	KeSetHardwareCounterConfiguration
 product: Windows
 targetos: Windows
@@ -159,7 +159,7 @@ Virtualization software typically does not virtualize hardware performance count
 
 
 
-<a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546593">HalFreeHardwareCounters</a>
 
 
 
@@ -167,7 +167,7 @@ Virtualization software typically does not virtualize hardware performance count
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546593">HalFreeHardwareCounters</a>
+<a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a>
 
 
 

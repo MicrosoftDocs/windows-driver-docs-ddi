@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Hidparse.lib
 -	Hidparse.dll
-apiname:
+api_name:
 -	HidP_SetData
 product: Windows
 targetos: Windows
@@ -251,26 +251,6 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_unsetusages.md">HidP_UnsetUsages</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539812">HidP_UnsetButtons</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539779">HidP_SetButtons</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_setusagevaluearray.md">HidP_SetUsageValueArray</a>
-
-
-
 <a href="..\hidpi\ns-hidpi-_hidp_data.md">HIDP_DATA</a>
 
 
@@ -279,7 +259,27 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539779">HidP_SetButtons</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_setusagevaluearray.md">HidP_SetUsageValueArray</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_unsetusages.md">HidP_UnsetUsages</a>
+
+
+
 <a href="..\hidpi\nf-hidpi-hidp_setusages.md">HidP_SetUsages</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539812">HidP_UnsetButtons</a>
 
 
 

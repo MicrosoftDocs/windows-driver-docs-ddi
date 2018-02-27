@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KSSTREAMALLOCATOR_FUNCTIONTABLE
 product: Windows
 targetos: Windows
@@ -93,11 +93,11 @@ This property is only accessible from kernel-mode.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567174">KStrFreeFrame</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567151">KStrAllocateFrame</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567174">KStrFreeFrame</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	prcomoem.h
-apiname:
+api_name:
 -	IPrintOemUni.MemoryUsage
 product: Windows
 targetos: Windows
@@ -172,15 +172,15 @@ The <code>IPrintOemUni::MemoryUsage</code> method is optional. If a rendering pl
 
 
 
+<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+
+
 <a href="..\printoem\ns-printoem-oemmemoryusage.md">OEMMEMORYUSAGE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
-
-
-
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
 
 
 

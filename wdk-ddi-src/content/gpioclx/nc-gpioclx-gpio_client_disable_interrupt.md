@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Gpioclx.h
-apiname:
+api_name:
 -	CLIENT_DisableInterrupt
 product: Windows
 targetos: Windows
@@ -151,11 +151,11 @@ The GPIO_CLIENT_DISABLE_INTERRUPT function type is defined in the Gpioclx.h head
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698249">GPIO_DISABLE_INTERRUPT_PARAMETERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698249">GPIO_DISABLE_INTERRUPT_PARAMETERS</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtf.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	wdtf.h
-apiname:
+api_name:
 -	ITracing.SetTraceLevel
 product: Windows
 targetos: Windows
@@ -188,7 +188,7 @@ else
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
+<a href="..\wdtf\nn-wdtf-itracer.md">ITracer</a>
 
 
 
@@ -196,7 +196,7 @@ else
 
 
 
-<a href="..\wdtf\nn-wdtf-itracer.md">ITracer</a>
+<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
 
 
 

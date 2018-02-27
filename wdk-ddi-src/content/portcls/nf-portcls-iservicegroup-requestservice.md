@@ -29,13 +29,13 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	kbSyntax
-apitype:
+api_type:
 -	<TBD>
-apilocation:
+api_location:
 -
-apiname:
+api_name:
 -	IServiceGroup::RequestService
 product: Windows
 targetos: Windows

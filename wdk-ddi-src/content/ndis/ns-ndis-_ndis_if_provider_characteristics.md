@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndis.h
-apiname:
+api_name:
 -	NDIS_IF_PROVIDER_CHARACTERISTICS
 product: Windows
 targetos: Windows
@@ -124,10 +124,6 @@ To register as an interface provider, the driver passes a pointer to the initial
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\ndis\nc-ndis-if_query_object.md">ProviderQueryObject</a>
 
 
@@ -137,6 +133,10 @@ To register as an interface provider, the driver passes a pointer to the initial
 
 
 <a href="..\ndis\nf-ndis-ndisifregisterprovider.md">NdisIfRegisterProvider</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

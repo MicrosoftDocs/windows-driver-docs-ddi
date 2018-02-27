@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddk.h
-apiname:
+api_name:
 -	RtlFreeNonVolatileToken
 product: Windows
 targetos: Windows
@@ -124,7 +124,8 @@ This routine is currently not supported for Windows Server until the next major 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/49DDDEF8-F949-4674-A18B-9BB091D163C2">RtlWriteNonVolatileMemory</a>
+<a href="https://msdn.microsoft.com/759CDFAA-D939-44E7-AE03-E3ED90F8E09D">
+RtlFlushNonVolatileMemory</a>
 
 
 
@@ -132,8 +133,7 @@ This routine is currently not supported for Windows Server until the next major 
 
 
 
-<a href="https://msdn.microsoft.com/759CDFAA-D939-44E7-AE03-E3ED90F8E09D">
-RtlFlushNonVolatileMemory</a>
+<a href="https://msdn.microsoft.com/49DDDEF8-F949-4674-A18B-9BB091D163C2">RtlWriteNonVolatileMemory</a>
 
 
 

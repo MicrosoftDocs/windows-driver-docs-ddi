@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	BUS_INTERFACE_STANDARD
 product: Windows
 targetos: Windows
@@ -156,15 +156,7 @@ However, if a driver must obtain an adapter object while running at IRQL &gt;= D
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
-
-<a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
 
 
@@ -172,11 +164,15 @@ However, if a driver must obtain an adapter object while running at IRQL &gt;= D
 
 
 
-<a href="..\wdm\nc-wdm-translate_bus_address.md">TranslateBusAddress</a>
-
-
-
 <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>
+
+
+
+<a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 
@@ -184,19 +180,23 @@ However, if a driver must obtain an adapter object while running at IRQL &gt;= D
 
 
 
+<a href="..\wdm\nc-wdm-get_dma_adapter.md">GetDmaAdapter</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/gg604850">GetBusData</a>
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a>
 
 
 
-<a href="https://msdn.microsoft.com/d57c30b8-83bd-41c9-906d-b8c95f8ca54e">IRP_MN_WRITE_CONFIG </a>
-
-
-
-<a href="..\wdm\nc-wdm-get_dma_adapter.md">GetDmaAdapter</a>
+<a href="..\wdm\nc-wdm-translate_bus_address.md">TranslateBusAddress</a>
 
 
 
@@ -204,11 +204,11 @@ However, if a driver must obtain an adapter object while running at IRQL &gt;= D
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+<a href="https://msdn.microsoft.com/d57c30b8-83bd-41c9-906d-b8c95f8ca54e">IRP_MN_WRITE_CONFIG </a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a>
+<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
 
 
 

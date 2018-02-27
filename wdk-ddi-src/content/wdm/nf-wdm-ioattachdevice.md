@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoAttachDevice
 product: Windows
 targetos: Windows
@@ -116,6 +116,18 @@ This routine sets the <b>AlignmentRequirement</b> in <i>SourceDevice</i> to the 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+
+
+<a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetrelateddeviceobject.md">IoGetRelatedDeviceObject</a>
+
+
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
@@ -124,19 +136,7 @@ This routine sets the <b>AlignmentRequirement</b> in <i>SourceDevice</i> to the 
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetrelateddeviceobject.md">IoGetRelatedDeviceObject</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-ioattachdevicetodevicestacksafe.md">IoAttachDeviceToDeviceStackSafe</a>
-
-
-
-<a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
 
 
 

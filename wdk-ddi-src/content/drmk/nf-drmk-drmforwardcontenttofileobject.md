@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Drmk.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Drmk.lib
 -	Drmk.dll
-apiname:
+api_name:
 -	DrmForwardContentToFileObject
 product: Windows
 targetos: Windows
@@ -122,6 +122,14 @@ The <code>DrmForwardContentToFileObject</code> function authenticates the KS aud
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536584">IDrmPort::ForwardContentToFileObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
+
+
+
 <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
 
 
@@ -131,14 +139,6 @@ The <code>DrmForwardContentToFileObject</code> function authenticates the KS aud
 
 
 <a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536584">IDrmPort::ForwardContentToFileObject</a>
 
 
 

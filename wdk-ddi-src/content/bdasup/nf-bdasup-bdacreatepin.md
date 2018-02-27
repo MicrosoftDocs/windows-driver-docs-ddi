@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Bdasup.lib
 -	Bdasup.dll
-apiname:
+api_name:
 -	BdaCreatePin
 product: Windows
 targetos: Windows
@@ -107,10 +107,6 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethodcreatepin.md">B
 
 ## -see-also
 
-<a href="..\bdasup\nf-bdasup-bdadeletepin.md">BdaDeletePin</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
 
 
@@ -120,6 +116,10 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethodcreatepin.md">B
 
 
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+
+
+<a href="..\bdasup\nf-bdasup-bdadeletepin.md">BdaDeletePin</a>
 
 
 

@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ntoskrnl.lib
 -	ntoskrnl.dll
-apiname:
+api_name:
 -	FsRtlIssueDeviceIoControl
 product: Windows
 targetos: Windows

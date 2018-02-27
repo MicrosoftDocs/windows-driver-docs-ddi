@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3dumddi.h
-apiname:
+api_name:
 -	D3DDDICB_PRESENTMULTIPLANEOVERLAY
 product: Windows
 targetos: Windows
@@ -106,15 +106,15 @@ An array of structures of type <a href="..\d3dumddi\ns-d3dumddi-d3dddi_multiplan
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
-
-
-
 <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
 
 
 
 <a href="..\d3dumddi\ns-d3dumddi-d3dddi_multiplane_overlay_allocation_info.md">D3DDDI_MULTIPLANE_ALLOCATION_INFO</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
 
 
 

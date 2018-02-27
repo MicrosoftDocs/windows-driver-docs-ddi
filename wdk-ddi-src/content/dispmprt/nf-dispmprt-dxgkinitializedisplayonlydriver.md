@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Displib.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Displib.lib
 -	Displib.dll
-apiname:
+api_name:
 -	DxgkInitializeDisplayOnlyDriver
 product: Windows
 targetos: Windows
@@ -106,14 +106,6 @@ All parameters that are supplied by the KMDOD can be in paged memory.
 
 ## -see-also
 
-<a href="..\dispmprt\nf-dispmprt-dxgkinitialize.md">DxgkInitialize</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
-
-
-
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
@@ -122,7 +114,15 @@ All parameters that are supplied by the KMDOD can be in paged memory.
 
 
 
+<a href="..\dispmprt\nf-dispmprt-dxgkinitialize.md">DxgkInitialize</a>
+
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
 
 
 

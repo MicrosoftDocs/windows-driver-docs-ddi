@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfworkitem.h
-apiname:
+api_name:
 -	WDF_WORKITEM_CONFIG_INIT
 product: Windows
 targetos: Windows
@@ -109,7 +109,7 @@ For a code example that uses <b>WDF_WORKITEM_CONFIG_INIT</b>, see <a href="..\wd
 
 ## -see-also
 
-<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
+<a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
 
 
 
@@ -117,7 +117,7 @@ For a code example that uses <b>WDF_WORKITEM_CONFIG_INIT</b>, see <a href="..\wd
 
 
 
-<a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
+<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
 
 
 

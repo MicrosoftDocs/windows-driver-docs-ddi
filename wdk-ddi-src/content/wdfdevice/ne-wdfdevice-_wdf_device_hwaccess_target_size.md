@@ -29,15 +29,15 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfdevice.h
 -	wudfddi_types.h
-apiname:
+api_name:
 -	WDF_DEVICE_HWACCESS_TARGET_TYPE
 product: Windows
 targetos: Windows

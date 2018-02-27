@@ -29,15 +29,15 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	dispmprt.h
 -	d3dkmddi.h
-apiname:
+api_name:
 -	DxgkCbReserveGpuVirtualAddressRange
 product: Windows
 targetos: Windows
@@ -101,11 +101,11 @@ The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_reservegpuvirtualaddressrange.md
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_reservegpuvirtualaddressrange.md">DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>
 
 
 

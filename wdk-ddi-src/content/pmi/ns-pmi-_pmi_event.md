@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pmi.h
-apiname:
+api_name:
 -	PMI_EVENT
 product: Windows
 targetos: Windows
@@ -200,19 +200,7 @@ The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiat
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
-
-
-
-<a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
-
-
-
-<a href="..\pmi\ne-pmi-pmi_event_type.md">PMI_EVENT_TYPE</a>
 
 
 
@@ -220,7 +208,19 @@ The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiat
 
 
 
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\pmi\ne-pmi-pmi_event_type.md">PMI_EVENT_TYPE</a>
+
+
+
 <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
+
+
+
+<a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddvol.h
-apiname:
+api_name:
 -	VOLUME_READ_PLEX_INPUT
 product: Windows
 targetos: Windows

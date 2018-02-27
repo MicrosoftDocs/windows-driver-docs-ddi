@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Passive level.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Portcls.h
-apiname:
+api_name:
 -	IPortWaveRTStream.GetPhysicalPagesCount
 product: Windows
 targetos: Windows
@@ -92,11 +92,11 @@ The miniport driver uses this call to determine the number of physical pages tha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536924">IPortWaveRTStream::AllocateContiguousPagesForMdl</a>
-
-
-
 <a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536928">IPortWaveRTStream::GetPhysicalPageAddress</a>
 
 
 
@@ -104,7 +104,7 @@ The miniport driver uses this call to determine the number of physical pages tha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536928">IPortWaveRTStream::GetPhysicalPageAddress</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536924">IPortWaveRTStream::AllocateContiguousPagesForMdl</a>
 
 
 

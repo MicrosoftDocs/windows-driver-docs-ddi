@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pepfx.h
-apiname:
+api_name:
 -	PEP_COORDINATED_DEPENDENCY_OPTION
 product: Windows
 targetos: Windows
@@ -98,11 +98,11 @@ Indicates if this state is a valid state for a dependent processor to be in.
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_ppm_query_coordinated_dependency.md">PEP_PPM_QUERY_COORDINATED_DEPENDENCY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186775">PEP_NOTIFY_PPM_QUERY_COORDINATED_DEPENDENCY notification</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_ppm_query_coordinated_dependency.md">PEP_PPM_QUERY_COORDINATED_DEPENDENCY</a>
 
 
 

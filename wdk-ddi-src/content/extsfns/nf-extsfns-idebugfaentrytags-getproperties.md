@@ -29,14 +29,14 @@ req.type-library:
 req.lib: extsfns.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	extsfns.h
-apiname:
+api_name:
 -	IDebugFAEntryTags.GetProperties
 product: Windows
 targetos: Windows
@@ -158,15 +158,15 @@ The caller passed at least one invalid parameter.
 
 ## -see-also
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
-
-
-
 <a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
 
 
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj991815">SetProperties</a>
+
+
+
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 
 
@@ -174,7 +174,7 @@ The caller passed at least one invalid parameter.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991815">SetProperties</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 

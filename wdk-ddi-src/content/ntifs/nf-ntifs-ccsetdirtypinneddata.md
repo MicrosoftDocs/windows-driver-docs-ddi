@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	CcSetDirtyPinnedData
 product: Windows
 targetos: Windows
@@ -102,15 +102,15 @@ None
 
 
 
+<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
 
 

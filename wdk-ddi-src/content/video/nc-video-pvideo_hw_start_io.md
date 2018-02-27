@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	video.h
-apiname:
+api_name:
 -	HwVidStartIO
 product: Windows
 targetos: Windows
@@ -128,7 +128,7 @@ However, every miniport driver's <i>HwVidStartIO</i> function must complete each
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570515">Video Miniport Driver I/O Control Codes</a>
+<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
 
 
 
@@ -136,7 +136,7 @@ However, every miniport driver's <i>HwVidStartIO</i> function must complete each
 
 
 
-<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570515">Video Miniport Driver I/O Control Codes</a>
 
 
 

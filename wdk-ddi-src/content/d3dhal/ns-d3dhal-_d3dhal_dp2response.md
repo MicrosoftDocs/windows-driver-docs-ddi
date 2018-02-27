@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dhal.h
-apiname:
+api_name:
 -	D3DHAL_DP2RESPONSE
 product: Windows
 targetos: Windows
@@ -96,15 +96,7 @@ Specifies the total size, in bytes, of the responses associated with this D3DHAL
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
-
-
-
-D3DDP2OP_RESPONSEQUERY
-
-
-
-D3DDP2OP_RESPONSECONTINUE
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
@@ -112,7 +104,15 @@ D3DDP2OP_RESPONSECONTINUE
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
+
+
+
+D3DDP2OP_RESPONSECONTINUE
+
+
+
+D3DDP2OP_RESPONSEQUERY
 
 
 

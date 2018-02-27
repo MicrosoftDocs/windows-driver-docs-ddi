@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	usb.h
-apiname:
+api_name:
 -	_URB_CONTROL_VENDOR_OR_CLASS_REQUEST
 product: Windows
 targetos: Windows
@@ -203,15 +203,15 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
-
-
-
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 
 

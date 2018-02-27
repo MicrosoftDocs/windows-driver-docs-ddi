@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3dumddi.h
-apiname:
+api_name:
 -	D3DDDIARG_DISCARD
 product: Windows
 targetos: Windows
@@ -98,11 +98,11 @@ The number of rectangles in the array that the  <b>pRects</b> member specifies.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_discard.md">Discard</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 
 

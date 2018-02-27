@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname:
+api_name:
 -	NdisAllocateNetBufferPool
 product: Windows
 targetos: Windows
@@ -188,16 +188,11 @@ Call the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisfreenetbufferpool.md">NdisFreeNetBufferPool</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbuffermdlanddata.md">
-   NdisAllocateNetBufferMdlAndData</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -205,11 +200,16 @@ Call the
 
 
 
+<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
+<a href="..\ndis\nf-ndis-ndisallocatenetbuffermdlanddata.md">
+   NdisAllocateNetBufferMdlAndData</a>
 
 
 

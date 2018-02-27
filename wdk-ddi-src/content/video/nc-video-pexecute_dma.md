@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	video.h
-apiname:
+api_name:
 -	HwVidExecuteDma
 product: Windows
 targetos: Windows
@@ -120,6 +120,14 @@ The last task that the video port driver's <b>VideoPortStartDma</b> function per
 
 ## -see-also
 
+<a href="..\video\ns-video-_vp_scatter_gather_list.md">VP_SCATTER_GATHER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
+
+
+
 <a href="..\video\nf-video-videoportstartdma.md">VideoPortStartDma</a>
 
 
@@ -129,14 +137,6 @@ The last task that the video port driver's <b>VideoPortStartDma</b> function per
 
 
 <a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
-
-
-
-<a href="..\video\ns-video-_vp_scatter_gather_list.md">VP_SCATTER_GATHER_LIST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
 
 
 

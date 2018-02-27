@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	windot11.h
-apiname:
+api_name:
 -	DOT11_KEY_ALGO_TKIP_MIC
 product: Windows
 targetos: Windows
@@ -128,8 +128,8 @@ Initialize the TSC counter used for the send path to any value.
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-dot11_cipher_default_key_value.md">
-   DOT11_CIPHER_DEFAULT_KEY_VALUE</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
 
 
@@ -137,8 +137,8 @@ Initialize the TSC counter used for the send path to any value.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
-   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
+<a href="..\windot11\ns-windot11-dot11_cipher_default_key_value.md">
+   DOT11_CIPHER_DEFAULT_KEY_VALUE</a>
 
 
 

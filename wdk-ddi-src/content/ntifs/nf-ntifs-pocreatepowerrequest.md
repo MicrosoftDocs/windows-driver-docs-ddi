@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	PoCreatePowerRequest
 product: Windows
 targetos: Windows
@@ -138,15 +138,15 @@ When the power request object is no longer needed, the caller must delete the ob
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a>
+
+
+
 <a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
 
 
 
 <a href="..\wdm\nf-wdm-podeletepowerrequest.md">PoDeletePowerRequest</a>
-
-
-
-<a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_SMS_READ
 product: Windows
 targetos: Windows
@@ -92,15 +92,15 @@ Represents the filter upon which the miniport driver should retrieve the message
 
 ## -see-also
 
+<a href="..\wwan\ne-wwan-_wwan_sms_format.md">WWAN_SMS_FORMAT</a>
+
+
+
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_read.md">NDIS_WWAN_SMS_READ</a>
 
 
 
 <a href="..\wwan\ns-wwan-_wwan_sms_filter.md">WWAN_SMS_FILTER</a>
-
-
-
-<a href="..\wwan\ne-wwan-_wwan_sms_format.md">WWAN_SMS_FORMAT</a>
 
 
 

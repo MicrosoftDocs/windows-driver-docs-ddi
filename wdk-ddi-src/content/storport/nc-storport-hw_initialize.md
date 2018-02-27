@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DIRQL (See Remarks section.)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Storport.h
-apiname:
+api_name:
 -	HwStorInitialize
 product: Windows
 targetos: Windows
@@ -170,11 +170,11 @@ The <b>HW_INITIALIZE</b> function type is defined in the Storport.h header file.
 
 
 
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
-
-
-
 <a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
+
+
+
+<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
 
 

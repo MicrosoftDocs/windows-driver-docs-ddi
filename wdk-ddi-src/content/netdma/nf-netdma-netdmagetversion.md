@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	netdma.h
-apiname:
+api_name:
 -	NetDmaGetVersion
 product: Windows
 targetos: Windows
@@ -149,8 +149,7 @@ NetDMA provider drivers call
 
 ## -see-also
 
-<a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
-   NET_DMA_PROVIDER_CHARACTERISTICS</a>
+<a href="..\ndis\nf-ndis-ndisgetroutineaddress.md">NdisGetRoutineAddress</a>
 
 
 
@@ -158,7 +157,8 @@ NetDMA provider drivers call
 
 
 
-<a href="..\ndis\nf-ndis-ndisgetroutineaddress.md">NdisGetRoutineAddress</a>
+<a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
+   NET_DMA_PROVIDER_CHARACTERISTICS</a>
 
 
 

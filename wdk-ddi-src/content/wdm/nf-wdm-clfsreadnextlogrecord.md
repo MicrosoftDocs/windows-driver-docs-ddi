@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname:
+api_name:
 -	ClfsReadNextLogRecord
 product: Windows
 targetos: Windows
@@ -178,15 +178,15 @@ Read contexts are not thread-safe. Clients are responsible for serializing acces
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-clfsreadlogrecord.md">ClfsReadLogRecord</a>
+
+
+
 <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
 
 
 
 <a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
-
-
-
-<a href="..\wdm\nf-wdm-clfsreadlogrecord.md">ClfsReadLogRecord</a>
 
 
 

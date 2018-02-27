@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ufs.h
-apiname:
+api_name:
 -	UFS_DEVICE_HEALTH_DESCRIPTOR
 product: Windows
 targetos: Windows

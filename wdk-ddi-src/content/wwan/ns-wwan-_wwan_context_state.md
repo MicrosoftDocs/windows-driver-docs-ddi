@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_CONTEXT_STATE
 product: Windows
 targetos: Windows
@@ -243,7 +243,7 @@ In case of response to the NDIS_WWAN_SET_CONTEXT_STATE, use this member to provi
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_activation_state.md">WWAN_ACTIVATION_STATE</a>
+<a href="..\wwan\ne-wwan-_wwan_voice_call_state.md">WWAN_VOICE_CALL_STATE</a>
 
 
 
@@ -251,7 +251,7 @@ In case of response to the NDIS_WWAN_SET_CONTEXT_STATE, use this member to provi
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_voice_call_state.md">WWAN_VOICE_CALL_STATE</a>
+<a href="..\wwan\ne-wwan-_wwan_activation_state.md">WWAN_ACTIVATION_STATE</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dxgiddi.h
-apiname:
+api_name:
 -	DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS
 product: Windows
 targetos: Windows
@@ -80,11 +80,11 @@ typedef struct DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS {
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557521">DXGI_GAMMA_CONTROL_CAPABILIITES</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566790">GetGammaCapsDXGI</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557521">DXGI_GAMMA_CONTROL_CAPABILIITES</a>
 
 
 

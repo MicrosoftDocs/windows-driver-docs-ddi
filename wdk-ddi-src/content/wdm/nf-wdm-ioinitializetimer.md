@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoInitializeTimer
 product: Windows
 targetos: Windows
@@ -111,15 +111,15 @@ When the timer is running, the I/O manager calls the driver-supplied <i>IoTimer<
 
 ## -see-also
 
+<a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a>
+
+
+
 <a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
 
 
 
 <a href="..\wdm\nf-wdm-iostarttimer.md">IoStartTimer</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a>
 
 
 

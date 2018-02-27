@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Drmk.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Drmk.lib
 -	Drmk.dll
-apiname:
+api_name:
 -	DrmDestroyContent
 product: Windows
 targetos: Windows
@@ -95,15 +95,7 @@ A KS audio filter can only use <code>DrmDestroyContent</code> to delete a DRM co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536583">IDrmPort::DestroyContent</a>
-
-
-
 <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
 
 
 
@@ -111,11 +103,19 @@ A KS audio filter can only use <code>DrmDestroyContent</code> to delete a DRM co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536570">IDrmAudioStream::SetContentId</a>
-
-
-
 <a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536583">IDrmPort::DestroyContent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536570">IDrmAudioStream::SetContentId</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamdef.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wiamdef.h
-apiname:
+api_name:
 -	WIAS_LTRACE
 product: Windows
 targetos: Windows
@@ -199,19 +199,19 @@ The WIAS_LTRACE macro is not recommended for Windows Vista, because it does not 
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_trace.md">WIAS_TRACE</a>
-
-
-
 <a href="..\wiautil\nf-wiautil-wias_lwarning.md">WIAS_LWARNING</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_lerror.md">WIAS_LERROR</a>
+<a href="..\wiautil\nf-wiautil-wias_trace.md">WIAS_TRACE</a>
 
 
 
 <a href="..\wiautil\nf-wiautil-wias_lhresult.md">WIAS_LHRESULT</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wias_lerror.md">WIAS_LERROR</a>
 
 
 

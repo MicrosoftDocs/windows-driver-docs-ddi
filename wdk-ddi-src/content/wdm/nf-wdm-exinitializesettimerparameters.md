@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	ExInitializeSetTimerParameters
 product: Windows
 targetos: Windows
@@ -93,11 +93,11 @@ Your driver must call <b>ExInitializeSetTimerParameters</b> to initialize an <b>
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_ext_set_parameters_v0.md">EXT_SET_PARAMETERS</a>
-
-
-
 <a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a>
+
+
+
+<a href="..\wdm\ns-wdm-_ext_set_parameters_v0.md">EXT_SET_PARAMETERS</a>
 
 
 

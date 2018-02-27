@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	fwpsk.h
-apiname:
+api_name:
 -	FWPS_FIELDS_IPSEC_KM_DEMUX_V4
 product: Windows
 targetos: Windows

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfio.h
-apiname:
+api_name:
 -	WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY
 product: Windows
 targetos: Windows

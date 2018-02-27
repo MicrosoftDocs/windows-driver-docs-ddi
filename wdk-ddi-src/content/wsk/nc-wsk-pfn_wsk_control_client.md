@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wsk.h
-apiname:
+api_name:
 -	WskControlClient
 product: Windows
 targetos: Windows
@@ -312,6 +312,10 @@ If the
 
 
 
+<a href="..\wsk\ns-wsk-_wsk_transport.md">WSK_TRANSPORT</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571157">WSK Client Control Operations</a>
 
 
@@ -320,15 +324,11 @@ If the
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_transport.md">WSK_TRANSPORT</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
 
 
 
 <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
 
 
 

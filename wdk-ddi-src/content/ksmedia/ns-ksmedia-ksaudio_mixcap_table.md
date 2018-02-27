@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ksmedia.h
-apiname:
+api_name:
 -	KSAUDIO_MIXCAP_TABLE
 product: Windows
 targetos: Windows
@@ -193,11 +193,11 @@ If the client sends an initial KSPROPERTY_AUDIO_MIX_LEVEL_CAPS request in which 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537291">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537292">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksaudio_mix_caps.md">KSAUDIO_MIX_CAPS</a>
 
 
 
@@ -205,7 +205,7 @@ If the client sends an initial KSPROPERTY_AUDIO_MIX_LEVEL_CAPS request in which 
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksaudio_mix_caps.md">KSAUDIO_MIX_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537291">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a>
 
 
 

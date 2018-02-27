@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Wiautil.h
-apiname:
+api_name:
 -	CWiauFormatConverter.CWiauFormatConverter
 product: Windows
 targetos: Windows
@@ -79,11 +79,11 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540385">CWiauFormatConverter::~CWiauFormatConverter</a>
+
+
+
+<a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	D3d12umddi.h
-apiname:
+api_name:
 -	pfnShaderCacheStoreValueCb
 product: Windows
 targetos: Windows

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Passive level.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Portcls.h
-apiname:
+api_name:
 -	IPortWaveRTStream.UnmapAllocatedPages
 product: Windows
 targetos: Windows
@@ -100,6 +100,10 @@ This method is similar in operation to the <a href="..\wdm\nf-wdm-mmunmaplockedp
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
+
+
+
 <a href="..\wdm\nf-wdm-mmunmaplockedpages.md">MmUnmapLockedPages</a>
 
 
@@ -109,10 +113,6 @@ This method is similar in operation to the <a href="..\wdm\nf-wdm-mmunmaplockedp
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536932">IPortWaveRTStream::MapAllocatedPages</a>
-
-
-
-<a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
 
 
 

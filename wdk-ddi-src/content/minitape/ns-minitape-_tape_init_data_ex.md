@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	minitape.h
-apiname:
+api_name:
 -	TAPE_INIT_DATA_EX
 product: Windows
 targetos: Windows
@@ -251,63 +251,7 @@ The meaning of this prototype's parameters are different for each miniclass driv
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567954">TapeMiniSetPosition</a>
-
-
-
-<a href="..\minitape\nc-minitape-tape_process_command_routine.md">TapeMiniCreatePartition</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567949">TapeMiniGetStatus</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567939">TapeMiniGetMediaTypes</a>
-
-
-
-<a href="..\minitape\nf-minitape-tapeclasszeromemory.md">TapeClassZeroMemory</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567937">TapeMiniGetMediaParameters</a>
-
-
-
-<a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567933">TapeMiniErase</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567950">TapeMiniPrepare</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
-
-
-
-<a href="..\minitape\nc-minitape-tape_error_routine.md">TapeMiniTapeError</a>
-
-
-
-<a href="..\minitape\nc-minitape-tape_extension_init_routine.md">TapeMiniExtensionInit</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567936">TapeMiniGetDriveParameters</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567952">TapeMiniSetDriveParameters</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567958">TapeMiniWriteMarks</a>
 
 
 
@@ -315,11 +259,67 @@ The meaning of this prototype's parameters are different for each miniclass driv
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567936">TapeMiniGetDriveParameters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567949">TapeMiniGetStatus</a>
+
+
+
+<a href="..\minitape\nc-minitape-tape_extension_init_routine.md">TapeMiniExtensionInit</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567946">TapeMiniGetPosition</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
+
+
+
+<a href="..\minitape\nc-minitape-tape_process_command_routine.md">TapeMiniCreatePartition</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567953">TapeMiniSetMediaParameters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567937">TapeMiniGetMediaParameters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567954">TapeMiniSetPosition</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567933">TapeMiniErase</a>
+
+
+
+<a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567950">TapeMiniPrepare</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567958">TapeMiniWriteMarks</a>
+
+
+
+<a href="..\minitape\nf-minitape-tapeclasszeromemory.md">TapeClassZeroMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567939">TapeMiniGetMediaTypes</a>
+
+
+
+<a href="..\minitape\nc-minitape-tape_error_routine.md">TapeMiniTapeError</a>
 
 
 

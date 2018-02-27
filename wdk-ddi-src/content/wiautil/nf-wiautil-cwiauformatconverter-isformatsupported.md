@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Wiautil.h
-apiname:
+api_name:
 -	CWiauFormatConverter.IsFormatSupported
 product: Windows
 targetos: Windows
@@ -84,11 +84,11 @@ The method returns <b>TRUE</b> if the format indicated by the format GUID is sup
 
 ## -see-also
 
-<a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540369">CWiauFormatConverter::ConvertToBmp</a>
+
+
+
+<a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
 
 
 

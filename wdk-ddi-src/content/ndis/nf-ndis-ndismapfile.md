@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname:
+api_name:
 -	NdisMapFile
 product: Windows
 targetos: Windows
@@ -140,7 +140,7 @@ A miniport driver can call
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
+<a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
 
 
 
@@ -148,11 +148,11 @@ A miniport driver can call
 
 
 
+<a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
 
 
 

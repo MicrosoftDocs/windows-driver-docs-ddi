@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugSymbols3.SetImagePathWide
 product: Windows
 targetos: Windows
@@ -113,7 +113,7 @@ The executable image path can consist of several directories separated by semico
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538092">AppendImagePath</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -121,7 +121,7 @@ The executable image path can consist of several directories separated by semico
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538092">AppendImagePath</a>
 
 
 

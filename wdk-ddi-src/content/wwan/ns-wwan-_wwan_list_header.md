@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_LIST_HEADER
 product: Windows
 targetos: Windows
@@ -99,13 +99,16 @@ You can assume that the list of elements is stored in memory immediately followi
 
 
 
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
+
+
+
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_preferred_providers.md">
    NDIS_WWAN_SET_PREFERRED_PROVIDERS</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_provisioned_contexts.md">
-   NDIS_WWAN_PROVISIONED_CONTEXTS</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_preferred_providers.md">NDIS_WWAN_PREFERRED_PROVIDERS</a>
 
 
 
@@ -113,11 +116,8 @@ You can assume that the list of elements is stored in memory immediately followi
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
-
-
-
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_preferred_providers.md">NDIS_WWAN_PREFERRED_PROVIDERS</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_provisioned_contexts.md">
+   NDIS_WWAN_PROVISIONED_CONTEXTS</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL (See Remarks section.)"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ntddsd.h
-apiname:
+api_name:
 -	AcknowledgeInterrupt
 product: Windows
 targetos: Windows

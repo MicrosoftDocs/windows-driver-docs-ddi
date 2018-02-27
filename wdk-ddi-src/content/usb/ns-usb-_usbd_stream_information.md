@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Usb.h
-apiname:
+api_name:
 -	USBD_STREAM_INFORMATION
 product: Windows
 targetos: Windows
@@ -106,7 +106,7 @@ A client driver allocates an array of  <b>USBD_STREAM_INFORMATION</b> structures
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 
@@ -114,11 +114,11 @@ A client driver allocates an array of  <b>USBD_STREAM_INFORMATION</b> structures
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 

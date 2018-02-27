@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	1.0\Sercx.h
-apiname:
+api_name:
 -	SerCxGetActivity
 product: Windows
 targetos: Windows
@@ -109,6 +109,10 @@ A lock protects the <b>SERCX_ACTIVITY</b> structure that is updated by the <b>Se
 
 
 
+<a href="..\sercx\nf-sercx-sercxcompletewait.md">SerCxCompleteWait</a>
+
+
+
 <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
 
 
@@ -118,10 +122,6 @@ A lock protects the <b>SERCX_ACTIVITY</b> structure that is updated by the <b>Se
 
 
 <a href="..\sercx\nf-sercx-sercx_activity_init.md">SERCX_ACTIVITY_INIT</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercxcompletewait.md">SerCxCompleteWait</a>
 
 
 

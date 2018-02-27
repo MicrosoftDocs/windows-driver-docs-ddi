@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddchgr.h
-apiname:
+api_name:
 -	CHANGER_ELEMENT
 product: Windows
 targetos: Windows
@@ -147,15 +147,15 @@ On input, a changer miniclass driver must translate the zero-based address in <b
 
 ## -see-also
 
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
+
+
+
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element_list.md">CHANGER_ELEMENT_LIST</a>
 
 
 
 <a href="..\ntddchgr\ne-ntddchgr-_element_type.md">ELEMENT_TYPE</a>
-
-
-
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
 
 
 

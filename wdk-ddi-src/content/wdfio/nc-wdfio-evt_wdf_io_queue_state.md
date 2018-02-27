@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Wdfio.h
-apiname:
+api_name:
 -	EvtIoQueueState
 product: Windows
 targetos: Windows
@@ -149,7 +149,7 @@ The <b>EVT_WDF_IO_QUEUE_STATE</b> function type is defined in the Wdfio.h header
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuereadynotify.md">WdfIoQueueReadyNotify</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuedrain.md">WdfIoQueueDrain</a>
 
 
 
@@ -161,7 +161,7 @@ The <b>EVT_WDF_IO_QUEUE_STATE</b> function type is defined in the Wdfio.h header
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuedrain.md">WdfIoQueueDrain</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuereadynotify.md">WdfIoQueueReadyNotify</a>
 
 
 

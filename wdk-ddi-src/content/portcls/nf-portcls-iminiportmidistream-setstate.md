@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IMiniportMidiStream.SetState
 product: Windows
 targetos: Windows
@@ -132,11 +132,7 @@ RUN -&gt; PAUSE -&gt; ACQUIRE -&gt; STOP
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565110">KSPROPERTY_CONNECTION_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a>
 
 
 
@@ -144,7 +140,11 @@ RUN -&gt; PAUSE -&gt; ACQUIRE -&gt; STOP
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565110">KSPROPERTY_CONNECTION_STATE</a>
+
+
+
+<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	usbfnioctl.h
-apiname:
+api_name:
 -	USBFN_POWER_FILTER_STATE
 product: Windows
 targetos: Windows
@@ -89,11 +89,11 @@ Do not use.
 
 ## -see-also
 
-<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_state.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE</a>
-
-
-
 <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_exit_lpm.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM</a>
+
+
+
+<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_state.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE</a>
 
 
 

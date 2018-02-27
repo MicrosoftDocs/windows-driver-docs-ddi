@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname:
+api_name:
 -	AtaPortReadPortUlong
 product: Windows
 targetos: Windows
@@ -86,11 +86,11 @@ A pointer to the I/O port. The address value that is assigned to this parameter 
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportreadportushort.md">AtaPortReadPortUshort</a>
-
-
-
 <a href="..\irb\nf-irb-ataportreadportuchar.md">AtaPortReadPortUchar</a>
+
+
+
+<a href="..\irb\nf-irb-ataportreadportushort.md">AtaPortReadPortUshort</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtfdriversetupdeviceaction.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WDTFDriverSetupDeviceAction.Interop.dll
-apiname:
+api_name:
 -	IWDTFDriverSetupAction2.UnInstallDriverPermanently
 product: Windows
 targetos: Windows

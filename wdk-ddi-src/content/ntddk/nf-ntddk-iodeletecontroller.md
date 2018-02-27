@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoDeleteController
 product: Windows
 targetos: Windows
@@ -96,11 +96,11 @@ A driver must release certain resources for which the driver supplied storage in
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iocreatecontroller.md">IoCreateController</a>
-
-
-
 <a href="..\wdm\nf-wdm-iodisconnectinterrupt.md">IoDisconnectInterrupt</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iocreatecontroller.md">IoCreateController</a>
 
 
 

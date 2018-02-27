@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	TRANSACTION_PROPERTIES_INFORMATION
 product: Windows
 targetos: Windows
@@ -114,6 +114,10 @@ The <b>TRANSACTION_PROPERTIES_INFORMATION</b> structure is used with the <a href
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a>
 
 
@@ -123,10 +127,6 @@ The <b>TRANSACTION_PROPERTIES_INFORMATION</b> structure is used with the <a href
 
 
 <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Storport.h
-apiname:
+api_name:
 -	HW_INITIALIZATION_DATA
 product: Windows
 targetos: Windows
@@ -508,19 +508,11 @@ Starting in Windows 8, both physical and virtual Storport miniports use <b>HW_I
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
+<a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
 
 
 
 <a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
-
-
-
-<a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a>
-
-
-
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
 
 
@@ -532,7 +524,15 @@ Starting in Windows 8, both physical and virtual Storport miniports use <b>HW_I
 
 
 
-<a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
+<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
+
+
+
+<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+
+
+
+<a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a>
 
 
 
@@ -540,7 +540,7 @@ Starting in Windows 8, both physical and virtual Storport miniports use <b>HW_I
 
 
 
-<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
+<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
 
 
 

@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname:
+api_name:
 -	NdisOffloadTcpDisconnect
 product: Windows
 targetos: Windows
@@ -173,8 +173,11 @@ When the underlying driver or offload target subsequently completes the disconne
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
-   MiniportTcpOffloadDisconnect</a>
+<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -183,12 +186,8 @@ When the underlying driver or offload target subsequently completes the disconne
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_disconnect_complete.md">
-   NdisTcpOffloadDisconnectComplete</a>
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
+   MiniportTcpOffloadDisconnect</a>
 
 
 
@@ -196,7 +195,8 @@ When the underlying driver or offload target subsequently completes the disconne
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_disconnect_complete.md">
+   NdisTcpOffloadDisconnectComplete</a>
 
 
 

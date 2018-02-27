@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Portcls.h
-apiname:
+api_name:
 -	IMiniportStreamAudioEngineNode.GetStreamAttributeSteppings
 product: Windows
 targetos: Windows
@@ -101,11 +101,11 @@ code.
 
 
 
-<a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
-
-
-
 <a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a>
+
+
+
+<a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
 
 
 

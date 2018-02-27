@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	prntfont.h
-apiname:
+api_name:
 -	UFF_FILEHEADER
 product: Windows
 targetos: Windows
@@ -141,11 +141,11 @@ Reserved. Must be set to zero.
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a>
-
-
-
 <a href="..\prntfont\ns-prntfont-_uff_fontdirectory.md">UFF_FONTDIRECTORY</a>
+
+
+
+<a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a>
 
 
 

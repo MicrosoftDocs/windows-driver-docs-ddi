@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	1394.h
-apiname:
+api_name:
 -	SET_LOCAL_HOST_PROPS3
 product: Windows
 targetos: Windows
@@ -131,11 +131,11 @@ The first element of the buffer pointed to by <b>Mdl</b> must be a unit director
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537204">IEEE1394_API_REQUEST</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537663">REQUEST_SET_LOCAL_HOST_PROPERTIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537204">IEEE1394_API_REQUEST</a>
 
 
 

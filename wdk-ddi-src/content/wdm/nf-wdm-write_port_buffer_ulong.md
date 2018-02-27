@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Hal.lib
 -	Hal.dll
-apiname:
+api_name:
 -	WRITE_PORT_BUFFER_ULONG
 product: Windows
 targetos: Windows

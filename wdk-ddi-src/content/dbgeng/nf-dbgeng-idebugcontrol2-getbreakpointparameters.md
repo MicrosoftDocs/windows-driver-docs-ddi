@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugControl.GetBreakpointParameters
 -	IDebugControl2.GetBreakpointParameters
 -	IDebugControl3.GetBreakpointParameters
@@ -142,15 +142,7 @@ Some of the parameters might not be returned.  This happens if either a breakpoi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545617">GetBreakpointById</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545639">GetBreakpointByIndex</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a>
 
 
 
@@ -158,11 +150,19 @@ Some of the parameters might not be returned.  This happens if either a breakpoi
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545617">GetBreakpointById</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545639">GetBreakpointByIndex</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 

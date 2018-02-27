@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	dispmprt.h
-apiname:
+api_name:
 -	DxgkCbQueryServices
 product: Windows
 targetos: Windows
@@ -179,19 +179,19 @@ On return from <b>DxgkCbQueryServices</b>, your DXGK_TIMED_OPERATION_INTERFACE s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551798">Debug Report Interface</a>
-
-
-
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551798">Debug Report Interface</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538228">AGP Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
 
 
 

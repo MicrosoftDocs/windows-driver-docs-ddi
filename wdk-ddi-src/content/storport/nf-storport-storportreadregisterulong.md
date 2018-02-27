@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Storport.lib
 -	Storport.dll
-apiname:
+api_name:
 -	StorPortReadRegisterUlong
 product: Windows
 targetos: Windows
@@ -105,11 +105,11 @@ For more information, see <a href="..\storport\nf-storport-scsiportreadregisteru
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportreadregisterbufferulong.md">StorPortReadRegisterBufferUlong</a>
-
-
-
 <a href="..\storport\nf-storport-scsiportreadregisterulong.md">ScsiPortReadRegisterUlong</a>
+
+
+
+<a href="..\storport\nf-storport-storportreadregisterbufferulong.md">StorPortReadRegisterBufferUlong</a>
 
 
 

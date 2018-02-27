@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ucxstubs.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ucxstubs.lib
 -	Ucxstubs.dll
-apiname:
+api_name:
 -	UcxControllerNotifyTransportCharacteristicsChange
 product: Windows
 targetos: Windows

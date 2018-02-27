@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtDll.lib (user mode); NtosKrnl.lib (kernel mode)
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: "<= DIRQL (see Comments section)"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtDll.dll
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	DbgPrint
 product: Windows
 targetos: Windows
@@ -134,15 +134,15 @@ There is no upper limit to the size of the <i>Format</i> string or the number of
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
+
+
+
 <a href="..\wdm\nf-wdm-kdprintex.md">KdPrintEx</a>
 
 
 
 <a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
 
 
 

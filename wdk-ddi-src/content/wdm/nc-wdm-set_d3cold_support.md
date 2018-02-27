@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	SetD3ColdSupport
 product: Windows
 targetos: Windows
@@ -144,11 +144,7 @@ Windows 8 is the first version of Windows to support devices that can enter and
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a>
-
-
-
-<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetD3ColdCapability</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
 
 
 
@@ -156,7 +152,11 @@ Windows 8 is the first version of Windows to support devices that can enter and
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
+<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetD3ColdCapability</a>
+
+
+
+<a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a>
 
 
 

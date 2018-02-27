@@ -29,14 +29,14 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	WUDFx02000.dll
-apiname:
+api_name:
 -	WdfDevicePostEvent
 product: Windows
 targetos: Windows
@@ -145,11 +145,11 @@ When the driver calls <b>WdfDevicePostEvent</b> to notify the requesting applica
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558835">IWDFDevice::PostEvent</a>
-
-
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_event_type.md">WDF_EVENT_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558835">IWDFDevice::PostEvent</a>
 
 
 

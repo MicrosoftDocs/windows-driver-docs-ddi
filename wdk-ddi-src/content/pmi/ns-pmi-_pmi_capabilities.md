@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pmi.h
-apiname:
+api_name:
 -	PMI_CAPABILITIES
 product: Windows
 targetos: Windows
@@ -144,7 +144,7 @@ The <b>Capabilities</b> member contains data that is formatted as a <a href="..\
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_metered_hardware_information.md">PMI_METERED_HARDWARE_INFORMATION</a>
+<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
 
 
 
@@ -152,7 +152,7 @@ The <b>Capabilities</b> member contains data that is formatted as a <a href="..\
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
+<a href="..\pmi\ns-pmi-_pmi_metered_hardware_information.md">PMI_METERED_HARDWARE_INFORMATION</a>
 
 
 

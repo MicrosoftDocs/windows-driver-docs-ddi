@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	DOT11EXT_VIRTUAL_STATION_APIS
 product: Windows
 targetos: Windows
@@ -124,13 +124,13 @@ All of the function pointers are required and must not be set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_release_virtual_station.md">
-   Dot11ExtReleaseVirtualStation</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_set_virtual_station_ap_properties.md">
    Dot11ExtSetVirtualStationAPProperties</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_release_virtual_station.md">
+   Dot11ExtReleaseVirtualStation</a>
 
 
 

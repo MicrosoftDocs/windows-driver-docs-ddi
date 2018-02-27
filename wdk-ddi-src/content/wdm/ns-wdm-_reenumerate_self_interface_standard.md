@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	REENUMERATE_SELF_INTERFACE_STANDARD
 product: Windows
 targetos: Windows
@@ -116,6 +116,10 @@ The <b>REENUMERATE_SELF_INTERFACE_STANDARD</b> structure is an extension of the 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+
+
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
@@ -124,19 +128,15 @@ The <b>REENUMERATE_SELF_INTERFACE_STANDARD</b> structure is an extension of the 
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546570">GUID_REENUMERATE_SELF_INTERFACE_STANDARD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560837">ReenumerateSelf</a>
+
+
+
+<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
 
 
 

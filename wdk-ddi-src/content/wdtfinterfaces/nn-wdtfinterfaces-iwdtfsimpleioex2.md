@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtfinterfaces.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WDTFInterfaces.Interop.dll
-apiname:
+api_name:
 -	IWDTFSimpleIOEx2
 product: Windows
 targetos: Windows

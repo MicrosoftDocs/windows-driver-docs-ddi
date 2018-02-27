@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugSymbols.GetScope
 -	IDebugSymbols2.GetScope
 -	IDebugSymbols3.GetScope
@@ -142,7 +142,7 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/66a5aa3d-fe35-4c30-951f-f25de75dacb0">IDebugControl::GetEffectiveProcessorType</a>
 
 
 
@@ -154,15 +154,15 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554577">ResetScope</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
 
 
 
-<a href="https://msdn.microsoft.com/66a5aa3d-fe35-4c30-951f-f25de75dacb0">IDebugControl::GetEffectiveProcessorType</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554577">ResetScope</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 

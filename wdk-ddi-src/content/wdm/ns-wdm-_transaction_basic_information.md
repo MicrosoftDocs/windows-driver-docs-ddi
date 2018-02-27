@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdm.h
-apiname:
+api_name:
 -	TRANSACTION_BASIC_INFORMATION
 product: Windows
 targetos: Windows
@@ -100,15 +100,15 @@ The <b>TRANSACTION_BASIC_INFORMATION</b> structure is used with the <a href="..\
 
 
 
+<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+
+
+
 <a href="..\wdm\ne-wdm-_transaction_state.md">TRANSACTION_STATE</a>
 
 
 
 <a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
 
 
 

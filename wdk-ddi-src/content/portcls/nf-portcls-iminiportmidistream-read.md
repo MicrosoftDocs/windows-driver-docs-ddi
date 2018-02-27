@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IMiniportMidiStream.Read
 product: Windows
 targetos: Windows
@@ -125,7 +125,7 @@ The <code>Read</code> method returns STATUS_SUCCESS and a <i>BytesRead</i> count
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536708">IMiniportMidiStream::Write</a>
 
 
 
@@ -133,7 +133,7 @@ The <code>Read</code> method returns STATUS_SUCCESS and a <i>BytesRead</i> count
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536708">IMiniportMidiStream::Write</a>
+<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
 
 
 

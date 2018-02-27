@@ -29,14 +29,14 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	engextcpp.hpp
-apiname:
+api_name:
 -	ExtRemoteData.ReadBuffer
 product: Windows
 targetos: Windows
@@ -95,11 +95,11 @@ Specifies what happens if the debugger engine is unable to read all the data fro
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544110">ExtRemoteData::WriteBuffer</a>
-
-
-
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544110">ExtRemoteData::WriteBuffer</a>
 
 
 

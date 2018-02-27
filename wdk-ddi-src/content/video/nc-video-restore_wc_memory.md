@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	video.h
-apiname:
+api_name:
 -	VideoPortRestoreWCMemory
 product: Windows
 targetos: Windows
@@ -102,11 +102,11 @@ After the <a href="..\video\nc-video-protect_wc_memory.md">VideoPortProtectWCMem
 
 ## -see-also
 
-<a href="..\video\nc-video-protect_wc_memory.md">VideoPortProtectWCMemory</a>
-
-
-
 <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+
+
+<a href="..\video\nc-video-protect_wc_memory.md">VideoPortProtectWCMemory</a>
 
 
 

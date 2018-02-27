@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	storport.h
-apiname:
+api_name:
 -	StorPortPoFxIdleComponent
 product: Windows
 targetos: Windows
@@ -206,15 +206,15 @@ Each call to <b>StorPortPoFxIdleComponent</b> must be matched with a previous ca
 
 ## -see-also
 
+<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
+
+
+
 <a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
 
 
 
 <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
-
-
-
-<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
 
 
 

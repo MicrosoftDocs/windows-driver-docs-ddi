@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ucxroothub.h
-apiname:
+api_name:
 -	PEVT_UCX_ROOTHUB_INTERRUPT_TX
 product: Windows
 targetos: Windows

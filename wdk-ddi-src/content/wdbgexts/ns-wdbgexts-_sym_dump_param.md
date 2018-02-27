@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdbgexts.h
-apiname:
+api_name:
 -	SYM_DUMP_PARAM
 product: Windows
 targetos: Windows
@@ -484,7 +484,7 @@ In addition, the result of the macro DBG_DUMP_RECUR_LEVEL(<i>Level</i>) can be a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540433">DBG_DUMP_XXX</a>
+<a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a>
 
 
 
@@ -496,7 +496,7 @@ In addition, the result of the macro DBG_DUMP_RECUR_LEVEL(<i>Level</i>) can be a
 
 
 
-<a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540433">DBG_DUMP_XXX</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugAdvanced.SetThreadContext
 -	IDebugAdvanced2.SetThreadContext
 -	IDebugAdvanced3.SetThreadContext
@@ -121,10 +121,6 @@ For more information about the thread context, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
 
 
@@ -133,11 +129,15 @@ For more information about the thread context, see <a href="https://msdn.microso
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549291">GetThreadContext</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549291">GetThreadContext</a>
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
 
 
 

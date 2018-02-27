@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	scsiwmi.h
-apiname:
+api_name:
 -	SCSIWMI_ENABLE_DISABLE_CONTROL
 product: Windows
 targetos: Windows
@@ -81,11 +81,11 @@ Indicates that a data collection for a block is to be enabled or disabled.
 
 ## -see-also
 
-<a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
-
-
-
 <a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_function_control.md">HwScsiWmiFunctionControl</a>
+
+
+
+<a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
 
 
 

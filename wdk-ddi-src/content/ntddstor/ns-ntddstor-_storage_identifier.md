@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddstor.h
-apiname:
+api_name:
 -	STORAGE_IDENTIFIER
 product: Windows
 targetos: Windows
@@ -113,11 +113,11 @@ Every device identification page (page code 0x83) of SCSI vital product data con
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566349">STORAGE_ASSOCIATION_TYPE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566990">STORAGE_IDENTIFIER_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566349">STORAGE_ASSOCIATION_TYPE</a>
 
 
 

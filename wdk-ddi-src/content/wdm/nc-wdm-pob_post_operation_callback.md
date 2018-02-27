@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL (see Remarks section).
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	ObjectPostCallback
 product: Windows
 targetos: Windows
@@ -106,11 +106,11 @@ This routine is called at PASSIVE_LEVEL in an arbitrary thread context with norm
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_ob_post_operation_information.md">OB_POST_OPERATION_INFORMATION</a>
-
-
-
 <a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
+
+
+
+<a href="..\wdm\ns-wdm-_ob_post_operation_information.md">OB_POST_OPERATION_INFORMATION</a>
 
 
 

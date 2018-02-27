@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winsplp.h
-apiname:
+api_name:
 -	MONITOR
 product: Windows
 targetos: Windows
@@ -811,11 +811,11 @@ If necessary, the port monitor should prevent other processes from using the spe
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
-
-
-
 <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a>
+
+
+
+<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
 
 
 

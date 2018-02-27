@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname:
+api_name:
 -	ClfsSetEndOfLog
 product: Windows
 targetos: Windows
@@ -106,11 +106,11 @@ The kernel-mode routine <b>ClfsSetEndOfLog</b> is reserved for future use and cu
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+
+
+
 <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
-
-
-
-<a href="..\wdm\nf-wdm-clfssetarchivetail.md">ClfsSetArchiveTail </a>
 
 
 
@@ -118,15 +118,15 @@ The kernel-mode routine <b>ClfsSetEndOfLog</b> is reserved for future use and cu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a>
-
-
-
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+<a href="..\wdm\nf-wdm-clfssetarchivetail.md">ClfsSetArchiveTail </a>
 
 
 
 <a href="..\wdm\nf-wdm-clfsadvancelogbase.md">ClfsAdvanceLogBase</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a>
 
 
 

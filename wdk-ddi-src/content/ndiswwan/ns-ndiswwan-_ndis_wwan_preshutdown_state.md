@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndiswwan.h
-apiname:
+api_name:
 -	NDIS_WWAN_PRESHUTDOWN_STATE
 product: Windows
 targetos: Windows
@@ -150,11 +150,11 @@ The modem does not support pre-shutdown notifications.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt593233">NDIS_STATUS_WWAN_PRESHUTDOWN_STATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt593239">OID_WWAN_PRESHUTDOWN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt593233">NDIS_STATUS_WWAN_PRESHUTDOWN_STATE</a>
 
 
 

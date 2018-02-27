@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ntoskrnl.lib
 -	ntoskrnl.dll
-apiname:
+api_name:
 -	ExTryConvertSharedSpinLockExclusive
 product: Windows
 targetos: Windows
@@ -102,11 +102,11 @@ If the caller acquired the shared spin lock by calling the <a href="https://msdn
 
 
 
-<a href="..\wdm\nf-wdm-exreleasespinlockexclusive.md">ExReleaseSpinLockExclusive</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451053">ExAcquireSpinLockShared</a>
+
+
+
+<a href="..\wdm\nf-wdm-exreleasespinlockexclusive.md">ExReleaseSpinLockExclusive</a>
 
 
 

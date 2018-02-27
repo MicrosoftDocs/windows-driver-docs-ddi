@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IPortClsPnp.UnregisterAdapterPnpManagement
 product: Windows
 targetos: Windows
@@ -92,11 +92,11 @@ For more information,  see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportclspnp.md">IPortClsPnp</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt604860">IPortClsPnp::RegisterAdapterPnpManagement</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportclspnp.md">IPortClsPnp</a>
 
 
 

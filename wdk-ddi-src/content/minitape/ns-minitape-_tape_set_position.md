@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddtape.h
-apiname:
+api_name:
 -	TAPE_SET_POSITION
 product: Windows
 targetos: Windows
@@ -177,11 +177,11 @@ When the offset specifies a number of blocks, filemarks, or setmarks to position
 
 ## -see-also
 
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_position.md">IOCTL_TAPE_SET_POSITION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567954">TapeMiniSetPosition</a>
+
+
+
+<a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_position.md">IOCTL_TAPE_SET_POSITION</a>
 
 
 

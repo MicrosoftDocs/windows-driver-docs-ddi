@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugDataSpaces4.WritePhysical2
 product: Windows
 targetos: Windows
@@ -185,15 +185,15 @@ The flags DEBUG_PHYSICAL_CACHED, DEBUG_PHYSICAL_UNCACHED, and DEBUG_PHYSICAL_WRI
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561432">WritePhysical</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561441">WritePhysical2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
 
 

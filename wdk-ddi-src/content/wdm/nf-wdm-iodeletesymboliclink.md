@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	IoDeleteSymbolicLink
 product: Windows
 targetos: Windows
@@ -88,11 +88,11 @@ Pointer to a buffered Unicode string that is the user-visible name for the symbo
 
 
 
-<a href="..\wdm\nf-wdm-iocreateunprotectedsymboliclink.md">IoCreateUnprotectedSymbolicLink</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-iodeassignarcname.md">IoDeassignArcName</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreateunprotectedsymboliclink.md">IoCreateUnprotectedSymbolicLink</a>
 
 
 

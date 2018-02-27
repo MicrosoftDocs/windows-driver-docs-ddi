@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Portcls.h
-apiname:
+api_name:
 -	IPortWMIRegistration.RegisterWMIProvider
 product: Windows
 targetos: Windows
@@ -105,11 +105,7 @@ For more information about ETW, see <a href="http://go.microsoft.com/fwlink/p/?l
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938554">Event Tracing for Windows</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\portcls\nn-portcls-iportwmiregistration.md">IPortWMIRegistration</a>
 
 
 
@@ -117,11 +113,15 @@ For more information about ETW, see <a href="http://go.microsoft.com/fwlink/p/?l
 
 
 
-<a href="..\portcls\nn-portcls-iportwmiregistration.md">IPortWMIRegistration</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn938554">Event Tracing for Windows</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=154129">Improve Debugging And Performance Tuning With ETW</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

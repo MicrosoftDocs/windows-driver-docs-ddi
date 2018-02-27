@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	netdma.h
-apiname:
+api_name:
 -	ProviderResumeDma
 product: Windows
 targetos: Windows
@@ -146,11 +146,11 @@ NetDMA calls
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
-
-
-
 <a href="..\netdma\nc-netdma-dma_suspend_handler.md">ProviderSuspendDma</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
 
 
 

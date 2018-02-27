@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	fwpsk.h
-apiname:
+api_name:
 -	FWPS_TRANSPORT_SEND_PARAMS1
 product: Windows
 targetos: Windows
@@ -165,7 +165,16 @@ The length, in bytes, of the
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/3b2ba645-6a70-4ba2-b4a2-5bde0c7f8d08">WSASendMsg</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjecttransportsendasync1.md">
+   FwpsInjectTransportSendAsync1</a>
 
 
 
@@ -175,15 +184,6 @@ The length, in bytes, of the
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
-
-
-
-<a href="https://msdn.microsoft.com/3b2ba645-6a70-4ba2-b4a2-5bde0c7f8d08">WSASendMsg</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsinjecttransportsendasync1.md">
-   FwpsInjectTransportSendAsync1</a>
 
 
 

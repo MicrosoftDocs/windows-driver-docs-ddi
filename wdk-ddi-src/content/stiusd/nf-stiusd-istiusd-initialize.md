@@ -29,14 +29,14 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	stiusd.h
-apiname:
+api_name:
 -	IStiUSD.Initialize
 product: Windows
 targetos: Windows

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	Scan
 product: Windows
 targetos: Windows
@@ -159,11 +159,11 @@ If the function succeeds, it returns S_OK. If the function fails, it returns a s
 
 
 
-<a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a>
+
+
+
+<a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
 
 
 

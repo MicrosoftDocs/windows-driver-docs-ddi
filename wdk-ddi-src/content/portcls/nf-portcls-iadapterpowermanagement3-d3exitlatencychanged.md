@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Portcls.h
-apiname:
+api_name:
 -	IAdapterPowerManagement3.D3ExitLatencyChanged
 product: Windows
 targetos: Windows
@@ -115,15 +115,15 @@ The following table shows the possible values for <i>NewD3ExitLatency</i>.
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iadapterpowermanagement3.md">IAdapterPowerManagement3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj200332">PowerChangeState3</a>
 
 
 
 <a href="..\portcls\ne-portcls-_pc_exit_latency.md">PC_EXIT_LATENCY</a>
-
-
-
-<a href="..\portcls\nn-portcls-iadapterpowermanagement3.md">IAdapterPowerManagement3</a>
 
 
 

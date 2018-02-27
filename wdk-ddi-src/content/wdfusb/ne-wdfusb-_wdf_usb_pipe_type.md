@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL  (See Remarks section.)"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfusb.h
-apiname:
+api_name:
 -	WDF_USB_PIPE_TYPE
 product: Windows
 targetos: Windows

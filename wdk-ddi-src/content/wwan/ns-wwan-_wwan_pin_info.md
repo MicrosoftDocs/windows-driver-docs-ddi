@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_PIN_INFO
 product: Windows
 targetos: Windows
@@ -92,15 +92,15 @@ The number of attempts that remain for any pin-related operations such as enter,
 
 ## -see-also
 
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_pin_info.md">NDIS_WWAN_PIN_INFO</a>
+
+
+
 <a href="..\wwan\ne-wwan-_wwan_pin_type.md">WWAN_PIN_TYPE</a>
 
 
 
 <a href="..\wwan\ne-wwan-_wwan_pin_state.md">WWAN_PIN_STATE</a>
-
-
-
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_pin_info.md">NDIS_WWAN_PIN_INFO</a>
 
 
 

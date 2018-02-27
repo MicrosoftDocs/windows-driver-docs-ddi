@@ -29,16 +29,16 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Wdm.h
 -	Ext-MS-Win-ntos-tm-l1-1-0.dll
 -	tm.sys
-apiname:
+api_name:
 -	TmInitializeTransactionManager
 product: Windows
 targetos: Windows

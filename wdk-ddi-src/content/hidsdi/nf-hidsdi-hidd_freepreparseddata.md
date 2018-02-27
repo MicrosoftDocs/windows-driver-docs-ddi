@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Hid.dll
-apiname:
+api_name:
 -	HidD_FreePreparsedData
 product: Windows
 targetos: Windows

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wsk.h
-apiname:
+api_name:
 -	WSK_CLIENT_DISPATCH
 product: Windows
 targetos: Windows
@@ -138,11 +138,11 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 ## -see-also
 
-<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
-
-
-
 <a href="..\wsk\nc-wsk-pfn_wsk_client_event.md">WskClientEvent</a>
+
+
+
+<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
 
 
 
@@ -150,11 +150,11 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
 
 
 

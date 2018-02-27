@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamdef.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wiamdef.h
-apiname:
+api_name:
 -	WIAS_LWARNING
 product: Windows
 targetos: Windows
@@ -134,11 +134,11 @@ Please note that it does not write to the new log file used in Windows Vista and
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_lerror.md">WIAS_LERROR</a>
-
-
-
 <a href="..\wiautil\nf-wiautil-wias_lhresult.md">WIAS_LHRESULT</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wias_lerror.md">WIAS_LERROR</a>
 
 
 

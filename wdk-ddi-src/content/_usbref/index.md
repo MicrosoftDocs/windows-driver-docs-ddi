@@ -2,7 +2,7 @@
 UID: TP:usbref
 ms.assetid: 3ef75da3-dd0a-3f40-b741-d6c381f1ed78
 ms.author: windowsdriverdev
-ms.date: 01/18/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,6 +99,7 @@ For the programming guide, see [Universal Serial Bus(USB)](https://docs.microsof
 | [USBD_ParseConfigurationDescriptorEx function](..\usbdlib\nf-usbdlib-usbd_parseconfigurationdescriptorex.md) | The USBD_ParseConfigurationDescriptorEx routine searches a given configuration descriptor and returns a pointer to an interface that matches the given search criteria. |
 | [USBD_ParseDescriptors function](..\usbdlib\nf-usbdlib-usbd_parsedescriptors.md) | The USBD_ParseDescriptors routine searches a given configuration descriptor and returns a pointer to the first descriptor that matches the search criteria. |
 | [USBD_QueryBusTime function](..\usbdlib\nf-usbdlib-usbd_querybustime.md) | The USBD_QueryBusTime routine has been deprecated in Windows XP and later operating systems. Do not use. |
+| [USBD_QueryUsbCapability function](..\usbdlib\nf-usbdlib-usbd_queryusbcapability.md) | The USBD_QueryUsbCapability routine is called by a WDM client driver to determine whether the underlying USB driver stack and the host controller hardware support a specific capability. |
 | [USBD_RegisterHcFilter function](..\usbdlib\nf-usbdlib-usbd_registerhcfilter.md) | The USBD_RegisterHcFilter routine has been deprecated in Windows XP and later operating systems. |
 | [USBD_SelectConfigUrbAllocateAndBuild function](..\usbdlib\nf-usbdlib-usbd_selectconfigurballocateandbuild.md) | The USBD_SelectConfigUrbAllocateAndBuild routine allocates and formats a URB structure that is required to select a configuration for a USB device. |
 | [USBD_SelectInterfaceUrbAllocateAndBuild function](..\usbdlib\nf-usbdlib-usbd_selectinterfaceurballocateandbuild.md) | The USBD_SelectInterfaceUrbAllocateAndBuild routine allocates and formats a URB structure that is required for a request to select an interface or change its alternate setting. |
@@ -273,9 +274,18 @@ For the programming guide, see [Universal Serial Bus(USB)](https://docs.microsof
 | [EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY callback](..\ufxclient\nc-ufxclient-evt_ufx_device_proprietary_charger_set_property.md) | The client driver's implementation to set charger information that it uses to enable charging over USB. |
 | [EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL callback](..\ufxclient\nc-ufxclient-evt_ufx_device_remote_wakeup_signal.md) | The client driver's implementation to initiate remote wake-up on the function controller. |
 | [EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback](..\ufxclient\nc-ufxclient-evt_ufx_device_super_speed_power_feature.md) | The client driver's implementation to set or clear the specified power feature on the function controller. |
+| [EVT_UFX_DEVICE_TESTHOOK callback](..\ufxclient\nc-ufxclient-evt_ufx_device_testhook.md) | This IOCTL code is not supported. |
 | [EVT_UFX_DEVICE_TEST_MODE_SET callback](..\ufxclient\nc-ufxclient-evt_ufx_device_test_mode_set.md) | The client driver's implementation to set the test mode of the function controller. |
 | [EVT_UFX_DEVICE_USB_STATE_CHANGE callback](..\ufxclient\nc-ufxclient-evt_ufx_device_usb_state_change.md) | The client driver's implementation to update the state of the USB device. |
 | [EVT_URS_SET_ROLE callback](..\ursdevice\nc-ursdevice-evt_urs_set_role.md) | The URS class extension invokes this event callback when it requires the client driver to change the role of the controller. |
+| [PUSB_BUSIFFN_ENUM_LOG_ENTRY callback](..\usbbusif\nc-usbbusif-pusb_busiffn_enum_log_entry.md) | This callback function is not supported.The EnumLogEntry routine makes a log entry. |
+| [PUSB_BUSIFFN_GETUSBDI_VERSION callback](..\usbbusif\nc-usbbusif-pusb_busiffn_getusbdi_version.md) | The GetUSBDIVersion routine returns the USB interface version number and the version number of the USB specification that defines the interface, along with information about host controller capabilities. |
+| [PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED callback](..\usbbusif\nc-usbbusif-pusb_busiffn_is_device_high_speed.md) | The USB_BUSIFFN_IS_DEVICE_HIGH_SPEED routine returns TRUE if the device is operating at high speed. |
+| [PUSB_BUSIFFN_QUERY_BUS_INFORMATION callback](..\usbbusif\nc-usbbusif-pusb_busiffn_query_bus_information.md) | The QueryBusInformation routine gets information about the bus. |
+| [PUSB_BUSIFFN_QUERY_BUS_TIME callback](..\usbbusif\nc-usbbusif-pusb_busiffn_query_bus_time.md) | The QueryBusTime function gets the current 32-bit USB frame number. |
+| [PUSB_BUSIFFN_QUERY_BUS_TIME_EX callback](..\usbbusif\nc-usbbusif-pusb_busiffn_query_bus_time_ex.md) | The QueryBusTimeEx routine gets the current 32-bit USB micro-frame number. |
+| [PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE callback](..\usbbusif\nc-usbbusif-pusb_busiffn_query_controller_type.md) | The QueryControllerType routine gets information about the USB host controller to which the USB device is attached. |
+| [PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB callback](..\usbbusif\nc-usbbusif-pusb_busiffn_submit_iso_out_urb.md) | This callback function is not supported.The SubmitIsoOutUrb function submits a USB request block (URB) directly to the bus driver without requiring the allocation of an IRP. |
 | [UFX_PROPRIETARY_CHARGER_ABORT_OPERATION callback](..\ufxproprietarycharger\nc-ufxproprietarycharger-ufx_proprietary_charger_abort_operation.md) | The filter driver's implementation to abort a charger operation. |
 | [UFX_PROPRIETARY_CHARGER_DETECT callback](..\ufxproprietarycharger\nc-ufxproprietarycharger-ufx_proprietary_charger_detect.md) | The filter driver's implementation to detect if a charger is attached and get details about the charger. |
 | [UFX_PROPRIETARY_CHARGER_RESET_OPERATION callback](..\ufxproprietarycharger\nc-ufxproprietarycharger-ufx_proprietary_charger_reset_operation.md) | The filter driver's implementation to reset a charger operation. |
@@ -589,7 +599,7 @@ For the programming guide, see [Universal Serial Bus(USB)](https://docs.microsof
 | [IOCTL_USB_DIAG_IGNORE_HUBS_ON IOCTL](..\usbioctl\ni-usbioctl-ioctl_usb_diag_ignore_hubs_on.md) | The IOCTL_USB_DIAG_IGNORE_HUBS_ON I/O control has been deprecated. Do not use. |
 | [IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION IOCTL](..\usbioctl\ni-usbioctl-ioctl_usb_get_descriptor_from_node_connection.md) | The IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION I/O control request retrieves one or more descriptors for the device that is associated with the indicated port index.IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION is a user-mode I/O control request. |
 | [IOCTL_USB_GET_DEVICE_CHARACTERISTICS IOCTL](..\usbioctl\ni-usbioctl-ioctl_usb_get_device_characteristics.md) | The client driver sends this request to determine general characteristics about a USB device, such as maximum send and receive delays for any request. |
-| [IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC IOCTL](..\usbioctl\ni-usbioctl-ioctl_usb_get_frame_number_and_qpc_for_time_sync.md) | . |
+| [IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC IOCTL](..\usbioctl\ni-usbioctl-ioctl_usb_get_frame_number_and_qpc_for_time_sync.md) | "." |
 | [IOCTL_USB_GET_HUB_CAPABILITIES IOCTL](..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_capabilities.md) | The IOCTL_USB_GET_HUB_CAPABILITIES I/O control request retrieves the capabilities of a USB hub. |
 | [IOCTL_USB_GET_HUB_CAPABILITIES_EX IOCTL](..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_capabilities_ex.md) | The IOCTL_USB_GET_HUB_CAPABILITIES_EX I/O control request retrieves the capabilities of a USB hub.IOCTL_USB_GET_HUB_CAPABILITIES_EX is a user-mode I/O control request. This request targets the USB hub device (GUID_DEVINTERFACE_USB_HUB). |
 | [IOCTL_USB_GET_HUB_INFORMATION_EX IOCTL](..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_information_ex.md) | The IOCTL_USB_GET_HUB_INFORMATION_EX I/O control request is sent by an application to retrieve information about a USB hub in a USB_HUB_INFORMATION_EX structure.The request retrieves the highest port number on the hub. |

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wiamicro.h
-apiname:
+api_name:
 -	SCANINFO
 product: Windows
 targetos: Windows
@@ -474,11 +474,11 @@ This structure is used as a parameter in the microdriver's <a href="..\wiamicro\
 
 ## -see-also
 
-<a href="..\wiamicro\nf-wiamicro-setpixelwindow.md">SetPixelWindow</a>
-
-
-
 <a href="..\wiamicro\nf-wiamicro-scan.md">Scan</a>
+
+
+
+<a href="..\wiamicro\nf-wiamicro-setpixelwindow.md">SetPixelWindow</a>
 
 
 

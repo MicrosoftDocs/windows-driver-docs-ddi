@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winsplp.h
-apiname:
+api_name:
 -	InitializePrintMonitor
 product: Windows
 targetos: Windows
@@ -97,11 +97,11 @@ The <i>pRegistryRoot</i> parameter supplies a pointer a string representing the 
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_monitorex.md">MONITOREX</a>
-
-
-
 <a href="..\winsplp\nf-winsplp-initializeprintmonitorui.md">InitializePrintMonitorUI</a>
+
+
+
+<a href="..\winsplp\ns-winsplp-_monitorex.md">MONITOREX</a>
 
 
 

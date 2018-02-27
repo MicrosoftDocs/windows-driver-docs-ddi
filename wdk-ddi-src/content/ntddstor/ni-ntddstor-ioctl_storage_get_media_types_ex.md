@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddstor.h
-apiname:
+api_name:
 -	IOCTL_STORAGE_GET_MEDIA_TYPES_EX
 product: Windows
 targetos: Windows

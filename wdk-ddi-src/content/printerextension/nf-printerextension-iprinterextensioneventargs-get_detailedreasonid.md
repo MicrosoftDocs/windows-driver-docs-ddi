@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Printerextension.h
-apiname:
+api_name:
 -	IPrinterExtensionEventArgs.DetailedReasonId
 -	IPrinterExtensionEventArgs.get_DetailedReasonId
 product: Windows
@@ -80,11 +80,11 @@ The value of <b>DetailedReasonId</b> is always {5D5A1704-DFD1-4181-8EEE-815C86ED
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973210">ReasonId</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterextensioneventargs.md">IPrinterExtensionEventArgs</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973210">ReasonId</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	mpiodisk.h
-apiname:
+api_name:
 -	DSM_QuerySupportedLBPolicies_V2
 product: Windows
 targetos: Windows

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rxworkq.h
-apiname:
+api_name:
 -	RxPostToWorkerThread
 product: Windows
 targetos: Windows
@@ -172,15 +172,15 @@ If the <b>RxPostToWorkerThread </b>routine fails on a debug build, the <a href="
 
 ## -see-also
 
-<a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread</a>
-
-
-
 <a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
 
 
 
 <a href="..\rxworkq\nf-rxworkq-rxspindownmrxdispatcher.md">RxSpinDownMRxDispatcher</a>
+
+
+
+<a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread</a>
 
 
 

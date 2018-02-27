@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	KeGetProcessorNumberFromIndex
 product: Windows
 targetos: Windows
@@ -152,15 +152,15 @@ The constant value ALL_PROCESSOR_GROUPS is defined in Winnt.h and Ntdef.h.
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
+
+
+
 <a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a>
 
 
 
 <a href="..\wdm\nf-wdm-kegetprocessorindexfromnumber.md">KeGetProcessorIndexFromNumber</a>
-
-
-
-<a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
 
 
 

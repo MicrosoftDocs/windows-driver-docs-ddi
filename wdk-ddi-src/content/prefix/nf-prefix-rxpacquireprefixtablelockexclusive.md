@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	prefix.h
-apiname:
+api_name:
 -	RxpAcquirePrefixTableLockExclusive
 product: Windows
 targetos: Windows
@@ -120,7 +120,11 @@ Normal kernel APC delivery should be disabled before calling this routine. Disab
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
+<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockshared.md">RxpAcquirePrefixTableLockShared</a>
+
+
+
+<a href="..\prefix\nf-prefix-rxprefixtablelookupname.md">RxPrefixTableLookupName</a>
 
 
 
@@ -132,10 +136,6 @@ Normal kernel APC delivery should be disabled before calling this routine. Disab
 
 
 
-<a href="..\prefix\nf-prefix-rxprefixtablelookupname.md">RxPrefixTableLookupName</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a>
 
 
@@ -144,7 +144,7 @@ Normal kernel APC delivery should be disabled before calling this routine. Disab
 
 
 
-<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockshared.md">RxpAcquirePrefixTableLockShared</a>
+<a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
 
 
 

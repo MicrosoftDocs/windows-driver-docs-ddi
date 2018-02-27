@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	KeAreApcsDisabled
 product: Windows
 targetos: Windows
@@ -88,7 +88,7 @@ A thread running at IRQL = PASSIVE_LEVEL can use <b>KeAreApcsDisabled</b> to det
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
+<a href="..\wdm\nf-wdm-keareallapcsdisabled.md">KeAreAllApcsDisabled</a>
 
 
 
@@ -96,7 +96,7 @@ A thread running at IRQL = PASSIVE_LEVEL can use <b>KeAreApcsDisabled</b> to det
 
 
 
-<a href="..\wdm\nf-wdm-keareallapcsdisabled.md">KeAreAllApcsDisabled</a>
+<a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
 
 
 

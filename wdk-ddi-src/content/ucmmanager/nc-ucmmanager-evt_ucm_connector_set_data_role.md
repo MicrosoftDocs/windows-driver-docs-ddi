@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Ucmmanager.h
-apiname:
+api_name:
 -	PFN_UCM_CONNECTOR_SET_DATA_ROLE
 product: Windows
 targetos: Windows

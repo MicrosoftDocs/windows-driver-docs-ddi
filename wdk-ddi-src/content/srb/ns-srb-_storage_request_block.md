@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Storport.h
-apiname:
+api_name:
 -	STORAGE_REQUEST_BLOCK
 product: Windows
 targetos: Windows
@@ -679,11 +679,11 @@ The target device address for the SRB is in a <a href="..\storport\ns-storport-_
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
-
 <a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
+
+
+
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Videoprt.sys
-apiname:
+api_name:
 -	VideoPortSetRegistryParameters
 product: Windows
 targetos: Windows
@@ -121,10 +121,6 @@ In a checked build of any version of the operating system, a value name that beg
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
-
-
-
 <a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
 
 
@@ -134,6 +130,10 @@ In a checked build of any version of the operating system, a value name that beg
 
 
 <a href="..\video\nf-video-videoportflushregistry.md">VideoPortFlushRegistry</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
 
 
 

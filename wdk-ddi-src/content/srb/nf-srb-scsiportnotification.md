@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Scsiport.lib; Storport.lib
 req.dll: 
 req.irql: "(See Remarks section)"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	scsiport.lib
 -	scsiport.dll
 -	storport.lib
 -	storport.dll
-apiname:
+api_name:
 -	ScsiPortNotification
 product: Windows
 targetos: Windows
@@ -437,7 +437,15 @@ A miniport driver that is registered as a WMI data provider can call <b>ScsiPort
 
 ## -see-also
 
+<a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiDisableInterruptsCallback</a>
+
+
+
 <a href="..\wdm\nf-wdm-iowmiregistrationcontrol.md">IoWMIRegistrationControl</a>
+
+
+
+<a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiEnableInterruptsCallback</a>
 
 
 
@@ -446,14 +454,6 @@ A miniport driver that is registered as a WMI data provider can call <b>ScsiPort
 
 
 <a href="..\srb\nf-srb-scsiportcompleterequest.md">ScsiPortCompleteRequest</a>
-
-
-
-<a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiDisableInterruptsCallback</a>
-
-
-
-<a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiEnableInterruptsCallback</a>
 
 
 

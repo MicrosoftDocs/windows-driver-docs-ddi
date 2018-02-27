@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winddiui.h
-apiname:
+api_name:
 -	DOCEVENT_CREATEDCPRE
 product: Windows
 targetos: Windows
@@ -104,11 +104,11 @@ This structure is used in conjunction with a call to <a href="..\winddiui\nf-win
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554141">IPrintOemUI2::DocumentEvent</a>
-
-
-
 <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554141">IPrintOemUI2::DocumentEvent</a>
 
 
 

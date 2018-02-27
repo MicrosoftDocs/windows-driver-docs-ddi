@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugAdvanced3.FindSourceFileAndTokenWide
 product: Windows
 targetos: Windows
@@ -218,15 +218,15 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
 
 
 

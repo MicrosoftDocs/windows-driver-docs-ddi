@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddk.h
-apiname:
+api_name:
 -	PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
 product: Windows
 targetos: Windows

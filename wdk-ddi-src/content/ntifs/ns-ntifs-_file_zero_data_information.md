@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntifs.h
-apiname:
+api_name:
 -	FILE_ZERO_DATA_INFORMATION
 product: Windows
 targetos: Windows
@@ -81,15 +81,15 @@ The byte offset of the first byte beyond the last zeroed byte.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
 
 
 
 <a href="..\ntifs\ns-ntifs-_file_zero_data_information_ex.md">FILE_ZERO_DATA_INFORMATION_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a>
 
 
 

@@ -29,15 +29,15 @@ req.type-library:
 req.lib: N/A (Exported by the KMDF co-installer library. For information about the co-installer library's filename, see Using the KMDF Co-installer.)
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	N/A
 -	N/A.dll
-apiname:
+api_name:
 -	WdfPreDeviceInstall
 product: Windows
 targetos: Windows

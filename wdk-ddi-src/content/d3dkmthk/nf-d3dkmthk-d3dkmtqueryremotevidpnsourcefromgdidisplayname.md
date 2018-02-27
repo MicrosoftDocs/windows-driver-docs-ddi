@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	D3dkmthk.h
-apiname:
+api_name:
 -	D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName
 product: Windows
 targetos: Windows
@@ -118,11 +118,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryremotevidpnsourcefromgdidisplayname.md">D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME</a>
-
-
-
 <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_outputduplpresent.md">D3DKMTOutputDuplPresent</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryremotevidpnsourcefromgdidisplayname.md">D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME</a>
 
 
 

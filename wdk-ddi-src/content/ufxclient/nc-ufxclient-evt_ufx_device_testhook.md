@@ -29,13 +29,13 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	kbSyntax
-apitype:
+api_type:
 -	<TBD>
-apilocation:
+api_location:
 -
-apiname:
+api_name:
 -	EVT_UFX_DEVICE_TESTHOOK callback
 product: Windows
 targetos: Windows

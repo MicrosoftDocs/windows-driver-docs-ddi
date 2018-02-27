@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	hbapiwmi.h
-apiname:
+api_name:
 -	GetFcpPersistentBinding_IN
 product: Windows
 targetos: Windows
@@ -83,11 +83,11 @@ The WMI tool suite generates a declaration of the GetFcpPersistentBinding_IN str
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553966">GetFcpPersistentBinding</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553966">GetFcpPersistentBinding</a>
 
 
 

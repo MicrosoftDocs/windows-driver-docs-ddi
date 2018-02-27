@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Videoprt.sys
-apiname:
+api_name:
 -	VideoPortReleaseDeviceLock
 product: Windows
 targetos: Windows
@@ -95,11 +95,11 @@ The miniport driver should call <b>VideoPortReleaseDeviceLock</b> to release the
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportacquiredevicelock.md">VideoPortAcquireDeviceLock</a>
-
-
-
 <a href="..\video\nc-video-pvideo_hw_query_interface.md">HwVidQueryInterface</a>
+
+
+
+<a href="..\video\nf-video-videoportacquiredevicelock.md">VideoPortAcquireDeviceLock</a>
 
 
 

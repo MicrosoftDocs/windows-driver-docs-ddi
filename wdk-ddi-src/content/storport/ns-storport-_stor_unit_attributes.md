@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Storport.h
-apiname:
+api_name:
 -	STOR_UNIT_ATTRIBUTES
 product: Windows
 targetos: Windows
@@ -104,11 +104,11 @@ If the miniport driver supports asynchronous notifications, the <b>AsyncNotifica
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportasyncnotificationdetected.md">StorPortAsyncNotificationDetected</a>
-
-
-
 <a href="..\storport\nf-storport-storportsetunitattributes.md">StorPortSetUnitAttributes</a>
+
+
+
+<a href="..\storport\nf-storport-storportasyncnotificationdetected.md">StorPortAsyncNotificationDetected</a>
 
 
 

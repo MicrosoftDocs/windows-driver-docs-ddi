@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ucxusbdevice.h
-apiname:
+api_name:
 -	USB_DEVICE_PORT_PATH
 product: Windows
 targetos: Windows

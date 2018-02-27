@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KsPinAcquireControl
 product: Windows
 targetos: Windows
@@ -94,11 +94,11 @@ The pin control mutex is the same mutex that is used by <i>Pin</i>'s parent. Thi
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
-
-
-
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
+<a href="..\ks\nf-ks-kspinreleasecontrol.md">KsPinReleaseControl</a>
 
 
 
@@ -106,7 +106,7 @@ The pin control mutex is the same mutex that is used by <i>Pin</i>'s parent. Thi
 
 
 
-<a href="..\ks\nf-ks-kspinreleasecontrol.md">KsPinReleaseControl</a>
+<a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
 
 
 

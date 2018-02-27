@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	MmIsDriverSuspectForVerifier
 product: Windows
 targetos: Windows
@@ -99,11 +99,7 @@ Another related routine, <a href="..\wdm\nf-wdm-mmisdriververifyingbyaddress.md"
 
 ## -see-also
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmisdriververifying.md">MmIsDriverVerifying</a>
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
@@ -111,7 +107,11 @@ Another related routine, <a href="..\wdm\nf-wdm-mmisdriververifyingbyaddress.md"
 
 
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmisdriververifying.md">MmIsDriverVerifying</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IPortEvents.AddEventToEventList
 product: Windows
 targetos: Windows
@@ -92,7 +92,7 @@ This method is used by a miniport driver's to add events to the event list that 
 
 ## -see-also
 
-<a href="..\portcls\nc-portcls-pcpfnevent_handler.md">EventHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536889">IPortEvents::GenerateEventList</a>
 
 
 
@@ -104,7 +104,7 @@ This method is used by a miniport driver's to add events to the event list that 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536889">IPortEvents::GenerateEventList</a>
+<a href="..\portcls\nc-portcls-pcpfnevent_handler.md">EventHandler</a>
 
 
 

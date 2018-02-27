@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pep_x.h
-apiname:
+api_name:
 -	PEP_PROCESSOR_IDLE_CANCEL_CODE
 product: Windows
 targetos: Windows
@@ -101,11 +101,11 @@ The <b>CancelCode</b> member of the <a href="..\pep_x\ns-pep_x-_pep_ppm_idle_can
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a>
-
-
-
 <a href="..\pep_x\ns-pep_x-_pep_ppm_idle_cancel.md">PEP_PPM_IDLE_CANCEL</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a>
 
 
 

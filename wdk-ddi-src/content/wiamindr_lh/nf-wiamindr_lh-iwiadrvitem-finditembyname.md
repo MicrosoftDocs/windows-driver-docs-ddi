@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	wiamindr_lh.h
-apiname:
+api_name:
 -	IWiaDrvItem.FindItemByName
 product: Windows
 targetos: Windows
@@ -124,7 +124,7 @@ This method starts the search for the specified item at the root item in the dri
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543867">IWiaDrvItem::FindChildItemByName</a>
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
 
 
 
@@ -132,7 +132,7 @@ This method starts the search for the specified item at the root item in the dri
 
 
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543867">IWiaDrvItem::FindChildItemByName</a>
 
 
 

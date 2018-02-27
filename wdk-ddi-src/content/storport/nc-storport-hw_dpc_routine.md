@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks section.)
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Storport.h
-apiname:
+api_name:
 -	HwStorDpcRoutine
 product: Windows
 targetos: Windows
@@ -178,6 +178,10 @@ The <b>HW_DPC_ROUTINE</b> function type is defined in the Storport.h header file
 
 ## -see-also
 
+<a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
+
+
+
 <a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
 
 
@@ -186,15 +190,11 @@ The <b>HW_DPC_ROUTINE</b> function type is defined in the Storport.h header file
 
 
 
-<a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>
-
-
-
 <a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
 
 
 
-<a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
+<a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>
 
 
 

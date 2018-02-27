@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	iscsicfg.h
-apiname:
+api_name:
 -	MSiSCSI_TCPIPConfig
 product: Windows
 targetos: Windows
@@ -131,11 +131,11 @@ The WMI tool suite automatically generates a declaration of the MSiSCSI_TCPIPCon
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563151">MSiSCSI_TCPIPConfig WMI Class</a>
-
-
-
 <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563151">MSiSCSI_TCPIPConfig WMI Class</a>
 
 
 

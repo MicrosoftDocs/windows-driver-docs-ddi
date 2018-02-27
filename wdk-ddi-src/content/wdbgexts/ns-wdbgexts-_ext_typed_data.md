@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdbgexts.h
-apiname:
+api_name:
 -	EXT_TYPED_DATA
 product: Windows
 targetos: Windows
@@ -257,15 +257,15 @@ This structure can optionally specify additional data--using the members <b>InSt
 
 
 
+<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
+
+
+
 <a href="..\wdbgexts\ne-wdbgexts-_ext_tdop.md">EXT_TDOP</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
-
-
-
-<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Dbgeng.h
-apiname:
+api_name:
 -	IDebugControl4.ControlledOutputVaListWide
 product: Windows
 targetos: Windows
@@ -473,6 +473,10 @@ The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Std
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
@@ -482,10 +486,6 @@ The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Std
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KS_FRAMING_ITEM
 product: Windows
 targetos: Windows
@@ -285,11 +285,11 @@ Each <a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a> 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ks_framing_range.md">KS_FRAMING_RANGE</a>
-
-
-
 <a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a>
+
+
+
+<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
 
 
 
@@ -297,7 +297,7 @@ Each <a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a> 
 
 
 
-<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
+<a href="..\ks\ns-ks-ks_framing_range.md">KS_FRAMING_RANGE</a>
 
 
 

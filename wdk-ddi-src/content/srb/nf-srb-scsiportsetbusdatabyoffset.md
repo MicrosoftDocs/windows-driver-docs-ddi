@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname:
+api_name:
 -	ScsiPortSetBusDataByOffset
 product: Windows
 targetos: Windows
@@ -136,15 +136,11 @@ Miniport drivers of HBAs on a PCI bus seldom call <b>ScsiPortSetBusDataByOffset<
 
 ## -see-also
 
+<a href="..\srb\nf-srb-scsiportgetbusdata.md">ScsiPortGetBusData</a>
+
+
+
 <a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
-
-
-
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
 
 
 
@@ -156,7 +152,11 @@ Miniport drivers of HBAs on a PCI bus seldom call <b>ScsiPortSetBusDataByOffset<
 
 
 
-<a href="..\srb\nf-srb-scsiportgetbusdata.md">ScsiPortGetBusData</a>
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	videoagp.h
-apiname:
+api_name:
 -	VIDEO_PORT_AGP_SERVICES
 product: Windows
 targetos: Windows

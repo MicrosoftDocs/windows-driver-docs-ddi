@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddtape.h
-apiname:
+api_name:
 -	TAPE_GET_DRIVE_PARAMETERS
 product: Windows
 targetos: Windows
@@ -710,11 +710,11 @@ Indicates the size in bytes of the early warning zone toward the end of the tape
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567936">TapeMiniGetDriveParameters</a>
-
-
-
 <a href="..\ntddtape\ni-ntddtape-ioctl_tape_get_drive_params.md">IOCTL_TAPE_GET_DRIVE_PARAMS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567936">TapeMiniGetDriveParameters</a>
 
 
 

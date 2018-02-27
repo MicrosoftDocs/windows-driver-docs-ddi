@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntifs.h
-apiname:
+api_name:
 -	FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT
 product: Windows
 targetos: Windows

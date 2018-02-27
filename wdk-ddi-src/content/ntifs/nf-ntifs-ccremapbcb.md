@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	CcRemapBcb
 product: Windows
 targetos: Windows
@@ -96,15 +96,15 @@ Like <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>, <b>CcRemapBcb</b> m
 
 
 
+<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
 
 

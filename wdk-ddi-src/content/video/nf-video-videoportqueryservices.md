@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Videoprt.sys
-apiname:
+api_name:
 -	VideoPortQueryServices
 product: Windows
 targetos: Windows
@@ -115,11 +115,11 @@ If the <i>ServicesType</i> parameter is set to <b>VideoPortServicesWCMemoryProte
 
 ## -see-also
 
+<a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a>
+
+
+
 <a href="..\video\ns-video-_video_port_i2c_interface.md">VIDEO_PORT_I2C_INTERFACE</a>
-
-
-
-<a href="..\video\ns-video-_video_port_agp_interface_2.md">VIDEO_PORT_AGP_INTERFACE_2</a>
 
 
 
@@ -127,23 +127,23 @@ If the <i>ServicesType</i> parameter is set to <b>VideoPortServicesWCMemoryProte
 
 
 
-<a href="..\video\ns-video-_video_port_wcmemoryprotection_interface.md">VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE</a>
-
-
-
 <a href="..\video\ns-video-_video_port_agp_interface.md">VIDEO_PORT_AGP_INTERFACE</a>
 
 
 
-<a href="..\videoagp\nc-videoagp-pagp_set_rate.md">AgpSetRate</a>
-
-
-
-<a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a>
-
-
-
 <a href="..\video\ns-video-_video_port_debug_report_interface.md">VIDEO_PORT_DEBUG_REPORT_INTERFACE</a>
+
+
+
+<a href="..\video\ns-video-_video_port_wcmemoryprotection_interface.md">VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE</a>
+
+
+
+<a href="..\video\ns-video-_video_port_agp_interface_2.md">VIDEO_PORT_AGP_INTERFACE_2</a>
+
+
+
+<a href="..\videoagp\nc-videoagp-pagp_set_rate.md">AgpSetRate</a>
 
 
 

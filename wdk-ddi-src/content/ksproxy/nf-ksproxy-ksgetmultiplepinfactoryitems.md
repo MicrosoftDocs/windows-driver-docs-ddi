@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ksproxy.lib
 -	Ksproxy.dll
-apiname:
+api_name:
 -	KsGetMultiplePinFactoryItems
 product: Windows
 targetos: Windows
@@ -113,7 +113,7 @@ For more information about <b>CoTaskMemFree</b>, see the Microsoft Windows SDK d
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
 
 
 
@@ -125,7 +125,7 @@ For more information about <b>CoTaskMemFree</b>, see the Microsoft Windows SDK d
 
 
 
-<a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 

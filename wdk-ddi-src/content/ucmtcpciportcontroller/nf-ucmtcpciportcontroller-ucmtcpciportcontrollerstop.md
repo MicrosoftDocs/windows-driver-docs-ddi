@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ucmtcpcicxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ucmtcpcicxstub.lib
 -	ucmtcpcicxstub.dll
-apiname:
+api_name:
 -	UcmTcpciPortControllerStop
 product: Windows
 targetos: Windows

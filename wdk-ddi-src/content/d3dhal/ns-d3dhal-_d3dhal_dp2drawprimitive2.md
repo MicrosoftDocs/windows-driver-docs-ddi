@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dhal.h
-apiname:
+api_name:
 -	D3DHAL_DP2DRAWPRIMITIVE2
 product: Windows
 targetos: Windows
@@ -99,15 +99,7 @@ The vertex data has been transformed by the runtime.
 
 ## -see-also
 
-D3DDP2OP_DRAWPRIMITIVE
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawprimitive.md">D3DHAL_DP2DRAWPRIMITIVE</a>
 
 
 
@@ -115,7 +107,15 @@ D3DDP2OP_DRAWPRIMITIVE
 
 
 
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawprimitive.md">D3DHAL_DP2DRAWPRIMITIVE</a>
+
+
+
 D3DDP2OP_DRAWPRIMITIVE2
+
+
+
+D3DDP2OP_DRAWPRIMITIVE
 
 
 

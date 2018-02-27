@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dxgiddi.h
-apiname:
+api_name:
 -	DXGI_DDI_PRESENT_FLAGS
 product: Windows
 targetos: Windows

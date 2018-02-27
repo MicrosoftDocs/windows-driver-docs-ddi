@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KsGateInitialize
 product: Windows
 targetos: Windows
@@ -114,7 +114,7 @@ To learn more about the gate construct in AVStream, see <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+<a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
 
 
 
@@ -122,7 +122,7 @@ To learn more about the gate construct in AVStream, see <a href="https://msdn.mi
 
 
 
-<a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
+<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
 
 
 

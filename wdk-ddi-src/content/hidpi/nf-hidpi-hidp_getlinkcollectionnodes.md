@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Hidparse.lib
 -	Hidparse.dll
-apiname:
+api_name:
 -	HidP_GetLinkCollectionNodes
 product: Windows
 targetos: Windows
@@ -139,6 +139,10 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
+<a href="..\hidpi\ns-hidpi-_hidp_link_collection_node.md">HIDP_LINK_COLLECTION_NODE</a>
+
+
+
 <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
 
 
@@ -148,10 +152,6 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
-
-
-<a href="..\hidpi\ns-hidpi-_hidp_link_collection_node.md">HIDP_LINK_COLLECTION_NODE</a>
 
 
 

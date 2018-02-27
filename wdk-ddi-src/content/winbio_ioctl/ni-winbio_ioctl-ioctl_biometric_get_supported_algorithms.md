@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Winbio_ioctl.h
-apiname:
+api_name:
 -	IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS
 product: Windows
 targetos: Windows

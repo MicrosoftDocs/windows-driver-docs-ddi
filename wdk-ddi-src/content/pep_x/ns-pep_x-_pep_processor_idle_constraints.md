@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pep_x.h
-apiname:
+api_name:
 -	PEP_PROCESSOR_IDLE_CONSTRAINTS
 product: Windows
 targetos: Windows
@@ -95,11 +95,11 @@ The <b>Constraints</b> member of the <a href="..\pep_x\ns-pep_x-_pep_ppm_idle_se
 
 ## -see-also
 
-<a href="..\pep_x\ne-pep_x-ppep_processor_idle_type.md">PEP_PROCESSOR_IDLE_TYPE</a>
-
-
-
 <a href="..\pep_x\ns-pep_x-_pep_ppm_idle_select.md">PEP_PPM_IDLE_SELECT</a>
+
+
+
+<a href="..\pep_x\ne-pep_x-ppep_processor_idle_type.md">PEP_PROCESSOR_IDLE_TYPE</a>
 
 
 

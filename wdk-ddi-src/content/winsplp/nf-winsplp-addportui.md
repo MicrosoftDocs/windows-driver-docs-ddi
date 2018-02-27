@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	winsplp.h
-apiname:
+api_name:
 -	pfnAddPortUI
 product: Windows
 targetos: Windows
@@ -173,11 +173,7 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564258">XcvDataPort</a>
-
-
-
-<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
 
 
 
@@ -185,11 +181,15 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 
 
+<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564258">XcvDataPort</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564259">XcvOpenPort</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
 
 
 

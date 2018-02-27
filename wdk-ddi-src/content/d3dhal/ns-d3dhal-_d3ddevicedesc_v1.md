@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dhal.h
-apiname:
+api_name:
 -	D3DDEVICEDESC_V1
 product: Windows
 targetos: Windows
@@ -498,15 +498,19 @@ The Direct3D runtime constructs the application-level D3DDEVICEDESC7 structure (
 
 ## -see-also
 
-<a href="..\d3dcaps\ns-d3dcaps-_d3dprimcaps.md">D3DPRIMCAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
 
 
 
-<a href="..\d3dcaps\ns-d3dcaps-_d3dlightingcaps.md">D3DLIGHTINGCAPS</a>
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
 <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
+
+
+
+<a href="..\d3dcaps\ns-d3dcaps-_d3dprimcaps.md">D3DPRIMCAPS</a>
 
 
 
@@ -518,11 +522,7 @@ The Direct3D runtime constructs the application-level D3DDEVICEDESC7 structure (
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
+<a href="..\d3dcaps\ns-d3dcaps-_d3dlightingcaps.md">D3DLIGHTINGCAPS</a>
 
 
 

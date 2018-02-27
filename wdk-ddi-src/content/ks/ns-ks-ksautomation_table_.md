@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KSAUTOMATION_TABLE
 product: Windows
 targetos: Windows
@@ -170,15 +170,7 @@ DEFINE_KSAUTOMATION_EVENTS (MyEventTable)</pre>
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
-
-
-
 <a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
-
-
-
-<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
 
 
 
@@ -186,7 +178,15 @@ DEFINE_KSAUTOMATION_EVENTS (MyEventTable)</pre>
 
 
 
+<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
+
+
+
 <a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
+
+
+
+<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
 
 
 

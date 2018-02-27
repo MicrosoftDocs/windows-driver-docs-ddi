@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dumddi.h
-apiname:
+api_name:
 -	DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA
 product: Windows
 targetos: Windows
@@ -93,6 +93,14 @@ If the supplied sampling size is larger than the size of the target rectangle, t
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate.md">SetVideoProcessBltState</a>
 
 
@@ -101,15 +109,7 @@ If the supplied sampling size is larger than the size of the target rectangle, t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a>
 
 
 

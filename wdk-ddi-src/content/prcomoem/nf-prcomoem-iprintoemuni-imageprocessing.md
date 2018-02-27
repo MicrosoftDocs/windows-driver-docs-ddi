@@ -29,14 +29,14 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	prcomoem.h
-apiname:
+api_name:
 -	IPrintOemUni.ImageProcessing
 product: Windows
 targetos: Windows
@@ -278,11 +278,11 @@ The <code>IPrintOemUni::ImageProcessing</code> method is optional. If a renderin
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554252">IPrintOemUni::FilterGraphics</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567320">HT_Get8BPPMaskPalette</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554252">IPrintOemUni::FilterGraphics</a>
 
 
 

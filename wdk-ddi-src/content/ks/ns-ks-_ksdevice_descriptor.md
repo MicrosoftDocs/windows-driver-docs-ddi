@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KSDEVICE_DESCRIPTOR
 product: Windows
 targetos: Windows
@@ -164,6 +164,10 @@ Similarly, using an earlier version descriptor on later versions of AVStream cau
 
 ## -see-also
 
+<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+
+
+
 <a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
 
 
@@ -177,10 +181,6 @@ Similarly, using an earlier version descriptor on later versions of AVStream cau
 
 
 <a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
-
-
-
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
 
 

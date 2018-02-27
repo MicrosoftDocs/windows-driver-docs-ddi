@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	D3dkmddi.h
-apiname:
+api_name:
 -	DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT
 product: Windows
 targetos: Windows
@@ -92,11 +92,11 @@ Specifies limitations on hardware support of multiplane overlays.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport.md">DxgkDdiCheckMultiPlaneOverlaySupport</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_check_multiplane_overlay_support_plane.md">DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport.md">DxgkDdiCheckMultiPlaneOverlaySupport</a>
 
 
 

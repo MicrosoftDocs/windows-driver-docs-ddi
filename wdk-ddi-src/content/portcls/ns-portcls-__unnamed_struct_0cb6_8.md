@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	PCNODE_DESCRIPTOR
 product: Windows
 targetos: Windows
@@ -107,7 +107,7 @@ For a simple code example that shows how the <b>PCNODE_DESCRIPTOR</b> structure 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565809">KSPROPERTY_TOPOLOGY_NAME</a>
+<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_9.md">PCFILTER_DESCRIPTOR</a>
 
 
 
@@ -115,7 +115,7 @@ For a simple code example that shows how the <b>PCNODE_DESCRIPTOR</b> structure 
 
 
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_9.md">PCFILTER_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565809">KSPROPERTY_TOPOLOGY_NAME</a>
 
 
 

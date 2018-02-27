@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	ntdd8042.h
-apiname:
+api_name:
 -	QueuePacket
 product: Windows
 targetos: Windows
@@ -101,7 +101,7 @@ The PI8042_QUEUE_PACKET callback runs in kernel mode at the same IRQL as the I80
 
 ## -see-also
 
-<a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_hook_mouse.md">INTERNAL_I8042_HOOK_MOUSE</a>
+<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_keyboard.md">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a>
 
 
 
@@ -109,7 +109,7 @@ The PI8042_QUEUE_PACKET callback runs in kernel mode at the same IRQL as the I80
 
 
 
-<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_keyboard.md">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a>
+<a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_hook_mouse.md">INTERNAL_I8042_HOOK_MOUSE</a>
 
 
 

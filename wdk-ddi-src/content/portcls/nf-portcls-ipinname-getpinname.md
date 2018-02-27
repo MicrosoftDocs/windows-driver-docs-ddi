@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IPinName.GetPinName
 product: Windows
 targetos: Windows
@@ -128,11 +128,11 @@ KSNODETYPE_LOW_FREQUENCY_EFFECTS_SPEAKER
 
 
 
-<a href="https://msdn.microsoft.com/fd4a4afd-2c17-4002-87ae-21501b1d75c1">Pin Category Property</a>
-
-
-
 <a href="..\portcls\nn-portcls-ipinname.md">IPinName</a>
+
+
+
+<a href="https://msdn.microsoft.com/fd4a4afd-2c17-4002-87ae-21501b1d75c1">Pin Category Property</a>
 
 
 

@@ -105,5 +105,6 @@
 ### [_DXGK_TIMED_OPERATION structure](../dispmprt/ns-dispmprt-_dxgk_timed_operation.md)
 ### [_DXGK_TIMED_OPERATION_INTERFACE structure](../dispmprt/ns-dispmprt-_dxgk_timed_operation_interface.md)
 ### [_DXGK_VIDEO_OUTPUT_CAPABILITIES structure](../dispmprt/ns-dispmprt-_dxgk_video_output_capabilities.md)
+### [_EMULATOR_ACCESS_ENTRY structure](../dispmprt/ns-dispmprt-_emulator_access_entry.md)
 ### [_KMDDOD_INITIALIZATION_DATA structure](../dispmprt/ns-dispmprt-_kmddod_initialization_data.md)
 ### [_LINKED_DEVICE structure](../dispmprt/ns-dispmprt-_linked_device.md)

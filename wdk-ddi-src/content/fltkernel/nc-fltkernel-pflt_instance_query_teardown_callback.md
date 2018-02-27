@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	fltkernel.h
-apiname:
+api_name:
 -	InstanceQueryTeardownCallback
 product: Windows
 targetos: Windows
@@ -130,7 +130,7 @@ If a minifilter driver does not define an <i>InstanceQueryTeardownCallback</i> r
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
 
 
 
@@ -138,11 +138,11 @@ If a minifilter driver does not define an <i>InstanceQueryTeardownCallback</i> r
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltdetachvolume.md">FltDetachVolume</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
 
 
 
@@ -150,11 +150,11 @@ If a minifilter driver does not define an <i>InstanceQueryTeardownCallback</i> r
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltdetachvolume.md">FltDetachVolume</a>
+
+
+
 <a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a>
 
 
 

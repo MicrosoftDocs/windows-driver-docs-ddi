@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wiamdef.h
-apiname:
+api_name:
 -	WIAS_LERROR
 product: Windows
 targetos: Windows
@@ -130,19 +130,19 @@ The WIAS_LERROR macro is not recommended for Windows Vista, because it does not 
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_ltrace.md">WIAS_LTRACE</a>
-
-
-
 <a href="..\wiautil\nf-wiautil-wias_lwarning.md">WIAS_LWARNING</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a>
+<a href="..\wiautil\nf-wiautil-wias_ltrace.md">WIAS_LTRACE</a>
 
 
 
 <a href="..\wiautil\nf-wiautil-wias_lhresult.md">WIAS_LHRESULT</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a>
 
 
 

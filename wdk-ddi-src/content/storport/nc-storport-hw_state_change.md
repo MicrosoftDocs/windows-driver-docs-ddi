@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	storport.h
-apiname:
+api_name:
 -	HwStorStateChange
 product: Windows
 targetos: Windows
@@ -147,11 +147,11 @@ HW_STATE_CHANGE (
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
-
-
-
 <a href="..\storport\nf-storport-storportstatechangedetected.md"> StorPortStateChangeDetected</a>
+
+
+
+<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
 
 
 

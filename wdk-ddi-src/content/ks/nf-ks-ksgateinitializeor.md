@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ks.h
-apiname:
+api_name:
 -	KsGateInitializeOr
 product: Windows
 targetos: Windows
@@ -100,7 +100,7 @@ This function is an inline call to <b>KsGateInitialize</b>.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
+<a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
 
 
 
@@ -108,7 +108,7 @@ This function is an inline call to <b>KsGateInitialize</b>.
 
 
 
-<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
+<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
 
 
 
@@ -116,7 +116,7 @@ This function is an inline call to <b>KsGateInitialize</b>.
 
 
 
-<a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
+<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	GetBusDriverD3ColdSupport
 product: Windows
 targetos: Windows
@@ -121,11 +121,11 @@ For this reason, most device drivers never need to call the <i>GetBusDriverD3Col
 
 
 
-<a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a>
-
-
-
 <a href="..\wdm\nc-wdm-set_d3cold_support.md">SetD3ColdSupport</a>
+
+
+
+<a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a>
 
 
 

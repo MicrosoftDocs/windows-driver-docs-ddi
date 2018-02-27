@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Gpioclx.h
-apiname:
+api_name:
 -	CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT
 product: Windows
 targetos: Windows
@@ -106,11 +106,11 @@ For more information about GPIO banks, see <a href="https://msdn.microsoft.com/D
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_idle_state.md">PO_FX_COMPONENT_IDLE_STATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_idle_state.md">PO_FX_COMPONENT_IDLE_STATE</a>
 
 
 

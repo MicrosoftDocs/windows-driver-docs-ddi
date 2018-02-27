@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	irb.h
-apiname:
+api_name:
 -	AtaPortDeviceBusy
 product: Windows
 targetos: Windows
@@ -114,11 +114,11 @@ The miniport driver must not call <b>AtaPortDeviceBusy</b> from its <a href="htt
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportdeviceready.md">AtaPortDeviceReady</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558992">IdeHwInterrupt</a>
+
+
+
+<a href="..\irb\nf-irb-ataportdeviceready.md">AtaPortDeviceReady</a>
 
 
 

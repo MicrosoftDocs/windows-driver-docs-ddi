@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	wiamindr_lh.h
-apiname:
+api_name:
 -	IWiaMiniDrv.drvLockWiaDevice
 product: Windows
 targetos: Windows
@@ -124,7 +124,7 @@ The <b>IWiaMiniDrv::drvLockWiaDevice</b> method is used to lock access to the de
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545012">IWiaMiniDrv::drvUnLockWiaDevice</a>
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
 
 
@@ -132,7 +132,7 @@ The <b>IWiaMiniDrv::drvLockWiaDevice</b> method is used to lock access to the de
 
 
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545012">IWiaMiniDrv::drvUnLockWiaDevice</a>
 
 
 

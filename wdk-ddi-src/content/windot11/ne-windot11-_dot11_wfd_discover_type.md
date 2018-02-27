@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Windot11.h
-apiname:
+api_name:
 -	DOT11_WFD_DISCOVER_TYPE
 product: Windows
 targetos: Windows
@@ -108,11 +108,11 @@ The <b>dot11_wfd_discover_type_forced</b> flag may be set along with only one of
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_wfd_discover_request.md">DOT11_WFD_DISCOVER_REQUEST</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451795">OID_DOT11_WFD_DISCOVER_REQUEST</a>
+
+
+
+<a href="..\windot11\ns-windot11-_dot11_wfd_discover_request.md">DOT11_WFD_DISCOVER_REQUEST</a>
 
 
 

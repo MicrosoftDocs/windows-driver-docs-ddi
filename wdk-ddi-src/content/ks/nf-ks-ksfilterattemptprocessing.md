@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsFilterAttemptProcessing
 product: Windows
 targetos: Windows
@@ -107,15 +107,15 @@ Note that this is only an attempt at processing; calling this function does not 
 
 
 
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+
+
+
 <a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
 
 
 
 <a href="..\ks\nf-ks-kspinattemptprocessing.md">KsPinAttemptProcessing</a>
-
-
-
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 
 

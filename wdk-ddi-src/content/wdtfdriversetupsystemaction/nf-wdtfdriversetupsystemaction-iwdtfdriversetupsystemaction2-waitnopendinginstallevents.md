@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtfdriversetupsystemaction.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WDTFDriverSetupSystemAction.Interop.dll
-apiname:
+api_name:
 -	IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents
 product: Windows
 targetos: Windows

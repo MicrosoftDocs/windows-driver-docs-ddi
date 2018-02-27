@@ -29,17 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib; OneCoreUAP.lib on Windows 10
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtDll.dll
 -	NtosKrnl.exe
 -	API-MS-Win-Core-RTLSupport-l1-1-0.dll
 -	API-MS-Win-Core-RTLSupport-l1-2-0.dll
-apiname:
+api_name:
 -	RtlCaptureContext
 product: Windows
 targetos: Windows

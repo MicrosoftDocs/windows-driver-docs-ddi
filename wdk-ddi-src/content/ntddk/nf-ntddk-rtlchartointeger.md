@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	RtlCharToInteger
 product: Windows
 targetos: Windows
@@ -104,11 +104,11 @@ Pointer to a location to which the converted value is returned.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
-
-
-
 <a href="..\wudfwdm\nf-wudfwdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
 
 
 

@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Netio.lib
 -	Netio.dll
-apiname:
+api_name:
 -	WskDeregister
 product: Windows
 targetos: Windows
@@ -126,11 +126,11 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
-
-
-
 <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
 
 
 

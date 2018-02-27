@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	rxtimer.h
-apiname:
+api_name:
 -	RxPostOneShotTimerRequest
 product: Windows
 targetos: Windows
@@ -111,11 +111,11 @@ If a <b>NULL</b> pointer is passed as the <i>pWorkItem</i> parameter, this routi
 
 ## -see-also
 
-<a href="..\rxtimer\nf-rxtimer-rxcanceltimerrequest.md">RxCancelTimerRequest</a>
-
-
-
 <a href="..\rxtimer\nf-rxtimer-rxpostrecurrenttimerrequest.md">RxPostRecurrentTimerRequest</a>
+
+
+
+<a href="..\rxtimer\nf-rxtimer-rxcanceltimerrequest.md">RxCancelTimerRequest</a>
 
 
 

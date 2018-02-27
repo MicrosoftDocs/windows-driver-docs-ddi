@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	pepfx.h
-apiname:
+api_name:
 -	PEP_SOC_SUBSYSTEM_METADATA
 product: Windows
 targetos: Windows
@@ -108,11 +108,11 @@ Since this memory is pre-allocated, its size cannot be changed. The PEP is respo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186854">PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</a>
-
-
-
 <a href="..\pepfx\ns-pepfx-_pep_query_soc_subsystem_metadata.md">PEP_QUERY_SOC_SUBSYSTEM_METADATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186854">PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</a>
 
 
 

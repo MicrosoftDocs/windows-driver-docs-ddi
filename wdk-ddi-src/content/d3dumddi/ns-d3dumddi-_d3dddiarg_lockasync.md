@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dumddi.h
-apiname:
+api_name:
 -	D3DDDIARG_LOCKASYNC
 product: Windows
 targetos: Windows
@@ -161,15 +161,15 @@ Only one of the <b>RangeValid</b>, <b>AreaValid</b>, and <b>BoxValid</b> bit-fie
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_lockasyncflags.md">D3DDDI_LOCKASYNCFLAGS</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
 
 
 

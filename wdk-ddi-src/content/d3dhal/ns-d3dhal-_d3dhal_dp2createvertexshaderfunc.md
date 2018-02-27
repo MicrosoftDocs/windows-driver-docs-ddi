@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dhal.h
-apiname:
+api_name:
 -	D3DHAL_DP2CREATEVERTEXSHADERFUNC
 product: Windows
 targetos: Windows
@@ -97,11 +97,7 @@ The DirectX 9.0 runtime sets <b>dwHandle</b> to zero to indicate a fixed functio
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2vertexshader.md">D3DHAL_DP2VERTEXSHADER</a>
+D3DDP2OP_CREATEVERTEXSHADERFUNC
 
 
 
@@ -109,7 +105,11 @@ The DirectX 9.0 runtime sets <b>dwHandle</b> to zero to indicate a fixed functio
 
 
 
-D3DDP2OP_CREATEVERTEXSHADERFUNC
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2vertexshader.md">D3DHAL_DP2VERTEXSHADER</a>
+
+
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wdfcompanion.h
-apiname:
+api_name:
 -	EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
 product: Windows
 targetos: Windows

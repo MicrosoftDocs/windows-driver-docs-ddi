@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wsk.h
-apiname:
+api_name:
 -	WSK_DATA_INDICATION
 product: Windows
 targetos: Windows
@@ -101,7 +101,7 @@ The WSK subsystem passes a pointer to a WSK_DATA_INDICATION structure as the
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
 
 
 
@@ -109,7 +109,7 @@ The WSK subsystem passes a pointer to a WSK_DATA_INDICATION structure as the
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
 
 
 

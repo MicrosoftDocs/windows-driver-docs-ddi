@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	prntfont.h
-apiname:
+api_name:
 -	GLYPHRUN
 product: Windows
 targetos: Windows
@@ -92,15 +92,15 @@ The GLYPHRUN structures must be defined in ascending order, based on the value o
 
 ## -see-also
 
+<a href="..\prntfont\ns-prntfont-_uni_glyphsetdata.md">UNI_GLYPHSETDATA</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570578">WCRUN</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565625">FD_GLYPHSET</a>
-
-
-
-<a href="..\prntfont\ns-prntfont-_uni_glyphsetdata.md">UNI_GLYPHSETDATA</a>
 
 
 

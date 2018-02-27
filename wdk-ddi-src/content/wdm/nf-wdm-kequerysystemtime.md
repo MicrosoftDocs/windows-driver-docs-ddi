@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	KeQuerySystemTime
 product: Windows
 targetos: Windows
@@ -93,10 +93,6 @@ System time is a count of 100-nanosecond intervals since January 1, 1601. System
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
-
-
-
 <a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
 
 
@@ -106,6 +102,10 @@ System time is a count of 100-nanosecond intervals since January 1, 1601. System
 
 
 <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
+
+
+
+<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
 
 
 

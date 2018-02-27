@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3d10umddi.h
-apiname:
+api_name:
 -	D3D10DDIARG_CREATERENDERTARGETVIEW
 product: Windows
 targetos: Windows
@@ -118,15 +118,7 @@ typedef struct D3D10DDIARG_CREATERENDERTARGETVIEW {
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_texcube_rendertargetview.md">D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex2d_rendertargetview.md">D3D10DDIARG_TEX2D_RENDERTARGETVIEW</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterendertargetviewsize.md">CalcPrivateRenderTargetViewSize</a>
 
 
 
@@ -134,11 +126,11 @@ typedef struct D3D10DDIARG_CREATERENDERTARGETVIEW {
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex3d_rendertargetview.md">D3D10DDIARG_TEX3D_RENDERTARGETVIEW</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex3d_rendertargetview.md">D3D10DDIARG_TEX3D_RENDERTARGETVIEW</a>
 
 
 
@@ -146,7 +138,15 @@ typedef struct D3D10DDIARG_CREATERENDERTARGETVIEW {
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterendertargetviewsize.md">CalcPrivateRenderTargetViewSize</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex2d_rendertargetview.md">D3D10DDIARG_TEX2D_RENDERTARGETVIEW</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_texcube_rendertargetview.md">D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW</a>
 
 
 

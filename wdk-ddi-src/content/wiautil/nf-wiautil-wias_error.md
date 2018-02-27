@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wiamdef.h
-apiname:
+api_name:
 -	WIAS_ERROR
 product: Windows
 targetos: Windows
@@ -119,11 +119,11 @@ This code snippet was taken from <i>Wiadriver.cpp</i>, which is included with th
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_hresult.md">WIAS_HRESULT</a>
-
-
-
 <a href="..\wiautil\nf-wiautil-wias_assert.md">WIAS_ASSERT</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wias_hresult.md">WIAS_HRESULT</a>
 
 
 

@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname:
+api_name:
 -	ScsiPortConvertUlongToPhysicalAddress
 product: Windows
 targetos: Windows
@@ -85,15 +85,15 @@ Specifies a value of type ULONG.
 
 ## -see-also
 
+<a href="..\srb\nf-srb-scsiportgetvirtualaddress.md">ScsiPortGetVirtualAddress</a>
+
+
+
 <a href="..\strmini\ns-strmini-_access_range.md">ACCESS_RANGE</a>
 
 
 
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportgetvirtualaddress.md">ScsiPortGetVirtualAddress</a>
 
 
 

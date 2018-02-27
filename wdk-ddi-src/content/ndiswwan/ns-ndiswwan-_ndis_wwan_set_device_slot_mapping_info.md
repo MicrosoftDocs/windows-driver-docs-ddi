@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ndiswwan.h
-apiname:
+api_name:
 -	NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO
 product: Windows
 targetos: Windows
@@ -133,15 +133,15 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_device_slot_mapping_info.md">WWAN_DEV
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_device_slot_mapping_info.md">WWAN_DEVICE_SLOT_MAPPING_INFO</a>
+
+
+
 <a href="https://msdn.microsoft.com/54AF3447-7918-49CE-945A-DC8DC1E78CBF">OID_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_device_slot_mapping_info.md">WWAN_DEVICE_SLOT_MAPPING_INFO</a>
 
 
 

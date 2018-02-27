@@ -29,14 +29,14 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	engextcpp.hpp
-apiname:
+api_name:
 -	ExtRemoteTyped.GetTypeName
 product: Windows
 targetos: Windows
@@ -78,7 +78,7 @@ PSTR GetTypeName();
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544527">EXT_DECLARE_GLOBALS</a>
 
 
 
@@ -86,11 +86,11 @@ PSTR GetTypeName();
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544527">EXT_DECLARE_GLOBALS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
 
 
 

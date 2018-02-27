@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	2.0\Sercx.h
-apiname:
+api_name:
 -	EvtSerCx2PioTransmitInitializeTransaction
 product: Windows
 targetos: Windows
@@ -144,7 +144,7 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION</b> function type is defin
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2piotransmitinitializetransactioncomplete.md">SerCx2PioTransmitInitializeTransactionComplete</a>
+<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
 
 
 
@@ -152,7 +152,7 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION</b> function type is defin
 
 
 
-<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
+<a href="..\sercx\nf-sercx-sercx2piotransmitinitializetransactioncomplete.md">SerCx2PioTransmitInitializeTransactionComplete</a>
 
 
 

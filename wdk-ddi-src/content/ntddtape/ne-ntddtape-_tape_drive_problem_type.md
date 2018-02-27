@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddtape.h
-apiname:
+api_name:
 -	TAPE_DRIVE_PROBLEM_TYPE
 product: Windows
 targetos: Windows
@@ -152,11 +152,11 @@ Indicates that the tape has snapped.
 
 ## -see-also
 
-<a href="..\ntddtape\ns-ntddtape-_tape_wmi_operations.md">TAPE_WMI_OPERATIONS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a>
+
+
+
+<a href="..\ntddtape\ns-ntddtape-_tape_wmi_operations.md">TAPE_WMI_OPERATIONS</a>
 
 
 

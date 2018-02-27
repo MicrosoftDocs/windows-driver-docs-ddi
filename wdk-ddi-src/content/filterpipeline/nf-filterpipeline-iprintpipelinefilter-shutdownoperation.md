@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Filterpipeline.h
-apiname:
+api_name:
 -	IPrintPipelineFilter.ShutdownOperation
 product: Windows
 targetos: Windows
@@ -92,11 +92,11 @@ The <code>ShutdownOperation</code> method is called by the pipeline manager if t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554306">IPrintPipelineManagerControl::FilterFinished</a>
-
-
-
 <a href="..\filterpipeline\nn-filterpipeline-iprintpipelinefilter.md">IPrintPipelineFilter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554306">IPrintPipelineManagerControl::FilterFinished</a>
 
 
 

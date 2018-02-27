@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdtf.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	wdtf.h
-apiname:
+api_name:
 -	ITracer.GetBits
 product: Windows
 targetos: Windows
@@ -109,7 +109,7 @@ If <b>GetBits</b> fails for any reason, the caller is expected to silently conti
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
+<a href="..\wdtf\nn-wdtf-itracer.md">ITracer</a>
 
 
 
@@ -117,7 +117,7 @@ If <b>GetBits</b> fails for any reason, the caller is expected to silently conti
 
 
 
-<a href="..\wdtf\nn-wdtf-itracer.md">ITracer</a>
+<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
 
 
 

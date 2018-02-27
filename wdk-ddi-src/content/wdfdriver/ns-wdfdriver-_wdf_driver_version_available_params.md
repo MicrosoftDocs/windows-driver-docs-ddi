@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfdriver.h
-apiname:
+api_name:
 -	WDF_DRIVER_VERSION_AVAILABLE_PARAMS
 product: Windows
 targetos: Windows
@@ -98,11 +98,11 @@ The WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure is used as input to the <a hre
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdf_driver_version_available_params_init.md">WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT</a>
-
-
-
 <a href="..\wdfdriver\nf-wdfdriver-wdfdriverisversionavailable.md">WdfDriverIsVersionAvailable</a>
+
+
+
+<a href="..\wdfdriver\nf-wdfdriver-wdf_driver_version_available_params_init.md">WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT</a>
 
 
 

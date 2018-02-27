@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	nfcsedev.h
-apiname:
+api_name:
 -	SECURE_ELEMENT_CARD_EMULATION_MODE
 product: Windows
 targetos: Windows

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	avc.h
-apiname:
+api_name:
 -	AVC_IRB
 product: Windows
 targetos: Windows
@@ -91,11 +91,11 @@ This structure is included at the head of the AVC_COMMAND_IRB and AVC_MULTIFUNC_
 
 
 
-<a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
-
-
-
 <a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+
+
+
+<a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
 
 
 

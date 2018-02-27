@@ -21,6 +21,7 @@
 ### [USBD_ParseConfigurationDescriptorEx function](../usbdlib/nf-usbdlib-usbd_parseconfigurationdescriptorex.md)
 ### [USBD_ParseDescriptors function](../usbdlib/nf-usbdlib-usbd_parsedescriptors.md)
 ### [USBD_QueryBusTime function](../usbdlib/nf-usbdlib-usbd_querybustime.md)
+### [USBD_QueryUsbCapability function](../usbdlib/nf-usbdlib-usbd_queryusbcapability.md)
 ### [USBD_RegisterHcFilter function](../usbdlib/nf-usbdlib-usbd_registerhcfilter.md)
 ### [USBD_SelectConfigUrbAllocateAndBuild function](../usbdlib/nf-usbdlib-usbd_selectconfigurballocateandbuild.md)
 ### [USBD_SelectInterfaceUrbAllocateAndBuild function](../usbdlib/nf-usbdlib-usbd_selectinterfaceurballocateandbuild.md)

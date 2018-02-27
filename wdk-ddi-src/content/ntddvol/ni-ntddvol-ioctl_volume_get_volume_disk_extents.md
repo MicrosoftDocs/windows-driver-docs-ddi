@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddvol.h
-apiname:
+api_name:
 -	IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
 product: Windows
 targetos: Windows
@@ -124,11 +124,11 @@ If the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> is large enough for a
 
 ## -see-also
 
-<a href="..\ntddvol\ns-ntddvol-_volume_disk_extents.md">VOLUME_DISK_EXTENTS</a>
-
-
-
 <a href="..\ntddvol\ns-ntddvol-_disk_extent.md">DISK_EXTENT</a>
+
+
+
+<a href="..\ntddvol\ns-ntddvol-_volume_disk_extents.md">VOLUME_DISK_EXTENTS</a>
 
 
 

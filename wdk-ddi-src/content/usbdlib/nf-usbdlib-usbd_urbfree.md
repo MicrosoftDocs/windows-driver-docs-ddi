@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Usbdex.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Usbdex.lib
 -	Usbdex.dll
-apiname:
+api_name:
 -	USBD_UrbFree
 product: Windows
 targetos: Windows
@@ -105,11 +105,11 @@ For a code example, see <a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD_UrbAllocate</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
+
+
+
+<a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD_UrbAllocate</a>
 
 
 

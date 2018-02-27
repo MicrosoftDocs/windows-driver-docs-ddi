@@ -29,14 +29,14 @@ req.type-library:
 req.lib: bidispl.h
 req.dll: Bidispl.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	bidispl.dll
-apiname:
+api_name:
 -	IBidiSpl2.BindDevice
 product: Windows
 targetos: Windows
@@ -158,6 +158,10 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
+
+
 <a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a>
 
 
@@ -167,10 +171,6 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
-
-
-
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 

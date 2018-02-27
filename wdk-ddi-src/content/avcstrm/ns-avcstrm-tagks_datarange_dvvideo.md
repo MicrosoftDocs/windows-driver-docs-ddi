@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	avcstrm.h
-apiname:
+api_name:
 -	KS_DATARANGE_DVVIDEO
 product: Windows
 targetos: Windows
@@ -80,11 +80,11 @@ Specifies the digital video information, for example, sound tracks and video inf
 
 ## -see-also
 
-<a href="..\avcstrm\ns-avcstrm-_dvinfo.md">DVINFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+
+
+
+<a href="..\avcstrm\ns-avcstrm-_dvinfo.md">DVINFO</a>
 
 
 

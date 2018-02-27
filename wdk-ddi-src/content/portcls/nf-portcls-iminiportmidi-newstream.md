@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IMiniportMidi.NewStream
 product: Windows
 targetos: Windows
@@ -130,10 +130,6 @@ The <i>Stream</i>, <i>OuterUnknown</i>, and <i>ServiceGroup</i> parameters follo
 
 ## -see-also
 
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
 
 
@@ -142,11 +138,15 @@ The <i>Stream</i>, <i>OuterUnknown</i>, and <i>ServiceGroup</i> parameters follo
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+
+
+
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddk.h
-apiname:
+api_name:
 -	RtlWriteNonVolatileMemory
 product: Windows
 targetos: Windows
@@ -150,10 +150,6 @@ The request was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/EA1C2DF3-591C-407A-ABBF-DE615466A498">RtlDrainNonVolatileFlush</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
 
 
@@ -164,6 +160,10 @@ RtlFlushNonVolatileMemory</a>
 
 
 <a href="https://msdn.microsoft.com/8E083814-7408-47D2-A811-2DCBDCD13097">RtlFreeNonVolatileToken</a>
+
+
+
+<a href="https://msdn.microsoft.com/EA1C2DF3-591C-407A-ABBF-DE615466A498">RtlDrainNonVolatileFlush</a>
 
 
 

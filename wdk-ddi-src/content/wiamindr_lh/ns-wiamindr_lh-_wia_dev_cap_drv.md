@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wiamindr_lh.h
-apiname:
+api_name:
 -	WIA_DEV_CAP_DRV
 product: Windows
 targetos: Windows
@@ -140,11 +140,11 @@ When a driver is enumerating event handlers, the only valid value is WIA_IS_DEFA
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/639eff56-655d-4b6a-95f0-daa1daf62fae">Driver Capabilities</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543977">IWiaMiniDrv::drvGetCapabilities</a>
+
+
+
+<a href="https://msdn.microsoft.com/639eff56-655d-4b6a-95f0-daa1daf62fae">Driver Capabilities</a>
 
 
 

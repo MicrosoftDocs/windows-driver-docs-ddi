@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Hbaapi.dll
-apiname:
+api_name:
 -	HBA_GetWrapperLibraryAttributes
 product: Windows
 targetos: Windows
@@ -96,11 +96,11 @@ Microsoft supplies both libraries, so currently they return the same information
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_libraryattributes.md">HBA_LibraryAttributes</a>
-
-
-
 <a href="..\hbaapi\nf-hbaapi-hba_getvendorlibraryattributes.md">HBA_GetVendorLibraryAttributes</a>
+
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_libraryattributes.md">HBA_LibraryAttributes</a>
 
 
 

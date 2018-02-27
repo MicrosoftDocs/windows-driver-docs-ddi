@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	BthIoctl.h
-apiname:
+api_name:
 -	IOCTL_INTERNAL_BTH_SUBMIT_BRB
 product: Windows
 targetos: Windows
@@ -512,7 +512,7 @@ These BRBs must be called at IRQL &lt;= PASSIVE_LEVEL.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536657">Building and Sending a BRB</a>
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 
@@ -520,7 +520,7 @@ These BRBs must be called at IRQL &lt;= PASSIVE_LEVEL.
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536657">Building and Sending a BRB</a>
 
 
 

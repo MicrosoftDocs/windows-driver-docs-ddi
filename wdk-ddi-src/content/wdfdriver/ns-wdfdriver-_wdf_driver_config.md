@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wdfdriver.h
-apiname:
+api_name:
 -	WDF_DRIVER_CONFIG
 product: Windows
 targetos: Windows
@@ -118,7 +118,7 @@ To initialize a WDF_DRIVER_CONFIG structure, drivers must call <a href="..\wdfdr
 
 
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 
@@ -126,7 +126,7 @@ To initialize a WDF_DRIVER_CONFIG structure, drivers must call <a href="..\wdfdr
 
 
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 
 

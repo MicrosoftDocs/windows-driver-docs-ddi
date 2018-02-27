@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	dispmprt.h
-apiname:
+api_name:
 -	DXGK_DEVICE_DESCRIPTOR
 product: Windows
 targetos: Windows
@@ -95,15 +95,15 @@ The display port driver passes a DXGK_DEVICE_DESCRIPTOR structure to <a href="..
 
 ## -see-also
 
+<a href="..\dispmprt\ns-dispmprt-_dxgk_generic_descriptor.md">DXGK_GENERIC_DESCRIPTOR</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a>
 
 
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
-
-
-
-<a href="..\dispmprt\ns-dispmprt-_dxgk_generic_descriptor.md">DXGK_GENERIC_DESCRIPTOR</a>
 
 
 

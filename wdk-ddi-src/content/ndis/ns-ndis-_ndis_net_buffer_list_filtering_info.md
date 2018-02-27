@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ndis.h
-apiname:
+api_name:
 -	NDIS_NET_BUFFER_LIST_FILTERING_INFO
 product: Windows
 targetos: Windows
@@ -153,8 +153,7 @@ To access the identifier values directly, use the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568406">
-   NET_BUFFER_LIST_RECEIVE_FILTER_ID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439946">NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID</a>
 
 
 
@@ -162,11 +161,8 @@ To access the identifier values directly, use the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439946">NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568407">
+   NET_BUFFER_LIST_RECEIVE_QUEUE_ID</a>
 
 
 
@@ -174,8 +170,12 @@ To access the identifier values directly, use the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568407">
-   NET_BUFFER_LIST_RECEIVE_QUEUE_ID</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568406">
+   NET_BUFFER_LIST_RECEIVE_FILTER_ID</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddstor.h
-apiname:
+api_name:
 -	STORAGE_PROTOCOL_NVME_DATA_TYPE
 product: Windows
 targetos: Windows
@@ -136,10 +136,6 @@ Set the <b>DataType</b>  field to an enumeration value defined by <b>STORAGE_PRO
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
-
-
 <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a>
 
 
@@ -149,6 +145,10 @@ Set the <b>DataType</b>  field to an enumeration value defined by <b>STORAGE_PRO
 
 
 <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
+
+
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 

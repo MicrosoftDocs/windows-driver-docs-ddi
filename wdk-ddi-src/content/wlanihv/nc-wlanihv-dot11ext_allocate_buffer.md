@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	wlanihv.h
-apiname:
+api_name:
 -	Dot11ExtAllocateBuffer
 product: Windows
 targetos: Windows
@@ -155,13 +155,13 @@ In this situation, the DLL must free the memory buffer by calling
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_create_discovery_profiles.md">
-   Dot11ExtIhvCreateDiscoveryProfiles</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_create_discovery_profiles.md">
+   Dot11ExtIhvCreateDiscoveryProfiles</a>
 
 
 

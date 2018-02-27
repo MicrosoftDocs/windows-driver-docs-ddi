@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	fwpsk.h
-apiname:
+api_name:
 -	FwpsNetBufferListNotifyFN1
 product: Windows
 targetos: Windows
@@ -182,16 +182,16 @@ This function is identical to <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_no
 
 
 
+<a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
+
+
+
 <a href="..\fwpsk\ne-fwpsk-fwps_net_buffer_list_event_type0_.md">
      FWPS_NET_BUFFER_LIST_EVENT_TYPE0</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
 
 
 

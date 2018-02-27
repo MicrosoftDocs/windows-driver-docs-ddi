@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	mcd.h
-apiname:
+api_name:
 -	ChangerGetElementStatus
 product: Windows
 targetos: Windows
@@ -121,11 +121,7 @@ The changer class driver checks the input and output buffer lengths in the I/O s
 
 ## -see-also
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
-
-
-
-<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element_list.md">CHANGER_ELEMENT_LIST</a>
 
 
 
@@ -137,7 +133,7 @@ The changer class driver checks the input and output buffer lengths in the I/O s
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
 
 
 
@@ -145,11 +141,15 @@ The changer class driver checks the input and output buffer lengths in the I/O s
 
 
 
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+
+
+
 <a href="..\ntddchgr\ns-ntddchgr-_changer_read_element_status.md">CHANGER_READ_ELEMENT STATUS</a>
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_list.md">CHANGER_ELEMENT_LIST</a>
+<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
 
 
 

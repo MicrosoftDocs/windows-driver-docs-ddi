@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: DISPATCH_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	Videoprt.sys
-apiname:
+api_name:
 -	VideoPortReleaseSpinLockFromDpcLevel
 product: Windows
 targetos: Windows
@@ -108,11 +108,11 @@ It is an error to call <b>VideoPortReleaseSpinLockFromDpcLevel</b> if the given 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a>
-
-
-
 <a href="..\video\nf-video-videoportacquirespinlockatdpclevel.md">VideoPortAcquireSpinLockAtDpcLevel</a>
+
+
+
+<a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a>
 
 
 

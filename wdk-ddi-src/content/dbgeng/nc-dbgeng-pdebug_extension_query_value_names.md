@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Dbgeng.h
-apiname:
+api_name:
 -	DebugExtensionQueryValueNames
 product: Windows
 targetos: Windows
@@ -153,15 +153,11 @@ Value names must start with <b>$$</b> and have a terminating NULL character. The
 
 ## -see-also
 
-<i>DebugExtensionProvideValue</i>
-
-
-
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
 
 
 
-<i>KnownStructOutput</i>
+<i>DebugExtensionProvideValue</i>
 
 
 
@@ -170,6 +166,10 @@ Value names must start with <b>$$</b> and have a terminating NULL character. The
 
 
 <i>DebugExtensionNotify</i>
+
+
+
+<i>KnownStructOutput</i>
 
 
 

@@ -29,14 +29,14 @@ req.type-library: WDTF.tlb
 req.lib: wdtf.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	WDTF.tlb
-apiname:
+api_name:
 -	ITracing
 -	ITracing.SetTraceLevel
 product: Windows
@@ -90,11 +90,11 @@ Because the <a href="..\wdtf\nn-wdtf-iaction.md">IAction</a> interface inherits 
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
-
-
-
 <a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a>
+
+
+
+<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
 
 
 

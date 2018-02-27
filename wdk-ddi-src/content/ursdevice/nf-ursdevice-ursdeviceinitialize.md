@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Urscxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Urscxstub.lib
 -	Urscxstub.dll
-apiname:
+api_name:
 -	UrsDeviceInitialize
 product: Windows
 targetos: Windows
@@ -163,11 +163,11 @@ EvtDriverDeviceAdd (
 
 ## -see-also
 
-<a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a>
-
-
-
 <a href="..\ursdevice\nf-ursdevice-urs_config_init.md">URS_CONFIG_INIT</a>
+
+
+
+<a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a>
 
 
 

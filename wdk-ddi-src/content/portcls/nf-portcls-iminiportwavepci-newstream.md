@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	portcls.h
-apiname:
+api_name:
 -	IMiniportWavePci.NewStream
 product: Windows
 targetos: Windows
@@ -160,11 +160,11 @@ Note that the <code>NewStream</code> methods for the other port types (WaveCycli
 
 ## -see-also
 
+<a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a>
+
+
+
 <a href="..\ksmedia\ns-ksmedia-ksdataformat_dsound.md">KSDATAFORMAT_DSOUND</a>
-
-
-
-<a href="..\portcls\nn-portcls-iminiportwavepci.md">IMiniportWavePci</a>
 
 
 
@@ -176,19 +176,19 @@ Note that the <code>NewStream</code> methods for the other port types (WaveCycli
 
 
 
+<a href="..\portcls\nn-portcls-iminiportwavepci.md">IMiniportWavePci</a>
+
+
+
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a>
-
-
-
 <a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
+
+
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 

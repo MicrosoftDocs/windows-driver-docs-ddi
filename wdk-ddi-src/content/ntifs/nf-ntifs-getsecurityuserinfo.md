@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ksecdd.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ksecdd.lib
 -	ksecdd.dll
-apiname:
+api_name:
 -	GetSecurityUserInfo
 product: Windows
 targetos: Windows
@@ -135,11 +135,11 @@ This function obtains information about a logon <a href="http://go.microsoft.com
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121239">LsaFreeReturnBuffer</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-mapsecurityerror.md">MapSecurityError</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121239">LsaFreeReturnBuffer</a>
 
 
 

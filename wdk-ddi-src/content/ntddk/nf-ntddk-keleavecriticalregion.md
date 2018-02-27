@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	KeLeaveCriticalRegion
 product: Windows
 targetos: Windows
@@ -87,11 +87,11 @@ Highest-level drivers can call this routine while running in the context of the 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
-
-
-
 <a href="..\wdm\nf-wdm-keareapcsdisabled.md">KeAreApcsDisabled</a>
+
+
+
+<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
 
 
 

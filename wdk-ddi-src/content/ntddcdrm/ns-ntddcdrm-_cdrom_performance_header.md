@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddcdrm.h
-apiname:
+api_name:
 -	CDROM_PERFORMANCE_HEADER
 product: Windows
 targetos: Windows
@@ -107,19 +107,19 @@ Contains a list of the following records, depending upon the type of request: <a
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exception_performance_descriptor.md">CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR</a>
-
-
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_nominal_performance_descriptor.md">CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR</a>
-
-
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
 
 
 
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exception_performance_descriptor.md">CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR</a>
+
+
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_write_speed_descriptor.md">CDROM_WRITE_SPEED_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_nominal_performance_descriptor.md">CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR</a>
 
 
 

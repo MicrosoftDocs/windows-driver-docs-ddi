@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	usbioctl.h
-apiname:
+api_name:
 -	USB_NODE_CONNECTION_ATTRIBUTES
 product: Windows
 targetos: Windows
@@ -93,7 +93,7 @@ For Windows XP and Windows Server 2003, <b>PortAttributes</b> value might be s
 
 ## -see-also
 
-<a href="..\usbioctl\ne-usbioctl-_usb_connection_status.md">USB_CONNECTION_STATUS</a>
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_attributes.md">IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES</a>
 
 
 
@@ -101,7 +101,7 @@ For Windows XP and Windows Server 2003, <b>PortAttributes</b> value might be s
 
 
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_attributes.md">IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES</a>
+<a href="..\usbioctl\ne-usbioctl-_usb_connection_status.md">USB_CONNECTION_STATUS</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntifs.h
-apiname:
+api_name:
 -	SYSTEM_SCOPED_POLICY_ID_ACE
 product: Windows
 targetos: Windows
@@ -90,19 +90,19 @@ Specifies a SID. The SID represents a scoped policy configured to control access
 
 
 
-<a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 

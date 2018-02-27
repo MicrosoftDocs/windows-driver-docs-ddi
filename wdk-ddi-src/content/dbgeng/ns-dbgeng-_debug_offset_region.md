@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	DbgEng.h
-apiname:
+api_name:
 -	DEBUG_OFFSET_REGION
 product: Windows
 targetos: Windows

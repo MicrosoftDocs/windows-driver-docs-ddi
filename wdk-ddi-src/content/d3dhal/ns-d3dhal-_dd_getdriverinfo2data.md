@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	d3dhal.h
-apiname:
+api_name:
 -	DD_GETDRIVERINFO2DATA
 product: Windows
 targetos: Windows
@@ -426,6 +426,30 @@ For more information about D3DCAPS8 and D3DCAPS9, see the DirectX SDK documentat
 
 ## -see-also
 
+<a href="..\d3dhal\ns-d3dhal-_dd_free_deferred_agp_data.md">DD_FREE_DEFERRED_AGP_DATA</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getformatcountdata.md">DD_GETFORMATCOUNTDATA</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getddiversiondata.md">DD_GETDDIVERSIONDATA</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_dd_deferred_agp_aware_data.md">DD_DEFERRED_AGP_AWARE_DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551716">DD_STEREOMODE</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerycountdata.md">DD_GETD3DQUERYCOUNTDATA</a>
+
+
+
 <a href="..\d3dhal\ns-d3dhal-_dd_multisamplequalitylevelsdata.md">DD_MULTISAMPLEQUALITYLEVELSDATA</a>
 
 
@@ -434,39 +458,7 @@ For more information about D3DCAPS8 and D3DCAPS9, see the DirectX SDK documentat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551716">DD_STEREOMODE</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodecountdata.md">DD_GETEXTENDEDMODECOUNTDATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerycountdata.md">DD_GETD3DQUERYCOUNTDATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_free_deferred_agp_data.md">DD_FREE_DEFERRED_AGP_DATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getadaptergroupdata.md">DD_GETADAPTERGROUPDATA</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodedata.md">DD_GETEXTENDEDMODEDATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerydata.md">DD_GETD3DQUERYDATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getddiversiondata.md">DD_GETDDIVERSIONDATA</a>
 
 
 
@@ -474,15 +466,23 @@ For more information about D3DCAPS8 and D3DCAPS9, see the DirectX SDK documentat
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_dd_deferred_agp_aware_data.md">DD_DEFERRED_AGP_AWARE_DATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getformatcountdata.md">DD_GETFORMATCOUNTDATA</a>
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_dd_getformatdata.md">DD_GETFORMATDATA</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodecountdata.md">DD_GETEXTENDEDMODECOUNTDATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getadaptergroupdata.md">DD_GETADAPTERGROUPDATA</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerydata.md">DD_GETD3DQUERYDATA</a>
 
 
 

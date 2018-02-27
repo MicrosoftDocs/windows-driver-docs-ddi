@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname:
+api_name:
 -	KsFilterGetAndGate
 product: Windows
 targetos: Windows
@@ -93,15 +93,11 @@ A minidriver can use AND gates on a filter as a processing control mechanism for
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetandgate.md">KsPinGetAndGate</a>
+<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
 
 
 
-<a href="..\ks\nf-ks-kspinattachandgate.md">KsPinAttachAndGate</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
+<a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
 
 
 
@@ -109,11 +105,15 @@ A minidriver can use AND gates on a filter as a processing control mechanism for
 
 
 
-<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
+<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
 
 
 
-<a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
+<a href="..\ks\nf-ks-kspingetandgate.md">KsPinGetAndGate</a>
+
+
+
+<a href="..\ks\nf-ks-kspinattachandgate.md">KsPinAttachAndGate</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Printerextension.h
-apiname:
+api_name:
 -	IPrinterExtensionEventArgs.ReasonId
 -	IPrinterExtensionEventArgs.get_ReasonId
 product: Windows
@@ -100,11 +100,11 @@ Guid = {23BB1328-63DE-4293-915B-A6A23D929ACB}
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973209">DetailedReasonId</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterextensioneventargs.md">IPrinterExtensionEventArgs</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973209">DetailedReasonId</a>
 
 
 

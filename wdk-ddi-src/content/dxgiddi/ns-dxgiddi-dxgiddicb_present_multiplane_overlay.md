@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Dxgiddi.h
-apiname:
+api_name:
 -	DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY
 product: Windows
 targetos: Windows
@@ -108,11 +108,7 @@ An array of structures of type <a href="..\dxgiddi\ns-dxgiddi-dxgiddi_multiplane
 
 ## -see-also
 
-<a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb.md">pfnPresentMultiplaneOverlay (DXGI)</a>
-
-
-
-<a href="..\dxgiddi\ns-dxgiddi-dxgiddi_multiplane_overlay_allocation_info.md">DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO</a>
+<a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_presentmultiplaneoverlay.md">DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY</a>
 
 
 
@@ -120,7 +116,11 @@ An array of structures of type <a href="..\dxgiddi\ns-dxgiddi-dxgiddi_multiplane
 
 
 
-<a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_presentmultiplaneoverlay.md">DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY</a>
+<a href="..\dxgiddi\ns-dxgiddi-dxgiddi_multiplane_overlay_allocation_info.md">DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO</a>
+
+
+
+<a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb.md">pfnPresentMultiplaneOverlay (DXGI)</a>
 
 
 

@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Stream.lib
 req.dll: 
 req.irql: "(See Parameters section)"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Stream.lib
 -	Stream.dll
-apiname:
+api_name:
 -	StreamClassCallAtNewPriority
 product: Windows
 targetos: Windows

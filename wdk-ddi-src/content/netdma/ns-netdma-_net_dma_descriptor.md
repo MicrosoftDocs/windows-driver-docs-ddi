@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	netdma.h
-apiname:
+api_name:
 -	NET_DMA_DESCRIPTOR
 product: Windows
 targetos: Windows
@@ -459,15 +459,15 @@ The NetDMA interface calls a DMA provider driver's
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
-
-
-
 <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
 
 
 
 <a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
 
 
 

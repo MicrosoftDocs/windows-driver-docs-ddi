@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Usbdex.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Usbdex.lib
 -	Usbdex.dll
-apiname:
+api_name:
 -	COMPOSITE_DEVICE_CAPABILITIES_INIT
 product: Windows
 targetos: Windows
@@ -86,7 +86,7 @@ This routine does not return a value.
 
 ## -see-also
 
-<a href="..\usbdlib\ns-usbdlib-_register_composite_device.md">REGISTER_COMPOSITE_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450897">How to Register a Composite Device</a>
 
 
 
@@ -94,7 +94,7 @@ This routine does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450897">How to Register a Composite Device</a>
+<a href="..\usbdlib\ns-usbdlib-_register_composite_device.md">REGISTER_COMPOSITE_DEVICE</a>
 
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	storport.h
-apiname:
+api_name:
 -	STOR_LOG_EVENT_DETAILS
 product: Windows
 targetos: Windows
@@ -162,11 +162,11 @@ Although <a href="..\storport\nf-storport-storportlogerror.md">StorPortLogError<
 
 ## -see-also
 
-<a href="..\storport\ne-storport-_stor_event_association_enum.md">STOR_EVENT_ASSOCIATION_ENUM</a>
-
-
-
 <a href="..\storport\nf-storport-storportlogsystemevent.md">StorPortLogSystemEvent</a>
+
+
+
+<a href="..\storport\ne-storport-_stor_event_association_enum.md">STOR_EVENT_ASSOCIATION_ENUM</a>
 
 
 

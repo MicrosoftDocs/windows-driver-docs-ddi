@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	ExUnregisterCallback
 product: Windows
 targetos: Windows
@@ -100,11 +100,11 @@ For more information about callback objects, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
-
-
-
 <a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
 
 
 

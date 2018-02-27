@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname:
+api_name:
 -	NdisMWriteLogData
 product: Windows
 targetos: Windows
@@ -161,8 +161,11 @@ Consequently, an application reading an NDIS log must collect retrieved data int
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
-   NdisAllocateMemoryWithTagPriority</a>
+<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
 
 
 
@@ -170,7 +173,7 @@ Consequently, an application reading an NDIS log must collect retrieved data int
 
 
 
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
+<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
 
 
 
@@ -179,11 +182,8 @@ Consequently, an application reading an NDIS log must collect retrieved data int
 
 
 
-<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+   NdisAllocateMemoryWithTagPriority</a>
 
 
 

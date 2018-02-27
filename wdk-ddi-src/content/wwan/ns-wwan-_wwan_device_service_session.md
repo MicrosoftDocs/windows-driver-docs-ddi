@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	wwan.h
-apiname:
+api_name:
 -	WWAN_DEVICE_SERVICE_SESSION
 product: Windows
 targetos: Windows
@@ -87,15 +87,15 @@ The session ID for the device service session.
 
 ## -see-also
 
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_service_session_info.md">NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO</a>
+
+
+
 <a href="..\wwan\ne-wwan-_wwan_device_service_session_state.md">WWAN_DEVICE_SERVICE_SESSION_STATE</a>
 
 
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_set_service_session.md">NDIS_WWAN_SET_DEVICE_SERVICE_SESSION</a>
-
-
-
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_service_session_info.md">NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO</a>
 
 
 

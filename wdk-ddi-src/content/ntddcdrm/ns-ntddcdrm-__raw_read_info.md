@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	ntddcdrm.h
-apiname:
+api_name:
 -	RAW_READ_INFO
 product: Windows
 targetos: Windows
@@ -86,11 +86,11 @@ Contains an enumerator of type <a href="..\ntddcdrm\ne-ntddcdrm-_track_mode_type
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_raw_read.md">IOCTL_CDROM_RAW_READ</a>
-
-
-
 <a href="..\ntddcdrm\ne-ntddcdrm-_track_mode_type.md">TRACK_MODE_TYPE</a>
+
+
+
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_raw_read.md">IOCTL_CDROM_RAW_READ</a>
 
 
 

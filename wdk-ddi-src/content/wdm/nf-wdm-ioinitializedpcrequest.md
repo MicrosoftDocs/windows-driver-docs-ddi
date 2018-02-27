@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	IoInitializeDpcRequest
 product: Windows
 targetos: Windows
@@ -103,19 +103,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>
-
-
-
-<a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -123,7 +115,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
 
 
 

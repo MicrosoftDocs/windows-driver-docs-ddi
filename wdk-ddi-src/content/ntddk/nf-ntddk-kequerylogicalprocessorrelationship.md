@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	DllExport
-apilocation:
+api_location:
 -	NtosKrnl.exe
-apiname:
+api_name:
 -	KeQueryLogicalProcessorRelationship
 product: Windows
 targetos: Windows
@@ -209,11 +209,11 @@ The NT_ASSERT macro is defined in the Wdm.h header file. The NT_SUCCESS macro is
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?linkid=155065">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
+
+
+
+<a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a>
 
 
 

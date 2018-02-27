@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	swenum.h
-apiname:
+api_name:
 -	KsQuerySoftwareBusInterface
 product: Windows
 targetos: Windows
@@ -105,11 +105,11 @@ A minidriver can access this function through the <b>QueryReferenceString</b> me
 
 
 
-<a href="..\swenum\nf-swenum-ksdereferencesoftwarebusobject.md">KsDereferenceSoftwareBusObject</a>
-
-
-
 <a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
+
+
+
+<a href="..\swenum\nf-swenum-ksdereferencesoftwarebusobject.md">KsDereferenceSoftwareBusObject</a>
 
 
 

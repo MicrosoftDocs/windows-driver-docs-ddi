@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname:
+api_name:
 -	NdisOpenFile
 product: Windows
 targetos: Windows
@@ -178,7 +178,11 @@ When
 
 
 
-<a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
+<a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -186,11 +190,7 @@ When
 
 
 
-<a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
 
 
 

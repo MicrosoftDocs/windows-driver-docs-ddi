@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	ksproxy.h
-apiname:
+api_name:
 -	IKsControl.KsEvent
 product: Windows
 targetos: Windows
@@ -118,11 +118,7 @@ The <i>EventData</i> parameter of <b>IKsControl::KsEvent</b> contains a handle i
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
+<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
 
 
 
@@ -130,7 +126,11 @@ The <i>EventData</i> parameter of <b>IKsControl::KsEvent</b> contains a handle i
 
 
 
-<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
 
 
 

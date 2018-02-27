@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	dbgeng.h
-apiname:
+api_name:
 -	IDebugSystemObjects3.GetEventSystem
 -	IDebugSystemObjects4.GetEventSystem
 product: Windows
@@ -103,11 +103,11 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>
 
 
 

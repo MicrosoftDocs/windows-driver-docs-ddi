@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	Ntddndis.h
-apiname:
+api_name:
 -	NDIS_RECEIVE_SCALE_PARAMETERS
 product: Windows
 targetos: Windows
@@ -318,12 +318,27 @@ If RSS is disabled, the miniport driver should handle receive operations without
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
+   OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
    NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+   NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+   NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
 
 
 
@@ -333,21 +348,6 @@ If RSS is disabled, the miniport driver should handle receive operations without
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
-   OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
-   NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
-   NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a>
 
 
 

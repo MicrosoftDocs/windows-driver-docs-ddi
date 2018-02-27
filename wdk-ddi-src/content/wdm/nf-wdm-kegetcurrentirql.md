@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	Hal.lib
 -	Hal.dll
-apiname:
+api_name:
 -	KeGetCurrentIrql
 product: Windows
 targetos: Windows

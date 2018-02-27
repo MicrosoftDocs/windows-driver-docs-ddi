@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	LibDef
-apilocation:
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname:
+api_name:
 -	NdisGroupActiveProcessorCount
 product: Windows
 targetos: Windows
@@ -123,20 +123,20 @@ To obtain the maximum number of processors in a group, call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisgroupactiveprocessormask.md">NdisGroupActiveProcessorMask</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisgroupmaxprocessorcount.md">NdisGroupMaxProcessorCount</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisgroupactiveprocessormask.md">NdisGroupActiveProcessorMask</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndissystemactiveprocessorcount.md">
    NdisSystemActiveProcessorCount</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
 
 
 

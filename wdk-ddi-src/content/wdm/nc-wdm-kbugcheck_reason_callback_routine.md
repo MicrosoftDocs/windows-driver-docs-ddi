@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at HIGH_LEVEL.
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	Wdm.h
-apiname:
+api_name:
 -	MyBugCheckCallback
 product: Windows
 targetos: Windows
@@ -233,19 +233,7 @@ The KBUGCHECK_REASON_CALLBACK_ROUTINE function type is defined in the Wdm.h head
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_kbugcheck_add_pages.md">KBUGCHECK_ADD_PAGES</a>
-
-
-
-<a href="..\wdm\nf-wdm-kederegisterbugcheckreasoncallback.md">KeDeregisterBugCheckReasonCallback</a>
-
-
-
 <a href="..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md">KeRegisterBugCheckReasonCallback</a>
-
-
-
-<a href="..\wdm\ne-wdm-_kbugcheck_callback_reason.md">KBUGCHECK_CALLBACK_REASON</a>
 
 
 
@@ -254,6 +242,18 @@ The KBUGCHECK_REASON_CALLBACK_ROUTINE function type is defined in the Wdm.h head
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-kederegisterbugcheckreasoncallback.md">KeDeregisterBugCheckReasonCallback</a>
+
+
+
+<a href="..\wdm\ns-wdm-_kbugcheck_add_pages.md">KBUGCHECK_ADD_PAGES</a>
+
+
+
+<a href="..\wdm\ne-wdm-_kbugcheck_callback_reason.md">KBUGCHECK_CALLBACK_REASON</a>
 
 
 
