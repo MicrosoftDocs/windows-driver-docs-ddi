@@ -138,7 +138,7 @@ A description of the members of the <b>KSPIN_DESCRIPTOR</b> structure used in AV
 
 ## -see-also
 
-<a href="..\avc\nc-avc-pfnavcintersecthandler.md">AV/C Intersect Handler</a>
+<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
 
 
 
@@ -146,7 +146,7 @@ A description of the members of the <b>KSPIN_DESCRIPTOR</b> structure used in AV
 
 
 
-<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
+<a href="..\avc\nc-avc-pfnavcintersecthandler.md">AV/C Intersect Handler</a>
 
 
 

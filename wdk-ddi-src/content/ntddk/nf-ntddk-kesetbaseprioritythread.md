@@ -102,11 +102,11 @@ The new base priority is restricted to the priority class of the given thread's 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequeryprioritythread.md">KeQueryPriorityThread</a>
-
-
-
 <a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequeryprioritythread.md">KeQueryPriorityThread</a>
 
 
 

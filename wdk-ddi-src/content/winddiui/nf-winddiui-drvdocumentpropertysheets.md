@@ -153,15 +153,15 @@ If the <b>fMode</b> member of the DOCUMENTPROPERTYHEADER structure is not zero, 
 
 ## -see-also
 
-<a href="..\winddiui\ns-winddiui-_documentpropertyheader.md">DOCUMENTPROPERTYHEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
 
 
 <a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>
+
+
+
+<a href="..\winddiui\ns-winddiui-_documentpropertyheader.md">DOCUMENTPROPERTYHEADER</a>
 
 
 

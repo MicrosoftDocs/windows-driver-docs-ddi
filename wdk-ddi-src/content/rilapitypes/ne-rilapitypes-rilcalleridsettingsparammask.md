@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCALLERIDSETTINGSPARAMMASK
 title: RILCALLERIDSETTINGSPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcalleridsettingsparammask_2.htm
+old-location: netvista\rilcalleridsettingsparammask.htm
 old-project: netvista
-ms.assetid: 579165ca-94e7-433c-91c6-3112c4b75f64
+ms.assetid: 3a8b4be6-91b5-4368-8f54-efa73deb41c0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILCALLERIDSETTINGSPARAMMASK, RILCALLERIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CIDS_ALL, RIL_PARAM_CIDS_PROVISIONING, RIL_PARAM_CIDS_STATUS, netvista.rilcalleridsettingsparammask_2, rilapitypes/RILCALLERIDSETTINGSPARAMMASK, rilapitypes/RIL_PARAM_CIDS_ALL, rilapitypes/RIL_PARAM_CIDS_PROVISIONING, rilapitypes/RIL_PARAM_CIDS_STATUS
+ms.date: 2/27/2018
+ms.keywords: RILCALLERIDSETTINGSPARAMMASK, RILCALLERIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CIDS_ALL, RIL_PARAM_CIDS_PROVISIONING, RIL_PARAM_CIDS_STATUS, netvista.rilcalleridsettingsparammask, ntddrilapitypes/RILCALLERIDSETTINGSPARAMMASK, ntddrilapitypes/RIL_PARAM_CIDS_ALL, ntddrilapitypes/RIL_PARAM_CIDS_PROVISIONING, ntddrilapitypes/RIL_PARAM_CIDS_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLERIDSETTINGSPARAMMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

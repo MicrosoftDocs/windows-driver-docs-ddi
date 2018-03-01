@@ -244,11 +244,11 @@ The <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createcontext.md">D3DKMTCreateCon
 
 ## -see-also
 
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
+
+
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_createcontextflags.md">D3DDDI_CREATECONTEXTFLAGS</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
 
 
 
@@ -256,7 +256,7 @@ The <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createcontext.md">D3DKMTCreateCon
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
 
 
 

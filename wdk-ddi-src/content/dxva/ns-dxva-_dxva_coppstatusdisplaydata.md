@@ -139,14 +139,6 @@ The refresh rate of the current display mode is expressed as a numerator/denomin
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
 
 
@@ -155,7 +147,15 @@ The refresh rate of the current display mode is expressed as a numerator/denomin
 
 
 
+<a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a>
+
+
+
 <a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
 
 
 

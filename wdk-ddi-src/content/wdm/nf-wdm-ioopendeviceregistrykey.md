@@ -171,11 +171,11 @@ Callers of <b>IoOpenDeviceRegistryKey</b> must be running at IRQL = PASSIVE_LEVE
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 

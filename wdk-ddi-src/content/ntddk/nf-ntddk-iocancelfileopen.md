@@ -132,7 +132,7 @@ Minifilters should use <a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
 
 
 
@@ -140,15 +140,7 @@ Minifilters should use <a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 
 
@@ -156,7 +148,15 @@ Minifilters should use <a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 
@@ -164,7 +164,7 @@ Minifilters should use <a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
 
 
 

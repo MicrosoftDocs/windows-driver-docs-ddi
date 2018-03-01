@@ -121,11 +121,11 @@ If ChildStatus-&gt;Type is equal to <b>StatusRotation</b>, return (in ChildStatu
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
-
-
-
 <a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
 
 

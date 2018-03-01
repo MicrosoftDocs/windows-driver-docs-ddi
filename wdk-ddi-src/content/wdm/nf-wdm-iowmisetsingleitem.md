@@ -199,7 +199,7 @@ Drivers can also use <a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetS
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550836">IRP_MN_CHANGE_SINGLE_ITEM</a>
 
 
 
@@ -211,7 +211,7 @@ Drivers can also use <a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetS
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550836">IRP_MN_CHANGE_SINGLE_ITEM</a>
+<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
 
 
 

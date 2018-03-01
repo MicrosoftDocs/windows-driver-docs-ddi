@@ -101,11 +101,11 @@ To avoid such deadlocks, use <b>ObDereferenceObjectDeferDelete</b> instead of <b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
-
-
-
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
 
 
 

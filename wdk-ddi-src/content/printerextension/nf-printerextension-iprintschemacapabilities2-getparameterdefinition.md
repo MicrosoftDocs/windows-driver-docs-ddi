@@ -115,11 +115,11 @@ For more information about the data types that you can use with the &lt;psf:Para
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a>
-
-
-
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/gg463385.aspx">Print Schema Specification</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a>
 
 
 

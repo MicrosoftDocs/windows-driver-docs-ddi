@@ -413,11 +413,7 @@ The WHEA_PCIEXPRESS_ERROR_SECTION structure describes the error data that is con
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_pciexpress_error_section_validbits.md">WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
 
 
@@ -425,7 +421,11 @@ The WHEA_PCIEXPRESS_ERROR_SECTION structure describes the error data that is con
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+<a href="..\ntddk\ns-ntddk-_whea_pciexpress_error_section_validbits.md">WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
 
 

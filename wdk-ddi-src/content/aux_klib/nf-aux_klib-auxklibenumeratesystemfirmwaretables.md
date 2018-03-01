@@ -193,15 +193,15 @@ Drivers must call <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlib
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh802466">EnumSystemFirmwareTables</a>
-
-
-
 <a href="..\aux_klib\nf-aux_klib-auxklibgetsystemfirmwaretable.md">AuxKlibGetSystemFirmwareTable</a>
 
 
 
 <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh802466">EnumSystemFirmwareTables</a>
 
 
 

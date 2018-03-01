@@ -264,15 +264,7 @@ If the driver does not supply an <i>AdapterListControl</i> routine, the driver c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a>
-
-
-
-<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
-
-
-
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
+<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
 
 
 
@@ -280,15 +272,27 @@ If the driver does not supply an <i>AdapterListControl</i> routine, the driver c
 
 
 
+<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a>
+
+
+
 <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 
+<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
+
+
+
+<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
+
+
+
 <a href="..\wdm\nc-wdm-pinitialize_dma_transfer_context.md">InitializeDmaTransferContext</a>
-
-
-
-<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
 
 
 
@@ -304,15 +308,11 @@ If the driver does not supply an <i>AdapterListControl</i> routine, the driver c
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
-
-
-
 <a href="..\wdm\nc-wdm-driver_control.md">AdapterListControl</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

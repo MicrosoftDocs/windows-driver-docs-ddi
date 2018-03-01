@@ -110,11 +110,7 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
-
-
-
-<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
+<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
 
 
 
@@ -122,7 +118,11 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
+<a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
 
 
 

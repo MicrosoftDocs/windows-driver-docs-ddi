@@ -126,7 +126,7 @@ For stream oriented requests, the class driver sets this to point to the <a href
 
 ### -field HwDeviceExtension
 
-Pointer to the minidriver's device extension. The minidriver may use this buffer to record private information. The minidriver sets the size of this buffer in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>. The class driver also passes pointers to this buffer in the <b>HwDeviceExtension</b> member of the <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>, <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>, and <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
+Pointer to the minidriver's device extension. The minidriver may use this buffer to record private information. The minidriver sets the size of this buffer in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>. The class driver also passes pointers to this buffer in the <b>HwDeviceExtension</b> member of the <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>, <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>, and <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
 
 
 ### -field SRBExtension
@@ -414,11 +414,6 @@ The class driver sets this to the original value of <b>TimeoutCounter</b> upon t
 Points to another stream request block. The minidriver can use this member to queue stream request blocks.
 
 
-### -field _HW_STREAM_REQUEST_BLOCK
-
- 
-
-
 ### -field Irp
 
 Pointer to the IRP for the request. Most minidrivers do not need to use this member.
@@ -477,7 +472,7 @@ SRB_HW_FLAGS_STREAM_REQUEST bit is set for stream-specific requests (which are p
 
 ### -field HwInstanceExtension
 
-Pointer to the minidriver's instance extension. The minidriver may use this buffer to record private information global to this instance of the minidriver. The minidriver sets the size of this buffer in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>.
+Pointer to the minidriver's instance extension. The minidriver may use this buffer to record private information global to this instance of the minidriver. The minidriver sets the size of this buffer in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>.
 
 
 ### -field ScatterGatherBuffer
@@ -517,14 +512,14 @@ Specifies the number of physical elements pointed to by <b>ScatterGatherBuffer</
 
 
 
-#### - NumberOfBytesToTransfer
-
-For a SRB_READ_DATA or SRB_WRITE_DATA request, the number of bytes to be transferred.
-
-
 #### - ActualBytesTransferred
 
 For control requests, the number of bytes actually transferred. 
+
+
+#### - NumberOfBytesToTransfer
+
+For a SRB_READ_DATA or SRB_WRITE_DATA request, the number of bytes to be transferred.
 
 
 #### - Reserved[1]

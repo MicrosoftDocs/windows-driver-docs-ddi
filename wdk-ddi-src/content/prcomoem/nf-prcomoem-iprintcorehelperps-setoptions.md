@@ -217,11 +217,11 @@ For most scenarios the <i>bResolveConflicts</i> parameter should be set to <b>TR
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperps.md">IPrintCoreHelperPS</a>
-
-
-
 <a href="https://msdn.microsoft.com/fa212b86-89ae-4d22-a3ff-ebcc6100874b">IPrintCoreHelperPS::GetOptions</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintcorehelperps.md">IPrintCoreHelperPS</a>
 
 
 

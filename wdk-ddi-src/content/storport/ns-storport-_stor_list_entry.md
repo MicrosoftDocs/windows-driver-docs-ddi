@@ -85,13 +85,6 @@ For a <b>LIST_ENTRY</b> structure that serves as a list entry, the <b>Blink</b> 
 For a <b>LIST_ENTRY</b> structure that serves as the list header, the <b>Blink</b> member points to the last entry in the list or to the <b>LIST_ENTRY</b> structure itself if the list is empty.
 
 
-### -field _STOR_LIST_ENTRY
-
- 
-
-
-
-
 ## -remarks
 
 
@@ -108,23 +101,15 @@ For more information about how to use <b>STOR_LIST_ENTRY</b> structures to imple
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt790430">StorPortInterlockedRemoveHeadList</a>
+<a href="..\wudfwdm\nf-wudfwdm-insertheadlist.md">InsertHeadList</a>
 
 
 
-<a href="..\wdm\nf-wdm-insertheadlist.md">InsertHeadList</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
 
 
 
-<a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
-
-
-
-<a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
-
-
-
-<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
+<a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
 
 
 
@@ -132,19 +117,27 @@ For more information about how to use <b>STOR_LIST_ENTRY</b> structures to imple
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt790430">StorPortInterlockedRemoveHeadList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-removeentrylist.md">RemoveEntryList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
+
+
+
 <a href="..\storport\nf-storport-storportinterlockedinserttaillist.md">StorPortInterlockedInsertTailList</a>
 
 
 
-<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+<a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
 
 
 
-<a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
-
-
-
-<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
+<a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>
 
 
 

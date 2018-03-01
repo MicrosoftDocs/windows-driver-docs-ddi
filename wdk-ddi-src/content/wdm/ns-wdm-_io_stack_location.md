@@ -925,11 +925,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
  
 
 
-### -field Parameters.Scsi._SCSI_REQUEST_BLOCK
-
- 
-
-
 ### -field Parameters.QueryQuota
 
 
@@ -1220,7 +1215,31 @@ In some cases, a higher-level driver layered over a mass-storage device driver i
 
 ## -see-also
 
+<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
+
+
+
+<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
 
 
 
@@ -1229,30 +1248,6 @@ In some cases, a higher-level driver layered over a mass-storage device driver i
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
-
-
-<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
-
-
-
-<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
-
-
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a>
 
 
 

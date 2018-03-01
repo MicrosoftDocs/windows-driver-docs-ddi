@@ -89,7 +89,7 @@ Because <b>ExRaiseAccessViolation</b> can only be used at IRQL = PASSIVE_LEVEL,
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
+<a href="..\wdm\nf-wdm-exraisestatus.md">ExRaiseStatus</a>
 
 
 
@@ -97,11 +97,11 @@ Because <b>ExRaiseAccessViolation</b> can only be used at IRQL = PASSIVE_LEVEL,
 
 
 
+<a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
+
+
+
 <a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
-
-
-
-<a href="..\wdm\nf-wdm-exraisestatus.md">ExRaiseStatus</a>
 
 
 

@@ -182,19 +182,19 @@ Drivers can also use the <a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetS
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550831">IRP_MN_CHANGE_SINGLE_INSTANCE</a>
-
-
-
 <a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetSingleItem</a>
 
 
 
 <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550831">IRP_MN_CHANGE_SINGLE_INSTANCE</a>
 
 
 

@@ -104,11 +104,11 @@ For Unidrv features, the feature list is based on the GPD view of the configurat
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelper.md">IPrintCoreHelper</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552955">IPrintCoreHelper::EnumOptions</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintcorehelper.md">IPrintCoreHelper</a>
 
 
 

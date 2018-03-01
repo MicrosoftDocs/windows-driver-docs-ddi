@@ -94,11 +94,23 @@ Callers of <b>RtlClearAllBits</b> must be running at IRQL &lt;= APC_LEVEL if the
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
 
 
 
 <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
 
 
 
@@ -110,19 +122,7 @@ Callers of <b>RtlClearAllBits</b> must be running at IRQL &lt;= APC_LEVEL if the
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlclearbits.md">RtlClearBits</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
 
 
 

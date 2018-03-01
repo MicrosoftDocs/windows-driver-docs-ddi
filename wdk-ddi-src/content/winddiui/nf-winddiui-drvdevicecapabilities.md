@@ -99,11 +99,6 @@ TBD
 
 
 
-#### - pDeviceName [in]
-
-Caller-supplied pointer to a printer name string.
-
-
 #### - iDevCap
 
 Caller-supplied bit flag indicating the information being requested. This can be one of the flags listed in the following table. (The flags are defined in header file Wingdi.h.)
@@ -567,14 +562,19 @@ The function's return value should be the <b>dmSpecVersion</b> member of the dri
  
 
 
-#### - pvOutput [out]
-
-A caller-supplied pointer to a buffer to receive function-supplied information. The buffer's use is dependent on the value received for the <i>iDevCap</i> parameter.
-
-
 #### - pDevMode [in]
 
 A caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure that describes the current print job characteristics. If this parameter is <b>NULL</b>, <b>DrvDeviceCapabilities</b> retrieves the current default initialization values for the specified printer driver, such as the user default DEVMODEW structure of the print queue.
+
+
+#### - pDeviceName [in]
+
+Caller-supplied pointer to a printer name string.
+
+
+#### - pvOutput [out]
+
+A caller-supplied pointer to a buffer to receive function-supplied information. The buffer's use is dependent on the value received for the <i>iDevCap</i> parameter.
 
 
 ## -returns

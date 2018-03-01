@@ -174,19 +174,11 @@ The caller must not modify the contents of the <i>FileNameInformation</i> struct
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltparsefilename.md">FltParseFileName</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
 
 
 
@@ -195,6 +187,14 @@ The caller must not modify the contents of the <i>FileNameInformation</i> struct
 
 
 <a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltparsefilename.md">FltParseFileName</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
 
 
 

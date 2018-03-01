@@ -124,7 +124,7 @@ A request context must remain valid throughout the processing of an SRB. If the 
 
 ## -see-also
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnsize.md">ScsiPortWmiGetReturnSize</a>
 
 
 
@@ -132,11 +132,11 @@ A request context must remain valid throughout the processing of an SRB. If the 
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnsize.md">ScsiPortWmiGetReturnSize</a>
-
-
-
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+
+
+
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
 
 
 

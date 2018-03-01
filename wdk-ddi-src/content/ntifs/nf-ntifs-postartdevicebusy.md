@@ -100,11 +100,11 @@ Rather than use the <b>PoStartDeviceBusy</b> and <b>PoEndDeviceBusy</b> routines
 
 
 
-<a href="..\wdm\nf-wdm-poregisterdeviceforidledetection.md">PoRegisterDeviceForIdleDetection</a>
-
-
-
 <a href="..\wdm\nf-wdm-poenddevicebusy.md">PoEndDeviceBusy</a>
+
+
+
+<a href="..\wdm\nf-wdm-poregisterdeviceforidledetection.md">PoRegisterDeviceForIdleDetection</a>
 
 
 

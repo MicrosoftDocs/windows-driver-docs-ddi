@@ -122,6 +122,10 @@ typedef struct _D3DKMT_DISPLAYMODE {
 
 ## -see-also
 
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
+
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdisplaymodelist.md">D3DKMT_GETDISPLAYMODELIST</a>
 
 
@@ -130,15 +134,11 @@ typedef struct _D3DKMT_DISPLAYMODE {
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmdt_displaymode_flags.md">D3DKMDT_DISPLAYMODE_FLAGS</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 
 

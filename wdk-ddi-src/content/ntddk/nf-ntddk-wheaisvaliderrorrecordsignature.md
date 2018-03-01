@@ -92,7 +92,7 @@ The <b>WheaIsValidErrorRecordSignature </b>function verifies that the specified 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
+<a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">Error record</a>
 
 
 
@@ -100,7 +100,7 @@ The <b>WheaIsValidErrorRecordSignature </b>function verifies that the specified 
 
 
 
-<a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">Error record</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
 
 
 

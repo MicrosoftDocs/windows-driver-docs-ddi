@@ -89,11 +89,11 @@ For more info on simple instancing, see The Microsoft Direct3D 11 topic, <a hre
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/940381BB-E8F6-416D-8F36-CC3591E70703">D3D11_FEATURE_DATA_D3D9_SIMPLE_INSTANCING_SUPPORT</a>
-
-
-
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/940381BB-E8F6-416D-8F36-CC3591E70703">D3D11_FEATURE_DATA_D3D9_SIMPLE_INSTANCING_SUPPORT</a>
 
 
 

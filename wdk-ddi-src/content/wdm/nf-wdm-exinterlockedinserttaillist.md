@@ -98,7 +98,7 @@ A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to 
 
 
 
-<b>ExInterlockedInsertTailList</b> performs the same operation as <a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>, but atomically. Do not mix atomic and non-atomic calls on the same list.
+<b>ExInterlockedInsertTailList</b> performs the same operation as <a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>, but atomically. Do not mix atomic and non-atomic calls on the same list.
 
 For more information about using this routine to implement a doubly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
 
@@ -109,11 +109,11 @@ The <b>ExInterlockedInsertTailList</b> routine can be called at any IRQL. The st
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
-
-
-
 <a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
 
 
 
@@ -121,7 +121,7 @@ The <b>ExInterlockedInsertTailList</b> routine can be called at any IRQL. The st
 
 
 
-<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+<a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>
 
 
 

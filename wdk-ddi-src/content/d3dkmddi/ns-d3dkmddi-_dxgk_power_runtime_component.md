@@ -131,7 +131,7 @@ Multiple power components should not be mapped to the same engine (node), to the
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_state.md">DXGK_POWER_RUNTIME_STATE</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_flags.md">DXGK_POWER_COMPONENT_FLAGS</a>
 
 
 
@@ -139,7 +139,7 @@ Multiple power components should not be mapped to the same engine (node), to the
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_flags.md">DXGK_POWER_COMPONENT_FLAGS</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_state.md">DXGK_POWER_RUNTIME_STATE</a>
 
 
 

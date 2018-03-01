@@ -83,11 +83,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552442">ClearCache</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
 
 
 

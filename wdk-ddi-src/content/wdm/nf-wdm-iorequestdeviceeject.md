@@ -147,11 +147,11 @@ Callers of <b>IoRequestDeviceEject</b> must be running at IRQL &lt;= DISPATCH_LE
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a>
 
 
 
@@ -159,7 +159,7 @@ Callers of <b>IoRequestDeviceEject</b> must be running at IRQL &lt;= DISPATCH_LE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
 
 
 

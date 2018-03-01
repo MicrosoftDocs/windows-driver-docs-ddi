@@ -98,7 +98,7 @@ A D3DCOLOR data type for the A8R8G8B8 fill color.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_colorfill.md">ColorFill</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_colorfillflags.md">D3DDDI_COLORFILLFLAGS</a>
 
 
 
@@ -106,7 +106,7 @@ A D3DCOLOR data type for the A8R8G8B8 fill color.
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_colorfillflags.md">D3DDDI_COLORFILLFLAGS</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_colorfill.md">ColorFill</a>
 
 
 

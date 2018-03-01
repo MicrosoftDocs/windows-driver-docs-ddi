@@ -7,7 +7,7 @@ old-location: debugger\resetscope.htm
 old-project: debugger
 ms.assetid: de8b7c44-98a6-457d-8c04-05d4fc76be16
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugSymbols, IDebugSymbols interface [Windows Debugging], ResetScope method, IDebugSymbols2 interface [Windows Debugging], ResetScope method, IDebugSymbols2::ResetScope, IDebugSymbols3 interface [Windows Debugging], ResetScope method, IDebugSymbols3::ResetScope, IDebugSymbols::ResetScope, IDebugSymbols_e3d0b307-57e7-4bc1-83f6-3352dd33a7aa.xml, ResetScope method [Windows Debugging], ResetScope method [Windows Debugging], IDebugSymbols interface, ResetScope method [Windows Debugging], IDebugSymbols2 interface, ResetScope method [Windows Debugging], IDebugSymbols3 interface, ResetScope,IDebugSymbols.ResetScope, dbgeng/IDebugSymbols2::ResetScope, dbgeng/IDebugSymbols3::ResetScope, dbgeng/IDebugSymbols::ResetScope, debugger.resetscope
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,11 +108,11 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
 
 
 
@@ -124,7 +124,7 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
 
 
 
@@ -132,5 +132,5 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::ResetScope method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::ResetScope method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -86,11 +86,11 @@ Specifies a <a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a> stru
 
 ## -see-also
 
-<a href="..\dxva\ne-dxva-_dxva_procampcontrolprop.md">DXVA_ProcAmpControlProp</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_procampcontrolprop.md">DXVA_ProcAmpControlProp</a>
 
 
 

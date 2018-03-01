@@ -127,19 +127,19 @@ Management applications can use the ISCSI_TargetMapping structure to specify a l
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
-<a href="..\iscsidef\ns-iscsidef-_iscsi_lunlist.md">ISCSI_LUNList</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561573">ISCSI_TargetMapping WMI Class</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_lunlist.md">ISCSI_LUNList</a>
 
 
 

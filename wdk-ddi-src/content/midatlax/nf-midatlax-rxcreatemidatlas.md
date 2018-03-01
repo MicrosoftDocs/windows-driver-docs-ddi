@@ -116,11 +116,15 @@ For example, if a maximum of 50 MIDs are to be allocated on creation , the lengt
 
 ## -see-also
 
+<a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
+
+
+
 <a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
 
 
 
-<a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
+<a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
 
 
 
@@ -129,10 +133,6 @@ For example, if a maximum of 50 MIDs are to be allocated on creation , the lengt
 
 
 <a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
-
-
-
-<a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
 
 
 

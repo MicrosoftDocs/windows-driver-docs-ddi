@@ -103,11 +103,11 @@ The <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd162845(v=
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-addprintdeviceobject.md">AddPrintDeviceObject</a>
-
-
-
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd162845(v=vs.85).aspx">PRINTER_INFO_2</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-addprintdeviceobject.md">AddPrintDeviceObject</a>
 
 
 

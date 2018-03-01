@@ -7,7 +7,7 @@ old-location: debugger\getnumberprocessors.htm
 old-project: debugger
 ms.assetid: b3f4af4e-dbba-4f14-8935-f894865cbe7d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: GetNumberProcessors method [Windows Debugging], GetNumberProcessors method [Windows Debugging], IDebugControl interface, GetNumberProcessors method [Windows Debugging], IDebugControl2 interface, GetNumberProcessors method [Windows Debugging], IDebugControl3 interface, GetNumberProcessors,IDebugControl.GetNumberProcessors, IDebugControl, IDebugControl interface [Windows Debugging], GetNumberProcessors method, IDebugControl2 interface [Windows Debugging], GetNumberProcessors method, IDebugControl2::GetNumberProcessors, IDebugControl3 interface [Windows Debugging], GetNumberProcessors method, IDebugControl3::GetNumberProcessors, IDebugControl::GetNumberProcessors, IDebugControl_0ddf74be-971f-4bd8-bdfd-4ceedfbbdc0f.xml, dbgeng/IDebugControl2::GetNumberProcessors, dbgeng/IDebugControl3::GetNumberProcessors, dbgeng/IDebugControl::GetNumberProcessors, debugger.getnumberprocessors
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -125,15 +125,15 @@ pWdmDpc = WdfDpcWdmGetDpc(PDevExt-&gt;CompleteWriteDpc);</pre>
 
 
 
-<a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
 
 
 
 <a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>
+
+
+
+<a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a>
 
 
 

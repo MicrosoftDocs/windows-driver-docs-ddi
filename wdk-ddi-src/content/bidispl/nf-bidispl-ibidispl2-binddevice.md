@@ -158,11 +158,7 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 ## -see-also
 
-<a href="..\bidispl\nn-bidispl-ibidispl2.md">IBidiSpl2</a>
-
-
-
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
 
 
 
@@ -170,11 +166,15 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 
 
+<a href="..\bidispl\nn-bidispl-ibidispl2.md">IBidiSpl2</a>
+
+
+
 <a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a>
 
 
 
-<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 

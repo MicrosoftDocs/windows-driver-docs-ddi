@@ -98,25 +98,6 @@ VOID APIENTRY* pfnVideoProcessorSetStreamLumaKey(
 
 
 
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
-
-
-
-
-#### - hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
-
-
-
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
 #### - Enable [in]
 
 If <b>TRUE</b>, the luma key is enabled on the specified input stream of the video processor.
@@ -131,6 +112,11 @@ The lower bound for the luma key. The valid range is from zero to one.
 </div>
 <div> </div>
 
+#### - StreamIndex [in]
+
+The zero-based index of the input stream.
+
+
 #### - Upper [in]
 
 The upper bound for the luma key. The valid range is from zero to one. 
@@ -139,6 +125,20 @@ The upper bound for the luma key. The valid range is from zero to one.
 
 </div>
 <div> </div>
+
+#### - hDevice [in]
+
+A handle to the display device (graphics context).
+
+
+
+
+#### - hVideoProcessor [in]
+
+A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+
+
+
 
 ## -returns
 
@@ -174,11 +174,11 @@ The driver reports its ability to support stereo alpha blending for an input str
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
 
 
 

@@ -161,15 +161,7 @@ The driver allocates this structure and sets appropriate values in all members. 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549064">D3dValidateTextureStageState</a>
-
-
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_callbacks.md">D3DHAL_CALLBACKS</a>
+D3DDP2OP_CLEAR
 
 
 
@@ -177,7 +169,15 @@ The driver allocates this structure and sets appropriate values in all members. 
 
 
 
-D3DDP2OP_CLEAR
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_callbacks.md">D3DHAL_CALLBACKS</a>
+
+
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549064">D3dValidateTextureStageState</a>
 
 
 

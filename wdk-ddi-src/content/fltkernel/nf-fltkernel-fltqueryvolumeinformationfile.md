@@ -247,23 +247,7 @@ If the <i>FileObject</i> represents a direct device open, only <i>FileFsDeviceIn
 
 
 
-<a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_fs_device_information.md">FILE_FS_DEVICE_INFORMATION</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_file_fs_attribute_information.md">FILE_FS_ATTRIBUTE_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
 
 
 
@@ -271,7 +255,15 @@ If the <i>FileObject</i> represents a direct device open, only <i>FileFsDeviceIn
 
 
 
-<b>FILE_FS_SECTOR_SIZE_INFORMATION</b>
+<a href="..\wdm\ns-wdm-_file_fs_device_information.md">FILE_FS_DEVICE_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS_DRIVER_PATH_INFORMATION</a>
 
 
 
@@ -279,7 +271,15 @@ If the <i>FileObject</i> represents a direct device open, only <i>FileFsDeviceIn
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS_DRIVER_PATH_INFORMATION</a>
+<b>FILE_FS_SECTOR_SIZE_INFORMATION</b>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
 
 
 

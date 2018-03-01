@@ -95,11 +95,15 @@ It is an error to call <b>KeRemoveDeviceQueue</b> when the device queue object i
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
+
+
+
 <a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
 
 
 
-<a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
+<a href="..\wdm\nf-wdm-keremovebykeydevicequeue.md">KeRemoveByKeyDeviceQueue</a>
 
 
 
@@ -108,10 +112,6 @@ It is an error to call <b>KeRemoveDeviceQueue</b> when the device queue object i
 
 
 <a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
-
-
-
-<a href="..\wdm\nf-wdm-keremovebykeydevicequeue.md">KeRemoveByKeyDeviceQueue</a>
 
 
 

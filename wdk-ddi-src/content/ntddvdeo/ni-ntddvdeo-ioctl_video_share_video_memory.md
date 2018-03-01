@@ -126,10 +126,6 @@ If the miniport driver successfully maps the memory, it sets the <b>Information<
 
 
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory_information.md">VIDEO_SHARE_MEMORY_INFORMATION</a>
-
-
-
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory.md">VIDEO_SHARE_MEMORY</a>
 
 
@@ -139,6 +135,10 @@ If the miniport driver successfully maps the memory, it sets the <b>Information<
 
 
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory_information.md">VIDEO_SHARE_MEMORY_INFORMATION</a>
 
 
 

@@ -83,14 +83,14 @@ HRESULT APIENTRY CALLBACK* pfnAllocateCb(
 
 
 
-#### - hRTDevice [in]
-
-The handle for a device.
-
-
 #### - Allocate [in, out]
 
 A <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddicb_allocate_0022.md">D3D12DDICB_ALLOCATE_0022</a> structure that contains information for an allocation.
+
+
+#### - hRTDevice [in]
+
+The handle for a device.
 
 
 ## -returns
@@ -115,11 +115,11 @@ The driver must check the return value of the function.
 
 ## -see-also
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddicb_allocate_0022.md">D3D12DDICB_ALLOCATE_0022</a>
-
-
-
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_corelayer_devicecallbacks_0022.md">D3D12DDI_CORELAYER_DEVICECALLBACKS_0022</a>
+
+
+
+<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddicb_allocate_0022.md">D3D12DDICB_ALLOCATE_0022</a>
 
 
 

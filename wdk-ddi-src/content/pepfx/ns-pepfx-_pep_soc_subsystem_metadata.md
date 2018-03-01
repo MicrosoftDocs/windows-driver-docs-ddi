@@ -108,11 +108,11 @@ Since this memory is pre-allocated, its size cannot be changed. The PEP is respo
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_query_soc_subsystem_metadata.md">PEP_QUERY_SOC_SUBSYSTEM_METADATA</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186854">PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_query_soc_subsystem_metadata.md">PEP_QUERY_SOC_SUBSYSTEM_METADATA</a>
 
 
 

@@ -69,7 +69,7 @@ UCHAR READ_PORT_UCHAR(
 
 
 
-#### - Port [in]
+### -param Port [in]
 
 Specifies the port address, which must be a mapped memory range in I/O space. 
 

@@ -171,15 +171,15 @@ The difference between the <b>HBA_GetFcpTargetMappingV2</b> routine and the <a h
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_getfcptargetmapping.md">HBA_GetFcpTargetMapping</a>
 
 
 
 <a href="..\hbaapi\ns-hbaapi-hba_fcptargetmappingv2.md">HBA_FCPTargetMappingV2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 

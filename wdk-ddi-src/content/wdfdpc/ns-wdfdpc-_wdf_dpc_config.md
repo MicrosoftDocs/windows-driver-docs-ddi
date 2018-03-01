@@ -108,15 +108,15 @@ For more information about handling interrupts in framework-based drivers, see <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
-
-
-
 <a href="..\wdfdpc\nf-wdfdpc-wdf_dpc_config_init.md">WDF_DPC_CONFIG_INIT</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+
+
+
+<a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
 
 
 

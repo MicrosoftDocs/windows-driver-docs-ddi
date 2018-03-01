@@ -59,7 +59,7 @@ FLT_CALLBACK_DATA_QUEUE is an opaque structure that is used to specify the callb
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcbdqinsertio.md">FltCbdqInsertIo</a>
+<a href="..\fltkernel\nf-fltkernel-fltcbdqenable.md">FltCbdqEnable</a>
 
 
 
@@ -67,15 +67,15 @@ FLT_CALLBACK_DATA_QUEUE is an opaque structure that is used to specify the callb
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltcbdqremovenextio.md">FltCbdqRemoveNextIo</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltcbdqinitialize.md">FltCbdqInitialize</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcbdqenable.md">FltCbdqEnable</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcbdqremovenextio.md">FltCbdqRemoveNextIo</a>
+<a href="..\fltkernel\nf-fltkernel-fltcbdqinsertio.md">FltCbdqInsertIo</a>
 
 
 

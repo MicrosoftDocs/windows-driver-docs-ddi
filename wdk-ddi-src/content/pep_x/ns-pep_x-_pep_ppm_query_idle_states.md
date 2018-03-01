@@ -95,11 +95,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629121">PEP_NOTIFY_PPM_QUERY_IDLE_STATES</a>
-
-
-
 <a href="..\pep_x\ns-pep_x-_pep_processor_idle_state.md">PEP_PROCESSOR_IDLE_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629121">PEP_NOTIFY_PPM_QUERY_IDLE_STATES</a>
 
 
 

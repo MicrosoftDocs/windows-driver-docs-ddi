@@ -130,27 +130,7 @@ Memory for this structure can be allocated from paged pool.
 
 ## -see-also
 
-<a href="..\wmilib\nc-wmilib-wmi_query_datablock_callback.md">DpWmiQueryDataBlock</a>
-
-
-
-<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
-
-
-
-<a href="..\wmilib\ns-wmilib-_wmiguidreginfo.md">WMIGUIDREGINFO</a>
-
-
-
-<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
-
-
-
-<a href="..\wmilib\nc-wmilib-wmi_set_datablock_callback.md">DpWmiSetDataBlock</a>
-
-
-
-<a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
+<a href="..\wmilib\nc-wmilib-wmi_execute_method_callback.md">DpWmiExecuteMethod</a>
 
 
 
@@ -158,7 +138,27 @@ Memory for this structure can be allocated from paged pool.
 
 
 
-<a href="..\wmilib\nc-wmilib-wmi_execute_method_callback.md">DpWmiExecuteMethod</a>
+<a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
+
+
+
+<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
+
+
+
+<a href="..\wmilib\nc-wmilib-wmi_query_datablock_callback.md">DpWmiQueryDataBlock</a>
+
+
+
+<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
+
+
+
+<a href="..\wmilib\ns-wmilib-_wmiguidreginfo.md">WMIGUIDREGINFO</a>
+
+
+
+<a href="..\wmilib\nc-wmilib-wmi_set_datablock_callback.md">DpWmiSetDataBlock</a>
 
 
 

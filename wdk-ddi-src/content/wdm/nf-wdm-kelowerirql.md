@@ -80,29 +80,29 @@ TBD
 
 #### - NewIrql [in]
 
-Specifies the IRQL that was returned from <a href="..\wdm\nf-wdm-keraiseirql.md">KeRaiseIrql</a> or <a href="..\ntddk\nf-ntddk-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>.
+Specifies the IRQL that was returned from <a href="..\wdm\nf-wdm-keraiseirql.md">KeRaiseIrql</a> or <a href="..\wdm\nf-wdm-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>.
 
 
 ## -remarks
 
 
 
-It is a fatal error to call <b>KeLowerIrql</b> using an input <i>NewIrql</i> that was not returned by the immediately preceding call to <b>KeRaiseIrql</b> or <a href="..\ntddk\nf-ntddk-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>.
+It is a fatal error to call <b>KeLowerIrql</b> using an input <i>NewIrql</i> that was not returned by the immediately preceding call to <b>KeRaiseIrql</b> or <a href="..\wdm\nf-wdm-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>
-
-
-
-<a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
+<a href="..\wdm\nf-wdm-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>
 
 
 
 <a href="..\wdm\nf-wdm-keraiseirql.md">KeRaiseIrql</a>
+
+
+
+<a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
 
 
 

@@ -277,7 +277,11 @@ The following code example shows how to submit the current command buffer for re
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_render.md">D3DDDICB_RENDER</a>
 
 
 
@@ -289,11 +293,7 @@ The following code example shows how to submit the current command buffer for re
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_render.md">D3DDDICB_RENDER</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a>
 
 
 

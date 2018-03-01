@@ -111,11 +111,11 @@ The driver can use this semantic value for its own internal purposes.
 
 ## -see-also
 
-<a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a>
-
-
-
 <a href="..\umdprovider\nf-umdprovider-umdetwlogunmapallocation.md">UMDEtwLogUnmapAllocation</a>
+
+
+
+<a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: debugger\getcurrentpasscount.htm
 old-project: debugger
 ms.assetid: ff9b9988-6790-48d1-8423-60c63b0a90cf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: ComOther_b9308489-679e-4ced-bd73-84cbeaadc669.xml, GetCurrentPassCount method [Windows Debugging], GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint interface, GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint2 interface, GetCurrentPassCount,IDebugBreakpoint2.GetCurrentPassCount, IDebugBreakpoint interface [Windows Debugging], GetCurrentPassCount method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetCurrentPassCount method, IDebugBreakpoint2::GetCurrentPassCount, IDebugBreakpoint::GetCurrentPassCount, dbgeng/IDebugBreakpoint2::GetCurrentPassCount, dbgeng/IDebugBreakpoint::GetCurrentPassCount, debugger.getcurrentpasscount
 ms.prod: windows-hardware
 ms.technology: windows-devices

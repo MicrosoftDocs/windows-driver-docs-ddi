@@ -152,11 +152,11 @@ Indicates that the tape has snapped.
 
 ## -see-also
 
+<a href="..\ntddtape\ns-ntddtape-_tape_wmi_operations.md">TAPE_WMI_OPERATIONS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a>
-
-
-
-<a href="..\minitape\ns-minitape-_tape_wmi_operations.md">TAPE_WMI_OPERATIONS</a>
 
 
 

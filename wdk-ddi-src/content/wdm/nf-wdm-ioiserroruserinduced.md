@@ -104,11 +104,11 @@ If <b>IoIsErrorUserInduced</b> returns <b>TRUE</b>, the removable-media driver m
 
 
 
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
 
 
 

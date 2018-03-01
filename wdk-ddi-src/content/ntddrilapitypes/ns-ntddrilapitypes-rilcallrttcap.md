@@ -7,13 +7,13 @@ old-location: netvista\rilcallrttcap.htm
 old-project: netvista
 ms.assetid: 7cb8618b-93da-4b6d-8f03-fb42a8d28fd0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPRILCALLRTTCAP, RILCALLRTTCAP, RILCALLRTTCAP structure [Network Drivers Starting with Windows Vista], netvista.rilcallrttcap, ntddrilapitypes/RILCALLRTTCAP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

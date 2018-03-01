@@ -77,7 +77,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="..\minitape\ns-minitape-_tape_get_position.md">TAPE_GET_POSITION</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+The driver returns the <a href="..\ntddtape\ns-ntddtape-_tape_get_position.md">TAPE_GET_POSITION</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length
@@ -110,15 +110,15 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567946">TapeMiniGetPosition</a>
-
-
-
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 
-<a href="..\minitape\ns-minitape-_tape_get_position.md">TAPE_GET_POSITION</a>
+<a href="..\ntddtape\ns-ntddtape-_tape_get_position.md">TAPE_GET_POSITION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567946">TapeMiniGetPosition</a>
 
 
 

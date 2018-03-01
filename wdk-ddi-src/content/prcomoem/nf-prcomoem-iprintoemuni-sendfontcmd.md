@@ -166,15 +166,7 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a>
-
-
-
-<a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a>
+<a href="..\printoem\ns-printoem-_finvocation.md">FINVOCATION</a>
 
 
 
@@ -182,15 +174,23 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
 
 
 
-<a href="..\printoem\ns-printoem-_finvocation.md">FINVOCATION</a>
+<a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
 
 
 

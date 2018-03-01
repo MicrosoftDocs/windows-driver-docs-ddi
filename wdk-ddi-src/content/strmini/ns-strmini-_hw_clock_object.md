@@ -101,7 +101,7 @@ Reserved for system use. Do not use.
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>
+<a href="..\strmini\nc-strmini-phw_query_clock_routine.md">StrMiniClock</a>
 
 
 
@@ -109,7 +109,7 @@ Reserved for system use. Do not use.
 
 
 
-<a href="..\strmini\nc-strmini-phw_query_clock_routine.md">StrMiniClock</a>
+<a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>
 
 
 

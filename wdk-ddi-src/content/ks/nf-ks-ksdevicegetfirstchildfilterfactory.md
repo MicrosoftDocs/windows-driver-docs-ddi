@@ -94,11 +94,11 @@ For a graphical representation of AVStream parent/child relationships, see the d
 
 ## -see-also
 
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
+
 <a href="..\ks\nf-ks-ksfilterfactorygetnextsiblingfilterfactory.md">KsFilterFactoryGetNextSiblingFilterFactory</a>
-
-
-
-<a href="..\ks\nf-ks-ksgetfirstchild.md">KsGetFirstChild</a>
 
 
 
@@ -106,7 +106,7 @@ For a graphical representation of AVStream parent/child relationships, see the d
 
 
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+<a href="..\ks\nf-ks-ksgetfirstchild.md">KsGetFirstChild</a>
 
 
 

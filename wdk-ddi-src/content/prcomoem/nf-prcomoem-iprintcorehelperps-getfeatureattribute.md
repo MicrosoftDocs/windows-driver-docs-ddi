@@ -180,11 +180,11 @@ For more information about <b>IPrintCoreHelperPS::GetFeatureAttribute</b>, see <
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperps.md">IPrintCoreHelperPS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552899">IPrintCoreHelperPS::GetGlobalAttribute</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintcorehelperps.md">IPrintCoreHelperPS</a>
 
 
 

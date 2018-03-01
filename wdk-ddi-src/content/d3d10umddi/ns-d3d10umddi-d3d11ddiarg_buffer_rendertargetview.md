@@ -76,12 +76,17 @@ typedef struct D3D11DDIARG_BUFFER_RENDERTARGETVIEW {
 
 
 
-#### - FirstElement
+#### - ElementOffset
 
 [in] The offset, in bytes, to the first element in the buffer. 
 
 
-#### - ElementOffset
+#### - ElementWidth
+
+[in] The width, in elements, in the buffer. 
+
+
+#### - FirstElement
 
 [in] The offset, in bytes, to the first element in the buffer. 
 
@@ -91,14 +96,9 @@ typedef struct D3D11DDIARG_BUFFER_RENDERTARGETVIEW {
 [in] The number of elements in the buffer. 
 
 
-#### - ElementWidth
-
-[in] The width, in elements, in the buffer. 
-
-
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterendertargetviewsize.md">CalcPrivateRenderTargetViewSize</a>
 
 
 
@@ -106,7 +106,7 @@ typedef struct D3D11DDIARG_BUFFER_RENDERTARGETVIEW {
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterendertargetviewsize.md">CalcPrivateRenderTargetViewSize</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a>
 
 
 

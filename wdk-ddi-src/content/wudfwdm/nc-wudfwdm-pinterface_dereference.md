@@ -89,7 +89,7 @@ None
 
 
 
-You can use the <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a> routine to increment the reference count for the interface.
+You can use the <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a> routine to increment the reference count for the interface.
 
 The driver that imports the interface is responsible for calling the <i>InterfaceDereference</i> routine to decrement the reference count after the driver is no longer using the interface.  For example, a driver that requests a pointer to the interface by sending an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a> request calls <i>InterfaceDereference</i>. Also, a driver that receives a pointer to the interface to another driver must call <i>InterfaceDereference</i>.
 
@@ -98,7 +98,7 @@ The driver that imports the interface is responsible for calling the <i>Interfac
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
 
 
@@ -106,7 +106,7 @@ The driver that imports the interface is responsible for calling the <i>Interfac
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
 
 
 

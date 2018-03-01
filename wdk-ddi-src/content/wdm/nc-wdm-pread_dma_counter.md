@@ -101,19 +101,19 @@ Pointer to the adapter object previously returned by <a href="..\wdm\nf-wdm-ioge
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
-
-
-
 <a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
 
 
 
-<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
+<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
 
 
 
 <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
+<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
 
 
 

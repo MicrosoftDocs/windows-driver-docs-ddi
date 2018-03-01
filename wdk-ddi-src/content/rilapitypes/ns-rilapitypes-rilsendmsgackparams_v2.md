@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSENDMSGACKPARAMS_V2
 title: RILSENDMSGACKPARAMS_V2
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsendmsgackparams_v2_2.htm
+old-location: netvista\rilsendmsgackparams_v2.htm
 old-project: netvista
-ms.assetid: 10bd2f88-ad1e-4d48-a338-e49c82a66d7a
+ms.assetid: 3c05c1a0-339e-447f-b0df-18303ee63f98
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILSENDMSGACKPARAMS, RILSENDMSGACKPARAMS, RILSENDMSGACKPARAMS_V2, RILSENDMSGACKPARAMS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgackparams_v2_2, rilapitypes/RILSENDMSGACKPARAMS_V2"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILSENDMSGACKPARAMS, RILSENDMSGACKPARAMS, RILSENDMSGACKPARAMS_V2, RILSENDMSGACKPARAMS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgackparams_v2, ntddrilapitypes/RILSENDMSGACKPARAMS_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSENDMSGACKPARAMS_V2
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

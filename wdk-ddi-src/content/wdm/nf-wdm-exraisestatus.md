@@ -93,11 +93,11 @@ Highest-level drivers, particularly file systems, can call <b>ExRaiseStatus</b>.
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-exraisedatatypemisalignment.md">ExRaiseDatatypeMisalignment</a>
+
+
+
 <a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-exraiseaccessviolation.md">ExRaiseAccessViolation</a>
 
 
 
@@ -105,7 +105,7 @@ Highest-level drivers, particularly file systems, can call <b>ExRaiseStatus</b>.
 
 
 
-<a href="..\ntddk\nf-ntddk-exraisedatatypemisalignment.md">ExRaiseDatatypeMisalignment</a>
+<a href="..\ntddk\nf-ntddk-exraiseaccessviolation.md">ExRaiseAccessViolation</a>
 
 
 

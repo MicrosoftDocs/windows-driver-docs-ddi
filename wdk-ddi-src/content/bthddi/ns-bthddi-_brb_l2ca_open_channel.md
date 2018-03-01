@@ -722,35 +722,11 @@ Profile drivers must allocate the memory to store the array that is stored in th
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a>
-
-
-
-<a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
-
-
-
 <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_channel_config_results.md">CHANNEL_CONFIG_RESULTS</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+<a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a>
 
 
 
@@ -758,12 +734,36 @@ Profile drivers must allocate the memory to store the array that is stored in th
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+
+
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_channel_config_results.md">CHANNEL_CONFIG_RESULTS</a>
+
+
+
+<a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
    BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
 
 
 

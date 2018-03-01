@@ -96,16 +96,6 @@ TBD
 
 
 
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Port [in]
-
-Contains the address of the port to be written to. 
-
-
 #### - Buffer [in]
 
 Pointer to the buffer containing the data to be written. 
@@ -116,22 +106,32 @@ Pointer to the buffer containing the data to be written.
 Contains the number of data items of size <b>sizeof</b>(ULONG) to be written. 
 
 
+#### - HwDeviceExtension [in]
+
+Pointer to the hardware device extension.
+
+
+#### - Port [in]
+
+Contains the address of the port to be written to. 
+
+
 ## -remarks
 
 
 
-For more information, see <a href="..\srb\nf-srb-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>. For a nonbuffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportulong.md">StorPortWritePortUlong</a>. 
+For more information, see <a href="..\storport\nf-storport-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>. For a nonbuffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportulong.md">StorPortWritePortUlong</a>. 
 
 
 
 
 ## -see-also
 
+<a href="..\storport\nf-storport-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>
+
+
+
 <a href="..\storport\nf-storport-storportwriteportulong.md">StorPortWritePortUlong</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>
 
 
 

@@ -98,11 +98,11 @@ Specifies that the ProcAmp saturation property is used.
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_procampcontrolcaps.md">DXVA_ProcAmpControlCaps</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_procampcontrolqueryrange.md">DXVA_ProcAmpControlQueryRange</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_procampcontrolcaps.md">DXVA_ProcAmpControlCaps</a>
 
 
 

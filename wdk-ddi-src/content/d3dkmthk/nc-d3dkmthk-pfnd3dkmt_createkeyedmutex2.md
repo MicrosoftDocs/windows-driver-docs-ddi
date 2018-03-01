@@ -158,11 +158,15 @@ Keyed mutexes created with <b>D3DKMTCreateKeyedMutex2</b> are still compatible w
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_acquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex2.md">D3DKMT_CREATEKEYEDMUTEX2</a>
 
 
 
 <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createkeyedmutex.md">D3DKMTCreateKeyedMutex</a>
+
+
+
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_acquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a>
 
 
 
@@ -171,10 +175,6 @@ Keyed mutexes created with <b>D3DKMTCreateKeyedMutex2</b> are still compatible w
 
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreleasekeyedmutex.md">D3DKMTReleaseKeyedMutex</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex2.md">D3DKMT_CREATEKEYEDMUTEX2</a>
 
 
 

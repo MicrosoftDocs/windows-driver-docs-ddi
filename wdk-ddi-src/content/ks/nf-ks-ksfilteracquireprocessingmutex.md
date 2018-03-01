@@ -95,7 +95,11 @@ A minidriver that must suspend processing for a long period of time should not u
 
 ## -see-also
 
-<b>KsFilterReleaseProcessingMutex</b>
+<a href="..\ks\nf-ks-ksfilterattemptprocessing.md">KsFilterAttemptProcessing</a>
+
+
+
+<a href="..\ks\nf-ks-kspinacquireprocessingmutex.md">KsPinAcquireProcessingMutex</a>
 
 
 
@@ -107,11 +111,7 @@ A minidriver that must suspend processing for a long period of time should not u
 
 
 
-<a href="..\ks\nf-ks-ksfilterattemptprocessing.md">KsFilterAttemptProcessing</a>
-
-
-
-<a href="..\ks\nf-ks-kspinacquireprocessingmutex.md">KsPinAcquireProcessingMutex</a>
+<b>KsFilterReleaseProcessingMutex</b>
 
 
 

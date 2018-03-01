@@ -116,11 +116,11 @@ To disable an event, set <i>Event</i> to <b>NULL</b>, <i>EventLength</i> to zero
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
+
+
+
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
 
 

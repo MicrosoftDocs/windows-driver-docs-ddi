@@ -92,7 +92,7 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 The return value can be used to detect when the last entry is removed from the list. An empty list consists of a list head only and no list entries.
 
-<div class="alert"><b>Note</b>  Typically, <i>Entry</i> points to an entry in a list and not to the list head. However, <i>Entry</i> can point to a list head, in which case the routine removes the list head from the list to produce a headless list. When <b>RemoveEntryList</b> is used in this way, the return value should typically be ignored. To determine whether a list is empty, use the <a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a> routine.</div>
+<div class="alert"><b>Note</b>  Typically, <i>Entry</i> points to an entry in a list and not to the list head. However, <i>Entry</i> can point to a list head, in which case the routine removes the list head from the list to produce a headless list. When <b>RemoveEntryList</b> is used in this way, the return value should typically be ignored. To determine whether a list is empty, use the <a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a> routine.</div>
 <div> </div>
 For information about using this routine when implementing a doubly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
 
@@ -105,19 +105,19 @@ Callers of <b>RemoveEntryList</b> can be running at any IRQL. If <b>RemoveEntryL
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
 
 
 
-<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
+<a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
 
 
 
-<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+<a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
 
 
 
-<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
+<a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
 
 
 

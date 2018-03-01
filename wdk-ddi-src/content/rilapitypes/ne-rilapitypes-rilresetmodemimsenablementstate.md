@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILRESETMODEMIMSENABLEMENTSTATE
 title: RILRESETMODEMIMSENABLEMENTSTATE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilresetmodemimsenablementstate_2.htm
+old-location: netvista\rilresetmodemimsenablementstate.htm
 old-project: netvista
-ms.assetid: 6cce25c0-a192-4472-b0ac-3b4fadf8f9e2
+ms.assetid: 50fae043-3575-4eff-869a-fae94168a4a1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILRESETMODEMIMSENABLEMENTSTATE, RILRESETMODEMIMSENABLEMENTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEM_ENABLED, netvista.rilresetmodemimsenablementstate_2, rilapitypes/RILRESETMODEMIMSENABLEMENTSTATE, rilapitypes/RIL_RESETMODEM_ENABLED
+ms.date: 2/27/2018
+ms.keywords: RILRESETMODEMIMSENABLEMENTSTATE, RILRESETMODEMIMSENABLEMENTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEM_ENABLED, netvista.rilresetmodemimsenablementstate, ntddrilapitypes/RILRESETMODEMIMSENABLEMENTSTATE, ntddrilapitypes/RIL_RESETMODEM_ENABLED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILRESETMODEMIMSENABLEMENTSTATE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

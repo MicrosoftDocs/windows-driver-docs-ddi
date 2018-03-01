@@ -80,15 +80,15 @@ Specifies the number of buffers that follow this header.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
 <a href="https://msdn.microsoft.com/23c020e8-b778-4784-9dc0-21920557e1c1">Kernel Streaming Property Sets</a>
 
 
 
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 

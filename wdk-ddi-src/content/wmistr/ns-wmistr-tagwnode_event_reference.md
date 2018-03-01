@@ -119,15 +119,15 @@ The <b>ProviderId</b> member of the <a href="..\wmistr\ns-wmistr-_wnode_header.m
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
-
-
-
 <a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWMIDeviceObjectToProviderId</a>
 
 
 
 <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
 
 
 

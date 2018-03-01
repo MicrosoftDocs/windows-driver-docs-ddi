@@ -98,17 +98,17 @@ A
                  This structure is defined in UcmTcpciSpec.h.
 
 
-#### - PowerStatus
-
-A 
-                     <b>UCMTCPCI_PORT_CONTROLLER_POWER_STATUS</b> structure that contains the power status of the port controller.
-                 This structure is defined in UcmTcpciSpec.h.
-
-
 #### - FaultStatus
 
 A 
                      <b>UCMTCPCI_PORT_CONTROLLER_FAULT_STATUS</b> structure that contains the fault status of the port controller.
+                 This structure is defined in UcmTcpciSpec.h.
+
+
+#### - PowerStatus
+
+A 
+                     <b>UCMTCPCI_PORT_CONTROLLER_POWER_STATUS</b> structure that contains the power status of the port controller.
                  This structure is defined in UcmTcpciSpec.h.
 
 

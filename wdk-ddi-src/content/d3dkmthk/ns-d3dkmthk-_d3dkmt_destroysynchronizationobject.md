@@ -74,11 +74,11 @@ typedef struct _D3DKMT_DESTROYSYNCHRONIZATIONOBJECT {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroysynchronizationobject.md">D3DKMTDestroySynchronizationObject</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject.md">D3DKMTCreateSynchronizationObject</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroysynchronizationobject.md">D3DKMTDestroySynchronizationObject</a>
 
 
 

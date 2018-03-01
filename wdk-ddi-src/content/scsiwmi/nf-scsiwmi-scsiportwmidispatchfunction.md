@@ -151,11 +151,15 @@ Call <b>ScsiPortNotification</b> with <b>RequestComplete</b> and again with <b>N
 
 
 
+<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
+
+
+
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnsize.md">ScsiPortWmiGetReturnSize</a>
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
 
 
 
@@ -163,11 +167,7 @@ Call <b>ScsiPortNotification</b> with <b>RequestComplete</b> and again with <b>N
 
 
 
-<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
-
-
-
-<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
 
 
 

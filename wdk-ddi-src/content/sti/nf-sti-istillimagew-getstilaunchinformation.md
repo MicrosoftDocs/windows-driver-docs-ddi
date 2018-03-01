@@ -7,7 +7,7 @@ old-location: image\istillimage_getstilaunchinformation.htm
 old-project: image
 ms.assetid: cfcd6e2d-541a-4a28-b2c7-409eb10bcf1e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: GetSTILaunchInformation method [Imaging Devices], GetSTILaunchInformation method [Imaging Devices], IStillImageW interface, GetSTILaunchInformation,IStillImageW.GetSTILaunchInformation, IStillImageW, IStillImageW interface [Imaging Devices], GetSTILaunchInformation method, IStillImageW::GetSTILaunchInformation, image.istillimage_getstilaunchinformation, sti/IStillImageW::GetSTILaunchInformation, stifnc_b73269ec-512a-4d07-a43a-8c72a28a751b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

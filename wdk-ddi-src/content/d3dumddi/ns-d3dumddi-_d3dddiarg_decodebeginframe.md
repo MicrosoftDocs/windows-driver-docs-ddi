@@ -80,15 +80,15 @@ A pointer to the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_setkey.md">DXVADD
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_setkey.md">DXVADDI_PVP_SETKEY</a>
 
 
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodebeginframe.md">DecodeBeginFrame</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a>
 
 
 

@@ -166,11 +166,11 @@ It is possible for a job to have multiple  flag values specified simultaneously.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/3C806C3B-78A1-44B6-A9AC-E7258D216637">IPrintJob::Status</a>
-
-
-
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd145019(v=vs.85).aspx">JOB_INFO_1</a>
+
+
+
+<a href="https://msdn.microsoft.com/3C806C3B-78A1-44B6-A9AC-E7258D216637">IPrintJob::Status</a>
 
 
 

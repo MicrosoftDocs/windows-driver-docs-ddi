@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILNITZNOTIFICATIONCAPS
 title: RILNITZNOTIFICATIONCAPS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilnitznotificationcaps_2.htm
+old-location: netvista\rilnitznotificationcaps.htm
 old-project: netvista
-ms.assetid: 74f62528-57ec-4142-a1b0-0d779e9d0ca0
+ms.assetid: fa678bfa-ebcc-4950-951a-47f9bba98131
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILNITZNOTIFICATIONCAPS, RILNITZNOTIFICATIONCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_NITZ_ENABLED, RIL_CAPS_NITZ_MAX, netvista.rilnitznotificationcaps_2, rilapitypes/RILNITZNOTIFICATIONCAPS, rilapitypes/RIL_CAPS_NITZ_ENABLED, rilapitypes/RIL_CAPS_NITZ_MAX
+ms.date: 2/27/2018
+ms.keywords: RILNITZNOTIFICATIONCAPS, RILNITZNOTIFICATIONCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_NITZ_ENABLED, RIL_CAPS_NITZ_MAX, netvista.rilnitznotificationcaps, ntddrilapitypes/RILNITZNOTIFICATIONCAPS, ntddrilapitypes/RIL_CAPS_NITZ_ENABLED, ntddrilapitypes/RIL_CAPS_NITZ_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILNITZNOTIFICATIONCAPS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

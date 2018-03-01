@@ -109,7 +109,7 @@ Only a single stream source is set by a <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2
 
 
 
-D3DDP2OP_SETSTREAMSOURCE
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setstreamsourceum.md">D3DHAL_DP2SETSTREAMSOURCEUM</a>
 
 
 
@@ -117,7 +117,7 @@ D3DDP2OP_SETSTREAMSOURCE
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setstreamsourceum.md">D3DHAL_DP2SETSTREAMSOURCEUM</a>
+D3DDP2OP_SETSTREAMSOURCE
 
 
 

@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILPHONEBOOKREADYSTATE
 title: RILPHONEBOOKREADYSTATE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilphonebookreadystate_2.htm
+old-location: netvista\rilphonebookreadystate.htm
 old-project: netvista
-ms.assetid: 2193f73d-c21c-430d-8535-790fdea86366
+ms.assetid: cd71234b-4b46-4b7b-953b-32e6f014af03
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookreadystate_2, rilapitypes/RILPHONEBOOKREADYSTATE"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookreadystate, ntddrilapitypes/RILPHONEBOOKREADYSTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILPHONEBOOKREADYSTATE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

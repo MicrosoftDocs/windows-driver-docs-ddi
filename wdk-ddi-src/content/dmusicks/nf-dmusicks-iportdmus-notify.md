@@ -7,7 +7,7 @@ old-location: audio\iportdmus_notify.htm
 old-project: audio
 ms.assetid: 64158ea5-23ca-42a3-9284-2b1523e616b8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IPortDMus, IPortDMus interface [Audio Devices], Notify method, IPortDMus::Notify, Notify method [Audio Devices], Notify method [Audio Devices], IPortDMus interface, Notify,IPortDMus.Notify, audio.iportdmus_notify, audmp-routines_cc818dda-ae0e-435e-8d94-f1632a4c4319.xml, dmusicks/IPortDMus::Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,7 +123,7 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536700">IMiniportDMus::Init</a>
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 
@@ -131,17 +131,17 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536700">IMiniportDMus::Init</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
 
 
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortDMus::Notify method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortDMus::Notify method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

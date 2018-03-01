@@ -7,7 +7,7 @@ old-location: netvista\ril_getcallforwardingsettings.htm
 old-project: netvista
 ms.assetid: f9abb454-5fd1-4680-ab83-f24897c89193
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_GetCallForwardingSettings, RIL_GetCallForwardingSettings method [Network Drivers Starting with Windows Vista], netvista.ril_getcallforwardingsettings, rilapi/RIL_GetCallForwardingSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

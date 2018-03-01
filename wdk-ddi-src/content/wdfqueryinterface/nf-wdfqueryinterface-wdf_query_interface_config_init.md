@@ -123,11 +123,11 @@ For a code example that uses <b>WDF_QUERY_INTERFACE_CONFIG_INIT</b>, see <a href
 
 
 
-<a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">EvtDeviceProcessQueryInterfaceRequest</a>
-
-
-
 <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a>
+
+
+
+<a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">EvtDeviceProcessQueryInterfaceRequest</a>
 
 
 

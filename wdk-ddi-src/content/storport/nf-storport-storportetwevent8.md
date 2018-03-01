@@ -510,11 +510,11 @@ Events generated from StorPort miniport drivers are published to the "Microsoft-
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportetwevent2.md">StorPortEtwEvent2</a>
-
-
-
 <a href="..\storport\nf-storport-storportetwevent4.md">StorPortEtwEvent4</a>
+
+
+
+<a href="..\storport\nf-storport-storportetwevent2.md">StorPortEtwEvent2</a>
 
 
 

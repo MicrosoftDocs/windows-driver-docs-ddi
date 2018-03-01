@@ -139,7 +139,7 @@ You must use <b>NextInquiryDataOffset</b> member to locate the inquiry data for 
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_inquiry_data.md">SCSI_INQUIRY_DATA</a>
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a>
 
 
 
@@ -147,7 +147,7 @@ You must use <b>NextInquiryDataOffset</b> member to locate the inquiry data for 
 
 
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a>
+<a href="..\ntddscsi\ns-ntddscsi-_scsi_inquiry_data.md">SCSI_INQUIRY_DATA</a>
 
 
 

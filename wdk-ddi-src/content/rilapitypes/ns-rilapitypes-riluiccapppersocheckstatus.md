@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILUICCAPPPERSOCHECKSTATUS
 title: RILUICCAPPPERSOCHECKSTATUS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riluiccapppersocheckstatus_2.htm
+old-location: netvista\riluiccapppersocheckstatus.htm
 old-project: netvista
-ms.assetid: 8e51ae9a-4670-4de1-bfca-bef8cb0c9cc9
+ms.assetid: 6438f692-75b0-4a41-a2f9-68b0fe3f23cf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccapppersocheckstatus_2, rilapitypes/RILUICCAPPPERSOCHECKSTATUS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccapppersocheckstatus, ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILUICCAPPPERSOCHECKSTATUS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

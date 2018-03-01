@@ -144,19 +144,19 @@ A single bidi request can have multiple results. After calling <b>GetEnumCount</
 
 ## -see-also
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
-
-
-
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 
-<a href="https://msdn.microsoft.com/0757dbc2-850b-4267-9339-b87591f85767">GetOutputData</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
+
+<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/0757dbc2-850b-4267-9339-b87591f85767">GetOutputData</a>
 
 
 

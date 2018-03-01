@@ -110,11 +110,7 @@ However, if a driver must obtain an adapter object while running at IRQL ≥ DIS
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
 
 
@@ -122,7 +118,11 @@ However, if a driver must obtain an adapter object while running at IRQL ≥ DIS
 
 
 
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 

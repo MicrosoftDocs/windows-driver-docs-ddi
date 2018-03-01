@@ -325,11 +325,11 @@ The <b>DeviceType</b> member can be used by an application to detect the device 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_timecode.md">TIMECODE</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-ksproperty_extdevice_s.md">KSPROPERTY_EXTDEVICE_S</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-_timecode.md">TIMECODE</a>
 
 
 

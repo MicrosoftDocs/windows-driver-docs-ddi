@@ -176,11 +176,11 @@ Read contexts are not thread-safe. Clients are responsible for serializing acces
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsterminatereadlog.md">ClfsTerminateReadLog</a>
-
-
-
 <a href="..\wdm\nf-wdm-clfsreadnextlogrecord.md">ClfsReadNextLogRecord</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsterminatereadlog.md">ClfsTerminateReadLog</a>
 
 
 

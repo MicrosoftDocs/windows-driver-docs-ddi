@@ -134,11 +134,11 @@ Callers of <b>IoReportTargetDeviceChange</b> must be running at IRQL = PASSIVE_L
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioreporttargetdevicechangeasynchronous.md">IoReportTargetDeviceChangeAsynchronous</a>
-
-
-
 <a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioreporttargetdevicechangeasynchronous.md">IoReportTargetDeviceChangeAsynchronous</a>
 
 
 

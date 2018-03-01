@@ -99,15 +99,7 @@ For more information about fast mutexes, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545549">ExReleaseFastMutex</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545647">ExTryToAcquireFastMutex</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544340">ExAcquireFastMutexUnsafe</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545567">ExReleaseFastMutexUnsafe</a>
 
 
 
@@ -115,7 +107,7 @@ For more information about fast mutexes, see <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545567">ExReleaseFastMutexUnsafe</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545549">ExReleaseFastMutex</a>
 
 
 
@@ -123,7 +115,15 @@ For more information about fast mutexes, see <a href="https://msdn.microsoft.com
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544340">ExAcquireFastMutexUnsafe</a>
+
+
+
 <a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545647">ExTryToAcquireFastMutex</a>
 
 
 

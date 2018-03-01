@@ -148,39 +148,7 @@ The IO_CSQ_RELEASE_LOCK function type is defined in the Wdm.h header file. To mo
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqinsertirp.md">IoCsqInsertIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_insert_irp.md">CsqInsertIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_insert_irp_ex.md">CsqInsertIrpEx</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqinitialize.md">IoCsqInitialize</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550560">IO_CSQ</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_acquire_lock.md">CsqAcquireLock</a>
+<a href="..\wdm\nf-wdm-iocsqinitializeex.md">IoCsqInitializeEx</a>
 
 
 
@@ -188,7 +156,27 @@ The IO_CSQ_RELEASE_LOCK function type is defined in the Wdm.h header file. To mo
 
 
 
+<a href="..\wdm\nc-wdm-io_csq_insert_irp.md">CsqInsertIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqinsertirp.md">IoCsqInsertIrp</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_insert_irp_ex.md">CsqInsertIrpEx</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_acquire_lock.md">CsqAcquireLock</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocsqinsertirpex.md">IoCsqInsertIrpEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqinitialize.md">IoCsqInitialize</a>
 
 
 
@@ -196,7 +184,19 @@ The IO_CSQ_RELEASE_LOCK function type is defined in the Wdm.h header file. To mo
 
 
 
-<a href="..\wdm\nf-wdm-iocsqinitializeex.md">IoCsqInitializeEx</a>
+<a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550560">IO_CSQ</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a>
 
 
 

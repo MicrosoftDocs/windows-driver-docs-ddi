@@ -116,11 +116,11 @@ For a code example that uses <b>WdfRequestGetParameters</b>, see <a href="..\wdf
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestwdmgetirp.md">WdfRequestWdmGetIrp</a>
-
-
-
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestwdmgetirp.md">WdfRequestWdmGetIrp</a>
 
 
 

@@ -189,15 +189,7 @@ If a miniport driver does not support an adapter that it has mapped a logical ra
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportfreedevicebase.md">VideoPortFreeDeviceBase</a>
-
-
-
-<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
-
-
-
-<a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
+<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
 
 
 
@@ -205,15 +197,7 @@ If a miniport driver does not support an adapter that it has mapped a logical ra
 
 
 
-<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
-
-
-
-<a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
-
-
-
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
 
 
 
@@ -221,19 +205,35 @@ If a miniport driver does not support an adapter that it has mapped a logical ra
 
 
 
+<a href="..\video\nf-video-videoportfreedevicebase.md">VideoPortFreeDeviceBase</a>
+
+
+
+<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
+
+
+
+<a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
+
+
+
 <a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
 
 
 
-<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
-
-
-
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 
 
 <a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
+
+
+
+<a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
+
+
+
+<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
 
 
 

@@ -109,15 +109,7 @@ The <i>PepInformation</i> parameter to the <a href="..\pepfx\nf-pepfx-pofxregist
 
 ## -see-also
 
-<a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186627">AcceptProcessorNotification</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186626">AcceptDeviceNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186625">AcceptAcpiNotification</a>
 
 
 
@@ -125,7 +117,15 @@ The <i>PepInformation</i> parameter to the <a href="..\pepfx\nf-pepfx-pofxregist
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186625">AcceptAcpiNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186626">AcceptDeviceNotification</a>
+
+
+
+<a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186627">AcceptProcessorNotification</a>
 
 
 

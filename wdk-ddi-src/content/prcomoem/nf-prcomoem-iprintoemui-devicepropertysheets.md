@@ -121,19 +121,19 @@ For more information about creating and installing user interface plug-ins, see 
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
 
 
-<a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>
-
-
-
 <a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
+
+
+
+<a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>
 
 
 

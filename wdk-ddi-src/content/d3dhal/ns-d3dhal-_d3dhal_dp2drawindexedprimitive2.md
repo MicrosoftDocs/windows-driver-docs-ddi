@@ -119,7 +119,7 @@ As with vertices, the actual indices to use are not passed with the token data, 
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+D3DDP2OP_DRAWINDEXEDPRIMITIVE2
 
 
 
@@ -127,7 +127,7 @@ As with vertices, the actual indices to use are not passed with the token data, 
 
 
 
-D3DDP2OP_DRAWINDEXEDPRIMITIVE2
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 

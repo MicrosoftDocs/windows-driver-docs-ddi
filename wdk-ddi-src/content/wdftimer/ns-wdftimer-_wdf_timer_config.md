@@ -149,7 +149,7 @@ For more information about framework timer objects, see <a href="https://docs.mi
 
 ## -see-also
 
-<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init_periodic.md">WDF_TIMER_CONFIG_INIT_PERIODIC</a>
+<a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a>
 
 
 
@@ -157,15 +157,15 @@ For more information about framework timer objects, see <a href="https://docs.mi
 
 
 
-<a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a>
-
-
-
-<a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>
+<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init_periodic.md">WDF_TIMER_CONFIG_INIT_PERIODIC</a>
 
 
 
 <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
+
+
+
+<a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>
 
 
 

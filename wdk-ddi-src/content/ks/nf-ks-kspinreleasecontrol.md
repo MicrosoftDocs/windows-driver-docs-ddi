@@ -98,11 +98,11 @@ Note that this function is an inline call to <a href="..\ks\nf-ks-ksreleasecontr
 
 
 
-<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
-
-
-
 <a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
+
+
+
+<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
 
 
 

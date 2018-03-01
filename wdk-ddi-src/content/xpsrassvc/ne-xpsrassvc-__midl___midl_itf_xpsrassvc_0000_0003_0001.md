@@ -96,15 +96,15 @@ For more information about rasterizing XPS documents, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/a6a3746a-3638-464b-bca0-60003f37af76">Using the XPS Rasterization Service</a>
+
+
+
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
 
 
 
 <a href="https://msdn.microsoft.com/00F1C6B7-9AD8-4E42-B433-4BD73E85CFA3">IXpsRasterizationFactory1::CreateRasterizer1</a>
-
-
-
-<a href="https://msdn.microsoft.com/a6a3746a-3638-464b-bca0-60003f37af76">Using the XPS Rasterization Service</a>
 
 
 

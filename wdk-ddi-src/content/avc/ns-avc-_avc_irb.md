@@ -83,19 +83,19 @@ This structure is included at the head of the AVC_COMMAND_IRB and AVC_MULTIFUNC_
 
 ## -see-also
 
-<a href="..\avc\ns-avc-_avc_command_irb.md">AVC_COMMAND_IRB</a>
-
-
-
 <a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
 
 
 
-<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
+<a href="..\avc\ns-avc-_avc_command_irb.md">AVC_COMMAND_IRB</a>
 
 
 
 <a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
 
 
 

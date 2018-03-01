@@ -195,15 +195,15 @@ When the printer has multiple UI plug-ins installed, the driver calls UI plug-in
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintoemui2.md">IPrintOemUI2</a>
 
 
 
 <a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>
+
+
+
+<a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
 
 
 

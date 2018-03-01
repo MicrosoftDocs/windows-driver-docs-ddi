@@ -135,7 +135,7 @@ The framework can use <a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
 
 <ol>
 <li>
-Allocate additional memory, typically by calling <a href="..\smcnt\nf-smcnt-exallocatepool.md">ExAllocatePool</a>.
+Allocate additional memory, typically by calling <a href="..\wdm\nf-wdm-exallocatepool.md">ExAllocatePool</a>.
 
 </li>
 <li>
@@ -199,15 +199,11 @@ The <b>EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_DUPLICATE</b> function type is def
 
 ## -see-also
 
-<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_address_description_cleanup.md">EvtChildListAddressDescriptionCleanup</a>
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
 
 
 
-<a href="..\smcnt\nf-smcnt-exallocatepool.md">ExAllocatePool</a>
-
-
-
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a>
+<a href="..\wdm\nf-wdm-exallocatepool.md">ExAllocatePool</a>
 
 
 
@@ -219,7 +215,11 @@ The <b>EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_DUPLICATE</b> function type is def
 
 
 
-<a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a>
+
+
+
+<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_address_description_cleanup.md">EvtChildListAddressDescriptionCleanup</a>
 
 
 
@@ -227,7 +227,7 @@ The <b>EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_DUPLICATE</b> function type is def
 
 
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
+<a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
 
 
 

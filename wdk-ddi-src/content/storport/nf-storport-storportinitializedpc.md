@@ -124,11 +124,11 @@ This routine is implemented using inline function definitions, so that miniport 
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a>
-
-
-
 <a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a>
+
+
+
+<a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a>
 
 
 

@@ -87,7 +87,7 @@ An active logical processor is a logical processor that Windows has started up a
 
 Thus, the number of active processors in a multiprocessor system can increase between system startup and shutdown, but this number never decreases. Similarly, the number of active groups in the system can increase if a processor is dynamically added to an inactive group while the system is running. The number of active groups never decreases.
 
-In contrast, the value that is returned by <a href="..\ntddk\nf-ntddk-kequerymaximumgroupcount.md">KeQueryMaximumGroupCount</a> remains constant during runtime. This value is the maximum number of groups that the system can have.
+In contrast, the value that is returned by <a href="..\wdm\nf-wdm-kequerymaximumgroupcount.md">KeQueryMaximumGroupCount</a> remains constant during runtime. This value is the maximum number of groups that the system can have.
 
 Call the <a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a> routine to determine the number of active logical processors in a particular group.
 
@@ -98,11 +98,11 @@ Windows 7 is the first version of Windows to support processor groups. In Windo
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-kequerymaximumgroupcount.md">KeQueryMaximumGroupCount</a>
-
-
-
 <a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequerymaximumgroupcount.md">KeQueryMaximumGroupCount</a>
 
 
 

@@ -95,15 +95,15 @@ When running on a 32-bit operating system, the provider ID and the device object
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
-
-
-
 <a href="..\wmistr\ns-wmistr-tagwnode_event_reference.md">WNODE_EVENT_REFERENCE</a>
 
 
 
 <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
 
 
 

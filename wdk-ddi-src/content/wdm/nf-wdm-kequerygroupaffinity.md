@@ -86,14 +86,14 @@ The group number. If a multiprocessor system contains <i>n</i> groups, the group
 
 
 
-A related routine, <a href="..\ntddk\nf-ntddk-kequeryactiveprocessors.md">KeQueryActiveProcessors</a>, returns an affinity mask that represents a set of active processors, but this routine, unlike <b>KeQueryGroupAffinity</b>, does not accept a group number as an input parameter. In Windows 7 and later versions of the Windows operating system, <b>KeQueryActiveProcessors</b> returns an affinity mask for the active processors in group 0, which is compatible with the behavior of this routine in earlier versions of Windows that do not support groups. This behavior ensures that existing drivers that call <b>KeQueryActiveProcessors</b> and that use no group-oriented features will run correctly in multiprocessor systems that have two or more groups. However, drivers that use any group-oriented features in Windows 7 and later versions of the Windows operating system should call <b>KeQueryGroupAffinity</b> instead of <b>KeQueryActiveProcessors</b>. 
+A related routine, <a href="..\wdm\nf-wdm-kequeryactiveprocessors.md">KeQueryActiveProcessors</a>, returns an affinity mask that represents a set of active processors, but this routine, unlike <b>KeQueryGroupAffinity</b>, does not accept a group number as an input parameter. In Windows 7 and later versions of the Windows operating system, <b>KeQueryActiveProcessors</b> returns an affinity mask for the active processors in group 0, which is compatible with the behavior of this routine in earlier versions of Windows that do not support groups. This behavior ensures that existing drivers that call <b>KeQueryActiveProcessors</b> and that use no group-oriented features will run correctly in multiprocessor systems that have two or more groups. However, drivers that use any group-oriented features in Windows 7 and later versions of the Windows operating system should call <b>KeQueryGroupAffinity</b> instead of <b>KeQueryActiveProcessors</b>. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-kequeryactiveprocessors.md">KeQueryActiveProcessors</a>
+<a href="..\wdm\nf-wdm-kequeryactiveprocessors.md">KeQueryActiveProcessors</a>
 
 
 

@@ -120,10 +120,6 @@ The <a href="..\sercx\nf-sercx-sercx2customreceivecreate.md">SerCx2CustomReceive
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2customreceivecreate.md">SerCx2CustomReceiveCreate</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2_custom_receive_config_init.md">SERCX2_CUSTOM_RECEIVE_CONFIG_INIT</a>
 
 
@@ -133,6 +129,10 @@ The <a href="..\sercx\nf-sercx-sercx2customreceivecreate.md">SerCx2CustomReceive
 
 
 <a href="..\wdm\ns-wdm-_dma_adapter_info_v1.md">DMA_ADAPTER_INFO_V1</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2customreceivecreate.md">SerCx2CustomReceiveCreate</a>
 
 
 

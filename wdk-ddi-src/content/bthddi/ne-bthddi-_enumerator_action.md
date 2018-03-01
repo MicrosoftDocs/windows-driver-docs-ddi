@@ -92,14 +92,6 @@ Reserved.
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
-
-
-
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
-
-
-
 <a href="..\bthddi\ns-bthddi-_brb.md">BRB</a>
 
 
@@ -108,7 +100,15 @@ Reserved.
 
 
 
+<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
+
+
+
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+
+
+<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
 
 
 

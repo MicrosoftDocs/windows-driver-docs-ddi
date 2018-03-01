@@ -169,7 +169,7 @@ A driver might call the <b>WdfDeviceConfigureWdmIrpDispatchCallback</b> method f
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue.md">WdfDeviceWdmDispatchIrpToIoQueue</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirp.md">WdfDeviceWdmDispatchIrp</a>
 
 
 
@@ -177,7 +177,7 @@ A driver might call the <b>WdfDeviceConfigureWdmIrpDispatchCallback</b> method f
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirp.md">WdfDeviceWdmDispatchIrp</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue.md">WdfDeviceWdmDispatchIrpToIoQueue</a>
 
 
 

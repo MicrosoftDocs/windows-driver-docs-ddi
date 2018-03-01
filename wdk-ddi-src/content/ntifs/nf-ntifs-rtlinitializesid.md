@@ -141,11 +141,11 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_sid_identifier_authority.md">SID_IDENTIFIER_AUTHORITY</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 

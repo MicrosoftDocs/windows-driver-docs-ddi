@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILMSGCLASS
 title: RILMSGCLASS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgclass_2.htm
+old-location: netvista\rilmsgclass.htm
 old-project: netvista
-ms.assetid: 95818f9a-9053-4fb3-8bcb-6e318ed6bae5
+ms.assetid: 2f7e2c4f-56bc-4efd-8911-5161b657dbea
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILMSGCLASS, RILMSGCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCLASS_ALL, RIL_MSGCLASS_BROADCAST, RIL_MSGCLASS_INCOMING, RIL_MSGCLASS_OUTGOING, netvista.rilmsgclass_2, rilapitypes/RILMSGCLASS, rilapitypes/RIL_MSGCLASS_ALL, rilapitypes/RIL_MSGCLASS_BROADCAST, rilapitypes/RIL_MSGCLASS_INCOMING, rilapitypes/RIL_MSGCLASS_OUTGOING
+ms.date: 2/27/2018
+ms.keywords: RILMSGCLASS, RILMSGCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCLASS_ALL, RIL_MSGCLASS_BROADCAST, RIL_MSGCLASS_INCOMING, RIL_MSGCLASS_OUTGOING, netvista.rilmsgclass, ntddrilapitypes/RILMSGCLASS, ntddrilapitypes/RIL_MSGCLASS_ALL, ntddrilapitypes/RIL_MSGCLASS_BROADCAST, ntddrilapitypes/RIL_MSGCLASS_INCOMING, ntddrilapitypes/RIL_MSGCLASS_OUTGOING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGCLASS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

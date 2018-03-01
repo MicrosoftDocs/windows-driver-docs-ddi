@@ -7,7 +7,7 @@ old-location: debugger\extremotelist.htm
 old-project: debugger
 ms.assetid: d35d5186-a5ee-4a64-88e7-d3e95de32d07
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: EngExtCpp_Ref_83df4aa3-cb9c-4921-a588-ef473a57f0e2.xml, ExtRemoteList, ExtRemoteList class [Windows Debugging], ExtRemoteList class [Windows Debugging], described, debugger.extremotelist, engextcpp/ExtRemoteList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -168,7 +168,7 @@ The number of steps taken in the current list iteration.  For doubly-linked list
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e">StartTail</a>
+<a href="https://msdn.microsoft.com/d7d9163b-54bb-4753-96a3-f92eddbe25f5">StartHead</a>
 
 
 
@@ -176,7 +176,7 @@ The number of steps taken in the current list iteration.  For doubly-linked list
 
 
 
-<a href="https://msdn.microsoft.com/d7d9163b-54bb-4753-96a3-f92eddbe25f5">StartHead</a>
+<a href="https://msdn.microsoft.com/fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e">StartTail</a>
 
 
 
@@ -184,5 +184,5 @@ The number of steps taken in the current list iteration.  For doubly-linked list
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtRemoteList class%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtRemoteList class%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

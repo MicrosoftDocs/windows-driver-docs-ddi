@@ -118,11 +118,11 @@ Disables the light whose index is specified in <b>Index</b>
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_light.md">D3DDDI_LIGHT</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setlight.md">SetLight</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_light.md">D3DDDI_LIGHT</a>
 
 
 

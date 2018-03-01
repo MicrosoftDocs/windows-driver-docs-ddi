@@ -208,7 +208,11 @@ The video port driver will ignore the <b>HwLegacyResourceCount</b> and <b>HwLega
 
 ## -see-also
 
-<a href="..\dispmprt\ns-dispmprt-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+
+
+<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
 
 
 
@@ -216,15 +220,11 @@ The video port driver will ignore the <b>HwLegacyResourceCount</b> and <b>HwLega
 
 
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+<a href="..\dispmprt\ns-dispmprt-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
 
 
 
 <a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
-
-
-
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
 
 
 

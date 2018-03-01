@@ -87,11 +87,11 @@ The PEP should set the <b>NeedInterruptForCompletion</b> member to <b>FALSE</b> 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186809">PEP_NOTIFY_PPM_INITIATE_WAKE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186627">AcceptProcessorNotification</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186809">PEP_NOTIFY_PPM_INITIATE_WAKE</a>
 
 
 

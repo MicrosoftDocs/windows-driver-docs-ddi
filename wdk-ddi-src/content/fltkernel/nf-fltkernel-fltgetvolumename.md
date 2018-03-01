@@ -187,15 +187,15 @@ For more information about how to name a volume, see <a href="https://msdn.micro
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromname.md">FltGetVolumeFromName</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540492">FilterGetDosName</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromname.md">FltGetVolumeFromName</a>
 
 
 

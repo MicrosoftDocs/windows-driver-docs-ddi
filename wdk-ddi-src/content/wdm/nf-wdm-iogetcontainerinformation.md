@@ -160,11 +160,11 @@ This routine can potentially support queries for a variety of information classe
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_io_container_information_class.md">IO_CONTAINER_INFORMATION_CLASS</a>
-
-
-
 <a href="..\wdm\ns-wdm-_io_session_state_information.md">IO_SESSION_STATE_INFORMATION</a>
+
+
+
+<a href="..\wdm\ne-wdm-_io_container_information_class.md">IO_CONTAINER_INFORMATION_CLASS</a>
 
 
 

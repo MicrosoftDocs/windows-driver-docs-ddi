@@ -104,11 +104,11 @@ For a code example that uses <b>WdfDeviceInterfaceReferenceNoOp</b>, see <a href
 
 ## -see-also
 
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacedereferencenoop.md">WdfDeviceInterfaceDereferenceNoOp</a>
-
-
-
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
+
+<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacedereferencenoop.md">WdfDeviceInterfaceDereferenceNoOp</a>
 
 
 

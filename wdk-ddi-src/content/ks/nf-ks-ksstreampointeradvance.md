@@ -101,19 +101,19 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 
 
-<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
-
-
-
 <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
-
-
-
 <a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
+
+
+
+<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
+
+
+
+<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
 
 
 

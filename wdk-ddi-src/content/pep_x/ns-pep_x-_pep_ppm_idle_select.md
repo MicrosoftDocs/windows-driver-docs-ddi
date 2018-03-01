@@ -119,11 +119,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629121">PEP_NOTIFY_PPM_QUERY_IDLE_STATES</a>
-
-
-
 <a href="..\pepfx\ns-pepfx-_pep_processor_idle_dependency.md">PEP_PROCESSOR_IDLE_DEPENDENCY</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629121">PEP_NOTIFY_PPM_QUERY_IDLE_STATES</a>
 
 
 

@@ -74,7 +74,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="..\minitape\ns-minitape-_tape_get_drive_parameters.md">TAPE_GET_DRIVE_PARAMETERS</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The driver returns the <a href="..\ntddtape\ns-ntddtape-_tape_get_drive_parameters.md">TAPE_GET_DRIVE_PARAMETERS</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
@@ -107,7 +107,7 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567936">TapeMiniGetDriveParameters</a>
+<a href="..\ntddtape\ns-ntddtape-_tape_get_drive_parameters.md">TAPE_GET_DRIVE_PARAMETERS</a>
 
 
 
@@ -115,7 +115,7 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 
 
-<a href="..\minitape\ns-minitape-_tape_get_drive_parameters.md">TAPE_GET_DRIVE_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567936">TapeMiniGetDriveParameters</a>
 
 
 

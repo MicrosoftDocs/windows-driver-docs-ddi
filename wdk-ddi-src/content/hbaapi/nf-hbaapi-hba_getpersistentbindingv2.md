@@ -180,19 +180,19 @@ This routine is similar to the <a href="..\hbaapi\nf-hbaapi-hba_getfcppersistent
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_getfcppersistentbinding.md">HBA_GetFcpPersistentBinding</a>
-
-
-
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
 <a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry2.md">HBA_FCPBindingEntry2</a>
 
 
 
+<a href="..\hbaapi\nf-hbaapi-hba_getfcppersistentbinding.md">HBA_GetFcpPersistentBinding</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
 
 

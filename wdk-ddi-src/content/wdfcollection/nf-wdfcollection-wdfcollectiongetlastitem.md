@@ -117,11 +117,11 @@ lastItem = WdfCollectionGetLastItem(hCollection);</pre>
 
 ## -see-also
 
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetfirstitem.md">WdfCollectionGetFirstItem</a>
-
-
-
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetitem.md">WdfCollectionGetItem</a>
+
+
+
+<a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetfirstitem.md">WdfCollectionGetFirstItem</a>
 
 
 

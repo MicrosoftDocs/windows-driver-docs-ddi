@@ -238,11 +238,11 @@ Drivers should follow these guidelines on <b>D3DKMT_CREATEALLOCATIONFLAGS</b> sh
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createallocation.md">D3DKMTCreateAllocation</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createallocation.md">D3DKMT_CREATEALLOCATION</a>
+
+
+
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createallocation.md">D3DKMTCreateAllocation</a>
 
 
 

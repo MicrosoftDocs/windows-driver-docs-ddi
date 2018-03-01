@@ -102,15 +102,15 @@ The IRP passed to <b>IoSetHardErrorOrVerifyDevice</b> must be associated with a 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioraiseharderror.md">IoRaiseHardError</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioiserroruserinduced.md">IoIsErrorUserInduced</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-ioraiseharderror.md">IoRaiseHardError</a>
 
 
 

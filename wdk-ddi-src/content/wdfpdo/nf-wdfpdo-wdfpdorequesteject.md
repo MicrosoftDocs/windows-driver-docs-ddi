@@ -138,7 +138,7 @@ WdfFdoUnlockStaticChildListFromIteration(Device);</pre>
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoretrievenextstaticchild.md">WdfFdoRetrieveNextStaticChild</a>
+<a href="..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md">WdfFdoUnlockStaticChildListFromIteration</a>
 
 
 
@@ -146,7 +146,7 @@ WdfFdoUnlockStaticChildListFromIteration(Device);</pre>
 
 
 
-<a href="..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md">WdfFdoUnlockStaticChildListFromIteration</a>
+<a href="..\wdffdo\nf-wdffdo-wdffdoretrievenextstaticchild.md">WdfFdoRetrieveNextStaticChild</a>
 
 
 

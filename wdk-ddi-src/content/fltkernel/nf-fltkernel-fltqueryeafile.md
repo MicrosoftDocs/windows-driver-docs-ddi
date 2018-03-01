@@ -178,15 +178,15 @@ The instance or volume is being torn down. This is an error code.
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
+
+
+
 <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltseteafile.md">FltSetEaFile</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
 
 
 

@@ -83,31 +83,6 @@ typedef union _USB_HUB_CAP_FLAGS {
 A bitmask that represents the hub capabilities.
 
 
-#### - HubIsHighSpeedCapable
-
-If <b>TRUE</b>, the hub is high speed-capable. This capability does not necessarily mean that the hub is operating at high speed
-
-
-#### - HubIsHighSpeed
-
-If <b>TRUE</b>, the hub is high speed.
-
-
-#### - HubIsMultiTtCapable
-
-If <b>TRUE</b>, the hub is capable of doing multiple transaction translations simultaneously.
-
-
-#### - HubIsMultiTt
-
-If <b>TRUE</b>, the hub is configured to perform multiple transaction translations simultaneously.
-
-
-#### - HubIsRoot
-
-If <b>TRUE</b>, the hub is the root hub.
-
-
 #### - HubIsArmedWakeOnConnect
 
 If <b>TRUE</b>, the hub is armed to wake when a device is connected to the hub.
@@ -118,6 +93,31 @@ If <b>TRUE</b>, the hub is armed to wake when a device is connected to the hub.
 A boolean value that indicates whether the hub is bus-powered. <b>TRUE</b>, the hub is bus-powered; <b>FALSE</b>, the hub is self-powered.
 
 
+#### - HubIsHighSpeed
+
+If <b>TRUE</b>, the hub is high speed.
+
+
+#### - HubIsHighSpeedCapable
+
+If <b>TRUE</b>, the hub is high speed-capable. This capability does not necessarily mean that the hub is operating at high speed
+
+
+#### - HubIsMultiTt
+
+If <b>TRUE</b>, the hub is configured to perform multiple transaction translations simultaneously.
+
+
+#### - HubIsMultiTtCapable
+
+If <b>TRUE</b>, the hub is capable of doing multiple transaction translations simultaneously.
+
+
+#### - HubIsRoot
+
+If <b>TRUE</b>, the hub is the root hub.
+
+
 #### - ReservedMBZ
 
 Reserved. Do not use.
@@ -125,11 +125,11 @@ Reserved. Do not use.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usbioctl\ns-usbioctl-_usb_hub_capabilities_ex.md">USB_HUB_CAPABILITIES_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

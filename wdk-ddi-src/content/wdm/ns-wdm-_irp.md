@@ -236,7 +236,7 @@ If the driver is using direct I/O, the buffer's purpose is determined by the IRP
 
 ### -field IoStatus
 
-Contains the <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure in which a driver stores status and information before calling <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>.
+Contains the <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure in which a driver stores status and information before calling <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>.
 
 
 ### -field RequestorMode
@@ -358,11 +358,6 @@ A pointer to the caller's thread control block (TCB). For requests that originat
  
 
 
-### -field Tail.Overlay._IO_STACK_LOCATION
-
- 
-
-
 ### -field Tail.Overlay.PacketType
 
  
@@ -400,19 +395,15 @@ While a higher-level driver might check the value of the <b>Cancel</b> Boolean i
 
 ## -see-also
 
+<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
+
+
 <a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a>
 
 
 
-<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
-
-
-<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
+<a href="..\wdm\nf-wdm-iosetcancelroutine.md">IoSetCancelRoutine</a>
 
 
 
@@ -420,11 +411,15 @@ While a higher-level driver might check the value of the <b>Cancel</b> Boolean i
 
 
 
+<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
+
+
+
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 
-<a href="..\wdm\nf-wdm-iosetcancelroutine.md">IoSetCancelRoutine</a>
+<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
 
 
 

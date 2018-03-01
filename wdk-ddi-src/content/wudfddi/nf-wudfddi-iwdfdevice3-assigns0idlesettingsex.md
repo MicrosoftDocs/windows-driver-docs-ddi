@@ -141,7 +141,7 @@ SAFE_RELEASE(pIWDFDevice3);
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigns0idlesettings.md">WdfDeviceAssignS0IdleSettings</a>
 
 
 
@@ -149,7 +149,7 @@ SAFE_RELEASE(pIWDFDevice3);
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigns0idlesettings.md">WdfDeviceAssignS0IdleSettings</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
 
 
 

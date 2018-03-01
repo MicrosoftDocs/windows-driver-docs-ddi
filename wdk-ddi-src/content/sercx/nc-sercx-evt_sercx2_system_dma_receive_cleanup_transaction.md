@@ -141,11 +141,11 @@ The <b>EVT_SERCX2_SYSTEM_DMA_RECEIVE_CLEANUP_TRANSACTION</b> function type is de
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2systemdmareceivecleanuptransactioncomplete.md">SerCx2SystemDmaReceiveCleanupTransactionComplete</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>
 
 
 

@@ -95,11 +95,11 @@ Note that KSATTRIBUTE is used in conjunction with data formats and data ranges; 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
-
-
-
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 

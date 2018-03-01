@@ -117,11 +117,11 @@ Drivers can set the system busy state to request that the system avoid leaving o
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
-
-
-
 <a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a>
+
+
+
+<a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
 
 
 

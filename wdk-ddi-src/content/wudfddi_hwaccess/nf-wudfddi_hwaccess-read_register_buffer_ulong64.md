@@ -73,7 +73,7 @@ void READ_REGISTER_BUFFER_ULONG64(
 
 
 
-#### - pDevice [in]
+### -param pDevice [in]
 
 Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
 

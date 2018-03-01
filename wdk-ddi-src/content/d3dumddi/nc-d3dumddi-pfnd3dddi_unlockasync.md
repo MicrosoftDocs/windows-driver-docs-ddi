@@ -157,7 +157,7 @@ If a user-mode display driver exposes a DDI version of 0x0000000B or greater (th
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_unlockasync.md">D3DDDIARG_UNLOCKASYNC</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rename.md">Rename</a>
 
 
 
@@ -165,15 +165,15 @@ If a user-mode display driver exposes a DDI version of 0x0000000B or greater (th
 
 
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rename.md">Rename</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_unlockasync.md">D3DDDIARG_UNLOCKASYNC</a>
 
 
 

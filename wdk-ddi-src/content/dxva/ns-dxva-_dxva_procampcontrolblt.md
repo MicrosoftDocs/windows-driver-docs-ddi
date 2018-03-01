@@ -116,11 +116,11 @@ Specifies the saturation of the output image as it is written to the destination
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_procampcontrolcaps.md">DXVA_ProcAmpControlCaps</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_procampcontrolqueryrange.md">DXVA_ProcAmpControlQueryRange</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_procampcontrolcaps.md">DXVA_ProcAmpControlCaps</a>
 
 
 

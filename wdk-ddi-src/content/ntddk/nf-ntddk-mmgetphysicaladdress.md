@@ -94,7 +94,7 @@ Callers of <b>MmGetPhysicalAddress</b> can be running at any IRQL, provided that
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+<a href="..\ntddk\nf-ntddk-mmisaddressvalid.md">MmIsAddressValid</a>
 
 
 
@@ -102,7 +102,7 @@ Callers of <b>MmGetPhysicalAddress</b> can be running at any IRQL, provided that
 
 
 
-<a href="..\ntddk\nf-ntddk-mmisaddressvalid.md">MmIsAddressValid</a>
+<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
 
 

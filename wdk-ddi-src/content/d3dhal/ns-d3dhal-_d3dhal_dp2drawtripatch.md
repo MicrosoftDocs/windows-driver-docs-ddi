@@ -109,7 +109,7 @@ The driver receives notification that cached patch information is be released vi
 
 ## -see-also
 
-D3DDP2OP_DRAWTRIPATCH
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawrectpatch.md">D3DHAL_DP2DRAWRECTPATCH</a>
 
 
 
@@ -117,15 +117,15 @@ D3DRS_DELETERTPATCH
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
-
-
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawrectpatch.md">D3DHAL_DP2DRAWRECTPATCH</a>
+D3DDP2OP_DRAWTRIPATCH
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 

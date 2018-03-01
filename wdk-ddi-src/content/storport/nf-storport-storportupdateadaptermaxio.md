@@ -116,7 +116,7 @@ This function returns of the following values.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HwInitialize</a>
+<a href="..\strmini\ns-strmini-_hw_initialization_data.md">HwInitialize</a>
 
 
 

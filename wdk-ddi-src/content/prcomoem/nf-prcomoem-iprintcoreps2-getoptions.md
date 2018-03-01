@@ -204,6 +204,14 @@ For more information, see <a href="https://msdn.microsoft.com/c8b5c235-0b74-47c8
 
 ## -see-also
 
+<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553205">IPrintOemPS::DevMode</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
 
 
@@ -212,15 +220,7 @@ For more information, see <a href="https://msdn.microsoft.com/c8b5c235-0b74-47c8
 
 
 
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553215">IPrintOemPS::EnablePDEV</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553205">IPrintOemPS::DevMode</a>
 
 
 

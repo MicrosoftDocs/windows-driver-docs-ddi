@@ -189,7 +189,7 @@ The <b>EVT_WDF_DRIVER_DEVICE_ADD</b> function type is defined in the WdfDriver.h
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
 
 
 
@@ -197,7 +197,7 @@ The <b>EVT_WDF_DRIVER_DEVICE_ADD</b> function type is defined in the WdfDriver.h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 
 

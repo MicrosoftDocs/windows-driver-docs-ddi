@@ -164,7 +164,7 @@ NTSTATUS
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+<a href="..\wdm\nf-wdm-exgetpreviousmode.md">ExGetPreviousMode</a>
 
 
 
@@ -172,11 +172,11 @@ NTSTATUS
 
 
 
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-
-
-<a href="..\wdm\nf-wdm-exgetpreviousmode.md">ExGetPreviousMode</a>
 
 
 

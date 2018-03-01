@@ -71,11 +71,11 @@ HRESULT put_SelectedOption(
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
 
 
 

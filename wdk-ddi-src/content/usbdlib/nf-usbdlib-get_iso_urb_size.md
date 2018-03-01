@@ -88,7 +88,7 @@ Specifies the number of isochronous transfer packets that will be part of the tr
 
 
 
-<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 
@@ -96,7 +96,7 @@ Specifies the number of isochronous transfer packets that will be part of the tr
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
 
 
 

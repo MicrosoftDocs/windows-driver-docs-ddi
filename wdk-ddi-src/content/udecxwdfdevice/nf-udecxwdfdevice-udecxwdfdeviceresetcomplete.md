@@ -103,7 +103,7 @@ When the class extension calls the  <a href="..\udecxwdfdevice\nc-udecxwdfdevice
 
 ## -see-also
 
-<a href="..\udecxwdfdevice\nc-udecxwdfdevice-evt_udecx_wdf_device_reset.md">EVT_UDECX_WDF_DEVICE_RESET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -111,7 +111,7 @@ When the class extension calls the  <a href="..\udecxwdfdevice\nc-udecxwdfdevice
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+<a href="..\udecxwdfdevice\nc-udecxwdfdevice-evt_udecx_wdf_device_reset.md">EVT_UDECX_WDF_DEVICE_RESET</a>
 
 
 

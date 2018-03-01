@@ -95,11 +95,11 @@ The miniport driver should call <b>VideoPortReleaseDeviceLock</b> to release the
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_query_interface.md">HwVidQueryInterface</a>
-
-
-
 <a href="..\video\nf-video-videoportacquiredevicelock.md">VideoPortAcquireDeviceLock</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_query_interface.md">HwVidQueryInterface</a>
 
 
 

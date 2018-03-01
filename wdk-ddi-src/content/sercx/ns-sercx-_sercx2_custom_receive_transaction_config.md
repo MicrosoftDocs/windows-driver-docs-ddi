@@ -114,7 +114,7 @@ The <a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2Cu
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a>
+<a href="https://msdn.microsoft.com/B0B08257-E867-4E22-949E-555AD44C2DDE">EvtSerCx2CustomReceiveTransactionQueryProgress</a>
 
 
 
@@ -122,15 +122,7 @@ The <a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2Cu
 
 
 
-<a href="..\sercx\nf-sercx-sercx2_custom_receive_transaction_config_init.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_custom_receive_transaction_start.md">EvtSerCx2CustomReceiveTransactionStart</a>
-
-
-
-<a href="https://msdn.microsoft.com/B0B08257-E867-4E22-949E-555AD44C2DDE">EvtSerCx2CustomReceiveTransactionQueryProgress</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_custom_receive_transaction_initialize.md">EvtSerCx2CustomReceiveTransactionInitialize</a>
 
 
 
@@ -138,7 +130,15 @@ The <a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2Cu
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_custom_receive_transaction_initialize.md">EvtSerCx2CustomReceiveTransactionInitialize</a>
+<a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_custom_receive_transaction_start.md">EvtSerCx2CustomReceiveTransactionStart</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2_custom_receive_transaction_config_init.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT</a>
 
 
 

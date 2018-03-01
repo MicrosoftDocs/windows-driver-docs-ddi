@@ -82,7 +82,7 @@ Pointer to the miniport driver's per-HBA storage area.
 
 ### -param BusDataType [in]
 
-Contains a value of type <a href="..\miniport\ne-miniport-_bus_data_type.md">BUS_DATA_TYPE</a> that specifies the type of the bus for which configuration information is to be written. Currently, its value can be <b>PCIConfiguration</b>. However, additional types of standardized, dynamically configurable buses will be supported in future. The upper bound on the bus types supported is always <b>MaximumBusDataType</b>. 
+Contains a value of type <a href="..\ntddk\ne-ntddk-_bus_data_type.md">BUS_DATA_TYPE</a> that specifies the type of the bus for which configuration information is to be written. Currently, its value can be <b>PCIConfiguration</b>. However, additional types of standardized, dynamically configurable buses will be supported in future. The upper bound on the bus types supported is always <b>MaximumBusDataType</b>. 
 
 
 ### -param SystemIoBusNumber [in]

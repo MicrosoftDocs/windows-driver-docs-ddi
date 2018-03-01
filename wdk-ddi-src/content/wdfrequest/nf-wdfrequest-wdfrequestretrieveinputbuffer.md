@@ -248,15 +248,15 @@ SerialEvtIoDeviceControl(
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">WdfRequestRetrieveOutputBuffer</a>
-
-
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputmemory.md">WdfRequestRetrieveInputMemory</a>
 
 
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceretrieveconfigdescriptor.md">WdfUsbTargetDeviceRetrieveConfigDescriptor</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">WdfRequestRetrieveOutputBuffer</a>
 
 
 

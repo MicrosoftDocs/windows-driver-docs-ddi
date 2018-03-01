@@ -128,11 +128,11 @@ typedef struct _DXVADDI_VIDEOSAMPLE {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 
 
@@ -144,7 +144,7 @@ typedef struct _DXVADDI_VIDEOSAMPLE {
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
 
 
 

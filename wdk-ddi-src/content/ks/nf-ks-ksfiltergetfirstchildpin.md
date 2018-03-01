@@ -99,7 +99,7 @@ Note that the object hierarchy is guaranteed stable only while the appropriate m
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfiltergetchildpincount.md">KsFilterGetChildPinCount</a>
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 
@@ -107,7 +107,7 @@ Note that the object hierarchy is guaranteed stable only while the appropriate m
 
 
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+<a href="..\ks\nf-ks-ksfiltergetchildpincount.md">KsFilterGetChildPinCount</a>
 
 
 

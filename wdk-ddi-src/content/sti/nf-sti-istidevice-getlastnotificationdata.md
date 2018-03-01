@@ -7,7 +7,7 @@ old-location: image\istidevice_getlastnotificationdata.htm
 old-project: image
 ms.assetid: dd073fde-d2ba-45c0-a52c-22e86718901a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: GetLastNotificationData method [Imaging Devices], GetLastNotificationData method [Imaging Devices], IStiDevice interface, GetLastNotificationData,IStiDevice.GetLastNotificationData, IStiDevice, IStiDevice interface [Imaging Devices], GetLastNotificationData method, IStiDevice::GetLastNotificationData, image.istidevice_getlastnotificationdata, sti/IStiDevice::GetLastNotificationData, stifnc_def72c8c-f8cf-4eb7-84a1-e99ecddee4de.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

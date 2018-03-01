@@ -99,15 +99,7 @@ For more info about this function and its usage, see <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-kequerytickcount.md">KeQueryTickCount</a>
-
-
-
 <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
-
-
-
-<a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a>
 
 
 
@@ -115,11 +107,19 @@ For more info about this function and its usage, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/f69367a4-0516-4033-81e3-90d4c5270a1e">QueryPerformanceFrequency</a>
+<a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a>
 
 
 
 <a href="https://msdn.microsoft.com/08169390-940b-4110-813a-249d107cc953">QueryPerformanceCounter</a>
+
+
+
+<a href="https://msdn.microsoft.com/f69367a4-0516-4033-81e3-90d4c5270a1e">QueryPerformanceFrequency</a>
 
 
 

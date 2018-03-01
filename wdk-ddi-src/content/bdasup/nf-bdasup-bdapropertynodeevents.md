@@ -110,15 +110,15 @@ A BDA minidriver calls the <b>BdaPropertyNodeEvents</b> function to retrieve the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564326">KSPROPERTY_BDA_NODE_EVENTS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 

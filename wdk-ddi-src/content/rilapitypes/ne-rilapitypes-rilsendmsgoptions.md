@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILSENDMSGOPTIONS
 title: RILSENDMSGOPTIONS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsendmsgoptions_2.htm
+old-location: netvista\rilsendmsgoptions.htm
 old-project: netvista
-ms.assetid: 84d13b43-06c4-4454-9853-80b1fe65d29d
+ms.assetid: 23f2500f-8b0d-4e52-ab7e-b39d8368f78b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILSENDMSGOPTIONS, RILSENDMSGOPTIONS enumeration [Network Drivers Starting with Windows Vista], RIL_SENDOPT_IMS, RIL_SENDOPT_PERSISTLINK, netvista.rilsendmsgoptions_2, rilapitypes/RILSENDMSGOPTIONS, rilapitypes/RIL_SENDOPT_IMS, rilapitypes/RIL_SENDOPT_PERSISTLINK
+ms.date: 2/27/2018
+ms.keywords: RILSENDMSGOPTIONS, RILSENDMSGOPTIONS enumeration [Network Drivers Starting with Windows Vista], RIL_SENDOPT_IMS, RIL_SENDOPT_PERSISTLINK, netvista.rilsendmsgoptions, ntddrilapitypes/RILSENDMSGOPTIONS, ntddrilapitypes/RIL_SENDOPT_IMS, ntddrilapitypes/RIL_SENDOPT_PERSISTLINK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSENDMSGOPTIONS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

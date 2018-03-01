@@ -105,15 +105,15 @@ For more information about D3DCOLOR, see the DirectX SDK documentation.
 
 ## -see-also
 
+D3DDP2OP_COLORFILL
+
+
+
 <a href="https://msdn.microsoft.com/28e0c827-33f1-4b83-9f20-bbb66bc0e14a">DdBlt</a>
 
 
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
-D3DDP2OP_COLORFILL
 
 
 

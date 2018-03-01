@@ -164,11 +164,11 @@ If an oplock is requested for a file during an <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a>
-
-
-
 <a href="https://msdn.microsoft.com/5cbbfecc-2182-40f6-9f54-a8146c1f663f">Oplock Semantics</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a>
 
 
 

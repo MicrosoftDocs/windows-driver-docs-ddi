@@ -104,16 +104,6 @@ Returns the PEP parking preference for each processor.
 The Processors array is guaranteed to contain the processors in increasing order by processor index.
 
 
-##### - Processors.On input
-
-Each array element indicates the parking preferences for a particular processor.
-
-
-##### - Processors.On output
-
-Returns the PEP parking preference for each processor.
-
-
 ## -remarks
 
 
@@ -125,11 +115,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186812">PEP_NOTIFY_PPM_PARK_SELECTION</a>
-
-
-
 <a href="..\pepfx\ns-pepfx-_pep_processor_park_preference.md">PEP_PROCESSOR_PARK_PREFERENCE</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186812">PEP_NOTIFY_PPM_PARK_SELECTION</a>
 
 
 

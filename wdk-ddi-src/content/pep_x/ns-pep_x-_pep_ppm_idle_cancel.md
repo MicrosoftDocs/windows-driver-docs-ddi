@@ -83,11 +83,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629119">PEP_NOTIFY_PPM_IDLE_CANCEL</a>
-
-
-
 <a href="..\pep_x\ne-pep_x-ppep_processor_idle_cancel_code.md">PEP_PROCESSOR_IDLE_CANCEL_CODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629119">PEP_NOTIFY_PPM_IDLE_CANCEL</a>
 
 
 

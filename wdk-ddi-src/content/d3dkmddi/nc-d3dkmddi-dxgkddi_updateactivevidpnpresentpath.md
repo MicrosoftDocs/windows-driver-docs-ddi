@@ -120,7 +120,7 @@ The <i>DxgkDdiUpdateActiveVidPnPresentPath</i> function should be made pageable.
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
@@ -128,11 +128,11 @@ The <i>DxgkDdiUpdateActiveVidPnPresentPath</i> function should be made pageable.
 
 
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_updateactivevidpnpresentpath.md">DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

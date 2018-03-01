@@ -134,23 +134,7 @@ The FCB structure that is associated with the FOBX structure on the <b>FobxsToBe
 
 ## -see-also
 
-<a href="..\mrx\nc-mrx-pmrx_deallocate_for_fobx.md">MRxDeallocateForFobx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549847">MRxCollapseOpen</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_forceclosed_calldown.md">MRxForceClosed</a>
+<a href="..\mrx\nc-mrx-pmrx_deallocate_for_fcb.md">MRxDeallocateForFcb</a>
 
 
 
@@ -158,19 +142,15 @@ The FCB structure that is associated with the FOBX structure on the <b>FobxsToBe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550669">MRxFlush</a>
+<a href="..\mrx\nc-mrx-pmrx_forceclosed_calldown.md">MRxForceClosed</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_is_lock_realizable.md">MRxIsLockRealizable</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_extendfile_calldown.md">MRxExtendForCache</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
+<a href="..\mrx\nc-mrx-pmrx_deallocate_for_fobx.md">MRxDeallocateForFobx</a>
 
 
 
@@ -178,11 +158,15 @@ The FCB structure that is associated with the FOBX structure on the <b>FobxsToBe
 
 
 
-<a href="..\scavengr\nf-scavengr-rxpurgerelatedfobxs.md">RxPurgeRelatedFobxs</a>
+<a href="..\mrx\nc-mrx-pmrx_is_lock_realizable.md">MRxIsLockRealizable</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_deallocate_for_fcb.md">MRxDeallocateForFcb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_extendfile_calldown.md">MRxExtendForCache</a>
 
 
 
@@ -190,11 +174,27 @@ The FCB structure that is associated with the FOBX structure on the <b>FobxsToBe
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549847">MRxCollapseOpen</a>
+
+
+
+<a href="..\scavengr\nf-scavengr-rxpurgerelatedfobxs.md">RxPurgeRelatedFobxs</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550669">MRxFlush</a>
 
 
 

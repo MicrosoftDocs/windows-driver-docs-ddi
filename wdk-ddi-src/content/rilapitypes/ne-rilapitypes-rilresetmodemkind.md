@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILRESETMODEMKIND
 title: RILRESETMODEMKIND
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilresetmodemkind_2.htm
+old-location: netvista\rilresetmodemkind.htm
 old-project: netvista
-ms.assetid: 622f9629-f172-469c-aba5-50a4eec78ab0
+ms.assetid: 4eb97a4f-dd95-4fd4-8315-efcb446f56cd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILRESETMODEMKIND, RILRESETMODEMKIND enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEMKIND_ABRUPT, RIL_RESETMODEMKIND_MAX, netvista.rilresetmodemkind_2, rilapitypes/RILRESETMODEMKIND, rilapitypes/RIL_RESETMODEMKIND_ABRUPT, rilapitypes/RIL_RESETMODEMKIND_MAX
+ms.date: 2/27/2018
+ms.keywords: RILRESETMODEMKIND, RILRESETMODEMKIND enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEMKIND_ABRUPT, RIL_RESETMODEMKIND_MAX, netvista.rilresetmodemkind, ntddrilapitypes/RILRESETMODEMKIND, ntddrilapitypes/RIL_RESETMODEMKIND_ABRUPT, ntddrilapitypes/RIL_RESETMODEMKIND_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILRESETMODEMKIND
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

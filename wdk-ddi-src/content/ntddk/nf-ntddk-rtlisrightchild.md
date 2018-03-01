@@ -91,11 +91,11 @@ Callers of <b>RtlIsRightChild</b> can be running at IRQL &lt;= DISPATCH_LEVEL if
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
 
 
@@ -103,7 +103,7 @@ Callers of <b>RtlIsRightChild</b> can be running at IRQL &lt;= DISPATCH_LEVEL if
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+<a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
 
 
 

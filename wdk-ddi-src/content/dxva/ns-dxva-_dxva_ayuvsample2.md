@@ -113,11 +113,11 @@ The <b>DXVA_AYUVsample2</b> structure is used for each sample in a DirectX VA AY
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_bufferdescription.md">DXVA_BufferDescription</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_blendcombination.md">DXVA_BlendCombination</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_bufferdescription.md">DXVA_BufferDescription</a>
 
 
 

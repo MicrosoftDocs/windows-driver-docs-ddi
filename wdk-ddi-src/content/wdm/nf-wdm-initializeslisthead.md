@@ -95,15 +95,7 @@ Callers of <b>InitializeSListHead or ExInitializeSListHead</b> can be running at
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exquerydepthslist.md">ExQueryDepthSList</a>
-
-
-
 <a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
 
 
 
@@ -115,11 +107,19 @@ Callers of <b>InitializeSListHead or ExInitializeSListHead</b> can be running at
 
 
 
+<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+
+
+
 <a href="..\wdm\nf-wdm-exinterlockedpopentryslist.md">ExInterlockedPopEntrySList</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+<a href="..\wdm\nf-wdm-exquerydepthslist.md">ExQueryDepthSList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
 
 
 

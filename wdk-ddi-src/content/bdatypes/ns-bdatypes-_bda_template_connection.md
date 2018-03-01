@@ -92,19 +92,7 @@ Index of the element in the zero-based array of pin types (KSPIN_DESCRIPTOR_EX a
 
 ## -see-also
 
-<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
-
-
-
-<a href="..\bdasup\nf-bdasup-bdapropertytemplateconnections.md">BdaPropertyTemplateConnections</a>
-
-
-
-<a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
-
-
-
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
 
 
 
@@ -112,7 +100,19 @@ Index of the element in the zero-based array of pin types (KSPIN_DESCRIPTOR_EX a
 
 
 
-<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
+<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+
+
+
+<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
+
+
+
+<a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
+
+
+
+<a href="..\bdasup\nf-bdasup-bdapropertytemplateconnections.md">BdaPropertyTemplateConnections</a>
 
 
 

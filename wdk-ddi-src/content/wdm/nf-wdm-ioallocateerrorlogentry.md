@@ -107,15 +107,15 @@ Drivers must not treat <b>IoAllocateErrorLogEntry</b> returning <b>NULL</b> as a
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
+
+
+
 <a href="..\wdm\ns-wdm-_io_error_log_packet.md">IO_ERROR_LOG_PACKET</a>
 
 
 
 <a href="..\wdm\nf-wdm-iofreeerrorlogentry.md">IoFreeErrorLogEntry</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
 
 
 

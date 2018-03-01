@@ -144,7 +144,7 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportacquiremsispinlock.md">StorPortAcquireMSISpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>
 
 
 
@@ -152,11 +152,11 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 
 
+<a href="..\storport\nf-storport-storportacquiremsispinlock.md">StorPortAcquireMSISpinLock</a>
+
+
+
 <a href="..\storport\nf-storport-storportreleasespinlock.md">StorPortReleaseSpinLock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>
 
 
 

@@ -108,7 +108,7 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObject</b> raises a ST
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectex.md">IoCreateStreamFileObjectEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
 
 
 
@@ -116,7 +116,7 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObject</b> raises a ST
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 
@@ -128,7 +128,7 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObject</b> raises a ST
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectex.md">IoCreateStreamFileObjectEx</a>
 
 
 

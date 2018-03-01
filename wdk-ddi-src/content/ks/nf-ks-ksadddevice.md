@@ -103,7 +103,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
@@ -115,11 +115,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
 <a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
+
+
+
+<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
 
 
 

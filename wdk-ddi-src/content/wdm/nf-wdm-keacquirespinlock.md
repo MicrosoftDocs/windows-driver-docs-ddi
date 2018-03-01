@@ -84,14 +84,14 @@ TBD
 
 
 
-#### - SpinLock [in]
-
-Pointer to an initialized spin lock for which the caller provides the storage.
-
-
 #### - OldIrql [out]
 
 Pointer to a variable that is set to the current IRQL when this call occurs.
+
+
+#### - SpinLock [in]
+
+Pointer to an initialized spin lock for which the caller provides the storage.
 
 
 ## -remarks
@@ -127,19 +127,19 @@ Attempting to acquire a spin lock recursively is guaranteed to cause a deadlock.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551899">KeAcquireInStackQueuedSpinLock</a>
 
 
 
-<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
+<a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
 
 
 
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
 
 

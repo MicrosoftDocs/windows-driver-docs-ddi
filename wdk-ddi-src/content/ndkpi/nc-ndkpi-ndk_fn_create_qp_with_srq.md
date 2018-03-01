@@ -7,7 +7,7 @@ old-location: netvista\ndk_fn_create_qp_with_srq.htm
 old-project: netvista
 ms.assetid: B3AAC8BE-E874-48C7-9DF6-0C9A6BDBB9B5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: NDK_FN_CREATE_QP_WITH_SRQ, NdkCreateQpWithSrq, NdkCreateQpWithSrq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateQpWithSrq, netvista.ndk_fn_create_qp_with_srq
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -229,7 +229,23 @@ If the function returns STATUS_SUCCESS, the created object is returned in the <i
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
 
 
 
@@ -241,23 +257,7 @@ If the function returns STATUS_SUCCESS, the created object is returned in the <i
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
 
 
 
@@ -265,5 +265,5 @@ If the function returns STATUS_SUCCESS, the created object is returned in the <i
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_CREATE_QP_WITH_SRQ callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_CREATE_QP_WITH_SRQ callback function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

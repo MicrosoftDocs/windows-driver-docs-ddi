@@ -148,10 +148,6 @@ Drivers can alternatively perform one-time initialization by calling <a href="..
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563635">RunOnceInitialization</a>
 
 
@@ -160,11 +156,15 @@ Drivers can alternatively perform one-time initialization by calling <a href="..
 
 
 
+<a href="..\ntddk\nf-ntddk-rtlrunoncecomplete.md">RtlRunOnceComplete</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlrunonceexecuteonce.md">RtlRunOnceExecuteOnce</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlrunoncecomplete.md">RtlRunOnceComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a>
 
 
 

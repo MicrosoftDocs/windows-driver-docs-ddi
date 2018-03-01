@@ -109,7 +109,7 @@ If <b>ObGetObjectSecurity</b> returns STATUS_SUCCESS, the caller must save the v
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
 
 
@@ -117,7 +117,7 @@ If <b>ObGetObjectSecurity</b> returns STATUS_SUCCESS, the caller must save the v
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 

@@ -109,7 +109,7 @@ For a code example that uses <b>WDF_WORKITEM_CONFIG_INIT</b>, see <a href="..\wd
 
 ## -see-also
 
-<a href="..\wdfworkitem\ns-wdfworkitem-_wdf_workitem_config.md">WDF_WORKITEM_CONFIG</a>
+<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
 
 
 
@@ -117,7 +117,7 @@ For a code example that uses <b>WDF_WORKITEM_CONFIG_INIT</b>, see <a href="..\wd
 
 
 
-<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
+<a href="..\wdfworkitem\ns-wdfworkitem-_wdf_workitem_config.md">WDF_WORKITEM_CONFIG</a>
 
 
 

@@ -138,7 +138,7 @@ Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539522">I
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-itracer.md">ITracer</a>
+<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
 
 
 
@@ -146,7 +146,7 @@ Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539522">I
 
 
 
-<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
+<a href="..\wdtf\nn-wdtf-itracer.md">ITracer</a>
 
 
 

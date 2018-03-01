@@ -169,11 +169,11 @@ The IO_SESSION_NOTIFICATION_FUNCTION function type is defined in the Wdm.h heade
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregistercontainernotification.md">IoRegisterContainerNotification</a>
-
-
-
 <a href="..\wdm\ns-wdm-_io_session_connect_info.md">IO_SESSION_CONNECT_INFO</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioregistercontainernotification.md">IoRegisterContainerNotification</a>
 
 
 

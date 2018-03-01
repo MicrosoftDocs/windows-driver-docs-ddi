@@ -168,19 +168,19 @@ The <code>IPrintOemUni::MemoryUsage</code> method is optional. If a rendering pl
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
-
-
-
 <a href="..\printoem\ns-printoem-oemmemoryusage.md">OEMMEMORYUSAGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
+
+
+
+<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
 
 
 

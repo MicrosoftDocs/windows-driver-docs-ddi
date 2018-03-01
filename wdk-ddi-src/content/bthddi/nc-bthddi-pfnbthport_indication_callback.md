@@ -159,11 +159,11 @@ The
 
 
 
-<a href="..\bthddi\ne-bthddi-_indication_code.md">INDICATION_CODE</a>
-
-
-
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_register_server.md">_BRB_L2CA_REGISTER_SERVER</a>
+
+
+
+<a href="..\bthddi\ne-bthddi-_indication_code.md">INDICATION_CODE</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: debugger\getrawargstr.htm
 old-project: debugger
 ms.assetid: 677b56ee-3758-4f47-9f8e-fc8878d00136
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: EngExtCpp_Ref_1072b281-ece3-4641-93e8-60866c1e3ef4.xml, ExtExtension, ExtExtension class [Windows Debugging], GetRawArgStr method, ExtExtension::GetRawArgStr, GetRawArgStr method [Windows Debugging], GetRawArgStr method [Windows Debugging], ExtExtension class, GetRawArgStr,ExtExtension.GetRawArgStr, debugger.getrawargstr
 ms.prod: windows-hardware
 ms.technology: windows-devices

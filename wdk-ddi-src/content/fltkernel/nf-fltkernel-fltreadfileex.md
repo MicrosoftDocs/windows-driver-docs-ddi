@@ -249,15 +249,11 @@ The <i>Mdl</i> parameter is provided as a convenience when a minifilter already 
 
 ## -see-also
 
-<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
+<a href="..\fltkernel\nf-fltkernel-fltwritefileex.md">FltWriteFileEx</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 
 
@@ -265,15 +261,15 @@ The <i>Mdl</i> parameter is provided as a convenience when a minifilter already 
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltwritefileex.md">FltWriteFileEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
 
 
 
@@ -282,6 +278,10 @@ The <i>Mdl</i> parameter is provided as a convenience when a minifilter already 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
 
 
 

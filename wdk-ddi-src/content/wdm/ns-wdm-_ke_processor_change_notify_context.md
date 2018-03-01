@@ -108,7 +108,7 @@ If the <b>State</b> member contains <b>KeProcessorAddFailureNotify</b>, this mem
 
 ### -field ProcNumber
 
-The processor number of the new processor. This member is a <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a> structure that specifies a group number and a group-relative processor number.
+The processor number of the new processor. This member is a <a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a> structure that specifies a group number and a group-relative processor number.
 
 
 ## -remarks
@@ -128,11 +128,11 @@ A device driver's callback function that receives these notifications must not m
 
 ## -see-also
 
+<a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a>
+
+
+
 <a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a>
-
-
-
-<a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
 
 
 

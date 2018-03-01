@@ -104,11 +104,11 @@ typedef struct _D3DKMT_CREATEKEYEDMUTEX2 {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createkeyedmutex2.md">D3DKMTCreateKeyedMutex2</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags.md">D3DKMT_CREATEKEYEDMUTEX2_FLAGS</a>
+
+
+
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createkeyedmutex2.md">D3DKMTCreateKeyedMutex2</a>
 
 
 

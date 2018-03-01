@@ -98,11 +98,11 @@ Specifies the device type of the changer. This member must be MEDIUM_CHANGER.
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
-
-
-
 <a href="..\mcd\nf-mcd-changergetproductdata.md">ChangerGetProductData</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
 
 
 

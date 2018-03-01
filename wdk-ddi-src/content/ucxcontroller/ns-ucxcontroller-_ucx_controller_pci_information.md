@@ -105,11 +105,11 @@ Specifies the specific function on the device that is located in the logical PCI
 
 ## -see-also
 
-<a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
-
-
-
 <a href="..\ucxcontroller\nf-ucxcontroller-ucx_controller_config_set_pci_info.md">UCX_CONTROLLER_CONFIG_SET_PCI_INFO</a>
+
+
+
+<a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
 
 
 

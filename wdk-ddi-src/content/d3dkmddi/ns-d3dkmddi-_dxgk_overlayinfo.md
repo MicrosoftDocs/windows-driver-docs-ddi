@@ -110,7 +110,11 @@ typedef struct _DXGK_OVERLAYINFO {
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 
 
@@ -118,15 +122,11 @@ typedef struct _DXGK_OVERLAYINFO {
 
 
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_updateoverlay.md">DXGKARG_UPDATEOVERLAY</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 
 

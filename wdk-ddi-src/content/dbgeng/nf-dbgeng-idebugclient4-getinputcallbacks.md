@@ -7,7 +7,7 @@ old-location: debugger\getinputcallbacks.htm
 old-project: debugger
 ms.assetid: 1788d9b6-5e5e-48b6-b746-fd078768892f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: GetInputCallbacks method [Windows Debugging], GetInputCallbacks method [Windows Debugging], IDebugClient interface, GetInputCallbacks method [Windows Debugging], IDebugClient2 interface, GetInputCallbacks method [Windows Debugging], IDebugClient3 interface, GetInputCallbacks method [Windows Debugging], IDebugClient4 interface, GetInputCallbacks method [Windows Debugging], IDebugClient5 interface, GetInputCallbacks,IDebugClient4.GetInputCallbacks, IDebugClient interface [Windows Debugging], GetInputCallbacks method, IDebugClient2 interface [Windows Debugging], GetInputCallbacks method, IDebugClient2::GetInputCallbacks, IDebugClient3 interface [Windows Debugging], GetInputCallbacks method, IDebugClient3::GetInputCallbacks, IDebugClient4, IDebugClient4 interface [Windows Debugging], GetInputCallbacks method, IDebugClient4::GetInputCallbacks, IDebugClient5 interface [Windows Debugging], GetInputCallbacks method, IDebugClient5::GetInputCallbacks, IDebugClient::GetInputCallbacks, IDebugClient_ab365943-baaa-4a51-9c1b-d82086098b2f.xml, dbgeng/IDebugClient2::GetInputCallbacks, dbgeng/IDebugClient3::GetInputCallbacks, dbgeng/IDebugClient4::GetInputCallbacks, dbgeng/IDebugClient5::GetInputCallbacks, dbgeng/IDebugClient::GetInputCallbacks, debugger.getinputcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,19 +121,19 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556721">SetInputCallbacks</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebuginputcallbacks.md">IDebugInputCallbacks</a>
 
 
 
@@ -145,7 +145,7 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556721">SetInputCallbacks</a>
+<a href="..\dbgeng\nn-dbgeng-idebuginputcallbacks.md">IDebugInputCallbacks</a>
 
 
 
@@ -153,5 +153,5 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::GetInputCallbacks method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::GetInputCallbacks method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

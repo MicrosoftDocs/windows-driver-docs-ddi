@@ -80,11 +80,7 @@ When you dereference the <i>ppXmlNode</i> parameter (using *ppXmlNode ), you obt
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/5556BD5E-6489-4CCF-8C62-DDA53AD9F368">IPrintSchemaTicket_GetCapabilities</a>
-
-
-
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms760248(v=vs.85).aspx">IXMLDOMElement</a>
 
 
 
@@ -96,11 +92,15 @@ When you dereference the <i>ppXmlNode</i> parameter (using *ppXmlNode ), you obt
 
 
 
+<a href="https://msdn.microsoft.com/5556BD5E-6489-4CCF-8C62-DDA53AD9F368">IPrintSchemaTicket_GetCapabilities</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+
+
+
 <a href="..\printerextension\nn-printerextension-iprintschemaelement.md">IPrintSchemaElement</a>
-
-
-
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms760248(v=vs.85).aspx">IXMLDOMElement</a>
 
 
 

@@ -184,15 +184,15 @@ For more information about <b>IPrintCoreHelperPS::GetOptionAttribute</b>, see <a
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperps.md">IPrintCoreHelperPS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552899">IPrintCoreHelperPS::GetGlobalAttribute</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551998">IPrintCoreHelperPS::GetFeatureAttribute</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintcorehelperps.md">IPrintCoreHelperPS</a>
 
 
 

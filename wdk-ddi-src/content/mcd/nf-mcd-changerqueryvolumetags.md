@@ -123,7 +123,7 @@ After filling in the system buffer, <b>ChangerQueryVolumeTags</b> sets the <b>In
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">, GET_CHANGER_PARAMETERS</a>
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
 
 
 
@@ -131,15 +131,15 @@ After filling in the system buffer, <b>ChangerQueryVolumeTags</b> sets the <b>In
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_read_element_address_info.md">READ_ELEMENT_ADDRESS_INFO</a>
-
-
-
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">, GET_CHANGER_PARAMETERS</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_read_element_address_info.md">READ_ELEMENT_ADDRESS_INFO</a>
 
 
 

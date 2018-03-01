@@ -86,14 +86,14 @@ TBD
 
 
 
-#### - userData
-
-Pointer to a buffer that will be passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
-
-
 #### - callbackHandle
 
 Contains an opaque identifier that the user must pass to <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a> to de-register the callback routine.
+
+
+#### - userData
+
+Pointer to a buffer that will be passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
 
 
 ## -returns
@@ -146,7 +146,7 @@ When a new adapter is added to the system, an event of type HBA_EVENT_ADAPTER_AD
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556045">HBA_ADAPTER_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 
@@ -154,7 +154,7 @@ When a new adapter is added to the system, an event of type HBA_EVENT_ADAPTER_AD
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556045">HBA_ADAPTER_CALLBACK</a>
 
 
 

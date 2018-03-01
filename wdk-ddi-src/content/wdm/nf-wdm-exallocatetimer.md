@@ -144,11 +144,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-exdeletetimer.md">ExDeleteTimer</a>
+
+
+
 <a href="..\wdm\nf-wdm-excanceltimer.md">ExCancelTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265190">ExTimerCallback</a>
+<a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a>
 
 
 
@@ -156,11 +160,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\wdm\nf-wdm-exdeletetimer.md">ExDeleteTimer</a>
-
-
-
-<a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265190">ExTimerCallback</a>
 
 
 

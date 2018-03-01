@@ -90,15 +90,15 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 
 <a href="..\ks\ns-ks-ksattribute.md">KSATTRIBUTE</a>
-
-
-
-<a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
 
 
 

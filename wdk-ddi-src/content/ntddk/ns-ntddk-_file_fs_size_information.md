@@ -102,7 +102,7 @@ This information can be queried in either of the following ways:
 
 <ul>
 <li>
-Call <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or <a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, passing FileFsSizeInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_FS_SIZE_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
+Call <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, passing FileFsSizeInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_FS_SIZE_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
 
 </li>
 <li>
@@ -112,7 +112,7 @@ Create an IRP with major function code IRP_MJ_QUERY_VOLUME_INFORMATION.
 </ul>
 No specific access rights are required to query this information. Thus this information is available as long as the volume is accessed through an open handle to the volume itself, or to a file or directory on the volume. 
 
-The size of the buffer passed in the <i>FileInformation</i> parameter to <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or <a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a> must be at least <b>sizeof</b> (FILE_FS_SIZE_INFORMATION). 
+The size of the buffer passed in the <i>FileInformation</i> parameter to <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a> must be at least <b>sizeof</b> (FILE_FS_SIZE_INFORMATION). 
 
 This structure must be aligned on a LONGLONG (8-byte) boundary. 
 
@@ -129,7 +129,7 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 
 
-<a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
 
 
 

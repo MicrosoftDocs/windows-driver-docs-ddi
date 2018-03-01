@@ -103,11 +103,11 @@ If the system disk is formatted with an MBR partition table, this specifies the 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetbootdiskinformation.md">IoGetBootDiskInformation</a>
-
-
-
 <a href="..\wdm\ns-wdm-_bootdisk_information_ex.md">BOOTDISK_INFORMATION_EX</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetbootdiskinformation.md">IoGetBootDiskInformation</a>
 
 
 

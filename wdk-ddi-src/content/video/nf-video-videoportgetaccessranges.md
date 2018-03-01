@@ -156,19 +156,15 @@ If the <i>HwVidFindAdapter</i> function claims bus-relative access ranges and po
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
-
-
-
-<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
-
-
-
 <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548285">IoAssignResources</a>
+
+
+
+<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
 
 
 
@@ -180,15 +176,19 @@ If the <i>HwVidFindAdapter</i> function claims bus-relative access ranges and po
 
 
 
+<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
+
+
+
 <a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
 
 
 
-<a href="..\video\nf-video-videoportsetbusdata.md">VideoPortSetBusData</a>
-
-
-
 <a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
+
+
+
+<a href="..\video\nf-video-videoportsetbusdata.md">VideoPortSetBusData</a>
 
 
 

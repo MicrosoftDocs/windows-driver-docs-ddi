@@ -171,7 +171,7 @@ DXGKMDT_OPM_GET_INFO_PARAMETERS is not used for COPP emulation; instead, the <a 
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_omac.md">DXGKMDT_OPM_OMAC</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
 
 
 
@@ -179,7 +179,7 @@ DXGKMDT_OPM_GET_INFO_PARAMETERS is not used for COPP emulation; instead, the <a 
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_omac.md">DXGKMDT_OPM_OMAC</a>
 
 
 

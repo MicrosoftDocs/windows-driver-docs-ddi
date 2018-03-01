@@ -95,7 +95,7 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlcompareunicodestring.md">RtlCompareUnicodeString</a>
+<a href="..\wudfwdm\nf-wudfwdm-rtlcompareunicodestring.md">RtlCompareUnicodeString</a>
 
 
 

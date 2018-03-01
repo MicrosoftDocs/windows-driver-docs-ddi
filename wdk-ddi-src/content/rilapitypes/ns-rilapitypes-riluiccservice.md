@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILUICCSERVICE
 title: RILUICCSERVICE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riluiccservice_2.htm
+old-location: netvista\riluiccservice.htm
 old-project: netvista
-ms.assetid: ffd61de0-652a-4174-a0d2-d53c28180ea5
+ms.assetid: 67c8abef-c920-4bc4-8216-8b6026a1962d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILUICCSERVICE, RILUICCSERVICE, RILUICCSERVICE structure [Network Drivers Starting with Windows Vista], netvista.riluiccservice_2, rilapitypes/RILUICCSERVICE"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILUICCSERVICE, RILUICCSERVICE, RILUICCSERVICE structure [Network Drivers Starting with Windows Vista], netvista.riluiccservice, ntddrilapitypes/RILUICCSERVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILUICCSERVICE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

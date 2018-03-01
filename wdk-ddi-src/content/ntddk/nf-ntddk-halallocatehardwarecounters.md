@@ -155,11 +155,11 @@ Virtualization software typically does not virtualize hardware performance count
 
 ## -see-also
 
+<a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_physical_counter_resource_list.md">PHYSICAL_COUNTER_RESOURCE_LIST</a>
-
-
-
-<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
 
 
 

@@ -107,7 +107,7 @@ If the KSPIN_CONNECT.PinToHandle element is not <b>NULL</b>, IRP_MJ_CREATE instr
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565104">KSPROPERTY_CONNECTION_PRIORITY</a>
 
 
 
@@ -115,7 +115,7 @@ If the KSPIN_CONNECT.PinToHandle element is not <b>NULL</b>, IRP_MJ_CREATE instr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565104">KSPROPERTY_CONNECTION_PRIORITY</a>
+<a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a>
 
 
 

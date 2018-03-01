@@ -89,14 +89,14 @@ typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU {
 [in] An array of kernel-mode handles to the synchronization events that the context that is specified by the <b>hContext</b> member waits for.
 
 
-#### - MonitoredFenceValueArray
-
-[in] An array of 64-bit monitored fence values to wait for, each value corresponding to a synchronization object in <b>ObjectHandleArray</b>.
-
-
 #### - FenceValue
 
 [in] Fence value to wait for when the input object is of type <b>D3DDDI_FENCE</b>.
+
+
+#### - MonitoredFenceValueArray
+
+[in] An array of 64-bit monitored fence values to wait for, each value corresponding to a synchronization object in <b>ObjectHandleArray</b>.
 
 
 #### - Reserved

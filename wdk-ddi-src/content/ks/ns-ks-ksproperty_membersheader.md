@@ -193,15 +193,19 @@ For more information about KSPROPERTY_MEMBER_FLAG_DEFAULT, see <a href="..\ks\ns
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_stepping_long.md">KSPROPERTY_STEPPING_LONG</a>
-
-
-
 <a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
 
 
 <a href="..\ks\ns-ks-ksproperty_bounds_long.md">KSPROPERTY_BOUNDS_LONG</a>
+
+
+
+<a href="..\ks\ns-ks-ksproperty_memberslist.md">KSPROPERTY_MEMBERSLIST</a>
+
+
+
+<a href="..\ks\ns-ks-ksproperty_stepping_long.md">KSPROPERTY_STEPPING_LONG</a>
 
 
 
@@ -214,10 +218,6 @@ For more information about KSPROPERTY_MEMBER_FLAG_DEFAULT, see <a href="..\ks\ns
 
 
 <a href="..\ks\ns-ks-ksproperty_description.md">KSPROPERTY_DESCRIPTION</a>
-
-
-
-<a href="..\ks\ns-ks-ksproperty_memberslist.md">KSPROPERTY_MEMBERSLIST</a>
 
 
 

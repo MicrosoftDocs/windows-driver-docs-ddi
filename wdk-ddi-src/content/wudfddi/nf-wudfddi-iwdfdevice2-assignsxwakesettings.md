@@ -227,11 +227,11 @@ The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
 
 
 

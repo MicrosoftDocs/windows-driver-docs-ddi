@@ -122,11 +122,11 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>
-
-
-
 <a href="https://msdn.microsoft.com/55ED21D9-D704-4E38-AFCF-B1D1FDB67DB3">IWDFInterrupt::ReleaseInterruptLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>
 
 
 

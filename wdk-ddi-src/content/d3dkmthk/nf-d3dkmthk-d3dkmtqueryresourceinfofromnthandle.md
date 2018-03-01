@@ -118,11 +118,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryresourceinfofromnthandle.md">D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a>
 
 
 

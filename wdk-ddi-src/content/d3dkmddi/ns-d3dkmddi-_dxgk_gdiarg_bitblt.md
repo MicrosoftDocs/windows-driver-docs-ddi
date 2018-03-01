@@ -210,15 +210,11 @@ SrcSubRect.bottom = SubRect.bottom - DstRect.top + SrcRect.top;</pre>
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
-
-
-
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_gdirop_bitblt.md">DXGK_GDIROP_BITBLT</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
 
 
 
@@ -226,7 +222,11 @@ SrcSubRect.bottom = SubRect.bottom - DstRect.top + SrcRect.top;</pre>
 
 
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_gdirop_bitblt.md">DXGK_GDIROP_BITBLT</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
 
 
 

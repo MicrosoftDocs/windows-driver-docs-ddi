@@ -235,15 +235,15 @@ The driver's <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca41
 
 
 
+<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
+
+
+
 <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
 
 
 
 <a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
-
-
-
-<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
 
 
 

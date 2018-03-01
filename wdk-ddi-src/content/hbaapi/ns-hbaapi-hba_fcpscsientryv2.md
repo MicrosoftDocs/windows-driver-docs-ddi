@@ -95,7 +95,7 @@ The HBA_FcpScsiEntryV2 structure includes all of the information contained in th
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a>
+<a href="..\hbaapi\ns-hbaapi-hba_fcpscsientry.md">HBA_FcpScsiEntry</a>
 
 
 
@@ -107,7 +107,7 @@ The HBA_FcpScsiEntryV2 structure includes all of the information contained in th
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_fcpscsientry.md">HBA_FcpScsiEntry</a>
+<a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a>
 
 
 

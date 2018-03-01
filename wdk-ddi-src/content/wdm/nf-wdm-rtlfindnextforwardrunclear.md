@@ -105,7 +105,7 @@ Callers of <b>RtlFindNextForwardRunClear</b> must be running at IRQL &lt;= APC_L
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+<a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
 
 
 
@@ -113,7 +113,7 @@ Callers of <b>RtlFindNextForwardRunClear</b> must be running at IRQL &lt;= APC_L
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
 
 
 
@@ -121,19 +121,19 @@ Callers of <b>RtlFindNextForwardRunClear</b> must be running at IRQL &lt;= APC_L
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
+<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
 
 
 
 <a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
 
 
 

@@ -395,11 +395,11 @@ The ATA_PASS_THROUGH_DIRECT structure is used with <a href="..\ntddscsi\ni-ntdds
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>
-
-
-
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through.md">IOCTL_ATA_PASS_THROUGH</a>
+
+
+
+<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>
 
 
 

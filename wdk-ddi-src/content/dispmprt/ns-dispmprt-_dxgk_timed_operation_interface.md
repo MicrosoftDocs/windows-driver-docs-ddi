@@ -218,14 +218,6 @@ The display miniport driver supplies the <b>Size</b> and <b>Version</b> members 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570084">TimedOperationStart</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570083">TimedOperationDelay</a>
 
 
@@ -235,6 +227,14 @@ The display miniport driver supplies the <b>Size</b> and <b>Version</b> members 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570085">TimedOperationWaitForSingleObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570084">TimedOperationStart</a>
 
 
 

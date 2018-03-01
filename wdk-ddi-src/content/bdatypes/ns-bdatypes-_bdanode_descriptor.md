@@ -86,11 +86,11 @@ GUID that can be used to store a string containing the name of the node. Applica
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556529">BDA Node Category GUIDs</a>
-
-
-
 <a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556529">BDA Node Category GUIDs</a>
 
 
 

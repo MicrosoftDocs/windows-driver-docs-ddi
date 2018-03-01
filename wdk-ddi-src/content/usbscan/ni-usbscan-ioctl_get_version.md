@@ -7,7 +7,7 @@ old-location: image\ioctl_get_version.htm
 old-project: image
 ms.assetid: 0521cd73-a3ae-4c7e-b244-4477b69ffc6f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IOCTL_GET_VERSION, IOCTL_GET_VERSION control code [Imaging Devices], image.ioctl_get_version, stifnc_9ed7f2fc-763d-4090-8f25-e9a154055169.xml, usbscan/IOCTL_GET_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILDISPLAYINFOTYPE
 title: RILDISPLAYINFOTYPE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rildisplayinfotype_2.htm
+old-location: netvista\rildisplayinfotype.htm
 old-project: netvista
-ms.assetid: 0a1afab7-66e3-4880-9124-abf411682eaa
+ms.assetid: 0da424f5-2970-497c-8965-af627fd582ff
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILDISPLAYINFOTYPE, RILDISPLAYINFOTYPE enumeration [Network Drivers Starting with Windows Vista], netvista.rildisplayinfotype_2, rilapitypes/RILDISPLAYINFOTYPE
+ms.date: 2/27/2018
+ms.keywords: RILDISPLAYINFOTYPE, RILDISPLAYINFOTYPE enumeration [Network Drivers Starting with Windows Vista], netvista.rildisplayinfotype, ntddrilapitypes/RILDISPLAYINFOTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILDISPLAYINFOTYPE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

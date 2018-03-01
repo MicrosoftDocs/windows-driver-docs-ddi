@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_NI_REQUEST_PARAM
 title: GNSS_NI_REQUEST_PARAM
 author: windows-driver-content
 description: This structure contains the NI request parameters.
-old-location: sensors\gnss_ni_request_param.htm
-old-project: sensors
+old-location: gnss\gnss_ni_request_param.htm
+old-project: gnss
 ms.assetid: 0528EEE6-31D6-4CF6-8192-3557C28B4D10
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: "*PGNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM structure [Sensor Devices], PGNSS_NI_REQUEST_PARAM, PGNSS_NI_REQUEST_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_NI_REQUEST_PARAM, gnssdriver/PGNSS_NI_REQUEST_PARAM, sensors.gnss_ni_request_param"
+ms.date: 2/15/2018
+ms.keywords: "*PGNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM structure [Sensor Devices], PGNSS_NI_REQUEST_PARAM, PGNSS_NI_REQUEST_PARAM structure pointer [Sensor Devices], gnss.gnss_ni_request_param, gnssdriver/GNSS_NI_REQUEST_PARAM, gnssdriver/PGNSS_NI_REQUEST_PARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -119,14 +119,14 @@ The required response time, in seconds.
 Indicates an emergency request, so an existing NI dialog will be dismissed and the new request will be processed immediately.
 
 
-#### - SuplNiInfo
-
-The <a href="..\gnssdriver\ns-gnssdriver-gnss_supl_ni_info.md">GNSS_SUPL_NI_INFO</a> structure that contains the SUPL NI information.
-
-
 #### - CpNiInfo
 
 The <a href="..\gnssdriver\ns-gnssdriver-gnss_cp_ni_info.md">GNSS_CP_NI_INFO</a> structure that contains CP NI information.
+
+
+#### - SuplNiInfo
+
+The <a href="..\gnssdriver\ns-gnssdriver-gnss_supl_ni_info.md">GNSS_SUPL_NI_INFO</a> structure that contains the SUPL NI information.
 
 
 #### - V2UplNiInfo

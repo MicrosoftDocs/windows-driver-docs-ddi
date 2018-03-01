@@ -7,7 +7,7 @@ old-location: netvista\ndisreadconfiguration.htm
 old-project: netvista
 ms.assetid: 74560229-9e97-40b9-961c-6bf726586e27
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: NDIS_STATUS_FAILURE, NDIS_STATUS_RESOURCES, NDIS_STATUS_SUCCESS, NdisReadConfiguration, NdisReadConfiguration function [Network Drivers Starting with Windows Vista], ndis/NdisReadConfiguration, ndis_configuration_ref_fb5d2879-b30e-470b-aa07-f5f5286973bf.xml, netvista.ndisreadconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -262,25 +262,7 @@ For more information about setup and installation files, see
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyname.md">
-   NdisOpenConfigurationKeyByName</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisinitunicodestring.md">NdisInitUnicodeString</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisansistringtounicodestring.md">
-   NdisAnsiStringToUnicodeString</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -288,19 +270,15 @@ For more information about setup and installation files, see
 
 
 
-<a href="..\ndis\nf-ndis-ndisinitansistring.md">NdisInitAnsiString</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisreadnetworkaddress.md">NdisReadNetworkAddress</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">NDIS_CONFIGURATION_PARAMETER</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreestring.md">NdisFreeString</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
 
 
 
@@ -309,7 +287,24 @@ For more information about setup and installation files, see
 
 
 
-<a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyname.md">
+   NdisOpenConfigurationKeyByName</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\ndis\ne-ndis-_ndis_parameter_type.md">NDIS_PARAMETER_TYPE</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisreadnetworkaddress.md">NdisReadNetworkAddress</a>
 
 
 
@@ -318,15 +313,20 @@ For more information about setup and installation files, see
 
 
 
-<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
+<a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
 
 
 
-<a href="..\ndis\ne-ndis-_ndis_parameter_type.md">NDIS_PARAMETER_TYPE</a>
+<a href="..\ndis\nf-ndis-ndisinitansistring.md">NdisInitAnsiString</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreestring.md">NdisFreeString</a>
+<a href="..\ndis\nf-ndis-ndisansistringtounicodestring.md">
+   NdisAnsiStringToUnicodeString</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">NDIS_CONFIGURATION_PARAMETER</a>
 
 
 
@@ -334,5 +334,5 @@ For more information about setup and installation files, see
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisReadConfiguration function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisReadConfiguration function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -96,9 +96,9 @@ VOID APIENTRY CreateUnorderedAccessView(
  A handle to the display device (graphics context).
 
 
-#### - pCreateUnorderedAccessView [in]
+#### - hRTUnorderedAccessView [in]
 
- A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createunorderedaccessview.md">D3D11DDIARG_CREATEUNORDEREDACCESSVIEW</a> structure that describes the parameters that the user-mode display driver uses to create an unordered access view. 
+ A handle to the unordered access view that the driver should use when it calls back into the Direct3D runtime. 
 
 
 #### - hUnorderedAccessView [in]
@@ -106,9 +106,9 @@ VOID APIENTRY CreateUnorderedAccessView(
  A handle to the driver's private data for the unordered access view. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateunorderedaccessviewsize.md">CalcPrivateUnorderedAccessViewSize</a> function. The handle is  just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its unordered access view object. 
 
 
-#### - hRTUnorderedAccessView [in]
+#### - pCreateUnorderedAccessView [in]
 
- A handle to the unordered access view that the driver should use when it calls back into the Direct3D runtime. 
+ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createunorderedaccessview.md">D3D11DDIARG_CREATEUNORDEREDACCESSVIEW</a> structure that describes the parameters that the user-mode display driver uses to create an unordered access view. 
 
 
 ## -returns
@@ -133,11 +133,11 @@ The driver might run out of memory. Therefore, the driver can pass E_OUTOFMEMORY
 
 ## -see-also
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateunorderedaccessviewsize.md">CalcPrivateUnorderedAccessViewSize</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 
@@ -145,7 +145,7 @@ The driver might run out of memory. Therefore, the driver can pass E_OUTOFMEMORY
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateunorderedaccessviewsize.md">CalcPrivateUnorderedAccessViewSize</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

@@ -212,11 +212,11 @@ SHORT X, Y;            // Position in bits in the destination surface
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_composerects.md">ComposeRects</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_composerects.md">ComposeRects</a>
 
 
 

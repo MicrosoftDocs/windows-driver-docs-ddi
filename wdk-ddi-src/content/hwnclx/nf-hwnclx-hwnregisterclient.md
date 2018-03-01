@@ -50,7 +50,7 @@ req.typenames: HWN_CLX_EXPORT_INDEX, *PHWN_CLX_EXPORT_INDEX
 ## -description
 
 
-Registers the hardware notification client driver and its callback functions with the class extension. This function should be invoked when the client driver is loaded and the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine is called for initialization. F
+Registers the hardware notification client driver and its callback functions with the class extension. This function should be invoked when the client driver is loaded and the <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine is called for initialization. F
 
 
 ## -syntax

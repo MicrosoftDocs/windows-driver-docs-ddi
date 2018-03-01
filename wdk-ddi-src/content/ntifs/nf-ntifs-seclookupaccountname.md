@@ -212,7 +212,7 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="..\ntifs\ne-ntifs-_sid_name_use.md">SID_NAME_USE</a>
 
 
 
@@ -224,7 +224,7 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 
 
 
-<a href="..\ntifs\ne-ntifs-_sid_name_use.md">SID_NAME_USE</a>
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 

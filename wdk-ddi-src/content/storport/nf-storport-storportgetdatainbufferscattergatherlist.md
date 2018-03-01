@@ -127,11 +127,11 @@ The pointer value in <i>SgList</i> is NULL.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportgetdatainbuffermdl.md">StorPortGetDataInBufferMdl</a>
-
-
-
 <a href="..\storport\nf-storport-storportgetdatainbuffersystemaddress.md">StorPortGetDataInBufferSystemAddress</a>
+
+
+
+<a href="..\storport\nf-storport-storportgetdatainbuffermdl.md">StorPortGetDataInBufferMdl</a>
 
 
 

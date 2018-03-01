@@ -154,14 +154,6 @@ The function should be prototyped as follows:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a>
-
-
-
-<a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a>
-
-
-
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
@@ -171,6 +163,14 @@ The function should be prototyped as follows:
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a>
+
+
+
+<a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a>
 
 
 

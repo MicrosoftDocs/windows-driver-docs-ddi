@@ -172,11 +172,11 @@ Specifies the overlay plane's stretch quality, given as a value from the <a href
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_ycbcr_flags.md">DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS</a>
-
-
-
 <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_multiplane_overlay_stretch_quality.md">DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a>
+
+
+
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_multiplane_overlay_stereo_flip_mode.md">DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a>
 
 
 
@@ -188,19 +188,19 @@ Specifies the overlay plane's stretch quality, given as a value from the <a href
 
 
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_blend.md">DXGK_MULTIPLANE_OVERLAY_BLEND</a>
+
+
+
 <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_multiplane_overlay_stereo_format.md">DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT</a>
 
 
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_multiplane_overlay_stereo_flip_mode.md">DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_ycbcr_flags.md">DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS</a>
 
 
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_blend.md">DXGK_MULTIPLANE_OVERLAY_BLEND</a>
 
 
 

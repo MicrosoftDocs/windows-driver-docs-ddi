@@ -93,7 +93,7 @@ D3DHAL_DP2ADDDIRTYRECT, along with the DP2OP_ADDDIRTYRECT token, is used only fo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549248">DDCORECAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
 
 
 
@@ -101,15 +101,15 @@ D3DHAL_DP2ADDDIRTYRECT, along with the DP2OP_ADDDIRTYRECT token, is used only fo
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549248">DDCORECAPS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 

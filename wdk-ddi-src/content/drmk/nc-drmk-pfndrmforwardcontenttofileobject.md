@@ -7,7 +7,7 @@ old-location: audio\pfndrmforwardcontenttofileobject.htm
 old-project: audio
 ms.assetid: 00ACCBFF-FEDE-4223-8503-4D75426E2BD6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: DRMForwardContentToFileObject, DRMForwardContentToFileObject callback function [Audio Devices], PFNDRMFORWARDCONTENTTOFILEOBJECT, audio.pfndrmforwardcontenttofileobject, drmk/DRMForwardContentToFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

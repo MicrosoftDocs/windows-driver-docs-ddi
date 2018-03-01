@@ -100,15 +100,7 @@ The next gate (following <i>AndGate</i>) must be an OR gate, whether it is speci
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
+<a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
 
 
 
@@ -116,7 +108,15 @@ The next gate (following <i>AndGate</i>) must be an OR gate, whether it is speci
 
 
 
-<a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
+<a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
+
+
+
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
 
 
 

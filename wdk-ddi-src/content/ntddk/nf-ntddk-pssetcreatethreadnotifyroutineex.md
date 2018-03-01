@@ -109,15 +109,7 @@ A driver must remove any callback function it registers before it unloads. You c
 
 
 
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
 
 
 
@@ -125,7 +117,15 @@ A driver must remove any callback function it registers before it unloads. You c
 
 
 
+<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
 
 
 

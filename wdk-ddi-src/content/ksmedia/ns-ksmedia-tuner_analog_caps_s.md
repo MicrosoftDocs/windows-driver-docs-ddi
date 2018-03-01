@@ -184,15 +184,15 @@ The range that the tuning device provides and that the tuner filter uses to dete
 
 
 
+<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_scan_status_s.md">KSPROPERTY_TUNER_SCAN_STATUS_S</a>
+
+
+
 <a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_scan_caps_s.md">KSPROPERTY_TUNER_SCAN_CAPS_S</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565893">KSPROPERTY_TUNER_SCAN_STATUS</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_scan_status_s.md">KSPROPERTY_TUNER_SCAN_STATUS_S</a>
 
 
 

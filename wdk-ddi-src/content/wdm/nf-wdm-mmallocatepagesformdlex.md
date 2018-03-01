@@ -95,7 +95,7 @@ Specifies the total number of bytes to allocate for the MDL.
 
 ### -param CacheType [in]
 
-Specifies a <a href="..\miniport\ne-miniport-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value, which indicates the type of caching that is allowed for the requested memory.
+Specifies a <a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value, which indicates the type of caching that is allowed for the requested memory.
 
 
 ### -param Flags [in]
@@ -228,7 +228,7 @@ By default, the physical memory pages that <b>MmAllocatePagesForMdlEx</b> return
 
 Depending on how much physical memory is currently available in the requested ranges, <b>MmAllocatePagesForMdlEx</b> might return an MDL that describes less memory than was requested. The routine also might return <b>NULL</b> if no memory was allocated. The caller should check the amount of memory that is actually allocated to the MDL.
 
-The caller must use <a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a> to release the memory pages that are described by an MDL that was created by <b>MmAllocatePagesForMdlEx</b>. After calling <b>MmFreePagesFromMdl</b>, the caller must also call <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> to release the memory that is allocated for the MDL structure.
+The caller must use <a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a> to release the memory pages that are described by an MDL that was created by <b>MmAllocatePagesForMdlEx</b>. After calling <b>MmFreePagesFromMdl</b>, the caller must also call <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> to release the memory that is allocated for the MDL structure.
 
 By default, <b>MmAllocatePagesForMdlEx</b> fills the pages that it allocates with zeros. The caller can specify the MM_DONT_ZERO_ALLOCATION flag to override this default and to possibly improve performance.
 
@@ -243,7 +243,11 @@ The maximum amount of memory that <b>MmAllocatePagesForMdlEx</b> can allocate in
 
 ## -see-also
 
-<a href="..\miniport\ne-miniport-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+<a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a>
 
 
 
@@ -251,15 +255,11 @@ The maximum amount of memory that <b>MmAllocatePagesForMdlEx</b> can allocate in
 
 
 
-<a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
+<a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a>
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 

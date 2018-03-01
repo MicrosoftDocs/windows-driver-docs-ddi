@@ -109,6 +109,10 @@ The type of protocol event, given as a value of the <a href="..\netdispumdddi\ne
 
 ## -see-also
 
+<a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_info.md">MIRACAST_CHUNK_INFO</a>
+
+
+
 <a href="..\netdispumdddi\ne-netdispumdddi-miracast_statistic_type.md">MIRACAST_STATISTIC_TYPE</a>
 
 
@@ -118,10 +122,6 @@ The type of protocol event, given as a value of the <a href="..\netdispumdddi\ne
 
 
 <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_id.md">MIRACAST_CHUNK_ID</a>
-
-
-
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_info.md">MIRACAST_CHUNK_INFO</a>
 
 
 

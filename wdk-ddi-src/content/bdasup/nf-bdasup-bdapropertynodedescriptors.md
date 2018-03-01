@@ -119,7 +119,7 @@ For a list of BDA nodes that are available to create in a template topology, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564324">KSPROPERTY_BDA_NODE_DESCRIPTORS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
 
 
@@ -127,7 +127,7 @@ For a list of BDA nodes that are available to create in a template topology, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564324">KSPROPERTY_BDA_NODE_DESCRIPTORS</a>
 
 
 

@@ -187,11 +187,11 @@ FORCEINLINE void UMDEtwLogUnmapAllocation(ULONGLONG hD3DAllocation,
 
 ## -see-also
 
-<a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
+
+
+<a href="..\umdprovider\ne-umdprovider-_umdetw_allocation_semantic.md">UMDETW_ALLOCATION_SEMANTIC</a>
 
 
 
@@ -203,7 +203,7 @@ FORCEINLINE void UMDEtwLogUnmapAllocation(ULONGLONG hD3DAllocation,
 
 
 
-<a href="..\umdprovider\ne-umdprovider-_umdetw_allocation_semantic.md">UMDETW_ALLOCATION_SEMANTIC</a>
+<a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a>
 
 
 

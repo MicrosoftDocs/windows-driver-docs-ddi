@@ -162,6 +162,10 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 
 
+<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550851">IRP_MN_DISABLE_EVENTS</a>
 
 
@@ -170,15 +174,11 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 
 
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550857">IRP_MN_ENABLE_COLLECTION</a>
 
 
 
 <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550857">IRP_MN_ENABLE_COLLECTION</a>
 
 
 

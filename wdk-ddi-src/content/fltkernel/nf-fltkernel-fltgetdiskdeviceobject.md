@@ -127,7 +127,7 @@ For more information about volume device objects, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromdeviceobject.md">FltGetVolumeFromDeviceObject</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetdeviceobject.md">FltGetDeviceObject</a>
 
 
 
@@ -135,7 +135,7 @@ For more information about volume device objects, see <a href="https://msdn.micr
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetdeviceobject.md">FltGetDeviceObject</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromdeviceobject.md">FltGetVolumeFromDeviceObject</a>
 
 
 

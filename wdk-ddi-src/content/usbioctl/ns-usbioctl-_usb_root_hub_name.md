@@ -81,11 +81,11 @@ Specifies the Unicode string containing the root hub's symbolic device name.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_get_hub_name.md">IOCTL_INTERNAL_USB_GET_HUB_NAME</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

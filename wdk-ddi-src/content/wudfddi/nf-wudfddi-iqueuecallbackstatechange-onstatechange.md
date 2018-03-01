@@ -101,7 +101,7 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
 
 
 
@@ -109,11 +109,11 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
-
-
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: netvista\wwan_pin_desc.htm
 old-project: netvista
 ms.assetid: a88f56eb-b527-4c7c-8f59-650dd10c671e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PWWAN_PIN_DESC, PWWAN_PIN_DESC, PWWAN_PIN_DESC structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_DESC, WWAN_PIN_DESC structure [Network Drivers Starting with Windows Vista], WwanRef_a0c1c3f2-0fcd-465f-bab6-5fa4887159b8.xml, _WWAN_PIN_DESC, netvista.wwan_pin_desc, wwan/PWWAN_PIN_DESC, wwan/WWAN_PIN_DESC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,5 +116,5 @@ The maximum number of characters in the PIN. Miniport drivers should not specify
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_PIN_DESC structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_PIN_DESC structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

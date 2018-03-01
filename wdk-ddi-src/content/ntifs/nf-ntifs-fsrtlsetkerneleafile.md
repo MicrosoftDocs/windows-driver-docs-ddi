@@ -184,11 +184,11 @@ You delete EA’s by specifying an <b>EAName</b> with an <b>EaValueLength</b> of
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwseteafile.md">ZwSetEaFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff961907">ZwQueryEaFile</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwseteafile.md">ZwSetEaFile</a>
 
 
 

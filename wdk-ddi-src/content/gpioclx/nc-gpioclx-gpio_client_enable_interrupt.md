@@ -152,11 +152,11 @@ The GPIO_CLIENT_ENABLE_INTERRUPT function type is defined in the Gpioclx.h heade
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439371">CLIENT_DisableInterrupt</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406464">GPIO_ENABLE_INTERRUPT_PARAMETERS</a>
 
 
 
@@ -164,7 +164,7 @@ The GPIO_CLIENT_ENABLE_INTERRUPT function type is defined in the Gpioclx.h heade
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439371">CLIENT_DisableInterrupt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406464">GPIO_ENABLE_INTERRUPT_PARAMETERS</a>
 
 
 

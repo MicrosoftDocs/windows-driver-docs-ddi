@@ -123,11 +123,11 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
+
+<a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
 
 
 

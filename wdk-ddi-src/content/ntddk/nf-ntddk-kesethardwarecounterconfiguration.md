@@ -155,15 +155,15 @@ Virtualization software typically does not virtualize hardware performance count
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_hardware_counter.md">HARDWARE_COUNTER</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a>
 
 
 

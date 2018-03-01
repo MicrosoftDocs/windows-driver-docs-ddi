@@ -257,7 +257,7 @@ The <b>WDF_REQUEST_PARAMETERS</b> structure is used as input to <a href="..\wdfr
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 
@@ -265,7 +265,7 @@ The <b>WDF_REQUEST_PARAMETERS</b> structure is used as input to <a href="..\wdfr
 
 
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
 
 
 

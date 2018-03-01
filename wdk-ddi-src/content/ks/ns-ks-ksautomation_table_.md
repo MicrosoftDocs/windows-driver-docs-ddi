@@ -170,7 +170,15 @@ DEFINE_KSAUTOMATION_EVENTS (MyEventTable)</pre>
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
+
+
+
 <a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
+
+
+
+<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
 
 
 
@@ -183,14 +191,6 @@ DEFINE_KSAUTOMATION_EVENTS (MyEventTable)</pre>
 
 
 <a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
-
-
-
-<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
-
-
-
-<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
 
 
 

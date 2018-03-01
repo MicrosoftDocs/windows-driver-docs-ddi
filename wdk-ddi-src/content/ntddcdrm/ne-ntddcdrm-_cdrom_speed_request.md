@@ -84,11 +84,11 @@ The CD-ROM class driver will use the SET STREAMING command to set the spindle sp
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_streaming.md">CDROM_SET_STREAMING</a>
-
-
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_speed.md">CDROM_SET_SPEED</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_streaming.md">CDROM_SET_STREAMING</a>
 
 
 

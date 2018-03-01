@@ -119,11 +119,11 @@ For a code example of how to use the <b>AssignContext</b> method, see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560218">IWDFObject::RetrieveContext</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560218">IWDFObject::RetrieveContext</a>
 
 
 

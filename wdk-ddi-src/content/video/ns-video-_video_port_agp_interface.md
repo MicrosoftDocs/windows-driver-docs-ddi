@@ -162,11 +162,11 @@ PnP video miniport drivers that can use AGP must fill in the <b>Size</b> and <b>
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+
+
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 

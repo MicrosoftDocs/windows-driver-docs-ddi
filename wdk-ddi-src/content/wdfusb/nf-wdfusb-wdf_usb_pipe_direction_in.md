@@ -98,11 +98,11 @@ For more information about the <b>WDF_USB_PIPE_DIRECTION_IN</b> function and USB
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_out.md">WDF_USB_PIPE_DIRECTION_OUT</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeisinendpoint.md">WdfUsbTargetPipeIsInEndpoint</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_out.md">WDF_USB_PIPE_DIRECTION_OUT</a>
 
 
 

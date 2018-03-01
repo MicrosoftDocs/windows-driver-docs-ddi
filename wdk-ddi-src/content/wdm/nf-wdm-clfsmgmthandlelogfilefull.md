@@ -180,15 +180,15 @@ If the <b>ClfsMgmtHandleLogFileFull</b> routine returns STATUS_PENDING, then CLF
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pclfs_client_lff_handler_complete_callback.md">ClfsLogGrowthCompleteCallback</a>
-
-
-
 <a href="..\wdm\nf-wdm-clfsmgmtregistermanagedclient.md">ClfsMgmtRegisterManagedClient</a>
 
 
 
 <a href="..\wdm\nc-wdm-pclfs_client_advance_tail_callback.md">ClfsAdvanceTailCallback</a>
+
+
+
+<a href="..\wdm\nc-wdm-pclfs_client_lff_handler_complete_callback.md">ClfsLogGrowthCompleteCallback</a>
 
 
 

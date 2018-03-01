@@ -142,11 +142,7 @@ For more information about <b>CmCallbackGetKeyObjectID</b> and registry filterin
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+<a href="..\wdm\nf-wdm-cmcallbackgetkeyobjectidex.md">CmCallbackGetKeyObjectIDEx</a>
 
 
 
@@ -158,7 +154,11 @@ For more information about <b>CmCallbackGetKeyObjectID</b> and registry filterin
 
 
 
-<a href="..\wdm\nf-wdm-cmcallbackgetkeyobjectidex.md">CmCallbackGetKeyObjectIDEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
 
 
 

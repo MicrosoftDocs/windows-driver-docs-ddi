@@ -131,7 +131,7 @@ The <b>MPIO_PASS_THROUGH_PATH</b> structure is used for a double-buffered device
 
 
 
-<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 

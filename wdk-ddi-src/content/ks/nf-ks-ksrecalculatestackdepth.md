@@ -101,6 +101,10 @@ This function allows IRPs to be forwarded through an object by ensuring that any
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561665">KsDefaultDispatchPnp</a>
+
+
+
 <a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
 
 
@@ -110,10 +114,6 @@ This function allows IRPs to be forwarded through an object by ensuring that any
 
 
 <a href="..\ks\nf-ks-kssettargetdeviceobject.md">KsSetTargetDeviceObject</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561665">KsDefaultDispatchPnp</a>
 
 
 

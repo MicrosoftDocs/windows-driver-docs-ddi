@@ -101,11 +101,11 @@ The <b>IoWithinStackLimits</b> routine considers all possible stack segments and
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetinitialstack.md">IoGetInitialStack</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetstacklimits.md">IoGetStackLimits</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetinitialstack.md">IoGetInitialStack</a>
 
 
 

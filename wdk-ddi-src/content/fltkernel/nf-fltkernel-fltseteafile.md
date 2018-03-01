@@ -124,11 +124,11 @@ The instance or volume is being torn down. This is an error code.
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryeafile.md">FltQueryEaFile</a>
-
-
-
 <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltqueryeafile.md">FltQueryEaFile</a>
 
 
 

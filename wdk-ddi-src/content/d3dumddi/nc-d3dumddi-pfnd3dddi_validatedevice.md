@@ -101,11 +101,11 @@ __checkReturn HRESULT APIENTRY ValidateDevice(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_validatetexturestagestate.md">D3DDDIARG_VALIDATETEXTURESTAGESTATE</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_validatetexturestagestate.md">D3DDDIARG_VALIDATETEXTURESTAGESTATE</a>
 
 
 

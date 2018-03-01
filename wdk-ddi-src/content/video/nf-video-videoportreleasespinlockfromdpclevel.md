@@ -108,11 +108,11 @@ It is an error to call <b>VideoPortReleaseSpinLockFromDpcLevel</b> if the given 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportacquirespinlockatdpclevel.md">VideoPortAcquireSpinLockAtDpcLevel</a>
-
-
-
 <a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a>
+
+
+
+<a href="..\video\nf-video-videoportacquirespinlockatdpclevel.md">VideoPortAcquireSpinLockAtDpcLevel</a>
 
 
 

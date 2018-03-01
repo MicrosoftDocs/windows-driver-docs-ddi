@@ -125,11 +125,7 @@ Callers of <b>KeReleaseSemaphore</b> must be running at IRQL &lt;= DISPATCH_LEVE
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+<a href="..\wdm\nf-wdm-kereadstatesemaphore.md">KeReadStateSemaphore</a>
 
 
 
@@ -137,7 +133,11 @@ Callers of <b>KeReleaseSemaphore</b> must be running at IRQL &lt;= DISPATCH_LEVE
 
 
 
-<a href="..\wdm\nf-wdm-kereadstatesemaphore.md">KeReadStateSemaphore</a>
+<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
+
+
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 

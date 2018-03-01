@@ -110,15 +110,15 @@ Specifies the compression capabilities of the device. This member can be one or 
 
 ## -see-also
 
+<a href="..\ksmedia\ne-ksmedia-ks_compressioncaps.md">KS_CompressionCaps</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567813">PROPSETID_VIDCAP_VIDEOCOMPRESSION</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
-<a href="..\ksmedia\ne-ksmedia-ks_compressioncaps.md">KS_CompressionCaps</a>
 
 
 

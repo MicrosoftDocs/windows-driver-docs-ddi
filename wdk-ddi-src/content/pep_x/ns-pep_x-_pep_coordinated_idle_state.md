@@ -92,11 +92,11 @@ Supplies the maximum size of a single dependency.
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_coordinated_idle_state.md">PEP_COORDINATED_IDLE_STATE structure</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186776">PEP_NOTIFY_PPM_QUERY_COORDINATED_STATES notification</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_coordinated_idle_state.md">PEP_COORDINATED_IDLE_STATE structure</a>
 
 
 

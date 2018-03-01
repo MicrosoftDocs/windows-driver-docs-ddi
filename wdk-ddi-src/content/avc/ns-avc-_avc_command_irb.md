@@ -175,15 +175,15 @@ This structure is used with the <a href="https://msdn.microsoft.com/library/wind
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554150">AVC_FUNCTION_COMMAND</a>
-
-
-
 <a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554170">AVC_FUNCTION_SEND_RESPONSE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554150">AVC_FUNCTION_COMMAND</a>
 
 
 

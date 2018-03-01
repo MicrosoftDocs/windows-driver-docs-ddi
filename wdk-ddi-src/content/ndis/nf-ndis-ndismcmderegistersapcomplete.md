@@ -7,7 +7,7 @@ old-location: netvista\ndismcmderegistersapcomplete.htm
 old-project: netvista
 ms.assetid: 69524144-fc55-4721-a753-6452566a8b26
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: NdisMCmDeregisterSapComplete, NdisMCmDeregisterSapComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_c7c4035b-8227-418a-895d-9b14027ce4c4.xml, ndis/NdisMCmDeregisterSapComplete, netvista.ndismcmderegistersapcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,14 +83,14 @@ TBD
 
 
 
-#### - Status [in]
-
-Specifies NDIS_STATUS_SUCCESS.
-
-
 #### - NdisSapHandle [in]
 
 Specifies the handle identifying the SAP.
+
+
+#### - Status [in]
+
+Specifies NDIS_STATUS_SUCCESS.
 
 
 ## -remarks
@@ -121,7 +121,8 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
+<a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
+   ProtocolClDeregisterSapComplete</a>
 
 
 
@@ -129,8 +130,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
-   ProtocolClDeregisterSapComplete</a>
+<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
 
 
 
@@ -142,5 +142,5 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmDeregisterSapComplete macro%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmDeregisterSapComplete macro%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -93,11 +93,11 @@ Information about a transaction manager object is stored in a <b>TRANSACTION_SUP
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a>
 
 
 

@@ -139,11 +139,11 @@ The <b>PoFxRegisterCoreDevice</b> routine should be called at IRQL = PASSIVE_LEV
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a>
 
 
 

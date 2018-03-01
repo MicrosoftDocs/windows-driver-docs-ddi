@@ -97,7 +97,7 @@ Before the driver calls the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocat
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>
 
 
 
@@ -105,7 +105,7 @@ Before the driver calls the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocat
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
 
 
 

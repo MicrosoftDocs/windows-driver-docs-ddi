@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_EXECUTE_SELFTEST
 title: IOCTL_GNSS_EXECUTE_SELFTEST
 author: windows-driver-content
 description: The IOCTL_GNSS_EXECUTE_SELFTEST control code is used by the GNSS manufacturing test application to initiate a self test in the GNSS lower stack.
-old-location: sensors\ioctl_gnss_execute_selftest.htm
-old-project: sensors
+old-location: gnss\ioctl_gnss_execute_selftest.htm
+old-project: gnss
 ms.assetid: EAD10523-FFA0-4B08-BCBD-A20C90A1B8F6
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: IOCTL_GNSS_EXECUTE_SELFTEST, IOCTL_GNSS_EXECUTE_SELFTEST control code [Sensor Devices], gnssdriver/IOCTL_GNSS_EXECUTE_SELFTEST, sensors.ioctl_gnss_execute_selftest
+ms.date: 2/15/2018
+ms.keywords: IOCTL_GNSS_EXECUTE_SELFTEST, IOCTL_GNSS_EXECUTE_SELFTEST control code [Sensor Devices], gnss.ioctl_gnss_execute_selftest, gnssdriver/IOCTL_GNSS_EXECUTE_SELFTEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -128,15 +128,11 @@ Once the GNSS driver accepts the self test session parameters, validates them an
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
@@ -144,9 +140,11 @@ Once the GNSS driver accepts the self test session parameters, validates them an
 
 
 
- 
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20IOCTL_GNSS_EXECUTE_SELFTEST control code%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
 

@@ -125,15 +125,15 @@ The PEP issues a power control request from a worker thread. The Windows <a href
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
-
-
-
 <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
 
 
 

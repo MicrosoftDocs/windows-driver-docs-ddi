@@ -233,19 +233,7 @@ The KBUGCHECK_REASON_CALLBACK_ROUTINE function type is defined in the Wdm.h head
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_kbugcheck_callback_reason.md">KBUGCHECK_CALLBACK_REASON</a>
-
-
-
-<a href="..\wdm\ns-wdm-_kbugcheck_add_pages.md">KBUGCHECK_ADD_PAGES</a>
-
-
-
-<a href="..\wdm\nf-wdm-kederegisterbugcheckreasoncallback.md">KeDeregisterBugCheckReasonCallback</a>
-
-
-
-<a href="..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md">KeRegisterBugCheckReasonCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551873">KBUGCHECK_REASON_CALLBACK_RECORD</a>
 
 
 
@@ -253,7 +241,19 @@ The KBUGCHECK_REASON_CALLBACK_ROUTINE function type is defined in the Wdm.h head
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551873">KBUGCHECK_REASON_CALLBACK_RECORD</a>
+<a href="..\wdm\ne-wdm-_kbugcheck_callback_reason.md">KBUGCHECK_CALLBACK_REASON</a>
+
+
+
+<a href="..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md">KeRegisterBugCheckReasonCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-kederegisterbugcheckreasoncallback.md">KeDeregisterBugCheckReasonCallback</a>
+
+
+
+<a href="..\wdm\ns-wdm-_kbugcheck_add_pages.md">KBUGCHECK_ADD_PAGES</a>
 
 
 

@@ -90,11 +90,11 @@ For Windows Server 2003 Service Pack 1 (SP1) and later versions of Windows, call
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetinitialstack.md">IoGetInitialStack</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetstacklimits.md">IoGetStackLimits</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetinitialstack.md">IoGetInitialStack</a>
 
 
 

@@ -235,11 +235,15 @@ To decompress an entire compressed buffer, use the <a href="..\ntifs\nf-ntifs-rt
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
+<a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-rtldecompressbufferex2.md">RtlDecompressBufferEx2</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtldecompressfragmentex.md">RtlDecompressFragmentEx</a>
 
 
 
@@ -251,11 +255,7 @@ To decompress an entire compressed buffer, use the <a href="..\ntifs\nf-ntifs-rt
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtldecompressfragmentex.md">RtlDecompressFragmentEx</a>
+<a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
 
 
 

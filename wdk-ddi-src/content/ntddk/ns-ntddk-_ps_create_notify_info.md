@@ -125,11 +125,6 @@ A pointer to the file object for the process executable file.
 </div>
 <div> </div>
 
-### -field _FILE_OBJECT
-
- 
-
-
 ### -field ImageFileName
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> string that holds the file name of the executable. If the <b>FileOpenNameAvailable</b> member is <b>TRUE</b>, the string specifies the exact file name that is used to open the executable file. If <b>FileOpenNameAvailable</b> is <b>FALSE</b>, the operating system might provide only a partial name.
@@ -160,7 +155,7 @@ Reserved. Use the <b>FileOpenNameAvailable</b> member instead.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex.md">PsSetCreateProcessNotifyRoutineEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff559951">CreateProcessNotifyEx</a>
 
 
 
@@ -168,7 +163,7 @@ Reserved. Use the <b>FileOpenNameAvailable</b> member instead.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff559951">CreateProcessNotifyEx</a>
+<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex.md">PsSetCreateProcessNotifyRoutineEx</a>
 
 
 

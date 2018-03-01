@@ -193,15 +193,7 @@ For more information about how to support a device's wake ability, see <a href="
 
 
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a>
-
-
-
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_wake_from_sx_triggered.md">EvtDeviceWakeFromSxTriggered</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceindicatewakestatus.md">WdfDeviceIndicateWakeStatus</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md">EvtDeviceArmWakeFromSx</a>
 
 
 
@@ -209,15 +201,23 @@ For more information about how to support a device's wake ability, see <a href="
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md">EvtDeviceArmWakeFromSx</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdf_device_power_policy_wake_settings_init.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_wake_from_sx_triggered.md">EvtDeviceWakeFromSxTriggered</a>
 
 
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignsxwakesettings.md">WdfDeviceAssignSxWakeSettings</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceindicatewakestatus.md">WdfDeviceIndicateWakeStatus</a>
+
+
+
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdf_device_power_policy_wake_settings_init.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: debugger\outputpromptvalistwide.htm
 old-project: debugger
 ms.assetid: ddd2cc89-1747-46e8-ade0-c4ccb10584f6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], OutputPromptVaListWide method, IDebugControl4::OutputPromptVaListWide, OutputPromptVaListWide method [Windows Debugging], OutputPromptVaListWide method [Windows Debugging], IDebugControl4 interface, OutputPromptVaListWide,IDebugControl4.OutputPromptVaListWide, dbgeng/IDebugControl4::OutputPromptVaListWide, debugger.outputpromptvalistwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -305,11 +305,7 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -317,7 +313,7 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
 
 
 
@@ -325,9 +321,13 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::OutputPromptVaListWide method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::OutputPromptVaListWide method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

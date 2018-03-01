@@ -146,7 +146,7 @@ The operating system guarantees that this function follows the  zero level  sync
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/8970246b-b46f-464f-93b2-973cc351ed07">DxgkCbPresentDisplayOnlyProgress</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present_displayonly.md">DXGKARG_PRESENT_DISPLAYONLY</a>
 
 
 
@@ -154,7 +154,11 @@ The operating system guarantees that this function follows the  zero level  sync
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/8970246b-b46f-464f-93b2-973cc351ed07">DxgkCbPresentDisplayOnlyProgress</a>
 
 
 
@@ -166,11 +170,7 @@ The operating system guarantees that this function follows the  zero level  sync
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present_displayonly.md">DXGKARG_PRESENT_DISPLAYONLY</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
 
 
 

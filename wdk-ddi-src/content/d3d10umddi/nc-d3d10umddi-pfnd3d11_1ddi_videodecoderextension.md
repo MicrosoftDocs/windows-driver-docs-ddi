@@ -89,16 +89,16 @@ HRESULT APIENTRY* pfnVideoDecoderExtension(
 
 
 
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
-
-
-
-
 #### - hDecoder [in]
 
 A handle to the video decoder object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a> function.
+
+
+
+
+#### - hDevice [in]
+
+A handle to the display device (graphics context).
 
 
 

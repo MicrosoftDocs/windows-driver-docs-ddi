@@ -86,14 +86,14 @@ TBD
 
 
 
-#### - pMidAtlas
-
-A pointer to the MID_ATLAS data structure.
-
-
 #### - pContext
 
 A pointer to the context.
+
+
+#### - pMidAtlas
+
+A pointer to the MID_ATLAS data structure.
 
 
 #### - pNewMid
@@ -153,15 +153,11 @@ The <i>pContext</i> parameter can be any opaque context but it is commonly an RX
 
 ## -see-also
 
-<a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
-
-
-
-<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
-
-
-
 <a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
+
+
+
+<a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
 
 
 
@@ -170,6 +166,10 @@ The <i>pContext</i> parameter can be any opaque context but it is commonly an RX
 
 
 <a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
+
+
+
+<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
 
 
 

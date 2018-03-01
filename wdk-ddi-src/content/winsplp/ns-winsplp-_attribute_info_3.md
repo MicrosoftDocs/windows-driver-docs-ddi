@@ -242,10 +242,6 @@ For information about other ATTRIBUTE_INFO_3 structure members, see <a href="..\
 
 
 
-<a href="..\winppi\nf-winppi-gdiendpageemf.md">GdiEndPageEMF</a>
-
-
-
 <a href="..\winsplp\ns-winsplp-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
 
 
@@ -255,6 +251,10 @@ For information about other ATTRIBUTE_INFO_3 structure members, see <a href="..\
 
 
 <a href="..\winsplp\nf-winsplp-getjobattributesex.md">GetJobAttributesEx</a>
+
+
+
+<a href="..\winppi\nf-winppi-gdiendpageemf.md">GdiEndPageEMF</a>
 
 
 

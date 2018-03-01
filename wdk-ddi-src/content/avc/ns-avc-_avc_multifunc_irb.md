@@ -84,6 +84,21 @@ typedef struct _AVC_MULTIFUNC_IRB {
  I/O Request Block (IRB) header structure where a function number is stored.
 
 
+#### - ExtPlugCounts
+
+Used with AVC_FUNCTION_GET_EXT_PLUG_COUNTS.
+
+
+#### - PeerList
+
+Used with AVC_FUNCTION_PEER_DO_LIST.
+
+
+#### - PeerLocator
+
+Used with AVC_FUNCTION_PEER_DO_LOCATOR.
+
+
 #### - PinCount
 
 Used with AVC_FUNCTION_GET_PIN_COUNT.
@@ -92,6 +107,11 @@ Used with AVC_FUNCTION_GET_PIN_COUNT.
 #### - PinDescriptor
 
 Used with AVC_FUNCTION_GET_PIN_DESCRIPTOR.
+
+
+#### - PinId
+
+Used with AVC_FUNCTION_ACQUIRE, <b>AVC_FUNCTION_RELEASE</b> and AVC_FUNCTION_CLR_CONNECTINFO.
 
 
 #### - PreConnectInfo
@@ -104,34 +124,14 @@ Used with AVC_FUNCTION_GET_CONNECT_INFO.
 Used with AVC_FUNCTION_SET_CONNECT_INFO.
 
 
-#### - PinId
+#### - Subunits
 
-Used with AVC_FUNCTION_ACQUIRE, <b>AVC_FUNCTION_RELEASE</b> and AVC_FUNCTION_CLR_CONNECTINFO.
-
-
-#### - ExtPlugCounts
-
-Used with AVC_FUNCTION_GET_EXT_PLUG_COUNTS.
+Used with AVC_FUNCTION_GET_SUBUNIT_INFO.
 
 
 #### - UniqueID
 
 Used with AVC_FUNCTION_GET_UNIQUE_ID.
-
-
-#### - PeerLocator
-
-Used with AVC_FUNCTION_PEER_DO_LOCATOR.
-
-
-#### - PeerList
-
-Used with AVC_FUNCTION_PEER_DO_LIST.
-
-
-#### - Subunits
-
-Used with AVC_FUNCTION_GET_SUBUNIT_INFO.
 
 
 ## -remarks
@@ -145,63 +145,11 @@ The AVC_MULTIFUNC_IRB structure used with a variety of AV/C functionality. Depen
 
 ## -see-also
 
-<a href="..\avc\ns-avc-_avc_pin_count.md">AVC_PIN_COUNT</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_pin_id.md">AVC_PIN_ID</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554166">AVC_FUNCTION_GET_UNIQUE_ID</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554149">AVC_FUNCTION_CLR_CONNECTINFO</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_peer_do_locator.md">AVC_PEER_DO_LOCATOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554158">AVC_FUNCTION_GET_PIN_COUNT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554155">AVC_FUNCTION_GET_EXT_PLUG_COUNTS</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_preconnect_info.md">AVC_PRECONNECT_INFO</a>
+<a href="..\avc\ns-avc-_avc_unique_id.md">AVC_UNIQUE_ID</a>
 
 
 
 <a href="..\avc\ns-avc-_avc_setconnect_info.md">AVC_SETCONNECT_INFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554152">AVC_FUNCTION_FIND_PEER_DO</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554164">AVC_FUNCTION_GET_SUBUNIT_INFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554148">AVC_FUNCTION_ACQUIRE</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_subunit_info_block.md">AVC_SUBUNIT_INFO_BLOCK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554154">AVC_FUNCTION_GET_CONNECTINFO</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_ext_plug_counts.md">AVC_EXT_PLUG_COUNTS</a>
 
 
 
@@ -213,11 +161,23 @@ The AVC_MULTIFUNC_IRB structure used with a variety of AV/C functionality. Depen
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554160">AVC_FUNCTION_GET_PIN_DESCRIPTOR</a>
+<a href="..\avc\ns-avc-_avc_preconnect_info.md">AVC_PRECONNECT_INFO</a>
 
 
 
-<a href="..\avc\ns-avc-_avc_peer_do_list.md">AVC_PEER_DO_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554164">AVC_FUNCTION_GET_SUBUNIT_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554155">AVC_FUNCTION_GET_EXT_PLUG_COUNTS</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_subunit_info_block.md">AVC_SUBUNIT_INFO_BLOCK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554158">AVC_FUNCTION_GET_PIN_COUNT</a>
 
 
 
@@ -225,11 +185,51 @@ The AVC_MULTIFUNC_IRB structure used with a variety of AV/C functionality. Depen
 
 
 
-<a href="..\avc\ns-avc-_avc_unique_id.md">AVC_UNIQUE_ID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554152">AVC_FUNCTION_FIND_PEER_DO</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554168">AVC_FUNCTION_PEER_DO_LIST</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_peer_do_list.md">AVC_PEER_DO_LIST</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_pin_id.md">AVC_PIN_ID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554160">AVC_FUNCTION_GET_PIN_DESCRIPTOR</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_ext_plug_counts.md">AVC_EXT_PLUG_COUNTS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554149">AVC_FUNCTION_CLR_CONNECTINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554154">AVC_FUNCTION_GET_CONNECTINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554148">AVC_FUNCTION_ACQUIRE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554166">AVC_FUNCTION_GET_UNIQUE_ID</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_pin_count.md">AVC_PIN_COUNT</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_peer_do_locator.md">AVC_PEER_DO_LOCATOR</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: netvista\ril_startmodemlogs.htm
 old-project: netvista
 ms.assetid: 6f9b79a0-0947-4f69-b2b6-f35ad2ee70d5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_StartModemLogs, RIL_StartModemLogs method [Network Drivers Starting with Windows Vista], netvista.ril_startmodemlogs, rilapi/RIL_StartModemLogs
 ms.prod: windows-hardware
 ms.technology: windows-devices

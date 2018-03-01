@@ -95,11 +95,11 @@ Starting with Windows Vista with Service Pack 1 (SP1) and Windows Server 2008
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 
 
 

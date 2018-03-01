@@ -128,15 +128,15 @@ The caller is responsible for releasing this string buffer, which is allocated b
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usbioctl\ns-usbioctl-_usb_hub_cap_flags.md">USB_HUB_CAP_FLAGS</a>
 
 
 
 <a href="..\usbioctl\ns-usbioctl-_usb_id_string.md">USB_ID_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

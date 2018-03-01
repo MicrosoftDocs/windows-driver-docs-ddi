@@ -105,15 +105,15 @@ An intermediate or highest-level driver also can call <a href="..\wdm\nf-wdm-iob
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
+<a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
 
 
 
 <a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
@@ -129,15 +129,15 @@ An intermediate or highest-level driver also can call <a href="..\wdm\nf-wdm-iob
 
 
 
-<a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
-
-
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
 <a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>
 
 
 

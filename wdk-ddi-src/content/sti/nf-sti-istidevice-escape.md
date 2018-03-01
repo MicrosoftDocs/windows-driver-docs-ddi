@@ -7,7 +7,7 @@ old-location: image\istidevice_escape.htm
 old-project: image
 ms.assetid: ca2aae12-b4b8-4bae-bc3b-812a1ae539c0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: Escape method [Imaging Devices], Escape method [Imaging Devices], IStiDevice interface, Escape,IStiDevice.Escape, IStiDevice, IStiDevice interface [Imaging Devices], Escape method, IStiDevice::Escape, image.istidevice_escape, sti/IStiDevice::Escape, stifnc_5eb8e67e-67cc-4d04-abff-ada5b42b0004.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

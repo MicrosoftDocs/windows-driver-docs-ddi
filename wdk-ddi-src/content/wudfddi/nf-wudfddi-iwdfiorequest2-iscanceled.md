@@ -124,10 +124,6 @@ In the following code example, if <b>IsCanceled</b> returns <b>TRUE</b>, the dri
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
 
 
@@ -137,6 +133,10 @@ In the following code example, if <b>IsCanceled</b> returns <b>TRUE</b>, the dri
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
 
 
 

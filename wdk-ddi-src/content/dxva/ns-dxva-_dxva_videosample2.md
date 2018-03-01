@@ -149,27 +149,7 @@ For information about how input samples are arranged in the array in the <b>Sour
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
-
-
-
-<a href="..\dxva\ne-dxva-_dxva_sampleflags.md">DXVA_SampleFlags</a>
-
-
-
-<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
-
-
-
-<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
 
 
 
@@ -178,6 +158,26 @@ For information about how input samples are arranged in the array in the <b>Sour
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_sampleflags.md">DXVA_SampleFlags</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
 
 
 

@@ -123,11 +123,11 @@ typedef struct DXGI_DDI_ARG_PRESENT {
 
 
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_present_flags.md">DXGI_DDI_PRESENT_FLAGS</a>
-
-
-
 <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_presentcb.md">pfnPresentCbDXGI</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
 
 
@@ -135,11 +135,11 @@ typedef struct DXGI_DDI_ARG_PRESENT {
 
 
 
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_present_flags.md">DXGI_DDI_PRESENT_FLAGS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
 
 

@@ -129,15 +129,15 @@ The driver for a device can call the <a href="..\wdm\nf-wdm-pofxpowercontrol.md"
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-pofxpowercontrol.md">PoFxPowerControl</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186797">PEP_DPM_POWER_CONTROL_REQUEST</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
-
-
-
-<a href="..\wdm\nf-wdm-pofxpowercontrol.md">PoFxPowerControl</a>
 
 
 

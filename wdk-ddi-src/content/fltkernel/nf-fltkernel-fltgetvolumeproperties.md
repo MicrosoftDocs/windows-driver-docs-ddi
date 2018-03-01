@@ -145,11 +145,11 @@ The buffer that the <i>VolumeProperties</i> parameter points to is not large eno
 
 ## -see-also
 
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
-
-
-
 <a href="..\fltkernel\ns-fltkernel-_flt_volume_properties.md">FLT_VOLUME_PROPERTIES</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
 
 
 

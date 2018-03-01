@@ -325,23 +325,7 @@ For information about the capabilities of HID control values, see <a href="https
 
 ## -see-also
 
-<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getbuttoncaps.md">HidP_GetButtonCaps</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getspecificvaluecaps.md">HidP_GetSpecificValueCaps</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getusagevaluearray.md">HidP_GetUsageValueArray</a>
+<a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>
 
 
 
@@ -349,11 +333,27 @@ For information about the capabilities of HID control values, see <a href="https
 
 
 
+<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getusagevaluearray.md">HidP_GetUsageValueArray</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getspecificvaluecaps.md">HidP_GetSpecificValueCaps</a>
+
+
+
 <a href="..\hidpi\nf-hidpi-hidp_getvaluecaps.md">HidP_GetValueCaps</a>
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>
+<a href="..\hidpi\nf-hidpi-hidp_getbuttoncaps.md">HidP_GetButtonCaps</a>
+
+
+
+<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
 
 
 

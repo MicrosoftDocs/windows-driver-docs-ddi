@@ -119,11 +119,11 @@ For examples showing structure member values for deinterlacing or converting dif
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_frequency.md">DXVA_Frequency</a>
-
-
-
 <a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_frequency.md">DXVA_Frequency</a>
 
 
 

@@ -127,7 +127,7 @@ Initialize all additional interface-specific members to point to the appropriate
 
 ## -see-also
 
-<a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
@@ -135,7 +135,7 @@ Initialize all additional interface-specific members to point to the appropriate
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a>
 
 
 

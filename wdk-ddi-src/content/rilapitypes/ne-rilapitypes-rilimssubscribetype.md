@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILIMSSUBSCRIBETYPE
 title: RILIMSSUBSCRIBETYPE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilimssubscribetype_2.htm
+old-location: netvista\rilimssubscribetype.htm
 old-project: netvista
-ms.assetid: 84b2de56-55f9-471c-8d32-84fe1365dfbf
+ms.assetid: 347b42c1-7585-471c-af42-44218da48fa3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILIMSSUBSCRIBETYPE, RILIMSSUBSCRIBETYPE enumeration [Network Drivers Starting with Windows Vista], RIL_IMSSUBSCRIBETYPE_CONFERENCE, RIL_IMSSUBSCRIBETYPE_MAX, RIL_IMSSUBSCRIBETYPE_MWI, netvista.rilimssubscribetype_2, rilapitypes/RILIMSSUBSCRIBETYPE, rilapitypes/RIL_IMSSUBSCRIBETYPE_CONFERENCE, rilapitypes/RIL_IMSSUBSCRIBETYPE_MAX, rilapitypes/RIL_IMSSUBSCRIBETYPE_MWI
+ms.date: 2/27/2018
+ms.keywords: RILIMSSUBSCRIBETYPE, RILIMSSUBSCRIBETYPE enumeration [Network Drivers Starting with Windows Vista], RIL_IMSSUBSCRIBETYPE_CONFERENCE, RIL_IMSSUBSCRIBETYPE_MAX, RIL_IMSSUBSCRIBETYPE_MWI, netvista.rilimssubscribetype, ntddrilapitypes/RILIMSSUBSCRIBETYPE, ntddrilapitypes/RIL_IMSSUBSCRIBETYPE_CONFERENCE, ntddrilapitypes/RIL_IMSSUBSCRIBETYPE_MAX, ntddrilapitypes/RIL_IMSSUBSCRIBETYPE_MWI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILIMSSUBSCRIBETYPE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

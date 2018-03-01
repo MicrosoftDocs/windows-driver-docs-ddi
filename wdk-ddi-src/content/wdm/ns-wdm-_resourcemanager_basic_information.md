@@ -98,11 +98,11 @@ The resource manager's description string, which the <b>Description</b> member r
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationresourcemanager.md">ZwQueryInformationResourceManager</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwqueryinformationresourcemanager.md">ZwQueryInformationResourceManager</a>
 
 
 

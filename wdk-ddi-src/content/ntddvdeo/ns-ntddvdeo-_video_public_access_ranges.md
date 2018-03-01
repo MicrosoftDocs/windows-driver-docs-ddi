@@ -155,11 +155,11 @@ VIDEO_PUBLIC_ACCESS_RANGES is used as an input buffer with the <a href="..\ntddv
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_public_access_ranges.md">IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES</a>
-
-
-
 <a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
+
+
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_public_access_ranges.md">IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES</a>
 
 
 

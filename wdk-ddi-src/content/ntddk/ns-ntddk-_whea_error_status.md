@@ -91,9 +91,19 @@ A ULONGLONG representation of the contents of the WHEA_ERROR_STATUS union.
 
 
 
-#### - Reserved1
+#### - Address
 
-Reserved for system use.
+A single bit that indicates if the error was detected on the address signals or during the address portion of the transaction.
+
+
+#### - Control
+
+A single bit that indicates if the error was detected on the control signals or during the control portion of the transaction.
+
+
+#### - Data
+
+A single bit that indicates if the error was detected on the data signals or during the data portion of the transaction.
 
 
 #### - ErrorType
@@ -211,31 +221,6 @@ A bus timeout error.
 A read operation was issued to data that has been corrupted.
 
 
-#### - Address
-
-A single bit that indicates if the error was detected on the address signals or during the address portion of the transaction.
-
-
-#### - Control
-
-A single bit that indicates if the error was detected on the control signals or during the control portion of the transaction.
-
-
-#### - Data
-
-A single bit that indicates if the error was detected on the data signals or during the data portion of the transaction.
-
-
-#### - Responder
-
-A single bit that indicates that the error was detected by the responder of the transaction.
-
-
-#### - Requester
-
-A single bit that indicates that the error was detected by the requester of the transaction.
-
-
 #### - FirstError
 
 A single bit that indicates that the error is the first error to occur if multiple errors are logged for a section type. Setting of this bit is optional.
@@ -246,9 +231,24 @@ A single bit that indicates that the error is the first error to occur if multip
 A single bit that indicates that additional errors occurred but were not logged due to an overflow of the logging resources.
 
 
+#### - Requester
+
+A single bit that indicates that the error was detected by the requester of the transaction.
+
+
+#### - Reserved1
+
+Reserved for system use.
+
+
 #### - Reserved2
 
 Reserved for system use.
+
+
+#### - Responder
+
+A single bit that indicates that the error was detected by the responder of the transaction.
 
 
 ## -remarks
@@ -264,15 +264,15 @@ A WHEA_ERROR_STATUS union is contained within the <a href="..\ntddk\ns-ntddk-_wh
 
 ## -see-also
 
+<a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_whea_memory_error_section.md">WHEA_MEMORY_ERROR_SECTION</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_whea_pcixbus_error_section.md">WHEA_PCIXBUS_ERROR_SECTION</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a>
 
 
 

@@ -101,11 +101,11 @@ The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_reservegpuvirtualaddressrange.md
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_reservegpuvirtualaddressrange.md">DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_reservegpuvirtualaddressrange.md">DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE</a>
 
 
 

@@ -348,7 +348,11 @@ For more information on creating mapped sections and views of memory, see <a hre
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
+<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 
@@ -360,11 +364,7 @@ For more information on creating mapped sections and views of memory, see <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
+<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
 
 
 

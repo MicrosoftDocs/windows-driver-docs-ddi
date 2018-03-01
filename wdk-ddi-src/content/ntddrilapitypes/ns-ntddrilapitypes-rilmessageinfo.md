@@ -7,13 +7,13 @@ old-location: netvista\rilmessageinfo.htm
 old-project: netvista
 ms.assetid: 689b4abc-13ee-4d4a-8b2e-bb0be7cc6672
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPRILMESSAGEINFO, RILMESSAGEINFO, RILMESSAGEINFO structure [Network Drivers Starting with Windows Vista], netvista.rilmessageinfo, ntddrilapitypes/RILMESSAGEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

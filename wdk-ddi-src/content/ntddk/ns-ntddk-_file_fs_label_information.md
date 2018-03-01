@@ -105,7 +105,7 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549415">IRP_MJ_SET_VOLUME_INFORMATION</a>
 
 
 
@@ -113,7 +113,7 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549415">IRP_MJ_SET_VOLUME_INFORMATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>
 
 
 

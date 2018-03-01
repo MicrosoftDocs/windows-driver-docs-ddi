@@ -97,7 +97,7 @@ A pointer to the context that was passed to <b>PoRequestPowerIrp</b>.
 
 ### -param IoStatus [in]
 
-A pointer to the <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure for the completed IRP.
+A pointer to the <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure for the completed IRP.
 
 
 ## -returns
@@ -170,15 +170,11 @@ The REQUEST_POWER_COMPLETE function type is defined in the Wdm.h header file. To
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550784">IRP_MJ_POWER</a>
+<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
 
 
 
@@ -190,11 +186,15 @@ The REQUEST_POWER_COMPLETE function type is defined in the Wdm.h header file. To
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550784">IRP_MJ_POWER</a>
 
 
 
 <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
 
 
 

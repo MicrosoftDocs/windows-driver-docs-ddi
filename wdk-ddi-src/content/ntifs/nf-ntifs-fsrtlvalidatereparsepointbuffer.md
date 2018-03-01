@@ -141,11 +141,11 @@ Reparse tags contain several bits that cannot be set except by system components
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_reparse_guid_data_buffer.md">REPARSE_GUID_DATA_BUFFER</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_reparse_data_buffer.md">REPARSE_DATA_BUFFER</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_reparse_guid_data_buffer.md">REPARSE_GUID_DATA_BUFFER</a>
 
 
 

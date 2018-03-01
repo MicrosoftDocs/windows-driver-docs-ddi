@@ -125,11 +125,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryremotevidpnsourcefromgdidisplayname.md">D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME</a>
-
-
-
 <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_outputduplpresent.md">D3DKMTOutputDuplPresent</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryremotevidpnsourcefromgdidisplayname.md">D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME</a>
 
 
 

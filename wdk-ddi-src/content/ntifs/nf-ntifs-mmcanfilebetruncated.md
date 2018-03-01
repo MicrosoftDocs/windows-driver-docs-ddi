@@ -118,11 +118,11 @@ One or more users hold references to the data section for the file, and <i>NewFi
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
 
 
 

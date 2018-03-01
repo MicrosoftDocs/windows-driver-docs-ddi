@@ -101,10 +101,6 @@ A driver that makes multiple requests for brief I/O operations should call <b>Po
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-poregisterdeviceforidledetection.md">PoRegisterDeviceForIdleDetection</a>
-
-
-
 <a href="..\wdm\nf-wdm-poenddevicebusy.md">PoEndDeviceBusy</a>
 
 
@@ -114,6 +110,10 @@ A driver that makes multiple requests for brief I/O operations should call <b>Po
 
 
 <a href="..\wdm\nf-wdm-postartdevicebusy.md">PoStartDeviceBusy</a>
+
+
+
+<a href="..\wdm\nf-wdm-poregisterdeviceforidledetection.md">PoRegisterDeviceForIdleDetection</a>
 
 
 

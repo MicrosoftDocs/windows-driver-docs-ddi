@@ -101,11 +101,11 @@ For a code example that uses <b>WDF_PDO_EVENT_CALLBACKS_INIT</b>, see <a href=".
 
 ## -see-also
 
-<a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a>
-
-
-
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
+
+
+
+<a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a>
 
 
 

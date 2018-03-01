@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCALLRTTACTION
 title: RILCALLRTTACTION
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallrttaction_2.htm
+old-location: netvista\rilcallrttaction.htm
 old-project: netvista
-ms.assetid: e4a28382-25f9-427d-ba7a-3b35c01f50fd
+ms.assetid: c080c4da-097d-4ae3-b1ca-96d9b5b6e8c9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILCALLRTTACTION, RILCALLRTTACTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLRTTACTION_ACCEPT, RIL_CALLRTTACTION_ASK, RIL_CALLRTTACTION_MAX, RIL_CALLRTTACTION_REJECT, netvista.rilcallrttaction_2, rilapitypes/RILCALLRTTACTION, rilapitypes/RIL_CALLRTTACTION_ACCEPT, rilapitypes/RIL_CALLRTTACTION_ASK, rilapitypes/RIL_CALLRTTACTION_MAX, rilapitypes/RIL_CALLRTTACTION_REJECT
+ms.date: 2/27/2018
+ms.keywords: RILCALLRTTACTION, RILCALLRTTACTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLRTTACTION_ACCEPT, RIL_CALLRTTACTION_ASK, RIL_CALLRTTACTION_MAX, RIL_CALLRTTACTION_REJECT, netvista.rilcallrttaction, ntddrilapitypes/RILCALLRTTACTION, ntddrilapitypes/RIL_CALLRTTACTION_ACCEPT, ntddrilapitypes/RIL_CALLRTTACTION_ASK, ntddrilapitypes/RIL_CALLRTTACTION_MAX, ntddrilapitypes/RIL_CALLRTTACTION_REJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLRTTACTION
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

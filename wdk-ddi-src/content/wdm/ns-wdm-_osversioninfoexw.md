@@ -607,15 +607,15 @@ Not applicable
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
+
+
+
 <a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFOW</a>
 
 
 
 <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
 
 
 

@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILSYSTEMSELECTIONPREFSMODE
 title: RILSYSTEMSELECTIONPREFSMODE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsystemselectionprefsmode_2.htm
+old-location: netvista\rilsystemselectionprefsmode.htm
 old-project: netvista
-ms.assetid: 10aa6bfb-5ada-42f6-8f89-d8d4066d196b
+ms.assetid: f2d9bb70-cb0c-4e4b-be7a-11a89df739be
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILSYSTEMSELECTIONPREFSMODE, RILSYSTEMSELECTIONPREFSMODE enumeration [Network Drivers Starting with Windows Vista], RIL_OPSELMODE_MANUAL, RIL_OPSELMODE_MAX, netvista.rilsystemselectionprefsmode_2, rilapitypes/RILSYSTEMSELECTIONPREFSMODE, rilapitypes/RIL_OPSELMODE_MANUAL, rilapitypes/RIL_OPSELMODE_MAX
+ms.date: 2/27/2018
+ms.keywords: RILSYSTEMSELECTIONPREFSMODE, RILSYSTEMSELECTIONPREFSMODE enumeration [Network Drivers Starting with Windows Vista], RIL_OPSELMODE_MANUAL, RIL_OPSELMODE_MAX, netvista.rilsystemselectionprefsmode, ntddrilapitypes/RILSYSTEMSELECTIONPREFSMODE, ntddrilapitypes/RIL_OPSELMODE_MANUAL, ntddrilapitypes/RIL_OPSELMODE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSYSTEMSELECTIONPREFSMODE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

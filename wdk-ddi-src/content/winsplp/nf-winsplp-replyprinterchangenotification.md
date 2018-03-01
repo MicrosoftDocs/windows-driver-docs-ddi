@@ -91,14 +91,14 @@ Optional. If not <b>NULL</b>, it receives spooler-supplied PRINTER_NOTIFY_INFO-p
 Optional. Caller-supplieid address of a PRINTER_NOTIFY_INFO structure (described in the Windows SDK documentation). Can be <b>NULL</b> if no new notification information is being added.
 
 
-#### - hNotify [in]
-
-Caller-supplied handle. This handle must have been previously received as the <i>hNotify</i> input to the print provider's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548837">FindFirstPrinterChangeNotification</a> function.
-
-
 #### - fdwFlags
 
 One or more caller-supplied PRINTER_CHANGE_-prefixed flags, listed in the Microsoft Windows SDK documentation's description of <b>FindNextPrinterChangeNotification</b>.
+
+
+#### - hNotify [in]
+
+Caller-supplied handle. This handle must have been previously received as the <i>hNotify</i> input to the print provider's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548837">FindFirstPrinterChangeNotification</a> function.
 
 
 ## -returns
@@ -127,11 +127,11 @@ For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9ce
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-partialreplyprinterchangenotification.md">PartialReplyPrinterChangeNotification</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548837">FindFirstPrinterChangeNotification</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-partialreplyprinterchangenotification.md">PartialReplyPrinterChangeNotification</a>
 
 
 

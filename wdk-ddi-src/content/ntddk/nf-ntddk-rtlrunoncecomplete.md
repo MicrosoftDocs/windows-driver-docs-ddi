@@ -150,7 +150,7 @@ If the caller specified RTL_RUN_ONCE_ASYNC in the <i>Flags</i> parameter and <b>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a>
+<a href="..\ntddk\nf-ntddk-rtlrunoncebegininitialize.md">RtlRunOnceBeginInitialize</a>
 
 
 
@@ -166,7 +166,7 @@ If the caller specified RTL_RUN_ONCE_ASYNC in the <i>Flags</i> parameter and <b>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlrunoncebegininitialize.md">RtlRunOnceBeginInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a>
 
 
 

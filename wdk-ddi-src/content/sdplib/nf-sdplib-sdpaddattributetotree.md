@@ -96,15 +96,15 @@ Specifies a 4-byte
      <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>.
 
 
+#### - AttribValueNode [in]
+
+Pointer to the SDP node to be added as an attribute.
+
+
 #### - Root [in]
 
 The top level of the SDP record to which the 
      <b>SdpAddAttributeToTree</b> function attaches the SDP attribute node.
-
-
-#### - AttribValueNode [in]
-
-Pointer to the SDP node to be added as an attribute.
 
 
 ## -returns

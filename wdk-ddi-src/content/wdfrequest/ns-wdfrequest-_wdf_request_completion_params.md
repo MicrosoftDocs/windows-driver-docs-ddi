@@ -129,7 +129,7 @@ A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_T
 
 ### -field IoStatus
 
-An <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure for the request.
+An <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure for the request.
 
 
 ### -field Parameters
@@ -271,7 +271,7 @@ The <b>Parameters.Others.Argument</b>  members are custom arguments that a drive
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 
 

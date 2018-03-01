@@ -84,13 +84,6 @@ An <a href="..\ntddk\ns-ntddk-_image_info.md">IMAGE_INFO</a> structure that spec
 Contains a pointer to the file object of the backing file for the image. The driver can take a reference to this object or use it for other operations.
 
 
-### -field _FILE_OBJECT
-
- 
-
-
-
-
 ## -remarks
 
 

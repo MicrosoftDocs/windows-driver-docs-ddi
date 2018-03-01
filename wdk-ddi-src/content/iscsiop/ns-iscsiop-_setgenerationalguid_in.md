@@ -83,11 +83,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
-
-
-
 <a href="..\iscsiop\ns-iscsiop-_setgenerationalguid_out.md">SetGenerationalGuid_OUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
 
 
 

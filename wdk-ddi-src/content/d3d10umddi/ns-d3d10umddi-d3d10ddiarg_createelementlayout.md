@@ -80,15 +80,15 @@ typedef struct D3D10DDIARG_CREATEELEMENTLAYOUT {
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_input_element_desc.md">D3D10DDIARG_INPUT_ELEMENT_DESC</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createelementlayout.md">CreateElementLayout</a>
 
 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateelementlayoutsize.md">CalcPrivateElementLayoutSize</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_input_element_desc.md">D3D10DDIARG_INPUT_ELEMENT_DESC</a>
 
 
 

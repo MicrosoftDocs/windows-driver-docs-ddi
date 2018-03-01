@@ -141,7 +141,7 @@ A driver can register the <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObj
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558906">IWDFDriver::CreateWdfObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560208">IWDFObject::AssignContext</a>
 
 
 
@@ -153,14 +153,6 @@ A driver can register the <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObj
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558905">IWDFDriver::CreateWdfMemory</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560208">IWDFObject::AssignContext</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558902">IWDFDriver::CreatePreallocatedWdfMemory</a>
 
 
@@ -169,11 +161,19 @@ A driver can register the <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObj
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558905">IWDFDriver::CreateWdfMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558906">IWDFDriver::CreateWdfObject</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
 
 
 

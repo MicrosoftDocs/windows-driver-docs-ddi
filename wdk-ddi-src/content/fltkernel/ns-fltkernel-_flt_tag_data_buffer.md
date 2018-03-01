@@ -320,10 +320,6 @@ The FLT_TAG_DATA_BUFFER_HEADER_SIZE macro returns the size of the fixed portion 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
 
 
@@ -333,6 +329,10 @@ The FLT_TAG_DATA_BUFFER_HEADER_SIZE macro returns the size of the fixed portion 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
 
 

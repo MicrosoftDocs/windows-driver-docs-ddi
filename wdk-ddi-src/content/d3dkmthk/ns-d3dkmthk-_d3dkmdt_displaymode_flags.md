@@ -164,11 +164,11 @@ Supported starting with Windows 8.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmdt_mode_pruning_reason.md">D3DKMDT_MODE_PRUNING_REASON</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
+
+
+
+<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmdt_mode_pruning_reason.md">D3DKMDT_MODE_PRUNING_REASON</a>
 
 
 

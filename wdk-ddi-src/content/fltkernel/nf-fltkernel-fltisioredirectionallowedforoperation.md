@@ -116,6 +116,10 @@ If <i>RedirectionAllowed</i> is <b>FALSE</b>, the minifilter needs to allocate a
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltadjustdevicestacksizeforioredirection.md">FltAdjustDeviceStackSizeForIoRedirection</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowed.md">FltIsIoRedirectionAllowed</a>
 
 
@@ -125,10 +129,6 @@ If <i>RedirectionAllowed</i> is <b>FALSE</b>, the minifilter needs to allocate a
 
 
 <a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltadjustdevicestacksizeforioredirection.md">FltAdjustDeviceStackSizeForIoRedirection</a>
 
 
 

@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCALLBARRINGSTATUSPARAMSTYPE
 title: RILCALLBARRINGSTATUSPARAMSTYPE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallbarringstatusparamstype_2.htm
+old-location: netvista\rilcallbarringstatusparamstype.htm
 old-project: netvista
-ms.assetid: ed54bc8d-0cf2-4d6a-935c-b5b2a539eea0
+ms.assetid: 95c15362-227c-4912-9eec-a18fee92f340
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILCALLBARRINGSTATUSPARAMSTYPE, RILCALLBARRINGSTATUSPARAMSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_BARRTYPE_ALL, RIL_BARRTYPE_ALLBARRING, RIL_BARRTYPE_ALLINCOMING, RIL_BARRTYPE_ALLINCOMINGBARRING, RIL_BARRTYPE_ALLOUTGOINGBARRING, RIL_BARRTYPE_INCOMINGNOTINUICC, RIL_BARRTYPE_INCOMINGROAMING, RIL_BARRTYPE_OUTGOINGINT, RIL_BARRTYPE_OUTGOINGINTEXTOHOME, netvista.rilcallbarringstatusparamstype_2, rilapitypes/RILCALLBARRINGSTATUSPARAMSTYPE, rilapitypes/RIL_BARRTYPE_ALL, rilapitypes/RIL_BARRTYPE_ALLBARRING, rilapitypes/RIL_BARRTYPE_ALLINCOMING, rilapitypes/RIL_BARRTYPE_ALLINCOMINGBARRING, rilapitypes/RIL_BARRTYPE_ALLOUTGOINGBARRING, rilapitypes/RIL_BARRTYPE_INCOMINGNOTINUICC, rilapitypes/RIL_BARRTYPE_INCOMINGROAMING, rilapitypes/RIL_BARRTYPE_OUTGOINGINT, rilapitypes/RIL_BARRTYPE_OUTGOINGINTEXTOHOME
+ms.date: 2/27/2018
+ms.keywords: RILCALLBARRINGSTATUSPARAMSTYPE, RILCALLBARRINGSTATUSPARAMSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_BARRTYPE_ALL, RIL_BARRTYPE_ALLBARRING, RIL_BARRTYPE_ALLINCOMING, RIL_BARRTYPE_ALLINCOMINGBARRING, RIL_BARRTYPE_ALLOUTGOINGBARRING, RIL_BARRTYPE_INCOMINGNOTINUICC, RIL_BARRTYPE_INCOMINGROAMING, RIL_BARRTYPE_OUTGOINGINT, RIL_BARRTYPE_OUTGOINGINTEXTOHOME, netvista.rilcallbarringstatusparamstype, ntddrilapitypes/RILCALLBARRINGSTATUSPARAMSTYPE, ntddrilapitypes/RIL_BARRTYPE_ALL, ntddrilapitypes/RIL_BARRTYPE_ALLBARRING, ntddrilapitypes/RIL_BARRTYPE_ALLINCOMING, ntddrilapitypes/RIL_BARRTYPE_ALLINCOMINGBARRING, ntddrilapitypes/RIL_BARRTYPE_ALLOUTGOINGBARRING, ntddrilapitypes/RIL_BARRTYPE_INCOMINGNOTINUICC, ntddrilapitypes/RIL_BARRTYPE_INCOMINGROAMING, ntddrilapitypes/RIL_BARRTYPE_OUTGOINGINT, ntddrilapitypes/RIL_BARRTYPE_OUTGOINGINTEXTOHOME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLBARRINGSTATUSPARAMSTYPE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

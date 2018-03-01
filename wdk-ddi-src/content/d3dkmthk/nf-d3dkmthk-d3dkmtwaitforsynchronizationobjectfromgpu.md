@@ -135,7 +135,7 @@ This function semantics are similar to existing <a href="..\d3dkmthk\nf-d3dkmthk
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforsynchronizationobjectfromgpu.md">D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobject2.md">D3DKMTWaitForSynchronizationObject2</a>
 
 
 
@@ -143,7 +143,7 @@ This function semantics are similar to existing <a href="..\d3dkmthk\nf-d3dkmthk
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobject2.md">D3DKMTWaitForSynchronizationObject2</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforsynchronizationobjectfromgpu.md">D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</a>
 
 
 

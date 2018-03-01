@@ -69,12 +69,12 @@ VOID RtlZeroMemory(
 
 
 
-#### - Destination [out]
+### -param Destination [out]
 
 A pointer to the memory block to be filled with zeros.
 
 
-#### - Length [in]
+### -param Length [in]
 
 The number of bytes to fill with zeros.
 
@@ -92,11 +92,11 @@ Callers of <b>RtlZeroMemory</b> can be running at any IRQL if the destination me
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlsecurezeromemory.md">RtlSecureZeroMemory</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlsecurezeromemory.md">RtlSecureZeroMemory</a>
 
 
 

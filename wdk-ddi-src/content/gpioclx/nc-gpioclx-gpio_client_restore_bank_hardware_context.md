@@ -147,7 +147,7 @@ The GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT function type is defined in the Gp
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
 
 
@@ -155,11 +155,7 @@ The GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT function type is defined in the Gp
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698257">GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS</a>
 
 
 
@@ -167,7 +163,11 @@ The GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT function type is defined in the Gp
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698257">GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
 

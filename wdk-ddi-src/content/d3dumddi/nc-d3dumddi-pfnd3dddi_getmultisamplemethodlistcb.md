@@ -142,11 +142,7 @@ The user-mode display driver typically uses the <b>pfnGetMultisampleMethodListCb
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_getmultisamplemethodlist.md">D3DDDICB_GETMULTISAMPLEMETHODLIST</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
 
 
 
@@ -154,7 +150,7 @@ The user-mode display driver typically uses the <b>pfnGetMultisampleMethodListCb
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_getmultisamplemethodlist.md">D3DDDICB_GETMULTISAMPLEMETHODLIST</a>
 
 
 
@@ -162,7 +158,11 @@ The user-mode display driver typically uses the <b>pfnGetMultisampleMethodListCb
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
 
 
 

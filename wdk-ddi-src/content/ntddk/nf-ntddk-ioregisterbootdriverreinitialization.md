@@ -97,7 +97,7 @@ None
 
 
 
-A boot driver normally calls <b>IoRegisterBootDriverReinitialization</b> from its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine, which is run during boot driver initialization. <b>IoRegisterBootDriverReinitialization</b> registers the driver's reinitialization callback routine to be called by the I/O manager after all devices have been enumerated and started. The <i>DriverReinitializationRoutine</i> is run in a system thread at IRQL = PASSIVE_LEVEL. 
+A boot driver normally calls <b>IoRegisterBootDriverReinitialization</b> from its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine, which is run during boot driver initialization. <b>IoRegisterBootDriverReinitialization</b> registers the driver's reinitialization callback routine to be called by the I/O manager after all devices have been enumerated and started. The <i>DriverReinitializationRoutine</i> is run in a system thread at IRQL = PASSIVE_LEVEL. 
 
 A driver should call <b>IoRegisterBootDriverReinitialization</b> only if its <i>DriverEntry</i> routine will return STATUS_SUCCESS. 
 
@@ -110,15 +110,15 @@ The <i>DriverEntry</i> routine can call <b>IoRegisterBootDriverReinitialization<
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-ioregisterdriverreinitialization.md">IoRegisterDriverReinitialization</a>
+
+
+
 <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a>
 
 
 
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-ioregisterdriverreinitialization.md">IoRegisterDriverReinitialization</a>
 
 
 

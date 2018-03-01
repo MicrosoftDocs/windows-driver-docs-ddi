@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCALLMEDIADIRECTION
 title: RILCALLMEDIADIRECTION
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallmediadirection_2.htm
+old-location: netvista\rilcallmediadirection.htm
 old-project: netvista
-ms.assetid: fcb5f1a4-8673-412e-95ac-5f3ca781411b
+ms.assetid: 8c6b2329-9956-43c1-8a4d-ef9587cf0980
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILCALLMEDIADIRECTION, RILCALLMEDIADIRECTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIADIRECTION_MAX, RIL_CALLMEDIADIRECTION_RX, RIL_CALLMEDIADIRECTION_RXTX, RIL_CALLMEDIADIRECTION_TX, netvista.rilcallmediadirection_2, rilapitypes/RILCALLMEDIADIRECTION, rilapitypes/RIL_CALLMEDIADIRECTION_MAX, rilapitypes/RIL_CALLMEDIADIRECTION_RX, rilapitypes/RIL_CALLMEDIADIRECTION_RXTX, rilapitypes/RIL_CALLMEDIADIRECTION_TX
+ms.date: 2/27/2018
+ms.keywords: RILCALLMEDIADIRECTION, RILCALLMEDIADIRECTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIADIRECTION_MAX, RIL_CALLMEDIADIRECTION_RX, RIL_CALLMEDIADIRECTION_RXTX, RIL_CALLMEDIADIRECTION_TX, netvista.rilcallmediadirection, ntddrilapitypes/RILCALLMEDIADIRECTION, ntddrilapitypes/RIL_CALLMEDIADIRECTION_MAX, ntddrilapitypes/RIL_CALLMEDIADIRECTION_RX, ntddrilapitypes/RIL_CALLMEDIADIRECTION_RXTX, ntddrilapitypes/RIL_CALLMEDIADIRECTION_TX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLMEDIADIRECTION
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

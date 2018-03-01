@@ -105,7 +105,7 @@ For more information about threaded DPCs, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
+<a href="..\wdm\nf-wdm-keremovequeuedpc.md">KeRemoveQueueDpc</a>
 
 
 
@@ -113,7 +113,7 @@ For more information about threaded DPCs, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\wdm\nf-wdm-keremovequeuedpc.md">KeRemoveQueueDpc</a>
+<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 
 
 

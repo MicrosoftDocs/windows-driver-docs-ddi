@@ -7,7 +7,7 @@ old-location: audio\ikeyworddetectoroemadapter_getcapabilities.htm
 old-project: audio
 ms.assetid: 5885E2BB-78DA-46F5-8330-DE8785C61946
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: GetCapabilities method [Audio Devices], GetCapabilities method [Audio Devices], IKeywordDetectorOemAdapter interface, GetCapabilities,IKeywordDetectorOemAdapter.GetCapabilities, IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter interface [Audio Devices], GetCapabilities method, IKeywordDetectorOemAdapter::GetCapabilities, audio.ikeyworddetectoroemadapter_getcapabilities, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::GetCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -177,15 +177,7 @@ The OEMDLL must have internal user independent models for the keywords and langu
 
 ## -see-also
 
-<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957509">IKeywordDetectorOemAdapter::VerifyUserKeyword</a>
-
-
-
-<a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>
+<a href="https://msdn.microsoft.com/91a201a6-06cf-4445-ad62-fdabb3848d51">MFInitMediaTypeFromWaveFormatEx</a>
 
 
 
@@ -193,15 +185,11 @@ The OEMDLL must have internal user independent models for the keywords and langu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957506">IKeywordDetectorOemAdapter::ComputeAndAddUserModelData</a>
+<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
 
 
 
-<a href="https://msdn.microsoft.com/91a201a6-06cf-4445-ad62-fdabb3848d51">MFInitMediaTypeFromWaveFormatEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/05b0941e-03ce-4ced-9022-22b65d1c4b4c">MFCreateMediaType</a>
+<a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>
 
 
 
@@ -209,9 +197,21 @@ The OEMDLL must have internal user independent models for the keywords and langu
 
 
 
- 
+<a href="https://msdn.microsoft.com/05b0941e-03ce-4ced-9022-22b65d1c4b4c">MFCreateMediaType</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957506">IKeywordDetectorOemAdapter::ComputeAndAddUserModelData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957509">IKeywordDetectorOemAdapter::VerifyUserKeyword</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IKeywordDetectorOemAdapter::GetCapabilities method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IKeywordDetectorOemAdapter::GetCapabilities method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

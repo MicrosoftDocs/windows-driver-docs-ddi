@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT
 title: IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT
 author: windows-driver-content
 description: The IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control code is used to request alert information from GNSS_BREADCRUMBING_ALERT_DATA when the breadcrumbing buffer has reached a level at which OS read operations should be performed.
-old-location: sensors\ioctl_gnss_listen_breadcrumbing_alert_.htm
-old-project: sensors
+old-location: gnss\ioctl_gnss_listen_breadcrumbing_alert_.htm
+old-project: gnss
 ms.assetid: 14D396B1-5F55-4902-8986-BD4CC5B2ACC4
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT, IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control code [Sensor Devices], gnssdriver/IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT, sensors.ioctl_gnss_listen_breadcrumbing_alert_
+ms.date: 2/15/2018
+ms.keywords: IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT, IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control code [Sensor Devices], gnss.ioctl_gnss_listen_breadcrumbing_alert_, gnssdriver/IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -129,15 +129,11 @@ Size of the output buffer.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
@@ -145,9 +141,11 @@ Size of the output buffer.
 
 
 
- 
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control code%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
 

@@ -99,11 +99,11 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564046">ReportDiscoveredTargets</a>
-
-
-
 <a href="..\iscsifnd\ns-iscsifnd-_reportdiscoveredtargets2_out.md">ReportDiscoveredTargets2_OUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564046">ReportDiscoveredTargets</a>
 
 
 

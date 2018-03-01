@@ -105,11 +105,11 @@ The minidriver sets these flag values in a <a href="..\ks\ns-ks-ksproperty_posit
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_positions.md">KSPROPERTY_POSITIONS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565185">KSPROPERTY_MEDIASEEKING_POSITIONS</a>
+
+
+
+<a href="..\ks\ns-ks-ksproperty_positions.md">KSPROPERTY_POSITIONS</a>
 
 
 

@@ -96,15 +96,15 @@ Specifies the total size, in bytes, of the responses associated with this D3DHAL
 
 ## -see-also
 
-<a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a>
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
 
 
 
-D3DDP2OP_RESPONSEQUERY
+D3DDP2OP_RESPONSECONTINUE
+
+
+
+<a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a>
 
 
 
@@ -112,7 +112,7 @@ D3DDP2OP_RESPONSEQUERY
 
 
 
-D3DDP2OP_RESPONSECONTINUE
+D3DDP2OP_RESPONSEQUERY
 
 
 

@@ -95,7 +95,7 @@ The  <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_send_opc_information.md">IOCTL
 
 ## -see-also
 
-<a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_opc_info_type.md">CDROM_OPC_INFO_TYPE</a>
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_send_opc_information.md">IOCTL_CDROM_SEND_OPC_INFORMATION</a>
 
 
 
@@ -103,7 +103,7 @@ The  <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_send_opc_information.md">IOCTL
 
 
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_send_opc_information.md">IOCTL_CDROM_SEND_OPC_INFORMATION</a>
+<a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_opc_info_type.md">CDROM_OPC_INFO_TYPE</a>
 
 
 

@@ -234,11 +234,11 @@ Reserved for internal use.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536950">Av61883_AttachFrame</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536956">Av61883_CancelFrame</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536950">Av61883_AttachFrame</a>
 
 
 

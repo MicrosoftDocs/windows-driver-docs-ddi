@@ -115,15 +115,15 @@ The job range is controlled by the <a href="..\printerextension\nn-printerextens
 
 
 
+<a href="https://msdn.microsoft.com/DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0">IPrinterQueueView::SetViewRange</a>
+
+
+
 <a href="..\printerextension\nn-printerextension-iprinterqueueviewevent.md">IPrinterQueueViewEvent</a>
 
 
 
 <a href="..\printerextension\nn-printerextension-iprintjobcollection.md">IPrintJobCollection</a>
-
-
-
-<a href="https://msdn.microsoft.com/DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0">IPrinterQueueView::SetViewRange</a>
 
 
 

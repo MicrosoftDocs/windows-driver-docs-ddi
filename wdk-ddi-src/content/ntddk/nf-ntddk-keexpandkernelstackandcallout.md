@@ -112,11 +112,11 @@ The calling thread must not call the <a href="..\wdm\nf-wdm-psterminatesystemthr
 
 
 
-<a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545494">ExpandedStackCall</a>
+
+
+
+<a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
 
 
 

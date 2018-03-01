@@ -82,7 +82,7 @@ A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/wind
 
 ### -param RegistryPath [in]
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the path name of the registry key for the  GPIO controller driver. This parameter should be the registry path name that was passed to the driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. For more information about driver registry keys, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/overview-of-registry-trees-and-keys">Registry Trees for Devices and Drivers</a>.
+A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the path name of the registry key for the  GPIO controller driver. This parameter should be the registry path name that was passed to the driver's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. For more information about driver registry keys, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/overview-of-registry-trees-and-keys">Registry Trees for Devices and Drivers</a>.
 
 
 ## -returns
@@ -148,11 +148,7 @@ Later, just before the GPIO controller driver unloads, the driver calls the <a h
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439498">GPIO_CLX_UnregisterClient</a>
 
 
 
@@ -160,7 +156,11 @@ Later, just before the GPIO controller driver unloads, the driver calls the <a h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439498">GPIO_CLX_UnregisterClient</a>
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 

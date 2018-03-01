@@ -115,15 +115,11 @@ For more information about D3DFORMAT and D3DMULTISAMPLE_TYPE, see the DirectX SD
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550292">DDSCAPS2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
-
-
-
-<a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
 
 
 
@@ -131,11 +127,15 @@ For more information about D3DFORMAT and D3DMULTISAMPLE_TYPE, see the DirectX SD
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550292">DDSCAPS2</a>
+<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
 
 
 
 <a href="https://msdn.microsoft.com/45c793ed-34e8-4a15-91f4-9a258c1842fd">DdCreateSurface</a>
+
+
+
+<a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
 
 
 

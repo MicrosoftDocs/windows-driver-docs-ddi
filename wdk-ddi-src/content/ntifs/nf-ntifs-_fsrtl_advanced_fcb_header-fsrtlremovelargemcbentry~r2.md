@@ -86,9 +86,9 @@ TBD
 
 
 
-#### - OpaqueMcb [in]
+#### - LargeSectorCount [in]
 
-Pointer to the MCB structure. 
+Number of sectors (VBNs) in the range for which mappings are to be removed. 
 
 
 #### - LargeVbn [in]
@@ -96,9 +96,9 @@ Pointer to the MCB structure.
 Starting virtual block number (VBN) of the range for which mappings are to be removed from the MCB. 
 
 
-#### - LargeSectorCount [in]
+#### - OpaqueMcb [in]
 
-Number of sectors (VBNs) in the range for which mappings are to be removed. 
+Pointer to the MCB structure. 
 
 
 ## -returns
@@ -129,11 +129,15 @@ If a pool allocation failure occurs, <b>FsRtlRemoveLargeMcbEntry</b> raises a ST
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializelargemcb~r1.md">FsRtlInitializeLargeMcb</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb.md">FsRtlUninitializeLargeMcb</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry~r3.md">FsRtlAddLargeMcbEntry</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentryandindex~r3.md">FsRtlLookupLastLargeMcbEntryAndIndex</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentry~r2.md">FsRtlLookupLastLargeMcbEntry</a>
 
 
 
@@ -145,11 +149,15 @@ If a pool allocation failure occurs, <b>FsRtlRemoveLargeMcbEntry</b> raises a ST
 
 
 
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb.md">FsRtlNumberOfRunsInLargeMcb</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlsplitlargemcb~r2.md">FsRtlSplitLargeMcb</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb.md">FsRtlUninitializeLargeMcb</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry~r3.md">FsRtlAddLargeMcbEntry</a>
 
 
 
@@ -157,15 +165,7 @@ If a pool allocation failure occurs, <b>FsRtlRemoveLargeMcbEntry</b> raises a ST
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentry~r2.md">FsRtlLookupLastLargeMcbEntry</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb.md">FsRtlNumberOfRunsInLargeMcb</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentryandindex~r3.md">FsRtlLookupLastLargeMcbEntryAndIndex</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializelargemcb~r1.md">FsRtlInitializeLargeMcb</a>
 
 
 

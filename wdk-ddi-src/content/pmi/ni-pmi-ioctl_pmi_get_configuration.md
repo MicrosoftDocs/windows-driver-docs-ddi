@@ -109,11 +109,6 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_SUCCESS
-
-The WDM driver that supports the PMI interface has completed the IOCTL request successfully.
-
-
 #### -STATUS_BUFFER_TOO_SMALL
 
 The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> is less than the size, in bytes, of a <a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a> structure.
@@ -122,6 +117,11 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member of the <a href="
 #### -STATUS_INVALID_PARAMETER
 
 The initiator-allocated input buffer contains an invalid <a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a> value.
+
+
+#### -STATUS_SUCCESS
+
+The WDM driver that supports the PMI interface has completed the IOCTL request successfully.
 
 
 ## -remarks
@@ -175,11 +175,7 @@ A <a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGUR
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_budgeting_configuration.md">PMI_BUDGETING_CONFIGURATION</a>
-
-
-
-<a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
+<a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a>
 
 
 
@@ -191,15 +187,11 @@ A <a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGUR
 
 
 
-<a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_measurement_configuration.md">PMI_MEASUREMENT_CONFIGURATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="..\pmi\ns-pmi-_pmi_budgeting_configuration.md">PMI_BUDGETING_CONFIGURATION</a>
 
 
 
@@ -207,7 +199,15 @@ A <a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGUR
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="..\pmi\ns-pmi-_pmi_measurement_configuration.md">PMI_MEASUREMENT_CONFIGURATION</a>
+
+
+
+<a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 

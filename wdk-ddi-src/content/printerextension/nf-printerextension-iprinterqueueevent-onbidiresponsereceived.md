@@ -107,11 +107,11 @@ The <i>bstrResponse</i> parameter is formatted according to the schema that is d
 
 
 
-<a href="https://msdn.microsoft.com/E98A121A-514A-4437-A542-E8629697B7EA">IPrinterQueue::SendBidiQuery</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
+
+
+
+<a href="https://msdn.microsoft.com/E98A121A-514A-4437-A542-E8629697B7EA">IPrinterQueue::SendBidiQuery</a>
 
 
 

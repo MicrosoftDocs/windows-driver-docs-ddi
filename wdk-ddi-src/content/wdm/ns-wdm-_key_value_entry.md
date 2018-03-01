@@ -102,11 +102,11 @@ The <b>ValueEntries</b> member of <a href="..\wdm\ns-wdm-_reg_query_multiple_val
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_reg_query_multiple_value_key_information.md">REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+
+
+
+<a href="..\wdm\ns-wdm-_reg_query_multiple_value_key_information.md">REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION</a>
 
 
 

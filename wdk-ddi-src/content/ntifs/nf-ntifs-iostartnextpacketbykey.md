@@ -110,11 +110,11 @@ Callers of <b>IoStartNextPacketByKey</b> must be running at IRQL &lt;= DISPATCH_
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a>
-
-
-
 <a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a>
+
+
+
+<a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a>
 
 
 

@@ -96,6 +96,14 @@ Removing the last OFF input from the gate results in the gate opening and the tr
 
 ## -see-also
 
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateremoveoninputfromand.md">KsGateRemoveOnInputFromAnd</a>
+
+
+
 <a href="..\ks\nf-ks-ksgateaddoffinputtoand.md">KsGateAddOffInputToAnd</a>
 
 
@@ -104,19 +112,11 @@ Removing the last OFF input from the gate results in the gate opening and the tr
 
 
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
 
 
 
 <a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateremoveoninputfromand.md">KsGateRemoveOnInputFromAnd</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
 
 
 

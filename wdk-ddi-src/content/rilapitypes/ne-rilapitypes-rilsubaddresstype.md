@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILSUBADDRESSTYPE
 title: RILSUBADDRESSTYPE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsubaddresstype_2.htm
+old-location: netvista\rilsubaddresstype.htm
 old-project: netvista
-ms.assetid: 5484775b-0c02-4879-a550-a4dc99e577ed
+ms.assetid: 18c4f26a-6463-4157-bd81-6bbb2100eff2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILSUBADDRESSTYPE, RILSUBADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUBADDRTYPE_MAX, RIL_SUBADDRTYPE_USER, netvista.rilsubaddresstype_2, rilapitypes/RILSUBADDRESSTYPE, rilapitypes/RIL_SUBADDRTYPE_MAX, rilapitypes/RIL_SUBADDRTYPE_USER
+ms.date: 2/27/2018
+ms.keywords: RILSUBADDRESSTYPE, RILSUBADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUBADDRTYPE_MAX, RIL_SUBADDRTYPE_USER, netvista.rilsubaddresstype, ntddrilapitypes/RILSUBADDRESSTYPE, ntddrilapitypes/RIL_SUBADDRTYPE_MAX, ntddrilapitypes/RIL_SUBADDRTYPE_USER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSUBADDRESSTYPE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

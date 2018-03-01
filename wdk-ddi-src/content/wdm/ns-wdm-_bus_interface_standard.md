@@ -93,12 +93,12 @@ A pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-A pointer to an <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
+A pointer to an <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
 
 
 ### -field InterfaceDereference
 
-A pointer to an <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
+A pointer to an <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
 
 
 ### -field TranslateBusAddress
@@ -156,15 +156,31 @@ However, if a driver must obtain an adapter object while running at IRQL &gt;= D
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/gg604850">GetBusData</a>
+<a href="..\wdm\nc-wdm-translate_bus_address.md">TranslateBusAddress</a>
+
+
+
+<a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a>
 
 
 
 <a href="https://msdn.microsoft.com/d57c30b8-83bd-41c9-906d-b8c95f8ca54e">IRP_MN_WRITE_CONFIG </a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
+<a href="..\wdm\nc-wdm-get_dma_adapter.md">GetDmaAdapter</a>
 
 
 
@@ -176,27 +192,11 @@ However, if a driver must obtain an adapter object while running at IRQL &gt;= D
 
 
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
-
-
-
-<a href="..\wdm\nc-wdm-translate_bus_address.md">TranslateBusAddress</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a>
-
-
-
 <a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a>
 
 
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
@@ -204,11 +204,11 @@ However, if a driver must obtain an adapter object while running at IRQL &gt;= D
 
 
 
-<a href="..\wdm\nc-wdm-get_dma_adapter.md">GetDmaAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg604850">GetBusData</a>
 
 
 
-<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
 
 
 

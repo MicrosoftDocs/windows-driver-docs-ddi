@@ -88,11 +88,11 @@ File associated with the file object has been opened for delete sharing access.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iochecklinkshareaccess.md">IoCheckLinkShareAccess</a>
-
-
-
 <a href="..\wdm\nf-wdm-iosetlinkshareaccess.md">IoSetLinkShareAccess</a>
+
+
+
+<a href="..\wdm\nf-wdm-iochecklinkshareaccess.md">IoCheckLinkShareAccess</a>
 
 
 

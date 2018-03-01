@@ -236,15 +236,15 @@ Exit:
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfpropertystorefactory.md">IWDFPropertyStoreFactory</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfpropertystorefactory.md">IWDFPropertyStoreFactory</a>
 
 
 

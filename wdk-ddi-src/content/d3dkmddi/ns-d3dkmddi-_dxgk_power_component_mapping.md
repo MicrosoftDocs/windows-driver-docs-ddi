@@ -121,11 +121,11 @@ An identifier of one of the video present targets associated with the VidPN obje
 
 ## -see-also
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_power_component_type.md">DXGK_POWER_COMPONENT_TYPE</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md">DXGK_POWER_RUNTIME_COMPONENT</a>
+
+
+
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_power_component_type.md">DXGK_POWER_COMPONENT_TYPE</a>
 
 
 

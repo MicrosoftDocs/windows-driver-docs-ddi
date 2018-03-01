@@ -90,11 +90,11 @@ One member of the <a href="..\video\ns-video-_video_child_state_configuration.md
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
-
-
-
 <a href="..\video\ns-video-_video_child_state_configuration.md">VIDEO_CHILD_STATE_CONFIGURATION</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
 
 

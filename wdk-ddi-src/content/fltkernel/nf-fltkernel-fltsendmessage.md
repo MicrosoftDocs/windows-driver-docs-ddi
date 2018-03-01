@@ -221,11 +221,11 @@ If <i>Timeout</i> is zero when the minifilter driver is waiting for the reply, t
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541513">FilterSendMessage</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
 
 
 
@@ -233,7 +233,7 @@ If <i>Timeout</i> is zero when the minifilter driver is waiting for the reply, t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
 
 
 

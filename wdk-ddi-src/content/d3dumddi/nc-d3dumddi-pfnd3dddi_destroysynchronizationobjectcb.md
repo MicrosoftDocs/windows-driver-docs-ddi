@@ -133,11 +133,11 @@ This function might also return other HRESULT values.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createsynchronizationobjectcb.md">pfnCreateSynchronizationObjectCb</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroysynchronizationobject.md">D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createsynchronizationobjectcb.md">pfnCreateSynchronizationObjectCb</a>
 
 
 

@@ -114,11 +114,11 @@ The miniport driver must not call <b>AtaPortDeviceBusy</b> from its <a href="htt
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportdeviceready.md">AtaPortDeviceReady</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558992">IdeHwInterrupt</a>
+
+
+
+<a href="..\irb\nf-irb-ataportdeviceready.md">AtaPortDeviceReady</a>
 
 
 

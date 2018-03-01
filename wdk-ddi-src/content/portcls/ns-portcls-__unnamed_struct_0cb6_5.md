@@ -7,7 +7,7 @@ old-location: audio\pcevent_item.htm
 old-project: audio
 ms.assetid: b91a7582-e146-4ded-a6b7-cb77850bfd2c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PPCEVENT_ITEM, PCEVENT_ITEM, PCEVENT_ITEM structure [Audio Devices], PPCEVENT_ITEM, PPCEVENT_ITEM structure pointer [Audio Devices], audio.pcevent_item, audpc-struct_54e5d50f-6902-47d3-8170-3ee459b8dfb8.xml, portcls/PCEVENT_ITEM, portcls/PPCEVENT_ITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -138,17 +138,17 @@ In WDM audio, the target for an event request is either a pin instance or a node
 
 ## -see-also
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
-
-
-
 <a href="..\portcls\ns-portcls-_pcevent_request.md">PCEVENT_REQUEST</a>
 
 
 
- 
+<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PCEVENT_ITEM structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PCEVENT_ITEM structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

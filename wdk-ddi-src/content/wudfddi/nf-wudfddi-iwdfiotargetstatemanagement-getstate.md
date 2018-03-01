@@ -115,11 +115,11 @@ The following code example determines whether a local I/O target is stopped.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560265">IWDFRemoteTarget::GetState</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiotargetstatemanagement.md">IWDFIoTargetStateManagement</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560265">IWDFRemoteTarget::GetState</a>
 
 
 

@@ -129,11 +129,7 @@ To get information about the operating speed of a device attached to a particula
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_port_properties.md">USB_PORT_PROPERTIES</a>
-
-
-
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex_v2.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</a>
 
 
 
@@ -141,11 +137,15 @@ To get information about the operating speed of a device attached to a particula
 
 
 
+<a href="..\usbioctl\ns-usbioctl-_usb_port_properties.md">USB_PORT_PROPERTIES</a>
+
+
+
 <a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
 
 
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex_v2.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</a>
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
 
 
 

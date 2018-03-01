@@ -98,7 +98,7 @@ Drivers for devices that use DMA to transfer data use this structure to obtain t
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+<a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a>
 
 
 
@@ -106,7 +106,7 @@ Drivers for devices that use DMA to transfer data use this structure to obtain t
 
 
 
-<a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a>
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 

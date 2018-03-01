@@ -169,7 +169,7 @@ For more information about creating and installing rendering plug-ins, see <a hr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554178">IPrintOemUI::GetInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553221">IPrintOemPS::GetInfo</a>
 
 
 
@@ -177,7 +177,7 @@ For more information about creating and installing rendering plug-ins, see <a hr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553221">IPrintOemPS::GetInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554178">IPrintOemUI::GetInfo</a>
 
 
 

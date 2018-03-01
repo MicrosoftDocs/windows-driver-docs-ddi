@@ -142,15 +142,15 @@ The surface for which the <i>GetPitch</i> function returns the pitch can be non-
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getpitch.md">D3DDDIARG_GETPITCH</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decryptionblt.md">DecryptionBlt</a>
 
 
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_encryptionblt.md">EncryptionBlt</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getpitch.md">D3DDDIARG_GETPITCH</a>
 
 
 

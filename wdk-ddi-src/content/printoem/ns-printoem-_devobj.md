@@ -127,11 +127,7 @@ The DEVOBJ structure is accessible to graphics DDI hooking functions through the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556181">DrvCompletePDEV</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a>
 
 
 
@@ -139,7 +135,7 @@ The DEVOBJ structure is accessible to graphics DDI hooking functions through the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553215">IPrintOemPS::EnablePDEV</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556181">DrvCompletePDEV</a>
 
 
 
@@ -147,7 +143,11 @@ The DEVOBJ structure is accessible to graphics DDI hooking functions through the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553215">IPrintOemPS::EnablePDEV</a>
 
 
 

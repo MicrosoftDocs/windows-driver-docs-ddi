@@ -176,7 +176,7 @@ An unexpected condition occurred. The core driver is probably in an invalid stat
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelper.md">IPrintCoreHelper</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552955">IPrintCoreHelper::EnumOptions</a>
 
 
 
@@ -184,7 +184,7 @@ An unexpected condition occurred. The core driver is probably in an invalid stat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552955">IPrintCoreHelper::EnumOptions</a>
+<a href="..\prcomoem\nn-prcomoem-iprintcorehelper.md">IPrintCoreHelper</a>
 
 
 

@@ -118,6 +118,14 @@ Reserved for future use. The miniport driver must not use this field.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558998">IdeHwReset</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557462">IdeHwBuildIo</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558992">IdeHwInterrupt</a>
 
 
@@ -126,19 +134,11 @@ Reserved for future use. The miniport driver must not use this field.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557467">IdeHwInitialize</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558998">IdeHwReset</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557462">IdeHwBuildIo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557467">IdeHwInitialize</a>
 
 
 

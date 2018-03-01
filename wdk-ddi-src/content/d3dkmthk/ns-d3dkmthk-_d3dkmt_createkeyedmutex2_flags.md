@@ -94,15 +94,15 @@ This member is reserved and should be set to zero. Setting this member is equiva
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex2.md">D3DKMT_CREATEKEYEDMUTEX2</a>
 
 
 
 <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createkeyedmutex2.md">D3DKMTCreateKeyedMutex2</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
 
 
 

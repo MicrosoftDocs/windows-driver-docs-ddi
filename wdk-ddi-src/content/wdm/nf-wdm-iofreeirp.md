@@ -97,15 +97,11 @@ This routine also releases an IRP allocated with <a href="..\ntddk\nf-ntddk-ioma
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
-
-
-
 <a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
 
 
@@ -114,6 +110,10 @@ This routine also releases an IRP allocated with <a href="..\ntddk\nf-ntddk-ioma
 
 
 <a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
 
 
 

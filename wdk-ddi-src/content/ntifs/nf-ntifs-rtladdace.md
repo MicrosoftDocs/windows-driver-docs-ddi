@@ -199,11 +199,7 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtldeleteace.md">RtlDeleteAce</a>
+<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
 
 
 
@@ -211,11 +207,15 @@ For more information about security and access control, see the Microsoft Window
 
 
 
-<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
-
-
-
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtldeleteace.md">RtlDeleteAce</a>
 
 
 

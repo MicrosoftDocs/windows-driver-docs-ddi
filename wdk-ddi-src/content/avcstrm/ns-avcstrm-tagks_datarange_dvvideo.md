@@ -80,11 +80,11 @@ Specifies the digital video information, for example, sound tracks and video inf
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
-
-
-
 <a href="..\avcstrm\ns-avcstrm-_dvinfo.md">DVINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 

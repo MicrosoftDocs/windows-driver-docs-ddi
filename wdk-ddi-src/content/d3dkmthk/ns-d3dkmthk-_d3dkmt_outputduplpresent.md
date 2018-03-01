@@ -117,11 +117,11 @@ The zero-based identification number of a video present source in a path of a vi
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_outputduplpresentflags.md">D3DKMT_OUTPUTDUPLPRESENTFLAGS</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_rgns.md">D3DKMT_PRESENT_RGNS</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_outputduplpresentflags.md">D3DKMT_OUTPUTDUPLPRESENTFLAGS</a>
 
 
 

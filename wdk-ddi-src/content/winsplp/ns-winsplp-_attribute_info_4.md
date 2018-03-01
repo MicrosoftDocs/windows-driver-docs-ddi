@@ -393,7 +393,7 @@ This structure is available in Windows Vista.
 
 
 
-<a href="..\winppi\nf-winppi-gdiendpageemf.md">GdiEndPageEMF</a>
+<a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
 
 
 
@@ -401,11 +401,11 @@ This structure is available in Windows Vista.
 
 
 
-<a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
-
-
-
 <a href="..\winsplp\nf-winsplp-getjobattributesex.md">GetJobAttributesEx</a>
+
+
+
+<a href="..\winppi\nf-winppi-gdiendpageemf.md">GdiEndPageEMF</a>
 
 
 

@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILRADIOCONFIGURATIONRADIOTYPE
 title: RILRADIOCONFIGURATIONRADIOTYPE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilradioconfigurationradiotype_2.htm
+old-location: netvista\rilradioconfigurationradiotype.htm
 old-project: netvista
-ms.assetid: 5ac7d462-53bb-4540-8889-f2f6c71d4823
+ms.assetid: f4efebb4-0258-44f6-bdf0-ff61d3b13792
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILRADIOCONFIGURATIONRADIOTYPE, RILRADIOCONFIGURATIONRADIOTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_RADIOTYPE_1XCSFB, RIL_RADIOTYPE_DUALACTIVE, RIL_RADIOTYPE_DUALSTANDBY, RIL_RADIOTYPE_MAX, RIL_RADIOTYPE_MULTIMODE, RIL_RADIOTYPE_SGLTE, RIL_RADIOTYPE_SGLTE_DUALACTIVE, RIL_RADIOTYPE_SINGLE, RIL_RADIOTYPE_SRLTE, RIL_RADIOTYPE_SVLTE, RIL_RADIOTYPE_SVLTE_DUALACTIVE, netvista.rilradioconfigurationradiotype_2, rilapitypes/RILRADIOCONFIGURATIONRADIOTYPE, rilapitypes/RIL_RADIOTYPE_1XCSFB, rilapitypes/RIL_RADIOTYPE_DUALACTIVE, rilapitypes/RIL_RADIOTYPE_DUALSTANDBY, rilapitypes/RIL_RADIOTYPE_MAX, rilapitypes/RIL_RADIOTYPE_MULTIMODE, rilapitypes/RIL_RADIOTYPE_SGLTE, rilapitypes/RIL_RADIOTYPE_SGLTE_DUALACTIVE, rilapitypes/RIL_RADIOTYPE_SINGLE, rilapitypes/RIL_RADIOTYPE_SRLTE, rilapitypes/RIL_RADIOTYPE_SVLTE, rilapitypes/RIL_RADIOTYPE_SVLTE_DUALACTIVE
+ms.date: 2/27/2018
+ms.keywords: RILRADIOCONFIGURATIONRADIOTYPE, RILRADIOCONFIGURATIONRADIOTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_RADIOTYPE_1XCSFB, RIL_RADIOTYPE_DUALACTIVE, RIL_RADIOTYPE_DUALSTANDBY, RIL_RADIOTYPE_MAX, RIL_RADIOTYPE_MULTIMODE, RIL_RADIOTYPE_SGLTE, RIL_RADIOTYPE_SGLTE_DUALACTIVE, RIL_RADIOTYPE_SINGLE, RIL_RADIOTYPE_SRLTE, RIL_RADIOTYPE_SVLTE, RIL_RADIOTYPE_SVLTE_DUALACTIVE, netvista.rilradioconfigurationradiotype, ntddrilapitypes/RILRADIOCONFIGURATIONRADIOTYPE, ntddrilapitypes/RIL_RADIOTYPE_1XCSFB, ntddrilapitypes/RIL_RADIOTYPE_DUALACTIVE, ntddrilapitypes/RIL_RADIOTYPE_DUALSTANDBY, ntddrilapitypes/RIL_RADIOTYPE_MAX, ntddrilapitypes/RIL_RADIOTYPE_MULTIMODE, ntddrilapitypes/RIL_RADIOTYPE_SGLTE, ntddrilapitypes/RIL_RADIOTYPE_SGLTE_DUALACTIVE, ntddrilapitypes/RIL_RADIOTYPE_SINGLE, ntddrilapitypes/RIL_RADIOTYPE_SRLTE, ntddrilapitypes/RIL_RADIOTYPE_SVLTE, ntddrilapitypes/RIL_RADIOTYPE_SVLTE_DUALACTIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILRADIOCONFIGURATIONRADIOTYPE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

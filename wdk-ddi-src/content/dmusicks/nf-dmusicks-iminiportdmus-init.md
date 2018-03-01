@@ -7,7 +7,7 @@ old-location: audio\iminiportdmus_init.htm
 old-project: audio
 ms.assetid: 08111f70-d0cc-4abc-8bcd-86683af3eb32
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IMiniportDMus, IMiniportDMus interface [Audio Devices], Init method, IMiniportDMus::Init, Init method [Audio Devices], Init method [Audio Devices], IMiniportDMus interface, Init,IMiniportDMus.Init, audio.iminiportdmus_init, audmp-routines_016b2aed-13f3-4d9a-86c0-fbdbcbf55341.xml, dmusicks/IMiniportDMus::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,30 +126,6 @@ The <i>pUnknownAdapter</i>, <i>pResourceList</i>, <i>pPort</i>, and <i>ppService
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
-
-
-
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
-
-
-<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
-
-
-
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
-
-
-
-<a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a>
-
-
-
 <a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
 
 
@@ -158,9 +134,33 @@ The <i>pUnknownAdapter</i>, <i>pResourceList</i>, <i>pPort</i>, and <i>ppService
 
 
 
- 
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
+
+
+
+<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
+
+
+
+<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportDMus::Init method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportDMus::Init method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -114,10 +114,6 @@ The <b>TRANSACTION_PROPERTIES_INFORMATION</b> structure is used with the <a href
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a>
 
 
@@ -126,11 +122,15 @@ The <b>TRANSACTION_PROPERTIES_INFORMATION</b> structure is used with the <a href
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
+<a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>
 
 
 
 <a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
 
 
 

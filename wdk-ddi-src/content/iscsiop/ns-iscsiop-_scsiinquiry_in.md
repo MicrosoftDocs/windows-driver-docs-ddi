@@ -101,11 +101,11 @@ You must implement this method.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
-<a href="..\hbapiwmi\ns-hbapiwmi-_scsiinquiry_out.md">ScsiInquiry_OUT</a>
 
 
 
@@ -113,7 +113,7 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a>
+<a href="..\iscsiop\ns-iscsiop-_scsiinquiry_out.md">ScsiInquiry_OUT</a>
 
 
 

@@ -269,19 +269,19 @@ You can only install a policy whose policy type specified in the <b>PolicyType</
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsmgmtremovepolicy.md">ClfsMgmtRemovePolicy</a>
-
-
-
-<a href="..\wdm\nf-wdm-clfsmgmtquerypolicy.md">ClfsMgmtQueryPolicy</a>
-
-
-
 <a href="..\wdm\nf-wdm-clfsmgmtinstallpolicy.md">ClfsMgmtInstallPolicy</a>
 
 
 
+<a href="..\wdm\nf-wdm-clfsmgmtremovepolicy.md">ClfsMgmtRemovePolicy</a>
+
+
+
 <a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsmgmtquerypolicy.md">ClfsMgmtQueryPolicy</a>
 
 
 

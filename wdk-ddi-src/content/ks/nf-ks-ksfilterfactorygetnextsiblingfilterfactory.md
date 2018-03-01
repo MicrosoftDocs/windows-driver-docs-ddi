@@ -92,15 +92,15 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetnextsibling.md
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksdevicegetfirstchildfilterfactory.md">KsDeviceGetFirstChildFilterFactory</a>
+
+
+
 <a href="..\ks\nf-ks-ksgetnextsibling.md">KsGetNextSibling</a>
 
 
 
 <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
-
-
-
-<a href="..\ks\nf-ks-ksdevicegetfirstchildfilterfactory.md">KsDeviceGetFirstChildFilterFactory</a>
 
 
 

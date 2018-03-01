@@ -99,7 +99,7 @@ If a call to <b>KeSetPriorityThread</b> resets the thread's priority to a lower 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
+<a href="..\wdm\nf-wdm-kequeryprioritythread.md">KeQueryPriorityThread</a>
 
 
 
@@ -107,7 +107,7 @@ If a call to <b>KeSetPriorityThread</b> resets the thread's priority to a lower 
 
 
 
-<a href="..\wdm\nf-wdm-kequeryprioritythread.md">KeQueryPriorityThread</a>
+<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
 
 
 

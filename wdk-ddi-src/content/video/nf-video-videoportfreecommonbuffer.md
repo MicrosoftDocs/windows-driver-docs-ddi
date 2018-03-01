@@ -119,11 +119,11 @@ Except for <a href="..\video\nf-video-videoportgetcommonbuffer.md">VideoPortGetC
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetcommonbuffer.md">VideoPortGetCommonBuffer</a>
-
-
-
 <a href="..\video\nf-video-videoportreleasecommonbuffer.md">VideoPortReleaseCommonBuffer</a>
+
+
+
+<a href="..\video\nf-video-videoportgetcommonbuffer.md">VideoPortGetCommonBuffer</a>
 
 
 

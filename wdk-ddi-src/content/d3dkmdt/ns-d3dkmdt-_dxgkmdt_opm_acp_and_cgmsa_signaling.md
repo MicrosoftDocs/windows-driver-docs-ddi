@@ -150,11 +150,11 @@ Reserved. Must be set to zero.
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
-
-
-
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_status.md">DXGKMDT_OPM_STATUS</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
 
 
 

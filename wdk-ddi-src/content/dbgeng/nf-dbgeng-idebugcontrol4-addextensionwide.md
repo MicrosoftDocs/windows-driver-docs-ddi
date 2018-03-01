@@ -7,7 +7,7 @@ old-location: debugger\addextensionwide.htm
 old-project: debugger
 ms.assetid: 5c918f44-1ee7-4666-b83a-e13ce02e26db
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: AddExtensionWide method [Windows Debugging], AddExtensionWide method [Windows Debugging], IDebugControl4 interface, AddExtensionWide,IDebugControl4.AddExtensionWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], AddExtensionWide method, IDebugControl4::AddExtensionWide, dbgeng/IDebugControl4::AddExtensionWide, debugger.addextensionwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -127,10 +127,6 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554497">RemoveExtension</a>
 
 
@@ -139,9 +135,13 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::AddExtensionWide method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::AddExtensionWide method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

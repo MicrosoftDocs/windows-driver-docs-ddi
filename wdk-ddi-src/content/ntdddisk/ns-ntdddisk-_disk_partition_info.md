@@ -119,11 +119,11 @@ Specifies the GUID that uniquely identifies the disk. The <b>Gpt</b> member of t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
-
-
-
 <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry_ex.md">DISK_GEOMETRY_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
 
 
 

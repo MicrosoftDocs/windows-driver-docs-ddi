@@ -90,11 +90,11 @@ CLFS collects the buffers pointed to by several <b>CLFS_WRITE_ENTRY</b> structur
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsreserveandappendlogaligned.md">ClfsReserveAndAppendLogAligned</a>
-
-
-
 <a href="..\wdm\nf-wdm-clfsreserveandappendlog.md">ClfsReserveAndAppendLog</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsreserveandappendlogaligned.md">ClfsReserveAndAppendLogAligned</a>
 
 
 

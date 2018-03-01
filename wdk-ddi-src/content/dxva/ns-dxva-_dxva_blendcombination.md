@@ -320,10 +320,6 @@ When the <b>bConfigBlendType</b> member of the DXVA_ConfigAlphaCombine structure
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_configalphacombine.md">DXVA_ConfigAlphaCombine</a>
-
-
-
 <a href="https://msdn.microsoft.com/0038aedc-2e4f-4d89-878f-7f6f751015cc">DdMoCompBeginFrame</a>
 
 
@@ -332,11 +328,15 @@ When the <b>bConfigBlendType</b> member of the DXVA_ConfigAlphaCombine structure
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_configalphacombine.md">DXVA_ConfigAlphaCombine</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
 
 
 

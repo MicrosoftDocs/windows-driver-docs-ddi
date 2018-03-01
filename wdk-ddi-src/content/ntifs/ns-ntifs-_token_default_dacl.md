@@ -87,7 +87,7 @@ The <b>SeQueryInformationToken</b> support routine retrieves the default DACL fo
 
 
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
 
 
 
@@ -95,7 +95,7 @@ The <b>SeQueryInformationToken</b> support routine retrieves the default DACL fo
 
 
 
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
 
 
 

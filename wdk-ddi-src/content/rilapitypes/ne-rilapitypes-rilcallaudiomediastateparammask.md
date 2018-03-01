@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCALLAUDIOMEDIASTATEPARAMMASK
 title: RILCALLAUDIOMEDIASTATEPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallaudiomediastateparammask_2.htm
+old-location: netvista\rilcallaudiomediastateparammask.htm
 old-project: netvista
-ms.assetid: cc13d98b-0516-49bf-b92c-5ed6b1c6b5b2
+ms.assetid: ad016fd6-1fbf-4600-809b-b0a9b368a87b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILCALLAUDIOMEDIASTATEPARAMMASK, RILCALLAUDIOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CALLAUDIO_ALL, RIL_PARAM_CALLAUDIO_FLAGS, RIL_PARAM_CALLAUDIO_QUALITY, netvista.rilcallaudiomediastateparammask_2, rilapitypes/RILCALLAUDIOMEDIASTATEPARAMMASK, rilapitypes/RIL_PARAM_CALLAUDIO_ALL, rilapitypes/RIL_PARAM_CALLAUDIO_FLAGS, rilapitypes/RIL_PARAM_CALLAUDIO_QUALITY
+ms.date: 2/27/2018
+ms.keywords: RILCALLAUDIOMEDIASTATEPARAMMASK, RILCALLAUDIOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CALLAUDIO_ALL, RIL_PARAM_CALLAUDIO_FLAGS, RIL_PARAM_CALLAUDIO_QUALITY, netvista.rilcallaudiomediastateparammask, ntddrilapitypes/RILCALLAUDIOMEDIASTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_CALLAUDIO_ALL, ntddrilapitypes/RIL_PARAM_CALLAUDIO_FLAGS, ntddrilapitypes/RIL_PARAM_CALLAUDIO_QUALITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLAUDIOMEDIASTATEPARAMMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

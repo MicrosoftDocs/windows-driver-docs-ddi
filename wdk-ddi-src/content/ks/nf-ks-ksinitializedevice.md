@@ -113,11 +113,7 @@ Most minidrivers do not call this function directly. Only call <b>KsInitializeDe
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
-
-
-
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
@@ -125,11 +121,11 @@ Most minidrivers do not call this function directly. Only call <b>KsInitializeDe
 
 
 
-<a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
+<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
 
 
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
 
 
 
@@ -141,7 +137,11 @@ Most minidrivers do not call this function directly. Only call <b>KsInitializeDe
 
 
 
-<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
+<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
+
+
+
+<a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
 
 
 

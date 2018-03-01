@@ -7,7 +7,7 @@ old-location: netvista\ndk_fn_query_extension_interface.htm
 old-project: netvista
 ms.assetid: 439C990E-6978-4D0F-8453-6EB2FED1DB77
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: NDK_FN_QUERY_EXTENSION_INTERFACE, NdkQqueryExtensionInterface, NdkQqueryExtensionInterface callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkQqueryExtensionInterface, netvista.ndk_fn_query_extension_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -163,19 +163,7 @@ Each NDK object contains an <i>NdkQqueryExtensionInterface</i> (<i>NDK_FN_QUERY_
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
-
-
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_extension_interface.md">NDK_EXTENSION_INTERFACE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439942">NDK_VERSION</a>
 
 
 
@@ -183,9 +171,21 @@ Each NDK object contains an <i>NdkQqueryExtensionInterface</i> (<i>NDK_FN_QUERY_
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439942">NDK_VERSION</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_QUERY_EXTENSION_INTERFACE callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_QUERY_EXTENSION_INTERFACE callback function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

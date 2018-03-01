@@ -113,11 +113,11 @@ If the string is found, <b>VideoPortScanRom</b> returns <b>TRUE</b>. Otherwise, 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetromimage.md">VideoPortGetRomImage</a>
-
-
-
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
+
+<a href="..\video\nf-video-videoportgetromimage.md">VideoPortGetRomImage</a>
 
 
 

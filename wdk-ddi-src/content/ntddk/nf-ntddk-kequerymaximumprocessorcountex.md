@@ -89,18 +89,18 @@ The value that is returned by <b>KeQueryMaximumProcessorCountEx</b> remains cons
 
 In contrast, the value that is returned by the <a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a> routine can change during runtime as processors are dynamically added to the system.
 
-A related routine, <a href="..\ntddk\nf-ntddk-kequerymaximumprocessorcount.md">KeQueryMaximumProcessorCount</a>, returns a maximum processor count, but this routine, unlike <b>KeQueryMaximumProcessorCountEx</b>, does not accept a group number as an input parameter. In Windows 7 and later versions of the Windows operating system, <b>KeQueryMaximumProcessorCount</b> returns the maximum number of logical processors in group 0, which is compatible with the behavior of this routine in earlier versions of Windows that do not support groups. This behavior ensures that existing drivers that call <b>KeQueryMaximumProcessorCount</b> and that use no group-oriented features will run correctly in multiprocessor systems that have two or more groups. However, drivers that use any group-oriented features in Windows 7 and later versions of the Windows operating system should call <b>KeQueryMaximumProcessorCountEx</b> instead of <b>KeQueryMaximumProcessorCount</b>. 
+A related routine, <a href="..\wdm\nf-wdm-kequerymaximumprocessorcount.md">KeQueryMaximumProcessorCount</a>, returns a maximum processor count, but this routine, unlike <b>KeQueryMaximumProcessorCountEx</b>, does not accept a group number as an input parameter. In Windows 7 and later versions of the Windows operating system, <b>KeQueryMaximumProcessorCount</b> returns the maximum number of logical processors in group 0, which is compatible with the behavior of this routine in earlier versions of Windows that do not support groups. This behavior ensures that existing drivers that call <b>KeQueryMaximumProcessorCount</b> and that use no group-oriented features will run correctly in multiprocessor systems that have two or more groups. However, drivers that use any group-oriented features in Windows 7 and later versions of the Windows operating system should call <b>KeQueryMaximumProcessorCountEx</b> instead of <b>KeQueryMaximumProcessorCount</b>. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-kequerymaximumprocessorcount.md">KeQueryMaximumProcessorCount</a>
-
-
-
 <a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequerymaximumprocessorcount.md">KeQueryMaximumProcessorCount</a>
 
 
 

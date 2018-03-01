@@ -100,15 +100,11 @@ A miniport driver-supplied <a href="..\srb\nc-srb-phw_timer.md">HwScsiTimer</a> 
 
 ## -see-also
 
+<a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiEnableInterruptsCallback</a>
+
+
+
 <a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiDisableInterruptsCallback</a>
-
-
-
-<a href="..\srb\nc-srb-phw_timer.md">HwScsiTimer</a>
-
-
-
-<a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiInterrupt</a>
 
 
 
@@ -116,7 +112,11 @@ A miniport driver-supplied <a href="..\srb\nc-srb-phw_timer.md">HwScsiTimer</a> 
 
 
 
-<a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiEnableInterruptsCallback</a>
+<a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiInterrupt</a>
+
+
+
+<a href="..\srb\nc-srb-phw_timer.md">HwScsiTimer</a>
 
 
 

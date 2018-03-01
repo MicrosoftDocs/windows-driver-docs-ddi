@@ -193,15 +193,15 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
-
-
-
 <a href="..\aux_klib\nf-aux_klib-auxklibgetimageexportdirectory.md">AuxKlibGetImageExportDirectory</a>
 
 
 
-<a href="..\aux_klib\ns-aux_klib-_aux_module_extended_info.md">AUX_MODULE_EXTENDED_INFO</a>
+<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
+
+
+
+<a href="..\aux_klib\ns-aux_klib-_aux_module_basic_info.md">AUX_MODULE_BASIC_INFO</a>
 
 
 
@@ -209,7 +209,7 @@ if (!NT_SUCCESS(status)) {
 
 
 
-<a href="..\aux_klib\ns-aux_klib-_aux_module_basic_info.md">AUX_MODULE_BASIC_INFO</a>
+<a href="..\aux_klib\ns-aux_klib-_aux_module_extended_info.md">AUX_MODULE_EXTENDED_INFO</a>
 
 
 

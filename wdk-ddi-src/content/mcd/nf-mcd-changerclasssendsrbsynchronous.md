@@ -121,7 +121,7 @@ If the IRP fails and the sense request data indicates that the IRP should be ret
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 

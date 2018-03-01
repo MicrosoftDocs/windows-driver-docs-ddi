@@ -89,11 +89,11 @@ Clients retrieve the binding nonce with an <a href="..\ntddcdvd\ni-ntddcdvd-ioct
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_binding_nonce.md">IOCTL_AACS_READ_BINDING_NONCE</a>
-
-
-
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_generate_binding_nonce.md">IOCTL_AACS_GENERATE_BINDING_NONCE</a>
+
+
+
+<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_binding_nonce.md">IOCTL_AACS_READ_BINDING_NONCE</a>
 
 
 

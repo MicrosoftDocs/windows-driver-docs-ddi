@@ -128,11 +128,11 @@ A UMDF driver supplies one of the values of <b>WDF_PNP_CAPABILITY</b> to the <a 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556993">IWDFDeviceInitialize::SetPnpCapability</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556974">IWDFDeviceInitialize::GetPnpCapability</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556993">IWDFDeviceInitialize::SetPnpCapability</a>
 
 
 

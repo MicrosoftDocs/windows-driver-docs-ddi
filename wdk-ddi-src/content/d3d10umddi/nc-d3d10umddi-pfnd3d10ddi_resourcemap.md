@@ -96,21 +96,6 @@ VOID APIENTRY ResourceMap(
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hResource [in]
-
- A handle to the resource to map.
-
-
-#### - Subresource [in]
-
- An index that indicates the subresource to map. 
-
-
 #### - DDIMap [in]
 
  A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map.md">D3D10_DDI_MAP</a>-typed value that indicates the access level to map the subresource to. 
@@ -119,6 +104,21 @@ VOID APIENTRY ResourceMap(
 #### - Flags [in]
 
  A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map_flag.md">D3D10_DDI_MAP_FLAG</a>-typed value that indicates how to map the subresource. 
+
+
+#### - Subresource [in]
+
+ An index that indicates the subresource to map. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
+#### - hResource [in]
+
+ A handle to the resource to map.
 
 
 #### - pMappedSubResource [out]
@@ -411,7 +411,7 @@ For Windows Display Driver Model (WDDM) 1.3 and later drivers, the Microsoft Dir
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map_flag.md">D3D10_DDI_MAP_FLAG</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourceunmap.md">ResourceUnmap</a>
 
 
 
@@ -419,11 +419,7 @@ For Windows Display Driver Model (WDDM) 1.3 and later drivers, the Microsoft Dir
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_mapped_subresource.md">D3D10DDI_MAPPED_SUBRESOURCE</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourceunmap.md">ResourceUnmap</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map_flag.md">D3D10_DDI_MAP_FLAG</a>
 
 
 
@@ -431,15 +427,19 @@ For Windows Display Driver Model (WDDM) 1.3 and later drivers, the Microsoft Dir
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map.md">D3D10_DDI_MAP</a>
 
 
 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_mapped_subresource.md">D3D10DDI_MAPPED_SUBRESOURCE</a>
+
+
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_usage.md">D3D10_DDI_RESOURCE_USAGE</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
 
 

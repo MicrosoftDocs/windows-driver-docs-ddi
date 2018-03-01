@@ -88,11 +88,11 @@ If the <i>RxContext</i> parameter indicates this is asynchronous I/O, then <b>Rx
 
 ## -see-also
 
+<a href="..\rxprocs\nf-rxprocs-rxmapsystembuffer.md">RxMapSystemBuffer</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554591">RxNewMapUserBuffer</a>
-
-
-
-<a href="..\lowio\nf-lowio-rxlowiogetbufferaddress.md">RxLowIoGetBufferAddress</a>
 
 
 
@@ -100,7 +100,7 @@ If the <i>RxContext</i> parameter indicates this is asynchronous I/O, then <b>Rx
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxmapsystembuffer.md">RxMapSystemBuffer</a>
+<a href="..\lowio\nf-lowio-rxlowiogetbufferaddress.md">RxLowIoGetBufferAddress</a>
 
 
 

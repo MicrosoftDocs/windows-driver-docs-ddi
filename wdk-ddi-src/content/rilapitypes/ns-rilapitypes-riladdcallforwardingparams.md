@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILADDCALLFORWARDINGPARAMS
 title: RILADDCALLFORWARDINGPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riladdcallforwardingparams_2.htm
+old-location: netvista\riladdcallforwardingparams.htm
 old-project: netvista
-ms.assetid: 96adad09-fe54-469a-b57d-4df68750968c
+ms.assetid: 8918552d-6a7b-414a-ab0c-a5690f109db4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILADDCALLFORWARDINGPARAMS, RILADDCALLFORWARDINGPARAMS, RILADDCALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.riladdcallforwardingparams_2, rilapitypes/RILADDCALLFORWARDINGPARAMS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILADDCALLFORWARDINGPARAMS, RILADDCALLFORWARDINGPARAMS, RILADDCALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.riladdcallforwardingparams, ntddrilapitypes/RILADDCALLFORWARDINGPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILADDCALLFORWARDINGPARAMS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

@@ -162,7 +162,7 @@ The changes made to the band table by this request are committed to the device a
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a>
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_set_band_security_parameters.md">SET_BAND_SECURITY_PARAMETERS</a>
 
 
 
@@ -170,7 +170,7 @@ The changes made to the band table by this request are committed to the device a
 
 
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_set_band_security_parameters.md">SET_BAND_SECURITY_PARAMETERS</a>
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a>
 
 
 

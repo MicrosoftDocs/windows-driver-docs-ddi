@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCALLWAITINGINFOPARAMMASK
 title: RILCALLWAITINGINFOPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallwaitinginfoparammask_2.htm
+old-location: netvista\rilcallwaitinginfoparammask.htm
 old-project: netvista
-ms.assetid: ed6f3d54-face-43e3-a45f-820c2f8e99cf
+ms.assetid: 18fa3b00-8da7-4c83-a340-1515caffda01
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILCALLWAITINGINFOPARAMMASK, RILCALLWAITINGINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CWI_ALL, RIL_PARAM_CWI_CALLERINFO, RIL_PARAM_CWI_CALLTYPE, netvista.rilcallwaitinginfoparammask_2, rilapitypes/RILCALLWAITINGINFOPARAMMASK, rilapitypes/RIL_PARAM_CWI_ALL, rilapitypes/RIL_PARAM_CWI_CALLERINFO, rilapitypes/RIL_PARAM_CWI_CALLTYPE
+ms.date: 2/27/2018
+ms.keywords: RILCALLWAITINGINFOPARAMMASK, RILCALLWAITINGINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CWI_ALL, RIL_PARAM_CWI_CALLERINFO, RIL_PARAM_CWI_CALLTYPE, netvista.rilcallwaitinginfoparammask, ntddrilapitypes/RILCALLWAITINGINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_CWI_ALL, ntddrilapitypes/RIL_PARAM_CWI_CALLERINFO, ntddrilapitypes/RIL_PARAM_CWI_CALLTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLWAITINGINFOPARAMMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

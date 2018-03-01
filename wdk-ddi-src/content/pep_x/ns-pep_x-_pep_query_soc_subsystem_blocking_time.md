@@ -98,11 +98,11 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186732">PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186740">PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186732">PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification</a>
 
 
 

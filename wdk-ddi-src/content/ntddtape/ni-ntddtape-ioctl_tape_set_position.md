@@ -69,7 +69,7 @@ Moves the current position on the tape to the specified partition and offset, ac
 
 <b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be &gt;= <b>sizeof</b>(TAPE_SET_POSITION). 
 
-The <a href="..\minitape\ns-minitape-_tape_set_position.md">TAPE_SET_POSITION</a> structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> indicates the partition and offset to which the tape is to be moved. 
+The <a href="..\ntddtape\ns-ntddtape-_tape_set_position.md">TAPE_SET_POSITION</a> structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> indicates the partition and offset to which the tape is to be moved. 
 
 If the <b>Immediate</b> member is <b>TRUE</b>, the operation should be asynchronous. 
 
@@ -118,7 +118,7 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 
 
-<a href="..\minitape\ns-minitape-_tape_set_position.md">TAPE_SET_POSITION</a>
+<a href="..\ntddtape\ns-ntddtape-_tape_set_position.md">TAPE_SET_POSITION</a>
 
 
 

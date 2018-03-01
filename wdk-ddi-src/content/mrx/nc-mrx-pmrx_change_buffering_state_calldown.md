@@ -160,11 +160,11 @@ RDBSS ignores the return value from <i>MRxCompleteBufferingStateChangeRequest</i
 
 ## -see-also
 
-<a href="..\mrx\nc-mrx-pmrx_get_connection_id.md">MRxGetConnectionId</a>
-
-
-
 <a href="..\mrx\nc-mrx-pmrx_compute_new_buffering_state.md">MRxComputeNewBufferingState</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_get_connection_id.md">MRxGetConnectionId</a>
 
 
 

@@ -99,7 +99,11 @@ The value of the <b>Format </b>member of the CDROM_SUB_Q_DATA_FORMAT structure t
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_track_isrc.md">SUB_Q_TRACK_ISRC</a>
 
 
 
@@ -107,11 +111,7 @@ The value of the <b>Format </b>member of the CDROM_SUB_Q_DATA_FORMAT structure t
 
 
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
-
-
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_track_isrc.md">SUB_Q_TRACK_ISRC</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
 
 
 

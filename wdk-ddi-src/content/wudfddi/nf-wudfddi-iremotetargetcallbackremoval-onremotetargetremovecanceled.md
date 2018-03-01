@@ -109,7 +109,7 @@ For more information about the <b>OnRemoteTargetRemoveCanceled</b> event callbac
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556900">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556897">IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove</a>
 
 
 
@@ -117,7 +117,7 @@ For more information about the <b>OnRemoteTargetRemoveCanceled</b> event callbac
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556897">IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556900">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete</a>
 
 
 

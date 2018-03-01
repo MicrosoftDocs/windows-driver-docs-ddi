@@ -86,11 +86,11 @@ typedef struct _D3DDDIARG_CREATEOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlay.md">CreateOverlay</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a>
 
 
 

@@ -128,15 +128,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265190">ExTimerCallback</a>
 
 
 
 <a href="..\wdm\ns-wdm-_ext_delete_parameters.md">EXT_DELETE_PARAMETERS</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
 
 
 

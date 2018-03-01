@@ -92,7 +92,7 @@ A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to 
 
 
 
-<b>ExInterlockedPopEntryList</b> performs the same operation as <a href="..\wdm\nf-wdm-popentrylist.md">PopEntryList</a>, but atomically. Do not mix atomic and non-atomic calls on the same list.
+<b>ExInterlockedPopEntryList</b> performs the same operation as <a href="..\wudfwdm\nf-wudfwdm-popentrylist.md">PopEntryList</a>, but atomically. Do not mix atomic and non-atomic calls on the same list.
 
 For more information about using this routine to implement a singly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
 
@@ -103,11 +103,15 @@ The <b>ExInterlockedPopEntryList</b> routine can be called at any IRQL. The stor
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-popentrylist.md">PopEntryList</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-popentrylist.md">PopEntryList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedpopentryslist.md">ExInterlockedPopEntrySList</a>
 
 
 
@@ -116,10 +120,6 @@ The <b>ExInterlockedPopEntryList</b> routine can be called at any IRQL. The stor
 
 
 <a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinterlockedpopentryslist.md">ExInterlockedPopEntrySList</a>
 
 
 

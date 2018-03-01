@@ -152,11 +152,11 @@ For more information about registry filter drivers, see <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmcallbackgetkeyobjectid.md">CmCallbackGetKeyObjectID</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
+<a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
 
 
 
@@ -168,11 +168,11 @@ For more information about registry filter drivers, see <a href="https://msdn.mi
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\wdm\nf-wdm-cmcallbackgetkeyobjectid.md">CmCallbackGetKeyObjectID</a>
 
 
 
-<a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
+<a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
 
 
 

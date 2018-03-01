@@ -116,7 +116,7 @@ A WHEA_PCI_SLOT_NUMBER structure is contained within the <a href="..\ntddk\ns-nt
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_aer_bridge_descriptor.md">WHEA_AER_BRIDGE_DESCRIPTOR</a>
+<a href="..\ntddk\ns-ntddk-_whea_aer_rootport_descriptor.md">WHEA_AER_ROOTPORT_DESCRIPTOR</a>
 
 
 
@@ -124,7 +124,7 @@ A WHEA_PCI_SLOT_NUMBER structure is contained within the <a href="..\ntddk\ns-nt
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_aer_rootport_descriptor.md">WHEA_AER_ROOTPORT_DESCRIPTOR</a>
+<a href="..\ntddk\ns-ntddk-_whea_aer_bridge_descriptor.md">WHEA_AER_BRIDGE_DESCRIPTOR</a>
 
 
 

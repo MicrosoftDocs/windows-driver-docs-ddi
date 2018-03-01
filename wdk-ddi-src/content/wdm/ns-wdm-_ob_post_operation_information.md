@@ -150,7 +150,7 @@ Unlike the <a href="..\wdm\ns-wdm-_ob_pre_operation_information.md">OB_PRE_OPERA
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
+<a href="..\wdm\ns-wdm-_ob_pre_operation_information.md">OB_PRE_OPERATION_INFORMATION</a>
 
 
 
@@ -158,7 +158,7 @@ Unlike the <a href="..\wdm\ns-wdm-_ob_pre_operation_information.md">OB_PRE_OPERA
 
 
 
-<a href="..\wdm\ns-wdm-_ob_pre_operation_information.md">OB_PRE_OPERATION_INFORMATION</a>
+<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
 
 

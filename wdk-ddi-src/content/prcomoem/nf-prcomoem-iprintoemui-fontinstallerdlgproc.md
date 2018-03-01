@@ -156,11 +156,11 @@ If the message received for <i>usMsg</i> is WM_INIT or WM_USER+WM_FI_NAME, <i>lP
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554188">IPrintOemUI::UpdateExternalFonts</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554188">IPrintOemUI::UpdateExternalFonts</a>
 
 
 

@@ -192,7 +192,7 @@ Zero-initializes the counters to be maintained for entries.
 
 </li>
 <li>
-Stores the entry points of the caller-supplied <b><i>Xxx</i>Allocate</b> and <b><i>Xxx</i>Free</b> routines, if any, or sets these entry points to <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> and <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>, respectively.
+Stores the entry points of the caller-supplied <b><i>Xxx</i>Allocate</b> and <b><i>Xxx</i>Free</b> routines, if any, or sets these entry points to <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> and <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>, respectively.
 
 </li>
 <li>
@@ -231,14 +231,6 @@ Callers of <b>ExInitializeNPagedLookasideList</b> can be running at IRQL &lt;= D
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
 
 
@@ -247,11 +239,11 @@ Callers of <b>ExInitializeNPagedLookasideList</b> can be running at IRQL &lt;= D
 
 
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-
-
-
 <a href="..\wdm\nf-wdm-exdeletenpagedlookasidelist.md">ExDeleteNPagedLookasideList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
 
 
 
@@ -259,11 +251,19 @@ Callers of <b>ExInitializeNPagedLookasideList</b> can be running at IRQL &lt;= D
 
 
 
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
+
+
+
 <a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 

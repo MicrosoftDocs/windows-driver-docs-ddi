@@ -197,23 +197,11 @@ Most AV/C functions must be called IRQL = PASSIVE_LEVEL. A few may be called at 
 
 ## -see-also
 
-<a href="..\avc\ni-avc-ioctl_avc_bus_reset.md">IOCTL_AVC_BUS_RESET</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_irb.md">AVC_IRB</a>
-
-
-
 <a href="..\avc\ns-avc-_avc_command_irb.md">AVC_COMMAND_IRB</a>
 
 
 
-<a href="..\avc\ni-avc-ioctl_avc_update_virtual_subunit_info.md">IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO</a>
+<a href="..\avc\ni-avc-ioctl_avc_remove_virtual_subunit_info.md">IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO</a>
 
 
 
@@ -221,7 +209,19 @@ Most AV/C functions must be called IRQL = PASSIVE_LEVEL. A few may be called at 
 
 
 
-<a href="..\avc\ni-avc-ioctl_avc_remove_virtual_subunit_info.md">IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO</a>
+<a href="..\avc\ni-avc-ioctl_avc_bus_reset.md">IOCTL_AVC_BUS_RESET</a>
+
+
+
+<a href="..\avc\ni-avc-ioctl_avc_update_virtual_subunit_info.md">IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_irb.md">AVC_IRB</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
 
 
 

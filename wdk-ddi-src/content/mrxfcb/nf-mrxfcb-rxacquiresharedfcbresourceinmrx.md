@@ -133,11 +133,11 @@ An FCB resource acquired with <b>RxAcquireSharedFcbResourceInMRx </b>should be r
 
 ## -see-also
 
-<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>
-
-
-
 <a href="..\mrxfcb\nf-mrxfcb-rxacquiresharedfcbresourceinmrxex.md">RxAcquireSharedFcbResourceInMRxEx</a>
+
+
+
+<a href="..\mrxfcb\nf-mrxfcb-rxacquireexclusivefcbresourceinmrx.md">RxAcquireExclusiveFcbResourceInMRx</a>
 
 
 
@@ -145,7 +145,7 @@ An FCB resource acquired with <b>RxAcquireSharedFcbResourceInMRx </b>should be r
 
 
 
-<a href="..\mrxfcb\nf-mrxfcb-rxacquireexclusivefcbresourceinmrx.md">RxAcquireExclusiveFcbResourceInMRx</a>
+<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>
 
 
 

@@ -138,11 +138,11 @@ typedef struct DXGI_DDI_ARG_BLT {
 
 
 
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_rotation.md">DXGI_DDI_MODE_ROTATION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538252">BltDXGI</a>
+
+
+
+<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_rotation.md">DXGI_DDI_MODE_ROTATION</a>
 
 
 

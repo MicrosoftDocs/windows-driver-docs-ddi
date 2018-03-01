@@ -108,11 +108,11 @@ For a code example that uses <b>WDF_TIMER_CONFIG_INIT</b>, see <a href="..\wdfti
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
-
-
-
 <a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init_periodic.md">WDF_TIMER_CONFIG_INIT_PERIODIC</a>
+
+
+
+<a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
 
 
 

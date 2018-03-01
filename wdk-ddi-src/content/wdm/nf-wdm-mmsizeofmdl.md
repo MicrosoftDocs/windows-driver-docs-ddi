@@ -99,11 +99,11 @@ Memory for the MDL itself must be allocated from nonpaged pool.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554568">MmInitializeMdl</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554500">MmCreateMdl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554568">MmInitializeMdl</a>
 
 
 

@@ -156,11 +156,11 @@ The FREE_FUNCTION_EX function type is defined in the Wdm.h header file. To more 
 
 
 
-<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-exfreetolookasidelistex.md">ExFreeToLookasideListEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
 
 
 

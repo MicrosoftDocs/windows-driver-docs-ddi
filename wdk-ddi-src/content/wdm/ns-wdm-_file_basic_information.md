@@ -116,15 +116,15 @@ To set the members of this structure, the caller must have FILE_WRITE_ATTRIBUTES
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-
-
-
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
 
 
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 
 

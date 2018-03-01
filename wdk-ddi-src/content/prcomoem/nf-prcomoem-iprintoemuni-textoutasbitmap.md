@@ -190,15 +190,15 @@ The <code>IPrintOemUni::TextOutAsBitmap</code> method is optional. If a renderin
 
 ## -see-also
 
+<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553132">IPrintOemDriverUni::DrvUniTextOut</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
 
 
 

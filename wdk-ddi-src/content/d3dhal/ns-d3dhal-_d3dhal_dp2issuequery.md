@@ -137,7 +137,7 @@ The runtime uses D3DHAL_DP2ISSUEQUERY to identify each query that the driver mus
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+D3DDP2OP_ISSUEQUERY
 
 
 
@@ -145,11 +145,11 @@ The runtime uses D3DHAL_DP2ISSUEQUERY to identify each query that the driver mus
 
 
 
-D3DDP2OP_ISSUEQUERY
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createquery.md">D3DHAL_DP2CREATEQUERY</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 

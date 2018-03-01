@@ -7,7 +7,7 @@ old-location: image\wias_error.htm
 old-project: image
 ms.assetid: e439f130-1b99-4f46-ace5-3456c09a5f67
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IWiaLog_5b3e0d61-e0e5-4385-8256-943e437cee9d.xml, WIAS_ERROR, WIAS_ERROR macro [Imaging Devices], image.wias_error, wiamdef/WIAS_ERROR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,7 +92,7 @@ Specifies a variable argument list, which starts with an ANSI format string that
 
 
 
-This macro is the recommended way to implement error logging on Windows Vista, because unlike <a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LERROR</a>, WIA_ERROR allows error messages to be written to the log file (<i>Wiatrace.log</i>). The <i>Wiatrace.log</i> file is only available in Windows Vista and later versions of the operating system. The utility used to view the contents of this log file is WiaTrcVw.exe.
+This macro is the recommended way to implement error logging on Windows Vista, because unlike <a href="..\wiautil\nf-wiautil-wias_ltrace.md">WIAS_LERROR</a>, WIA_ERROR allows error messages to be written to the log file (<i>Wiatrace.log</i>). The <i>Wiatrace.log</i> file is only available in Windows Vista and later versions of the operating system. The utility used to view the contents of this log file is WiaTrcVw.exe.
 
 To enable tracing in free builds, drivers must define the WIA_DEBUG macro by adding <code>#define WIA_DEBUG</code> before including any of the WIA headers. Tracing is enabled by default in checked and debug builds of the operating system.
 
@@ -115,15 +115,15 @@ This code snippet was taken from <i>Wiadriver.cpp</i>, which is included with th
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wias_assert.md">WIAS_ASSERT</a>
+<a href="..\wiautil\nf-wiautil-wias_trace.md">WIAS_TRACE</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a>
+<a href="..\wiautil\nf-wiautil-wias_assert.md">WIAS_ASSERT</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
+<a href="..\wiautil\nf-wiautil-wias_hresult.md">WIAS_HRESULT</a>
 
 
 
@@ -131,5 +131,5 @@ This code snippet was taken from <i>Wiadriver.cpp</i>, which is included with th
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20WIAS_ERROR macro%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20WIAS_ERROR macro%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

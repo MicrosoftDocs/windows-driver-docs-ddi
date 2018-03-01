@@ -95,11 +95,7 @@ A driver should call <b>KeInitializeDeviceQueue</b> from its <i>AddDevice</i> ro
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
+<a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
 
 
 
@@ -107,7 +103,11 @@ A driver should call <b>KeInitializeDeviceQueue</b> from its <i>AddDevice</i> ro
 
 
 
-<a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
+<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
+
+
+
+<a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
 
 
 

@@ -116,11 +116,11 @@ The operating system-specific port driver can consider a logical unit to be none
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
+<a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
 
 
 
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
+<a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
 
 
 
@@ -128,7 +128,7 @@ The operating system-specific port driver can consider a logical unit to be none
 
 
 
-<a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
 
 
 

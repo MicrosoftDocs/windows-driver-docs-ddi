@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCAPSTYPE
 title: RILCAPSTYPE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcapstype_2.htm
+old-location: netvista\rilcapstype.htm
 old-project: netvista
-ms.assetid: 492436da-9d6f-462b-9c4d-4466cb2f78f6
+ms.assetid: 78f372fc-75b2-47e8-ac3f-818b384c6d97
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILCAPSTYPE, RILCAPSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CAPSTYPE_ARG_LARGEST, RIL_CAPSTYPE_ARG_SMALLEST, RIL_CAPSTYPE_CALLSUPPORT, RIL_CAPSTYPE_MAX, RIL_CAPSTYPE_NITZNOTIFICATION, RIL_CAPSTYPE_PBMAXREAD, RIL_CAPSTYPE_PBSTORELOCATIONS, RIL_CAPSTYPE_PERSOLOCKPWDLENGTH, RIL_CAPSTYPE_RADIOCONFIGURATIONS, RIL_CAPSTYPE_SIGNALQUALITYIMPLEMENTATION, RIL_CAPSTYPE_SMSSUPPORT, netvista.rilcapstype_2, rilapitypes/RILCAPSTYPE, rilapitypes/RIL_CAPSTYPE_ARG_LARGEST, rilapitypes/RIL_CAPSTYPE_ARG_SMALLEST, rilapitypes/RIL_CAPSTYPE_CALLSUPPORT, rilapitypes/RIL_CAPSTYPE_MAX, rilapitypes/RIL_CAPSTYPE_NITZNOTIFICATION, rilapitypes/RIL_CAPSTYPE_PBMAXREAD, rilapitypes/RIL_CAPSTYPE_PBSTORELOCATIONS, rilapitypes/RIL_CAPSTYPE_PERSOLOCKPWDLENGTH, rilapitypes/RIL_CAPSTYPE_RADIOCONFIGURATIONS, rilapitypes/RIL_CAPSTYPE_SIGNALQUALITYIMPLEMENTATION, rilapitypes/RIL_CAPSTYPE_SMSSUPPORT
+ms.date: 2/27/2018
+ms.keywords: RILCAPSTYPE, RILCAPSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CAPSTYPE_ARG_LARGEST, RIL_CAPSTYPE_ARG_SMALLEST, RIL_CAPSTYPE_CALLSUPPORT, RIL_CAPSTYPE_MAX, RIL_CAPSTYPE_NITZNOTIFICATION, RIL_CAPSTYPE_PBMAXREAD, RIL_CAPSTYPE_PBSTORELOCATIONS, RIL_CAPSTYPE_PERSOLOCKPWDLENGTH, RIL_CAPSTYPE_RADIOCONFIGURATIONS, RIL_CAPSTYPE_SIGNALQUALITYIMPLEMENTATION, RIL_CAPSTYPE_SMSSUPPORT, netvista.rilcapstype, ntddrilapitypes/RILCAPSTYPE, ntddrilapitypes/RIL_CAPSTYPE_ARG_LARGEST, ntddrilapitypes/RIL_CAPSTYPE_ARG_SMALLEST, ntddrilapitypes/RIL_CAPSTYPE_CALLSUPPORT, ntddrilapitypes/RIL_CAPSTYPE_MAX, ntddrilapitypes/RIL_CAPSTYPE_NITZNOTIFICATION, ntddrilapitypes/RIL_CAPSTYPE_PBMAXREAD, ntddrilapitypes/RIL_CAPSTYPE_PBSTORELOCATIONS, ntddrilapitypes/RIL_CAPSTYPE_PERSOLOCKPWDLENGTH, ntddrilapitypes/RIL_CAPSTYPE_RADIOCONFIGURATIONS, ntddrilapitypes/RIL_CAPSTYPE_SIGNALQUALITYIMPLEMENTATION, ntddrilapitypes/RIL_CAPSTYPE_SMSSUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCAPSTYPE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILSYSTEMSELECTIONPREFSROAMINGMODE
 title: RILSYSTEMSELECTIONPREFSROAMINGMODE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsystemselectionprefsroamingmode_2.htm
+old-location: netvista\rilsystemselectionprefsroamingmode.htm
 old-project: netvista
-ms.assetid: 7dbb25a5-7bcc-453d-854e-7796acbfd079
+ms.assetid: aa9e1a92-e175-46ce-9f2e-3794e8d96636
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILSYSTEMSELECTIONPREFSROAMINGMODE, RILSYSTEMSELECTIONPREFSROAMINGMODE enumeration [Network Drivers Starting with Windows Vista], RIL_ROAMMODE_AUTOMATIC, RIL_ROAMMODE_DOMESTIC, RIL_ROAMMODE_MAX, netvista.rilsystemselectionprefsroamingmode_2, rilapitypes/RILSYSTEMSELECTIONPREFSROAMINGMODE, rilapitypes/RIL_ROAMMODE_AUTOMATIC, rilapitypes/RIL_ROAMMODE_DOMESTIC, rilapitypes/RIL_ROAMMODE_MAX
+ms.date: 2/27/2018
+ms.keywords: RILSYSTEMSELECTIONPREFSROAMINGMODE, RILSYSTEMSELECTIONPREFSROAMINGMODE enumeration [Network Drivers Starting with Windows Vista], RIL_ROAMMODE_AUTOMATIC, RIL_ROAMMODE_DOMESTIC, RIL_ROAMMODE_MAX, netvista.rilsystemselectionprefsroamingmode, ntddrilapitypes/RILSYSTEMSELECTIONPREFSROAMINGMODE, ntddrilapitypes/RIL_ROAMMODE_AUTOMATIC, ntddrilapitypes/RIL_ROAMMODE_DOMESTIC, ntddrilapitypes/RIL_ROAMMODE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSYSTEMSELECTIONPREFSROAMINGMODE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

@@ -99,7 +99,7 @@ The following flags are supported:
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_zero_data_information.md">FILE_ZERO_DATA_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a>
 
 
 
@@ -107,7 +107,7 @@ The following flags are supported:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a>
+<a href="..\ntifs\ns-ntifs-_file_zero_data_information.md">FILE_ZERO_DATA_INFORMATION</a>
 
 
 

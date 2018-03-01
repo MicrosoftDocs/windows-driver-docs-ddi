@@ -108,15 +108,15 @@ Drivers call  <b>IoRequestDpc</b> from an <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 
 
 <a href="..\wdm\nf-wdm-ioinitializedpcrequest.md">IoInitializeDpcRequest</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 
 
 

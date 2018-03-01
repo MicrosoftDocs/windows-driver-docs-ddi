@@ -119,7 +119,7 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 
 
-<a href="..\wdm\nf-wdm-ioinitializeworkitem.md">IoInitializeWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
 
 
 
@@ -127,7 +127,7 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
+<a href="..\wdm\nf-wdm-ioinitializeworkitem.md">IoInitializeWorkItem</a>
 
 
 

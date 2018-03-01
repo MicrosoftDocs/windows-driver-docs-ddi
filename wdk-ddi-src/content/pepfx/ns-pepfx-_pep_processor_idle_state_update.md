@@ -95,11 +95,11 @@ The <i>Update</i> parameter to the <a href="..\pepfx\nc-pepfx-pofxcallbackupdate
 
 ## -see-also
 
-<a href="..\pepfx\nc-pepfx-pofxcallbackupdateprocessoridlestate.md">UpdateProcessorIdleState</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186824">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a>
+
+
+
+<a href="..\pepfx\nc-pepfx-pofxcallbackupdateprocessoridlestate.md">UpdateProcessorIdleState</a>
 
 
 

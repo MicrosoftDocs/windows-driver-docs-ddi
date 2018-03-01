@@ -107,7 +107,7 @@ Specifies the value to be written to the HBA's register.
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportwriteregisterbufferushort.md">ScsiPortWriteRegisterBufferUshort</a>
+<a href="..\storport\nf-storport-scsiportwriteregisterbufferushort.md">ScsiPortWriteRegisterBufferUshort</a>
 
 
 

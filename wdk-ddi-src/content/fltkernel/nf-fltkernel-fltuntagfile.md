@@ -144,23 +144,7 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_tag_data_buffer.md">FLT_TAG_DATA_BUFFER</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-isreparsetagnamesurrogate.md">IsReparseTagNameSurrogate</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-isreparsetagmicrosoft.md">IsReparseTagMicrosoft</a>
 
 
 
@@ -169,6 +153,22 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-isreparsetagmicrosoft.md">IsReparseTagMicrosoft</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-isreparsetagnamesurrogate.md">IsReparseTagNameSurrogate</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_tag_data_buffer.md">FLT_TAG_DATA_BUFFER</a>
 
 
 

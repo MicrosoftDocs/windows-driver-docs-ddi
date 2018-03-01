@@ -159,6 +159,10 @@ If the driver calls the <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetreque
 
 ## -see-also
 
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 
@@ -172,10 +176,6 @@ If the driver calls the <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetreque
 
 
 <a href="..\sercx\nf-sercx-sercx2initializedeviceinit.md">SerCx2InitializeDeviceInit</a>
-
-
-
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

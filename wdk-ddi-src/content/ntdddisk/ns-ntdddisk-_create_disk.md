@@ -83,23 +83,19 @@ Takes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">P
 
 
 
-#### - Mbr
-
-Contains the signature used to initialize an MBR-style disk partition for the first time. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_MBR. For more information, see <a href="..\ntdddisk\ns-ntdddisk-_create_disk_mbr.md">CREATE_DISK_MBR</a>.
-
-
 #### - Gpt
 
 Contains data used to initialize a GPT-style disk partition for the first time. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_GPT. For more information, see <a href="..\ntdddisk\ns-ntdddisk-_create_disk_gpt.md">CREATE_DISK_GPT</a>. 
 
 
+#### - Mbr
+
+Contains the signature used to initialize an MBR-style disk partition for the first time. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_MBR. For more information, see <a href="..\ntdddisk\ns-ntdddisk-_create_disk_mbr.md">CREATE_DISK_MBR</a>.
+
+
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_create_disk_mbr.md">CREATE_DISK_MBR</a>
-
-
-
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
+<a href="..\ntdddisk\ns-ntdddisk-_create_disk_gpt.md">CREATE_DISK_GPT</a>
 
 
 
@@ -107,7 +103,11 @@ Contains data used to initialize a GPT-style disk partition for the first time. 
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_create_disk_gpt.md">CREATE_DISK_GPT</a>
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
+
+
+
+<a href="..\ntdddisk\ns-ntdddisk-_create_disk_mbr.md">CREATE_DISK_MBR</a>
 
 
 

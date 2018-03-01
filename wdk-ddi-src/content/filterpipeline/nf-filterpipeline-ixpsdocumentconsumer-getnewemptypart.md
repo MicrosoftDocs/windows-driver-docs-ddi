@@ -158,19 +158,7 @@ A filter can create new XPS parts by using the <code>GetNewEmptyPart</code> meth
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a>
-
-
-
-<a href="..\filterpipeline\nn-filterpipeline-ipartprintticket.md">IPartPrintTicket</a>
-
-
-
-<a href="..\filterpipeline\nn-filterpipeline-ipartthumbnail.md">IPartThumbnail</a>
-
-
-
-<a href="..\filterpipeline\nn-filterpipeline-ifixedpage.md">IFixedPage</a>
+<a href="..\filterpipeline\nn-filterpipeline-ifixeddocument.md">IFixedDocument</a>
 
 
 
@@ -178,11 +166,23 @@ A filter can create new XPS parts by using the <code>GetNewEmptyPart</code> meth
 
 
 
+<a href="..\filterpipeline\nn-filterpipeline-ifixedpage.md">IFixedPage</a>
+
+
+
 <a href="..\filterpipeline\nn-filterpipeline-ipartimage.md">IPartImage</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-ifixeddocument.md">IFixedDocument</a>
+<a href="..\filterpipeline\nn-filterpipeline-ipartthumbnail.md">IPartThumbnail</a>
+
+
+
+<a href="..\filterpipeline\nn-filterpipeline-ipartprintticket.md">IPartPrintTicket</a>
+
+
+
+<a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a>
 
 
 

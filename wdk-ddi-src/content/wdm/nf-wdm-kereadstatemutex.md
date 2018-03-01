@@ -95,15 +95,15 @@ For more information about mutex objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+
+
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
 <a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
 
 

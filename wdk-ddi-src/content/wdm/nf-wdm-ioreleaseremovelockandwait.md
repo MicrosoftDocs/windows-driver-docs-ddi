@@ -106,7 +106,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioacquireremovelock.md">IoAcquireRemoveLock</a>
+<a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543341">DispatchPnp</a>
 
 
 
@@ -114,7 +118,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
+<a href="..\wdm\nf-wdm-ioinitializeremovelock.md">IoInitializeRemoveLock</a>
 
 
 
@@ -122,15 +126,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+<a href="..\wdm\nf-wdm-ioacquireremovelock.md">IoAcquireRemoveLock</a>
+
+
+
 <a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioinitializeremovelock.md">IoInitializeRemoveLock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543341">DispatchPnp</a>
 
 
 

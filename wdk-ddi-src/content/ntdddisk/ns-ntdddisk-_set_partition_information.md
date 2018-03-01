@@ -83,11 +83,7 @@ The single byte unsigned value, <i>PartitionType</i>, contained in this structur
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566198">SET_PARTITION_INFORMATION_MBR</a>
+<a href="..\ntdddisk\ns-ntdddisk-_set_partition_information_ex.md">SET_PARTITION_INFORMATION_EX</a>
 
 
 
@@ -95,7 +91,11 @@ The single byte unsigned value, <i>PartitionType</i>, contained in this structur
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_set_partition_information_ex.md">SET_PARTITION_INFORMATION_EX</a>
+<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566198">SET_PARTITION_INFORMATION_MBR</a>
 
 
 

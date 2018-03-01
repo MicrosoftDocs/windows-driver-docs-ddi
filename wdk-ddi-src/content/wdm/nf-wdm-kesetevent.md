@@ -119,11 +119,23 @@ If <i>Wait</i> is set to <b>FALSE</b>, the caller can be running at IRQL &lt;= D
 
 
 
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+
+
+
+<a href="https://go.microsoft.com/fwlink/p/?linkid=838602">Specifying Priority Boosts When Completing I/O Requests</a>
 
 
 
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
 
 
@@ -132,18 +144,6 @@ If <i>Wait</i> is set to <b>FALSE</b>, the caller can be running at IRQL &lt;= D
 
 
 <a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
-
-
-
-<a href="https://go.microsoft.com/fwlink/p/?linkid=838602">Specifying Priority Boosts When Completing I/O Requests</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
 
 

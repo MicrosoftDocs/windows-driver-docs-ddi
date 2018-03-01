@@ -163,11 +163,15 @@ The <b>SCSI_PHYSICAL_ADDRESS</b> type is an operating system-independent data ty
 
 ## -see-also
 
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
+
+
+
 <a href="..\strmini\ns-strmini-_access_range.md">ACCESS_RANGE</a>
 
 
 
-<a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
+<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
 
 
@@ -175,11 +179,7 @@ The <b>SCSI_PHYSICAL_ADDRESS</b> type is an operating system-independent data ty
 
 
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+<a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
 
 
 

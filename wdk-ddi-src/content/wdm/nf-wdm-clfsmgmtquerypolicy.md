@@ -190,11 +190,11 @@ This routine might also return other <a href="https://msdn.microsoft.com/library
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
-
-
-
 <a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a>
+
+
+
+<a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
 
 
 

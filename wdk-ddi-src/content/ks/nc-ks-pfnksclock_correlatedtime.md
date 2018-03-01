@@ -110,19 +110,19 @@ Both time values are specified in 100 nanosecond units.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a>
-
-
-
-<a href="..\ks\ns-ks-ksclock_functiontable.md">KSCLOCK_FUNCTIONTABLE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564466">KSPROPERTY_CLOCK_FUNCTIONTABLE</a>
 
 
 
+<a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a>
+
+
+
 <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+
+
+
+<a href="..\ks\ns-ks-ksclock_functiontable.md">KSCLOCK_FUNCTIONTABLE</a>
 
 
 

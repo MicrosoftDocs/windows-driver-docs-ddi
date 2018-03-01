@@ -228,11 +228,11 @@ For more information about other structure members, see <a href="..\winddiui\ns-
 
 
 
-<a href="..\winppi\nf-winppi-gdiendpageemf.md">GdiEndPageEMF</a>
-
-
-
 <a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
+
+
+
+<a href="..\winppi\nf-winppi-gdiendpageemf.md">GdiEndPageEMF</a>
 
 
 

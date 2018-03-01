@@ -74,11 +74,11 @@ typedef struct D3DDDI_DESTROYPAGINGQUEUE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroypagingqueuecb.md">pfnDestroyPagingQueueCb</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroypagingqueue.md">D3DKMTDestroyPagingQueue</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroypagingqueuecb.md">pfnDestroyPagingQueueCb</a>
 
 
 

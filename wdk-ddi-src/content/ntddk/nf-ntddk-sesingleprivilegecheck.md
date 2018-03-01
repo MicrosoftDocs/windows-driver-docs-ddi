@@ -103,11 +103,11 @@ If <i>PreviousMode</i> is <b>KernelMode</b>, the privilege check always succeeds
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlconvertlongtoluid.md">RtlConvertLongToLuid</a>
-
-
-
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+
+
+<a href="..\wdm\nf-wdm-sevalidsecuritydescriptor.md">SeValidSecurityDescriptor</a>
 
 
 
@@ -115,7 +115,7 @@ If <i>PreviousMode</i> is <b>KernelMode</b>, the privilege check always succeeds
 
 
 
-<a href="..\wdm\nf-wdm-sevalidsecuritydescriptor.md">SeValidSecurityDescriptor</a>
+<a href="..\ntddk\nf-ntddk-rtlconvertlongtoluid.md">RtlConvertLongToLuid</a>
 
 
 

@@ -80,11 +80,11 @@ typedef union _DXVAHDDDI_COLOR {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color_ycbcra.md">DXVAHDDDI_COLOR_YCbCrA</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color_rgba.md">DXVAHDDDI_COLOR_RGBA</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color_ycbcra.md">DXVAHDDDI_COLOR_YCbCrA</a>
 
 
 

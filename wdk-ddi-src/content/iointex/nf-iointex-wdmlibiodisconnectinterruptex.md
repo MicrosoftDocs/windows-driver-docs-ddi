@@ -93,11 +93,11 @@ The driver should configure the device to issue interrupts only when these inter
 
 ## -see-also
 
-<a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a>
-
-
-
 <a href="..\wdm\ns-wdm-_io_disconnect_interrupt_parameters.md">IO_DISCONNECT_INTERRUPT_PARAMETERS</a>
+
+
+
+<a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a>
 
 
 

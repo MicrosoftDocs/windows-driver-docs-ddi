@@ -88,12 +88,12 @@ A ULONG representation of the contents of the PCI_EXPRESS_ROOT_ERROR_COMMAND str
 A single bit that indicates that interrupts are enabled for when a correctable error is reported by any of the devices in the hierarchy that are associated with this root port.
 
 
-#### - NonFatalErrorReportingEnable
+#### - FatalErrorReportingEnable
 
 A single bit that indicates that interrupts are enabled for when a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port.
 
 
-#### - FatalErrorReportingEnable
+#### - NonFatalErrorReportingEnable
 
 A single bit that indicates that interrupts are enabled for when a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port.
 

@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILMSGMWIDETAILLISTPARAMMASK
 title: RILMSGMWIDETAILLISTPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgmwidetaillistparammask_2.htm
+old-location: netvista\rilmsgmwidetaillistparammask.htm
 old-project: netvista
-ms.assetid: 1b0777d4-8977-4dd2-a728-65f0e045efc8
+ms.assetid: cc13eebd-810c-44b0-8909-4a4c3fc5b320
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILMSGMWIDETAILLISTPARAMMASK, RILMSGMWIDETAILLISTPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MWIDETAIL_ALL, RIL_PARAM_MWIDETAIL_DETAILITEMS, RIL_PARAM_MWIDETAIL_NUMDETAILITEMS, RIL_PARAM_MWIDETAIL_REFNUM, netvista.rilmsgmwidetaillistparammask_2, rilapitypes/RILMSGMWIDETAILLISTPARAMMASK, rilapitypes/RIL_PARAM_MWIDETAIL_ALL, rilapitypes/RIL_PARAM_MWIDETAIL_DETAILITEMS, rilapitypes/RIL_PARAM_MWIDETAIL_NUMDETAILITEMS, rilapitypes/RIL_PARAM_MWIDETAIL_REFNUM
+ms.date: 2/27/2018
+ms.keywords: RILMSGMWIDETAILLISTPARAMMASK, RILMSGMWIDETAILLISTPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MWIDETAIL_ALL, RIL_PARAM_MWIDETAIL_DETAILITEMS, RIL_PARAM_MWIDETAIL_NUMDETAILITEMS, RIL_PARAM_MWIDETAIL_REFNUM, netvista.rilmsgmwidetaillistparammask, ntddrilapitypes/RILMSGMWIDETAILLISTPARAMMASK, ntddrilapitypes/RIL_PARAM_MWIDETAIL_ALL, ntddrilapitypes/RIL_PARAM_MWIDETAIL_DETAILITEMS, ntddrilapitypes/RIL_PARAM_MWIDETAIL_NUMDETAILITEMS, ntddrilapitypes/RIL_PARAM_MWIDETAIL_REFNUM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGMWIDETAILLISTPARAMMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

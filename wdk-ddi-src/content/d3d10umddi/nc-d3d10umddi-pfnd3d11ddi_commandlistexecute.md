@@ -83,14 +83,14 @@ VOID APIENTRY CommandListExecute(
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
 #### - hCommandList [in]
 
  A handle to the driver's private data for the command list to run. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
 
 
 ## -returns
@@ -121,7 +121,7 @@ The driver can pass E_OUTOFMEMORY (if the driver runs out of memory) or D3DDDIER
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_threading_caps.md">D3D11DDI_THREADING_CAPS</a>
 
 
 
@@ -129,7 +129,7 @@ The driver can pass E_OUTOFMEMORY (if the driver runs out of memory) or D3DDDIER
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_threading_caps.md">D3D11DDI_THREADING_CAPS</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a>
 
 
 

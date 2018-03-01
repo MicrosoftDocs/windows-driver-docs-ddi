@@ -123,11 +123,11 @@ hr = pIFlush-&gt;FlushData();
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-iprintwritestreamflush.md">IPrintWriteStreamFlush</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554394">IPrintWriteStream::WriteBytes</a>
+
+
+
+<a href="..\filterpipeline\nn-filterpipeline-iprintwritestreamflush.md">IPrintWriteStreamFlush</a>
 
 
 

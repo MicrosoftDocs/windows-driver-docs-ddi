@@ -118,7 +118,7 @@ UNICODE_STRING RTL_CONSTANT_STRING(
 
 <b>RTL_CONSTANT_STRING</b> returns either a string structure or Unicode string structure.
 
-The <b>RTL_CONSTANT_STRING</b> macro replaces the <b>RtlInitAnsiString</b>, <a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>, and <a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a> routines when passing a constant string.
+The <b>RTL_CONSTANT_STRING</b> macro replaces the <b>RtlInitAnsiString</b>, <a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>, and <a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a> routines when passing a constant string.
 
 You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 

@@ -117,15 +117,15 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 ## -see-also
 
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_reinitialize_transport.md">, IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>
+
+
+
 <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
 
 
 
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
-
-
-
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_reinitialize_transport.md">, IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>
 
 
 

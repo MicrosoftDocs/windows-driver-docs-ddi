@@ -132,11 +132,11 @@ If a buffering state request can be processed immediately instead of being queue
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxchangebufferingstate.md">RxChangeBufferingState</a>
-
-
-
 <a href="..\rxprocs\nf-rxprocs-rxindicatechangeofbufferingstate.md">RxIndicateChangeOfBufferingState</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxchangebufferingstate.md">RxChangeBufferingState</a>
 
 
 

@@ -105,7 +105,7 @@ For more information about lookaside lists, see <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a>
+<a href="..\wdm\nf-wdm-exfreetolookasidelistex.md">ExFreeToLookasideListEx</a>
 
 
 
@@ -113,7 +113,7 @@ For more information about lookaside lists, see <a href="https://msdn.microsoft.
 
 
 
-<a href="..\wdm\nf-wdm-exfreetolookasidelistex.md">ExFreeToLookasideListEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a>
 
 
 

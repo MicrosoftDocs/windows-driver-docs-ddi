@@ -236,19 +236,19 @@ If the passed security descriptor includes a group, it is assigned as the new ob
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iogetfileobjectgenericmapping.md">IoGetFileObjectGenericMapping</a>
-
-
-
 <a href="..\wdm\nf-wdm-sedeassignsecurity.md">SeDeassignSecurity</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
 <a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iogetfileobjectgenericmapping.md">IoGetFileObjectGenericMapping</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 

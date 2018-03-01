@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<b>BLOCK_DEVICE_TOKEN_DESCRIPTOR</b> contains the token returned from a the POPULATE TOKEN command for an offload read data operation. The token information is included as part of the <a href="..\minitape\ns-minitape-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a> structure.
+<b>BLOCK_DEVICE_TOKEN_DESCRIPTOR</b> contains the token returned from a the POPULATE TOKEN command for an offload read data operation. The token information is included as part of the <a href="..\storport\ns-storport-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a> structure.
 
 
 ## -syntax
@@ -81,7 +81,7 @@ A data value defining a token as a point-in-time representation of data (ROD) fo
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a>
+<a href="..\storport\ns-storport-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a>
 
 
 

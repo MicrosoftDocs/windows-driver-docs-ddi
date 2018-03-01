@@ -158,15 +158,11 @@ Camera minidrivers that must be backward compatible with the original USBCAMD li
 
 ## -see-also
 
-<a href="..\usbcamdi\nf-usbcamdi-usbcamd_initializenewinterface.md">USBCAMD_InitializeNewInterface</a>
+<a href="..\usbcamdi\nc-usbcamdi-pcam_allocate_bw_routine_ex.md">CamAllocateBandwidthEx</a>
 
 
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine_ex.md">CamNewVideoFrameEx</a>
-
-
-
-<a href="..\usbcamdi\nc-usbcamdi-pcam_start_capture_routine_ex.md">CamStartCaptureEx</a>
+<a href="..\usbcamdi\nc-usbcamdi-pcam_configure_routine_ex.md">CamConfigureEx</a>
 
 
 
@@ -174,7 +170,7 @@ Camera minidrivers that must be backward compatible with the original USBCAMD li
 
 
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_free_bw_routine_ex.md">CamFreeBandwidthEx</a>
+<a href="..\usbcamdi\nc-usbcamdi-pcam_initialize_routine.md">CamInitialize</a>
 
 
 
@@ -182,7 +178,15 @@ Camera minidrivers that must be backward compatible with the original USBCAMD li
 
 
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine_ex.md">CamProcessRawVideoFrameEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557635">CamSaveState</a>
+
+
+
+<a href="..\usbcamdi\nc-usbcamdi-pcam_start_capture_routine_ex.md">CamStartCaptureEx</a>
+
+
+
+<a href="..\usbcamdi\nf-usbcamdi-usbcamd_initializenewinterface.md">USBCAMD_InitializeNewInterface</a>
 
 
 
@@ -190,15 +194,7 @@ Camera minidrivers that must be backward compatible with the original USBCAMD li
 
 
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_allocate_bw_routine_ex.md">CamAllocateBandwidthEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557635">CamSaveState</a>
-
-
-
-<a href="..\usbcamdi\nc-usbcamdi-pcam_initialize_routine.md">CamInitialize</a>
+<a href="..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine_ex.md">CamNewVideoFrameEx</a>
 
 
 
@@ -206,7 +202,11 @@ Camera minidrivers that must be backward compatible with the original USBCAMD li
 
 
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_configure_routine_ex.md">CamConfigureEx</a>
+<a href="..\usbcamdi\nc-usbcamdi-pcam_free_bw_routine_ex.md">CamFreeBandwidthEx</a>
+
+
+
+<a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine_ex.md">CamProcessRawVideoFrameEx</a>
 
 
 

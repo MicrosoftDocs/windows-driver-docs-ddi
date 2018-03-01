@@ -88,7 +88,7 @@ A pointer to the MDL that is to be mapped. This MDL must describe physical pages
 
 ### -param CacheType [in]
 
-Specifies the <a href="..\miniport\ne-miniport-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value to use to create the mapping.
+Specifies the <a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value to use to create the mapping.
 
 
 ## -returns
@@ -131,15 +131,7 @@ The routine uses the <i>CacheType</i> parameter only if the pages that are descr
 
 ## -see-also
 
-<a href="..\miniport\ne-miniport-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmunmapreservedmapping.md">MmUnmapReservedMapping</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+<a href="..\wdm\nf-wdm-mmallocatepagesformdlex.md">MmAllocatePagesForMdlEx</a>
 
 
 
@@ -147,11 +139,11 @@ The routine uses the <i>CacheType</i> parameter only if the pages that are descr
 
 
 
+<a href="..\wdm\nf-wdm-mmunmapreservedmapping.md">MmUnmapReservedMapping</a>
+
+
+
 <a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmallocatepagesformdlex.md">MmAllocatePagesForMdlEx</a>
 
 
 
@@ -160,6 +152,14 @@ The routine uses the <i>CacheType</i> parameter only if the pages that are descr
 
 
 <a href="..\wdm\nf-wdm-mmallocatemappingaddress.md">MmAllocateMappingAddress</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+
+
+
+<a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
 
 

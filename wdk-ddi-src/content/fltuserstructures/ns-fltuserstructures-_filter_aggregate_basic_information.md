@@ -188,7 +188,7 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540488">FilterFindNext</a>
+<a href="..\fltuserstructures\ns-fltuserstructures-_filter_full_information.md">FILTER_FULL_INFORMATION</a>
 
 
 
@@ -196,11 +196,11 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540481">FilterFindClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540488">FilterFindNext</a>
 
 
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_standard_information.md">FILTER_AGGREGATE_STANDARD_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540485">FilterFindFirst</a>
 
 
 
@@ -212,11 +212,11 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_full_information.md">FILTER_FULL_INFORMATION</a>
+<a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_standard_information.md">FILTER_AGGREGATE_STANDARD_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540485">FilterFindFirst</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540481">FilterFindClose</a>
 
 
 

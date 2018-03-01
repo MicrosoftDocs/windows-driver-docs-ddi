@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILDMCONFIGINFOTYPE
 title: RILDMCONFIGINFOTYPE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rildmconfiginfotype_2.htm
+old-location: netvista\rildmconfiginfotype.htm
 old-project: netvista
-ms.assetid: 86f09204-5f4a-412d-a10b-4692e159ca1b
+ms.assetid: c6dc14a5-59de-42dd-9e45-99f632bf6a57
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILDMCONFIGINFOTYPE, RILDMCONFIGINFOTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_DMCV_TYPE_BOOLEAN, RIL_DMCV_TYPE_DWORD, RIL_DMCV_TYPE_MAX, RIL_DMCV_TYPE_STRING, netvista.rildmconfiginfotype_2, rilapitypes/RILDMCONFIGINFOTYPE, rilapitypes/RIL_DMCV_TYPE_BOOLEAN, rilapitypes/RIL_DMCV_TYPE_DWORD, rilapitypes/RIL_DMCV_TYPE_MAX, rilapitypes/RIL_DMCV_TYPE_STRING
+ms.date: 2/27/2018
+ms.keywords: RILDMCONFIGINFOTYPE, RILDMCONFIGINFOTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_DMCV_TYPE_BOOLEAN, RIL_DMCV_TYPE_DWORD, RIL_DMCV_TYPE_MAX, RIL_DMCV_TYPE_STRING, netvista.rildmconfiginfotype, ntddrilapitypes/RILDMCONFIGINFOTYPE, ntddrilapitypes/RIL_DMCV_TYPE_BOOLEAN, ntddrilapitypes/RIL_DMCV_TYPE_DWORD, ntddrilapitypes/RIL_DMCV_TYPE_MAX, ntddrilapitypes/RIL_DMCV_TYPE_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILDMCONFIGINFOTYPE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

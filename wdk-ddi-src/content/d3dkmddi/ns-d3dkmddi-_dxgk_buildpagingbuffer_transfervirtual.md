@@ -124,15 +124,15 @@ The GPU virtual address of the page table that  is used to map the <b>Destinatio
 
 ## -see-also
 
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_memory_transfer_direction.md">DXGK_MEMORY_TRANSFER_DIRECTION</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_transfervirtualflags.md">DXGK_TRANSFERVIRTUALFLAGS</a>
 
 
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
-
-
-
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_memory_transfer_direction.md">DXGK_MEMORY_TRANSFER_DIRECTION</a>
 
 
 

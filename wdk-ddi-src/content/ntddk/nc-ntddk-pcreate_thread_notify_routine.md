@@ -109,11 +109,11 @@ The driver's thread-notify routine runs at IRQL = PASSIVE_LEVEL or APC_LEVEL. Wh
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutineex.md">PsSetCreateThreadNotifyRoutineEx</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
 
 
 

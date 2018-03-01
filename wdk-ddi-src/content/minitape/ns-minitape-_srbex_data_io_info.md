@@ -208,7 +208,7 @@ This member is present starting with Windows 8.1 Update.
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 

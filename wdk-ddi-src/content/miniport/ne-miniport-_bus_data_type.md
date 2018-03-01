@@ -156,7 +156,7 @@ Indicates the upper limit of the bus configuration space types.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
 
 
 
@@ -164,7 +164,7 @@ Indicates the upper limit of the bus configuration space types.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
 
 
 

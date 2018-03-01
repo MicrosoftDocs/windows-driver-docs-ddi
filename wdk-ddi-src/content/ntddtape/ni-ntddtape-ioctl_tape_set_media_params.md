@@ -68,7 +68,7 @@ Resets the block size of the media in the drive.
 ### -input-buffer
 
 
-       The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="..\minitape\ns-minitape-_tape_set_media_parameters.md">TAPE_SET_MEDIA_PARAMETERS</a> structure containing the block size to be set. 
+       The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="..\ntddtape\ns-ntddtape-_tape_set_media_parameters.md">TAPE_SET_MEDIA_PARAMETERS</a> structure containing the block size to be set. 
 
 
 ### -input-buffer-length
@@ -111,7 +111,7 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_tape_set_media_parameters.md">TAPE_SET_MEDIA_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567953">TapeMiniSetMediaParameters</a>
 
 
 
@@ -119,7 +119,7 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567953">TapeMiniSetMediaParameters</a>
+<a href="..\ntddtape\ns-ntddtape-_tape_set_media_parameters.md">TAPE_SET_MEDIA_PARAMETERS</a>
 
 
 

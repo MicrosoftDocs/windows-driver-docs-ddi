@@ -93,11 +93,11 @@ The <a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a> routine uses the <b>KEY
 
 
 
-<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
-
-
-
 <a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
 
 
 
@@ -109,7 +109,7 @@ The <a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a> routine uses the <b>KEY
 
 
 
-<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
+<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
 
 
 

@@ -120,11 +120,11 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedexchangepointer.md">InterlockedExchangePointer</a>
-
-
-
 <a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedexchangepointer.md">InterlockedExchangePointer</a>
 
 
 

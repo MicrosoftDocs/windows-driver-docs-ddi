@@ -305,7 +305,7 @@ Valid combinations of <i>IntraMacroblock</i>, <i>MotionForward</i>, <i>MotionBac
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
+<a href="..\dxva\ns-dxva-_dxva_mvvalue.md">DXVA_MVvalue</a>
 
 
 
@@ -313,7 +313,7 @@ Valid combinations of <i>IntraMacroblock</i>, <i>MotionForward</i>, <i>MotionBac
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
+<a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
 
 
 
@@ -321,7 +321,7 @@ Valid combinations of <i>IntraMacroblock</i>, <i>MotionForward</i>, <i>MotionBac
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_mvvalue.md">DXVA_MVvalue</a>
+<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
 
 
 

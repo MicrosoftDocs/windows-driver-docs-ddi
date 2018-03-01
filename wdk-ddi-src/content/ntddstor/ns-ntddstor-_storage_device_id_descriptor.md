@@ -109,11 +109,11 @@ The device descriptor consists of an array of device IDs taken from the SCSI-3 v
 
 
 
-<a href="..\ntddstor\ns-ntddstor-_storage_descriptor_header.md">STORAGE_DESCRIPTOR_HEADER</a>
-
-
-
 <a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddstor\ns-ntddstor-_storage_descriptor_header.md">STORAGE_DESCRIPTOR_HEADER</a>
 
 
 

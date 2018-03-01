@@ -119,11 +119,11 @@ If <b>KeSetSystemAffinityThreadEx</b> is called at IRQL &lt;= APC_LEVEL and the 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kesetsystemaffinitythread.md">KeSetSystemAffinityThread</a>
+
+
+
 <a href="..\wdm\nf-wdm-kereverttouseraffinitythreadex.md">KeRevertToUserAffinityThreadEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
 
 
@@ -131,7 +131,7 @@ If <b>KeSetSystemAffinityThreadEx</b> is called at IRQL &lt;= APC_LEVEL and the 
 
 
 
-<a href="..\wdm\nf-wdm-kesetsystemaffinitythread.md">KeSetSystemAffinityThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
 
 

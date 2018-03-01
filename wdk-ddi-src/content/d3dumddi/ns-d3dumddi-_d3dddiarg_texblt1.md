@@ -104,11 +104,11 @@ A value that specifies characteristics of a copy operation as a bitwise OR of th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 
 

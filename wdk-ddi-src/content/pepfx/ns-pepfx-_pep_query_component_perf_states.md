@@ -101,7 +101,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_perf_state.md">PEP_PERF_STATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186842">PEP_DPM_QUERY_COMPONENT_PERF_STATES</a>
 
 
 
@@ -109,7 +109,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186842">PEP_DPM_QUERY_COMPONENT_PERF_STATES</a>
+<a href="..\pepfx\ns-pepfx-_pep_perf_state.md">PEP_PERF_STATE</a>
 
 
 

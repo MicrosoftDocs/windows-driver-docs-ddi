@@ -7,7 +7,7 @@ old-location: image\wiaustrw2c.htm
 old-project: image
 ms.assetid: 53657c26-5007-4c8e-aadf-5d464f1222d2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: image.wiaustrw2c, wiauFncs_e97643cb-071d-48bb-82b9-98244bd4284b.xml, wiauStrW2C, wiauStrW2C function [Imaging Devices], wiautil/wiauStrW2C
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,7 +96,7 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaustrc2w.md">wiauStrC2W</a>
+<a href="..\wiautil\nf-wiautil-wiaustrc2c.md">wiauStrC2C</a>
 
 
 
@@ -104,7 +104,7 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaustrc2c.md">wiauStrC2C</a>
+<a href="..\wiautil\nf-wiautil-wiaustrc2w.md">wiauStrC2W</a>
 
 
 
@@ -112,5 +112,5 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiauStrW2C function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiauStrW2C function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

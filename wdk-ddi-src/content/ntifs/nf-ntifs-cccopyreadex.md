@@ -136,7 +136,7 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
+<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
 
 
 
@@ -148,7 +148,7 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
+<a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
 
 
 

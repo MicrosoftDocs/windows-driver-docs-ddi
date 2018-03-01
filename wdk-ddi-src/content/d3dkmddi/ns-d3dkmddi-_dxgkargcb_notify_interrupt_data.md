@@ -594,24 +594,9 @@ An array of 32-bit values that are reserved for future use.
 Supported starting with Windows 8.
 
 
-#### - VidPnTargetId
+#### - GpuClockCounter
 
-The zero-based identification number of the video present target in a path of a video present network (VidPN) topology. This number represents the video present target where the vertical sync occurs.
-
-
-#### - PhysicalAdapterMask
-
-The physical adapter mask where the vertical sync occurs. If this member contains a valid value, the driver must also set the ValidPhysicalAdapterMask bit-field flag in the Flags member.
-
-
-#### - MultiPlaneOverlayVsyncInfoCount
-
-The number of overlay planes that are available to display.
-
-
-#### - pMultiPlaneOverlayVsyncInfo
-
-A pointer to a DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure that specifies information for each overlay plane updated by the VSync.
+The GPU clock counter at the time of the VSYNC interrupt. Combined with GpuFrequency, this indicates the time of the VSYNC interrupt. 
 
 
 #### - GpuFrequency
@@ -619,9 +604,24 @@ A pointer to a DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure that specifies info
 The frequency of the GPU clock counter. 
 
 
-#### - GpuClockCounter
+#### - MultiPlaneOverlayVsyncInfoCount
 
-The GPU clock counter at the time of the VSYNC interrupt. Combined with GpuFrequency, this indicates the time of the VSYNC interrupt. 
+The number of overlay planes that are available to display.
+
+
+#### - PhysicalAdapterMask
+
+The physical adapter mask where the vertical sync occurs. If this member contains a valid value, the driver must also set the ValidPhysicalAdapterMask bit-field flag in the Flags member.
+
+
+#### - VidPnTargetId
+
+The zero-based identification number of the video present target in a path of a video present network (VidPN) topology. This number represents the video present target where the vertical sync occurs.
+
+
+#### - pMultiPlaneOverlayVsyncInfo
+
+A pointer to a DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure that specifies information for each overlay plane updated by the VSync.
 
 
 ## -remarks
@@ -635,7 +635,7 @@ Depending on the value in the <b>InterruptType</b> member, the display miniport 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_vsync_info.md">DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a>
 
 
 
@@ -643,11 +643,7 @@ Depending on the value in the <b>InterruptType</b> member, the display miniport 
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md">DXGK_MIRACAST_CHUNK_INFO</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_vsync_info.md">DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO</a>
 
 
 
@@ -655,7 +651,11 @@ Depending on the value in the <b>InterruptType</b> member, the display miniport 
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md">DXGK_MIRACAST_CHUNK_INFO</a>
 
 
 
@@ -663,11 +663,11 @@ Depending on the value in the <b>InterruptType</b> member, the display miniport 
 
 
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
+
+
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgk_page_fault_flags.md">DXGK_PAGE_FAULT_FLAGS</a>
-
-
-
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
 
 
 

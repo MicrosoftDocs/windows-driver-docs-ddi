@@ -144,31 +144,7 @@ After <b>FltPerformSynchronousIo</b> returns, the caller can reissue the I/O ope
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltperformasynchronousio.md">FltPerformAsynchronousIo</a>
+<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
 
 
 
@@ -180,10 +156,6 @@ After <b>FltPerformSynchronousIo</b> returns, the caller can reissue the I/O ope
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltfreecallbackdata.md">FltFreeCallbackData</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>
 
 
@@ -192,7 +164,15 @@ After <b>FltPerformSynchronousIo</b> returns, the caller can reissue the I/O ope
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
 
 
 
@@ -200,7 +180,27 @@ After <b>FltPerformSynchronousIo</b> returns, the caller can reissue the I/O ope
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
+<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfreecallbackdata.md">FltFreeCallbackData</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltperformasynchronousio.md">FltPerformAsynchronousIo</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
 
 
 

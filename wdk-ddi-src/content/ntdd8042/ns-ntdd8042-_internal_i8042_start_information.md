@@ -95,11 +95,11 @@ This structure is used with <a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i804
 
 ## -see-also
 
-<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_keyboard_start_information.md">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a>
-
-
-
 <a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_mouse_start_information.md">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a>
+
+
+
+<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_keyboard_start_information.md">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a>
 
 
 

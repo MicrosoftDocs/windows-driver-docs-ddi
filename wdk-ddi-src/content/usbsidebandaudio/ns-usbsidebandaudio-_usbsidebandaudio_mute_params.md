@@ -7,7 +7,7 @@ old-location: audio\usbsidebandaudio_mute_params.htm
 old-project: audio
 ms.assetid: 11FA1378-335A-402A-867C-F509D61153CA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PUSBSIDEBANDAUDIO_MUTE_PARAMS, PUSBSIDEBANDAUDIO_MUTE_PARAMS, PUSBSIDEBANDAUDIO_MUTE_PARAMS structure pointer [Audio Devices], USBSIDEBANDAUDIO_MUTE_PARAMS, USBSIDEBANDAUDIO_MUTE_PARAMS structure [Audio Devices], _USBSIDEBANDAUDIO_MUTE_PARAMS, audio.usbsidebandaudio_mute_params, usbsidebandaudio/PUSBSIDEBANDAUDIO_MUTE_PARAMS, usbsidebandaudio/USBSIDEBANDAUDIO_MUTE_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

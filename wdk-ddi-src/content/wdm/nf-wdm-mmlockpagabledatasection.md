@@ -119,7 +119,11 @@ For more information about paging data, see <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
+<a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
 
 
 
@@ -127,15 +131,11 @@ For more information about paging data, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
+<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
 
 
 
 <a href="..\wdm\nf-wdm-mmunlockpagableimagesection.md">MmUnlockPagableImageSection</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
 
 
 

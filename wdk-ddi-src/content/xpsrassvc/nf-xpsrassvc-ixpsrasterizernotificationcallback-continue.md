@@ -113,7 +113,7 @@ For an example implementation of the <code>Continue</code> method, see the XpsRa
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554295">IPrintPipelineFilter::ShutdownOperation</a>
+<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizernotificationcallback.md">IXpsRasterizerNotificationCallback</a>
 
 
 
@@ -121,7 +121,7 @@ For an example implementation of the <code>Continue</code> method, see the XpsRa
 
 
 
-<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizernotificationcallback.md">IXpsRasterizerNotificationCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554295">IPrintPipelineFilter::ShutdownOperation</a>
 
 
 

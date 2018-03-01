@@ -118,10 +118,6 @@ The <a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransm
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransmitCreate</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 
 
@@ -131,6 +127,10 @@ The <a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransm
 
 
 <a href="..\sercx\nf-sercx-sercx2_custom_transmit_config_init.md">SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransmitCreate</a>
 
 
 

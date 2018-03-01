@@ -132,11 +132,11 @@ The extension device is successfully created.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createextensiondevice.md">D3DDDIARG_CREATEEXTENSIONDEVICE</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyextensiondevice.md">DestroyExtensionDevice</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createextensiondevice.md">D3DDDIARG_CREATEEXTENSIONDEVICE</a>
 
 
 

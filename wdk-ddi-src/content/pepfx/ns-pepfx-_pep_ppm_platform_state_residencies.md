@@ -89,7 +89,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_ppm_platform_state_residency.md">PEP_PPM_PLATFORM_STATE_RESIDENCY</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
 
 
 
@@ -97,7 +97,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
+<a href="..\pepfx\ns-pepfx-_pep_ppm_platform_state_residency.md">PEP_PPM_PLATFORM_STATE_RESIDENCY</a>
 
 
 

@@ -116,11 +116,11 @@ Profile drivers obtain a pointer to the
 
 
 
-<a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
-
-
-
 pool tag
+
+
+
+<a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
 
 
 

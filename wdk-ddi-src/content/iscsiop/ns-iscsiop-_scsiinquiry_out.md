@@ -107,7 +107,7 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_scsiinquiry_in.md">ScsiInquiry_IN</a>
+<a href="..\iscsiop\ns-iscsiop-_scsiinquiry_in.md">ScsiInquiry_IN</a>
 
 
 

@@ -126,15 +126,15 @@ The driver does not implement any instances of the WMI class specified by <i>Dat
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
+
+
+
 <a href="..\wdm\nf-wdm-iowmihandletoinstancename.md">IoWMIHandleToInstanceName</a>
 
 
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
 
 
 

@@ -94,12 +94,12 @@ A pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-A pointer to an <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
+A pointer to an <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
 
 
 ### -field InterfaceDereference
 
-A pointer to an <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
+A pointer to an <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
 
 
 ### -field SetTableEntry
@@ -138,14 +138,6 @@ A driver obtains a pointer to the <b>PCI_MSIX_TABLE_CONFIG_INTERFACE</b> structu
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pci_msix_maskunmask_entry.md">MaskTableEntry</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff558787">GUID_MSIX_TABLE_CONFIG_INTERFACE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
 
@@ -154,15 +146,23 @@ A driver obtains a pointer to the <b>PCI_MSIX_TABLE_CONFIG_INTERFACE</b> structu
 
 
 
+<a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>
+
+
+
 <a href="..\wdm\nc-wdm-pci_msix_set_entry.md">SetTableEntry</a>
 
 
 
-<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+<a href="..\wdm\nc-wdm-pci_msix_maskunmask_entry.md">MaskTableEntry</a>
 
 
 
-<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff558787">GUID_MSIX_TABLE_CONFIG_INTERFACE</a>
+
+
+
+<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
 
 
 

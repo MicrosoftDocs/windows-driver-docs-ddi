@@ -104,7 +104,7 @@ The <b>pfnStateRsRastStateCb</b> function calls the user-mode display driver's <
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setrasterizerstate.md">SetRasterizerState</a>
 
 
 
@@ -112,7 +112,7 @@ The <b>pfnStateRsRastStateCb</b> function calls the user-mode display driver's <
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setrasterizerstate.md">SetRasterizerState</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
 
 

@@ -169,19 +169,23 @@ The driver should call <a href="..\video\nf-video-videoportgetaccessranges.md">V
 
 ## -see-also
 
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+
+
+<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_eisa_function_information.md">CM_EISA_FUNCTION_INFORMATION</a>
+
+
+
 <a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
 
 
 
 <a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
-
-
-
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-
-
-
-<a href="..\wdm\ns-wdm-_cm_eisa_slot_information.md">CM_EISA_SLOT_INFORMATION</a>
 
 
 
@@ -197,15 +201,11 @@ The driver should call <a href="..\video\nf-video-videoportgetaccessranges.md">V
 
 
 
-<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
-
-
-
 <a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
 
 
 
-<a href="..\wdm\ns-wdm-_cm_eisa_function_information.md">CM_EISA_FUNCTION_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_cm_eisa_slot_information.md">CM_EISA_SLOT_INFORMATION</a>
 
 
 

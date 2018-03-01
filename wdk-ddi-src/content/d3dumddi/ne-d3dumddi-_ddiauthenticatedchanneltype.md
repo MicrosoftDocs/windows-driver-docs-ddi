@@ -91,7 +91,15 @@ The Microsoft Direct3D runtime specifies a DDIAUTHENTICATEDCHANNELTYPE-typed val
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createauthenticatedchannel.md">CreateAuthenticatedChannel</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 
 
 
@@ -99,15 +107,7 @@ The Microsoft Direct3D runtime specifies a DDIAUTHENTICATEDCHANNELTYPE-typed val
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createauthenticatedchannel.md">CreateAuthenticatedChannel</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createauthenicatedchannel.md">D3DDDIARG_CREATEAUTHENTICATEDCHANNEL</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 
 
 

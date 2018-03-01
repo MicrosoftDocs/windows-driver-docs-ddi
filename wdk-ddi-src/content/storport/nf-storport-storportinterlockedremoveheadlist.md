@@ -152,23 +152,23 @@ A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinterlockedremoveheadlist.md">StorPortInterlockedRemoveHeadList</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt790427">StorPortInitializeSpinLock</a>
 
 
 
-<a href="..\wdm\nf-wdm-insertheadlist.md">InsertHeadList</a>
+<a href="..\wudfwdm\nf-wudfwdm-insertheadlist.md">InsertHeadList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
+
+
+
+<a href="..\storport\nf-storport-storportinterlockedremoveheadlist.md">StorPortInterlockedRemoveHeadList</a>
 
 
 
 <a href="..\storport\nf-storport-storportinterlockedinserttaillist.md">StorPortInterlockedInsertTailList</a>
-
-
-
-<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 
 
 

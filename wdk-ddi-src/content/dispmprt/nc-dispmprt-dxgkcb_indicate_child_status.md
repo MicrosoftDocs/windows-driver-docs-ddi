@@ -172,11 +172,11 @@ AtiSimulateMonitor(HW_DEVICE_EXTENSION *pHwDeviceExtension, PR2_SIMULATE_MONITOR
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
 
 
 

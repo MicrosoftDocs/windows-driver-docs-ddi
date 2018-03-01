@@ -163,7 +163,11 @@ A <i>HwVidInterrupt</i> function cannot be pageable, nor can any function that i
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
+<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+
+
+
+<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
 
 
 
@@ -175,11 +179,7 @@ A <i>HwVidInterrupt</i> function cannot be pageable, nor can any function that i
 
 
 
-<a href="..\video\nf-video-videoportlogerror.md">VideoPortLogError</a>
-
-
-
-<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
+<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
 
 
 
@@ -187,15 +187,15 @@ A <i>HwVidInterrupt</i> function cannot be pageable, nor can any function that i
 
 
 
+<a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
+
+
+
 <a href="..\video\nf-video-videoportstallexecution.md">VideoPortStallExecution</a>
 
 
 
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
-
-
-
-<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+<a href="..\video\nf-video-videoportlogerror.md">VideoPortLogError</a>
 
 
 

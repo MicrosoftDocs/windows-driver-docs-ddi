@@ -169,15 +169,15 @@ To query for multiple WMI classes and instance names, use the <a href="..\wdm\nf
 
 
 
-<a href="..\wdm\nf-wdm-iowmiquerysingleinstancemultiple.md">IoWMIQuerySingleInstanceMultiple</a>
-
-
-
 <a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetSingleInstance</a>
 
 
 
 <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmiquerysingleinstancemultiple.md">IoWMIQuerySingleInstanceMultiple</a>
 
 
 

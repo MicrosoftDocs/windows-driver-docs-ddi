@@ -111,11 +111,11 @@ Note that a particular DPC object and the function that it represents can each b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a>
-
-
-
 <a href="..\wdm\nf-wdm-keremovequeuedpc.md">KeRemoveQueueDpc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a>
 
 
 

@@ -95,7 +95,7 @@ The interpretation of this address is bus-specific. The caller of this routine s
 
 #### DevicePropertyBootConfiguration
 
-Requests the hardware resources assigned to the device by the firmware, in raw form. <i>PropertyBuffer</i> points to a <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure.
+Requests the hardware resources assigned to the device by the firmware, in raw form. <i>PropertyBuffer</i> points to a <a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure.
 
 
 
@@ -173,7 +173,7 @@ Requests the <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d0
 
 #### DevicePropertyLegacyBusType
 
-Requests the bus type, such as PCIBus or PCMCIABus. <i>PropertyBuffer</i> points to an <a href="..\miniport\ne-miniport-_interface_type.md">INTERFACE_TYPE</a> enumeration value.
+Requests the bus type, such as PCIBus or PCMCIABus. <i>PropertyBuffer</i> points to an <a href="..\wudfwdm\ne-wudfwdm-_interface_type.md">INTERFACE_TYPE</a> enumeration value.
 
 
 
@@ -288,15 +288,15 @@ Function drivers that support devices on a legacy bus and a PnP bus can use the 
 
 ## -see-also
 
-<a href="..\miniport\ne-miniport-_interface_type.md">INTERFACE_TYPE</a>
+<a href="..\wudfwdm\ne-wudfwdm-_interface_type.md">INTERFACE_TYPE</a>
 
 
 
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
 
 
-<a href="..\wdm\ne-wdm-_device_removal_policy.md">DEVICE_REMOVAL_POLICY</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 
@@ -304,11 +304,11 @@ Function drivers that support devices on a legacy bus and a PnP bus can use the 
 
 
 
+<a href="..\wdm\ne-wdm-_device_removal_policy.md">DEVICE_REMOVAL_POLICY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a>
-
-
-
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 

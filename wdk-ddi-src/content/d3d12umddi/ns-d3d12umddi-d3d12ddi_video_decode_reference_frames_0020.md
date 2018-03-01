@@ -86,6 +86,11 @@ typedef struct D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020 {
 
 
 
+#### - NumReferenceResources
+
+The number of references specified.
+
+
 #### - hDrvReferenceTexture2Ds
 
 The reference textures.
@@ -94,11 +99,6 @@ The reference textures.
 #### - pReferenceSubresources
 
 An array of subresource indexes for the list of reference textures.  A value of null indicates to assume a subresource of zero (0) for each resource.
-
-
-#### - NumReferenceResources
-
-The number of references specified.
 
 
 ## -remarks

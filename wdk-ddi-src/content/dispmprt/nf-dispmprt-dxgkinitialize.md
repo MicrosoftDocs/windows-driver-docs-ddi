@@ -212,7 +212,11 @@ DriverEntry(
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="..\dispmprt\ns-dispmprt-_driver_initialization_data.md">DRIVER_INITIALIZATION_DATA</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -220,11 +224,7 @@ DriverEntry(
 
 
 
-<a href="..\dispmprt\ns-dispmprt-_driver_initialization_data.md">DRIVER_INITIALIZATION_DATA</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 

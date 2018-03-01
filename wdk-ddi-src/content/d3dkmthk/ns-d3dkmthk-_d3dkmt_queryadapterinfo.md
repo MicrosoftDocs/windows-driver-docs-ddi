@@ -340,18 +340,6 @@ Supported starting with  Windows 8.1.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_umd_driver_version.md">D3DKMT_UMD_DRIVER_VERSION</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_workingsetinfo.md">D3DKMT_WORKINGSETINFO</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_directflip_support.md">D3DKMT_DIRECTFLIP_SUPPORT</a>
 
 
@@ -360,11 +348,15 @@ Supported starting with  Windows 8.1.
 
 
 
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
+
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_outputduplcontextscount.md">D3DKMT_OUTPUTDUPLCONTEXTSCOUNT</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openglinfo.md">D3DKMT_OPENGLINFO</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_umd_driver_version.md">D3DKMT_UMD_DRIVER_VERSION</a>
 
 
 
@@ -372,11 +364,7 @@ Supported starting with  Windows 8.1.
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_umdfilenameinfo.md">D3DKMT_UMDFILENAMEINFO</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_workingsetinfo.md">D3DKMT_WORKINGSETINFO</a>
 
 
 
@@ -384,11 +372,19 @@ Supported starting with  Windows 8.1.
 
 
 
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_segmentsizeinfo.md">D3DKMT_SEGMENTSIZEINFO</a>
+
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adapteraddress.md">D3DKMT_ADAPTERADDRESS</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_currentdisplaymode.md">D3DKMT_CURRENTDISPLAYMODE</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openglinfo.md">D3DKMT_OPENGLINFO</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adapterregistryinfo.md">D3DKMT_ADAPTERREGISTRYINFO</a>
 
 
 
@@ -396,11 +392,15 @@ Supported starting with  Windows 8.1.
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_segmentsizeinfo.md">D3DKMT_SEGMENTSIZEINFO</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_umdfilenameinfo.md">D3DKMT_UMDFILENAMEINFO</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adapterregistryinfo.md">D3DKMT_ADAPTERREGISTRYINFO</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_currentdisplaymode.md">D3DKMT_CURRENTDISPLAYMODE</a>
 
 
 

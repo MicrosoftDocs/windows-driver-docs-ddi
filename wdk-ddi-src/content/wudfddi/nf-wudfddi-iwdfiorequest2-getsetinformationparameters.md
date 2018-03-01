@@ -73,7 +73,7 @@ void GetSetInformationParameters(
 
 ### -param pInformationClass [out, optional]
 
-A pointer to a driver-allocated variable that receives a <a href="..\wdffileobject\ne-wdffileobject-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value. This pointer is optional and can be <b>NULL</b>.
+A pointer to a driver-allocated variable that receives a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value. This pointer is optional and can be <b>NULL</b>.
 
 
 ### -param pSizeInBytes [out, optional]

@@ -174,11 +174,11 @@ To display secondary dump data, you can use the <a href="http://go.microsoft.com
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
+<a href="..\wdm\nc-wdm-kbugcheck_callback_routine.md">BugCheckCallback</a>
 
 
 
-<a href="..\wdm\ne-wdm-_kbugcheck_callback_reason.md">KBUGCHECK_CALLBACK_REASON</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551873">KBUGCHECK_REASON_CALLBACK_RECORD</a>
 
 
 
@@ -186,15 +186,11 @@ To display secondary dump data, you can use the <a href="http://go.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552109">KeInitializeCallbackRecord</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
 
 
 
-<a href="..\wdm\nf-wdm-kederegisterbugcheckreasoncallback.md">KeDeregisterBugCheckReasonCallback</a>
-
-
-
-<a href="..\wdm\nc-wdm-kbugcheck_callback_routine.md">BugCheckCallback</a>
+<a href="..\wdm\ne-wdm-_kbugcheck_callback_reason.md">KBUGCHECK_CALLBACK_REASON</a>
 
 
 
@@ -202,11 +198,15 @@ To display secondary dump data, you can use the <a href="http://go.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
+<a href="..\wdm\nf-wdm-kederegisterbugcheckreasoncallback.md">KeDeregisterBugCheckReasonCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551873">KBUGCHECK_REASON_CALLBACK_RECORD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552109">KeInitializeCallbackRecord</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
 
 
 

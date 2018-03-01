@@ -120,11 +120,11 @@ The miniport driver does not set the <b>Information</b> member of the <a href=".
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_power_management.md">VIDEO_POWER_MANAGEMENT</a>
-
-
-
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_power_management.md">VIDEO_POWER_MANAGEMENT</a>
 
 
 

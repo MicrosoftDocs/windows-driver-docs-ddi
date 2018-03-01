@@ -243,6 +243,17 @@ A pointer to a <a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_reclaimresources.md"
 
 
 
+#### - pfnCheckMultiPlaneOverlaySupport
+
+Called by the DXGI runtime to check the details on hardware support for multiplane overlays.
+
+
+
+#### pSupport
+
+A pointer to a <a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_checkmultiplaneoverlaysupport.md">DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT</a> structure that describes how to display to the destination surface. 
+
+
 #### - pfnGetMultiPlaneOverlayCaps
 
 Called by the DXGI runtime to request that the user-mode display driver  get basic overlay plane capabilities. Optionally implemented by WDDM 1.3 and later user-mode display drivers.
@@ -259,17 +270,6 @@ Called by the DXGI runtime to request that the user-mode display driver  get bas
 This member is reserved and should be set to zero. Supported starting with Windows 8.1.
 
 
-#### - pfnCheckMultiPlaneOverlaySupport
-
-Called by the DXGI runtime to check the details on hardware support for multiplane overlays.
-
-
-
-#### pSupport
-
-A pointer to a <a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_checkmultiplaneoverlaysupport.md">DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT</a> structure that describes how to display to the destination surface. 
-
-
 #### - pfnPresentMultiPlaneOverlay
 
 A pointer to the driver's <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb.md">pfnPresentMultiplaneOverlay (DXGI)</a> function. Supported starting with Windows 8.1.
@@ -277,7 +277,11 @@ A pointer to the driver's <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_present_mul
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_functions.md">DXGI_DDI_BASE_FUNCTIONS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
 
 
@@ -285,15 +289,11 @@ A pointer to the driver's <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_present_mul
 
 
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_functions.md">DXGI_DDI_BASE_FUNCTIONS</a>
-
-
-
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_args.md">DXGI_DDI_BASE_ARGS</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
 
 
 

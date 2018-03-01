@@ -92,6 +92,11 @@ VOID APIENTRY* pfnGetVideoProcessorRateConversionCaps(
 
 
 
+#### - RateConversionIndex [in]
+
+The zero-based index of the frame-rate conversion capability group. For more information, see the Remarks section.
+
+
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -104,11 +109,6 @@ A handle to the display device (graphics context).
 A handle to a video processor enumeration object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a> function.
 
 
-
-
-#### - RateConversionIndex [in]
-
-The zero-based index of the frame-rate conversion capability group. For more information, see the Remarks section.
 
 
 #### - pCaps [out]
@@ -140,11 +140,11 @@ The display miniport driver returns the maximum number of frame-rate conversion 
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a>
 
 
 

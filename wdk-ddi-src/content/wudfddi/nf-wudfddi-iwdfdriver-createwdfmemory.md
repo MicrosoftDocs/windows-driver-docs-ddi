@@ -176,11 +176,15 @@ CUmdfHidDevice::PrepareReader(
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
 
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
 
 
 
@@ -189,10 +193,6 @@ CUmdfHidDevice::PrepareReader(
 
 
 <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
 
 

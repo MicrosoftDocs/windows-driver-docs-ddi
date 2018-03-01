@@ -120,11 +120,11 @@ The  storage device's copy provider retains the data read for the duration in <b
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_fsctl_offload_read_output.md">FSCTL_OFFLOAD_READ_OUTPUT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451101">FSCTL_OFFLOAD_READ</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_fsctl_offload_read_output.md">FSCTL_OFFLOAD_READ_OUTPUT</a>
 
 
 

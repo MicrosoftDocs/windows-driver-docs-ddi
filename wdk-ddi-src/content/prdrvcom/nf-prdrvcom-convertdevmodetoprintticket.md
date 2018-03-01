@@ -119,11 +119,11 @@ The DEVMODEW structure fields that correlate with the part of the DEVMODEW struc
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553167">IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintoemprintticketprovider.md">IPrintOemPrintTicketProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553167">IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</a>
 
 
 

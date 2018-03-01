@@ -148,11 +148,7 @@ Supported starting with Windows 8.1.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_bltmodel_presenthistorytoken.md">D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN</a>
-
-
-
-<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_present_model.md">D3DKMT_PRESENT_MODEL</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipmodel_presenthistorytoken.md">D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN</a>
 
 
 
@@ -160,15 +156,19 @@ Supported starting with Windows 8.1.
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipmodel_presenthistorytoken.md">D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_fence_presenthistorytoken.md">D3DKMT_FENCE_PRESENTHISTORYTOKEN</a>
 
 
 
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_bltmodel_presenthistorytoken.md">D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN</a>
+
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_gdimodel_sysmem_presenthistorytoken.md">D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN</a>
+
+
+
+<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_present_model.md">D3DKMT_PRESENT_MODEL</a>
 
 
 

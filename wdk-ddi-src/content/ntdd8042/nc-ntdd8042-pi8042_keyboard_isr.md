@@ -135,6 +135,10 @@ The PI8042_KEYBOARD_ISR callback runs in kernel mode at the IRQL of the I8042prt
 
 ## -see-also
 
+<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
+
+
+
 <a href="..\ntdd8042\ns-ntdd8042-_output_packet.md">OUTPUT_PACKET</a>
 
 
@@ -144,10 +148,6 @@ The PI8042_KEYBOARD_ISR callback runs in kernel mode at the IRQL of the I8042prt
 
 
 <a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
-
-
-
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
 
 
 

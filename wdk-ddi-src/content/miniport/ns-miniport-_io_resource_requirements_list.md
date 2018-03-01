@@ -80,7 +80,7 @@ The total number of bytes that constitute the <b>IO_RESOURCE_REQUIREMENTS_LIST</
 
 ### -field InterfaceType
 
-Specifies an interface type. This must be one of the types defined by <a href="..\miniport\ne-miniport-_interface_type.md">INTERFACE_TYPE</a>, in Wdm.h or Ntddk.h. (Not used by WDM drivers.)
+Specifies an interface type. This must be one of the types defined by <a href="..\wudfwdm\ne-wudfwdm-_interface_type.md">INTERFACE_TYPE</a>, in Wdm.h or Ntddk.h. (Not used by WDM drivers.)
 
 
 ### -field BusNumber
@@ -186,7 +186,7 @@ BOOLEAN FilterResources(PIO_RESOURCE_REQUIREMENTS_LIST reqlist)
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550874">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551715">IRP_MN_QUERY_RESOURCE_REQUIREMENTS</a>
 
 
 
@@ -194,11 +194,11 @@ BOOLEAN FilterResources(PIO_RESOURCE_REQUIREMENTS_LIST reqlist)
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550874">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
+
+
+
 <a href="..\wdm\ns-wdm-_io_resource_list.md">IO_RESOURCE_LIST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551715">IRP_MN_QUERY_RESOURCE_REQUIREMENTS</a>
 
 
 

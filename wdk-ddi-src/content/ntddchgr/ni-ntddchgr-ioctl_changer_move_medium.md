@@ -111,11 +111,11 @@ The <b>Information</b> field is set to <b>sizeof</b>(CHANGER_MOVE_MEDIUM). The <
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changermovemedium.md">ChangerMoveMedium</a>
-
-
-
 <a href="..\ntddchgr\ns-ntddchgr-_changer_move_medium.md">CHANGER_MOVE_MEDIUM</a>
+
+
+
+<a href="..\mcd\nf-mcd-changermovemedium.md">ChangerMoveMedium</a>
 
 
 

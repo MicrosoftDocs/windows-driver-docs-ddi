@@ -117,10 +117,6 @@ For this reason, most device drivers never need to call the <i>GetBusDriverD3Col
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-set_d3cold_support.md">SetD3ColdSupport</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh967714">GUID_D3COLD_SUPPORT_INTERFACE</a>
 
 
@@ -130,6 +126,10 @@ For this reason, most device drivers never need to call the <i>GetBusDriverD3Col
 
 
 <a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a>
+
+
+
+<a href="..\wdm\nc-wdm-set_d3cold_support.md">SetD3ColdSupport</a>
 
 
 

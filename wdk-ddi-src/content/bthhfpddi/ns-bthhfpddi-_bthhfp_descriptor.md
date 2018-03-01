@@ -7,7 +7,7 @@ old-location: audio\bthhfp_descriptor.htm
 old-project: audio
 ms.assetid: A3C1E53B-2E41-437A-8613-C43DCD4768B5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PBTHHFP_DESCRIPTOR, BTHHFP_DESCRIPTOR, BTHHFP_DESCRIPTOR structure [Audio Devices], PBTHHFP_DESCRIPTOR, PBTHHFP_DESCRIPTOR structure pointer [Audio Devices], _BTHHFP_DESCRIPTOR, audio.bthhfp_descriptor, bthhfpddi/BTHHFP_DESCRIPTOR, bthhfpddi/PBTHHFP_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,19 +129,7 @@ For information about the IOCTLs that work with this structure, see <a href="htt
 
 ## -see-also
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563533(v=vs.85).aspx">KSPIN_DESCRIPTOR.Category</a>
-
-
-
-<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_volumepropertyvalues.md">IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES</a>
-
-
-
-<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265129">KSPROPERTY_JACK_CONTAINERID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302029">Bluetooth HFP DDI Structures</a>
 
 
 
@@ -149,7 +137,19 @@ For information about the IOCTLs that work with this structure, see <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302029">Bluetooth HFP DDI Structures</a>
+<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
+
+
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563533(v=vs.85).aspx">KSPIN_DESCRIPTOR.Category</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265129">KSPROPERTY_JACK_CONTAINERID</a>
+
+
+
+<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_volumepropertyvalues.md">IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES</a>
 
 
 
@@ -157,5 +157,5 @@ For information about the IOCTLs that work with this structure, see <a href="htt
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20BTHHFP_DESCRIPTOR structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20BTHHFP_DESCRIPTOR structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

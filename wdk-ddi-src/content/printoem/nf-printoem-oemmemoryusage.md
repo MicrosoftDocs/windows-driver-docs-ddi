@@ -7,8 +7,8 @@ old-location: print\oemmemoryusage.htm
 old-project: print
 ms.assetid: a7a522b8-7aa2-45b6-9200-407471dca82f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: ",  , E, M, O, OEMMEMORYUSAGE, OEMMEMORYUSAGE structure [Print Devices], OEMMemoryUsage, POEMMEMORYUSAGE, POEMMEMORYUSAGE structure pointer [Print Devices], U, a, e, g, m, o, print.oemmemoryusage, print_unidrv-pscript_rendering_c6746c1c-f6c5-4acf-bcd3-bc1f69382dae.xml, printoem/OEMMEMORYUSAGE, printoem/POEMMEMORYUSAGE, r, s, y"
+ms.date: 2/26/2018
+ms.keywords: OEMMEMORYUSAGE, OEMMEMORYUSAGE structure [Print Devices], OEMMemoryUsage, POEMMEMORYUSAGE, POEMMEMORYUSAGE structure pointer [Print Devices], print.oemmemoryusage, print_unidrv-pscript_rendering_c6746c1c-f6c5-4acf-bcd3-bc1f69382dae.xml, printoem/OEMMEMORYUSAGE, printoem/POEMMEMORYUSAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	printoem.h
-apiname:
+api_name:
 -	OEMMEMORYUSAGE
 product: Windows
 targetos: Windows
@@ -91,5 +91,5 @@ The Unidrv driver uses the values in the <b>dwFixedMemoryUsage</b> and <b>dwPerc
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20OEMMEMORYUSAGE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20OEMMEMORYUSAGE structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

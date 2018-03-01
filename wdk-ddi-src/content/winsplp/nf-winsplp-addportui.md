@@ -173,11 +173,15 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564258">XcvDataPort</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
+
+
+
+<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
 
 
 
@@ -186,10 +190,6 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564259">XcvOpenPort</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564258">XcvDataPort</a>
 
 
 

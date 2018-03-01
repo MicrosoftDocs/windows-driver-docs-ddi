@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_SEND_DRIVERCOMMAND
 title: IOCTL_GNSS_SEND_DRIVERCOMMAND
 author: windows-driver-content
 description: The IOCTL_GNSS_SEND_DRIVERCOMMAND control code is used by the GNSS adapter to execute well-defined commands on the driver and also to set driver configuration parameters.
-old-location: sensors\ioctl_gnss_send_drivercommand.htm
-old-project: sensors
+old-location: gnss\ioctl_gnss_send_drivercommand.htm
+old-project: gnss
 ms.assetid: CC991E95-D7E2-4B40-9D51-EA38C6732C7B
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: IOCTL_GNSS_SEND_DRIVERCOMMAND, IOCTL_GNSS_SEND_DRIVERCOMMAND control code [Sensor Devices], gnssdriver/IOCTL_GNSS_SEND_DRIVERCOMMAND, sensors.ioctl_gnss_send_drivercommand
+ms.date: 2/15/2018
+ms.keywords: IOCTL_GNSS_SEND_DRIVERCOMMAND, IOCTL_GNSS_SEND_DRIVERCOMMAND control code [Sensor Devices], gnss.ioctl_gnss_send_drivercommand, gnssdriver/IOCTL_GNSS_SEND_DRIVERCOMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -146,15 +146,11 @@ If the GNSS driver does not support a specific command, it indicates so. Drivers
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
@@ -162,9 +158,11 @@ If the GNSS driver does not support a specific command, it indicates so. Drivers
 
 
 
- 
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20IOCTL_GNSS_SEND_DRIVERCOMMAND control code%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
 

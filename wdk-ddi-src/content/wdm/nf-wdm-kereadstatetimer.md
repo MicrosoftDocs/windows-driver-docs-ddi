@@ -95,15 +95,15 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554250">KTIMER</a>
+<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
 
 
 
@@ -111,7 +111,7 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554250">KTIMER</a>
 
 
 

@@ -197,11 +197,11 @@ The minidriver fills in the mode capabilities for the requested tuner mode.
 
 
 
-<a href="..\ksmedia\ne-ksmedia-ks_tuner_strategy.md">KS_TUNER_STRATEGY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565865">KSPROPERTY_TUNER_MODE_CAPS</a>
+
+
+
+<a href="..\ksmedia\ne-ksmedia-ks_tuner_strategy.md">KS_TUNER_STRATEGY</a>
 
 
 

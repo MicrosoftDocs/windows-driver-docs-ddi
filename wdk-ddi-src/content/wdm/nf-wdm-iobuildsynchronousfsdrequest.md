@@ -139,15 +139,15 @@ IRPs that are created by <b>IoBuildSynchronousFsdRequest</b> must be completed b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
-
-
-
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
@@ -163,7 +163,7 @@ IRPs that are created by <b>IoBuildSynchronousFsdRequest</b> must be completed b
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
 
 

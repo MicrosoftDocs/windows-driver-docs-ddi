@@ -88,7 +88,7 @@ This routine is identical to <a href="https://msdn.microsoft.com/library/windows
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 
 

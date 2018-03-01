@@ -7,7 +7,7 @@ old-location: netvista\fwpsclassifyoptionset0.htm
 old-project: netvista
 ms.assetid: 8653fac0-8b2f-4e77-9588-2854ae168c1a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: FwpsClassifyOptionSet0, FwpsClassifyOptionSet0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsClassifyOptionSet0, netvista.fwpsclassifyoptionset0, wfp_ref_2_funct_3_fwps_C_a482e4f1-dc60-450e-8e3f-6ba7da1a4528.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -303,11 +303,15 @@ The first (highest weight) caller to set a particular option will be granted tha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550079">FWPM_CLASSIFY_OPTIONS0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550078">FWPM_CLASSIFY_OPTION0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552428">FWP_CLASSIFY_OPTION_TYPE</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
 
@@ -316,15 +320,11 @@ The first (highest weight) caller to set a particular option will be granted tha
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552428">FWP_CLASSIFY_OPTION_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550078">FWPM_CLASSIFY_OPTION0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550079">FWPM_CLASSIFY_OPTIONS0</a>
 
 
 
@@ -332,5 +332,5 @@ The first (highest weight) caller to set a particular option will be granted tha
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsClassifyOptionSet0 function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsClassifyOptionSet0 function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

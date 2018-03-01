@@ -130,15 +130,7 @@ If the miniport driver does not implement an optional HwScsiWmiXxx routine, the 
 
 ## -see-also
 
-<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_query_reginfo.md">HwScsiWmiQueryReginfo</a>
-
-
-
-<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_query_datablock.md">HwScsiWmiQueryDataBlock</a>
-
-
-
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+<a href="..\scsiwmi\ns-scsiwmi-scsiwmiguidreginfo.md">SCSIWMIGUIDREGINFO</a>
 
 
 
@@ -146,15 +138,23 @@ If the miniport driver does not implement an optional HwScsiWmiXxx routine, the 
 
 
 
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+
+
+
+<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_query_reginfo.md">HwScsiWmiQueryReginfo</a>
+
+
+
 <a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_set_dataitem.md">HwScsiWmiSetDataItem</a>
 
 
 
+<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_query_datablock.md">HwScsiWmiQueryDataBlock</a>
+
+
+
 <a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_execute_method.md">HwScsiWmiExecuteMethod</a>
-
-
-
-<a href="..\scsiwmi\ns-scsiwmi-scsiwmiguidreginfo.md">SCSIWMIGUIDREGINFO</a>
 
 
 

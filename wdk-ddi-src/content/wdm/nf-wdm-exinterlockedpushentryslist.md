@@ -85,14 +85,14 @@ TBD
 A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>. You must use this spin lock only with the <b>ExInterlocked<i>Xxx</i>List</b> routines.
 
 
-#### - ListHead [in, out]
-
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list. <i>ListHead</i> must have been initialized by calling <a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>.
-
-
 #### - ListEntry [in, out]
 
 A pointer to the caller-allocated entry to be inserted. 
+
+
+#### - ListHead [in, out]
+
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list. <i>ListHead</i> must have been initialized by calling <a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>.
 
 
 ## -remarks
@@ -110,15 +110,11 @@ The <b>ExInterlockedPushEntrySList</b> routine can be called at any IRQL. The st
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exquerydepthslist.md">ExQueryDepthSList</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 
 
-<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
+<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
 
 
 
@@ -126,7 +122,11 @@ The <b>ExInterlockedPushEntrySList</b> routine can be called at any IRQL. The st
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+<a href="..\wdm\nf-wdm-exquerydepthslist.md">ExQueryDepthSList</a>
+
+
+
+<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
 
 
 

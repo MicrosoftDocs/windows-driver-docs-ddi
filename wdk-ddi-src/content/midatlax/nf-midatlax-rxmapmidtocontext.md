@@ -107,7 +107,7 @@ RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the
 
 
 
-<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
+<a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
 
 
 
@@ -119,7 +119,7 @@ RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the
 
 
 
-<a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
+<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
 
 
 

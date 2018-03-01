@@ -99,7 +99,7 @@ Specifies a four-character tag used to identify the buffer. Use a distinct <i>Po
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmunmapreservedmapping.md">MmUnmapReservedMapping</a>
+<a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
 
 
 
@@ -107,7 +107,7 @@ Specifies a four-character tag used to identify the buffer. Use a distinct <i>Po
 
 
 
-<a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
+<a href="..\wdm\nf-wdm-mmunmapreservedmapping.md">MmUnmapReservedMapping</a>
 
 
 

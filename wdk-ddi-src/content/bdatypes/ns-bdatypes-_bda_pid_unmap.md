@@ -84,15 +84,15 @@ Array of PIDs that identify packets to unmap from the output of a PID filter.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566551">KSPROPSETID_BdaPIDFilter</a>
+
+
+
 <a href="..\bdatypes\ns-bdatypes-_bda_pid_map.md">BDA_PID_MAP</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566551">KSPROPSETID_BdaPIDFilter</a>
 
 
 

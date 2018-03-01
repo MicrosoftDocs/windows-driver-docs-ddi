@@ -98,11 +98,11 @@ The return values for this routine are recommended to mirror the return values o
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550140">AtaAdapterControl</a>
-
-
-
 <a href="..\irb\nf-irb-ataportinitializeex.md">AtaPortInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550140">AtaAdapterControl</a>
 
 
 

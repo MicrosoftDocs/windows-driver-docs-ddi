@@ -112,15 +112,15 @@ This structure is used by the <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObR
 
 
 
-<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
-
-
-
 <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
 
 
 
 <a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
+
+
+
+<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
 
 

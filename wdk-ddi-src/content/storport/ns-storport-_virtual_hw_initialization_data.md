@@ -258,28 +258,28 @@ A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/l
 A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557372">HwStorCleanupTracing</a> routine.
 
 
-#### - ReservedUshort
-
-Reserved.
-
-
 #### - PortVersionFlags
 
 A bitmap of flags that indicate the features that the port driver supports. Currently, the only flag available is SP_VER_TRACE_SUPPORT, which indicates that the port driver supports tracing.
+
+
+#### - ReservedUshort
+
+Reserved.
 
 
 ## -remarks
 
 
 
-If a virtual miniport driver will execute only on Windows 8 or later, the driver should use the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure instead of <b>VIRTUAL_HW_INITIALIZATION_DATA</b>.
+If a virtual miniport driver will execute only on Windows 8 or later, the driver should use the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure instead of <b>VIRTUAL_HW_INITIALIZATION_DATA</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
 
 
 
@@ -287,7 +287,7 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568008">VirtualHwStorFindAdapter</a>
+<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
 
 
 
@@ -295,15 +295,7 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 
 
 
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557379">HwStorCompleteServiceIrp</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557392">HwStorFreeAdapterResources</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568008">VirtualHwStorFindAdapter</a>
 
 
 
@@ -311,7 +303,15 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 
 
 
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557392">HwStorFreeAdapterResources</a>
+
+
+
+<a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557379">HwStorCompleteServiceIrp</a>
 
 
 

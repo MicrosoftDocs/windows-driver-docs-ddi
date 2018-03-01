@@ -223,11 +223,15 @@ For more information about working with registry keys in kernel mode, see <a hre
 
 ## -see-also
 
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 
@@ -235,11 +239,7 @@ For more information about working with registry keys in kernel mode, see <a hre
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 

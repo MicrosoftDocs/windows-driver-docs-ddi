@@ -172,11 +172,6 @@ A read/write member, set by the file system driver, which points to a device obj
 A read-only member, set by the I/O manager, which points to the device object for a physical or virtual disk device that contains the mountable logical volume (pointed to by <b>DeviceObject</b>).
 
 
-### -field _DEVICE_OBJECT
-
- 
-
-
 ### -field SerialNumber
 
 A read/write member that specifies the serial number associated with the file system volume.  This member should be set by the file system driver, if available.
@@ -223,15 +218,15 @@ Drivers must call <a href="..\ntifs\nf-ntifs-ioacquirevpbspinlock.md">IoAcquireV
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/e8f39b06-9904-40e8-af52-eae310d11fa7">How the Volume Is Mounted</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECT</a>
 
 
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="https://msdn.microsoft.com/e8f39b06-9904-40e8-af52-eae310d11fa7">How the Volume Is Mounted</a>
 
 
 

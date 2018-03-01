@@ -143,7 +143,7 @@ Call <b>ClosePrinter</b>, specifying the handle received from <b>OpenPrinter</b>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564259">XcvOpenPort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564258">XcvDataPort</a>
 
 
 
@@ -151,11 +151,11 @@ Call <b>ClosePrinter</b>, specifying the handle received from <b>OpenPrinter</b>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564259">XcvOpenPort</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564254">XcvClosePort</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564258">XcvDataPort</a>
 
 
 

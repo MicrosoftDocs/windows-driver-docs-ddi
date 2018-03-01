@@ -86,7 +86,7 @@ The FCP request for this frame.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536992">Av61883_SendFcpResponse</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536977">Av61883_GetFcpResponse</a>
 
 
 
@@ -94,7 +94,7 @@ The FCP request for this frame.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536977">Av61883_GetFcpResponse</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536992">Av61883_SendFcpResponse</a>
 
 
 

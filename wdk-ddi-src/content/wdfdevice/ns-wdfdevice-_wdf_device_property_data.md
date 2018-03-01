@@ -124,15 +124,15 @@ Drivers should initialize this structure by calling <a href="..\wdfdevice\nf-wdf
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequerypropertyex.md">WdfDeviceQueryPropertyEx</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandquerypropertyex.md">WdfDeviceAllocAndQueryPropertyEx</a>
 
 
 
 <a href="..\wdfdevice\nf-wdfdevice-wdf_device_property_data_init.md">WDF_DEVICE_PROPERTY_DATA_INIT</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequerypropertyex.md">WdfDeviceQueryPropertyEx</a>
 
 
 

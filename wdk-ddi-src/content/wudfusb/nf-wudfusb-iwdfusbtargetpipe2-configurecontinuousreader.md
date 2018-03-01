@@ -265,18 +265,6 @@ hr = pIUsbInterruptPipe2-&gt;ConfigureContinuousReader(
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe2.md">IWDFUsbTargetPipe2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559217">IWDFIoTargetStateManagement::Stop</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556910">IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</a>
 
 
@@ -285,11 +273,23 @@ hr = pIUsbInterruptPipe2-&gt;ConfigureContinuousReader(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559217">IWDFIoTargetStateManagement::Stop</a>
+
+
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe2.md">IWDFUsbTargetPipe2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a>
 
 
 

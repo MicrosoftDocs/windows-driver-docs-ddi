@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILMSGCDMAMSGDISPLAYMODE
 title: RILMSGCDMAMSGDISPLAYMODE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgcdmamsgdisplaymode_2.htm
+old-location: netvista\rilmsgcdmamsgdisplaymode.htm
 old-project: netvista
-ms.assetid: 6ec37cf6-0d07-445b-9a5b-8d560069c612
+ms.assetid: ee75cf74-def7-4705-ae61-c2472bd4446e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILMSGCDMAMSGDISPLAYMODE, RILMSGCDMAMSGDISPLAYMODE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGDISPLAYMODE_MAX, RIL_MSGDISPLAYMODE_MOBILEDEFAULT, RIL_MSGDISPLAYMODE_USERDEFAULT, netvista.rilmsgcdmamsgdisplaymode_2, rilapitypes/RILMSGCDMAMSGDISPLAYMODE, rilapitypes/RIL_MSGDISPLAYMODE_MAX, rilapitypes/RIL_MSGDISPLAYMODE_MOBILEDEFAULT, rilapitypes/RIL_MSGDISPLAYMODE_USERDEFAULT
+ms.date: 2/27/2018
+ms.keywords: RILMSGCDMAMSGDISPLAYMODE, RILMSGCDMAMSGDISPLAYMODE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGDISPLAYMODE_MAX, RIL_MSGDISPLAYMODE_MOBILEDEFAULT, RIL_MSGDISPLAYMODE_USERDEFAULT, netvista.rilmsgcdmamsgdisplaymode, ntddrilapitypes/RILMSGCDMAMSGDISPLAYMODE, ntddrilapitypes/RIL_MSGDISPLAYMODE_MAX, ntddrilapitypes/RIL_MSGDISPLAYMODE_MOBILEDEFAULT, ntddrilapitypes/RIL_MSGDISPLAYMODE_USERDEFAULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGCDMAMSGDISPLAYMODE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

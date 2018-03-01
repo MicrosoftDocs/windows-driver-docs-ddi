@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILUICCAPPINFO
 title: RILUICCAPPINFO
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riluiccappinfo_2.htm
+old-location: netvista\riluiccappinfo.htm
 old-project: netvista
-ms.assetid: 7673163e-3663-4dc0-b454-bf358b87d62d
+ms.assetid: b3a688fe-928c-458e-ac47-59a9ae61bc5e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILUICCAPPINFO, RILUICCAPPINFO, RILUICCAPPINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccappinfo_2, rilapitypes/RILUICCAPPINFO"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILUICCAPPINFO, RILUICCAPPINFO, RILUICCAPPINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccappinfo, ntddrilapitypes/RILUICCAPPINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILUICCAPPINFO
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -58,16 +58,16 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ````
 typedef struct _RILUICCAPPINFO {
-  DWORD                    cbSize;
-  DWORD                    dwParams;
-  HUICCAPP                 hUiccApp;
-  RILUICCAPPTYPE           dwUiccAppType;
-  DWORD                    dwAppIdLength;
-  BYTE [MAXLENGTH_APPID]   bAppId;
-  DWORD                    dwAppNameLength;
-  char [MAXLENGTH_APPNAME] cszAppName;
-  DWORD                    dwNumPins;
-  BYTE [MAXNUM_PINREF]     bPinRef;
+  DWORD           cbSize;
+  DWORD           dwParams;
+  HUICCAPP        hUiccApp;
+  RILUICCAPPTYPE  dwUiccAppType;
+  DWORD           dwAppIdLength;
+  BYTE [32]       bAppId;
+  DWORD           dwAppNameLength;
+  char [256]      cszAppName;
+  DWORD           dwNumPins;
+  BYTE [8]        bPinRef;
 } RILUICCAPPINFO, RILUICCAPPINFO;
 ````
 

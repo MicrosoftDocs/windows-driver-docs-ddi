@@ -213,11 +213,11 @@ For more information, see <a href="https://msdn.microsoft.com/d35f0811-d572-422c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553052">IPrintCoreUI2::EnumOptions</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553052">IPrintCoreUI2::EnumOptions</a>
 
 
 

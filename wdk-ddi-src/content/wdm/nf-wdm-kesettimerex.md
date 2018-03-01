@@ -145,7 +145,11 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
 
 
 
@@ -153,7 +157,7 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
 
 
 
@@ -162,10 +166,6 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 
 <a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
 
 
 

@@ -205,15 +205,7 @@ For more information, see <a href="https://msdn.microsoft.com/d35f0811-d572-422c
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcoreps2.md">IPrintCorePS2</a>
-
-
-
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552996">IPrintCorePS2::EnumOptions</a>
 
 
 
@@ -222,6 +214,14 @@ For more information, see <a href="https://msdn.microsoft.com/d35f0811-d572-422c
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553006">IPrintCorePS2::GetFeatureAttribute</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552996">IPrintCorePS2::EnumOptions</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintcoreps2.md">IPrintCorePS2</a>
 
 
 

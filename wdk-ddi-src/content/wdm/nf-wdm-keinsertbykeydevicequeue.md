@@ -111,7 +111,7 @@ This routine is for code that queues an I/O request to a device driver.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
+<a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
 
 
 
@@ -123,7 +123,7 @@ This routine is for code that queues an I/O request to a device driver.
 
 
 
-<a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
+<a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: image\istillimage_setupdeviceparameters.htm
 old-project: image
 ms.assetid: 8fbbe6c8-bf65-42df-a4e4-cb683b567bf7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IStillImageW, IStillImageW interface [Imaging Devices], SetupDeviceParameters method, IStillImageW::SetupDeviceParameters, SetupDeviceParameters method [Imaging Devices], SetupDeviceParameters method [Imaging Devices], IStillImageW interface, SetupDeviceParameters,IStillImageW.SetupDeviceParameters, image.istillimage_setupdeviceparameters, sti/IStillImageW::SetupDeviceParameters, stifnc_08d945b1-ff61-4018-ae0b-5b134fc4f112.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

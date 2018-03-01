@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILDMCONFIGINFOVALUE
 title: RILDMCONFIGINFOVALUE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rildmconfiginfovalue_2.htm
+old-location: netvista\rildmconfiginfovalue.htm
 old-project: netvista
-ms.assetid: 6b917b11-a2f2-4b8b-9964-2d7b4a6a1871
+ms.assetid: dda43544-4609-4674-9616-8e09939f0c39
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE structure [Network Drivers Starting with Windows Vista], netvista.rildmconfiginfovalue_2, rilapitypes/RILDMCONFIGINFOVALUE"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE structure [Network Drivers Starting with Windows Vista], netvista.rildmconfiginfovalue, ntddrilapitypes/RILDMCONFIGINFOVALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILDMCONFIGINFOVALUE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -58,11 +58,11 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ````
 typedef struct _RILDMCONFIGINFOVALUE {
-  DWORD                                cbSize;
-  RILDMCONFIGINFOTYPE                  dwType;
-  BOOL                                 fValue;
-  DWORD                                dwValue;
-  WCHAR [MAXLENGTH_DMCONFIGINFOSTRING] wszValue;
+  DWORD                cbSize;
+  RILDMCONFIGINFOTYPE  dwType;
+  BOOL                 fValue;
+  DWORD                dwValue;
+  WCHAR [256]          wszValue;
 } RILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE;
 ````
 

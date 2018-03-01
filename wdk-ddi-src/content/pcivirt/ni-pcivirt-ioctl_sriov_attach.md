@@ -215,15 +215,7 @@ In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver mainta
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/8ede4a48-317b-46be-834a-a67b638b28c0">IOCTL_SRIOV_DETACH</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -232,6 +224,14 @@ In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver mainta
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
+
+
+<a href="https://msdn.microsoft.com/8ede4a48-317b-46be-834a-a67b638b28c0">IOCTL_SRIOV_DETACH</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 

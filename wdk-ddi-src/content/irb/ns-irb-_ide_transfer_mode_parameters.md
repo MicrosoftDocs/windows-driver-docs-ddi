@@ -155,11 +155,11 @@ Member arrays <b>DeviceTransferModeSupported</b>, <b>DeviceTransferModeCurrent</
 
 ## -see-also
 
-<a href="..\irb\ne-irb-ide_device_type.md">IDE_DEVICE_TYPE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550143">AtaControllerTransferModeSelect</a>
+
+
+
+<a href="..\irb\ne-irb-ide_device_type.md">IDE_DEVICE_TYPE</a>
 
 
 

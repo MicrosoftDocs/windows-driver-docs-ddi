@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILSUPSVCTYPE
 title: RILSUPSVCTYPE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsupsvctype_2.htm
+old-location: netvista\rilsupsvctype.htm
 old-project: netvista
-ms.assetid: 4aec39d6-3e12-4393-b477-24ea2036c227
+ms.assetid: 3d9415f7-cc28-4e45-8d88-b8693aa57116
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILSUPSVCTYPE, RILSUPSVCTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUPSVCTYPE_CLIP, RIL_SUPSVCTYPE_CLIR, RIL_SUPSVCTYPE_CNAP, RIL_SUPSVCTYPE_COLP, RIL_SUPSVCTYPE_COLR, RIL_SUPSVCTYPE_MAX, netvista.rilsupsvctype_2, rilapitypes/RILSUPSVCTYPE, rilapitypes/RIL_SUPSVCTYPE_CLIP, rilapitypes/RIL_SUPSVCTYPE_CLIR, rilapitypes/RIL_SUPSVCTYPE_CNAP, rilapitypes/RIL_SUPSVCTYPE_COLP, rilapitypes/RIL_SUPSVCTYPE_COLR, rilapitypes/RIL_SUPSVCTYPE_MAX
+ms.date: 2/27/2018
+ms.keywords: RILSUPSVCTYPE, RILSUPSVCTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUPSVCTYPE_CLIP, RIL_SUPSVCTYPE_CLIR, RIL_SUPSVCTYPE_CNAP, RIL_SUPSVCTYPE_COLP, RIL_SUPSVCTYPE_COLR, RIL_SUPSVCTYPE_MAX, netvista.rilsupsvctype, ntddrilapitypes/RILSUPSVCTYPE, ntddrilapitypes/RIL_SUPSVCTYPE_CLIP, ntddrilapitypes/RIL_SUPSVCTYPE_CLIR, ntddrilapitypes/RIL_SUPSVCTYPE_CNAP, ntddrilapitypes/RIL_SUPSVCTYPE_COLP, ntddrilapitypes/RIL_SUPSVCTYPE_COLR, ntddrilapitypes/RIL_SUPSVCTYPE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSUPSVCTYPE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

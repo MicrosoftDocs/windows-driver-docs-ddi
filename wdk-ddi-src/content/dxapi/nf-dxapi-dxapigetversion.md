@@ -85,11 +85,11 @@ Returns the major and minor version numbers of Direct Sound as 4 and 2 respectiv
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549530">DDGETVERSIONNUMBER</a>
-
-
-
 <a href="..\dxapi\nf-dxapi-dxapi.md">DxApi</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549530">DDGETVERSIONNUMBER</a>
 
 
 

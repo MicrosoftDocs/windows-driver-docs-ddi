@@ -68,12 +68,12 @@ VOID WRITE_REGISTER_ULONG(
 
 
 
-#### - Register [in]
+### -param Register [in]
 
 Pointer to the register which must be a mapped range in memory space.
 
 
-#### - Value [in]
+### -param Value [in]
 
 Specifies a ULONG value to be written to the register. 
 

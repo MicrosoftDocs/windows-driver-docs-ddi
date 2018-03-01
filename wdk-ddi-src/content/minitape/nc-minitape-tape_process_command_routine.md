@@ -88,7 +88,7 @@ Pointer to the command extension. This is <b>NULL</b> if the miniclass driver di
 
 ### -param CommandParameters [in, out]
 
-Pointer to a buffer allocated by the caller that contains a <a href="..\minitape\ns-minitape-_tape_create_partition.md">TAPE_CREATE_PARTITION</a> structure.
+Pointer to a buffer allocated by the caller that contains a <a href="..\ntddtape\ns-ntddtape-_tape_create_partition.md">TAPE_CREATE_PARTITION</a> structure.
 
 
 ### -param Srb [in, out]
@@ -317,11 +317,7 @@ The minidriver returns the WMI data in the buffer pointed to by the <b>DataBuffe
 
 ## -see-also
 
-<a href="..\minitape\nf-minitape-tapeclasszeromemory.md">TapeClassZeroMemory</a>
-
-
-
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
@@ -329,7 +325,11 @@ The minidriver returns the WMI data in the buffer pointed to by the <b>DataBuffe
 
 
 
-<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
+
+
+
+<a href="..\minitape\nf-minitape-tapeclasszeromemory.md">TapeClassZeroMemory</a>
 
 
 

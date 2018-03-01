@@ -108,11 +108,11 @@ If a pool allocation failure occurs, <b>FsRtlPostStackOverflow</b> raises a STAT
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpostpagingfilestackoverflow~r2.md">FsRtlPostPagingFileStackOverflow</a>
+
+
+
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
 
 
 
@@ -120,7 +120,7 @@ If a pool allocation failure occurs, <b>FsRtlPostStackOverflow</b> raises a STAT
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpostpagingfilestackoverflow~r2.md">FsRtlPostPagingFileStackOverflow</a>
+<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
 
 
 

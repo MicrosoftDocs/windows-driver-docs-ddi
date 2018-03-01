@@ -178,7 +178,11 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
+<a href="..\ntifs\nf-ntifs-keinsertqueue.md">KeInsertQueue</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-keremovequeue.md">KeRemoveQueue</a>
 
 
 
@@ -186,7 +190,7 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 
 
-<a href="..\ntifs\nf-ntifs-keinsertqueue.md">KeInsertQueue</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 
@@ -194,11 +198,7 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-keremovequeue.md">KeRemoveQueue</a>
+<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
 
 
 

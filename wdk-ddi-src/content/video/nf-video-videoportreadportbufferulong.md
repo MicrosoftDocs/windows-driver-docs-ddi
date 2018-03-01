@@ -113,11 +113,11 @@ Callers of <b>VideoPortReadPortBufferUlong</b> can be running at any IRQL, provi
 
 
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
-
-
-
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
 
 

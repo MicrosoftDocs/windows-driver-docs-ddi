@@ -80,11 +80,11 @@ The value of <b>DetailedReasonId</b> is always {5D5A1704-DFD1-4181-8EEE-815C86ED
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioneventargs.md">IPrinterExtensionEventArgs</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh973210">ReasonId</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterextensioneventargs.md">IPrinterExtensionEventArgs</a>
 
 
 

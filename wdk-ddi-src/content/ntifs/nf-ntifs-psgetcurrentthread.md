@@ -87,19 +87,19 @@ This macro
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+
+
+
+<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
 
 
 

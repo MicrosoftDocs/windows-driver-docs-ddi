@@ -7,7 +7,7 @@ old-location: netvista\ndisinterlockedremoveheadlist.htm
 old-project: netvista
 ms.assetid: 85cbc158-7132-4666-8161-a78251a62e4d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: NdisInterlockedRemoveHeadList, NdisInterlockedRemoveHeadList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedRemoveHeadList, ndis_interlocked_ref_5aacd492-068c-4cfe-afa6-4e0e63cf66e9.xml, netvista.ndisinterlockedremoveheadlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,12 +120,20 @@ If
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
+   NdisInterlockedInsertHeadList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
-   NdisInterlockedInsertHeadList</a>
+<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
 
 
@@ -134,17 +142,9 @@ If
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInterlockedRemoveHeadList macro%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInterlockedRemoveHeadList macro%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

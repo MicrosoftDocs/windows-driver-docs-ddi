@@ -161,11 +161,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_setpresharedkeyforid_out.md">SetPresharedKeyForId_OUT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
+
+
+
+<a href="..\iscsiop\ns-iscsiop-_setpresharedkeyforid_out.md">SetPresharedKeyForId_OUT</a>
 
 
 

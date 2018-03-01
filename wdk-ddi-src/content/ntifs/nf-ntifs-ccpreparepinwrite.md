@@ -202,15 +202,7 @@ If any failure occurs, <b>CcPreparePinWrite</b> raises a status exception for th
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
 
 
 
@@ -218,7 +210,11 @@ If any failure occurs, <b>CcPreparePinWrite</b> raises a status exception for th
 
 
 
-<a href="..\ntifs\nf-ntifs-mmsetaddressrangemodified.md">MmSetAddressRangeModified</a>
+<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
 
 
 
@@ -226,7 +222,11 @@ If any failure occurs, <b>CcPreparePinWrite</b> raises a status exception for th
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
+<a href="..\ntifs\nf-ntifs-mmsetaddressrangemodified.md">MmSetAddressRangeModified</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
 
 
 

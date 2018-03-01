@@ -146,7 +146,7 @@ Set the <b>DataType</b>  field to an enumeration value defined by <a href="..\nt
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
 
 
 
@@ -154,7 +154,7 @@ Set the <b>DataType</b>  field to an enumeration value defined by <a href="..\nt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
+<a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a>
 
 
 

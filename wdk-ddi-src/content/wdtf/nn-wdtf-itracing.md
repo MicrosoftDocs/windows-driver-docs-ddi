@@ -90,7 +90,7 @@ Because the <a href="..\wdtf\nn-wdtf-iaction.md">IAction</a> interface inherits 
 
 ## -see-also
 
-<a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a>
+<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
 
 
 
@@ -98,7 +98,7 @@ Because the <a href="..\wdtf\nn-wdtf-iaction.md">IAction</a> interface inherits 
 
 
 
-<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
+<a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a>
 
 
 

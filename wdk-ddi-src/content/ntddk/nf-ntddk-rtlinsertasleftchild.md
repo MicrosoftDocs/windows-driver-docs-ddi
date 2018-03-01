@@ -120,15 +120,11 @@ Callers of <b>RtlInsertAsLeftChild</b> must be running at IRQL &lt;= DISPATCH_LE
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlisroot.md">RtlIsRoot</a>
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
 
 
@@ -136,7 +132,11 @@ Callers of <b>RtlInsertAsLeftChild</b> must be running at IRQL &lt;= DISPATCH_LE
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+<a href="..\ntddk\nf-ntddk-rtlisroot.md">RtlIsRoot</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
 
 
 

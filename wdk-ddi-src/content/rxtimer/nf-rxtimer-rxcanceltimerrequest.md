@@ -107,11 +107,11 @@ If the recurrent timer is not found, this routine will return STATUS_NOT_FOUND.
 
 ## -see-also
 
-<a href="..\rxtimer\nf-rxtimer-rxpostrecurrenttimerrequest.md">RxPostRecurrentTimerRequest</a>
-
-
-
 <a href="..\rxtimer\nf-rxtimer-rxpostoneshottimerrequest.md">RxPostOneShotTimerRequest</a>
+
+
+
+<a href="..\rxtimer\nf-rxtimer-rxpostrecurrenttimerrequest.md">RxPostRecurrentTimerRequest</a>
 
 
 

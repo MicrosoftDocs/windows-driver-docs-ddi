@@ -103,11 +103,11 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 ## -see-also
 
+<a href="..\ntifs\ns-ntifs-_file_id_full_dir_information.md">FILE_ID_FULL_DIR_INFORMATION</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
 
 
 
@@ -115,11 +115,11 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECTID_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_id_full_dir_information.md">FILE_ID_FULL_DIR_INFORMATION</a>
 
 
 

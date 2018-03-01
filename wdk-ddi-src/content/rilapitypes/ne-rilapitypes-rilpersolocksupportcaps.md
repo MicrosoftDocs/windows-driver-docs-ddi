@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILPERSOLOCKSUPPORTCAPS
 title: RILPERSOLOCKSUPPORTCAPS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilpersolocksupportcaps_2.htm
+old-location: netvista\rilpersolocksupportcaps.htm
 old-project: netvista
-ms.assetid: 630f48cc-2236-48ec-a62a-cdafa31a3afd
+ms.assetid: 1aeb5eef-c334-4e27-8ce9-1c8efc85e82c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILPERSOLOCKSUPPORTCAPS, RILPERSOLOCKSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_PERSOFEATURE_3GPP2_CORP, RIL_CAPS_PERSOFEATURE_3GPP2_HRPD, RIL_CAPS_PERSOFEATURE_3GPP2_NETTYPE1, RIL_CAPS_PERSOFEATURE_3GPP2_NETTYPE2, RIL_CAPS_PERSOFEATURE_3GPP2_SP, RIL_CAPS_PERSOFEATURE_3GPP2_UIM, RIL_CAPS_PERSOFEATURE_3GPP_CORP, RIL_CAPS_PERSOFEATURE_3GPP_NETSUB, RIL_CAPS_PERSOFEATURE_3GPP_SP, RIL_CAPS_PERSOFEATURE_3GPP_USIM, RIL_CAPS_PERSOFEATURE_ALL, netvista.rilpersolocksupportcaps_2, rilapitypes/RILPERSOLOCKSUPPORTCAPS, rilapitypes/RIL_CAPS_PERSOFEATURE_3GPP2_CORP, rilapitypes/RIL_CAPS_PERSOFEATURE_3GPP2_HRPD, rilapitypes/RIL_CAPS_PERSOFEATURE_3GPP2_NETTYPE1, rilapitypes/RIL_CAPS_PERSOFEATURE_3GPP2_NETTYPE2, rilapitypes/RIL_CAPS_PERSOFEATURE_3GPP2_SP, rilapitypes/RIL_CAPS_PERSOFEATURE_3GPP2_UIM, rilapitypes/RIL_CAPS_PERSOFEATURE_3GPP_CORP, rilapitypes/RIL_CAPS_PERSOFEATURE_3GPP_NETSUB, rilapitypes/RIL_CAPS_PERSOFEATURE_3GPP_SP, rilapitypes/RIL_CAPS_PERSOFEATURE_3GPP_USIM, rilapitypes/RIL_CAPS_PERSOFEATURE_ALL
+ms.date: 2/27/2018
+ms.keywords: RILPERSOLOCKSUPPORTCAPS, RILPERSOLOCKSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_PERSOFEATURE_3GPP2_CORP, RIL_CAPS_PERSOFEATURE_3GPP2_HRPD, RIL_CAPS_PERSOFEATURE_3GPP2_NETTYPE1, RIL_CAPS_PERSOFEATURE_3GPP2_NETTYPE2, RIL_CAPS_PERSOFEATURE_3GPP2_SP, RIL_CAPS_PERSOFEATURE_3GPP2_UIM, RIL_CAPS_PERSOFEATURE_3GPP_CORP, RIL_CAPS_PERSOFEATURE_3GPP_NETSUB, RIL_CAPS_PERSOFEATURE_3GPP_SP, RIL_CAPS_PERSOFEATURE_3GPP_USIM, RIL_CAPS_PERSOFEATURE_ALL, netvista.rilpersolocksupportcaps, ntddrilapitypes/RILPERSOLOCKSUPPORTCAPS, ntddrilapitypes/RIL_CAPS_PERSOFEATURE_3GPP2_CORP, ntddrilapitypes/RIL_CAPS_PERSOFEATURE_3GPP2_HRPD, ntddrilapitypes/RIL_CAPS_PERSOFEATURE_3GPP2_NETTYPE1, ntddrilapitypes/RIL_CAPS_PERSOFEATURE_3GPP2_NETTYPE2, ntddrilapitypes/RIL_CAPS_PERSOFEATURE_3GPP2_SP, ntddrilapitypes/RIL_CAPS_PERSOFEATURE_3GPP2_UIM, ntddrilapitypes/RIL_CAPS_PERSOFEATURE_3GPP_CORP, ntddrilapitypes/RIL_CAPS_PERSOFEATURE_3GPP_NETSUB, ntddrilapitypes/RIL_CAPS_PERSOFEATURE_3GPP_SP, ntddrilapitypes/RIL_CAPS_PERSOFEATURE_3GPP_USIM, ntddrilapitypes/RIL_CAPS_PERSOFEATURE_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILPERSOLOCKSUPPORTCAPS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

@@ -116,7 +116,7 @@ The SPB controller driver must call this method before it <i>commits</i> the dev
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a>
 
 
 
@@ -124,7 +124,7 @@ The SPB controller driver must call this method before it <i>commits</i> the dev
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a>
+<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
 
 
 

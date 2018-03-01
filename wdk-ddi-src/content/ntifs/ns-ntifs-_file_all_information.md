@@ -141,15 +141,7 @@ This structure is used by the <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_alignment_information.md">FILE_ALIGNMENT_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a>
 
 
 
@@ -161,15 +153,23 @@ This structure is used by the <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">
 
 
 
-<a href="..\wdm\ns-wdm-_file_standard_information.md">FILE_STANDARD_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_file_ea_information.md">FILE_EA_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_alignment_information.md">FILE_ALIGNMENT_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_standard_information.md">FILE_STANDARD_INFORMATION</a>
 
 
 

@@ -147,15 +147,15 @@ For more information about DMA operations that use a common buffer, see the foll
 
 
 
-<a href="..\ntddk\nf-ntddk-mmgetphysicaladdress.md">MmGetPhysicalAddress</a>
-
-
-
 <a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
 
 
 
 <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-mmgetphysicaladdress.md">MmGetPhysicalAddress</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: netvista\ndissetoptionalhandlers.htm
 old-project: netvista
 ms.assetid: 97649f4f-942a-47fc-a541-6f160c8b4eb4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: NdisSetOptionalHandlers, NdisSetOptionalHandlers function [Network Drivers Starting with Windows Vista], ndis/NdisSetOptionalHandlers, ndis_configuration_ref_343cba4f-9651-4f42-b0a9-0a85475cb6bf.xml, netvista.ndissetoptionalhandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -376,29 +376,11 @@ For more information on the 4 chimney offload structures, see
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_protocol_co_characteristics.md">
-   NDIS_PROTOCOL_CO_CHARACTERISTICS</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
-   NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
 
 
 
@@ -407,25 +389,16 @@ For more information on the 4 chimney offload structures, see
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
+   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
 
 
 
 <a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_co_characteristics.md">
-   NDIS_MINIPORT_CO_CHARACTERISTICS</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_filter_partial_characteristics.md">
-   NDIS_FILTER_PARTIAL_CHARACTERISTICS</a>
 
 
 
@@ -434,7 +407,13 @@ For more information on the 4 chimney offload structures, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
+<a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+   NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_filter_partial_characteristics.md">
+   NDIS_FILTER_PARTIAL_CHARACTERISTICS</a>
 
 
 
@@ -443,8 +422,29 @@ For more information on the 4 chimney offload structures, see
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
-   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
+<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_protocol_co_characteristics.md">
+   NDIS_PROTOCOL_CO_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_co_characteristics.md">
+   NDIS_MINIPORT_CO_CHARACTERISTICS</a>
 
 
 
@@ -452,5 +452,5 @@ For more information on the 4 chimney offload structures, see
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisSetOptionalHandlers function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisSetOptionalHandlers function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

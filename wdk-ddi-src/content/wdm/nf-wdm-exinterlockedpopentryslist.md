@@ -99,11 +99,11 @@ On Windows 2000, drivers must use the <b>-D_WIN2K_COMPAT_SLIST_USAGE</b> switch 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exquerydepthslist.md">ExQueryDepthSList</a>
-
-
-
 <a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 
 
@@ -111,7 +111,7 @@ On Windows 2000, drivers must use the <b>-D_WIN2K_COMPAT_SLIST_USAGE</b> switch 
 
 
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+<a href="..\wdm\nf-wdm-exquerydepthslist.md">ExQueryDepthSList</a>
 
 
 

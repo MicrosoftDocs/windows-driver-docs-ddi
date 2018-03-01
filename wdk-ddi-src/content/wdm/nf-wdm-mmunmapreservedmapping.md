@@ -96,7 +96,7 @@ None
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmallocatemappingaddress.md">MmAllocateMappingAddress</a>
+<a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
 
 
 
@@ -104,7 +104,7 @@ None
 
 
 
-<a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
+<a href="..\wdm\nf-wdm-mmallocatemappingaddress.md">MmAllocateMappingAddress</a>
 
 
 

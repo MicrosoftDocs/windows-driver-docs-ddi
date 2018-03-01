@@ -108,11 +108,11 @@ The <i>DestinationString</i> and <i>SourceString</i> buffers must be resident if
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlcopystring.md">RtlCopyString</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlcopystring.md">RtlCopyString</a>
 
 
 

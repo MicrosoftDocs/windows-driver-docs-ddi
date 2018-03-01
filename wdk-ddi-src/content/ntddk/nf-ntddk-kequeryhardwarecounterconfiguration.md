@@ -136,11 +136,11 @@ To set the hardware counter configuration to use for thread profiling, call the 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_hardware_counter.md">HARDWARE_COUNTER</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-kesethardwarecounterconfiguration.md">KeSetHardwareCounterConfiguration</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_hardware_counter.md">HARDWARE_COUNTER</a>
 
 
 

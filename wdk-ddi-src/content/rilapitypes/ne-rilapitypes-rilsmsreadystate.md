@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILSMSREADYSTATE
 title: RILSMSREADYSTATE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsmsreadystate_2.htm
+old-location: netvista\rilsmsreadystate.htm
 old-project: netvista
-ms.assetid: 4b1fd540-85cf-45b3-9f39-984bb3b9e200
+ms.assetid: f37b1e31-d0fa-4b0a-bab6-131b3bf1bdcd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILSMSREADYSTATE, RILSMSREADYSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_SMSREADYSTATE_ALL, RIL_SMSREADY_SERVICEREADY_3GPP2, RIL_SMSREADY_UICCREADY, netvista.rilsmsreadystate_2, rilapitypes/RILSMSREADYSTATE, rilapitypes/RIL_SMSREADYSTATE_ALL, rilapitypes/RIL_SMSREADY_SERVICEREADY_3GPP2, rilapitypes/RIL_SMSREADY_UICCREADY
+ms.date: 2/27/2018
+ms.keywords: RILSMSREADYSTATE, RILSMSREADYSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_SMSREADYSTATE_ALL, RIL_SMSREADY_SERVICEREADY_3GPP2, RIL_SMSREADY_UICCREADY, netvista.rilsmsreadystate, ntddrilapitypes/RILSMSREADYSTATE, ntddrilapitypes/RIL_SMSREADYSTATE_ALL, ntddrilapitypes/RIL_SMSREADY_SERVICEREADY_3GPP2, ntddrilapitypes/RIL_SMSREADY_UICCREADY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSMSREADYSTATE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

@@ -7,7 +7,7 @@ old-location: debugger\getspecificfilterargumentwide.htm
 old-project: debugger
 ms.assetid: 61537680-0453-4484-b07a-e0d90b45c412
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: GetSpecificFilterArgumentWide method [Windows Debugging], GetSpecificFilterArgumentWide method [Windows Debugging], IDebugControl4 interface, GetSpecificFilterArgumentWide,IDebugControl4.GetSpecificFilterArgumentWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetSpecificFilterArgumentWide method, IDebugControl4::GetSpecificFilterArgumentWide, dbgeng/IDebugControl4::GetSpecificFilterArgumentWide, debugger.getspecificfilterargumentwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -140,14 +140,6 @@ For a list of specific filters that have argument and the interpretation of thos
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556791">SetSpecificFilterArgument</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
@@ -156,9 +148,17 @@ For a list of specific filters that have argument and the interpretation of thos
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556791">SetSpecificFilterArgument</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::GetSpecificFilterArgumentWide method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::GetSpecificFilterArgumentWide method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

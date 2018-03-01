@@ -110,7 +110,7 @@ If the driver returns an error code, does not set <a href="..\d3dkmddi\ns-d3dkmd
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406678">D3DKMT_WDDM_1_2_CAPS</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
@@ -118,11 +118,11 @@ If the driver returns an error code, does not set <a href="..\d3dkmddi\ns-d3dkmd
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406678">D3DKMT_WDDM_1_2_CAPS</a>
+
+
+
 <a href="..\dispmprt\ne-dispmprt-_dxgk_surprise_removal_type.md">DXGK_SURPRISE_REMOVAL_TYPE</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

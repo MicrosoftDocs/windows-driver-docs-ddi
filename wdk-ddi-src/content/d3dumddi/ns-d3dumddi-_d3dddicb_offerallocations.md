@@ -102,11 +102,11 @@ If resources were created with the <b>D3D10_DDI_BIND_PRESENT</b> flag value set 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451693">pfnOfferAllocationsCb</a>
-
-
-
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_offer_priority.md">D3DDDI_OFFER_PRIORITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451693">pfnOfferAllocationsCb</a>
 
 
 

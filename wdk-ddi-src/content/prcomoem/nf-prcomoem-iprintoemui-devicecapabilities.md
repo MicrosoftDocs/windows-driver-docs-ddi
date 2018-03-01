@@ -251,11 +251,11 @@ For more information about creating and installing user interface plug-ins, see 
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
-
-
-
 <a href="..\winddiui\nf-winddiui-drvdevicecapabilities.md">DrvDeviceCapabilities</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
 
 
 

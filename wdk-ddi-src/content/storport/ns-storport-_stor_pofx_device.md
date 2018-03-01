@@ -159,7 +159,7 @@ This flag indicates whether a device is available for dump when it is idle.
 
 ### -field Components
 
-This member is the first element in an array of one or more <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>STOR_POFX_DEVICE</b> structure. The array contains one element for each component in the device.  Currently, storage devices have only  one component so additional component structures are unnecessary.
+This member is the first element in an array of one or more <a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>STOR_POFX_DEVICE</b> structure. The array contains one element for each component in the device.  Currently, storage devices have only  one component so additional component structures are unnecessary.
 
 
 ## -remarks
@@ -177,6 +177,10 @@ The component for the storage device identified by its <b>Components</b> array i
 
 ## -see-also
 
+<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
+
+
+
 <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
 
 
@@ -185,11 +189,7 @@ The component for the storage device identified by its <b>Components</b> array i
 
 
 
-<a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a>
-
-
-
-<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
+<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a>
 
 
 

@@ -171,11 +171,7 @@ The user-mode display driver can call <b>pfnSetDisplayPrivateDriverFormatCb</b> 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_setdisplayprivatedriverformat.md">D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
 
 
@@ -183,11 +179,15 @@ The user-mode display driver can call <b>pfnSetDisplayPrivateDriverFormatCb</b> 
 
 
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_setdisplayprivatedriverformat.md">D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
 
 
 

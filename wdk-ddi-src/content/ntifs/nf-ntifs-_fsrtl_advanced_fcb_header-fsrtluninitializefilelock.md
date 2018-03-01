@@ -104,7 +104,7 @@ Minifilters must call <a href="..\fltkernel\nf-fltkernel-fltuninitializefilelock
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a>
+<a href="..\fltkernel\nf-fltkernel-fltuninitializefilelock.md">FltUninitializeFileLock</a>
 
 
 
@@ -112,7 +112,7 @@ Minifilters must call <a href="..\fltkernel\nf-fltkernel-fltuninitializefilelock
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltuninitializefilelock.md">FltUninitializeFileLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a>
 
 
 

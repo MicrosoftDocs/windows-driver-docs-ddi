@@ -119,11 +119,11 @@ The HID minidriver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 
 ## -see-also
 
-<a href="..\hidport\ns-hidport-_hid_device_attributes.md">HID_DEVICE_ATTRIBUTES</a>
-
-
-
 <a href="..\hidport\ni-hidport-ioctl_hid_get_device_descriptor.md">IOCTL_HID_GET_DEVICE_DESCRIPTOR</a>
+
+
+
+<a href="..\hidport\ns-hidport-_hid_device_attributes.md">HID_DEVICE_ATTRIBUTES</a>
 
 
 

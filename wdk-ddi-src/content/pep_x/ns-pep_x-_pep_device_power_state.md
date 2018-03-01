@@ -101,7 +101,7 @@ This structure is used by the <a href="https://docs.microsoft.com/en-us/windows-
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
 
 
 
@@ -113,7 +113,7 @@ This structure is used by the <a href="https://docs.microsoft.com/en-us/windows-
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
 
 
 

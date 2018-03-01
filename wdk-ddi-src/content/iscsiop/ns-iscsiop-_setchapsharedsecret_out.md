@@ -83,11 +83,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_setchapsharedsecret_in.md">SetCHAPSharedSecret_IN</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565585">SetCHAPSharedSecret</a>
+
+
+
+<a href="..\iscsiop\ns-iscsiop-_setchapsharedsecret_in.md">SetCHAPSharedSecret_IN</a>
 
 
 

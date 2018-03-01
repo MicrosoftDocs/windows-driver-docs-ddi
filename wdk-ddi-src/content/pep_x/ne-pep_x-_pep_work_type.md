@@ -111,9 +111,9 @@ Reserved for use by operating system.
 Reserved for use by the operating system.
 
 
-#### - PepWorkRequestIdleState
+#### - PepWorkDeviceIdle
 
-Reserved for use by the operating system.
+A request for the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) either to start ignoring idle time-outs for the specified device, or to start monitoring these time-outs.
 
 
 #### - PepWorkDevicePower
@@ -121,9 +121,9 @@ Reserved for use by the operating system.
 Reserved for use by the operating system.
 
 
-#### - PepWorkDeviceIdle
+#### - PepWorkRequestIdleState
 
-A request for the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) either to start ignoring idle time-outs for the specified device, or to start monitoring these time-outs.
+Reserved for use by the operating system.
 
 
 ## -remarks
@@ -137,7 +137,7 @@ This enumeration is used by the <a href="..\pepfx\ns-pepfx-_pep_work_information
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186852">PEP_DPM_REQUEST_COMPONENT_PERF_STATE</a>
+<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
 
 
 
@@ -145,11 +145,11 @@ This enumeration is used by the <a href="..\pepfx\ns-pepfx-_pep_work_information
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186852">PEP_DPM_REQUEST_COMPONENT_PERF_STATE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
 
 
 

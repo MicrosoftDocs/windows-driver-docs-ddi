@@ -122,11 +122,7 @@ Reserved. Must be set to zero.
 
 
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_hdcp_protection_level.md">DXGKMDT_OPM_HDCP_PROTECTION_LEVEL</a>
-
-
-
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_protection_type.md">DXGKMDT_OPM_PROTECTION_TYPE</a>
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_acp_protection_level.md">DXGKMDT_OPM_ACP_PROTECTION_LEVEL</a>
 
 
 
@@ -138,7 +134,11 @@ Reserved. Must be set to zero.
 
 
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_acp_protection_level.md">DXGKMDT_OPM_ACP_PROTECTION_LEVEL</a>
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_protection_type.md">DXGKMDT_OPM_PROTECTION_TYPE</a>
+
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_hdcp_protection_level.md">DXGKMDT_OPM_HDCP_PROTECTION_LEVEL</a>
 
 
 

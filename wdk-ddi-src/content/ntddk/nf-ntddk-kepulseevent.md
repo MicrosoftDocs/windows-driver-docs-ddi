@@ -115,23 +115,7 @@ If the caller is executing at IRQL = DISPATCH_LEVEL or in an arbitrary thread co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
-
-
-
 <a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
-
-
-
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
 
 
@@ -139,7 +123,23 @@ If the caller is executing at IRQL = DISPATCH_LEVEL or in an arbitrary thread co
 
 
 
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+
+
+
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
 
 
 

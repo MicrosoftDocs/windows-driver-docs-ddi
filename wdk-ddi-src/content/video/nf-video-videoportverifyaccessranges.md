@@ -166,15 +166,15 @@ Call <b>VideoPortVerifyAccessRanges</b> with this modified <i>AccessRanges</i> a
 
 ## -see-also
 
-<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
-
-
-
-<a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
-
-
-
 <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+
+
+<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
+
+
+
+<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
 
 
 
@@ -186,11 +186,7 @@ Call <b>VideoPortVerifyAccessRanges</b> with this modified <i>AccessRanges</i> a
 
 
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-
-
-
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
+<a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
 
 
 
@@ -198,7 +194,11 @@ Call <b>VideoPortVerifyAccessRanges</b> with this modified <i>AccessRanges</i> a
 
 
 
-<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+
+
+
+<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
 
 
 

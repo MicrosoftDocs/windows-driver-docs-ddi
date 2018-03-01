@@ -133,7 +133,7 @@ The internal DefaultClock.ReferenceCount element is initialized to one by the <a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a>
+<a href="..\ks\nf-ks-ksallocatedefaultclock.md">KsAllocateDefaultClock</a>
 
 
 
@@ -141,11 +141,11 @@ The internal DefaultClock.ReferenceCount element is initialized to one by the <a
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a>
-
-
-
-<a href="..\ks\nf-ks-ksallocatedefaultclock.md">KsAllocateDefaultClock</a>
 
 
 

@@ -498,18 +498,6 @@ The Direct3D runtime constructs the application-level D3DDEVICEDESC7 structure (
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_globaldriverdata.md">D3DHAL_GLOBALDRIVERDATA</a>
-
-
-
-<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
 
 
@@ -518,11 +506,23 @@ The Direct3D runtime constructs the application-level D3DDEVICEDESC7 structure (
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
+<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_globaldriverdata.md">D3DHAL_GLOBALDRIVERDATA</a>
+
+
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
 <a href="..\d3dcaps\ns-d3dcaps-_d3dlightingcaps.md">D3DLIGHTINGCAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
 
 
 

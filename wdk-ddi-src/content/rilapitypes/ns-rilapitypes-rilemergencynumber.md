@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILEMERGENCYNUMBER
 title: RILEMERGENCYNUMBER
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilemergencynumber_2.htm
+old-location: netvista\rilemergencynumber.htm
 old-project: netvista
-ms.assetid: 70759d23-b5ab-4c51-b73f-32021b9ae6fb
+ms.assetid: 1725c893-1c36-40d2-99d7-e163020fc4fc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILEMERGENCYNUMBER, RILEMERGENCYNUMBER, RILEMERGENCYNUMBER structure [Network Drivers Starting with Windows Vista], netvista.rilemergencynumber_2, rilapitypes/RILEMERGENCYNUMBER"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILEMERGENCYNUMBER, RILEMERGENCYNUMBER, RILEMERGENCYNUMBER structure [Network Drivers Starting with Windows Vista], netvista.rilemergencynumber, ntddrilapitypes/RILEMERGENCYNUMBER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILEMERGENCYNUMBER
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -58,12 +58,12 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ````
 typedef struct _RILEMERGENCYNUMBER {
-  DWORD                             cbSize;
-  DWORD                             dwParams;
-  DWORD                             dwExecutor;
-  HUICCAPP                          hUiccApp;
-  DWORD                             dwCategory;
-  WCHAR [MAXLENGTH_EMERGENCYNUMBER] wszEmergencyNumber;
+  DWORD     cbSize;
+  DWORD     dwParams;
+  DWORD     dwExecutor;
+  HUICCAPP  hUiccApp;
+  DWORD     dwCategory;
+  WCHAR [8] wszEmergencyNumber;
 } RILEMERGENCYNUMBER, RILEMERGENCYNUMBER;
 ````
 

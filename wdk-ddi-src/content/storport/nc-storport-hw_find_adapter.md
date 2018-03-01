@@ -246,19 +246,19 @@ The <b>HW_FIND_ADAPTER</b> function type is defined in the Storport.h header fil
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportlogerror.md">StorPortLogError</a>
-
-
-
 <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
 
 
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
-
-
-
 <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+
+
+
+<a href="..\storport\nf-storport-storportlogerror.md">StorPortLogError</a>
+
+
+
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
 
 

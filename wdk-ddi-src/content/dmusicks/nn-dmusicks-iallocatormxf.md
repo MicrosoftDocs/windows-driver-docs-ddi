@@ -7,7 +7,7 @@ old-location: audio\iallocatormxf.htm
 old-project: audio
 ms.assetid: 4ed81d77-e140-4633-8582-d21170ecc645
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IAllocatorMXF, IAllocatorMXF interface [Audio Devices], IAllocatorMXF interface [Audio Devices], described, audio.iallocatormxf, audmp-routines_3ab3f61f-aa26-4a37-b1ff-68c1b0ae97c4.xml, dmusicks/IAllocatorMXF
 ms.prod: windows-hardware
 ms.technology: windows-devices

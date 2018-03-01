@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILMSGDCSALPHABET
 title: RILMSGDCSALPHABET
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgdcsalphabet_2.htm
+old-location: netvista\rilmsgdcsalphabet.htm
 old-project: netvista
-ms.assetid: 62cd5dd1-8775-4b60-9aa2-3f8e0a3a4b26
+ms.assetid: 21886c34-ca8d-4466-a3db-6841b2f59137
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILMSGDCSALPHABET, RILMSGDCSALPHABET enumeration [Network Drivers Starting with Windows Vista], RIL_DCSALPHABET_8BIT, RIL_DCSALPHABET_MAX, RIL_DCSALPHABET_UCS2, netvista.rilmsgdcsalphabet_2, rilapitypes/RILMSGDCSALPHABET, rilapitypes/RIL_DCSALPHABET_8BIT, rilapitypes/RIL_DCSALPHABET_MAX, rilapitypes/RIL_DCSALPHABET_UCS2
+ms.date: 2/27/2018
+ms.keywords: RILMSGDCSALPHABET, RILMSGDCSALPHABET enumeration [Network Drivers Starting with Windows Vista], RIL_DCSALPHABET_8BIT, RIL_DCSALPHABET_MAX, RIL_DCSALPHABET_UCS2, netvista.rilmsgdcsalphabet, ntddrilapitypes/RILMSGDCSALPHABET, ntddrilapitypes/RIL_DCSALPHABET_8BIT, ntddrilapitypes/RIL_DCSALPHABET_MAX, ntddrilapitypes/RIL_DCSALPHABET_UCS2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGDCSALPHABET
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

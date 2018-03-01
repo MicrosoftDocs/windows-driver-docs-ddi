@@ -107,11 +107,11 @@ Do not leave an unattached OR gate at filter creation time. Instead, create the 
 
 
 
-<a href="..\ks\nf-ks-kspinattachandgate.md">KsPinAttachAndGate</a>
-
-
-
 <a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+
+
+
+<a href="..\ks\nf-ks-kspinattachandgate.md">KsPinAttachAndGate</a>
 
 
 

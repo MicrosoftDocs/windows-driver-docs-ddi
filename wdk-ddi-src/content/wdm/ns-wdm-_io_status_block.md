@@ -82,14 +82,14 @@ typedef struct _IO_STATUS_BLOCK {
 This is set to a request-dependent value. For example, on successful completion of a transfer request, this is set to the number of bytes transferred. If a transfer request is completed with another STATUS_<i>XXX</i>, this member is set to zero. 
 
 
-#### - Status
-
-This is the completion status, either STATUS_SUCCESS if the requested operation was completed successfully or an informational, warning, or error STATUS_<i>XXX</i> value. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS values</a>.
-
-
 #### - Pointer
 
 Reserved. For internal use only.
+
+
+#### - Status
+
+This is the completion status, either STATUS_SUCCESS if the requested operation was completed successfully or an informational, warning, or error STATUS_<i>XXX</i> value. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS values</a>.
 
 
 ## -remarks
@@ -109,6 +109,10 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
@@ -118,10 +122,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 

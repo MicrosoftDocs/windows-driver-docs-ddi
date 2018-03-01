@@ -116,11 +116,6 @@ Reserved. Do not use.
 Reserved. Do not use.
 
 
-### -field _URB
-
- 
-
-
 ### -field hca
 
 Reserved. Do not use.
@@ -163,15 +158,15 @@ Likewise, when a driver issues a URB with a function type of URB_FUNCTION_SYNC_R
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

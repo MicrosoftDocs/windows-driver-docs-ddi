@@ -93,11 +93,11 @@ For more information about converting time values, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
-
-
-
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
+
+
+
+<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
 
 
 

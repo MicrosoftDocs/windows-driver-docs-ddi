@@ -207,7 +207,7 @@ To stop receiving remote connection notifications, a profile driver should
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">BRB_SCO_UNREGISTER_SERVER</a>
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
 
 
 
@@ -215,11 +215,11 @@ To stop receiving remote connection notifications, a profile driver should
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
-
-
-
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">BRB_SCO_UNREGISTER_SERVER</a>
 
 
 

@@ -190,15 +190,15 @@ For a code example that calls the <code>CreateRasterizer</code> method, see the 
 
 ## -see-also
 
+<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizationfactory.md">IXpsRasterizationFactory</a>
+
+
+
 <a href="..\xpsrassvc\ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001.md">XPSRAS_RENDERING_MODE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
-
-
-
-<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizationfactory.md">IXpsRasterizationFactory</a>
 
 
 

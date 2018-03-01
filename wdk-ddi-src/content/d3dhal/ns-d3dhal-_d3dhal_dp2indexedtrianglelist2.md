@@ -97,14 +97,6 @@ The <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitive
 
 ## -see-also
 
-D3DDP2OP_INDEXEDTRIANGLELIST
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2startvertex.md">D3DHAL_DP2STARTVERTEX</a>
 
 
@@ -113,7 +105,15 @@ D3DDP2OP_INDEXEDTRIANGLELIST
 
 
 
+D3DDP2OP_INDEXEDTRIANGLELIST
+
+
+
 D3DDP2OP_INDEXEDTRIANGLELIST2
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 

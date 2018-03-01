@@ -86,11 +86,11 @@ For many query types, start query is never specified (that is, the <b>Begin</b> 
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
 
 
 

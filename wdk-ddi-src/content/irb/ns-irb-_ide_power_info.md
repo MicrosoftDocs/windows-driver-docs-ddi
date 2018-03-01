@@ -80,11 +80,11 @@ Contains an enumeration value of type IDE_POWER_STATE that indicates the power s
 
 ## -see-also
 
-<a href="..\irb\ne-irb-ide_power_state.md">IDE_POWER_STATE</a>
-
-
-
 <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a>
+
+
+
+<a href="..\irb\ne-irb-ide_power_state.md">IDE_POWER_STATE</a>
 
 
 

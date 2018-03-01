@@ -167,39 +167,7 @@ A WHEA_PSHED_PLUGIN_CALLBACKS structure is contained within the <a href="..\ntdd
 
 ## -see-also
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_finalize_error_record.md">FinalizeErrorRecord</a>
-
-
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_retrieve_error_info.md">RetrieveErrorInfo</a>
-
-
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_disable_error_source.md">DisableErrorSource</a>
-
-
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_attempt_error_recovery.md">AttemptRecovery</a>
-
-
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_status.md">ClearErrorStatus</a>
-
-
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_enable_error_source.md">EnableErrorSource</a>
-
-
-
 <a href="..\ntddk\nc-ntddk-pshed_pi_set_error_source_info.md">SetErrorSourceInfo</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
-
-
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_inject_error.md">InjectError</a>
 
 
 
@@ -207,11 +175,23 @@ A WHEA_PSHED_PLUGIN_CALLBACKS structure is contained within the <a href="..\ntdd
 
 
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_write_error_record.md">WriteErrorRecord</a>
+<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+
+
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_read_error_record.md">ReadErrorRecord</a>
+
+
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_status.md">ClearErrorStatus</a>
 
 
 
 <a href="..\ntddk\nc-ntddk-pshed_pi_get_injection_capabilities.md">GetInjectionCapabilities</a>
+
+
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_finalize_error_record.md">FinalizeErrorRecord</a>
 
 
 
@@ -223,7 +203,27 @@ A WHEA_PSHED_PLUGIN_CALLBACKS structure is contained within the <a href="..\ntdd
 
 
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_read_error_record.md">ReadErrorRecord</a>
+<a href="..\ntddk\nc-ntddk-pshed_pi_disable_error_source.md">DisableErrorSource</a>
+
+
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_retrieve_error_info.md">RetrieveErrorInfo</a>
+
+
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_attempt_error_recovery.md">AttemptRecovery</a>
+
+
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_enable_error_source.md">EnableErrorSource</a>
+
+
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_inject_error.md">InjectError</a>
+
+
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_write_error_record.md">WriteErrorRecord</a>
 
 
 

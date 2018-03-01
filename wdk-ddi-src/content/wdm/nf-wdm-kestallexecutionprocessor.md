@@ -95,15 +95,15 @@ This routine is for use by device drivers and other software that must wait for 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-
-
 <a href="..\wdm\nf-wdm-kedelayexecutionthread.md">KeDelayExecutionThread</a>
 
 
 
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 

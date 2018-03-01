@@ -94,27 +94,11 @@ Furthermore, if turning an input off would cause <i>Gate</i> to transition from 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateremoveoffinputfromor.md">KsGateRemoveOffInputFromOr</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateaddoffinputtoand.md">KsGateAddOffInputToAnd</a>
-
-
-
 <a href="..\ks\nf-ks-ksgateaddoffinputtoor.md">KsGateAddOffInputToOr</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateremoveoninputfromor.md">KsGateRemoveOnInputFromOr</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateaddoninputtoand.md">KsGateAddOnInputToAnd</a>
-
-
-
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+<a href="..\ks\nf-ks-ksgateremoveoffinputfromor.md">KsGateRemoveOffInputFromOr</a>
 
 
 
@@ -122,7 +106,7 @@ Furthermore, if turning an input off would cause <i>Gate</i> to transition from 
 
 
 
-<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 
 
@@ -131,6 +115,22 @@ Furthermore, if turning an input off would cause <i>Gate</i> to transition from 
 
 
 <a href="..\ks\nf-ks-ksgateaddoninputtoor.md">KsGateAddOnInputToOr</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateremoveoninputfromor.md">KsGateRemoveOnInputFromOr</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateaddoffinputtoand.md">KsGateAddOffInputToAnd</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateaddoninputtoand.md">KsGateAddOnInputToAnd</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
 
 
 

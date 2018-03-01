@@ -97,11 +97,11 @@ The <i>pRegistryRoot</i> parameter supplies a pointer a string representing the 
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_monitorex.md">MONITOREX</a>
-
-
-
 <a href="..\winsplp\nf-winsplp-initializeprintmonitorui.md">InitializePrintMonitorUI</a>
+
+
+
+<a href="..\winsplp\ns-winsplp-_monitorex.md">MONITOREX</a>
 
 
 

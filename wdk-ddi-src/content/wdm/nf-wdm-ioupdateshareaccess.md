@@ -101,15 +101,15 @@ Before calling <b>IoUpdateShareAccess</b>, the caller must successfully call <b>
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
 
 
 
 <a href="..\wdm\nf-wdm-ioremoveshareaccess.md">IoRemoveShareAccess</a>
-
-
-
-<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
 
 
 

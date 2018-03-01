@@ -370,7 +370,15 @@ If the caller supplies a non-<b>NULL</b> <i>RequiredLength</i> pointer, <b>WmiQu
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
+
+
+
 <a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
+
+
+
+<a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
 
 
 
@@ -379,14 +387,6 @@ If the caller supplies a non-<b>NULL</b> <i>RequiredLength</i> pointer, <b>WmiQu
 
 
 <a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
-
-
-
-<a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
 
 
 

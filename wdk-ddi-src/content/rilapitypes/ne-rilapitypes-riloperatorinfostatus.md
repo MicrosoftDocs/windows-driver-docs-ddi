@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILOPERATORINFOSTATUS
 title: RILOPERATORINFOSTATUS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riloperatorinfostatus_2.htm
+old-location: netvista\riloperatorinfostatus.htm
 old-project: netvista
-ms.assetid: 8b17ae4a-b3ea-48b6-8269-f947e1d74b86
+ms.assetid: 372d84da-600f-44db-ac76-b59ceac7321d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILOPERATORINFOSTATUS, RILOPERATORINFOSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_OPSTATUS_AVAILABLE, RIL_OPSTATUS_CURRENT, RIL_OPSTATUS_FORBIDDEN, RIL_OPSTATUS_MAX, netvista.riloperatorinfostatus_2, rilapitypes/RILOPERATORINFOSTATUS, rilapitypes/RIL_OPSTATUS_AVAILABLE, rilapitypes/RIL_OPSTATUS_CURRENT, rilapitypes/RIL_OPSTATUS_FORBIDDEN, rilapitypes/RIL_OPSTATUS_MAX
+ms.date: 2/27/2018
+ms.keywords: RILOPERATORINFOSTATUS, RILOPERATORINFOSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_OPSTATUS_AVAILABLE, RIL_OPSTATUS_CURRENT, RIL_OPSTATUS_FORBIDDEN, RIL_OPSTATUS_MAX, netvista.riloperatorinfostatus, ntddrilapitypes/RILOPERATORINFOSTATUS, ntddrilapitypes/RIL_OPSTATUS_AVAILABLE, ntddrilapitypes/RIL_OPSTATUS_CURRENT, ntddrilapitypes/RIL_OPSTATUS_FORBIDDEN, ntddrilapitypes/RIL_OPSTATUS_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILOPERATORINFOSTATUS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

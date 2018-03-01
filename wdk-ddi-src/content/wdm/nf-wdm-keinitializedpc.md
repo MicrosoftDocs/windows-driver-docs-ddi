@@ -107,7 +107,7 @@ Storage for the DPC object must be resident: in the device extension of a driver
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
+<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
 
 
 
@@ -119,7 +119,7 @@ Storage for the DPC object must be resident: in the device extension of a driver
 
 
 
-<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
+<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 
 
 

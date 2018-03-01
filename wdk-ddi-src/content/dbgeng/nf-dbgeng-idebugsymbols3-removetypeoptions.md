@@ -7,7 +7,7 @@ old-location: debugger\removetypeoptions.htm
 old-project: debugger
 ms.assetid: 68967a4f-9192-4716-85bd-1bcbc022c445
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugSymbols2 interface [Windows Debugging], RemoveTypeOptions method, IDebugSymbols2::RemoveTypeOptions, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], RemoveTypeOptions method, IDebugSymbols3::RemoveTypeOptions, IDebugSymbols_e5b88999-5c49-49cc-a3b8-2dea953b4fc1.xml, RemoveTypeOptions method [Windows Debugging], RemoveTypeOptions method [Windows Debugging], IDebugSymbols2 interface, RemoveTypeOptions method [Windows Debugging], IDebugSymbols3 interface, RemoveTypeOptions,IDebugSymbols3.RemoveTypeOptions, dbgeng/IDebugSymbols2::RemoveTypeOptions, dbgeng/IDebugSymbols3::RemoveTypeOptions, debugger.removetypeoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,15 +114,7 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556874">SetTypeOptions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537949">AddTypeOptions</a>
 
 
 
@@ -130,13 +122,21 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537949">AddTypeOptions</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols2::RemoveTypeOptions method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols2::RemoveTypeOptions method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

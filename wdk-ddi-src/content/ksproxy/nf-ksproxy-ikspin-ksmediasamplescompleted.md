@@ -98,11 +98,11 @@ When a client calls the <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
-
-
-
 <a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
 
 
 

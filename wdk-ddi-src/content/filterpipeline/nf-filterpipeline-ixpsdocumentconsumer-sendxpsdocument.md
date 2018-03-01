@@ -94,11 +94,11 @@ Only one XpsDocument interface can be sent. The <code>SendXpsDocument</code> met
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a>
-
-
-
 <a href="..\filterpipeline\nn-filterpipeline-ixpsdocument.md">IXpsDocument</a>
+
+
+
+<a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a>
 
 
 

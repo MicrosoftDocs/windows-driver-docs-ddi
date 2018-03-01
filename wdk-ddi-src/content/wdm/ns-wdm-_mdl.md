@@ -73,11 +73,6 @@ struct MDL {
 Pointer to the next MDL in an MDL chain. For more information about MDL chains, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>.
 
 
-### -field _MDL
-
- 
-
-
 ### -field Size
 
  
@@ -89,11 +84,6 @@ Pointer to the next MDL in an MDL chain. For more information about MDL chains, 
 
 
 ### -field Process
-
- 
-
-
-### -field _EPROCESS
 
  
 
@@ -131,15 +121,11 @@ An MDL describes the layout of a virtual memory buffer in physical memory. For m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmgetmdlbytecount.md">MmGetMdlByteCount</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554537">MmGetMdlPfnArray</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmgetmdlbytecount.md">MmGetMdlByteCount</a>
 
 
 
@@ -148,6 +134,10 @@ An MDL describes the layout of a virtual memory buffer in physical memory. For m
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554533">MmGetMdlByteOffset</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
 
 
 

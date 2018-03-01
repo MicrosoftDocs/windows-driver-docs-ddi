@@ -117,7 +117,7 @@ If the driver must clean up the child object before the parent object is deleted
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
 
 
@@ -125,7 +125,7 @@ If the driver must clean up the child object before the parent object is deleted
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
 
 
 

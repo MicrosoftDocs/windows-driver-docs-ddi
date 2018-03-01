@@ -106,11 +106,11 @@ Callers of <b>RtlZeroMemory</b> can be running at any IRQL if the destination me
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlsecurezeromemory.md">RtlSecureZeroMemory</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlsecurezeromemory.md">RtlSecureZeroMemory</a>
 
 
 

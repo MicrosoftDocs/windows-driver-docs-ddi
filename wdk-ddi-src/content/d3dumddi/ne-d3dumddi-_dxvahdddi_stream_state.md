@@ -187,30 +187,6 @@ A DXVAHDDDI_STREAM_STATE-typed value is specified in the <b>State</b> member of 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessstreamstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_filter_data.md">DXVAHDDDI_STREAM_STATE_FILTER_DATA</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_aspect_ratio_data.md">DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_source_rect_data.md">DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_luma_key_data.md">DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_private_data.md">DXVAHDDDI_STREAM_STATE_PRIVATE_DATA</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_output_rate_data.md">DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA</a>
 
 
@@ -219,7 +195,27 @@ A DXVAHDDDI_STREAM_STATE-typed value is specified in the <b>State</b> member of 
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_input_color_space_data.md">DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessstreamstate.md">SetVideoProcessStreamState</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_luma_key_data.md">DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data.md">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessstreamstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_aspect_ratio_data.md">DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_filter_data.md">DXVAHDDDI_STREAM_STATE_FILTER_DATA</a>
 
 
 
@@ -227,11 +223,7 @@ A DXVAHDDDI_STREAM_STATE-typed value is specified in the <b>State</b> member of 
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_rotation_data.md">DXVAHDDDI_STREAM_STATE_ROTATION_DATA</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessstreamstate.md">SetVideoProcessStreamState</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_input_color_space_data.md">DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA</a>
 
 
 
@@ -239,7 +231,15 @@ A DXVAHDDDI_STREAM_STATE-typed value is specified in the <b>State</b> member of 
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data.md">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_source_rect_data.md">DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_private_data.md">DXVAHDDDI_STREAM_STATE_PRIVATE_DATA</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_rotation_data.md">DXVAHDDDI_STREAM_STATE_ROTATION_DATA</a>
 
 
 

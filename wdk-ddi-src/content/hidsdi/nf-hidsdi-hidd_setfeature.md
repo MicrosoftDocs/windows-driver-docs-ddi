@@ -153,11 +153,11 @@ For more information, see the following topics:
 
 ## -see-also
 
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
+
+
+
 <a href="..\hidsdi\nf-hidsdi-hidd_setoutputreport.md">HidD_SetOutputReport</a>
-
-
-
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
 
 
 
@@ -165,11 +165,11 @@ For more information, see the following topics:
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getinputreport.md">HidD_GetInputReport</a>
-
-
-
 <a href="..\hidsdi\nf-hidsdi-hidd_getfeature.md">HidD_GetFeature</a>
+
+
+
+<a href="..\hidsdi\nf-hidsdi-hidd_getinputreport.md">HidD_GetInputReport</a>
 
 
 
@@ -177,7 +177,7 @@ For more information, see the following topics:
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
 
 
 

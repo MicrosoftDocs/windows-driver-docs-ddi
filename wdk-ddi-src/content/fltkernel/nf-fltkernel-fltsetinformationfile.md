@@ -212,35 +212,7 @@ Minifilter drivers must use <b>FltSetInformationFile</b> , not <a href="..\wdm\n
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_end_of_file_information.md">FILE_END_OF_FILE_INFORMATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformationfile.md">FltQueryVolumeInformationFile</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_rename_information.md">FILE_RENAME_INFORMATION</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_disposition_information.md">FILE_DISPOSITION_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_allocation_information.md">FILE_ALLOCATION_INFORMATION</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_valid_data_length_information.md">FILE_VALID_DATA_LENGTH_INFORMATION</a>
 
 
 
@@ -249,6 +221,34 @@ Minifilter drivers must use <b>FltSetInformationFile</b> , not <a href="..\wdm\n
 
 
 <a href="..\ntifs\ns-ntifs-_file_link_information.md">FILE_LINK_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_valid_data_length_information.md">FILE_VALID_DATA_LENGTH_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_end_of_file_information.md">FILE_END_OF_FILE_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_disposition_information.md">FILE_DISPOSITION_INFORMATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformationfile.md">FltQueryVolumeInformationFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_allocation_information.md">FILE_ALLOCATION_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_rename_information.md">FILE_RENAME_INFORMATION</a>
 
 
 

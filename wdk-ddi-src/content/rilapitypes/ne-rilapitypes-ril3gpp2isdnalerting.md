@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RIL3GPP2ISDNALERTING
 title: RIL3GPP2ISDNALERTING
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\ril3gpp2isdnalerting_2.htm
+old-location: netvista\ril3gpp2isdnalerting.htm
 old-project: netvista
-ms.assetid: 9fff629b-ad85-4158-b8c4-f5f6abe8e3f5
+ms.assetid: e3ba9bdd-2741-4a6c-9613-1ced31fc3dbf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RIL3GPP2ISDNALERTING, RIL3GPP2ISDNALERTING enumeration [Network Drivers Starting with Windows Vista], RIL_3GPP2ISDNALERTING_INTERGROUP, RIL_3GPP2ISDNALERTING_MAX, RIL_3GPP2ISDNALERTING_NORMAL, RIL_3GPP2ISDNALERTING_PINGRING, RIL_3GPP2ISDNALERTING_SPECIAL, netvista.ril3gpp2isdnalerting_2, rilapitypes/RIL3GPP2ISDNALERTING, rilapitypes/RIL_3GPP2ISDNALERTING_INTERGROUP, rilapitypes/RIL_3GPP2ISDNALERTING_MAX, rilapitypes/RIL_3GPP2ISDNALERTING_NORMAL, rilapitypes/RIL_3GPP2ISDNALERTING_PINGRING, rilapitypes/RIL_3GPP2ISDNALERTING_SPECIAL
+ms.date: 2/27/2018
+ms.keywords: RIL3GPP2ISDNALERTING, RIL3GPP2ISDNALERTING enumeration [Network Drivers Starting with Windows Vista], RIL_3GPP2ISDNALERTING_INTERGROUP, RIL_3GPP2ISDNALERTING_MAX, RIL_3GPP2ISDNALERTING_NORMAL, RIL_3GPP2ISDNALERTING_PINGRING, RIL_3GPP2ISDNALERTING_SPECIAL, netvista.ril3gpp2isdnalerting, ntddrilapitypes/RIL3GPP2ISDNALERTING, ntddrilapitypes/RIL_3GPP2ISDNALERTING_INTERGROUP, ntddrilapitypes/RIL_3GPP2ISDNALERTING_MAX, ntddrilapitypes/RIL_3GPP2ISDNALERTING_NORMAL, ntddrilapitypes/RIL_3GPP2ISDNALERTING_PINGRING, ntddrilapitypes/RIL_3GPP2ISDNALERTING_SPECIAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RIL3GPP2ISDNALERTING
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

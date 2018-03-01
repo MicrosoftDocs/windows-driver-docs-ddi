@@ -178,15 +178,15 @@ The caller should not free the string that is pointed to by <i>ppszOption</i> an
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552955">IPrintCoreHelper::EnumOptions</a>
+
+
+
 <a href="..\prcomoem\nn-prcomoem-iprintcorehelper.md">IPrintCoreHelper</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552963">IPrintCoreHelper::SetOptions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552955">IPrintCoreHelper::EnumOptions</a>
 
 
 

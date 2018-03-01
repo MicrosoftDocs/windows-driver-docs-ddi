@@ -97,6 +97,11 @@ typedef struct D3D11DDIARG_CREATESHADERRESOURCEVIEW {
 [in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_BUFFER, a member in the union that is contained in D3D11DDIARG_CREATESHADERRESOURCEVIEW that can hold a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_buffer_shaderresourceview.md">D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW</a> structure for a buffer. 
 
 
+#### - BufferEx
+
+[in] If the value in the <b>ResourceDimension</b> member is set to D3D11DDIRESOURCE_BUFFEREX, a member in the union that is contained in D3D11DDIARG_CREATESHADERRESOURCEVIEW that can hold a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_bufferex_shaderresourceview.md">D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW</a> structure for a buffer. 
+
+
 #### - Tex1D
 
 [in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURE1D, a member in the union that is contained in D3D11DDIARG_CREATESHADERRESOURCEVIEW that can hold a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex1d_shaderresourceview.md">D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW</a> structure for a one-dimensional texture. 
@@ -117,22 +122,13 @@ typedef struct D3D11DDIARG_CREATESHADERRESOURCEVIEW {
 [in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURECUBE, a member in the union that is contained in D3D11DDIARG_CREATESHADERRESOURCEVIEW that can hold a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_1ddiarg_texcube_shaderresourceview.md">D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW</a> structure for a cube texture. 
 
 
-#### - BufferEx
-
-[in] If the value in the <b>ResourceDimension</b> member is set to D3D11DDIRESOURCE_BUFFEREX, a member in the union that is contained in D3D11DDIARG_CREATESHADERRESOURCEVIEW that can hold a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_bufferex_shaderresourceview.md">D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW</a> structure for a buffer. 
-
-
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_bufferex_shaderresourceview.md">D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize(D3D11)</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_buffer_shaderresourceview.md">D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createshaderresourceview.md">CreateShaderResourceView(D3D11)</a>
 
 
 
@@ -140,7 +136,7 @@ typedef struct D3D11DDIARG_CREATESHADERRESOURCEVIEW {
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_1ddiarg_texcube_shaderresourceview.md">D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex2d_shaderresourceview.md">D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW</a>
 
 
 
@@ -148,15 +144,19 @@ typedef struct D3D11DDIARG_CREATESHADERRESOURCEVIEW {
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex2d_shaderresourceview.md">D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize(D3D11)</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_1ddiarg_texcube_shaderresourceview.md">D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_bufferex_shaderresourceview.md">D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW</a>
 
 
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex3d_shaderresourceview.md">D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createshaderresourceview.md">CreateShaderResourceView(D3D11)</a>
 
 
 

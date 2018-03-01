@@ -124,11 +124,11 @@ Available starting in Windows 8.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_collectdbginfo.md">DxgkDdiCollectDbgInfo</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_collectdbginfo_ext.md">DXGKARG_COLLECTDBGINFO_EXT</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_collectdbginfo.md">DxgkDdiCollectDbgInfo</a>
 
 
 

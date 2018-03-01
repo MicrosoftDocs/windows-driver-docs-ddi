@@ -123,11 +123,11 @@ The sensor indicator light is off.  Sensors that do not have an indicator light 
 
 ## -see-also
 
-<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_set_indicator.md">WINBIO_SET_INDICATOR</a>
-
-
-
 <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_get_indicator.md">IOCTL_BIOMETRIC_GET_INDICATOR</a>
+
+
+
+<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_set_indicator.md">WINBIO_SET_INDICATOR</a>
 
 
 

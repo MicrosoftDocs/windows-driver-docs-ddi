@@ -218,19 +218,19 @@ This function first checks whether the driver supports the attribute level that 
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-getjobattributes.md">GetJobAttributes</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
 
 
 
-<a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
+<a href="..\winsplp\nf-winsplp-getjobattributes.md">GetJobAttributes</a>
 
 
 
 <a href="..\winsplp\ns-winsplp-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
+
+
+
+<a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
 
 
 

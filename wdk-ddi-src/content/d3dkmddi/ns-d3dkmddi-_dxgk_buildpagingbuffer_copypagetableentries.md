@@ -80,11 +80,11 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copy_ran
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copy_range.md">DXGK_BUILDPAGINGBUFFER_COPY_RANGE</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
 
 
 

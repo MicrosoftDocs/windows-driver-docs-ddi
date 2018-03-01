@@ -112,7 +112,7 @@ A file system filter driver typically uses <b>IoGetLowerDeviceObject</b> to dete
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iogetattacheddevice.md">IoGetAttachedDevice</a>
+<a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
 
 
 
@@ -120,7 +120,7 @@ A file system filter driver typically uses <b>IoGetLowerDeviceObject</b> to dete
 
 
 
-<a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
+<a href="..\ntifs\nf-ntifs-iogetattacheddevice.md">IoGetAttachedDevice</a>
 
 
 

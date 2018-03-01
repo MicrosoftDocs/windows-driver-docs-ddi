@@ -119,11 +119,19 @@ If STATUS_INVALID_PARAMETER is returned, the <i>FileSystemType</i> parameter is 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinformation.md">FltGetVolumeInformation</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumefromfileobject.md">FltGetVolumeFromFileObject</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumefrominstance.md">FltGetVolumeFromInstance</a>
 
 
 
@@ -135,14 +143,6 @@ If STATUS_INVALID_PARAMETER is returned, the <i>FileSystemType</i> parameter is 
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumefrominstance.md">FltGetVolumeFromInstance</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltisvolumewritable.md">FltIsVolumeWritable</a>
 
 
@@ -151,7 +151,7 @@ If STATUS_INVALID_PARAMETER is returned, the <i>FileSystemType</i> parameter is 
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinformation.md">FltGetVolumeInformation</a>
 
 
 

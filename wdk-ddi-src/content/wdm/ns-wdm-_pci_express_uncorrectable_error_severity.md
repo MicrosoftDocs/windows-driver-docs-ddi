@@ -95,39 +95,9 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY {
 A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure.
 
 
-#### - Undefined
+#### - CompleterAbort
 
-A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that a reported link training error is a fatal error.
-
-
-#### - Reserved1
-
-Reserved.
-
-
-#### - DataLinkProtocolError
-
-A single bit that indicates that a reported data link protocol error is a fatal error.
-
-
-#### - SurpriseDownError
-
-A single bit that indicates that a reported surprise down error is a fatal error.
-
-
-#### - Reserved2
-
-Reserved.
-
-
-#### - PoisonedTLP
-
-A single bit that indicates that a reported poisoned transaction layer packet (TLP) is a fatal error.
-
-
-#### - FlowControlProtocolError
-
-A single bit that indicates that a reported flow control protocol error is a fatal error.
+A single bit that indicates that a reported completer abort is a fatal error.
 
 
 #### - CompletionTimeout
@@ -135,24 +105,9 @@ A single bit that indicates that a reported flow control protocol error is a fat
 A single bit that indicates that a reported completion timeout is a fatal error.
 
 
-#### - CompleterAbort
+#### - DataLinkProtocolError
 
-A single bit that indicates that a reported completer abort is a fatal error.
-
-
-#### - UnexpectedCompletion
-
-A single bit that indicates that a reported unexpected completion is a fatal error.
-
-
-#### - ReceiverOverflow
-
-A single bit that indicates that a reported receiver overflow is a fatal error.
-
-
-#### - MalformedTLP
-
-A single bit that indicates that a reported malformed transaction layer packet (TLP) is a fatal error.
+A single bit that indicates that a reported data link protocol error is a fatal error.
 
 
 #### - ECRCError
@@ -160,14 +115,59 @@ A single bit that indicates that a reported malformed transaction layer packet (
 A single bit that indicates that a reported end-to-end cyclic redundancy check (ECRC) error is a fatal error.
 
 
-#### - UnsupportedRequestError
+#### - FlowControlProtocolError
 
-A single bit that indicates that a reported unsupported request error is a fatal error.
+A single bit that indicates that a reported flow control protocol error is a fatal error.
+
+
+#### - MalformedTLP
+
+A single bit that indicates that a reported malformed transaction layer packet (TLP) is a fatal error.
+
+
+#### - PoisonedTLP
+
+A single bit that indicates that a reported poisoned transaction layer packet (TLP) is a fatal error.
+
+
+#### - ReceiverOverflow
+
+A single bit that indicates that a reported receiver overflow is a fatal error.
+
+
+#### - Reserved1
+
+Reserved.
+
+
+#### - Reserved2
+
+Reserved.
 
 
 #### - Reserved3
 
 Reserved.
+
+
+#### - SurpriseDownError
+
+A single bit that indicates that a reported surprise down error is a fatal error.
+
+
+#### - Undefined
+
+A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that a reported link training error is a fatal error.
+
+
+#### - UnexpectedCompletion
+
+A single bit that indicates that a reported unexpected completion is a fatal error.
+
+
+#### - UnsupportedRequestError
+
+A single bit that indicates that a reported unsupported request error is a fatal error.
 
 
 ## -remarks
@@ -183,11 +183,11 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure is contained in the <a href
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
 
 
 

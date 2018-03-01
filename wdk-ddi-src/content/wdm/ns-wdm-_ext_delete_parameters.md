@@ -108,11 +108,11 @@ Your driver can use an <a href="https://msdn.microsoft.com/library/windows/hardw
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exdeletetimer.md">ExDeleteTimer</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265192">ExTimerDeleteCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-exdeletetimer.md">ExDeleteTimer</a>
 
 
 

@@ -262,11 +262,11 @@ If an application calls <b>GetOutputData</b> with the same index twice, the inte
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
-
-
-
 <a href="https://msdn.microsoft.com/4c857ff4-02c1-487b-bdb0-44d62a4cf4a1">GetEnumCount</a>
+
+
+
+<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
 
 

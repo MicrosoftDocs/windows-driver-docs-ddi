@@ -97,11 +97,11 @@ The SENDCMDOUTPARAMS structure is also used with the <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566204">SMART_RCV_DRIVE_DATA</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566204">SMART_RCV_DRIVE_DATA</a>
 
 
 

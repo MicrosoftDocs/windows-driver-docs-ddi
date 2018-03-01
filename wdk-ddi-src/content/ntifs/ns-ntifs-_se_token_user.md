@@ -86,6 +86,16 @@ typedef struct _SE_TOKEN_USER {
 
 
 
+#### - Buffer
+
+Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the largest possible SID size.
+
+
+#### - Sid
+
+Specifies a <b>Security Identifier (SID)</b> structure used to uniquely identify users or groups
+
+
 #### - TokenUser
 
 Specifies a <b>TOKEN_USER</b> structure representing the user associated with an access token.
@@ -96,19 +106,9 @@ Specifies a <b>TOKEN_USER</b> structure representing the user associated with an
 Specifies an <b>SID_AND_ATTRIBUTES</b> structure representing the user associated with the access token.
 
 
-#### - Sid
-
-Specifies a <b>Security Identifier (SID)</b> structure used to uniquely identify users or groups
-
-
-#### - Buffer
-
-Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the largest possible SID size.
-
-
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
 
 
 
@@ -116,7 +116,7 @@ Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the
 
 
 
-<a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 

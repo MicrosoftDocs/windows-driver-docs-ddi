@@ -114,11 +114,11 @@ One member of the <a href="..\winsplp\ns-winsplp-showuiparams.md">SHOWUIPARAMS</
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-splpromptuiinuserssession.md">SplPromptUIInUsersSession</a>
-
-
-
 <a href="..\winsplp\ns-winsplp-showuiparams.md">SHOWUIPARAMS</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-splpromptuiinuserssession.md">SplPromptUIInUsersSession</a>
 
 
 

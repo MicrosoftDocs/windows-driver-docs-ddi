@@ -111,7 +111,7 @@ A pointer to user-defined data that will be supplied to the <i>ClfsLogUnpinnedCa
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pclfs_client_lff_handler_complete_callback.md">ClfsLogGrowthCompleteCallback</a>
+<a href="..\wdm\nc-wdm-pclfs_client_log_unpinned_callback.md">ClfsLogUnpinnedCallback</a>
 
 
 
@@ -119,7 +119,7 @@ A pointer to user-defined data that will be supplied to the <i>ClfsLogUnpinnedCa
 
 
 
-<a href="..\wdm\nc-wdm-pclfs_client_log_unpinned_callback.md">ClfsLogUnpinnedCallback</a>
+<a href="..\wdm\nc-wdm-pclfs_client_lff_handler_complete_callback.md">ClfsLogGrowthCompleteCallback</a>
 
 
 

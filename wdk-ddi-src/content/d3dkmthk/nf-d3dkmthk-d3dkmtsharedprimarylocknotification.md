@@ -146,11 +146,11 @@ The OpenGL ICD calls the <b>D3DKMTSharedPrimaryLockNotification</b> function to 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_sharedprimarylocknotification.md">D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock.md">D3DKMTLock</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_sharedprimarylocknotification.md">D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION</a>
 
 
 

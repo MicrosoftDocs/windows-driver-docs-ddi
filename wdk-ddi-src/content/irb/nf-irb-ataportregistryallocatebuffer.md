@@ -110,7 +110,7 @@ The miniport driver must call <b>AtaPortRegistryAllocateBuffer</b> either in its
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportregistryfreebuffer.md">AtaPortRegistryFreeBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
 
 
 
@@ -118,7 +118,7 @@ The miniport driver must call <b>AtaPortRegistryAllocateBuffer</b> either in its
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+<a href="..\irb\nf-irb-ataportregistryfreebuffer.md">AtaPortRegistryFreeBuffer</a>
 
 
 

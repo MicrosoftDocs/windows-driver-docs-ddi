@@ -108,11 +108,11 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
 
 
 

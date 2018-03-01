@@ -125,11 +125,11 @@ A pointer to the memory block to free. This pointer is returned by <a href="..\n
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlcreateheap.md">RtlCreateHeap</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
 
 
 

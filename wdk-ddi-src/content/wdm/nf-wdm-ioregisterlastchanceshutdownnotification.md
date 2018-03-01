@@ -117,11 +117,11 @@ The registered <i>DispatchShutdown</i> routine is called before the power manage
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543405">DispatchShutdown</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioregistershutdownnotification.md">IoRegisterShutdownNotification</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543405">DispatchShutdown</a>
 
 
 

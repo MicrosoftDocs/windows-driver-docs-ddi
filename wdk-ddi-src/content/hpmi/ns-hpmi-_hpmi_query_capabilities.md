@@ -76,11 +76,11 @@ Set to HPMI_QUERY_CAPABILITIES_VERSION_1.
 
 ## -see-also
 
-<a href="..\hpmi\ns-hpmi-_hpmi_query_capabilities_response.md">HPMI_QUERY_CAPABILITIES_RESPONSE</a>
-
-
-
 <a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
+
+
+
+<a href="..\hpmi\ns-hpmi-_hpmi_query_capabilities_response.md">HPMI_QUERY_CAPABILITIES_RESPONSE</a>
 
 
 

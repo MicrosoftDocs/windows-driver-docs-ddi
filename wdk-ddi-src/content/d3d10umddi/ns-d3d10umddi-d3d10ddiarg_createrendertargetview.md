@@ -118,10 +118,6 @@ typedef struct D3D10DDIARG_CREATERENDERTARGETVIEW {
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_buffer_rendertargetview.md">D3D10DDIARG_BUFFER_RENDERTARGETVIEW</a>
 
 
@@ -130,7 +126,11 @@ typedef struct D3D10DDIARG_CREATERENDERTARGETVIEW {
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_texcube_rendertargetview.md">D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
 
 
 
@@ -142,7 +142,7 @@ typedef struct D3D10DDIARG_CREATERENDERTARGETVIEW {
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_texcube_rendertargetview.md">D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW</a>
 
 
 

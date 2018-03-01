@@ -160,11 +160,6 @@ A read-only member that is used, in certain synchronous cases, to indicate the f
 A pointer to a <b>FILE_OBJECT</b> structure used to indicate that the current file object has been opened relative to an already open file object. The file object pointed to by this member is usually a directory (meaning the current file has been opened relative to this directory). However, a file can be reopened relative to itself, and alternate data streams for a file can be opened relative to an already open primary data stream for that same file. The <b>RelatedFileObject</b> member is only valid during the processing of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> requests.
 
 
-### -field _FILE_OBJECT
-
- 
-
-
 ### -field LockOperation
 
 A read-only member. If <b>FALSE</b>, a lock operation 
@@ -605,11 +600,11 @@ CLFS clients do not directly access the members of a <b>LOG_FILE_OBJECT</b> stru
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
 
 
 
@@ -617,7 +612,7 @@ CLFS clients do not directly access the members of a <b>LOG_FILE_OBJECT</b> stru
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 
@@ -629,15 +624,15 @@ CLFS clients do not directly access the members of a <b>LOG_FILE_OBJECT</b> stru
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
 
 
 
 <a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

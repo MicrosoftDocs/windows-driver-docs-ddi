@@ -155,7 +155,7 @@ The new metadata to set for the band is included in the system buffer for  the <
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_metadata.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA</a>
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
 
 
 
@@ -163,7 +163,7 @@ The new metadata to set for the band is included in the system buffer for  the <
 
 
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_metadata.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA</a>
 
 
 

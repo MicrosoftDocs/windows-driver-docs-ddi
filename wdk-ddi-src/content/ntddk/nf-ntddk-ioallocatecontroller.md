@@ -116,15 +116,15 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">Contr
 
 
 
-<a href="..\ntddk\nf-ntddk-iofreecontroller.md">IoFreeController</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-iocreatecontroller.md">IoCreateController</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">ControllerControl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iofreecontroller.md">IoFreeController</a>
 
 
 

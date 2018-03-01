@@ -178,11 +178,11 @@ The caller should not free the string that is pointed to by <i>ppszOption</i> an
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni.md">IPrintCoreHelperUni</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552945">IPrintCoreHelperUni::SetOptions</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni.md">IPrintCoreHelperUni</a>
 
 
 

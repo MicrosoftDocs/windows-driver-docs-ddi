@@ -150,11 +150,11 @@ The <b>StorPortInterlockedPopEntrySList</b> will also return <b>STATUS_SUCCESS</
 
 ## -see-also
 
+<a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
+
+
+
 <a href="..\storport\nf-storport-storportinterlockedpushentryslist.md">StorPortInterlockedPushEntrySList</a>
-
-
-
-<a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
 
 
 
@@ -162,7 +162,7 @@ The <b>StorPortInterlockedPopEntrySList</b> will also return <b>STATUS_SUCCESS</
 
 
 
-<a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
+<a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
 
 
 

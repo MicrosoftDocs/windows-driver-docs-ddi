@@ -102,11 +102,11 @@ The <b>WdfUsbTargetDeviceSelectSettingType</b> enumeration is used in the <a hre
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
-
-
-
 <a href="..\usb\ns-usb-_urb.md">URB</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
 
 
 

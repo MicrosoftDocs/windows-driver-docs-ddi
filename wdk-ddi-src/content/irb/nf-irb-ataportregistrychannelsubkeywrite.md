@@ -171,19 +171,19 @@ The miniport driver must call <b>AtaPortRegistryChannelSubKeyWrite</b> either du
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
-
-
-
 <a href="..\irb\nf-irb-ataportregistrychannelsubkeywritedeferred.md">AtaPortRegistryChannelSubKeyWriteDeferred</a>
 
 
 
-<a href="..\irb\nf-irb-ataportregistrychannelsubkeyread.md">AtaPortRegistryChannelSubKeyRead</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
+
+
+
+<a href="..\irb\nf-irb-ataportregistrychannelsubkeyread.md">AtaPortRegistryChannelSubKeyRead</a>
 
 
 

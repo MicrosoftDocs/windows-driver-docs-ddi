@@ -111,11 +111,11 @@ For a code example that uses <a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_inte
 
 ## -see-also
 
-<a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/744D0FFE-6D3C-4AED-8935-63EE9B0AFA0F">IWDFInterrupt::GetInfo</a>
+
+
+
+<a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a>
 
 
 

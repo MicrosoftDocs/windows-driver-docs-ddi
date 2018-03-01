@@ -203,15 +203,7 @@ status = WdfMemoryCreatePreallocated(
 
 
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
-
-
-
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemoryassignbuffer.md">WdfMemoryAssignBuffer</a>
 
 
 
@@ -220,6 +212,14 @@ status = WdfMemoryCreatePreallocated(
 
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemoryassignbuffer.md">WdfMemoryAssignBuffer</a>
+
+
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
 
 
 

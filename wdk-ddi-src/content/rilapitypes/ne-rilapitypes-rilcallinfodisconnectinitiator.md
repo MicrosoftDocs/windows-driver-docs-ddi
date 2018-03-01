@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCALLINFODISCONNECTINITIATOR
 title: RILCALLINFODISCONNECTINITIATOR
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallinfodisconnectinitiator_2.htm
+old-location: netvista\rilcallinfodisconnectinitiator.htm
 old-project: netvista
-ms.assetid: 4ea730ab-0ba0-46cd-b156-0b2f32b2eafe
+ms.assetid: df3c3cb9-583c-4a6e-9477-843067865418
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILCALLINFODISCONNECTINITIATOR, RILCALLINFODISCONNECTINITIATOR enumeration [Network Drivers Starting with Windows Vista], RIL_DISCINIT_LOCAL, RIL_DISCINIT_MAX, RIL_DISCINIT_REMOTE, netvista.rilcallinfodisconnectinitiator_2, rilapitypes/RILCALLINFODISCONNECTINITIATOR, rilapitypes/RIL_DISCINIT_LOCAL, rilapitypes/RIL_DISCINIT_MAX, rilapitypes/RIL_DISCINIT_REMOTE
+ms.date: 2/27/2018
+ms.keywords: RILCALLINFODISCONNECTINITIATOR, RILCALLINFODISCONNECTINITIATOR enumeration [Network Drivers Starting with Windows Vista], RIL_DISCINIT_LOCAL, RIL_DISCINIT_MAX, RIL_DISCINIT_REMOTE, netvista.rilcallinfodisconnectinitiator, ntddrilapitypes/RILCALLINFODISCONNECTINITIATOR, ntddrilapitypes/RIL_DISCINIT_LOCAL, ntddrilapitypes/RIL_DISCINIT_MAX, ntddrilapitypes/RIL_DISCINIT_REMOTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLINFODISCONNECTINITIATOR
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

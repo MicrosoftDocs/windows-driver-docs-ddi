@@ -74,7 +74,7 @@ Indicates that the driver-registered callback is invoked for processes of all su
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/0eae7899-c40b-4a5f-9e9c-adae021885e7">NtQueryInformationProcess</a>
+<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex2.md">PsSetCreateProcessNotifyRoutineEx2</a>
 
 
 
@@ -82,7 +82,7 @@ Indicates that the driver-registered callback is invoked for processes of all su
 
 
 
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex2.md">PsSetCreateProcessNotifyRoutineEx2</a>
+<a href="https://msdn.microsoft.com/0eae7899-c40b-4a5f-9e9c-adae021885e7">NtQueryInformationProcess</a>
 
 
 

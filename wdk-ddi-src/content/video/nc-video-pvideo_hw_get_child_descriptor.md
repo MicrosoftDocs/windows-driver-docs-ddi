@@ -241,11 +241,7 @@ Write a 32-bit value in <i>UId</i> that uniquely identifies the child device bei
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_child_enum_info.md">VIDEO_CHILD_ENUM_INFO</a>
-
-
-
-<a href="..\video\nc-video-pvideo_hw_power_get.md">HwVidGetPowerState</a>
+<a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a>
 
 
 
@@ -253,11 +249,15 @@ Write a 32-bit value in <i>UId</i> that uniquely identifies the child device bei
 
 
 
-<a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a>
+<a href="..\video\nc-video-pvideo_hw_power_get.md">HwVidGetPowerState</a>
 
 
 
 <a href="..\video\nf-video-videoportenumeratechildren.md">VideoPortEnumerateChildren</a>
+
+
+
+<a href="..\video\ns-video-_video_child_enum_info.md">VIDEO_CHILD_ENUM_INFO</a>
 
 
 

@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCBMSGCONFIGPARAMMASK
 title: RILCBMSGCONFIGPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcbmsgconfigparammask_2.htm
+old-location: netvista\rilcbmsgconfigparammask.htm
 old-project: netvista
-ms.assetid: ec2a26a0-4325-41d9-a6b4-5b9c2f22dd4e
+ms.assetid: 86bbc3ef-c76c-4abd-bfcb-56c804c12b1f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILCBMSGCONFIGPARAMMASK, RILCBMSGCONFIGPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CBMC_ALL, RIL_PARAM_CBMC_CDMAINFO, RIL_PARAM_CBMC_CDMASIZE, RIL_PARAM_CBMC_GWLINFO, netvista.rilcbmsgconfigparammask_2, rilapitypes/RILCBMSGCONFIGPARAMMASK, rilapitypes/RIL_PARAM_CBMC_ALL, rilapitypes/RIL_PARAM_CBMC_CDMAINFO, rilapitypes/RIL_PARAM_CBMC_CDMASIZE, rilapitypes/RIL_PARAM_CBMC_GWLINFO
+ms.date: 2/27/2018
+ms.keywords: RILCBMSGCONFIGPARAMMASK, RILCBMSGCONFIGPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CBMC_ALL, RIL_PARAM_CBMC_CDMAINFO, RIL_PARAM_CBMC_CDMASIZE, RIL_PARAM_CBMC_GWLINFO, netvista.rilcbmsgconfigparammask, ntddrilapitypes/RILCBMSGCONFIGPARAMMASK, ntddrilapitypes/RIL_PARAM_CBMC_ALL, ntddrilapitypes/RIL_PARAM_CBMC_CDMAINFO, ntddrilapitypes/RIL_PARAM_CBMC_CDMASIZE, ntddrilapitypes/RIL_PARAM_CBMC_GWLINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCBMSGCONFIGPARAMMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

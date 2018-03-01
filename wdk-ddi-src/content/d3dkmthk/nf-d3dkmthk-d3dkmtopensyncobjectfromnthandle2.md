@@ -120,11 +120,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_opensyncobjectfromnthandle2.md">D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
 
 
 

@@ -101,11 +101,7 @@ On retail builds, <b>RxMapSystemBuffer</b> will call <b>MmGetSystemAddressForMdl
 
 ## -see-also
 
-<a href="..\lowio\nf-lowio-rxlowiocompletion.md">RxLowIoCompletion</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554591">RxNewMapUserBuffer</a>
+<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
 
 
 
@@ -113,11 +109,15 @@ On retail builds, <b>RxMapSystemBuffer</b> will call <b>MmGetSystemAddressForMdl
 
 
 
-<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554591">RxNewMapUserBuffer</a>
+
+
+
+<a href="..\lowio\nf-lowio-rxlowiocompletion.md">RxLowIoCompletion</a>
 
 
 

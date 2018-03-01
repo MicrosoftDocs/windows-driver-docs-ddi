@@ -113,11 +113,11 @@ A driver that acquired a pointer to the target device by calling <a href="..\wdm
 
 
 
-<a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
-
-
-
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
 
 
 

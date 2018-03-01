@@ -82,7 +82,7 @@ PGENERIC_MAPPING  IoGetFileObjectGenericMapping(void);
 
 
 
-<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
+<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
 
 
 
@@ -90,7 +90,7 @@ PGENERIC_MAPPING  IoGetFileObjectGenericMapping(void);
 
 
 
-<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
+<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
 
 
 

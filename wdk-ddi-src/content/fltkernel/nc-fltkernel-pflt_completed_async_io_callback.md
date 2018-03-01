@@ -120,11 +120,7 @@ It cannot acquire resources, mutexes, or fast mutexes. However, it can acquire s
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
 
 
 
@@ -132,7 +128,11 @@ It cannot acquire resources, mutexes, or fast mutexes. However, it can acquire s
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
 
 
 

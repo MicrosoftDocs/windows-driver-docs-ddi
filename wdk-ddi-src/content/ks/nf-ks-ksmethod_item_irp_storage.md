@@ -90,6 +90,10 @@ The macro is defined as follows:
 
 
 
+<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
+
+
+
 <a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
 
 
@@ -98,15 +102,11 @@ The macro is defined as follows:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
-
-
-
 <a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
 
 
 
-<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
 
 
 

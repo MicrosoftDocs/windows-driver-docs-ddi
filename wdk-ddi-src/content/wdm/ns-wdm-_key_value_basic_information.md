@@ -230,7 +230,7 @@ A kernel-mode driver can obtain a <b>KEY_VALUE_BASIC_INFORMATION</b> that descri
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
 
 
 
@@ -238,7 +238,7 @@ A kernel-mode driver can obtain a <b>KEY_VALUE_BASIC_INFORMATION</b> that descri
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
 
 
 

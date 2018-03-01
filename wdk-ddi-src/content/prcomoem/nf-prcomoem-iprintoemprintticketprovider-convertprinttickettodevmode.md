@@ -119,11 +119,11 @@ Before the system converts a print ticket back to a <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemprintticketprovider.md">IPrintOemPrintTicketProvider</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553161">IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemprintticketprovider.md">IPrintOemPrintTicketProvider</a>
 
 
 

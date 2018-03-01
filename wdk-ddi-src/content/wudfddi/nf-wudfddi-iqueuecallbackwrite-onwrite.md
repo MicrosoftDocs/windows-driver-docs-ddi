@@ -113,7 +113,7 @@ The driver can call the <a href="https://msdn.microsoft.com/library/windows/hard
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackwrite.md">IQueueCallbackWrite</a>
 
 
 
@@ -125,7 +125,7 @@ The driver can call the <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackwrite.md">IQueueCallbackWrite</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 
 

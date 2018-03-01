@@ -87,14 +87,14 @@ VOID APIENTRY CheckFormatSupport(
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
 #### - Format [in]
 
  A -typed value of type <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> indicates the pixel format to retrieve capabilities for. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
 
 
 #### - pFormatCaps [out]
@@ -279,11 +279,11 @@ The driver can call the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterro
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
 
 
@@ -291,7 +291,7 @@ The driver can call the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterro
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
 
 
 

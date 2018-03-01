@@ -131,7 +131,7 @@ File systems maintain state about files through structures called file control b
 
 
 
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 
@@ -139,11 +139,11 @@ File systems maintain state about files through structures called file control b
 
 
 
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
+
+
+
 <a href="..\wdm\nf-wdm-iogetrelateddeviceobject.md">IoGetRelatedDeviceObject</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
 
 
 
@@ -151,7 +151,7 @@ File systems maintain state about files through structures called file control b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
 
 
 

@@ -104,7 +104,7 @@ Setting the <b>AutomaticSerialization</b> member of <b>WUDF_WORKITEM_CONFIG</b> 
 
 ## -see-also
 
-<a href="..\wudfworkitem\nf-wudfworkitem-wudf_workitem_config_init.md">WUDF_WORKITEM_CONFIG_INIT</a>
+<a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a>
 
 
 
@@ -112,7 +112,7 @@ Setting the <b>AutomaticSerialization</b> member of <b>WUDF_WORKITEM_CONFIG</b> 
 
 
 
-<a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a>
+<a href="..\wudfworkitem\nf-wudfworkitem-wudf_workitem_config_init.md">WUDF_WORKITEM_CONFIG_INIT</a>
 
 
 

@@ -96,15 +96,11 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgateturninputoff.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateremoveoffinputfromor.md">KsGateRemoveOffInputFromOr</a>
-
-
-
 <a href="..\ks\nf-ks-ksgateaddoffinputtoor.md">KsGateAddOffInputToOr</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
+<a href="..\ks\nf-ks-ksgateremoveoffinputfromor.md">KsGateRemoveOffInputFromOr</a>
 
 
 
@@ -113,6 +109,10 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgateturninputoff.
 
 
 <a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
 
 
 

@@ -90,11 +90,11 @@ If a driver is registered to receive notifications of events in a user session, 
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a>
-
-
-
 <a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a>
+
+
+
+<a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a>
 
 
 

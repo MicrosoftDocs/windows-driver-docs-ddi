@@ -91,11 +91,11 @@ Specifies the particular EDID segment. Currently, this member is meaningful only
 
 
 
-<a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
-
-
-
 <a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
+
+
+
+<a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
 
 
 

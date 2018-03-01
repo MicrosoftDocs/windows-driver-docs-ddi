@@ -94,14 +94,14 @@ A handle to the device-specific allocation that corresponds to the non device-sp
 [in] A <b>PHYSICAL_ADDRESS</b> data type (which is defined as <b>LARGE_INTEGER</b>) that indicates the physical address, within the segment that <b>SegmentId</b> specifies, where the data is read.
 
 
-#### - SegmentId
-
-[in] The identifier of a segment that data is read from.
-
-
 #### - Reserved
 
 This member is reserved and should be set to zero.
+
+
+#### - SegmentId
+
+[in] The identifier of a segment that data is read from.
 
 
 ## -see-also

@@ -320,11 +320,11 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_begin_frame_crypto_session.md">D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
 
 
 

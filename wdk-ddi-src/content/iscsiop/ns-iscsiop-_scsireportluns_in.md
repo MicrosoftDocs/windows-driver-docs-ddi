@@ -83,7 +83,7 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
 
@@ -91,11 +91,11 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+<a href="..\iscsiop\ns-iscsiop-_scsireportluns_out.md">ScsiReportLuns_OUT</a>
 
 
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_scsireportluns_out.md">ScsiReportLuns_OUT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
 
 
 

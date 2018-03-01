@@ -107,11 +107,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a>
+
+
+
+<a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
 
 
 
@@ -120,10 +124,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
 
 

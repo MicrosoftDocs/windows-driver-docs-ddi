@@ -86,11 +86,11 @@ Reserved.
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_link_eventinfo.md">HBA_Link_EventInfo</a>
-
-
-
 <a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a>
+
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_link_eventinfo.md">HBA_Link_EventInfo</a>
 
 
 

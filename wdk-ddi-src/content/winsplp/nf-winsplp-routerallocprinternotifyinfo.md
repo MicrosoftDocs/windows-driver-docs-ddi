@@ -101,15 +101,15 @@ For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9ce
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
-
-
-
 <a href="..\winsplp\nf-winsplp-routerfreeprinternotifyinfo.md">RouterFreePrinterNotifyInfo</a>
 
 
 
 <a href="..\winsplp\nf-winsplp-appendprinternotifyinfodata.md">AppendPrinterNotifyInfoData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
 
 
 

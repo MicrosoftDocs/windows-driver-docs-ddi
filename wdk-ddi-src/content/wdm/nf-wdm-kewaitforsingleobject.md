@@ -209,15 +209,11 @@ Callers of <b>KeWaitForMutexObject</b> must be running at IRQL &lt;= DISPATCH_LE
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
 
 
 
@@ -225,7 +221,11 @@ Callers of <b>KeWaitForMutexObject</b> must be running at IRQL &lt;= DISPATCH_LE
 
 
 
-<a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
 
 
@@ -233,7 +233,7 @@ Callers of <b>KeWaitForMutexObject</b> must be running at IRQL &lt;= DISPATCH_LE
 
 
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+<a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
 
 
 

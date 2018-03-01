@@ -97,31 +97,7 @@ Callers of <b>InitializeListHead</b> can be running at any IRQL. If <b>Initializ
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pushentrylist.md">PushEntryList</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
-
-
-
-<a href="..\wdm\nf-wdm-popentrylist.md">PopEntryList</a>
-
-
-
-<a href="..\wdm\nf-wdm-insertheadlist.md">InsertHeadList</a>
-
-
-
-<a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
-
-
-
-<a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
-
-
-
-<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 
 
@@ -133,7 +109,35 @@ Callers of <b>InitializeListHead</b> can be running at any IRQL. If <b>Initializ
 
 
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+<a href="..\wudfwdm\nf-wudfwdm-pushentrylist.md">PushEntryList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-insertheadlist.md">InsertHeadList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-popentrylist.md">PopEntryList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-removeentrylist.md">RemoveEntryList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
 
 
 
@@ -141,15 +145,11 @@ Callers of <b>InitializeListHead</b> can be running at any IRQL. If <b>Initializ
 
 
 
-<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
+<a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
 
 
 
-<a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+<a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>
 
 
 

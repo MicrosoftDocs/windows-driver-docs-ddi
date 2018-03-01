@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILUNSOLICITEDSSINFOPARAMMASK
 title: RILUNSOLICITEDSSINFOPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilunsolicitedssinfoparammask_2.htm
+old-location: netvista\rilunsolicitedssinfoparammask.htm
 old-project: netvista
-ms.assetid: 772b2ab3-6ce6-4303-8b1e-145e4e28ee44
+ms.assetid: 41cf5add-4cad-41ed-ba9c-6bfba56a9f65
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILUNSOLICITEDSSINFOPARAMMASK, RILUNSOLICITEDSSINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UNSSS_ADDRESS, RIL_PARAM_UNSSS_ALL, RIL_PARAM_UNSSS_CUGINDEX, RIL_PARAM_UNSSS_HISTINFO, RIL_PARAM_UNSSS_HISTLENGTH, RIL_PARAM_UNSSS_ID, RIL_PARAM_UNSSS_NOTIFICATIONCODE, RIL_PARAM_UNSSS_SUBADDR, netvista.rilunsolicitedssinfoparammask_2, rilapitypes/RILUNSOLICITEDSSINFOPARAMMASK, rilapitypes/RIL_PARAM_UNSSS_ADDRESS, rilapitypes/RIL_PARAM_UNSSS_ALL, rilapitypes/RIL_PARAM_UNSSS_CUGINDEX, rilapitypes/RIL_PARAM_UNSSS_HISTINFO, rilapitypes/RIL_PARAM_UNSSS_HISTLENGTH, rilapitypes/RIL_PARAM_UNSSS_ID, rilapitypes/RIL_PARAM_UNSSS_NOTIFICATIONCODE, rilapitypes/RIL_PARAM_UNSSS_SUBADDR
+ms.date: 2/27/2018
+ms.keywords: RILUNSOLICITEDSSINFOPARAMMASK, RILUNSOLICITEDSSINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UNSSS_ADDRESS, RIL_PARAM_UNSSS_ALL, RIL_PARAM_UNSSS_CUGINDEX, RIL_PARAM_UNSSS_HISTINFO, RIL_PARAM_UNSSS_HISTLENGTH, RIL_PARAM_UNSSS_ID, RIL_PARAM_UNSSS_NOTIFICATIONCODE, RIL_PARAM_UNSSS_SUBADDR, netvista.rilunsolicitedssinfoparammask, ntddrilapitypes/RILUNSOLICITEDSSINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_UNSSS_ADDRESS, ntddrilapitypes/RIL_PARAM_UNSSS_ALL, ntddrilapitypes/RIL_PARAM_UNSSS_CUGINDEX, ntddrilapitypes/RIL_PARAM_UNSSS_HISTINFO, ntddrilapitypes/RIL_PARAM_UNSSS_HISTLENGTH, ntddrilapitypes/RIL_PARAM_UNSSS_ID, ntddrilapitypes/RIL_PARAM_UNSSS_NOTIFICATIONCODE, ntddrilapitypes/RIL_PARAM_UNSSS_SUBADDR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILUNSOLICITEDSSINFOPARAMMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

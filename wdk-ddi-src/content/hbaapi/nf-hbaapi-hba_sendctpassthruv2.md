@@ -142,15 +142,15 @@ A CT command can request services that distribute encryption keys, IP addresses,
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
 
 
 
 <a href="..\hbaapi\nf-hbaapi-hba_sendctpassthru.md">HBA_SendCTPassThru</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 

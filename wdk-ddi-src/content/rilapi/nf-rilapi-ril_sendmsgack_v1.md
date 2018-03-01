@@ -7,7 +7,7 @@ old-location: netvista\ril_sendmsgack_v1.htm
 old-project: netvista
 ms.assetid: 5a3c148e-d113-4cbc-a88a-691531bb3d9d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_SendMsgAck_V1, RIL_SendMsgAck_V1 method [Network Drivers Starting with Windows Vista], netvista.ril_sendmsgack_v1, rilapi/RIL_SendMsgAck_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices

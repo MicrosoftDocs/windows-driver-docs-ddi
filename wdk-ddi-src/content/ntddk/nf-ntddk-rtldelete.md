@@ -96,7 +96,7 @@ Callers of <b>RtlDelete</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtldeletenosplay.md">RtlDeleteNoSplay</a>
+<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
 
 
 
@@ -104,7 +104,7 @@ Callers of <b>RtlDelete</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the 
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
 
 
@@ -112,7 +112,7 @@ Callers of <b>RtlDelete</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the 
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+<a href="..\ntddk\nf-ntddk-rtldeletenosplay.md">RtlDeleteNoSplay</a>
 
 
 

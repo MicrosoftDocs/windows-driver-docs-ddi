@@ -99,7 +99,7 @@ After the D3DHAL_DP2UPDATEPALETTE structure in the command stream, the actual pa
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+D3DDP2OP_UPDATEPALETTE
 
 
 
@@ -107,7 +107,7 @@ After the D3DHAL_DP2UPDATEPALETTE structure in the command stream, the actual pa
 
 
 
-D3DDP2OP_UPDATEPALETTE
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 

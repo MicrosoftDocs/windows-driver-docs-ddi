@@ -98,18 +98,18 @@ Pointer to the address from which to read.
 
 
 
-For more information, see <a href="..\srb\nf-srb-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>. For a buffered version of this routine, see <a href="..\storport\nf-storport-storportreadportbufferushort.md">StorPortReadPortBufferUshort</a>. 
+For more information, see <a href="..\storport\nf-storport-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>. For a buffered version of this routine, see <a href="..\storport\nf-storport-storportreadportbufferushort.md">StorPortReadPortBufferUshort</a>. 
 
 
 
 
 ## -see-also
 
+<a href="..\storport\nf-storport-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>
+
+
+
 <a href="..\storport\nf-storport-storportreadportbufferushort.md">StorPortReadPortBufferUshort</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>
 
 
 

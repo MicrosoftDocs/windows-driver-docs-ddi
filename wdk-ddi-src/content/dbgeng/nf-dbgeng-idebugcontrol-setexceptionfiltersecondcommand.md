@@ -7,7 +7,7 @@ old-location: debugger\setexceptionfiltersecondcommand.htm
 old-project: debugger
 ms.assetid: c95fa025-9455-4a8e-99ef-84030255575c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], SetExceptionFilterSecondCommand method, IDebugControl2 interface [Windows Debugging], SetExceptionFilterSecondCommand method, IDebugControl2::SetExceptionFilterSecondCommand, IDebugControl3 interface [Windows Debugging], SetExceptionFilterSecondCommand method, IDebugControl3::SetExceptionFilterSecondCommand, IDebugControl::SetExceptionFilterSecondCommand, IDebugControl_39380f22-4c68-40fe-b277-f7eace77bcee.xml, SetExceptionFilterSecondCommand method [Windows Debugging], SetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl interface, SetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl2 interface, SetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl3 interface, SetExceptionFilterSecondCommand,IDebugControl.SetExceptionFilterSecondCommand, dbgeng/IDebugControl2::SetExceptionFilterSecondCommand, dbgeng/IDebugControl3::SetExceptionFilterSecondCommand, dbgeng/IDebugControl::SetExceptionFilterSecondCommand, debugger.setexceptionfiltersecondcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,15 +119,15 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546653">GetExceptionFilterSecondCommand</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556678">SetEventFilterCommand</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546653">GetExceptionFilterSecondCommand</a>
 
 
 
@@ -139,7 +139,7 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556678">SetEventFilterCommand</a>
 
 
 
@@ -147,5 +147,5 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetExceptionFilterSecondCommand method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetExceptionFilterSecondCommand method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

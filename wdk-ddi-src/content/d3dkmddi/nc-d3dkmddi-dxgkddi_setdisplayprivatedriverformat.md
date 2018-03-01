@@ -105,11 +105,11 @@ The DirectX graphics kernel subsystem calls the display miniport driver's <i>Dxg
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setdisplayprivatedriverformat.md">DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplayprivatedriverformatcb.md">pfnSetDisplayPrivateDriverFormatCb</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setdisplayprivatedriverformat.md">DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT</a>
 
 
 

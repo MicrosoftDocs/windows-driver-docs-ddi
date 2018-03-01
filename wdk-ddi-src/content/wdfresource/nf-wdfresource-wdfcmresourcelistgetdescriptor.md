@@ -88,7 +88,7 @@ A zero-based value that is used as an index into the logical configuration that 
 
 
 
-<b>WdfCmResourceListGetDescriptor</b> returns a pointer to the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes the hardware resource that the <i>Index</i> parameter identifies, if the index value is valid. Otherwise, the method returns <b>NULL</b>.
+<b>WdfCmResourceListGetDescriptor</b> returns a pointer to the <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes the hardware resource that the <i>Index</i> parameter identifies, if the index value is valid. Otherwise, the method returns <b>NULL</b>.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
@@ -116,7 +116,7 @@ For a code example that uses <b>WdfCmResourceListGetDescriptor</b>, see <a href=
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 

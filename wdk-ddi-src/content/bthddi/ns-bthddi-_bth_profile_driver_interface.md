@@ -128,11 +128,7 @@ All the members of this structure, other than the
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
-
-
-
-<a href="..\bthddi\nc-bthddi-pfnbth_reuse_brb.md">BthReuseBrb</a>
+<a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
 
 
 
@@ -140,15 +136,19 @@ All the members of this structure, other than the
 
 
 
+<a href="..\bthddi\nc-bthddi-pfnbth_free_brb.md">BthFreeBrb</a>
+
+
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
+<a href="..\bthddi\nc-bthddi-pfnbth_reuse_brb.md">BthReuseBrb</a>
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnbth_free_brb.md">BthFreeBrb</a>
+<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
 
 
 

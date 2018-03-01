@@ -146,15 +146,7 @@ The size of the output buffer, in bytes.
 
 ## -see-also
 
-<a href="..\usbprint\ni-usbprint-ioctl_usbprint_vendor_set_command.md">IOCTL_USBPRINT_VENDOR_SET_COMMAND</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -163,6 +155,14 @@ The size of the output buffer, in bytes.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
+
+
+<a href="..\usbprint\ni-usbprint-ioctl_usbprint_vendor_set_command.md">IOCTL_USBPRINT_VENDOR_SET_COMMAND</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 

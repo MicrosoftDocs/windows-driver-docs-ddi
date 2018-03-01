@@ -270,11 +270,11 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-clfsreserveandappendlog.md">ClfsReserveAndAppendLog</a>
+
+
+
 <a href="..\wdm\ns-wdm-_cls_write_entry.md">CLFS_WRITE_ENTRY</a>
-
-
-
-<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
 
 
 
@@ -282,7 +282,7 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
-<a href="..\wdm\nf-wdm-clfsreserveandappendlog.md">ClfsReserveAndAppendLog</a>
+<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
 
 
 

@@ -194,11 +194,11 @@ Send the request to the bus driver by passing the initialized SDBUS_REQUEST_PACK
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538012">SD_REQUEST_FUNCTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
 
 
 

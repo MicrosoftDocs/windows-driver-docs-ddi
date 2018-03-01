@@ -107,7 +107,7 @@ Callers of <b>VideoPortCompareMemory</b> can be running at any IRQL if both bloc
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
+<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
 
 
 
@@ -115,15 +115,15 @@ Callers of <b>VideoPortCompareMemory</b> can be running at any IRQL if both bloc
 
 
 
+<a href="..\video\nf-video-videoportscanrom.md">VideoPortScanRom</a>
+
+
+
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
 
 
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
-
-
-
-<a href="..\video\nf-video-videoportscanrom.md">VideoPortScanRom</a>
+<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
 
 
 

@@ -92,9 +92,9 @@ TBD
 
 
 
-#### - userData
+#### - callbackHandle
 
-Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
+Contains an opaque identifier that the user must pass to <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a> to de-register the callback routine.
 
 
 #### - handle
@@ -102,9 +102,9 @@ Pointer to a buffer that is passed to the callback routine with each event. This
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA for which the adapter events are generated. 
 
 
-#### - callbackHandle
+#### - userData
 
-Contains an opaque identifier that the user must pass to <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a> to de-register the callback routine.
+Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
 
 
 ## -returns
@@ -163,15 +163,15 @@ If the configuration of the HBA referenced by <i>handle </i>is changed, the call
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556045">HBA_ADAPTER_CALLBACK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 

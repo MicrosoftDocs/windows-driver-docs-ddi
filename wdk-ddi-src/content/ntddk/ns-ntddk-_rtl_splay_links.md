@@ -84,13 +84,6 @@ An opaque pointer to the left child node for this node.  If no left-child node e
 An opaque pointer to the right child node for this node.  If no right-child node exists, the value of this member is <b>NULL</b>.
 
 
-### -field _RTL_SPLAY_LINKS
-
- 
-
-
-
-
 ## -remarks
 
 
@@ -124,11 +117,7 @@ Callers of the <b>Rtl</b><b><i>Xxx</i></b> splay tree routines are responsible f
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
+<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
 
 
 
@@ -136,7 +125,7 @@ Callers of the <b>Rtl</b><b><i>Xxx</i></b> splay tree routines are responsible f
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
 
 
@@ -144,7 +133,11 @@ Callers of the <b>Rtl</b><b><i>Xxx</i></b> splay tree routines are responsible f
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
 
 
 

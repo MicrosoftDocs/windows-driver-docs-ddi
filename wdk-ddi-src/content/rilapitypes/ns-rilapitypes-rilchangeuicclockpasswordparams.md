@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILCHANGEUICCLOCKPASSWORDPARAMS
 title: RILCHANGEUICCLOCKPASSWORDPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilchangeuicclockpasswordparams_2.htm
+old-location: netvista\rilchangeuicclockpasswordparams.htm
 old-project: netvista
-ms.assetid: 24c1ae3a-31e7-4b85-8c64-f376c45cb4c4
+ms.assetid: 00e2fe6f-fd8b-45d1-9fd2-d90c515c3571
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilchangeuicclockpasswordparams_2, rilapitypes/RILCHANGEUICCLOCKPASSWORDPARAMS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilchangeuicclockpasswordparams, ntddrilapitypes/RILCHANGEUICCLOCKPASSWORDPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCHANGEUICCLOCKPASSWORDPARAMS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -58,8 +58,8 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ````
 typedef struct _RILCHANGEUICCLOCKPASSWORDPARAMS {
-  RILUICCLOCKCREDENTIAL     lockCredential;
-  char [MAXLENGTH_PASSWORD] szNewPassword;
+  RILUICCLOCKCREDENTIAL  lockCredential;
+  char [256]             szNewPassword;
 } RILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS;
 ````
 

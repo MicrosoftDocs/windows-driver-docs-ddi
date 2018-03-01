@@ -93,11 +93,11 @@ Optional. A pointer to an <a href="..\udecxusbendpoint\nc-udecxusbendpoint-evt_u
 
 ## -see-also
 
-<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointinitsetcallbacks.md">UdecxUsbEndpointInitSetCallbacks</a>
-
-
-
 <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
+
+
+
+<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointinitsetcallbacks.md">UdecxUsbEndpointInitSetCallbacks</a>
 
 
 

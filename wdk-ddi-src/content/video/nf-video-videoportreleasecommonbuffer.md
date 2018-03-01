@@ -127,11 +127,11 @@ The parameters passed to <b>VideoPortFreeCommonBuffer</b> must match exactly tho
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
-
-
-
 <a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
 
 
 

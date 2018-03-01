@@ -80,22 +80,22 @@ HRESULT CreatePrintAsyncNotifyChannel(
 
 
 
-#### - uL [in]
-
-
-#### - pType [in]
-
-
 #### - filter [in]
-
-
-#### - style [in]
 
 
 #### - pCallback [in]
 
 
+#### - pType [in]
+
+
 #### - ppChannel [out]
+
+
+#### - style [in]
+
+
+#### - uL [in]
 
 
 ## -returns

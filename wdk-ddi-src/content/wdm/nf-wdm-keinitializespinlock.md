@@ -99,22 +99,6 @@ Callers of this routine can be running at any IRQL. Usually, a caller is running
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553130">KeReleaseInStackQueuedSpinLock</a>
-
-
-
-<a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553137">KeReleaseInStackQueuedSpinLockFromDpcLevel</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551899">KeAcquireInStackQueuedSpinLock</a>
-
-
-
 <a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
 
 
@@ -123,11 +107,27 @@ Callers of this routine can be running at any IRQL. Usually, a caller is running
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551908">KeAcquireInStackQueuedSpinLockAtDpcLevel</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551899">KeAcquireInStackQueuedSpinLock</a>
+
+
+
+<a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553130">KeReleaseInStackQueuedSpinLock</a>
+
+
+
 <a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551908">KeAcquireInStackQueuedSpinLockAtDpcLevel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553137">KeReleaseInStackQueuedSpinLockFromDpcLevel</a>
 
 
 

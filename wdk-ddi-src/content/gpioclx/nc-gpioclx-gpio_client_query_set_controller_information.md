@@ -171,11 +171,11 @@ The GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION function type is defined in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698238">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698240">CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698238">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</a>
 
 
 

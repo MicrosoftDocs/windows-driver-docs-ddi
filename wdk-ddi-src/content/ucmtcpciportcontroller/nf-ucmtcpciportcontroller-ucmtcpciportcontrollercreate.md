@@ -135,15 +135,15 @@ Invalid size for the structure pointed to by <i>Config</i> or <i> Config-&gt;Cap
 
 ## -see-also
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+
+
+
 <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_config.md">UCMTCPCI_PORT_CONTROLLER_CONFIG</a>
 
 
 
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EVT_WDF_DRIVER_DEVICE_ADD</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 
 

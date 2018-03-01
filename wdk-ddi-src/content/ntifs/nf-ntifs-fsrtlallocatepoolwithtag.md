@@ -112,11 +112,11 @@ Callers of <b>FsRtlAllocatePoolWithTag</b> must be running at IRQL &lt;= DISPATC
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-
-
-
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 

@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILPROVISIONSTATUS
 title: RILPROVISIONSTATUS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilprovisionstatus_2.htm
+old-location: netvista\rilprovisionstatus.htm
 old-project: netvista
-ms.assetid: 59568338-6718-4f3e-bcf6-cd284e68e6af
+ms.assetid: 5295f07d-9800-47f0-a827-515fcdad04eb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILPROVISIONSTATUS, RILPROVISIONSTATUS, RILPROVISIONSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilprovisionstatus_2, rilapitypes/RILPROVISIONSTATUS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILPROVISIONSTATUS, RILPROVISIONSTATUS, RILPROVISIONSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilprovisionstatus, ntddrilapitypes/RILPROVISIONSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILPROVISIONSTATUS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

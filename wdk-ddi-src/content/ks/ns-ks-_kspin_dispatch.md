@@ -139,11 +139,11 @@ If the minidriver needs to determine whether it has been signaled to go to a spe
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksclock_dispatch.md">KSCLOCK_DISPATCH</a>
-
-
-
 <a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 
@@ -151,7 +151,7 @@ If the minidriver needs to determine whether it has been signaled to go to a spe
 
 
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+<a href="..\ks\ns-ks-_ksclock_dispatch.md">KSCLOCK_DISPATCH</a>
 
 
 

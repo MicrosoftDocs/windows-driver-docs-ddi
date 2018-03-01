@@ -101,7 +101,7 @@ It is an error to call <b>KeRemoveByKeyDeviceQueue</b> when the device queue obj
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
+<a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
 
 
 
@@ -109,7 +109,7 @@ It is an error to call <b>KeRemoveByKeyDeviceQueue</b> when the device queue obj
 
 
 
-<a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
+<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
 
 
 

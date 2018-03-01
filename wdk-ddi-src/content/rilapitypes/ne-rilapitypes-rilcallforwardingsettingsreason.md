@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCALLFORWARDINGSETTINGSREASON
 title: RILCALLFORWARDINGSETTINGSREASON
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallforwardingsettingsreason_2.htm
+old-location: netvista\rilcallforwardingsettingsreason.htm
 old-project: netvista
-ms.assetid: 765c34f7-c1c3-4579-b813-0c9845b3fabb
+ms.assetid: d1c39f60-15fb-450d-b879-fb5d236fcf45
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILCALLFORWARDINGSETTINGSREASON, RILCALLFORWARDINGSETTINGSREASON enumeration [Network Drivers Starting with Windows Vista], RIL_FWDREASON_ALLCONDITIONAL, RIL_FWDREASON_ALLFORWARDING, RIL_FWDREASON_MAX, RIL_FWDREASON_MOBILEBUSY, RIL_FWDREASON_NOREPLY, RIL_FWDREASON_UNREACHABLE, netvista.rilcallforwardingsettingsreason_2, rilapitypes/RILCALLFORWARDINGSETTINGSREASON, rilapitypes/RIL_FWDREASON_ALLCONDITIONAL, rilapitypes/RIL_FWDREASON_ALLFORWARDING, rilapitypes/RIL_FWDREASON_MAX, rilapitypes/RIL_FWDREASON_MOBILEBUSY, rilapitypes/RIL_FWDREASON_NOREPLY, rilapitypes/RIL_FWDREASON_UNREACHABLE
+ms.date: 2/27/2018
+ms.keywords: RILCALLFORWARDINGSETTINGSREASON, RILCALLFORWARDINGSETTINGSREASON enumeration [Network Drivers Starting with Windows Vista], RIL_FWDREASON_ALLCONDITIONAL, RIL_FWDREASON_ALLFORWARDING, RIL_FWDREASON_MAX, RIL_FWDREASON_MOBILEBUSY, RIL_FWDREASON_NOREPLY, RIL_FWDREASON_UNREACHABLE, netvista.rilcallforwardingsettingsreason, ntddrilapitypes/RILCALLFORWARDINGSETTINGSREASON, ntddrilapitypes/RIL_FWDREASON_ALLCONDITIONAL, ntddrilapitypes/RIL_FWDREASON_ALLFORWARDING, ntddrilapitypes/RIL_FWDREASON_MAX, ntddrilapitypes/RIL_FWDREASON_MOBILEBUSY, ntddrilapitypes/RIL_FWDREASON_NOREPLY, ntddrilapitypes/RIL_FWDREASON_UNREACHABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLFORWARDINGSETTINGSREASON
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

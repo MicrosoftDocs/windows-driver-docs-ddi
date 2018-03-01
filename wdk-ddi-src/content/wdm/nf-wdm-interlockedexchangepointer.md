@@ -111,11 +111,11 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 
-<a href="..\wdm\nf-wdm-interlockedcompareexchangepointer.md">InterlockedCompareExchangePointer</a>
-
-
-
 <a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedcompareexchangepointer.md">InterlockedCompareExchangePointer</a>
 
 
 

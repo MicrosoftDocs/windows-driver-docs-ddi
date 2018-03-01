@@ -176,11 +176,11 @@ The <b>EVT_WDFDEVICE_WDM_IRP_PREPROCESS</b> function type is defined in the Wdfd
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignwdmirppreprocesscallback.md">WdfDeviceInitAssignWdmIrpPreprocessCallback</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp.md">WdfDeviceWdmDispatchPreprocessedIrp</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignwdmirppreprocesscallback.md">WdfDeviceInitAssignWdmIrpPreprocessCallback</a>
 
 
 

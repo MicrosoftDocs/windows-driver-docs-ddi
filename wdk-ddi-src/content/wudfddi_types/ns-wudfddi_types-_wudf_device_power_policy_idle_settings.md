@@ -214,11 +214,11 @@ To initialize its <b>WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</b> structure, your 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D020B8AA-7353-47E1-A111-82BFE6F5F03D">IWDFDevice3::AssignS0IdleSettingsEx</a>
-
-
-
 <a href="..\wudfdevice\nf-wudfdevice-wudf_device_power_policy_idle_settings_init.md">WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT</a>
+
+
+
+<a href="https://msdn.microsoft.com/D020B8AA-7353-47E1-A111-82BFE6F5F03D">IWDFDevice3::AssignS0IdleSettingsEx</a>
 
 
 

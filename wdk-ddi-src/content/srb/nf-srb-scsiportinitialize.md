@@ -116,7 +116,7 @@ A miniport driver that calls <b>ScsiPortInitialize</b> more than once should che
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
+<a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
 
 
 

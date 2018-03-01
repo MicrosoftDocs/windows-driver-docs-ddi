@@ -110,11 +110,11 @@ A <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_copyflags.md">D3DDDIARG_COPYFLAGS</
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updatesubresourceup.md">pfnUpdateSubresourceUP</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddibox.md">D3DDDIBOX</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updatesubresourceup.md">pfnUpdateSubresourceUP</a>
 
 
 

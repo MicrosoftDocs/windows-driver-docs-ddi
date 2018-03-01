@@ -102,11 +102,11 @@ These IRPs will normally result in a call to one of the <b>MRxQueryFileInfo, MRx
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550776">MRxQuerySdInfo</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550776">MRxQuerySdInfo</a>
 
 
 

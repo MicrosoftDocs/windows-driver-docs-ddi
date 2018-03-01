@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILEXECUTORRFSTATEPARAMMASK
 title: RILEXECUTORRFSTATEPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilexecutorrfstateparammask_2.htm
+old-location: netvista\rilexecutorrfstateparammask.htm
 old-project: netvista
-ms.assetid: 310cd96f-ad99-4fdb-b49c-e4fee749ff78
+ms.assetid: 58dae7ff-5e88-4ccd-85d9-8b0022e85d30
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILEXECUTORRFSTATEPARAMMASK, RILEXECUTORRFSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_GERFS_ALL, RIL_PARAM_GERFS_STATE, netvista.rilexecutorrfstateparammask_2, rilapitypes/RILEXECUTORRFSTATEPARAMMASK, rilapitypes/RIL_PARAM_GERFS_ALL, rilapitypes/RIL_PARAM_GERFS_STATE
+ms.date: 2/27/2018
+ms.keywords: RILEXECUTORRFSTATEPARAMMASK, RILEXECUTORRFSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_GERFS_ALL, RIL_PARAM_GERFS_STATE, netvista.rilexecutorrfstateparammask, ntddrilapitypes/RILEXECUTORRFSTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_GERFS_ALL, ntddrilapitypes/RIL_PARAM_GERFS_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILEXECUTORRFSTATEPARAMMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

@@ -195,10 +195,6 @@ In this example, the starting physical address is specified by the <code>BasePhy
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_mm_physical_address_list.md">MM_PHYSICAL_ADDRESS_LIST</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
 
 
@@ -212,6 +208,10 @@ In this example, the starting physical address is specified by the <code>BasePhy
 
 
 <a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
+
+
+
+<a href="..\wdm\ns-wdm-_mm_physical_address_list.md">MM_PHYSICAL_ADDRESS_LIST</a>
 
 
 

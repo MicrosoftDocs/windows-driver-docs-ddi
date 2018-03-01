@@ -161,7 +161,7 @@ All index values are zero-based, and input pins are counted separately from outp
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565121">KSPROPERTY_CROSSBAR_PININFO</a>
 
 
 
@@ -169,7 +169,7 @@ All index values are zero-based, and input pins are counted separately from outp
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565121">KSPROPERTY_CROSSBAR_PININFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 

@@ -124,7 +124,7 @@ Specifies a collection of flags that indicate changes in the current destination
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
+<a href="..\dxva\ns-dxva-_dxva_videosample32.md">DXVA_VideoSample32</a>
 
 
 
@@ -136,7 +136,7 @@ Specifies a collection of flags that indicate changes in the current destination
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_videosample32.md">DXVA_VideoSample32</a>
+<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
 
 
 

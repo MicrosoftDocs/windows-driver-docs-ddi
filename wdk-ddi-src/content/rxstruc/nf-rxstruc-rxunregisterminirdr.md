@@ -88,7 +88,7 @@ None
 
 <b>RxUnregisterMinirdr</b> is an inline routine defined in <i>rxstruc.h</i> that de-registers the driver with RDBSS and removes the registration information from the internal RDBSS registration table. If name tables were initialized, then these tables will be finalized for release. Any outstanding asynchronous requests to the network mini-redirector are spun down, and any worker threads associated with the redirector are spun down. <b>RxUnregisterMinirdr</b> also tries to remove the device object from the system by calling <b>IoDeleteDevice</b>.
 
-Typically, the <b>RxUnregisterMinirdr </b>routine is called as a result of an FSCTL or IOCTL request from a user-mode application or service to unload the network mini-redirector, although this call could also be made from the network mini-redirector or as part of shutdown processing by the operating system or as a result of a failure in the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine.
+Typically, the <b>RxUnregisterMinirdr </b>routine is called as a result of an FSCTL or IOCTL request from a user-mode application or service to unload the network mini-redirector, although this call could also be made from the network mini-redirector or as part of shutdown processing by the operating system or as a result of a failure in the <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine.
 
 Note that the inline routine, <b>RxUnregisterMinirdr</b>, is the preferred way to unregister a driver with RDBSS. The <b>RxUnregisterMinirdr</b> inline routine calls <b>RxpUnregisterMinirdr</b>, but then also decrements the object reference to the RDBSS device object so that this object can be released by the system. 
 
@@ -97,7 +97,7 @@ Note that the inline routine, <b>RxUnregisterMinirdr</b>, is the preferred way t
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
 
 
 
@@ -105,19 +105,19 @@ Note that the inline routine, <b>RxUnregisterMinirdr</b>, is the preferred way t
 
 
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
 
 
 
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
 
 
 
 <a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
 
 
 

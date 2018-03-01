@@ -119,15 +119,15 @@ This structure is available in Windows XP and later.
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportstartdma.md">VideoPortStartDma</a>
-
-
-
 <a href="..\video\nf-video-videoportputdmaadapter.md">VideoPortPutDmaAdapter</a>
 
 
 
 <a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
+
+
+
+<a href="..\video\nf-video-videoportstartdma.md">VideoPortStartDma</a>
 
 
 

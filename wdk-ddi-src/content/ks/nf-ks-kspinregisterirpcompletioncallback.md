@@ -105,11 +105,7 @@ This function is frequently called from the pin creation dispatch. See <a href="
 
 ## -see-also
 
-<a href="..\ks\nc-ks-pfnkspinirp.md">AVStrMiniPinCreate</a>
-
-
-
-<a href="..\ks\nc-ks-pfnkspinirpcompletion.md">AVStrMiniPinIrpCompletion</a>
+<a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
 
 
 
@@ -121,11 +117,15 @@ This function is frequently called from the pin creation dispatch. See <a href="
 
 
 
-<a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
-
-
-
 <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+
+
+
+<a href="..\ks\nc-ks-pfnkspinirp.md">AVStrMiniPinCreate</a>
+
+
+
+<a href="..\ks\nc-ks-pfnkspinirpcompletion.md">AVStrMiniPinIrpCompletion</a>
 
 
 

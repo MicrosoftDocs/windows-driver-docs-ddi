@@ -100,11 +100,11 @@ Refer to the Microsoft Windows SDK documentation for a description of the <b>Ext
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554141">IPrintOemUI2::DocumentEvent</a>
-
-
-
 <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554141">IPrintOemUI2::DocumentEvent</a>
 
 
 

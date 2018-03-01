@@ -108,7 +108,15 @@ An array of structures of type <a href="..\dxgiddi\ns-dxgiddi-dxgiddi_multiplane
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
+
 <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb.md">pfnPresentMultiplaneOverlay (DXGI)</a>
+
+
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgiddi_multiplane_overlay_allocation_info.md">DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO</a>
 
 
 
@@ -116,15 +124,7 @@ An array of structures of type <a href="..\dxgiddi\ns-dxgiddi-dxgiddi_multiplane
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
-
-
-
 <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
-
-
-
-<a href="..\dxgiddi\ns-dxgiddi-dxgiddi_multiplane_overlay_allocation_info.md">DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO</a>
 
 
 

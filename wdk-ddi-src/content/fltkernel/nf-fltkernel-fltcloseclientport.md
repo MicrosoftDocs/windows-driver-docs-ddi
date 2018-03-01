@@ -104,7 +104,7 @@ This routine disconnects a specific connection from the minifilter driver. To cl
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540460">FilterConnectCommunicationPort</a>
 
 
 
@@ -112,7 +112,7 @@ This routine disconnects a specific connection from the minifilter driver. To cl
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540460">FilterConnectCommunicationPort</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
 
 
 

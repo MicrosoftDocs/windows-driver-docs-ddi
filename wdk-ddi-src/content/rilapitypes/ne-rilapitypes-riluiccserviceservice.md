@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILUICCSERVICESERVICE
 title: RILUICCSERVICESERVICE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riluiccserviceservice_2.htm
+old-location: netvista\riluiccserviceservice.htm
 old-project: netvista
-ms.assetid: bc3df2dd-caa7-4614-a243-3df13e3c0e84
+ms.assetid: 1aeb4642-d718-4e39-a6c7-dc33146c9687
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILUICCSERVICESERVICE, RILUICCSERVICESERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCOPERATION_SERVICE_ACL, RIL_UICCOPERATION_SERVICE_BDN, RIL_UICCOPERATION_SERVICE_MAX, netvista.riluiccserviceservice_2, rilapitypes/RILUICCSERVICESERVICE, rilapitypes/RIL_UICCOPERATION_SERVICE_ACL, rilapitypes/RIL_UICCOPERATION_SERVICE_BDN, rilapitypes/RIL_UICCOPERATION_SERVICE_MAX
+ms.date: 2/27/2018
+ms.keywords: RILUICCSERVICESERVICE, RILUICCSERVICESERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCOPERATION_SERVICE_ACL, RIL_UICCOPERATION_SERVICE_BDN, RIL_UICCOPERATION_SERVICE_MAX, netvista.riluiccserviceservice, ntddrilapitypes/RILUICCSERVICESERVICE, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_ACL, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_BDN, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILUICCSERVICESERVICE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

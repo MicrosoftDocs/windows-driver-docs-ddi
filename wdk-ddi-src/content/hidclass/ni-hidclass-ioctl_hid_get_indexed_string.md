@@ -125,11 +125,15 @@ The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 
 ## -see-also
 
+<a href="..\hidsdi\nf-hidsdi-hidd_getindexedstring.md">HidD_GetIndexedString</a>
+
+
+
 <a href="..\hidclass\ni-hidclass-ioctl_hid_get_indexed_string.md">IOCTL_HID_GET_INDEXED_STRING</a>
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getindexedstring.md">HidD_GetIndexedString</a>
+<a href="..\hidsdi\nf-hidsdi-hidd_getproductstring.md">HidD_GetProductString</a>
 
 
 
@@ -146,10 +150,6 @@ The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 
 
 <a href="..\hidclass\ni-hidclass-ioctl_hid_get_product_string.md">IOCTL_HID_GET_PRODUCT_STRING</a>
-
-
-
-<a href="..\hidsdi\nf-hidsdi-hidd_getproductstring.md">HidD_GetProductString</a>
 
 
 

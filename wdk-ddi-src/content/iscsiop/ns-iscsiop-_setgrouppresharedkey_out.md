@@ -83,11 +83,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_setgrouppresharedkey_in.md">SetGroupPresharedKey_IN</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565693">SetGroupPresharedKey</a>
+
+
+
+<a href="..\iscsiop\ns-iscsiop-_setgrouppresharedkey_in.md">SetGroupPresharedKey_IN</a>
 
 
 

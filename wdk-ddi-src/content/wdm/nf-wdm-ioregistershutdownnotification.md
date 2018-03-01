@@ -105,11 +105,11 @@ A PnP driver might register a shutdown routine to perform certain tasks before s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543405">DispatchShutdown</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioregisterlastchanceshutdownnotification.md">IoRegisterLastChanceShutdownNotification</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543405">DispatchShutdown</a>
 
 
 

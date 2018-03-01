@@ -180,7 +180,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
+<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
 
 
 
@@ -188,7 +188,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
+<a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
 
 
 
@@ -196,7 +196,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
+<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
 
 
 

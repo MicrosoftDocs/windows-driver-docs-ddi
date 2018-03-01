@@ -110,15 +110,7 @@ DWORD for D3DQUERYTYPE_OCCLUSION. The driver sets this DWORD to the number of pi
 
 ## -see-also
 
-<a href="..\d3d9types\ns-d3d9types-_d3ddevinfo_vcache.md">D3DDEVINFO_VCACHE</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
-
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+D3DDP2OP_CREATEQUERY
 
 
 
@@ -126,7 +118,15 @@ DWORD for D3DQUERYTYPE_OCCLUSION. The driver sets this DWORD to the number of pi
 
 
 
-D3DDP2OP_CREATEQUERY
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+
+<a href="..\d3d9types\ns-d3d9types-_d3ddevinfo_vcache.md">D3DDEVINFO_VCACHE</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 

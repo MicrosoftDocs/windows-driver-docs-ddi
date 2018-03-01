@@ -132,7 +132,7 @@ This structure is used with a <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_i
 
 
 
-<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
+<a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
 
 
 
@@ -140,7 +140,7 @@ This structure is used with a <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_i
 
 
 
-<a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
+<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
 
 
 

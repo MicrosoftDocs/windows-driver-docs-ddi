@@ -169,11 +169,11 @@ This structure is very similar to the <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbi
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry2.md">HBAFCPBindingEntry2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556046">HBA_BIND_TYPE</a>
 
 
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
+<a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
 
 
 
@@ -181,7 +181,11 @@ This structure is very similar to the <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556046">HBA_BIND_TYPE</a>
+<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
+
+
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry2.md">HBAFCPBindingEntry2</a>
 
 
 
@@ -190,10 +194,6 @@ This structure is very similar to the <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbi
 
 
 <a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a>
-
-
-
-<a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
 
 
 

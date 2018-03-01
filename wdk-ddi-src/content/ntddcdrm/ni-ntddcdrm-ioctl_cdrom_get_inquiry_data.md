@@ -77,12 +77,12 @@ None.
 
 ### -output-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the returned inquiry data. For a description of the layout of the inquiry data in the output buffer, see <a href="..\minitape\ns-minitape-_inquirydata.md">INQUIRYDATA</a>.
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the returned inquiry data. For a description of the layout of the inquiry data in the output buffer, see <a href="..\storport\ns-storport-_inquirydata.md">INQUIRYDATA</a>.
 
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> indicates the number of bytes that can be written to <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>, which must be &gt;= <b>sizeof</b>(<a href="..\minitape\ns-minitape-_inquirydata.md">INQUIRYDATA</a>).
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> indicates the number of bytes that can be written to <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>, which must be &gt;= <b>sizeof</b>(<a href="..\storport\ns-storport-_inquirydata.md">INQUIRYDATA</a>).
 
 
 ### -in-out-buffer
@@ -119,11 +119,11 @@ TBD
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_inquirydata.md">INQUIRYDATA</a>
-
-
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
+
+
+
+<a href="..\storport\ns-storport-_inquirydata.md">INQUIRYDATA</a>
 
 
 

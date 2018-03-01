@@ -115,19 +115,19 @@ The asynchronously executed DPC contains a call to <b>VideoPortEnumerateChildren
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>
-
-
-
 <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
 
 
-<a href="..\video\nc-video-pminiport_dpc_routine.md">HwVidDpcRoutine</a>
+<a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>
 
 
 
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+
+
+<a href="..\video\nc-video-pminiport_dpc_routine.md">HwVidDpcRoutine</a>
 
 
 

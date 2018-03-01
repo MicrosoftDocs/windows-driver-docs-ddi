@@ -116,6 +116,10 @@ Before calling <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiterati
 
 ## -see-also
 
+<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
+
+
+
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a>
 
 
@@ -125,10 +129,6 @@ Before calling <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiterati
 
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>
-
-
-
-<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
 
 
 

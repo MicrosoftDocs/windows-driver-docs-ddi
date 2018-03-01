@@ -109,11 +109,11 @@ The client calls the <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 
 
-<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559872">IKsInterfaceHandler::KsSetPin</a>
+
+
+
+<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
 
 
 

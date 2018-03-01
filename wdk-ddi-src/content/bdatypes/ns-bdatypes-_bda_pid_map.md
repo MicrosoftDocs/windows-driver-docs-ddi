@@ -90,15 +90,15 @@ Array of PIDs that identify packets to map to the output of a PID filter.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a>
-
-
-
 <a href="..\bdatypes\ns-bdatypes-_bda_pid_unmap.md">BDA_PID_UNMAP</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566551">KSPROPSETID_BdaPIDFilter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a>
 
 
 

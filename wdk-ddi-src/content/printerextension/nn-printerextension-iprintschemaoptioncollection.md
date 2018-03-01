@@ -123,11 +123,11 @@ Gets a pointer to the enumerants of <b>IPrintSchemaOptionCollection</b> objects.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
+
+
+
+<a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

@@ -92,15 +92,15 @@ The connection between the current target device object and the controller objec
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioallocatecontroller.md">IoAllocateController</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-iodeletecontroller.md">IoDeleteController</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-iocreatecontroller.md">IoCreateController</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-ioallocatecontroller.md">IoAllocateController</a>
 
 
 

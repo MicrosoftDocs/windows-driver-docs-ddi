@@ -111,14 +111,6 @@ Other members that are part of this structure but not described here should be t
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-
-
-
-<a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequestex.md">USBD_CreateConfigurationRequestEx</a>
-
-
-
 <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
 
 
@@ -127,11 +119,19 @@ Other members that are part of this structure but not described here should be t
 
 
 
-<a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a>
+<a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequestex.md">USBD_CreateConfigurationRequestEx</a>
 
 
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+
+
+<a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a>
 
 
 

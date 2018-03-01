@@ -104,14 +104,14 @@ TBD
 
 
 
-#### - handle
-
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA for which event callbacks are requested.
-
-
 #### - callbackHandle
 
 Pointer to an opaque identifier that may be used to deregister the caller and suspend calls to the callback routine when events occur.
+
+
+#### - handle
+
+Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA for which event callbacks are requested.
 
 
 ## -returns
@@ -179,15 +179,15 @@ Only RLIR events are reported. To stop event delivery, call <a href="..\hbaapi\n
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556121">HBA_LINK_CALLBACK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 

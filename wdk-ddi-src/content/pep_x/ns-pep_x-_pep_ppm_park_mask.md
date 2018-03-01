@@ -99,16 +99,6 @@ The Processors array is guaranteed to contain the processors in increasing order
 
 
 
-##### - Processors.On input
-
-Indicates the OS parking preference for each processor.
-
-
-##### - Processors.On output
-
-Returns the PEP parking preference for each processor.
-
-
 ## -see-also
 
 <a href="..\pepfx\ns-pepfx-_pep_processor_park_state.md">PEP_PROCESSOR_PARK_STATE</a>

@@ -116,15 +116,15 @@ typedef D3DDDIARG_SETVERTEXSHADERCONST D3DDDIARG_SETVERTEXSHADERCONSTB;</pre>
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setvertexshaderconst.md">SetVertexShaderConst</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setvertexshaderconst.md">SetVertexShaderConstI</a>
 
 
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setvertexshaderconstb.md">SetVertexShaderConstB</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setvertexshaderconst.md">SetVertexShaderConst</a>
 
 
 

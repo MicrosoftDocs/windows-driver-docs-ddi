@@ -158,19 +158,19 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a>
-
-
-
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
+
+<a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a>
+
+
+
+<a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
 
 
 

@@ -96,11 +96,11 @@ Miniport drivers used with the Storport driver retrieve an array of these struct
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_scatter_gather_list.md">STOR_SCATTER_GATHER_LIST</a>
-
-
-
 <a href="..\storport\nf-storport-storportgetscattergatherlist.md">StorPortGetScatterGatherList</a>
+
+
+
+<a href="..\storport\ns-storport-_stor_scatter_gather_list.md">STOR_SCATTER_GATHER_LIST</a>
 
 
 

@@ -83,14 +83,14 @@ VOID APIENTRY* pfnRelocateDeviceFuncs(
 
 
 
-#### - hDevice
-
-The handle of a device.
-
-
 #### - DeviceFunctions [in]
 
 The device functions table, as a <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs.md">D3DWDDM2_2DDI_DEVICEFUNCS</a> structure.
+
+
+#### - hDevice
+
+The handle of a device.
 
 
 ## -returns

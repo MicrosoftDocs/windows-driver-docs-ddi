@@ -136,11 +136,6 @@ When the driver sets the <b>CreateShared</b> bit-field flag in <b>Flags</b> to c
 [in] An opaque handle that you can use in event tracing. This handle can be used to associate kernel-mode allocations with user-mode surface pointers when you analyze Event Tracing for Windows (ETW) event logs.
 
 
-#### - pPrivateDriverData
-
-[in] A pointer to a buffer that contains optional private data that the display miniport driver might require to create the resource or allocation. The contents of the buffer typically come from the OpenGL ICD and must be in a format that the display miniport driver can process.
-
-
 #### - pAllocationInfo
 
 [in] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a> structures that describe specific properties for each allocation to create.
@@ -153,17 +148,22 @@ When the driver sets the <b>CreateShared</b> bit-field flag in <b>Flags</b> to c
 This member is available beginning with Windows 7.
 
 
+#### - pPrivateDriverData
+
+[in] A pointer to a buffer that contains optional private data that the display miniport driver might require to create the resource or allocation. The contents of the buffer typically come from the OpenGL ICD and must be in a format that the display miniport driver can process.
+
+
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createallocationflags.md">D3DKMT_CREATEALLOCATIONFLAGS</a>
 
 
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createallocation.md">D3DKMTCreateAllocation</a>
-
-
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
+
+
+
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createallocation.md">D3DKMTCreateAllocation</a>
 
 
 

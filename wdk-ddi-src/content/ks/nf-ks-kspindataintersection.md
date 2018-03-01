@@ -127,11 +127,11 @@ A match can occur under three conditions: if the major format of the range passe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
-
-
-
 <a href="..\ks\nc-ks-pfnksintersecthandler.md">KStrIntersectHandler</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 

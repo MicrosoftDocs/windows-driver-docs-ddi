@@ -132,11 +132,11 @@ Handle to an event that is used to signal that the I/O operation completed.
 
 
 
-<a href="..\ksproxy\nn-ksproxy-iksdatatypehandler.md">IKsDataTypeHandler</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
+
+
+
+<a href="..\ksproxy\nn-ksproxy-iksdatatypehandler.md">IKsDataTypeHandler</a>
 
 
 

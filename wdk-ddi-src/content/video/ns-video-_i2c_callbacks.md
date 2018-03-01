@@ -93,19 +93,19 @@ A pointer to the <a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
-
-
-
 <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
 
 
-<a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
 
 
 
 <a href="..\video\ns-video-_ddc_control.md">DDC_CONTROL</a>
+
+
+
+<a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
 
 
 

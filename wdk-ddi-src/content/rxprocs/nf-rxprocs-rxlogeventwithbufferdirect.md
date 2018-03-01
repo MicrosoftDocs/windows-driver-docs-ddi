@@ -138,7 +138,7 @@ The <b>RxLogEventWithAnnotation</b> routine needs to allocate memory in order to
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-rxlogeventdirect.md">RxLogEventDirect</a>
+<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
 
 
 
@@ -146,7 +146,7 @@ The <b>RxLogEventWithAnnotation</b> routine needs to allocate memory in order to
 
 
 
-<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
+<a href="..\rxprocs\nf-rxprocs-rxlogeventdirect.md">RxLogEventDirect</a>
 
 
 

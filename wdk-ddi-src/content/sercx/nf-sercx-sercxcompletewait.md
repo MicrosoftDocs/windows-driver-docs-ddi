@@ -132,11 +132,11 @@ Later, when an event in the new wait mask occurs, the driver calls <b>SerCxCompl
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx_waitmask.md">EvtSerCxWaitmask</a>
-
-
-
 <a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx_waitmask.md">EvtSerCxWaitmask</a>
 
 
 

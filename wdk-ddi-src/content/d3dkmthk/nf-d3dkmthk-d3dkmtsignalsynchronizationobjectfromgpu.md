@@ -126,6 +126,10 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobject2.md">D3DKMTSignalSynchronizationObject2</a>
+
+
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromgpu2.md">D3DKMTSignalSynchronizationObjectFromGpu2</a>
 
 
@@ -135,10 +139,6 @@ This function might also return other <b>NTSTATUS</b> values.
 
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobject.md">D3DKMTSignalSynchronizationObject</a>
-
-
-
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobject2.md">D3DKMTSignalSynchronizationObject2</a>
 
 
 

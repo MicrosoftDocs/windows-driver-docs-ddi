@@ -111,11 +111,11 @@ The <b>Type</b> member of the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md"
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlioencodememioresource.md">RtlIoEncodeMemIoResource</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
 
 

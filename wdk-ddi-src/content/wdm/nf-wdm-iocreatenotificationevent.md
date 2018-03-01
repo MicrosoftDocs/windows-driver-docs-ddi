@@ -122,7 +122,7 @@ The user-mode application creates the event object and passes a handle to the ob
 
 </li>
 <li>
-The driver creates a named event object in the \\BaseNamedObjects object directory. You can open a kernel-mode event named \\BaseNamedObjects\<i>Xxx</i> in user mode under the name <i>Xxx</i>. Note that security settings can prevent an application from opening the event. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70044">OpenEvent Fails in a Non-Administrator Account</a> KB article. The \\BaseNamedObjects object directory is not created until the Microsoft Win32 subsystem initializes, so drivers that are loaded at boot time cannot create event objects in the \\BaseNamedObjects directory in their <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routines.
+The driver creates a named event object in the \\BaseNamedObjects object directory. You can open a kernel-mode event named \\BaseNamedObjects\<i>Xxx</i> in user mode under the name <i>Xxx</i>. Note that security settings can prevent an application from opening the event. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70044">OpenEvent Fails in a Non-Administrator Account</a> KB article. The \\BaseNamedObjects object directory is not created until the Microsoft Win32 subsystem initializes, so drivers that are loaded at boot time cannot create event objects in the \\BaseNamedObjects directory in their <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routines.
 
 </li>
 </ul>
@@ -133,15 +133,7 @@ For more information about events, see <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-
-
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
-
-
-
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
 
 
 
@@ -149,7 +141,15 @@ For more information about events, see <a href="https://msdn.microsoft.com/libra
 
 
 
-<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
+<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+
+
+
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 
@@ -157,7 +157,7 @@ For more information about events, see <a href="https://msdn.microsoft.com/libra
 
 
 
-<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
 
 
 

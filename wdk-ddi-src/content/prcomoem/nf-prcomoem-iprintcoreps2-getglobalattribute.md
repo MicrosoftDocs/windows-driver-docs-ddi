@@ -191,19 +191,19 @@ For more information, see <a href="https://msdn.microsoft.com/0e23ecba-7d89-44f5
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintcoreps2.md">IPrintCorePS2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553013">IPrintCorePS2::GetOptionAttribute</a>
 
 
 
+<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553006">IPrintCorePS2::GetFeatureAttribute</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintcoreps2.md">IPrintCorePS2</a>
 
 
 

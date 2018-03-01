@@ -133,15 +133,15 @@ To be notified of boot-start driver initialization operations, an <i>early launc
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-iounregisterbootdrivercallback.md">IoUnRegisterBootDriverCallback</a>
+
+
+
 <a href="..\ntddk\ne-ntddk-_bdcb_callback_type.md">BDCB_CALLBACK_TYPE</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_bdcb_image_information.md">BDCB_IMAGE_INFORMATION</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iounregisterbootdrivercallback.md">IoUnRegisterBootDriverCallback</a>
 
 
 

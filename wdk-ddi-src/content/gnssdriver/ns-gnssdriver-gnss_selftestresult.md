@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_SELFTESTRESULT
 title: GNSS_SELFTESTRESULT
 author: windows-driver-content
 description: This structure defines the specific data elements associated with a carrier wave test results returned from the driver.
-old-location: sensors\gnss_selftestresult.htm
-old-project: sensors
+old-location: gnss\gnss_selftestresult.htm
+old-project: gnss
 ms.assetid: 572A2C38-A990-4225-A3FC-6E899A248B1C
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: "*PGNSS_SELFTESTRESULT, GNSS_SELFTESTRESULT, GNSS_SELFTESTRESULT structure [Sensor Devices], PGNSS_SELFTESTRESULT, PGNSS_SELFTESTRESULT structure pointer [Sensor Devices], gnssdriver/GNSS_SELFTESTRESULT, gnssdriver/PGNSS_SELFTESTRESULT, sensors.gnss_selftestresult"
+ms.date: 2/15/2018
+ms.keywords: "*PGNSS_SELFTESTRESULT, GNSS_SELFTESTRESULT, GNSS_SELFTESTRESULT structure [Sensor Devices], PGNSS_SELFTESTRESULT, PGNSS_SELFTESTRESULT structure pointer [Sensor Devices], gnss.gnss_selftestresult, gnssdriver/GNSS_SELFTESTRESULT, gnssdriver/PGNSS_SELFTESTRESULT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -126,12 +126,12 @@ The length of the buffer for returning any additional information about the self
 
 
 
-#### - Unused[512]
-
-Padding buffer.
-
-
 #### - OutBuffer[BYTE]
 
 The buffer that will contain the additional information about the self-test.
+
+
+#### - Unused[512]
+
+Padding buffer.
 

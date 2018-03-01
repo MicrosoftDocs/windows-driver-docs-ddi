@@ -92,11 +92,11 @@ The <b>IInterFilterCommunicator</b> object is passed to each filter in the <a hr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554291">IPrintPipelineFilter::InitializeFilter</a>
-
-
-
 <a href="..\filterpipeline\nn-filterpipeline-iinterfiltercommunicator.md">IInterFilterCommunicator</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554291">IPrintPipelineFilter::InitializeFilter</a>
 
 
 

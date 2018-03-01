@@ -269,19 +269,15 @@ Callers of <b>FltQueryDirectoryFile</b> must be running at IRQL = PASSIVE_LEVEL 
 
 ## -see-also
 
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_id_full_dir_information.md">FILE_ID_FULL_DIR_INFORMATION</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_file_both_dir_information.md">FILE_BOTH_DIR_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_id_both_dir_information.md">FILE_ID_BOTH_DIR_INFORMATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECTID_INFORMATION</a>
 
 
 
@@ -289,23 +285,7 @@ Callers of <b>FltQueryDirectoryFile</b> must be running at IRQL = PASSIVE_LEVEL 
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_names_information.md">FILE_NAMES_INFORMATION</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_directory_information.md">FILE_DIRECTORY_INFORMATION</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -313,7 +293,27 @@ Callers of <b>FltQueryDirectoryFile</b> must be running at IRQL = PASSIVE_LEVEL 
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_id_full_dir_information.md">FILE_ID_FULL_DIR_INFORMATION</a>
+<a href="..\ntifs\ns-ntifs-_file_id_both_dir_information.md">FILE_ID_BOTH_DIR_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_names_information.md">FILE_NAMES_INFORMATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_directory_information.md">FILE_DIRECTORY_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECTID_INFORMATION</a>
 
 
 

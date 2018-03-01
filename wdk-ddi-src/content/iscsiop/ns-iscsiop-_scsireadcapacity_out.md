@@ -111,7 +111,7 @@ You must implement this method.
 
 
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_scsireadcapacity_in.md">ScsiReadCapacity_IN</a>
+<a href="..\iscsiop\ns-iscsiop-_scsireadcapacity_in.md">ScsiReadCapacity_IN</a>
 
 
 

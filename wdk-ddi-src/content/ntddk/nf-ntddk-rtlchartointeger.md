@@ -108,7 +108,7 @@ Pointer to a location to which the converted value is returned.
 
 
 
-<a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
+<a href="..\wudfwdm\nf-wudfwdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
 
 
 

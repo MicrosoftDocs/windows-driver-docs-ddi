@@ -93,11 +93,11 @@ Invoked when the Bidi “Set”” operation is completed.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265391">SendBidiSetRequestAsync</a>
-
-
-
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd144984(v=vs.85).aspx">IBidiSpl2::SendRecvXmlString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265391">SendBidiSetRequestAsync</a>
 
 
 

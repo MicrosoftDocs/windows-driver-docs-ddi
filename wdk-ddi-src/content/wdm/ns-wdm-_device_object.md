@@ -112,12 +112,7 @@ Used by the I/O manager to track the number of open handles for the device that 
 
 ### -field DriverObject
 
-A pointer to the driver object (<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>), that represents the loaded image of the driver that was input to the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines. This member is set by the I/O manager upon a successful call to <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548407">IoCreateDeviceSecure</a>. This is a read-only member.
-
-
-### -field _DRIVER_OBJECT
-
- 
+A pointer to the driver object (<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>), that represents the loaded image of the driver that was input to the <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines. This member is set by the I/O manager upon a successful call to <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548407">IoCreateDeviceSecure</a>. This is a read-only member.
 
 
 ### -field NextDevice
@@ -134,19 +129,9 @@ A driver that recreates its device objects dynamically also uses this member. Th
 A pointer to the attached device object. If there is no attached device object, this member is <b>NULL</b>. The device object that is pointed to by the <b>AttachedDevice</b> member typically is the device object of a filter driver, which intercepts I/O requests originally targeted to the device represent by the device object. For more information, see the <a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548298">IoAttachDeviceByPointer</a> topics. This is an opaque member.
 
 
-### -field _DEVICE_OBJECT
-
- 
-
-
 ### -field CurrentIrp
 
 A pointer to the current IRP if the driver has a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine whose entry point was set in the driver object and if the driver is currently processing IRP(s). Otherwise, this member is <b>NULL</b>. For more information, see the <a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a> and <a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a> topics. This is a read-only member.
-
-
-### -field _IRP
-
- 
 
 
 ### -field Timer
@@ -403,11 +388,6 @@ Reserved for system use. This is an opaque member.
 A pointer to a device object extension that is used by the I/O manager and PnP manager to store information about the state of the device. This is an opaque member.
 
 
-### -field _DEVOBJ_EXTENSION
-
- 
-
-
 ### -field Reserved
 
 Reserved for system use. This is an opaque member.
@@ -436,7 +416,11 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
 
 
@@ -448,11 +432,7 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
 
 
 

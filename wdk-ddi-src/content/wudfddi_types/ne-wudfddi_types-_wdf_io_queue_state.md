@@ -106,7 +106,7 @@ If this value is set to 1, an event from the Plug and Play (PnP) subsystem suspe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558946">IWDFIoQueue::ConfigureRequestDispatching</a>
 
 
 
@@ -114,11 +114,11 @@ If this value is set to 1, an event from the Plug and Play (PnP) subsystem suspe
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+
+
+
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558946">IWDFIoQueue::ConfigureRequestDispatching</a>
 
 
 

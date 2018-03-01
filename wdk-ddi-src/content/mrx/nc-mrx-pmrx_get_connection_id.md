@@ -122,11 +122,11 @@ If connection IDs are supported by the network mini-redirector, then the returne
 
 ## -see-also
 
-<a href="..\mrx\nc-mrx-pmrx_change_buffering_state_calldown.md">MRxCompleteBufferingStateChangeRequest</a>
-
-
-
 <a href="..\mrx\nc-mrx-pmrx_compute_new_buffering_state.md">MRxComputeNewBufferingState</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_change_buffering_state_calldown.md">MRxCompleteBufferingStateChangeRequest</a>
 
 
 

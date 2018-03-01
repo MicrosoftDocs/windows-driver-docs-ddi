@@ -91,11 +91,11 @@ For more information, see <a href="https://msdn.microsoft.com/2ff53ed0-dbb7-4c8f
 
 ## -see-also
 
+<a href="..\ntddpar\ni-ntddpar-ioctl_par_get_default_modes.md">IOCTL_PAR_GET_DEFAULT_MODES</a>
+
+
+
 <a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_get_mode.md">IOCTL_IEEE1284_GET_MODE</a>
-
-
-
-<a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
 
 
 
@@ -107,7 +107,7 @@ For more information, see <a href="https://msdn.microsoft.com/2ff53ed0-dbb7-4c8f
 
 
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_par_get_default_modes.md">IOCTL_PAR_GET_DEFAULT_MODES</a>
+<a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
 
 
 

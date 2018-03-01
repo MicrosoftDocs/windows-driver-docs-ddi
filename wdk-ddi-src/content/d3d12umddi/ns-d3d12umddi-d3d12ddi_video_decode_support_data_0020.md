@@ -141,7 +141,7 @@ This structure is retrieved through the <a href="..\d3d12umddi\nc-d3d12umddi-pfn
 
 
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
+<b>D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS</b>
 
 
 
@@ -149,7 +149,7 @@ This structure is retrieved through the <a href="..\d3d12umddi\nc-d3d12umddi-pfn
 
 
 
-<b>D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS</b>
+<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
 
 
 

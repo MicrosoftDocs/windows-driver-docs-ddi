@@ -123,7 +123,7 @@ If a child device is of type <b>TypeOther</b>, then <b>Type.Other.MustBeZero</b>
 
 ## -see-also
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
 
 
@@ -131,7 +131,7 @@ If a child device is of type <b>TypeOther</b>, then <b>Type.Other.MustBeZero</b>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
 
 
 

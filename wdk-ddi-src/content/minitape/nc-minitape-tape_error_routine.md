@@ -113,7 +113,15 @@ A tape miniclass driver optionally specifies an entry point for its <i>TAPE_ERRO
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
+
+
+
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
 
 
 
@@ -122,14 +130,6 @@ A tape miniclass driver optionally specifies an entry point for its <i>TAPE_ERRO
 
 
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
-
-
-
-<a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
 
 
 

@@ -89,6 +89,10 @@ You must implement this method.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
 
 
@@ -97,11 +101,7 @@ You must implement this method.
 
 
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_scsireadcapacity_out.md">ScsiReadCapacity_OUT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+<a href="..\iscsiop\ns-iscsiop-_scsireadcapacity_out.md">ScsiReadCapacity_OUT</a>
 
 
 

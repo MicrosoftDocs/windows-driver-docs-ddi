@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSTARTDTMFPARAMS
 title: RILSTARTDTMFPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilstartdtmfparams_2.htm
+old-location: netvista\rilstartdtmfparams.htm
 old-project: netvista
-ms.assetid: 51f6ea96-412a-429f-993b-de31f77f4d30
+ms.assetid: 3837fcee-7b94-464f-904c-c6eaa1002620
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilstartdtmfparams_2, rilapitypes/RILSTARTDTMFPARAMS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilstartdtmfparams, ntddrilapitypes/RILSTARTDTMFPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSTARTDTMFPARAMS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

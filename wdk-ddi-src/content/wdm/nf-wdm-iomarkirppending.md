@@ -105,7 +105,7 @@ If your driver calls <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
@@ -121,7 +121,7 @@ If your driver calls <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
 
 
 

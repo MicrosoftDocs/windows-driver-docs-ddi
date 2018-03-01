@@ -99,11 +99,11 @@ This function should not be used to delete a mapped user event. To delete a mapp
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportcreateevent.md">VideoPortCreateEvent</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565434">EngUnmapEvent</a>
+
+
+
+<a href="..\video\nf-video-videoportcreateevent.md">VideoPortCreateEvent</a>
 
 
 

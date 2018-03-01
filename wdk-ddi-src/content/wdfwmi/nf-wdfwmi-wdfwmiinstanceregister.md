@@ -142,15 +142,15 @@ status = WdfWmiInstanceRegister(wmiInstance);</pre>
 
 ## -see-also
 
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancederegister.md">WdfWmiInstanceDeregister</a>
+
+
+
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
 
 
 <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a>
-
-
-
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancederegister.md">WdfWmiInstanceDeregister</a>
 
 
 

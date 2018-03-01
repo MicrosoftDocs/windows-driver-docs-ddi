@@ -112,22 +112,6 @@ None
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-cccopyread.md">CcCopyRead</a>
 
 
@@ -137,6 +121,22 @@ None
 
 
 <b>CcCopyReadEx</b>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
 
 
 

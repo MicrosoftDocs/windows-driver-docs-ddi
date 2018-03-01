@@ -113,11 +113,6 @@ Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer
 Reserved. Do not use.
 
 
-### -field _URB
-
- 
-
-
 ### -field hca
 
  

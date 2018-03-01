@@ -132,11 +132,11 @@ PnP video miniport drivers that can use I²C should fill in the <b>Size</b> and 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+
+
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 

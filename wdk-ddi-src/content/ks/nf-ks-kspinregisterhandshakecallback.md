@@ -101,11 +101,7 @@ Minidrivers that support private protocols between a given pin and another AVStr
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilterregisterpowercallbacks.md">KsFilterRegisterPowerCallbacks</a>
-
-
-
-<a href="..\ks\nf-ks-kspinregisterpowercallbacks.md">KsPinRegisterPowerCallbacks</a>
+<a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
 
 
 
@@ -113,15 +109,19 @@ Minidrivers that support private protocols between a given pin and another AVStr
 
 
 
-<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
-
-
-
 <a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a>
 
 
 
-<a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
+<a href="..\ks\nf-ks-kspinregisterpowercallbacks.md">KsPinRegisterPowerCallbacks</a>
+
+
+
+<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilterregisterpowercallbacks.md">KsFilterRegisterPowerCallbacks</a>
 
 
 

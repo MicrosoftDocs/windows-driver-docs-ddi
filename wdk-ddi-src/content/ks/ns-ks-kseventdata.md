@@ -320,15 +320,11 @@ For more information, see <a href="https://msdn.microsoft.com/3eaa1d65-8417-4a07
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksregisterworker.md">KsRegisterWorker</a>
-
-
-
-<a href="..\ks\nf-ks-ksincrementcountedworker.md">KsIncrementCountedWorker</a>
-
-
-
 <a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
+
+
+
+<a href="..\ks\nf-ks-ksregisterworker.md">KsRegisterWorker</a>
 
 
 
@@ -336,11 +332,15 @@ For more information, see <a href="https://msdn.microsoft.com/3eaa1d65-8417-4a07
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
+<a href="..\ks\nf-ks-ksincrementcountedworker.md">KsIncrementCountedWorker</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
 
 
 

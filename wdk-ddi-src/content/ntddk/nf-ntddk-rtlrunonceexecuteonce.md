@@ -112,7 +112,7 @@ For the first call to <b>RtlRunOnceExecuteOnce</b> for a particular <a href="htt
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a>
+<a href="..\ntddk\nf-ntddk-rtlrunoncebegininitialize.md">RtlRunOnceBeginInitialize</a>
 
 
 
@@ -128,7 +128,7 @@ For the first call to <b>RtlRunOnceExecuteOnce</b> for a particular <a href="htt
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlrunoncebegininitialize.md">RtlRunOnceBeginInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a>
 
 
 

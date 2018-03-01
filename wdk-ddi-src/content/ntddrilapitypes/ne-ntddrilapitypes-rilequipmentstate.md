@@ -7,13 +7,13 @@ old-location: netvista\rilequipmentstate.htm
 old-project: netvista
 ms.assetid: aa00ebc4-c8de-4a73-ad43-77f4e173e617
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILEQUIPMENTSTATE, RILEQUIPMENTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_EQSTATE_FULL, RIL_EQSTATE_MAX, RIL_EQSTATE_SHUTDOWN, netvista.rilequipmentstate, ntddrilapitypes/RILEQUIPMENTSTATE, ntddrilapitypes/RIL_EQSTATE_FULL, ntddrilapitypes/RIL_EQSTATE_MAX, ntddrilapitypes/RIL_EQSTATE_SHUTDOWN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

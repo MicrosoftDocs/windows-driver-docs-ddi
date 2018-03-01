@@ -115,10 +115,6 @@ Filters that implement <a href="https://msdn.microsoft.com/0b6a02c2-e672-4568-a8
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
-
-
-
 <a href="..\ks\nf-ks-kspingettrailingedgestreampointer.md">KsPinGetTrailingEdgeStreamPointer</a>
 
 
@@ -127,11 +123,7 @@ Filters that implement <a href="https://msdn.microsoft.com/0b6a02c2-e672-4568-a8
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
-
-
-
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
 
 
 
@@ -139,7 +131,15 @@ Filters that implement <a href="https://msdn.microsoft.com/0b6a02c2-e672-4568-a8
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
+<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
+
+
+
+<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
+
+
+
+<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
 
 
 

@@ -92,6 +92,10 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetdevice.md">KsG
 
 ## -see-also
 
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
 <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
 
 
@@ -101,10 +105,6 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetdevice.md">KsG
 
 
 <a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>
-
-
-
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 

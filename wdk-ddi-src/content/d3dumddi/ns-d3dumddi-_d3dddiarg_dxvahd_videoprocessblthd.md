@@ -131,11 +131,7 @@ Input streams are indexed from zero to less than the number that the driver sets
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_surface.md">DXVAHDDDI_SURFACE</a>
 
 
 
@@ -143,7 +139,11 @@ Input streams are indexed from zero to less than the number that the driver sets
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_surface.md">DXVAHDDDI_SURFACE</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
 
 
 

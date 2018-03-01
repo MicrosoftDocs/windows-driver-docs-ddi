@@ -189,12 +189,12 @@ The
 
 ## -see-also
 
-<a href="..\bthddi\ne-bthddi-_enumerator_type.md">ENUMERATOR_TYPE</a>
-
-
-
 <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a>
+
+
+
+<a href="..\bthddi\ne-bthddi-_enumerator_type.md">ENUMERATOR_TYPE</a>
 
 
 

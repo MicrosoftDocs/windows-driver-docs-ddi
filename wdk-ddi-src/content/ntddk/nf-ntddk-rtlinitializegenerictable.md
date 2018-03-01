@@ -243,11 +243,7 @@ Callers of <b>RtlInitializeGenericTable</b> must be running at IRQL &lt;= DISPAT
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictable.md">RtlLookupElementGenericTable</a>
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTable</a>
 
 
 
@@ -255,7 +251,11 @@ Callers of <b>RtlInitializeGenericTable</b> must be running at IRQL &lt;= DISPAT
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTable</a>
+<a href="..\ntddk\nf-ntddk-rtlgetelementgenerictable.md">RtlGetElementGenericTable</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictable.md">RtlLookupElementGenericTable</a>
 
 
 
@@ -263,11 +263,11 @@ Callers of <b>RtlInitializeGenericTable</b> must be running at IRQL &lt;= DISPAT
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlgetelementgenerictable.md">RtlGetElementGenericTable</a>
-
-
-
 <a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
 
 
 

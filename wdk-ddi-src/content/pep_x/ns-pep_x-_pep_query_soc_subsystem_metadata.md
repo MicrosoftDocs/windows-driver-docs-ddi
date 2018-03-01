@@ -104,11 +104,11 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_soc_subsystem_metadata.md">PEP_SOC_SUBSYSTEM_METADATA</a>
-
-
-
 <b>PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</b>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_soc_subsystem_metadata.md">PEP_SOC_SUBSYSTEM_METADATA</a>
 
 
 

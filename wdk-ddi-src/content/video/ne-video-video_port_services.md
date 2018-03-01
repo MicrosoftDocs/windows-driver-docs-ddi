@@ -122,19 +122,19 @@ The video miniport driver obtains a set of function pointers by passing a value 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567732">Int10 Functions Implemented by the Video Port Driver</a>
-
-
-
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538227">AGP Functions Implemented by the Video Port Driver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567732">Int10 Functions Implemented by the Video Port Driver</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551792">Debug Report Functions Implemented by the Video Port Driver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538227">AGP Functions Implemented by the Video Port Driver</a>
 
 
 

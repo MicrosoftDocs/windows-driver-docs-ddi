@@ -7,7 +7,7 @@ old-location: netvista\ril_disablemodemfilters.htm
 old-project: netvista
 ms.assetid: eb1ac5cc-f757-4aee-9a21-ed4b03d4b6a8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_DisableModemFilters, RIL_DisableModemFilters method [Network Drivers Starting with Windows Vista], netvista.ril_disablemodemfilters, rilapi/RIL_DisableModemFilters
 ms.prod: windows-hardware
 ms.technology: windows-devices

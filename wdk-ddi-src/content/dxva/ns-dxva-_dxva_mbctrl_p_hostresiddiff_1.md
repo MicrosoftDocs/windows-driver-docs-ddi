@@ -279,7 +279,7 @@ Valid combinations of <i>IntraMacroblock</i>, <i>MotionForward</i>, <i>MotionBac
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
+<a href="..\dxva\ns-dxva-_dxva_mvvalue.md">DXVA_MVvalue</a>
 
 
 
@@ -287,11 +287,11 @@ Valid combinations of <i>IntraMacroblock</i>, <i>MotionForward</i>, <i>MotionBac
 
 
 
+<a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
+
+
+
 <a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
-
-
-
-<a href="..\dxva\ns-dxva-_dxva_mvvalue.md">DXVA_MVvalue</a>
 
 
 

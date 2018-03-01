@@ -516,11 +516,11 @@ These BRBs must be called at IRQL &lt;= PASSIVE_LEVEL.
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
 <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 

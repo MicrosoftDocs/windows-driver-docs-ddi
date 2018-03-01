@@ -110,15 +110,15 @@ If <i>RedirectionAllowed</i> is <b>FALSE</b>, the minifilter needs to allocate a
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowedforoperation.md">FltIsIoRedirectionAllowedForOperation</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltadjustdevicestacksizeforioredirection.md">FltAdjustDeviceStackSizeForIoRedirection</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 

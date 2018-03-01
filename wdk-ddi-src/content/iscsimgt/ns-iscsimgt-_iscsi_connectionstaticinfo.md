@@ -256,10 +256,6 @@ The maximum size, in bytes, of the datagram that the transport supports.
 
 
 
-<a href="..\iscsidef\ne-iscsidef-piscsi_auth_types.md">ISCSI_AUTH_TYPES</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561494">ISCSI_CONNECTION_PROTOCOL_TYPE_QUALIFIERS</a>
 
 
@@ -268,11 +264,15 @@ The maximum size, in bytes, of the datagram that the transport supports.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
+<a href="..\iscsidef\ne-iscsidef-piscsi_auth_types.md">ISCSI_AUTH_TYPES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 

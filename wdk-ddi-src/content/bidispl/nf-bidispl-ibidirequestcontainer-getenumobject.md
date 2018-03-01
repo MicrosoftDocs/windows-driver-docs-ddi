@@ -137,7 +137,7 @@ An application can call <a href="https://msdn.microsoft.com/en-us/library/window
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiRequestContainer</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683764">IEnumUnknown</a>
 
 
 
@@ -145,7 +145,7 @@ An application can call <a href="https://msdn.microsoft.com/en-us/library/window
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683764">IEnumUnknown</a>
+<a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiRequestContainer</a>
 
 
 

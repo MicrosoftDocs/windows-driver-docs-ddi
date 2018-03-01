@@ -7,7 +7,7 @@ old-location: debugger\terminatecurrentprocess.htm
 old-project: debugger
 ms.assetid: 8d3798f2-dd43-4703-bd33-8f2c3f738122
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugClient2, IDebugClient2 interface [Windows Debugging], TerminateCurrentProcess method, IDebugClient2::TerminateCurrentProcess, IDebugClient3 interface [Windows Debugging], TerminateCurrentProcess method, IDebugClient3::TerminateCurrentProcess, IDebugClient4 interface [Windows Debugging], TerminateCurrentProcess method, IDebugClient4::TerminateCurrentProcess, IDebugClient5 interface [Windows Debugging], TerminateCurrentProcess method, IDebugClient5::TerminateCurrentProcess, IDebugClient_7129a1e4-f1a5-4dff-a45c-bf759ae410cf.xml, TerminateCurrentProcess method [Windows Debugging], TerminateCurrentProcess method [Windows Debugging], IDebugClient2 interface, TerminateCurrentProcess method [Windows Debugging], IDebugClient3 interface, TerminateCurrentProcess method [Windows Debugging], IDebugClient4 interface, TerminateCurrentProcess method [Windows Debugging], IDebugClient5 interface, TerminateCurrentProcess,IDebugClient2.TerminateCurrentProcess, dbgeng/IDebugClient2::TerminateCurrentProcess, dbgeng/IDebugClient3::TerminateCurrentProcess, dbgeng/IDebugClient4::TerminateCurrentProcess, dbgeng/IDebugClient5::TerminateCurrentProcess, debugger.terminatecurrentprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,11 +111,7 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558867">TerminateProcesses</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
 
 
 
@@ -127,7 +123,7 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563855">.kill (Kill Process)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
 
 
 
@@ -135,15 +131,19 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558867">TerminateProcesses</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563855">.kill (Kill Process)</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
 
 
 
@@ -155,5 +155,5 @@ For more information about creating and attaching to live user-mode targets, see
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient2::TerminateCurrentProcess method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient2::TerminateCurrentProcess method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

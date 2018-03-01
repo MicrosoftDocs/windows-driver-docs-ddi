@@ -101,11 +101,11 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 
 
-<a href="..\ks\nf-ks-kspinreleasecontrol.md">KsPinReleaseControl</a>
-
-
-
 <a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
+
+
+
+<a href="..\ks\nf-ks-kspinreleasecontrol.md">KsPinReleaseControl</a>
 
 
 

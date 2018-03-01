@@ -96,19 +96,19 @@ The <b>TRANSACTION_BASIC_INFORMATION</b> structure is used with the <a href="..\
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>
-
-
-
 <a href="..\wdm\nf-wdm-tmgettransactionid.md">TmGetTransactionId</a>
 
 
 
-<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
-
-
-
 <a href="..\wdm\ne-wdm-_transaction_state.md">TRANSACTION_STATE</a>
+
+
+
+<a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>
+
+
+
+<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
 
 
 

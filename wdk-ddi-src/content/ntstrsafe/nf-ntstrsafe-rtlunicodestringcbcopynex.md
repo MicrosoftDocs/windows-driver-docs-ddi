@@ -217,7 +217,7 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcopyn.md">RtlUnicodeStringCbCopyN</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopynex.md">RtlUnicodeStringCchCopyNEx</a>
 
 
 
@@ -225,7 +225,7 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopynex.md">RtlUnicodeStringCchCopyNEx</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcopyn.md">RtlUnicodeStringCbCopyN</a>
 
 
 

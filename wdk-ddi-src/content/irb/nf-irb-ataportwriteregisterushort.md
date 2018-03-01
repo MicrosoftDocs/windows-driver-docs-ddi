@@ -92,11 +92,11 @@ None
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportwriteregisteruchar.md">AtaPortWriteRegisterUchar</a>
-
-
-
 <a href="..\irb\nf-irb-ataportwriteregisterulong.md">AtaPortWriteRegisterUlong</a>
+
+
+
+<a href="..\irb\nf-irb-ataportwriteregisteruchar.md">AtaPortWriteRegisterUchar</a>
 
 
 

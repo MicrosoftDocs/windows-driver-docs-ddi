@@ -86,24 +86,24 @@ typedef union {
 
 
 
-#### - SignedMinimum
-
-Specifies a minimum bound as a signed 64-bit value.
-
-
 #### - SignedMaximum
 
 Specifies a maximum bound as a signed 64-bit value.
 
 
-#### - UnsignedMinimum
+#### - SignedMinimum
 
-Specifies a minimum bound as an unsigned 64-bit value.
+Specifies a minimum bound as a signed 64-bit value.
 
 
 #### - UnsignedMaximum
 
 Specifies a maximum bound as an unsigned 64-bit value.
+
+
+#### - UnsignedMinimum
+
+Specifies a minimum bound as an unsigned 64-bit value.
 
 
 ## -remarks
@@ -121,7 +121,7 @@ Also see related information in <a href="https://msdn.microsoft.com/a385929e-193
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_memberslist.md">KSPROPERTY_MEMBERSLIST</a>
+<a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
 
 
 
@@ -129,7 +129,7 @@ Also see related information in <a href="https://msdn.microsoft.com/a385929e-193
 
 
 
-<a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
+<a href="..\ks\ns-ks-ksproperty_memberslist.md">KSPROPERTY_MEMBERSLIST</a>
 
 
 

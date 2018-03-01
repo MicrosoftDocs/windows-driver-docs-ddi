@@ -145,7 +145,7 @@ The GPIO_CLIENT_MASK_INTERRUPTS function type is defined in the Gpioclx.h header
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
 
 
@@ -157,11 +157,11 @@ The GPIO_CLIENT_MASK_INTERRUPTS function type is defined in the Gpioclx.h header
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698252">GPIO_MASK_INTERRUPT_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
 

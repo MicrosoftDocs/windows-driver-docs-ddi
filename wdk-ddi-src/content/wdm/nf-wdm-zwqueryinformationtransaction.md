@@ -214,11 +214,19 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a>
-
-
-
 <a href="..\wdm\nf-wdm-tmgettransactionid.md">TmGetTransactionId</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
+
+
+
+<a href="..\wdm\ns-wdm-_transaction_properties_information.md">TRANSACTION_PROPERTIES_INFORMATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a>
 
 
 
@@ -227,10 +235,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
-
-
-
-<a href="..\wdm\ns-wdm-_transaction_properties_information.md">TRANSACTION_PROPERTIES_INFORMATION</a>
 
 
 
@@ -243,10 +247,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="..\wdm\ns-wdm-_transaction_enlistments_information.md">TRANSACTION_ENLISTMENTS_INFORMATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
 
 
 

@@ -85,11 +85,11 @@ A platform-level device reset, which affects a specific device and all other dev
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn939354">DeviceReset</a>
-
-
-
 <a href="..\wdm\ns-wdm-_device_reset_interface_standard.md">DEVICE_RESET_INTERFACE_STANDARD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn939354">DeviceReset</a>
 
 
 

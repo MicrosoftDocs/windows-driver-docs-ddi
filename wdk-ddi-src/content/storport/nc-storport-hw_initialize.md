@@ -174,11 +174,11 @@ The <b>HW_INITIALIZE</b> function type is defined in the Storport.h header file.
 
 
 
-<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
-
-
-
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
+
+
+<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
 
 
 

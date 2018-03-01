@@ -103,7 +103,7 @@ Finally, the minidriver must call <a href="..\ks\nf-ks-ksstreampointerdelete.md"
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
+<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
 
 
 
@@ -111,7 +111,7 @@ Finally, the minidriver must call <a href="..\ks\nf-ks-ksstreampointerdelete.md"
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
+<a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
 
 
 

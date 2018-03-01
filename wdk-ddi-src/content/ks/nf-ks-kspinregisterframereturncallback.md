@@ -101,7 +101,7 @@ Minidrivers that call this function are directly responsible for injecting frame
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>
+<a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a>
 
 
 
@@ -109,7 +109,7 @@ Minidrivers that call this function are directly responsible for injecting frame
 
 
 
-<a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a>
+<a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>
 
 
 

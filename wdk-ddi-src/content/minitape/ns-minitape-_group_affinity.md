@@ -99,11 +99,11 @@ A <b>GROUP_AFFINITY</b> structure can describe an interrupt affinity, which is a
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdevicenumanode.md">IoGetDeviceNumaNode</a>
-
-
-
 <a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdevicenumanode.md">IoGetDeviceNumaNode</a>
 
 
 

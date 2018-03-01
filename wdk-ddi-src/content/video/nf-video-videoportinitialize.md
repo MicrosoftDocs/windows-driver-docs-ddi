@@ -141,7 +141,7 @@ The miniport driver's <b>DriverEntry</b> routine propagates the value returned b
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
+<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
 
 
 
@@ -149,11 +149,7 @@ The miniport driver's <b>DriverEntry</b> routine propagates the value returned b
 
 
 
-<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
-
-
-
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
 
 
 
@@ -161,7 +157,11 @@ The miniport driver's <b>DriverEntry</b> routine propagates the value returned b
 
 
 
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
 
 
 

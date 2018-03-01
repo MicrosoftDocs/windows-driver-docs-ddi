@@ -81,7 +81,7 @@ Information about a resource manager object is stored in a <a href="..\wdm\ns-wd
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_resourcemanager_basic_information.md">RESOURCEMANAGER_BASIC_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwqueryinformationresourcemanager.md">ZwQueryInformationResourceManager</a>
 
 
 
@@ -89,7 +89,7 @@ Information about a resource manager object is stored in a <a href="..\wdm\ns-wd
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryinformationresourcemanager.md">ZwQueryInformationResourceManager</a>
+<a href="..\wdm\ns-wdm-_resourcemanager_basic_information.md">RESOURCEMANAGER_BASIC_INFORMATION</a>
 
 
 

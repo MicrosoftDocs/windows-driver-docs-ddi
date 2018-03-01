@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILSMSACKOPT
 title: RILSMSACKOPT
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsmsackopt_2.htm
+old-location: netvista\rilsmsackopt.htm
 old-project: netvista
-ms.assetid: a8430f5f-000f-4dea-acd9-2f0df2c6e67d
+ms.assetid: 652315db-0cdc-4c32-8fa0-3a538c917497
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILSMSACKOPT, RILSMSACKOPT enumeration [Network Drivers Starting with Windows Vista], RIL_SMSACKOPT_IMS, netvista.rilsmsackopt_2, rilapitypes/RILSMSACKOPT, rilapitypes/RIL_SMSACKOPT_IMS
+ms.date: 2/27/2018
+ms.keywords: RILSMSACKOPT, RILSMSACKOPT enumeration [Network Drivers Starting with Windows Vista], RIL_SMSACKOPT_IMS, netvista.rilsmsackopt, ntddrilapitypes/RILSMSACKOPT, ntddrilapitypes/RIL_SMSACKOPT_IMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSMSACKOPT
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

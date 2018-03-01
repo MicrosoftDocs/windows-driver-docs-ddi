@@ -105,15 +105,7 @@ Although render states whose values are Boolean in type are documented as only a
 
 ## -see-also
 
-D3DDP2OP_RENDERSTATE
-
-
-
 <a href="..\d3d9types\ne-d3d9types-_d3drenderstatetype.md">D3DRENDERSTATETYPE</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 
@@ -122,6 +114,14 @@ D3DDP2OP_RENDERSTATE
 
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
+
+
+
+D3DDP2OP_RENDERSTATE
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 

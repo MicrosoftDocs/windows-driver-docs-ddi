@@ -115,7 +115,7 @@ All standard Bidi values (as defined by the port monitor’s embedded Bidi files
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D0CD9950-DF73-4D46-B901-FA45BA88D3CF">IPrinterQueueEvent::OnBidiResponseReceived</a>
+<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
 
 
 
@@ -123,7 +123,7 @@ All standard Bidi values (as defined by the port monitor’s embedded Bidi files
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
+<a href="https://msdn.microsoft.com/D0CD9950-DF73-4D46-B901-FA45BA88D3CF">IPrinterQueueEvent::OnBidiResponseReceived</a>
 
 
 

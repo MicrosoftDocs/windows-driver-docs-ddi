@@ -7,7 +7,7 @@ old-location: image\istillimage_launchapplicationfordevice.htm
 old-project: image
 ms.assetid: e5bb8d0e-9ae0-42dd-bbd0-c12e3d1e3f40
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IStillImageW, IStillImageW interface [Imaging Devices], LaunchApplicationForDevice method, IStillImageW::LaunchApplicationForDevice, LaunchApplicationForDevice method [Imaging Devices], LaunchApplicationForDevice method [Imaging Devices], IStillImageW interface, LaunchApplicationForDevice,IStillImageW.LaunchApplicationForDevice, image.istillimage_launchapplicationfordevice, sti/IStillImageW::LaunchApplicationForDevice, stifnc_3ecda881-3b82-4323-b739-614e4f8f78a7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

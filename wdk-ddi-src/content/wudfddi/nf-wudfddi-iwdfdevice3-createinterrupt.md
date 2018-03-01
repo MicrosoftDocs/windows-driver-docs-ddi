@@ -141,11 +141,11 @@ hr = pDevice-&gt;Create(&amp;interruptConfig,
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
-
-
-
 <a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
 
 
 

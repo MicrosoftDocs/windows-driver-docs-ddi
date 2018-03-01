@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILTONESIGNALINFOPARAMMASK
 title: RILTONESIGNALINFOPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riltonesignalinfoparammask_2.htm
+old-location: netvista\riltonesignalinfoparammask.htm
 old-project: netvista
-ms.assetid: 1eeca3ef-6e1d-486f-b700-5ab8718a9285
+ms.assetid: 5ebacb12-4ccd-4e92-ba73-b79c1969eb4f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILTONESIGNALINFOPARAMMASK, RILTONESIGNALINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_TONESIGNAL_All, RIL_PARAM_TONESIGNAL_EXECUTOR, RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING, RIL_PARAM_TONESIGNAL_GPP2TONE, netvista.riltonesignalinfoparammask_2, rilapitypes/RILTONESIGNALINFOPARAMMASK, rilapitypes/RIL_PARAM_TONESIGNAL_All, rilapitypes/RIL_PARAM_TONESIGNAL_EXECUTOR, rilapitypes/RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING, rilapitypes/RIL_PARAM_TONESIGNAL_GPP2TONE
+ms.date: 2/27/2018
+ms.keywords: RILTONESIGNALINFOPARAMMASK, RILTONESIGNALINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_TONESIGNAL_All, RIL_PARAM_TONESIGNAL_EXECUTOR, RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING, RIL_PARAM_TONESIGNAL_GPP2TONE, netvista.riltonesignalinfoparammask, ntddrilapitypes/RILTONESIGNALINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_TONESIGNAL_All, ntddrilapitypes/RIL_PARAM_TONESIGNAL_EXECUTOR, ntddrilapitypes/RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING, ntddrilapitypes/RIL_PARAM_TONESIGNAL_GPP2TONE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILTONESIGNALINFOPARAMMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

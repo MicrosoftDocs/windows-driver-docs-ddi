@@ -155,11 +155,11 @@ Callers of <b>IoSetDeviceProperty</b> must be running at IRQL &lt;= APC_LEVEL in
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
 
 
 

@@ -115,11 +115,11 @@ For general information about stream pointers, see <a href="https://msdn.microso
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksstreampointeradvance.md">KsStreamPointerAdvance</a>
+
+
+
 <a href="..\ks\nf-ks-ksstreampointeradvanceoffsets.md">KsStreamPointerAdvanceOffsets</a>
-
-
-
-<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
 
 
 
@@ -127,7 +127,19 @@ For general information about stream pointers, see <a href="https://msdn.microso
 
 
 
-<a href="..\ks\nf-ks-ksstreampointeradvance.md">KsStreamPointerAdvance</a>
+<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
+
+
+
+<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
+
+
+
+<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
+
+
+
+<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
 
 
 
@@ -136,18 +148,6 @@ For general information about stream pointers, see <a href="https://msdn.microso
 
 
 <a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
-
-
-
-<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
-
-
-
-<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
-
-
-
-<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
 
 
 

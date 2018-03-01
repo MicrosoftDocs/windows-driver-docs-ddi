@@ -152,11 +152,11 @@ To query for multiple WMI classes, use <a href="..\wdm\nf-wdm-iowmiqueryalldatam
 
 
 
-<a href="..\wdm\nf-wdm-iowmiqueryalldatamultiple.md">IoWMIQueryAllDataMultiple</a>
-
-
-
 <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmiqueryalldatamultiple.md">IoWMIQueryAllDataMultiple</a>
 
 
 

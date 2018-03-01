@@ -119,15 +119,15 @@ When the timer is running, the I/O manager calls the driver-supplied <i>IoTimer<
 
 
 
-<a href="..\wdm\nf-wdm-iostoptimer.md">IoStopTimer</a>
-
-
-
 <a href="..\wdm\nf-wdm-iostarttimer.md">IoStartTimer</a>
 
 
 
 <a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-iostoptimer.md">IoStopTimer</a>
 
 
 

@@ -99,11 +99,11 @@ The <b>KsDispatchInvalidDeviceRequest</b> function is needed because the dispatc
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksdispatchfastreadfailure.md">KsDispatchFastReadFailure</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561706">KsDispatchFastWriteFailure</a>
+
+
+
+<a href="..\ks\nf-ks-ksdispatchfastreadfailure.md">KsDispatchFastReadFailure</a>
 
 
 

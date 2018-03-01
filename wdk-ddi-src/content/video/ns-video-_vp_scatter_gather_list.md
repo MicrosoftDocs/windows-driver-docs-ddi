@@ -98,11 +98,11 @@ The video port driver aggregates scatter/gather information in a VP_SCATTER_GATH
 
 ## -see-also
 
-<a href="..\video\nc-video-pexecute_dma.md">HwVidExecuteDma</a>
-
-
-
 <a href="..\video\ns-video-_vp_scatter_gather_element.md">VP_SCATTER_GATHER_ELEMENT</a>
+
+
+
+<a href="..\video\nc-video-pexecute_dma.md">HwVidExecuteDma</a>
 
 
 

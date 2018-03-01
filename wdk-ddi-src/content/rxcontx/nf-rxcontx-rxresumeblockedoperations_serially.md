@@ -107,14 +107,6 @@ A network mini-redirector may need to call <b>RxResumeBlockedOperations_Serially
 
 ## -see-also
 
-<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
-
-
-
 <a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
 
 
@@ -123,7 +115,11 @@ A network mini-redirector may need to call <b>RxResumeBlockedOperations_Serially
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
 
 
 
@@ -131,7 +127,11 @@ A network mini-redirector may need to call <b>RxResumeBlockedOperations_Serially
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
+<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxfsdpostrequest.md">RxFsdPostRequest</a>
 
 
 
@@ -139,7 +139,7 @@ A network mini-redirector may need to call <b>RxResumeBlockedOperations_Serially
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxfsdpostrequest.md">RxFsdPostRequest</a>
+<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
 
 
 

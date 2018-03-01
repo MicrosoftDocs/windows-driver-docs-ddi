@@ -135,11 +135,11 @@ See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bu
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
-
-
-
 <a href="..\video\nf-video-videoportlockpages.md">VideoPortLockPages</a>
+
+
+
+<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
 
 
 

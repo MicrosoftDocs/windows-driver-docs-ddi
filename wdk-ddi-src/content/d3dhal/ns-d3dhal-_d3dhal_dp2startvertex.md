@@ -107,11 +107,7 @@ The first vertex of such primitives is located (<b>wVStart</b> + <b>dwVertexOffs
 
 ## -see-also
 
-D3DDP2OP_INDEXEDTRIANGLESTRIP
-
-
-
-D3DDP2OP_INDEXEDLINESTRIP
+D3DDP2OP_INDEXEDLINELIST2
 
 
 
@@ -119,7 +115,7 @@ D3DDP2OP_INDEXEDTRIANGLEFAN
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+D3DDP2OP_INDEXEDTRIANGLESTRIP
 
 
 
@@ -127,7 +123,11 @@ D3DDP2OP_INDEXEDTRIANGLEFAN
 
 
 
-D3DDP2OP_INDEXEDLINELIST2
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
+
+
+
+D3DDP2OP_INDEXEDLINESTRIP
 
 
 
@@ -135,7 +135,7 @@ D3DDP2OP_INDEXEDTRIANGLELIST2
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 

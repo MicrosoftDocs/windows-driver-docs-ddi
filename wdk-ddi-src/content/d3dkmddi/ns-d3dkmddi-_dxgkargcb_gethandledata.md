@@ -114,11 +114,11 @@ The <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateA
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkcb_gethandledataflags.md">DXGKCB_GETHANDLEDATAFLAGS</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkcb_gethandledataflags.md">DXGKCB_GETHANDLEDATAFLAGS</a>
 
 
 

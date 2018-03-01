@@ -94,11 +94,11 @@ AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 ## -see-also
 
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
-
-
-
 <a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+
+
+
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
 
 
 

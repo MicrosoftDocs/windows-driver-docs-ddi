@@ -182,7 +182,7 @@ CMyDevice::OnRemoteInterfaceArrival(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
 
 
 
@@ -190,7 +190,7 @@ CMyDevice::OnRemoteInterfaceArrival(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
 
 
 

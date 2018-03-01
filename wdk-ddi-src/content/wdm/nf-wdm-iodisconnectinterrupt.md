@@ -103,11 +103,11 @@ If the driver stored the pointer to its interrupt object(s) in the device extens
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a>
-
-
-
 <a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a>
 
 
 

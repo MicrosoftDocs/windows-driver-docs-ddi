@@ -120,19 +120,19 @@ Callers of <b>IoStartPacket</b> must be running at IRQL &lt;= DISPATCH_LEVEL. Us
 
 
 
-<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
-
-
-
 <a href="..\wdm\nf-wdm-iostartnextpacketbykey.md">IoStartNextPacketByKey</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
 <a href="..\wdm\nf-wdm-iosetcancelroutine.md">IoSetCancelRoutine</a>
+
+
+
+<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

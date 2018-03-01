@@ -80,6 +80,10 @@ Describes an analog video standard. This member may be set to one or more (logic
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565907">KSPROPERTY_TUNER_STANDARD</a>
+
+
+
 <a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
 
 
@@ -89,10 +93,6 @@ Describes an analog video standard. This member may be set to one or more (logic
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565907">KSPROPERTY_TUNER_STANDARD</a>
 
 
 

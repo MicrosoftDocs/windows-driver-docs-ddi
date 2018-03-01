@@ -137,7 +137,7 @@ The minidriver specifies this routine's address in the <b>IntersectHandler</b> m
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 
@@ -145,15 +145,15 @@ The minidriver specifies this routine's address in the <b>IntersectHandler</b> m
 
 
 
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+<a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
 
 

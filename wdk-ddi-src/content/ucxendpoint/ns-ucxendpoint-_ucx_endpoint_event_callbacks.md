@@ -141,11 +141,11 @@ A pointer to an <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_set_char
 
 ## -see-also
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucx_endpoint_event_callbacks_init.md">UCX_ENDPOINT_EVENT_CALLBACKS_INIT</a>
-
-
-
 <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointinitseteventcallbacks.md">UcxEndpointInitSetEventCallbacks</a>
+
+
+
+<a href="..\ucxendpoint\nf-ucxendpoint-ucx_endpoint_event_callbacks_init.md">UCX_ENDPOINT_EVENT_CALLBACKS_INIT</a>
 
 
 

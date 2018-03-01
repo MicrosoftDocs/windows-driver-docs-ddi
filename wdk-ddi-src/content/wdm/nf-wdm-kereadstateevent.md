@@ -97,15 +97,11 @@ For more information about event objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
 <a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
@@ -114,6 +110,10 @@ For more information about event objects, see <a href="https://msdn.microsoft.co
 
 
 <a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
 
 
 

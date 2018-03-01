@@ -96,7 +96,7 @@ The UMDF driver should not call the <a href="https://msdn.microsoft.com/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540233">WinUsb_Free</a>
+<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
 
 
 
@@ -104,7 +104,7 @@ The UMDF driver should not call the <a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540233">WinUsb_Free</a>
 
 
 

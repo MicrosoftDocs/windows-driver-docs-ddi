@@ -155,11 +155,11 @@ If the <b>SerCxProgressReceive</b> does not complete all outstanding work for th
 
 ## -see-also
 
-<a href="..\sercx\ne-sercx-_sercx_status.md">SERCX_STATUS</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercxretrievereceivebuffer.md">SerCxRetrieveReceiveBuffer</a>
+
+
+
+<a href="..\sercx\ne-sercx-_sercx_status.md">SERCX_STATUS</a>
 
 
 

@@ -119,11 +119,7 @@ However, even during driver development, this routine is of only limited utility
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
+<a href="..\ntddk\nf-ntddk-kebugcheck.md">KeBugCheck</a>
 
 
 
@@ -131,11 +127,15 @@ However, even during driver development, this routine is of only limited utility
 
 
 
-<a href="..\ntddk\nf-ntddk-kebugcheck.md">KeBugCheck</a>
+<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
 
 
 
 <a href="..\wdm\nf-wdm-keregisterbugcheckcallback.md">KeRegisterBugCheckCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
 
 
 

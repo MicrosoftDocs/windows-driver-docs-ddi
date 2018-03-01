@@ -7,7 +7,7 @@ old-location: netvista\ndk_fn_connect.htm
 old-project: netvista
 ms.assetid: AFB291B7-7962-46D2-BB00-E1CB8B0BF5FC
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: NDK_FN_CONNECT, NdkConnect, NdkConnect callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkConnect, netvista.ndk_fn_connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -132,11 +132,6 @@ A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (
 A context value to pass to the <i>Context</i> parameter of the  callback function that is specified in the <i>RequestCompletion</i> parameter.
 
 
-#### - pSrcAddress
-
-A source address.  For AF_INET or AF_INET6 <i>pSrcAddress</i>  is the source IP address and the source ND port.
-
-
 #### - pDestAddress
 
 A destination address.  For AF_INET or AF_INET6 <i>pDestAddress</i>  is the destination IP address and the source ND port .
@@ -145,6 +140,11 @@ A destination address.  For AF_INET or AF_INET6 <i>pDestAddress</i>  is the dest
 #### - pPrivateData
 
 A pointer to private data that is sent with the connect request.
+
+
+#### - pSrcAddress
+
+A source address.  For AF_INET or AF_INET6 <i>pSrcAddress</i>  is the source IP address and the source ND port.
 
 
 ## -returns
@@ -327,23 +327,15 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
-
-
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_connection_data.md">NDK_FN_GET_CONNECTION_DATA</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 
 
@@ -355,7 +347,15 @@ An error occurred.
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_connection_data.md">NDK_FN_GET_CONNECTION_DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
 
 
@@ -363,5 +363,5 @@ An error occurred.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_CONNECT callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_CONNECT callback function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

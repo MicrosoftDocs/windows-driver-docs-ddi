@@ -143,7 +143,7 @@ The <b>EVT_SERCX2_PIO_RECEIVE_CANCEL_READY_NOTIFICATION</b> function type is def
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
+<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
 
 
 
@@ -151,7 +151,7 @@ The <b>EVT_SERCX2_PIO_RECEIVE_CANCEL_READY_NOTIFICATION</b> function type is def
 
 
 
-<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
 
 
 

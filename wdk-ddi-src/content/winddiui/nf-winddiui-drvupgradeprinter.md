@@ -137,15 +137,15 @@ For Windows NT 4.0 and previous, when the spooler calls <b>DrvUpgradePrinter</b>
 
 ## -see-also
 
+<a href="..\winddiui\ns-winddiui-_driver_upgrade_info_2.md">DRIVER_UPGRADE_INFO_2</a>
+
+
+
 <a href="..\winddiui\nf-winddiui-drvprinterevent.md">DrvPrinterEvent</a>
 
 
 
 <a href="..\winddiui\ns-winddiui-_driver_upgrade_info_1.md">DRIVER_UPGRADE_INFO_1</a>
-
-
-
-<a href="..\winddiui\ns-winddiui-_driver_upgrade_info_2.md">DRIVER_UPGRADE_INFO_2</a>
 
 
 

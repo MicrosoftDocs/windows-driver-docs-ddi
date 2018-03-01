@@ -7,7 +7,7 @@ old-location: audio\iregistrykey_enumeratevaluekey.htm
 old-project: audio
 ms.assetid: 4f90b553-f652-413f-9723-a5a578de9f8d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: EnumerateValueKey method [Audio Devices], EnumerateValueKey method [Audio Devices], IRegistryKey interface, EnumerateValueKey,IRegistryKey.EnumerateValueKey, IRegistryKey, IRegistryKey interface [Audio Devices], EnumerateValueKey method, IRegistryKey::EnumerateValueKey, audio.iregistrykey_enumeratevaluekey, audmp-routines_8b4fc752-24a3-4331-b90b-85642dc2121a.xml, portcls/IRegistryKey::EnumerateValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -162,11 +162,7 @@ Indicates that no more value keys are available (the <i>Index</i> parameter is g
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
+<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
 
 
@@ -174,17 +170,21 @@ Indicates that no more value keys are available (the <i>Index</i> parameter is g
 
 
 
+<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
 
 
 
-<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IRegistryKey::EnumerateValueKey method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IRegistryKey::EnumerateValueKey method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

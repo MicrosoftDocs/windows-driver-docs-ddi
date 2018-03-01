@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbackswide_loadmodule.htm
 old-project: debugger
 ms.assetid: 03a76d41-3af1-48a9-832a-1c255a8b0cc4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], LoadModule method, IDebugEventCallbacksWide::LoadModule, LoadModule method [Windows Debugging], LoadModule method [Windows Debugging], IDebugEventCallbacksWide interface, LoadModule,IDebugEventCallbacksWide.LoadModule, dbgeng/IDebugEventCallbacksWide::LoadModule, debugger.idebugeventcallbackswide_loadmodule
 ms.prod: windows-hardware
 ms.technology: windows-devices

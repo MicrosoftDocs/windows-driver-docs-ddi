@@ -80,11 +80,11 @@ Contains a variable length array of structures of type <a href="..\hbaapi\ns-hba
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
-
-
-
 <a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry.md">HBA_FCPBindingEntry</a>
+
+
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
 
 
 

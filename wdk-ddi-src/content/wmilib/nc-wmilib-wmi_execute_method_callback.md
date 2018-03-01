@@ -178,15 +178,15 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550868">IRP_MN_EXECUTE_METHOD</a>
-
-
-
 <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
 
 
 <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550868">IRP_MN_EXECUTE_METHOD</a>
 
 
 

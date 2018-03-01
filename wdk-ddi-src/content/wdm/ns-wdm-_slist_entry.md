@@ -73,13 +73,6 @@ typedef struct _SLIST_ENTRY {
 Pointer to the next entry in the list, or <b>NULL</b> if there is no next entry in the list.
 
 
-### -field _SLIST_ENTRY
-
- 
-
-
-
-
 ## -remarks
 
 

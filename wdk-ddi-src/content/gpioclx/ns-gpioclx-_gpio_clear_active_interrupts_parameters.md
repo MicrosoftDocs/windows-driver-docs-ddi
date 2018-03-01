@@ -99,11 +99,11 @@ The <i>ClearParameters</i> parameter of the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439341">CLIENT_ClearActiveInterrupts</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439341">CLIENT_ClearActiveInterrupts</a>
 
 
 

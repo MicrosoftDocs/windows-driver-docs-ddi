@@ -7,7 +7,7 @@ old-location: audio\iadapterpowermanagement3_d3exitlatencychanged.htm
 old-project: audio
 ms.assetid: B62920AB-39B2-4A04-AFB9-9C935A273F9A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: D3ExitLatencyChanged method [Audio Devices], D3ExitLatencyChanged method [Audio Devices], IAdapterPowerManagement3 interface, D3ExitLatencyChanged,IAdapterPowerManagement3.D3ExitLatencyChanged, IAdapterPowerManagement3, IAdapterPowerManagement3 interface [Audio Devices], D3ExitLatencyChanged method, IAdapterPowerManagement3::D3ExitLatencyChanged, audio.iadapterpowermanagement3_d3exitlatencychanged, portcls/IAdapterPowerManagement3::D3ExitLatencyChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,6 +115,10 @@ The following table shows the possible values for <i>NewD3ExitLatency</i>.
 
 ## -see-also
 
+<a href="..\portcls\ne-portcls-_pc_exit_latency.md">PC_EXIT_LATENCY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj200332">PowerChangeState3</a>
 
 
@@ -123,13 +127,9 @@ The following table shows the possible values for <i>NewD3ExitLatency</i>.
 
 
 
-<a href="..\portcls\ne-portcls-_pc_exit_latency.md">PC_EXIT_LATENCY</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IAdapterPowerManagement3::D3ExitLatencyChanged method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IAdapterPowerManagement3::D3ExitLatencyChanged method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

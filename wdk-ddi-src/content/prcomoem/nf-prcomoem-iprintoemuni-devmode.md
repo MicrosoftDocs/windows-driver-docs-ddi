@@ -135,11 +135,11 @@ The <code>IPrintOemUni::DevMode</code> method must perform the operation indicat
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554167">IPrintOemUI::DevMode</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554167">IPrintOemUI::DevMode</a>
 
 
 

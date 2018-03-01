@@ -113,7 +113,7 @@ For more information about <b>CoTaskMemFree</b>, see the Microsoft Windows SDK d
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikspinfactory.md">IKsPinFactory</a>
+<a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
 
 
 
@@ -121,11 +121,11 @@ For more information about <b>CoTaskMemFree</b>, see the Microsoft Windows SDK d
 
 
 
+<a href="..\ksproxy\nn-ksproxy-ikspinfactory.md">IKsPinFactory</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
-
-
-
-<a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
 
 
 

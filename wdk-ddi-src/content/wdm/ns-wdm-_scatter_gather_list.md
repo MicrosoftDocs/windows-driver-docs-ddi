@@ -105,11 +105,11 @@ For more information about scatter/gather lists, see <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>
-
-
-
 <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list.md">BuildScatterGatherList</a>
+
+
+
+<a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>
 
 
 

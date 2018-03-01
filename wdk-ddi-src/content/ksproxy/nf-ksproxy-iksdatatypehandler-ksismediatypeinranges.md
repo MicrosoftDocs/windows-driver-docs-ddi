@@ -92,15 +92,15 @@ A client first calls the <a href="https://msdn.microsoft.com/library/windows/har
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
-
-
-
 <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559844">IKsDataTypeHandler::KsSetMediaType</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 

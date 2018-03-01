@@ -197,11 +197,11 @@ The AHCI Link Power management settings are part of the Disk Settings subgroup (
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
-
-
-
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
+
+
+<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
 
 

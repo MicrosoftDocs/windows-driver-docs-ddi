@@ -118,15 +118,15 @@ Specifies the Diagnostic data buffer.
 
 ## -see-also
 
-<a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_level.md">STORAGE_DIAGNOSTIC_LEVEL</a>
-
-
-
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport_diagnostic.md">IOCTL_SCSI_MINIPORT_DIAGNOSTIC</a>
 
 
 
 <a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_target_type.md">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>
+
+
+
+<a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_level.md">STORAGE_DIAGNOSTIC_LEVEL</a>
 
 
 

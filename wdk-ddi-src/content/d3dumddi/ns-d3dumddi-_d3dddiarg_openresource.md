@@ -147,14 +147,6 @@ The <b>Primary</b> and <b>SharedResource</b> bit-field flags are set in the <b>F
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openresource.md">OpenResource</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
 
 
@@ -163,11 +155,19 @@ The <b>Primary</b> and <b>SharedResource</b> bit-field flags are set in the <b>F
 
 
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_openresourceflags.md">D3DDDI_OPENRESOURCEFLAGS</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a>
+
+
+
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_openresourceflags.md">D3DDDI_OPENRESOURCEFLAGS</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openresource.md">OpenResource</a>
 
 
 

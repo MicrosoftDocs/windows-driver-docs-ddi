@@ -139,11 +139,11 @@ If the plug-in fails all calls to <code>IPrintOemPS::PublishDriverInterface</cod
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemps.md">IPrintOemPS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553221">IPrintOemPS::GetInfo</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemps.md">IPrintOemPS</a>
 
 
 

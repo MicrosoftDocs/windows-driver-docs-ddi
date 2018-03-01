@@ -147,11 +147,11 @@ The minidriver might retrieve this pointer when creating a new object to examine
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
-
-
-
 <a href="..\ks\nf-ks-ksfilterfactoryaddcreateitem.md">KsFilterFactoryAddCreateItem</a>
+
+
+
+<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
 
 
 

@@ -119,7 +119,7 @@ Get the read and write interfaces.
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-iprintpipelinepropertybag.md">IPrintPipelinePropertyBag</a>
+<a href="..\filterpipeline\nn-filterpipeline-iinterfiltercommunicator.md">IInterFilterCommunicator</a>
 
 
 
@@ -131,7 +131,7 @@ Get the read and write interfaces.
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-iinterfiltercommunicator.md">IInterFilterCommunicator</a>
+<a href="..\filterpipeline\nn-filterpipeline-iprintpipelinepropertybag.md">IPrintPipelinePropertyBag</a>
 
 
 

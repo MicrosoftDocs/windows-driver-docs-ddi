@@ -196,11 +196,11 @@ The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the
 
 
 
-<a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>
-
-
-
 <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
+
+
+
+<a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>
 
 
 

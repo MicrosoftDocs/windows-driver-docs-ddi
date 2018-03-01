@@ -152,7 +152,7 @@ An invalid flag value was specified in the <i>Flags</i> parameter.
 
 
 
-The <b>StorPortMarkDumpMemory</b> routine must only be called by a miniport driver in its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> or <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routines.
+The <b>StorPortMarkDumpMemory</b> routine must only be called by a miniport driver in its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> or <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routines.
 
 If <i>Length</i> = 0, the entire section containing <i>Address</i> is marked.
 

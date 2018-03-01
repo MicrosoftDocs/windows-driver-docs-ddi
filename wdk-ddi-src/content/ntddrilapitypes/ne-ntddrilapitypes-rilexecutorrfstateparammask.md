@@ -7,13 +7,13 @@ old-location: netvista\rilexecutorrfstateparammask.htm
 old-project: netvista
 ms.assetid: 58dae7ff-5e88-4ccd-85d9-8b0022e85d30
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILEXECUTORRFSTATEPARAMMASK, RILEXECUTORRFSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_GERFS_ALL, RIL_PARAM_GERFS_STATE, netvista.rilexecutorrfstateparammask, ntddrilapitypes/RILEXECUTORRFSTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_GERFS_ALL, ntddrilapitypes/RIL_PARAM_GERFS_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

@@ -92,11 +92,11 @@ If hard errors are disabled for a given thread, calls to <b>IoRaiseHardError</b>
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioraiseharderror.md">IoRaiseHardError</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-ioraiseharderror.md">IoRaiseHardError</a>
 
 
 

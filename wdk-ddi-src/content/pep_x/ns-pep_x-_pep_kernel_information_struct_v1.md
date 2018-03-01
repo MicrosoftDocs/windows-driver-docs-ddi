@@ -120,9 +120,9 @@ A pointer to a <a href="..\pepfx\nc-pepfx-pofxcallbackrequestinterrupt.md">Reque
 A pointer to a <a href="..\pepfx\nc-pepfx-pofxcallbackcriticalresource.md">TransitionCriticalResource</a> routine. PoFx sets the value of this member. The <b>TransitionCriticalResource</b> routine is implemented by PoFx. The PEP calls this routine to transition critical system resources to the idle condition.
 
 
-#### - ProcessorIdleVeto
+#### - CompleteWork
 
-A pointer to a <a href="..\pepfx\nc-pepfx-pofxcallbackprocessoridleveto.md">ProcessorIdleVeto</a> routine. PoFx sets the value of this member. The <b>ProcessorIdleVeto</b> routine is implemented by PoFx. The PEP calls this routine to increment or decrement the veto count for a pending transition to a processor idle state.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt186629">CompleteWork</a> routine. PoFx sets the value of this member. The <b>CompleteWork</b> routine is implemented by PoFx. The PEP calls this routine to notify PoFx that the PEP has completed a work item.
 
 
 #### - PlatformIdleVeto
@@ -130,9 +130,14 @@ A pointer to a <a href="..\pepfx\nc-pepfx-pofxcallbackprocessoridleveto.md">Proc
 A pointer to a <a href="..\pepfx\nc-pepfx-pofxcallbackplatformidleveto.md">PlatformIdleVeto</a> routine. PoFx sets the value of this member. The <b>PlatformIdleVeto</b> routine is implemented by PoFx. The PEP calls this routine to increment or decrement the veto count for a pending transition to a platform idle state.
 
 
-#### - UpdateProcessorIdleState
+#### - ProcessorIdleVeto
 
-A pointer to an <a href="..\pepfx\nc-pepfx-pofxcallbackupdateprocessoridlestate.md">UpdateProcessorIdleState</a> routine. PoFx sets the value of this member. The <b>UpdateProcessorIdleState</b> routine is implemented by PoFx. The PEP calls this routine to update the properties of the specified processor idle state.
+A pointer to a <a href="..\pepfx\nc-pepfx-pofxcallbackprocessoridleveto.md">ProcessorIdleVeto</a> routine. PoFx sets the value of this member. The <b>ProcessorIdleVeto</b> routine is implemented by PoFx. The PEP calls this routine to increment or decrement the veto count for a pending transition to a processor idle state.
+
+
+#### - RequestCommon
+
+A pointer to an <a href="..\pepfx\nc-pepfx-pofxcallbackrequestcommon.md">RequestCommon</a> routine. PoFx sets the value of this member. The <b>RequestCommon</b> routine is implemented by PoFx. The PEP calls this routine to perform a processing operation that is specified by a request ID.
 
 
 #### - UpdatePlatformIdleState
@@ -140,14 +145,9 @@ A pointer to an <a href="..\pepfx\nc-pepfx-pofxcallbackupdateprocessoridlestate.
 A pointer to an <a href="..\pepfx\nc-pepfx-pofxcallbackupdateplatformidlestate.md">UpdatePlatformIdleState</a> routine. PoFx sets the value of this member. The <b>UpdatePlatformIdleState</b> routine is implemented by PoFx. The PEP calls this routine to update the properties of the specified platform idle state.
 
 
-#### - CompleteWork
+#### - UpdateProcessorIdleState
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt186629">CompleteWork</a> routine. PoFx sets the value of this member. The <b>CompleteWork</b> routine is implemented by PoFx. The PEP calls this routine to notify PoFx that the PEP has completed a work item.
-
-
-#### - RequestCommon
-
-A pointer to an <a href="..\pepfx\nc-pepfx-pofxcallbackrequestcommon.md">RequestCommon</a> routine. PoFx sets the value of this member. The <b>RequestCommon</b> routine is implemented by PoFx. The PEP calls this routine to perform a processing operation that is specified by a request ID.
+A pointer to an <a href="..\pepfx\nc-pepfx-pofxcallbackupdateprocessoridlestate.md">UpdateProcessorIdleState</a> routine. PoFx sets the value of this member. The <b>UpdateProcessorIdleState</b> routine is implemented by PoFx. The PEP calls this routine to update the properties of the specified processor idle state.
 
 
 ## -remarks
@@ -161,27 +161,19 @@ The <b>KernelInformation</b> parameter to the <a href="..\pepfx\nf-pepfx-pofxreg
 
 ## -see-also
 
-<a href="..\pepfx\nc-pepfx-pofxcallbackrequestworker.md">RequestWorker</a>
-
-
-
-<a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
-
-
-
 <a href="..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a>
 
 
 
-<a href="..\pepfx\nc-pepfx-pofxcallbackrequestinterrupt.md">RequestInterrupt</a>
+<a href="..\pepfx\nc-pepfx-pofxcallbackprocessoridleveto.md">ProcessorIdleVeto</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186629">CompleteWork</a>
+<a href="..\pepfx\nc-pepfx-pofxcallbackupdateplatformidlestate.md">UpdatePlatformIdleState</a>
 
 
 
-<a href="..\pepfx\nc-pepfx-pofxcallbackplatformidleveto.md">PlatformIdleVeto</a>
+<a href="..\pepfx\nc-pepfx-pofxcallbackrequestworker.md">RequestWorker</a>
 
 
 
@@ -193,15 +185,7 @@ The <b>KernelInformation</b> parameter to the <a href="..\pepfx\nf-pepfx-pofxreg
 
 
 
-<a href="..\pepfx\nc-pepfx-pofxcallbackprocessoridleveto.md">ProcessorIdleVeto</a>
-
-
-
-<a href="..\pepfx\nc-pepfx-pofxcallbackcriticalresource.md">TransitionCriticalResource</a>
-
-
-
-<a href="..\pepfx\nc-pepfx-pofxcallbackupdateplatformidlestate.md">UpdatePlatformIdleState</a>
+<a href="..\pepfx\nc-pepfx-pofxcallbackrequestinterrupt.md">RequestInterrupt</a>
 
 
 
@@ -209,7 +193,23 @@ The <b>KernelInformation</b> parameter to the <a href="..\pepfx\nf-pepfx-pofxreg
 
 
 
+<a href="..\pepfx\nc-pepfx-pofxcallbackcriticalresource.md">TransitionCriticalResource</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186629">CompleteWork</a>
+
+
+
+<a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
+
+
+
 <a href="..\pepfx\nc-pepfx-pofxcallbackprocessorhalt.md">ProcessorHalt</a>
+
+
+
+<a href="..\pepfx\nc-pepfx-pofxcallbackplatformidleveto.md">PlatformIdleVeto</a>
 
 
 

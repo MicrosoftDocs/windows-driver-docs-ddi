@@ -129,7 +129,7 @@ When the client driver is finished using the streams, the driver can close all s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>
 
 
 
@@ -137,11 +137,11 @@ When the client driver is finished using the streams, the driver can close all s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>
-
-
-
 <a href="..\usb\ns-usb-_urb.md">URB</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

@@ -93,10 +93,6 @@ The driver must already have set up the IoTimer routine for the <i>DeviceObject<
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
 
 
@@ -105,7 +101,11 @@ The driver must already have set up the IoTimer routine for the <i>DeviceObject<
 
 
 
-<a href="..\wdm\nf-wdm-iostoptimer.md">IoStopTimer</a>
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
 
 
 
@@ -113,7 +113,7 @@ The driver must already have set up the IoTimer routine for the <i>DeviceObject<
 
 
 
-<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
+<a href="..\wdm\nf-wdm-iostoptimer.md">IoStopTimer</a>
 
 
 

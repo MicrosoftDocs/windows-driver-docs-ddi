@@ -170,7 +170,7 @@ This structure is identical to the <a href="..\video\ns-video-_video_port_agp_in
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="..\video\ns-video-_video_port_agp_interface.md">VIDEO_PORT_AGP_INTERFACE</a>
 
 
 
@@ -178,7 +178,7 @@ This structure is identical to the <a href="..\video\ns-video-_video_port_agp_in
 
 
 
-<a href="..\video\ns-video-_video_port_agp_interface.md">VIDEO_PORT_AGP_INTERFACE</a>
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 

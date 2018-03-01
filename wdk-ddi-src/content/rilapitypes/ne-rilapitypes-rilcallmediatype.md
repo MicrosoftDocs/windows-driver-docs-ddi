@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCALLMEDIATYPE
 title: RILCALLMEDIATYPE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallmediatype_2.htm
+old-location: netvista\rilcallmediatype.htm
 old-project: netvista
-ms.assetid: f4ecaf9a-1d8d-4a56-afa0-b893eb0c4c62
+ms.assetid: 993013f1-5026-4c30-b4df-958606adc8fa
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILCALLMEDIATYPE, RILCALLMEDIATYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIATYPE_AUDIO, RIL_CALLMEDIATYPE_CUSTOM, RIL_CALLMEDIATYPE_MAX, RIL_CALLMEDIATYPE_VIDEO, netvista.rilcallmediatype_2, rilapitypes/RILCALLMEDIATYPE, rilapitypes/RIL_CALLMEDIATYPE_AUDIO, rilapitypes/RIL_CALLMEDIATYPE_CUSTOM, rilapitypes/RIL_CALLMEDIATYPE_MAX, rilapitypes/RIL_CALLMEDIATYPE_VIDEO
+ms.date: 2/27/2018
+ms.keywords: RILCALLMEDIATYPE, RILCALLMEDIATYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIATYPE_AUDIO, RIL_CALLMEDIATYPE_CUSTOM, RIL_CALLMEDIATYPE_MAX, RIL_CALLMEDIATYPE_VIDEO, netvista.rilcallmediatype, ntddrilapitypes/RILCALLMEDIATYPE, ntddrilapitypes/RIL_CALLMEDIATYPE_AUDIO, ntddrilapitypes/RIL_CALLMEDIATYPE_CUSTOM, ntddrilapitypes/RIL_CALLMEDIATYPE_MAX, ntddrilapitypes/RIL_CALLMEDIATYPE_VIDEO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLMEDIATYPE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

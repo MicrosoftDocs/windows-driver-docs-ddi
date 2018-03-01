@@ -280,11 +280,11 @@ You can never add access rights beyond what is specified in the <b>DesiredAccess
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
 
 

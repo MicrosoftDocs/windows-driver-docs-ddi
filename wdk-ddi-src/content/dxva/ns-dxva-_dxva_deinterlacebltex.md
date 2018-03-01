@@ -143,11 +143,11 @@ When a single frame is being created from one field in a sample, as defined in t
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
-
-
-
 <a href="..\dxva\ne-dxva-_dxva_destinationflags.md">DXVA_DestinationFlags</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
 
 
 

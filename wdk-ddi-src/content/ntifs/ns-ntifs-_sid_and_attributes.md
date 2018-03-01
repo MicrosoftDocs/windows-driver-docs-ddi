@@ -89,19 +89,19 @@ A group is represented by a SID. SIDs have attributes that indicate whether they
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 
 
+<a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 

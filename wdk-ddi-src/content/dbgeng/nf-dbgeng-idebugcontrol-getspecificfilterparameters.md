@@ -7,7 +7,7 @@ old-location: debugger\getspecificfilterparameters.htm
 old-project: debugger
 ms.assetid: d2140270-558d-4cd9-b497-f61be40c7a87
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: GetSpecificFilterParameters method [Windows Debugging], GetSpecificFilterParameters method [Windows Debugging], IDebugControl interface, GetSpecificFilterParameters method [Windows Debugging], IDebugControl2 interface, GetSpecificFilterParameters method [Windows Debugging], IDebugControl3 interface, GetSpecificFilterParameters,IDebugControl.GetSpecificFilterParameters, IDebugControl, IDebugControl interface [Windows Debugging], GetSpecificFilterParameters method, IDebugControl2 interface [Windows Debugging], GetSpecificFilterParameters method, IDebugControl2::GetSpecificFilterParameters, IDebugControl3 interface [Windows Debugging], GetSpecificFilterParameters method, IDebugControl3::GetSpecificFilterParameters, IDebugControl::GetSpecificFilterParameters, IDebugControl_ebe245a7-c76c-4b31-aa58-ccad250ed92a.xml, dbgeng/IDebugControl2::GetSpecificFilterParameters, dbgeng/IDebugControl3::GetSpecificFilterParameters, dbgeng/IDebugControl::GetSpecificFilterParameters, debugger.getspecificfilterparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,7 +125,19 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546650">GetExceptionFilterParameters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556795">SetSpecificFilterParameters</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -137,21 +149,9 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556795">SetSpecificFilterParameters</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546650">GetExceptionFilterParameters</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetSpecificFilterParameters method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetSpecificFilterParameters method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

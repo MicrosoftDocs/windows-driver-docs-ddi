@@ -89,7 +89,7 @@ Clients retrieve the Advanced Access Content System (AACS) challenge key with an
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_get_challenge_key.md">IOCTL_AACS_GET_CHALLENGE_KEY</a>
+<a href="..\ntddcdvd\ns-ntddcdvd-_aacs_send_challenge_key.md">AACS_SEND_CHALLENGE_KEY</a>
 
 
 
@@ -97,7 +97,7 @@ Clients retrieve the Advanced Access Content System (AACS) challenge key with an
 
 
 
-<a href="..\ntddcdvd\ns-ntddcdvd-_aacs_send_challenge_key.md">AACS_SEND_CHALLENGE_KEY</a>
+<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_get_challenge_key.md">IOCTL_AACS_GET_CHALLENGE_KEY</a>
 
 
 

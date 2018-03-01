@@ -166,11 +166,11 @@ To obtain a list of valid device fonts, create an information context for the cu
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni.md">IPrintCoreHelperUni</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552936">IPrintCoreHelperUni::GetFontSubstitution</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni.md">IPrintCoreHelperUni</a>
 
 
 

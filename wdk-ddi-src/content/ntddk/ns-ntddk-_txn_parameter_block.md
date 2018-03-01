@@ -111,11 +111,11 @@ The <a href="..\ntddk\nf-ntddk-iogettransactionparameterblock.md">IoGetTransacti
 
 
 
-<a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-iogettransactionparameterblock.md">IoGetTransactionParameterBlock</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>
 
 
 

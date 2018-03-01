@@ -206,15 +206,15 @@ If <i>eInformationClass</i> parameter is equal to <b>ClfsLogBasicInformation</b>
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a>
-
-
-
 <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
 
 
 
 <a href="..\wdm\nf-wdm-clfssetlogfileinformation.md">ClfsSetLogFileInformation</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a>
 
 
 

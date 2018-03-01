@@ -168,7 +168,7 @@ To get the volume globally unique identifier (GUID) name for a given volume, cal
 
 ## -see-also
 
-<b>FltGetVolumeName</b>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -176,19 +176,19 @@ To get the volume globally unique identifier (GUID) name for a given volume, cal
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
+
+
+
+<b>FltGetVolumeName</b>
+
+
+
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
 
 
 

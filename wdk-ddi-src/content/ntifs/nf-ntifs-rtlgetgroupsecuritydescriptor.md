@@ -135,11 +135,11 @@ For more information about security and access control, see the Microsoft Window
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlgetownersecuritydescriptor.md">RtlGetOwnerSecurityDescriptor</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlsetgroupsecuritydescriptor.md">RtlSetGroupSecurityDescriptor</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlgetownersecuritydescriptor.md">RtlGetOwnerSecurityDescriptor</a>
 
 
 

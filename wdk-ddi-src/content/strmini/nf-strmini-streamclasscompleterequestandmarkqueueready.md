@@ -98,11 +98,11 @@ This call is equivalent to calling <b>StreamClass</b><i>Xxx</i><b>Notification</
 
 
 
-<a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>
-
-
-
 <a href="..\strmini\nf-strmini-streamclassdevicenotification.md">StreamClassDeviceNotification</a>
+
+
+
+<a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>
 
 
 

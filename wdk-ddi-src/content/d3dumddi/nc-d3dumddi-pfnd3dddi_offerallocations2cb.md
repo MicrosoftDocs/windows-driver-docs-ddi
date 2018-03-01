@@ -161,11 +161,11 @@ After the driver calls <b>pfnOfferAllocations2Cb</b> to offer an allocation to r
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_offerresources.md">pfnOfferResources</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt761969">D3DDDICB_OFFERALLOCATIONS2</a>
 
 
 
@@ -177,7 +177,7 @@ After the driver calls <b>pfnOfferAllocations2Cb</b> to offer an allocation to r
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt761969">D3DDDICB_OFFERALLOCATIONS2</a>
 
 
 

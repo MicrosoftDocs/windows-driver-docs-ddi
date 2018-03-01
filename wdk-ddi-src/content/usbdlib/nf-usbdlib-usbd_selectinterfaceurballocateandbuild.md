@@ -176,11 +176,11 @@ The client driver can reuse an URB allocated by <b>USBD_SelectInterfaceUrbAlloca
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a>
-
-
-
 <a href="..\usbdlib\nf-usbdlib-usbd_selectconfigurballocateandbuild.md">USBD_SelectConfigUrbAllocateAndBuild</a>
+
+
+
+<a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a>
 
 
 

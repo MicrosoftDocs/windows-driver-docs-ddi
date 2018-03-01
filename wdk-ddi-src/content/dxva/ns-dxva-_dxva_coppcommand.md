@@ -149,15 +149,11 @@ For a DXVA_COPPSetSignaling command, the signaling information is supplied by ca
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_coppsetsignalingcmddata.md">DXVA_COPPSetSignalingCmdData</a>
+<a href="..\dxva\ns-dxva-_dxva_coppsignature.md">DXVA_COPPSignature</a>
 
 
 
 <a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
-
-
-
-<a href="..\dxva\ns-dxva-_dxva_coppsignature.md">DXVA_COPPSignature</a>
 
 
 
@@ -166,6 +162,10 @@ For a DXVA_COPPSetSignaling command, the signaling information is supplied by ca
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_coppsetsignalingcmddata.md">DXVA_COPPSetSignalingCmdData</a>
 
 
 

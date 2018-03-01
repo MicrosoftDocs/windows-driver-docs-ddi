@@ -117,11 +117,11 @@ For a SCSI changer, <b>ChangerInitializeElementStatus</b> builds an SRB with a C
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_list.md">CHANGER_ELEMENT_LIST</a>
-
-
-
 <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element_list.md">CHANGER_ELEMENT_LIST</a>
 
 
 

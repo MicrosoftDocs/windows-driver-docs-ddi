@@ -124,7 +124,11 @@ While a <b>PowerRequestExecutionRequired</b> power request is in effect, the cal
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/85249de8-5832-4f25-bbd9-3576cfd1caa0">PowerSetRequest</a>
+<a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a>
+
+
+
+<a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
 
 
 
@@ -132,11 +136,7 @@ While a <b>PowerRequestExecutionRequired</b> power request is in effect, the cal
 
 
 
-<a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a>
-
-
-
-<a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
+<a href="https://msdn.microsoft.com/85249de8-5832-4f25-bbd9-3576cfd1caa0">PowerSetRequest</a>
 
 
 

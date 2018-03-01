@@ -231,7 +231,15 @@ HRESULT CD3DContext::CreateOverlay(D3DDDIARG_CREATEOVERLAY* pCreateOverlay) {
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createoverlay.md">D3DDDICB_CREATEOVERLAY</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyoverlaycb.md">pfnDestroyOverlayCb</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
 
 
@@ -239,15 +247,7 @@ HRESULT CD3DContext::CreateOverlay(D3DDDIARG_CREATEOVERLAY* pCreateOverlay) {
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createoverlay.md">D3DDDICB_CREATEOVERLAY</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlaycb.md">pfnUpdateOverlayCb</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
 
 

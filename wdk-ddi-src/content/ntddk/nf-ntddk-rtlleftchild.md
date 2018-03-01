@@ -87,11 +87,11 @@ Callers of <b>RtlLeftChild</b> must be running at IRQL &lt;= DISPATCH_LEVEL if t
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
 
 
 
@@ -99,7 +99,7 @@ Callers of <b>RtlLeftChild</b> must be running at IRQL &lt;= DISPATCH_LEVEL if t
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
+<a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
 
 
 

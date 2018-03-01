@@ -125,7 +125,11 @@ The DMA transfer context that is supplied to <b>AllocateAdapterChannelEx</b>, <b
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
+<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
+
+
+
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
 
 
 
@@ -137,19 +141,15 @@ The DMA transfer context that is supplied to <b>AllocateAdapterChannelEx</b>, <b
 
 
 
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
-
-
-
-<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 
 <a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
+
+
+
+<a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
 
 
 

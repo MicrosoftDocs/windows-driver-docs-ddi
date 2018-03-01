@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Each driver object represents the image of a loaded kernel-mode driver. A pointer to the driver object is an input parameter to a driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>, and optional <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a> routines and to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine, if any.
+Each driver object represents the image of a loaded kernel-mode driver. A pointer to the driver object is an input parameter to a driver's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>, and optional <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a> routines and to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine, if any.
 
 A driver object is partially opaque. Driver writers must know about certain members of a driver object to initialize a driver and to unload it if the driver is unloadable. The following members of the driver object are accessible to drivers.
 
@@ -134,7 +134,7 @@ Pointer to a structure defining the driver's fast I/O entry points. This member 
 
 ### -field DriverInit
 
-The entry point for the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine, which is set up by the I/O manager.
+The entry point for the <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine, which is set up by the I/O manager.
 
 
 ### -field DriverStartIo
@@ -192,7 +192,7 @@ The DRIVER_DISPATCH function type is defined in the Wdm.h header file. To more a
 
 
 
-Each kernel-mode driver's initialization routine should be named <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> so the system will load the driver automatically. If this routine's name is something else, the driver writer must define the name of the initialization routine for the linker; otherwise, the system loader or I/O manager cannot find the driver's transfer address. The names of other standard driver routines can be chosen at the discretion of the driver writer.
+Each kernel-mode driver's initialization routine should be named <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> so the system will load the driver automatically. If this routine's name is something else, the driver writer must define the name of the initialization routine for the linker; otherwise, the system loader or I/O manager cannot find the driver's transfer address. The names of other standard driver routines can be chosen at the discretion of the driver writer.
 
 A driver must set its <i>DispatchXxx</i> entry points in the driver object that is passed in to the <b>DriverEntry</b> routine when the driver is loaded. A device driver must set one or more <i>DispatchXxx</i> entry points for the <b>IRP_MJ_<i>XXX</i></b> that any driver of the same type of device is required to handle. A higher-level driver must set one or more <i>DispatchXxx</i> entry points for all the <b>IRP_MJ_<i>XXX</i></b> that it must pass on to the underlying device driver. Otherwise, a driver is not sent IRPs for any <b>IRP_MJ_<i>XXX</i></b> for which it does not set up a <i>DispatchXxx</i> routine in the driver object. For more information about the set of <b>IRP_MJ_<i>XXX</i></b> that drivers for different types of underlying devices are required to handle, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550710">IRP Major Function Codes</a>.
 
@@ -209,19 +209,19 @@ Undocumented members within a driver object should be considered inaccessible. D
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a>
-
-
-
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
 
 
 
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+
+
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a>
 
 
 

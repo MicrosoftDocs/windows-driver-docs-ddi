@@ -150,7 +150,7 @@ The KBUGCHECK_CALLBACK_ROUTINE function type is defined in the Wdm.h header file
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
+<a href="..\wdm\nf-wdm-keregisterbugcheckcallback.md">KeRegisterBugCheckCallback</a>
 
 
 
@@ -158,7 +158,7 @@ The KBUGCHECK_CALLBACK_ROUTINE function type is defined in the Wdm.h header file
 
 
 
-<a href="..\wdm\nf-wdm-keregisterbugcheckcallback.md">KeRegisterBugCheckCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
 
 
 

@@ -457,7 +457,7 @@ The
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+<a href="..\ntddk\ns-ntddk-_whea_processor_family_info.md">WHEA_PROCESSOR_FAMILY_INFO</a>
 
 
 
@@ -465,7 +465,7 @@ The
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_processor_family_info.md">WHEA_PROCESSOR_FAMILY_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
 
 

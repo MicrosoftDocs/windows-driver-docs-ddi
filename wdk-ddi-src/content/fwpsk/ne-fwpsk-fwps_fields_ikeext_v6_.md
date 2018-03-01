@@ -7,7 +7,7 @@ old-location: netvista\fwps_fields_ikeext_v6.htm
 old-project: netvista
 ms.assetid: 1e355322-23ae-4cc6-af2f-5852515c8056
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: FWPS_FIELDS_IKEEXT_V6, FWPS_FIELDS_IKEEXT_V6 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_IKEEXT_V6_, FWPS_FIELD_IKEEXT_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_IKEEXT_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_IKEEXT_V6_IP_REMOTE_ADDRESS, FWPS_FIELD_IKEEXT_V6_MAX, FWPS_FIELD_IKEEXT_V6_PROFILE_ID, fwpsk/FWPS_FIELDS_IKEEXT_V6, fwpsk/FWPS_FIELD_IKEEXT_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_IKEEXT_V6_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_IKEEXT_V6_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_IKEEXT_V6_MAX, fwpsk/FWPS_FIELD_IKEEXT_V6_PROFILE_ID, netvista.fwps_fields_ikeext_v6, wfp_ref_5_const_3_data_fields_0fbd1f0f-2524-4bec-a340-eaaa81539655.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

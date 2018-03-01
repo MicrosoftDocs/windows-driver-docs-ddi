@@ -107,11 +107,11 @@ At least one of the callbacks must be specified when calling <b>KsPinRegisterPow
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilterregisterpowercallbacks.md">KsFilterRegisterPowerCallbacks</a>
-
-
-
 <a href="..\ks\nc-ks-pfnkspinpower.md">AVStrMiniPinPower</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilterregisterpowercallbacks.md">KsFilterRegisterPowerCallbacks</a>
 
 
 

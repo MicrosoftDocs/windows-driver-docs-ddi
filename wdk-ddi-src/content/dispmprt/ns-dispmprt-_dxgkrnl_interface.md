@@ -416,15 +416,15 @@ Supported starting with Windows 8.1.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560940">Dxgkrnl Interface</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560940">Dxgkrnl Interface</a>
 
 
 

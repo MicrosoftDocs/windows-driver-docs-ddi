@@ -189,7 +189,7 @@ Marks the upper limit of the possible bus types.
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+<a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
 
 
 
@@ -197,19 +197,19 @@ Marks the upper limit of the possible bus types.
 
 
 
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
-
-
-
 <a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
 
 
 
-<a href="..\storport\nf-storport-storportvalidaterange.md">StorPortValidateRange</a>
-
-
-
 <a href="..\storport\nf-storport-storportgetdevicebase.md">StorPortGetDeviceBase</a>
+
+
+
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
+
+
+<a href="..\storport\nf-storport-storportvalidaterange.md">StorPortValidateRange</a>
 
 
 

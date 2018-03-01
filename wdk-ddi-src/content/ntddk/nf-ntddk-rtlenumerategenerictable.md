@@ -124,10 +124,6 @@ Callers of <b>RtlEnumerateGenericTable</b> must be running at IRQL &lt; DISPATCH
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplaying</a>
 
 
@@ -137,6 +133,10 @@ Callers of <b>RtlEnumerateGenericTable</b> must be running at IRQL &lt; DISPATCH
 
 
 <a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
 
 
 

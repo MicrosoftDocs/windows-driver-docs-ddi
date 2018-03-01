@@ -106,11 +106,11 @@ Connections between AVStream pins are performed using this type of handshake.
 
 ## -see-also
 
-<a href="..\ks\ni-ks-ioctl_ks_handshake.md">IOCTL_KS_HANDSHAKE</a>
-
-
-
 <a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
+
+
+
+<a href="..\ks\ni-ks-ioctl_ks_handshake.md">IOCTL_KS_HANDSHAKE</a>
 
 
 

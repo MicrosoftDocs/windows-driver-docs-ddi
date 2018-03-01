@@ -115,7 +115,7 @@ Calling this routine prevents the object from being deleted, possibly by another
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
 
 
@@ -127,7 +127,7 @@ Calling this routine prevents the object from being deleted, possibly by another
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 

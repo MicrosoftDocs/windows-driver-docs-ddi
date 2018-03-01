@@ -252,7 +252,7 @@ To decompress only a portion of a compressed buffer (that is, a "fragment" of th
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>
+<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
 
 
 
@@ -260,7 +260,7 @@ To decompress only a portion of a compressed buffer (that is, a "fragment" of th
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
+<a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>
 
 
 

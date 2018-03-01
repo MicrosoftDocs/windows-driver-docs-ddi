@@ -161,7 +161,15 @@ The <b>RxStopMinirdr</b> routine then calls the network mini-redirector <b>MrxSt
 
 ## -see-also
 
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
+
+
+
 <a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
 
 
 
@@ -170,14 +178,6 @@ The <b>RxStopMinirdr</b> routine then calls the network mini-redirector <b>MrxSt
 
 
 <a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr.md">RxUnregisterMinirdr</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
 
 
 

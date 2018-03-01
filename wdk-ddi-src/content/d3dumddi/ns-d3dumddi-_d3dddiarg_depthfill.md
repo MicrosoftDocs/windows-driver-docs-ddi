@@ -92,11 +92,11 @@ A pixel value that is specified in native format for the fill depth.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_depthfill.md">DepthFill</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_depthfill.md">DepthFill</a>
 
 
 

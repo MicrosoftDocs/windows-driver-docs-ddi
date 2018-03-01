@@ -111,7 +111,7 @@ A pointer to a PEP-defined device context. PoFx supplies this pointer as the fir
 
 ### -field Components
 
-The first element in an array of <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a> structures. Each element in the array describes the power attributes of a component in the device. If the array contains more than one element, the additional elements immediately follow the end of the <b>PO_FX_CORE_DEVICE</b> structure. The number of elements in the array is specified in the <b>ComponentCount</b> member of the <b>PO_FX_CORE_DEVICE</b> structure.
+The first element in an array of <a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a> structures. Each element in the array describes the power attributes of a component in the device. If the array contains more than one element, the additional elements immediately follow the end of the <b>PO_FX_CORE_DEVICE</b> structure. The number of elements in the array is specified in the <b>ComponentCount</b> member of the <b>PO_FX_CORE_DEVICE</b> structure.
 
 
 ## -remarks
@@ -129,11 +129,15 @@ For more information about component transitions between the active condition an
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186630">ComponentCriticalTransitionCallback</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a>
 
 
 
@@ -141,11 +145,7 @@ For more information about component transitions between the active condition an
 
 
 
-<a href="..\wdm\ns-wdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186630">ComponentCriticalTransitionCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
 
 
 

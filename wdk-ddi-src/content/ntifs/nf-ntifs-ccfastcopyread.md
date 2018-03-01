@@ -142,19 +142,19 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-cccopyread.md">CcCopyRead</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
 
 
 

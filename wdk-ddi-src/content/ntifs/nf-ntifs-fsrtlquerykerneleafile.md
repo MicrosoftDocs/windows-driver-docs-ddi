@@ -199,15 +199,15 @@ This routine <b>FsRtlQueryKernelEaFile </b>assumes all passed in buffers are fro
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a>
+
+
+
 <a href="https://msdn.microsoft.com/E5EA2E40-2CC3-4C7B-8BCC-4793F76ECBAD">FsRtlSetKernelEaFile</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff961908">ZwSetEaFile</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a>
 
 
 

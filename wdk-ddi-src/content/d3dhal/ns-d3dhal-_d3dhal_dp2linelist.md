@@ -89,7 +89,7 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+D3DDP2OP_LINELIST
 
 
 
@@ -97,7 +97,7 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 
 
-D3DDP2OP_LINELIST
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 

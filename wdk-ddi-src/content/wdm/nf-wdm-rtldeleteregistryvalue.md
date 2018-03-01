@@ -186,6 +186,10 @@ On Windows 2000 and later versions of Windows, the routine leaves the handle ope
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 
@@ -194,15 +198,11 @@ On Windows 2000 and later versions of Windows, the routine leaves the handle ope
 
 
 
-<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
+<a href="..\wdm\nf-wdm-rtlwriteregistryvalue.md">RtlWriteRegistryValue</a>
 
 
 
 <a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlwriteregistryvalue.md">RtlWriteRegistryValue</a>
 
 
 

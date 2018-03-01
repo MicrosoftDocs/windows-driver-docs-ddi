@@ -80,11 +80,11 @@ A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_vidpnsourceowner_flags.md">D3DKMT_VID
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_vidpnsourceowner_flags.md">D3DKMT_VIDPNSOURCEOWNER_FLAGS</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setvidpnsourceowner.md">D3DKMT_SETVIDPNSOURCEOWNER</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_vidpnsourceowner_flags.md">D3DKMT_VIDPNSOURCEOWNER_FLAGS</a>
 
 
 

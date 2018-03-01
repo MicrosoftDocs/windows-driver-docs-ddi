@@ -80,11 +80,11 @@ If the <b>PrintedPages</b> and <a href="https://msdn.microsoft.com/1035337F-2EDD
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265411">TotalPages</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob::IPrintJob</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265411">TotalPages</a>
 
 
 

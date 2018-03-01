@@ -281,11 +281,11 @@ NTSTATUS MyAddDevice( __in PDRIVER_OBJECT  DriverObject,
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406258">Best Practices: Using URBs</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406258">Best Practices: Using URBs</a>
 
 
 

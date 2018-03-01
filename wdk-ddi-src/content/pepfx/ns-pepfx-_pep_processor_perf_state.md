@@ -86,11 +86,11 @@ Reserved.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186881">Processor power management (PPM) notifications</a>
-
-
-
 <a href="https://msdn.microsoft.com/506b3d8e-4aba-4e70-a6db-52a52d717c6b">PEP_PPM_QUERY_DISCRETE_PERF_STATES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186881">Processor power management (PPM) notifications</a>
 
 
 

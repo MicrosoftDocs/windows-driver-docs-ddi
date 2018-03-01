@@ -74,7 +74,7 @@ Contains proprietary data defined by the vendor.
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_rscn_eventinfo.md">HBA_RSCN_EventInfo</a>
+<a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a>
 
 
 
@@ -82,7 +82,7 @@ Contains proprietary data defined by the vendor.
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a>
+<a href="..\hbaapi\ns-hbaapi-hba_rscn_eventinfo.md">HBA_RSCN_EventInfo</a>
 
 
 

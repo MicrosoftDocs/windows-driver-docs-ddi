@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILIMSNWENABLEDFLAGS
 title: RILIMSNWENABLEDFLAGS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilimsnwenabledflags_2.htm
+old-location: netvista\rilimsnwenabledflags.htm
 old-project: netvista
-ms.assetid: 3295b0f0-a498-47fb-9744-06ea74626bb5
+ms.assetid: ae13790a-2442-4a8e-88cb-2cb6c8e02da6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILIMSNWENABLEDFLAGS, RILIMSNWENABLEDFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_IMS_NW_ENABLED_FLAG_ALL, RIL_IMS_NW_ENABLED_FLAG_EAB, RIL_IMS_NW_ENABLED_FLAG_PROVISION, RIL_IMS_NW_ENABLED_FLAG_VIDEO, RIL_IMS_NW_ENABLED_FLAG_VOICE, netvista.rilimsnwenabledflags_2, rilapitypes/RILIMSNWENABLEDFLAGS, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_ALL, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_EAB, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_PROVISION, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_VIDEO, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_VOICE
+ms.date: 2/27/2018
+ms.keywords: RILIMSNWENABLEDFLAGS, RILIMSNWENABLEDFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_IMS_NW_ENABLED_FLAG_ALL, RIL_IMS_NW_ENABLED_FLAG_EAB, RIL_IMS_NW_ENABLED_FLAG_PROVISION, RIL_IMS_NW_ENABLED_FLAG_VIDEO, RIL_IMS_NW_ENABLED_FLAG_VOICE, netvista.rilimsnwenabledflags, ntddrilapitypes/RILIMSNWENABLEDFLAGS, ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_ALL, ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_EAB, ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_PROVISION, ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_VIDEO, ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_VOICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILIMSNWENABLEDFLAGS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

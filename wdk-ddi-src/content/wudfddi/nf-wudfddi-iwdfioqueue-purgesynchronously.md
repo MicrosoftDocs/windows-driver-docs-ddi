@@ -92,7 +92,7 @@ The <b>PurgeSynchronously</b> method is a synchronous version of the <a href="ht
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
 
 
 
@@ -100,7 +100,7 @@ The <b>PurgeSynchronously</b> method is a synchronous version of the <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 
 

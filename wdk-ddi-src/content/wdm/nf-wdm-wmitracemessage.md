@@ -250,7 +250,15 @@ All message buffers allocated to software tracing session are full.
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
+
+
+
 <a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a>
+
+
+
+<a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
 
 
 
@@ -259,14 +267,6 @@ All message buffers allocated to software tracing session are full.
 
 
 <a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
-
-
-
-<a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
 
 
 

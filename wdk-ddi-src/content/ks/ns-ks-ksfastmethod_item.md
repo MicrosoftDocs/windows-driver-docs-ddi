@@ -88,11 +88,11 @@ Set to <b>TRUE</b> if the method is supported, otherwise set to <b>FALSE</b>.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567173">KStrFastHandler</a>
+
+
+
+<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
 
 
 

@@ -122,7 +122,7 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_reg_query_value_key_information.md">REG_QUERY_VALUE_KEY_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
 
 
@@ -130,7 +130,7 @@ For more information about registry filtering operations, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+<a href="..\wdm\ns-wdm-_reg_query_value_key_information.md">REG_QUERY_VALUE_KEY_INFORMATION</a>
 
 
 

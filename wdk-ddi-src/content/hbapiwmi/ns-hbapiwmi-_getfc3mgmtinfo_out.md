@@ -91,11 +91,11 @@ The WMI tool suite generates a declaration of the GetEventBuffer_OUT structure i
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553939">GetFC3MgmtInfo</a>
-
-
-
 <a href="..\hbapiwmi\ns-hbapiwmi-_hbafc3mgmtinfo.md">HBAFC3MgmtInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553939">GetFC3MgmtInfo</a>
 
 
 

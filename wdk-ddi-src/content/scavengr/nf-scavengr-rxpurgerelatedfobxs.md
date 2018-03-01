@@ -151,11 +151,11 @@ If <i>PFCB</i> is not <b>NULL</b>, and this purging FCB strcuture is not the sam
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxpurgeallfobxs.md">RxPurgeAllFobxs</a>
-
-
-
 <a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxpurgeallfobxs.md">RxPurgeAllFobxs</a>
 
 
 

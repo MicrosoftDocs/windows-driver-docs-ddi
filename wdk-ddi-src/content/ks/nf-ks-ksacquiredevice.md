@@ -93,11 +93,11 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
-
-
-
 <a href="..\ks\nf-ks-ksreleasedevice.md">KsReleaseDevice</a>
+
+
+
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 

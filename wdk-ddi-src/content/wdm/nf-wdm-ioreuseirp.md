@@ -110,15 +110,15 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561107">Reusi
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>
+
+
+
 <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
 
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>
 
 
 

@@ -161,7 +161,7 @@ Display drivers must convert input color values for the ARGB and YUV classes of 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ddpixelformat.md">DDPIXELFORMAT</a>
+D3DDP2OP_CLEAR
 
 
 
@@ -169,7 +169,7 @@ Display drivers must convert input color values for the ARGB and YUV classes of 
 
 
 
-D3DDP2OP_CLEAR
+<a href="..\ksmedia\ns-ksmedia-_ddpixelformat.md">DDPIXELFORMAT</a>
 
 
 

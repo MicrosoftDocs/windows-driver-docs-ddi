@@ -151,11 +151,11 @@ CMyRemoteTarget::OnRemoteTargetRemoveCanceled(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560253">IWDFRemoteTarget::Close</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560253">IWDFRemoteTarget::Close</a>
 
 
 

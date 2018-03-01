@@ -107,11 +107,7 @@ This is functionally equivalent to <a href="..\ks\nf-ks-ksaddevent.md">KsAddEven
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
-
-
-
-<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
 
 
@@ -123,7 +119,11 @@ This is functionally equivalent to <a href="..\ks\nf-ks-ksaddevent.md">KsAddEven
 
 
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
+
+
+
+<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
 
 
 

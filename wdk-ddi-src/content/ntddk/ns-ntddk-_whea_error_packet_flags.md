@@ -86,6 +86,33 @@ typedef union _WHEA_ERROR_PACKET_FLAGS {
 A ULONG representation of the contents of the WHEA_ERROR_PACKET_FLAGS union.
 
 
+#### - HypervisorError
+
+A single bit that indicates that a hypervisor error has occurred.
+
+
+#### - PlatformDirectedOffline
+
+A single bit that indicates whether the PSHED plug-in that performs PFA on a system component has determined if the component should be brought into an offline state. This bit is only valid if the <b>PlatformPfaControl</b> member is set.
+
+
+<div class="alert"><b>Note</b>  This member is supported in Windows 7 and later versions of Windows.</div>
+<div> </div>
+
+
+
+#### - PlatformPfaControl
+
+A single bit that indicates whether WHEA or a PSHED plug-in is in control of predictive failure analysis (PFA). If this bit is set, the PSHED plug-in is in control of PFA and must set the <b>PlatformDirectedOffline </b>to bring an <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> memory page into an offline state.
+
+For more information about PFA support for WHEA, see <a href="https://msdn.microsoft.com/d2ded330-edcc-4bdd-9b52-73c1961d8ef2">Predictive Failure Analysis (PFA)</a>.
+
+
+<div class="alert"><b>Note</b>  This member is supported in Windows 7 and later versions of Windows.</div>
+<div> </div>
+
+
+
 #### - PreviousError
 
 A single bit that indicates whether the hardware error packet contains information about a fatal hardware error. This error caused the operating system to generate a bug check and restart.
@@ -101,41 +128,14 @@ Reserved for system use.
 
 
 
-#### - HypervisorError
+#### - Reserved2
 
-A single bit that indicates that a hypervisor error has occurred.
+Reserved for system use. 
 
 
 #### - Simulated
 
 A single bit that indicates that the error condition was simulated.
-
-
-#### - PlatformPfaControl
-
-A single bit that indicates whether WHEA or a PSHED plug-in is in control of predictive failure analysis (PFA). If this bit is set, the PSHED plug-in is in control of PFA and must set the <b>PlatformDirectedOffline </b>to bring an <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> memory page into an offline state.
-
-For more information about PFA support for WHEA, see <a href="https://msdn.microsoft.com/d2ded330-edcc-4bdd-9b52-73c1961d8ef2">Predictive Failure Analysis (PFA)</a>.
-
-
-<div class="alert"><b>Note</b>  This member is supported in Windows 7 and later versions of Windows.</div>
-<div> </div>
-
-
-
-#### - PlatformDirectedOffline
-
-A single bit that indicates whether the PSHED plug-in that performs PFA on a system component has determined if the component should be brought into an offline state. This bit is only valid if the <b>PlatformPfaControl</b> member is set.
-
-
-<div class="alert"><b>Note</b>  This member is supported in Windows 7 and later versions of Windows.</div>
-<div> </div>
-
-
-
-#### - Reserved2
-
-Reserved for system use. 
 
 
 ## -remarks

@@ -203,11 +203,11 @@ Each call to <b>StorPortPoFxActivateComponent</b> must be matched with a subsequ
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
-
-
-
 <a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
+
+
+
+<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
 
 
 

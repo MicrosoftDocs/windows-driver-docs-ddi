@@ -7,7 +7,7 @@ old-location: audio\dmus_kernel_event.htm
 old-project: audio
 ms.assetid: 652f64e2-310b-46c9-8b00-c827a7475b07
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PDMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT structure [Audio Devices], PDMUS_KERNEL_EVENT, PDMUS_KERNEL_EVENT structure pointer [Audio Devices], _DMUS_KERNEL_EVENT, aud-prop_b0db54b3-fff3-46f2-abd7-beb4fe189f8f.xml, audio.dmus_kernel_event, dmusicks/DMUS_KERNEL_EVENT, dmusicks/PDMUS_KERNEL_EVENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -206,5 +206,5 @@ Presentation time does not advance during the states KSSTATE_PAUSE and KSSTATE_S
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20DMUS_KERNEL_EVENT structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20DMUS_KERNEL_EVENT structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -92,11 +92,11 @@ The class driver expects HW_STREAM_DESCRIPTOR to be laid out in memory as an <a 
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a>
-
-
-
 <a href="..\strmini\ns-strmini-_hw_stream_header.md">HW_STREAM_HEADER</a>
+
+
+
+<a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a>
 
 
 

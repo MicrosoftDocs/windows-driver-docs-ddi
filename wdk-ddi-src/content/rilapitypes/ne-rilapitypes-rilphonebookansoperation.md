@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILPHONEBOOKANSOPERATION
 title: RILPHONEBOOKANSOPERATION
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilphonebookansoperation_2.htm
+old-location: netvista\rilphonebookansoperation.htm
 old-project: netvista
-ms.assetid: ce1d2d09-64a3-40a9-b24b-66edbd34d637
+ms.assetid: 29dcc5c0-0b07-49d7-b2ab-bdac7333baf7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILPHONEBOOKANSOPERATION, RILPHONEBOOKANSOPERATION enumeration [Network Drivers Starting with Windows Vista], RIL_PHONEBOOK_ANSDELETED, RIL_PHONEBOOK_ANSMODIFIED, RIL_PHONEBOOK_MAX, netvista.rilphonebookansoperation_2, rilapitypes/RILPHONEBOOKANSOPERATION, rilapitypes/RIL_PHONEBOOK_ANSDELETED, rilapitypes/RIL_PHONEBOOK_ANSMODIFIED, rilapitypes/RIL_PHONEBOOK_MAX
+ms.date: 2/27/2018
+ms.keywords: RILPHONEBOOKANSOPERATION, RILPHONEBOOKANSOPERATION enumeration [Network Drivers Starting with Windows Vista], RIL_PHONEBOOK_ANSDELETED, RIL_PHONEBOOK_ANSMODIFIED, RIL_PHONEBOOK_MAX, netvista.rilphonebookansoperation, ntddrilapitypes/RILPHONEBOOKANSOPERATION, ntddrilapitypes/RIL_PHONEBOOK_ANSDELETED, ntddrilapitypes/RIL_PHONEBOOK_ANSMODIFIED, ntddrilapitypes/RIL_PHONEBOOK_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILPHONEBOOKANSOPERATION
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

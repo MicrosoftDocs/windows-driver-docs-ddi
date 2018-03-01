@@ -159,15 +159,11 @@ The <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE</b> function type is def
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2customreceivetransactioninitializecomplete.md">SerCx2CustomReceiveTransactionInitializeComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
 
 
 
@@ -175,7 +171,11 @@ The <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE</b> function type is def
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
+<a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2customreceivetransactioninitializecomplete.md">SerCx2CustomReceiveTransactionInitializeComplete</a>
 
 
 

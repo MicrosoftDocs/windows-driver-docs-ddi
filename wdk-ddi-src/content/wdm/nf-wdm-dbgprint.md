@@ -134,7 +134,7 @@ There is no upper limit to the size of the <i>Format</i> string or the number of
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
+<a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
 
 
 
@@ -142,7 +142,7 @@ There is no upper limit to the size of the <i>Format</i> string or the number of
 
 
 
-<a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
+<a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
 
 
 

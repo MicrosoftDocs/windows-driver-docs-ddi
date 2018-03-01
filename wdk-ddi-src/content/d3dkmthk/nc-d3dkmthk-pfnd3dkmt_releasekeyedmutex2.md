@@ -158,11 +158,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_releasekeyedmutex2.md">D3DKMT_RELEASEKEYEDMUTEX2</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreleasekeyedmutex.md">D3DKMTReleaseKeyedMutex</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_releasekeyedmutex2.md">D3DKMT_RELEASEKEYEDMUTEX2</a>
 
 
 

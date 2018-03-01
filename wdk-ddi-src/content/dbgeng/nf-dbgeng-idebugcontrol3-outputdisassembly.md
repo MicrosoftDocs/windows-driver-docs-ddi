@@ -7,7 +7,7 @@ old-location: debugger\outputdisassembly.htm
 old-project: debugger
 ms.assetid: 2a9944a4-3885-4e83-b20e-040cffcbf85b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugControl interface [Windows Debugging], OutputDisassembly method, IDebugControl2 interface [Windows Debugging], OutputDisassembly method, IDebugControl2::OutputDisassembly, IDebugControl3, IDebugControl3 interface [Windows Debugging], OutputDisassembly method, IDebugControl3::OutputDisassembly, IDebugControl::OutputDisassembly, IDebugControl_9f2641b6-ca40-4f1f-85e6-911bb0ab82f8.xml, OutputDisassembly method [Windows Debugging], OutputDisassembly method [Windows Debugging], IDebugControl interface, OutputDisassembly method [Windows Debugging], IDebugControl2 interface, OutputDisassembly method [Windows Debugging], IDebugControl3 interface, OutputDisassembly,IDebugControl3.OutputDisassembly, dbgeng/IDebugControl2::OutputDisassembly, dbgeng/IDebugControl3::OutputDisassembly, dbgeng/IDebugControl::OutputDisassembly, debugger.outputdisassembly
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -181,11 +181,11 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -197,7 +197,7 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
 
 
 
@@ -205,5 +205,5 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::OutputDisassembly method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::OutputDisassembly method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

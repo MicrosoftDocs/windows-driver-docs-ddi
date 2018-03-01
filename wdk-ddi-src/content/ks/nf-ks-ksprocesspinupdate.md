@@ -93,11 +93,11 @@ For more information, see <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a>
-
-
-
 <a href="..\ks\ns-ks-_ksprocesspin.md">KSPROCESSPIN</a>
+
+
+
+<a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a>
 
 
 

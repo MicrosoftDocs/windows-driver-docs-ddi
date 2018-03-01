@@ -106,15 +106,15 @@ typedef struct D3DDDIARG_PRESENTMULTIPLANEOVERLAY {
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_present_multiplane_overlay.md">D3DDDI_PRESENT_MULTIPLANE_OVERLAY</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_presentflags.md">D3DDDI_PRESENTFLAGS</a>
 
 
 
 <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_present_multiplane_overlay.md">D3DDDI_PRESENT_MULTIPLANE_OVERLAY</a>
 
 
 

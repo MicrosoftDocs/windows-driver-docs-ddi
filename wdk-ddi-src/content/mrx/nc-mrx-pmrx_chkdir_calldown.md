@@ -120,22 +120,6 @@ This remote directory does not exist.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550796">MRxSetFileInfoAtCleanup</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550759">MRxQueryEaInfo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550773">MRxQueryQuotaInfo</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550790">MRxSetFileInfo</a>
 
 
@@ -148,15 +132,23 @@ This remote directory does not exist.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550759">MRxQueryEaInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550776">MRxQuerySdInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550786">MRxSetEaInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550796">MRxSetFileInfoAtCleanup</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550810">MRxSetVolumeInfo</a>
 
 
 
@@ -164,7 +156,15 @@ This remote directory does not exist.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550810">MRxSetVolumeInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550786">MRxSetEaInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550773">MRxQueryQuotaInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>
 
 
 

@@ -92,10 +92,6 @@ Specifies the long integer to convert.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlconvertulongtoluid.md">RtlConvertULongToLuid</a>
-
-
-
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
@@ -105,6 +101,10 @@ Specifies the long integer to convert.
 
 
 <a href="..\ntddk\nf-ntddk-sesingleprivilegecheck.md">SeSinglePrivilegeCheck</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlconvertulongtoluid.md">RtlConvertULongToLuid</a>
 
 
 

@@ -207,31 +207,7 @@ The following function identifiers are defined for the <b>DxApi</b> function in 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550637">DD_DXAPI_GETVERSIONNUMBER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550599">DD_DXAPI_ADDVPCAPTUREBUFFER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551500">DD_DXAPI_OPENVPCAPTUREDEVICE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550606">DD_DXAPI_CLOSEHANDLE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550711">DD_DXAPI_OPENSURFACE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550695">DD_DXAPI_LOCK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550629">DD_DXAPI_GETKERNELCAPS</a>
 
 
 
@@ -239,43 +215,7 @@ The following function identifiers are defined for the <b>DxApi</b> function in 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550686">DD_DXAPI_GET_VP_FIELD_NUMBER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551502">DD_DXAPI_REGISTER_CALLBACK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551498">DD_DXAPI_OPENVIDEOPORT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550612">DD_DXAPI_FLIP_OVERLAY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551510">DD_DXAPI_SET_VP_SKIP_FIELD</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551504">DD_DXAPI_SET_SURFACE_STATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550660">DD_DXAPI_GET_POLARITY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550702">DD_DXAPI_OPENDIRECTDRAW</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550650">DD_DXAPI_GET_LAST_VP_AUTOFLIP_SURFACE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550642">DD_DXAPI_GET_CURRENT_VP_AUTOFLIP_SURFACE</a>
 
 
 
@@ -283,7 +223,31 @@ The following function identifiers are defined for the <b>DxApi</b> function in 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550622">DD_DXAPI_FLUSHVPCAPTUREBUFFERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551500">DD_DXAPI_OPENVPCAPTUREDEVICE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550612">DD_DXAPI_FLIP_OVERLAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550629">DD_DXAPI_GETKERNELCAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551502">DD_DXAPI_REGISTER_CALLBACK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550686">DD_DXAPI_GET_VP_FIELD_NUMBER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550673">DD_DXAPI_GET_SURFACE_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550695">DD_DXAPI_LOCK</a>
 
 
 
@@ -291,7 +255,43 @@ The following function identifiers are defined for the <b>DxApi</b> function in 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550673">DD_DXAPI_GET_SURFACE_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551498">DD_DXAPI_OPENVIDEOPORT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550606">DD_DXAPI_CLOSEHANDLE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550660">DD_DXAPI_GET_POLARITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550642">DD_DXAPI_GET_CURRENT_VP_AUTOFLIP_SURFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550650">DD_DXAPI_GET_LAST_VP_AUTOFLIP_SURFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551504">DD_DXAPI_SET_SURFACE_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550637">DD_DXAPI_GETVERSIONNUMBER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550622">DD_DXAPI_FLUSHVPCAPTUREBUFFERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551510">DD_DXAPI_SET_VP_SKIP_FIELD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550711">DD_DXAPI_OPENSURFACE</a>
 
 
 

@@ -93,11 +93,11 @@ In kernel mode, a break exception that is not handled will cause a bug check. Yo
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kdbreakpointwithstatus.md">KdBreakPointWithStatus</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548063">KdBreakPoint</a>
+
+
+
+<a href="..\wdm\nf-wdm-kdbreakpointwithstatus.md">KdBreakPointWithStatus</a>
 
 
 

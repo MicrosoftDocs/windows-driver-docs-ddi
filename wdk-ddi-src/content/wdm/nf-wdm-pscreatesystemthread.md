@@ -151,15 +151,11 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-zwsetinformationthread.md">ZwSetInformationThread</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
-
-
-
 <a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
 
@@ -171,7 +167,11 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-zwsetinformationthread.md">ZwSetInformationThread</a>
 
 
 

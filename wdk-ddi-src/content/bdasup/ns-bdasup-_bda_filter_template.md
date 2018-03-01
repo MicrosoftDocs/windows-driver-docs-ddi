@@ -90,7 +90,7 @@ Array of BDA_PIN_PAIRING structures that describe the topology between a pair of
 
 
 
-<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
+<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
 
 
@@ -98,7 +98,7 @@ Array of BDA_PIN_PAIRING structures that describe the topology between a pair of
 
 
 
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
 
 
 

@@ -125,11 +125,7 @@ A kernel-mode component that must use the brightness interface initiates a call 
 
 ## -see-also
 
-<a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_interface.md">DxgkDdiQueryInterface</a>
+<a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get.md">DxgkDdiGetBrightness</a>
 
 
 
@@ -141,11 +137,15 @@ A kernel-mode component that must use the brightness interface initiates a call 
 
 
 
+<a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_interface.md">DxgkDdiQueryInterface</a>
+
+
+
 <a href="..\dispmprt\ns-dispmprt-dxgk_brightness_interface_2.md">DXGK_BRIGHTNESS_INTERFACE_2</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get.md">DxgkDdiGetBrightness</a>
 
 
 

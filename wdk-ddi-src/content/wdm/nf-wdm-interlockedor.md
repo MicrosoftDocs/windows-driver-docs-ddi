@@ -101,11 +101,11 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedand.md">InterlockedAnd</a>
-
-
-
 <a href="..\wdm\nf-wdm-interlockedxor.md">InterlockedXor</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedand.md">InterlockedAnd</a>
 
 
 

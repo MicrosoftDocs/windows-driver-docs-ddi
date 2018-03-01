@@ -102,6 +102,10 @@ The function must return a handle. Typically, the handle is a pointer to an inte
 
 ## -see-also
 
+<a href="..\winsplp\ns-winsplp-_printprocessoropendata.md">PRINTPROCESSOROPENDATA</a>
+
+
+
 <a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>
 
 
@@ -111,10 +115,6 @@ The function must return a handle. Typically, the handle is a pointer to an inte
 
 
 <a href="..\winsplp\nf-winsplp-closeprintprocessor.md">ClosePrintProcessor</a>
-
-
-
-<a href="..\winsplp\ns-winsplp-_printprocessoropendata.md">PRINTPROCESSOROPENDATA</a>
 
 
 

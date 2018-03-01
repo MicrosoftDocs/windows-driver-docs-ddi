@@ -113,19 +113,19 @@ Not used by the stream class driver.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
-
-
-
 <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
 
 
-<a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
-
-
-
 <a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a>
+
+
+
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+
+
+
+<a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
 
 
 

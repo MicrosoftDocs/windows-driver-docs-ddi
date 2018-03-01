@@ -227,7 +227,11 @@ An invalid compression format was specified via the <i>CompressionFormat</i> par
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
+<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
 
 
 
@@ -243,11 +247,7 @@ An invalid compression format was specified via the <i>CompressionFormat</i> par
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
+<a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
 
 
 

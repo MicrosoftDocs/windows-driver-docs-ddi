@@ -7,7 +7,7 @@ old-location: audio\iportmidi.htm
 old-project: audio
 ms.assetid: e5403377-fd24-4fd5-8158-194f30238c44
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IPortMidi, IPortMidi interface [Audio Devices], IPortMidi interface [Audio Devices], described, audio.iportmidi, audmp-routines_52a1c6a3-7658-4c69-a4c9-6d965a1d99c9.xml, portcls/IPortMidi
 ms.prod: windows-hardware
 ms.technology: windows-devices

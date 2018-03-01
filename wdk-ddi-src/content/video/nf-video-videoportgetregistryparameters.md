@@ -128,15 +128,7 @@ Miniport drivers should not query configuration information stored in the <b>Def
 
 ## -see-also
 
-<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
-
-
-
-<a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
-
-
-
-<a href="..\video\nf-video-videoportsetregistryparameters.md">VideoPortSetRegistryParameters</a>
+<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
 
 
 
@@ -144,7 +136,19 @@ Miniport drivers should not query configuration information stored in the <b>Def
 
 
 
-<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
+<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+
+
+
+<a href="..\video\nf-video-videoportsetregistryparameters.md">VideoPortSetRegistryParameters</a>
+
+
+
+<a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
+
+
+
+<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
 
 
 
@@ -153,10 +157,6 @@ Miniport drivers should not query configuration information stored in the <b>Def
 
 
 <a href="..\video\nf-video-videoportflushregistry.md">VideoPortFlushRegistry</a>
-
-
-
-<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
 
 
 

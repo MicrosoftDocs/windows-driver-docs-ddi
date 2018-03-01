@@ -126,10 +126,6 @@ A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-
-
 <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
 
@@ -139,6 +135,10 @@ A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">
 
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 

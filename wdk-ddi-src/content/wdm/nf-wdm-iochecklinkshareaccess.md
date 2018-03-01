@@ -138,19 +138,19 @@ The <b>IoCheckLinkShareAccess</b> routine returns STATUS_SUCCESS if the requeste
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioupdatelinkshareaccess.md">IoUpdateLinkShareAccess</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549503">I/O Manager Routines</a>
-
-
-
 <a href="..\wdm\nf-wdm-iosetlinkshareaccess.md">IoSetLinkShareAccess</a>
 
 
 
+<a href="..\wdm\nf-wdm-ioupdatelinkshareaccess.md">IoUpdateLinkShareAccess</a>
+
+
+
 <a href="..\wdm\nf-wdm-ioremovelinkshareaccess.md">IoRemoveLinkShareAccess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549503">I/O Manager Routines</a>
 
 
 

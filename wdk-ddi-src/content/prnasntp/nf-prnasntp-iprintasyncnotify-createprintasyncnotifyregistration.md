@@ -79,16 +79,16 @@ HRESULT CreatePrintAsyncNotifyRegistration(
 
 
 
-#### - pType [in]
-
-
 #### - filter [in]
+
+
+#### - pCallback [in]
 
 
 #### - pStyle [in]
 
 
-#### - pCallback [in]
+#### - pType [in]
 
 
 #### - ppRegistration [out]

@@ -178,11 +178,15 @@ The <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566414">XSTATE_SAVE</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlgetenabledextendedfeatures.md">RtlGetEnabledExtendedFeatures</a>
+
+
+
 <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
-
-
-
-<a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
 
 
 
@@ -190,11 +194,7 @@ The <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566414">XSTATE_SAVE</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlgetenabledextendedfeatures.md">RtlGetEnabledExtendedFeatures</a>
+<a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
 
 
 

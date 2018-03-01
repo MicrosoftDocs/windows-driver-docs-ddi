@@ -348,11 +348,11 @@ If the kernel mode display-only driver (KMDOD) supports the VSync control featur
 
 ## -see-also
 
-<a href="..\dispmprt\nf-dispmprt-dxgkinitializedisplayonlydriver.md">DxgkInitializeDisplayOnlyDriver</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
+
+
+
+<a href="..\dispmprt\nf-dispmprt-dxgkinitializedisplayonlydriver.md">DxgkInitializeDisplayOnlyDriver</a>
 
 
 

@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILPHONEBOOKADDITIONALNUMBERPARAMMASK
 title: RILPHONEBOOKADDITIONALNUMBERPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilphonebookadditionalnumberparammask_2.htm
+old-location: netvista\rilphonebookadditionalnumberparammask.htm
 old-project: netvista
-ms.assetid: 8814beb2-9e53-4cc1-920d-96141551ede1
+ms.assetid: e4cebb97-29e4-4979-9fdc-8120850d8a1e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILPHONEBOOKADDITIONALNUMBERPARAMMASK, RILPHONEBOOKADDITIONALNUMBERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_PBAN_ALL, RIL_PARAM_PBAN_NUMID, netvista.rilphonebookadditionalnumberparammask_2, rilapitypes/RILPHONEBOOKADDITIONALNUMBERPARAMMASK, rilapitypes/RIL_PARAM_PBAN_ALL, rilapitypes/RIL_PARAM_PBAN_NUMID
+ms.date: 2/27/2018
+ms.keywords: RILPHONEBOOKADDITIONALNUMBERPARAMMASK, RILPHONEBOOKADDITIONALNUMBERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_PBAN_ALL, RIL_PARAM_PBAN_NUMID, netvista.rilphonebookadditionalnumberparammask, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBERPARAMMASK, ntddrilapitypes/RIL_PARAM_PBAN_ALL, ntddrilapitypes/RIL_PARAM_PBAN_NUMID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILPHONEBOOKADDITIONALNUMBERPARAMMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

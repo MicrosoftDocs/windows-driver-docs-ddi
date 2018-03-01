@@ -97,23 +97,23 @@ Callers of <b>RemoveHeadList</b> can be running at any IRQL. If <b>RemoveHeadLis
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
-
-
-
-<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
-
-
-
 <a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
 
 
 
-<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
 
 
 
-<a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
+<a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-removeentrylist.md">RemoveEntryList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
 
 
 

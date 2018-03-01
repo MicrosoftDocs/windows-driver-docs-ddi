@@ -116,11 +116,6 @@ Because of  status code propagation from other APIs, the <b>Status</b> field can
 
 
 
-#### -STATUS_SUCCESS
-
-The request completed successfully.
-
-
 #### -STATUS_INFO_LENGTH_MISMATCH
 
 The input buffer length is smaller than required.
@@ -129,6 +124,11 @@ The input buffer length is smaller than required.
 #### -STATUS_INVALID_PARAMETER
 
 The request type is not <b>SimpleOpcInfo</b>.
+
+
+#### -STATUS_SUCCESS
+
+The request completed successfully.
 
 
 ## -remarks
@@ -146,15 +146,15 @@ On failures, this IOCTL returns standard errors, such as STATUS_DEVICE_NOT_READY
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+
+
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_simple_opc_info.md">CDROM_SIMPLE_OPC_INFO</a>
 
 
 
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_send_opc_information.md">IOCTL_CDROM_SEND_OPC_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
 
 
 

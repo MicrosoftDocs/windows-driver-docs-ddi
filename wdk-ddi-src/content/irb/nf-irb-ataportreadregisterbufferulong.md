@@ -98,7 +98,7 @@ None
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportreadregisterbufferushort.md">AtaPortReadRegisterBufferUshort</a>
+<a href="..\irb\nf-irb-ataportreadregisterbufferuchar.md">AtaPortReadRegisterBufferUchar</a>
 
 
 
@@ -106,7 +106,7 @@ None
 
 
 
-<a href="..\irb\nf-irb-ataportreadregisterbufferuchar.md">AtaPortReadRegisterBufferUchar</a>
+<a href="..\irb\nf-irb-ataportreadregisterbufferushort.md">AtaPortReadRegisterBufferUshort</a>
 
 
 

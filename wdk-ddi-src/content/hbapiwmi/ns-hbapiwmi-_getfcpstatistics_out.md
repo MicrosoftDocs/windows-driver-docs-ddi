@@ -89,11 +89,11 @@ The WMI tool suite generates a declaration of the GetFCPStatistics_OUT structure
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_getfcpstatistics_in.md">GetFCPStatistics_IN</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554939">GetFCPStatistics</a>
+
+
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_getfcpstatistics_in.md">GetFCPStatistics_IN</a>
 
 
 

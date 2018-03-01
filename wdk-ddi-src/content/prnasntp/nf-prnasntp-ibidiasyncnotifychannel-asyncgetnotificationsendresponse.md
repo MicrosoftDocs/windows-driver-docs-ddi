@@ -81,10 +81,10 @@ HRESULT AsyncGetNotificationSendResponse(
 
 
 
-#### - pObject [in]
-
-
 #### - pCookie [in]
+
+
+#### - pObject [in]
 
 
 ## -returns

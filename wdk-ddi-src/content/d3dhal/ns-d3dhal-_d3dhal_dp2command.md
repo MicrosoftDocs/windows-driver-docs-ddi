@@ -94,7 +94,11 @@ Specifies the number of state changes to process. This member is valid when <b>b
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+D3DDP2OP_RENDERSTATE
+
+
+
+D3DDP2OP_TEXTURESTAGESTATE
 
 
 
@@ -102,11 +106,7 @@ Specifies the number of state changes to process. This member is valid when <b>b
 
 
 
-D3DDP2OP_RENDERSTATE
-
-
-
-D3DDP2OP_TEXTURESTAGESTATE
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 

@@ -91,7 +91,7 @@ The <b>PEP_COMPONENT_PERF_INFO</b> structure contains input values that are supp
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_register_component_perf_states.md">PEP_REGISTER_COMPONENT_PERF_STATES</a>
+<a href="..\pepfx\ns-pepfx-_pep_component_perf_info.md">PEP_COMPONENT_PERF_INFO</a>
 
 
 
@@ -103,7 +103,7 @@ The <b>PEP_COMPONENT_PERF_INFO</b> structure contains input values that are supp
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_component_perf_info.md">PEP_COMPONENT_PERF_INFO</a>
+<a href="..\pepfx\ns-pepfx-_pep_register_component_perf_states.md">PEP_REGISTER_COMPONENT_PERF_STATES</a>
 
 
 

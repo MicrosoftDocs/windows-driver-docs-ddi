@@ -297,11 +297,11 @@ If a function is not defined, its pointer must be <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
-
-
-
 <a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
+
+
+
+<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
 
 
 

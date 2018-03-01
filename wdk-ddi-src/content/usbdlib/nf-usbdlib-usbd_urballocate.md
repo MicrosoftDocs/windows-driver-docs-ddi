@@ -169,7 +169,7 @@ CreateandSubmitURBExit:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/15be1e51-5ab2-40c4-95a8-8555c92523aa">Sending Requests to a USB Device</a>
+<a href="..\usbdlib\nf-usbdlib-usbd_urbfree.md">USBD_UrbFree</a>
 
 
 
@@ -177,7 +177,7 @@ CreateandSubmitURBExit:
 
 
 
-<a href="..\usbdlib\nf-usbdlib-usbd_urbfree.md">USBD_UrbFree</a>
+<a href="https://msdn.microsoft.com/15be1e51-5ab2-40c4-95a8-8555c92523aa">Sending Requests to a USB Device</a>
 
 
 

@@ -86,15 +86,7 @@ Specifies a SID. The SID represents a scoped policy configured to control access
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
 
 
 
@@ -102,7 +94,15 @@ Specifies a SID. The SID represents a scoped policy configured to control access
 
 
 
+<a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 

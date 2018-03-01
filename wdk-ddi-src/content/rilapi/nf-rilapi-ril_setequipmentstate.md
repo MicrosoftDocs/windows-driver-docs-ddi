@@ -7,7 +7,7 @@ old-location: netvista\ril_setequipmentstate.htm
 old-project: netvista
 ms.assetid: 52b76027-5562-403b-9993-40d3d9a33e35
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_SetEquipmentState, RIL_SetEquipmentState method [Network Drivers Starting with Windows Vista], netvista.ril_setequipmentstate, rilapi/RIL_SetEquipmentState
 ms.prod: windows-hardware
 ms.technology: windows-devices

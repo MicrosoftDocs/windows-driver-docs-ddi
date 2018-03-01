@@ -131,11 +131,11 @@ A pointer to a populated D3DDDIARG_DECRYPTIONBLT structure is passed to the driv
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiencrypted_block_info.md">D3DDDIENCRYPTED_BLOCK_INFO</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decryptionblt.md">DecryptionBlt</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiencrypted_block_info.md">D3DDDIENCRYPTED_BLOCK_INFO</a>
 
 
 

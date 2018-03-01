@@ -108,7 +108,7 @@ Specifies the template to be used by the device to search for volume IDs. For a 
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_read_element_address_info.md">READ_ELEMENT_ADDRESS_INFO</a>
+<a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a>
 
 
 
@@ -116,7 +116,7 @@ Specifies the template to be used by the device to search for volume IDs. For a 
 
 
 
-<a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a>
+<a href="..\ntddchgr\ns-ntddchgr-_read_element_address_info.md">READ_ELEMENT_ADDRESS_INFO</a>
 
 
 

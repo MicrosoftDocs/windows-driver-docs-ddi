@@ -181,7 +181,7 @@ The following table contains examples of output values that result from various 
 </table>
  
 
-A related routine, <a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>, converts an integer value to the equivalent Unicode string representation.
+A related routine, <a href="..\wudfwdm\nf-wudfwdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>, converts an integer value to the equivalent Unicode string representation.
 
 
 
@@ -192,7 +192,7 @@ A related routine, <a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlInteg
 
 
 
-<a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
+<a href="..\wudfwdm\nf-wudfwdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
 
 
 

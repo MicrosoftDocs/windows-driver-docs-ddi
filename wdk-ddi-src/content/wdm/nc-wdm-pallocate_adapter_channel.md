@@ -169,7 +169,15 @@ The system passes the value of the <b>CurrentIrp</b> member of <i>DeviceObject</
 
 
 
+<a href="..\wdm\nc-wdm-pread_dma_counter.md">ReadDmaCounter</a>
+
+
+
 <a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 
@@ -178,14 +186,6 @@ The system passes the value of the <b>CurrentIrp</b> member of <i>DeviceObject</
 
 
 <a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
-
-
-
-<a href="..\wdm\nc-wdm-pread_dma_counter.md">ReadDmaCounter</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 

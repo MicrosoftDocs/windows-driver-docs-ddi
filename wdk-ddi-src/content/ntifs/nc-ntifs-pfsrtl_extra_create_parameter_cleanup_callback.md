@@ -130,6 +130,10 @@ The following routines support the PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBAC
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameter.md">FltAllocateExtraCreateParameter</a>
 
 
@@ -139,10 +143,6 @@ The following routines support the PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBAC
 
 
 <a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
 
 
 

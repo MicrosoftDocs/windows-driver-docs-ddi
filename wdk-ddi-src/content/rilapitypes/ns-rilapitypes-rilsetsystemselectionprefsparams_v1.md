@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSETSYSTEMSELECTIONPREFSPARAMS_V1
 title: RILSETSYSTEMSELECTIONPREFSPARAMS_V1
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsetsystemselectionprefsparams_v1_2.htm
+old-location: netvista\rilsetsystemselectionprefsparams_v1.htm
 old-project: netvista
-ms.assetid: 84e21a8a-f393-415a-87b6-48700044c9a9
+ms.assetid: 9b5cbd12-76b1-492e-828e-39a955f6d15c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILSETSYSTEMSELECTIONPREFSPARAMS_V1, RILSETSYSTEMSELECTIONPREFSPARAMS_V1, RILSETSYSTEMSELECTIONPREFSPARAMS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilsetsystemselectionprefsparams_v1_2, rilapitypes/RILSETSYSTEMSELECTIONPREFSPARAMS_V1"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILSETSYSTEMSELECTIONPREFSPARAMS_V1, RILSETSYSTEMSELECTIONPREFSPARAMS_V1, RILSETSYSTEMSELECTIONPREFSPARAMS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilsetsystemselectionprefsparams_v1, ntddrilapitypes/RILSETSYSTEMSELECTIONPREFSPARAMS_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSETSYSTEMSELECTIONPREFSPARAMS_V1
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

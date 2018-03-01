@@ -7,7 +7,7 @@ old-location: image\iwialog_initializelog.htm
 old-project: image
 ms.assetid: ef637329-a291-445b-8ac7-6e55d5d7931e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IWiaLog, IWiaLog interface [Imaging Devices], InitializeLog method, IWiaLog::InitializeLog, IWiaLog_17cc24cb-d8dd-4f7c-b5d4-6720621b6534.xml, InitializeLog method [Imaging Devices], InitializeLog method [Imaging Devices], IWiaLog interface, InitializeLog,IWiaLog.InitializeLog, image.iwialog_initializelog, wia_lh/IWiaLog::InitializeLog
 ms.prod: windows-hardware
 ms.technology: windows-devices

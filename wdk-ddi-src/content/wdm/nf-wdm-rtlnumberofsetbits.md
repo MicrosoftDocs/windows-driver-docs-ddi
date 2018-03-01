@@ -102,11 +102,11 @@ Callers of <b>RtlNumberOfSetBits</b> must be running at IRQL &lt;= APC_LEVEL if 
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlnumberofclearbits.md">RtlNumberOfClearBits</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
 
 
 

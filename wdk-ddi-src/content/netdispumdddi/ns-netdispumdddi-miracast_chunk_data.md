@@ -86,11 +86,11 @@ Private data, of type <b>UCHAR</b>, that the user-mode display driver sends when
 
 ## -see-also
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a>
-
-
-
 <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_info.md">MIRACAST_CHUNK_INFO</a>
+
+
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a>
 
 
 

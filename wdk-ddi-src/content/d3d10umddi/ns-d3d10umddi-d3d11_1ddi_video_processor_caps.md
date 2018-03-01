@@ -137,11 +137,7 @@ The <b>MaxStreamStates</b> member gives the maximum number of stream states that
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_feature_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS</a>
-
-
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorrateconversioncaps.md">GetVideoProcessorRateConversionCaps</a>
 
 
 
@@ -149,15 +145,19 @@ The <b>MaxStreamStates</b> member gives the maximum number of stream states that
 
 
 
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_filter_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER_CAPS</a>
+
+
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_format_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorrateconversioncaps.md">GetVideoProcessorRateConversionCaps</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS</a>
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_filter_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER_CAPS</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_feature_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS</a>
 
 
 

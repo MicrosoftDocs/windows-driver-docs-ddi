@@ -113,11 +113,15 @@ A driver cannot call <b>IoSetNextIrpStackLocation</b> with any IRP it allocates 
 
 
 
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+<a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
 
 
 
 <a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
 
 
@@ -126,10 +130,6 @@ A driver cannot call <b>IoSetNextIrpStackLocation</b> with any IRP it allocates 
 
 
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
 
 
 

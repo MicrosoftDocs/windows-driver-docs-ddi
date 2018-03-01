@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCALLTYPE
 title: RILCALLTYPE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcalltype_2.htm
+old-location: netvista\rilcalltype.htm
 old-project: netvista
-ms.assetid: 16688917-77d4-4ca1-a4e0-357da16b55c0
+ms.assetid: bd6b9e57-f50b-4743-9c51-066940aad200
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILCALLTYPE, RILCALLTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLTYPE_DATA, RIL_CALLTYPE_FAX, RIL_CALLTYPE_IMS, RIL_CALLTYPE_MAX, RIL_CALLTYPE_PTT, RIL_CALLTYPE_SUPSVC, RIL_CALLTYPE_USSD, RIL_CALLTYPE_VOICE, RIL_CALLTYPE_VT, netvista.rilcalltype_2, rilapitypes/RILCALLTYPE, rilapitypes/RIL_CALLTYPE_DATA, rilapitypes/RIL_CALLTYPE_FAX, rilapitypes/RIL_CALLTYPE_IMS, rilapitypes/RIL_CALLTYPE_MAX, rilapitypes/RIL_CALLTYPE_PTT, rilapitypes/RIL_CALLTYPE_SUPSVC, rilapitypes/RIL_CALLTYPE_USSD, rilapitypes/RIL_CALLTYPE_VOICE, rilapitypes/RIL_CALLTYPE_VT
+ms.date: 2/27/2018
+ms.keywords: RILCALLTYPE, RILCALLTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLTYPE_DATA, RIL_CALLTYPE_FAX, RIL_CALLTYPE_IMS, RIL_CALLTYPE_MAX, RIL_CALLTYPE_PTT, RIL_CALLTYPE_SUPSVC, RIL_CALLTYPE_USSD, RIL_CALLTYPE_VOICE, RIL_CALLTYPE_VT, netvista.rilcalltype, ntddrilapitypes/RILCALLTYPE, ntddrilapitypes/RIL_CALLTYPE_DATA, ntddrilapitypes/RIL_CALLTYPE_FAX, ntddrilapitypes/RIL_CALLTYPE_IMS, ntddrilapitypes/RIL_CALLTYPE_MAX, ntddrilapitypes/RIL_CALLTYPE_PTT, ntddrilapitypes/RIL_CALLTYPE_SUPSVC, ntddrilapitypes/RIL_CALLTYPE_USSD, ntddrilapitypes/RIL_CALLTYPE_VOICE, ntddrilapitypes/RIL_CALLTYPE_VT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLTYPE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

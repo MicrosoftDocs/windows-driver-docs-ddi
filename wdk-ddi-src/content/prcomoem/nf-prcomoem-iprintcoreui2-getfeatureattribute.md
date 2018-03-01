@@ -207,7 +207,7 @@ For more information, see <a href="https://msdn.microsoft.com/e5050cb1-c178-405d
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553064">IPrintCoreUI2::GetOptionAttribute</a>
+<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
 
 
 
@@ -215,7 +215,7 @@ For more information, see <a href="https://msdn.microsoft.com/e5050cb1-c178-405d
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553064">IPrintCoreUI2::GetOptionAttribute</a>
 
 
 

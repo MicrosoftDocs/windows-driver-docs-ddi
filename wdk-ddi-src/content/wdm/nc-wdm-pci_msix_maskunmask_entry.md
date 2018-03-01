@@ -134,11 +134,11 @@ You can unmask the table entry by calling <a href="..\wdm\nc-wdm-pci_msix_maskun
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pci_msix_maskunmask_entry.md">UnmaskTableEntry</a>
-
-
-
 <a href="..\wdm\ns-wdm-_pci_msix_table_config_interface.md">PCI_MSIX_TABLE_CONFIG_INTERFACE</a>
+
+
+
+<a href="..\wdm\nc-wdm-pci_msix_maskunmask_entry.md">UnmaskTableEntry</a>
 
 
 
